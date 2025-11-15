@@ -2,3 +2,38 @@
 layout: home
 # Index page
 ---
+
+<section class="home-hero">
+  <div class="hero-media">
+    <img src="{{ '/assets/img/ahk-logo.png' | relative_url }}" alt="AutoHotkey v2 logo">
+  </div>
+  <div class="hero-content">
+    <h1>AutoHotkey v2 + LLMs</h1>
+    <p>
+      Explore practical workflows for pairing AutoHotkey v2 scripting with modern coding agents.
+      Learn how to prompt, evaluate, and iterate with AI assistants to build reliable desktop
+      automations faster.
+    </p>
+    <a class="btn btn-primary" href="{{ '/posts/' | relative_url }}">Read the latest posts</a>
+  </div>
+</section>
+
+<section class="home-highlights">
+  <h2>What you'll find here</h2>
+  <ul>
+    <li><strong>Prompt strategies</strong> that help LLMs understand AutoHotkey idioms.</li>
+    <li><strong>Testing guides</strong> to validate generated scripts safely on your machine.</li>
+    <li><strong>Practical examples</strong> for GUIs, hotkeys, and class-based architecture.</li>
+  </ul>
+</section>
+
+<section class="home-cta">
+  <h2>Share your favorite prompts</h2>
+  <p>
+    Got a great AutoHotkey v2 test or prompt of your own? Open an issue or pull request so we can
+    add it to the collection and help the community train better agents.
+  </p>
+  <a class="btn" href="https://github.com/012090120901209/AHKv2_LLMs/issues" target="_blank" rel="noopener">
+    Contribute on GitHub
+  </a>
+</section>
