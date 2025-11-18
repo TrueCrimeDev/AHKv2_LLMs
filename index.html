@@ -1,156 +1,98 @@
----
-layout: home
-# Index page
----
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AHKv2 &amp; LLMs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- Left Sidebar -->
+    <aside class="sidebar sidebar-left">
+      <div class="sidebar-inner">
+        <div class="avatar" aria-hidden="true">AHK</div>
+        <div class="site-meta">
+          <h1 class="site-title">AHKv2 &amp; LLMs</h1>
+          <p class="site-subtitle">Using AutoHotkey v2 with Coding Agents and LLMs</p>
+        </div>
+        <nav class="nav-main" aria-label="Main navigation">
+          <a href="#home" class="nav-item nav-item-active">Home</a>
+          <a href="#categories" class="nav-item">Categories</a>
+          <a href="#tags" class="nav-item">Tags</a>
+          <a href="#archives" class="nav-item">Archives</a>
+          <a href="#about" class="nav-item">About</a>
+        </nav>
+      </div>
+    </aside>
 
-<style>
-  .home-hero {
-    display: grid;
-    grid-template-columns: minmax(120px, 220px) 1fr;
-    gap: 2rem;
-    align-items: center;
-    margin-bottom: 3rem;
-  }
+    <!-- Main Content -->
+    <main class="content" id="home">
+      <section class="posts">
+        <article class="post-card">
+          <a href="posts/example-post.md" class="post-card-link">
+            <header class="post-card-header">
+              <h2 class="post-card-title">Using AutoHotkey v2 with Coding Agents and LLMs</h2>
+              <p class="post-card-meta">Updated on <time datetime="2025-11-17">November 17, 2025</time></p>
+            </header>
+            <p class="post-card-excerpt">
+              A lightweight workflow for combining AutoHotkey v2 scripts with GitHub Copilot, ChatGPT, and other coding agents to automate the boring parts of Windows.
+            </p>
+            <ul class="post-card-tags" aria-label="Tags">
+              <li class="tag">AutoHotkey v2</li>
+              <li class="tag">LLMs</li>
+              <li class="tag">Automation</li>
+              <li class="tag">Workflows</li>
+            </ul>
+          </a>
+        </article>
+      </section>
+    </main>
 
-  .home-hero .hero-media img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-  }
+    <!-- Right Sidebar -->
+    <aside class="sidebar sidebar-right">
+      <div class="sidebar-inner">
+        <section class="panel panel-search" aria-label="Site search">
+          <label for="search-box" class="panel-title">Search</label>
+          <div class="search-box">
+            <input id="search-box" type="search" placeholder="Search (placeholder)" disabled>
+          </div>
+          <p class="search-note">Static demo only &mdash; no JS, no backend.</p>
+        </section>
 
-  .home-hero .hero-content h1 {
-    font-size: clamp(2rem, 4vw, 3rem);
-    margin-bottom: 1rem;
-  }
+        <section class="panel panel-recent" aria-label="Recently updated">
+          <h2 class="panel-title">Recently Updated</h2>
+          <ul class="recent-list">
+            <li>
+              <a href="posts/example-post.md" class="recent-link">
+                Using AutoHotkey v2 with Coding Agents and LLMs
+              </a>
+              <div class="recent-meta">
+                <time datetime="2025-11-17">Nov 17, 2025</time>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-  .home-hero .hero-content p {
-    font-size: 1.05rem;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-  }
-
-  .home-highlights {
-    margin-bottom: 3rem;
-  }
-
-  .home-highlights ul {
-    list-style: disc;
-    padding-left: 1.5rem;
-  }
-
-  .home-highlights li {
-    margin-bottom: 0.75rem;
-  }
-
-  .home-cta {
-    padding: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
-    background: linear-gradient(135deg, rgba(21, 101, 192, 0.15), rgba(30, 30, 30, 0.4));
-  }
-
-  .home-cta .btn {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    border-radius: 999px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-  }
-
-  .home-update {
-    margin-bottom: 3rem;
-    padding: 2rem;
-    border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(21, 101, 192, 0.1);
-  }
-
-  .home-update .update-header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .home-update time {
-    font-size: 0.95rem;
-    color: rgba(255, 255, 255, 0.75);
-  }
-
-  .home-update article h3 {
-    margin-bottom: 0.5rem;
-  }
-
-  .home-update .btn-secondary {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.6rem 1.25rem;
-    border-radius: 999px;
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-  }
-
-  @media (max-width: 768px) {
-    .home-hero {
-      grid-template-columns: 1fr;
-      text-align: center;
-    }
-
-    .home-hero .hero-media {
-      max-width: 260px;
-      margin: 0 auto;
-    }
-  }
-</style>
-
-<section class="home-hero">
-  <div class="hero-media">
-    <img src="{{ '/assets/img/ahk-logo.png' | relative_url }}" alt="AutoHotkey v2 logo">
+        <section class="panel panel-tags" id="tags" aria-label="Trending tags">
+          <h2 class="panel-title">Trending Tags</h2>
+          <div class="tag-cloud">
+            <span class="tag tag-soft">AutoHotkey v2</span>
+            <span class="tag tag-soft">LLMs</span>
+            <span class="tag tag-soft">GitHub Pages</span>
+            <span class="tag tag-soft">Hotkeys</span>
+            <span class="tag tag-soft">Windows Automation</span>
+            <span class="tag tag-soft">Prompting</span>
+          </div>
+        </section>
+      </div>
+    </aside>
   </div>
-  <div class="hero-content">
-    <h1>AutoHotkey v2 + LLMs</h1>
-    <p>
-      Explore practical workflows for pairing AutoHotkey v2 scripting with modern coding agents.
-      Learn how to prompt, evaluate, and iterate with AI assistants to build reliable desktop
-      automations faster.
-    </p>
-    <a class="btn btn-primary" href="{{ '/posts/' | relative_url }}">Read the latest posts</a>
-  </div>
-</section>
 
-{% assign latest_post = site.posts | first %}
-{% if latest_post %}
-<section class="home-update">
-  <div class="update-header">
-    <h2>Latest site update</h2>
-    <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %-d, %Y" }}</time>
-  </div>
-  <article>
-    <h3><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
-    <p>{{ latest_post.description | default: latest_post.excerpt | strip_html | truncate: 200 }}</p>
-    <a class="btn btn-secondary" href="{{ latest_post.url | relative_url }}">Read the update</a>
-  </article>
-</section>
-{% endif %}
-
-<section class="home-highlights">
-  <h2>What you'll find here</h2>
-  <ul>
-    <li><strong>Prompt strategies</strong> that help LLMs understand AutoHotkey idioms.</li>
-    <li><strong>Testing guides</strong> to validate generated scripts safely on your machine.</li>
-    <li><strong>Practical examples</strong> for GUIs, hotkeys, and class-based architecture.</li>
-  </ul>
-</section>
-
-<section class="home-cta">
-  <h2>Share your favorite prompts</h2>
-  <p>
-    Got a great AutoHotkey v2 test or prompt of your own? Open an issue or pull request so we can
-    add it to the collection and help the community train better agents.
-  </p>
-  <a class="btn" href="https://github.com/012090120901209/AHKv2_LLMs/issues" target="_blank" rel="noopener">
-    Contribute on GitHub
-  </a>
-</section>
+  <!-- Placeholder sections for simple nav anchors -->
+  <div class="screen-reader-only" id="categories">Categories placeholder</div>
+  <div class="screen-reader-only" id="archives">Archives placeholder</div>
+  <div class="screen-reader-only" id="about">About placeholder</div>
+</body>
+</html>
