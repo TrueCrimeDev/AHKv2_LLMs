@@ -6,6 +6,7 @@
   <title>AHKv2 &amp; LLMs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <script src="repos-feed.js" defer></script>
 </head>
 <body>
   <div class="layout">
@@ -86,6 +87,11 @@
             <span class="tag tag-soft">Prompting</span>
           </div>
         </section>
+
+        <section class="panel panel-repos" aria-label="Latest AHK v2 repositories">
+          <h2 class="panel-title">Latest AHK v2 Repos</h2>
+          <div id="repos-feed-container"></div>
+        </section>
       </div>
     </aside>
   </div>
@@ -94,5 +100,13 @@
   <div class="screen-reader-only" id="categories">Categories placeholder</div>
   <div class="screen-reader-only" id="archives">Archives placeholder</div>
   <div class="screen-reader-only" id="about">About placeholder</div>
+
+  <script>
+    // Initialize repos feed when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      const feed = new ReposFeed('repos-feed-container', { limit: 5 });
+      feed.fetchRepos();
+    });
+  </script>
 </body>
 </html>

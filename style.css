@@ -472,3 +472,123 @@ a:hover {
     padding: 18px 16px 16px;
   }
 }
+
+/* Repos Feed Styles */
+
+.panel-repos {
+  margin-top: 24px;
+}
+
+.repos-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.repo-item {
+  margin-bottom: 12px;
+}
+
+.repo-link {
+  display: block;
+  padding: 12px 14px;
+  background-color: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--text-main);
+  transition: all 0.15s ease;
+}
+
+.repo-link:hover {
+  border-color: var(--accent);
+  background-color: rgba(52, 195, 161, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.repo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+  gap: 8px;
+}
+
+.repo-name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  line-height: 1.4;
+  flex: 1;
+}
+
+.repo-stars {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.repo-description {
+  margin: 0 0 8px 0;
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.repo-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+.repo-language {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.repo-language::before {
+  content: "•";
+  color: var(--accent);
+}
+
+.repo-updated {
+  opacity: 0.7;
+}
+
+.repos-loading,
+.repos-empty,
+.repos-error {
+  padding: 16px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.repos-error {
+  background-color: rgba(233, 69, 96, 0.08);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(233, 69, 96, 0.2);
+}
+
+.repos-error-text {
+  color: #f5a3a3;
+  margin: 0 0 8px 0;
+  font-size: 12px;
+}
+
+.repos-error-note {
+  color: var(--text-muted);
+  margin: 0;
+  font-size: 11px;
+  opacity: 0.7;
+}
+
