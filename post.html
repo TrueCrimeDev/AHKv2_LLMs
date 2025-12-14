@@ -9,137 +9,167 @@
   <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/atom-one-dark.min.css">
   <style>
-    .post-content {
-      max-width: 900px;
+    body {
+      background: radial-gradient(circle at 20% 20%, rgba(52, 195, 161, 0.12), transparent 30%),
+                  radial-gradient(circle at 80% 0%, rgba(39, 115, 255, 0.12), transparent 30%),
+                  var(--bg-main);
+    }
+    .article-shell {
+      max-width: 980px;
       margin: 0 auto;
-      padding: 32px 32px 60px;
-      line-height: 1.7;
+      padding: 32px 24px 64px;
     }
-
-    .post-content h1 {
-      font-size: 32px;
-      margin: 0 0 24px;
-      line-height: 1.3;
-    }
-
-    .post-content h2 {
-      font-size: 24px;
-      margin: 32px 0 16px;
-      line-height: 1.3;
-    }
-
-    .post-content h3 {
-      font-size: 20px;
-      margin: 24px 0 12px;
-      line-height: 1.3;
-    }
-
-    .post-content p {
-      margin: 0 0 16px;
-    }
-
-    .post-content ul,
-    .post-content ol {
-      margin: 0 0 16px;
-      padding-left: 24px;
-    }
-
-    .post-content li {
-      margin: 8px 0;
-    }
-
-    .post-header {
-      border-bottom: 1px solid var(--border-subtle);
-      padding-bottom: 20px;
-      margin-bottom: 32px;
-    }
-
-    .post-meta {
-      color: var(--text-muted);
+    .crumbs {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       font-size: 14px;
-      margin-top: 8px;
-    }
-
-    .back-link {
-      display: inline-block;
-      margin-bottom: 24px;
-      color: var(--accent);
+      color: var(--text-muted);
       text-decoration: none;
+    }
+    .crumbs:hover { color: #46d4b2; }
+    .article-header {
+      background: linear-gradient(135deg, rgba(52, 195, 161, 0.12), rgba(10, 16, 18, 0.6));
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 20px 22px;
+      box-shadow: var(--shadow-subtle);
+      margin: 16px 0 24px;
+    }
+    .article-title {
+      margin: 0 0 12px;
+      font-size: 32px;
+      line-height: 1.2;
+    }
+    .article-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      color: var(--text-muted);
       font-size: 14px;
     }
-
-    .back-link:hover {
-      color: #46d4b2;
+    .pill-inline { margin-left: auto; }
+    .article-body {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      box-shadow: var(--shadow-soft);
+      padding: 26px 28px 46px;
+      line-height: 1.75;
     }
-
-    .back-link::before {
-      content: "← ";
+    .article-body h1,
+    .article-body h2,
+    .article-body h3 {
+      margin-top: 1.4em;
+      margin-bottom: 0.6em;
+      line-height: 1.3;
     }
-
-    /* Override highlight.js styles to match our theme */
-    .post-content pre code.hljs {
-      background-color: #10141b;
-      padding: 12px 14px;
-    }
-
-    .loading {
-      text-align: center;
-      color: var(--text-muted);
-      padding: 60px 20px;
-    }
+    .article-body p { margin: 0 0 1em; }
+    .article-body ul,
+    .article-body ol { margin: 0 0 1em 1.4em; }
+    .article-body li { margin: 0.4em 0; }
+    .loading { text-align: center; color: var(--text-muted); padding: 60px 20px; }
   </style>
 </head>
 <body>
-  <div class="post-content">
-    <a href="/AHKv2_LLMs/index.html" class="back-link">Back to Home</a>
-    <div id="content" class="loading">Loading post...</div>
+  <div class="article-shell">
+    <a class="crumbs" href="/AHKv2_LLMs/index.html">← Back to Home</a>
+    <header class="article-header" id="article-header">
+      <p class="pill pill-ghost" id="article-date">Loading date…</p>
+      <h1 class="article-title" id="article-title">Loading…</h1>
+      <div class="article-meta">
+        <div class="pill-row" id="article-tags"></div>
+        <span class="pill pill-soft pill-inline">Rendered from markdown</span>
+      </div>
+    </header>
+    <article id="content" class="article-body loading" aria-live="polite">Loading post...</article>
   </div>
 
   <script>
-    // Get the post parameter from URL
     const urlParams = new URLSearchParams(window.location.search);
-    const postPath = urlParams.get('post');
+    const slug = urlParams.get('slug');
+    const legacyPath = urlParams.get('post');
 
-    if (!postPath) {
-      document.getElementById('content').innerHTML = '<p>No post specified.</p>';
-    } else {
-      // Fetch and render the markdown
-      fetch(postPath)
-        .then(response => {
-          if (!response.ok) throw new Error('Post not found');
-          return response.text();
-        })
-        .then(markdown => {
-          // Remove metadata comments from the markdown
-          const contentWithoutMetadata = markdown.replace(/\[\/\/\]: # \(.*\)\n?/g, '');
-
-          // Configure marked to use highlight.js
-          marked.setOptions({
-            highlight: function(code, lang) {
-              if (lang && hljs.getLanguage(lang)) {
-                return hljs.highlight(code, { language: lang }).value;
-              }
-              return hljs.highlightAuto(code).value;
-            },
-            breaks: true,
-            gfm: true
-          });
-
-          // Render markdown to HTML
-          const html = marked.parse(contentWithoutMetadata);
-          document.getElementById('content').innerHTML = html;
-
-          // Update page title if there's an h1
-          const h1 = document.querySelector('h1');
-          if (h1) {
-            document.title = h1.textContent + ' - AHKv2 & LLMs';
-          }
-        })
-        .catch(error => {
-          document.getElementById('content').innerHTML =
-            '<p>Error loading post: ' + error.message + '</p>';
-        });
+    async function fetchManifest() {
+      const response = await fetch('/AHKv2_LLMs/posts/posts.json');
+      if (!response.ok) throw new Error('Manifest missing');
+      return response.json();
     }
+
+    function applyMetadata(meta) {
+      const titleEl = document.getElementById('article-title');
+      const dateEl = document.getElementById('article-date');
+      const tagsEl = document.getElementById('article-tags');
+
+      if (meta?.title) {
+        titleEl.textContent = meta.title;
+        document.title = meta.title + ' - AHKv2 & LLMs';
+      }
+
+      if (meta?.date) {
+        const date = new Date(meta.date).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+        dateEl.textContent = `Published ${date}`;
+        dateEl.setAttribute('datetime', meta.date);
+      } else {
+        dateEl.textContent = 'Date unknown';
+      }
+
+      if (meta?.tags?.length) {
+        tagsEl.innerHTML = meta.tags.map(tag => `<span class="pill pill-soft">${tag}</span>`).join('');
+      } else {
+        tagsEl.innerHTML = '<span class="pill pill-soft">AHK</span>';
+      }
+    }
+
+    async function renderPost(path, meta) {
+      try {
+        const response = await fetch(path);
+        if (!response.ok) throw new Error('Post not found');
+        const markdown = await response.text();
+        const contentWithoutMetadata = markdown.replace(/\[\/\/\]: # \(.*\)\n?/g, '');
+
+        marked.setOptions({
+          highlight: function(code, lang) {
+            if (lang && hljs.getLanguage(lang)) {
+              return hljs.highlight(code, { language: lang }).value;
+            }
+            return hljs.highlightAuto(code).value;
+          },
+          breaks: true,
+          gfm: true
+        });
+
+        const html = marked.parse(contentWithoutMetadata);
+        document.getElementById('content').classList.remove('loading');
+        document.getElementById('content').innerHTML = html;
+        if (meta) applyMetadata(meta);
+      } catch (error) {
+        document.getElementById('content').innerHTML = `<p>Error loading post: ${error.message}</p>`;
+      }
+    }
+
+    async function init() {
+      if (legacyPath && !slug) {
+        return renderPost(legacyPath);
+      }
+
+      if (!slug) {
+        document.getElementById('content').innerHTML = '<p>No post specified.</p>';
+        return;
+      }
+
+      try {
+        const manifest = await fetchManifest();
+        const meta = manifest.find(entry => entry.slug === slug);
+        if (!meta) throw new Error('Post missing from manifest');
+        renderPost(meta.path, meta);
+      } catch (error) {
+        document.getElementById('content').innerHTML = `<p>Error loading post metadata: ${error.message}</p>`;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
 </html>

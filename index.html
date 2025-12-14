@@ -8,104 +8,139 @@
   <link rel="stylesheet" href="style.css">
   <script src="repos-feed.js" defer></script>
 </head>
-<body>
-  <div class="layout">
-    <!-- Left Sidebar -->
-    <aside class="sidebar sidebar-left">
-      <div class="sidebar-inner">
-        <div class="avatar" aria-hidden="true">AHK</div>
-        <div class="site-meta">
-          <h1 class="site-title">AHKv2 &amp; LLMs</h1>
-          <p class="site-subtitle">Using AutoHotkey v2 with Coding Agents and LLMs</p>
+<body class="page-grid">
+  <header class="masthead">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">AHK</div>
+      <div>
+        <p class="eyebrow">Code blog</p>
+        <h1 class="brand-title">AHKv2 &amp; LLMs</h1>
+        <p class="brand-subtitle">Modern workflows for pairing AutoHotkey v2 with coding agents.</p>
+        <div class="badge-row">
+          <span class="pill pill-ghost">Static-site ready</span>
+          <span class="pill pill-accent">No build step required</span>
         </div>
-        <nav class="nav-main" aria-label="Main navigation">
-          <a href="#home" class="nav-item nav-item-active">Home</a>
-          <a href="#categories" class="nav-item">Categories</a>
-          <a href="#tags" class="nav-item">Tags</a>
-          <a href="#archives" class="nav-item">Archives</a>
-          <a href="#about" class="nav-item">About</a>
-        </nav>
       </div>
-    </aside>
+    </div>
+    <nav class="nav-actions" aria-label="Quick links">
+      <a class="nav-link" href="#posts">Posts</a>
+      <a class="nav-link" href="#repos">Repos</a>
+      <a class="nav-link" href="#about">About</a>
+    </nav>
+  </header>
 
-    <!-- Main Content -->
-    <main class="content" id="home">
-      <section class="posts">
-        <article class="post-card">
-          <a href="/AHKv2_LLMs/post.html?post=/AHKv2_LLMs/posts/example-post.md" class="post-card-link">
-            <header class="post-card-header">
-              <h2 class="post-card-title">Using AutoHotkey v2 with Coding Agents and LLMs</h2>
-              <p class="post-card-meta">Updated on <time datetime="2025-11-17">November 17, 2025</time></p>
-            </header>
-            <p class="post-card-excerpt">
-              A lightweight workflow for combining AutoHotkey v2 scripts with GitHub Copilot, ChatGPT, and other coding agents to automate the boring parts of Windows.
-            </p>
-            <ul class="post-card-tags" aria-label="Tags">
-              <li class="tag">AutoHotkey v2</li>
-              <li class="tag">LLMs</li>
-              <li class="tag">Automation</li>
-              <li class="tag">Workflows</li>
-            </ul>
-          </a>
+  <main class="content-grid">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Fresh layouts</p>
+        <h2>Stay on top of automation patterns.</h2>
+        <p class="lede">New stories and repo discoveries drop into this static page automatically using a simple JSON manifest.</p>
+        <a class="cta" href="#posts">Browse posts</a>
+      </div>
+      <div class="hero-card" aria-hidden="true">
+        <p class="pill pill-soft">Featured</p>
+        <p class="hero-title">Pair AHK v2 with LLM copilots</p>
+        <p class="hero-copy">Ship scripts faster with agent-friendly snippets, reproducible prompts, and a feed of community repos.</p>
+        <div class="hero-meta">Updated weekly · Works on GitHub Pages</div>
+      </div>
+    </section>
+
+    <section class="posts-shell" id="posts" aria-label="Blog posts">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Latest</p>
+          <h3>Posts</h3>
+          <p class="muted">Rendered from a static JSON file so the homepage works anywhere it is hosted.</p>
+        </div>
+        <div class="legend">
+          <span class="legend-dot legend-dot-primary"></span>Ready to read
+        </div>
+      </div>
+      <div id="post-grid" class="post-grid" aria-live="polite">
+        <article class="post-card skeleton">
+          <div class="skeleton-bar short"></div>
+          <div class="skeleton-bar"></div>
+          <div class="skeleton-bar wide"></div>
         </article>
-      </section>
-    </main>
-
-    <!-- Right Sidebar -->
-    <aside class="sidebar sidebar-right">
-      <div class="sidebar-inner">
-        <section class="panel panel-search" aria-label="Site search">
-          <label for="search-box" class="panel-title">Search</label>
-          <div class="search-box">
-            <input id="search-box" type="search" placeholder="Search (placeholder)" disabled>
-          </div>
-          <p class="search-note">Static demo only &mdash; no JS, no backend.</p>
-        </section>
-
-        <section class="panel panel-recent" aria-label="Recently updated">
-          <h2 class="panel-title">Recently Updated</h2>
-          <ul class="recent-list">
-            <li>
-              <a href="/AHKv2_LLMs/post.html?post=/AHKv2_LLMs/posts/example-post.md" class="recent-link">
-                Using AutoHotkey v2 with Coding Agents and LLMs
-              </a>
-              <div class="recent-meta">
-                <time datetime="2025-11-17">Nov 17, 2025</time>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <section class="panel panel-tags" id="tags" aria-label="Trending tags">
-          <h2 class="panel-title">Trending Tags</h2>
-          <div class="tag-cloud">
-            <span class="tag tag-soft">AutoHotkey v2</span>
-            <span class="tag tag-soft">LLMs</span>
-            <span class="tag tag-soft">GitHub Pages</span>
-            <span class="tag tag-soft">Hotkeys</span>
-            <span class="tag tag-soft">Windows Automation</span>
-            <span class="tag tag-soft">Prompting</span>
-          </div>
-        </section>
-
-        <section class="panel panel-repos" aria-label="Latest AHK v2 repositories">
-          <h2 class="panel-title">Latest AHK v2 Repos</h2>
-          <div id="repos-feed-container"></div>
-        </section>
       </div>
-    </aside>
-  </div>
+    </section>
 
-  <!-- Placeholder sections for simple nav anchors -->
-  <div class="screen-reader-only" id="categories">Categories placeholder</div>
-  <div class="screen-reader-only" id="archives">Archives placeholder</div>
-  <div class="screen-reader-only" id="about">About placeholder</div>
+    <section class="pane" id="repos" aria-label="Latest AutoHotkey v2 repositories">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Community</p>
+          <h3>Latest AHK v2 Repos</h3>
+          <p class="muted">Powered by the GitHub search API. Works best when deployed as a static site.</p>
+        </div>
+      </div>
+      <div id="repos-feed-container"></div>
+    </section>
+
+    <section class="pane" id="about" aria-label="About this site">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Behind the page</p>
+          <h3>About</h3>
+        </div>
+      </div>
+      <div class="about-grid">
+        <p>This lightweight blog is designed to run as a static site. The post list is hydrated from a JSON manifest, while each article stays in markdown for easy editing. Drop it on GitHub Pages and it just works.</p>
+        <div class="pill-list" aria-label="Topics">
+          <span class="pill pill-soft">AutoHotkey v2</span>
+          <span class="pill pill-soft">LLMs</span>
+          <span class="pill pill-soft">Automation</span>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <script>
-    // Initialize repos feed when page loads
-    document.addEventListener('DOMContentLoaded', function() {
+    async function loadPosts() {
+      const grid = document.getElementById('post-grid');
+      try {
+        const response = await fetch('posts/posts.json');
+        if (!response.ok) throw new Error('Unable to load posts.');
+        const posts = await response.json();
+        if (!posts.length) {
+          grid.innerHTML = '<p class="muted">No posts yet. Add markdown files and update posts.json.</p>';
+          return;
+        }
+
+        const cards = posts
+          .sort((a, b) => new Date(b.date) - new Date(a.date))
+          .map(post => {
+            const date = new Date(post.date).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+            const tags = (post.tags || [])
+              .map(tag => `<span class="pill pill-soft">${tag}</span>`)
+              .join('');
+            const href = `post.html?slug=${encodeURIComponent(post.slug)}`;
+            return `
+              <article class="post-card">
+                <a class="post-card-link" href="${href}">
+                  <div class="post-card-top">
+                    <span class="legend-dot legend-dot-primary"></span>
+                    <time class="muted" datetime="${post.date}">${date}</time>
+                  </div>
+                  <h4 class="post-title">${post.title}</h4>
+                  <p class="post-excerpt">${post.description}</p>
+                  <div class="pill-row">${tags}</div>
+                </a>
+              </article>
+            `;
+          })
+          .join('');
+
+        grid.innerHTML = cards;
+      } catch (error) {
+        console.error(error);
+        grid.innerHTML = '<p class="muted">Posts failed to load. Check that posts.json is accessible.</p>';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
       const feed = new ReposFeed('repos-feed-container', { limit: 5 });
       feed.fetchRepos();
+      loadPosts();
     });
   </script>
 </body>
