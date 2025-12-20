@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/marked@11.1.0/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked-highlight@2.1.0/lib/index.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github-dark.min.css">
   <style>
@@ -168,13 +169,17 @@
         if (!response.ok) throw new Error('Post not found');
         const markdown = await response.text();
 
-        marked.setOptions({
+        marked.use(markedHighlight.markedHighlight({
+          langPrefix: 'hljs language-',
           highlight: function(code, lang) {
             if (lang && hljs.getLanguage(lang)) {
               return hljs.highlight(code, { language: lang }).value;
             }
             return hljs.highlightAuto(code).value;
-          },
+          }
+        }));
+
+        marked.setOptions({
           breaks: true,
           gfm: true
         });
