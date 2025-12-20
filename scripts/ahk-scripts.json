@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-12-20T00:00:00Z",
-  "totalScripts": 25,
+  "lastUpdated": "2025-12-20T06:26:42.273Z",
+  "totalScripts": 75,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -20,7 +20,12 @@
       "title": "Basic GUI Window",
       "category": "GUI",
       "description": "Creates a basic GUI window with controls",
-      "tags": ["gui", "window", "controls", "beginner"],
+      "tags": [
+        "gui",
+        "window",
+        "controls",
+        "beginner"
+      ],
       "difficulty": "beginner",
       "dateAdded": "2025-12-01",
       "lastModified": "2025-12-20",
@@ -31,7 +36,12 @@
       "title": "Dark Mode GUI",
       "category": "GUI",
       "description": "GUI with Windows 11 dark mode support using DllCall",
-      "tags": ["gui", "dark-mode", "windows-api", "theming"],
+      "tags": [
+        "gui",
+        "dark-mode",
+        "windows-api",
+        "theming"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-05",
       "lastModified": "2025-12-20",
@@ -42,7 +52,12 @@
       "title": "ListView with Data Binding",
       "category": "GUI",
       "description": "Advanced ListView with sorting and data management",
-      "tags": ["gui", "listview", "data", "sorting"],
+      "tags": [
+        "gui",
+        "listview",
+        "data",
+        "sorting"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-08",
       "lastModified": "2025-12-20",
@@ -53,7 +68,12 @@
       "title": "Hotkey Manager Class",
       "category": "Hotkeys",
       "description": "Dynamic hotkey registration and management",
-      "tags": ["hotkeys", "class", "dynamic", "management"],
+      "tags": [
+        "hotkeys",
+        "class",
+        "dynamic",
+        "management"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-02",
       "lastModified": "2025-12-20",
@@ -64,7 +84,12 @@
       "title": "Tap and Hold Detection",
       "category": "Hotkeys",
       "description": "Distinguish between tap and hold key actions",
-      "tags": ["hotkeys", "tap", "hold", "input"],
+      "tags": [
+        "hotkeys",
+        "tap",
+        "hold",
+        "input"
+      ],
       "difficulty": "advanced",
       "dateAdded": "2025-12-10",
       "lastModified": "2025-12-20",
@@ -75,7 +100,12 @@
       "title": "File System Watcher",
       "category": "File Operations",
       "description": "Monitor directory for file changes",
-      "tags": ["files", "watcher", "monitoring", "events"],
+      "tags": [
+        "files",
+        "watcher",
+        "monitoring",
+        "events"
+      ],
       "difficulty": "advanced",
       "dateAdded": "2025-12-03",
       "lastModified": "2025-12-20",
@@ -86,7 +116,12 @@
       "title": "JSON File Handler",
       "category": "File Operations",
       "description": "Read and write JSON files with validation",
-      "tags": ["json", "files", "parsing", "serialization"],
+      "tags": [
+        "json",
+        "files",
+        "parsing",
+        "serialization"
+      ],
       "difficulty": "beginner",
       "dateAdded": "2025-12-04",
       "lastModified": "2025-12-20",
@@ -97,7 +132,12 @@
       "title": "INI Configuration Manager",
       "category": "File Operations",
       "description": "Manage application settings with INI files",
-      "tags": ["ini", "config", "settings", "persistence"],
+      "tags": [
+        "ini",
+        "config",
+        "settings",
+        "persistence"
+      ],
       "difficulty": "beginner",
       "dateAdded": "2025-12-06",
       "lastModified": "2025-12-20",
@@ -108,7 +148,12 @@
       "title": "Clipboard History Manager",
       "category": "System",
       "description": "Store and recall clipboard history",
-      "tags": ["clipboard", "history", "system", "productivity"],
+      "tags": [
+        "clipboard",
+        "history",
+        "system",
+        "productivity"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-07",
       "lastModified": "2025-12-20",
@@ -119,7 +164,12 @@
       "title": "Window Position Manager",
       "category": "System",
       "description": "Save and restore window positions",
-      "tags": ["windows", "position", "management", "desktop"],
+      "tags": [
+        "windows",
+        "position",
+        "management",
+        "desktop"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-09",
       "lastModified": "2025-12-20",
@@ -130,7 +180,12 @@
       "title": "Process Monitor",
       "category": "System",
       "description": "Monitor and manage running processes",
-      "tags": ["process", "monitor", "system", "management"],
+      "tags": [
+        "process",
+        "monitor",
+        "system",
+        "management"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-11",
       "lastModified": "2025-12-20",
@@ -141,7 +196,12 @@
       "title": "Text Expander",
       "category": "Text Processing",
       "description": "Auto-expand abbreviations into full text",
-      "tags": ["text", "expansion", "abbreviations", "typing"],
+      "tags": [
+        "text",
+        "expansion",
+        "abbreviations",
+        "typing"
+      ],
       "difficulty": "beginner",
       "dateAdded": "2025-12-12",
       "lastModified": "2025-12-20",
@@ -152,7 +212,12 @@
       "title": "String Utilities Class",
       "category": "Text Processing",
       "description": "Common string manipulation functions",
-      "tags": ["string", "utilities", "text", "manipulation"],
+      "tags": [
+        "string",
+        "utilities",
+        "text",
+        "manipulation"
+      ],
       "difficulty": "beginner",
       "dateAdded": "2025-12-13",
       "lastModified": "2025-12-20",
@@ -163,7 +228,12 @@
       "title": "Regular Expression Helper",
       "category": "Text Processing",
       "description": "Utility class for common regex operations",
-      "tags": ["regex", "text", "parsing", "validation"],
+      "tags": [
+        "regex",
+        "text",
+        "parsing",
+        "validation"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-14",
       "lastModified": "2025-12-20",
@@ -174,7 +244,12 @@
       "title": "Auto Clicker with GUI",
       "category": "Automation",
       "description": "Configurable auto-clicker with interval settings",
-      "tags": ["automation", "clicker", "mouse", "gui"],
+      "tags": [
+        "automation",
+        "clicker",
+        "mouse",
+        "gui"
+      ],
       "difficulty": "beginner",
       "dateAdded": "2025-12-15",
       "lastModified": "2025-12-20",
@@ -185,7 +260,12 @@
       "title": "Simple Macro Recorder",
       "category": "Automation",
       "description": "Record and playback keyboard/mouse actions",
-      "tags": ["automation", "macro", "recording", "playback"],
+      "tags": [
+        "automation",
+        "macro",
+        "recording",
+        "playback"
+      ],
       "difficulty": "advanced",
       "dateAdded": "2025-12-16",
       "lastModified": "2025-12-20",
@@ -196,7 +276,12 @@
       "title": "Base Class Pattern",
       "category": "Classes",
       "description": "Reusable base class with common functionality",
-      "tags": ["class", "oop", "pattern", "inheritance"],
+      "tags": [
+        "class",
+        "oop",
+        "pattern",
+        "inheritance"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-17",
       "lastModified": "2025-12-20",
@@ -207,7 +292,12 @@
       "title": "Singleton Pattern",
       "category": "Classes",
       "description": "Ensure only one instance of a class exists",
-      "tags": ["class", "singleton", "pattern", "design"],
+      "tags": [
+        "class",
+        "singleton",
+        "pattern",
+        "design"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-18",
       "lastModified": "2025-12-20",
@@ -218,7 +308,12 @@
       "title": "Observer Pattern",
       "category": "Classes",
       "description": "Implement publish-subscribe event system",
-      "tags": ["class", "observer", "pattern", "events"],
+      "tags": [
+        "class",
+        "observer",
+        "pattern",
+        "events"
+      ],
       "difficulty": "advanced",
       "dateAdded": "2025-12-19",
       "lastModified": "2025-12-20",
@@ -229,7 +324,12 @@
       "title": "HTTP Client Class",
       "category": "Networking",
       "description": "Simple HTTP client using WinHTTP",
-      "tags": ["http", "networking", "api", "web"],
+      "tags": [
+        "http",
+        "networking",
+        "api",
+        "web"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-01",
       "lastModified": "2025-12-20",
@@ -240,7 +340,12 @@
       "title": "WebSocket Client",
       "category": "Networking",
       "description": "Basic WebSocket connection using IE COM",
-      "tags": ["websocket", "networking", "realtime", "web"],
+      "tags": [
+        "websocket",
+        "networking",
+        "realtime",
+        "web"
+      ],
       "difficulty": "advanced",
       "dateAdded": "2025-12-02",
       "lastModified": "2025-12-20",
@@ -251,7 +356,12 @@
       "title": "DLL Function Wrapper",
       "category": "Windows API",
       "description": "Helper class for calling Windows API functions",
-      "tags": ["dll", "windows-api", "wrapper", "system"],
+      "tags": [
+        "dll",
+        "windows-api",
+        "wrapper",
+        "system"
+      ],
       "difficulty": "advanced",
       "dateAdded": "2025-12-03",
       "lastModified": "2025-12-20",
@@ -262,7 +372,12 @@
       "title": "Registry Helper Class",
       "category": "Windows API",
       "description": "Simplified Windows Registry operations",
-      "tags": ["registry", "windows", "system", "settings"],
+      "tags": [
+        "registry",
+        "windows",
+        "system",
+        "settings"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-04",
       "lastModified": "2025-12-20",
@@ -273,7 +388,12 @@
       "title": "Timer Scheduler",
       "category": "Utilities",
       "description": "Schedule and manage multiple timers",
-      "tags": ["timer", "scheduler", "utilities", "async"],
+      "tags": [
+        "timer",
+        "scheduler",
+        "utilities",
+        "async"
+      ],
       "difficulty": "intermediate",
       "dateAdded": "2025-12-05",
       "lastModified": "2025-12-20",
@@ -284,11 +404,1059 @@
       "title": "Logger Class",
       "category": "Utilities",
       "description": "Logging utility with file output and levels",
-      "tags": ["logging", "debug", "utilities", "files"],
+      "tags": [
+        "logging",
+        "debug",
+        "utilities",
+        "files"
+      ],
       "difficulty": "beginner",
       "dateAdded": "2025-12-06",
       "lastModified": "2025-12-20",
       "code": "```cpp\n#Requires AutoHotkey v2.0\n\nclass Logger {\n    static levels := Map(\n        'DEBUG', 10,\n        'INFO', 20,\n        'WARN', 30,\n        'ERROR', 40\n    )\n    \n    __New(logFile := '', minLevel := 'DEBUG') {\n        this.logFile := logFile ? logFile : A_ScriptDir '\\app.log'\n        this.minLevel := minLevel\n        this.console := true\n        this.timestamps := true\n    }\n    \n    Log(level, message, data := '') {\n        if Logger.levels[level] < Logger.levels[this.minLevel]\n            return\n        \n        timestamp := this.timestamps ? '[' FormatTime(A_Now, 'yyyy-MM-dd HH:mm:ss') '] ' : ''\n        entry := timestamp '[' level '] ' message\n        \n        if data != ''\n            entry .= ' | Data: ' String(data)\n        \n        if this.console\n            OutputDebug(entry)\n        \n        if this.logFile {\n            try FileAppend(entry '`n', this.logFile, 'UTF-8')\n        }\n    }\n    \n    Debug(message, data := '') {\n        this.Log('DEBUG', message, data)\n    }\n    \n    Info(message, data := '') {\n        this.Log('INFO', message, data)\n    }\n    \n    Warn(message, data := '') {\n        this.Log('WARN', message, data)\n    }\n    \n    Error(message, data := '') {\n        this.Log('ERROR', message, data)\n    }\n    \n    Clear() {\n        if FileExist(this.logFile)\n            FileDelete(this.logFile)\n    }\n}\n\n; Usage\nlog := Logger()\nlog.minLevel := 'INFO'\n\nlog.Debug('This wont show')  ; Below minimum level\nlog.Info('Application started')\nlog.Warn('Low memory', {available: '256MB'})\nlog.Error('Failed to connect', {host: 'localhost', port: 8080})\n```"
+    },
+    {
+      "id": "github-1102821177",
+      "title": "Svaner",
+      "category": "GitHub Repository",
+      "description": "A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-24T04:52:52Z",
+      "lastModified": "2025-12-20T04:19:18Z",
+      "source": "github",
+      "url": "https://github.com/haraldchan/Svaner",
+      "stars": 2,
+      "forks": 0,
+      "owner": "haraldchan",
+      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 2 | Forks: 0\n; Last Updated: 12/20/2025\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
+    },
+    {
+      "id": "github-266191907",
+      "title": "ImagePut",
+      "category": "GitHub Repository",
+      "description": "A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. ",
+      "tags": [
+        "github",
+        "repository",
+        "image-processing",
+        "pixelsearch",
+        "productivity",
+        "screen-capture",
+        "screenshot"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2020-05-22T19:29:56Z",
+      "lastModified": "2025-12-19T18:41:31Z",
+      "source": "github",
+      "url": "https://github.com/iseahound/ImagePut",
+      "stars": 212,
+      "forks": 33,
+      "owner": "iseahound",
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 212 | Forks: 33\n; Last Updated: 12/19/2025\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+    },
+    {
+      "id": "github-1030312038",
+      "title": "AutoHotkey-Xtooltip",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "control",
+        "popup",
+        "tooltip",
+        "v2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-08-01T12:31:51Z",
+      "lastModified": "2025-12-18T21:16:19Z",
+      "source": "github",
+      "url": "https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip",
+      "stars": 7,
+      "forks": 1,
+      "owner": "Nich-Cebolla",
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 7 | Forks: 1\n; Last Updated: 12/18/2025\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
+    },
+    {
+      "id": "github-786217957",
+      "title": "AutoCorrect2",
+      "category": "GitHub Repository",
+      "description": "A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.",
+      "tags": [
+        "github",
+        "repository",
+        "autocorrect",
+        "autocorrect2",
+        "autohotkey",
+        "hotstring-helper",
+        "hotstring-helper2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-04-13T19:19:29Z",
+      "lastModified": "2025-12-18T13:46:22Z",
+      "source": "github",
+      "url": "https://github.com/kunkel321/AutoCorrect2",
+      "stars": 42,
+      "forks": 6,
+      "owner": "kunkel321",
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 42 | Forks: 6\n; Last Updated: 12/18/2025\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+    },
+    {
+      "id": "github-1118891332",
+      "title": "capslock-lang-switch",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script that remaps Caps Lock to Left Alt + Shift for input language switching on Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-18T12:34:41Z",
+      "lastModified": "2025-12-18T13:14:23Z",
+      "source": "github",
+      "url": "https://github.com/buntem/capslock-lang-switch",
+      "stars": 1,
+      "forks": 0,
+      "owner": "buntem",
+      "code": "```cpp\n; ============================================\n; Repository: buntem/capslock-lang-switch\n; ============================================\n; URL: https://github.com/buntem/capslock-lang-switch\n; Stars: 1 | Forks: 0\n; Last Updated: 12/18/2025\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that remaps Caps Lock to Left Alt + Shift for input language switching on Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/buntem/capslock-lang-switch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/buntem/capslock-lang-switch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <capslock-lang-switch>\n\n; Example initialization\nclass CapslockLangSwitchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"capslock-lang-switch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockLangSwitchExample()\n```"
+    },
+    {
+      "id": "github-1116175186",
+      "title": "OverField-Music-Player",
+      "category": "GitHub Repository",
+      "description": "🎹 Master the stage in OverField (开放空间)! Automated Piano & Guitar player with MIDI support, built with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk-script",
+        "autohotkey-v2",
+        "overfield",
+        "piano-player"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-14T10:57:55Z",
+      "lastModified": "2025-12-17T00:39:35Z",
+      "source": "github",
+      "url": "https://github.com/kogakisaki/OverField-Music-Player",
+      "stars": 1,
+      "forks": 0,
+      "owner": "kogakisaki",
+      "code": "```cpp\n; ============================================\n; Repository: kogakisaki/OverField-Music-Player\n; ============================================\n; URL: https://github.com/kogakisaki/OverField-Music-Player\n; Stars: 1 | Forks: 0\n; Last Updated: 12/17/2025\n; License: MIT License\n;\n; Description:\n; 🎹 Master the stage in OverField (开放空间)! Automated Piano & Guitar player with MIDI support, built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kogakisaki/OverField-Music-Player.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kogakisaki/OverField-Music-Player/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <OverField-Music-Player>\n\n; Example initialization\nclass OverfieldMusicPlayerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"OverField-Music-Player loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OverfieldMusicPlayerExample()\n```"
+    },
+    {
+      "id": "github-1111495315",
+      "title": "myahk_v2",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キー���アプリやツールを瞬時に起動。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-07T03:41:58Z",
+      "lastModified": "2025-12-16T15:44:41Z",
+      "source": "github",
+      "url": "https://github.com/masaodev/myahk_v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "masaodev",
+      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 12/16/2025\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キー���アプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
+    },
+    {
+      "id": "github-1039208508",
+      "title": "ahkv2_window_cycling",
+      "category": "GitHub Repository",
+      "description": "Simple custom script for swapping, launching and cycling windows using AutoHotKeys V2. ",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-08-16T17:57:09Z",
+      "lastModified": "2025-12-16T09:48:38Z",
+      "source": "github",
+      "url": "https://github.com/daggo04/ahkv2_window_cycling",
+      "stars": 0,
+      "forks": 0,
+      "owner": "daggo04",
+      "code": "```cpp\n; ============================================\n; Repository: daggo04/ahkv2_window_cycling\n; ============================================\n; URL: https://github.com/daggo04/ahkv2_window_cycling\n; Stars: 0 | Forks: 0\n; Last Updated: 12/16/2025\n; License: Not specified\n;\n; Description:\n; Simple custom script for swapping, launching and cycling windows using AutoHotKeys V2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/daggo04/ahkv2_window_cycling.git\n;\n; Option 2: Download ZIP\n;   https://github.com/daggo04/ahkv2_window_cycling/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkv2_window_cycling>\n\n; Example initialization\nclass Ahkv2WindowCyclingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkv2_window_cycling loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2WindowCyclingExample()\n```"
+    },
+    {
+      "id": "github-1116689217",
+      "title": "SmoothScroll",
+      "category": "GitHub Repository",
+      "description": "AHK Smooth Scroll (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-15T08:38:04Z",
+      "lastModified": "2025-12-15T08:45:09Z",
+      "source": "github",
+      "url": "https://github.com/Jduekfjxs/SmoothScroll",
+      "stars": 1,
+      "forks": 0,
+      "owner": "Jduekfjxs",
+      "code": "```cpp\n; ============================================\n; Repository: Jduekfjxs/SmoothScroll\n; ============================================\n; URL: https://github.com/Jduekfjxs/SmoothScroll\n; Stars: 1 | Forks: 0\n; Last Updated: 12/15/2025\n; License: GNU General Public License v3.0\n;\n; Description:\n; AHK Smooth Scroll (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Jduekfjxs/SmoothScroll.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Jduekfjxs/SmoothScroll/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SmoothScroll>\n\n; Example initialization\nclass SmoothscrollExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SmoothScroll loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SmoothscrollExample()\n```"
+    },
+    {
+      "id": "github-1116207938",
+      "title": "LDPlayer-Image-Macro",
+      "category": "GitHub Repository",
+      "description": "LDPlayer Image Macro is a lightweight, powerful automation tool built with AutoHotkey v2. It is designed specifically for the LDPlayer Android emulator (and compatible with other emulators with \"Android\" in the title) to automate repetitive tasks using image recognition and coordinate clicking.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-14T12:20:07Z",
+      "lastModified": "2025-12-14T13:12:16Z",
+      "source": "github",
+      "url": "https://github.com/KwangMyungKim/LDPlayer-Image-Macro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "KwangMyungKim",
+      "code": "```cpp\n; ============================================\n; Repository: KwangMyungKim/LDPlayer-Image-Macro\n; ============================================\n; URL: https://github.com/KwangMyungKim/LDPlayer-Image-Macro\n; Stars: 0 | Forks: 0\n; Last Updated: 12/14/2025\n; License: Not specified\n;\n; Description:\n; LDPlayer Image Macro is a lightweight, powerful automation tool built with AutoHotkey v2. It is designed specifically for the LDPlayer Android emulator (and compatible with other emulators with \"Android\" in the title) to automate repetitive tasks using image recognition and coordinate clicking.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangMyungKim/LDPlayer-Image-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangMyungKim/LDPlayer-Image-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LDPlayer-Image-Macro>\n\n; Example initialization\nclass LdplayerImageMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LDPlayer-Image-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LdplayerImageMacroExample()\n```"
+    },
+    {
+      "id": "github-1116001158",
+      "title": "MyAHK",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 を使用した個人用スクリプトプロジェクトです。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-14T01:40:27Z",
+      "lastModified": "2025-12-14T05:02:45Z",
+      "source": "github",
+      "url": "https://github.com/sysCat64/MyAHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sysCat64",
+      "code": "```cpp\n; ============================================\n; Repository: sysCat64/MyAHK\n; ============================================\n; URL: https://github.com/sysCat64/MyAHK\n; Stars: 0 | Forks: 0\n; Last Updated: 12/14/2025\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 を使用した個人用スクリプトプロジェクトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sysCat64/MyAHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sysCat64/MyAHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MyAHK>\n\n; Example initialization\nclass MyahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MyAHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkExample()\n```"
+    },
+    {
+      "id": "github-1115966755",
+      "title": "sniperfix-v2-wartycoon",
+      "category": "GitHub Repository",
+      "description": "No description available",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-script",
+        "autohotkey-v2",
+        "macro",
+        "roblox"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-13T23:12:12Z",
+      "lastModified": "2025-12-14T03:56:27Z",
+      "source": "github",
+      "url": "https://github.com/SillyMythic/sniperfix-v2-wartycoon",
+      "stars": 1,
+      "forks": 0,
+      "owner": "SillyMythic",
+      "code": "```cpp\n; ============================================\n; Repository: SillyMythic/sniperfix-v2-wartycoon\n; ============================================\n; URL: https://github.com/SillyMythic/sniperfix-v2-wartycoon\n; Stars: 1 | Forks: 0\n; Last Updated: 12/14/2025\n; License: The Unlicense\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SillyMythic/sniperfix-v2-wartycoon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SillyMythic/sniperfix-v2-wartycoon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sniperfix-v2-wartycoon>\n\n; Example initialization\nclass SniperfixV2WartycoonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sniperfix-v2-wartycoon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SniperfixV2WartycoonExample()\n```"
+    },
+    {
+      "id": "github-944165503",
+      "title": "AutoHotkey-LibV2",
+      "category": "GitHub Repository",
+      "description": "My collection of working scripts, classes, and functions for AutoHotkey (AHK).",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "class",
+        "collection",
+        "gdi",
+        "gui"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-03-06T22:27:36Z",
+      "lastModified": "2025-12-14T03:55:00Z",
+      "source": "github",
+      "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
+      "stars": 15,
+      "forks": 5,
+      "owner": "Nich-Cebolla",
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 15 | Forks: 5\n; Last Updated: 12/14/2025\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
+    },
+    {
+      "id": "github-785157327",
+      "title": "20240411110510-autohotkey",
+      "category": "GitHub Repository",
+      "description": "This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "anki",
+        "goldendict",
+        "kardenwort",
+        "lute",
+        "obsidian-md"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-04-11T10:06:51Z",
+      "lastModified": "2025-12-13T16:55:38Z",
+      "source": "github",
+      "url": "https://github.com/voothi/20240411110510-autohotkey",
+      "stars": 1,
+      "forks": 0,
+      "owner": "voothi",
+      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 12/13/2025\n; License: Not specified\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1106851668",
+      "title": "awkJSON5",
+      "category": "GitHub Repository",
+      "description": "A JSON5 Parser for AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-30T04:19:05Z",
+      "lastModified": "2025-12-13T09:57:41Z",
+      "source": "github",
+      "url": "https://github.com/Auto-Hawk/awkJSON5",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Auto-Hawk",
+      "code": "```cpp\n; ============================================\n; Repository: Auto-Hawk/awkJSON5\n; ============================================\n; URL: https://github.com/Auto-Hawk/awkJSON5\n; Stars: 0 | Forks: 0\n; Last Updated: 12/13/2025\n; License: Not specified\n;\n; Description:\n; A JSON5 Parser for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Auto-Hawk/awkJSON5.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Auto-Hawk/awkJSON5/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <awkJSON5>\n\n; Example initialization\nclass Awkjson5Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"awkJSON5 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Awkjson5Example()\n```"
+    },
+    {
+      "id": "github-1106233636",
+      "title": "OneLocale",
+      "category": "GitHub Repository",
+      "description": "Simple, powerful i18n for AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-28T21:21:57Z",
+      "lastModified": "2025-12-13T08:18:15Z",
+      "source": "github",
+      "url": "https://github.com/raffriff42/OneLocale",
+      "stars": 0,
+      "forks": 0,
+      "owner": "raffriff42",
+      "code": "```cpp\n; ============================================\n; Repository: raffriff42/OneLocale\n; ============================================\n; URL: https://github.com/raffriff42/OneLocale\n; Stars: 0 | Forks: 0\n; Last Updated: 12/13/2025\n; License: GNU Lesser General Public License v2.1\n;\n; Description:\n; Simple, powerful i18n for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/raffriff42/OneLocale.git\n;\n; Option 2: Download ZIP\n;   https://github.com/raffriff42/OneLocale/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <OneLocale>\n\n; Example initialization\nclass OnelocaleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"OneLocale loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OnelocaleExample()\n```"
+    },
+    {
+      "id": "github-770910613",
+      "title": "AhkV2Jiggle",
+      "category": "GitHub Repository",
+      "description": "Keep your computer awake automatically. AhkV2Jiggle prevents screen locks during presentations, downloads, or long processes by simulating realistic user activity with randomized mouse movements and clicks. Built with AutoHotkey v2.0.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-03-12T11:27:41Z",
+      "lastModified": "2025-12-12T10:23:54Z",
+      "source": "github",
+      "url": "https://github.com/ddaele/AhkV2Jiggle",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ddaele",
+      "code": "```cpp\n; ============================================\n; Repository: ddaele/AhkV2Jiggle\n; ============================================\n; URL: https://github.com/ddaele/AhkV2Jiggle\n; Stars: 0 | Forks: 0\n; Last Updated: 12/12/2025\n; License: Not specified\n;\n; Description:\n; Keep your computer awake automatically. AhkV2Jiggle prevents screen locks during presentations, downloads, or long processes by simulating realistic user activity with randomized mouse movements and clicks. Built with AutoHotkey v2.0.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ddaele/AhkV2Jiggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ddaele/AhkV2Jiggle/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkV2Jiggle>\n\n; Example initialization\nclass Ahkv2jiggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkV2Jiggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2jiggleExample()\n```"
+    },
+    {
+      "id": "github-912255971",
+      "title": "AquaHotkey",
+      "category": "GitHub Repository",
+      "description": "Class prototyping library for AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-01-05T03:32:34Z",
+      "lastModified": "2025-12-11T16:45:14Z",
+      "source": "github",
+      "url": "https://github.com/0w0Demonic/AquaHotkey",
+      "stars": 29,
+      "forks": 3,
+      "owner": "0w0Demonic",
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 29 | Forks: 3\n; Last Updated: 12/11/2025\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+    },
+    {
+      "id": "github-1105009364",
+      "title": "MouseHK",
+      "category": "GitHub Repository",
+      "description": "Transform your keyboard into a high-precision mouse (AutoHotkey v2).",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-27T02:24:43Z",
+      "lastModified": "2025-12-16T13:28:06Z",
+      "source": "github",
+      "url": "https://github.com/Tomflame-4ever/MouseHK",
+      "stars": 14,
+      "forks": 2,
+      "owner": "Tomflame-4ever",
+      "code": "```cpp\n; ============================================\n; Repository: Tomflame-4ever/MouseHK\n; ============================================\n; URL: https://github.com/Tomflame-4ever/MouseHK\n; Stars: 14 | Forks: 2\n; Last Updated: 12/16/2025\n; License: Not specified\n;\n; Description:\n; Transform your keyboard into a high-precision mouse (AutoHotkey v2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Tomflame-4ever/MouseHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Tomflame-4ever/MouseHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MouseHK>\n\n; Example initialization\nclass MousehkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MouseHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousehkExample()\n```"
+    },
+    {
+      "id": "github-1111121185",
+      "title": "WinJuggler",
+      "category": "GitHub Repository",
+      "description": "一个基于 AutoHotkey v2 的轻量级窗口管理工具。可以为常用应用设置切换键，并实现同一应用的多窗口循环切换。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-06T10:09:51Z",
+      "lastModified": "2025-12-09T15:20:50Z",
+      "source": "github",
+      "url": "https://github.com/SYBigF/WinJuggler",
+      "stars": 0,
+      "forks": 0,
+      "owner": "SYBigF",
+      "code": "```cpp\n; ============================================\n; Repository: SYBigF/WinJuggler\n; ============================================\n; URL: https://github.com/SYBigF/WinJuggler\n; Stars: 0 | Forks: 0\n; Last Updated: 12/9/2025\n; License: Not specified\n;\n; Description:\n; 一个基于 AutoHotkey v2 的轻量级窗口管理工具。可以为常用应用设置切换键，并实现同一应用的多窗口循环切换。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SYBigF/WinJuggler.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SYBigF/WinJuggler/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinJuggler>\n\n; Example initialization\nclass WinjugglerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinJuggler loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinjugglerExample()\n```"
+    },
+    {
+      "id": "github-1107688830",
+      "title": "AutoHotKey-Command-Launcher",
+      "category": "GitHub Repository",
+      "description": "A fast, Spotlight-style command launcher for Windows built with AutoHotkey v2. Features fuzzy search, nested categories, dark mode UI, keyboard navigation, instant command execution, custom actions, and Fabric AI prompt improvement. Launch anything with Alt+CapsLock.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-01T13:34:50Z",
+      "lastModified": "2025-12-08T13:30:18Z",
+      "source": "github",
+      "url": "https://github.com/mmcdermott-ashleyne/AutoHotKey-Command-Launcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mmcdermott-ashleyne",
+      "code": "```cpp\n; ============================================\n; Repository: mmcdermott-ashleyne/AutoHotKey-Command-Launcher\n; ============================================\n; URL: https://github.com/mmcdermott-ashleyne/AutoHotKey-Command-Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 12/8/2025\n; License: Not specified\n;\n; Description:\n; A fast, Spotlight-style command launcher for Windows built with AutoHotkey v2. Features fuzzy search, nested categories, dark mode UI, keyboard navigation, instant command execution, custom actions, and Fabric AI prompt improvement. Launch anything with Alt+CapsLock.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mmcdermott-ashleyne/AutoHotKey-Command-Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mmcdermott-ashleyne/AutoHotKey-Command-Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotKey-Command-Launcher>\n\n; Example initialization\nclass AutohotkeyCommandLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotKey-Command-Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyCommandLauncherExample()\n```"
+    },
+    {
+      "id": "github-1051914476",
+      "title": "AhkWin32Projection",
+      "category": "GitHub Repository",
+      "description": "Win32 API bindings for 64-bit AutoHotkey V2",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "win32"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-09-07T01:51:51Z",
+      "lastModified": "2025-12-07T21:18:11Z",
+      "source": "github",
+      "url": "https://github.com/holy-tao/AhkWin32Projection",
+      "stars": 28,
+      "forks": 3,
+      "owner": "holy-tao",
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 28 | Forks: 3\n; Last Updated: 12/7/2025\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+    },
+    {
+      "id": "github-1005082612",
+      "title": "TimeMinder",
+      "category": "GitHub Repository",
+      "description": "A minimal, always-on-top Pomodoro timer for Windows, built with AutoHotkey v2. Customizable session, break, and total durations, with hotkey controls and a distraction-free interface.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-06-19T16:29:59Z",
+      "lastModified": "2025-12-07T16:18:26Z",
+      "source": "github",
+      "url": "https://github.com/james-leatherman/TimeMinder",
+      "stars": 1,
+      "forks": 0,
+      "owner": "james-leatherman",
+      "code": "```cpp\n; ============================================\n; Repository: james-leatherman/TimeMinder\n; ============================================\n; URL: https://github.com/james-leatherman/TimeMinder\n; Stars: 1 | Forks: 0\n; Last Updated: 12/7/2025\n; License: Not specified\n;\n; Description:\n; A minimal, always-on-top Pomodoro timer for Windows, built with AutoHotkey v2. Customizable session, break, and total durations, with hotkey controls and a distraction-free interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/james-leatherman/TimeMinder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/james-leatherman/TimeMinder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TimeMinder>\n\n; Example initialization\nclass TimeminderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TimeMinder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TimeminderExample()\n```"
+    },
+    {
+      "id": "github-1096728829",
+      "title": "discord-fishing",
+      "category": "GitHub Repository",
+      "description": "AutoHotKey v2 script that helps you fish without destroying your fingers. Note that you will still need to pause the script to verify when you are randomly selected for verification. ",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-14T21:28:03Z",
+      "lastModified": "2025-12-07T16:10:21Z",
+      "source": "github",
+      "url": "https://github.com/c9long/discord-fishing",
+      "stars": 0,
+      "forks": 0,
+      "owner": "c9long",
+      "code": "```cpp\n; ============================================\n; Repository: c9long/discord-fishing\n; ============================================\n; URL: https://github.com/c9long/discord-fishing\n; Stars: 0 | Forks: 0\n; Last Updated: 12/7/2025\n; License: Not specified\n;\n; Description:\n; AutoHotKey v2 script that helps you fish without destroying your fingers. Note that you will still need to pause the script to verify when you are randomly selected for verification. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/c9long/discord-fishing.git\n;\n; Option 2: Download ZIP\n;   https://github.com/c9long/discord-fishing/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <discord-fishing>\n\n; Example initialization\nclass DiscordFishingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"discord-fishing loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DiscordFishingExample()\n```"
+    },
+    {
+      "id": "github-1048839503",
+      "title": "AutoHotkey-TreeViewEx",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey (AHK) library that implements a custom tree-view control.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "class",
+        "control",
+        "tree",
+        "tree-view"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-09-02T05:30:10Z",
+      "lastModified": "2025-12-07T12:20:18Z",
+      "source": "github",
+      "url": "https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Nich-Cebolla",
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-TreeViewEx\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx\n; Stars: 0 | Forks: 0\n; Last Updated: 12/7/2025\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that implements a custom tree-view control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-TreeViewEx>\n\n; Example initialization\nclass AutohotkeyTreeviewexExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-TreeViewEx loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyTreeviewexExample()\n```"
+    },
+    {
+      "id": "github-1101877156",
+      "title": "Mouse-Flow-Gestures",
+      "category": "GitHub Repository",
+      "description": "A power-user AutoHotkey v2 script designed for any 5-button mouse.. Enables trackpad-like gestures, instant virtual desktop management, window snapping, and advanced productivity shortcuts.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-22T12:06:14Z",
+      "lastModified": "2025-12-06T13:55:01Z",
+      "source": "github",
+      "url": "https://github.com/autocarrrot/Mouse-Flow-Gestures",
+      "stars": 0,
+      "forks": 0,
+      "owner": "autocarrrot",
+      "code": "```cpp\n; ============================================\n; Repository: autocarrrot/Mouse-Flow-Gestures\n; ============================================\n; URL: https://github.com/autocarrrot/Mouse-Flow-Gestures\n; Stars: 0 | Forks: 0\n; Last Updated: 12/6/2025\n; License: Not specified\n;\n; Description:\n; A power-user AutoHotkey v2 script designed for any 5-button mouse.. Enables trackpad-like gestures, instant virtual desktop management, window snapping, and advanced productivity shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autocarrrot/Mouse-Flow-Gestures.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autocarrrot/Mouse-Flow-Gestures/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Flow-Gestures>\n\n; Example initialization\nclass MouseFlowGesturesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Flow-Gestures loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseFlowGesturesExample()\n```"
+    },
+    {
+      "id": "github-838227269",
+      "title": "HD2StratHotkeysGUI",
+      "category": "GitHub Repository",
+      "description": "Helldivers 2 Stratagem AutoHotkey v2 script with GUI",
+      "tags": [
+        "github",
+        "repository",
+        "ahkv2",
+        "autohotkey-v2",
+        "autohotkeyv2",
+        "hd2",
+        "helldivers2",
+        "hotkey"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-08-05T07:59:39Z",
+      "lastModified": "2025-12-05T09:18:58Z",
+      "source": "github",
+      "url": "https://github.com/Dazuzi/HD2StratHotkeysGUI",
+      "stars": 2,
+      "forks": 0,
+      "owner": "Dazuzi",
+      "code": "```cpp\n; ============================================\n; Repository: Dazuzi/HD2StratHotkeysGUI\n; ============================================\n; URL: https://github.com/Dazuzi/HD2StratHotkeysGUI\n; Stars: 2 | Forks: 0\n; Last Updated: 12/5/2025\n; License: Not specified\n;\n; Description:\n; Helldivers 2 Stratagem AutoHotkey v2 script with GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dazuzi/HD2StratHotkeysGUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dazuzi/HD2StratHotkeysGUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HD2StratHotkeysGUI>\n\n; Example initialization\nclass Hd2strathotkeysguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HD2StratHotkeysGUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Hd2strathotkeysguiExample()\n```"
+    },
+    {
+      "id": "github-913659961",
+      "title": "ParseCsv-AutoHotkey",
+      "category": "GitHub Repository",
+      "description": "An all-purpose, easy-to-use CSV parser.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "csv",
+        "parse",
+        "parsecsv",
+        "parser"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-01-08T05:39:36Z",
+      "lastModified": "2025-12-03T16:44:06Z",
+      "source": "github",
+      "url": "https://github.com/Nich-Cebolla/ParseCsv-AutoHotkey",
+      "stars": 0,
+      "forks": 1,
+      "owner": "Nich-Cebolla",
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/ParseCsv-AutoHotkey\n; ============================================\n; URL: https://github.com/Nich-Cebolla/ParseCsv-AutoHotkey\n; Stars: 0 | Forks: 1\n; Last Updated: 12/3/2025\n; License: Not specified\n;\n; Description:\n; An all-purpose, easy-to-use CSV parser.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/ParseCsv-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/ParseCsv-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ParseCsv-AutoHotkey>\n\n; Example initialization\nclass ParsecsvAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ParseCsv-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ParsecsvAutohotkeyExample()\n```"
+    },
+    {
+      "id": "github-739913105",
+      "title": "bsb-launcher",
+      "category": "GitHub Repository",
+      "description": "Alternative Find and Run Robot 2 for AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-01-06T23:20:04Z",
+      "lastModified": "2025-12-02T11:32:38Z",
+      "source": "github",
+      "url": "https://github.com/verlane/bsb-launcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "verlane",
+      "code": "```cpp\n; ============================================\n; Repository: verlane/bsb-launcher\n; ============================================\n; URL: https://github.com/verlane/bsb-launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 12/2/2025\n; License: MIT License\n;\n; Description:\n; Alternative Find and Run Robot 2 for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/verlane/bsb-launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/verlane/bsb-launcher/archive/refs/heads/develop.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <bsb-launcher>\n\n; Example initialization\nclass BsbLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"bsb-launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BsbLauncherExample()\n```"
+    },
+    {
+      "id": "github-1078064495",
+      "title": "ahk-scripts",
+      "category": "GitHub Repository",
+      "description": "A collection of powerful  AutoHotkey v2 scripts designed to boost productivity, automate repetitive tasks, and enhance your Windows experience.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-10-17T06:45:20Z",
+      "lastModified": "2025-12-01T11:10:27Z",
+      "source": "github",
+      "url": "https://github.com/youssef-mhmd/ahk-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "youssef-mhmd",
+      "code": "```cpp\n; ============================================\n; Repository: youssef-mhmd/ahk-scripts\n; ============================================\n; URL: https://github.com/youssef-mhmd/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 12/1/2025\n; License: Not specified\n;\n; Description:\n; A collection of powerful  AutoHotkey v2 scripts designed to boost productivity, automate repetitive tasks, and enhance your Windows experience.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/youssef-mhmd/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/youssef-mhmd/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
+    },
+    {
+      "id": "github-1107143961",
+      "title": "EAForceClose",
+      "category": "GitHub Repository",
+      "description": "Autohotkey V2 script to force close the EA background processes when you actually want to close it.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-30T16:59:26Z",
+      "lastModified": "2025-11-30T17:19:44Z",
+      "source": "github",
+      "url": "https://github.com/lilwoutie/EAForceClose",
+      "stars": 0,
+      "forks": 0,
+      "owner": "lilwoutie",
+      "code": "```cpp\n; ============================================\n; Repository: lilwoutie/EAForceClose\n; ============================================\n; URL: https://github.com/lilwoutie/EAForceClose\n; Stars: 0 | Forks: 0\n; Last Updated: 11/30/2025\n; License: Not specified\n;\n; Description:\n; Autohotkey V2 script to force close the EA background processes when you actually want to close it.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lilwoutie/EAForceClose.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lilwoutie/EAForceClose/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EAForceClose>\n\n; Example initialization\nclass EaforcecloseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EAForceClose loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EaforcecloseExample()\n```"
+    },
+    {
+      "id": "github-1096001559",
+      "title": "desktop-ytmusic-hotkeys",
+      "category": "GitHub Repository",
+      "description": "Script I made using AutoHotkey V2 to make it more comfortable to use the youtube music desktop app. It skips, rewinds, pauses, increases/decreases volume or mutes your yt music, in the least interrupting way.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-13T20:03:47Z",
+      "lastModified": "2025-11-29T22:12:18Z",
+      "source": "github",
+      "url": "https://github.com/SrCheesecake/desktop-ytmusic-hotkeys",
+      "stars": 1,
+      "forks": 0,
+      "owner": "SrCheesecake",
+      "code": "```cpp\n; ============================================\n; Repository: SrCheesecake/desktop-ytmusic-hotkeys\n; ============================================\n; URL: https://github.com/SrCheesecake/desktop-ytmusic-hotkeys\n; Stars: 1 | Forks: 0\n; Last Updated: 11/29/2025\n; License: Not specified\n;\n; Description:\n; Script I made using AutoHotkey V2 to make it more comfortable to use the youtube music desktop app. It skips, rewinds, pauses, increases/decreases volume or mutes your yt music, in the least interrupting way.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SrCheesecake/desktop-ytmusic-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SrCheesecake/desktop-ytmusic-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <desktop-ytmusic-hotkeys>\n\n; Example initialization\nclass DesktopYtmusicHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"desktop-ytmusic-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktopYtmusicHotkeysExample()\n```"
+    },
+    {
+      "id": "github-1105082428",
+      "title": "Sibelius-MusicXML-AutoExporter",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey v2 automation tool for batch-exporting hundreds or thousands of Sibelius `.sib` files into **uncompressed MusicXML (.musicxml)** format — fully automatically, without manual clicking.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-27T05:36:25Z",
+      "lastModified": "2025-11-27T08:06:39Z",
+      "source": "github",
+      "url": "https://github.com/dirftking/Sibelius-MusicXML-AutoExporter",
+      "stars": 1,
+      "forks": 0,
+      "owner": "dirftking",
+      "code": "```cpp\n; ============================================\n; Repository: dirftking/Sibelius-MusicXML-AutoExporter\n; ============================================\n; URL: https://github.com/dirftking/Sibelius-MusicXML-AutoExporter\n; Stars: 1 | Forks: 0\n; Last Updated: 11/27/2025\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 automation tool for batch-exporting hundreds or thousands of Sibelius `.sib` files into **uncompressed MusicXML (.musicxml)** format — fully automatically, without manual clicking.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dirftking/Sibelius-MusicXML-AutoExporter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dirftking/Sibelius-MusicXML-AutoExporter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Sibelius-MusicXML-AutoExporter>\n\n; Example initialization\nclass SibeliusMusicxmlAutoexporterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Sibelius-MusicXML-AutoExporter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SibeliusMusicxmlAutoexporterExample()\n```"
+    },
+    {
+      "id": "github-576883413",
+      "title": "v2-source",
+      "category": "GitHub Repository",
+      "description": "A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2022-12-11T09:54:06Z",
+      "lastModified": "2025-11-25T18:33:52Z",
+      "source": "github",
+      "url": "https://github.com/autohotkey-docs-translation/v2-source",
+      "stars": 0,
+      "forks": 0,
+      "owner": "autohotkey-docs-translation",
+      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 11/25/2025\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
+    },
+    {
+      "id": "github-1101203666",
+      "title": "Tiberian-Sun-Client---AutoHotKey-Script",
+      "category": "GitHub Repository",
+      "description": "An AutoHotKey v2 script for ergonomic automation in the Tiberian Sun Client.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-21T10:42:34Z",
+      "lastModified": "2025-11-24T16:33:47Z",
+      "source": "github",
+      "url": "https://github.com/DonDizzy-Coding/Tiberian-Sun-Client---AutoHotKey-Script",
+      "stars": 0,
+      "forks": 0,
+      "owner": "DonDizzy-Coding",
+      "code": "```cpp\n; ============================================\n; Repository: DonDizzy-Coding/Tiberian-Sun-Client---AutoHotKey-Script\n; ============================================\n; URL: https://github.com/DonDizzy-Coding/Tiberian-Sun-Client---AutoHotKey-Script\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2025\n; License: Not specified\n;\n; Description:\n; An AutoHotKey v2 script for ergonomic automation in the Tiberian Sun Client.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DonDizzy-Coding/Tiberian-Sun-Client---AutoHotKey-Script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DonDizzy-Coding/Tiberian-Sun-Client---AutoHotKey-Script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Tiberian-Sun-Client---AutoHotKey-Script>\n\n; Example initialization\nclass TiberianSunClientAutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Tiberian-Sun-Client---AutoHotKey-Script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TiberianSunClientAutohotkeyScriptExample()\n```"
+    },
+    {
+      "id": "github-1101956478",
+      "title": "Code-Tester-AutoHotkey-v2",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script testing utility that allows you to write, run, debug, and clean up temporary test scripts without affecting your main AHK environment.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-22T14:55:48Z",
+      "lastModified": "2025-11-22T15:19:44Z",
+      "source": "github",
+      "url": "https://github.com/kandeeswaran11/Code-Tester-AutoHotkey-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kandeeswaran11",
+      "code": "```cpp\n; ============================================\n; Repository: kandeeswaran11/Code-Tester-AutoHotkey-v2\n; ============================================\n; URL: https://github.com/kandeeswaran11/Code-Tester-AutoHotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 11/22/2025\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script testing utility that allows you to write, run, debug, and clean up temporary test scripts without affecting your main AHK environment.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kandeeswaran11/Code-Tester-AutoHotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kandeeswaran11/Code-Tester-AutoHotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Code-Tester-AutoHotkey-v2>\n\n; Example initialization\nclass CodeTesterAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Code-Tester-AutoHotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CodeTesterAutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-1071224453",
+      "title": "MsgPack",
+      "category": "GitHub Repository",
+      "description": "MessagePack implementation in pure AutoHotkey v2 / msgpack.io[AutoHotkey]",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "messagepack",
+        "msgpack"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-10-07T03:49:34Z",
+      "lastModified": "2025-12-02T13:43:50Z",
+      "source": "github",
+      "url": "https://github.com/holy-tao/MsgPack",
+      "stars": 4,
+      "forks": 1,
+      "owner": "holy-tao",
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/MsgPack\n; ============================================\n; URL: https://github.com/holy-tao/MsgPack\n; Stars: 4 | Forks: 1\n; Last Updated: 12/2/2025\n; License: MIT License\n;\n; Description:\n; MessagePack implementation in pure AutoHotkey v2 / msgpack.io[AutoHotkey]\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/MsgPack.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/MsgPack/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MsgPack>\n\n; Example initialization\nclass MsgpackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MsgPack loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MsgpackExample()\n```"
+    },
+    {
+      "id": "github-762196209",
+      "title": "AddReactive",
+      "category": "GitHub Repository",
+      "description": "A reactive Gui control library for AutoHotkey v2 inspired by frontend frameworks.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-library",
+        "autohotkey",
+        "autohotkey-gui",
+        "autohotkey-scripts",
+        "autohotkey-v2",
+        "reactiveui"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-02-23T09:26:13Z",
+      "lastModified": "2025-12-13T08:32:55Z",
+      "source": "github",
+      "url": "https://github.com/haraldchan/AddReactive",
+      "stars": 7,
+      "forks": 0,
+      "owner": "haraldchan",
+      "code": "```cpp\n; ============================================\n; Repository: haraldchan/AddReactive\n; ============================================\n; URL: https://github.com/haraldchan/AddReactive\n; Stars: 7 | Forks: 0\n; Last Updated: 12/13/2025\n; License: MIT License\n;\n; Description:\n; A reactive Gui control library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/AddReactive.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/AddReactive/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AddReactive>\n\n; Example initialization\nclass AddreactiveExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AddReactive loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AddreactiveExample()\n```"
+    },
+    {
+      "id": "github-1083506225",
+      "title": "pvz-replanted-ahk-script",
+      "category": "GitHub Repository",
+      "description": "Deprecated, read README. An AutoHotkey (v2) script for Plants vs. Zombies: Replanted. It provides keyboard hotkeys for selecting seed packets and pressing the speed-up button.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-script",
+        "autohotkey-scripts",
+        "autohotkey-v2",
+        "hotkey",
+        "pvz"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-10-26T06:48:23Z",
+      "lastModified": "2025-11-19T18:13:00Z",
+      "source": "github",
+      "url": "https://github.com/matheusspacifico/pvz-replanted-ahk-script",
+      "stars": 2,
+      "forks": 0,
+      "owner": "matheusspacifico",
+      "code": "```cpp\n; ============================================\n; Repository: matheusspacifico/pvz-replanted-ahk-script\n; ============================================\n; URL: https://github.com/matheusspacifico/pvz-replanted-ahk-script\n; Stars: 2 | Forks: 0\n; Last Updated: 11/19/2025\n; License: Not specified\n;\n; Description:\n; Deprecated, read README. An AutoHotkey (v2) script for Plants vs. Zombies: Replanted. It provides keyboard hotkeys for selecting seed packets and pressing the speed-up button.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matheusspacifico/pvz-replanted-ahk-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matheusspacifico/pvz-replanted-ahk-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pvz-replanted-ahk-script>\n\n; Example initialization\nclass PvzReplantedAhkScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pvz-replanted-ahk-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PvzReplantedAhkScriptExample()\n```"
+    },
+    {
+      "id": "github-1099862026",
+      "title": "AHK-Hyperlink-Formatter",
+      "category": "GitHub Repository",
+      "description": "Turns selected text into Markdown links using the latest copied URL. AutoHotkey v2 tool with URL history, hotkeys, and clipboard monitoring.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-19T14:36:23Z",
+      "lastModified": "2025-11-19T14:40:17Z",
+      "source": "github",
+      "url": "https://github.com/ruben-sj/AHK-Hyperlink-Formatter",
+      "stars": 1,
+      "forks": 0,
+      "owner": "ruben-sj",
+      "code": "```cpp\n; ============================================\n; Repository: ruben-sj/AHK-Hyperlink-Formatter\n; ============================================\n; URL: https://github.com/ruben-sj/AHK-Hyperlink-Formatter\n; Stars: 1 | Forks: 0\n; Last Updated: 11/19/2025\n; License: MIT License\n;\n; Description:\n; Turns selected text into Markdown links using the latest copied URL. AutoHotkey v2 tool with URL history, hotkeys, and clipboard monitoring.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ruben-sj/AHK-Hyperlink-Formatter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ruben-sj/AHK-Hyperlink-Formatter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-Hyperlink-Formatter>\n\n; Example initialization\nclass AhkHyperlinkFormatterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-Hyperlink-Formatter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkHyperlinkFormatterExample()\n```"
+    },
+    {
+      "id": "github-699943907",
+      "title": "F-117A-Clickable-Cockpit",
+      "category": "GitHub Repository",
+      "description": "An AutoHotKey (v2) script that allows to click on the cockpit buttons with the mouse cursor.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2023-10-03T16:34:32Z",
+      "lastModified": "2025-11-15T19:14:24Z",
+      "source": "github",
+      "url": "https://github.com/xan2622/F-117A-Clickable-Cockpit",
+      "stars": 0,
+      "forks": 0,
+      "owner": "xan2622",
+      "code": "```cpp\n; ============================================\n; Repository: xan2622/F-117A-Clickable-Cockpit\n; ============================================\n; URL: https://github.com/xan2622/F-117A-Clickable-Cockpit\n; Stars: 0 | Forks: 0\n; Last Updated: 11/15/2025\n; License: GNU General Public License v3.0\n;\n; Description:\n; An AutoHotKey (v2) script that allows to click on the cockpit buttons with the mouse cursor.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xan2622/F-117A-Clickable-Cockpit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xan2622/F-117A-Clickable-Cockpit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <F-117A-Clickable-Cockpit>\n\n; Example initialization\nclass F117aClickableCockpitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"F-117A-Clickable-Cockpit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F117aClickableCockpitExample()\n```"
+    },
+    {
+      "id": "github-1094488392",
+      "title": "Absolute-cinema",
+      "category": "GitHub Repository",
+      "description": "This autohotkey v2 code will unleash the absolute cinema.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-11T19:19:43Z",
+      "lastModified": "2025-11-11T19:20:57Z",
+      "source": "github",
+      "url": "https://github.com/Falenlen/Absolute-cinema",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Falenlen",
+      "code": "```cpp\n; ============================================\n; Repository: Falenlen/Absolute-cinema\n; ============================================\n; URL: https://github.com/Falenlen/Absolute-cinema\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2025\n; License: Not specified\n;\n; Description:\n; This autohotkey v2 code will unleash the absolute cinema.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Falenlen/Absolute-cinema.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Falenlen/Absolute-cinema/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Absolute-cinema>\n\n; Example initialization\nclass AbsoluteCinemaExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Absolute-cinema loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AbsoluteCinemaExample()\n```"
+    },
+    {
+      "id": "github-1093217289",
+      "title": "AHK-Space-Presser-on-2-Different-Tab",
+      "category": "GitHub Repository",
+      "description": "A Windows Auto Hotkey V2 script that can press space on 2 different tabs. For example, you in a band that need to see how both bass line and guitar line on a same screen, but songsterr don't have this botton for it, this is the script you need then.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-script",
+        "autohotkey-v2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-10T04:24:26Z",
+      "lastModified": "2025-11-10T04:40:46Z",
+      "source": "github",
+      "url": "https://github.com/AAACodingwholesale/AHK-Space-Presser-on-2-Different-Tab",
+      "stars": 0,
+      "forks": 0,
+      "owner": "AAACodingwholesale",
+      "code": "```cpp\n; ============================================\n; Repository: AAACodingwholesale/AHK-Space-Presser-on-2-Different-Tab\n; ============================================\n; URL: https://github.com/AAACodingwholesale/AHK-Space-Presser-on-2-Different-Tab\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2025\n; License: Not specified\n;\n; Description:\n; A Windows Auto Hotkey V2 script that can press space on 2 different tabs. For example, you in a band that need to see how both bass line and guitar line on a same screen, but songsterr don't have this botton for it, this is the script you need then.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AAACodingwholesale/AHK-Space-Presser-on-2-Different-Tab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AAACodingwholesale/AHK-Space-Presser-on-2-Different-Tab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-Space-Presser-on-2-Different-Tab>\n\n; Example initialization\nclass AhkSpacePresserOn2DifferentTabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-Space-Presser-on-2-Different-Tab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkSpacePresserOn2DifferentTabExample()\n```"
+    },
+    {
+      "id": "github-1092925647",
+      "title": "autohotkey-text-selector",
+      "category": "GitHub Repository",
+      "description": "🔤 Smart text selector with dual-level interface for AutoHotkey v2. Quick insertion of predefined texts in any application",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-09T15:24:38Z",
+      "lastModified": "2025-11-11T10:32:58Z",
+      "source": "github",
+      "url": "https://github.com/eugeniodc/autohotkey-text-selector",
+      "stars": 1,
+      "forks": 0,
+      "owner": "eugeniodc",
+      "code": "```cpp\n; ============================================\n; Repository: eugeniodc/autohotkey-text-selector\n; ============================================\n; URL: https://github.com/eugeniodc/autohotkey-text-selector\n; Stars: 1 | Forks: 0\n; Last Updated: 11/11/2025\n; License: MIT License\n;\n; Description:\n; 🔤 Smart text selector with dual-level interface for AutoHotkey v2. Quick insertion of predefined texts in any application\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eugeniodc/autohotkey-text-selector.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eugeniodc/autohotkey-text-selector/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-text-selector>\n\n; Example initialization\nclass AutohotkeyTextSelectorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-text-selector loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyTextSelectorExample()\n```"
+    },
+    {
+      "id": "github-1002451841",
+      "title": "autohotkey-v2",
+      "category": "GitHub Repository",
+      "description": "No description available",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-06-15T14:05:31Z",
+      "lastModified": "2025-11-09T05:40:30Z",
+      "source": "github",
+      "url": "https://github.com/souldew/autohotkey-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "souldew",
+      "code": "```cpp\n; ============================================\n; Repository: souldew/autohotkey-v2\n; ============================================\n; URL: https://github.com/souldew/autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 11/9/2025\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/souldew/autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/souldew/autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-950201159",
+      "title": "AutoHotKey_v2",
+      "category": "GitHub Repository",
+      "description": "AHK scripts with compiler setup. Some scripts are peeked from others",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahkv2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-03-17T19:38:30Z",
+      "lastModified": "2025-11-07T12:07:55Z",
+      "source": "github",
+      "url": "https://github.com/Kurover/AutoHotKey_v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Kurover",
+      "code": "```cpp\n; ============================================\n; Repository: Kurover/AutoHotKey_v2\n; ============================================\n; URL: https://github.com/Kurover/AutoHotKey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 11/7/2025\n; License: MIT License\n;\n; Description:\n; AHK scripts with compiler setup. Some scripts are peeked from others\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Kurover/AutoHotKey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Kurover/AutoHotKey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotKey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotKey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-1063775997",
+      "title": "FKeyFnKey",
+      "category": "GitHub Repository",
+      "description": "macOSのFnキーの動作のように、WindowsでもAltキーでFn+F1~F12をするためのAutoHotkey v2スクリプト",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-script",
+        "autohotkey-v2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-09-25T05:29:06Z",
+      "lastModified": "2025-11-05T19:51:18Z",
+      "source": "github",
+      "url": "https://github.com/DiamondGotCat/FKeyFnKey",
+      "stars": 2,
+      "forks": 0,
+      "owner": "DiamondGotCat",
+      "code": "```cpp\n; ============================================\n; Repository: DiamondGotCat/FKeyFnKey\n; ============================================\n; URL: https://github.com/DiamondGotCat/FKeyFnKey\n; Stars: 2 | Forks: 0\n; Last Updated: 11/5/2025\n; License: Not specified\n;\n; Description:\n; macOSのFnキーの動作のように、WindowsでもAltキーでFn+F1~F12をするためのAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DiamondGotCat/FKeyFnKey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DiamondGotCat/FKeyFnKey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FKeyFnKey>\n\n; Example initialization\nclass FkeyfnkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FKeyFnKey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FkeyfnkeyExample()\n```"
+    },
+    {
+      "id": "github-1045329028",
+      "title": "CornerSwitcher",
+      "category": "GitHub Repository",
+      "description": "Hot Corners for Windows using AutoHotkey v2 – Add macOS-style hot corners to Windows. Quickly switch between apps with Alt+Tab from the top-left corner, open Task View from the bottom-left, and control windows with mouse scroll, left click, and right click. Fully customizable corner size, colors, and delay settings for faster multitasking.",
+      "tags": [
+        "github",
+        "repository",
+        "alt-tab-switcher",
+        "autohotkey",
+        "autohotkey-v2",
+        "mouse-gestures",
+        "task-view-replacement",
+        "windows-hot-corners"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-08-27T02:01:30Z",
+      "lastModified": "2025-12-07T04:31:18Z",
+      "source": "github",
+      "url": "https://github.com/shubham911-dell/CornerSwitcher",
+      "stars": 2,
+      "forks": 0,
+      "owner": "shubham911-dell",
+      "code": "```cpp\n; ============================================\n; Repository: shubham911-dell/CornerSwitcher\n; ============================================\n; URL: https://github.com/shubham911-dell/CornerSwitcher\n; Stars: 2 | Forks: 0\n; Last Updated: 12/7/2025\n; License: Not specified\n;\n; Description:\n; Hot Corners for Windows using AutoHotkey v2 – Add macOS-style hot corners to Windows. Quickly switch between apps with Alt+Tab from the top-left corner, open Task View from the bottom-left, and control windows with mouse scroll, left click, and right click. Fully customizable corner size, colors, and delay settings for faster multitasking.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shubham911-dell/CornerSwitcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shubham911-dell/CornerSwitcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CornerSwitcher>\n\n; Example initialization\nclass CornerswitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CornerSwitcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CornerswitcherExample()\n```"
+    },
+    {
+      "id": "github-1089192108",
+      "title": "melcoms-ghostkey-sentinel",
+      "category": "GitHub Repository",
+      "description": "A simple AutoHotkey v2 script to fix keyboard chattering (unwanted double key presses)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-11-04T02:26:03Z",
+      "lastModified": "2025-11-04T09:49:30Z",
+      "source": "github",
+      "url": "https://github.com/melcom-creations/melcoms-ghostkey-sentinel",
+      "stars": 0,
+      "forks": 0,
+      "owner": "melcom-creations",
+      "code": "```cpp\n; ============================================\n; Repository: melcom-creations/melcoms-ghostkey-sentinel\n; ============================================\n; URL: https://github.com/melcom-creations/melcoms-ghostkey-sentinel\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2025\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix keyboard chattering (unwanted double key presses)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/melcom-creations/melcoms-ghostkey-sentinel.git\n;\n; Option 2: Download ZIP\n;   https://github.com/melcom-creations/melcoms-ghostkey-sentinel/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <melcoms-ghostkey-sentinel>\n\n; Example initialization\nclass MelcomsGhostkeySentinelExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"melcoms-ghostkey-sentinel loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MelcomsGhostkeySentinelExample()\n```"
+    },
+    {
+      "id": "github-338758921",
+      "title": "autohotkey-script",
+      "category": "GitHub Repository",
+      "description": "Collection of AutoHotkey v2 scripts",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2021-02-14T08:17:59Z",
+      "lastModified": "2025-11-04T04:57:06Z",
+      "source": "github",
+      "url": "https://github.com/TetraTheta/autohotkey-script",
+      "stars": 0,
+      "forks": 0,
+      "owner": "TetraTheta",
+      "code": "```cpp\n; ============================================\n; Repository: TetraTheta/autohotkey-script\n; ============================================\n; URL: https://github.com/TetraTheta/autohotkey-script\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2025\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TetraTheta/autohotkey-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TetraTheta/autohotkey-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-script>\n\n; Example initialization\nclass AutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptExample()\n```"
     }
   ]
 }
