@@ -432,7 +432,7 @@ code {
 pre {
   margin: 16px 0;
   padding: 16px;
-  background: var(--bg-card);
+  background: #0d0d0d;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   overflow-x: auto;
@@ -446,6 +446,12 @@ pre code {
   background: none;
   font-size: 13px;
   line-height: 1.5;
+}
+
+/* Override highlight.js theme background */
+pre code.hljs {
+  background: #0d0d0d;
+  padding: 0;
 }
 
 /* ================================
