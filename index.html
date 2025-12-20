@@ -8,8 +8,8 @@
   <script src="repos-feed.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-inner">
+  <main class="main-grid">
+    <header class="site-header">
       <a href="index.html" class="logo">
         <span class="logo-mark">AHK</span>
         <span class="logo-text">v2 &amp; LLMs</span>
@@ -19,10 +19,7 @@
         <a href="#repos" class="nav-link">Repos</a>
         <a href="https://www.autohotkey.com/docs/v2/" target="_blank" class="nav-link">AHK Docs</a>
       </nav>
-    </div>
-  </header>
-
-  <main class="main-grid">
+    </header>
     <div class="content-col">
       <section class="hero-section">
         <h1>AutoHotkey v2 &amp; LLM Development</h1>
@@ -50,15 +47,15 @@
       </div>
       <div id="repos-feed-container" class="repos-container"></div>
     </aside>
-  </main>
 
-  <footer class="site-footer">
-    <span>&copy; 2025 AHKv2 &amp; LLMs</span>
-    <div class="footer-links">
-      <a href="https://github.com/AutoHotkey" target="_blank">GitHub</a>
-      <a href="https://www.autohotkey.com/boards/" target="_blank">Forums</a>
-    </div>
-  </footer>
+    <footer class="site-footer">
+      <span>&copy; 2025 AHKv2 &amp; LLMs</span>
+      <div class="footer-links">
+        <a href="https://github.com/AutoHotkey" target="_blank">GitHub</a>
+        <a href="https://www.autohotkey.com/boards/" target="_blank">Forums</a>
+      </div>
+    </footer>
+  </main>
 
   <script>
     async function loadPosts() {
