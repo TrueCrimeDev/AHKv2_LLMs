@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-12-22T12:37:15.335Z",
-  "totalScripts": 77,
+  "lastUpdated": "2025-12-22T18:27:04.795Z",
+  "totalScripts": 78,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1495,6 +1495,31 @@
       "forks": 0,
       "owner": "gustavo-melo-dev",
       "code": "```cpp\n; ============================================\n; Repository: gustavo-melo-dev/colemak-dh-wide-autohotkey\n; ============================================\n; URL: https://github.com/gustavo-melo-dev/colemak-dh-wide-autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 12/22/2025\n; License: Not specified\n;\n; Description:\n; simple AutoHotkey v2 script that changes keyboard layout to Colemak-DH wide mod (ANSI). There are some keys missing that I never bothered to implement because I never use them.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gustavo-melo-dev/colemak-dh-wide-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gustavo-melo-dev/colemak-dh-wide-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <colemak-dh-wide-autohotkey>\n\n; Example initialization\nclass ColemakDhWideAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"colemak-dh-wide-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ColemakDhWideAutohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1121186765",
+      "title": "serbian_caps",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script that adds Serbian letters to RU/EN keyboard layouts",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "keyboard",
+        "layout",
+        "serbian",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-22T15:19:07Z",
+      "lastModified": "2025-12-22T16:21:59Z",
+      "source": "github",
+      "url": "https://github.com/jazator/serbian_caps",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jazator",
+      "code": "```cpp\n; ============================================\n; Repository: jazator/serbian_caps\n; ============================================\n; URL: https://github.com/jazator/serbian_caps\n; Stars: 0 | Forks: 0\n; Last Updated: 12/22/2025\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that adds Serbian letters to RU/EN keyboard layouts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jazator/serbian_caps.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jazator/serbian_caps/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <serbian_caps>\n\n; Example initialization\nclass SerbianCapsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"serbian_caps loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SerbianCapsExample()\n```"
     }
   ]
 }
