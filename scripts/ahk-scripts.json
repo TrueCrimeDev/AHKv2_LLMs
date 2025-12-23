@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-12-22T18:27:04.795Z",
-  "totalScripts": 78,
+  "lastUpdated": "2025-12-23T01:22:22.716Z",
+  "totalScripts": 79,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1520,6 +1520,25 @@
       "forks": 0,
       "owner": "jazator",
       "code": "```cpp\n; ============================================\n; Repository: jazator/serbian_caps\n; ============================================\n; URL: https://github.com/jazator/serbian_caps\n; Stars: 0 | Forks: 0\n; Last Updated: 12/22/2025\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that adds Serbian letters to RU/EN keyboard layouts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jazator/serbian_caps.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jazator/serbian_caps/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <serbian_caps>\n\n; Example initialization\nclass SerbianCapsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"serbian_caps loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SerbianCapsExample()\n```"
+    },
+    {
+      "id": "github-1121414244",
+      "title": "bloons_td6_autohotkey_spammer",
+      "category": "GitHub Repository",
+      "description": "A specialized AutoHotkey v2 utility for Bloons TD 6. Selectively automate tower abilities with a real-time, transparent multi-monitor overlay and context-aware input.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-23T00:45:00Z",
+      "lastModified": "2025-12-23T00:49:18Z",
+      "source": "github",
+      "url": "https://github.com/Insolvenzberater/bloons_td6_autohotkey_spammer",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Insolvenzberater",
+      "code": "```cpp\n; ============================================\n; Repository: Insolvenzberater/bloons_td6_autohotkey_spammer\n; ============================================\n; URL: https://github.com/Insolvenzberater/bloons_td6_autohotkey_spammer\n; Stars: 0 | Forks: 0\n; Last Updated: 12/23/2025\n; License: Not specified\n;\n; Description:\n; A specialized AutoHotkey v2 utility for Bloons TD 6. Selectively automate tower abilities with a real-time, transparent multi-monitor overlay and context-aware input.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Insolvenzberater/bloons_td6_autohotkey_spammer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Insolvenzberater/bloons_td6_autohotkey_spammer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <bloons_td6_autohotkey_spammer>\n\n; Example initialization\nclass BloonsTd6AutohotkeySpammerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"bloons_td6_autohotkey_spammer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BloonsTd6AutohotkeySpammerExample()\n```"
     }
   ]
 }
