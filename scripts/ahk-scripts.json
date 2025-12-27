@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-12-27T01:20:21.153Z",
-  "totalScripts": 81,
+  "lastUpdated": "2025-12-27T06:26:54.224Z",
+  "totalScripts": 82,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -426,13 +426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-11-24T04:52:52Z",
-      "lastModified": "2025-12-25T13:24:35Z",
+      "lastModified": "2025-12-27T02:44:50Z",
       "source": "github",
       "url": "https://github.com/haraldchan/Svaner",
       "stars": 2,
       "forks": 0,
       "owner": "haraldchan",
-      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 2 | Forks: 0\n; Last Updated: 12/25/2025\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 2 | Forks: 0\n; Last Updated: 12/27/2025\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
     },
     {
       "id": "github-266191907",
@@ -1581,6 +1581,25 @@
       "forks": 0,
       "owner": "NoOne20104",
       "code": "```cpp\n; ============================================\n; Repository: NoOne20104/ahk-macro-recorder\n; ============================================\n; URL: https://github.com/NoOne20104/ahk-macro-recorder\n; Stars: 1 | Forks: 0\n; Last Updated: 12/23/2025\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 macro recorder with humanized playback and GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NoOne20104/ahk-macro-recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NoOne20104/ahk-macro-recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-macro-recorder>\n\n; Example initialization\nclass AhkMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-macro-recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkMacroRecorderExample()\n```"
+    },
+    {
+      "id": "github-1119155229",
+      "title": "gta-transaction-bot",
+      "category": "GitHub Repository",
+      "description": "Fast pixel-scanning bot for GTA Online transaction detection with visual HUD. Built with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-18T20:45:04Z",
+      "lastModified": "2025-12-27T06:13:42Z",
+      "source": "github",
+      "url": "https://github.com/0iy/gta-transaction-bot",
+      "stars": 0,
+      "forks": 0,
+      "owner": "0iy",
+      "code": "```cpp\n; ============================================\n; Repository: 0iy/gta-transaction-bot\n; ============================================\n; URL: https://github.com/0iy/gta-transaction-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 12/27/2025\n; License: MIT License\n;\n; Description:\n; Fast pixel-scanning bot for GTA Online transaction detection with visual HUD. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0iy/gta-transaction-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0iy/gta-transaction-bot/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gta-transaction-bot>\n\n; Example initialization\nclass GtaTransactionBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gta-transaction-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaTransactionBotExample()\n```"
     }
   ]
 }
