@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-12-27T18:24:23.594Z",
+  "lastUpdated": "2025-12-28T01:40:15.891Z",
   "totalScripts": 82,
   "categories": [
     "GUI",
@@ -542,13 +542,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-14T10:57:55Z",
-      "lastModified": "2025-12-23T09:01:06Z",
+      "lastModified": "2025-12-28T00:11:26Z",
       "source": "github",
       "url": "https://github.com/kogakisaki/OverField-Music-Player",
       "stars": 1,
       "forks": 0,
       "owner": "kogakisaki",
-      "code": "```cpp\n; ============================================\n; Repository: kogakisaki/OverField-Music-Player\n; ============================================\n; URL: https://github.com/kogakisaki/OverField-Music-Player\n; Stars: 1 | Forks: 0\n; Last Updated: 12/23/2025\n; License: MIT License\n;\n; Description:\n; 🎹 Master the stage in OverField (开放空间)! Automated Piano & Guitar player with MIDI support, built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kogakisaki/OverField-Music-Player.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kogakisaki/OverField-Music-Player/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <OverField-Music-Player>\n\n; Example initialization\nclass OverfieldMusicPlayerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"OverField-Music-Player loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OverfieldMusicPlayerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kogakisaki/OverField-Music-Player\n; ============================================\n; URL: https://github.com/kogakisaki/OverField-Music-Player\n; Stars: 1 | Forks: 0\n; Last Updated: 12/28/2025\n; License: MIT License\n;\n; Description:\n; 🎹 Master the stage in OverField (开放空间)! Automated Piano & Guitar player with MIDI support, built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kogakisaki/OverField-Music-Player.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kogakisaki/OverField-Music-Player/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <OverField-Music-Player>\n\n; Example initialization\nclass OverfieldMusicPlayerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"OverField-Music-Player loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OverfieldMusicPlayerExample()\n```"
     },
     {
       "id": "github-1111495315",
