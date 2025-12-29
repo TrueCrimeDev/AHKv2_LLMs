@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-12-28T18:25:12.417Z",
+  "lastUpdated": "2025-12-29T01:28:34.119Z",
   "totalScripts": 82,
   "categories": [
     "GUI",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2025-12-24T20:35:13Z",
+      "lastModified": "2025-12-28T22:25:46Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 214,
+      "stars": 215,
       "forks": 33,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 214 | Forks: 33\n; Last Updated: 12/24/2025\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 215 | Forks: 33\n; Last Updated: 12/28/2025\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -661,13 +661,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-13T23:12:12Z",
-      "lastModified": "2025-12-14T03:56:27Z",
+      "lastModified": "2025-12-28T23:59:17Z",
       "source": "github",
       "url": "https://github.com/SillyMythic/sniperfix-v2-wartycoon",
       "stars": 1,
       "forks": 0,
       "owner": "SillyMythic",
-      "code": "```cpp\n; ============================================\n; Repository: SillyMythic/sniperfix-v2-wartycoon\n; ============================================\n; URL: https://github.com/SillyMythic/sniperfix-v2-wartycoon\n; Stars: 1 | Forks: 0\n; Last Updated: 12/14/2025\n; License: The Unlicense\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SillyMythic/sniperfix-v2-wartycoon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SillyMythic/sniperfix-v2-wartycoon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sniperfix-v2-wartycoon>\n\n; Example initialization\nclass SniperfixV2WartycoonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sniperfix-v2-wartycoon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SniperfixV2WartycoonExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: SillyMythic/sniperfix-v2-wartycoon\n; ============================================\n; URL: https://github.com/SillyMythic/sniperfix-v2-wartycoon\n; Stars: 1 | Forks: 0\n; Last Updated: 12/28/2025\n; License: The Unlicense\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SillyMythic/sniperfix-v2-wartycoon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SillyMythic/sniperfix-v2-wartycoon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sniperfix-v2-wartycoon>\n\n; Example initialization\nclass SniperfixV2WartycoonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sniperfix-v2-wartycoon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SniperfixV2WartycoonExample()\n```"
     },
     {
       "id": "github-944165503",
@@ -1555,13 +1555,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-11-12T21:05:44Z",
-      "lastModified": "2025-12-23T22:27:09Z",
+      "lastModified": "2025-12-28T22:20:13Z",
       "source": "github",
       "url": "https://github.com/tonybweb/ahk-dumper",
-      "stars": 8,
+      "stars": 9,
       "forks": 1,
       "owner": "tonybweb",
-      "code": "```cpp\n; ============================================\n; Repository: tonybweb/ahk-dumper\n; ============================================\n; URL: https://github.com/tonybweb/ahk-dumper\n; Stars: 8 | Forks: 1\n; Last Updated: 12/23/2025\n; License: MIT License\n;\n; Description:\n; AutoHotkey V2 variable dumping for debugging and development.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tonybweb/ahk-dumper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tonybweb/ahk-dumper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-dumper>\n\n; Example initialization\nclass AhkDumperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-dumper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkDumperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tonybweb/ahk-dumper\n; ============================================\n; URL: https://github.com/tonybweb/ahk-dumper\n; Stars: 9 | Forks: 1\n; Last Updated: 12/28/2025\n; License: MIT License\n;\n; Description:\n; AutoHotkey V2 variable dumping for debugging and development.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tonybweb/ahk-dumper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tonybweb/ahk-dumper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-dumper>\n\n; Example initialization\nclass AhkDumperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-dumper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkDumperExample()\n```"
     },
     {
       "id": "github-1121940260",
