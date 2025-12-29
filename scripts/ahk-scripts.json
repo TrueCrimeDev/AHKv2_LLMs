@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-12-29T12:39:00.442Z",
-  "totalScripts": 82,
+  "lastUpdated": "2025-12-29T18:26:43.764Z",
+  "totalScripts": 83,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1600,6 +1600,25 @@
       "forks": 0,
       "owner": "0iy",
       "code": "```cpp\n; ============================================\n; Repository: 0iy/gta-transaction-bot\n; ============================================\n; URL: https://github.com/0iy/gta-transaction-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 12/27/2025\n; License: MIT License\n;\n; Description:\n; Fast pixel-scanning bot for GTA Online transaction detection with visual HUD. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0iy/gta-transaction-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0iy/gta-transaction-bot/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gta-transaction-bot>\n\n; Example initialization\nclass GtaTransactionBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gta-transaction-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaTransactionBotExample()\n```"
+    },
+    {
+      "id": "github-1124688853",
+      "title": "watcher",
+      "category": "GitHub Repository",
+      "description": "A small AutoHotkey v2 utility that watches another AHK script for runtime Warning/Error dialogs and writes details to a log.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-29T12:51:51Z",
+      "lastModified": "2025-12-29T13:04:41Z",
+      "source": "github",
+      "url": "https://github.com/sarfraznawaz2005/watcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sarfraznawaz2005",
+      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/watcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/watcher\n; Stars: 0 | Forks: 0\n; Last Updated: 12/29/2025\n; License: Not specified\n;\n; Description:\n; A small AutoHotkey v2 utility that watches another AHK script for runtime Warning/Error dialogs and writes details to a log.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/watcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/watcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <watcher>\n\n; Example initialization\nclass WatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"watcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WatcherExample()\n```"
     }
   ]
 }
