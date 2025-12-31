@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-12-31T06:28:41.352Z",
-  "totalScripts": 83,
+  "lastUpdated": "2025-12-31T12:36:49.087Z",
+  "totalScripts": 85,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -711,13 +711,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-11T10:06:51Z",
-      "lastModified": "2025-12-24T19:55:14Z",
+      "lastModified": "2025-12-31T12:15:12Z",
       "source": "github",
       "url": "https://github.com/voothi/20240411110510-autohotkey",
       "stars": 1,
       "forks": 0,
       "owner": "voothi",
-      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 12/24/2025\n; License: Not specified\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 12/31/2025\n; License: Not specified\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
     },
     {
       "id": "github-1106851668",
@@ -1619,6 +1619,44 @@
       "forks": 0,
       "owner": "sarfraznawaz2005",
       "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/watcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/watcher\n; Stars: 0 | Forks: 0\n; Last Updated: 12/29/2025\n; License: Not specified\n;\n; Description:\n; A small AutoHotkey v2 utility that watches another AHK script for runtime Warning/Error dialogs and writes details to a log.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/watcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/watcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <watcher>\n\n; Example initialization\nclass WatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"watcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WatcherExample()\n```"
+    },
+    {
+      "id": "github-1125793913",
+      "title": "TrayScratchpad",
+      "category": "GitHub Repository",
+      "description": "A lightweight AutoHotkey v2 tray scratchpad for quickly editing and copying text. Pop it up with a hotkey, edit, copy, and it auto-clears when you click away.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-31T11:24:53Z",
+      "lastModified": "2025-12-31T11:46:54Z",
+      "source": "github",
+      "url": "https://github.com/eupholus0-code/TrayScratchpad",
+      "stars": 0,
+      "forks": 0,
+      "owner": "eupholus0-code",
+      "code": "```cpp\n; ============================================\n; Repository: eupholus0-code/TrayScratchpad\n; ============================================\n; URL: https://github.com/eupholus0-code/TrayScratchpad\n; Stars: 0 | Forks: 0\n; Last Updated: 12/31/2025\n; License: Not specified\n;\n; Description:\n; A lightweight AutoHotkey v2 tray scratchpad for quickly editing and copying text. Pop it up with a hotkey, edit, copy, and it auto-clears when you click away.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eupholus0-code/TrayScratchpad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eupholus0-code/TrayScratchpad/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TrayScratchpad>\n\n; Example initialization\nclass TrayscratchpadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TrayScratchpad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TrayscratchpadExample()\n```"
+    },
+    {
+      "id": "github-1125712954",
+      "title": "EasyRest-AHK2",
+      "category": "GitHub Repository",
+      "description": "A modern, customizable rest reminder for Windows built with AutoHotkey v2. Features dynamic tray icons, multiple themes, transparency control, and session awareness 基于 AutoHotkey v2 开发的现代 Windows 休息提醒工具。支持动态托盘图标、多主题切换、透明度调节及系统会话感知。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-31T08:02:54Z",
+      "lastModified": "2025-12-31T08:27:42Z",
+      "source": "github",
+      "url": "https://github.com/rozen3/EasyRest-AHK2",
+      "stars": 3,
+      "forks": 0,
+      "owner": "rozen3",
+      "code": "```cpp\n; ============================================\n; Repository: rozen3/EasyRest-AHK2\n; ============================================\n; URL: https://github.com/rozen3/EasyRest-AHK2\n; Stars: 3 | Forks: 0\n; Last Updated: 12/31/2025\n; License: Not specified\n;\n; Description:\n; A modern, customizable rest reminder for Windows built with AutoHotkey v2. Features dynamic tray icons, multiple themes, transparency control, and session awareness 基于 AutoHotkey v2 开发的现代 Windows 休息提醒工具。支持动态托盘图标、多主题切换、透明度调节及系统会话感知。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rozen3/EasyRest-AHK2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rozen3/EasyRest-AHK2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasyRest-AHK2>\n\n; Example initialization\nclass EasyrestAhk2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasyRest-AHK2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasyrestAhk2Example()\n```"
     }
   ]
 }
