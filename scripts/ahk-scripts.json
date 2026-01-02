@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-01T18:26:14.229Z",
+  "lastUpdated": "2026-01-02T01:24:19.034Z",
   "totalScripts": 86,
   "categories": [
     "GUI",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2025-12-30T17:58:33Z",
+      "lastModified": "2026-01-02T00:55:39Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 42,
       "forks": 6,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 42 | Forks: 6\n; Last Updated: 12/30/2025\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 42 | Forks: 6\n; Last Updated: 1/2/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -661,13 +661,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-13T23:12:12Z",
-      "lastModified": "2025-12-28T23:59:17Z",
+      "lastModified": "2026-01-02T00:05:30Z",
       "source": "github",
       "url": "https://github.com/SillyMythic/sniperfix-v2-wartycoon",
       "stars": 1,
       "forks": 0,
       "owner": "SillyMythic",
-      "code": "```cpp\n; ============================================\n; Repository: SillyMythic/sniperfix-v2-wartycoon\n; ============================================\n; URL: https://github.com/SillyMythic/sniperfix-v2-wartycoon\n; Stars: 1 | Forks: 0\n; Last Updated: 12/28/2025\n; License: The Unlicense\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SillyMythic/sniperfix-v2-wartycoon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SillyMythic/sniperfix-v2-wartycoon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sniperfix-v2-wartycoon>\n\n; Example initialization\nclass SniperfixV2WartycoonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sniperfix-v2-wartycoon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SniperfixV2WartycoonExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: SillyMythic/sniperfix-v2-wartycoon\n; ============================================\n; URL: https://github.com/SillyMythic/sniperfix-v2-wartycoon\n; Stars: 1 | Forks: 0\n; Last Updated: 1/2/2026\n; License: The Unlicense\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SillyMythic/sniperfix-v2-wartycoon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SillyMythic/sniperfix-v2-wartycoon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sniperfix-v2-wartycoon>\n\n; Example initialization\nclass SniperfixV2WartycoonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sniperfix-v2-wartycoon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SniperfixV2WartycoonExample()\n```"
     },
     {
       "id": "github-944165503",
@@ -686,7 +686,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-01-01T18:15:31Z",
+      "lastModified": "2026-01-01T23:36:15Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
       "stars": 15,
