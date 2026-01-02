@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-02T01:24:19.034Z",
-  "totalScripts": 86,
+  "lastUpdated": "2026-01-02T06:28:50.221Z",
+  "totalScripts": 87,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -686,13 +686,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-01-01T23:36:15Z",
+      "lastModified": "2026-01-02T02:45:28Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
       "stars": 15,
       "forks": 5,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 15 | Forks: 5\n; Last Updated: 1/1/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 15 | Forks: 5\n; Last Updated: 1/2/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
     },
     {
       "id": "github-785157327",
@@ -1676,6 +1676,25 @@
       "forks": 0,
       "owner": "ManHuman504",
       "code": "```cpp\n; ============================================\n; Repository: ManHuman504/NumPadDeck\n; ============================================\n; URL: https://github.com/ManHuman504/NumPadDeck\n; Stars: 0 | Forks: 0\n; Last Updated: 1/1/2026\n; License: MIT License\n;\n; Description:\n; A lightweight, high-performance Stream Deck emulator for AutoHotkey v2. This script transforms your standard Numpad into a powerful, multi-profile macro pad with a sleek OSD (On-Screen Display) interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ManHuman504/NumPadDeck.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ManHuman504/NumPadDeck/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <NumPadDeck>\n\n; Example initialization\nclass NumpaddeckExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"NumPadDeck loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NumpaddeckExample()\n```"
+    },
+    {
+      "id": "github-1126483317",
+      "title": "IronFocus",
+      "category": "GitHub Repository",
+      "description": "IronFocus is a lightweight, \"scorched earth\" productivity tool for Windows built with AutoHotkey v2. It is designed for those who find themselves bypassing their own focus timers. Unlike standard apps, IronFocus actively prevents you from closing it or accessing distractions until your work is done.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-02T02:16:22Z",
+      "lastModified": "2026-01-02T05:01:47Z",
+      "source": "github",
+      "url": "https://github.com/buddhanussati/IronFocus",
+      "stars": 0,
+      "forks": 0,
+      "owner": "buddhanussati",
+      "code": "```cpp\n; ============================================\n; Repository: buddhanussati/IronFocus\n; ============================================\n; URL: https://github.com/buddhanussati/IronFocus\n; Stars: 0 | Forks: 0\n; Last Updated: 1/2/2026\n; License: MIT License\n;\n; Description:\n; IronFocus is a lightweight, \"scorched earth\" productivity tool for Windows built with AutoHotkey v2. It is designed for those who find themselves bypassing their own focus timers. Unlike standard apps, IronFocus actively prevents you from closing it or accessing distractions until your work is done.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/buddhanussati/IronFocus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/buddhanussati/IronFocus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IronFocus>\n\n; Example initialization\nclass IronfocusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IronFocus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := IronfocusExample()\n```"
     }
   ]
 }
