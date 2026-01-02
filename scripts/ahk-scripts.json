@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-02T06:28:50.221Z",
+  "lastUpdated": "2026-01-02T12:35:57.020Z",
   "totalScripts": 87,
   "categories": [
     "GUI",
@@ -975,13 +975,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-05T07:59:39Z",
-      "lastModified": "2025-12-05T09:18:58Z",
+      "lastModified": "2026-01-02T12:35:27Z",
       "source": "github",
       "url": "https://github.com/Dazuzi/HD2StratHotkeysGUI",
       "stars": 2,
       "forks": 0,
       "owner": "Dazuzi",
-      "code": "```cpp\n; ============================================\n; Repository: Dazuzi/HD2StratHotkeysGUI\n; ============================================\n; URL: https://github.com/Dazuzi/HD2StratHotkeysGUI\n; Stars: 2 | Forks: 0\n; Last Updated: 12/5/2025\n; License: Not specified\n;\n; Description:\n; Helldivers 2 Stratagem AutoHotkey v2 script with GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dazuzi/HD2StratHotkeysGUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dazuzi/HD2StratHotkeysGUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HD2StratHotkeysGUI>\n\n; Example initialization\nclass Hd2strathotkeysguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HD2StratHotkeysGUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Hd2strathotkeysguiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Dazuzi/HD2StratHotkeysGUI\n; ============================================\n; URL: https://github.com/Dazuzi/HD2StratHotkeysGUI\n; Stars: 2 | Forks: 0\n; Last Updated: 1/2/2026\n; License: Not specified\n;\n; Description:\n; Helldivers 2 Stratagem AutoHotkey v2 script with GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dazuzi/HD2StratHotkeysGUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dazuzi/HD2StratHotkeysGUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HD2StratHotkeysGUI>\n\n; Example initialization\nclass Hd2strathotkeysguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HD2StratHotkeysGUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Hd2strathotkeysguiExample()\n```"
     },
     {
       "id": "github-913659961",
@@ -1688,7 +1688,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-02T02:16:22Z",
-      "lastModified": "2026-01-02T05:01:47Z",
+      "lastModified": "2026-01-02T07:07:07Z",
       "source": "github",
       "url": "https://github.com/buddhanussati/IronFocus",
       "stars": 0,
