@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-02T18:25:44.111Z",
+  "lastUpdated": "2026-01-03T01:19:44.904Z",
   "totalScripts": 87,
   "categories": [
     "GUI",
@@ -580,13 +580,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-16T17:57:09Z",
-      "lastModified": "2025-12-16T09:48:38Z",
+      "lastModified": "2026-01-02T18:45:37Z",
       "source": "github",
       "url": "https://github.com/daggo04/ahkv2_window_cycling",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "daggo04",
-      "code": "```cpp\n; ============================================\n; Repository: daggo04/ahkv2_window_cycling\n; ============================================\n; URL: https://github.com/daggo04/ahkv2_window_cycling\n; Stars: 0 | Forks: 0\n; Last Updated: 12/16/2025\n; License: Not specified\n;\n; Description:\n; Simple custom script for swapping, launching and cycling windows using AutoHotKeys V2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/daggo04/ahkv2_window_cycling.git\n;\n; Option 2: Download ZIP\n;   https://github.com/daggo04/ahkv2_window_cycling/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkv2_window_cycling>\n\n; Example initialization\nclass Ahkv2WindowCyclingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkv2_window_cycling loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2WindowCyclingExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: daggo04/ahkv2_window_cycling\n; ============================================\n; URL: https://github.com/daggo04/ahkv2_window_cycling\n; Stars: 1 | Forks: 0\n; Last Updated: 1/2/2026\n; License: Not specified\n;\n; Description:\n; Simple custom script for swapping, launching and cycling windows using AutoHotKeys V2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/daggo04/ahkv2_window_cycling.git\n;\n; Option 2: Download ZIP\n;   https://github.com/daggo04/ahkv2_window_cycling/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkv2_window_cycling>\n\n; Example initialization\nclass Ahkv2WindowCyclingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkv2_window_cycling loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2WindowCyclingExample()\n```"
     },
     {
       "id": "github-1116689217",
@@ -686,7 +686,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-01-02T02:45:28Z",
+      "lastModified": "2026-01-02T20:59:19Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
       "stars": 15,
