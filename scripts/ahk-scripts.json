@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-03T12:34:19.644Z",
-  "totalScripts": 87,
+  "lastUpdated": "2026-01-03T18:24:47.931Z",
+  "totalScripts": 89,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -711,13 +711,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-11T10:06:51Z",
-      "lastModified": "2026-01-01T15:43:18Z",
+      "lastModified": "2026-01-03T17:54:18Z",
       "source": "github",
       "url": "https://github.com/voothi/20240411110510-autohotkey",
       "stars": 1,
       "forks": 0,
       "owner": "voothi",
-      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 1/1/2026\n; License: Not specified\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 1/3/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
     },
     {
       "id": "github-1106851668",
@@ -1695,6 +1695,44 @@
       "forks": 0,
       "owner": "buddhanussati",
       "code": "```cpp\n; ============================================\n; Repository: buddhanussati/IronFocus\n; ============================================\n; URL: https://github.com/buddhanussati/IronFocus\n; Stars: 0 | Forks: 0\n; Last Updated: 1/2/2026\n; License: MIT License\n;\n; Description:\n; IronFocus is a lightweight, \"scorched earth\" productivity tool for Windows built with AutoHotkey v2. It is designed for those who find themselves bypassing their own focus timers. Unlike standard apps, IronFocus actively prevents you from closing it or accessing distractions until your work is done.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/buddhanussati/IronFocus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/buddhanussati/IronFocus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IronFocus>\n\n; Example initialization\nclass IronfocusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IronFocus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := IronfocusExample()\n```"
+    },
+    {
+      "id": "github-1127333337",
+      "title": "Keyfinder",
+      "category": "GitHub Repository",
+      "description": "An advanced Windows utility for capturing application metadata, managing keyboard shortcuts, and tracking accessibility compatibility. Built with AutoHotkey v2.0+ and featuring a stable, theme-aware GUI and SQLite integration.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-03T17:06:06Z",
+      "lastModified": "2026-01-03T17:08:08Z",
+      "source": "github",
+      "url": "https://github.com/eyetechanalytics/Keyfinder",
+      "stars": 0,
+      "forks": 0,
+      "owner": "eyetechanalytics",
+      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Keyfinder\n; ============================================\n; URL: https://github.com/eyetechanalytics/Keyfinder\n; Stars: 0 | Forks: 0\n; Last Updated: 1/3/2026\n; License: MIT License\n;\n; Description:\n; An advanced Windows utility for capturing application metadata, managing keyboard shortcuts, and tracking accessibility compatibility. Built with AutoHotkey v2.0+ and featuring a stable, theme-aware GUI and SQLite integration.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Keyfinder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Keyfinder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Keyfinder>\n\n; Example initialization\nclass KeyfinderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Keyfinder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyfinderExample()\n```"
+    },
+    {
+      "id": "github-1127321492",
+      "title": "Beacon",
+      "category": "GitHub Repository",
+      "description": "Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-03T16:38:09Z",
+      "lastModified": "2026-01-03T16:42:10Z",
+      "source": "github",
+      "url": "https://github.com/eyetechanalytics/Beacon",
+      "stars": 0,
+      "forks": 0,
+      "owner": "eyetechanalytics",
+      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Beacon\n; ============================================\n; URL: https://github.com/eyetechanalytics/Beacon\n; Stars: 0 | Forks: 0\n; Last Updated: 1/3/2026\n; License: MIT License\n;\n; Description:\n; Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Beacon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Beacon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Beacon>\n\n; Example initialization\nclass BeaconExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Beacon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeaconExample()\n```"
     }
   ]
 }
