@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-04T01:41:26.705Z",
+  "lastUpdated": "2026-01-04T06:27:24.704Z",
   "totalScripts": 91,
   "categories": [
     "GUI",
@@ -686,13 +686,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-01-02T20:59:19Z",
+      "lastModified": "2026-01-04T04:06:39Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
       "stars": 15,
       "forks": 5,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 15 | Forks: 5\n; Last Updated: 1/2/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 15 | Forks: 5\n; Last Updated: 1/4/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
     },
     {
       "id": "github-785157327",
@@ -856,7 +856,7 @@
       "id": "github-1051914476",
       "title": "AhkWin32Projection",
       "category": "GitHub Repository",
-      "description": "Win32 API bindings for 64-bit AutoHotkey V2",
+      "description": "💽Win32 API bindings for 64-bit AutoHotkey V2",
       "tags": [
         "github",
         "repository",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2025-12-24T00:12:03Z",
+      "lastModified": "2026-01-04T02:12:51Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
       "stars": 28,
       "forks": 3,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 28 | Forks: 3\n; Last Updated: 12/24/2025\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 28 | Forks: 3\n; Last Updated: 1/4/2026\n; License: MIT License\n;\n; Description:\n; 💽Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
