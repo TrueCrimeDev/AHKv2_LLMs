@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-03T18:24:47.931Z",
-  "totalScripts": 89,
+  "lastUpdated": "2026-01-04T01:41:26.705Z",
+  "totalScripts": 91,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1733,6 +1733,44 @@
       "forks": 0,
       "owner": "eyetechanalytics",
       "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Beacon\n; ============================================\n; URL: https://github.com/eyetechanalytics/Beacon\n; Stars: 0 | Forks: 0\n; Last Updated: 1/3/2026\n; License: MIT License\n;\n; Description:\n; Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Beacon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Beacon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Beacon>\n\n; Example initialization\nclass BeaconExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Beacon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeaconExample()\n```"
+    },
+    {
+      "id": "github-1127454293",
+      "title": "winui3-ahk",
+      "category": "GitHub Repository",
+      "description": "WinUI3 Bridge for AutoHotkey v2 - Host modern XAML UIs in AHK scripts",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-03T23:13:25Z",
+      "lastModified": "2026-01-03T23:18:40Z",
+      "source": "github",
+      "url": "https://github.com/012090120901209/winui3-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "012090120901209",
+      "code": "```cpp\n; ============================================\n; Repository: 012090120901209/winui3-ahk\n; ============================================\n; URL: https://github.com/012090120901209/winui3-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 1/3/2026\n; License: Not specified\n;\n; Description:\n; WinUI3 Bridge for AutoHotkey v2 - Host modern XAML UIs in AHK scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/012090120901209/winui3-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/012090120901209/winui3-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <winui3-ahk>\n\n; Example initialization\nclass Winui3AhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"winui3-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Winui3AhkExample()\n```"
+    },
+    {
+      "id": "github-1126962043",
+      "title": "ahkimagemagick",
+      "category": "GitHub Repository",
+      "description": "🪄 Modern ImageMagick bindings for AutoHotkey V2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-02T22:35:14Z",
+      "lastModified": "2026-01-03T22:52:03Z",
+      "source": "github",
+      "url": "https://github.com/holy-tao/ahkimagemagick",
+      "stars": 0,
+      "forks": 0,
+      "owner": "holy-tao",
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahkimagemagick\n; ============================================\n; URL: https://github.com/holy-tao/ahkimagemagick\n; Stars: 0 | Forks: 0\n; Last Updated: 1/3/2026\n; License: MIT License\n;\n; Description:\n; 🪄 Modern ImageMagick bindings for AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahkimagemagick.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahkimagemagick/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkimagemagick>\n\n; Example initialization\nclass AhkimagemagickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkimagemagick loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkimagemagickExample()\n```"
     }
   ]
 }
