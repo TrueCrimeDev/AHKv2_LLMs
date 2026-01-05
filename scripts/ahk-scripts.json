@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-05T06:34:35.401Z",
+  "lastUpdated": "2026-01-05T12:40:15.679Z",
   "totalScripts": 93,
   "categories": [
     "GUI",
@@ -950,13 +950,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-11-22T12:06:14Z",
-      "lastModified": "2025-12-06T13:55:01Z",
+      "lastModified": "2026-01-05T09:00:35Z",
       "source": "github",
       "url": "https://github.com/autocarrrot/Mouse-Flow-Gestures",
       "stars": 0,
       "forks": 0,
       "owner": "autocarrrot",
-      "code": "```cpp\n; ============================================\n; Repository: autocarrrot/Mouse-Flow-Gestures\n; ============================================\n; URL: https://github.com/autocarrrot/Mouse-Flow-Gestures\n; Stars: 0 | Forks: 0\n; Last Updated: 12/6/2025\n; License: Not specified\n;\n; Description:\n; A power-user AutoHotkey v2 script designed for any 5-button mouse.. Enables trackpad-like gestures, instant virtual desktop management, window snapping, and advanced productivity shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autocarrrot/Mouse-Flow-Gestures.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autocarrrot/Mouse-Flow-Gestures/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Flow-Gestures>\n\n; Example initialization\nclass MouseFlowGesturesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Flow-Gestures loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseFlowGesturesExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: autocarrrot/Mouse-Flow-Gestures\n; ============================================\n; URL: https://github.com/autocarrrot/Mouse-Flow-Gestures\n; Stars: 0 | Forks: 0\n; Last Updated: 1/5/2026\n; License: Not specified\n;\n; Description:\n; A power-user AutoHotkey v2 script designed for any 5-button mouse.. Enables trackpad-like gestures, instant virtual desktop management, window snapping, and advanced productivity shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autocarrrot/Mouse-Flow-Gestures.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autocarrrot/Mouse-Flow-Gestures/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Flow-Gestures>\n\n; Example initialization\nclass MouseFlowGesturesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Flow-Gestures loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseFlowGesturesExample()\n```"
     },
     {
       "id": "github-838227269",
