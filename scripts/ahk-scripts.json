@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-04T18:25:04.268Z",
-  "totalScripts": 91,
+  "lastUpdated": "2026-01-05T01:41:27.049Z",
+  "totalScripts": 93,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1771,6 +1771,50 @@
       "forks": 0,
       "owner": "holy-tao",
       "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahkimagemagick\n; ============================================\n; URL: https://github.com/holy-tao/ahkimagemagick\n; Stars: 0 | Forks: 0\n; Last Updated: 1/4/2026\n; License: MIT License\n;\n; Description:\n; 🪄 Modern ImageMagick bindings for AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahkimagemagick.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahkimagemagick/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkimagemagick>\n\n; Example initialization\nclass AhkimagemagickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkimagemagick loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkimagemagickExample()\n```"
+    },
+    {
+      "id": "github-1127848546",
+      "title": "WinMiddleClickPaste",
+      "category": "GitHub Repository",
+      "description": "A Windows utility that brings Linux-style middle-click paste functionality to Windows using AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-04T17:58:02Z",
+      "lastModified": "2026-01-04T20:04:04Z",
+      "source": "github",
+      "url": "https://github.com/LukasMoore/WinMiddleClickPaste",
+      "stars": 1,
+      "forks": 0,
+      "owner": "LukasMoore",
+      "code": "```cpp\n; ============================================\n; Repository: LukasMoore/WinMiddleClickPaste\n; ============================================\n; URL: https://github.com/LukasMoore/WinMiddleClickPaste\n; Stars: 1 | Forks: 0\n; Last Updated: 1/4/2026\n; License: MIT License\n;\n; Description:\n; A Windows utility that brings Linux-style middle-click paste functionality to Windows using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/LukasMoore/WinMiddleClickPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/LukasMoore/WinMiddleClickPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMiddleClickPaste>\n\n; Example initialization\nclass WinmiddleclickpasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMiddleClickPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmiddleclickpasteExample()\n```"
+    },
+    {
+      "id": "github-1125812361",
+      "title": "DEMON_STACK",
+      "category": "GitHub Repository",
+      "description": "High-performance AutoHotkey v2 library suite for real-time pipelines (IPC, SPSC, EMA, telemetry) with selftests and Gold stacks.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "crc32",
+        "ipc",
+        "lock-free",
+        "performance"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-12-31T12:11:33Z",
+      "lastModified": "2026-01-04T19:57:15Z",
+      "source": "github",
+      "url": "https://github.com/tonchi29-a11y/DEMON_STACK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "tonchi29-a11y",
+      "code": "```cpp\n; ============================================\n; Repository: tonchi29-a11y/DEMON_STACK\n; ============================================\n; URL: https://github.com/tonchi29-a11y/DEMON_STACK\n; Stars: 0 | Forks: 0\n; Last Updated: 1/4/2026\n; License: Not specified\n;\n; Description:\n; High-performance AutoHotkey v2 library suite for real-time pipelines (IPC, SPSC, EMA, telemetry) with selftests and Gold stacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tonchi29-a11y/DEMON_STACK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tonchi29-a11y/DEMON_STACK/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DEMON_STACK>\n\n; Example initialization\nclass DemonStackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DEMON_STACK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DemonStackExample()\n```"
     }
   ]
 }
