@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-05T18:28:33.936Z",
-  "totalScripts": 93,
+  "lastUpdated": "2026-01-06T01:24:06.548Z",
+  "totalScripts": 95,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1815,6 +1815,44 @@
       "forks": 0,
       "owner": "tonchi29-a11y",
       "code": "```cpp\n; ============================================\n; Repository: tonchi29-a11y/DEMON_STACK\n; ============================================\n; URL: https://github.com/tonchi29-a11y/DEMON_STACK\n; Stars: 0 | Forks: 0\n; Last Updated: 1/4/2026\n; License: Not specified\n;\n; Description:\n; High-performance AutoHotkey v2 library suite for real-time pipelines (IPC, SPSC, EMA, telemetry) with selftests and Gold stacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tonchi29-a11y/DEMON_STACK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tonchi29-a11y/DEMON_STACK/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DEMON_STACK>\n\n; Example initialization\nclass DemonStackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DEMON_STACK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DemonStackExample()\n```"
+    },
+    {
+      "id": "github-1128638170",
+      "title": "NoRecoilCS2",
+      "category": "GitHub Repository",
+      "description": "AutoHotKey V2 script to reduce spray pattern recoil in CS2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-06T00:01:49Z",
+      "lastModified": "2026-01-06T00:42:07Z",
+      "source": "github",
+      "url": "https://github.com/fbikat/NoRecoilCS2",
+      "stars": 1,
+      "forks": 0,
+      "owner": "fbikat",
+      "code": "```cpp\n; ============================================\n; Repository: fbikat/NoRecoilCS2\n; ============================================\n; URL: https://github.com/fbikat/NoRecoilCS2\n; Stars: 1 | Forks: 0\n; Last Updated: 1/6/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotKey V2 script to reduce spray pattern recoil in CS2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fbikat/NoRecoilCS2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fbikat/NoRecoilCS2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <NoRecoilCS2>\n\n; Example initialization\nclass Norecoilcs2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"NoRecoilCS2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Norecoilcs2Example()\n```"
+    },
+    {
+      "id": "github-1079244559",
+      "title": "AutoHotkey_v2",
+      "category": "GitHub Repository",
+      "description": "Various AHK_v2 projects",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-10-19T12:22:28Z",
+      "lastModified": "2026-01-05T21:54:18Z",
+      "source": "github",
+      "url": "https://github.com/jasc2v8/AutoHotkey_v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jasc2v8",
+      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 1/5/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     }
   ]
 }
