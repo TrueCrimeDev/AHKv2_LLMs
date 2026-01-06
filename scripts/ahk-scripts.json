@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-06T12:38:38.504Z",
-  "totalScripts": 95,
+  "lastUpdated": "2026-01-06T18:27:30.872Z",
+  "totalScripts": 96,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1779,17 +1779,21 @@
       "description": "A Windows utility that brings Linux-style middle-click paste functionality to Windows using AutoHotkey v2.",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "clipboard",
+        "productivity",
+        "windows"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T17:58:02Z",
-      "lastModified": "2026-01-05T13:33:04Z",
+      "lastModified": "2026-01-06T13:43:34Z",
       "source": "github",
       "url": "https://github.com/LukasMoore/WinMiddleClickPaste",
       "stars": 1,
       "forks": 0,
       "owner": "LukasMoore",
-      "code": "```cpp\n; ============================================\n; Repository: LukasMoore/WinMiddleClickPaste\n; ============================================\n; URL: https://github.com/LukasMoore/WinMiddleClickPaste\n; Stars: 1 | Forks: 0\n; Last Updated: 1/5/2026\n; License: MIT License\n;\n; Description:\n; A Windows utility that brings Linux-style middle-click paste functionality to Windows using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/LukasMoore/WinMiddleClickPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/LukasMoore/WinMiddleClickPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMiddleClickPaste>\n\n; Example initialization\nclass WinmiddleclickpasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMiddleClickPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmiddleclickpasteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: LukasMoore/WinMiddleClickPaste\n; ============================================\n; URL: https://github.com/LukasMoore/WinMiddleClickPaste\n; Stars: 1 | Forks: 0\n; Last Updated: 1/6/2026\n; License: MIT License\n;\n; Description:\n; A Windows utility that brings Linux-style middle-click paste functionality to Windows using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/LukasMoore/WinMiddleClickPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/LukasMoore/WinMiddleClickPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMiddleClickPaste>\n\n; Example initialization\nclass WinmiddleclickpasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMiddleClickPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmiddleclickpasteExample()\n```"
     },
     {
       "id": "github-1125812361",
@@ -1853,6 +1857,25 @@
       "forks": 0,
       "owner": "jasc2v8",
       "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 1/5/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-1129028403",
+      "title": "AHKCommand",
+      "category": "GitHub Repository",
+      "description": "AHKCommand 是一款基于 AutoHotkey V2 构建的高性能、低延迟的生产力工具，集成了文本快速扩展（Text Expander）与命令启动器（Launcher）的功能，专为追求极致效率的开发者、运维人员和文字工作者设计。PS：作者不是程序员，使用Gemini+Claude开发，代码质量不一定好，BUG不一定能解决。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-06T14:01:49Z",
+      "lastModified": "2026-01-06T14:18:20Z",
+      "source": "github",
+      "url": "https://github.com/MisterZakary/AHKCommand",
+      "stars": 1,
+      "forks": 0,
+      "owner": "MisterZakary",
+      "code": "```cpp\n; ============================================\n; Repository: MisterZakary/AHKCommand\n; ============================================\n; URL: https://github.com/MisterZakary/AHKCommand\n; Stars: 1 | Forks: 0\n; Last Updated: 1/6/2026\n; License: Not specified\n;\n; Description:\n; AHKCommand 是一款基于 AutoHotkey V2 构建的高性能、低延迟的生产力工具，集成了文本快速扩展（Text Expander）与命令启动器（Launcher）的功能，专为追求极致效率的开发者、运维人员和文字工作者设计。PS：作者不是程序员，使用Gemini+Claude开发，代码质量不一定好，BUG不一定能解决。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MisterZakary/AHKCommand.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MisterZakary/AHKCommand/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKCommand>\n\n; Example initialization\nclass AhkcommandExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKCommand loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkcommandExample()\n```"
     }
   ]
 }
