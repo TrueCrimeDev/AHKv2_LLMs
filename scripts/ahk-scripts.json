@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-07T01:24:15.087Z",
+  "lastUpdated": "2026-01-07T06:29:01.354Z",
   "totalScripts": 97,
   "categories": [
     "GUI",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-01-04T02:12:51Z",
+      "lastModified": "2026-01-07T03:34:09Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
-      "stars": 28,
+      "stars": 29,
       "forks": 3,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 28 | Forks: 3\n; Last Updated: 1/4/2026\n; License: MIT License\n;\n; Description:\n; 💽Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 29 | Forks: 3\n; Last Updated: 1/7/2026\n; License: MIT License\n;\n; Description:\n; 💽Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -1513,13 +1513,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-22T15:19:07Z",
-      "lastModified": "2025-12-22T16:21:59Z",
+      "lastModified": "2026-01-07T06:07:23Z",
       "source": "github",
       "url": "https://github.com/jazator/serbian_caps",
       "stars": 0,
       "forks": 0,
       "owner": "jazator",
-      "code": "```cpp\n; ============================================\n; Repository: jazator/serbian_caps\n; ============================================\n; URL: https://github.com/jazator/serbian_caps\n; Stars: 0 | Forks: 0\n; Last Updated: 12/22/2025\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that adds Serbian letters to RU/EN keyboard layouts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jazator/serbian_caps.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jazator/serbian_caps/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <serbian_caps>\n\n; Example initialization\nclass SerbianCapsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"serbian_caps loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SerbianCapsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jazator/serbian_caps\n; ============================================\n; URL: https://github.com/jazator/serbian_caps\n; Stars: 0 | Forks: 0\n; Last Updated: 1/7/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that adds Serbian letters to RU/EN keyboard layouts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jazator/serbian_caps.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jazator/serbian_caps/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <serbian_caps>\n\n; Example initialization\nclass SerbianCapsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"serbian_caps loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SerbianCapsExample()\n```"
     },
     {
       "id": "github-1121414244",
@@ -1650,13 +1650,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-31T08:02:54Z",
-      "lastModified": "2026-01-06T08:06:00Z",
+      "lastModified": "2026-01-07T01:37:46Z",
       "source": "github",
       "url": "https://github.com/rozen3/EasyRest-AHK2",
       "stars": 4,
       "forks": 0,
       "owner": "rozen3",
-      "code": "```cpp\n; ============================================\n; Repository: rozen3/EasyRest-AHK2\n; ============================================\n; URL: https://github.com/rozen3/EasyRest-AHK2\n; Stars: 4 | Forks: 0\n; Last Updated: 1/6/2026\n; License: Not specified\n;\n; Description:\n; A modern, customizable rest reminder for Windows built with AutoHotkey v2. Features dynamic tray icons, multiple themes, transparency control, and session awareness 基于 AutoHotkey v2 开发的现代 Windows 休息提醒工具。支持动态托盘图标、多主题切换、透明度调节及系统会话感知。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rozen3/EasyRest-AHK2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rozen3/EasyRest-AHK2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasyRest-AHK2>\n\n; Example initialization\nclass EasyrestAhk2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasyRest-AHK2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasyrestAhk2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: rozen3/EasyRest-AHK2\n; ============================================\n; URL: https://github.com/rozen3/EasyRest-AHK2\n; Stars: 4 | Forks: 0\n; Last Updated: 1/7/2026\n; License: Not specified\n;\n; Description:\n; A modern, customizable rest reminder for Windows built with AutoHotkey v2. Features dynamic tray icons, multiple themes, transparency control, and session awareness 基于 AutoHotkey v2 开发的现代 Windows 休息提醒工具。支持动态托盘图标、多主题切换、透明度调节及系统会话感知。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rozen3/EasyRest-AHK2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rozen3/EasyRest-AHK2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasyRest-AHK2>\n\n; Example initialization\nclass EasyrestAhk2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasyRest-AHK2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasyrestAhk2Example()\n```"
     },
     {
       "id": "github-1126239398",
