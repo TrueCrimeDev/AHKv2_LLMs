@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-08T01:25:01.656Z",
+  "lastUpdated": "2026-01-08T06:29:39.733Z",
   "totalScripts": 97,
   "categories": [
     "GUI",
@@ -1650,13 +1650,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-31T08:02:54Z",
-      "lastModified": "2026-01-07T01:37:46Z",
+      "lastModified": "2026-01-08T02:46:14Z",
       "source": "github",
       "url": "https://github.com/rozen3/EasyRest-AHK2",
       "stars": 4,
       "forks": 0,
       "owner": "rozen3",
-      "code": "```cpp\n; ============================================\n; Repository: rozen3/EasyRest-AHK2\n; ============================================\n; URL: https://github.com/rozen3/EasyRest-AHK2\n; Stars: 4 | Forks: 0\n; Last Updated: 1/7/2026\n; License: Not specified\n;\n; Description:\n; A modern, customizable rest reminder for Windows built with AutoHotkey v2. Features dynamic tray icons, multiple themes, transparency control, and session awareness 基于 AutoHotkey v2 开发的现代 Windows 休息提醒工具。支持动态托盘图标、多主题切换、透明度调节及系统会话感知。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rozen3/EasyRest-AHK2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rozen3/EasyRest-AHK2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasyRest-AHK2>\n\n; Example initialization\nclass EasyrestAhk2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasyRest-AHK2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasyrestAhk2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: rozen3/EasyRest-AHK2\n; ============================================\n; URL: https://github.com/rozen3/EasyRest-AHK2\n; Stars: 4 | Forks: 0\n; Last Updated: 1/8/2026\n; License: Not specified\n;\n; Description:\n; A modern, customizable rest reminder for Windows built with AutoHotkey v2. Features dynamic tray icons, multiple themes, transparency control, and session awareness 基于 AutoHotkey v2 开发的现代 Windows 休息提醒工具。支持动态托盘图标、多主题切换、透明度调节及系统会话感知。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rozen3/EasyRest-AHK2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rozen3/EasyRest-AHK2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasyRest-AHK2>\n\n; Example initialization\nclass EasyrestAhk2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasyRest-AHK2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasyrestAhk2Example()\n```"
     },
     {
       "id": "github-1126239398",
