@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-08T06:29:39.733Z",
+  "lastUpdated": "2026-01-08T12:39:42.766Z",
   "totalScripts": 97,
   "categories": [
     "GUI",
@@ -1787,13 +1787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T17:58:02Z",
-      "lastModified": "2026-01-07T16:58:05Z",
+      "lastModified": "2026-01-08T11:41:40Z",
       "source": "github",
       "url": "https://github.com/LukasMoore/WinMiddleClickPaste",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "LukasMoore",
-      "code": "```cpp\n; ============================================\n; Repository: LukasMoore/WinMiddleClickPaste\n; ============================================\n; URL: https://github.com/LukasMoore/WinMiddleClickPaste\n; Stars: 1 | Forks: 0\n; Last Updated: 1/7/2026\n; License: MIT License\n;\n; Description:\n; Automatically copies any highlighted text and pastes it when you click the middle mouse button, bringing Linux-style middle-click paste functionality to Windows using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/LukasMoore/WinMiddleClickPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/LukasMoore/WinMiddleClickPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMiddleClickPaste>\n\n; Example initialization\nclass WinmiddleclickpasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMiddleClickPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmiddleclickpasteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: LukasMoore/WinMiddleClickPaste\n; ============================================\n; URL: https://github.com/LukasMoore/WinMiddleClickPaste\n; Stars: 2 | Forks: 0\n; Last Updated: 1/8/2026\n; License: MIT License\n;\n; Description:\n; Automatically copies any highlighted text and pastes it when you click the middle mouse button, bringing Linux-style middle-click paste functionality to Windows using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/LukasMoore/WinMiddleClickPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/LukasMoore/WinMiddleClickPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMiddleClickPaste>\n\n; Example initialization\nclass WinmiddleclickpasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMiddleClickPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmiddleclickpasteExample()\n```"
     },
     {
       "id": "github-1125812361",
