@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-09T06:29:13.704Z",
+  "lastUpdated": "2026-01-09T12:38:46.714Z",
   "totalScripts": 98,
   "categories": [
     "GUI",
@@ -1799,7 +1799,7 @@
       "id": "github-1125812361",
       "title": "DEMON_STACK",
       "category": "GitHub Repository",
-      "description": "High-performance AutoHotkey v2 library suite for real-time pipelines (IPC, SPSC, EMA, telemetry) with selftests and Gold stacks.",
+      "description": "High-performance AutoHotkey v2 library suite for real-time pipelines (Lock-Free IPC, SPSC, EMA, Telemetry, Watchdog, Raw Input...) with selftests and Gold stacks.",
       "tags": [
         "github",
         "repository",
@@ -1812,13 +1812,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-31T12:11:33Z",
-      "lastModified": "2026-01-09T06:07:28Z",
+      "lastModified": "2026-01-09T08:05:07Z",
       "source": "github",
       "url": "https://github.com/tonchi29-a11y/DEMON_STACK",
       "stars": 0,
       "forks": 0,
       "owner": "tonchi29-a11y",
-      "code": "```cpp\n; ============================================\n; Repository: tonchi29-a11y/DEMON_STACK\n; ============================================\n; URL: https://github.com/tonchi29-a11y/DEMON_STACK\n; Stars: 0 | Forks: 0\n; Last Updated: 1/9/2026\n; License: Not specified\n;\n; Description:\n; High-performance AutoHotkey v2 library suite for real-time pipelines (IPC, SPSC, EMA, telemetry) with selftests and Gold stacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tonchi29-a11y/DEMON_STACK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tonchi29-a11y/DEMON_STACK/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DEMON_STACK>\n\n; Example initialization\nclass DemonStackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DEMON_STACK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DemonStackExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tonchi29-a11y/DEMON_STACK\n; ============================================\n; URL: https://github.com/tonchi29-a11y/DEMON_STACK\n; Stars: 0 | Forks: 0\n; Last Updated: 1/9/2026\n; License: Not specified\n;\n; Description:\n; High-performance AutoHotkey v2 library suite for real-time pipelines (Lock-Free IPC, SPSC, EMA, Telemetry, Watchdog, Raw Input...) with selftests and Gold stacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tonchi29-a11y/DEMON_STACK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tonchi29-a11y/DEMON_STACK/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DEMON_STACK>\n\n; Example initialization\nclass DemonStackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DEMON_STACK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DemonStackExample()\n```"
     },
     {
       "id": "github-1128638170",
