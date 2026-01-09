@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-08T18:24:20.389Z",
-  "totalScripts": 97,
+  "lastUpdated": "2026-01-09T01:25:05.325Z",
+  "totalScripts": 98,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1812,13 +1812,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-31T12:11:33Z",
-      "lastModified": "2026-01-04T19:57:15Z",
+      "lastModified": "2026-01-09T00:32:58Z",
       "source": "github",
       "url": "https://github.com/tonchi29-a11y/DEMON_STACK",
       "stars": 0,
       "forks": 0,
       "owner": "tonchi29-a11y",
-      "code": "```cpp\n; ============================================\n; Repository: tonchi29-a11y/DEMON_STACK\n; ============================================\n; URL: https://github.com/tonchi29-a11y/DEMON_STACK\n; Stars: 0 | Forks: 0\n; Last Updated: 1/4/2026\n; License: Not specified\n;\n; Description:\n; High-performance AutoHotkey v2 library suite for real-time pipelines (IPC, SPSC, EMA, telemetry) with selftests and Gold stacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tonchi29-a11y/DEMON_STACK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tonchi29-a11y/DEMON_STACK/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DEMON_STACK>\n\n; Example initialization\nclass DemonStackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DEMON_STACK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DemonStackExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tonchi29-a11y/DEMON_STACK\n; ============================================\n; URL: https://github.com/tonchi29-a11y/DEMON_STACK\n; Stars: 0 | Forks: 0\n; Last Updated: 1/9/2026\n; License: Not specified\n;\n; Description:\n; High-performance AutoHotkey v2 library suite for real-time pipelines (IPC, SPSC, EMA, telemetry) with selftests and Gold stacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tonchi29-a11y/DEMON_STACK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tonchi29-a11y/DEMON_STACK/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DEMON_STACK>\n\n; Example initialization\nclass DemonStackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DEMON_STACK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DemonStackExample()\n```"
     },
     {
       "id": "github-1128638170",
@@ -1900,6 +1900,25 @@
       "forks": 5,
       "owner": "RaptorX",
       "code": "```cpp\n; ============================================\n; Repository: RaptorX/SQLite\n; ============================================\n; URL: https://github.com/RaptorX/SQLite\n; Stars: 25 | Forks: 5\n; Last Updated: 1/6/2026\n; License: MIT License\n;\n; Description:\n; SQLite wrapper library for Autohotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/RaptorX/SQLite.git\n;\n; Option 2: Download ZIP\n;   https://github.com/RaptorX/SQLite/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SQLite>\n\n; Example initialization\nclass SqliteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SQLite loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SqliteExample()\n```"
+    },
+    {
+      "id": "github-976242239",
+      "title": "DisplayToggler",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script that toggles between single-monitor and extended dual-monitor display modes",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-05-01T18:53:55Z",
+      "lastModified": "2026-01-08T21:03:18Z",
+      "source": "github",
+      "url": "https://github.com/MilkyTech/DisplayToggler",
+      "stars": 2,
+      "forks": 0,
+      "owner": "MilkyTech",
+      "code": "```cpp\n; ============================================\n; Repository: MilkyTech/DisplayToggler\n; ============================================\n; URL: https://github.com/MilkyTech/DisplayToggler\n; Stars: 2 | Forks: 0\n; Last Updated: 1/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script that toggles between single-monitor and extended dual-monitor display modes\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MilkyTech/DisplayToggler.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MilkyTech/DisplayToggler/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DisplayToggler>\n\n; Example initialization\nclass DisplaytogglerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DisplayToggler loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DisplaytogglerExample()\n```"
     }
   ]
 }
