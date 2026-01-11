@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-11T12:35:18.281Z",
+  "lastUpdated": "2026-01-11T18:24:53.032Z",
   "totalScripts": 98,
   "categories": [
     "GUI",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2025-12-28T22:25:46Z",
+      "lastModified": "2026-01-11T15:31:41Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 215,
+      "stars": 214,
       "forks": 33,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 215 | Forks: 33\n; Last Updated: 12/28/2025\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 214 | Forks: 33\n; Last Updated: 1/11/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -975,13 +975,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-05T07:59:39Z",
-      "lastModified": "2026-01-02T12:51:06Z",
+      "lastModified": "2026-01-11T15:37:45Z",
       "source": "github",
       "url": "https://github.com/Dazuzi/HD2StratHotkeysGUI",
       "stars": 2,
       "forks": 0,
       "owner": "Dazuzi",
-      "code": "```cpp\n; ============================================\n; Repository: Dazuzi/HD2StratHotkeysGUI\n; ============================================\n; URL: https://github.com/Dazuzi/HD2StratHotkeysGUI\n; Stars: 2 | Forks: 0\n; Last Updated: 1/2/2026\n; License: Not specified\n;\n; Description:\n; Helldivers 2 Stratagem AutoHotkey v2 script with GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dazuzi/HD2StratHotkeysGUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dazuzi/HD2StratHotkeysGUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HD2StratHotkeysGUI>\n\n; Example initialization\nclass Hd2strathotkeysguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HD2StratHotkeysGUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Hd2strathotkeysguiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Dazuzi/HD2StratHotkeysGUI\n; ============================================\n; URL: https://github.com/Dazuzi/HD2StratHotkeysGUI\n; Stars: 2 | Forks: 0\n; Last Updated: 1/11/2026\n; License: Not specified\n;\n; Description:\n; Helldivers 2 Stratagem AutoHotkey v2 script with GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dazuzi/HD2StratHotkeysGUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dazuzi/HD2StratHotkeysGUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HD2StratHotkeysGUI>\n\n; Example initialization\nclass Hd2strathotkeysguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HD2StratHotkeysGUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Hd2strathotkeysguiExample()\n```"
     },
     {
       "id": "github-913659961",
@@ -1893,13 +1893,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-11-14T03:56:03Z",
-      "lastModified": "2026-01-09T23:16:13Z",
+      "lastModified": "2026-01-11T15:34:44Z",
       "source": "github",
       "url": "https://github.com/RaptorX/SQLite",
-      "stars": 26,
+      "stars": 25,
       "forks": 5,
       "owner": "RaptorX",
-      "code": "```cpp\n; ============================================\n; Repository: RaptorX/SQLite\n; ============================================\n; URL: https://github.com/RaptorX/SQLite\n; Stars: 26 | Forks: 5\n; Last Updated: 1/9/2026\n; License: MIT License\n;\n; Description:\n; SQLite wrapper library for Autohotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/RaptorX/SQLite.git\n;\n; Option 2: Download ZIP\n;   https://github.com/RaptorX/SQLite/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SQLite>\n\n; Example initialization\nclass SqliteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SQLite loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SqliteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: RaptorX/SQLite\n; ============================================\n; URL: https://github.com/RaptorX/SQLite\n; Stars: 25 | Forks: 5\n; Last Updated: 1/11/2026\n; License: MIT License\n;\n; Description:\n; SQLite wrapper library for Autohotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/RaptorX/SQLite.git\n;\n; Option 2: Download ZIP\n;   https://github.com/RaptorX/SQLite/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SQLite>\n\n; Example initialization\nclass SqliteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SQLite loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SqliteExample()\n```"
     },
     {
       "id": "github-976242239",
