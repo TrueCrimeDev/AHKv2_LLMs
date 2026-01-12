@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-11T18:24:53.032Z",
-  "totalScripts": 98,
+  "lastUpdated": "2026-01-12T01:28:07.143Z",
+  "totalScripts": 100,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1919,6 +1919,48 @@
       "forks": 0,
       "owner": "MilkyTech",
       "code": "```cpp\n; ============================================\n; Repository: MilkyTech/DisplayToggler\n; ============================================\n; URL: https://github.com/MilkyTech/DisplayToggler\n; Stars: 2 | Forks: 0\n; Last Updated: 1/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script that toggles between single-monitor and extended dual-monitor display modes\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MilkyTech/DisplayToggler.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MilkyTech/DisplayToggler/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DisplayToggler>\n\n; Example initialization\nclass DisplaytogglerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DisplayToggler loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DisplaytogglerExample()\n```"
+    },
+    {
+      "id": "github-1132362193",
+      "title": "ShiftFN_autohotkey",
+      "category": "GitHub Repository",
+      "description": "Autohotkey v2 script to streamline navigation on keyboards",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-11T20:22:16Z",
+      "lastModified": "2026-01-11T20:40:34Z",
+      "source": "github",
+      "url": "https://github.com/maso27/ShiftFN_autohotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "maso27",
+      "code": "```cpp\n; ============================================\n; Repository: maso27/ShiftFN_autohotkey\n; ============================================\n; URL: https://github.com/maso27/ShiftFN_autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 1/11/2026\n; License: MIT License\n;\n; Description:\n; Autohotkey v2 script to streamline navigation on keyboards\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/maso27/ShiftFN_autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/maso27/ShiftFN_autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ShiftFN_autohotkey>\n\n; Example initialization\nclass ShiftfnAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ShiftFN_autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShiftfnAutohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1132347509",
+      "title": "beeWorks",
+      "category": "GitHub Repository",
+      "description": "A clean, modern, Natro-style AutoHotkey v2 macro for Bee Swarm Simulator.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "automation",
+        "macro",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-11T19:42:07Z",
+      "lastModified": "2026-01-11T20:15:46Z",
+      "source": "github",
+      "url": "https://github.com/leafytosh/beeWorks",
+      "stars": 0,
+      "forks": 0,
+      "owner": "leafytosh",
+      "code": "```cpp\n; ============================================\n; Repository: leafytosh/beeWorks\n; ============================================\n; URL: https://github.com/leafytosh/beeWorks\n; Stars: 0 | Forks: 0\n; Last Updated: 1/11/2026\n; License: MIT License\n;\n; Description:\n; A clean, modern, Natro-style AutoHotkey v2 macro for Bee Swarm Simulator.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/leafytosh/beeWorks.git\n;\n; Option 2: Download ZIP\n;   https://github.com/leafytosh/beeWorks/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <beeWorks>\n\n; Example initialization\nclass BeeworksExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"beeWorks loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeeworksExample()\n```"
     }
   ]
 }
