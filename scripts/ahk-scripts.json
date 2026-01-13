@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-13T01:21:23.046Z",
+  "lastUpdated": "2026-01-13T06:29:35.416Z",
   "totalScripts": 101,
   "categories": [
     "GUI",
@@ -1964,22 +1964,28 @@
     },
     {
       "id": "github-1132947140",
-      "title": "SOCD-ahk",
+      "title": "Snaptivity",
       "category": "GitHub Repository",
       "description": "An SOCD script recreated using AHK built to simulate hardware SOCD via AutoHotkey v2",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "good",
+        "input",
+        "input-engine",
+        "keyboard",
+        "movement",
+        "null-movement"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T17:07:28Z",
-      "lastModified": "2026-01-12T18:22:03Z",
+      "lastModified": "2026-01-13T05:24:15Z",
       "source": "github",
-      "url": "https://github.com/Masid5434/SOCD-ahk",
-      "stars": 0,
+      "url": "https://github.com/Masid5434/Snaptivity",
+      "stars": 1,
       "forks": 0,
       "owner": "Masid5434",
-      "code": "```cpp\n; ============================================\n; Repository: Masid5434/SOCD-ahk\n; ============================================\n; URL: https://github.com/Masid5434/SOCD-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 1/12/2026\n; License: Other\n;\n; Description:\n; An SOCD script recreated using AHK built to simulate hardware SOCD via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Masid5434/SOCD-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Masid5434/SOCD-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SOCD-ahk>\n\n; Example initialization\nclass SocdAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SOCD-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SocdAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Masid5434/Snaptivity\n; ============================================\n; URL: https://github.com/Masid5434/Snaptivity\n; Stars: 1 | Forks: 0\n; Last Updated: 1/13/2026\n; License: Other\n;\n; Description:\n; An SOCD script recreated using AHK built to simulate hardware SOCD via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Masid5434/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Masid5434/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     }
   ]
 }
