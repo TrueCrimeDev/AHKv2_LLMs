@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-13T18:27:38.079Z",
+  "lastUpdated": "2026-01-14T01:27:35.244Z",
   "totalScripts": 101,
   "categories": [
     "GUI",
@@ -702,22 +702,22 @@
       "tags": [
         "github",
         "repository",
+        "20231001193911-tts",
         "20240411110510-autohotkey",
-        "ahk",
-        "anki",
-        "goldendict",
-        "kardenwort",
-        "lute"
+        "20241121100211-argotranslate",
+        "20241122093311-deep-translator",
+        "20250214181911-lingva-translate-cli",
+        "20260113230706-goldendict"
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-11T10:06:51Z",
-      "lastModified": "2026-01-06T21:45:27Z",
+      "lastModified": "2026-01-13T23:17:57Z",
       "source": "github",
       "url": "https://github.com/voothi/20240411110510-autohotkey",
       "stars": 1,
       "forks": 0,
       "owner": "voothi",
-      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 1/6/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 1/13/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
     },
     {
       "id": "github-1106851668",
