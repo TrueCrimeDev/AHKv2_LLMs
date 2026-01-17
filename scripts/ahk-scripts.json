@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-16T18:28:06.207Z",
-  "totalScripts": 102,
+  "lastUpdated": "2026-01-17T01:21:20.460Z",
+  "totalScripts": 103,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2005,6 +2005,25 @@
       "forks": 0,
       "owner": "satanosskm",
       "code": "```cpp\n; ============================================\n; Repository: satanosskm/DontMinimizeMe\n; ============================================\n; URL: https://github.com/satanosskm/DontMinimizeMe\n; Stars: 0 | Forks: 0\n; Last Updated: 1/15/2026\n; License: Not specified\n;\n; Description:\n; Don't Minimize Me (Autohotkey V2 Script) : prevent windows from being minimized\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/satanosskm/DontMinimizeMe.git\n;\n; Option 2: Download ZIP\n;   https://github.com/satanosskm/DontMinimizeMe/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DontMinimizeMe>\n\n; Example initialization\nclass DontminimizemeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DontMinimizeMe loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DontminimizemeExample()\n```"
+    },
+    {
+      "id": "github-1135906748",
+      "title": "Sims-4-Requires-AutoHotkey-v2.0",
+      "category": "GitHub Repository",
+      "description": "Sims 4 Requires AutoHotkey v2.0",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-16T19:03:43Z",
+      "lastModified": "2026-01-16T19:05:59Z",
+      "source": "github",
+      "url": "https://github.com/BlackMautz/Sims-4-Requires-AutoHotkey-v2.0",
+      "stars": 0,
+      "forks": 0,
+      "owner": "BlackMautz",
+      "code": "```cpp\n; ============================================\n; Repository: BlackMautz/Sims-4-Requires-AutoHotkey-v2.0\n; ============================================\n; URL: https://github.com/BlackMautz/Sims-4-Requires-AutoHotkey-v2.0\n; Stars: 0 | Forks: 0\n; Last Updated: 1/16/2026\n; License: MIT License\n;\n; Description:\n; Sims 4 Requires AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BlackMautz/Sims-4-Requires-AutoHotkey-v2.0.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BlackMautz/Sims-4-Requires-AutoHotkey-v2.0/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Sims-4-Requires-AutoHotkey-v2.0>\n\n; Example initialization\nclass Sims4RequiresAutohotkeyV2.0Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Sims-4-Requires-AutoHotkey-v2.0 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Sims4RequiresAutohotkeyV2.0Example()\n```"
     }
   ]
 }
