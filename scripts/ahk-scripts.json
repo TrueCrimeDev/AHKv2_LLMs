@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-18T06:27:14.722Z",
-  "totalScripts": 104,
+  "lastUpdated": "2026-01-18T12:34:31.267Z",
+  "totalScripts": 105,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -711,13 +711,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-11T10:06:51Z",
-      "lastModified": "2026-01-14T20:31:42Z",
+      "lastModified": "2026-01-18T10:59:14Z",
       "source": "github",
       "url": "https://github.com/voothi/20240411110510-autohotkey",
       "stars": 1,
       "forks": 0,
       "owner": "voothi",
-      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 1/14/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 1/18/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
     },
     {
       "id": "github-1106851668",
@@ -2043,6 +2043,25 @@
       "forks": 0,
       "owner": "Summer1Solstice",
       "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 0 | Forks: 0\n; Last Updated: 1/18/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+    },
+    {
+      "id": "github-1136794120",
+      "title": "Smooth-Scroll-Acceleration-for-AutoHotkey-v2",
+      "category": "GitHub Repository",
+      "description": "A lightweight, fully‑tunable scroll‑acceleration script for AutoHotkey v2. It transforms standard mouse‑wheel scrolling into a smooth, momentum‑based experience—similar to modern touchpads or high‑end mice—without requiring any external software.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-18T11:22:08Z",
+      "lastModified": "2026-01-18T11:43:20Z",
+      "source": "github",
+      "url": "https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "MihaiCiprianChezan",
+      "code": "```cpp\n; ============================================\n; Repository: MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2\n; ============================================\n; URL: https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 1/18/2026\n; License: MIT License\n;\n; Description:\n; A lightweight, fully‑tunable scroll‑acceleration script for AutoHotkey v2. It transforms standard mouse‑wheel scrolling into a smooth, momentum‑based experience—similar to modern touchpads or high‑end mice—without requiring any external software.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Smooth-Scroll-Acceleration-for-AutoHotkey-v2>\n\n; Example initialization\nclass SmoothScrollAccelerationForAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Smooth-Scroll-Acceleration-for-AutoHotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SmoothScrollAccelerationForAutohotkeyV2Example()\n```"
     }
   ]
 }
