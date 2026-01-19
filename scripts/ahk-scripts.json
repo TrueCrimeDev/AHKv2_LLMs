@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-18T18:23:50.847Z",
+  "lastUpdated": "2026-01-19T01:28:56.363Z",
   "totalScripts": 105,
   "categories": [
     "GUI",
@@ -856,7 +856,7 @@
       "id": "github-1051914476",
       "title": "AhkWin32Projection",
       "category": "GitHub Repository",
-      "description": "💽Win32 API bindings for 64-bit AutoHotkey V2",
+      "description": "Win32 API bindings for 64-bit AutoHotkey V2",
       "tags": [
         "github",
         "repository",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-01-07T03:34:09Z",
+      "lastModified": "2026-01-19T01:10:49Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
       "stars": 29,
       "forks": 3,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 29 | Forks: 3\n; Last Updated: 1/7/2026\n; License: MIT License\n;\n; Description:\n; 💽Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 29 | Forks: 3\n; Last Updated: 1/19/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -1175,13 +1175,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-10-07T03:49:34Z",
-      "lastModified": "2025-12-02T13:43:50Z",
+      "lastModified": "2026-01-19T01:10:59Z",
       "source": "github",
       "url": "https://github.com/holy-tao/MsgPack",
       "stars": 4,
       "forks": 1,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/MsgPack\n; ============================================\n; URL: https://github.com/holy-tao/MsgPack\n; Stars: 4 | Forks: 1\n; Last Updated: 12/2/2025\n; License: MIT License\n;\n; Description:\n; MessagePack implementation in pure AutoHotkey v2 / msgpack.io[AutoHotkey]\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/MsgPack.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/MsgPack/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MsgPack>\n\n; Example initialization\nclass MsgpackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MsgPack loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MsgpackExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/MsgPack\n; ============================================\n; URL: https://github.com/holy-tao/MsgPack\n; Stars: 4 | Forks: 1\n; Last Updated: 1/19/2026\n; License: MIT License\n;\n; Description:\n; MessagePack implementation in pure AutoHotkey v2 / msgpack.io[AutoHotkey]\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/MsgPack.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/MsgPack/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MsgPack>\n\n; Example initialization\nclass MsgpackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MsgPack loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MsgpackExample()\n```"
     },
     {
       "id": "github-762196209",
