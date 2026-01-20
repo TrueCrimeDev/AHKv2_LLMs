@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-20T06:31:44.843Z",
+  "lastUpdated": "2026-01-20T12:43:01.667Z",
   "totalScripts": 107,
   "categories": [
     "GUI",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-01-11T15:31:41Z",
+      "lastModified": "2026-01-20T10:59:49Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
       "stars": 214,
       "forks": 33,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 214 | Forks: 33\n; Last Updated: 1/11/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 214 | Forks: 33\n; Last Updated: 1/20/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -1612,13 +1612,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-29T12:51:51Z",
-      "lastModified": "2026-01-15T14:54:47Z",
+      "lastModified": "2026-01-20T07:22:14Z",
       "source": "github",
       "url": "https://github.com/sarfraznawaz2005/watcher",
       "stars": 0,
       "forks": 0,
       "owner": "sarfraznawaz2005",
-      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/watcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/watcher\n; Stars: 0 | Forks: 0\n; Last Updated: 1/15/2026\n; License: Not specified\n;\n; Description:\n; A small AutoHotkey v2 utility that watches another AHK script for runtime Warning/Error dialogs and writes details to a log.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/watcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/watcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <watcher>\n\n; Example initialization\nclass WatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"watcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WatcherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/watcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/watcher\n; Stars: 0 | Forks: 0\n; Last Updated: 1/20/2026\n; License: Not specified\n;\n; Description:\n; A small AutoHotkey v2 utility that watches another AHK script for runtime Warning/Error dialogs and writes details to a log.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/watcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/watcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <watcher>\n\n; Example initialization\nclass WatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"watcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WatcherExample()\n```"
     },
     {
       "id": "github-1125793913",
