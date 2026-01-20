@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-19T18:27:57.671Z",
-  "totalScripts": 105,
+  "lastUpdated": "2026-01-20T01:24:33.145Z",
+  "totalScripts": 106,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -711,7 +711,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-11T10:06:51Z",
-      "lastModified": "2026-01-19T15:39:32Z",
+      "lastModified": "2026-01-19T21:21:17Z",
       "source": "github",
       "url": "https://github.com/voothi/20240411110510-autohotkey",
       "stars": 1,
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-01-19T02:44:45Z",
+      "lastModified": "2026-01-20T01:06:35Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
       "stars": 30,
       "forks": 3,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 30 | Forks: 3\n; Last Updated: 1/19/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 30 | Forks: 3\n; Last Updated: 1/20/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -1787,13 +1787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T17:58:02Z",
-      "lastModified": "2026-01-08T14:40:24Z",
+      "lastModified": "2026-01-19T23:22:40Z",
       "source": "github",
       "url": "https://github.com/LukasMoore/WinMiddleClickPaste",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "LukasMoore",
-      "code": "```cpp\n; ============================================\n; Repository: LukasMoore/WinMiddleClickPaste\n; ============================================\n; URL: https://github.com/LukasMoore/WinMiddleClickPaste\n; Stars: 2 | Forks: 0\n; Last Updated: 1/8/2026\n; License: MIT License\n;\n; Description:\n; Automatically copies any highlighted text and pastes it when you click the middle mouse button, bringing Linux-style middle-click paste functionality to Windows using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/LukasMoore/WinMiddleClickPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/LukasMoore/WinMiddleClickPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMiddleClickPaste>\n\n; Example initialization\nclass WinmiddleclickpasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMiddleClickPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmiddleclickpasteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: LukasMoore/WinMiddleClickPaste\n; ============================================\n; URL: https://github.com/LukasMoore/WinMiddleClickPaste\n; Stars: 3 | Forks: 0\n; Last Updated: 1/19/2026\n; License: MIT License\n;\n; Description:\n; Automatically copies any highlighted text and pastes it when you click the middle mouse button, bringing Linux-style middle-click paste functionality to Windows using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/LukasMoore/WinMiddleClickPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/LukasMoore/WinMiddleClickPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMiddleClickPaste>\n\n; Example initialization\nclass WinmiddleclickpasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMiddleClickPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmiddleclickpasteExample()\n```"
     },
     {
       "id": "github-1125812361",
@@ -2062,6 +2062,25 @@
       "forks": 0,
       "owner": "MihaiCiprianChezan",
       "code": "```cpp\n; ============================================\n; Repository: MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2\n; ============================================\n; URL: https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 1/18/2026\n; License: MIT License\n;\n; Description:\n; A lightweight, fully‑tunable scroll‑acceleration script for AutoHotkey v2. It transforms standard mouse‑wheel scrolling into a smooth, momentum‑based experience—similar to modern touchpads or high‑end mice—without requiring any external software.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Smooth-Scroll-Acceleration-for-AutoHotkey-v2>\n\n; Example initialization\nclass SmoothScrollAccelerationForAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Smooth-Scroll-Acceleration-for-AutoHotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SmoothScrollAccelerationForAutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-1137679239",
+      "title": "Volume-Control-Pro",
+      "category": "GitHub Repository",
+      "description": "Built with AutoHotkey v2 and developed with the assistance of Google Gemini and Claude AI.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-19T17:28:15Z",
+      "lastModified": "2026-01-19T21:59:13Z",
+      "source": "github",
+      "url": "https://github.com/armaninyow/Volume-Control-Pro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "armaninyow",
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Volume-Control-Pro\n; ============================================\n; URL: https://github.com/armaninyow/Volume-Control-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 1/19/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Google Gemini and Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Volume-Control-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Volume-Control-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Volume-Control-Pro>\n\n; Example initialization\nclass VolumeControlProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Volume-Control-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VolumeControlProExample()\n```"
     }
   ]
 }
