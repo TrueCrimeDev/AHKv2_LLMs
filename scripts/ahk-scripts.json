@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-21T12:42:48.873Z",
+  "lastUpdated": "2026-01-21T18:38:20.014Z",
   "totalScripts": 108,
   "categories": [
     "GUI",
@@ -2112,13 +2112,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-21T00:55:29Z",
-      "lastModified": "2026-01-21T03:03:07Z",
+      "lastModified": "2026-01-21T16:35:04Z",
       "source": "github",
       "url": "https://github.com/shammahwoods/AutoBOFKey",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "shammahwoods",
-      "code": "```cpp\n; ============================================\n; Repository: shammahwoods/AutoBOFKey\n; ============================================\n; URL: https://github.com/shammahwoods/AutoBOFKey\n; Stars: 1 | Forks: 0\n; Last Updated: 1/21/2026\n; License: Other\n;\n; Description:\n; A standalone Beacon Object File (BOF) loader written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shammahwoods/AutoBOFKey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shammahwoods/AutoBOFKey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoBOFKey>\n\n; Example initialization\nclass AutobofkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoBOFKey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutobofkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: shammahwoods/AutoBOFKey\n; ============================================\n; URL: https://github.com/shammahwoods/AutoBOFKey\n; Stars: 2 | Forks: 0\n; Last Updated: 1/21/2026\n; License: Other\n;\n; Description:\n; A standalone Beacon Object File (BOF) loader written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shammahwoods/AutoBOFKey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shammahwoods/AutoBOFKey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoBOFKey>\n\n; Example initialization\nclass AutobofkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoBOFKey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutobofkeyExample()\n```"
     }
   ]
 }
