@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-23T06:30:24.699Z",
+  "lastUpdated": "2026-01-23T12:40:30.833Z",
   "totalScripts": 108,
   "categories": [
     "GUI",
@@ -426,13 +426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-11-24T04:52:52Z",
-      "lastModified": "2026-01-18T04:57:21Z",
+      "lastModified": "2026-01-23T09:16:05Z",
       "source": "github",
       "url": "https://github.com/haraldchan/Svaner",
       "stars": 2,
       "forks": 0,
       "owner": "haraldchan",
-      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 2 | Forks: 0\n; Last Updated: 1/18/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 2 | Forks: 0\n; Last Updated: 1/23/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
     },
     {
       "id": "github-266191907",
@@ -2067,20 +2067,20 @@
       "id": "github-1137679239",
       "title": "Volume-Control-Pro",
       "category": "GitHub Repository",
-      "description": "Built with AutoHotkey v2 and developed with the assistance of Google Gemini and Claude AI.",
+      "description": "Built with AutoHotkey v2 and developed with the assistance of Claude AI.",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-19T17:28:15Z",
-      "lastModified": "2026-01-19T21:59:13Z",
+      "lastModified": "2026-01-23T11:36:35Z",
       "source": "github",
       "url": "https://github.com/armaninyow/Volume-Control-Pro",
       "stars": 0,
       "forks": 0,
       "owner": "armaninyow",
-      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Volume-Control-Pro\n; ============================================\n; URL: https://github.com/armaninyow/Volume-Control-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 1/19/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Google Gemini and Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Volume-Control-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Volume-Control-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Volume-Control-Pro>\n\n; Example initialization\nclass VolumeControlProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Volume-Control-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VolumeControlProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Volume-Control-Pro\n; ============================================\n; URL: https://github.com/armaninyow/Volume-Control-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 1/23/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Volume-Control-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Volume-Control-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Volume-Control-Pro>\n\n; Example initialization\nclass VolumeControlProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Volume-Control-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VolumeControlProExample()\n```"
     },
     {
       "id": "github-1137970149",
