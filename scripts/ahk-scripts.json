@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-24T12:35:15.698Z",
+  "lastUpdated": "2026-01-24T18:25:58.242Z",
   "totalScripts": 109,
   "categories": [
     "GUI",
@@ -1469,13 +1469,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-15T21:40:08Z",
-      "lastModified": "2026-01-14T09:11:57Z",
+      "lastModified": "2026-01-24T15:49:59Z",
       "source": "github",
       "url": "https://github.com/Sid-1996/BrownDust2-Beat-Helper",
-      "stars": 5,
+      "stars": 6,
       "forks": 0,
       "owner": "Sid-1996",
-      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/BrownDust2-Beat-Helper\n; ============================================\n; URL: https://github.com/Sid-1996/BrownDust2-Beat-Helper\n; Stars: 5 | Forks: 0\n; Last Updated: 1/14/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 tool for Brown Dust 2 music mini-game automation. Features draggable & resizable overlays, color detection, multi-zone support, and INI settings. Perfect for keeping perfect beats without finger fatigue.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/BrownDust2-Beat-Helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/BrownDust2-Beat-Helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BrownDust2-Beat-Helper>\n\n; Example initialization\nclass Browndust2BeatHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BrownDust2-Beat-Helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Browndust2BeatHelperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/BrownDust2-Beat-Helper\n; ============================================\n; URL: https://github.com/Sid-1996/BrownDust2-Beat-Helper\n; Stars: 6 | Forks: 0\n; Last Updated: 1/24/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 tool for Brown Dust 2 music mini-game automation. Features draggable & resizable overlays, color detection, multi-zone support, and INI settings. Perfect for keeping perfect beats without finger fatigue.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/BrownDust2-Beat-Helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/BrownDust2-Beat-Helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BrownDust2-Beat-Helper>\n\n; Example initialization\nclass Browndust2BeatHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BrownDust2-Beat-Helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Browndust2BeatHelperExample()\n```"
     },
     {
       "id": "github-1120865514",
