@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-24T01:22:42.044Z",
+  "lastUpdated": "2026-01-24T06:27:30.656Z",
   "totalScripts": 108,
   "categories": [
     "GUI",
@@ -426,13 +426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-11-24T04:52:52Z",
-      "lastModified": "2026-01-23T09:16:05Z",
+      "lastModified": "2026-01-24T04:54:11Z",
       "source": "github",
       "url": "https://github.com/haraldchan/Svaner",
       "stars": 2,
       "forks": 0,
       "owner": "haraldchan",
-      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 2 | Forks: 0\n; Last Updated: 1/23/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 2 | Forks: 0\n; Last Updated: 1/24/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
     },
     {
       "id": "github-266191907",
