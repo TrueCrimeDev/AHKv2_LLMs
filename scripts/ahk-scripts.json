@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-24T18:25:58.242Z",
-  "totalScripts": 109,
+  "lastUpdated": "2026-01-25T01:42:57.506Z",
+  "totalScripts": 110,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-01-20T10:59:49Z",
+      "lastModified": "2026-01-24T18:48:06Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
       "stars": 214,
       "forks": 33,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 214 | Forks: 33\n; Last Updated: 1/20/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 214 | Forks: 33\n; Last Updated: 1/24/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -2138,6 +2138,25 @@
       "forks": 0,
       "owner": "bar10dr",
       "code": "```cpp\n; ============================================\n; Repository: bar10dr/AutoHotKeyIdleScript\n; ============================================\n; URL: https://github.com/bar10dr/AutoHotKeyIdleScript\n; Stars: 0 | Forks: 0\n; Last Updated: 1/24/2026\n; License: Not specified\n;\n; Description:\n; AutoHotKey v2 Idle Script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bar10dr/AutoHotKeyIdleScript.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bar10dr/AutoHotKeyIdleScript/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotKeyIdleScript>\n\n; Example initialization\nclass AutohotkeyidlescriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotKeyIdleScript loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyidlescriptExample()\n```"
+    },
+    {
+      "id": "github-372695365",
+      "title": "AHKBatchScriptCompiler",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey 2 script to compile other AHK v1/v2 scripts. It allows for user configuration and supports drag-and-dropping files and folders.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2021-06-01T03:56:11Z",
+      "lastModified": "2026-01-24T23:38:34Z",
+      "source": "github",
+      "url": "https://github.com/GenesisFR/AHKBatchScriptCompiler",
+      "stars": 1,
+      "forks": 1,
+      "owner": "GenesisFR",
+      "code": "```cpp\n; ============================================\n; Repository: GenesisFR/AHKBatchScriptCompiler\n; ============================================\n; URL: https://github.com/GenesisFR/AHKBatchScriptCompiler\n; Stars: 1 | Forks: 1\n; Last Updated: 1/24/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey 2 script to compile other AHK v1/v2 scripts. It allows for user configuration and supports drag-and-dropping files and folders.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GenesisFR/AHKBatchScriptCompiler.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GenesisFR/AHKBatchScriptCompiler/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKBatchScriptCompiler>\n\n; Example initialization\nclass AhkbatchscriptcompilerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKBatchScriptCompiler loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkbatchscriptcompilerExample()\n```"
     }
   ]
 }
