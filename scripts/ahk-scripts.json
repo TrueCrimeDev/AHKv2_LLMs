@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-25T06:27:39.739Z",
+  "lastUpdated": "2026-01-25T12:36:34.167Z",
   "totalScripts": 110,
   "categories": [
     "GUI",
@@ -1831,13 +1831,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-06T00:01:49Z",
-      "lastModified": "2026-01-06T21:58:58Z",
+      "lastModified": "2026-01-25T07:24:20Z",
       "source": "github",
       "url": "https://github.com/fbikat/NoRecoilCS2",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "fbikat",
-      "code": "```cpp\n; ============================================\n; Repository: fbikat/NoRecoilCS2\n; ============================================\n; URL: https://github.com/fbikat/NoRecoilCS2\n; Stars: 1 | Forks: 0\n; Last Updated: 1/6/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotKey V2 script to reduce spray pattern recoil in CS2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fbikat/NoRecoilCS2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fbikat/NoRecoilCS2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <NoRecoilCS2>\n\n; Example initialization\nclass Norecoilcs2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"NoRecoilCS2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Norecoilcs2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: fbikat/NoRecoilCS2\n; ============================================\n; URL: https://github.com/fbikat/NoRecoilCS2\n; Stars: 2 | Forks: 0\n; Last Updated: 1/25/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotKey V2 script to reduce spray pattern recoil in CS2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fbikat/NoRecoilCS2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fbikat/NoRecoilCS2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <NoRecoilCS2>\n\n; Example initialization\nclass Norecoilcs2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"NoRecoilCS2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Norecoilcs2Example()\n```"
     },
     {
       "id": "github-1079244559",
