@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-26T12:41:34.909Z",
-  "totalScripts": 113,
+  "lastUpdated": "2026-01-26T18:30:59.099Z",
+  "totalScripts": 114,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2175,7 +2175,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-01-26T11:12:19Z",
+      "lastModified": "2026-01-26T17:42:36Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2197,13 +2197,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-01-25T19:07:57Z",
+      "lastModified": "2026-01-26T15:00:13Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
       "stars": 1,
       "forks": 0,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 1 | Forks: 0\n; Last Updated: 1/25/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 1 | Forks: 0\n; Last Updated: 1/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
@@ -2223,6 +2223,25 @@
       "forks": 0,
       "owner": "NaoeRiki21",
       "code": "```cpp\n; ============================================\n; Repository: NaoeRiki21/Off-CCD\n; ============================================\n; URL: https://github.com/NaoeRiki21/Off-CCD\n; Stars: 0 | Forks: 0\n; Last Updated: 1/26/2026\n; License: MIT License\n;\n; Description:\n; 一个基于 AutoHotkey v2 的轻量级进程核心分配与优先级管理工具。专为 AMD 多 CCD 用户优化，有效降低跨 CCD 延迟。 (A lightweight AHKv2 utility for AMD CCD affinity & process priority management.)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NaoeRiki21/Off-CCD.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NaoeRiki21/Off-CCD/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Off-CCD>\n\n; Example initialization\nclass OffCcdExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Off-CCD loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OffCcdExample()\n```"
+    },
+    {
+      "id": "github-1142586999",
+      "title": "AHK_AutoHotKey_Macro_Recorder",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script that lets you record and play keyboard and mouse macros.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-26T15:51:37Z",
+      "lastModified": "2026-01-26T17:15:40Z",
+      "source": "github",
+      "url": "https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Sz-KLevy",
+      "code": "```cpp\n; ============================================\n; Repository: Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; ============================================\n; URL: https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; Stars: 0 | Forks: 0\n; Last Updated: 1/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that lets you record and play keyboard and mouse macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_AutoHotKey_Macro_Recorder>\n\n; Example initialization\nclass AhkAutohotkeyMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_AutoHotKey_Macro_Recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutohotkeyMacroRecorderExample()\n```"
     }
   ]
 }
