@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-28T01:26:51.601Z",
-  "totalScripts": 115,
+  "lastUpdated": "2026-01-28T06:32:10.335Z",
+  "totalScripts": 116,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -475,13 +475,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-01T12:31:51Z",
-      "lastModified": "2026-01-10T07:45:40Z",
+      "lastModified": "2026-01-28T05:44:29Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip",
       "stars": 8,
       "forks": 1,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 8 | Forks: 1\n; Last Updated: 1/10/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 8 | Forks: 1\n; Last Updated: 1/28/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
     },
     {
       "id": "github-786217957",
@@ -686,13 +686,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-01-22T18:50:00Z",
+      "lastModified": "2026-01-28T05:41:20Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
       "stars": 16,
       "forks": 5,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 16 | Forks: 5\n; Last Updated: 1/22/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 16 | Forks: 5\n; Last Updated: 1/28/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
     },
     {
       "id": "github-785157327",
@@ -931,13 +931,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-02T05:30:10Z",
-      "lastModified": "2025-12-07T12:20:18Z",
+      "lastModified": "2026-01-28T05:43:10Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx",
       "stars": 0,
       "forks": 0,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-TreeViewEx\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx\n; Stars: 0 | Forks: 0\n; Last Updated: 12/7/2025\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that implements a custom tree-view control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-TreeViewEx>\n\n; Example initialization\nclass AutohotkeyTreeviewexExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-TreeViewEx loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyTreeviewexExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-TreeViewEx\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx\n; Stars: 0 | Forks: 0\n; Last Updated: 1/28/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that implements a custom tree-view control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-TreeViewEx>\n\n; Example initialization\nclass AutohotkeyTreeviewexExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-TreeViewEx loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyTreeviewexExample()\n```"
     },
     {
       "id": "github-1101877156",
@@ -2175,7 +2175,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-01-28T01:01:40Z",
+      "lastModified": "2026-01-28T06:23:07Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2254,13 +2254,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-27T04:59:41Z",
-      "lastModified": "2026-01-27T22:55:40Z",
+      "lastModified": "2026-01-28T02:58:25Z",
       "source": "github",
       "url": "https://github.com/ezflow997/LiveView",
       "stars": 2,
       "forks": 0,
       "owner": "ezflow997",
-      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 2 | Forks: 0\n; Last Updated: 1/27/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 2 | Forks: 0\n; Last Updated: 1/28/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
+    },
+    {
+      "id": "github-1143820755",
+      "title": "SwitchingBetweenMonitorsScriptAutoHotKeys",
+      "category": "GitHub Repository",
+      "description": "A script to switch between monitors using AutoHotkeys v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-28T02:15:09Z",
+      "lastModified": "2026-01-28T02:18:26Z",
+      "source": "github",
+      "url": "https://github.com/Yugi-Bromine21/SwitchingBetweenMonitorsScriptAutoHotKeys",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Yugi-Bromine21",
+      "code": "```cpp\n; ============================================\n; Repository: Yugi-Bromine21/SwitchingBetweenMonitorsScriptAutoHotKeys\n; ============================================\n; URL: https://github.com/Yugi-Bromine21/SwitchingBetweenMonitorsScriptAutoHotKeys\n; Stars: 0 | Forks: 0\n; Last Updated: 1/28/2026\n; License: Not specified\n;\n; Description:\n; A script to switch between monitors using AutoHotkeys v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Yugi-Bromine21/SwitchingBetweenMonitorsScriptAutoHotKeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Yugi-Bromine21/SwitchingBetweenMonitorsScriptAutoHotKeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SwitchingBetweenMonitorsScriptAutoHotKeys>\n\n; Example initialization\nclass SwitchingbetweenmonitorsscriptautohotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SwitchingBetweenMonitorsScriptAutoHotKeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SwitchingbetweenmonitorsscriptautohotkeysExample()\n```"
     }
   ]
 }
