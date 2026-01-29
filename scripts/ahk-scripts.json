@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-29T06:41:58.169Z",
+  "lastUpdated": "2026-01-29T12:51:36.151Z",
   "totalScripts": 118,
   "categories": [
     "GUI",
@@ -1375,23 +1375,26 @@
       "id": "github-1063775997",
       "title": "FKeyFnKey",
       "category": "GitHub Repository",
-      "description": "macOSのFnキーの動作のように、WindowsでもAltキーでFn+F1~F12をするためのAutoHotkey v2スクリプト",
+      "description": "WindowsでもmacOSと同じ感覚でマウス/キーボードを使うためのAutoHotkey v2スクリプトたち",
       "tags": [
         "github",
         "repository",
         "autohotkey",
         "autohotkey-script",
-        "autohotkey-v2"
+        "autohotkey-v2",
+        "keyboard",
+        "macos",
+        "mapping"
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-25T05:29:06Z",
-      "lastModified": "2025-11-05T19:51:18Z",
+      "lastModified": "2026-01-29T12:48:05Z",
       "source": "github",
       "url": "https://github.com/DiamondGotCat/FKeyFnKey",
       "stars": 2,
       "forks": 0,
       "owner": "DiamondGotCat",
-      "code": "```cpp\n; ============================================\n; Repository: DiamondGotCat/FKeyFnKey\n; ============================================\n; URL: https://github.com/DiamondGotCat/FKeyFnKey\n; Stars: 2 | Forks: 0\n; Last Updated: 11/5/2025\n; License: Not specified\n;\n; Description:\n; macOSのFnキーの動作のように、WindowsでもAltキーでFn+F1~F12をするためのAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DiamondGotCat/FKeyFnKey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DiamondGotCat/FKeyFnKey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FKeyFnKey>\n\n; Example initialization\nclass FkeyfnkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FKeyFnKey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FkeyfnkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DiamondGotCat/FKeyFnKey\n; ============================================\n; URL: https://github.com/DiamondGotCat/FKeyFnKey\n; Stars: 2 | Forks: 0\n; Last Updated: 1/29/2026\n; License: Not specified\n;\n; Description:\n; WindowsでもmacOSと同じ感覚でマウス/キーボードを使うためのAutoHotkey v2スクリプトたち\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DiamondGotCat/FKeyFnKey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DiamondGotCat/FKeyFnKey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FKeyFnKey>\n\n; Example initialization\nclass FkeyfnkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FKeyFnKey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FkeyfnkeyExample()\n```"
     },
     {
       "id": "github-1045329028",
@@ -2175,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-01-29T06:05:06Z",
+      "lastModified": "2026-01-29T12:41:26Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2294,13 +2297,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-28T15:34:48Z",
-      "lastModified": "2026-01-28T16:03:16Z",
+      "lastModified": "2026-01-29T08:21:40Z",
       "source": "github",
       "url": "https://github.com/bbz94/ReplaceTextWithAI",
       "stars": 0,
       "forks": 0,
       "owner": "bbz94",
-      "code": "```cpp\n; ============================================\n; Repository: bbz94/ReplaceTextWithAI\n; ============================================\n; URL: https://github.com/bbz94/ReplaceTextWithAI\n; Stars: 0 | Forks: 0\n; Last Updated: 1/28/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that rewrites selected text using Azure OpenAI, preserving language (Latvian/English) and replacing the selection in-place.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bbz94/ReplaceTextWithAI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bbz94/ReplaceTextWithAI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ReplaceTextWithAI>\n\n; Example initialization\nclass ReplacetextwithaiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ReplaceTextWithAI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReplacetextwithaiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bbz94/ReplaceTextWithAI\n; ============================================\n; URL: https://github.com/bbz94/ReplaceTextWithAI\n; Stars: 0 | Forks: 0\n; Last Updated: 1/29/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that rewrites selected text using Azure OpenAI, preserving language (Latvian/English) and replacing the selection in-place.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bbz94/ReplaceTextWithAI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bbz94/ReplaceTextWithAI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ReplaceTextWithAI>\n\n; Example initialization\nclass ReplacetextwithaiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ReplaceTextWithAI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReplacetextwithaiExample()\n```"
     },
     {
       "id": "github-1144605254",
