@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-30T18:37:15.461Z",
+  "lastUpdated": "2026-01-31T01:44:36.198Z",
   "totalScripts": 119,
   "categories": [
     "GUI",
@@ -554,20 +554,20 @@
       "id": "github-1111495315",
       "title": "myahk_v2",
       "category": "GitHub Repository",
-      "description": "AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キー���アプリやツールを瞬時に起動。",
+      "description": "AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-07T03:41:58Z",
-      "lastModified": "2025-12-16T15:44:41Z",
+      "lastModified": "2026-01-30T21:42:18Z",
       "source": "github",
       "url": "https://github.com/masaodev/myahk_v2",
       "stars": 0,
       "forks": 0,
       "owner": "masaodev",
-      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 12/16/2025\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キー���アプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 1/30/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
     },
     {
       "id": "github-1039208508",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-01-30T17:15:27Z",
+      "lastModified": "2026-01-31T01:40:11Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 1/30/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 1/31/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2335,7 +2335,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-30T03:46:54Z",
-      "lastModified": "2026-01-30T03:52:02Z",
+      "lastModified": "2026-01-30T20:56:21Z",
       "source": "github",
       "url": "https://github.com/clayemenhiser/Center-Window-Hotkey",
       "stars": 0,
