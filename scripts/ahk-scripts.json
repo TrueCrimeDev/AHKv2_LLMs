@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-31T01:44:36.198Z",
-  "totalScripts": 119,
+  "lastUpdated": "2026-01-31T06:34:37.600Z",
+  "totalScripts": 120,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-01-31T01:40:11Z",
+      "lastModified": "2026-01-31T06:11:20Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2342,6 +2342,29 @@
       "forks": 0,
       "owner": "clayemenhiser",
       "code": "```cpp\n; ============================================\n; Repository: clayemenhiser/Center-Window-Hotkey\n; ============================================\n; URL: https://github.com/clayemenhiser/Center-Window-Hotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 1/30/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 (AHK) script that creates a hotkey to center the active window within the monitor. The default hotkey is CTRL+SHFT+C.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/clayemenhiser/Center-Window-Hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/clayemenhiser/Center-Window-Hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Center-Window-Hotkey>\n\n; Example initialization\nclass CenterWindowHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Center-Window-Hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CenterWindowHotkeyExample()\n```"
+    },
+    {
+      "id": "github-1146369265",
+      "title": "spotify-pause-after-current",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey v2 script that pauses Spotify automatically after the currently playing track finishes.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "keyboard-shortcuts",
+        "spotify",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-31T01:39:09Z",
+      "lastModified": "2026-01-31T01:46:39Z",
+      "source": "github",
+      "url": "https://github.com/danarnold/spotify-pause-after-current",
+      "stars": 0,
+      "forks": 0,
+      "owner": "danarnold",
+      "code": "```cpp\n; ============================================\n; Repository: danarnold/spotify-pause-after-current\n; ============================================\n; URL: https://github.com/danarnold/spotify-pause-after-current\n; Stars: 0 | Forks: 0\n; Last Updated: 1/31/2026\n; License: The Unlicense\n;\n; Description:\n; An AutoHotkey v2 script that pauses Spotify automatically after the currently playing track finishes.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/danarnold/spotify-pause-after-current.git\n;\n; Option 2: Download ZIP\n;   https://github.com/danarnold/spotify-pause-after-current/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <spotify-pause-after-current>\n\n; Example initialization\nclass SpotifyPauseAfterCurrentExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"spotify-pause-after-current loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SpotifyPauseAfterCurrentExample()\n```"
     }
   ]
 }
