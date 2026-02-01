@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-01T02:02:54.855Z",
-  "totalScripts": 120,
+  "lastUpdated": "2026-02-01T06:44:08.879Z",
+  "totalScripts": 121,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -686,13 +686,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-01-29T23:19:42Z",
+      "lastModified": "2026-02-01T05:52:02Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
-      "stars": 16,
+      "stars": 17,
       "forks": 5,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 16 | Forks: 5\n; Last Updated: 1/29/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 17 | Forks: 5\n; Last Updated: 2/1/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
     },
     {
       "id": "github-785157327",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-01T00:38:54Z",
+      "lastModified": "2026-02-01T05:32:05Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2242,13 +2242,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-26T15:51:37Z",
-      "lastModified": "2026-01-31T18:24:48Z",
+      "lastModified": "2026-02-01T05:52:16Z",
       "source": "github",
       "url": "https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "Sz-KLevy",
-      "code": "```cpp\n; ============================================\n; Repository: Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; ============================================\n; URL: https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; Stars: 0 | Forks: 0\n; Last Updated: 1/31/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that lets you record and play keyboard and mouse macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_AutoHotKey_Macro_Recorder>\n\n; Example initialization\nclass AhkAutohotkeyMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_AutoHotKey_Macro_Recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutohotkeyMacroRecorderExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; ============================================\n; URL: https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; Stars: 1 | Forks: 0\n; Last Updated: 2/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that lets you record and play keyboard and mouse macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_AutoHotKey_Macro_Recorder>\n\n; Example initialization\nclass AhkAutohotkeyMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_AutoHotKey_Macro_Recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutohotkeyMacroRecorderExample()\n```"
     },
     {
       "id": "github-1143022403",
@@ -2367,6 +2367,25 @@
       "forks": 0,
       "owner": "danarnold",
       "code": "```cpp\n; ============================================\n; Repository: danarnold/spotify-pause-after-current\n; ============================================\n; URL: https://github.com/danarnold/spotify-pause-after-current\n; Stars: 0 | Forks: 0\n; Last Updated: 1/31/2026\n; License: The Unlicense\n;\n; Description:\n; An AutoHotkey v2 script that pauses Spotify automatically after the currently playing track finishes.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/danarnold/spotify-pause-after-current.git\n;\n; Option 2: Download ZIP\n;   https://github.com/danarnold/spotify-pause-after-current/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <spotify-pause-after-current>\n\n; Example initialization\nclass SpotifyPauseAfterCurrentExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"spotify-pause-after-current loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SpotifyPauseAfterCurrentExample()\n```"
+    },
+    {
+      "id": "github-1147010340",
+      "title": "manico_enhanced",
+      "category": "GitHub Repository",
+      "description": "A Windows application switcher similar to macOS Manico, developed with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-01T03:23:51Z",
+      "lastModified": "2026-02-01T03:46:09Z",
+      "source": "github",
+      "url": "https://github.com/l2e5hx/manico_enhanced",
+      "stars": 0,
+      "forks": 0,
+      "owner": "l2e5hx",
+      "code": "```cpp\n; ============================================\n; Repository: l2e5hx/manico_enhanced\n; ============================================\n; URL: https://github.com/l2e5hx/manico_enhanced\n; Stars: 0 | Forks: 0\n; Last Updated: 2/1/2026\n; License: Not specified\n;\n; Description:\n; A Windows application switcher similar to macOS Manico, developed with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/l2e5hx/manico_enhanced.git\n;\n; Option 2: Download ZIP\n;   https://github.com/l2e5hx/manico_enhanced/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <manico_enhanced>\n\n; Example initialization\nclass ManicoEnhancedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"manico_enhanced loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ManicoEnhancedExample()\n```"
     }
   ]
 }
