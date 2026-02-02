@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-01T18:29:56.472Z",
-  "totalScripts": 121,
+  "lastUpdated": "2026-02-02T01:55:25.191Z",
+  "totalScripts": 124,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-01T17:02:34Z",
+      "lastModified": "2026-02-02T01:10:27Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/1/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/2/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2242,13 +2242,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-26T15:51:37Z",
-      "lastModified": "2026-02-01T13:31:14Z",
+      "lastModified": "2026-02-01T20:49:54Z",
       "source": "github",
       "url": "https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder",
       "stars": 1,
-      "forks": 0,
+      "forks": 1,
       "owner": "Sz-KLevy",
-      "code": "```cpp\n; ============================================\n; Repository: Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; ============================================\n; URL: https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; Stars: 1 | Forks: 0\n; Last Updated: 2/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that lets you record and play keyboard and mouse macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_AutoHotKey_Macro_Recorder>\n\n; Example initialization\nclass AhkAutohotkeyMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_AutoHotKey_Macro_Recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutohotkeyMacroRecorderExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; ============================================\n; URL: https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; Stars: 1 | Forks: 1\n; Last Updated: 2/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that lets you record and play keyboard and mouse macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_AutoHotKey_Macro_Recorder>\n\n; Example initialization\nclass AhkAutohotkeyMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_AutoHotKey_Macro_Recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutohotkeyMacroRecorderExample()\n```"
     },
     {
       "id": "github-1143022403",
@@ -2386,6 +2386,69 @@
       "forks": 0,
       "owner": "l2e5hx",
       "code": "```cpp\n; ============================================\n; Repository: l2e5hx/manico_enhanced\n; ============================================\n; URL: https://github.com/l2e5hx/manico_enhanced\n; Stars: 0 | Forks: 0\n; Last Updated: 2/1/2026\n; License: Not specified\n;\n; Description:\n; A Windows application switcher similar to macOS Manico, developed with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/l2e5hx/manico_enhanced.git\n;\n; Option 2: Download ZIP\n;   https://github.com/l2e5hx/manico_enhanced/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <manico_enhanced>\n\n; Example initialization\nclass ManicoEnhancedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"manico_enhanced loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ManicoEnhancedExample()\n```"
+    },
+    {
+      "id": "github-1147590241",
+      "title": "AutoCAD-AHK",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 scripts for AutoCAD automation",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-02T00:57:45Z",
+      "lastModified": "2026-02-02T01:02:41Z",
+      "source": "github",
+      "url": "https://github.com/ecnepsyroc-bot/AutoCAD-AHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ecnepsyroc-bot",
+      "code": "```cpp\n; ============================================\n; Repository: ecnepsyroc-bot/AutoCAD-AHK\n; ============================================\n; URL: https://github.com/ecnepsyroc-bot/AutoCAD-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 2/2/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for AutoCAD automation\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ecnepsyroc-bot/AutoCAD-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ecnepsyroc-bot/AutoCAD-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCAD-AHK>\n\n; Example initialization\nclass AutocadAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCAD-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocadAhkExample()\n```"
+    },
+    {
+      "id": "github-1147451968",
+      "title": "AHK-volume-osd-hotkeys",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for Windows: Win+Q/A/Z volume control with a custom volume/mute OSD, mouse-wheel volume steps, media playback hotkeys, and a Win+NumLock calculator toggle.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-01T19:07:12Z",
+      "lastModified": "2026-02-01T19:46:06Z",
+      "source": "github",
+      "url": "https://github.com/Stanislaw-Rudnicki/AHK-volume-osd-hotkeys",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Stanislaw-Rudnicki",
+      "code": "```cpp\n; ============================================\n; Repository: Stanislaw-Rudnicki/AHK-volume-osd-hotkeys\n; ============================================\n; URL: https://github.com/Stanislaw-Rudnicki/AHK-volume-osd-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 2/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for Windows: Win+Q/A/Z volume control with a custom volume/mute OSD, mouse-wheel volume steps, media playback hotkeys, and a Win+NumLock calculator toggle.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Stanislaw-Rudnicki/AHK-volume-osd-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Stanislaw-Rudnicki/AHK-volume-osd-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-volume-osd-hotkeys>\n\n; Example initialization\nclass AhkVolumeOsdHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-volume-osd-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkVolumeOsdHotkeysExample()\n```"
+    },
+    {
+      "id": "github-1147423917",
+      "title": "CharmsBar",
+      "category": "GitHub Repository",
+      "description": "The missing Windows Charms Bar, reimagined for the modern era. A sleek, touch-friendly, and fully customizable sidebar for Windows 10 and 11 built with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "autohotkey",
+        "charms-bar",
+        "customization",
+        "dark-mode",
+        "launcher"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-01T18:12:22Z",
+      "lastModified": "2026-02-01T19:36:37Z",
+      "source": "github",
+      "url": "https://github.com/OmniTx/CharmsBar",
+      "stars": 0,
+      "forks": 0,
+      "owner": "OmniTx",
+      "code": "```cpp\n; ============================================\n; Repository: OmniTx/CharmsBar\n; ============================================\n; URL: https://github.com/OmniTx/CharmsBar\n; Stars: 0 | Forks: 0\n; Last Updated: 2/1/2026\n; License: Not specified\n;\n; Description:\n; The missing Windows Charms Bar, reimagined for the modern era. A sleek, touch-friendly, and fully customizable sidebar for Windows 10 and 11 built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/OmniTx/CharmsBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/OmniTx/CharmsBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CharmsBar>\n\n; Example initialization\nclass CharmsbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CharmsBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CharmsbarExample()\n```"
     }
   ]
 }
