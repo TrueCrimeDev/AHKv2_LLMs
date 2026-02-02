@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-02T12:53:29.353Z",
-  "totalScripts": 124,
+  "lastUpdated": "2026-02-02T18:38:28.586Z",
+  "totalScripts": 126,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-02T11:31:08Z",
+      "lastModified": "2026-02-02T18:36:22Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2449,6 +2449,44 @@
       "forks": 0,
       "owner": "OmniTx",
       "code": "```cpp\n; ============================================\n; Repository: OmniTx/CharmsBar\n; ============================================\n; URL: https://github.com/OmniTx/CharmsBar\n; Stars: 0 | Forks: 0\n; Last Updated: 2/2/2026\n; License: Not specified\n;\n; Description:\n; The missing Windows Charms Bar, reimagined for the modern era. A sleek, touch-friendly, and fully customizable sidebar for Windows 10 and 11 built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/OmniTx/CharmsBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/OmniTx/CharmsBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CharmsBar>\n\n; Example initialization\nclass CharmsbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CharmsBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CharmsbarExample()\n```"
+    },
+    {
+      "id": "github-1148206500",
+      "title": "x15-compensator",
+      "category": "GitHub Repository",
+      "description": "The X15 Compensator is a lightweight, system-tray utility written in AutoHotkey v2.0. It is designed specifically to solve the \"reverse-scroll\" jitter common in the EVGA X15 MMO Mouse. By implementing a time-based directional lock, the software filters out mechanical \"bounces\" from the encoder before they reach Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-02T17:45:05Z",
+      "lastModified": "2026-02-02T17:53:48Z",
+      "source": "github",
+      "url": "https://github.com/jasonmpotter/x15-compensator",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jasonmpotter",
+      "code": "```cpp\n; ============================================\n; Repository: jasonmpotter/x15-compensator\n; ============================================\n; URL: https://github.com/jasonmpotter/x15-compensator\n; Stars: 0 | Forks: 0\n; Last Updated: 2/2/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; The X15 Compensator is a lightweight, system-tray utility written in AutoHotkey v2.0. It is designed specifically to solve the \"reverse-scroll\" jitter common in the EVGA X15 MMO Mouse. By implementing a time-based directional lock, the software filters out mechanical \"bounces\" from the encoder before they reach Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasonmpotter/x15-compensator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasonmpotter/x15-compensator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <x15-compensator>\n\n; Example initialization\nclass X15CompensatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"x15-compensator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := X15CompensatorExample()\n```"
+    },
+    {
+      "id": "github-1148198343",
+      "title": "My-AHK-v2-Scripts",
+      "category": "GitHub Repository",
+      "description": "A collection of AutoHotkey v2 scripts fixing German keyboard layout problems",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-02T17:33:54Z",
+      "lastModified": "2026-02-02T17:59:38Z",
+      "source": "github",
+      "url": "https://github.com/Firnschnee/My-AHK-v2-Scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Firnschnee",
+      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 2/2/2026\n; License: MIT License\n;\n; Description:\n; A collection of AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
     }
   ]
 }
