@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-02T06:58:34.002Z",
+  "lastUpdated": "2026-02-02T12:53:29.353Z",
   "totalScripts": 124,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-02T06:16:56Z",
+      "lastModified": "2026-02-02T11:31:08Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2242,13 +2242,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-26T15:51:37Z",
-      "lastModified": "2026-02-01T20:49:54Z",
+      "lastModified": "2026-02-02T12:41:33Z",
       "source": "github",
       "url": "https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder",
       "stars": 1,
       "forks": 1,
       "owner": "Sz-KLevy",
-      "code": "```cpp\n; ============================================\n; Repository: Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; ============================================\n; URL: https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; Stars: 1 | Forks: 1\n; Last Updated: 2/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that lets you record and play keyboard and mouse macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_AutoHotKey_Macro_Recorder>\n\n; Example initialization\nclass AhkAutohotkeyMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_AutoHotKey_Macro_Recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutohotkeyMacroRecorderExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; ============================================\n; URL: https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; Stars: 1 | Forks: 1\n; Last Updated: 2/2/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that lets you record and play keyboard and mouse macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_AutoHotKey_Macro_Recorder>\n\n; Example initialization\nclass AhkAutohotkeyMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_AutoHotKey_Macro_Recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutohotkeyMacroRecorderExample()\n```"
     },
     {
       "id": "github-1143022403",
@@ -2442,13 +2442,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-01T18:12:22Z",
-      "lastModified": "2026-02-01T19:36:37Z",
+      "lastModified": "2026-02-02T07:12:39Z",
       "source": "github",
       "url": "https://github.com/OmniTx/CharmsBar",
       "stars": 0,
       "forks": 0,
       "owner": "OmniTx",
-      "code": "```cpp\n; ============================================\n; Repository: OmniTx/CharmsBar\n; ============================================\n; URL: https://github.com/OmniTx/CharmsBar\n; Stars: 0 | Forks: 0\n; Last Updated: 2/1/2026\n; License: Not specified\n;\n; Description:\n; The missing Windows Charms Bar, reimagined for the modern era. A sleek, touch-friendly, and fully customizable sidebar for Windows 10 and 11 built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/OmniTx/CharmsBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/OmniTx/CharmsBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CharmsBar>\n\n; Example initialization\nclass CharmsbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CharmsBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CharmsbarExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: OmniTx/CharmsBar\n; ============================================\n; URL: https://github.com/OmniTx/CharmsBar\n; Stars: 0 | Forks: 0\n; Last Updated: 2/2/2026\n; License: Not specified\n;\n; Description:\n; The missing Windows Charms Bar, reimagined for the modern era. A sleek, touch-friendly, and fully customizable sidebar for Windows 10 and 11 built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/OmniTx/CharmsBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/OmniTx/CharmsBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CharmsBar>\n\n; Example initialization\nclass CharmsbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CharmsBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CharmsbarExample()\n```"
     }
   ]
 }
