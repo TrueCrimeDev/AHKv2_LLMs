@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-03T12:53:25.280Z",
+  "lastUpdated": "2026-02-03T18:52:42.174Z",
   "totalScripts": 126,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-03T11:27:33Z",
+      "lastModified": "2026-02-03T18:29:07Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-02-01T18:27:09Z",
+      "lastModified": "2026-02-03T13:03:36Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/3/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
