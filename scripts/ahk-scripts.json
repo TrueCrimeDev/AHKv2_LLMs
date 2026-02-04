@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-04T12:52:59.150Z",
+  "lastUpdated": "2026-02-04T18:43:33.673Z",
   "totalScripts": 126,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-04T11:55:13Z",
+      "lastModified": "2026-02-04T16:49:50Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-02-03T13:03:36Z",
+      "lastModified": "2026-02-04T14:49:21Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/3/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/4/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
@@ -2242,13 +2242,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-26T15:51:37Z",
-      "lastModified": "2026-02-02T12:41:33Z",
+      "lastModified": "2026-02-04T13:06:20Z",
       "source": "github",
       "url": "https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder",
       "stars": 1,
       "forks": 1,
       "owner": "Sz-KLevy",
-      "code": "```cpp\n; ============================================\n; Repository: Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; ============================================\n; URL: https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; Stars: 1 | Forks: 1\n; Last Updated: 2/2/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that lets you record and play keyboard and mouse macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_AutoHotKey_Macro_Recorder>\n\n; Example initialization\nclass AhkAutohotkeyMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_AutoHotKey_Macro_Recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutohotkeyMacroRecorderExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; ============================================\n; URL: https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder\n; Stars: 1 | Forks: 1\n; Last Updated: 2/4/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that lets you record and play keyboard and mouse macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sz-KLevy/AHK_AutoHotKey_Macro_Recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_AutoHotKey_Macro_Recorder>\n\n; Example initialization\nclass AhkAutohotkeyMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_AutoHotKey_Macro_Recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutohotkeyMacroRecorderExample()\n```"
     },
     {
       "id": "github-1143022403",
@@ -2379,13 +2379,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-01T03:23:51Z",
-      "lastModified": "2026-02-01T08:13:38Z",
+      "lastModified": "2026-02-04T13:13:44Z",
       "source": "github",
       "url": "https://github.com/l2e5hx/manico_enhanced",
       "stars": 0,
       "forks": 0,
       "owner": "l2e5hx",
-      "code": "```cpp\n; ============================================\n; Repository: l2e5hx/manico_enhanced\n; ============================================\n; URL: https://github.com/l2e5hx/manico_enhanced\n; Stars: 0 | Forks: 0\n; Last Updated: 2/1/2026\n; License: Not specified\n;\n; Description:\n; A Windows application switcher similar to macOS Manico, developed with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/l2e5hx/manico_enhanced.git\n;\n; Option 2: Download ZIP\n;   https://github.com/l2e5hx/manico_enhanced/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <manico_enhanced>\n\n; Example initialization\nclass ManicoEnhancedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"manico_enhanced loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ManicoEnhancedExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: l2e5hx/manico_enhanced\n; ============================================\n; URL: https://github.com/l2e5hx/manico_enhanced\n; Stars: 0 | Forks: 0\n; Last Updated: 2/4/2026\n; License: Not specified\n;\n; Description:\n; A Windows application switcher similar to macOS Manico, developed with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/l2e5hx/manico_enhanced.git\n;\n; Option 2: Download ZIP\n;   https://github.com/l2e5hx/manico_enhanced/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <manico_enhanced>\n\n; Example initialization\nclass ManicoEnhancedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"manico_enhanced loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ManicoEnhancedExample()\n```"
     },
     {
       "id": "github-1147590241",
