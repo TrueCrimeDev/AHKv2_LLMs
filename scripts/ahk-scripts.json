@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-05T12:55:27.545Z",
-  "totalScripts": 127,
+  "lastUpdated": "2026-02-05T18:43:26.458Z",
+  "totalScripts": 129,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-02-03T21:46:45Z",
+      "lastModified": "2026-02-05T15:36:13Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 42,
       "forks": 6,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 42 | Forks: 6\n; Last Updated: 2/3/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 42 | Forks: 6\n; Last Updated: 2/5/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-05T10:53:33Z",
+      "lastModified": "2026-02-05T16:16:50Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2506,6 +2506,50 @@
       "forks": 0,
       "owner": "mineevkv",
       "code": "```cpp\n; ============================================\n; Repository: mineevkv/VSCodeChromeSwitcher\n; ============================================\n; URL: https://github.com/mineevkv/VSCodeChromeSwitcher\n; Stars: 0 | Forks: 0\n; Last Updated: 2/5/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2: Chrome & VS Code Window Manager\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mineevkv/VSCodeChromeSwitcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mineevkv/VSCodeChromeSwitcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VSCodeChromeSwitcher>\n\n; Example initialization\nclass VscodechromeswitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VSCodeChromeSwitcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VscodechromeswitcherExample()\n```"
+    },
+    {
+      "id": "github-1150638743",
+      "title": "filewatcher",
+      "category": "GitHub Repository",
+      "description": "A real-time file monitoring application built with AutoHotkey v2.0+. This tool allows you to watch any file for changes and instantly view its content in a dedicated GUI window.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-05T14:14:35Z",
+      "lastModified": "2026-02-05T15:52:04Z",
+      "source": "github",
+      "url": "https://github.com/sarfraznawaz2005/filewatcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sarfraznawaz2005",
+      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/filewatcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/filewatcher\n; Stars: 0 | Forks: 0\n; Last Updated: 2/5/2026\n; License: Not specified\n;\n; Description:\n; A real-time file monitoring application built with AutoHotkey v2.0+. This tool allows you to watch any file for changes and instantly view its content in a dedicated GUI window.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/filewatcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/filewatcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <filewatcher>\n\n; Example initialization\nclass FilewatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"filewatcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilewatcherExample()\n```"
+    },
+    {
+      "id": "github-930479119",
+      "title": "dotfiles-komorebi",
+      "category": "GitHub Repository",
+      "description": "🌆 My AutoHotkey v2 script used in my day-to-day Komorebi tiling window manager setup",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "dotfiles",
+        "komorebi",
+        "tiling-window-manager",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-02-10T17:42:31Z",
+      "lastModified": "2026-02-05T15:10:49Z",
+      "source": "github",
+      "url": "https://github.com/tsukasa/dotfiles-komorebi",
+      "stars": 4,
+      "forks": 0,
+      "owner": "tsukasa",
+      "code": "```cpp\n; ============================================\n; Repository: tsukasa/dotfiles-komorebi\n; ============================================\n; URL: https://github.com/tsukasa/dotfiles-komorebi\n; Stars: 4 | Forks: 0\n; Last Updated: 2/5/2026\n; License: MIT License\n;\n; Description:\n; 🌆 My AutoHotkey v2 script used in my day-to-day Komorebi tiling window manager setup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tsukasa/dotfiles-komorebi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tsukasa/dotfiles-komorebi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dotfiles-komorebi>\n\n; Example initialization\nclass DotfilesKomorebiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dotfiles-komorebi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DotfilesKomorebiExample()\n```"
     }
   ]
 }
