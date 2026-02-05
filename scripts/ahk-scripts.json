@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-04T18:43:33.673Z",
+  "lastUpdated": "2026-02-05T01:50:50.846Z",
   "totalScripts": 126,
   "categories": [
     "GUI",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-04T16:49:50Z",
+      "lastModified": "2026-02-05T00:26:58Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/4/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/5/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2461,13 +2461,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-02T17:45:05Z",
-      "lastModified": "2026-02-02T17:53:48Z",
+      "lastModified": "2026-02-04T23:04:36Z",
       "source": "github",
       "url": "https://github.com/jasonmpotter/x15-compensator",
       "stars": 0,
       "forks": 0,
       "owner": "jasonmpotter",
-      "code": "```cpp\n; ============================================\n; Repository: jasonmpotter/x15-compensator\n; ============================================\n; URL: https://github.com/jasonmpotter/x15-compensator\n; Stars: 0 | Forks: 0\n; Last Updated: 2/2/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; The X15 Compensator is a lightweight, system-tray utility written in AutoHotkey v2.0. It is designed specifically to solve the \"reverse-scroll\" jitter common in the EVGA X15 MMO Mouse. By implementing a time-based directional lock, the software filters out mechanical \"bounces\" from the encoder before they reach Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasonmpotter/x15-compensator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasonmpotter/x15-compensator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <x15-compensator>\n\n; Example initialization\nclass X15CompensatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"x15-compensator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := X15CompensatorExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jasonmpotter/x15-compensator\n; ============================================\n; URL: https://github.com/jasonmpotter/x15-compensator\n; Stars: 0 | Forks: 0\n; Last Updated: 2/4/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; The X15 Compensator is a lightweight, system-tray utility written in AutoHotkey v2.0. It is designed specifically to solve the \"reverse-scroll\" jitter common in the EVGA X15 MMO Mouse. By implementing a time-based directional lock, the software filters out mechanical \"bounces\" from the encoder before they reach Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasonmpotter/x15-compensator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasonmpotter/x15-compensator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <x15-compensator>\n\n; Example initialization\nclass X15CompensatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"x15-compensator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := X15CompensatorExample()\n```"
     },
     {
       "id": "github-1148198343",
