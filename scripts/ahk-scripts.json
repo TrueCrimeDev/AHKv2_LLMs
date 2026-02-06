@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-06T12:52:57.534Z",
-  "totalScripts": 130,
+  "lastUpdated": "2026-02-06T18:43:44.604Z",
+  "totalScripts": 131,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-06T11:38:13Z",
+      "lastModified": "2026-02-06T17:22:07Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2543,13 +2543,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-02-10T17:42:31Z",
-      "lastModified": "2026-02-05T15:10:49Z",
+      "lastModified": "2026-02-06T13:44:06Z",
       "source": "github",
       "url": "https://github.com/tsukasa/dotfiles-komorebi",
       "stars": 4,
       "forks": 0,
       "owner": "tsukasa",
-      "code": "```cpp\n; ============================================\n; Repository: tsukasa/dotfiles-komorebi\n; ============================================\n; URL: https://github.com/tsukasa/dotfiles-komorebi\n; Stars: 4 | Forks: 0\n; Last Updated: 2/5/2026\n; License: MIT License\n;\n; Description:\n; 🌆 My AutoHotkey v2 script used in my day-to-day Komorebi tiling window manager setup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tsukasa/dotfiles-komorebi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tsukasa/dotfiles-komorebi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dotfiles-komorebi>\n\n; Example initialization\nclass DotfilesKomorebiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dotfiles-komorebi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DotfilesKomorebiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tsukasa/dotfiles-komorebi\n; ============================================\n; URL: https://github.com/tsukasa/dotfiles-komorebi\n; Stars: 4 | Forks: 0\n; Last Updated: 2/6/2026\n; License: MIT License\n;\n; Description:\n; 🌆 My AutoHotkey v2 script used in my day-to-day Komorebi tiling window manager setup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tsukasa/dotfiles-komorebi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tsukasa/dotfiles-komorebi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dotfiles-komorebi>\n\n; Example initialization\nclass DotfilesKomorebiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dotfiles-komorebi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DotfilesKomorebiExample()\n```"
     },
     {
       "id": "github-1149077098",
@@ -2560,18 +2560,41 @@
         "github",
         "repository",
         "autohotkey",
+        "ico",
         "icon",
-        "utility"
+        "utility",
+        "windows"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-03T17:38:56Z",
-      "lastModified": "2026-02-06T06:29:19Z",
+      "lastModified": "2026-02-06T14:50:21Z",
       "source": "github",
       "url": "https://github.com/akcansoft/AS-Icon-Viewer",
       "stars": 2,
       "forks": 2,
       "owner": "akcansoft",
       "code": "```cpp\n; ============================================\n; Repository: akcansoft/AS-Icon-Viewer\n; ============================================\n; URL: https://github.com/akcansoft/AS-Icon-Viewer\n; Stars: 2 | Forks: 2\n; Last Updated: 2/6/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A professional-grade icon extraction and management tool for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/AS-Icon-Viewer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/AS-Icon-Viewer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AS-Icon-Viewer>\n\n; Example initialization\nclass AsIconViewerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AS-Icon-Viewer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsIconViewerExample()\n```"
+    },
+    {
+      "id": "github-1151616150",
+      "title": "Dead-Island-2-Macro",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 macro for Dead Island 2 - Fast Attack & Fast Jump",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-06T17:28:41Z",
+      "lastModified": "2026-02-06T18:30:45Z",
+      "source": "github",
+      "url": "https://github.com/Aertoni/Dead-Island-2-Macro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Aertoni",
+      "code": "```cpp\n; ============================================\n; Repository: Aertoni/Dead-Island-2-Macro\n; ============================================\n; URL: https://github.com/Aertoni/Dead-Island-2-Macro\n; Stars: 0 | Forks: 0\n; Last Updated: 2/6/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 macro for Dead Island 2 - Fast Attack & Fast Jump\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Aertoni/Dead-Island-2-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Aertoni/Dead-Island-2-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dead-Island-2-Macro>\n\n; Example initialization\nclass DeadIsland2MacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dead-Island-2-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DeadIsland2MacroExample()\n```"
     }
   ]
 }
