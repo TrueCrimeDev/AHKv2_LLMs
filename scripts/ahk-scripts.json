@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-07T12:41:07.932Z",
-  "totalScripts": 131,
+  "lastUpdated": "2026-02-07T18:30:43.496Z",
+  "totalScripts": 132,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-02-05T15:36:13Z",
+      "lastModified": "2026-02-07T15:50:19Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
-      "stars": 42,
+      "stars": 43,
       "forks": 6,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 42 | Forks: 6\n; Last Updated: 2/5/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 43 | Forks: 6\n; Last Updated: 2/7/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-07T11:58:15Z",
+      "lastModified": "2026-02-07T17:26:38Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-02-04T14:49:21Z",
+      "lastModified": "2026-02-07T16:13:02Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/4/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/7/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
@@ -2442,13 +2442,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-01T18:12:22Z",
-      "lastModified": "2026-02-02T07:12:39Z",
+      "lastModified": "2026-02-07T18:27:06Z",
       "source": "github",
       "url": "https://github.com/OmniTx/CharmsBar",
       "stars": 0,
       "forks": 0,
       "owner": "OmniTx",
-      "code": "```cpp\n; ============================================\n; Repository: OmniTx/CharmsBar\n; ============================================\n; URL: https://github.com/OmniTx/CharmsBar\n; Stars: 0 | Forks: 0\n; Last Updated: 2/2/2026\n; License: Not specified\n;\n; Description:\n; The missing Windows Charms Bar, reimagined for the modern era. A sleek, touch-friendly, and fully customizable sidebar for Windows 10 and 11 built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/OmniTx/CharmsBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/OmniTx/CharmsBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CharmsBar>\n\n; Example initialization\nclass CharmsbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CharmsBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CharmsbarExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: OmniTx/CharmsBar\n; ============================================\n; URL: https://github.com/OmniTx/CharmsBar\n; Stars: 0 | Forks: 0\n; Last Updated: 2/7/2026\n; License: Not specified\n;\n; Description:\n; The missing Windows Charms Bar, reimagined for the modern era. A sleek, touch-friendly, and fully customizable sidebar for Windows 10 and 11 built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/OmniTx/CharmsBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/OmniTx/CharmsBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CharmsBar>\n\n; Example initialization\nclass CharmsbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CharmsBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CharmsbarExample()\n```"
     },
     {
       "id": "github-1148206500",
@@ -2595,6 +2595,25 @@
       "forks": 0,
       "owner": "Aertoni",
       "code": "```cpp\n; ============================================\n; Repository: Aertoni/Dead-Island-2-Macro\n; ============================================\n; URL: https://github.com/Aertoni/Dead-Island-2-Macro\n; Stars: 0 | Forks: 0\n; Last Updated: 2/6/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 macro for Dead Island 2 - Fast Attack & Fast Jump\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Aertoni/Dead-Island-2-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Aertoni/Dead-Island-2-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dead-Island-2-Macro>\n\n; Example initialization\nclass DeadIsland2MacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dead-Island-2-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DeadIsland2MacroExample()\n```"
+    },
+    {
+      "id": "github-1152169600",
+      "title": "AHKv2-Lib",
+      "category": "GitHub Repository",
+      "description": "A collection of high-quality, strictly compliant, and well-tested libraries for AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-07T13:22:17Z",
+      "lastModified": "2026-02-07T17:03:40Z",
+      "source": "github",
+      "url": "https://github.com/nullmake/AHKv2-Lib",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nullmake",
+      "code": "```cpp\n; ============================================\n; Repository: nullmake/AHKv2-Lib\n; ============================================\n; URL: https://github.com/nullmake/AHKv2-Lib\n; Stars: 0 | Forks: 0\n; Last Updated: 2/7/2026\n; License: Apache License 2.0\n;\n; Description:\n; A collection of high-quality, strictly compliant, and well-tested libraries for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nullmake/AHKv2-Lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nullmake/AHKv2-Lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2-Lib>\n\n; Example initialization\nclass Ahkv2LibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2-Lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2LibExample()\n```"
     }
   ]
 }
