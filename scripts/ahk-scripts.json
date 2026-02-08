@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-08T06:19:09.667Z",
+  "lastUpdated": "2026-02-08T12:08:47.407Z",
   "totalScripts": 132,
   "categories": [
     "GUI",
@@ -561,13 +561,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-07T03:41:58Z",
-      "lastModified": "2026-01-30T21:42:18Z",
+      "lastModified": "2026-02-08T09:27:22Z",
       "source": "github",
       "url": "https://github.com/masaodev/myahk_v2",
       "stars": 0,
       "forks": 0,
       "owner": "masaodev",
-      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 1/30/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
     },
     {
       "id": "github-1039208508",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-08T04:45:39Z",
+      "lastModified": "2026-02-08T10:06:46Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2543,7 +2543,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-02-10T17:42:31Z",
-      "lastModified": "2026-02-08T00:45:37Z",
+      "lastModified": "2026-02-08T09:19:34Z",
       "source": "github",
       "url": "https://github.com/tsukasa/dotfiles-komorebi",
       "stars": 4,
@@ -2567,13 +2567,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-03T17:38:56Z",
-      "lastModified": "2026-02-07T06:23:48Z",
+      "lastModified": "2026-02-08T09:23:41Z",
       "source": "github",
       "url": "https://github.com/akcansoft/AS-Icon-Viewer",
-      "stars": 2,
+      "stars": 3,
       "forks": 2,
       "owner": "akcansoft",
-      "code": "```cpp\n; ============================================\n; Repository: akcansoft/AS-Icon-Viewer\n; ============================================\n; URL: https://github.com/akcansoft/AS-Icon-Viewer\n; Stars: 2 | Forks: 2\n; Last Updated: 2/7/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A professional-grade icon extraction and management tool for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/AS-Icon-Viewer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/AS-Icon-Viewer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AS-Icon-Viewer>\n\n; Example initialization\nclass AsIconViewerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AS-Icon-Viewer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsIconViewerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: akcansoft/AS-Icon-Viewer\n; ============================================\n; URL: https://github.com/akcansoft/AS-Icon-Viewer\n; Stars: 3 | Forks: 2\n; Last Updated: 2/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A professional-grade icon extraction and management tool for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/AS-Icon-Viewer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/AS-Icon-Viewer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AS-Icon-Viewer>\n\n; Example initialization\nclass AsIconViewerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AS-Icon-Viewer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsIconViewerExample()\n```"
     },
     {
       "id": "github-1151616150",
@@ -2607,13 +2607,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-07T13:22:17Z",
-      "lastModified": "2026-02-07T17:03:40Z",
+      "lastModified": "2026-02-08T07:50:01Z",
       "source": "github",
       "url": "https://github.com/nullmake/AHKv2-Lib",
       "stars": 0,
       "forks": 0,
       "owner": "nullmake",
-      "code": "```cpp\n; ============================================\n; Repository: nullmake/AHKv2-Lib\n; ============================================\n; URL: https://github.com/nullmake/AHKv2-Lib\n; Stars: 0 | Forks: 0\n; Last Updated: 2/7/2026\n; License: Apache License 2.0\n;\n; Description:\n; A collection of high-quality, strictly compliant, and well-tested libraries for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nullmake/AHKv2-Lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nullmake/AHKv2-Lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2-Lib>\n\n; Example initialization\nclass Ahkv2LibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2-Lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2LibExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nullmake/AHKv2-Lib\n; ============================================\n; URL: https://github.com/nullmake/AHKv2-Lib\n; Stars: 0 | Forks: 0\n; Last Updated: 2/8/2026\n; License: Apache License 2.0\n;\n; Description:\n; A collection of high-quality, strictly compliant, and well-tested libraries for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nullmake/AHKv2-Lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nullmake/AHKv2-Lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2-Lib>\n\n; Example initialization\nclass Ahkv2LibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2-Lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2LibExample()\n```"
     }
   ]
 }
