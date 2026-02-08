@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-08T02:13:02.284Z",
+  "lastUpdated": "2026-02-08T06:19:09.667Z",
   "totalScripts": 132,
   "categories": [
     "GUI",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-07T23:06:30Z",
+      "lastModified": "2026-02-08T04:45:39Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/7/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/8/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-02-07T16:13:02Z",
+      "lastModified": "2026-02-08T02:31:08Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/7/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
