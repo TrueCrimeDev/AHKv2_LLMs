@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-08T12:08:47.407Z",
+  "lastUpdated": "2026-02-08T18:07:51.514Z",
   "totalScripts": 132,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-08T10:06:46Z",
+      "lastModified": "2026-02-08T15:18:40Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2261,13 +2261,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-27T04:59:41Z",
-      "lastModified": "2026-01-31T20:37:28Z",
+      "lastModified": "2026-02-08T17:18:36Z",
       "source": "github",
       "url": "https://github.com/ezflow997/LiveView",
       "stars": 3,
       "forks": 0,
       "owner": "ezflow997",
-      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 3 | Forks: 0\n; Last Updated: 1/31/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 3 | Forks: 0\n; Last Updated: 2/8/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
     },
     {
       "id": "github-1143820755",
@@ -2518,13 +2518,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-05T14:14:35Z",
-      "lastModified": "2026-02-05T18:57:41Z",
+      "lastModified": "2026-02-08T17:51:27Z",
       "source": "github",
       "url": "https://github.com/sarfraznawaz2005/filewatcher",
       "stars": 0,
       "forks": 0,
       "owner": "sarfraznawaz2005",
-      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/filewatcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/filewatcher\n; Stars: 0 | Forks: 0\n; Last Updated: 2/5/2026\n; License: Not specified\n;\n; Description:\n; A real-time file monitoring application built with AutoHotkey v2.0+. This tool allows you to watch any file for changes and instantly view its content in a dedicated GUI window.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/filewatcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/filewatcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <filewatcher>\n\n; Example initialization\nclass FilewatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"filewatcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilewatcherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/filewatcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/filewatcher\n; Stars: 0 | Forks: 0\n; Last Updated: 2/8/2026\n; License: Not specified\n;\n; Description:\n; A real-time file monitoring application built with AutoHotkey v2.0+. This tool allows you to watch any file for changes and instantly view its content in a dedicated GUI window.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/filewatcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/filewatcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <filewatcher>\n\n; Example initialization\nclass FilewatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"filewatcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilewatcherExample()\n```"
     },
     {
       "id": "github-930479119",
@@ -2543,7 +2543,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-02-10T17:42:31Z",
-      "lastModified": "2026-02-08T09:19:34Z",
+      "lastModified": "2026-02-08T14:23:58Z",
       "source": "github",
       "url": "https://github.com/tsukasa/dotfiles-komorebi",
       "stars": 4,
