@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-07T18:30:43.496Z",
+  "lastUpdated": "2026-02-08T02:13:02.284Z",
   "totalScripts": 132,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-07T17:26:38Z",
+      "lastModified": "2026-02-07T23:06:30Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2442,7 +2442,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-01T18:12:22Z",
-      "lastModified": "2026-02-07T18:27:06Z",
+      "lastModified": "2026-02-07T18:45:52Z",
       "source": "github",
       "url": "https://github.com/OmniTx/CharmsBar",
       "stars": 0,
@@ -2543,13 +2543,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-02-10T17:42:31Z",
-      "lastModified": "2026-02-06T13:44:06Z",
+      "lastModified": "2026-02-08T00:45:37Z",
       "source": "github",
       "url": "https://github.com/tsukasa/dotfiles-komorebi",
       "stars": 4,
       "forks": 0,
       "owner": "tsukasa",
-      "code": "```cpp\n; ============================================\n; Repository: tsukasa/dotfiles-komorebi\n; ============================================\n; URL: https://github.com/tsukasa/dotfiles-komorebi\n; Stars: 4 | Forks: 0\n; Last Updated: 2/6/2026\n; License: MIT License\n;\n; Description:\n; 🌆 My AutoHotkey v2 script used in my day-to-day Komorebi tiling window manager setup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tsukasa/dotfiles-komorebi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tsukasa/dotfiles-komorebi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dotfiles-komorebi>\n\n; Example initialization\nclass DotfilesKomorebiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dotfiles-komorebi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DotfilesKomorebiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tsukasa/dotfiles-komorebi\n; ============================================\n; URL: https://github.com/tsukasa/dotfiles-komorebi\n; Stars: 4 | Forks: 0\n; Last Updated: 2/8/2026\n; License: MIT License\n;\n; Description:\n; 🌆 My AutoHotkey v2 script used in my day-to-day Komorebi tiling window manager setup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tsukasa/dotfiles-komorebi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tsukasa/dotfiles-komorebi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dotfiles-komorebi>\n\n; Example initialization\nclass DotfilesKomorebiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dotfiles-komorebi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DotfilesKomorebiExample()\n```"
     },
     {
       "id": "github-1149077098",
