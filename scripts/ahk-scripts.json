@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-09T06:26:08.543Z",
-  "totalScripts": 132,
+  "lastUpdated": "2026-02-09T12:17:17.039Z",
+  "totalScripts": 133,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-09T04:31:39Z",
+      "lastModified": "2026-02-09T11:26:37Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2614,6 +2614,25 @@
       "forks": 0,
       "owner": "nullmake",
       "code": "```cpp\n; ============================================\n; Repository: nullmake/ahkv2-lib\n; ============================================\n; URL: https://github.com/nullmake/ahkv2-lib\n; Stars: 0 | Forks: 0\n; Last Updated: 2/9/2026\n; License: Apache License 2.0\n;\n; Description:\n; A collection of high-quality, strictly compliant, and well-tested libraries for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nullmake/ahkv2-lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nullmake/ahkv2-lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkv2-lib>\n\n; Example initialization\nclass Ahkv2LibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkv2-lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2LibExample()\n```"
+    },
+    {
+      "id": "github-1153447682",
+      "title": "autohotkey-v2",
+      "category": "GitHub Repository",
+      "description": "No description available",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-09T10:06:05Z",
+      "lastModified": "2026-02-09T10:07:01Z",
+      "source": "github",
+      "url": "https://github.com/fryalien/autohotkey-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "fryalien",
+      "code": "```cpp\n; ============================================\n; Repository: fryalien/autohotkey-v2\n; ============================================\n; URL: https://github.com/fryalien/autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/9/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fryalien/autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fryalien/autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     }
   ]
 }
