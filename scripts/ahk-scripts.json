@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-09T00:24:38.629Z",
+  "lastUpdated": "2026-02-09T06:26:08.543Z",
   "totalScripts": 132,
   "categories": [
     "GUI",
@@ -1413,13 +1413,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-27T02:01:30Z",
-      "lastModified": "2025-12-07T04:31:18Z",
+      "lastModified": "2026-02-09T03:07:49Z",
       "source": "github",
       "url": "https://github.com/shubham911-dell/CornerSwitcher",
       "stars": 2,
       "forks": 0,
       "owner": "shubham911-dell",
-      "code": "```cpp\n; ============================================\n; Repository: shubham911-dell/CornerSwitcher\n; ============================================\n; URL: https://github.com/shubham911-dell/CornerSwitcher\n; Stars: 2 | Forks: 0\n; Last Updated: 12/7/2025\n; License: Not specified\n;\n; Description:\n; Hot Corners for Windows using AutoHotkey v2 – Add macOS-style hot corners to Windows. Quickly switch between apps with Alt+Tab from the top-left corner, open Task View from the bottom-left, and control windows with mouse scroll, left click, and right click. Fully customizable corner size, colors, and delay settings for faster multitasking.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shubham911-dell/CornerSwitcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shubham911-dell/CornerSwitcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CornerSwitcher>\n\n; Example initialization\nclass CornerswitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CornerSwitcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CornerswitcherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: shubham911-dell/CornerSwitcher\n; ============================================\n; URL: https://github.com/shubham911-dell/CornerSwitcher\n; Stars: 2 | Forks: 0\n; Last Updated: 2/9/2026\n; License: MIT License\n;\n; Description:\n; Hot Corners for Windows using AutoHotkey v2 – Add macOS-style hot corners to Windows. Quickly switch between apps with Alt+Tab from the top-left corner, open Task View from the bottom-left, and control windows with mouse scroll, left click, and right click. Fully customizable corner size, colors, and delay settings for faster multitasking.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shubham911-dell/CornerSwitcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shubham911-dell/CornerSwitcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CornerSwitcher>\n\n; Example initialization\nclass CornerswitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CornerSwitcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CornerswitcherExample()\n```"
     },
     {
       "id": "github-1089192108",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-08T23:41:15Z",
+      "lastModified": "2026-02-09T04:31:39Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/8/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/9/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2598,7 +2598,7 @@
     },
     {
       "id": "github-1152169600",
-      "title": "AHKv2-Lib",
+      "title": "ahkv2-lib",
       "category": "GitHub Repository",
       "description": "A collection of high-quality, strictly compliant, and well-tested libraries for AutoHotkey v2.",
       "tags": [
@@ -2607,13 +2607,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-07T13:22:17Z",
-      "lastModified": "2026-02-08T07:50:01Z",
+      "lastModified": "2026-02-09T01:04:48Z",
       "source": "github",
-      "url": "https://github.com/nullmake/AHKv2-Lib",
+      "url": "https://github.com/nullmake/ahkv2-lib",
       "stars": 0,
       "forks": 0,
       "owner": "nullmake",
-      "code": "```cpp\n; ============================================\n; Repository: nullmake/AHKv2-Lib\n; ============================================\n; URL: https://github.com/nullmake/AHKv2-Lib\n; Stars: 0 | Forks: 0\n; Last Updated: 2/8/2026\n; License: Apache License 2.0\n;\n; Description:\n; A collection of high-quality, strictly compliant, and well-tested libraries for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nullmake/AHKv2-Lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nullmake/AHKv2-Lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2-Lib>\n\n; Example initialization\nclass Ahkv2LibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2-Lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2LibExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nullmake/ahkv2-lib\n; ============================================\n; URL: https://github.com/nullmake/ahkv2-lib\n; Stars: 0 | Forks: 0\n; Last Updated: 2/9/2026\n; License: Apache License 2.0\n;\n; Description:\n; A collection of high-quality, strictly compliant, and well-tested libraries for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nullmake/ahkv2-lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nullmake/ahkv2-lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkv2-lib>\n\n; Example initialization\nclass Ahkv2LibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkv2-lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2LibExample()\n```"
     }
   ]
 }
