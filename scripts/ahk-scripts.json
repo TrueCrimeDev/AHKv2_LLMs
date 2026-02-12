@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-11T18:21:34.397Z",
-  "totalScripts": 136,
+  "lastUpdated": "2026-02-12T00:23:31.534Z",
+  "totalScripts": 137,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-11T16:01:42Z",
+      "lastModified": "2026-02-11T23:30:26Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2690,6 +2690,25 @@
       "forks": 0,
       "owner": "Fiddle-Jaq",
       "code": "```cpp\n; ============================================\n; Repository: Fiddle-Jaq/CapsVim\n; ============================================\n; URL: https://github.com/Fiddle-Jaq/CapsVim\n; Stars: 0 | Forks: 0\n; Last Updated: 2/11/2026\n; License: Not specified\n;\n; Description:\n; CapsLock-driven Vim-like keybindings for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Fiddle-Jaq/CapsVim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Fiddle-Jaq/CapsVim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsVim>\n\n; Example initialization\nclass CapsvimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsVim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapsvimExample()\n```"
+    },
+    {
+      "id": "github-1127377354",
+      "title": "ClipBarrel",
+      "category": "GitHub Repository",
+      "description": "ClipBarrel is an AutoHotkey v2 clipboard extender that works alongside the normal Windows clipboard, letting you save multiple copied items and paste them in any order",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-03T18:56:50Z",
+      "lastModified": "2026-02-11T22:29:51Z",
+      "source": "github",
+      "url": "https://github.com/Cordarian/ClipBarrel",
+      "stars": 2,
+      "forks": 1,
+      "owner": "Cordarian",
+      "code": "```cpp\n; ============================================\n; Repository: Cordarian/ClipBarrel\n; ============================================\n; URL: https://github.com/Cordarian/ClipBarrel\n; Stars: 2 | Forks: 1\n; Last Updated: 2/11/2026\n; License: Not specified\n;\n; Description:\n; ClipBarrel is an AutoHotkey v2 clipboard extender that works alongside the normal Windows clipboard, letting you save multiple copied items and paste them in any order\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Cordarian/ClipBarrel.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Cordarian/ClipBarrel/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipBarrel>\n\n; Example initialization\nclass ClipbarrelExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipBarrel loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipbarrelExample()\n```"
     }
   ]
 }
