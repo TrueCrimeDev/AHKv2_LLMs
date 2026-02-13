@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-13T12:12:08.717Z",
-  "totalScripts": 139,
+  "lastUpdated": "2026-02-13T18:14:24.911Z",
+  "totalScripts": 140,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-13T11:55:16Z",
+      "lastModified": "2026-02-13T17:25:17Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2379,7 +2379,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-01T03:23:51Z",
-      "lastModified": "2026-02-13T11:29:14Z",
+      "lastModified": "2026-02-13T15:04:27Z",
       "source": "github",
       "url": "https://github.com/l2e5hx/manico_enhanced",
       "stars": 0,
@@ -2747,6 +2747,25 @@
       "forks": 0,
       "owner": "allan-jensen",
       "code": "```cpp\n; ============================================\n; Repository: allan-jensen/sprite-lib\n; ============================================\n; URL: https://github.com/allan-jensen/sprite-lib\n; Stars: 0 | Forks: 0\n; Last Updated: 2/12/2026\n; License: MIT License\n;\n; Description:\n; Biblioteca de renderização gráfica para AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/allan-jensen/sprite-lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/allan-jensen/sprite-lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sprite-lib>\n\n; Example initialization\nclass SpriteLibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sprite-lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SpriteLibExample()\n```"
+    },
+    {
+      "id": "github-1157265843",
+      "title": "AHK-ViGEm-Bus-v2.ahk",
+      "category": "GitHub Repository",
+      "description": "Version traducida para autohotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-13T16:14:44Z",
+      "lastModified": "2026-02-13T17:04:21Z",
+      "source": "github",
+      "url": "https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "CesarHlp1",
+      "code": "```cpp\n; ============================================\n; Repository: CesarHlp1/AHK-ViGEm-Bus-v2.ahk\n; ============================================\n; URL: https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 2/13/2026\n; License: MIT License\n;\n; Description:\n; Version traducida para autohotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ViGEm-Bus-v2.ahk>\n\n; Example initialization\nclass AhkVigemBusV2.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ViGEm-Bus-v2.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkVigemBusV2.ahkExample()\n```"
     }
   ]
 }
