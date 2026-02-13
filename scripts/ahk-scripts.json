@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-12T18:20:53.046Z",
-  "totalScripts": 138,
+  "lastUpdated": "2026-02-13T00:25:47.919Z",
+  "totalScripts": 139,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-12T16:36:10Z",
+      "lastModified": "2026-02-12T23:45:00Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2518,13 +2518,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-05T14:14:35Z",
-      "lastModified": "2026-02-08T17:51:27Z",
+      "lastModified": "2026-02-12T21:30:20Z",
       "source": "github",
       "url": "https://github.com/sarfraznawaz2005/filewatcher",
       "stars": 0,
       "forks": 0,
       "owner": "sarfraznawaz2005",
-      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/filewatcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/filewatcher\n; Stars: 0 | Forks: 0\n; Last Updated: 2/8/2026\n; License: Not specified\n;\n; Description:\n; A real-time file monitoring application built with AutoHotkey v2.0+. This tool allows you to watch any file for changes and instantly view its content in a dedicated GUI window.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/filewatcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/filewatcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <filewatcher>\n\n; Example initialization\nclass FilewatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"filewatcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilewatcherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/filewatcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/filewatcher\n; Stars: 0 | Forks: 0\n; Last Updated: 2/12/2026\n; License: Not specified\n;\n; Description:\n; A real-time file monitoring application built with AutoHotkey v2.0+. This tool allows you to watch any file for changes and instantly view its content in a dedicated GUI window.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/filewatcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/filewatcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <filewatcher>\n\n; Example initialization\nclass FilewatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"filewatcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilewatcherExample()\n```"
     },
     {
       "id": "github-930479119",
@@ -2543,13 +2543,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-02-10T17:42:31Z",
-      "lastModified": "2026-02-10T16:03:59Z",
+      "lastModified": "2026-02-12T20:02:46Z",
       "source": "github",
       "url": "https://github.com/tsukasa/dotfiles-komorebi",
       "stars": 4,
       "forks": 0,
       "owner": "tsukasa",
-      "code": "```cpp\n; ============================================\n; Repository: tsukasa/dotfiles-komorebi\n; ============================================\n; URL: https://github.com/tsukasa/dotfiles-komorebi\n; Stars: 4 | Forks: 0\n; Last Updated: 2/10/2026\n; License: MIT License\n;\n; Description:\n; 🌆 My AutoHotkey v2 script used in my day-to-day Komorebi tiling window manager setup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tsukasa/dotfiles-komorebi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tsukasa/dotfiles-komorebi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dotfiles-komorebi>\n\n; Example initialization\nclass DotfilesKomorebiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dotfiles-komorebi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DotfilesKomorebiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tsukasa/dotfiles-komorebi\n; ============================================\n; URL: https://github.com/tsukasa/dotfiles-komorebi\n; Stars: 4 | Forks: 0\n; Last Updated: 2/12/2026\n; License: MIT License\n;\n; Description:\n; 🌆 My AutoHotkey v2 script used in my day-to-day Komorebi tiling window manager setup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tsukasa/dotfiles-komorebi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tsukasa/dotfiles-komorebi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dotfiles-komorebi>\n\n; Example initialization\nclass DotfilesKomorebiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dotfiles-komorebi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DotfilesKomorebiExample()\n```"
     },
     {
       "id": "github-1149077098",
@@ -2567,13 +2567,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-03T17:38:56Z",
-      "lastModified": "2026-02-11T08:32:48Z",
+      "lastModified": "2026-02-12T18:35:37Z",
       "source": "github",
       "url": "https://github.com/akcansoft/AS-Icon-Viewer",
       "stars": 3,
       "forks": 2,
       "owner": "akcansoft",
-      "code": "```cpp\n; ============================================\n; Repository: akcansoft/AS-Icon-Viewer\n; ============================================\n; URL: https://github.com/akcansoft/AS-Icon-Viewer\n; Stars: 3 | Forks: 2\n; Last Updated: 2/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A professional-grade icon extraction and management tool for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/AS-Icon-Viewer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/AS-Icon-Viewer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AS-Icon-Viewer>\n\n; Example initialization\nclass AsIconViewerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AS-Icon-Viewer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsIconViewerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: akcansoft/AS-Icon-Viewer\n; ============================================\n; URL: https://github.com/akcansoft/AS-Icon-Viewer\n; Stars: 3 | Forks: 2\n; Last Updated: 2/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A professional-grade icon extraction and management tool for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/AS-Icon-Viewer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/AS-Icon-Viewer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AS-Icon-Viewer>\n\n; Example initialization\nclass AsIconViewerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AS-Icon-Viewer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsIconViewerExample()\n```"
     },
     {
       "id": "github-1151616150",
@@ -2728,6 +2728,25 @@
       "forks": 0,
       "owner": "grantgotgame",
       "code": "```cpp\n; ============================================\n; Repository: grantgotgame/claude-tray-helper\n; ============================================\n; URL: https://github.com/grantgotgame/claude-tray-helper\n; Stars: 0 | Forks: 0\n; Last Updated: 2/12/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2: double-click Claude tray icon to show the app\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/grantgotgame/claude-tray-helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/grantgotgame/claude-tray-helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-tray-helper>\n\n; Example initialization\nclass ClaudeTrayHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-tray-helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeTrayHelperExample()\n```"
+    },
+    {
+      "id": "github-1071063528",
+      "title": "sprite-lib",
+      "category": "GitHub Repository",
+      "description": "Biblioteca de renderização gráfica para AutoHotkey V2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-10-06T20:16:31Z",
+      "lastModified": "2026-02-12T20:20:02Z",
+      "source": "github",
+      "url": "https://github.com/allan-jensen/sprite-lib",
+      "stars": 0,
+      "forks": 0,
+      "owner": "allan-jensen",
+      "code": "```cpp\n; ============================================\n; Repository: allan-jensen/sprite-lib\n; ============================================\n; URL: https://github.com/allan-jensen/sprite-lib\n; Stars: 0 | Forks: 0\n; Last Updated: 2/12/2026\n; License: MIT License\n;\n; Description:\n; Biblioteca de renderização gráfica para AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/allan-jensen/sprite-lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/allan-jensen/sprite-lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sprite-lib>\n\n; Example initialization\nclass SpriteLibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sprite-lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SpriteLibExample()\n```"
     }
   ]
 }
