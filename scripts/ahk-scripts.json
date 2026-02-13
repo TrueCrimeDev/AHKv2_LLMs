@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-13T06:22:47.370Z",
+  "lastUpdated": "2026-02-13T12:12:08.717Z",
   "totalScripts": 139,
   "categories": [
     "GUI",
@@ -711,13 +711,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-11T10:06:51Z",
-      "lastModified": "2026-02-12T17:25:10Z",
+      "lastModified": "2026-02-13T08:25:35Z",
       "source": "github",
       "url": "https://github.com/voothi/20240411110510-autohotkey",
       "stars": 1,
       "forks": 0,
       "owner": "voothi",
-      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 2/12/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 2/13/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
     },
     {
       "id": "github-1106851668",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-13T06:00:19Z",
+      "lastModified": "2026-02-13T11:55:16Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2379,13 +2379,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-01T03:23:51Z",
-      "lastModified": "2026-02-04T13:13:44Z",
+      "lastModified": "2026-02-13T11:29:14Z",
       "source": "github",
       "url": "https://github.com/l2e5hx/manico_enhanced",
       "stars": 0,
       "forks": 0,
       "owner": "l2e5hx",
-      "code": "```cpp\n; ============================================\n; Repository: l2e5hx/manico_enhanced\n; ============================================\n; URL: https://github.com/l2e5hx/manico_enhanced\n; Stars: 0 | Forks: 0\n; Last Updated: 2/4/2026\n; License: Not specified\n;\n; Description:\n; A Windows application switcher similar to macOS Manico, developed with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/l2e5hx/manico_enhanced.git\n;\n; Option 2: Download ZIP\n;   https://github.com/l2e5hx/manico_enhanced/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <manico_enhanced>\n\n; Example initialization\nclass ManicoEnhancedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"manico_enhanced loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ManicoEnhancedExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: l2e5hx/manico_enhanced\n; ============================================\n; URL: https://github.com/l2e5hx/manico_enhanced\n; Stars: 0 | Forks: 0\n; Last Updated: 2/13/2026\n; License: Not specified\n;\n; Description:\n; A Windows application switcher similar to macOS Manico, developed with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/l2e5hx/manico_enhanced.git\n;\n; Option 2: Download ZIP\n;   https://github.com/l2e5hx/manico_enhanced/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <manico_enhanced>\n\n; Example initialization\nclass ManicoEnhancedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"manico_enhanced loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ManicoEnhancedExample()\n```"
     },
     {
       "id": "github-1147590241",
