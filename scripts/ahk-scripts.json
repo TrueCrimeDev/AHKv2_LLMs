@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-13T18:14:24.911Z",
-  "totalScripts": 140,
+  "lastUpdated": "2026-02-14T00:24:03.063Z",
+  "totalScripts": 143,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1853,13 +1853,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-10-19T12:22:28Z",
-      "lastModified": "2026-02-11T00:21:20Z",
+      "lastModified": "2026-02-13T21:30:38Z",
       "source": "github",
       "url": "https://github.com/jasc2v8/AutoHotkey_v2",
       "stars": 0,
       "forks": 0,
       "owner": "jasc2v8",
-      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/11/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/13/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-1129028403",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-13T17:25:17Z",
+      "lastModified": "2026-02-13T22:13:33Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2261,13 +2261,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-27T04:59:41Z",
-      "lastModified": "2026-02-08T17:18:36Z",
+      "lastModified": "2026-02-13T19:41:34Z",
       "source": "github",
       "url": "https://github.com/ezflow997/LiveView",
       "stars": 3,
       "forks": 0,
       "owner": "ezflow997",
-      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 3 | Forks: 0\n; Last Updated: 2/8/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 3 | Forks: 0\n; Last Updated: 2/13/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
     },
     {
       "id": "github-1143820755",
@@ -2766,6 +2766,63 @@
       "forks": 0,
       "owner": "CesarHlp1",
       "code": "```cpp\n; ============================================\n; Repository: CesarHlp1/AHK-ViGEm-Bus-v2.ahk\n; ============================================\n; URL: https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 2/13/2026\n; License: MIT License\n;\n; Description:\n; Version traducida para autohotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ViGEm-Bus-v2.ahk>\n\n; Example initialization\nclass AhkVigemBusV2.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ViGEm-Bus-v2.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkVigemBusV2.ahkExample()\n```"
+    },
+    {
+      "id": "github-1157544813",
+      "title": "chrome-tab-scroll-doubleclick-close",
+      "category": "GitHub Repository",
+      "description": "Lightweight AutoHotkey (AHK v2) script for Chrome/Edge. Restore Scrollable Tabstrip: Scroll wheel to switch tabs, double-click to close tabs, and right-click close. No extensions required.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-14T00:09:47Z",
+      "lastModified": "2026-02-14T00:12:59Z",
+      "source": "github",
+      "url": "https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close",
+      "stars": 0,
+      "forks": 0,
+      "owner": "xjiaf",
+      "code": "```cpp\n; ============================================\n; Repository: xjiaf/chrome-tab-scroll-doubleclick-close\n; ============================================\n; URL: https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close\n; Stars: 0 | Forks: 0\n; Last Updated: 2/14/2026\n; License: Not specified\n;\n; Description:\n; Lightweight AutoHotkey (AHK v2) script for Chrome/Edge. Restore Scrollable Tabstrip: Scroll wheel to switch tabs, double-click to close tabs, and right-click close. No extensions required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chrome-tab-scroll-doubleclick-close>\n\n; Example initialization\nclass ChromeTabScrollDoubleclickCloseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chrome-tab-scroll-doubleclick-close loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChromeTabScrollDoubleclickCloseExample()\n```"
+    },
+    {
+      "id": "github-980216153",
+      "title": "CemuMouseKeyboardControls",
+      "category": "GitHub Repository",
+      "description": "Advanced AutoHotkey v2 script to play Zelda BOTW on Cemu using keyboard + mouse only, with analog-like camera control and cursor lock.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-05-08T18:59:24Z",
+      "lastModified": "2026-02-13T20:20:10Z",
+      "source": "github",
+      "url": "https://github.com/gamersalpha/CemuMouseKeyboardControls",
+      "stars": 2,
+      "forks": 0,
+      "owner": "gamersalpha",
+      "code": "```cpp\n; ============================================\n; Repository: gamersalpha/CemuMouseKeyboardControls\n; ============================================\n; URL: https://github.com/gamersalpha/CemuMouseKeyboardControls\n; Stars: 2 | Forks: 0\n; Last Updated: 2/13/2026\n; License: Not specified\n;\n; Description:\n; Advanced AutoHotkey v2 script to play Zelda BOTW on Cemu using keyboard + mouse only, with analog-like camera control and cursor lock.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gamersalpha/CemuMouseKeyboardControls.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gamersalpha/CemuMouseKeyboardControls/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CemuMouseKeyboardControls>\n\n; Example initialization\nclass CemumousekeyboardcontrolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CemuMouseKeyboardControls loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CemumousekeyboardcontrolsExample()\n```"
+    },
+    {
+      "id": "github-1157418629",
+      "title": "SetupLauncher",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 application manager - automates launching apps via shortcuts and navigates menus with configurable key sequences",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-13T19:50:03Z",
+      "lastModified": "2026-02-13T19:50:09Z",
+      "source": "github",
+      "url": "https://github.com/ezflow997/SetupLauncher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ezflow997",
+      "code": "```cpp\n; ============================================\n; Repository: ezflow997/SetupLauncher\n; ============================================\n; URL: https://github.com/ezflow997/SetupLauncher\n; Stars: 0 | Forks: 0\n; Last Updated: 2/13/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 application manager - automates launching apps via shortcuts and navigates menus with configurable key sequences\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/SetupLauncher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/SetupLauncher/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SetupLauncher>\n\n; Example initialization\nclass SetuplauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SetupLauncher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SetuplauncherExample()\n```"
     }
   ]
 }
