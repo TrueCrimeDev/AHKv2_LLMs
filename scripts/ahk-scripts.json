@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-14T12:07:50.709Z",
-  "totalScripts": 144,
+  "lastUpdated": "2026-02-14T18:07:02.118Z",
+  "totalScripts": 146,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1853,13 +1853,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-10-19T12:22:28Z",
-      "lastModified": "2026-02-13T21:30:38Z",
+      "lastModified": "2026-02-14T18:05:37Z",
       "source": "github",
       "url": "https://github.com/jasc2v8/AutoHotkey_v2",
       "stars": 0,
       "forks": 0,
       "owner": "jasc2v8",
-      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/13/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/14/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-1129028403",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-14T11:14:06Z",
+      "lastModified": "2026-02-14T13:21:42Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2543,7 +2543,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-02-10T17:42:31Z",
-      "lastModified": "2026-02-14T10:17:42Z",
+      "lastModified": "2026-02-14T17:20:05Z",
       "source": "github",
       "url": "https://github.com/tsukasa/dotfiles-komorebi",
       "stars": 4,
@@ -2797,13 +2797,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-05-08T18:59:24Z",
-      "lastModified": "2026-02-13T20:20:10Z",
+      "lastModified": "2026-02-14T17:46:04Z",
       "source": "github",
       "url": "https://github.com/gamersalpha/CemuMouseKeyboardControls",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "gamersalpha",
-      "code": "```cpp\n; ============================================\n; Repository: gamersalpha/CemuMouseKeyboardControls\n; ============================================\n; URL: https://github.com/gamersalpha/CemuMouseKeyboardControls\n; Stars: 2 | Forks: 0\n; Last Updated: 2/13/2026\n; License: Not specified\n;\n; Description:\n; Advanced AutoHotkey v2 script to play Zelda BOTW on Cemu using keyboard + mouse only, with analog-like camera control and cursor lock.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gamersalpha/CemuMouseKeyboardControls.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gamersalpha/CemuMouseKeyboardControls/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CemuMouseKeyboardControls>\n\n; Example initialization\nclass CemumousekeyboardcontrolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CemuMouseKeyboardControls loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CemumousekeyboardcontrolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: gamersalpha/CemuMouseKeyboardControls\n; ============================================\n; URL: https://github.com/gamersalpha/CemuMouseKeyboardControls\n; Stars: 3 | Forks: 0\n; Last Updated: 2/14/2026\n; License: Not specified\n;\n; Description:\n; Advanced AutoHotkey v2 script to play Zelda BOTW on Cemu using keyboard + mouse only, with analog-like camera control and cursor lock.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gamersalpha/CemuMouseKeyboardControls.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gamersalpha/CemuMouseKeyboardControls/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CemuMouseKeyboardControls>\n\n; Example initialization\nclass CemumousekeyboardcontrolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CemuMouseKeyboardControls loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CemumousekeyboardcontrolsExample()\n```"
     },
     {
       "id": "github-1157418629",
@@ -2848,6 +2848,44 @@
       "forks": 0,
       "owner": "xjiaf",
       "code": "```cpp\n; ============================================\n; Repository: xjiaf/chrome-tab-scroll-doubleclick-close\n; ============================================\n; URL: https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close\n; Stars: 0 | Forks: 0\n; Last Updated: 2/14/2026\n; License: MIT License\n;\n; Description:\n; Lightweight AutoHotkey (AHK v2) script for Chrome/Edge. Restore Scrollable Tabstrip: Scroll wheel to switch tabs, double-click to close tabs, and right-click close. No extensions required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chrome-tab-scroll-doubleclick-close>\n\n; Example initialization\nclass ChromeTabScrollDoubleclickCloseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chrome-tab-scroll-doubleclick-close loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChromeTabScrollDoubleclickCloseExample()\n```"
+    },
+    {
+      "id": "github-1158029411",
+      "title": "AutoHotkey-Scripts",
+      "category": "GitHub Repository",
+      "description": "Collection of practical AutoHotkey v2 scripts for Windows productivity, input control and keyboard fixes (including global debounce and key chatter solutions)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-14T17:26:03Z",
+      "lastModified": "2026-02-14T17:35:45Z",
+      "source": "github",
+      "url": "https://github.com/Ryadel/AutoHotkey-Scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Ryadel",
+      "code": "```cpp\n; ============================================\n; Repository: Ryadel/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/Ryadel/AutoHotkey-Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 2/14/2026\n; License: MIT License\n;\n; Description:\n; Collection of practical AutoHotkey v2 scripts for Windows productivity, input control and keyboard fixes (including global debounce and key chatter solutions)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ryadel/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ryadel/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
+    },
+    {
+      "id": "github-1157974752",
+      "title": "QuickSearch-AHK",
+      "category": "GitHub Repository",
+      "description": "QuickSearch-AHK 是一款基于 AutoHotkey v2.0 开发的高效搜索增强工具。它将“复制、切换、粘贴、搜索”的繁琐流程压缩为一次简单的连击，旨在为开发者、研究者和 AI 重度用户提供极致的检索体验。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-14T15:47:41Z",
+      "lastModified": "2026-02-14T16:03:54Z",
+      "source": "github",
+      "url": "https://github.com/19saki/QuickSearch-AHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "19saki",
+      "code": "```cpp\n; ============================================\n; Repository: 19saki/QuickSearch-AHK\n; ============================================\n; URL: https://github.com/19saki/QuickSearch-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 2/14/2026\n; License: Not specified\n;\n; Description:\n; QuickSearch-AHK 是一款基于 AutoHotkey v2.0 开发的高效搜索增强工具。它将“复制、切换、粘贴、搜索”的繁琐流程压缩为一次简单的连击，旨在为开发者、研究者和 AI 重度用户提供极致的检索体验。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/19saki/QuickSearch-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/19saki/QuickSearch-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <QuickSearch-AHK>\n\n; Example initialization\nclass QuicksearchAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"QuickSearch-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := QuicksearchAhkExample()\n```"
     }
   ]
 }
