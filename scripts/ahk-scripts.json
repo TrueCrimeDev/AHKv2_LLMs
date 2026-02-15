@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-15T06:19:09.474Z",
+  "lastUpdated": "2026-02-15T12:08:48.026Z",
   "totalScripts": 146,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-15T04:48:12Z",
+      "lastModified": "2026-02-15T09:34:05Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2880,13 +2880,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-14T15:47:41Z",
-      "lastModified": "2026-02-14T16:03:54Z",
+      "lastModified": "2026-02-15T11:12:13Z",
       "source": "github",
       "url": "https://github.com/19saki/QuickSearch-AHK",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "19saki",
-      "code": "```cpp\n; ============================================\n; Repository: 19saki/QuickSearch-AHK\n; ============================================\n; URL: https://github.com/19saki/QuickSearch-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 2/14/2026\n; License: Not specified\n;\n; Description:\n; QuickSearch-AHK 是一款基于 AutoHotkey v2.0 开发的高效搜索增强工具。它将“复制、切换、粘贴、搜索”的繁琐流程压缩为一次简单的连击，旨在为开发者、研究者和 AI 重度用户提供极致的检索体验。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/19saki/QuickSearch-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/19saki/QuickSearch-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <QuickSearch-AHK>\n\n; Example initialization\nclass QuicksearchAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"QuickSearch-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := QuicksearchAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 19saki/QuickSearch-AHK\n; ============================================\n; URL: https://github.com/19saki/QuickSearch-AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 2/15/2026\n; License: Not specified\n;\n; Description:\n; QuickSearch-AHK 是一款基于 AutoHotkey v2.0 开发的高效搜索增强工具。它将“复制、切换、粘贴、搜索”的繁琐流程压缩为一次简单的连击，旨在为开发者、研究者和 AI 重度用户提供极致的检索体验。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/19saki/QuickSearch-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/19saki/QuickSearch-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <QuickSearch-AHK>\n\n; Example initialization\nclass QuicksearchAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"QuickSearch-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := QuicksearchAhkExample()\n```"
     }
   ]
 }
