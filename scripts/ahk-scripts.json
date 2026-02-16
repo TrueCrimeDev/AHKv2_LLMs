@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-16T06:25:35.823Z",
-  "totalScripts": 146,
+  "lastUpdated": "2026-02-16T12:14:03.427Z",
+  "totalScripts": 147,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-02-11T08:04:53Z",
+      "lastModified": "2026-02-16T08:45:04Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 2/11/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 2/16/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-16T05:56:16Z",
+      "lastModified": "2026-02-16T10:44:02Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-02-12T14:23:45Z",
+      "lastModified": "2026-02-16T11:43:44Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/12/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
@@ -2842,13 +2842,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-14T00:52:32Z",
-      "lastModified": "2026-02-14T18:53:28Z",
+      "lastModified": "2026-02-16T09:56:32Z",
       "source": "github",
       "url": "https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "xjiaf",
-      "code": "```cpp\n; ============================================\n; Repository: xjiaf/chrome-tab-scroll-doubleclick-close\n; ============================================\n; URL: https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close\n; Stars: 0 | Forks: 0\n; Last Updated: 2/14/2026\n; License: MIT License\n;\n; Description:\n; Lightweight AutoHotkey (AHK v2) script for Chrome/Edge. Restore Scrollable Tabstrip: Scroll wheel to switch tabs, double-click to close tabs, and right-click close. No extensions required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chrome-tab-scroll-doubleclick-close>\n\n; Example initialization\nclass ChromeTabScrollDoubleclickCloseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chrome-tab-scroll-doubleclick-close loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChromeTabScrollDoubleclickCloseExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: xjiaf/chrome-tab-scroll-doubleclick-close\n; ============================================\n; URL: https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close\n; Stars: 1 | Forks: 0\n; Last Updated: 2/16/2026\n; License: MIT License\n;\n; Description:\n; Lightweight AutoHotkey (AHK v2) script for Chrome/Edge. Restore Scrollable Tabstrip: Scroll wheel to switch tabs, double-click to close tabs, and right-click close. No extensions required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chrome-tab-scroll-doubleclick-close>\n\n; Example initialization\nclass ChromeTabScrollDoubleclickCloseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chrome-tab-scroll-doubleclick-close loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChromeTabScrollDoubleclickCloseExample()\n```"
     },
     {
       "id": "github-1158029411",
@@ -2887,6 +2887,25 @@
       "forks": 0,
       "owner": "19saki",
       "code": "```cpp\n; ============================================\n; Repository: 19saki/QuickSearch-AHK\n; ============================================\n; URL: https://github.com/19saki/QuickSearch-AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 2/15/2026\n; License: Not specified\n;\n; Description:\n; QuickSearch-AHK 是一款基于 AutoHotkey v2.0 开发的高效搜索增强工具。它将“复制、切换、粘贴、搜索”的繁琐流程压缩为一次简单的连击，旨在为开发者、研究者和 AI 重度用户提供极致的检索体验。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/19saki/QuickSearch-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/19saki/QuickSearch-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <QuickSearch-AHK>\n\n; Example initialization\nclass QuicksearchAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"QuickSearch-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := QuicksearchAhkExample()\n```"
+    },
+    {
+      "id": "github-1159135816",
+      "title": "linways",
+      "category": "GitHub Repository",
+      "description": "This project is a lightweight desktop automation tool built using AutoHotkey (v2) to speed up repetitive feedback form submissions in a structured rating system.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-16T11:08:24Z",
+      "lastModified": "2026-02-16T11:10:03Z",
+      "source": "github",
+      "url": "https://github.com/Manohar-zap/linways",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Manohar-zap",
+      "code": "```cpp\n; ============================================\n; Repository: Manohar-zap/linways\n; ============================================\n; URL: https://github.com/Manohar-zap/linways\n; Stars: 0 | Forks: 0\n; Last Updated: 2/16/2026\n; License: MIT License\n;\n; Description:\n; This project is a lightweight desktop automation tool built using AutoHotkey (v2) to speed up repetitive feedback form submissions in a structured rating system.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Manohar-zap/linways.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Manohar-zap/linways/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <linways>\n\n; Example initialization\nclass LinwaysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"linways loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LinwaysExample()\n```"
     }
   ]
 }
