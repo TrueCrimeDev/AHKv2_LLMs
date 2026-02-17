@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-17T06:22:21.608Z",
+  "lastUpdated": "2026-02-17T12:13:42.141Z",
   "totalScripts": 147,
   "categories": [
     "GUI",
@@ -1114,13 +1114,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2022-12-11T09:54:06Z",
-      "lastModified": "2026-02-16T20:00:56Z",
+      "lastModified": "2026-02-17T11:20:41Z",
       "source": "github",
       "url": "https://github.com/autohotkey-docs-translation/v2-source",
       "stars": 0,
       "forks": 0,
       "owner": "autohotkey-docs-translation",
-      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 2/16/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 2/17/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
     },
     {
       "id": "github-1101203666",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-17T04:34:00Z",
+      "lastModified": "2026-02-17T09:33:30Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2480,13 +2480,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-02T17:33:54Z",
-      "lastModified": "2026-02-02T17:59:38Z",
+      "lastModified": "2026-02-17T08:58:38Z",
       "source": "github",
       "url": "https://github.com/Firnschnee/My-AHK-v2-Scripts",
       "stars": 0,
       "forks": 0,
       "owner": "Firnschnee",
-      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 2/2/2026\n; License: MIT License\n;\n; Description:\n; A collection of AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 2/17/2026\n; License: MIT License\n;\n; Description:\n; A collection of AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
     },
     {
       "id": "github-1150337230",
