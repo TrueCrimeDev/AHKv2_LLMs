@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-19T00:25:16.647Z",
-  "totalScripts": 148,
+  "lastUpdated": "2026-02-19T06:24:00.092Z",
+  "totalScripts": 150,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-02-18T18:01:29Z",
+      "lastModified": "2026-02-19T05:20:38Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 30,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 30 | Forks: 3\n; Last Updated: 2/18/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 30 | Forks: 3\n; Last Updated: 2/19/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -1748,13 +1748,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-03T23:13:25Z",
-      "lastModified": "2026-02-18T23:45:21Z",
+      "lastModified": "2026-02-19T04:28:16Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/WinUI3",
       "stars": 0,
       "forks": 0,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/WinUI3\n; ============================================\n; URL: https://github.com/TrueCrimeDev/WinUI3\n; Stars: 0 | Forks: 0\n; Last Updated: 2/18/2026\n; License: Not specified\n;\n; Description:\n; WinUI3 Bridge for AutoHotkey v2 - Host modern XAML UIs in AHK scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/WinUI3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/WinUI3/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinUI3>\n\n; Example initialization\nclass Winui3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinUI3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Winui3Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/WinUI3\n; ============================================\n; URL: https://github.com/TrueCrimeDev/WinUI3\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: Not specified\n;\n; Description:\n; WinUI3 Bridge for AutoHotkey v2 - Host modern XAML UIs in AHK scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/WinUI3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/WinUI3/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinUI3>\n\n; Example initialization\nclass Winui3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinUI3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Winui3Example()\n```"
     },
     {
       "id": "github-1126962043",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-18T22:04:42Z",
+      "lastModified": "2026-02-19T05:08:44Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/18/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2925,6 +2925,44 @@
       "forks": 0,
       "owner": "gor-dey",
       "code": "```cpp\n; ============================================\n; Repository: gor-dey/windows-keybind-config\n; ============================================\n; URL: https://github.com/gor-dey/windows-keybind-config\n; Stars: 0 | Forks: 0\n; Last Updated: 2/18/2026\n; License: Not specified\n;\n; Description:\n; Конфиг для программы AutoHotkeys. Использовать v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gor-dey/windows-keybind-config.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gor-dey/windows-keybind-config/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows-keybind-config>\n\n; Example initialization\nclass WindowsKeybindConfigExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows-keybind-config loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsKeybindConfigExample()\n```"
+    },
+    {
+      "id": "github-1161345927",
+      "title": "pasteimageasfile",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey v2 utility that adds a context menu option to paste images from the clipboard directly as PNG files in Windows Explorer.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-19T02:10:10Z",
+      "lastModified": "2026-02-19T02:10:28Z",
+      "source": "github",
+      "url": "https://github.com/sarfraznawaz2005/pasteimageasfile",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sarfraznawaz2005",
+      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/pasteimageasfile\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/pasteimageasfile\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 utility that adds a context menu option to paste images from the clipboard directly as PNG files in Windows Explorer.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/pasteimageasfile.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/pasteimageasfile/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pasteimageasfile>\n\n; Example initialization\nclass PasteimageasfileExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pasteimageasfile loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PasteimageasfileExample()\n```"
+    },
+    {
+      "id": "github-1161335481",
+      "title": "symlink",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 application for creating symbolic links via Windows context menu.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-19T01:46:52Z",
+      "lastModified": "2026-02-19T02:05:36Z",
+      "source": "github",
+      "url": "https://github.com/sarfraznawaz2005/symlink",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sarfraznawaz2005",
+      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/symlink\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/symlink\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 application for creating symbolic links via Windows context menu.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/symlink.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/symlink/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <symlink>\n\n; Example initialization\nclass SymlinkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"symlink loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SymlinkExample()\n```"
     }
   ]
 }
