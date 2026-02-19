@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-18T18:16:37.768Z",
+  "lastUpdated": "2026-02-19T00:25:16.647Z",
   "totalScripts": 148,
   "categories": [
     "GUI",
@@ -1748,13 +1748,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-03T23:13:25Z",
-      "lastModified": "2026-02-15T18:19:38Z",
+      "lastModified": "2026-02-18T23:45:21Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/WinUI3",
       "stars": 0,
       "forks": 0,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/WinUI3\n; ============================================\n; URL: https://github.com/TrueCrimeDev/WinUI3\n; Stars: 0 | Forks: 0\n; Last Updated: 2/15/2026\n; License: Not specified\n;\n; Description:\n; WinUI3 Bridge for AutoHotkey v2 - Host modern XAML UIs in AHK scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/WinUI3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/WinUI3/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinUI3>\n\n; Example initialization\nclass Winui3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinUI3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Winui3Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/WinUI3\n; ============================================\n; URL: https://github.com/TrueCrimeDev/WinUI3\n; Stars: 0 | Forks: 0\n; Last Updated: 2/18/2026\n; License: Not specified\n;\n; Description:\n; WinUI3 Bridge for AutoHotkey v2 - Host modern XAML UIs in AHK scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/WinUI3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/WinUI3/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinUI3>\n\n; Example initialization\nclass Winui3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinUI3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Winui3Example()\n```"
     },
     {
       "id": "github-1126962043",
@@ -1853,13 +1853,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-10-19T12:22:28Z",
-      "lastModified": "2026-02-14T23:26:06Z",
+      "lastModified": "2026-02-18T23:27:26Z",
       "source": "github",
       "url": "https://github.com/jasc2v8/AutoHotkey_v2",
       "stars": 0,
       "forks": 0,
       "owner": "jasc2v8",
-      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/14/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/18/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-1129028403",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-18T15:04:50Z",
+      "lastModified": "2026-02-18T22:04:42Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
