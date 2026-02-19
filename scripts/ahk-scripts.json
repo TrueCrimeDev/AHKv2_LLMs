@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-19T06:24:00.092Z",
-  "totalScripts": 150,
+  "lastUpdated": "2026-02-19T12:14:46.943Z",
+  "totalScripts": 151,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-19T05:08:44Z",
+      "lastModified": "2026-02-19T11:53:29Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2963,6 +2963,25 @@
       "forks": 0,
       "owner": "sarfraznawaz2005",
       "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/symlink\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/symlink\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 application for creating symbolic links via Windows context menu.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/symlink.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/symlink/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <symlink>\n\n; Example initialization\nclass SymlinkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"symlink loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SymlinkExample()\n```"
+    },
+    {
+      "id": "github-1032317904",
+      "title": "Mouse-Position-Window-Title-Grabber-AutoHotKey-V2",
+      "category": "GitHub Repository",
+      "description": "Mouse Position & Window Title Grabber - AHK V2.0 AI Script Writing Assistant Tool",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-08-05T06:19:36Z",
+      "lastModified": "2026-02-19T07:22:14Z",
+      "source": "github",
+      "url": "https://github.com/kandeeswaran11/Mouse-Position-Window-Title-Grabber-AutoHotKey-V2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kandeeswaran11",
+      "code": "```cpp\n; ============================================\n; Repository: kandeeswaran11/Mouse-Position-Window-Title-Grabber-AutoHotKey-V2\n; ============================================\n; URL: https://github.com/kandeeswaran11/Mouse-Position-Window-Title-Grabber-AutoHotKey-V2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: MIT License\n;\n; Description:\n; Mouse Position & Window Title Grabber - AHK V2.0 AI Script Writing Assistant Tool\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kandeeswaran11/Mouse-Position-Window-Title-Grabber-AutoHotKey-V2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kandeeswaran11/Mouse-Position-Window-Title-Grabber-AutoHotKey-V2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Position-Window-Title-Grabber-AutoHotKey-V2>\n\n; Example initialization\nclass MousePositionWindowTitleGrabberAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Position-Window-Title-Grabber-AutoHotKey-V2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousePositionWindowTitleGrabberAutohotkeyV2Example()\n```"
     }
   ]
 }
