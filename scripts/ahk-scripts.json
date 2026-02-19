@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-19T12:14:46.943Z",
-  "totalScripts": 151,
+  "lastUpdated": "2026-02-19T18:18:57.718Z",
+  "totalScripts": 152,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-19T11:53:29Z",
+      "lastModified": "2026-02-19T18:05:56Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-02-18T16:16:51Z",
+      "lastModified": "2026-02-19T13:48:50Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
@@ -2299,13 +2299,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-28T15:34:48Z",
-      "lastModified": "2026-01-29T08:21:40Z",
+      "lastModified": "2026-02-19T15:04:08Z",
       "source": "github",
       "url": "https://github.com/bbz94/ReplaceTextWithAI",
       "stars": 0,
       "forks": 0,
       "owner": "bbz94",
-      "code": "```cpp\n; ============================================\n; Repository: bbz94/ReplaceTextWithAI\n; ============================================\n; URL: https://github.com/bbz94/ReplaceTextWithAI\n; Stars: 0 | Forks: 0\n; Last Updated: 1/29/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that rewrites selected text using Azure OpenAI, preserving language (Latvian/English) and replacing the selection in-place.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bbz94/ReplaceTextWithAI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bbz94/ReplaceTextWithAI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ReplaceTextWithAI>\n\n; Example initialization\nclass ReplacetextwithaiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ReplaceTextWithAI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReplacetextwithaiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bbz94/ReplaceTextWithAI\n; ============================================\n; URL: https://github.com/bbz94/ReplaceTextWithAI\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that rewrites selected text using Azure OpenAI, preserving language (Latvian/English) and replacing the selection in-place.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bbz94/ReplaceTextWithAI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bbz94/ReplaceTextWithAI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ReplaceTextWithAI>\n\n; Example initialization\nclass ReplacetextwithaiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ReplaceTextWithAI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReplacetextwithaiExample()\n```"
     },
     {
       "id": "github-1144605254",
@@ -2982,6 +2982,25 @@
       "forks": 0,
       "owner": "kandeeswaran11",
       "code": "```cpp\n; ============================================\n; Repository: kandeeswaran11/Mouse-Position-Window-Title-Grabber-AutoHotKey-V2\n; ============================================\n; URL: https://github.com/kandeeswaran11/Mouse-Position-Window-Title-Grabber-AutoHotKey-V2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: MIT License\n;\n; Description:\n; Mouse Position & Window Title Grabber - AHK V2.0 AI Script Writing Assistant Tool\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kandeeswaran11/Mouse-Position-Window-Title-Grabber-AutoHotKey-V2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kandeeswaran11/Mouse-Position-Window-Title-Grabber-AutoHotKey-V2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Position-Window-Title-Grabber-AutoHotKey-V2>\n\n; Example initialization\nclass MousePositionWindowTitleGrabberAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Position-Window-Title-Grabber-AutoHotKey-V2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousePositionWindowTitleGrabberAutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-1161927759",
+      "title": "WinUI3",
+      "category": "GitHub Repository",
+      "description": "WinUI3 XAML Islands for AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-19T17:18:47Z",
+      "lastModified": "2026-02-19T17:19:16Z",
+      "source": "github",
+      "url": "https://github.com/TrueCrimeDev/WinUI3",
+      "stars": 0,
+      "forks": 0,
+      "owner": "TrueCrimeDev",
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/WinUI3\n; ============================================\n; URL: https://github.com/TrueCrimeDev/WinUI3\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: Not specified\n;\n; Description:\n; WinUI3 XAML Islands for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/WinUI3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/WinUI3/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinUI3>\n\n; Example initialization\nclass Winui3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinUI3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Winui3Example()\n```"
     }
   ]
 }
