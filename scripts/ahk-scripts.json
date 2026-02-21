@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-21T06:13:49.517Z",
-  "totalScripts": 155,
+  "lastUpdated": "2026-02-21T12:08:15.156Z",
+  "totalScripts": 156,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-02-16T08:45:04Z",
+      "lastModified": "2026-02-21T06:18:07Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 2/16/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 2/21/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-21T05:22:30Z",
+      "lastModified": "2026-02-21T11:03:00Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3064,6 +3064,25 @@
       "forks": 0,
       "owner": "Arslan-TR",
       "code": "```cpp\n; ============================================\n; Repository: Arslan-TR/Mini-Ram-optimizer-v0.26.2-ahk-v2-\n; ============================================\n; URL: https://github.com/Arslan-TR/Mini-Ram-optimizer-v0.26.2-ahk-v2-\n; Stars: 0 | Forks: 0\n; Last Updated: 2/20/2026\n; License: Not specified\n;\n; Description:\n; lightweight RAM optimization tool built with AutoHotkey v2. Features a modern UI, real-time memory monitoring, and automated optimization tasks.hafif bir RAM temizleme aracı. Sistem kaynaklarını optimize eder ve bellek kullanımını anlık takip eder.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Arslan-TR/Mini-Ram-optimizer-v0.26.2-ahk-v2-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Arslan-TR/Mini-Ram-optimizer-v0.26.2-ahk-v2-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mini-Ram-optimizer-v0.26.2-ahk-v2->\n\n; Example initialization\nclass MiniRamOptimizerV0.26.2AhkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mini-Ram-optimizer-v0.26.2-ahk-v2- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MiniRamOptimizerV0.26.2AhkV2Example()\n```"
+    },
+    {
+      "id": "github-1163160935",
+      "title": "DesignOps",
+      "category": "GitHub Repository",
+      "description": "AI-powered productivity tool for UI/UX designers on Windows. Context-aware AI assistant, smart typography, text snippets, Figma integration. AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-21T07:23:44Z",
+      "lastModified": "2026-02-21T07:23:51Z",
+      "source": "github",
+      "url": "https://github.com/uixray/DesignOps",
+      "stars": 0,
+      "forks": 0,
+      "owner": "uixray",
+      "code": "```cpp\n; ============================================\n; Repository: uixray/DesignOps\n; ============================================\n; URL: https://github.com/uixray/DesignOps\n; Stars: 0 | Forks: 0\n; Last Updated: 2/21/2026\n; License: MIT License\n;\n; Description:\n; AI-powered productivity tool for UI/UX designers on Windows. Context-aware AI assistant, smart typography, text snippets, Figma integration. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/uixray/DesignOps.git\n;\n; Option 2: Download ZIP\n;   https://github.com/uixray/DesignOps/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DesignOps>\n\n; Example initialization\nclass DesignopsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DesignOps loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesignopsExample()\n```"
     }
   ]
 }
