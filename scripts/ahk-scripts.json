@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-21T12:08:15.156Z",
+  "lastUpdated": "2026-02-21T18:07:44.177Z",
   "totalScripts": 156,
   "categories": [
     "GUI",
@@ -499,7 +499,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-02-21T01:29:24Z",
+      "lastModified": "2026-02-21T15:01:18Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 43,
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-21T11:03:00Z",
+      "lastModified": "2026-02-21T16:04:49Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2833,22 +2833,22 @@
       "tags": [
         "github",
         "repository",
-        "ahk",
         "autohotkey",
-        "autohotkey-v2",
         "chrome",
         "chromium",
-        "mouse-gestures"
+        "mouse-gestures",
+        "scroll",
+        "tabstrip"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-14T00:52:32Z",
-      "lastModified": "2026-02-20T18:19:08Z",
+      "lastModified": "2026-02-21T16:27:01Z",
       "source": "github",
       "url": "https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "xjiaf",
-      "code": "```cpp\n; ============================================\n; Repository: xjiaf/chrome-tab-scroll-doubleclick-close\n; ============================================\n; URL: https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close\n; Stars: 1 | Forks: 0\n; Last Updated: 2/20/2026\n; License: MIT License\n;\n; Description:\n; Lightweight AutoHotkey (AHK v2) script for Chrome/Edge. Restore Scrollable Tabstrip: Scroll wheel to switch tabs, double-click to close tabs, and right-click close. No extensions required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chrome-tab-scroll-doubleclick-close>\n\n; Example initialization\nclass ChromeTabScrollDoubleclickCloseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chrome-tab-scroll-doubleclick-close loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChromeTabScrollDoubleclickCloseExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: xjiaf/chrome-tab-scroll-doubleclick-close\n; ============================================\n; URL: https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close\n; Stars: 2 | Forks: 0\n; Last Updated: 2/21/2026\n; License: MIT License\n;\n; Description:\n; Lightweight AutoHotkey (AHK v2) script for Chrome/Edge. Restore Scrollable Tabstrip: Scroll wheel to switch tabs, double-click to close tabs, and right-click close. No extensions required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chrome-tab-scroll-doubleclick-close>\n\n; Example initialization\nclass ChromeTabScrollDoubleclickCloseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chrome-tab-scroll-doubleclick-close loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChromeTabScrollDoubleclickCloseExample()\n```"
     },
     {
       "id": "github-1158029411",
