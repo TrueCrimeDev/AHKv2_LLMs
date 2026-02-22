@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-22T06:16:38.804Z",
-  "totalScripts": 156,
+  "lastUpdated": "2026-02-22T12:08:30.745Z",
+  "totalScripts": 157,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-22T03:56:24Z",
+      "lastModified": "2026-02-22T11:57:49Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3013,7 +3013,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-20T00:14:56Z",
-      "lastModified": "2026-02-22T01:34:43Z",
+      "lastModified": "2026-02-22T06:59:36Z",
       "source": "github",
       "url": "https://github.com/holy-tao/tree-sitter.ahk",
       "stars": 0,
@@ -3083,6 +3083,25 @@
       "forks": 0,
       "owner": "uixray",
       "code": "```cpp\n; ============================================\n; Repository: uixray/DesignOps\n; ============================================\n; URL: https://github.com/uixray/DesignOps\n; Stars: 0 | Forks: 0\n; Last Updated: 2/21/2026\n; License: MIT License\n;\n; Description:\n; AI-powered productivity tool for UI/UX designers on Windows. Context-aware AI assistant, smart typography, text snippets, Figma integration. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/uixray/DesignOps.git\n;\n; Option 2: Download ZIP\n;   https://github.com/uixray/DesignOps/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DesignOps>\n\n; Example initialization\nclass DesignopsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DesignOps loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesignopsExample()\n```"
+    },
+    {
+      "id": "github-1163834104",
+      "title": "Super-Edit-Control",
+      "category": "GitHub Repository",
+      "description": "SuperEdit is a feature-rich wrapper for the standard AutoHotkey v2 Edit control.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-22T08:10:08Z",
+      "lastModified": "2026-02-22T09:29:30Z",
+      "source": "github",
+      "url": "https://github.com/akcansoft/Super-Edit-Control",
+      "stars": 0,
+      "forks": 0,
+      "owner": "akcansoft",
+      "code": "```cpp\n; ============================================\n; Repository: akcansoft/Super-Edit-Control\n; ============================================\n; URL: https://github.com/akcansoft/Super-Edit-Control\n; Stars: 0 | Forks: 0\n; Last Updated: 2/22/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; SuperEdit is a feature-rich wrapper for the standard AutoHotkey v2 Edit control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/Super-Edit-Control.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/Super-Edit-Control/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Super-Edit-Control>\n\n; Example initialization\nclass SuperEditControlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Super-Edit-Control loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperEditControlExample()\n```"
     }
   ]
 }
