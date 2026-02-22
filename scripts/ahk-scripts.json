@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-22T00:23:20.182Z",
+  "lastUpdated": "2026-02-22T06:16:38.804Z",
   "totalScripts": 156,
   "categories": [
     "GUI",
@@ -2165,7 +2165,7 @@
       "id": "github-729957791",
       "title": "Snaptivity",
       "category": "GitHub Repository",
-      "description": "��� Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.",
+      "description": "🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.",
       "tags": [
         "github",
         "repository",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-21T22:09:52Z",
+      "lastModified": "2026-02-22T03:56:24Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/21/2026\n; License: Other\n;\n; Description:\n; ��� Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/22/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -3013,13 +3013,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-20T00:14:56Z",
-      "lastModified": "2026-02-21T23:47:07Z",
+      "lastModified": "2026-02-22T01:34:43Z",
       "source": "github",
       "url": "https://github.com/holy-tao/tree-sitter.ahk",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/tree-sitter.ahk\n; ============================================\n; URL: https://github.com/holy-tao/tree-sitter.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 2/21/2026\n; License: The Unlicense\n;\n; Description:\n; Tree sitter bindings for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/tree-sitter.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/tree-sitter.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <tree-sitter.ahk>\n\n; Example initialization\nclass TreeSitter.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"tree-sitter.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TreeSitter.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/tree-sitter.ahk\n; ============================================\n; URL: https://github.com/holy-tao/tree-sitter.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 2/22/2026\n; License: The Unlicense\n;\n; Description:\n; Tree sitter bindings for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/tree-sitter.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/tree-sitter.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <tree-sitter.ahk>\n\n; Example initialization\nclass TreeSitter.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"tree-sitter.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TreeSitter.ahkExample()\n```"
     },
     {
       "id": "github-1162427522",
