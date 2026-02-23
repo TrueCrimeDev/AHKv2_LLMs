@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-23T12:14:27.147Z",
+  "lastUpdated": "2026-02-23T18:22:16.744Z",
   "totalScripts": 157,
   "categories": [
     "GUI",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-02-20T23:07:04Z",
+      "lastModified": "2026-02-23T15:34:10Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 30,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 30 | Forks: 3\n; Last Updated: 2/20/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 30 | Forks: 3\n; Last Updated: 2/23/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-23T10:18:31Z",
+      "lastModified": "2026-02-23T17:47:22Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2994,13 +2994,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-19T17:18:47Z",
-      "lastModified": "2026-02-19T17:19:16Z",
+      "lastModified": "2026-02-23T13:18:49Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/WinUI3",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/WinUI3\n; ============================================\n; URL: https://github.com/TrueCrimeDev/WinUI3\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: Not specified\n;\n; Description:\n; WinUI3 XAML Islands for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/WinUI3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/WinUI3/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinUI3>\n\n; Example initialization\nclass Winui3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinUI3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Winui3Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/WinUI3\n; ============================================\n; URL: https://github.com/TrueCrimeDev/WinUI3\n; Stars: 1 | Forks: 0\n; Last Updated: 2/23/2026\n; License: Not specified\n;\n; Description:\n; WinUI3 XAML Islands for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/WinUI3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/WinUI3/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinUI3>\n\n; Example initialization\nclass Winui3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinUI3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Winui3Example()\n```"
     },
     {
       "id": "github-1162172555",
@@ -3086,7 +3086,7 @@
     },
     {
       "id": "github-1163834104",
-      "title": "Super-Edit-Control",
+      "title": "SuperEdit-Control",
       "category": "GitHub Repository",
       "description": "SuperEdit is a feature-rich wrapper for the standard AutoHotkey v2 Edit control.",
       "tags": [
@@ -3095,13 +3095,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-22T08:10:08Z",
-      "lastModified": "2026-02-22T09:29:30Z",
+      "lastModified": "2026-02-23T18:03:27Z",
       "source": "github",
-      "url": "https://github.com/akcansoft/Super-Edit-Control",
+      "url": "https://github.com/akcansoft/SuperEdit-Control",
       "stars": 0,
       "forks": 0,
       "owner": "akcansoft",
-      "code": "```cpp\n; ============================================\n; Repository: akcansoft/Super-Edit-Control\n; ============================================\n; URL: https://github.com/akcansoft/Super-Edit-Control\n; Stars: 0 | Forks: 0\n; Last Updated: 2/22/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; SuperEdit is a feature-rich wrapper for the standard AutoHotkey v2 Edit control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/Super-Edit-Control.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/Super-Edit-Control/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Super-Edit-Control>\n\n; Example initialization\nclass SuperEditControlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Super-Edit-Control loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperEditControlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: akcansoft/SuperEdit-Control\n; ============================================\n; URL: https://github.com/akcansoft/SuperEdit-Control\n; Stars: 0 | Forks: 0\n; Last Updated: 2/23/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; SuperEdit is a feature-rich wrapper for the standard AutoHotkey v2 Edit control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/SuperEdit-Control.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/SuperEdit-Control/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperEdit-Control>\n\n; Example initialization\nclass SupereditControlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperEdit-Control loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupereditControlExample()\n```"
     }
   ]
 }
