@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-24T06:23:18.037Z",
-  "totalScripts": 158,
+  "lastUpdated": "2026-02-24T12:15:21.775Z",
+  "totalScripts": 160,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-02-23T23:05:41Z",
+      "lastModified": "2026-02-24T08:37:46Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 30,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 30 | Forks: 3\n; Last Updated: 2/23/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 30 | Forks: 3\n; Last Updated: 2/24/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-24T04:14:47Z",
+      "lastModified": "2026-02-24T09:14:56Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3121,6 +3121,44 @@
       "forks": 0,
       "owner": "TobbeEngwall",
       "code": "```cpp\n; ============================================\n; Repository: TobbeEngwall/ValheimHelper\n; ============================================\n; URL: https://github.com/TobbeEngwall/ValheimHelper\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 script with multiple quality of life functions for Valheim and a simple config GUI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TobbeEngwall/ValheimHelper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TobbeEngwall/ValheimHelper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ValheimHelper>\n\n; Example initialization\nclass ValheimhelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ValheimHelper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ValheimhelperExample()\n```"
+    },
+    {
+      "id": "github-1165516340",
+      "title": "Start-CPAMC",
+      "category": "GitHub Repository",
+      "description": "Start-CPAMC 是一个基于 AutoHotkey v2 的 Windows 托盘服务管理工具，用于一键启动/停止   CLIProxyAPI，可持久化保存可执行文件路径，并快速打开本地管理中心页面。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-24T08:50:03Z",
+      "lastModified": "2026-02-24T09:01:39Z",
+      "source": "github",
+      "url": "https://github.com/hgzlhzh/Start-CPAMC",
+      "stars": 0,
+      "forks": 0,
+      "owner": "hgzlhzh",
+      "code": "```cpp\n; ============================================\n; Repository: hgzlhzh/Start-CPAMC\n; ============================================\n; URL: https://github.com/hgzlhzh/Start-CPAMC\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: MIT License\n;\n; Description:\n; Start-CPAMC 是一个基于 AutoHotkey v2 的 Windows 托盘服务管理工具，用于一键启动/停止   CLIProxyAPI，可持久化保存可执行文件路径，并快速打开本地管理中心页面。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hgzlhzh/Start-CPAMC.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hgzlhzh/Start-CPAMC/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Start-CPAMC>\n\n; Example initialization\nclass StartCpamcExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Start-CPAMC loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StartCpamcExample()\n```"
+    },
+    {
+      "id": "github-1165500121",
+      "title": "Start-Claude",
+      "category": "GitHub Repository",
+      "description": "  Start-Claude 是一个基于 AutoHotkey v2 的 Windows 桌面启动器，用于快速启动 Claude   CLI。它支持工作区历史管理、代理配置、终端模式切换（WezTerm /   PowerShell）、系统托盘驻留，以及一键新会话/恢复会话（claude / claude -c），通过本地 ini   与历史文件持久化设置，让日常开发启动流程更快更稳定。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-24T08:27:39Z",
+      "lastModified": "2026-02-24T08:42:28Z",
+      "source": "github",
+      "url": "https://github.com/hgzlhzh/Start-Claude",
+      "stars": 0,
+      "forks": 0,
+      "owner": "hgzlhzh",
+      "code": "```cpp\n; ============================================\n; Repository: hgzlhzh/Start-Claude\n; ============================================\n; URL: https://github.com/hgzlhzh/Start-Claude\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: MIT License\n;\n; Description:\n;   Start-Claude 是一个基于 AutoHotkey v2 的 Windows 桌面启动器，用于快速启动 Claude   CLI。它支持工作区历史管理、代理配置、终端模式切换（WezTerm /   PowerShell）、系统托盘驻留，以及一键新会话/恢复会话（claude / claude -c），通过本地 ini   与历史文件持久化设置，让日常开发启动流程更快更稳定。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hgzlhzh/Start-Claude.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hgzlhzh/Start-Claude/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Start-Claude>\n\n; Example initialization\nclass StartClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Start-Claude loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StartClaudeExample()\n```"
     }
   ]
 }
