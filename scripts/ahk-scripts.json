@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-24T12:15:21.775Z",
-  "totalScripts": 160,
+  "lastUpdated": "2026-02-24T18:21:37.500Z",
+  "totalScripts": 161,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-02-24T08:37:46Z",
+      "lastModified": "2026-02-24T15:30:28Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 30,
@@ -1114,13 +1114,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2022-12-11T09:54:06Z",
-      "lastModified": "2026-02-18T12:22:36Z",
+      "lastModified": "2026-02-24T16:08:23Z",
       "source": "github",
       "url": "https://github.com/autohotkey-docs-translation/v2-source",
       "stars": 0,
       "forks": 0,
       "owner": "autohotkey-docs-translation",
-      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 2/18/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
     },
     {
       "id": "github-1101203666",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-24T09:14:56Z",
+      "lastModified": "2026-02-24T18:08:31Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3159,6 +3159,25 @@
       "forks": 0,
       "owner": "hgzlhzh",
       "code": "```cpp\n; ============================================\n; Repository: hgzlhzh/Start-Claude\n; ============================================\n; URL: https://github.com/hgzlhzh/Start-Claude\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: MIT License\n;\n; Description:\n;   Start-Claude 是一个基于 AutoHotkey v2 的 Windows 桌面启动器，用于快速启动 Claude   CLI。它支持工作区历史管理、代理配置、终端模式切换（WezTerm /   PowerShell）、系统托盘驻留，以及一键新会话/恢复会话（claude / claude -c），通过本地 ini   与历史文件持久化设置，让日常开发启动流程更快更稳定。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hgzlhzh/Start-Claude.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hgzlhzh/Start-Claude/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Start-Claude>\n\n; Example initialization\nclass StartClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Start-Claude loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StartClaudeExample()\n```"
+    },
+    {
+      "id": "github-1165876048",
+      "title": "windows_scripts",
+      "category": "GitHub Repository",
+      "description": "Autohotkey v2 script for custom shortcuts and features ",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-24T16:33:13Z",
+      "lastModified": "2026-02-24T17:33:23Z",
+      "source": "github",
+      "url": "https://github.com/abhinavpathak9873/windows_scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "abhinavpathak9873",
+      "code": "```cpp\n; ============================================\n; Repository: abhinavpathak9873/windows_scripts\n; ============================================\n; URL: https://github.com/abhinavpathak9873/windows_scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey v2 script for custom shortcuts and features \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/abhinavpathak9873/windows_scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/abhinavpathak9873/windows_scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows_scripts>\n\n; Example initialization\nclass WindowsScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows_scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsScriptsExample()\n```"
     }
   ]
 }
