@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-25T00:25:34.950Z",
+  "lastUpdated": "2026-02-25T06:25:35.219Z",
   "totalScripts": 161,
   "categories": [
     "GUI",
@@ -806,13 +806,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-11-27T02:24:43Z",
-      "lastModified": "2026-01-14T07:17:54Z",
+      "lastModified": "2026-02-25T01:30:16Z",
       "source": "github",
       "url": "https://github.com/Tomflame-4ever/MouseHK",
       "stars": 17,
       "forks": 2,
       "owner": "Tomflame-4ever",
-      "code": "```cpp\n; ============================================\n; Repository: Tomflame-4ever/MouseHK\n; ============================================\n; URL: https://github.com/Tomflame-4ever/MouseHK\n; Stars: 17 | Forks: 2\n; Last Updated: 1/14/2026\n; License: Not specified\n;\n; Description:\n; Transform your keyboard into a high-precision mouse (AutoHotkey v2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Tomflame-4ever/MouseHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Tomflame-4ever/MouseHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MouseHK>\n\n; Example initialization\nclass MousehkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MouseHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousehkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Tomflame-4ever/MouseHK\n; ============================================\n; URL: https://github.com/Tomflame-4ever/MouseHK\n; Stars: 17 | Forks: 2\n; Last Updated: 2/25/2026\n; License: Not specified\n;\n; Description:\n; Transform your keyboard into a high-precision mouse (AutoHotkey v2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Tomflame-4ever/MouseHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Tomflame-4ever/MouseHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MouseHK>\n\n; Example initialization\nclass MousehkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MouseHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousehkExample()\n```"
     },
     {
       "id": "github-1111121185",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-24T22:15:35Z",
+      "lastModified": "2026-02-25T04:20:57Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/25/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2318,13 +2318,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-28T20:58:35Z",
-      "lastModified": "2026-01-28T21:00:15Z",
+      "lastModified": "2026-02-25T02:08:06Z",
       "source": "github",
       "url": "https://github.com/jkirchhefer/AutoHotkey",
       "stars": 0,
       "forks": 0,
       "owner": "jkirchhefer",
-      "code": "```cpp\n; ============================================\n; Repository: jkirchhefer/AutoHotkey\n; ============================================\n; URL: https://github.com/jkirchhefer/AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 1/28/2026\n; License: Not specified\n;\n; Description:\n; my autohotkey v2 configuration\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jkirchhefer/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jkirchhefer/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jkirchhefer/AutoHotkey\n; ============================================\n; URL: https://github.com/jkirchhefer/AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 2/25/2026\n; License: Not specified\n;\n; Description:\n; my autohotkey v2 configuration\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jkirchhefer/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jkirchhefer/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1145655929",
