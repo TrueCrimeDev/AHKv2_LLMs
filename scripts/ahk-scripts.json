@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-25T06:25:35.219Z",
-  "totalScripts": 161,
+  "lastUpdated": "2026-02-25T12:14:47.411Z",
+  "totalScripts": 162,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-02-24T15:30:28Z",
+      "lastModified": "2026-02-25T07:30:39Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 30,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 30 | Forks: 3\n; Last Updated: 2/24/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 30 | Forks: 3\n; Last Updated: 2/25/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -1114,13 +1114,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2022-12-11T09:54:06Z",
-      "lastModified": "2026-02-24T22:05:04Z",
+      "lastModified": "2026-02-25T09:56:34Z",
       "source": "github",
       "url": "https://github.com/autohotkey-docs-translation/v2-source",
       "stars": 0,
       "forks": 0,
       "owner": "autohotkey-docs-translation",
-      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 2/25/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
     },
     {
       "id": "github-1101203666",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-25T04:20:57Z",
+      "lastModified": "2026-02-25T06:38:17Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3178,6 +3178,25 @@
       "forks": 0,
       "owner": "abhinavpathak9873",
       "code": "```cpp\n; ============================================\n; Repository: abhinavpathak9873/windows_scripts\n; ============================================\n; URL: https://github.com/abhinavpathak9873/windows_scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey v2 script for custom shortcuts and features \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/abhinavpathak9873/windows_scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/abhinavpathak9873/windows_scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows_scripts>\n\n; Example initialization\nclass WindowsScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows_scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsScriptsExample()\n```"
+    },
+    {
+      "id": "github-1166448659",
+      "title": "poe_act_helper",
+      "category": "GitHub Repository",
+      "description": "#Requires AutoHotkey v2.0",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-25T08:32:08Z",
+      "lastModified": "2026-02-25T09:56:35Z",
+      "source": "github",
+      "url": "https://github.com/kimchimandooman/poe_act_helper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kimchimandooman",
+      "code": "```cpp\n; ============================================\n; Repository: kimchimandooman/poe_act_helper\n; ============================================\n; URL: https://github.com/kimchimandooman/poe_act_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 2/25/2026\n; License: Not specified\n;\n; Description:\n; #Requires AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kimchimandooman/poe_act_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kimchimandooman/poe_act_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe_act_helper>\n\n; Example initialization\nclass PoeActHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe_act_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeActHelperExample()\n```"
     }
   ]
 }
