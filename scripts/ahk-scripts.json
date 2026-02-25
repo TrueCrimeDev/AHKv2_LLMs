@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-25T12:14:47.411Z",
-  "totalScripts": 162,
+  "lastUpdated": "2026-02-25T18:23:59.427Z",
+  "totalScripts": 163,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-02-25T07:30:39Z",
+      "lastModified": "2026-02-25T15:32:24Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 30,
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-25T06:38:17Z",
+      "lastModified": "2026-02-25T16:33:47Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2798,13 +2798,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-05-08T18:59:24Z",
-      "lastModified": "2026-02-14T17:46:04Z",
+      "lastModified": "2026-02-25T17:18:34Z",
       "source": "github",
       "url": "https://github.com/gamersalpha/CemuMouseKeyboardControls",
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "owner": "gamersalpha",
-      "code": "```cpp\n; ============================================\n; Repository: gamersalpha/CemuMouseKeyboardControls\n; ============================================\n; URL: https://github.com/gamersalpha/CemuMouseKeyboardControls\n; Stars: 3 | Forks: 0\n; Last Updated: 2/14/2026\n; License: Not specified\n;\n; Description:\n; Advanced AutoHotkey v2 script to play Zelda BOTW on Cemu using keyboard + mouse only, with analog-like camera control and cursor lock.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gamersalpha/CemuMouseKeyboardControls.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gamersalpha/CemuMouseKeyboardControls/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CemuMouseKeyboardControls>\n\n; Example initialization\nclass CemumousekeyboardcontrolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CemuMouseKeyboardControls loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CemumousekeyboardcontrolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: gamersalpha/CemuMouseKeyboardControls\n; ============================================\n; URL: https://github.com/gamersalpha/CemuMouseKeyboardControls\n; Stars: 4 | Forks: 0\n; Last Updated: 2/25/2026\n; License: Not specified\n;\n; Description:\n; Advanced AutoHotkey v2 script to play Zelda BOTW on Cemu using keyboard + mouse only, with analog-like camera control and cursor lock.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gamersalpha/CemuMouseKeyboardControls.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gamersalpha/CemuMouseKeyboardControls/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CemuMouseKeyboardControls>\n\n; Example initialization\nclass CemumousekeyboardcontrolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CemuMouseKeyboardControls loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CemumousekeyboardcontrolsExample()\n```"
     },
     {
       "id": "github-1157418629",
@@ -2842,13 +2842,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-14T00:52:32Z",
-      "lastModified": "2026-02-21T16:27:01Z",
+      "lastModified": "2026-02-25T16:34:22Z",
       "source": "github",
       "url": "https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close",
       "stars": 2,
       "forks": 0,
       "owner": "xjiaf",
-      "code": "```cpp\n; ============================================\n; Repository: xjiaf/chrome-tab-scroll-doubleclick-close\n; ============================================\n; URL: https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close\n; Stars: 2 | Forks: 0\n; Last Updated: 2/21/2026\n; License: MIT License\n;\n; Description:\n; Lightweight AutoHotkey (AHK v2) script for Chrome/Edge. Restore Scrollable Tabstrip: Scroll wheel to switch tabs, double-click to close tabs, and right-click close. No extensions required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chrome-tab-scroll-doubleclick-close>\n\n; Example initialization\nclass ChromeTabScrollDoubleclickCloseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chrome-tab-scroll-doubleclick-close loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChromeTabScrollDoubleclickCloseExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: xjiaf/chrome-tab-scroll-doubleclick-close\n; ============================================\n; URL: https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close\n; Stars: 2 | Forks: 0\n; Last Updated: 2/25/2026\n; License: MIT License\n;\n; Description:\n; Lightweight AutoHotkey (AHK v2) script for Chrome/Edge. Restore Scrollable Tabstrip: Scroll wheel to switch tabs, double-click to close tabs, and right-click close. No extensions required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xjiaf/chrome-tab-scroll-doubleclick-close/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chrome-tab-scroll-doubleclick-close>\n\n; Example initialization\nclass ChromeTabScrollDoubleclickCloseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chrome-tab-scroll-doubleclick-close loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChromeTabScrollDoubleclickCloseExample()\n```"
     },
     {
       "id": "github-1158029411",
@@ -3197,6 +3197,31 @@
       "forks": 0,
       "owner": "kimchimandooman",
       "code": "```cpp\n; ============================================\n; Repository: kimchimandooman/poe_act_helper\n; ============================================\n; URL: https://github.com/kimchimandooman/poe_act_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 2/25/2026\n; License: Not specified\n;\n; Description:\n; #Requires AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kimchimandooman/poe_act_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kimchimandooman/poe_act_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe_act_helper>\n\n; Example initialization\nclass PoeActHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe_act_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeActHelperExample()\n```"
+    },
+    {
+      "id": "github-1166830829",
+      "title": "IconButton",
+      "category": "GitHub Repository",
+      "description": "AHK v2 button class with icon support",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "button",
+        "class",
+        "control",
+        "icon"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-25T16:50:47Z",
+      "lastModified": "2026-02-25T17:54:02Z",
+      "source": "github",
+      "url": "https://github.com/akcansoft/IconButton",
+      "stars": 0,
+      "forks": 0,
+      "owner": "akcansoft",
+      "code": "```cpp\n; ============================================\n; Repository: akcansoft/IconButton\n; ============================================\n; URL: https://github.com/akcansoft/IconButton\n; Stars: 0 | Forks: 0\n; Last Updated: 2/25/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 button class with icon support\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/IconButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/IconButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IconButton>\n\n; Example initialization\nclass IconbuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IconButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := IconbuttonExample()\n```"
     }
   ]
 }
