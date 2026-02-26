@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-26T12:15:17.763Z",
-  "totalScripts": 164,
+  "lastUpdated": "2026-02-26T18:16:39.367Z",
+  "totalScripts": 166,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-02-25T22:51:03Z",
+      "lastModified": "2026-02-26T16:27:30Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
-      "stars": 30,
+      "stars": 31,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 30 | Forks: 3\n; Last Updated: 2/25/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 31 | Forks: 3\n; Last Updated: 2/26/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -1853,13 +1853,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-10-19T12:22:28Z",
-      "lastModified": "2026-02-25T21:26:43Z",
+      "lastModified": "2026-02-26T14:22:02Z",
       "source": "github",
       "url": "https://github.com/jasc2v8/AutoHotkey_v2",
       "stars": 0,
       "forks": 1,
       "owner": "jasc2v8",
-      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 1\n; Last Updated: 2/25/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 1\n; Last Updated: 2/26/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-1129028403",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-26T08:18:36Z",
+      "lastModified": "2026-02-26T15:31:21Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3241,6 +3241,47 @@
       "forks": 0,
       "owner": "JsonBorn98",
       "code": "```cpp\n; ============================================\n; Repository: JsonBorn98/AHKeyMap\n; ============================================\n; URL: https://github.com/JsonBorn98/AHKeyMap\n; Stars: 0 | Forks: 0\n; Last Updated: 2/26/2026\n; License: Not specified\n;\n; Description:\n; AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JsonBorn98/AHKeyMap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JsonBorn98/AHKeyMap/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKeyMap>\n\n; Example initialization\nclass AhkeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKeyMap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkeymapExample()\n```"
+    },
+    {
+      "id": "github-1167805458",
+      "title": "time-warp",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 tray tool that tracks focus vs time-warp behavior with live stats, overlays, and weekly reports.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "time-tracker"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-26T17:48:21Z",
+      "lastModified": "2026-02-26T17:49:29Z",
+      "source": "github",
+      "url": "https://github.com/robmcelhinney/time-warp",
+      "stars": 0,
+      "forks": 0,
+      "owner": "robmcelhinney",
+      "code": "```cpp\n; ============================================\n; Repository: robmcelhinney/time-warp\n; ============================================\n; URL: https://github.com/robmcelhinney/time-warp\n; Stars: 0 | Forks: 0\n; Last Updated: 2/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 tray tool that tracks focus vs time-warp behavior with live stats, overlays, and weekly reports.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/robmcelhinney/time-warp.git\n;\n; Option 2: Download ZIP\n;   https://github.com/robmcelhinney/time-warp/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <time-warp>\n\n; Example initialization\nclass TimeWarpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"time-warp loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TimeWarpExample()\n```"
+    },
+    {
+      "id": "github-1166933269",
+      "title": "EldenRingKeyboardOverhaul",
+      "category": "GitHub Repository",
+      "description": "基于 AutoHotkey v2 的《艾尔登法环》键位增强脚本。 ⌨️💪",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-25T19:11:06Z",
+      "lastModified": "2026-02-26T14:31:47Z",
+      "source": "github",
+      "url": "https://github.com/Chinory/EldenRingKeyboardOverhaul",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Chinory",
+      "code": "```cpp\n; ============================================\n; Repository: Chinory/EldenRingKeyboardOverhaul\n; ============================================\n; URL: https://github.com/Chinory/EldenRingKeyboardOverhaul\n; Stars: 0 | Forks: 0\n; Last Updated: 2/26/2026\n; License: Not specified\n;\n; Description:\n; 基于 AutoHotkey v2 的《艾尔登法环》键位增强脚本。 ⌨️💪\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Chinory/EldenRingKeyboardOverhaul.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Chinory/EldenRingKeyboardOverhaul/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EldenRingKeyboardOverhaul>\n\n; Example initialization\nclass EldenringkeyboardoverhaulExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EldenRingKeyboardOverhaul loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EldenringkeyboardoverhaulExample()\n```"
     }
   ]
 }
