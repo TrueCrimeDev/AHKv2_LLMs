@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-25T18:23:59.427Z",
+  "lastUpdated": "2026-02-26T00:21:52.069Z",
   "totalScripts": 163,
   "categories": [
     "GUI",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-02-25T15:32:24Z",
+      "lastModified": "2026-02-25T22:51:03Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 30,
@@ -1853,13 +1853,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-10-19T12:22:28Z",
-      "lastModified": "2026-02-18T23:27:26Z",
+      "lastModified": "2026-02-25T21:26:43Z",
       "source": "github",
       "url": "https://github.com/jasc2v8/AutoHotkey_v2",
       "stars": 0,
-      "forks": 0,
+      "forks": 1,
       "owner": "jasc2v8",
-      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/18/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jasc2v8/AutoHotkey_v2\n; ============================================\n; URL: https://github.com/jasc2v8/AutoHotkey_v2\n; Stars: 0 | Forks: 1\n; Last Updated: 2/25/2026\n; License: The Unlicense\n;\n; Description:\n; Various AHK_v2 projects\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jasc2v8/AutoHotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jasc2v8/AutoHotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-1129028403",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-25T16:33:47Z",
+      "lastModified": "2026-02-25T23:43:36Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
