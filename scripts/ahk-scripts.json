@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-26T06:22:25.199Z",
-  "totalScripts": 163,
+  "lastUpdated": "2026-02-26T12:15:17.763Z",
+  "totalScripts": 164,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-02-24T03:21:58Z",
+      "lastModified": "2026-02-26T08:35:29Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 2/24/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 2/26/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-26T05:43:19Z",
+      "lastModified": "2026-02-26T08:18:36Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3222,6 +3222,25 @@
       "forks": 0,
       "owner": "akcansoft",
       "code": "```cpp\n; ============================================\n; Repository: akcansoft/IconButton\n; ============================================\n; URL: https://github.com/akcansoft/IconButton\n; Stars: 0 | Forks: 0\n; Last Updated: 2/25/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 button class with icon support\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/IconButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/IconButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IconButton>\n\n; Example initialization\nclass IconbuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IconButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := IconbuttonExample()\n```"
+    },
+    {
+      "id": "github-1167192092",
+      "title": "AHKeyMap",
+      "category": "GitHub Repository",
+      "description": "AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-26T03:11:26Z",
+      "lastModified": "2026-02-26T08:08:09Z",
+      "source": "github",
+      "url": "https://github.com/JsonBorn98/AHKeyMap",
+      "stars": 0,
+      "forks": 0,
+      "owner": "JsonBorn98",
+      "code": "```cpp\n; ============================================\n; Repository: JsonBorn98/AHKeyMap\n; ============================================\n; URL: https://github.com/JsonBorn98/AHKeyMap\n; Stars: 0 | Forks: 0\n; Last Updated: 2/26/2026\n; License: Not specified\n;\n; Description:\n; AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JsonBorn98/AHKeyMap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JsonBorn98/AHKeyMap/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKeyMap>\n\n; Example initialization\nclass AhkeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKeyMap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkeymapExample()\n```"
     }
   ]
 }
