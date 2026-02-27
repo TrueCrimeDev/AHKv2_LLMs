@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-26T18:16:39.367Z",
-  "totalScripts": 166,
+  "lastUpdated": "2026-02-27T00:24:31.527Z",
+  "totalScripts": 167,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1853,7 +1853,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-10-19T12:22:28Z",
-      "lastModified": "2026-02-26T14:22:02Z",
+      "lastModified": "2026-02-26T18:25:57Z",
       "source": "github",
       "url": "https://github.com/jasc2v8/AutoHotkey_v2",
       "stars": 0,
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-26T15:31:21Z",
+      "lastModified": "2026-02-26T22:04:22Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3282,6 +3282,25 @@
       "forks": 0,
       "owner": "Chinory",
       "code": "```cpp\n; ============================================\n; Repository: Chinory/EldenRingKeyboardOverhaul\n; ============================================\n; URL: https://github.com/Chinory/EldenRingKeyboardOverhaul\n; Stars: 0 | Forks: 0\n; Last Updated: 2/26/2026\n; License: Not specified\n;\n; Description:\n; 基于 AutoHotkey v2 的《艾尔登法环》键位增强脚本。 ⌨️💪\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Chinory/EldenRingKeyboardOverhaul.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Chinory/EldenRingKeyboardOverhaul/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EldenRingKeyboardOverhaul>\n\n; Example initialization\nclass EldenringkeyboardoverhaulExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EldenRingKeyboardOverhaul loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EldenringkeyboardoverhaulExample()\n```"
+    },
+    {
+      "id": "github-1167871106",
+      "title": "reddit-autosub",
+      "category": "GitHub Repository",
+      "description": "AutoHotKey v2 script to automate batch subscription to subreddits",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-26T19:19:30Z",
+      "lastModified": "2026-02-26T19:26:30Z",
+      "source": "github",
+      "url": "https://github.com/jdtaormi/reddit-autosub",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jdtaormi",
+      "code": "```cpp\n; ============================================\n; Repository: jdtaormi/reddit-autosub\n; ============================================\n; URL: https://github.com/jdtaormi/reddit-autosub\n; Stars: 0 | Forks: 0\n; Last Updated: 2/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 script to automate batch subscription to subreddits\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jdtaormi/reddit-autosub.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jdtaormi/reddit-autosub/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <reddit-autosub>\n\n; Example initialization\nclass RedditAutosubExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"reddit-autosub loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RedditAutosubExample()\n```"
     }
   ]
 }
