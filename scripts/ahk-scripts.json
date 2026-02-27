@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-27T12:11:34.435Z",
+  "lastUpdated": "2026-02-27T18:12:01.636Z",
   "totalScripts": 168,
   "categories": [
     "GUI",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-02-26T16:27:30Z",
+      "lastModified": "2026-02-27T15:19:13Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 31,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 31 | Forks: 3\n; Last Updated: 2/26/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 31 | Forks: 3\n; Last Updated: 2/27/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-27T09:34:16Z",
+      "lastModified": "2026-02-27T17:42:52Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2480,13 +2480,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-02T17:33:54Z",
-      "lastModified": "2026-02-17T08:58:38Z",
+      "lastModified": "2026-02-27T17:16:16Z",
       "source": "github",
       "url": "https://github.com/Firnschnee/My-AHK-v2-Scripts",
       "stars": 0,
       "forks": 0,
       "owner": "Firnschnee",
-      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 2/17/2026\n; License: MIT License\n;\n; Description:\n; A collection of AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 2/27/2026\n; License: MIT License\n;\n; Description:\n; A collection of AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
     },
     {
       "id": "github-1150337230",
@@ -3114,13 +3114,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-24T00:42:29Z",
-      "lastModified": "2026-02-24T00:50:20Z",
+      "lastModified": "2026-02-27T17:01:59Z",
       "source": "github",
       "url": "https://github.com/TobbeEngwall/ValheimHelper",
       "stars": 0,
       "forks": 0,
       "owner": "TobbeEngwall",
-      "code": "```cpp\n; ============================================\n; Repository: TobbeEngwall/ValheimHelper\n; ============================================\n; URL: https://github.com/TobbeEngwall/ValheimHelper\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 script with multiple quality of life functions for Valheim and a simple config GUI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TobbeEngwall/ValheimHelper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TobbeEngwall/ValheimHelper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ValheimHelper>\n\n; Example initialization\nclass ValheimhelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ValheimHelper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ValheimhelperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TobbeEngwall/ValheimHelper\n; ============================================\n; URL: https://github.com/TobbeEngwall/ValheimHelper\n; Stars: 0 | Forks: 0\n; Last Updated: 2/27/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An AutoHotkey v2 script with multiple quality of life functions for Valheim and a simple config GUI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TobbeEngwall/ValheimHelper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TobbeEngwall/ValheimHelper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ValheimHelper>\n\n; Example initialization\nclass ValheimhelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ValheimHelper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ValheimhelperExample()\n```"
     },
     {
       "id": "github-1165516340",
@@ -3171,13 +3171,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-24T16:33:13Z",
-      "lastModified": "2026-02-24T17:33:23Z",
+      "lastModified": "2026-02-27T17:14:36Z",
       "source": "github",
       "url": "https://github.com/abhinavpathak9873/windows_scripts",
       "stars": 0,
       "forks": 0,
       "owner": "abhinavpathak9873",
-      "code": "```cpp\n; ============================================\n; Repository: abhinavpathak9873/windows_scripts\n; ============================================\n; URL: https://github.com/abhinavpathak9873/windows_scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 2/24/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey v2 script for custom shortcuts and features \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/abhinavpathak9873/windows_scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/abhinavpathak9873/windows_scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows_scripts>\n\n; Example initialization\nclass WindowsScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows_scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: abhinavpathak9873/windows_scripts\n; ============================================\n; URL: https://github.com/abhinavpathak9873/windows_scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 2/27/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey v2 script for custom shortcuts and features \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/abhinavpathak9873/windows_scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/abhinavpathak9873/windows_scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows_scripts>\n\n; Example initialization\nclass WindowsScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows_scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsScriptsExample()\n```"
     },
     {
       "id": "github-1166448659",
