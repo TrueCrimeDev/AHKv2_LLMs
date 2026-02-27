@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-27T06:18:48.335Z",
-  "totalScripts": 167,
+  "lastUpdated": "2026-02-27T12:11:34.435Z",
+  "totalScripts": 168,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-27T04:13:29Z",
+      "lastModified": "2026-02-27T09:34:16Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3038,13 +3038,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-20T08:51:04Z",
-      "lastModified": "2026-02-23T05:01:45Z",
+      "lastModified": "2026-02-27T10:30:29Z",
       "source": "github",
       "url": "https://github.com/wsnh2022/AHK_Utilities",
       "stars": 0,
       "forks": 0,
       "owner": "wsnh2022",
-      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/AHK_Utilities\n; ============================================\n; URL: https://github.com/wsnh2022/AHK_Utilities\n; Stars: 0 | Forks: 0\n; Last Updated: 2/23/2026\n; License: Not specified\n;\n; Description:\n; A collection of standalone AutoHotkey v2 utility scripts. Each script solves one specific problem. No dependencies. Copy, configure, and run.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/AHK_Utilities.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/AHK_Utilities/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_Utilities>\n\n; Example initialization\nclass AhkUtilitiesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_Utilities loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkUtilitiesExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/AHK_Utilities\n; ============================================\n; URL: https://github.com/wsnh2022/AHK_Utilities\n; Stars: 0 | Forks: 0\n; Last Updated: 2/27/2026\n; License: Not specified\n;\n; Description:\n; A collection of standalone AutoHotkey v2 utility scripts. Each script solves one specific problem. No dependencies. Copy, configure, and run.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/AHK_Utilities.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/AHK_Utilities/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK_Utilities>\n\n; Example initialization\nclass AhkUtilitiesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK_Utilities loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkUtilitiesExample()\n```"
     },
     {
       "id": "github-1162355232",
@@ -3215,13 +3215,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-25T16:50:47Z",
-      "lastModified": "2026-02-25T17:54:02Z",
+      "lastModified": "2026-02-27T11:26:19Z",
       "source": "github",
       "url": "https://github.com/akcansoft/IconButton",
       "stars": 0,
       "forks": 0,
       "owner": "akcansoft",
-      "code": "```cpp\n; ============================================\n; Repository: akcansoft/IconButton\n; ============================================\n; URL: https://github.com/akcansoft/IconButton\n; Stars: 0 | Forks: 0\n; Last Updated: 2/25/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 button class with icon support\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/IconButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/IconButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IconButton>\n\n; Example initialization\nclass IconbuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IconButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := IconbuttonExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: akcansoft/IconButton\n; ============================================\n; URL: https://github.com/akcansoft/IconButton\n; Stars: 0 | Forks: 0\n; Last Updated: 2/27/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 button class with icon support\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/IconButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/IconButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IconButton>\n\n; Example initialization\nclass IconbuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IconButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := IconbuttonExample()\n```"
     },
     {
       "id": "github-1167192092",
@@ -3301,6 +3301,25 @@
       "forks": 0,
       "owner": "jdtaormi",
       "code": "```cpp\n; ============================================\n; Repository: jdtaormi/reddit-autosub\n; ============================================\n; URL: https://github.com/jdtaormi/reddit-autosub\n; Stars: 0 | Forks: 0\n; Last Updated: 2/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 script to automate batch subscription to subreddits\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jdtaormi/reddit-autosub.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jdtaormi/reddit-autosub/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <reddit-autosub>\n\n; Example initialization\nclass RedditAutosubExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"reddit-autosub loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RedditAutosubExample()\n```"
+    },
+    {
+      "id": "github-1168158081",
+      "title": "AHK-Chrome-Automation",
+      "category": "GitHub Repository",
+      "description": "Automate Chrome browser using AutoHotkey v2 and Chrome DevTools Protocol. Execute JavaScript, scrape data, and control web pages and etc,",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-27T04:26:13Z",
+      "lastModified": "2026-02-27T07:21:27Z",
+      "source": "github",
+      "url": "https://github.com/kandeeswaran11/AHK-Chrome-Automation",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kandeeswaran11",
+      "code": "```cpp\n; ============================================\n; Repository: kandeeswaran11/AHK-Chrome-Automation\n; ============================================\n; URL: https://github.com/kandeeswaran11/AHK-Chrome-Automation\n; Stars: 0 | Forks: 0\n; Last Updated: 2/27/2026\n; License: Not specified\n;\n; Description:\n; Automate Chrome browser using AutoHotkey v2 and Chrome DevTools Protocol. Execute JavaScript, scrape data, and control web pages and etc,\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kandeeswaran11/AHK-Chrome-Automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kandeeswaran11/AHK-Chrome-Automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-Chrome-Automation>\n\n; Example initialization\nclass AhkChromeAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-Chrome-Automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkChromeAutomationExample()\n```"
     }
   ]
 }
