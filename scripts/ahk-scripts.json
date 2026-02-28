@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-27T18:12:01.636Z",
+  "lastUpdated": "2026-02-28T00:20:36.302Z",
   "totalScripts": 168,
   "categories": [
     "GUI",
@@ -1114,13 +1114,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2022-12-11T09:54:06Z",
-      "lastModified": "2026-02-25T09:56:34Z",
+      "lastModified": "2026-02-27T21:30:13Z",
       "source": "github",
       "url": "https://github.com/autohotkey-docs-translation/v2-source",
       "stars": 0,
       "forks": 0,
       "owner": "autohotkey-docs-translation",
-      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 2/25/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 2/27/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
     },
     {
       "id": "github-1101203666",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-27T17:42:52Z",
+      "lastModified": "2026-02-28T00:12:55Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/27/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 2/28/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-02-20T12:02:13Z",
+      "lastModified": "2026-02-27T18:41:52Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 2/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
@@ -2518,13 +2518,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-05T14:14:35Z",
-      "lastModified": "2026-02-12T21:30:20Z",
+      "lastModified": "2026-02-27T22:00:45Z",
       "source": "github",
       "url": "https://github.com/sarfraznawaz2005/filewatcher",
       "stars": 0,
       "forks": 0,
       "owner": "sarfraznawaz2005",
-      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/filewatcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/filewatcher\n; Stars: 0 | Forks: 0\n; Last Updated: 2/12/2026\n; License: Not specified\n;\n; Description:\n; A real-time file monitoring application built with AutoHotkey v2.0+. This tool allows you to watch any file for changes and instantly view its content in a dedicated GUI window.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/filewatcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/filewatcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <filewatcher>\n\n; Example initialization\nclass FilewatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"filewatcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilewatcherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sarfraznawaz2005/filewatcher\n; ============================================\n; URL: https://github.com/sarfraznawaz2005/filewatcher\n; Stars: 0 | Forks: 0\n; Last Updated: 2/27/2026\n; License: Not specified\n;\n; Description:\n; A real-time file monitoring application built with AutoHotkey v2.0+. This tool allows you to watch any file for changes and instantly view its content in a dedicated GUI window.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarfraznawaz2005/filewatcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarfraznawaz2005/filewatcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <filewatcher>\n\n; Example initialization\nclass FilewatcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"filewatcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilewatcherExample()\n```"
     },
     {
       "id": "github-930479119",
@@ -2543,13 +2543,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-02-10T17:42:31Z",
-      "lastModified": "2026-02-17T19:55:15Z",
+      "lastModified": "2026-02-28T00:14:08Z",
       "source": "github",
       "url": "https://github.com/tsukasa/dotfiles-komorebi",
       "stars": 5,
       "forks": 0,
       "owner": "tsukasa",
-      "code": "```cpp\n; ============================================\n; Repository: tsukasa/dotfiles-komorebi\n; ============================================\n; URL: https://github.com/tsukasa/dotfiles-komorebi\n; Stars: 5 | Forks: 0\n; Last Updated: 2/17/2026\n; License: MIT License\n;\n; Description:\n; 🌆 My AutoHotkey v2 script used in my day-to-day Komorebi tiling window manager setup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tsukasa/dotfiles-komorebi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tsukasa/dotfiles-komorebi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dotfiles-komorebi>\n\n; Example initialization\nclass DotfilesKomorebiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dotfiles-komorebi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DotfilesKomorebiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tsukasa/dotfiles-komorebi\n; ============================================\n; URL: https://github.com/tsukasa/dotfiles-komorebi\n; Stars: 5 | Forks: 0\n; Last Updated: 2/28/2026\n; License: MIT License\n;\n; Description:\n; 🌆 My AutoHotkey v2 script used in my day-to-day Komorebi tiling window manager setup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tsukasa/dotfiles-komorebi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tsukasa/dotfiles-komorebi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dotfiles-komorebi>\n\n; Example initialization\nclass DotfilesKomorebiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dotfiles-komorebi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DotfilesKomorebiExample()\n```"
     },
     {
       "id": "github-1149077098",
