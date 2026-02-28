@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-28T12:08:05.174Z",
-  "totalScripts": 169,
+  "lastUpdated": "2026-02-28T18:06:31.939Z",
+  "totalScripts": 170,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -3234,13 +3234,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-26T03:11:26Z",
-      "lastModified": "2026-02-26T08:08:09Z",
+      "lastModified": "2026-02-28T15:17:55Z",
       "source": "github",
       "url": "https://github.com/JsonBorn98/AHKeyMap",
       "stars": 0,
       "forks": 0,
       "owner": "JsonBorn98",
-      "code": "```cpp\n; ============================================\n; Repository: JsonBorn98/AHKeyMap\n; ============================================\n; URL: https://github.com/JsonBorn98/AHKeyMap\n; Stars: 0 | Forks: 0\n; Last Updated: 2/26/2026\n; License: Not specified\n;\n; Description:\n; AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JsonBorn98/AHKeyMap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JsonBorn98/AHKeyMap/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKeyMap>\n\n; Example initialization\nclass AhkeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKeyMap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkeymapExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: JsonBorn98/AHKeyMap\n; ============================================\n; URL: https://github.com/JsonBorn98/AHKeyMap\n; Stars: 0 | Forks: 0\n; Last Updated: 2/28/2026\n; License: Not specified\n;\n; Description:\n; AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JsonBorn98/AHKeyMap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JsonBorn98/AHKeyMap/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKeyMap>\n\n; Example initialization\nclass AhkeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKeyMap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkeymapExample()\n```"
     },
     {
       "id": "github-1167805458",
@@ -3294,13 +3294,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-26T19:19:30Z",
-      "lastModified": "2026-02-26T19:26:30Z",
+      "lastModified": "2026-02-28T16:36:53Z",
       "source": "github",
       "url": "https://github.com/jdtaormi/reddit-autosub",
       "stars": 0,
       "forks": 0,
       "owner": "jdtaormi",
-      "code": "```cpp\n; ============================================\n; Repository: jdtaormi/reddit-autosub\n; ============================================\n; URL: https://github.com/jdtaormi/reddit-autosub\n; Stars: 0 | Forks: 0\n; Last Updated: 2/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 script to automate batch subscription to subreddits\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jdtaormi/reddit-autosub.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jdtaormi/reddit-autosub/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <reddit-autosub>\n\n; Example initialization\nclass RedditAutosubExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"reddit-autosub loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RedditAutosubExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jdtaormi/reddit-autosub\n; ============================================\n; URL: https://github.com/jdtaormi/reddit-autosub\n; Stars: 0 | Forks: 0\n; Last Updated: 2/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 script to automate batch subscription to subreddits\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jdtaormi/reddit-autosub.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jdtaormi/reddit-autosub/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <reddit-autosub>\n\n; Example initialization\nclass RedditAutosubExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"reddit-autosub loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RedditAutosubExample()\n```"
     },
     {
       "id": "github-1168158081",
@@ -3339,6 +3339,29 @@
       "forks": 0,
       "owner": "KingHavok",
       "code": "```cpp\n; ============================================\n; Repository: KingHavok/pokie_pacdrive\n; ============================================\n; URL: https://github.com/KingHavok/pokie_pacdrive\n; Stars: 1 | Forks: 0\n; Last Updated: 2/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Custom Pokie Machine LED Control using AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KingHavok/pokie_pacdrive.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KingHavok/pokie_pacdrive/archive/refs/heads/Version-2-2026.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pokie_pacdrive>\n\n; Example initialization\nclass PokiePacdriveExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pokie_pacdrive loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PokiePacdriveExample()\n```"
+    },
+    {
+      "id": "github-1132407226",
+      "title": "UberMaus",
+      "category": "GitHub Repository",
+      "description": "Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-scripts",
+        "keybinder",
+        "keybindings"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-11T22:36:48Z",
+      "lastModified": "2026-02-28T16:54:30Z",
+      "source": "github",
+      "url": "https://github.com/Dason-IsopodOverseer/UberMaus",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Dason-IsopodOverseer",
+      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 2/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
     }
   ]
 }
