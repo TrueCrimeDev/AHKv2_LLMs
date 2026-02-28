@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-28T06:09:13.580Z",
+  "lastUpdated": "2026-02-28T12:08:05.174Z",
   "totalScripts": 169,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-28T05:00:28Z",
+      "lastModified": "2026-02-28T07:59:10Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2760,13 +2760,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T16:14:44Z",
-      "lastModified": "2026-02-13T17:04:21Z",
+      "lastModified": "2026-02-28T09:36:02Z",
       "source": "github",
       "url": "https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "CesarHlp1",
-      "code": "```cpp\n; ============================================\n; Repository: CesarHlp1/AHK-ViGEm-Bus-v2.ahk\n; ============================================\n; URL: https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 2/13/2026\n; License: MIT License\n;\n; Description:\n; Version traducida para autohotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ViGEm-Bus-v2.ahk>\n\n; Example initialization\nclass AhkVigemBusV2.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ViGEm-Bus-v2.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkVigemBusV2.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CesarHlp1/AHK-ViGEm-Bus-v2.ahk\n; ============================================\n; URL: https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 2/28/2026\n; License: MIT License\n;\n; Description:\n; Version traducida para autohotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CesarHlp1/AHK-ViGEm-Bus-v2.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ViGEm-Bus-v2.ahk>\n\n; Example initialization\nclass AhkVigemBusV2.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ViGEm-Bus-v2.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkVigemBusV2.ahkExample()\n```"
     },
     {
       "id": "github-1157544813",
