@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-28T00:20:36.302Z",
-  "totalScripts": 168,
+  "lastUpdated": "2026-02-28T06:09:13.580Z",
+  "totalScripts": 169,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-02-28T00:12:55Z",
+      "lastModified": "2026-02-28T05:00:28Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2318,13 +2318,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-28T20:58:35Z",
-      "lastModified": "2026-02-25T02:08:06Z",
+      "lastModified": "2026-02-28T00:27:03Z",
       "source": "github",
       "url": "https://github.com/jkirchhefer/AutoHotkey",
       "stars": 0,
       "forks": 0,
       "owner": "jkirchhefer",
-      "code": "```cpp\n; ============================================\n; Repository: jkirchhefer/AutoHotkey\n; ============================================\n; URL: https://github.com/jkirchhefer/AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 2/25/2026\n; License: Not specified\n;\n; Description:\n; my autohotkey v2 configuration\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jkirchhefer/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jkirchhefer/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jkirchhefer/AutoHotkey\n; ============================================\n; URL: https://github.com/jkirchhefer/AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 2/28/2026\n; License: Not specified\n;\n; Description:\n; my autohotkey v2 configuration\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jkirchhefer/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jkirchhefer/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1145655929",
@@ -3320,6 +3320,25 @@
       "forks": 0,
       "owner": "kandeeswaran11",
       "code": "```cpp\n; ============================================\n; Repository: kandeeswaran11/AHK-Chrome-Automation\n; ============================================\n; URL: https://github.com/kandeeswaran11/AHK-Chrome-Automation\n; Stars: 0 | Forks: 0\n; Last Updated: 2/27/2026\n; License: Not specified\n;\n; Description:\n; Automate Chrome browser using AutoHotkey v2 and Chrome DevTools Protocol. Execute JavaScript, scrape data, and control web pages and etc,\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kandeeswaran11/AHK-Chrome-Automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kandeeswaran11/AHK-Chrome-Automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-Chrome-Automation>\n\n; Example initialization\nclass AhkChromeAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-Chrome-Automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkChromeAutomationExample()\n```"
+    },
+    {
+      "id": "github-719319601",
+      "title": "pokie_pacdrive",
+      "category": "GitHub Repository",
+      "description": "Custom Pokie Machine LED Control using AutoHotkey V2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2023-11-15T23:12:21Z",
+      "lastModified": "2026-02-28T05:02:20Z",
+      "source": "github",
+      "url": "https://github.com/KingHavok/pokie_pacdrive",
+      "stars": 1,
+      "forks": 0,
+      "owner": "KingHavok",
+      "code": "```cpp\n; ============================================\n; Repository: KingHavok/pokie_pacdrive\n; ============================================\n; URL: https://github.com/KingHavok/pokie_pacdrive\n; Stars: 1 | Forks: 0\n; Last Updated: 2/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Custom Pokie Machine LED Control using AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KingHavok/pokie_pacdrive.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KingHavok/pokie_pacdrive/archive/refs/heads/Version-2-2026.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pokie_pacdrive>\n\n; Example initialization\nclass PokiePacdriveExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pokie_pacdrive loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PokiePacdriveExample()\n```"
     }
   ]
 }
