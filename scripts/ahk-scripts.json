@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-01T12:08:27.987Z",
+  "lastUpdated": "2026-03-01T18:06:51.476Z",
   "totalScripts": 172,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-01T09:40:03Z",
+      "lastModified": "2026-03-01T14:56:15Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2994,13 +2994,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-19T17:18:47Z",
-      "lastModified": "2026-03-01T01:59:22Z",
+      "lastModified": "2026-03-01T14:03:40Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/WinUI3",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/WinUI3\n; ============================================\n; URL: https://github.com/TrueCrimeDev/WinUI3\n; Stars: 2 | Forks: 0\n; Last Updated: 3/1/2026\n; License: Not specified\n;\n; Description:\n; WinUI3 XAML Islands for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/WinUI3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/WinUI3/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinUI3>\n\n; Example initialization\nclass Winui3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinUI3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Winui3Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/WinUI3\n; ============================================\n; URL: https://github.com/TrueCrimeDev/WinUI3\n; Stars: 3 | Forks: 0\n; Last Updated: 3/1/2026\n; License: Not specified\n;\n; Description:\n; WinUI3 XAML Islands for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/WinUI3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/WinUI3/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinUI3>\n\n; Example initialization\nclass Winui3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinUI3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Winui3Example()\n```"
     },
     {
       "id": "github-1162172555",
@@ -3374,7 +3374,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-03-01T01:10:46Z",
+      "lastModified": "2026-03-01T14:04:42Z",
       "source": "github",
       "url": "https://github.com/Ekko7778/AllInOneNotification",
       "stars": 0,
@@ -3389,11 +3389,16 @@
       "description": "OSD de brillo personalizado en AutoHotkey v2 para Windows 11, con atajos configurables y control de brillo por WMI",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkeys-scripts",
+        "brightness-control",
+        "hotkeys",
+        "osd",
+        "volume-control"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T05:42:43Z",
-      "lastModified": "2026-03-01T05:51:39Z",
+      "lastModified": "2026-03-01T15:50:02Z",
       "source": "github",
       "url": "https://github.com/xmunder/luma-flyout-ahk",
       "stars": 0,
