@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-01T18:06:51.476Z",
-  "totalScripts": 172,
+  "lastUpdated": "2026-03-02T00:22:45.288Z",
+  "totalScripts": 173,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-02-28T19:13:08Z",
+      "lastModified": "2026-03-01T19:53:53Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 43,
       "forks": 6,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 43 | Forks: 6\n; Last Updated: 2/28/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 43 | Forks: 6\n; Last Updated: 3/1/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-01T14:56:15Z",
+      "lastModified": "2026-03-01T23:26:13Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3405,6 +3405,25 @@
       "forks": 0,
       "owner": "xmunder",
       "code": "```cpp\n; ============================================\n; Repository: xmunder/luma-flyout-ahk\n; ============================================\n; URL: https://github.com/xmunder/luma-flyout-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 3/1/2026\n; License: MIT License\n;\n; Description:\n; OSD de brillo personalizado en AutoHotkey v2 para Windows 11, con atajos configurables y control de brillo por WMI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xmunder/luma-flyout-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xmunder/luma-flyout-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <luma-flyout-ahk>\n\n; Example initialization\nclass LumaFlyoutAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"luma-flyout-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LumaFlyoutAhkExample()\n```"
+    },
+    {
+      "id": "github-1170189374",
+      "title": "GAIME-HOTD2-Remap",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script to remap controls to play House of the Dead 2 only from the G’AIM’E light gun. ",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-01T20:37:01Z",
+      "lastModified": "2026-03-02T00:22:21Z",
+      "source": "github",
+      "url": "https://github.com/3dwardify/GAIME-HOTD2-Remap",
+      "stars": 0,
+      "forks": 0,
+      "owner": "3dwardify",
+      "code": "```cpp\n; ============================================\n; Repository: 3dwardify/GAIME-HOTD2-Remap\n; ============================================\n; URL: https://github.com/3dwardify/GAIME-HOTD2-Remap\n; Stars: 0 | Forks: 0\n; Last Updated: 3/2/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script to remap controls to play House of the Dead 2 only from the G’AIM’E light gun. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/3dwardify/GAIME-HOTD2-Remap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/3dwardify/GAIME-HOTD2-Remap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GAIME-HOTD2-Remap>\n\n; Example initialization\nclass GaimeHotd2RemapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GAIME-HOTD2-Remap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GaimeHotd2RemapExample()\n```"
     }
   ]
 }
