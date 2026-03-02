@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-02T00:22:45.288Z",
+  "lastUpdated": "2026-03-02T06:19:59.467Z",
   "totalScripts": 173,
   "categories": [
     "GUI",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-01T23:26:13Z",
+      "lastModified": "2026-03-02T06:08:53Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/1/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/2/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2608,13 +2608,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-07T13:22:17Z",
-      "lastModified": "2026-02-09T01:04:48Z",
+      "lastModified": "2026-03-02T03:00:13Z",
       "source": "github",
       "url": "https://github.com/nullmake/ahkv2-lib",
       "stars": 0,
       "forks": 0,
       "owner": "nullmake",
-      "code": "```cpp\n; ============================================\n; Repository: nullmake/ahkv2-lib\n; ============================================\n; URL: https://github.com/nullmake/ahkv2-lib\n; Stars: 0 | Forks: 0\n; Last Updated: 2/9/2026\n; License: Apache License 2.0\n;\n; Description:\n; A collection of high-quality, strictly compliant, and well-tested libraries for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nullmake/ahkv2-lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nullmake/ahkv2-lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkv2-lib>\n\n; Example initialization\nclass Ahkv2LibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkv2-lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2LibExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nullmake/ahkv2-lib\n; ============================================\n; URL: https://github.com/nullmake/ahkv2-lib\n; Stars: 0 | Forks: 0\n; Last Updated: 3/2/2026\n; License: Apache License 2.0\n;\n; Description:\n; A collection of high-quality, strictly compliant, and well-tested libraries for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nullmake/ahkv2-lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nullmake/ahkv2-lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkv2-lib>\n\n; Example initialization\nclass Ahkv2LibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkv2-lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2LibExample()\n```"
     },
     {
       "id": "github-1153447682",
