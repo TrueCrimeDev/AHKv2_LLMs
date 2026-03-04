@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-04T12:11:24.763Z",
-  "totalScripts": 174,
+  "lastUpdated": "2026-03-04T18:14:34.942Z",
+  "totalScripts": 175,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-04T08:59:39Z",
+      "lastModified": "2026-03-04T17:29:16Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3234,13 +3234,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-26T03:11:26Z",
-      "lastModified": "2026-02-28T15:17:55Z",
+      "lastModified": "2026-03-04T13:03:14Z",
       "source": "github",
       "url": "https://github.com/JsonBorn98/AHKeyMap",
       "stars": 0,
       "forks": 0,
       "owner": "JsonBorn98",
-      "code": "```cpp\n; ============================================\n; Repository: JsonBorn98/AHKeyMap\n; ============================================\n; URL: https://github.com/JsonBorn98/AHKeyMap\n; Stars: 0 | Forks: 0\n; Last Updated: 2/28/2026\n; License: Not specified\n;\n; Description:\n; AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JsonBorn98/AHKeyMap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JsonBorn98/AHKeyMap/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKeyMap>\n\n; Example initialization\nclass AhkeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKeyMap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkeymapExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: JsonBorn98/AHKeyMap\n; ============================================\n; URL: https://github.com/JsonBorn98/AHKeyMap\n; Stars: 0 | Forks: 0\n; Last Updated: 3/4/2026\n; License: MIT License\n;\n; Description:\n; AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JsonBorn98/AHKeyMap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JsonBorn98/AHKeyMap/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKeyMap>\n\n; Example initialization\nclass AhkeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKeyMap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkeymapExample()\n```"
     },
     {
       "id": "github-1167805458",
@@ -3443,6 +3443,28 @@
       "forks": 0,
       "owner": "thinkRand",
       "code": "```cpp\n; ============================================\n; Repository: thinkRand/1-tick-prayer-flicker\n; ============================================\n; URL: https://github.com/thinkRand/1-tick-prayer-flicker\n; Stars: 0 | Forks: 0\n; Last Updated: 3/3/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 script for Old School RuneScape that automates 1-tick prayer flicking by monitoring Runelite's visual metronome plugin.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/thinkRand/1-tick-prayer-flicker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/thinkRand/1-tick-prayer-flicker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <1-tick-prayer-flicker>\n\n; Example initialization\nclass 1TickPrayerFlickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"1-tick-prayer-flicker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 1TickPrayerFlickerExample()\n```"
+    },
+    {
+      "id": "github-1164823659",
+      "title": "WSL-Screenshot-Paster-for-Claude-Code",
+      "category": "GitHub Repository",
+      "description": "This is a lightweight AutoHotkey v2 script for Windows 11. It allows you to seamlessly paste screenshots (taken via Win + Shift + S) directly into Claude Code running inside WSL via Windows Terminal.",
+      "tags": [
+        "github",
+        "repository",
+        "claudecode",
+        "windows",
+        "wsl"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-23T14:24:05Z",
+      "lastModified": "2026-03-04T17:59:14Z",
+      "source": "github",
+      "url": "https://github.com/ruslanlap/WSL-Screenshot-Paster-for-Claude-Code",
+      "stars": 4,
+      "forks": 0,
+      "owner": "ruslanlap",
+      "code": "```cpp\n; ============================================\n; Repository: ruslanlap/WSL-Screenshot-Paster-for-Claude-Code\n; ============================================\n; URL: https://github.com/ruslanlap/WSL-Screenshot-Paster-for-Claude-Code\n; Stars: 4 | Forks: 0\n; Last Updated: 3/4/2026\n; License: Not specified\n;\n; Description:\n; This is a lightweight AutoHotkey v2 script for Windows 11. It allows you to seamlessly paste screenshots (taken via Win + Shift + S) directly into Claude Code running inside WSL via Windows Terminal.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ruslanlap/WSL-Screenshot-Paster-for-Claude-Code.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ruslanlap/WSL-Screenshot-Paster-for-Claude-Code/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WSL-Screenshot-Paster-for-Claude-Code>\n\n; Example initialization\nclass WslScreenshotPasterForClaudeCodeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WSL-Screenshot-Paster-for-Claude-Code loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WslScreenshotPasterForClaudeCodeExample()\n```"
     }
   ]
 }
