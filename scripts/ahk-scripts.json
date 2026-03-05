@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-05T12:12:55.637Z",
-  "totalScripts": 175,
+  "lastUpdated": "2026-03-05T18:37:05.785Z",
+  "totalScripts": 176,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2058,7 +2058,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-18T11:22:08Z",
-      "lastModified": "2026-03-05T04:32:15Z",
+      "lastModified": "2026-03-05T15:17:56Z",
       "source": "github",
       "url": "https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-Window11-in-all-apps",
       "stars": 1,
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-05T10:42:43Z",
+      "lastModified": "2026-03-05T17:58:07Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3465,6 +3465,25 @@
       "forks": 0,
       "owner": "ruslanlap",
       "code": "```cpp\n; ============================================\n; Repository: ruslanlap/WSL-Screenshot-Paster-for-Claude-Code\n; ============================================\n; URL: https://github.com/ruslanlap/WSL-Screenshot-Paster-for-Claude-Code\n; Stars: 4 | Forks: 0\n; Last Updated: 3/4/2026\n; License: Not specified\n;\n; Description:\n; This is a lightweight AutoHotkey v2 script for Windows 11. It allows you to seamlessly paste screenshots (taken via Win + Shift + S) directly into Claude Code running inside WSL via Windows Terminal.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ruslanlap/WSL-Screenshot-Paster-for-Claude-Code.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ruslanlap/WSL-Screenshot-Paster-for-Claude-Code/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WSL-Screenshot-Paster-for-Claude-Code>\n\n; Example initialization\nclass WslScreenshotPasterForClaudeCodeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WSL-Screenshot-Paster-for-Claude-Code loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WslScreenshotPasterForClaudeCodeExample()\n```"
+    },
+    {
+      "id": "github-1173590367",
+      "title": "discord-owobot-autoplayer-ahk",
+      "category": "GitHub Repository",
+      "description": "Automated AutoHotKey V2 Script to Play OwOBot on Discord for you while you are AFK Undetected Reset Every 24 Hours atleast to Minimize The Anti Cheat System",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-05T14:35:46Z",
+      "lastModified": "2026-03-05T14:40:46Z",
+      "source": "github",
+      "url": "https://github.com/JamalEliasHirsch/discord-owobot-autoplayer-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "JamalEliasHirsch",
+      "code": "```cpp\n; ============================================\n; Repository: JamalEliasHirsch/discord-owobot-autoplayer-ahk\n; ============================================\n; URL: https://github.com/JamalEliasHirsch/discord-owobot-autoplayer-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 3/5/2026\n; License: Not specified\n;\n; Description:\n; Automated AutoHotKey V2 Script to Play OwOBot on Discord for you while you are AFK Undetected Reset Every 24 Hours atleast to Minimize The Anti Cheat System\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JamalEliasHirsch/discord-owobot-autoplayer-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JamalEliasHirsch/discord-owobot-autoplayer-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <discord-owobot-autoplayer-ahk>\n\n; Example initialization\nclass DiscordOwobotAutoplayerAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"discord-owobot-autoplayer-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DiscordOwobotAutoplayerAhkExample()\n```"
     }
   ]
 }
