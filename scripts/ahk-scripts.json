@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-05T00:23:27.798Z",
+  "lastUpdated": "2026-03-05T06:17:18.326Z",
   "totalScripts": 175,
   "categories": [
     "GUI",
@@ -2049,22 +2049,22 @@
     },
     {
       "id": "github-1136794120",
-      "title": "Smooth-Scroll-Acceleration-for-AutoHotkey-v2",
+      "title": "Smooth-Scroll-Acceleration-for-Window11-in-all-apps",
       "category": "GitHub Repository",
-      "description": "A lightweight, fully‑tunable scroll‑acceleration script for AutoHotkey v2. It transforms standard mouse‑wheel scrolling into a smooth, momentum‑based experience—similar to modern touchpads or high‑end mice—without requiring any external software.",
+      "description": "A lightweight, fully‑tunable scroll‑acceleration script for Windows 11. Script can be compiled and used with AutoHotkey v2.",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-18T11:22:08Z",
-      "lastModified": "2026-03-04T20:29:37Z",
+      "lastModified": "2026-03-05T04:32:15Z",
       "source": "github",
-      "url": "https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2",
+      "url": "https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-Window11-in-all-apps",
       "stars": 1,
       "forks": 0,
       "owner": "MihaiCiprianChezan",
-      "code": "```cpp\n; ============================================\n; Repository: MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2\n; ============================================\n; URL: https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2\n; Stars: 1 | Forks: 0\n; Last Updated: 3/4/2026\n; License: MIT License\n;\n; Description:\n; A lightweight, fully‑tunable scroll‑acceleration script for AutoHotkey v2. It transforms standard mouse‑wheel scrolling into a smooth, momentum‑based experience—similar to modern touchpads or high‑end mice—without requiring any external software.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-AutoHotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Smooth-Scroll-Acceleration-for-AutoHotkey-v2>\n\n; Example initialization\nclass SmoothScrollAccelerationForAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Smooth-Scroll-Acceleration-for-AutoHotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SmoothScrollAccelerationForAutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-Window11-in-all-apps\n; ============================================\n; URL: https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-Window11-in-all-apps\n; Stars: 1 | Forks: 0\n; Last Updated: 3/5/2026\n; License: MIT License\n;\n; Description:\n; A lightweight, fully‑tunable scroll‑acceleration script for Windows 11. Script can be compiled and used with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-Window11-in-all-apps.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MihaiCiprianChezan/Smooth-Scroll-Acceleration-for-Window11-in-all-apps/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Smooth-Scroll-Acceleration-for-Window11-in-all-apps>\n\n; Example initialization\nclass SmoothScrollAccelerationForWindow11InAllAppsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Smooth-Scroll-Acceleration-for-Window11-in-all-apps loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SmoothScrollAccelerationForWindow11InAllAppsExample()\n```"
     },
     {
       "id": "github-1137679239",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-04T22:36:48Z",
+      "lastModified": "2026-03-05T03:33:19Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/4/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/5/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
