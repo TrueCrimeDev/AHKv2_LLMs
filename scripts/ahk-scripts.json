@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-11T00:20:35.505Z",
-  "totalScripts": 178,
+  "lastUpdated": "2026-03-11T06:17:37.340Z",
+  "totalScripts": 179,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-10T22:20:19Z",
+      "lastModified": "2026-03-11T05:24:09Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/10/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/11/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -3528,6 +3528,25 @@
       "forks": 0,
       "owner": "xtrusia",
       "code": "```cpp\n; ============================================\n; Repository: xtrusia/tools\n; ============================================\n; URL: https://github.com/xtrusia/tools\n; Stars: 0 | Forks: 0\n; Last Updated: 3/8/2026\n; License: Not specified\n;\n; Description:\n; Monitor-Aware Alt+Tab switcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xtrusia/tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xtrusia/tools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <tools>\n\n; Example initialization\nclass ToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ToolsExample()\n```"
+    },
+    {
+      "id": "github-1178480961",
+      "title": "PotPlayer-3xSpeed",
+      "category": "GitHub Repository",
+      "description": "A simple AutoHotkey v2 script to enable bilibili-like 3x playback speed in PotPlayer.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-11T04:06:34Z",
+      "lastModified": "2026-03-11T04:22:05Z",
+      "source": "github",
+      "url": "https://github.com/xyls184/PotPlayer-3xSpeed",
+      "stars": 0,
+      "forks": 0,
+      "owner": "xyls184",
+      "code": "```cpp\n; ============================================\n; Repository: xyls184/PotPlayer-3xSpeed\n; ============================================\n; URL: https://github.com/xyls184/PotPlayer-3xSpeed\n; Stars: 0 | Forks: 0\n; Last Updated: 3/11/2026\n; License: Not specified\n;\n; Description:\n; A simple AutoHotkey v2 script to enable bilibili-like 3x playback speed in PotPlayer.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xyls184/PotPlayer-3xSpeed.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xyls184/PotPlayer-3xSpeed/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PotPlayer-3xSpeed>\n\n; Example initialization\nclass Potplayer3xspeedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PotPlayer-3xSpeed loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Potplayer3xspeedExample()\n```"
     }
   ]
 }
