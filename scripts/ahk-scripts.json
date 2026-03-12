@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-12T12:11:17.124Z",
-  "totalScripts": 181,
+  "lastUpdated": "2026-03-12T18:18:15.392Z",
+  "totalScripts": 182,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-12T12:04:14Z",
+      "lastModified": "2026-03-12T17:23:59Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3555,11 +3555,17 @@
       "description": "EQSwitch multiboxing manager — hotkey switching, PiP overlay, multi-monitor layout, process manager, video settings, character backup. Built with Claude Code in AutoHotkey v2.",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "ahk",
+        "autohotkey",
+        "autohotkey-v2",
+        "everquest",
+        "hotkeys",
+        "multiboxing"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-06T08:46:10Z",
-      "lastModified": "2026-03-12T03:52:52Z",
+      "lastModified": "2026-03-12T13:53:04Z",
       "source": "github",
       "url": "https://github.com/itsnateai/eqswitch",
       "stars": 1,
@@ -3585,6 +3591,31 @@
       "forks": 0,
       "owner": "tiehu",
       "code": "```cpp\n; ============================================\n; Repository: tiehu/AHK-v2-Lib\n; ============================================\n; URL: https://github.com/tiehu/AHK-v2-Lib\n; Stars: 0 | Forks: 0\n; Last Updated: 3/12/2026\n; License: MIT License\n;\n; Description:\n; 个人自用的 AutoHotkey v2 类库合集\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tiehu/AHK-v2-Lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tiehu/AHK-v2-Lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-v2-Lib>\n\n; Example initialization\nclass AhkV2LibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-v2-Lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2LibExample()\n```"
+    },
+    {
+      "id": "github-838329404",
+      "title": "window-snap-grid",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for snapping windows to a 9-point grid with multi-monitor and taskbar awareness",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "autohotkey-v2",
+        "multi-monitor",
+        "productivity",
+        "windhawk"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-08-05T12:23:58Z",
+      "lastModified": "2026-03-12T17:53:43Z",
+      "source": "github",
+      "url": "https://github.com/janiaul/window-snap-grid",
+      "stars": 0,
+      "forks": 0,
+      "owner": "janiaul",
+      "code": "```cpp\n; ============================================\n; Repository: janiaul/window-snap-grid\n; ============================================\n; URL: https://github.com/janiaul/window-snap-grid\n; Stars: 0 | Forks: 0\n; Last Updated: 3/12/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for snapping windows to a 9-point grid with multi-monitor and taskbar awareness\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/janiaul/window-snap-grid.git\n;\n; Option 2: Download ZIP\n;   https://github.com/janiaul/window-snap-grid/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-snap-grid>\n\n; Example initialization\nclass WindowSnapGridExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-snap-grid loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowSnapGridExample()\n```"
     }
   ]
 }
