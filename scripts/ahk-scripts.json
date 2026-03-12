@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-12T06:19:02.460Z",
-  "totalScripts": 180,
+  "lastUpdated": "2026-03-12T12:11:17.124Z",
+  "totalScripts": 181,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-12T05:03:31Z",
+      "lastModified": "2026-03-12T12:04:14Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-03-05T10:22:12Z",
+      "lastModified": "2026-03-12T09:23:09Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 1,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 3/5/2026\n; License: MIT License\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 3/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -3566,6 +3566,25 @@
       "forks": 0,
       "owner": "itsnateai",
       "code": "```cpp\n; ============================================\n; Repository: itsnateai/eqswitch\n; ============================================\n; URL: https://github.com/itsnateai/eqswitch\n; Stars: 1 | Forks: 0\n; Last Updated: 3/12/2026\n; License: MIT License\n;\n; Description:\n; EQSwitch multiboxing manager — hotkey switching, PiP overlay, multi-monitor layout, process manager, video settings, character backup. Built with Claude Code in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/itsnateai/eqswitch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/itsnateai/eqswitch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <eqswitch>\n\n; Example initialization\nclass EqswitchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"eqswitch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EqswitchExample()\n```"
+    },
+    {
+      "id": "github-1179573775",
+      "title": "AHK-v2-Lib",
+      "category": "GitHub Repository",
+      "description": "个人自用的 AutoHotkey v2 类库合集",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-12T06:48:40Z",
+      "lastModified": "2026-03-12T08:02:29Z",
+      "source": "github",
+      "url": "https://github.com/tiehu/AHK-v2-Lib",
+      "stars": 0,
+      "forks": 0,
+      "owner": "tiehu",
+      "code": "```cpp\n; ============================================\n; Repository: tiehu/AHK-v2-Lib\n; ============================================\n; URL: https://github.com/tiehu/AHK-v2-Lib\n; Stars: 0 | Forks: 0\n; Last Updated: 3/12/2026\n; License: MIT License\n;\n; Description:\n; 个人自用的 AutoHotkey v2 类库合集\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tiehu/AHK-v2-Lib.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tiehu/AHK-v2-Lib/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-v2-Lib>\n\n; Example initialization\nclass AhkV2LibExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-v2-Lib loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2LibExample()\n```"
     }
   ]
 }
