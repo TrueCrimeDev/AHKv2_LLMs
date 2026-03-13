@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-13T12:12:01.105Z",
-  "totalScripts": 182,
+  "lastUpdated": "2026-03-13T18:12:02.468Z",
+  "totalScripts": 186,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-13T10:42:46Z",
+      "lastModified": "2026-03-13T17:48:42Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3616,6 +3616,88 @@
       "forks": 0,
       "owner": "janiaul",
       "code": "```cpp\n; ============================================\n; Repository: janiaul/window-snap-grid\n; ============================================\n; URL: https://github.com/janiaul/window-snap-grid\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for snapping windows to a 9-point grid with multi-monitor and taskbar awareness.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/janiaul/window-snap-grid.git\n;\n; Option 2: Download ZIP\n;   https://github.com/janiaul/window-snap-grid/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-snap-grid>\n\n; Example initialization\nclass WindowSnapGridExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-snap-grid loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowSnapGridExample()\n```"
+    },
+    {
+      "id": "github-1180997265",
+      "title": "Autoclicker",
+      "category": "GitHub Repository",
+      "description": "A simple autocliker made in AutoHotkey v2.0. It features multiple key press simulation and keybind assignment.",
+      "tags": [
+        "github",
+        "repository",
+        "autoclicker",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation-tool",
+        "desktop-utility",
+        "input-automation"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-13T16:30:04Z",
+      "lastModified": "2026-03-13T16:56:29Z",
+      "source": "github",
+      "url": "https://github.com/SShaovv/Autoclicker",
+      "stars": 0,
+      "forks": 0,
+      "owner": "SShaovv",
+      "code": "```cpp\n; ============================================\n; Repository: SShaovv/Autoclicker\n; ============================================\n; URL: https://github.com/SShaovv/Autoclicker\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; A simple autocliker made in AutoHotkey v2.0. It features multiple key press simulation and keybind assignment.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SShaovv/Autoclicker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SShaovv/Autoclicker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Autoclicker>\n\n; Example initialization\nclass AutoclickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Autoclicker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutoclickerExample()\n```"
+    },
+    {
+      "id": "github-1175402242",
+      "title": "shiftkey",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for automation and custom functionality",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-07T17:01:47Z",
+      "lastModified": "2026-03-13T16:18:28Z",
+      "source": "github",
+      "url": "https://github.com/kunal-ma/shiftkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kunal-ma",
+      "code": "```cpp\n; ============================================\n; Repository: kunal-ma/shiftkey\n; ============================================\n; URL: https://github.com/kunal-ma/shiftkey\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script for automation and custom functionality\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunal-ma/shiftkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunal-ma/shiftkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <shiftkey>\n\n; Example initialization\nclass ShiftkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"shiftkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShiftkeyExample()\n```"
+    },
+    {
+      "id": "github-1180962027",
+      "title": "peace-preamp-ahk",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for controlling Peace (Equalizer APO) preamp with OSD overlay",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-13T15:46:06Z",
+      "lastModified": "2026-03-13T15:50:40Z",
+      "source": "github",
+      "url": "https://github.com/ThomasBasquin/peace-preamp-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ThomasBasquin",
+      "code": "```cpp\n; ============================================\n; Repository: ThomasBasquin/peace-preamp-ahk\n; ============================================\n; URL: https://github.com/ThomasBasquin/peace-preamp-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for controlling Peace (Equalizer APO) preamp with OSD overlay\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ThomasBasquin/peace-preamp-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ThomasBasquin/peace-preamp-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peace-preamp-ahk>\n\n; Example initialization\nclass PeacePreampAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peace-preamp-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeacePreampAhkExample()\n```"
+    },
+    {
+      "id": "github-1180501627",
+      "title": "alt-copy-paste",
+      "category": "GitHub Repository",
+      "description": "一个基于 `AutoHotkey v2` 的轻量脚本工具，用更顺手的按键完成“按住alt选中文字文件即复制、双击alt即粘贴”。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-13T05:24:14Z",
+      "lastModified": "2026-03-13T14:20:18Z",
+      "source": "github",
+      "url": "https://github.com/xufeiyu8/alt-copy-paste",
+      "stars": 0,
+      "forks": 0,
+      "owner": "xufeiyu8",
+      "code": "```cpp\n; ============================================\n; Repository: xufeiyu8/alt-copy-paste\n; ============================================\n; URL: https://github.com/xufeiyu8/alt-copy-paste\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: Eclipse Public License 2.0\n;\n; Description:\n; 一个基于 `AutoHotkey v2` 的轻量脚本工具，用更顺手的按键完成“按住alt选中文字文件即复制、双击alt即粘贴”。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xufeiyu8/alt-copy-paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xufeiyu8/alt-copy-paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-copy-paste>\n\n; Example initialization\nclass AltCopyPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-copy-paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltCopyPasteExample()\n```"
     }
   ]
 }
