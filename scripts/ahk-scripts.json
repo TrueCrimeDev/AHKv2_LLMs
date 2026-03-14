@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-13T18:12:02.468Z",
-  "totalScripts": 186,
+  "lastUpdated": "2026-03-14T00:21:50.154Z",
+  "totalScripts": 187,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -475,13 +475,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-01T12:31:51Z",
-      "lastModified": "2026-01-28T05:44:29Z",
+      "lastModified": "2026-03-13T19:45:43Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip",
-      "stars": 8,
+      "stars": 10,
       "forks": 1,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 8 | Forks: 1\n; Last Updated: 1/28/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 10 | Forks: 1\n; Last Updated: 3/13/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
     },
     {
       "id": "github-786217957",
@@ -2077,13 +2077,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-19T17:28:15Z",
-      "lastModified": "2026-01-23T11:36:35Z",
+      "lastModified": "2026-03-13T21:27:07Z",
       "source": "github",
       "url": "https://github.com/armaninyow/Volume-Control-Pro",
       "stars": 0,
       "forks": 0,
       "owner": "armaninyow",
-      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Volume-Control-Pro\n; ============================================\n; URL: https://github.com/armaninyow/Volume-Control-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 1/23/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Volume-Control-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Volume-Control-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Volume-Control-Pro>\n\n; Example initialization\nclass VolumeControlProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Volume-Control-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VolumeControlProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Volume-Control-Pro\n; ============================================\n; URL: https://github.com/armaninyow/Volume-Control-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Volume-Control-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Volume-Control-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Volume-Control-Pro>\n\n; Example initialization\nclass VolumeControlProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Volume-Control-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VolumeControlProExample()\n```"
     },
     {
       "id": "github-1137970149",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-13T17:48:42Z",
+      "lastModified": "2026-03-13T22:43:28Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3609,7 +3609,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-05T12:23:58Z",
-      "lastModified": "2026-03-13T11:01:49Z",
+      "lastModified": "2026-03-13T21:34:11Z",
       "source": "github",
       "url": "https://github.com/janiaul/window-snap-grid",
       "stars": 0,
@@ -3698,6 +3698,25 @@
       "forks": 0,
       "owner": "xufeiyu8",
       "code": "```cpp\n; ============================================\n; Repository: xufeiyu8/alt-copy-paste\n; ============================================\n; URL: https://github.com/xufeiyu8/alt-copy-paste\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: Eclipse Public License 2.0\n;\n; Description:\n; 一个基于 `AutoHotkey v2` 的轻量脚本工具，用更顺手的按键完成“按住alt选中文字文件即复制、双击alt即粘贴”。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xufeiyu8/alt-copy-paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xufeiyu8/alt-copy-paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-copy-paste>\n\n; Example initialization\nclass AltCopyPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-copy-paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltCopyPasteExample()\n```"
+    },
+    {
+      "id": "github-1181195896",
+      "title": "Clipboard-Plus",
+      "category": "GitHub Repository",
+      "description": "Built with AutoHotkey v2 and developed with the assistance of Claude AI.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-13T21:16:59Z",
+      "lastModified": "2026-03-13T21:47:41Z",
+      "source": "github",
+      "url": "https://github.com/armaninyow/Clipboard-Plus",
+      "stars": 0,
+      "forks": 0,
+      "owner": "armaninyow",
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Clipboard-Plus\n; ============================================\n; URL: https://github.com/armaninyow/Clipboard-Plus\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Clipboard-Plus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Clipboard-Plus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Plus>\n\n; Example initialization\nclass ClipboardPlusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Plus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardPlusExample()\n```"
     }
   ]
 }
