@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-14T06:16:15.388Z",
-  "totalScripts": 187,
+  "lastUpdated": "2026-03-14T12:08:42.005Z",
+  "totalScripts": 188,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -475,7 +475,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-01T12:31:51Z",
-      "lastModified": "2026-03-14T03:04:27Z",
+      "lastModified": "2026-03-14T08:09:58Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip",
       "stars": 10,
@@ -561,13 +561,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-07T03:41:58Z",
-      "lastModified": "2026-02-08T09:27:22Z",
+      "lastModified": "2026-03-14T09:26:22Z",
       "source": "github",
       "url": "https://github.com/masaodev/myahk_v2",
       "stars": 0,
       "forks": 0,
       "owner": "masaodev",
-      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 3/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
     },
     {
       "id": "github-1039208508",
@@ -1342,13 +1342,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-06-15T14:05:31Z",
-      "lastModified": "2026-02-01T11:03:45Z",
+      "lastModified": "2026-03-14T06:27:45Z",
       "source": "github",
       "url": "https://github.com/souldew/autohotkey-v2",
       "stars": 0,
       "forks": 0,
       "owner": "souldew",
-      "code": "```cpp\n; ============================================\n; Repository: souldew/autohotkey-v2\n; ============================================\n; URL: https://github.com/souldew/autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 2/1/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/souldew/autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/souldew/autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: souldew/autohotkey-v2\n; ============================================\n; URL: https://github.com/souldew/autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 3/14/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/souldew/autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/souldew/autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-950201159",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-14T03:38:21Z",
+      "lastModified": "2026-03-14T11:42:10Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3609,13 +3609,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-05T12:23:58Z",
-      "lastModified": "2026-03-13T21:34:11Z",
+      "lastModified": "2026-03-14T11:28:06Z",
       "source": "github",
       "url": "https://github.com/janiaul/window-snap-grid",
       "stars": 0,
       "forks": 0,
       "owner": "janiaul",
-      "code": "```cpp\n; ============================================\n; Repository: janiaul/window-snap-grid\n; ============================================\n; URL: https://github.com/janiaul/window-snap-grid\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for snapping windows to a 9-point grid with multi-monitor and taskbar awareness.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/janiaul/window-snap-grid.git\n;\n; Option 2: Download ZIP\n;   https://github.com/janiaul/window-snap-grid/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-snap-grid>\n\n; Example initialization\nclass WindowSnapGridExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-snap-grid loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowSnapGridExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: janiaul/window-snap-grid\n; ============================================\n; URL: https://github.com/janiaul/window-snap-grid\n; Stars: 0 | Forks: 0\n; Last Updated: 3/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for snapping windows to a 9-point grid with multi-monitor and taskbar awareness.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/janiaul/window-snap-grid.git\n;\n; Option 2: Download ZIP\n;   https://github.com/janiaul/window-snap-grid/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-snap-grid>\n\n; Example initialization\nclass WindowSnapGridExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-snap-grid loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowSnapGridExample()\n```"
     },
     {
       "id": "github-1180997265",
@@ -3691,13 +3691,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-13T05:24:14Z",
-      "lastModified": "2026-03-13T14:20:18Z",
+      "lastModified": "2026-03-14T08:01:21Z",
       "source": "github",
       "url": "https://github.com/xufeiyu8/alt-copy-paste",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "xufeiyu8",
-      "code": "```cpp\n; ============================================\n; Repository: xufeiyu8/alt-copy-paste\n; ============================================\n; URL: https://github.com/xufeiyu8/alt-copy-paste\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: Eclipse Public License 2.0\n;\n; Description:\n; 一个基于 `AutoHotkey v2` 的轻量脚本工具，用更顺手的按键完成“按住alt选中文字文件即复制、双击alt即粘贴”。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xufeiyu8/alt-copy-paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xufeiyu8/alt-copy-paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-copy-paste>\n\n; Example initialization\nclass AltCopyPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-copy-paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltCopyPasteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: xufeiyu8/alt-copy-paste\n; ============================================\n; URL: https://github.com/xufeiyu8/alt-copy-paste\n; Stars: 1 | Forks: 0\n; Last Updated: 3/14/2026\n; License: Eclipse Public License 2.0\n;\n; Description:\n; 一个基于 `AutoHotkey v2` 的轻量脚本工具，用更顺手的按键完成“按住alt选中文字文件即复制、双击alt即粘贴”。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xufeiyu8/alt-copy-paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xufeiyu8/alt-copy-paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-copy-paste>\n\n; Example initialization\nclass AltCopyPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-copy-paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltCopyPasteExample()\n```"
     },
     {
       "id": "github-1181195896",
@@ -3717,6 +3717,26 @@
       "forks": 0,
       "owner": "armaninyow",
       "code": "```cpp\n; ============================================\n; Repository: armaninyow/Clipboard-Plus\n; ============================================\n; URL: https://github.com/armaninyow/Clipboard-Plus\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Clipboard-Plus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Clipboard-Plus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Plus>\n\n; Example initialization\nclass ClipboardPlusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Plus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardPlusExample()\n```"
+    },
+    {
+      "id": "github-1181511326",
+      "title": "cubase-video-episode-batch-export",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for episodic video batch export in Cubase 13 Pro, based on video-track events.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey-cubase-windows-automation-video-editing"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-14T08:33:50Z",
+      "lastModified": "2026-03-14T08:53:05Z",
+      "source": "github",
+      "url": "https://github.com/2691654812-web/cubase-video-episode-batch-export",
+      "stars": 0,
+      "forks": 0,
+      "owner": "2691654812-web",
+      "code": "```cpp\n; ============================================\n; Repository: 2691654812-web/cubase-video-episode-batch-export\n; ============================================\n; URL: https://github.com/2691654812-web/cubase-video-episode-batch-export\n; Stars: 0 | Forks: 0\n; Last Updated: 3/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for episodic video batch export in Cubase 13 Pro, based on video-track events.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2691654812-web/cubase-video-episode-batch-export.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2691654812-web/cubase-video-episode-batch-export/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <cubase-video-episode-batch-export>\n\n; Example initialization\nclass CubaseVideoEpisodeBatchExportExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"cubase-video-episode-batch-export loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CubaseVideoEpisodeBatchExportExample()\n```"
     }
   ]
 }
