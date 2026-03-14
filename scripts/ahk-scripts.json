@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-14T00:21:50.154Z",
+  "lastUpdated": "2026-03-14T06:16:15.388Z",
   "totalScripts": 187,
   "categories": [
     "GUI",
@@ -475,13 +475,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-01T12:31:51Z",
-      "lastModified": "2026-03-13T19:45:43Z",
+      "lastModified": "2026-03-14T03:04:27Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip",
       "stars": 10,
       "forks": 1,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 10 | Forks: 1\n; Last Updated: 3/13/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 10 | Forks: 1\n; Last Updated: 3/14/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
     },
     {
       "id": "github-786217957",
@@ -1019,13 +1019,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-01-06T23:20:04Z",
-      "lastModified": "2025-12-02T11:32:38Z",
+      "lastModified": "2026-03-14T01:35:43Z",
       "source": "github",
       "url": "https://github.com/verlane/bsb-launcher",
       "stars": 0,
       "forks": 0,
       "owner": "verlane",
-      "code": "```cpp\n; ============================================\n; Repository: verlane/bsb-launcher\n; ============================================\n; URL: https://github.com/verlane/bsb-launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 12/2/2025\n; License: MIT License\n;\n; Description:\n; Alternative Find and Run Robot 2 for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/verlane/bsb-launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/verlane/bsb-launcher/archive/refs/heads/develop.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <bsb-launcher>\n\n; Example initialization\nclass BsbLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"bsb-launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BsbLauncherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: verlane/bsb-launcher\n; ============================================\n; URL: https://github.com/verlane/bsb-launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 3/14/2026\n; License: MIT License\n;\n; Description:\n; Alternative Find and Run Robot 2 for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/verlane/bsb-launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/verlane/bsb-launcher/archive/refs/heads/develop.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <bsb-launcher>\n\n; Example initialization\nclass BsbLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"bsb-launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BsbLauncherExample()\n```"
     },
     {
       "id": "github-1078064495",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-13T22:43:28Z",
+      "lastModified": "2026-03-14T03:38:21Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/14/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
