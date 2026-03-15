@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-15T06:22:16.039Z",
-  "totalScripts": 189,
+  "lastUpdated": "2026-03-15T12:10:20.446Z",
+  "totalScripts": 190,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-15T05:22:29Z",
+      "lastModified": "2026-03-15T10:12:17Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3234,13 +3234,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-26T03:11:26Z",
-      "lastModified": "2026-03-11T18:42:10Z",
+      "lastModified": "2026-03-15T10:02:45Z",
       "source": "github",
       "url": "https://github.com/JsonBorn98/AHKeyMap",
       "stars": 0,
       "forks": 0,
       "owner": "JsonBorn98",
-      "code": "```cpp\n; ============================================\n; Repository: JsonBorn98/AHKeyMap\n; ============================================\n; URL: https://github.com/JsonBorn98/AHKeyMap\n; Stars: 0 | Forks: 0\n; Last Updated: 3/11/2026\n; License: MIT License\n;\n; Description:\n; AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JsonBorn98/AHKeyMap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JsonBorn98/AHKeyMap/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKeyMap>\n\n; Example initialization\nclass AhkeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKeyMap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkeymapExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: JsonBorn98/AHKeyMap\n; ============================================\n; URL: https://github.com/JsonBorn98/AHKeyMap\n; Stars: 0 | Forks: 0\n; Last Updated: 3/15/2026\n; License: MIT License\n;\n; Description:\n; AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JsonBorn98/AHKeyMap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JsonBorn98/AHKeyMap/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKeyMap>\n\n; Example initialization\nclass AhkeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKeyMap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkeymapExample()\n```"
     },
     {
       "id": "github-1167805458",
@@ -3762,6 +3762,25 @@
       "forks": 0,
       "owner": "tekert",
       "code": "```cpp\n; ============================================\n; Repository: tekert/VRisingCameraScript\n; ============================================\n; URL: https://github.com/tekert/VRisingCameraScript\n; Stars: 0 | Forks: 0\n; Last Updated: 3/15/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey v2 script to lock camera by default and change pitch\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tekert/VRisingCameraScript.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tekert/VRisingCameraScript/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VRisingCameraScript>\n\n; Example initialization\nclass VrisingcamerascriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VRisingCameraScript loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VrisingcamerascriptExample()\n```"
+    },
+    {
+      "id": "github-500009877",
+      "title": "AutoHotkeyUX",
+      "category": "GitHub Repository",
+      "description": "Installer and other scripts packaged with AutoHotkey v2, aimed at improving the overall user experience.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2022-06-05T05:36:15Z",
+      "lastModified": "2026-03-15T10:15:52Z",
+      "source": "github",
+      "url": "https://github.com/AutoHotkey/AutoHotkeyUX",
+      "stars": 36,
+      "forks": 20,
+      "owner": "AutoHotkey",
+      "code": "```cpp\n; ============================================\n; Repository: AutoHotkey/AutoHotkeyUX\n; ============================================\n; URL: https://github.com/AutoHotkey/AutoHotkeyUX\n; Stars: 36 | Forks: 20\n; Last Updated: 3/15/2026\n; License: Not specified\n;\n; Description:\n; Installer and other scripts packaged with AutoHotkey v2, aimed at improving the overall user experience.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AutoHotkey/AutoHotkeyUX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AutoHotkey/AutoHotkeyUX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkeyUX>\n\n; Example initialization\nclass AutohotkeyuxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkeyUX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyuxExample()\n```"
     }
   ]
 }
