@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-15T00:27:51.916Z",
-  "totalScripts": 188,
+  "lastUpdated": "2026-03-15T06:22:16.039Z",
+  "totalScripts": 189,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-02-10T16:00:10Z",
+      "lastModified": "2026-03-15T03:38:03Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 217,
+      "stars": 219,
       "forks": 33,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 217 | Forks: 33\n; Last Updated: 2/10/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 219 | Forks: 33\n; Last Updated: 3/15/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -686,13 +686,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-03-12T23:58:46Z",
+      "lastModified": "2026-03-15T04:20:22Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
       "stars": 17,
       "forks": 5,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 17 | Forks: 5\n; Last Updated: 3/12/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 17 | Forks: 5\n; Last Updated: 3/15/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
     },
     {
       "id": "github-785157327",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-15T00:24:29Z",
+      "lastModified": "2026-03-15T05:22:29Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3737,6 +3737,31 @@
       "forks": 0,
       "owner": "2691654812-web",
       "code": "```cpp\n; ============================================\n; Repository: 2691654812-web/cubase-video-episode-batch-export\n; ============================================\n; URL: https://github.com/2691654812-web/cubase-video-episode-batch-export\n; Stars: 0 | Forks: 0\n; Last Updated: 3/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for episodic video batch export in Cubase 13 Pro, based on video-track events.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2691654812-web/cubase-video-episode-batch-export.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2691654812-web/cubase-video-episode-batch-export/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <cubase-video-episode-batch-export>\n\n; Example initialization\nclass CubaseVideoEpisodeBatchExportExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"cubase-video-episode-batch-export loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CubaseVideoEpisodeBatchExportExample()\n```"
+    },
+    {
+      "id": "github-811664365",
+      "title": "VRisingCameraScript",
+      "category": "GitHub Repository",
+      "description": "Autohotkey v2 script to lock camera by default and change pitch",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk-script",
+        "ahkv2",
+        "camera",
+        "lock",
+        "mouse"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-06-07T03:54:37Z",
+      "lastModified": "2026-03-15T03:16:28Z",
+      "source": "github",
+      "url": "https://github.com/tekert/VRisingCameraScript",
+      "stars": 0,
+      "forks": 0,
+      "owner": "tekert",
+      "code": "```cpp\n; ============================================\n; Repository: tekert/VRisingCameraScript\n; ============================================\n; URL: https://github.com/tekert/VRisingCameraScript\n; Stars: 0 | Forks: 0\n; Last Updated: 3/15/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey v2 script to lock camera by default and change pitch\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tekert/VRisingCameraScript.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tekert/VRisingCameraScript/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VRisingCameraScript>\n\n; Example initialization\nclass VrisingcamerascriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VRisingCameraScript loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VrisingcamerascriptExample()\n```"
     }
   ]
 }
