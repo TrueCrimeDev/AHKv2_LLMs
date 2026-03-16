@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-16T00:27:10.902Z",
+  "lastUpdated": "2026-03-16T06:33:35.179Z",
   "totalScripts": 190,
   "categories": [
     "GUI",
@@ -686,7 +686,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-03-16T00:13:03Z",
+      "lastModified": "2026-03-16T06:32:23Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
       "stars": 17,
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-15T23:06:31Z",
+      "lastModified": "2026-03-16T06:08:48Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/15/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/16/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2398,13 +2398,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-02T00:57:45Z",
-      "lastModified": "2026-02-02T01:02:41Z",
+      "lastModified": "2026-03-16T04:58:35Z",
       "source": "github",
       "url": "https://github.com/ecnepsyroc-bot/AutoCAD-AHK",
       "stars": 0,
       "forks": 0,
       "owner": "ecnepsyroc-bot",
-      "code": "```cpp\n; ============================================\n; Repository: ecnepsyroc-bot/AutoCAD-AHK\n; ============================================\n; URL: https://github.com/ecnepsyroc-bot/AutoCAD-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 2/2/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for AutoCAD automation\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ecnepsyroc-bot/AutoCAD-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ecnepsyroc-bot/AutoCAD-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCAD-AHK>\n\n; Example initialization\nclass AutocadAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCAD-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocadAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ecnepsyroc-bot/AutoCAD-AHK\n; ============================================\n; URL: https://github.com/ecnepsyroc-bot/AutoCAD-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 3/16/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for AutoCAD automation\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ecnepsyroc-bot/AutoCAD-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ecnepsyroc-bot/AutoCAD-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCAD-AHK>\n\n; Example initialization\nclass AutocadAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCAD-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocadAhkExample()\n```"
     },
     {
       "id": "github-1147451968",
@@ -3227,20 +3227,20 @@
       "id": "github-1167192092",
       "title": "AHKeyMap",
       "category": "GitHub Repository",
-      "description": "AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。",
+      "description": "AHKeyMap is a mouse/keyboard key mapping tool based on AutoHotkey v2. It supports parallel multi-configuration activation and process-scoped control, making it ideal for building your own custom shortcut workflows.",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-26T03:11:26Z",
-      "lastModified": "2026-03-15T19:15:09Z",
+      "lastModified": "2026-03-16T05:58:09Z",
       "source": "github",
       "url": "https://github.com/JsonBorn98/AHKeyMap",
       "stars": 0,
       "forks": 0,
       "owner": "JsonBorn98",
-      "code": "```cpp\n; ============================================\n; Repository: JsonBorn98/AHKeyMap\n; ============================================\n; URL: https://github.com/JsonBorn98/AHKeyMap\n; Stars: 0 | Forks: 0\n; Last Updated: 3/15/2026\n; License: MIT License\n;\n; Description:\n; AHKeyMap 是一个基于 AutoHotkey v2 的鼠标/键盘按键映射工具，支持多配置并行生效与进程作用域控制，适合打造自己的快捷键工作流。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JsonBorn98/AHKeyMap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JsonBorn98/AHKeyMap/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKeyMap>\n\n; Example initialization\nclass AhkeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKeyMap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkeymapExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: JsonBorn98/AHKeyMap\n; ============================================\n; URL: https://github.com/JsonBorn98/AHKeyMap\n; Stars: 0 | Forks: 0\n; Last Updated: 3/16/2026\n; License: MIT License\n;\n; Description:\n; AHKeyMap is a mouse/keyboard key mapping tool based on AutoHotkey v2. It supports parallel multi-configuration activation and process-scoped control, making it ideal for building your own custom shortcut workflows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JsonBorn98/AHKeyMap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JsonBorn98/AHKeyMap/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKeyMap>\n\n; Example initialization\nclass AhkeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKeyMap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkeymapExample()\n```"
     },
     {
       "id": "github-1167805458",
