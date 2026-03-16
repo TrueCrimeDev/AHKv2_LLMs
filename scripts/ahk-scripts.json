@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-16T06:33:35.179Z",
+  "lastUpdated": "2026-03-16T12:18:05.027Z",
   "totalScripts": 190,
   "categories": [
     "GUI",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-03-15T03:38:03Z",
+      "lastModified": "2026-03-16T09:19:17Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 219,
+      "stars": 220,
       "forks": 33,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 219 | Forks: 33\n; Last Updated: 3/15/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 220 | Forks: 33\n; Last Updated: 3/16/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-16T06:08:48Z",
+      "lastModified": "2026-03-16T10:58:10Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3682,22 +3682,22 @@
     },
     {
       "id": "github-1180501627",
-      "title": "alt-copy-paste",
+      "title": "ctrl-copy-paste",
       "category": "GitHub Repository",
-      "description": "一个基于 `AutoHotkey v2` 的轻量脚本工具，用更顺手的按键完成“按住alt选中文字文件即复制、双击alt即粘贴”。",
+      "description": "一个基于 `AutoHotkey v2` 的轻量脚本工具，用更顺手的按键完成“按住右ctrl选中文字文件即复制、双击右ctrl即粘贴”。",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-13T05:24:14Z",
-      "lastModified": "2026-03-14T08:01:21Z",
+      "lastModified": "2026-03-16T09:26:44Z",
       "source": "github",
-      "url": "https://github.com/xufeiyu8/alt-copy-paste",
+      "url": "https://github.com/xufeiyu8/ctrl-copy-paste",
       "stars": 1,
       "forks": 0,
       "owner": "xufeiyu8",
-      "code": "```cpp\n; ============================================\n; Repository: xufeiyu8/alt-copy-paste\n; ============================================\n; URL: https://github.com/xufeiyu8/alt-copy-paste\n; Stars: 1 | Forks: 0\n; Last Updated: 3/14/2026\n; License: Eclipse Public License 2.0\n;\n; Description:\n; 一个基于 `AutoHotkey v2` 的轻量脚本工具，用更顺手的按键完成“按住alt选中文字文件即复制、双击alt即粘贴”。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xufeiyu8/alt-copy-paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xufeiyu8/alt-copy-paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-copy-paste>\n\n; Example initialization\nclass AltCopyPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-copy-paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltCopyPasteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: xufeiyu8/ctrl-copy-paste\n; ============================================\n; URL: https://github.com/xufeiyu8/ctrl-copy-paste\n; Stars: 1 | Forks: 0\n; Last Updated: 3/16/2026\n; License: Eclipse Public License 2.0\n;\n; Description:\n; 一个基于 `AutoHotkey v2` 的轻量脚本工具，用更顺手的按键完成“按住右ctrl选中文字文件即复制、双击右ctrl即粘贴”。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xufeiyu8/ctrl-copy-paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xufeiyu8/ctrl-copy-paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ctrl-copy-paste>\n\n; Example initialization\nclass CtrlCopyPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ctrl-copy-paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrlCopyPasteExample()\n```"
     },
     {
       "id": "github-1181195896",
