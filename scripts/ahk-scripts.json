@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-17T12:17:14.821Z",
+  "lastUpdated": "2026-03-17T18:20:25.662Z",
   "totalScripts": 191,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-17T10:08:09Z",
+      "lastModified": "2026-03-17T17:49:19Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3565,13 +3565,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-06T08:46:10Z",
-      "lastModified": "2026-03-16T20:49:27Z",
+      "lastModified": "2026-03-17T17:17:19Z",
       "source": "github",
       "url": "https://github.com/itsnateai/eqswitch",
       "stars": 1,
       "forks": 0,
       "owner": "itsnateai",
-      "code": "```cpp\n; ============================================\n; Repository: itsnateai/eqswitch\n; ============================================\n; URL: https://github.com/itsnateai/eqswitch\n; Stars: 1 | Forks: 0\n; Last Updated: 3/16/2026\n; License: MIT License\n;\n; Description:\n; EQSwitch multiboxing manager — hotkey switching, PiP overlay, multi-monitor layout, process manager, video settings, character backup. Built with Claude Code in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/itsnateai/eqswitch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/itsnateai/eqswitch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <eqswitch>\n\n; Example initialization\nclass EqswitchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"eqswitch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EqswitchExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: itsnateai/eqswitch\n; ============================================\n; URL: https://github.com/itsnateai/eqswitch\n; Stars: 1 | Forks: 0\n; Last Updated: 3/17/2026\n; License: MIT License\n;\n; Description:\n; EQSwitch multiboxing manager — hotkey switching, PiP overlay, multi-monitor layout, process manager, video settings, character backup. Built with Claude Code in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/itsnateai/eqswitch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/itsnateai/eqswitch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <eqswitch>\n\n; Example initialization\nclass EqswitchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"eqswitch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EqswitchExample()\n```"
     },
     {
       "id": "github-1179573775",
