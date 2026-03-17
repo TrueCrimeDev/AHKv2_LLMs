@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-17T00:23:53.663Z",
-  "totalScripts": 190,
+  "lastUpdated": "2026-03-17T06:24:26.669Z",
+  "totalScripts": 191,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -475,13 +475,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-01T12:31:51Z",
-      "lastModified": "2026-03-14T23:31:01Z",
+      "lastModified": "2026-03-17T04:38:59Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip",
       "stars": 10,
       "forks": 1,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 10 | Forks: 1\n; Last Updated: 3/14/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 10 | Forks: 1\n; Last Updated: 3/17/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
     },
     {
       "id": "github-786217957",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-17T00:05:07Z",
+      "lastModified": "2026-03-17T05:08:34Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3781,6 +3781,25 @@
       "forks": 20,
       "owner": "AutoHotkey",
       "code": "```cpp\n; ============================================\n; Repository: AutoHotkey/AutoHotkeyUX\n; ============================================\n; URL: https://github.com/AutoHotkey/AutoHotkeyUX\n; Stars: 36 | Forks: 20\n; Last Updated: 3/15/2026\n; License: Not specified\n;\n; Description:\n; Installer and other scripts packaged with AutoHotkey v2, aimed at improving the overall user experience.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AutoHotkey/AutoHotkeyUX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AutoHotkey/AutoHotkeyUX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkeyUX>\n\n; Example initialization\nclass AutohotkeyuxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkeyUX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyuxExample()\n```"
+    },
+    {
+      "id": "github-1183838664",
+      "title": "dickbutt-drawer",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script that draws dickbutt using mouse movements",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-17T02:02:46Z",
+      "lastModified": "2026-03-17T02:16:57Z",
+      "source": "github",
+      "url": "https://github.com/gettierproblem/dickbutt-drawer",
+      "stars": 1,
+      "forks": 0,
+      "owner": "gettierproblem",
+      "code": "```cpp\n; ============================================\n; Repository: gettierproblem/dickbutt-drawer\n; ============================================\n; URL: https://github.com/gettierproblem/dickbutt-drawer\n; Stars: 1 | Forks: 0\n; Last Updated: 3/17/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that draws dickbutt using mouse movements\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gettierproblem/dickbutt-drawer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gettierproblem/dickbutt-drawer/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dickbutt-drawer>\n\n; Example initialization\nclass DickbuttDrawerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dickbutt-drawer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DickbuttDrawerExample()\n```"
     }
   ]
 }
