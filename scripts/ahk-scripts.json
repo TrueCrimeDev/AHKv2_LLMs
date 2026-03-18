@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-17T18:20:25.662Z",
+  "lastUpdated": "2026-03-18T00:25:22.151Z",
   "totalScripts": 191,
   "categories": [
     "GUI",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-03-17T10:54:56Z",
+      "lastModified": "2026-03-17T23:16:51Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
-      "stars": 32,
+      "stars": 33,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 32 | Forks: 3\n; Last Updated: 3/17/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 33 | Forks: 3\n; Last Updated: 3/17/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-17T17:49:19Z",
+      "lastModified": "2026-03-17T21:12:33Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2299,13 +2299,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-28T15:34:48Z",
-      "lastModified": "2026-02-19T15:04:08Z",
+      "lastModified": "2026-03-17T21:57:19Z",
       "source": "github",
       "url": "https://github.com/bbz94/ReplaceTextWithAI",
       "stars": 0,
       "forks": 0,
       "owner": "bbz94",
-      "code": "```cpp\n; ============================================\n; Repository: bbz94/ReplaceTextWithAI\n; ============================================\n; URL: https://github.com/bbz94/ReplaceTextWithAI\n; Stars: 0 | Forks: 0\n; Last Updated: 2/19/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that rewrites selected text using Azure OpenAI, preserving language (Latvian/English) and replacing the selection in-place.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bbz94/ReplaceTextWithAI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bbz94/ReplaceTextWithAI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ReplaceTextWithAI>\n\n; Example initialization\nclass ReplacetextwithaiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ReplaceTextWithAI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReplacetextwithaiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bbz94/ReplaceTextWithAI\n; ============================================\n; URL: https://github.com/bbz94/ReplaceTextWithAI\n; Stars: 0 | Forks: 0\n; Last Updated: 3/17/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that rewrites selected text using Azure OpenAI, preserving language (Latvian/English) and replacing the selection in-place.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bbz94/ReplaceTextWithAI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bbz94/ReplaceTextWithAI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ReplaceTextWithAI>\n\n; Example initialization\nclass ReplacetextwithaiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ReplaceTextWithAI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReplacetextwithaiExample()\n```"
     },
     {
       "id": "github-1144605254",
@@ -3565,7 +3565,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-06T08:46:10Z",
-      "lastModified": "2026-03-17T17:17:19Z",
+      "lastModified": "2026-03-17T18:30:33Z",
       "source": "github",
       "url": "https://github.com/itsnateai/eqswitch",
       "stars": 1,
