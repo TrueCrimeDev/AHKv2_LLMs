@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-18T18:21:44.278Z",
+  "lastUpdated": "2026-03-19T00:25:19.276Z",
   "totalScripts": 192,
   "categories": [
     "GUI",
@@ -475,13 +475,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-01T12:31:51Z",
-      "lastModified": "2026-03-17T04:38:59Z",
+      "lastModified": "2026-03-18T23:51:03Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip",
       "stars": 10,
       "forks": 1,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 10 | Forks: 1\n; Last Updated: 3/17/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 10 | Forks: 1\n; Last Updated: 3/18/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
     },
     {
       "id": "github-786217957",
@@ -686,13 +686,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-03-16T21:35:04Z",
+      "lastModified": "2026-03-18T23:16:52Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
       "stars": 17,
       "forks": 5,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 17 | Forks: 5\n; Last Updated: 3/16/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 17 | Forks: 5\n; Last Updated: 3/18/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
     },
     {
       "id": "github-785157327",
@@ -931,13 +931,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-02T05:30:10Z",
-      "lastModified": "2026-03-16T00:12:43Z",
+      "lastModified": "2026-03-18T23:14:14Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx",
       "stars": 0,
       "forks": 0,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-TreeViewEx\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx\n; Stars: 0 | Forks: 0\n; Last Updated: 3/16/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that implements a custom tree-view control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-TreeViewEx>\n\n; Example initialization\nclass AutohotkeyTreeviewexExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-TreeViewEx loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyTreeviewexExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-TreeViewEx\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx\n; Stars: 0 | Forks: 0\n; Last Updated: 3/18/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that implements a custom tree-view control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-TreeViewEx/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-TreeViewEx>\n\n; Example initialization\nclass AutohotkeyTreeviewexExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-TreeViewEx loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyTreeviewexExample()\n```"
     },
     {
       "id": "github-1101877156",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-18T18:20:26Z",
+      "lastModified": "2026-03-18T23:45:04Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3565,13 +3565,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-06T08:46:10Z",
-      "lastModified": "2026-03-17T18:30:33Z",
+      "lastModified": "2026-03-18T21:13:21Z",
       "source": "github",
       "url": "https://github.com/itsnateai/eqswitch",
       "stars": 1,
       "forks": 0,
       "owner": "itsnateai",
-      "code": "```cpp\n; ============================================\n; Repository: itsnateai/eqswitch\n; ============================================\n; URL: https://github.com/itsnateai/eqswitch\n; Stars: 1 | Forks: 0\n; Last Updated: 3/17/2026\n; License: MIT License\n;\n; Description:\n; EQSwitch multiboxing manager — hotkey switching, PiP overlay, multi-monitor layout, process manager, video settings, character backup. Built with Claude Code in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/itsnateai/eqswitch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/itsnateai/eqswitch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <eqswitch>\n\n; Example initialization\nclass EqswitchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"eqswitch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EqswitchExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: itsnateai/eqswitch\n; ============================================\n; URL: https://github.com/itsnateai/eqswitch\n; Stars: 1 | Forks: 0\n; Last Updated: 3/18/2026\n; License: MIT License\n;\n; Description:\n; EQSwitch multiboxing manager — hotkey switching, PiP overlay, multi-monitor layout, process manager, video settings, character backup. Built with Claude Code in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/itsnateai/eqswitch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/itsnateai/eqswitch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <eqswitch>\n\n; Example initialization\nclass EqswitchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"eqswitch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EqswitchExample()\n```"
     },
     {
       "id": "github-1179573775",
