@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-22T00:25:02.927Z",
-  "totalScripts": 195,
+  "lastUpdated": "2026-03-22T06:18:17.936Z",
+  "totalScripts": 196,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -686,13 +686,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-03-21T19:34:53Z",
+      "lastModified": "2026-03-22T04:29:42Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
       "stars": 17,
       "forks": 5,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 17 | Forks: 5\n; Last Updated: 3/21/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 17 | Forks: 5\n; Last Updated: 3/22/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
     },
     {
       "id": "github-785157327",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-21T23:03:29Z",
+      "lastModified": "2026-03-22T04:32:48Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/21/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/22/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -3565,13 +3565,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-06T08:46:10Z",
-      "lastModified": "2026-03-18T21:13:21Z",
+      "lastModified": "2026-03-22T01:42:02Z",
       "source": "github",
       "url": "https://github.com/itsnateai/eqswitch",
       "stars": 1,
       "forks": 0,
       "owner": "itsnateai",
-      "code": "```cpp\n; ============================================\n; Repository: itsnateai/eqswitch\n; ============================================\n; URL: https://github.com/itsnateai/eqswitch\n; Stars: 1 | Forks: 0\n; Last Updated: 3/18/2026\n; License: MIT License\n;\n; Description:\n; EQSwitch multiboxing manager — hotkey switching, PiP overlay, multi-monitor layout, process manager, video settings, character backup. Built with Claude Code in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/itsnateai/eqswitch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/itsnateai/eqswitch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <eqswitch>\n\n; Example initialization\nclass EqswitchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"eqswitch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EqswitchExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: itsnateai/eqswitch\n; ============================================\n; URL: https://github.com/itsnateai/eqswitch\n; Stars: 1 | Forks: 0\n; Last Updated: 3/22/2026\n; License: MIT License\n;\n; Description:\n; EQSwitch multiboxing manager — hotkey switching, PiP overlay, multi-monitor layout, process manager, video settings, character backup. Built with Claude Code in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/itsnateai/eqswitch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/itsnateai/eqswitch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <eqswitch>\n\n; Example initialization\nclass EqswitchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"eqswitch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EqswitchExample()\n```"
     },
     {
       "id": "github-1179573775",
@@ -3876,6 +3876,25 @@
       "forks": 0,
       "owner": "like-supreme",
       "code": "```cpp\n; ============================================\n; Repository: like-supreme/Close-Everything\n; ============================================\n; URL: https://github.com/like-supreme/Close-Everything\n; Stars: 0 | Forks: 0\n; Last Updated: 3/21/2026\n; License: Not specified\n;\n; Description:\n; # CloseAll AHK  A lightweight AutoHotkey v2 script that closes all open windows with a single customizable hotkey. Includes a confirmation dialog to prevent accidental closes.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/like-supreme/Close-Everything.git\n;\n; Option 2: Download ZIP\n;   https://github.com/like-supreme/Close-Everything/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Close-Everything>\n\n; Example initialization\nclass CloseEverythingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Close-Everything loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CloseEverythingExample()\n```"
+    },
+    {
+      "id": "github-1188399481",
+      "title": "MincraftLCEKeybind",
+      "category": "GitHub Repository",
+      "description": "Custom keyboard remapper for Minecraft Legacy Console Edition — rebind any key or mouse button, scoped only to Minecraft, with auto-save and a Minecraft-styled UI. Built with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-22T02:43:11Z",
+      "lastModified": "2026-03-22T03:21:22Z",
+      "source": "github",
+      "url": "https://github.com/Deku3mk/MincraftLCEKeybind",
+      "stars": 2,
+      "forks": 0,
+      "owner": "Deku3mk",
+      "code": "```cpp\n; ============================================\n; Repository: Deku3mk/MincraftLCEKeybind\n; ============================================\n; URL: https://github.com/Deku3mk/MincraftLCEKeybind\n; Stars: 2 | Forks: 0\n; Last Updated: 3/22/2026\n; License: Not specified\n;\n; Description:\n; Custom keyboard remapper for Minecraft Legacy Console Edition — rebind any key or mouse button, scoped only to Minecraft, with auto-save and a Minecraft-styled UI. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Deku3mk/MincraftLCEKeybind.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Deku3mk/MincraftLCEKeybind/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MincraftLCEKeybind>\n\n; Example initialization\nclass MincraftlcekeybindExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MincraftLCEKeybind loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MincraftlcekeybindExample()\n```"
     }
   ]
 }
