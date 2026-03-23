@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-23T00:26:39.190Z",
-  "totalScripts": 198,
+  "lastUpdated": "2026-03-23T06:27:26.675Z",
+  "totalScripts": 199,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-22T21:27:45Z",
+      "lastModified": "2026-03-23T05:46:59Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/22/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/23/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-03-10T12:08:33Z",
+      "lastModified": "2026-03-23T03:16:53Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
-      "stars": 3,
+      "stars": 4,
       "forks": 1,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 3 | Forks: 1\n; Last Updated: 3/10/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 4 | Forks: 1\n; Last Updated: 3/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
@@ -3850,7 +3850,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-21T19:29:36Z",
-      "lastModified": "2026-03-23T00:08:19Z",
+      "lastModified": "2026-03-23T04:16:04Z",
       "source": "github",
       "url": "https://github.com/holy-tao/icu.ahk",
       "stars": 0,
@@ -3933,6 +3933,25 @@
       "forks": 0,
       "owner": "kwana117",
       "code": "```cpp\n; ============================================\n; Repository: kwana117/voxtapp-windows\n; ============================================\n; URL: https://github.com/kwana117/voxtapp-windows\n; Stars: 0 | Forks: 0\n; Last Updated: 3/22/2026\n; License: MIT License\n;\n; Description:\n; Global voice dictation for Windows — AutoHotkey v2 + OpenAI Whisper API\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kwana117/voxtapp-windows.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kwana117/voxtapp-windows/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <voxtapp-windows>\n\n; Example initialization\nclass VoxtappWindowsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"voxtapp-windows loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VoxtappWindowsExample()\n```"
+    },
+    {
+      "id": "github-1189087530",
+      "title": "Play-Now-QuickNav-v2",
+      "category": "GitHub Repository",
+      "description": "Szybki nawigator kanałów dla PLAY NOW. Obsługa skrótami klawiszowymi (Prawy Shift + numer), wsparcie dla EPG i logotypów stacji. Dostępne wersje x64 i x86. Kod źródłowy w 100% otwarty (AutoHotkey v2). Uwaga: Windows Defender może zgłaszać False Positive ze względu na brak certyfikatu – program jest całkowicie bezpieczny",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-23T00:50:13Z",
+      "lastModified": "2026-03-23T01:08:26Z",
+      "source": "github",
+      "url": "https://github.com/oszmianczukw-cpu/Play-Now-QuickNav-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "oszmianczukw-cpu",
+      "code": "```cpp\n; ============================================\n; Repository: oszmianczukw-cpu/Play-Now-QuickNav-v2\n; ============================================\n; URL: https://github.com/oszmianczukw-cpu/Play-Now-QuickNav-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 3/23/2026\n; License: MIT License\n;\n; Description:\n; Szybki nawigator kanałów dla PLAY NOW. Obsługa skrótami klawiszowymi (Prawy Shift + numer), wsparcie dla EPG i logotypów stacji. Dostępne wersje x64 i x86. Kod źródłowy w 100% otwarty (AutoHotkey v2). Uwaga: Windows Defender może zgłaszać False Positive ze względu na brak certyfikatu – program jest całkowicie bezpieczny\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/oszmianczukw-cpu/Play-Now-QuickNav-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/oszmianczukw-cpu/Play-Now-QuickNav-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Play-Now-QuickNav-v2>\n\n; Example initialization\nclass PlayNowQuicknavV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Play-Now-QuickNav-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PlayNowQuicknavV2Example()\n```"
     }
   ]
 }
