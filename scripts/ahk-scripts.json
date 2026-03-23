@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-23T12:16:55.671Z",
-  "totalScripts": 199,
+  "lastUpdated": "2026-03-23T18:18:06.350Z",
+  "totalScripts": 200,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -475,13 +475,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-01T12:31:51Z",
-      "lastModified": "2026-03-18T23:51:03Z",
+      "lastModified": "2026-03-23T17:32:51Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip",
-      "stars": 10,
+      "stars": 11,
       "forks": 1,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 10 | Forks: 1\n; Last Updated: 3/18/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-Xtooltip\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip\n; Stars: 11 | Forks: 1\n; Last Updated: 3/23/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (AHK) library that provides functions for the creation and use of attractive, themed tooltips and standard tooltip-style pop-up behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-Xtooltip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Xtooltip>\n\n; Example initialization\nclass AutohotkeyXtooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Xtooltip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyXtooltipExample()\n```"
     },
     {
       "id": "github-786217957",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-23T11:06:31Z",
+      "lastModified": "2026-03-23T17:21:50Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3952,6 +3952,25 @@
       "forks": 0,
       "owner": "oszmianczukw-cpu",
       "code": "```cpp\n; ============================================\n; Repository: oszmianczukw-cpu/Play-Now-QuickNav-v2\n; ============================================\n; URL: https://github.com/oszmianczukw-cpu/Play-Now-QuickNav-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 3/23/2026\n; License: MIT License\n;\n; Description:\n; Szybki nawigator kanałów dla PLAY NOW. Obsługa skrótami klawiszowymi (Prawy Shift + numer), wsparcie dla EPG i logotypów stacji. Dostępne wersje x64 i x86. Kod źródłowy w 100% otwarty (AutoHotkey v2). Uwaga: Windows Defender może zgłaszać False Positive ze względu na brak certyfikatu – program jest całkowicie bezpieczny\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/oszmianczukw-cpu/Play-Now-QuickNav-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/oszmianczukw-cpu/Play-Now-QuickNav-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Play-Now-QuickNav-v2>\n\n; Example initialization\nclass PlayNowQuicknavV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Play-Now-QuickNav-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PlayNowQuicknavV2Example()\n```"
+    },
+    {
+      "id": "github-1189579829",
+      "title": "AutoHotkey-CloseUserProcesses",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey v2 script to close non-system user processes and restart explorer.exe",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-23T13:15:46Z",
+      "lastModified": "2026-03-23T13:17:49Z",
+      "source": "github",
+      "url": "https://github.com/cerebra-crb/AutoHotkey-CloseUserProcesses",
+      "stars": 0,
+      "forks": 0,
+      "owner": "cerebra-crb",
+      "code": "```cpp\n; ============================================\n; Repository: cerebra-crb/AutoHotkey-CloseUserProcesses\n; ============================================\n; URL: https://github.com/cerebra-crb/AutoHotkey-CloseUserProcesses\n; Stars: 0 | Forks: 0\n; Last Updated: 3/23/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 script to close non-system user processes and restart explorer.exe\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cerebra-crb/AutoHotkey-CloseUserProcesses.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cerebra-crb/AutoHotkey-CloseUserProcesses/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-CloseUserProcesses>\n\n; Example initialization\nclass AutohotkeyCloseuserprocessesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-CloseUserProcesses loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyCloseuserprocessesExample()\n```"
     }
   ]
 }
