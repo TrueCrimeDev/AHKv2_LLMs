@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-23T06:27:26.675Z",
+  "lastUpdated": "2026-03-23T12:16:55.671Z",
   "totalScripts": 199,
   "categories": [
     "GUI",
@@ -686,13 +686,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-06T22:27:36Z",
-      "lastModified": "2026-03-22T04:29:42Z",
+      "lastModified": "2026-03-23T12:03:23Z",
       "source": "github",
       "url": "https://github.com/Nich-Cebolla/AutoHotkey-LibV2",
-      "stars": 17,
+      "stars": 18,
       "forks": 5,
       "owner": "Nich-Cebolla",
-      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 17 | Forks: 5\n; Last Updated: 3/22/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nich-Cebolla/AutoHotkey-LibV2\n; ============================================\n; URL: https://github.com/Nich-Cebolla/AutoHotkey-LibV2\n; Stars: 18 | Forks: 5\n; Last Updated: 3/23/2026\n; License: MIT License\n;\n; Description:\n; My collection of working scripts, classes, and functions for AutoHotkey (AHK).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nich-Cebolla/AutoHotkey-LibV2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nich-Cebolla/AutoHotkey-LibV2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-LibV2>\n\n; Example initialization\nclass AutohotkeyLibv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-LibV2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyLibv2Example()\n```"
     },
     {
       "id": "github-785157327",
@@ -1373,7 +1373,7 @@
     },
     {
       "id": "github-1063775997",
-      "title": "FKeyFnKey",
+      "title": "fkeyfnkey",
       "category": "GitHub Repository",
       "description": "WindowsでもmacOSと同じ感覚でマウス/キーボードを使うためのAutoHotkey v2スクリプトたち",
       "tags": [
@@ -1388,13 +1388,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-25T05:29:06Z",
-      "lastModified": "2026-01-29T14:08:24Z",
+      "lastModified": "2026-03-23T09:59:52Z",
       "source": "github",
-      "url": "https://github.com/DiamondGotCat/FKeyFnKey",
+      "url": "https://github.com/nercone-dev/fkeyfnkey",
       "stars": 2,
       "forks": 0,
-      "owner": "DiamondGotCat",
-      "code": "```cpp\n; ============================================\n; Repository: DiamondGotCat/FKeyFnKey\n; ============================================\n; URL: https://github.com/DiamondGotCat/FKeyFnKey\n; Stars: 2 | Forks: 0\n; Last Updated: 1/29/2026\n; License: MIT License\n;\n; Description:\n; WindowsでもmacOSと同じ感覚でマウス/キーボードを使うためのAutoHotkey v2スクリプトたち\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DiamondGotCat/FKeyFnKey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DiamondGotCat/FKeyFnKey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FKeyFnKey>\n\n; Example initialization\nclass FkeyfnkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FKeyFnKey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FkeyfnkeyExample()\n```"
+      "owner": "nercone-dev",
+      "code": "```cpp\n; ============================================\n; Repository: nercone-dev/fkeyfnkey\n; ============================================\n; URL: https://github.com/nercone-dev/fkeyfnkey\n; Stars: 2 | Forks: 0\n; Last Updated: 3/23/2026\n; License: MIT License\n;\n; Description:\n; WindowsでもmacOSと同じ感覚でマウス/キーボードを使うためのAutoHotkey v2スクリプトたち\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nercone-dev/fkeyfnkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nercone-dev/fkeyfnkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fkeyfnkey>\n\n; Example initialization\nclass FkeyfnkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fkeyfnkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FkeyfnkeyExample()\n```"
     },
     {
       "id": "github-1045329028",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-23T05:46:59Z",
+      "lastModified": "2026-03-23T11:06:31Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
