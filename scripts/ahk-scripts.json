@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-24T18:21:09.329Z",
+  "lastUpdated": "2026-03-25T00:25:06.762Z",
   "totalScripts": 200,
   "categories": [
     "GUI",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-03-22T17:09:45Z",
+      "lastModified": "2026-03-24T19:42:40Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 44,
       "forks": 6,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 44 | Forks: 6\n; Last Updated: 3/22/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 44 | Forks: 6\n; Last Updated: 3/24/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-24T16:30:45Z",
+      "lastModified": "2026-03-24T22:52:08Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2299,13 +2299,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-28T15:34:48Z",
-      "lastModified": "2026-03-17T21:57:19Z",
+      "lastModified": "2026-03-24T21:38:06Z",
       "source": "github",
       "url": "https://github.com/bbz94/ReplaceTextWithAI",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "bbz94",
-      "code": "```cpp\n; ============================================\n; Repository: bbz94/ReplaceTextWithAI\n; ============================================\n; URL: https://github.com/bbz94/ReplaceTextWithAI\n; Stars: 0 | Forks: 0\n; Last Updated: 3/17/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that rewrites selected text using Azure OpenAI, preserving language (Latvian/English) and replacing the selection in-place.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bbz94/ReplaceTextWithAI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bbz94/ReplaceTextWithAI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ReplaceTextWithAI>\n\n; Example initialization\nclass ReplacetextwithaiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ReplaceTextWithAI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReplacetextwithaiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bbz94/ReplaceTextWithAI\n; ============================================\n; URL: https://github.com/bbz94/ReplaceTextWithAI\n; Stars: 1 | Forks: 0\n; Last Updated: 3/24/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that rewrites selected text using Azure OpenAI, preserving language (Latvian/English) and replacing the selection in-place.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bbz94/ReplaceTextWithAI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bbz94/ReplaceTextWithAI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ReplaceTextWithAI>\n\n; Example initialization\nclass ReplacetextwithaiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ReplaceTextWithAI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReplacetextwithaiExample()\n```"
     },
     {
       "id": "github-1144605254",
