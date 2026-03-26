@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-26T12:20:30.942Z",
-  "totalScripts": 202,
+  "lastUpdated": "2026-03-26T18:22:38.972Z",
+  "totalScripts": 203,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-03-26T02:26:31Z",
+      "lastModified": "2026-03-26T15:42:45Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 34,
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-26T11:31:42Z",
+      "lastModified": "2026-03-26T17:44:45Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4009,6 +4009,25 @@
       "forks": 0,
       "owner": "RobbyRHarper",
       "code": "```cpp\n; ============================================\n; Repository: RobbyRHarper/AutoHotkey-Transparency\n; ============================================\n; URL: https://github.com/RobbyRHarper/AutoHotkey-Transparency\n; Stars: 0 | Forks: 0\n; Last Updated: 3/26/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 script for keyboard-driven window transparency control on Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/RobbyRHarper/AutoHotkey-Transparency.git\n;\n; Option 2: Download ZIP\n;   https://github.com/RobbyRHarper/AutoHotkey-Transparency/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Transparency>\n\n; Example initialization\nclass AutohotkeyTransparencyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Transparency loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyTransparencyExample()\n```"
+    },
+    {
+      "id": "github-1192647980",
+      "title": "controlid-door-opener",
+      "category": "GitHub Repository",
+      "description": "Abrir porta via API Control iD com hotkey global (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-26T12:28:33Z",
+      "lastModified": "2026-03-26T16:44:17Z",
+      "source": "github",
+      "url": "https://github.com/mauriciomgp5/controlid-door-opener",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mauriciomgp5",
+      "code": "```cpp\n; ============================================\n; Repository: mauriciomgp5/controlid-door-opener\n; ============================================\n; URL: https://github.com/mauriciomgp5/controlid-door-opener\n; Stars: 0 | Forks: 0\n; Last Updated: 3/26/2026\n; License: Not specified\n;\n; Description:\n; Abrir porta via API Control iD com hotkey global (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mauriciomgp5/controlid-door-opener.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mauriciomgp5/controlid-door-opener/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <controlid-door-opener>\n\n; Example initialization\nclass ControlidDoorOpenerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"controlid-door-opener loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ControlidDoorOpenerExample()\n```"
     }
   ]
 }
