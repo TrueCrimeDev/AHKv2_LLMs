@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-26T06:27:03.051Z",
-  "totalScripts": 200,
+  "lastUpdated": "2026-03-26T12:20:30.942Z",
+  "totalScripts": 202,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-26T05:53:02Z",
+      "lastModified": "2026-03-26T11:31:42Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3971,6 +3971,44 @@
       "forks": 0,
       "owner": "cerebra-crb",
       "code": "```cpp\n; ============================================\n; Repository: cerebra-crb/AutoHotkey-CloseUserProcesses\n; ============================================\n; URL: https://github.com/cerebra-crb/AutoHotkey-CloseUserProcesses\n; Stars: 0 | Forks: 0\n; Last Updated: 3/23/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 script to close non-system user processes and restart explorer.exe\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cerebra-crb/AutoHotkey-CloseUserProcesses.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cerebra-crb/AutoHotkey-CloseUserProcesses/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-CloseUserProcesses>\n\n; Example initialization\nclass AutohotkeyCloseuserprocessesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-CloseUserProcesses loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyCloseuserprocessesExample()\n```"
+    },
+    {
+      "id": "github-1192425701",
+      "title": "AutoHotkey-Template",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey v2 script template providing a structured, modifier-layer hotkey taxonomy for building keyboard automation systems on Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-26T07:49:39Z",
+      "lastModified": "2026-03-26T08:49:07Z",
+      "source": "github",
+      "url": "https://github.com/RobbyRHarper/AutoHotkey-Template",
+      "stars": 0,
+      "forks": 0,
+      "owner": "RobbyRHarper",
+      "code": "```cpp\n; ============================================\n; Repository: RobbyRHarper/AutoHotkey-Template\n; ============================================\n; URL: https://github.com/RobbyRHarper/AutoHotkey-Template\n; Stars: 0 | Forks: 0\n; Last Updated: 3/26/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 script template providing a structured, modifier-layer hotkey taxonomy for building keyboard automation systems on Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/RobbyRHarper/AutoHotkey-Template.git\n;\n; Option 2: Download ZIP\n;   https://github.com/RobbyRHarper/AutoHotkey-Template/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Template>\n\n; Example initialization\nclass AutohotkeyTemplateExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Template loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyTemplateExample()\n```"
+    },
+    {
+      "id": "github-1192454137",
+      "title": "AutoHotkey-Transparency",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey v2 script for keyboard-driven window transparency control on Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-26T08:28:26Z",
+      "lastModified": "2026-03-26T08:43:32Z",
+      "source": "github",
+      "url": "https://github.com/RobbyRHarper/AutoHotkey-Transparency",
+      "stars": 0,
+      "forks": 0,
+      "owner": "RobbyRHarper",
+      "code": "```cpp\n; ============================================\n; Repository: RobbyRHarper/AutoHotkey-Transparency\n; ============================================\n; URL: https://github.com/RobbyRHarper/AutoHotkey-Transparency\n; Stars: 0 | Forks: 0\n; Last Updated: 3/26/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 script for keyboard-driven window transparency control on Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/RobbyRHarper/AutoHotkey-Transparency.git\n;\n; Option 2: Download ZIP\n;   https://github.com/RobbyRHarper/AutoHotkey-Transparency/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Transparency>\n\n; Example initialization\nclass AutohotkeyTransparencyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Transparency loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyTransparencyExample()\n```"
     }
   ]
 }
