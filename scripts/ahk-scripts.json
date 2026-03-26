@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-26T00:27:09.854Z",
+  "lastUpdated": "2026-03-26T06:27:03.051Z",
   "totalScripts": 200,
   "categories": [
     "GUI",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-03-22T11:51:42Z",
+      "lastModified": "2026-03-26T03:30:37Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 221,
+      "stars": 222,
       "forks": 33,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 221 | Forks: 33\n; Last Updated: 3/22/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 222 | Forks: 33\n; Last Updated: 3/26/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-03-25T15:28:10Z",
+      "lastModified": "2026-03-26T02:26:31Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
-      "stars": 33,
+      "stars": 34,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 33 | Forks: 3\n; Last Updated: 3/25/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 34 | Forks: 3\n; Last Updated: 3/26/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-03-15T20:13:25Z",
+      "lastModified": "2026-03-26T01:21:29Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
       "stars": 33,
       "forks": 4,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 33 | Forks: 4\n; Last Updated: 3/15/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 33 | Forks: 4\n; Last Updated: 3/26/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-26T00:01:41Z",
+      "lastModified": "2026-03-26T05:53:02Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
