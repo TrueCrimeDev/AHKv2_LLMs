@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-27T06:27:34.431Z",
-  "totalScripts": 203,
+  "lastUpdated": "2026-03-27T12:16:04.968Z",
+  "totalScripts": 204,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-27T05:35:36Z",
+      "lastModified": "2026-03-27T11:10:27Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-03-21T16:34:26Z",
+      "lastModified": "2026-03-27T10:05:26Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 1,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 3/21/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 3/27/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -4028,6 +4028,25 @@
       "forks": 0,
       "owner": "mauriciomgp5",
       "code": "```cpp\n; ============================================\n; Repository: mauriciomgp5/controlid-door-opener\n; ============================================\n; URL: https://github.com/mauriciomgp5/controlid-door-opener\n; Stars: 0 | Forks: 0\n; Last Updated: 3/26/2026\n; License: Not specified\n;\n; Description:\n; Abrir porta via API Control iD com hotkey global (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mauriciomgp5/controlid-door-opener.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mauriciomgp5/controlid-door-opener/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <controlid-door-opener>\n\n; Example initialization\nclass ControlidDoorOpenerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"controlid-door-opener loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ControlidDoorOpenerExample()\n```"
+    },
+    {
+      "id": "github-1193460118",
+      "title": "VisionScribe-AI",
+      "category": "GitHub Repository",
+      "description": "Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-27T08:47:49Z",
+      "lastModified": "2026-03-27T09:54:08Z",
+      "source": "github",
+      "url": "https://github.com/wsnh2022/VisionScribe-AI",
+      "stars": 0,
+      "forks": 0,
+      "owner": "wsnh2022",
+      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 0 | Forks: 0\n; Last Updated: 3/27/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
     }
   ]
 }
