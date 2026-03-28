@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-28T00:24:57.587Z",
-  "totalScripts": 205,
+  "lastUpdated": "2026-03-28T06:22:01.315Z",
+  "totalScripts": 207,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-03-26T01:21:29Z",
+      "lastModified": "2026-03-28T00:56:58Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
       "stars": 33,
       "forks": 4,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 33 | Forks: 4\n; Last Updated: 3/26/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 33 | Forks: 4\n; Last Updated: 3/28/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -1558,13 +1558,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-11-12T21:05:44Z",
-      "lastModified": "2025-12-28T22:20:13Z",
+      "lastModified": "2026-03-28T01:26:15Z",
       "source": "github",
       "url": "https://github.com/tonybweb/ahk-dumper",
       "stars": 9,
       "forks": 1,
       "owner": "tonybweb",
-      "code": "```cpp\n; ============================================\n; Repository: tonybweb/ahk-dumper\n; ============================================\n; URL: https://github.com/tonybweb/ahk-dumper\n; Stars: 9 | Forks: 1\n; Last Updated: 12/28/2025\n; License: MIT License\n;\n; Description:\n; AutoHotkey V2 variable dumping for debugging and development.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tonybweb/ahk-dumper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tonybweb/ahk-dumper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-dumper>\n\n; Example initialization\nclass AhkDumperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-dumper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkDumperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tonybweb/ahk-dumper\n; ============================================\n; URL: https://github.com/tonybweb/ahk-dumper\n; Stars: 9 | Forks: 1\n; Last Updated: 3/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey V2 variable dumping for debugging and development.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tonybweb/ahk-dumper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tonybweb/ahk-dumper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-dumper>\n\n; Example initialization\nclass AhkDumperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-dumper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkDumperExample()\n```"
     },
     {
       "id": "github-1121940260",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-27T22:58:47Z",
+      "lastModified": "2026-03-28T05:07:05Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/27/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -4040,13 +4040,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-27T08:47:49Z",
-      "lastModified": "2026-03-27T16:08:54Z",
+      "lastModified": "2026-03-28T04:45:45Z",
       "source": "github",
       "url": "https://github.com/wsnh2022/VisionScribe-AI",
       "stars": 3,
       "forks": 0,
       "owner": "wsnh2022",
-      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 3 | Forks: 0\n; Last Updated: 3/27/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 3 | Forks: 0\n; Last Updated: 3/28/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
     },
     {
       "id": "github-667268886",
@@ -4059,13 +4059,57 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-07-17T06:07:30Z",
-      "lastModified": "2026-03-27T23:36:01Z",
+      "lastModified": "2026-03-28T02:12:04Z",
       "source": "github",
       "url": "https://github.com/k-ayaki/IMEv2.ahk",
       "stars": 51,
       "forks": 2,
       "owner": "k-ayaki",
-      "code": "```cpp\n; ============================================\n; Repository: k-ayaki/IMEv2.ahk\n; ============================================\n; URL: https://github.com/k-ayaki/IMEv2.ahk\n; Stars: 51 | Forks: 2\n; Last Updated: 3/27/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey v2.0 でIMEを制御する関数群\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/k-ayaki/IMEv2.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/k-ayaki/IMEv2.ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IMEv2.ahk>\n\n; Example initialization\nclass Imev2.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IMEv2.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Imev2.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: k-ayaki/IMEv2.ahk\n; ============================================\n; URL: https://github.com/k-ayaki/IMEv2.ahk\n; Stars: 51 | Forks: 2\n; Last Updated: 3/28/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey v2.0 でIMEを制御する関数群\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/k-ayaki/IMEv2.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/k-ayaki/IMEv2.ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IMEv2.ahk>\n\n; Example initialization\nclass Imev2.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IMEv2.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Imev2.ahkExample()\n```"
+    },
+    {
+      "id": "github-1194250583",
+      "title": "Gdip_All_v2",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 compatible Gdip library. Fixed Buffer object Ptr issues, DllCall return types, and VarRef (ByRef) syntax for v2 stability.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-28T05:12:54Z",
+      "lastModified": "2026-03-28T05:21:51Z",
+      "source": "github",
+      "url": "https://github.com/shamanlim2/Gdip_All_v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "shamanlim2",
+      "code": "```cpp\n; ============================================\n; Repository: shamanlim2/Gdip_All_v2\n; ============================================\n; URL: https://github.com/shamanlim2/Gdip_All_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 compatible Gdip library. Fixed Buffer object Ptr issues, DllCall return types, and VarRef (ByRef) syntax for v2 stability.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shamanlim2/Gdip_All_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shamanlim2/Gdip_All_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Gdip_All_v2>\n\n; Example initialization\nclass GdipAllV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Gdip_All_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GdipAllV2Example()\n```"
+    },
+    {
+      "id": "github-1183877125",
+      "title": "vertical-mouse-sensitivity",
+      "category": "GitHub Repository",
+      "description": "Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahkv2",
+        "autohotkey",
+        "mouse",
+        "productivity",
+        "sensitivity"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-17T03:08:50Z",
+      "lastModified": "2026-03-28T02:23:35Z",
+      "source": "github",
+      "url": "https://github.com/yakunins/vertical-mouse-sensitivity",
+      "stars": 0,
+      "forks": 0,
+      "owner": "yakunins",
+      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
     }
   ]
 }
