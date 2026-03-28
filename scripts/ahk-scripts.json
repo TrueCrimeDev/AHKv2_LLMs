@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-28T06:22:01.315Z",
-  "totalScripts": 207,
+  "lastUpdated": "2026-03-28T12:10:58.038Z",
+  "totalScripts": 208,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1363,13 +1363,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-17T19:38:30Z",
-      "lastModified": "2025-11-07T12:07:55Z",
+      "lastModified": "2026-03-28T06:33:22Z",
       "source": "github",
       "url": "https://github.com/Kurover/AutoHotKey_v2",
       "stars": 0,
       "forks": 0,
       "owner": "Kurover",
-      "code": "```cpp\n; ============================================\n; Repository: Kurover/AutoHotKey_v2\n; ============================================\n; URL: https://github.com/Kurover/AutoHotKey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 11/7/2025\n; License: MIT License\n;\n; Description:\n; AHK scripts with compiler setup. Some scripts are peeked from others\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Kurover/AutoHotKey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Kurover/AutoHotKey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotKey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotKey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Kurover/AutoHotKey_v2\n; ============================================\n; URL: https://github.com/Kurover/AutoHotKey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: MIT License\n;\n; Description:\n; AHK scripts with compiler setup. Some scripts are peeked from others\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Kurover/AutoHotKey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Kurover/AutoHotKey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotKey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotKey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-1063775997",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-28T05:07:05Z",
+      "lastModified": "2026-03-28T10:51:44Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3355,13 +3355,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-11T22:36:48Z",
-      "lastModified": "2026-02-28T16:54:30Z",
+      "lastModified": "2026-03-28T10:34:25Z",
       "source": "github",
       "url": "https://github.com/Dason-IsopodOverseer/UberMaus",
       "stars": 0,
       "forks": 0,
       "owner": "Dason-IsopodOverseer",
-      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 2/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
     },
     {
       "id": "github-1169619112",
@@ -4078,7 +4078,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-28T05:12:54Z",
-      "lastModified": "2026-03-28T05:21:51Z",
+      "lastModified": "2026-03-28T10:12:43Z",
       "source": "github",
       "url": "https://github.com/shamanlim2/Gdip_All_v2",
       "stars": 0,
@@ -4110,6 +4110,25 @@
       "forks": 0,
       "owner": "yakunins",
       "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
+    },
+    {
+      "id": "github-1194286569",
+      "title": "AutoCP-Launcher",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey v2 utility for launching ConversionPlayer (SBS/2D → 3D conversion) via hotkeys, with automatic fullscreen detection that triggers the converter when a defined app and title combo goes fullscreen.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-28T06:25:36Z",
+      "lastModified": "2026-03-28T06:55:51Z",
+      "source": "github",
+      "url": "https://github.com/NTM-3D/AutoCP-Launcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "NTM-3D",
+      "code": "```cpp\n; ============================================\n; Repository: NTM-3D/AutoCP-Launcher\n; ============================================\n; URL: https://github.com/NTM-3D/AutoCP-Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 utility for launching ConversionPlayer (SBS/2D → 3D conversion) via hotkeys, with automatic fullscreen detection that triggers the converter when a defined app and title combo goes fullscreen.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NTM-3D/AutoCP-Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NTM-3D/AutoCP-Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCP-Launcher>\n\n; Example initialization\nclass AutocpLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCP-Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocpLauncherExample()\n```"
     }
   ]
 }
