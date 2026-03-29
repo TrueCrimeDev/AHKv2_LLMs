@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-29T00:28:03.904Z",
-  "totalScripts": 210,
+  "lastUpdated": "2026-03-29T06:25:56.552Z",
+  "totalScripts": 212,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-28T22:56:37Z",
+      "lastModified": "2026-03-29T04:45:30Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/29/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -4141,13 +4141,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-28T21:19:46Z",
-      "lastModified": "2026-03-28T23:19:43Z",
+      "lastModified": "2026-03-29T00:52:53Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/DarkGui",
       "stars": 0,
       "forks": 0,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/DarkGui\n; ============================================\n; URL: https://github.com/TrueCrimeDev/DarkGui\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: Not specified\n;\n; Description:\n; Dark mode GUI framework for AutoHotkey v2. Drop-in Gui() replacement with auto-styled controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/DarkGui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/DarkGui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkGui>\n\n; Example initialization\nclass DarkguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkGui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkguiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/DarkGui\n; ============================================\n; URL: https://github.com/TrueCrimeDev/DarkGui\n; Stars: 0 | Forks: 0\n; Last Updated: 3/29/2026\n; License: Not specified\n;\n; Description:\n; Dark mode GUI framework for AutoHotkey v2. Drop-in Gui() replacement with auto-styled controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/DarkGui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/DarkGui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkGui>\n\n; Example initialization\nclass DarkguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkGui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkguiExample()\n```"
     },
     {
       "id": "github-1179345399",
@@ -4167,6 +4167,44 @@
       "forks": 0,
       "owner": "micha1l-31337",
       "code": "```cpp\n; ============================================\n; Repository: micha1l-31337/media-optimizer-gui\n; ============================================\n; URL: https://github.com/micha1l-31337/media-optimizer-gui\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: MIT License\n;\n; Description:\n; Конвертер медиафайлов c графическим интерфейсом на AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/micha1l-31337/media-optimizer-gui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/micha1l-31337/media-optimizer-gui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <media-optimizer-gui>\n\n; Example initialization\nclass MediaOptimizerGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"media-optimizer-gui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediaOptimizerGuiExample()\n```"
+    },
+    {
+      "id": "github-1066813325",
+      "title": "Afk-Script-GTA-",
+      "category": "GitHub Repository",
+      "description": "This AutoHotkey v2 script prevents GTA V from kicking a player for being AFK. It works by automatically tabbing back into the game before timeout, performing randomized clicks and movements to simulate activity, then returning to the previous window. Hotkeys allow starting, stopping, or safely exiting GTA V.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-09-30T01:57:13Z",
+      "lastModified": "2026-03-29T04:01:55Z",
+      "source": "github",
+      "url": "https://github.com/Reinyerr/Afk-Script-GTA-",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Reinyerr",
+      "code": "```cpp\n; ============================================\n; Repository: Reinyerr/Afk-Script-GTA-\n; ============================================\n; URL: https://github.com/Reinyerr/Afk-Script-GTA-\n; Stars: 0 | Forks: 0\n; Last Updated: 3/29/2026\n; License: Not specified\n;\n; Description:\n; This AutoHotkey v2 script prevents GTA V from kicking a player for being AFK. It works by automatically tabbing back into the game before timeout, performing randomized clicks and movements to simulate activity, then returning to the previous window. Hotkeys allow starting, stopping, or safely exiting GTA V.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Reinyerr/Afk-Script-GTA-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Reinyerr/Afk-Script-GTA-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Afk-Script-GTA->\n\n; Example initialization\nclass AfkScriptGtaExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Afk-Script-GTA- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AfkScriptGtaExample()\n```"
+    },
+    {
+      "id": "github-1066827863",
+      "title": "Email_macro_ahk",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script to streamline email writing, helping generate professional emails quickly and consistently.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-09-30T02:38:29Z",
+      "lastModified": "2026-03-29T03:59:00Z",
+      "source": "github",
+      "url": "https://github.com/Reinyerr/Email_macro_ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Reinyerr",
+      "code": "```cpp\n; ============================================\n; Repository: Reinyerr/Email_macro_ahk\n; ============================================\n; URL: https://github.com/Reinyerr/Email_macro_ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 3/29/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script to streamline email writing, helping generate professional emails quickly and consistently.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Reinyerr/Email_macro_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Reinyerr/Email_macro_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Email_macro_ahk>\n\n; Example initialization\nclass EmailMacroAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Email_macro_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EmailMacroAhkExample()\n```"
     }
   ]
 }
