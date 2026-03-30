@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-30T06:39:05.156Z",
-  "totalScripts": 213,
+  "lastUpdated": "2026-03-30T12:20:10.217Z",
+  "totalScripts": 214,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-03-27T15:27:34Z",
+      "lastModified": "2026-03-30T11:23:34Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 34,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 34 | Forks: 3\n; Last Updated: 3/27/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 34 | Forks: 3\n; Last Updated: 3/30/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -4078,13 +4078,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-28T05:12:54Z",
-      "lastModified": "2026-03-28T15:10:40Z",
+      "lastModified": "2026-03-30T11:36:22Z",
       "source": "github",
       "url": "https://github.com/shamanlim2/Gdip_All_v2",
       "stars": 0,
       "forks": 0,
       "owner": "shamanlim2",
-      "code": "```cpp\n; ============================================\n; Repository: shamanlim2/Gdip_All_v2\n; ============================================\n; URL: https://github.com/shamanlim2/Gdip_All_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 compatible Gdip library. Fixed Buffer object Ptr issues, DllCall return types, and VarRef (ByRef) syntax for v2 stability.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shamanlim2/Gdip_All_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shamanlim2/Gdip_All_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Gdip_All_v2>\n\n; Example initialization\nclass GdipAllV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Gdip_All_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GdipAllV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: shamanlim2/Gdip_All_v2\n; ============================================\n; URL: https://github.com/shamanlim2/Gdip_All_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 3/30/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 compatible Gdip library. Fixed Buffer object Ptr issues, DllCall return types, and VarRef (ByRef) syntax for v2 stability.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shamanlim2/Gdip_All_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shamanlim2/Gdip_All_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Gdip_All_v2>\n\n; Example initialization\nclass GdipAllV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Gdip_All_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GdipAllV2Example()\n```"
     },
     {
       "id": "github-1183877125",
@@ -4224,6 +4224,25 @@
       "forks": 0,
       "owner": "jurerepar",
       "code": "```cpp\n; ============================================\n; Repository: jurerepar/mac-slovenian-keyboard-windows\n; ============================================\n; URL: https://github.com/jurerepar/mac-slovenian-keyboard-windows\n; Stars: 0 | Forks: 0\n; Last Updated: 3/29/2026\n; License: Not specified\n;\n; Description:\n; Mac Slovenian/Croatian/Serbian QWERTY keyboard layout for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jurerepar/mac-slovenian-keyboard-windows.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jurerepar/mac-slovenian-keyboard-windows/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mac-slovenian-keyboard-windows>\n\n; Example initialization\nclass MacSlovenianKeyboardWindowsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mac-slovenian-keyboard-windows loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacSlovenianKeyboardWindowsExample()\n```"
+    },
+    {
+      "id": "github-1195869182",
+      "title": "Mouse-Side-Buttons-Keybinds-AHK",
+      "category": "GitHub Repository",
+      "description": "A autohotkey v2 script that remaps the 2 side buttons on good mouses to alt tab, change desktop and have a approx 50-70 cps autoclicker",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-30T06:26:23Z",
+      "lastModified": "2026-03-30T06:56:17Z",
+      "source": "github",
+      "url": "https://github.com/TotalyNotWilden/Mouse-Side-Buttons-Keybinds-AHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "TotalyNotWilden",
+      "code": "```cpp\n; ============================================\n; Repository: TotalyNotWilden/Mouse-Side-Buttons-Keybinds-AHK\n; ============================================\n; URL: https://github.com/TotalyNotWilden/Mouse-Side-Buttons-Keybinds-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 3/30/2026\n; License: MIT License\n;\n; Description:\n; A autohotkey v2 script that remaps the 2 side buttons on good mouses to alt tab, change desktop and have a approx 50-70 cps autoclicker\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TotalyNotWilden/Mouse-Side-Buttons-Keybinds-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TotalyNotWilden/Mouse-Side-Buttons-Keybinds-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Side-Buttons-Keybinds-AHK>\n\n; Example initialization\nclass MouseSideButtonsKeybindsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Side-Buttons-Keybinds-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseSideButtonsKeybindsAhkExample()\n```"
     }
   ]
 }
