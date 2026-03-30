@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-29T18:10:06.573Z",
+  "lastUpdated": "2026-03-30T00:28:12.054Z",
   "totalScripts": 213,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-29T15:36:34Z",
+      "lastModified": "2026-03-29T22:05:38Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2480,13 +2480,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-02T17:33:54Z",
-      "lastModified": "2026-03-29T16:39:02Z",
+      "lastModified": "2026-03-29T18:44:45Z",
       "source": "github",
       "url": "https://github.com/Firnschnee/My-AHK-v2-Scripts",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "Firnschnee",
-      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 1 | Forks: 0\n; Last Updated: 3/29/2026\n; License: MIT License\n;\n; Description:\n; A collection of my AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 2 | Forks: 0\n; Last Updated: 3/29/2026\n; License: MIT License\n;\n; Description:\n; A collection of my AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
     },
     {
       "id": "github-1150337230",
