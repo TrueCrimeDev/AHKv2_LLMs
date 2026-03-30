@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-30T12:20:10.217Z",
+  "lastUpdated": "2026-03-30T18:20:18.762Z",
   "totalScripts": 214,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-30T04:18:08Z",
+      "lastModified": "2026-03-30T12:53:17Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4160,13 +4160,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-11T23:59:51Z",
-      "lastModified": "2026-03-29T12:41:57Z",
+      "lastModified": "2026-03-30T14:39:14Z",
       "source": "github",
       "url": "https://github.com/micha1l-31337/media-optimizer-gui",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "micha1l-31337",
-      "code": "```cpp\n; ============================================\n; Repository: micha1l-31337/media-optimizer-gui\n; ============================================\n; URL: https://github.com/micha1l-31337/media-optimizer-gui\n; Stars: 1 | Forks: 0\n; Last Updated: 3/29/2026\n; License: MIT License\n;\n; Description:\n; Конвертер медиафайлов c графическим интерфейсом на AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/micha1l-31337/media-optimizer-gui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/micha1l-31337/media-optimizer-gui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <media-optimizer-gui>\n\n; Example initialization\nclass MediaOptimizerGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"media-optimizer-gui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediaOptimizerGuiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: micha1l-31337/media-optimizer-gui\n; ============================================\n; URL: https://github.com/micha1l-31337/media-optimizer-gui\n; Stars: 2 | Forks: 0\n; Last Updated: 3/30/2026\n; License: MIT License\n;\n; Description:\n; Конвертер медиафайлов c графическим интерфейсом на AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/micha1l-31337/media-optimizer-gui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/micha1l-31337/media-optimizer-gui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <media-optimizer-gui>\n\n; Example initialization\nclass MediaOptimizerGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"media-optimizer-gui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediaOptimizerGuiExample()\n```"
     },
     {
       "id": "github-1066813325",
