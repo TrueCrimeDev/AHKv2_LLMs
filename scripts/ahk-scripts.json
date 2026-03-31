@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-31T06:30:39.306Z",
-  "totalScripts": 216,
+  "lastUpdated": "2026-03-31T12:20:05.293Z",
+  "totalScripts": 218,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-03-08T05:08:19Z",
+      "lastModified": "2026-03-31T07:21:08Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 3/8/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 3/31/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-31T03:25:04Z",
+      "lastModified": "2026-03-31T09:09:22Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4040,13 +4040,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-27T08:47:49Z",
-      "lastModified": "2026-03-28T04:45:45Z",
+      "lastModified": "2026-03-31T09:57:26Z",
       "source": "github",
       "url": "https://github.com/wsnh2022/VisionScribe-AI",
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "owner": "wsnh2022",
-      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 3 | Forks: 0\n; Last Updated: 3/28/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 4 | Forks: 0\n; Last Updated: 3/31/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
     },
     {
       "id": "github-667268886",
@@ -4281,6 +4281,50 @@
       "forks": 0,
       "owner": "TrueCrimeDev",
       "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/DarkGui\n; ============================================\n; URL: https://github.com/TrueCrimeDev/DarkGui\n; Stars: 0 | Forks: 0\n; Last Updated: 3/30/2026\n; License: Not specified\n;\n; Description:\n; Dark mode GUI framework for AutoHotkey v2. Drop-in Gui() replacement with auto-styled controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/DarkGui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/DarkGui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkGui>\n\n; Example initialization\nclass DarkguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkGui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkguiExample()\n```"
+    },
+    {
+      "id": "github-1197143414",
+      "title": "Sailor-Piece-KeySpammer-AutoClicker",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2.0 macro for game automation with GUI, presets, and melee swap features.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "automation",
+        "gaming",
+        "gui",
+        "macro",
+        "melee"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-31T11:09:45Z",
+      "lastModified": "2026-03-31T11:24:48Z",
+      "source": "github",
+      "url": "https://github.com/BluetccTH/Sailor-Piece-KeySpammer-AutoClicker",
+      "stars": 1,
+      "forks": 0,
+      "owner": "BluetccTH",
+      "code": "```cpp\n; ============================================\n; Repository: BluetccTH/Sailor-Piece-KeySpammer-AutoClicker\n; ============================================\n; URL: https://github.com/BluetccTH/Sailor-Piece-KeySpammer-AutoClicker\n; Stars: 1 | Forks: 0\n; Last Updated: 3/31/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2.0 macro for game automation with GUI, presets, and melee swap features.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BluetccTH/Sailor-Piece-KeySpammer-AutoClicker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BluetccTH/Sailor-Piece-KeySpammer-AutoClicker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Sailor-Piece-KeySpammer-AutoClicker>\n\n; Example initialization\nclass SailorPieceKeyspammerAutoclickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Sailor-Piece-KeySpammer-AutoClicker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SailorPieceKeyspammerAutoclickerExample()\n```"
+    },
+    {
+      "id": "github-1196875994",
+      "title": "GoodByCopilot",
+      "category": "GitHub Repository",
+      "description": " Windows AutoHotkey v2 utility for managing AI web app shortcuts, service templates, hotkeys, themes, and persistent runtime state with a compact tray-based GUI.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-31T05:59:24Z",
+      "lastModified": "2026-03-31T10:57:10Z",
+      "source": "github",
+      "url": "https://github.com/DonaK200097/GoodByCopilot",
+      "stars": 2,
+      "forks": 0,
+      "owner": "DonaK200097",
+      "code": "```cpp\n; ============================================\n; Repository: DonaK200097/GoodByCopilot\n; ============================================\n; URL: https://github.com/DonaK200097/GoodByCopilot\n; Stars: 2 | Forks: 0\n; Last Updated: 3/31/2026\n; License: Not specified\n;\n; Description:\n;  Windows AutoHotkey v2 utility for managing AI web app shortcuts, service templates, hotkeys, themes, and persistent runtime state with a compact tray-based GUI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DonaK200097/GoodByCopilot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DonaK200097/GoodByCopilot/archive/refs/heads/Development.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoodByCopilot>\n\n; Example initialization\nclass GoodbycopilotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoodByCopilot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoodbycopilotExample()\n```"
     }
   ]
 }
