@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-31T12:20:05.293Z",
+  "lastUpdated": "2026-03-31T18:20:33.061Z",
   "totalScripts": 218,
   "categories": [
     "GUI",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-03-30T11:23:34Z",
+      "lastModified": "2026-03-31T13:37:26Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 34,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 34 | Forks: 3\n; Last Updated: 3/30/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 34 | Forks: 3\n; Last Updated: 3/31/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-31T09:09:22Z",
+      "lastModified": "2026-03-31T15:47:42Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -2480,13 +2480,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-02T17:33:54Z",
-      "lastModified": "2026-03-29T18:44:45Z",
+      "lastModified": "2026-03-31T14:40:06Z",
       "source": "github",
       "url": "https://github.com/Firnschnee/My-AHK-v2-Scripts",
-      "stars": 2,
+      "stars": 5,
       "forks": 0,
       "owner": "Firnschnee",
-      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 2 | Forks: 0\n; Last Updated: 3/29/2026\n; License: MIT License\n;\n; Description:\n; A collection of my AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 5 | Forks: 0\n; Last Updated: 3/31/2026\n; License: MIT License\n;\n; Description:\n; A collection of my AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
     },
     {
       "id": "github-1150337230",
@@ -3355,13 +3355,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-11T22:36:48Z",
-      "lastModified": "2026-03-28T17:34:51Z",
+      "lastModified": "2026-03-31T17:16:53Z",
       "source": "github",
       "url": "https://github.com/Dason-IsopodOverseer/UberMaus",
       "stars": 0,
       "forks": 0,
       "owner": "Dason-IsopodOverseer",
-      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 3/31/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
     },
     {
       "id": "github-1169619112",
@@ -3609,13 +3609,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-05T12:23:58Z",
-      "lastModified": "2026-03-29T11:23:18Z",
+      "lastModified": "2026-03-31T13:35:50Z",
       "source": "github",
       "url": "https://github.com/janiaul/window-snap-grid",
       "stars": 0,
       "forks": 0,
       "owner": "janiaul",
-      "code": "```cpp\n; ============================================\n; Repository: janiaul/window-snap-grid\n; ============================================\n; URL: https://github.com/janiaul/window-snap-grid\n; Stars: 0 | Forks: 0\n; Last Updated: 3/29/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for snapping windows to a 9-point grid with multi-monitor and taskbar awareness.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/janiaul/window-snap-grid.git\n;\n; Option 2: Download ZIP\n;   https://github.com/janiaul/window-snap-grid/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-snap-grid>\n\n; Example initialization\nclass WindowSnapGridExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-snap-grid loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowSnapGridExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: janiaul/window-snap-grid\n; ============================================\n; URL: https://github.com/janiaul/window-snap-grid\n; Stars: 0 | Forks: 0\n; Last Updated: 3/31/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for snapping windows to a 9-point grid with multi-monitor and taskbar awareness.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/janiaul/window-snap-grid.git\n;\n; Option 2: Download ZIP\n;   https://github.com/janiaul/window-snap-grid/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-snap-grid>\n\n; Example initialization\nclass WindowSnapGridExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-snap-grid loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowSnapGridExample()\n```"
     },
     {
       "id": "github-1180997265",
@@ -4255,13 +4255,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-07T21:58:54Z",
-      "lastModified": "2026-03-30T23:14:19Z",
+      "lastModified": "2026-03-31T14:17:12Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/ClautoHotkey",
       "stars": 24,
       "forks": 5,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 24 | Forks: 5\n; Last Updated: 3/30/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 24 | Forks: 5\n; Last Updated: 3/31/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
     },
     {
       "id": "github-1196649768",
@@ -4299,7 +4299,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-31T11:09:45Z",
-      "lastModified": "2026-03-31T11:24:48Z",
+      "lastModified": "2026-03-31T13:01:55Z",
       "source": "github",
       "url": "https://github.com/BluetccTH/Sailor-Piece-KeySpammer-AutoClicker",
       "stars": 1,
