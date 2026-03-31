@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-03-30T18:20:18.762Z",
-  "totalScripts": 214,
+  "lastUpdated": "2026-03-31T00:27:31.466Z",
+  "totalScripts": 216,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-30T12:53:17Z",
+      "lastModified": "2026-03-30T21:45:23Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4243,6 +4243,44 @@
       "forks": 0,
       "owner": "TotalyNotWilden",
       "code": "```cpp\n; ============================================\n; Repository: TotalyNotWilden/Mouse-Side-Buttons-Keybinds-AHK\n; ============================================\n; URL: https://github.com/TotalyNotWilden/Mouse-Side-Buttons-Keybinds-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 3/30/2026\n; License: MIT License\n;\n; Description:\n; A autohotkey v2 script that remaps the 2 side buttons on good mouses to alt tab, change desktop and have a approx 50-70 cps autoclicker\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TotalyNotWilden/Mouse-Side-Buttons-Keybinds-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TotalyNotWilden/Mouse-Side-Buttons-Keybinds-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Side-Buttons-Keybinds-AHK>\n\n; Example initialization\nclass MouseSideButtonsKeybindsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Side-Buttons-Keybinds-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseSideButtonsKeybindsAhkExample()\n```"
+    },
+    {
+      "id": "github-900106636",
+      "title": "ClautoHotkey",
+      "category": "GitHub Repository",
+      "description": "This repo has the docs needed to create a useful Autohotkey v2 project in Claude. ",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-12-07T21:58:54Z",
+      "lastModified": "2026-03-30T23:14:19Z",
+      "source": "github",
+      "url": "https://github.com/TrueCrimeDev/ClautoHotkey",
+      "stars": 24,
+      "forks": 5,
+      "owner": "TrueCrimeDev",
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 24 | Forks: 5\n; Last Updated: 3/30/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1196649768",
+      "title": "DarkGui",
+      "category": "GitHub Repository",
+      "description": "Dark mode GUI framework for AutoHotkey v2. Drop-in Gui() replacement with auto-styled controls.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-30T22:51:18Z",
+      "lastModified": "2026-03-30T22:51:40Z",
+      "source": "github",
+      "url": "https://github.com/TrueCrimeDev/DarkGui",
+      "stars": 0,
+      "forks": 0,
+      "owner": "TrueCrimeDev",
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/DarkGui\n; ============================================\n; URL: https://github.com/TrueCrimeDev/DarkGui\n; Stars: 0 | Forks: 0\n; Last Updated: 3/30/2026\n; License: Not specified\n;\n; Description:\n; Dark mode GUI framework for AutoHotkey v2. Drop-in Gui() replacement with auto-styled controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/DarkGui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/DarkGui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkGui>\n\n; Example initialization\nclass DarkguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkGui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkguiExample()\n```"
     }
   ]
 }
