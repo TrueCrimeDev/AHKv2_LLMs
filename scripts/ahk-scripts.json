@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-01T12:20:30.918Z",
-  "totalScripts": 219,
+  "lastUpdated": "2026-04-01T18:19:27.547Z",
+  "totalScripts": 220,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-03-31T13:37:26Z",
+      "lastModified": "2026-04-01T14:27:57Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 34,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 34 | Forks: 3\n; Last Updated: 3/31/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 34 | Forks: 3\n; Last Updated: 4/1/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-01T09:29:43Z",
+      "lastModified": "2026-04-01T15:33:29Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3609,13 +3609,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-05T12:23:58Z",
-      "lastModified": "2026-03-31T13:35:50Z",
+      "lastModified": "2026-04-01T17:18:30Z",
       "source": "github",
       "url": "https://github.com/janiaul/window-snap-grid",
       "stars": 0,
       "forks": 0,
       "owner": "janiaul",
-      "code": "```cpp\n; ============================================\n; Repository: janiaul/window-snap-grid\n; ============================================\n; URL: https://github.com/janiaul/window-snap-grid\n; Stars: 0 | Forks: 0\n; Last Updated: 3/31/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for snapping windows to a 9-point grid with multi-monitor and taskbar awareness.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/janiaul/window-snap-grid.git\n;\n; Option 2: Download ZIP\n;   https://github.com/janiaul/window-snap-grid/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-snap-grid>\n\n; Example initialization\nclass WindowSnapGridExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-snap-grid loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowSnapGridExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: janiaul/window-snap-grid\n; ============================================\n; URL: https://github.com/janiaul/window-snap-grid\n; Stars: 0 | Forks: 0\n; Last Updated: 4/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for snapping windows to a 9-point grid with multi-monitor and taskbar awareness.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/janiaul/window-snap-grid.git\n;\n; Option 2: Download ZIP\n;   https://github.com/janiaul/window-snap-grid/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-snap-grid>\n\n; Example initialization\nclass WindowSnapGridExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-snap-grid loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowSnapGridExample()\n```"
     },
     {
       "id": "github-1180997265",
@@ -4103,13 +4103,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-17T03:08:50Z",
-      "lastModified": "2026-03-28T02:23:35Z",
+      "lastModified": "2026-04-01T17:51:04Z",
       "source": "github",
       "url": "https://github.com/yakunins/vertical-mouse-sensitivity",
       "stars": 0,
       "forks": 0,
       "owner": "yakunins",
-      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/28/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/1/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
     },
     {
       "id": "github-1194286569",
@@ -4344,6 +4344,25 @@
       "forks": 0,
       "owner": "King-Hardi",
       "code": "```cpp\n; ============================================\n; Repository: King-Hardi/RandomClickUntilColorChange\n; ============================================\n; URL: https://github.com/King-Hardi/RandomClickUntilColorChange\n; Stars: 0 | Forks: 0\n; Last Updated: 4/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 library for clicking random points inside a bounded rectangle until an observation pixel matches a target color, with configurable tolerance and coordinate-space handling.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/King-Hardi/RandomClickUntilColorChange.git\n;\n; Option 2: Download ZIP\n;   https://github.com/King-Hardi/RandomClickUntilColorChange/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RandomClickUntilColorChange>\n\n; Example initialization\nclass RandomclickuntilcolorchangeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RandomClickUntilColorChange loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RandomclickuntilcolorchangeExample()\n```"
+    },
+    {
+      "id": "github-1196715954",
+      "title": "DiscordScreenCapture",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 library for capturing a screen region and uploading it directly to a Discord webhook.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-31T01:11:14Z",
+      "lastModified": "2026-04-01T17:08:39Z",
+      "source": "github",
+      "url": "https://github.com/King-Hardi/DiscordScreenCapture",
+      "stars": 0,
+      "forks": 0,
+      "owner": "King-Hardi",
+      "code": "```cpp\n; ============================================\n; Repository: King-Hardi/DiscordScreenCapture\n; ============================================\n; URL: https://github.com/King-Hardi/DiscordScreenCapture\n; Stars: 0 | Forks: 0\n; Last Updated: 4/1/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 library for capturing a screen region and uploading it directly to a Discord webhook.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/King-Hardi/DiscordScreenCapture.git\n;\n; Option 2: Download ZIP\n;   https://github.com/King-Hardi/DiscordScreenCapture/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DiscordScreenCapture>\n\n; Example initialization\nclass DiscordscreencaptureExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DiscordScreenCapture loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DiscordscreencaptureExample()\n```"
     }
   ]
 }
