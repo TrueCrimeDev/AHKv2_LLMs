@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-01T00:30:12.754Z",
-  "totalScripts": 218,
+  "lastUpdated": "2026-04-01T06:36:10.221Z",
+  "totalScripts": 219,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-03-31T22:32:01Z",
+      "lastModified": "2026-04-01T04:02:20Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 3/31/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/1/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -4325,6 +4325,25 @@
       "forks": 0,
       "owner": "DonaK200097",
       "code": "```cpp\n; ============================================\n; Repository: DonaK200097/GoodByCopilot\n; ============================================\n; URL: https://github.com/DonaK200097/GoodByCopilot\n; Stars: 2 | Forks: 0\n; Last Updated: 3/31/2026\n; License: Not specified\n;\n; Description:\n;  Windows AutoHotkey v2 utility for managing AI web app shortcuts, service templates, hotkeys, themes, and persistent runtime state with a compact tray-based GUI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DonaK200097/GoodByCopilot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DonaK200097/GoodByCopilot/archive/refs/heads/Development.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoodByCopilot>\n\n; Example initialization\nclass GoodbycopilotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoodByCopilot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoodbycopilotExample()\n```"
+    },
+    {
+      "id": "github-1197921472",
+      "title": "RandomClickUntilColorChange",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 library for clicking random points inside a bounded rectangle until an observation pixel matches a target color, with configurable tolerance and coordinate-space handling.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-01T01:46:32Z",
+      "lastModified": "2026-04-01T01:50:33Z",
+      "source": "github",
+      "url": "https://github.com/King-Hardi/RandomClickUntilColorChange",
+      "stars": 0,
+      "forks": 0,
+      "owner": "King-Hardi",
+      "code": "```cpp\n; ============================================\n; Repository: King-Hardi/RandomClickUntilColorChange\n; ============================================\n; URL: https://github.com/King-Hardi/RandomClickUntilColorChange\n; Stars: 0 | Forks: 0\n; Last Updated: 4/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 library for clicking random points inside a bounded rectangle until an observation pixel matches a target color, with configurable tolerance and coordinate-space handling.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/King-Hardi/RandomClickUntilColorChange.git\n;\n; Option 2: Download ZIP\n;   https://github.com/King-Hardi/RandomClickUntilColorChange/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RandomClickUntilColorChange>\n\n; Example initialization\nclass RandomclickuntilcolorchangeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RandomClickUntilColorChange loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RandomclickuntilcolorchangeExample()\n```"
     }
   ]
 }
