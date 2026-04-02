@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-02T12:19:39.960Z",
-  "totalScripts": 221,
+  "lastUpdated": "2026-04-02T18:18:35.154Z",
+  "totalScripts": 222,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-02T08:48:13Z",
+      "lastModified": "2026-04-02T16:52:28Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4382,6 +4382,25 @@
       "forks": 0,
       "owner": "Fluue",
       "code": "```cpp\n; ============================================\n; Repository: Fluue/KeyRemapper\n; ============================================\n; URL: https://github.com/Fluue/KeyRemapper\n; Stars: 2 | Forks: 0\n; Last Updated: 4/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 GUI for remapping keyboard and mouse buttons to keys, combos, or other mouse buttons. Supports hold/press/release modes and saveable profiles.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Fluue/KeyRemapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Fluue/KeyRemapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyRemapper>\n\n; Example initialization\nclass KeyremapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyRemapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyremapperExample()\n```"
+    },
+    {
+      "id": "github-1199671489",
+      "title": "you_can_copy_and_paste",
+      "category": "GitHub Repository",
+      "description": "受够了某些网页或文档恶心的“禁止复制/粘贴”限制？You-Can-Copy-And-Paste 是一款基于 AutoHotkey v2 开发的底层效率神器。它通过底层键盘指令强制提取受限文本，并在粘贴时模拟真人真实打字节奏，完美绕过前端拦截与行为监控，让你的剪贴板重获自由。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-02T15:30:29Z",
+      "lastModified": "2026-04-02T16:16:32Z",
+      "source": "github",
+      "url": "https://github.com/mooi-max/you_can_copy_and_paste",
+      "stars": 2,
+      "forks": 0,
+      "owner": "mooi-max",
+      "code": "```cpp\n; ============================================\n; Repository: mooi-max/you_can_copy_and_paste\n; ============================================\n; URL: https://github.com/mooi-max/you_can_copy_and_paste\n; Stars: 2 | Forks: 0\n; Last Updated: 4/2/2026\n; License: MIT License\n;\n; Description:\n; 受够了某些网页或文档恶心的“禁止复制/粘贴”限制？You-Can-Copy-And-Paste 是一款基于 AutoHotkey v2 开发的底层效率神器。它通过底层键盘指令强制提取受限文本，并在粘贴时模拟真人真实打字节奏，完美绕过前端拦截与行为监控，让你的剪贴板重获自由。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mooi-max/you_can_copy_and_paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mooi-max/you_can_copy_and_paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <you_can_copy_and_paste>\n\n; Example initialization\nclass YouCanCopyAndPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"you_can_copy_and_paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YouCanCopyAndPasteExample()\n```"
     }
   ]
 }
