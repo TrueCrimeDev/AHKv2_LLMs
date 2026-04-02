@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-01T18:19:27.547Z",
-  "totalScripts": 220,
+  "lastUpdated": "2026-04-02T00:25:32.815Z",
+  "totalScripts": 221,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-04-01T14:27:57Z",
+      "lastModified": "2026-04-01T21:44:11Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 34,
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-01T15:33:29Z",
+      "lastModified": "2026-04-01T21:46:28Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4363,6 +4363,25 @@
       "forks": 0,
       "owner": "King-Hardi",
       "code": "```cpp\n; ============================================\n; Repository: King-Hardi/DiscordScreenCapture\n; ============================================\n; URL: https://github.com/King-Hardi/DiscordScreenCapture\n; Stars: 0 | Forks: 0\n; Last Updated: 4/1/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 library for capturing a screen region and uploading it directly to a Discord webhook.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/King-Hardi/DiscordScreenCapture.git\n;\n; Option 2: Download ZIP\n;   https://github.com/King-Hardi/DiscordScreenCapture/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DiscordScreenCapture>\n\n; Example initialization\nclass DiscordscreencaptureExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DiscordScreenCapture loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DiscordscreencaptureExample()\n```"
+    },
+    {
+      "id": "github-1198801643",
+      "title": "KeyRemapper",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 GUI for remapping keyboard and mouse buttons to keys, combos, or other mouse buttons. Supports hold/press/release modes and saveable profiles.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-01T19:17:06Z",
+      "lastModified": "2026-04-01T19:58:35Z",
+      "source": "github",
+      "url": "https://github.com/Fluue/KeyRemapper",
+      "stars": 2,
+      "forks": 0,
+      "owner": "Fluue",
+      "code": "```cpp\n; ============================================\n; Repository: Fluue/KeyRemapper\n; ============================================\n; URL: https://github.com/Fluue/KeyRemapper\n; Stars: 2 | Forks: 0\n; Last Updated: 4/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 GUI for remapping keyboard and mouse buttons to keys, combos, or other mouse buttons. Supports hold/press/release modes and saveable profiles.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Fluue/KeyRemapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Fluue/KeyRemapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyRemapper>\n\n; Example initialization\nclass KeyremapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyRemapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyremapperExample()\n```"
     }
   ]
 }
