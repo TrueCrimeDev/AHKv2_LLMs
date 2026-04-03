@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-03T06:27:46.465Z",
+  "lastUpdated": "2026-04-03T12:14:45.633Z",
   "totalScripts": 223,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-03T06:08:32Z",
+      "lastModified": "2026-04-03T11:30:21Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4419,13 +4419,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-13T23:46:58Z",
-      "lastModified": "2026-04-02T22:47:44Z",
+      "lastModified": "2026-04-03T11:59:56Z",
       "source": "github",
       "url": "https://github.com/EyalMeschman/AHK-V2-MicMute",
       "stars": 0,
       "forks": 0,
       "owner": "EyalMeschman",
-      "code": "```cpp\n; ============================================\n; Repository: EyalMeschman/AHK-V2-MicMute\n; ============================================\n; URL: https://github.com/EyalMeschman/AHK-V2-MicMute\n; Stars: 0 | Forks: 0\n; Last Updated: 4/2/2026\n; License: MIT License\n;\n; Description:\n; Lightweight mic mute/unmute hotkey for Windows - built in pure AHK v2 with zero dependencies\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EyalMeschman/AHK-V2-MicMute.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EyalMeschman/AHK-V2-MicMute/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-V2-MicMute>\n\n; Example initialization\nclass AhkV2MicmuteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-V2-MicMute loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2MicmuteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: EyalMeschman/AHK-V2-MicMute\n; ============================================\n; URL: https://github.com/EyalMeschman/AHK-V2-MicMute\n; Stars: 0 | Forks: 0\n; Last Updated: 4/3/2026\n; License: MIT License\n;\n; Description:\n; Lightweight mic mute/unmute hotkey for Windows - built in pure AHK v2 with zero dependencies\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EyalMeschman/AHK-V2-MicMute.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EyalMeschman/AHK-V2-MicMute/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-V2-MicMute>\n\n; Example initialization\nclass AhkV2MicmuteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-V2-MicMute loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2MicmuteExample()\n```"
     }
   ]
 }
