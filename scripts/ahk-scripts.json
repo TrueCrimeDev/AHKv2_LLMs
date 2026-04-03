@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-02T18:18:35.154Z",
-  "totalScripts": 222,
+  "lastUpdated": "2026-04-03T00:27:03.828Z",
+  "totalScripts": 223,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-02T16:52:28Z",
+      "lastModified": "2026-04-02T22:24:04Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4122,13 +4122,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-28T06:25:36Z",
-      "lastModified": "2026-03-30T04:54:25Z",
+      "lastModified": "2026-04-02T18:50:20Z",
       "source": "github",
       "url": "https://github.com/NTM-3D/AutoCP-Launcher",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "NTM-3D",
-      "code": "```cpp\n; ============================================\n; Repository: NTM-3D/AutoCP-Launcher\n; ============================================\n; URL: https://github.com/NTM-3D/AutoCP-Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 3/30/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 utility for launching ConversionPlayer (SBS/2D → 3D conversion) via hotkeys, with automatic fullscreen detection that triggers the converter when a defined app and title combo goes fullscreen.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NTM-3D/AutoCP-Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NTM-3D/AutoCP-Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCP-Launcher>\n\n; Example initialization\nclass AutocpLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCP-Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocpLauncherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: NTM-3D/AutoCP-Launcher\n; ============================================\n; URL: https://github.com/NTM-3D/AutoCP-Launcher\n; Stars: 1 | Forks: 0\n; Last Updated: 4/2/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 utility for launching ConversionPlayer (SBS/2D → 3D conversion) via hotkeys, with automatic fullscreen detection that triggers the converter when a defined app and title combo goes fullscreen.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NTM-3D/AutoCP-Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NTM-3D/AutoCP-Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCP-Launcher>\n\n; Example initialization\nclass AutocpLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCP-Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocpLauncherExample()\n```"
     },
     {
       "id": "github-1194820265",
@@ -4318,13 +4318,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-31T05:59:24Z",
-      "lastModified": "2026-03-31T10:57:10Z",
+      "lastModified": "2026-04-02T20:25:52Z",
       "source": "github",
       "url": "https://github.com/DonaK200097/GoodByCopilot",
       "stars": 2,
       "forks": 0,
       "owner": "DonaK200097",
-      "code": "```cpp\n; ============================================\n; Repository: DonaK200097/GoodByCopilot\n; ============================================\n; URL: https://github.com/DonaK200097/GoodByCopilot\n; Stars: 2 | Forks: 0\n; Last Updated: 3/31/2026\n; License: Not specified\n;\n; Description:\n;  Windows AutoHotkey v2 utility for managing AI web app shortcuts, service templates, hotkeys, themes, and persistent runtime state with a compact tray-based GUI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DonaK200097/GoodByCopilot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DonaK200097/GoodByCopilot/archive/refs/heads/Development.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoodByCopilot>\n\n; Example initialization\nclass GoodbycopilotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoodByCopilot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoodbycopilotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DonaK200097/GoodByCopilot\n; ============================================\n; URL: https://github.com/DonaK200097/GoodByCopilot\n; Stars: 2 | Forks: 0\n; Last Updated: 4/2/2026\n; License: Not specified\n;\n; Description:\n;  Windows AutoHotkey v2 utility for managing AI web app shortcuts, service templates, hotkeys, themes, and persistent runtime state with a compact tray-based GUI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DonaK200097/GoodByCopilot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DonaK200097/GoodByCopilot/archive/refs/heads/Development.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoodByCopilot>\n\n; Example initialization\nclass GoodbycopilotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoodByCopilot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoodbycopilotExample()\n```"
     },
     {
       "id": "github-1197921472",
@@ -4401,6 +4401,31 @@
       "forks": 0,
       "owner": "mooi-max",
       "code": "```cpp\n; ============================================\n; Repository: mooi-max/you_can_copy_and_paste\n; ============================================\n; URL: https://github.com/mooi-max/you_can_copy_and_paste\n; Stars: 2 | Forks: 0\n; Last Updated: 4/2/2026\n; License: MIT License\n;\n; Description:\n; 受够了某些网页或文档恶心的“禁止复制/粘贴”限制？You-Can-Copy-And-Paste 是一款基于 AutoHotkey v2 开发的底层效率神器。它通过底层键盘指令强制提取受限文本，并在粘贴时模拟真人真实打字节奏，完美绕过前端拦截与行为监控，让你的剪贴板重获自由。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mooi-max/you_can_copy_and_paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mooi-max/you_can_copy_and_paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <you_can_copy_and_paste>\n\n; Example initialization\nclass YouCanCopyAndPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"you_can_copy_and_paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YouCanCopyAndPasteExample()\n```"
+    },
+    {
+      "id": "github-1181268807",
+      "title": "AHK-V2-MicMute",
+      "category": "GitHub Repository",
+      "description": "Lightweight mic mute/unmute hotkey for Windows - built in pure AHK v2 with zero dependencies",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "autohotkey",
+        "autohotkey-v2",
+        "hotkey",
+        "microphone",
+        "mute"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-13T23:46:58Z",
+      "lastModified": "2026-04-02T22:47:44Z",
+      "source": "github",
+      "url": "https://github.com/EyalMeschman/AHK-V2-MicMute",
+      "stars": 0,
+      "forks": 0,
+      "owner": "EyalMeschman",
+      "code": "```cpp\n; ============================================\n; Repository: EyalMeschman/AHK-V2-MicMute\n; ============================================\n; URL: https://github.com/EyalMeschman/AHK-V2-MicMute\n; Stars: 0 | Forks: 0\n; Last Updated: 4/2/2026\n; License: MIT License\n;\n; Description:\n; Lightweight mic mute/unmute hotkey for Windows - built in pure AHK v2 with zero dependencies\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EyalMeschman/AHK-V2-MicMute.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EyalMeschman/AHK-V2-MicMute/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-V2-MicMute>\n\n; Example initialization\nclass AhkV2MicmuteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-V2-MicMute loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2MicmuteExample()\n```"
     }
   ]
 }
