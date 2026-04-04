@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-04T00:25:39.788Z",
-  "totalScripts": 223,
+  "lastUpdated": "2026-04-04T06:23:04.002Z",
+  "totalScripts": 224,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-03T23:03:13Z",
+      "lastModified": "2026-04-04T04:21:05Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/3/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -4426,6 +4426,25 @@
       "forks": 0,
       "owner": "EyalMeschman",
       "code": "```cpp\n; ============================================\n; Repository: EyalMeschman/AHK-V2-MicMute\n; ============================================\n; URL: https://github.com/EyalMeschman/AHK-V2-MicMute\n; Stars: 0 | Forks: 0\n; Last Updated: 4/3/2026\n; License: MIT License\n;\n; Description:\n; Lightweight mic mute/unmute hotkey for Windows - built in pure AHK v2 with zero dependencies\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EyalMeschman/AHK-V2-MicMute.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EyalMeschman/AHK-V2-MicMute/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-V2-MicMute>\n\n; Example initialization\nclass AhkV2MicmuteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-V2-MicMute loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2MicmuteExample()\n```"
+    },
+    {
+      "id": "github-1200997661",
+      "title": "AsyncProcessIO",
+      "category": "GitHub Repository",
+      "description": " Asynchronous process I/O for AutoHotkey v2 — non-blocking stdin/stdout/stderr reading via overlapped named pipes",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-04T04:35:37Z",
+      "lastModified": "2026-04-04T04:45:51Z",
+      "source": "github",
+      "url": "https://github.com/jollycoder/AsyncProcessIO",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jollycoder",
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/AsyncProcessIO\n; ============================================\n; URL: https://github.com/jollycoder/AsyncProcessIO\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: MIT License\n;\n; Description:\n;  Asynchronous process I/O for AutoHotkey v2 — non-blocking stdin/stdout/stderr reading via overlapped named pipes\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/AsyncProcessIO.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/AsyncProcessIO/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AsyncProcessIO>\n\n; Example initialization\nclass AsyncprocessioExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AsyncProcessIO loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsyncprocessioExample()\n```"
     }
   ]
 }
