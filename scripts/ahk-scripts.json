@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-04T12:11:22.742Z",
-  "totalScripts": 224,
+  "lastUpdated": "2026-04-04T18:09:53.635Z",
+  "totalScripts": 227,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-03-31T20:08:50Z",
+      "lastModified": "2026-04-04T15:01:30Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 44,
       "forks": 6,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 44 | Forks: 6\n; Last Updated: 3/31/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 44 | Forks: 6\n; Last Updated: 4/4/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-04T09:49:53Z",
+      "lastModified": "2026-04-04T16:03:44Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4445,6 +4445,72 @@
       "forks": 0,
       "owner": "jollycoder",
       "code": "```cpp\n; ============================================\n; Repository: jollycoder/AsyncProcessIO\n; ============================================\n; URL: https://github.com/jollycoder/AsyncProcessIO\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: MIT License\n;\n; Description:\n;  Asynchronous process I/O for AutoHotkey v2 — non-blocking stdin/stdout/stderr reading via overlapped named pipes\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/AsyncProcessIO.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/AsyncProcessIO/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AsyncProcessIO>\n\n; Example initialization\nclass AsyncprocessioExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AsyncProcessIO loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsyncprocessioExample()\n```"
+    },
+    {
+      "id": "github-1201321231",
+      "title": "win_lang_switcher",
+      "category": "GitHub Repository",
+      "description": "Replaces buggy Windows language switching with AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-04T14:17:06Z",
+      "lastModified": "2026-04-04T14:27:47Z",
+      "source": "github",
+      "url": "https://github.com/petrovnn/win_lang_switcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "petrovnn",
+      "code": "```cpp\n; ============================================\n; Repository: petrovnn/win_lang_switcher\n; ============================================\n; URL: https://github.com/petrovnn/win_lang_switcher\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: Not specified\n;\n; Description:\n; Replaces buggy Windows language switching with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/petrovnn/win_lang_switcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/petrovnn/win_lang_switcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <win_lang_switcher>\n\n; Example initialization\nclass WinLangSwitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"win_lang_switcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinLangSwitcherExample()\n```"
+    },
+    {
+      "id": "github-1201212381",
+      "title": "CtrlToolTip",
+      "category": "GitHub Repository",
+      "description": "A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "autohotkey-v2",
+        "gui",
+        "tooltip",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-04T11:13:40Z",
+      "lastModified": "2026-04-04T12:33:59Z",
+      "source": "github",
+      "url": "https://github.com/akcansoft/CtrlToolTip",
+      "stars": 0,
+      "forks": 0,
+      "owner": "akcansoft",
+      "code": "```cpp\n; ============================================\n; Repository: akcansoft/CtrlToolTip\n; ============================================\n; URL: https://github.com/akcansoft/CtrlToolTip\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
+    },
+    {
+      "id": "github-1199400681",
+      "title": "automedia-ahk",
+      "category": "GitHub Repository",
+      "description": "AHK v2 media automation — auto-fullscreen, smart Spotify control, real-time WASAPI audio monitoring, bass EQ toggling, speaker switching, and game mode in one script.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "automation"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-02T10:07:39Z",
+      "lastModified": "2026-04-04T15:30:16Z",
+      "source": "github",
+      "url": "https://github.com/von110187/automedia-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "von110187",
+      "code": "```cpp\n; ============================================\n; Repository: von110187/automedia-ahk\n; ============================================\n; URL: https://github.com/von110187/automedia-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: Not specified\n;\n; Description:\n; AHK v2 media automation — auto-fullscreen, smart Spotify control, real-time WASAPI audio monitoring, bass EQ toggling, speaker switching, and game mode in one script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/automedia-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/automedia-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <automedia-ahk>\n\n; Example initialization\nclass AutomediaAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"automedia-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutomediaAhkExample()\n```"
     }
   ]
 }
