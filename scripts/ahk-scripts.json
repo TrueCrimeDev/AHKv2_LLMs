@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-04T18:09:53.635Z",
-  "totalScripts": 227,
+  "lastUpdated": "2026-04-05T00:28:39.152Z",
+  "totalScripts": 229,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-04T16:03:44Z",
+      "lastModified": "2026-04-04T21:51:26Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4511,6 +4511,53 @@
       "forks": 0,
       "owner": "von110187",
       "code": "```cpp\n; ============================================\n; Repository: von110187/automedia-ahk\n; ============================================\n; URL: https://github.com/von110187/automedia-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: Not specified\n;\n; Description:\n; AHK v2 media automation — auto-fullscreen, smart Spotify control, real-time WASAPI audio monitoring, bass EQ toggling, speaker switching, and game mode in one script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/automedia-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/automedia-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <automedia-ahk>\n\n; Example initialization\nclass AutomediaAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"automedia-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutomediaAhkExample()\n```"
+    },
+    {
+      "id": "github-1201522238",
+      "title": "Capslock-CopyPaste",
+      "category": "GitHub Repository",
+      "description": "A AutoHotkey v2 script that turns the CapsLock key into a smart Copy (single press) and Paste (double press) shortcut.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-script",
+        "automation",
+        "scripting",
+        "windows-utility"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-04T19:42:45Z",
+      "lastModified": "2026-04-04T19:54:35Z",
+      "source": "github",
+      "url": "https://github.com/mogdho/Capslock-CopyPaste",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mogdho",
+      "code": "```cpp\n; ============================================\n; Repository: mogdho/Capslock-CopyPaste\n; ============================================\n; URL: https://github.com/mogdho/Capslock-CopyPaste\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: MIT License\n;\n; Description:\n; A AutoHotkey v2 script that turns the CapsLock key into a smart Copy (single press) and Paste (double press) shortcut.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/Capslock-CopyPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/Capslock-CopyPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Capslock-CopyPaste>\n\n; Example initialization\nclass CapslockCopypasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Capslock-CopyPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockCopypasteExample()\n```"
+    },
+    {
+      "id": "github-1201510294",
+      "title": "AlwaysNumLock",
+      "category": "GitHub Repository",
+      "description": "AlwaysNumLock is a lightweight AutoHotkey v2 utility designed to force your keyboard's NumLock key to remain active at all times.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "automation",
+        "scripting",
+        "windows-utility"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-04T19:20:31Z",
+      "lastModified": "2026-04-04T19:48:59Z",
+      "source": "github",
+      "url": "https://github.com/mogdho/AlwaysNumLock",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mogdho",
+      "code": "```cpp\n; ============================================\n; Repository: mogdho/AlwaysNumLock\n; ============================================\n; URL: https://github.com/mogdho/AlwaysNumLock\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: MIT License\n;\n; Description:\n; AlwaysNumLock is a lightweight AutoHotkey v2 utility designed to force your keyboard's NumLock key to remain active at all times.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/AlwaysNumLock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/AlwaysNumLock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AlwaysNumLock>\n\n; Example initialization\nclass AlwaysnumlockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AlwaysNumLock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlwaysnumlockExample()\n```"
     }
   ]
 }
