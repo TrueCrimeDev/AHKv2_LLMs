@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-05T00:28:39.152Z",
-  "totalScripts": 229,
+  "lastUpdated": "2026-04-05T06:27:56.925Z",
+  "totalScripts": 230,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-04T21:51:26Z",
+      "lastModified": "2026-04-05T06:14:12Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/5/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -4558,6 +4558,25 @@
       "forks": 0,
       "owner": "mogdho",
       "code": "```cpp\n; ============================================\n; Repository: mogdho/AlwaysNumLock\n; ============================================\n; URL: https://github.com/mogdho/AlwaysNumLock\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: MIT License\n;\n; Description:\n; AlwaysNumLock is a lightweight AutoHotkey v2 utility designed to force your keyboard's NumLock key to remain active at all times.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/AlwaysNumLock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/AlwaysNumLock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AlwaysNumLock>\n\n; Example initialization\nclass AlwaysnumlockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AlwaysNumLock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlwaysnumlockExample()\n```"
+    },
+    {
+      "id": "github-1201695090",
+      "title": "folder-jump",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 path switcher for Windows, inspired by Listary `Ctrl+G`",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-05T03:01:13Z",
+      "lastModified": "2026-04-05T03:02:50Z",
+      "source": "github",
+      "url": "https://github.com/roverway/folder-jump",
+      "stars": 0,
+      "forks": 0,
+      "owner": "roverway",
+      "code": "```cpp\n; ============================================\n; Repository: roverway/folder-jump\n; ============================================\n; URL: https://github.com/roverway/folder-jump\n; Stars: 0 | Forks: 0\n; Last Updated: 4/5/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 path switcher for Windows, inspired by Listary `Ctrl+G`\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/roverway/folder-jump.git\n;\n; Option 2: Download ZIP\n;   https://github.com/roverway/folder-jump/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <folder-jump>\n\n; Example initialization\nclass FolderJumpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"folder-jump loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FolderJumpExample()\n```"
     }
   ]
 }
