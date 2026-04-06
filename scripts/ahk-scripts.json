@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-05T18:10:44.847Z",
-  "totalScripts": 230,
+  "lastUpdated": "2026-04-06T00:28:17.936Z",
+  "totalScripts": 231,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,13 +2178,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-05T18:02:59Z",
+      "lastModified": "2026-04-06T00:01:22Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
       "forks": 0,
       "owner": "lenin-huaylla",
-      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/5/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lenin-huaylla/Snaptivity\n; ============================================\n; URL: https://github.com/lenin-huaylla/Snaptivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/6/2026\n; License: Other\n;\n; Description:\n; 🎮 Enhance keyboard input with Snaptivity, an AutoHotkey v2 script that ensures precise, hardware-style SOCD cleaning for smoother game control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lenin-huaylla/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lenin-huaylla/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1132519676",
@@ -4040,13 +4040,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-27T08:47:49Z",
-      "lastModified": "2026-03-31T09:57:26Z",
+      "lastModified": "2026-04-05T19:28:16Z",
       "source": "github",
       "url": "https://github.com/wsnh2022/VisionScribe-AI",
-      "stars": 4,
+      "stars": 5,
       "forks": 0,
       "owner": "wsnh2022",
-      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 4 | Forks: 0\n; Last Updated: 3/31/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 5 | Forks: 0\n; Last Updated: 4/5/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
     },
     {
       "id": "github-667268886",
@@ -4577,6 +4577,31 @@
       "forks": 0,
       "owner": "roverway",
       "code": "```cpp\n; ============================================\n; Repository: roverway/folder-jump\n; ============================================\n; URL: https://github.com/roverway/folder-jump\n; Stars: 0 | Forks: 0\n; Last Updated: 4/5/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 path switcher for Windows, inspired by Listary `Ctrl+G`\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/roverway/folder-jump.git\n;\n; Option 2: Download ZIP\n;   https://github.com/roverway/folder-jump/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <folder-jump>\n\n; Example initialization\nclass FolderJumpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"folder-jump loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FolderJumpExample()\n```"
+    },
+    {
+      "id": "github-1067231522",
+      "title": "ahk-gtd-email-automation",
+      "category": "GitHub Repository",
+      "description": "Keyboard shortcuts for GTD-style email processing, folder/label management and task creation in Outlook desktop and Gmail web using AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "email-automation",
+        "gmail",
+        "gtd",
+        "gtd-applications",
+        "gtd-workflow"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-09-30T15:01:10Z",
+      "lastModified": "2026-04-05T22:49:27Z",
+      "source": "github",
+      "url": "https://github.com/turkmehmetcan/ahk-gtd-email-automation",
+      "stars": 0,
+      "forks": 1,
+      "owner": "turkmehmetcan",
+      "code": "```cpp\n; ============================================\n; Repository: turkmehmetcan/ahk-gtd-email-automation\n; ============================================\n; URL: https://github.com/turkmehmetcan/ahk-gtd-email-automation\n; Stars: 0 | Forks: 1\n; Last Updated: 4/5/2026\n; License: Not specified\n;\n; Description:\n; Keyboard shortcuts for GTD-style email processing, folder/label management and task creation in Outlook desktop and Gmail web using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/turkmehmetcan/ahk-gtd-email-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/turkmehmetcan/ahk-gtd-email-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-gtd-email-automation>\n\n; Example initialization\nclass AhkGtdEmailAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-gtd-email-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkGtdEmailAutomationExample()\n```"
     }
   ]
 }
