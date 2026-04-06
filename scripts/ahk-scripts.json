@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-06T06:39:22.752Z",
+  "lastUpdated": "2026-04-06T12:18:34.486Z",
   "totalScripts": 232,
   "categories": [
     "GUI",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-06T05:29:35Z",
+      "lastModified": "2026-04-06T10:58:59Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -4482,13 +4482,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T11:13:40Z",
-      "lastModified": "2026-04-04T12:33:59Z",
+      "lastModified": "2026-04-06T10:44:22Z",
       "source": "github",
       "url": "https://github.com/akcansoft/CtrlToolTip",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "akcansoft",
-      "code": "```cpp\n; ============================================\n; Repository: akcansoft/CtrlToolTip\n; ============================================\n; URL: https://github.com/akcansoft/CtrlToolTip\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: akcansoft/CtrlToolTip\n; ============================================\n; URL: https://github.com/akcansoft/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 4/6/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
     },
     {
       "id": "github-1199400681",
