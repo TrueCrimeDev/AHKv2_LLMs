@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-06T00:28:17.936Z",
-  "totalScripts": 231,
+  "lastUpdated": "2026-04-06T06:39:22.752Z",
+  "totalScripts": 232,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2178,7 +2178,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-12-10T21:31:27Z",
-      "lastModified": "2026-04-06T00:01:22Z",
+      "lastModified": "2026-04-06T05:29:35Z",
       "source": "github",
       "url": "https://github.com/lenin-huaylla/Snaptivity",
       "stars": 0,
@@ -3710,13 +3710,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-13T21:16:59Z",
-      "lastModified": "2026-03-15T14:09:47Z",
+      "lastModified": "2026-04-06T04:35:01Z",
       "source": "github",
       "url": "https://github.com/armaninyow/Clipboard-Plus",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "armaninyow",
-      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Clipboard-Plus\n; ============================================\n; URL: https://github.com/armaninyow/Clipboard-Plus\n; Stars: 0 | Forks: 0\n; Last Updated: 3/15/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Clipboard-Plus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Clipboard-Plus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Plus>\n\n; Example initialization\nclass ClipboardPlusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Plus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardPlusExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Clipboard-Plus\n; ============================================\n; URL: https://github.com/armaninyow/Clipboard-Plus\n; Stars: 1 | Forks: 0\n; Last Updated: 4/6/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Clipboard-Plus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Clipboard-Plus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Plus>\n\n; Example initialization\nclass ClipboardPlusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Plus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardPlusExample()\n```"
     },
     {
       "id": "github-1181511326",
@@ -4570,13 +4570,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-05T03:01:13Z",
-      "lastModified": "2026-04-05T12:19:44Z",
+      "lastModified": "2026-04-06T05:49:32Z",
       "source": "github",
       "url": "https://github.com/roverway/folder-jump",
       "stars": 0,
       "forks": 0,
       "owner": "roverway",
-      "code": "```cpp\n; ============================================\n; Repository: roverway/folder-jump\n; ============================================\n; URL: https://github.com/roverway/folder-jump\n; Stars: 0 | Forks: 0\n; Last Updated: 4/5/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 path switcher for Windows, inspired by Listary `Ctrl+G`\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/roverway/folder-jump.git\n;\n; Option 2: Download ZIP\n;   https://github.com/roverway/folder-jump/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <folder-jump>\n\n; Example initialization\nclass FolderJumpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"folder-jump loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FolderJumpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: roverway/folder-jump\n; ============================================\n; URL: https://github.com/roverway/folder-jump\n; Stars: 0 | Forks: 0\n; Last Updated: 4/6/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 path switcher for Windows, inspired by Listary `Ctrl+G`\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/roverway/folder-jump.git\n;\n; Option 2: Download ZIP\n;   https://github.com/roverway/folder-jump/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <folder-jump>\n\n; Example initialization\nclass FolderJumpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"folder-jump loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FolderJumpExample()\n```"
     },
     {
       "id": "github-1067231522",
@@ -4602,6 +4602,25 @@
       "forks": 1,
       "owner": "turkmehmetcan",
       "code": "```cpp\n; ============================================\n; Repository: turkmehmetcan/ahk-gtd-email-automation\n; ============================================\n; URL: https://github.com/turkmehmetcan/ahk-gtd-email-automation\n; Stars: 0 | Forks: 1\n; Last Updated: 4/5/2026\n; License: Not specified\n;\n; Description:\n; Keyboard shortcuts for GTD-style email processing, folder/label management and task creation in Outlook desktop and Gmail web using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/turkmehmetcan/ahk-gtd-email-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/turkmehmetcan/ahk-gtd-email-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-gtd-email-automation>\n\n; Example initialization\nclass AhkGtdEmailAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-gtd-email-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkGtdEmailAutomationExample()\n```"
+    },
+    {
+      "id": "github-1202489847",
+      "title": "Dynamic-Window-Manager",
+      "category": "GitHub Repository",
+      "description": "Built with AutoHotkey v2 and developed with the assistance of Claude AI.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-06T04:35:51Z",
+      "lastModified": "2026-04-06T05:28:01Z",
+      "source": "github",
+      "url": "https://github.com/armaninyow/Dynamic-Window-Manager",
+      "stars": 0,
+      "forks": 0,
+      "owner": "armaninyow",
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Dynamic-Window-Manager\n; ============================================\n; URL: https://github.com/armaninyow/Dynamic-Window-Manager\n; Stars: 0 | Forks: 0\n; Last Updated: 4/6/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Dynamic-Window-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Dynamic-Window-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dynamic-Window-Manager>\n\n; Example initialization\nclass DynamicWindowManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dynamic-Window-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DynamicWindowManagerExample()\n```"
     }
   ]
 }
