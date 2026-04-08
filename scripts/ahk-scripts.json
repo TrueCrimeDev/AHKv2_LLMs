@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-08T06:34:00.171Z",
-  "totalScripts": 232,
+  "lastUpdated": "2026-04-08T12:20:34.535Z",
+  "totalScripts": 233,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4614,13 +4614,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-06T04:35:51Z",
-      "lastModified": "2026-04-08T02:50:21Z",
+      "lastModified": "2026-04-08T10:55:48Z",
       "source": "github",
       "url": "https://github.com/armaninyow/Dynamic-Window-Manager",
       "stars": 5,
       "forks": 0,
       "owner": "armaninyow",
       "code": "```cpp\n; ============================================\n; Repository: armaninyow/Dynamic-Window-Manager\n; ============================================\n; URL: https://github.com/armaninyow/Dynamic-Window-Manager\n; Stars: 5 | Forks: 0\n; Last Updated: 4/8/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Dynamic-Window-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Dynamic-Window-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dynamic-Window-Manager>\n\n; Example initialization\nclass DynamicWindowManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dynamic-Window-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DynamicWindowManagerExample()\n```"
+    },
+    {
+      "id": "github-1204781820",
+      "title": "start-to-run",
+      "category": "GitHub Repository",
+      "description": "This project aims to replace the Start Menu in Windows with PowerToys Run/Command Pallete using AutoHotKey v2 script and Powertoys Key Mapping",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-08T10:25:15Z",
+      "lastModified": "2026-04-08T10:32:49Z",
+      "source": "github",
+      "url": "https://github.com/SudharsanS912/start-to-run",
+      "stars": 0,
+      "forks": 0,
+      "owner": "SudharsanS912",
+      "code": "```cpp\n; ============================================\n; Repository: SudharsanS912/start-to-run\n; ============================================\n; URL: https://github.com/SudharsanS912/start-to-run\n; Stars: 0 | Forks: 0\n; Last Updated: 4/8/2026\n; License: Not specified\n;\n; Description:\n; This project aims to replace the Start Menu in Windows with PowerToys Run/Command Pallete using AutoHotKey v2 script and Powertoys Key Mapping\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SudharsanS912/start-to-run.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SudharsanS912/start-to-run/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <start-to-run>\n\n; Example initialization\nclass StartToRunExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"start-to-run loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StartToRunExample()\n```"
     }
   ]
 }
