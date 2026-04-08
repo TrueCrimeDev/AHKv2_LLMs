@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-07T18:19:55.358Z",
+  "lastUpdated": "2026-04-08T00:28:52.743Z",
   "totalScripts": 232,
   "categories": [
     "GUI",
@@ -3710,13 +3710,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-13T21:16:59Z",
-      "lastModified": "2026-04-06T04:35:01Z",
+      "lastModified": "2026-04-07T19:34:04Z",
       "source": "github",
       "url": "https://github.com/armaninyow/Clipboard-Plus",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "armaninyow",
-      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Clipboard-Plus\n; ============================================\n; URL: https://github.com/armaninyow/Clipboard-Plus\n; Stars: 1 | Forks: 0\n; Last Updated: 4/6/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Clipboard-Plus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Clipboard-Plus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Plus>\n\n; Example initialization\nclass ClipboardPlusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Plus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardPlusExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Clipboard-Plus\n; ============================================\n; URL: https://github.com/armaninyow/Clipboard-Plus\n; Stars: 2 | Forks: 0\n; Last Updated: 4/7/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Clipboard-Plus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Clipboard-Plus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Plus>\n\n; Example initialization\nclass ClipboardPlusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Plus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardPlusExample()\n```"
     },
     {
       "id": "github-1181511326",
@@ -4103,13 +4103,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-17T03:08:50Z",
-      "lastModified": "2026-04-01T17:51:04Z",
+      "lastModified": "2026-04-07T18:52:03Z",
       "source": "github",
       "url": "https://github.com/yakunins/vertical-mouse-sensitivity",
       "stars": 0,
       "forks": 0,
       "owner": "yakunins",
-      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/1/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/7/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
     },
     {
       "id": "github-1194286569",
@@ -4438,13 +4438,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T04:35:37Z",
-      "lastModified": "2026-04-05T12:05:34Z",
+      "lastModified": "2026-04-07T21:12:18Z",
       "source": "github",
       "url": "https://github.com/jollycoder/AsyncProcessIO",
       "stars": 0,
       "forks": 0,
       "owner": "jollycoder",
-      "code": "```cpp\n; ============================================\n; Repository: jollycoder/AsyncProcessIO\n; ============================================\n; URL: https://github.com/jollycoder/AsyncProcessIO\n; Stars: 0 | Forks: 0\n; Last Updated: 4/5/2026\n; License: MIT License\n;\n; Description:\n;  Asynchronous process I/O for AutoHotkey v2 — non-blocking stdin/stdout/stderr reading via overlapped named pipes\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/AsyncProcessIO.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/AsyncProcessIO/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AsyncProcessIO>\n\n; Example initialization\nclass AsyncprocessioExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AsyncProcessIO loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsyncprocessioExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/AsyncProcessIO\n; ============================================\n; URL: https://github.com/jollycoder/AsyncProcessIO\n; Stars: 0 | Forks: 0\n; Last Updated: 4/7/2026\n; License: MIT License\n;\n; Description:\n;  Asynchronous process I/O for AutoHotkey v2 — non-blocking stdin/stdout/stderr reading via overlapped named pipes\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/AsyncProcessIO.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/AsyncProcessIO/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AsyncProcessIO>\n\n; Example initialization\nclass AsyncprocessioExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AsyncProcessIO loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsyncprocessioExample()\n```"
     },
     {
       "id": "github-1201321231",
@@ -4614,13 +4614,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-06T04:35:51Z",
-      "lastModified": "2026-04-07T18:11:36Z",
+      "lastModified": "2026-04-07T22:01:00Z",
       "source": "github",
       "url": "https://github.com/armaninyow/Dynamic-Window-Manager",
-      "stars": 1,
+      "stars": 4,
       "forks": 0,
       "owner": "armaninyow",
-      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Dynamic-Window-Manager\n; ============================================\n; URL: https://github.com/armaninyow/Dynamic-Window-Manager\n; Stars: 1 | Forks: 0\n; Last Updated: 4/7/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Dynamic-Window-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Dynamic-Window-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dynamic-Window-Manager>\n\n; Example initialization\nclass DynamicWindowManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dynamic-Window-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DynamicWindowManagerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Dynamic-Window-Manager\n; ============================================\n; URL: https://github.com/armaninyow/Dynamic-Window-Manager\n; Stars: 4 | Forks: 0\n; Last Updated: 4/7/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Dynamic-Window-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Dynamic-Window-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dynamic-Window-Manager>\n\n; Example initialization\nclass DynamicWindowManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dynamic-Window-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DynamicWindowManagerExample()\n```"
     }
   ]
 }
