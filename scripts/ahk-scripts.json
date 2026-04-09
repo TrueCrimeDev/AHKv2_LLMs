@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-09T12:22:53.795Z",
-  "totalScripts": 236,
+  "lastUpdated": "2026-04-09T18:22:28.743Z",
+  "totalScripts": 237,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -3374,13 +3374,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-03-09T12:54:32Z",
+      "lastModified": "2026-04-09T18:20:10Z",
       "source": "github",
       "url": "https://github.com/Ekko7778/CapsCopyTip",
       "stars": 1,
       "forks": 0,
       "owner": "Ekko7778",
-      "code": "```cpp\n; ============================================\n; Repository: Ekko7778/CapsCopyTip\n; ============================================\n; URL: https://github.com/Ekko7778/CapsCopyTip\n; Stars: 1 | Forks: 0\n; Last Updated: 3/9/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ekko7778/CapsCopyTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ekko7778/CapsCopyTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsCopyTip>\n\n; Example initialization\nclass CapscopytipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsCopyTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapscopytipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Ekko7778/CapsCopyTip\n; ============================================\n; URL: https://github.com/Ekko7778/CapsCopyTip\n; Stars: 1 | Forks: 0\n; Last Updated: 4/9/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ekko7778/CapsCopyTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ekko7778/CapsCopyTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsCopyTip>\n\n; Example initialization\nclass CapscopytipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsCopyTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapscopytipExample()\n```"
     },
     {
       "id": "github-1169730446",
@@ -4699,6 +4699,25 @@
       "forks": 0,
       "owner": "dyjung150605",
       "code": "```cpp\n; ============================================\n; Repository: dyjung150605/autoHotkey_config\n; ============================================\n; URL: https://github.com/dyjung150605/autoHotkey_config\n; Stars: 0 | Forks: 0\n; Last Updated: 4/9/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for screen capture → file path clipboard workflow (Windows CLI image paste workaround)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dyjung150605/autoHotkey_config.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dyjung150605/autoHotkey_config/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autoHotkey_config>\n\n; Example initialization\nclass AutohotkeyConfigExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autoHotkey_config loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyConfigExample()\n```"
+    },
+    {
+      "id": "github-1065522814",
+      "title": "AutoHotKey-V2",
+      "category": "GitHub Repository",
+      "description": "Collection of AutoHotkey V2 scritps",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-09-27T22:30:57Z",
+      "lastModified": "2026-04-09T13:57:11Z",
+      "source": "github",
+      "url": "https://github.com/ByteBot0/AutoHotKey-V2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ByteBot0",
+      "code": "```cpp\n; ============================================\n; Repository: ByteBot0/AutoHotKey-V2\n; ============================================\n; URL: https://github.com/ByteBot0/AutoHotKey-V2\n; Stars: 0 | Forks: 0\n; Last Updated: 4/9/2026\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey V2 scritps\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ByteBot0/AutoHotKey-V2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ByteBot0/AutoHotKey-V2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotKey-V2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotKey-V2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     }
   ]
 }
