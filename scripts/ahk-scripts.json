@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-10T00:27:04.698Z",
+  "lastUpdated": "2026-04-10T06:38:17.052Z",
   "totalScripts": 237,
   "categories": [
     "GUI",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-03-31T22:06:49Z",
+      "lastModified": "2026-04-10T02:56:03Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
       "stars": 33,
       "forks": 4,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 33 | Forks: 4\n; Last Updated: 3/31/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 33 | Forks: 4\n; Last Updated: 4/10/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -3365,7 +3365,7 @@
     },
     {
       "id": "github-1169619112",
-      "title": "CapsCopyTip",
+      "title": "CursorTip",
       "category": "GitHub Repository",
       "description": "AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示",
       "tags": [
@@ -3374,13 +3374,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-04-09T21:04:36Z",
+      "lastModified": "2026-04-10T03:13:08Z",
       "source": "github",
-      "url": "https://github.com/Ekko7778/CapsCopyTip",
+      "url": "https://github.com/zeno528/CursorTip",
       "stars": 1,
       "forks": 0,
-      "owner": "Ekko7778",
-      "code": "```cpp\n; ============================================\n; Repository: Ekko7778/CapsCopyTip\n; ============================================\n; URL: https://github.com/Ekko7778/CapsCopyTip\n; Stars: 1 | Forks: 0\n; Last Updated: 4/9/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ekko7778/CapsCopyTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ekko7778/CapsCopyTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsCopyTip>\n\n; Example initialization\nclass CapscopytipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsCopyTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapscopytipExample()\n```"
+      "owner": "zeno528",
+      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 1 | Forks: 0\n; Last Updated: 4/10/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
     },
     {
       "id": "github-1169730446",
