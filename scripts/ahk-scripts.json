@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-10T06:38:17.052Z",
-  "totalScripts": 237,
+  "lastUpdated": "2026-04-10T12:17:59.024Z",
+  "totalScripts": 238,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -3374,7 +3374,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-04-10T03:13:08Z",
+      "lastModified": "2026-04-10T11:38:31Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
       "stars": 1,
@@ -4040,13 +4040,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-27T08:47:49Z",
-      "lastModified": "2026-04-05T19:28:16Z",
+      "lastModified": "2026-04-10T09:05:42Z",
       "source": "github",
       "url": "https://github.com/wsnh2022/VisionScribe-AI",
       "stars": 5,
       "forks": 0,
       "owner": "wsnh2022",
-      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 5 | Forks: 0\n; Last Updated: 4/5/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 5 | Forks: 0\n; Last Updated: 4/10/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
     },
     {
       "id": "github-667268886",
@@ -4718,6 +4718,25 @@
       "forks": 0,
       "owner": "ByteBot0",
       "code": "```cpp\n; ============================================\n; Repository: ByteBot0/AutoHotKey-V2\n; ============================================\n; URL: https://github.com/ByteBot0/AutoHotKey-V2\n; Stars: 0 | Forks: 0\n; Last Updated: 4/9/2026\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey V2 scritps\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ByteBot0/AutoHotKey-V2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ByteBot0/AutoHotKey-V2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotKey-V2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotKey-V2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-1206848030",
+      "title": "MinimizeWisprFlow",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script to auto-minimize Wispr Flow windows on Windows startup",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-10T10:05:42Z",
+      "lastModified": "2026-04-10T10:05:49Z",
+      "source": "github",
+      "url": "https://github.com/OC-WL/MinimizeWisprFlow",
+      "stars": 0,
+      "forks": 0,
+      "owner": "OC-WL",
+      "code": "```cpp\n; ============================================\n; Repository: OC-WL/MinimizeWisprFlow\n; ============================================\n; URL: https://github.com/OC-WL/MinimizeWisprFlow\n; Stars: 0 | Forks: 0\n; Last Updated: 4/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script to auto-minimize Wispr Flow windows on Windows startup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/OC-WL/MinimizeWisprFlow.git\n;\n; Option 2: Download ZIP\n;   https://github.com/OC-WL/MinimizeWisprFlow/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MinimizeWisprFlow>\n\n; Example initialization\nclass MinimizewisprflowExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MinimizeWisprFlow loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MinimizewisprflowExample()\n```"
     }
   ]
 }
