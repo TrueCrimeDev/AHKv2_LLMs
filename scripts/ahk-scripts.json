@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-11T12:11:42.200Z",
-  "totalScripts": 238,
+  "lastUpdated": "2026-04-11T18:10:56.892Z",
+  "totalScripts": 240,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1710,13 +1710,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-03T17:06:06Z",
-      "lastModified": "2026-01-03T17:08:08Z",
+      "lastModified": "2026-04-11T12:25:51Z",
       "source": "github",
       "url": "https://github.com/eyetechanalytics/Keyfinder",
       "stars": 0,
       "forks": 0,
       "owner": "eyetechanalytics",
-      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Keyfinder\n; ============================================\n; URL: https://github.com/eyetechanalytics/Keyfinder\n; Stars: 0 | Forks: 0\n; Last Updated: 1/3/2026\n; License: MIT License\n;\n; Description:\n; An advanced Windows utility for capturing application metadata, managing keyboard shortcuts, and tracking accessibility compatibility. Built with AutoHotkey v2.0+ and featuring a stable, theme-aware GUI and SQLite integration.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Keyfinder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Keyfinder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Keyfinder>\n\n; Example initialization\nclass KeyfinderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Keyfinder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyfinderExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Keyfinder\n; ============================================\n; URL: https://github.com/eyetechanalytics/Keyfinder\n; Stars: 0 | Forks: 0\n; Last Updated: 4/11/2026\n; License: MIT License\n;\n; Description:\n; An advanced Windows utility for capturing application metadata, managing keyboard shortcuts, and tracking accessibility compatibility. Built with AutoHotkey v2.0+ and featuring a stable, theme-aware GUI and SQLite integration.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Keyfinder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Keyfinder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Keyfinder>\n\n; Example initialization\nclass KeyfinderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Keyfinder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyfinderExample()\n```"
     },
     {
       "id": "github-1127321492",
@@ -1729,7 +1729,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-03T16:38:09Z",
-      "lastModified": "2026-04-11T12:11:11Z",
+      "lastModified": "2026-04-11T12:30:47Z",
       "source": "github",
       "url": "https://github.com/eyetechanalytics/Beacon",
       "stars": 0,
@@ -4737,6 +4737,44 @@
       "forks": 0,
       "owner": "OC-WL",
       "code": "```cpp\n; ============================================\n; Repository: OC-WL/MinimizeWisprFlow\n; ============================================\n; URL: https://github.com/OC-WL/MinimizeWisprFlow\n; Stars: 0 | Forks: 0\n; Last Updated: 4/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script to auto-minimize Wispr Flow windows on Windows startup\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/OC-WL/MinimizeWisprFlow.git\n;\n; Option 2: Download ZIP\n;   https://github.com/OC-WL/MinimizeWisprFlow/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MinimizeWisprFlow>\n\n; Example initialization\nclass MinimizewisprflowExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MinimizeWisprFlow loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MinimizewisprflowExample()\n```"
+    },
+    {
+      "id": "github-1207946712",
+      "title": "WinToolbox-AHK",
+      "category": "GitHub Repository",
+      "description": "A handy toolkit for Windows based on AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-11T16:06:51Z",
+      "lastModified": "2026-04-11T16:15:35Z",
+      "source": "github",
+      "url": "https://github.com/2doright/WinToolbox-AHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "2doright",
+      "code": "```cpp\n; ============================================\n; Repository: 2doright/WinToolbox-AHK\n; ============================================\n; URL: https://github.com/2doright/WinToolbox-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 4/11/2026\n; License: Not specified\n;\n; Description:\n; A handy toolkit for Windows based on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2doright/WinToolbox-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2doright/WinToolbox-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinToolbox-AHK>\n\n; Example initialization\nclass WintoolboxAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinToolbox-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WintoolboxAhkExample()\n```"
+    },
+    {
+      "id": "github-1207794645",
+      "title": "Wayfinder",
+      "category": "GitHub Repository",
+      "description": "Advanced custom menu and workflow automation system built on AutoHotkey v2.0+. Features context-aware hotkeys, hotstrings, dynamic menus, and portable/installed modes for blind and low-vision users.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-11T12:14:19Z",
+      "lastModified": "2026-04-11T12:18:01Z",
+      "source": "github",
+      "url": "https://github.com/eyetechanalytics/Wayfinder",
+      "stars": 0,
+      "forks": 0,
+      "owner": "eyetechanalytics",
+      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Wayfinder\n; ============================================\n; URL: https://github.com/eyetechanalytics/Wayfinder\n; Stars: 0 | Forks: 0\n; Last Updated: 4/11/2026\n; License: MIT License\n;\n; Description:\n; Advanced custom menu and workflow automation system built on AutoHotkey v2.0+. Features context-aware hotkeys, hotstrings, dynamic menus, and portable/installed modes for blind and low-vision users.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Wayfinder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Wayfinder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Wayfinder>\n\n; Example initialization\nclass WayfinderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Wayfinder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WayfinderExample()\n```"
     }
   ]
 }
