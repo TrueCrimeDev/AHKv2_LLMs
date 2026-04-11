@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-11T06:23:58.510Z",
+  "lastUpdated": "2026-04-11T12:11:42.200Z",
   "totalScripts": 238,
   "categories": [
     "GUI",
@@ -1729,13 +1729,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-03T16:38:09Z",
-      "lastModified": "2026-01-03T16:42:10Z",
+      "lastModified": "2026-04-11T12:11:11Z",
       "source": "github",
       "url": "https://github.com/eyetechanalytics/Beacon",
       "stars": 0,
       "forks": 0,
       "owner": "eyetechanalytics",
-      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Beacon\n; ============================================\n; URL: https://github.com/eyetechanalytics/Beacon\n; Stars: 0 | Forks: 0\n; Last Updated: 1/3/2026\n; License: MIT License\n;\n; Description:\n; Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Beacon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Beacon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Beacon>\n\n; Example initialization\nclass BeaconExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Beacon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeaconExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Beacon\n; ============================================\n; URL: https://github.com/eyetechanalytics/Beacon\n; Stars: 0 | Forks: 0\n; Last Updated: 4/11/2026\n; License: MIT License\n;\n; Description:\n; Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Beacon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Beacon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Beacon>\n\n; Example initialization\nclass BeaconExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Beacon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeaconExample()\n```"
     },
     {
       "id": "github-1127454293",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-04-09T07:55:55Z",
+      "lastModified": "2026-04-11T08:36:36Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 4/9/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 4/11/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -4614,13 +4614,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-06T04:35:51Z",
-      "lastModified": "2026-04-11T06:14:46Z",
+      "lastModified": "2026-04-11T08:16:26Z",
       "source": "github",
       "url": "https://github.com/armaninyow/Dynamic-Window-Manager",
-      "stars": 8,
+      "stars": 9,
       "forks": 0,
       "owner": "armaninyow",
-      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Dynamic-Window-Manager\n; ============================================\n; URL: https://github.com/armaninyow/Dynamic-Window-Manager\n; Stars: 8 | Forks: 0\n; Last Updated: 4/11/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Dynamic-Window-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Dynamic-Window-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dynamic-Window-Manager>\n\n; Example initialization\nclass DynamicWindowManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dynamic-Window-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DynamicWindowManagerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Dynamic-Window-Manager\n; ============================================\n; URL: https://github.com/armaninyow/Dynamic-Window-Manager\n; Stars: 9 | Forks: 0\n; Last Updated: 4/11/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Dynamic-Window-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Dynamic-Window-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dynamic-Window-Manager>\n\n; Example initialization\nclass DynamicWindowManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dynamic-Window-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DynamicWindowManagerExample()\n```"
     },
     {
       "id": "github-1204781820",
