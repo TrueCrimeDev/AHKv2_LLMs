@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-12T00:30:22.957Z",
+  "lastUpdated": "2026-04-12T06:34:09.202Z",
   "totalScripts": 240,
   "categories": [
     "GUI",
@@ -4633,13 +4633,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-08T10:25:15Z",
-      "lastModified": "2026-04-09T06:11:48Z",
+      "lastModified": "2026-04-12T06:16:40Z",
       "source": "github",
       "url": "https://github.com/SudharsanS912/start-to-run",
       "stars": 0,
       "forks": 0,
       "owner": "SudharsanS912",
-      "code": "```cpp\n; ============================================\n; Repository: SudharsanS912/start-to-run\n; ============================================\n; URL: https://github.com/SudharsanS912/start-to-run\n; Stars: 0 | Forks: 0\n; Last Updated: 4/9/2026\n; License: Not specified\n;\n; Description:\n; This project aims to replace the Start Menu in Windows with PowerToys Run/Command Pallete using AutoHotKey v2 script and Powertoys Key Mapping\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SudharsanS912/start-to-run.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SudharsanS912/start-to-run/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <start-to-run>\n\n; Example initialization\nclass StartToRunExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"start-to-run loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StartToRunExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: SudharsanS912/start-to-run\n; ============================================\n; URL: https://github.com/SudharsanS912/start-to-run\n; Stars: 0 | Forks: 0\n; Last Updated: 4/12/2026\n; License: Not specified\n;\n; Description:\n; This project aims to replace the Start Menu in Windows with PowerToys Run/Command Pallete using AutoHotKey v2 script and Powertoys Key Mapping\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SudharsanS912/start-to-run.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SudharsanS912/start-to-run/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <start-to-run>\n\n; Example initialization\nclass StartToRunExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"start-to-run loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StartToRunExample()\n```"
     },
     {
       "id": "github-1205141165",
@@ -4749,13 +4749,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-11T16:06:51Z",
-      "lastModified": "2026-04-11T16:15:35Z",
+      "lastModified": "2026-04-12T02:39:16Z",
       "source": "github",
       "url": "https://github.com/2doright/WinToolbox-AHK",
       "stars": 0,
       "forks": 0,
       "owner": "2doright",
-      "code": "```cpp\n; ============================================\n; Repository: 2doright/WinToolbox-AHK\n; ============================================\n; URL: https://github.com/2doright/WinToolbox-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 4/11/2026\n; License: Not specified\n;\n; Description:\n; A handy toolkit for Windows based on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2doright/WinToolbox-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2doright/WinToolbox-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinToolbox-AHK>\n\n; Example initialization\nclass WintoolboxAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinToolbox-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WintoolboxAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 2doright/WinToolbox-AHK\n; ============================================\n; URL: https://github.com/2doright/WinToolbox-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 4/12/2026\n; License: Not specified\n;\n; Description:\n; A handy toolkit for Windows based on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2doright/WinToolbox-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2doright/WinToolbox-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinToolbox-AHK>\n\n; Example initialization\nclass WintoolboxAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinToolbox-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WintoolboxAhkExample()\n```"
     },
     {
       "id": "github-1207794645",
