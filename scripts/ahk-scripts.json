@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-12T06:34:09.202Z",
+  "lastUpdated": "2026-04-12T12:12:47.285Z",
   "totalScripts": 240,
   "categories": [
     "GUI",
@@ -4078,13 +4078,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-28T05:12:54Z",
-      "lastModified": "2026-03-30T11:36:22Z",
+      "lastModified": "2026-04-12T11:53:07Z",
       "source": "github",
       "url": "https://github.com/shamanlim2/Gdip_All_v2",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "shamanlim2",
-      "code": "```cpp\n; ============================================\n; Repository: shamanlim2/Gdip_All_v2\n; ============================================\n; URL: https://github.com/shamanlim2/Gdip_All_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 3/30/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 compatible Gdip library. Fixed Buffer object Ptr issues, DllCall return types, and VarRef (ByRef) syntax for v2 stability.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shamanlim2/Gdip_All_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shamanlim2/Gdip_All_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Gdip_All_v2>\n\n; Example initialization\nclass GdipAllV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Gdip_All_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GdipAllV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: shamanlim2/Gdip_All_v2\n; ============================================\n; URL: https://github.com/shamanlim2/Gdip_All_v2\n; Stars: 1 | Forks: 0\n; Last Updated: 4/12/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 compatible Gdip library. Fixed Buffer object Ptr issues, DllCall return types, and VarRef (ByRef) syntax for v2 stability.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shamanlim2/Gdip_All_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shamanlim2/Gdip_All_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Gdip_All_v2>\n\n; Example initialization\nclass GdipAllV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Gdip_All_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GdipAllV2Example()\n```"
     },
     {
       "id": "github-1183877125",
@@ -4633,7 +4633,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-08T10:25:15Z",
-      "lastModified": "2026-04-12T06:16:40Z",
+      "lastModified": "2026-04-12T06:37:06Z",
       "source": "github",
       "url": "https://github.com/SudharsanS912/start-to-run",
       "stars": 0,
