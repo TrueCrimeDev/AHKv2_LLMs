@@ -467,28 +467,62 @@ pre code {
   color: #d4d4d4;
 }
 
-/* Override highlight.js theme background */
+/* Override highlight.js theme -- VS Code Dark+ exact colors */
 pre code.hljs,
 .hljs {
   background: #171717 !important;
+  color: #9cdcfe !important;
 }
 
-/* Custom syntax colors for cpp/ahk code on dark gray */
-.hljs-keyword,
-.hljs-built_in { color: #569cd6; }
-.hljs-type,
-.hljs-class .hljs-title { color: #4ec9b0; }
-.hljs-string { color: #ce9178; }
-.hljs-number { color: #b5cea8; }
-.hljs-comment { color: #6a9955; font-style: italic; }
-.hljs-function .hljs-title,
-.hljs-title.function_ { color: #dcdcaa; }
+/* Keywords: if, for, class, Struct, return, static -- blue */
+.hljs-keyword { color: #569cd6 !important; }
+
+/* Types: Float32, Int64, UInt8, i32, u16 -- teal */
+.hljs-type { color: #4ec9b0 !important; }
+
+/* Class/struct names: Vec3f, SensorReading, POINT -- teal */
+.hljs-title.class,
+.hljs-title.class_ { color: #4ec9b0 !important; }
+
+/* Function declarations -- yellow */
+.hljs-title.function,
+.hljs-title.function_ { color: #dcdcaa !important; }
+
+/* Function/constructor calls -- yellow */
+.hljs-title.function.invoke,
+.hljs-title.function_.invoke { color: #dcdcaa !important; }
+
+/* Built-in functions: DllCall, Format, WinExist -- yellow */
+.hljs-built_in { color: #dcdcaa !important; }
+
+/* Strings -- orange */
+.hljs-string { color: #ce9178 !important; }
+
+/* Numbers -- light green */
+.hljs-number { color: #b5cea8 !important; }
+
+/* Comments -- green italic */
+.hljs-comment { color: #6a9955 !important; font-style: italic; }
+
+/* Directives: #Requires, #Include, #Import -- purple */
+.hljs-meta { color: #c586c0 !important; }
+
+/* Variables, params, properties -- light blue */
 .hljs-variable,
-.hljs-params { color: #9cdcfe; }
-.hljs-attr { color: #9cdcfe; }
-.hljs-literal { color: #569cd6; }
-.hljs-operator { color: #d4d4d4; }
-.hljs-punctuation { color: #d4d4d4; }
-.hljs-meta { color: #c586c0; }
-.hljs-meta .hljs-keyword { color: #c586c0; }
-.hljs-meta .hljs-string { color: #ce9178; }
+.hljs-variable.language,
+.hljs-params { color: #9cdcfe !important; }
+
+/* Property access (.x, .Size, .Length) -- light blue */
+.hljs-property { color: #9cdcfe !important; }
+
+/* Operators (:=, =>, +=) -- white */
+.hljs-operator { color: #d4d4d4 !important; }
+
+/* Punctuation -- white */
+.hljs-punctuation { color: #d4d4d4 !important; }
+
+/* Literals (true, false) -- blue */
+.hljs-literal { color: #569cd6 !important; }
+
+/* Hotkey symbols -- yellow */
+.hljs-symbol { color: #dcdcaa !important; }
