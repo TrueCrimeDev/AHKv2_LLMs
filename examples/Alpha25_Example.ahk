@@ -14,9 +14,7 @@ Run: bin\AutoHotkey64.exe Alpha25_Example.ahk
 */
 #Requires AutoHotkey v2.1-alpha.25
 
-; ═══════════════════════════════════════════════════════
 ; AHK_OPT -- per-call window search options
-; ═══════════════════════════════════════════════════════
 
 ; Find windows with inline options -- no global state changes.
 ; Options: Hidden, Hidden0, HiddenText, HiddenText0,
@@ -46,17 +44,13 @@ hwnd_progman := WinExist("ahk_class Progman ahk_opt Hidden")
 if hwnd_progman
     hiddenWindows.Push({title: "Progman class", hwnd: hwnd_progman})
 
-; ═══════════════════════════════════════════════════════
 ; WINEXIST EXCLUSION FIXES
-; ═══════════════════════════════════════════════════════
 
 ; Fix 1: ExcludeText no longer excludes controlless windows
 ; Fix 2: WinExist("", "Text") no longer reads all window titles
 hwnd_active := WinExist("A")
 
-; ═══════════════════════════════════════════════════════
 ; DLLCALL SAFETY
-; ═══════════════════════════════════════════════════════
 
 ; Array class as return type -> proper error, not crash
 ; DllCall("SomeFunc", POINT[3])  ; TypeError in alpha.25
@@ -66,9 +60,7 @@ Struct POINT {
     y: i32
 }
 
-; ═══════════════════════════════════════════════════════
 ; STRUCT.PTR.__VALUE -- consolidated to base class
-; ═══════════════════════════════════════════════════════
 
 Struct Vec2 {
     x: Float32
@@ -79,9 +71,7 @@ vec := Vec2()
 vec.x := 10.5
 vec.y := 20.5
 
-; ═══════════════════════════════════════════════════════
 ; HOTKEY FIXES (behavioral, shown in comments)
-; ═══════════════════════════════════════════════════════
 
 ; Key-up fires consistently as prefix+suffix:
 ;   LCtrl::Send "hello"
@@ -92,25 +82,19 @@ vec.y := 20.5
 ;
 ; Key suppression respects SendLevel
 
-; ═══════════════════════════════════════════════════════
 ; MODULE FIXES (requires separate module files)
-; ═══════════════════════════════════════════════════════
 
 ; - ModuleA.B initializes classes on access
 ; - Wildcard imports resolve correctly in A.B
 ; - Unset globals via Module -> error, not segfault
 ; - global g / export global g conflict resolved
 
-; ═══════════════════════════════════════════════════════
 ; GUI + TIMER FIXES
-; ═══════════════════════════════════════════════════════
 
 ; - GUI control sizing fixed for Windows 7
 ; - Timer threads wait for MsgBox to fully display
 
-; ═══════════════════════════════════════════════════════
 ; OUTPUT SUMMARY
-; ═══════════════════════════════════════════════════════
 
 stdout := FileOpen("*", "w", "UTF-8")
 P(text := "") => stdout.Write(text "`n")

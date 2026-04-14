@@ -450,8 +450,8 @@ code {
 pre {
   margin: 20px 0;
   padding: 18px 20px;
-  background: #1e1e1e;
-  border: 1px solid #333333;
+  background: #171717;
+  border: 1px solid #2a2a2a;
   border-radius: var(--radius-md);
   overflow-x: auto;
 }
@@ -467,10 +467,10 @@ pre code {
   color: #d4d4d4;
 }
 
-/* Override highlight.js github-dark theme background */
+/* Override highlight.js theme background */
 pre code.hljs,
 .hljs {
-  background: #1e1e1e !important;
+  background: #171717 !important;
 }
 
 /* Custom syntax colors for cpp/ahk code on dark gray */

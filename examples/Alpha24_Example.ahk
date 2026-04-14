@@ -13,9 +13,7 @@ Run: bin\AutoHotkey64.exe Alpha24_Example.ahk
 */
 #Requires AutoHotkey v2.1-alpha.24
 
-; ═══════════════════════════════════════════════════════
 ; CALLBACKCREATE -- typed parameter arrays
-; ═══════════════════════════════════════════════════════
 
 ; Classic: count-based (integer-only)
 AddInts(a, b) => a + b
@@ -41,9 +39,7 @@ cb_mix := CallbackCreate(Multiply, , [Float64, Int32, Float64])
 r_mix := DllCall(cb_mix, "Double", 3.14, "Int", 3, "Double")
 CallbackFree(cb_mix)
 
-; ═══════════════════════════════════════════════════════
 ; DEFINEPROP OFFSET -- C-style unions
-; ═══════════════════════════════════════════════════════
 
 ; VARIANT-style discriminated union: multiple types at same offset
 Struct Variant {
@@ -88,9 +84,7 @@ DefineProp Register.Prototype, "full", {Type: UInt32, Offset: "lo"}
 reg := Register()
 reg.full := 0xDEADBEEF
 
-; ═══════════════════════════════════════════════════════
 ; STRUCT.PTR INHERITANCE
-; ═══════════════════════════════════════════════════════
 
 ; a.Ptr subclasses a.base.Ptr -- proper polymorphism
 Struct Shape {
@@ -106,9 +100,7 @@ ci.radius := 5.0
 ci.area := 3.14159 * ci.radius ** 2
 ; Circle.Ptr -> Shape.Ptr -> Struct.Ptr
 
-; ═══════════════════════════════════════════════════════
 ; GETOWNPROPDESC -- runtime type introspection
-; ═══════════════════════════════════════════════════════
 
 Struct Sensor {
     value: Float32
@@ -121,9 +113,7 @@ sensorFields := Map()
 for field in ["value", "id", "flags"]
     sensorFields[field] := Sensor.Prototype.GetOwnPropDesc(field).Type
 
-; ═══════════════════════════════════════════════════════
 ; MODULE RE-EXPORT (requires separate files)
-; ═══════════════════════════════════════════════════════
 
 ; #Import Export ModuleName {*}  -- re-exports all public symbols
 ;
@@ -138,9 +128,7 @@ for field in ["value", "id", "flags"]
 ; ; app.ahk
 ; #Import Math {Vec2}  ; works via re-export
 
-; ═══════════════════════════════════════════════════════
 ; STRUCT CLEANUP FIXES
-; ═══════════════════════════════════════════════════════
 
 ; Struct.Ptr and Struct[N] no longer leak via circular refs
 Struct Tile {
@@ -163,9 +151,7 @@ o := Outer()
 o.header.data := 0xCAFEBABE
 o.tag := 24
 
-; ═══════════════════════════════════════════════════════
 ; OUTPUT SUMMARY
-; ═══════════════════════════════════════════════════════
 
 stdout := FileOpen("*", "w", "UTF-8")
 P(text := "") => stdout.Write(text "`n")

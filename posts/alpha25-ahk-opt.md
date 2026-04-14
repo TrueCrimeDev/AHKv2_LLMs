@@ -6,7 +6,7 @@ Alpha.25 is a stability-focused release with one standout user-facing feature: `
 
 This is the headline feature. Previously, finding hidden windows required changing global state:
 
-```cpp
+```ahk2
 ; Old way: changes global setting
 DetectHiddenWindows true
 hwnd := WinExist("Notepad")
@@ -15,7 +15,7 @@ DetectHiddenWindows false  ; hope you remembered to reset
 
 `ahk_opt` lets you specify these settings per-call:
 
-```cpp
+```ahk2
 ; New way: inline, no global side effects
 hwnd := WinExist("Notepad ahk_opt Hidden 2")
 ```
@@ -35,7 +35,7 @@ hwnd := WinExist("Notepad ahk_opt Hidden 2")
 
 `ahk_opt` works alongside all existing `ahk_` criteria:
 
-```cpp
+```ahk2
 ; Find taskbar even when hidden
 hwnd := WinExist("ahk_class Shell_TrayWnd ahk_opt Hidden")
 
@@ -54,7 +54,7 @@ Global state is the enemy of reliable scripts. When you call `DetectHiddenWindow
 
 ### Practical: Finding Hidden System Windows
 
-```cpp
+```ahk2
 found := []
 for title in ["Program Manager", "MSCTFIME UI", "Default IME"] {
     hwnd := WinExist(title " ahk_opt Hidden 1")
@@ -77,7 +77,7 @@ Two bugs fixed in `WinExist`:
 
 Alpha.25 adds a guard against a crash scenario: passing a struct array class as a `DllCall` return type.
 
-```cpp
+```ahk2
 Struct POINT { x: i32, y: i32 }
 
 ; Before alpha.25: crash
@@ -95,7 +95,7 @@ Three fixes that improve hotkey reliability:
 
 Key-up hotkeys now fire consistently when the same key is used as both prefix and suffix:
 
-```cpp
+```ahk2
 LCtrl::Send "hello"      ; LCtrl as prefix
 LCtrl up::ToolTip "up"   ; LCtrl up as suffix -- now reliable
 ```
@@ -106,7 +106,7 @@ Previously the up hotkey might not fire depending on timing.
 
 Custom combo hotkeys with neutral modifiers now work:
 
-```cpp
+```ahk2
 Alt & Esc::MsgBox "works"  ; Alt (not LAlt/RAlt) as prefix
 ```
 
