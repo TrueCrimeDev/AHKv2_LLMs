@@ -1,5 +1,13 @@
 [
   {
+    "slug": "alpha-tricks",
+    "title": "AHK v2.1 Alpha Tricks: Unions, Arenas, and Prototype Black Magic",
+    "date": "2026-04-14",
+    "description": "Advanced patterns combining struct unions, typed callbacks, DefineProp, and Struct.At -- IEEE 754 dissection, ring buffers, arena allocators, Vec2 math, and dynamic class factories.",
+    "tags": ["Alpha Release", "Structs", "Advanced", "DefineProp"],
+    "path": "posts/alpha-tricks.md"
+  },
+  {
     "slug": "alpha26-performance",
     "title": "AHK v2.1-alpha.26: Memory Optimization and Modal Dialog Fixes",
     "date": "2026-04-14",
