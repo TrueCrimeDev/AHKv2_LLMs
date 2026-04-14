@@ -18,7 +18,7 @@ Alpha.23 introduces named numeric types that extend the Struct system. These rep
 
 These work as struct field types and enable float support in struct definitions:
 
-```cpp
+```ahk2
 Struct Vec3f {
     x: Float32
     y: Float32
@@ -34,7 +34,7 @@ v.x := 1.5, v.y := 2.7, v.z := -3.14
 
 Numeric types can be freely mixed in a single struct. The compiler handles alignment automatically:
 
-```cpp
+```ahk2
 Struct SensorReading {
     timestamp: Int64       ; 8 bytes
     temperature: Float32   ; 4 bytes
@@ -52,7 +52,7 @@ The `StructClass[N]` syntax creates typed arrays -- contiguous blocks of memory 
 
 ### Primitive Arrays
 
-```cpp
+```ahk2
 a := Int32[4]()
 a[1] := 10, a[2] := 20, a[3] := 30, a[4] := 40
 ; 16 bytes total, Length=4
@@ -66,7 +66,7 @@ Key behaviors:
 
 ### Float Arrays
 
-```cpp
+```ahk2
 f := Float64[3]()
 f[1] := 3.14159
 f[2] := 2.71828
@@ -80,7 +80,7 @@ Float arrays are critical for scientific computing, graphics, and any API that e
 
 The real power: arrays of user-defined structs.
 
-```cpp
+```ahk2
 Struct POINT {
     x: i32
     y: i32
@@ -99,7 +99,7 @@ Each element is a full struct instance. You access fields with the standard dot 
 
 `UInt8[N]` creates a typed byte buffer, useful for raw data manipulation:
 
-```cpp
+```ahk2
 h := UInt8[32]()
 loop 32
     h[A_Index] := Mod(A_Index * 17, 256)
@@ -109,7 +109,7 @@ loop 32
 
 Struct arrays shine when working with Win32 GDI:
 
-```cpp
+```ahk2
 Struct RGBQUAD {
     blue: u8
     green: u8
@@ -129,7 +129,7 @@ This can be passed directly to `SetDIBColorTable` or any GDI function that expec
 
 Alpha.23 fixes `.Size` to return the struct's **layout size** rather than the allocated object size. Previously, `.Size` could return a larger value that included internal AHK overhead. Now it matches the C `sizeof()` equivalent:
 
-```cpp
+```ahk2
 Struct SmallPair {
     a: u8
     b: u8

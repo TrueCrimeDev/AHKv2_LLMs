@@ -15,18 +15,14 @@ Run: bin\AutoHotkey64.exe Alpha26_Example.ahk
 */
 #Requires AutoHotkey v2.1-alpha.26
 
-; ═══════════════════════════════════════════════════════
 ; ISSET(VAR?) FIX
-; ═══════════════════════════════════════════════════════
 
 ; The '?' maybe-unset suffix now works inside IsSet().
 myVar := "hello"
 isMyVarSet := IsSet(myVar)
 isNopeSet := IsSet(nope)
 
-; ═══════════════════════════════════════════════════════
 ; STRUCT ARRAY ALIGNMENT
-; ═══════════════════════════════════════════════════════
 
 ; Float64 arrays inside structs align to 8-byte boundaries
 ; even after smaller fields. Fixed padding.
@@ -57,9 +53,7 @@ loop 4 {
 }
 expectedSize := 4 * 16
 
-; ═══════════════════════════════════════════════════════
 ; STRUCTCLASS.PTR -- no longer seals the struct
-; ═══════════════════════════════════════════════════════
 
 Struct Header {
     magic: u32
@@ -72,9 +66,7 @@ h := Header()
 h.magic := 0x46465542
 h.version := 26
 
-; ═══════════════════════════════════════════════════════
 ; DLLCALL + UNSET STRUCT PARAM
-; ═══════════════════════════════════════════════════════
 
 ; Unset struct param auto-creates StructType() for output
 
@@ -92,9 +84,7 @@ Struct SYSTEMTIME {
 st := SYSTEMTIME()
 DllCall("GetLocalTime", SYSTEMTIME, st)
 
-; ═══════════════════════════════════════════════════════
 ; MEMORY OPTIMIZATION -- co-allocated typed properties
-; ═══════════════════════════════════════════════════════
 
 ; Single allocation for object header + field data.
 ; Fewer allocs, better cache locality.
@@ -119,18 +109,14 @@ elapsed := A_TickCount - start
 particleSize := Particle().Size
 particles := ""
 
-; ═══════════════════════════════════════════════════════
 ; #SINGLEINSTANCE / RELOAD -- WM_CLOSE
-; ═══════════════════════════════════════════════════════
 
 ; Old instance receives WM_CLOSE. OnExit and __Delete fire normally.
 ;
 ; #SingleInstance Force
 ; OnExit((*) => FileAppend(A_Now "`n", "exit_log.txt"))
 
-; ═══════════════════════════════════════════════════════
 ; MODAL DIALOG KEYBOARD SHORTCUTS
-; ═══════════════════════════════════════════════════════
 
 ; Ctrl+C, Tab, accelerators now work while MsgBox is displayed.
 ;
@@ -141,18 +127,14 @@ particles := ""
 ;     (*) => MsgBox("Keyboard shortcuts work in the background!"))
 ; myGui.Show()
 
-; ═══════════════════════════════════════════════════════
 ; CALLBACK FIXES (PR #356)
-; ═══════════════════════════════════════════════════════
 
 AddNums(a, b) => a + b
 cb := CallbackCreate(AddNums, , 2)
 cbResult := DllCall(cb, "Int", 15, "Int", 27, "Int")
 CallbackFree(cb)
 
-; ═══════════════════════════════════════════════════════
 ; OUTPUT SUMMARY
-; ═══════════════════════════════════════════════════════
 
 stdout := FileOpen("*", "w", "UTF-8")
 P(text := "") => stdout.Write(text "`n")

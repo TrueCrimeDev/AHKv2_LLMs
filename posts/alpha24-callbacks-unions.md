@@ -8,7 +8,7 @@ Before alpha.24, `CallbackCreate` only accepted a parameter count. The runtime t
 
 Alpha.24 lets you pass an array of type classes as the third parameter. The last element is the return type; everything before it defines parameter types:
 
-```cpp
+```ahk2
 ; Old way: count-based (integers only)
 cb := CallbackCreate(AddInts, , 2)
 
@@ -20,7 +20,7 @@ cb := CallbackCreate(AddInts, , [Int32, Int32, Int32])
 
 Without type information, float values passed through the callback mechanism get misinterpreted as integers (different CPU registers on x64). Typed callbacks fix this:
 
-```cpp
+```ahk2
 AddFloats(a, b) => a + b
 
 cb := CallbackCreate(AddFloats, , [Float64, Float64, Float64])
@@ -35,7 +35,7 @@ Without the type array, this would return garbage because the float values would
 
 You can mix integer and float types freely:
 
-```cpp
+```ahk2
 Multiply(x, factor) => x * factor
 
 cb := CallbackCreate(Multiply, , [Float64, Int32, Float64])
@@ -53,7 +53,7 @@ The new `Offset` sub-parameter for `DefineProp` lets you place typed fields at e
 
 The classic use case is a discriminated union like COM's `VARIANT`:
 
-```cpp
+```ahk2
 Struct Variant {
     vtype: u16
 }
@@ -77,7 +77,7 @@ Reading `intVal` and `fltVal` both access the same 8 bytes of memory, just inter
 
 A practical example -- access a 32-bit color value both as a whole and as individual bytes:
 
-```cpp
+```ahk2
 Struct Color {
     rgba: u32
 }
@@ -97,7 +97,7 @@ Write individual channels, read back as a packed u32 -- or vice versa. No bit sh
 
 You can reference another field's position by name:
 
-```cpp
+```ahk2
 Struct Register {
     lo: u16
     hi: u16
@@ -115,7 +115,7 @@ reg.full := 0xDEADBEEF
 
 Alpha.24 fixes the pointer type hierarchy. `StructA.Ptr` now subclasses `StructA.base.Ptr` instead of directly inheriting from `Struct.Ptr`:
 
-```cpp
+```ahk2
 Struct Shape {
     area: Float64
 }
@@ -133,7 +133,7 @@ This means a function that accepts `Shape.Ptr` will also accept `Circle.Ptr` -- 
 
 New module syntax for creating barrel/facade modules:
 
-```cpp
+```ahk2
 ; math/vector.ahk
 #Module Math.Vector
 export Vec2(x, y) => {x: x, y: y}
@@ -153,7 +153,7 @@ This enables library authors to organize code into sub-modules while presenting 
 
 `GetOwnPropDesc` now returns the actual type class instead of a string code:
 
-```cpp
+```ahk2
 Struct Sensor {
     value: Float32
     id: UInt16

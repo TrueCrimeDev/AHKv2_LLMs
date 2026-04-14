@@ -22,7 +22,7 @@ One allocation holds both the object header and the field data contiguously. Ben
 - **Better cache locality**: object metadata and field values are adjacent in memory
 - **Lower GC pressure**: fewer objects for the garbage collector to track
 
-```cpp
+```ahk2
 Struct Particle {
     x: Float32
     y: Float32
@@ -46,7 +46,7 @@ This matters most in hot loops: particle systems, physics simulations, batch Win
 
 Alpha.25 had alignment bugs when arrays were embedded inside structs. Alpha.26 correctly aligns array elements to their natural boundary:
 
-```cpp
+```ahk2
 Struct AlignedRecord {
     id: u8              ; 1 byte
     values: Float64[3]  ; 8-byte aligned, even after 1-byte id
@@ -58,7 +58,7 @@ In alpha.25, the `Float64[3]` array might start at an unaligned offset (byte 1 i
 
 Standalone struct arrays also align correctly:
 
-```cpp
+```ahk2
 Struct Vec2 {
     x: Float64
     y: Float64
@@ -71,7 +71,7 @@ points := Vec2[4]()
 
 Previously, accessing `StructClass.Ptr` on a struct class would "seal" the struct definition, preventing any further modifications via `DefineProp`. This was a subtle bug that caused confusing errors if you accessed `.Ptr` before adding union overlays:
 
-```cpp
+```ahk2
 Struct Header {
     magic: u32
     version: u16
@@ -90,7 +90,7 @@ h.version := 26
 
 When you pass `unset` for a struct parameter in `DllCall`, alpha.26 now creates a default instance automatically if the type has no `__value` setter. This simplifies output parameters:
 
-```cpp
+```ahk2
 Struct SYSTEMTIME {
     wYear: u16
     wMonth: u16
@@ -112,7 +112,7 @@ This is a convenience -- it means you don't need to pre-allocate the struct when
 
 Alpha.25 incorrectly errored on `IsSet()` with expressions ending in `?` (the maybe-unset operator). Alpha.26 permits this:
 
-```cpp
+```ahk2
 ; Works in alpha.26, errored in alpha.25
 IsSet(someVar?)
 ```
@@ -123,7 +123,7 @@ The `?` suffix makes an unset variable evaluate to `unset` instead of throwing. 
 
 The shutdown mechanism for `#SingleInstance` and `Reload` has been rewritten. Previously, these sent an undocumented internal message to close the old instance. Now they post `WM_CLOSE` -- the standard Windows close message.
 
-```cpp
+```ahk2
 #SingleInstance Force
 OnExit((*) => FileAppend(A_Now "`n", "exit_log.txt"))
 

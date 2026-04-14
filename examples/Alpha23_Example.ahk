@@ -11,9 +11,7 @@ Run: bin\AutoHotkey64.exe Alpha23_Example.ahk
 */
 #Requires AutoHotkey v2.1-alpha.23
 
-; ═══════════════════════════════════════════════════════
 ; NUMERIC TYPE CLASSES -- Float32, Int64, UInt16, etc.
-; ═══════════════════════════════════════════════════════
 
 ; 3D vector with single-precision floats
 Struct Vec3f {
@@ -41,9 +39,7 @@ reading.humidity := 45.2
 reading.sensor_id := 1042
 reading.flags := 0x03
 
-; ═══════════════════════════════════════════════════════
 ; STRUCT ARRAYS -- StructClass[N] syntax
-; ═══════════════════════════════════════════════════════
 
 ; Primitive typed arrays -- contiguous memory
 intArr := Int32[4]()
@@ -74,9 +70,7 @@ hashBuf := UInt8[32]()
 loop 32
     hashBuf[A_Index] := Mod(A_Index * 17, 256)
 
-; ═══════════════════════════════════════════════════════
 ; PRACTICAL: GDI color palette
-; ═══════════════════════════════════════════════════════
 
 ; 256-entry grayscale palette, passable to SetDIBColorTable
 Struct RGBQUAD {
@@ -90,9 +84,7 @@ palette := RGBQUAD[256]()
 loop 256
     palette[A_Index].red := palette[A_Index].green := palette[A_Index].blue := A_Index - 1
 
-; ═══════════════════════════════════════════════════════
 ; SIZE FIX -- returns layout size, not allocation size
-; ═══════════════════════════════════════════════════════
 
 Struct SmallPair {
     a: u8
@@ -102,9 +94,7 @@ Struct SmallPair {
 pair := SmallPair()
 pair.a := 0xFF, pair.b := 0x42
 
-; ═══════════════════════════════════════════════════════
 ; OUTPUT SUMMARY
-; ═══════════════════════════════════════════════════════
 
 stdout := FileOpen("*", "w", "UTF-8")
 P(text := "") => stdout.Write(text "`n")

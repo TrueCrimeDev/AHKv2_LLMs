@@ -6,7 +6,7 @@ Alpha.22 is the most significant AHK v2 alpha release to date. It introduces the
 
 The `Struct` keyword creates classes with defined memory layouts. Fields use typed annotations that map directly to C data types:
 
-```cpp
+```ahk2
 Struct POINT {
     x: i32
     y: i32
@@ -35,7 +35,7 @@ These replace the old approach of manually calculating offsets with `NumPut("Int
 
 Structs can embed other structs, and the memory layout is computed correctly:
 
-```cpp
+```ahk2
 Struct NMHDR {
     hwndFrom: uptr
     idFrom: uptr
@@ -63,7 +63,7 @@ This is a massive ergonomic improvement. Previously, accessing nested struct fie
 
 Every `Struct` automatically gets a `.Ptr` subclass for pointer handling. This replaces the old `StructFromPtr` function.
 
-```cpp
+```ahk2
 ; In a WM_NOTIFY handler:
 WM_NOTIFY(wParam, lParam, msg, hwnd) {
     hdr := NMHDR.At(lParam)  ; zero-copy view at lParam
@@ -78,7 +78,7 @@ WM_NOTIFY(wParam, lParam, msg, hwnd) {
 
 Alpha.22 adds `DefineProp()` as a standalone function, complementing the existing `obj.DefineProp()` method:
 
-```cpp
+```ahk2
 obj := {}
 DefineProp(obj, "Name", {
     Get: (this) => this._name ?? "unnamed",
@@ -89,7 +89,7 @@ obj.Name := "alpha22"  ; uses the setter
 
 The top-level form is useful when the target object is dynamic or passed as a parameter. It also works for adding properties to class prototypes:
 
-```cpp
+```ahk2
 DefineProp(Counter.Prototype, "Count", {
     Get: (this) => this._count,
     Set: (this, value) => this._count := Max(0, value)
@@ -100,7 +100,7 @@ DefineProp(Counter.Prototype, "Count", {
 
 `Type()` called with no argument (or an omitted optional parameter) now returns the string `"unset"` instead of throwing an error. This enables clean type-dispatch patterns:
 
-```cpp
+```ahk2
 FormatValue(val?) {
     if !IsSet(val)
         return "(unset)"
@@ -116,7 +116,7 @@ FormatValue(val?) {
 
 `IsSet()` can now take optional parameters directly, and correctly returns `0` for unset virtual references:
 
-```cpp
+```ahk2
 SmartFunc(a, b?, c?) {
     parts := [Format("a={}", a)]
     parts.Push(IsSet(b) ? Format("b={}", b) : "b=unset")
@@ -128,7 +128,7 @@ SmartFunc(a, b?, c?) {
 
 A subtle but important change: `export func() => expr` is now treated as a function **call** (matching v2.0 behavior), not a fat-arrow definition. Exported module functions must use block syntax:
 
-```cpp
+```ahk2
 ; WRONG in alpha.22+:
 export MyFunc(x) => x * 2
 
@@ -142,7 +142,7 @@ export MyFunc(x) {
 
 The real power of the `Struct` keyword shows in Win32 API calls. Define once, use everywhere:
 
-```cpp
+```ahk2
 Struct MEMORYSTATUSEX {
     dwLength: u32
     dwMemoryLoad: u32

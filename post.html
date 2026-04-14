@@ -11,6 +11,7 @@
   <script src="https://cdn.jsdelivr.net/npm/marked@11.1.0/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked-highlight@2.1.0/lib/index.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+  <script src="highlight-ahk2.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/vs2015.min.css">
   <style>
     .article-container {
@@ -99,8 +100,8 @@
     .article-body a:hover { border-bottom-color: var(--accent); }
 
     .article-body pre {
-      background: #1e1e1e;
-      border: 1px solid #383838;
+      background: #171717;
+      border: 1px solid #2a2a2a;
       border-radius: 8px;
       padding: 20px;
       margin: 20px 0;
@@ -202,10 +203,13 @@
         marked.use(markedHighlight.markedHighlight({
           langPrefix: 'hljs language-',
           highlight: function(code, lang) {
-            if (lang && hljs.getLanguage(lang)) {
-              return hljs.highlight(code, { language: lang }).value;
+            // Map cpp/ahk fences to ahk2 grammar
+            var mapped = (lang === 'cpp' || lang === 'ahk') ? 'ahk2' : lang;
+            if (mapped && hljs.getLanguage(mapped)) {
+              return hljs.highlight(code, { language: mapped }).value;
             }
-            return hljs.highlightAuto(code).value;
+            // Default: use ahk2 for untagged blocks
+            return hljs.highlight(code, { language: 'ahk2' }).value;
           }
         }));
 

@@ -13,9 +13,7 @@ Run: bin\AutoHotkey64.exe Alpha22_Example.ahk
 */
 #Requires AutoHotkey v2.1-alpha.22
 
-; ═══════════════════════════════════════════════════════
 ; STRUCT DEFINITIONS -- typed memory layouts
-; ═══════════════════════════════════════════════════════
 
 Struct POINT {
     x: i32
@@ -76,9 +74,7 @@ Struct MEMORYSTATUSEX {
     ullAvailExtendedVirtual: u64
 }
 
-; ═══════════════════════════════════════════════════════
 ; STRUCT USAGE -- create instances, set fields
-; ═══════════════════════════════════════════════════════
 
 pt := POINT()
 pt.x := 100
@@ -97,9 +93,7 @@ ncd.dwDrawStage := 1
 ncd.rc.left := 10
 ncd.rc.top := 20
 
-; ═══════════════════════════════════════════════════════
 ; WIN32 API CALLS with Struct types
-; ═══════════════════════════════════════════════════════
 
 ; DllCall uses the Struct class directly as the type parameter
 st := SYSTEMTIME()
@@ -112,9 +106,7 @@ DllCall("GlobalMemoryStatusEx", MEMORYSTATUSEX, ms)
 cursorPt := POINT()
 DllCall("GetCursorPos", POINT, cursorPt)
 
-; ═══════════════════════════════════════════════════════
 ; STRUCT.PTR -- zero-copy pointer views
-; ═══════════════════════════════════════════════════════
 
 ; Every Struct auto-generates a .Ptr subclass.
 ; Use Struct.At(ptr) for zero-copy views into existing memory.
@@ -126,9 +118,7 @@ DllCall("GetCursorPos", POINT, cursorPt)
 ;           ncd := NMCUSTOMDRAW.At(lParam)
 ;   }
 
-; ═══════════════════════════════════════════════════════
 ; DEFINEPROP() -- top-level function
-; ═══════════════════════════════════════════════════════
 
 ; Getter/setter pair on a plain object
 obj := {}
@@ -167,9 +157,7 @@ AddTimestamp(target, propName) {
 record := {}
 AddTimestamp(record, "CreatedAt")
 
-; ═══════════════════════════════════════════════════════
 ; TYPE() "unset" + ISSET() -- optional param handling
-; ═══════════════════════════════════════════════════════
 
 ; Type-dispatch that handles missing arguments cleanly
 FormatValue(val?) {
@@ -191,9 +179,7 @@ SmartFunc(a, b?, c?) {
     return parts
 }
 
-; ═══════════════════════════════════════════════════════
 ; EXPORT SYNTAX CHANGE (module code)
-; ═══════════════════════════════════════════════════════
 
 ; `export func() => expr` is now a function CALL, not a definition.
 ; Use block syntax for exported module functions:
@@ -202,9 +188,7 @@ SmartFunc(a, b?, c?) {
 ;       return x * 2
 ;   }
 
-; ═══════════════════════════════════════════════════════
 ; OUTPUT SUMMARY
-; ═══════════════════════════════════════════════════════
 
 stdout := FileOpen("*", "w", "UTF-8")
 P(text := "") => stdout.Write(text "`n")
