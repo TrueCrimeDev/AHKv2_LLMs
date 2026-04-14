@@ -440,17 +440,18 @@ a:hover { color: var(--accent-hover); }
 code {
   font-family: var(--font-mono);
   font-size: 0.85em;
-  background: var(--bg-elevated);
+  background: #252525;
   padding: 2px 6px;
   border-radius: 3px;
-  border: 1px solid var(--border-muted);
+  border: 1px solid var(--border);
+  color: #e0e0e0;
 }
 
 pre {
-  margin: 16px 0;
-  padding: 16px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  margin: 20px 0;
+  padding: 18px 20px;
+  background: #1e1e1e;
+  border: 1px solid #333333;
   border-radius: var(--radius-md);
   overflow-x: auto;
 }
@@ -462,5 +463,32 @@ pre code {
   border: none;
   background: none;
   font-size: 13px;
-  line-height: 1.5;
+  line-height: 1.6;
+  color: #d4d4d4;
 }
+
+/* Override highlight.js github-dark theme background */
+pre code.hljs,
+.hljs {
+  background: #1e1e1e !important;
+}
+
+/* Custom syntax colors for cpp/ahk code on dark gray */
+.hljs-keyword,
+.hljs-built_in { color: #569cd6; }
+.hljs-type,
+.hljs-class .hljs-title { color: #4ec9b0; }
+.hljs-string { color: #ce9178; }
+.hljs-number { color: #b5cea8; }
+.hljs-comment { color: #6a9955; font-style: italic; }
+.hljs-function .hljs-title,
+.hljs-title.function_ { color: #dcdcaa; }
+.hljs-variable,
+.hljs-params { color: #9cdcfe; }
+.hljs-attr { color: #9cdcfe; }
+.hljs-literal { color: #569cd6; }
+.hljs-operator { color: #d4d4d4; }
+.hljs-punctuation { color: #d4d4d4; }
+.hljs-meta { color: #c586c0; }
+.hljs-meta .hljs-keyword { color: #c586c0; }
+.hljs-meta .hljs-string { color: #ce9178; }
