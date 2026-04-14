@@ -4,61 +4,67 @@
   <meta charset="UTF-8">
   <title>Post - AHKv2 &amp; LLMs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/marked@11.1.0/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github-dark.min.css">
   <style>
     .article-container {
-      max-width: 800px;
+      max-width: 780px;
       margin: 0 auto;
-      padding: 24px;
+      padding: 20px 24px;
+      flex: 1;
     }
 
     .back-link {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      font-size: 14px;
+      font-size: 13px;
       color: var(--text-secondary);
-      margin-bottom: 20px;
+      margin-bottom: 16px;
+      font-weight: 500;
     }
 
     .back-link:hover { color: var(--accent); }
 
     .article-header {
-      background: var(--bg-secondary);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      padding: 24px;
-      margin-bottom: 20px;
+      padding: 0 0 16px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border-muted);
     }
 
     .article-date {
-      font-size: 13px;
+      font-size: 12px;
       color: var(--text-muted);
-      margin-bottom: 8px;
+      margin-bottom: 6px;
+      font-weight: 500;
     }
 
     .article-title {
-      margin: 0 0 12px;
-      font-size: 28px;
-      font-weight: 600;
+      margin: 0 0 10px;
+      font-size: 26px;
+      font-weight: 700;
       line-height: 1.3;
+      letter-spacing: -0.3px;
     }
 
     .article-tags {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
+      gap: 4px;
     }
 
     .article-body {
-      background: var(--bg-secondary);
+      background: var(--bg-card);
       border: 1px solid var(--border);
       border-radius: var(--radius-md);
-      padding: 32px;
+      padding: 28px;
       line-height: 1.8;
+      font-size: 15px;
     }
 
     .article-body h1,
@@ -71,13 +77,12 @@
     }
 
     .article-body h2 {
-      font-size: 22px;
+      font-size: 20px;
       padding-bottom: 8px;
       border-bottom: 1px solid var(--border-muted);
     }
 
-    .article-body h3 { font-size: 18px; }
-
+    .article-body h3 { font-size: 17px; }
     .article-body p { margin: 0 0 1em; }
 
     .article-body ul, .article-body ol {
@@ -85,9 +90,7 @@
     }
 
     .article-body li { margin: 0.4em 0; }
-
     .article-body strong { color: var(--text-primary); }
-
     .article-body a { border-bottom: 1px solid transparent; }
     .article-body a:hover { border-bottom-color: var(--accent); }
 
@@ -129,7 +132,7 @@
     <span>&copy; 2025 AHKv2 &amp; LLMs</span>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="https://github.com/AutoHotkey" target="_blank">GitHub</a>
+      <a href="https://github.com/012090120901209/AHKv2_LLMs" target="_blank">GitHub</a>
     </div>
   </footer>
 
@@ -169,19 +172,21 @@
         const markdown = await response.text();
 
         marked.setOptions({
-          highlight: function(code, lang) {
-            if (lang && hljs.getLanguage(lang)) {
-              return hljs.highlight(code, { language: lang }).value;
-            }
-            return hljs.highlightAuto(code).value;
-          },
           breaks: true,
           gfm: true
         });
 
         const html = marked.parse(markdown);
         document.getElementById('content').classList.remove('loading');
-        document.getElementById('content').innerHTML = html;
+        const contentEl = document.getElementById('content');
+        contentEl.innerHTML = html;
+
+        try {
+          hljs.highlightAll();
+        } catch (e) {
+          console.error('Highlighting failed:', e);
+        }
+
         if (meta) applyMetadata(meta);
       } catch (error) {
         document.getElementById('content').innerHTML = `<p>Error: ${error.message}</p>`;
