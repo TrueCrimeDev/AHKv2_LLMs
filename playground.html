@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AHK v2 Playground - AHKv2 &amp; LLMs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .playground-layout {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .playground-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-muted);
+      margin-bottom: 16px;
+    }
+
+    .playground-header h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: -0.3px;
+    }
+
+    .playground-header p {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin: 4px 0 0;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn {
+      padding: 8px 16px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .btn:hover {
+      border-color: #505050;
+      color: var(--text-primary);
+      background: #252525;
+    }
+
+    .btn-run {
+      background: #5B9FEF;
+      border-color: #5B9FEF;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .btn-run:hover {
+      background: #4a8edf;
+      border-color: #4a8edf;
+    }
+
+    .btn-run:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn-run.running {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    /* Editor + Output split */
+    .editor-split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      flex: 1;
+      min-height: 400px;
+    }
+
+    @media (max-width: 768px) {
+      .editor-split {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+    }
+
+    .panel {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--bg-card);
+    }
+
+    .panel-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 14px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border-muted);
+      flex-shrink: 0;
+    }
+
+    .panel-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--text-muted);
+    }
+
+    .panel-badge {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    /* Code editor textarea */
+    .code-editor {
+      flex: 1;
+      width: 100%;
+      padding: 16px;
+      background: #171717;
+      color: #d4d4d4;
+      border: none;
+      resize: none;
+      font-family: var(--font-mono);
+      font-size: 13.5px;
+      line-height: 1.6;
+      tab-size: 4;
+      outline: none;
+    }
+
+    .code-editor::placeholder {
+      color: #404040;
+    }
+
+    /* Output panel */
+    .output-area {
+      flex: 1;
+      padding: 16px;
+      background: #171717;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      line-height: 1.6;
+      color: #d4d4d4;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .output-area .stdout { color: #d4d4d4; }
+    .output-area .stderr { color: #f85149; }
+    .output-area .meta { color: var(--text-muted); font-style: italic; }
+    .output-area .success { color: #7BC96F; }
+    .output-area .timeout { color: var(--accent); }
+
+    /* Connection bar */
+    .connection-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 0;
+      font-size: 12px;
+    }
+
+    .connection-bar label {
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .endpoint-input {
+      flex: 1;
+      max-width: 320px;
+      padding: 6px 10px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      outline: none;
+    }
+
+    .endpoint-input:focus {
+      border-color: #5B9FEF;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--text-muted);
+    }
+
+    .status-dot.connected { background: #7BC96F; }
+    .status-dot.error { background: #f85149; }
+
+    .status-text {
+      color: var(--text-muted);
+      font-size: 12px;
+    }
+
+    /* Examples dropdown */
+    .examples-select {
+      padding: 6px 10px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-secondary);
+      font-family: var(--font-sans);
+      font-size: 12px;
+      cursor: pointer;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">AHK</span>
+        <span class="logo-text">v2 &amp; LLMs</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#posts" class="nav-link">Posts</a>
+        <a href="wiki.html" class="nav-link">Wiki</a>
+        <a href="playground.html" class="nav-link" style="color: var(--accent);">Playground</a>
+        <a href="https://www.autohotkey.com/docs/v2/" target="_blank" class="nav-link">AHK Docs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="playground-layout">
+    <div class="playground-header">
+      <div>
+        <h1>AHK v2 Playground</h1>
+        <p>Write and run AutoHotkey v2 code against a CloudAHK server</p>
+      </div>
+      <div class="toolbar">
+        <select class="examples-select" id="examples" onchange="loadExample()">
+          <option value="">Load example...</option>
+          <option value="hello">Hello World</option>
+          <option value="struct">Struct + DllCall</option>
+          <option value="vec2">Vec2 Math</option>
+          <option value="rgba">RGBA Color Union</option>
+          <option value="ring">Ring Buffer</option>
+          <option value="sysinfo">System Info</option>
+        </select>
+        <button class="btn btn-run" id="runBtn" onclick="runCode()">Run</button>
+      </div>
+    </div>
+
+    <div class="connection-bar">
+      <label>Server:</label>
+      <input class="endpoint-input" id="endpoint" value="http://localhost:8000" spellcheck="false">
+      <button class="btn" onclick="checkHealth()">Connect</button>
+      <span class="status-dot" id="statusDot"></span>
+      <span class="status-text" id="statusText">Not connected</span>
+    </div>
+
+    <div class="editor-split">
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">Editor</span>
+          <span class="panel-badge" id="lineCount">0 lines</span>
+        </div>
+        <textarea class="code-editor" id="editor" spellcheck="false"
+          placeholder="Type AHK v2 code here..."
+          oninput="updateLineCount()"></textarea>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">Output</span>
+          <span class="panel-badge" id="runTime"></span>
+        </div>
+        <div class="output-area" id="output">
+          <span class="meta">Run code or connect to a CloudAHK server to get started.
+
+Start the server:
+  cd cloudahk
+  pip install -r requirements.txt
+  python httpd.py</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2025 AHKv2 &amp; LLMs</span>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="https://github.com/TrueCrimeDev/AHKv2_LLMs" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
+  <script>
+    var EXAMPLES = {
+      hello: '#Requires AutoHotkey v2.0\n\nstdout := FileOpen("*", "w", "UTF-8")\nstdout.Write("Hello from AHK v2!\\n")\nstdout.Write("Version: " A_AhkVersion "\\n")\nstdout.Write("OS: " A_OSVersion "\\n")',
+
+      struct: '#Requires AutoHotkey v2.1-alpha.22\n\nstdout := FileOpen("*", "w", "UTF-8")\nP(t) => stdout.Write(t "\\n")\n\nStruct POINT {\n    x: i32\n    y: i32\n}\n\npt := POINT()\nDllCall("GetCursorPos", POINT, pt)\nP(Format("Cursor: ({}, {})", pt.x, pt.y))\n\nStruct SYSTEMTIME {\n    wYear: u16\n    wMonth: u16\n    wDayOfWeek: u16\n    wDay: u16\n    wHour: u16\n    wMinute: u16\n    wSecond: u16\n    wMilliseconds: u16\n}\n\nst := SYSTEMTIME()\nDllCall("GetLocalTime", SYSTEMTIME, st)\nP(Format("Time: {}-{:02}-{:02} {:02}:{:02}:{:02}", st.wYear, st.wMonth, st.wDay, st.wHour, st.wMinute, st.wSecond))',
+
+      vec2: '#Requires AutoHotkey v2.1-alpha.22\n\nstdout := FileOpen("*", "w", "UTF-8")\nP(t) => stdout.Write(t "\\n")\n\nStruct Vec2 {\n    x: f32\n    y: f32\n}\n\nV(x, y) {\n    v := Vec2()\n    v.x := x, v.y := y\n    return v\n}\n\nDefineProp(Vec2.Prototype, "Add",   {Call: (this, o) => V(this.x + o.x, this.y + o.y)})\nDefineProp(Vec2.Prototype, "Scale", {Call: (this, s) => V(this.x * s, this.y * s)})\nDefineProp(Vec2.Prototype, "Dot",   {Call: (this, o) => this.x * o.x + this.y * o.y})\nDefineProp(Vec2.Prototype, "Len",   {Get:  (this) => Sqrt(this.x ** 2 + this.y ** 2)})\nDefineProp(Vec2.Prototype, "Str",   {Call: (this) => Format("({:.1f},{:.1f})", this.x, this.y)})\n\na := V(3, 4)\nb := V(1, 2)\n\nP("a = " a.Str())\nP("b = " b.Str())\nP("a + b = " a.Add(b).Str())\nP("a * 3 = " a.Scale(3).Str())\nP("a . b = " a.Dot(b))\nP("len(a) = " Format("{:.2f}", a.Len))',
+
+      rgba: '#Requires AutoHotkey v2.1-alpha.24\n\nstdout := FileOpen("*", "w", "UTF-8")\nP(t) => stdout.Write(t "\\n")\n\nStruct RGBA {\n    packed: u32\n}\nDefineProp(RGBA.Prototype, "r", {Type: UInt8, Offset: 0})\nDefineProp(RGBA.Prototype, "g", {Type: UInt8, Offset: 1})\nDefineProp(RGBA.Prototype, "b", {Type: UInt8, Offset: 2})\nDefineProp(RGBA.Prototype, "a", {Type: UInt8, Offset: 3})\nDefineProp(RGBA.Prototype, "Hex", {Call: (this) => Format("#{:02X}{:02X}{:02X}", this.r, this.g, this.b)})\n\nRGB(r, g, b) {\n    c := RGBA()\n    c.r := r, c.g := g, c.b := b, c.a := 255\n    return c\n}\n\nred := RGB(255, 0, 0)\nP("Red: " red.Hex() " packed=0x" Format("{:08X}", red.packed))\n\nblue := RGB(0, 0, 255)\nP("Blue: " blue.Hex())\n\n; Channel decomposition\nc := RGBA()\nc.packed := 0xFF8040C0\nP(Format("0xFF8040C0 => r={:02X} g={:02X} b={:02X} a={:02X}", c.r, c.g, c.b, c.a))',
+
+      ring: '#Requires AutoHotkey v2.1-alpha.23\n\nstdout := FileOpen("*", "w", "UTF-8")\nP(t) => stdout.Write(t "\\n")\n\nStruct Ring {\n    data: Float64[8]\n    head: u32\n    count: u32\n}\n\nDefineProp(Ring.Prototype, "Push", {Call: (this, v) {\n    idx := Mod(this.head + this.count, 8) + 1\n    this.data[idx] := v\n    if this.count < 8\n        this.count += 1\n    else\n        this.head := Mod(this.head + 1, 8)\n}})\n\nDefineProp(Ring.Prototype, "Peek", {Call: (this, i := 0) => this.data[Mod(this.head + i, 8) + 1]})\n\nr := Ring()\nloop 12\n    r.Push(A_Index * 1.1)\n\nP(Format("Count: {} (capped at 8)", r.count))\nP(Format("Oldest: {:.1f}", r.Peek()))\nP(Format("Newest: {:.1f}", r.Peek(r.count - 1)))\n\nP("\\nAll values:")\nloop r.count\n    P(Format("  [{1}] = {2:.1f}", A_Index, r.Peek(A_Index - 1)))',
+
+      sysinfo: '#Requires AutoHotkey v2.1-alpha.22\n\nstdout := FileOpen("*", "w", "UTF-8")\nP(t) => stdout.Write(t "\\n")\n\nStruct MEMORYSTATUSEX {\n    dwLength: u32\n    dwMemoryLoad: u32\n    ullTotalPhys: u64\n    ullAvailPhys: u64\n    ullTotalPageFile: u64\n    ullAvailPageFile: u64\n    ullTotalVirtual: u64\n    ullAvailVirtual: u64\n    ullAvailExtendedVirtual: u64\n}\n\nms := MEMORYSTATUSEX()\nms.dwLength := ms.Size\nDllCall("GlobalMemoryStatusEx", MEMORYSTATUSEX, ms)\n\nP("=== System Info ===")\nP(Format("AHK Version: {}", A_AhkVersion))\nP(Format("OS: {}", A_OSVersion))\nP(Format("Computer: {}", A_ComputerName))\nP(Format("User: {}", A_UserName))\nP(Format("Screen: {}x{}", A_ScreenWidth, A_ScreenHeight))\nP("")\nP(Format("Memory: {:.1f} GB total", ms.ullTotalPhys / (1024**3)))\nP(Format("Available: {:.1f} GB", ms.ullAvailPhys / (1024**3)))\nP(Format("Usage: {}%", ms.dwMemoryLoad))'
+    };
+
+    function loadExample() {
+      var sel = document.getElementById('examples');
+      var code = EXAMPLES[sel.value];
+      if (code) {
+        document.getElementById('editor').value = code;
+        updateLineCount();
+      }
+      sel.value = '';
+    }
+
+    function updateLineCount() {
+      var lines = document.getElementById('editor').value.split('\n').length;
+      document.getElementById('lineCount').textContent = lines + ' line' + (lines === 1 ? '' : 's');
+    }
+
+    function getEndpoint() {
+      return document.getElementById('endpoint').value.replace(/\/+$/, '');
+    }
+
+    async function checkHealth() {
+      var dot = document.getElementById('statusDot');
+      var text = document.getElementById('statusText');
+      try {
+        var resp = await fetch(getEndpoint() + '/health', { signal: AbortSignal.timeout(5000) });
+        var data = await resp.json();
+        if (data.status === 'ready') {
+          dot.className = 'status-dot connected';
+          text.textContent = 'Connected — ' + (data.interpreter || 'AHK v2');
+        } else {
+          dot.className = 'status-dot error';
+          text.textContent = 'Degraded: ' + data.status;
+        }
+      } catch (e) {
+        dot.className = 'status-dot error';
+        text.textContent = 'Cannot reach server';
+      }
+    }
+
+    async function runCode() {
+      var code = document.getElementById('editor').value;
+      if (!code.trim()) return;
+
+      var btn = document.getElementById('runBtn');
+      var output = document.getElementById('output');
+      var timeEl = document.getElementById('runTime');
+
+      btn.disabled = true;
+      btn.textContent = 'Running...';
+      btn.classList.add('running');
+      output.innerHTML = '<span class="meta">Executing...</span>';
+      timeEl.textContent = '';
+
+      try {
+        var resp = await fetch(getEndpoint() + '/v2/run', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ code: code, timeout: 10.0, prepend_requires: false }),
+          signal: AbortSignal.timeout(15000)
+        });
+
+        var data = await resp.json();
+        var html = '';
+
+        if (data.stdout) {
+          html += '<span class="stdout">' + escapeHtml(data.stdout) + '</span>';
+        }
+        if (data.stderr) {
+          html += '<span class="stderr">' + escapeHtml(data.stderr) + '</span>';
+        }
+        if (data.timed_out) {
+          html += '<span class="timeout">Execution timed out after ' + data.duration.toFixed(1) + 's</span>\n';
+        }
+
+        if (!data.stdout && !data.stderr && !data.timed_out) {
+          html = '<span class="meta">No output (exit code ' + data.exit_code + ')</span>';
+        }
+
+        var statusClass = data.exit_code === 0 ? 'success' : 'stderr';
+        html += '\n<span class="' + statusClass + '">Exit code: ' + data.exit_code + '</span>';
+
+        output.innerHTML = html;
+        timeEl.textContent = data.duration.toFixed(2) + 's';
+
+      } catch (e) {
+        output.innerHTML = '<span class="stderr">Error: ' + escapeHtml(e.message) + '</span>\n\n<span class="meta">Make sure CloudAHK is running:\n  cd cloudahk\n  pip install -r requirements.txt\n  python httpd.py</span>';
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Run';
+        btn.classList.remove('running');
+      }
+    }
+
+    function escapeHtml(text) {
+      var div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // Ctrl+Enter to run
+    document.addEventListener('keydown', function(e) {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+        e.preventDefault();
+        runCode();
+      }
+    });
+
+    // Tab key inserts tab in editor
+    document.getElementById('editor').addEventListener('keydown', function(e) {
+      if (e.key === 'Tab') {
+        e.preventDefault();
+        var start = this.selectionStart;
+        var end = this.selectionEnd;
+        this.value = this.value.substring(0, start) + '    ' + this.value.substring(end);
+        this.selectionStart = this.selectionEnd = start + 4;
+      }
+    });
+
+    updateLineCount();
+  </script>
+</body>
+</html>

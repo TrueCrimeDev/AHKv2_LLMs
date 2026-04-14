@@ -107,6 +107,18 @@ app = FastAPI(title=APP_TITLE, description=DESCRIPTION, version=VERSION)
 # Maintain backwards compatibility with existing tooling that imports cloudapi.
 cloudapi = app
 
+# CORS: allow the playground and local development to call the API
+try:
+    from fastapi.middleware.cors import CORSMiddleware
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+except ImportError:
+    pass
+
 
 class RunRequest(BaseModel):
     code: str = Field(..., description="AutoHotkey v2 script source to execute.")
