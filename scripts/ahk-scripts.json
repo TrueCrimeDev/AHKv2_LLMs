@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-14T00:33:01.389Z",
+  "lastUpdated": "2026-04-14T06:38:28.867Z",
   "totalScripts": 242,
   "categories": [
     "GUI",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-04-11T08:36:36Z",
+      "lastModified": "2026-04-14T06:18:30Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 4/11/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 4/14/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -4570,13 +4570,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-05T03:01:13Z",
-      "lastModified": "2026-04-06T16:15:42Z",
+      "lastModified": "2026-04-14T02:31:05Z",
       "source": "github",
       "url": "https://github.com/roverway/folder-jump",
       "stars": 0,
       "forks": 0,
       "owner": "roverway",
-      "code": "```cpp\n; ============================================\n; Repository: roverway/folder-jump\n; ============================================\n; URL: https://github.com/roverway/folder-jump\n; Stars: 0 | Forks: 0\n; Last Updated: 4/6/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 path switcher for Windows, inspired by Listary `Ctrl+G`\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/roverway/folder-jump.git\n;\n; Option 2: Download ZIP\n;   https://github.com/roverway/folder-jump/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <folder-jump>\n\n; Example initialization\nclass FolderJumpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"folder-jump loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FolderJumpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: roverway/folder-jump\n; ============================================\n; URL: https://github.com/roverway/folder-jump\n; Stars: 0 | Forks: 0\n; Last Updated: 4/14/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 path switcher for Windows, inspired by Listary `Ctrl+G`\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/roverway/folder-jump.git\n;\n; Option 2: Download ZIP\n;   https://github.com/roverway/folder-jump/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <folder-jump>\n\n; Example initialization\nclass FolderJumpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"folder-jump loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FolderJumpExample()\n```"
     },
     {
       "id": "github-1067231522",
