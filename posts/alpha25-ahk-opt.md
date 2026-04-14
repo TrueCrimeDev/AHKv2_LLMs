@@ -8,9 +8,9 @@ This is the headline feature. Previously, finding hidden windows required changi
 
 ```ahk2
 ; Old way: changes global setting
-DetectHiddenWindows true
+DetectHiddenWindows(true)
 hwnd := WinExist("Notepad")
-DetectHiddenWindows false  ; hope you remembered to reset
+DetectHiddenWindows(false)  ; hope you remembered to reset
 ```
 
 `ahk_opt` lets you specify these settings per-call:
@@ -96,8 +96,8 @@ Three fixes that improve hotkey reliability:
 Key-up hotkeys now fire consistently when the same key is used as both prefix and suffix:
 
 ```ahk2
-LCtrl::Send "hello"      ; LCtrl as prefix
-LCtrl up::ToolTip "up"   ; LCtrl up as suffix -- now reliable
+LCtrl::Send("hello")      ; LCtrl as prefix
+LCtrl up::ToolTip("up")   ; LCtrl up as suffix -- now reliable
 ```
 
 Previously the up hotkey might not fire depending on timing.
@@ -107,7 +107,7 @@ Previously the up hotkey might not fire depending on timing.
 Custom combo hotkeys with neutral modifiers now work:
 
 ```ahk2
-Alt & Esc::MsgBox "works"  ; Alt (not LAlt/RAlt) as prefix
+Alt & Esc::MsgBox("works")  ; Alt (not LAlt/RAlt) as prefix
 ```
 
 Before this fix, you had to specify `LAlt` or `RAlt` explicitly.

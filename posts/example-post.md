@@ -29,11 +29,11 @@ Here is a short AutoHotkey-style snippet that could be handed to a coding agent 
 #SingleInstance Force
 
 ^!m:: {
-    SoundSetMute -1  ; toggle
+    SoundSetMute(-1)  ; toggle
     isMuted := SoundGetMute()
     msg := isMuted ? "Muted system volume" : "Unmuted system volume"
-    ToolTip msg, 0, 0
-    SetTimer () => ToolTip(), -900
+    ToolTip(msg, 0, 0)
+    SetTimer(() => ToolTip(), -900)
 }
 ```
 
