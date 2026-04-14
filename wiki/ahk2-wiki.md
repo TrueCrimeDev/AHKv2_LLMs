@@ -161,9 +161,9 @@ Struct AlignedRecord {
 Struct Variant {
     vtype: u16
 }
-DefineProp Variant.Prototype, "intVal",  {Type: Int32,   Offset: 8}
-DefineProp Variant.Prototype, "fltVal",  {Type: Float64, Offset: 8}
-DefineProp Variant.Prototype, "ptrVal",  {Type: IntPtr,  Offset: 8}
+DefineProp(Variant.Prototype, "intVal",  {Type: Int32,   Offset: 8})
+DefineProp(Variant.Prototype, "fltVal",  {Type: Float64, Offset: 8})
+DefineProp(Variant.Prototype, "ptrVal",  {Type: IntPtr,  Offset: 8})
 ```
 
 Reading `intVal` and `fltVal` both access the same bytes, interpreted differently.
@@ -174,10 +174,10 @@ Reading `intVal` and `fltVal` both access the same bytes, interpreted differentl
 Struct Color {
     rgba: u32
 }
-DefineProp Color.Prototype, "r", {Type: UInt8, Offset: 0}
-DefineProp Color.Prototype, "g", {Type: UInt8, Offset: 1}
-DefineProp Color.Prototype, "b", {Type: UInt8, Offset: 2}
-DefineProp Color.Prototype, "a", {Type: UInt8, Offset: 3}
+DefineProp(Color.Prototype, "r", {Type: UInt8, Offset: 0})
+DefineProp(Color.Prototype, "g", {Type: UInt8, Offset: 1})
+DefineProp(Color.Prototype, "b", {Type: UInt8, Offset: 2})
+DefineProp(Color.Prototype, "a", {Type: UInt8, Offset: 3})
 
 c := Color()
 c.rgba := 0xFF8040C0
@@ -193,7 +193,7 @@ Struct Register {
     lo: u16
     hi: u16
 }
-DefineProp Register.Prototype, "full", {Type: UInt32, Offset: "lo"}
+DefineProp(Register.Prototype, "full", {Type: UInt32, Offset: "lo"})
 ```
 
 ---
