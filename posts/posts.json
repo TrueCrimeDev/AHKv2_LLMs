@@ -1,5 +1,45 @@
 [
   {
+    "slug": "alpha26-performance",
+    "title": "AHK v2.1-alpha.26: Memory Optimization and Modal Dialog Fixes",
+    "date": "2026-04-14",
+    "description": "Struct memory co-allocation for faster construction, array alignment fixes, keyboard shortcuts in modal dialogs, and WM_CLOSE reload.",
+    "tags": ["Alpha Release", "Structs", "Performance", "Bug Fixes"],
+    "path": "posts/alpha26-performance.md"
+  },
+  {
+    "slug": "alpha25-ahk-opt",
+    "title": "AHK v2.1-alpha.25: Inline Window Options and Stability Fixes",
+    "date": "2026-04-14",
+    "description": "The ahk_opt WinTitle criterion for per-call window search options, hotkey behavior fixes, and module system improvements.",
+    "tags": ["Alpha Release", "WinTitle", "Hotkeys", "Modules"],
+    "path": "posts/alpha25-ahk-opt.md"
+  },
+  {
+    "slug": "alpha24-callbacks-unions",
+    "title": "AHK v2.1-alpha.24: Typed Callbacks and C-Style Unions",
+    "date": "2026-04-13",
+    "description": "CallbackCreate with typed parameter arrays for float support, DefineProp Offset for union-like memory overlays, and wildcard re-exports.",
+    "tags": ["Alpha Release", "Callbacks", "Structs", "Modules"],
+    "path": "posts/alpha24-callbacks-unions.md"
+  },
+  {
+    "slug": "alpha23-numeric-types",
+    "title": "AHK v2.1-alpha.23: Numeric Types and Struct Arrays",
+    "date": "2026-04-13",
+    "description": "Dedicated numeric type classes (Int32, Float32), structured arrays with StructClass[N] syntax, negative indexing, and Size fix.",
+    "tags": ["Alpha Release", "Structs", "Arrays", "Numeric Types"],
+    "path": "posts/alpha23-numeric-types.md"
+  },
+  {
+    "slug": "alpha22-structs",
+    "title": "AHK v2.1-alpha.22: The Struct Revolution",
+    "date": "2026-04-12",
+    "description": "The native Struct keyword with typed fields, auto-generated .Ptr classes, DefineProp() function, Type() unset, and Win32 API integration.",
+    "tags": ["Alpha Release", "Structs", "Win32 API", "DefineProp"],
+    "path": "posts/alpha22-structs.md"
+  },
+  {
     "slug": "oop-in-llms",
     "title": "Object-Oriented Programming in LLMs",
     "date": "2025-12-15",
