@@ -3,45 +3,34 @@
 
 hljs.registerLanguage('ahk2', function(hljs) {
 
+  // Struct/class name after keyword -- matched separately so { stays white
   var STRUCT_DEF = {
+    match: /\bStruct\s+[A-Z]\w*/,
     className: 'keyword',
-    begin: /\bStruct\b/,
-    starts: {
-      contains: [
-        {
-          className: 'title.class',
-          begin: /[A-Z]\w*/,
-          relevance: 0
-        },
-        {
-          className: 'keyword',
-          begin: /\bextends\b/
-        }
-      ],
-      end: /\{/,
-      excludeEnd: true
-    },
+    contains: [
+      { match: /\bStruct\b/, className: 'keyword' },
+      { match: /[A-Z]\w*/, className: 'title.class' }
+    ],
     relevance: 10
   };
 
   var CLASS_DEF = {
+    match: /\bclass\s+[A-Z]\w*/,
     className: 'keyword',
-    begin: /\bclass\b/,
-    starts: {
-      contains: [
-        {
-          className: 'title.class',
-          begin: /[A-Z]\w*/,
-          relevance: 0
-        },
-        {
-          className: 'keyword',
-          begin: /\bextends\b/
-        }
-      ],
-      end: /\{/,
-      excludeEnd: true
-    }
+    contains: [
+      { match: /\bclass\b/, className: 'keyword' },
+      { match: /[A-Z]\w*/, className: 'title.class' }
+    ]
+  };
+
+  // extends keyword + class name
+  var EXTENDS_DEF = {
+    match: /\bextends\s+[A-Z]\w*/,
+    className: 'keyword',
+    contains: [
+      { match: /\bextends\b/, className: 'keyword' },
+      { match: /[A-Z]\w*/, className: 'title.class' }
+    ]
   };
 
   // Built-in functions that use parentheses
@@ -87,6 +76,9 @@ hljs.registerLanguage('ahk2', function(hljs) {
 
       // Class definition
       CLASS_DEF,
+
+      // extends keyword
+      EXTENDS_DEF,
 
       // Directives - purple
       {
