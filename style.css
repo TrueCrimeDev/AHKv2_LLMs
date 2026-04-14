@@ -518,8 +518,9 @@ pre code.hljs,
 /* Operators (:=, =>, +=) -- white */
 .hljs-operator { color: #d4d4d4 !important; }
 
-/* Punctuation -- white */
-.hljs-punctuation { color: #d4d4d4 !important; }
+/* Punctuation: parens, brackets, braces, colons, commas -- white */
+.hljs-punctuation,
+span.hljs-punctuation { color: #d4d4d4 !important; }
 
 /* Literals (true, false) -- blue */
 .hljs-literal { color: #569cd6 !important; }
