@@ -1,19 +1,67 @@
 // highlight-ahk2.js - AutoHotkey v2 syntax grammar for highlight.js
-// Covers v2.0 through v2.1-alpha.26 keywords and patterns
+// Matches VS Code Dark+ theme colors for AHK v2 through v2.1-alpha.26
 
 hljs.registerLanguage('ahk2', function(hljs) {
+
+  var STRUCT_DEF = {
+    className: 'keyword',
+    begin: /\bStruct\b/,
+    starts: {
+      contains: [
+        {
+          className: 'title.class',
+          begin: /[A-Z]\w*/,
+          relevance: 0
+        },
+        {
+          className: 'keyword',
+          begin: /\bextends\b/
+        }
+      ],
+      end: /\{/,
+      excludeEnd: true
+    },
+    relevance: 10
+  };
+
+  var CLASS_DEF = {
+    className: 'keyword',
+    begin: /\bclass\b/,
+    starts: {
+      contains: [
+        {
+          className: 'title.class',
+          begin: /[A-Z]\w*/,
+          relevance: 0
+        },
+        {
+          className: 'keyword',
+          begin: /\bextends\b/
+        }
+      ],
+      end: /\{/,
+      excludeEnd: true
+    }
+  };
+
   return {
     name: 'AutoHotkey v2',
     aliases: ['ahk', 'ahk2', 'autohotkey'],
-    case_insensitive: true,
+    case_insensitive: false,
     contains: [
-      // Block comments /* ... */
-      hljs.COMMENT('/\\*', '\\*/', { relevance: 0 }),
+      // Block comments
+      hljs.COMMENT('/\\*', '\\*/'),
 
       // Line comments
-      hljs.COMMENT(';', '$', { relevance: 0 }),
+      hljs.COMMENT(';', '$'),
 
-      // Directives (#Requires, #Include, #Import, #Module, #SingleInstance)
+      // Struct definition (keyword + class name)
+      STRUCT_DEF,
+
+      // Class definition
+      CLASS_DEF,
+
+      // Directives - purple
       {
         className: 'meta',
         begin: /#(?:Requires|Include|Import|Module|SingleInstance|HotIf|DllLoad|Warn|ErrorStdOut|NoTrayIcon)\b/,
@@ -23,59 +71,45 @@ hljs.registerLanguage('ahk2', function(hljs) {
       // Strings - double quoted
       {
         className: 'string',
-        begin: '"', end: '"',
-        contains: [{ begin: '`.' }],
-        relevance: 0
+        begin: '"',
+        end: '"',
+        contains: [{ begin: /`./ }]
       },
 
       // Strings - single quoted
       {
         className: 'string',
-        begin: "'", end: "'",
-        contains: [{ begin: '`.' }],
-        relevance: 0
+        begin: "'",
+        end: "'",
+        contains: [{ begin: /`./ }]
       },
 
-      // Struct keyword (v2.1-alpha.22+)
-      {
-        className: 'keyword',
-        begin: /\bStruct\b/,
-        relevance: 10
-      },
-
-      // Control flow and declarations
-      {
-        className: 'keyword',
-        begin: /\b(?:if|else|for|while|loop|return|break|continue|switch|case|default|try|catch|finally|throw|class|extends|static|global|local|export|new|in|not|and|or|is|isset|unset)\b/
-      },
-
-      // Built-in types (v2.1-alpha.22+)
+      // Typed field annotations (e.g., x: i32, y: Float64)
       {
         className: 'type',
         begin: /\b(?:i8|u8|i16|u16|i32|u32|i64|u64|iptr|uptr|Int8|UInt8|Int16|UInt16|Int32|UInt32|Int64|UInt64|IntPtr|UIntPtr|Float32|Float64)\b/,
         relevance: 8
       },
 
-      // Built-in functions
+      // Control flow keywords - blue
       {
-        className: 'built_in',
-        begin: /\b(?:MsgBox|InputBox|ToolTip|FileOpen|FileRead|FileAppend|DllCall|CallbackCreate|CallbackFree|ComObject|ComObjGet|ComObjConnect|RegRead|RegWrite|RegDelete|WinExist|WinActive|WinActivate|WinClose|WinWait|WinWaitActive|WinWaitClose|WinGetTitle|WinGetClass|WinGetPos|WinMove|WinHide|WinShow|WinMinimize|WinMaximize|WinRestore|WinSetTitle|WinGetText|WinGetControls|ControlGetText|ControlSetText|ControlClick|ControlSend|ControlFocus|Send|SendInput|SendEvent|Click|MouseMove|MouseClick|MouseGetPos|KeyWait|GetKeyState|Hotkey|SetTimer|Sleep|Run|RunWait|ProcessExist|ProcessClose|ProcessWait|EnvGet|EnvSet|SysGet|MonitorGet|MonitorGetCount|A_ScreenWidth|A_ScreenHeight|Format|FormatTime|StrLen|StrLower|StrUpper|StrReplace|StrSplit|SubStr|InStr|RegExMatch|RegExReplace|Trim|LTrim|RTrim|Sort|Type|IsSet|IsObject|HasProp|HasOwnProp|HasMethod|HasBase|ObjOwnPropCount|GetOwnPropDesc|DefineProp|Sqrt|Abs|Min|Max|Mod|Round|Floor|Ceil|Log|Ln|Exp|Map|Array|Buffer|Gui|Menu|MenuBar|OnMessage|OnExit|OnError|OnClipboardChange|SetTitleMatchMode|DetectHiddenWindows|CoordMode|SendMode|SetWorkingDir|Persistent|Chr|Ord|NumGet|NumPut|StrGet|StrPut)\b(?=\s*[\(])/
+        className: 'keyword',
+        begin: /\b(?:if|else|for|while|loop|return|break|continue|switch|case|default|try|catch|finally|throw|static|global|local|export|in|not|and|or|is|this|super)\b/
       },
 
-      // Built-in variables (A_ prefix)
+      // Built-in variables (A_ prefix) - light blue
       {
-        className: 'built_in',
+        className: 'variable.language',
         begin: /\bA_\w+\b/
       },
 
-      // Class/type names (PascalCase after class/extends/Struct or standalone)
+      // Built-in functions - yellow
       {
-        className: 'title.class',
-        begin: /(?<=(?:class|extends|Struct)\s+)[A-Z]\w*/,
-        relevance: 5
+        className: 'built_in',
+        begin: /\b(?:MsgBox|InputBox|ToolTip|FileOpen|FileRead|FileAppend|DllCall|CallbackCreate|CallbackFree|ComObject|RegRead|RegWrite|WinExist|WinActive|WinActivate|WinClose|WinWait|WinWaitActive|WinGetTitle|WinGetClass|WinGetPos|WinMove|WinHide|WinShow|WinSetTitle|WinGetText|Send|SendInput|Click|MouseMove|MouseClick|MouseGetPos|KeyWait|GetKeyState|Hotkey|SetTimer|Sleep|Run|RunWait|ProcessExist|ProcessClose|Format|FormatTime|StrLen|StrLower|StrUpper|StrReplace|StrSplit|SubStr|InStr|RegExMatch|RegExReplace|Trim|Sort|Type|IsSet|IsObject|HasProp|HasOwnProp|HasMethod|HasBase|ObjOwnPropCount|GetOwnPropDesc|DefineProp|Sqrt|Abs|Min|Max|Mod|Round|Floor|Ceil|Map|Array|Buffer|Gui|Menu|OnMessage|OnExit|OnError|Chr|Ord|NumGet|NumPut|StrGet|StrPut|SetTitleMatchMode|DetectHiddenWindows|CoordMode|SendMode|Persistent|FileExist|DirExist|String)\b(?=\s*\()/
       },
 
-      // Fat arrow
+      // Fat arrow operator
       {
         className: 'operator',
         begin: /=>/
@@ -84,60 +118,66 @@ hljs.registerLanguage('ahk2', function(hljs) {
       // Assignment and comparison operators
       {
         className: 'operator',
-        begin: /(?::=|\.=|\+=|-=|\*=|\/=|\/\/=|<<=|>>=|&=|\|=|\^=|~=|==|!=|<=|>=|&&|\|\||<<|>>|\/\/|\*\*)/
+        begin: /(?::=|\.=|\+=|-=|\*=|\/=|==|!=|<=|>=|&&|\|\||<<|>>|\*\*|~=)/
       },
 
-      // Function/method declarations
+      // Constructor/class calls (PascalCase followed by parenthesis) - yellow
       {
-        className: 'title.function',
-        begin: /\b[a-zA-Z_]\w*(?=\s*\([^)]*\)\s*\{)/,
-        relevance: 3
+        className: 'title.function.invoke',
+        begin: /\b[A-Z]\w*(?=\s*\()/,
+        relevance: 0
       },
 
-      // Function/method calls
+      // Function declarations (name before params + brace)
       {
         className: 'title.function',
-        begin: /\b[a-zA-Z_]\w*(?=\s*\()/,
+        begin: /\b[a-zA-Z_]\w*(?=\s*\([^)]*\)\s*[\{=])/,
+        relevance: 2
+      },
+
+      // Function/method calls - yellow
+      {
+        className: 'title.function.invoke',
+        begin: /\b[a-z_]\w*(?=\s*\()/,
         relevance: 0
       },
 
       // Method calls after dot
       {
-        className: 'title.function',
-        begin: /(?<=\.)[a-zA-Z_]\w*(?=\s*\()/
+        className: 'title.function.invoke',
+        begin: /(?:\.)\w+(?=\s*\()/
       },
 
-      // Property access after dot (not a function call)
+      // Property access after dot - light blue
       {
         className: 'property',
-        begin: /(?<=\.)[a-zA-Z_]\w*\b(?!\s*\()/
-      },
-
-      // Numbers - hex
-      {
-        className: 'number',
-        begin: /\b0[xX][0-9a-fA-F]+\b/,
+        begin: /(?:\.)\w+/,
         relevance: 0
       },
 
-      // Numbers - float
+      // Hex numbers
       {
         className: 'number',
-        begin: /\b\d+\.\d+\b/,
-        relevance: 0
+        begin: /\b0[xX][0-9a-fA-F]+\b/
       },
 
-      // Numbers - integer
+      // Float numbers
+      {
+        className: 'number',
+        begin: /\b\d+\.\d+\b/
+      },
+
+      // Integer numbers
       {
         className: 'number',
         begin: /\b\d+\b/,
         relevance: 0
       },
 
-      // Labels/hotkeys (word followed by ::)
+      // Hotkey labels
       {
         className: 'symbol',
-        begin: /^\s*[^\s:]+(?=::)/,
+        begin: /^\s*[#!^+<>*~$]+\w[^\n:]*(?=::)/,
         relevance: 5
       }
     ]
