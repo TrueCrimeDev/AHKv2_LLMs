@@ -307,9 +307,9 @@ Alpha 25 introduced inline window search options via `ahk_opt`. No more toggling
 
 ```ahk2
 ; Old way -- changes global setting
-DetectHiddenWindows true
+DetectHiddenWindows(true)
 hwnd := WinExist("Notepad")
-DetectHiddenWindows false
+DetectHiddenWindows(false)
 
 ; New way -- per-call, no side effects
 hwnd := WinExist("Notepad ahk_opt Hidden 2")
