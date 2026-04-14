@@ -4,22 +4,22 @@ CloudAHK exposes a lightweight FastAPI service that runs AutoHotkey v2 scripts o
 
 ## Prerequisites
 
-- Python 3.9+
+- Python 3.10+
 - Node.js 18+ (required for the ANTLR parsing endpoint)
 - AutoHotkey v2 installed locally (set `AHK_V2_PATH` to the interpreter if it is not on a default path)
 
 ## Setup
 
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
+```
+cd cloudahk
 pip install -r requirements.txt
+python httpd.py
 ```
 
-Set the interpreter location (if required):
+Set the interpreter location if AutoHotkey v2 is not on a standard path:
 
-```powershell
-$env:AHK_V2_PATH = "C:\Program Files\AutoHotkey\v2\AutoHotkey.exe"
+```
+set AHK_V2_PATH=C:\Program Files\AutoHotkey\v2\AutoHotkey.exe
 ```
 
 ## Running the API
