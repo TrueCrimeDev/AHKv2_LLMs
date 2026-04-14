@@ -1,5 +1,13 @@
 [
   {
+    "slug": "cloudahk",
+    "title": "CloudAHK: Remote AHK v2 Execution via REST API",
+    "date": "2026-04-14",
+    "description": "A FastAPI service for executing AHK v2 scripts over HTTP with an ANTLR parser endpoint. Includes an AHK v2 client class and template system.",
+    "tags": ["CloudAHK", "API", "FastAPI", "ANTLR"],
+    "path": "posts/cloudahk.md"
+  },
+  {
     "slug": "alpha-tricks",
     "title": "AHK v2.1 Alpha Tricks: Unions, Arenas, and Prototype Black Magic",
     "date": "2026-04-14",
