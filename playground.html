@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+  <script src="highlight-ahk2.js"></script>
   <style>
     .playground-layout {
       max-width: 1100px;
@@ -137,13 +139,55 @@
       font-family: var(--font-mono);
     }
 
-    /* Code editor textarea */
+    /* Editor wrapper for highlight overlay */
+    .editor-wrap {
+      position: relative;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* Highlighted code layer (behind textarea) */
+    .editor-highlight {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 16px;
+      margin: 0;
+      background: #171717;
+      border: none;
+      border-radius: 0;
+      overflow: auto;
+      pointer-events: none;
+    }
+
+    .editor-highlight code {
+      display: block;
+      background: none !important;
+      border: none !important;
+      padding: 0 !important;
+      margin: 0;
+      font-family: var(--font-mono);
+      font-size: 13.5px;
+      line-height: 1.6;
+      tab-size: 4;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      color: #9cdcfe;
+    }
+
+    /* Code editor textarea (transparent text, on top) */
     .code-editor {
+      position: relative;
+      z-index: 1;
       flex: 1;
       width: 100%;
+      height: 100%;
       padding: 16px;
-      background: #171717;
-      color: #d4d4d4;
+      background: transparent;
+      color: transparent;
+      caret-color: #d4d4d4;
       border: none;
       resize: none;
       font-family: var(--font-mono);
@@ -151,10 +195,18 @@
       line-height: 1.6;
       tab-size: 4;
       outline: none;
+      white-space: pre-wrap;
+      word-wrap: break-word;
     }
 
     .code-editor::placeholder {
       color: #404040;
+    }
+
+    /* Selection needs visible text */
+    .code-editor::selection {
+      background: rgba(91, 159, 239, 0.3);
+      color: transparent;
     }
 
     /* Output panel */
@@ -288,9 +340,12 @@
           <span class="panel-title">Editor</span>
           <span class="panel-badge" id="lineCount">0 lines</span>
         </div>
-        <textarea class="code-editor" id="editor" spellcheck="false"
-          placeholder="Type AHK v2 code here..."
-          oninput="updateLineCount()"></textarea>
+        <div class="editor-wrap">
+          <pre class="editor-highlight" id="editorHighlight" aria-hidden="true"><code class="language-ahk2" id="editorCode"></code></pre>
+          <textarea class="code-editor" id="editor" spellcheck="false"
+            placeholder="Type AHK v2 code here..."
+            oninput="syncEditor()"></textarea>
+        </div>
       </div>
 
       <div class="panel">
@@ -338,7 +393,7 @@ Start the server:
       var code = EXAMPLES[sel.value];
       if (code) {
         document.getElementById('editor').value = code;
-        updateLineCount();
+        syncEditor();
       }
       sel.value = '';
     }
@@ -347,6 +402,26 @@ Start the server:
       var lines = document.getElementById('editor').value.split('\n').length;
       document.getElementById('lineCount').textContent = lines + ' line' + (lines === 1 ? '' : 's');
     }
+
+    function highlightEditor() {
+      var code = document.getElementById('editor').value;
+      var codeEl = document.getElementById('editorCode');
+      // Use manual highlight API so it works on every call (highlightElement only works once)
+      var result = hljs.highlight(code + '\n', { language: 'ahk2' });
+      codeEl.innerHTML = result.value;
+    }
+
+    function syncEditor() {
+      updateLineCount();
+      highlightEditor();
+    }
+
+    // Keep scroll positions in sync
+    document.getElementById('editor').addEventListener('scroll', function() {
+      var pre = document.getElementById('editorHighlight');
+      pre.scrollTop = this.scrollTop;
+      pre.scrollLeft = this.scrollLeft;
+    });
 
     function getEndpoint() {
       return document.getElementById('endpoint').value.replace(/\/+$/, '');
@@ -450,7 +525,7 @@ Start the server:
       }
     });
 
-    updateLineCount();
+    syncEditor();
   </script>
 </body>
 </html>
