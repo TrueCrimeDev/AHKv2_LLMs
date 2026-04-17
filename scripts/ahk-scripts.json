@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-17T12:21:27.611Z",
-  "totalScripts": 243,
+  "lastUpdated": "2026-04-17T18:18:59.256Z",
+  "totalScripts": 244,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4692,7 +4692,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-09T04:06:11Z",
-      "lastModified": "2026-04-17T07:43:25Z",
+      "lastModified": "2026-04-17T13:17:06Z",
       "source": "github",
       "url": "https://github.com/dyjung150605/autoHotkey_config",
       "stars": 0,
@@ -4838,6 +4838,27 @@
       "forks": 0,
       "owner": "melody0709",
       "code": "```cpp\n; ============================================\n; Repository: melody0709/AutoHotkey_ahk\n; ============================================\n; URL: https://github.com/melody0709/AutoHotkey_ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 4/15/2026\n; License: Not specified\n;\n; Description:\n; 这是一个功能丰富的系统增强型 AutoHotkey v2 脚本，用于游戏/办公性能控制、系统管理以及窗口行为优化。只需几个键盘快捷键，即可轻松调节从 CPU 电源策略、GPU 功耗锁/频率锁到系统省电模式及窗口的日常管理。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/melody0709/AutoHotkey_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/melody0709/AutoHotkey_ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_ahk>\n\n; Example initialization\nclass AutohotkeyAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyAhkExample()\n```"
+    },
+    {
+      "id": "github-1213648622",
+      "title": "VDFiles-Mapper",
+      "category": "GitHub Repository",
+      "description": "A lightweight AutoHotkey v2 script for Windows 11, allowing you to have a unique set of files and folders for every virtual desktop.",
+      "tags": [
+        "github",
+        "repository",
+        "ahkv2",
+        "virtual-desktop"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-17T15:56:54Z",
+      "lastModified": "2026-04-17T16:08:13Z",
+      "source": "github",
+      "url": "https://github.com/umaybe/VDFiles-Mapper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "umaybe",
+      "code": "```cpp\n; ============================================\n; Repository: umaybe/VDFiles-Mapper\n; ============================================\n; URL: https://github.com/umaybe/VDFiles-Mapper\n; Stars: 0 | Forks: 0\n; Last Updated: 4/17/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script for Windows 11, allowing you to have a unique set of files and folders for every virtual desktop.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/umaybe/VDFiles-Mapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/umaybe/VDFiles-Mapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VDFiles-Mapper>\n\n; Example initialization\nclass VdfilesMapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VDFiles-Mapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VdfilesMapperExample()\n```"
     }
   ]
 }
