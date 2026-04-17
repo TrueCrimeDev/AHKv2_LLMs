@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-17T00:32:04.075Z",
+  "lastUpdated": "2026-04-17T06:39:37.329Z",
   "totalScripts": 243,
   "categories": [
     "GUI",
@@ -3355,13 +3355,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-11T22:36:48Z",
-      "lastModified": "2026-03-31T17:16:53Z",
+      "lastModified": "2026-04-17T05:15:15Z",
       "source": "github",
       "url": "https://github.com/Dason-IsopodOverseer/UberMaus",
       "stars": 0,
       "forks": 0,
       "owner": "Dason-IsopodOverseer",
-      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 3/31/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 4/17/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
     },
     {
       "id": "github-1169619112",
@@ -3774,13 +3774,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2022-06-05T05:36:15Z",
-      "lastModified": "2026-04-16T23:56:23Z",
+      "lastModified": "2026-04-17T01:08:49Z",
       "source": "github",
       "url": "https://github.com/AutoHotkey/AutoHotkeyUX",
-      "stars": 39,
+      "stars": 40,
       "forks": 19,
       "owner": "AutoHotkey",
-      "code": "```cpp\n; ============================================\n; Repository: AutoHotkey/AutoHotkeyUX\n; ============================================\n; URL: https://github.com/AutoHotkey/AutoHotkeyUX\n; Stars: 39 | Forks: 19\n; Last Updated: 4/16/2026\n; License: Not specified\n;\n; Description:\n; Installer and other scripts packaged with AutoHotkey v2, aimed at improving the overall user experience.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AutoHotkey/AutoHotkeyUX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AutoHotkey/AutoHotkeyUX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkeyUX>\n\n; Example initialization\nclass AutohotkeyuxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkeyUX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyuxExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AutoHotkey/AutoHotkeyUX\n; ============================================\n; URL: https://github.com/AutoHotkey/AutoHotkeyUX\n; Stars: 40 | Forks: 19\n; Last Updated: 4/17/2026\n; License: Not specified\n;\n; Description:\n; Installer and other scripts packaged with AutoHotkey v2, aimed at improving the overall user experience.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AutoHotkey/AutoHotkeyUX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AutoHotkey/AutoHotkeyUX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkeyUX>\n\n; Example initialization\nclass AutohotkeyuxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkeyUX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyuxExample()\n```"
     },
     {
       "id": "github-1183838664",
@@ -4692,13 +4692,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-09T04:06:11Z",
-      "lastModified": "2026-04-09T04:56:41Z",
+      "lastModified": "2026-04-17T05:36:27Z",
       "source": "github",
       "url": "https://github.com/dyjung150605/autoHotkey_config",
       "stars": 0,
       "forks": 0,
       "owner": "dyjung150605",
-      "code": "```cpp\n; ============================================\n; Repository: dyjung150605/autoHotkey_config\n; ============================================\n; URL: https://github.com/dyjung150605/autoHotkey_config\n; Stars: 0 | Forks: 0\n; Last Updated: 4/9/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for screen capture → file path clipboard workflow (Windows CLI image paste workaround)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dyjung150605/autoHotkey_config.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dyjung150605/autoHotkey_config/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autoHotkey_config>\n\n; Example initialization\nclass AutohotkeyConfigExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autoHotkey_config loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyConfigExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: dyjung150605/autoHotkey_config\n; ============================================\n; URL: https://github.com/dyjung150605/autoHotkey_config\n; Stars: 0 | Forks: 0\n; Last Updated: 4/17/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for screen capture → file path clipboard workflow (Windows CLI image paste workaround)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dyjung150605/autoHotkey_config.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dyjung150605/autoHotkey_config/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autoHotkey_config>\n\n; Example initialization\nclass AutohotkeyConfigExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autoHotkey_config loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyConfigExample()\n```"
     },
     {
       "id": "github-1065522814",
