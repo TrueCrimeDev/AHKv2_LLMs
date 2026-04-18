@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-18T06:27:36.287Z",
-  "totalScripts": 245,
+  "lastUpdated": "2026-04-18T12:12:48.670Z",
+  "totalScripts": 246,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4614,13 +4614,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-06T04:35:51Z",
-      "lastModified": "2026-04-17T12:11:38Z",
+      "lastModified": "2026-04-18T11:05:52Z",
       "source": "github",
       "url": "https://github.com/armaninyow/Dynamic-Window-Manager",
-      "stars": 10,
+      "stars": 11,
       "forks": 0,
       "owner": "armaninyow",
-      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Dynamic-Window-Manager\n; ============================================\n; URL: https://github.com/armaninyow/Dynamic-Window-Manager\n; Stars: 10 | Forks: 0\n; Last Updated: 4/17/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Dynamic-Window-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Dynamic-Window-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dynamic-Window-Manager>\n\n; Example initialization\nclass DynamicWindowManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dynamic-Window-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DynamicWindowManagerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Dynamic-Window-Manager\n; ============================================\n; URL: https://github.com/armaninyow/Dynamic-Window-Manager\n; Stars: 11 | Forks: 0\n; Last Updated: 4/18/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Dynamic-Window-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Dynamic-Window-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dynamic-Window-Manager>\n\n; Example initialization\nclass DynamicWindowManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dynamic-Window-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DynamicWindowManagerExample()\n```"
     },
     {
       "id": "github-1204781820",
@@ -4812,13 +4812,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-09-06T13:35:40Z",
-      "lastModified": "2026-04-13T12:35:43Z",
+      "lastModified": "2026-04-18T09:03:08Z",
       "source": "github",
       "url": "https://github.com/bamd5alifes7/PoE_AffixReader",
       "stars": 1,
       "forks": 0,
       "owner": "bamd5alifes7",
-      "code": "```cpp\n; ============================================\n; Repository: bamd5alifes7/PoE_AffixReader\n; ============================================\n; URL: https://github.com/bamd5alifes7/PoE_AffixReader\n; Stars: 1 | Forks: 0\n; Last Updated: 4/13/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2-based Path of Exile crafting helper with profile-driven affix matching, dashboard UI, coordinate capture, and detailed run logging.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bamd5alifes7/PoE_AffixReader.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bamd5alifes7/PoE_AffixReader/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PoE_AffixReader>\n\n; Example initialization\nclass PoeAffixreaderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PoE_AffixReader loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeAffixreaderExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bamd5alifes7/PoE_AffixReader\n; ============================================\n; URL: https://github.com/bamd5alifes7/PoE_AffixReader\n; Stars: 1 | Forks: 0\n; Last Updated: 4/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2-based Path of Exile crafting helper with profile-driven affix matching, dashboard UI, coordinate capture, and detailed run logging.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bamd5alifes7/PoE_AffixReader.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bamd5alifes7/PoE_AffixReader/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PoE_AffixReader>\n\n; Example initialization\nclass PoeAffixreaderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PoE_AffixReader loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeAffixreaderExample()\n```"
     },
     {
       "id": "github-1206571452",
@@ -4878,6 +4878,25 @@
       "forks": 0,
       "owner": "Magnetron85",
       "code": "```cpp\n; ============================================\n; Repository: Magnetron85/xbox_controller\n; ============================================\n; URL: https://github.com/Magnetron85/xbox_controller\n; Stars: 0 | Forks: 0\n; Last Updated: 4/18/2026\n; License: MIT License\n;\n; Description:\n; Drive a radiology reading workstation (PACS + dictation) from a wired Xbox controller. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/xbox_controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/xbox_controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <xbox_controller>\n\n; Example initialization\nclass XboxControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"xbox_controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := XboxControllerExample()\n```"
+    },
+    {
+      "id": "github-1214287126",
+      "title": "ACC-Dungeon-Macro",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 macro for Roblox Anime Card Clash that automates modifier picking and upgrade team building. Uses OCR, hotkeys, editable region selection calibration, and readable team sets with A/B alternatives. Logs runtime actions and supports fast manual control.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-18T11:15:51Z",
+      "lastModified": "2026-04-18T12:06:09Z",
+      "source": "github",
+      "url": "https://github.com/artm-stack/ACC-Dungeon-Macro",
+      "stars": 1,
+      "forks": 0,
+      "owner": "artm-stack",
+      "code": "```cpp\n; ============================================\n; Repository: artm-stack/ACC-Dungeon-Macro\n; ============================================\n; URL: https://github.com/artm-stack/ACC-Dungeon-Macro\n; Stars: 1 | Forks: 0\n; Last Updated: 4/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 macro for Roblox Anime Card Clash that automates modifier picking and upgrade team building. Uses OCR, hotkeys, editable region selection calibration, and readable team sets with A/B alternatives. Logs runtime actions and supports fast manual control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/artm-stack/ACC-Dungeon-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/artm-stack/ACC-Dungeon-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ACC-Dungeon-Macro>\n\n; Example initialization\nclass AccDungeonMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ACC-Dungeon-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AccDungeonMacroExample()\n```"
     }
   ]
 }
