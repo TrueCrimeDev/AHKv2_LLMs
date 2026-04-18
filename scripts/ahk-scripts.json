@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-18T00:28:52.207Z",
+  "lastUpdated": "2026-04-18T06:27:36.287Z",
   "totalScripts": 245,
   "categories": [
     "GUI",
@@ -1453,13 +1453,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2021-02-14T08:17:59Z",
-      "lastModified": "2026-02-06T08:56:50Z",
+      "lastModified": "2026-04-18T05:12:14Z",
       "source": "github",
       "url": "https://github.com/TetraTheta/autohotkey-script",
       "stars": 0,
       "forks": 0,
       "owner": "TetraTheta",
-      "code": "```cpp\n; ============================================\n; Repository: TetraTheta/autohotkey-script\n; ============================================\n; URL: https://github.com/TetraTheta/autohotkey-script\n; Stars: 0 | Forks: 0\n; Last Updated: 2/6/2026\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TetraTheta/autohotkey-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TetraTheta/autohotkey-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-script>\n\n; Example initialization\nclass AutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TetraTheta/autohotkey-script\n; ============================================\n; URL: https://github.com/TetraTheta/autohotkey-script\n; Stars: 0 | Forks: 0\n; Last Updated: 4/18/2026\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TetraTheta/autohotkey-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TetraTheta/autohotkey-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-script>\n\n; Example initialization\nclass AutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptExample()\n```"
     },
     {
       "id": "github-1038813733",
@@ -4255,13 +4255,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-07T21:58:54Z",
-      "lastModified": "2026-03-31T14:17:12Z",
+      "lastModified": "2026-04-18T02:04:07Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/ClautoHotkey",
-      "stars": 24,
+      "stars": 25,
       "forks": 5,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 24 | Forks: 5\n; Last Updated: 3/31/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 25 | Forks: 5\n; Last Updated: 4/18/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
     },
     {
       "id": "github-1196649768",
@@ -4852,13 +4852,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-17T15:56:54Z",
-      "lastModified": "2026-04-17T16:08:13Z",
+      "lastModified": "2026-04-18T04:38:29Z",
       "source": "github",
       "url": "https://github.com/umaybe/VDFiles-Mapper",
       "stars": 0,
       "forks": 0,
       "owner": "umaybe",
-      "code": "```cpp\n; ============================================\n; Repository: umaybe/VDFiles-Mapper\n; ============================================\n; URL: https://github.com/umaybe/VDFiles-Mapper\n; Stars: 0 | Forks: 0\n; Last Updated: 4/17/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script for Windows 11, allowing you to have a unique set of files and folders for every virtual desktop.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/umaybe/VDFiles-Mapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/umaybe/VDFiles-Mapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VDFiles-Mapper>\n\n; Example initialization\nclass VdfilesMapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VDFiles-Mapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VdfilesMapperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: umaybe/VDFiles-Mapper\n; ============================================\n; URL: https://github.com/umaybe/VDFiles-Mapper\n; Stars: 0 | Forks: 0\n; Last Updated: 4/18/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script for Windows 11, allowing you to have a unique set of files and folders for every virtual desktop.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/umaybe/VDFiles-Mapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/umaybe/VDFiles-Mapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VDFiles-Mapper>\n\n; Example initialization\nclass VdfilesMapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VDFiles-Mapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VdfilesMapperExample()\n```"
     },
     {
       "id": "github-1213828283",
