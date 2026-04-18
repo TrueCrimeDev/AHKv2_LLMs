@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-17T18:18:59.256Z",
-  "totalScripts": 244,
+  "lastUpdated": "2026-04-18T00:28:52.207Z",
+  "totalScripts": 245,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4859,6 +4859,25 @@
       "forks": 0,
       "owner": "umaybe",
       "code": "```cpp\n; ============================================\n; Repository: umaybe/VDFiles-Mapper\n; ============================================\n; URL: https://github.com/umaybe/VDFiles-Mapper\n; Stars: 0 | Forks: 0\n; Last Updated: 4/17/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script for Windows 11, allowing you to have a unique set of files and folders for every virtual desktop.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/umaybe/VDFiles-Mapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/umaybe/VDFiles-Mapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VDFiles-Mapper>\n\n; Example initialization\nclass VdfilesMapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VDFiles-Mapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VdfilesMapperExample()\n```"
+    },
+    {
+      "id": "github-1213828283",
+      "title": "xbox_controller",
+      "category": "GitHub Repository",
+      "description": "Drive a radiology reading workstation (PACS + dictation) from a wired Xbox controller. AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-17T20:03:11Z",
+      "lastModified": "2026-04-18T00:17:51Z",
+      "source": "github",
+      "url": "https://github.com/Magnetron85/xbox_controller",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Magnetron85",
+      "code": "```cpp\n; ============================================\n; Repository: Magnetron85/xbox_controller\n; ============================================\n; URL: https://github.com/Magnetron85/xbox_controller\n; Stars: 0 | Forks: 0\n; Last Updated: 4/18/2026\n; License: MIT License\n;\n; Description:\n; Drive a radiology reading workstation (PACS + dictation) from a wired Xbox controller. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/xbox_controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/xbox_controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <xbox_controller>\n\n; Example initialization\nclass XboxControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"xbox_controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := XboxControllerExample()\n```"
     }
   ]
 }
