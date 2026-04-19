@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-19T06:36:00.665Z",
+  "lastUpdated": "2026-04-19T12:12:30.084Z",
   "totalScripts": 246,
   "categories": [
     "GUI",
@@ -2817,13 +2817,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T19:50:03Z",
-      "lastModified": "2026-02-16T12:40:47Z",
+      "lastModified": "2026-04-19T10:39:32Z",
       "source": "github",
       "url": "https://github.com/ezflow997/SetupLauncher",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "ezflow997",
-      "code": "```cpp\n; ============================================\n; Repository: ezflow997/SetupLauncher\n; ============================================\n; URL: https://github.com/ezflow997/SetupLauncher\n; Stars: 0 | Forks: 0\n; Last Updated: 2/16/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 application manager - automates launching apps via shortcuts and navigates menus with configurable key sequences\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/SetupLauncher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/SetupLauncher/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SetupLauncher>\n\n; Example initialization\nclass SetuplauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SetupLauncher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SetuplauncherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ezflow997/SetupLauncher\n; ============================================\n; URL: https://github.com/ezflow997/SetupLauncher\n; Stars: 1 | Forks: 0\n; Last Updated: 4/19/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 application manager - automates launching apps via shortcuts and navigates menus with configurable key sequences\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/SetupLauncher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/SetupLauncher/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SetupLauncher>\n\n; Example initialization\nclass SetuplauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SetupLauncher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SetuplauncherExample()\n```"
     },
     {
       "id": "github-1157560582",
@@ -4255,13 +4255,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-07T21:58:54Z",
-      "lastModified": "2026-04-18T02:04:07Z",
+      "lastModified": "2026-04-19T09:52:46Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/ClautoHotkey",
-      "stars": 25,
+      "stars": 26,
       "forks": 5,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 25 | Forks: 5\n; Last Updated: 4/18/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 26 | Forks: 5\n; Last Updated: 4/19/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
     },
     {
       "id": "github-1196649768",
