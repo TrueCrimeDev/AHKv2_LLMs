@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-18T18:13:49.096Z",
+  "lastUpdated": "2026-04-19T00:31:21.146Z",
   "totalScripts": 246,
   "categories": [
     "GUI",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-04-11T19:23:28Z",
+      "lastModified": "2026-04-18T23:09:36Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 44,
       "forks": 6,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 44 | Forks: 6\n; Last Updated: 4/11/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 44 | Forks: 6\n; Last Updated: 4/18/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -1453,7 +1453,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2021-02-14T08:17:59Z",
-      "lastModified": "2026-04-18T15:57:11Z",
+      "lastModified": "2026-04-18T18:44:14Z",
       "source": "github",
       "url": "https://github.com/TetraTheta/autohotkey-script",
       "stars": 0,
@@ -1767,13 +1767,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-02T22:35:14Z",
-      "lastModified": "2026-01-22T08:09:22Z",
+      "lastModified": "2026-04-19T00:05:51Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahkimagemagick",
       "stars": 1,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahkimagemagick\n; ============================================\n; URL: https://github.com/holy-tao/ahkimagemagick\n; Stars: 1 | Forks: 0\n; Last Updated: 1/22/2026\n; License: MIT License\n;\n; Description:\n; 🪄 Modern ImageMagick bindings for AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahkimagemagick.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahkimagemagick/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkimagemagick>\n\n; Example initialization\nclass AhkimagemagickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkimagemagick loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkimagemagickExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahkimagemagick\n; ============================================\n; URL: https://github.com/holy-tao/ahkimagemagick\n; Stars: 1 | Forks: 0\n; Last Updated: 4/19/2026\n; License: MIT License\n;\n; Description:\n; 🪄 Modern ImageMagick bindings for AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahkimagemagick.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahkimagemagick/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkimagemagick>\n\n; Example initialization\nclass AhkimagemagickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkimagemagick loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkimagemagickExample()\n```"
     },
     {
       "id": "github-1127848546",
@@ -2480,13 +2480,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-02T17:33:54Z",
-      "lastModified": "2026-03-31T14:40:06Z",
+      "lastModified": "2026-04-18T19:07:46Z",
       "source": "github",
       "url": "https://github.com/Firnschnee/My-AHK-v2-Scripts",
-      "stars": 5,
+      "stars": 4,
       "forks": 0,
       "owner": "Firnschnee",
-      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 5 | Forks: 0\n; Last Updated: 3/31/2026\n; License: MIT License\n;\n; Description:\n; A collection of my AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Firnschnee/My-AHK-v2-Scripts\n; ============================================\n; URL: https://github.com/Firnschnee/My-AHK-v2-Scripts\n; Stars: 4 | Forks: 0\n; Last Updated: 4/18/2026\n; License: MIT License\n;\n; Description:\n; A collection of my AutoHotkey v2 scripts fixing German keyboard layout problems\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Firnschnee/My-AHK-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Firnschnee/My-AHK-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <My-AHK-v2-Scripts>\n\n; Example initialization\nclass MyAhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"My-AHK-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAhkV2ScriptsExample()\n```"
     },
     {
       "id": "github-1150337230",
