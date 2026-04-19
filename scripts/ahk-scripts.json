@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-19T00:31:21.146Z",
+  "lastUpdated": "2026-04-19T06:36:00.665Z",
   "totalScripts": 246,
   "categories": [
     "GUI",
@@ -1175,13 +1175,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-10-07T03:49:34Z",
-      "lastModified": "2026-03-24T00:37:04Z",
+      "lastModified": "2026-04-19T01:48:30Z",
       "source": "github",
       "url": "https://github.com/holy-tao/MsgPack",
       "stars": 4,
       "forks": 1,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/MsgPack\n; ============================================\n; URL: https://github.com/holy-tao/MsgPack\n; Stars: 4 | Forks: 1\n; Last Updated: 3/24/2026\n; License: MIT License\n;\n; Description:\n; MessagePack implementation in pure AutoHotkey v2 / msgpack.io[AutoHotkey]\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/MsgPack.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/MsgPack/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MsgPack>\n\n; Example initialization\nclass MsgpackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MsgPack loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MsgpackExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/MsgPack\n; ============================================\n; URL: https://github.com/holy-tao/MsgPack\n; Stars: 4 | Forks: 1\n; Last Updated: 4/19/2026\n; License: MIT License\n;\n; Description:\n; MessagePack implementation in pure AutoHotkey v2 / msgpack.io[AutoHotkey]\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/MsgPack.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/MsgPack/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MsgPack>\n\n; Example initialization\nclass MsgpackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MsgPack loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MsgpackExample()\n```"
     },
     {
       "id": "github-762196209",
