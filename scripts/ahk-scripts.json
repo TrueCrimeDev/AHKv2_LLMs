@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-20T06:47:00.651Z",
+  "lastUpdated": "2026-04-20T12:26:25.622Z",
   "totalScripts": 247,
   "categories": [
     "GUI",
@@ -4040,13 +4040,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-27T08:47:49Z",
-      "lastModified": "2026-04-10T09:05:42Z",
+      "lastModified": "2026-04-20T10:58:28Z",
       "source": "github",
       "url": "https://github.com/wsnh2022/VisionScribe-AI",
-      "stars": 5,
+      "stars": 6,
       "forks": 0,
       "owner": "wsnh2022",
-      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 5 | Forks: 0\n; Last Updated: 4/10/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 6 | Forks: 0\n; Last Updated: 4/20/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
     },
     {
       "id": "github-667268886",
@@ -4633,13 +4633,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-08T10:25:15Z",
-      "lastModified": "2026-04-12T06:37:06Z",
+      "lastModified": "2026-04-20T06:49:39Z",
       "source": "github",
       "url": "https://github.com/SudharsanS912/start-to-run",
       "stars": 0,
       "forks": 0,
       "owner": "SudharsanS912",
-      "code": "```cpp\n; ============================================\n; Repository: SudharsanS912/start-to-run\n; ============================================\n; URL: https://github.com/SudharsanS912/start-to-run\n; Stars: 0 | Forks: 0\n; Last Updated: 4/12/2026\n; License: Not specified\n;\n; Description:\n; This project aims to replace the Start Menu in Windows with PowerToys Run/Command Pallete using AutoHotKey v2 script and Powertoys Key Mapping\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SudharsanS912/start-to-run.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SudharsanS912/start-to-run/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <start-to-run>\n\n; Example initialization\nclass StartToRunExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"start-to-run loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StartToRunExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: SudharsanS912/start-to-run\n; ============================================\n; URL: https://github.com/SudharsanS912/start-to-run\n; Stars: 0 | Forks: 0\n; Last Updated: 4/20/2026\n; License: Not specified\n;\n; Description:\n; This project aims to replace the Start Menu in Windows with PowerToys Run/Command Pallete using AutoHotKey v2 script and Powertoys Key Mapping\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SudharsanS912/start-to-run.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SudharsanS912/start-to-run/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <start-to-run>\n\n; Example initialization\nclass StartToRunExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"start-to-run loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StartToRunExample()\n```"
     },
     {
       "id": "github-1205141165",
@@ -4852,13 +4852,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-17T15:56:54Z",
-      "lastModified": "2026-04-18T16:05:35Z",
+      "lastModified": "2026-04-20T12:19:45Z",
       "source": "github",
       "url": "https://github.com/umaybe/VDFiles-Mapper",
       "stars": 0,
       "forks": 0,
       "owner": "umaybe",
-      "code": "```cpp\n; ============================================\n; Repository: umaybe/VDFiles-Mapper\n; ============================================\n; URL: https://github.com/umaybe/VDFiles-Mapper\n; Stars: 0 | Forks: 0\n; Last Updated: 4/18/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script for Windows 11, allowing you to have a unique set of files and folders for every virtual desktop.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/umaybe/VDFiles-Mapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/umaybe/VDFiles-Mapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VDFiles-Mapper>\n\n; Example initialization\nclass VdfilesMapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VDFiles-Mapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VdfilesMapperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: umaybe/VDFiles-Mapper\n; ============================================\n; URL: https://github.com/umaybe/VDFiles-Mapper\n; Stars: 0 | Forks: 0\n; Last Updated: 4/20/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script for Windows 11, allowing you to have a unique set of files and folders for every virtual desktop.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/umaybe/VDFiles-Mapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/umaybe/VDFiles-Mapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VDFiles-Mapper>\n\n; Example initialization\nclass VdfilesMapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VDFiles-Mapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VdfilesMapperExample()\n```"
     },
     {
       "id": "github-1213828283",
