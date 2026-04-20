@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-20T00:31:21.499Z",
-  "totalScripts": 246,
+  "lastUpdated": "2026-04-20T06:47:00.651Z",
+  "totalScripts": 247,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-04-15T07:52:52Z",
+      "lastModified": "2026-04-20T05:12:12Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 4/15/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 4/20/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -4824,20 +4824,20 @@
       "id": "github-1206571452",
       "title": "AutoHotkey_ahk",
       "category": "GitHub Repository",
-      "description": "这是一个功能丰富的系统增强型 AutoHotkey v2 脚本，用于游戏/办公性能控制、系统管理以及窗口行为优化。只需几个键盘快捷键，即可轻松调节从 CPU 电源策略、GPU 功耗锁/频率锁到系统省电模式及窗口的日常管理。",
+      "description": "这是一个功能丰富的系统增��型 AutoHotkey v2 脚本，用于游戏/办公性能控制、系统管理以及窗口行为优化。只需几个键盘快捷键，即可轻松调节从 CPU 电源策略、GPU 功耗锁/频率锁到系统省电模式及窗口的日常管理。",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-10T03:33:57Z",
-      "lastModified": "2026-04-15T08:37:42Z",
+      "lastModified": "2026-04-20T05:54:27Z",
       "source": "github",
       "url": "https://github.com/melody0709/AutoHotkey_ahk",
       "stars": 0,
       "forks": 0,
       "owner": "melody0709",
-      "code": "```cpp\n; ============================================\n; Repository: melody0709/AutoHotkey_ahk\n; ============================================\n; URL: https://github.com/melody0709/AutoHotkey_ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 4/15/2026\n; License: Not specified\n;\n; Description:\n; 这是一个功能丰富的系统增强型 AutoHotkey v2 脚本，用于游戏/办公性能控制、系统管理以及窗口行为优化。只需几个键盘快捷键，即可轻松调节从 CPU 电源策略、GPU 功耗锁/频率锁到系统省电模式及窗口的日常管理。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/melody0709/AutoHotkey_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/melody0709/AutoHotkey_ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_ahk>\n\n; Example initialization\nclass AutohotkeyAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: melody0709/AutoHotkey_ahk\n; ============================================\n; URL: https://github.com/melody0709/AutoHotkey_ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 4/20/2026\n; License: Not specified\n;\n; Description:\n; 这是一个功能丰富的系统增��型 AutoHotkey v2 脚本，用于游戏/办公性能控制、系统管理以及窗口行为优化。只需几个键盘快捷键，即可轻松调节从 CPU 电源策略、GPU 功耗锁/频率锁到系统省电模式及窗口的日常管理。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/melody0709/AutoHotkey_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/melody0709/AutoHotkey_ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_ahk>\n\n; Example initialization\nclass AutohotkeyAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyAhkExample()\n```"
     },
     {
       "id": "github-1213648622",
@@ -4902,6 +4902,31 @@
       "forks": 0,
       "owner": "artm-stack",
       "code": "```cpp\n; ============================================\n; Repository: artm-stack/ACC-Dungeon-Macro\n; ============================================\n; URL: https://github.com/artm-stack/ACC-Dungeon-Macro\n; Stars: 1 | Forks: 0\n; Last Updated: 4/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 macro for Roblox Anime Card Clash that automates modifier picking and upgrade team building. Uses OCR, hotkeys, editable region selection calibration, and readable team sets with A/B alternatives. Logs runtime actions and supports fast manual control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/artm-stack/ACC-Dungeon-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/artm-stack/ACC-Dungeon-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ACC-Dungeon-Macro>\n\n; Example initialization\nclass AccDungeonMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ACC-Dungeon-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AccDungeonMacroExample()\n```"
+    },
+    {
+      "id": "github-1127729797",
+      "title": "gtao-heist-toolkit",
+      "category": "GitHub Repository",
+      "description": "GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "ahkv2",
+        "automation",
+        "casino-script",
+        "cayo-perico",
+        "gta-online-no-save",
+        "gta-onlinehack"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-01-04T13:38:19Z",
+      "lastModified": "2026-04-20T04:42:44Z",
+      "source": "github",
+      "url": "https://github.com/infpdev/gtao-heist-toolkit",
+      "stars": 0,
+      "forks": 0,
+      "owner": "infpdev",
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 0 | Forks: 0\n; Last Updated: 4/20/2026\n; License: Not specified\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     }
   ]
 }
