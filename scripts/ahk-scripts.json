@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-21T06:39:52.027Z",
+  "lastUpdated": "2026-04-21T12:24:00.585Z",
   "totalScripts": 247,
   "categories": [
     "GUI",
@@ -4633,13 +4633,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-08T10:25:15Z",
-      "lastModified": "2026-04-20T06:49:39Z",
+      "lastModified": "2026-04-21T11:05:35Z",
       "source": "github",
       "url": "https://github.com/SudharsanS912/start-to-run",
       "stars": 0,
       "forks": 0,
       "owner": "SudharsanS912",
-      "code": "```cpp\n; ============================================\n; Repository: SudharsanS912/start-to-run\n; ============================================\n; URL: https://github.com/SudharsanS912/start-to-run\n; Stars: 0 | Forks: 0\n; Last Updated: 4/20/2026\n; License: Not specified\n;\n; Description:\n; This project aims to replace the Start Menu in Windows with PowerToys Run/Command Pallete using AutoHotKey v2 script and Powertoys Key Mapping\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SudharsanS912/start-to-run.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SudharsanS912/start-to-run/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <start-to-run>\n\n; Example initialization\nclass StartToRunExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"start-to-run loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StartToRunExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: SudharsanS912/start-to-run\n; ============================================\n; URL: https://github.com/SudharsanS912/start-to-run\n; Stars: 0 | Forks: 0\n; Last Updated: 4/21/2026\n; License: Not specified\n;\n; Description:\n; This project aims to replace the Start Menu in Windows with PowerToys Run/Command Pallete using AutoHotKey v2 script and Powertoys Key Mapping\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SudharsanS912/start-to-run.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SudharsanS912/start-to-run/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <start-to-run>\n\n; Example initialization\nclass StartToRunExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"start-to-run loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StartToRunExample()\n```"
     },
     {
       "id": "github-1205141165",
