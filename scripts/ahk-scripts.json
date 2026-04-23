@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-23T12:23:13.179Z",
-  "totalScripts": 248,
+  "lastUpdated": "2026-04-23T18:25:47.018Z",
+  "totalScripts": 249,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-03-24T00:55:40Z",
+      "lastModified": "2026-04-23T17:50:32Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
-      "stars": 4,
+      "stars": 3,
       "forks": 1,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 4 | Forks: 1\n; Last Updated: 3/24/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 3 | Forks: 1\n; Last Updated: 4/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
@@ -4040,13 +4040,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-27T08:47:49Z",
-      "lastModified": "2026-04-20T10:58:28Z",
+      "lastModified": "2026-04-23T13:20:08Z",
       "source": "github",
       "url": "https://github.com/wsnh2022/VisionScribe-AI",
-      "stars": 6,
+      "stars": 7,
       "forks": 0,
       "owner": "wsnh2022",
-      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 6 | Forks: 0\n; Last Updated: 4/20/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: wsnh2022/VisionScribe-AI\n; ============================================\n; URL: https://github.com/wsnh2022/VisionScribe-AI\n; Stars: 7 | Forks: 0\n; Last Updated: 4/23/2026\n; License: Not specified\n;\n; Description:\n; Desktop tool for extracting text from images and converting it to clean Markdown. Built with AutoHotkey v2 + Python + Tesseract-OCR, powered by OpenRouter vision models.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsnh2022/VisionScribe-AI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsnh2022/VisionScribe-AI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VisionScribe-AI>\n\n; Example initialization\nclass VisionscribeAiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VisionScribe-AI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisionscribeAiExample()\n```"
     },
     {
       "id": "github-667268886",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-04-22T16:10:40Z",
+      "lastModified": "2026-04-23T14:04:24Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
-      "stars": 1,
+      "stars": 2,
       "forks": 1,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 1 | Forks: 1\n; Last Updated: 4/22/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 2 | Forks: 1\n; Last Updated: 4/23/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -4946,6 +4946,30 @@
       "forks": 0,
       "owner": "nanoReRun",
       "code": "```cpp\n; ============================================\n; Repository: nanoReRun/Enlistment-Paste-Assist\n; ============================================\n; URL: https://github.com/nanoReRun/Enlistment-Paste-Assist\n; Stars: 0 | Forks: 0\n; Last Updated: 4/22/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey V2 script that assists with the enlistment at Placeholder University in their Placeholder Site\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nanoReRun/Enlistment-Paste-Assist.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nanoReRun/Enlistment-Paste-Assist/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Enlistment-Paste-Assist>\n\n; Example initialization\nclass EnlistmentPasteAssistExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Enlistment-Paste-Assist loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EnlistmentPasteAssistExample()\n```"
+    },
+    {
+      "id": "github-1218994551",
+      "title": "tildewin",
+      "category": "GitHub Repository",
+      "description": "macOS-style same-app window switching for Windows using AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "keyboard-shortcuts",
+        "macos",
+        "window-switcher",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-23T12:26:34Z",
+      "lastModified": "2026-04-23T12:26:44Z",
+      "source": "github",
+      "url": "https://github.com/ibnuh/tildewin",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ibnuh",
+      "code": "```cpp\n; ============================================\n; Repository: ibnuh/tildewin\n; ============================================\n; URL: https://github.com/ibnuh/tildewin\n; Stars: 0 | Forks: 0\n; Last Updated: 4/23/2026\n; License: Not specified\n;\n; Description:\n; macOS-style same-app window switching for Windows using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ibnuh/tildewin.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ibnuh/tildewin/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <tildewin>\n\n; Example initialization\nclass TildewinExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"tildewin loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TildewinExample()\n```"
     }
   ]
 }
