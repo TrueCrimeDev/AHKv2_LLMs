@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-24T06:40:40.152Z",
-  "totalScripts": 250,
+  "lastUpdated": "2026-04-24T12:22:49.582Z",
+  "totalScripts": 251,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-04-23T17:50:32Z",
+      "lastModified": "2026-04-24T12:13:02Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
-      "stars": 3,
+      "stars": 4,
       "forks": 1,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 3 | Forks: 1\n; Last Updated: 4/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 4 | Forks: 1\n; Last Updated: 4/24/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-04-23T14:04:24Z",
+      "lastModified": "2026-04-24T09:07:49Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 2,
       "forks": 1,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 2 | Forks: 1\n; Last Updated: 4/23/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 2 | Forks: 1\n; Last Updated: 4/24/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -4982,13 +4982,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-23T19:37:41Z",
-      "lastModified": "2026-04-23T20:55:05Z",
+      "lastModified": "2026-04-24T07:07:05Z",
       "source": "github",
       "url": "https://github.com/eshkeremen228-hue/SuperMenu",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "eshkeremen228-hue",
-      "code": "```cpp\n; ============================================\n; Repository: eshkeremen228-hue/SuperMenu\n; ============================================\n; URL: https://github.com/eshkeremen228-hue/SuperMenu\n; Stars: 1 | Forks: 0\n; Last Updated: 4/23/2026\n; License: Not specified\n;\n; Description:\n; Powerful launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eshkeremen228-hue/SuperMenu.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eshkeremen228-hue/SuperMenu/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperMenu>\n\n; Example initialization\nclass SupermenuExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperMenu loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupermenuExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: eshkeremen228-hue/SuperMenu\n; ============================================\n; URL: https://github.com/eshkeremen228-hue/SuperMenu\n; Stars: 2 | Forks: 0\n; Last Updated: 4/24/2026\n; License: Not specified\n;\n; Description:\n; Powerful launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eshkeremen228-hue/SuperMenu.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eshkeremen228-hue/SuperMenu/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperMenu>\n\n; Example initialization\nclass SupermenuExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperMenu loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupermenuExample()\n```"
+    },
+    {
+      "id": "github-1219794550",
+      "title": "RobloxReconnect",
+      "category": "GitHub Repository",
+      "description": "Roblox auto-reconnect GUI tool (AutoHotkey v2) with VIP/Public server support, auto-rejoin, and GPU-saver minimize mode.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-24T08:17:44Z",
+      "lastModified": "2026-04-24T08:27:55Z",
+      "source": "github",
+      "url": "https://github.com/lachlanmcglennon/RobloxReconnect",
+      "stars": 0,
+      "forks": 0,
+      "owner": "lachlanmcglennon",
+      "code": "```cpp\n; ============================================\n; Repository: lachlanmcglennon/RobloxReconnect\n; ============================================\n; URL: https://github.com/lachlanmcglennon/RobloxReconnect\n; Stars: 0 | Forks: 0\n; Last Updated: 4/24/2026\n; License: Not specified\n;\n; Description:\n; Roblox auto-reconnect GUI tool (AutoHotkey v2) with VIP/Public server support, auto-rejoin, and GPU-saver minimize mode.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lachlanmcglennon/RobloxReconnect.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lachlanmcglennon/RobloxReconnect/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RobloxReconnect>\n\n; Example initialization\nclass RobloxreconnectExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RobloxReconnect loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxreconnectExample()\n```"
     }
   ]
 }
