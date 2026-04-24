@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-23T18:25:47.018Z",
-  "totalScripts": 249,
+  "lastUpdated": "2026-04-24T00:34:22.348Z",
+  "totalScripts": 250,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4970,6 +4970,25 @@
       "forks": 0,
       "owner": "ibnuh",
       "code": "```cpp\n; ============================================\n; Repository: ibnuh/tildewin\n; ============================================\n; URL: https://github.com/ibnuh/tildewin\n; Stars: 0 | Forks: 0\n; Last Updated: 4/23/2026\n; License: Not specified\n;\n; Description:\n; macOS-style same-app window switching for Windows using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ibnuh/tildewin.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ibnuh/tildewin/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <tildewin>\n\n; Example initialization\nclass TildewinExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"tildewin loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TildewinExample()\n```"
+    },
+    {
+      "id": "github-1219350218",
+      "title": "SuperMenu",
+      "category": "GitHub Repository",
+      "description": "Powerful launcher for Windows (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-23T19:37:41Z",
+      "lastModified": "2026-04-23T20:55:05Z",
+      "source": "github",
+      "url": "https://github.com/eshkeremen228-hue/SuperMenu",
+      "stars": 1,
+      "forks": 0,
+      "owner": "eshkeremen228-hue",
+      "code": "```cpp\n; ============================================\n; Repository: eshkeremen228-hue/SuperMenu\n; ============================================\n; URL: https://github.com/eshkeremen228-hue/SuperMenu\n; Stars: 1 | Forks: 0\n; Last Updated: 4/23/2026\n; License: Not specified\n;\n; Description:\n; Powerful launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eshkeremen228-hue/SuperMenu.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eshkeremen228-hue/SuperMenu/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperMenu>\n\n; Example initialization\nclass SupermenuExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperMenu loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupermenuExample()\n```"
     }
   ]
 }
