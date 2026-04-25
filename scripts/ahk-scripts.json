@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-25T06:32:48.877Z",
+  "lastUpdated": "2026-04-25T12:15:02.442Z",
   "totalScripts": 251,
   "categories": [
     "GUI",
@@ -1114,13 +1114,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2022-12-11T09:54:06Z",
-      "lastModified": "2026-03-22T12:50:14Z",
+      "lastModified": "2026-04-25T06:46:44Z",
       "source": "github",
       "url": "https://github.com/autohotkey-docs-translation/v2-source",
       "stars": 0,
       "forks": 0,
       "owner": "autohotkey-docs-translation",
-      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 3/22/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 4/25/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
     },
     {
       "id": "github-1101203666",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-04-23T03:30:53Z",
+      "lastModified": "2026-04-25T07:31:41Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 4/23/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 4/25/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -5001,13 +5001,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-24T08:17:44Z",
-      "lastModified": "2026-04-24T08:27:55Z",
+      "lastModified": "2026-04-25T06:56:30Z",
       "source": "github",
       "url": "https://github.com/lachlanmcglennon/RobloxReconnect",
       "stars": 0,
       "forks": 0,
       "owner": "lachlanmcglennon",
-      "code": "```cpp\n; ============================================\n; Repository: lachlanmcglennon/RobloxReconnect\n; ============================================\n; URL: https://github.com/lachlanmcglennon/RobloxReconnect\n; Stars: 0 | Forks: 0\n; Last Updated: 4/24/2026\n; License: Not specified\n;\n; Description:\n; Roblox auto-reconnect GUI tool (AutoHotkey v2) with VIP/Public server support, auto-rejoin, and GPU-saver minimize mode.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lachlanmcglennon/RobloxReconnect.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lachlanmcglennon/RobloxReconnect/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RobloxReconnect>\n\n; Example initialization\nclass RobloxreconnectExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RobloxReconnect loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxreconnectExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lachlanmcglennon/RobloxReconnect\n; ============================================\n; URL: https://github.com/lachlanmcglennon/RobloxReconnect\n; Stars: 0 | Forks: 0\n; Last Updated: 4/25/2026\n; License: Not specified\n;\n; Description:\n; Roblox auto-reconnect GUI tool (AutoHotkey v2) with VIP/Public server support, auto-rejoin, and GPU-saver minimize mode.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lachlanmcglennon/RobloxReconnect.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lachlanmcglennon/RobloxReconnect/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RobloxReconnect>\n\n; Example initialization\nclass RobloxreconnectExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RobloxReconnect loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxreconnectExample()\n```"
     }
   ]
 }
