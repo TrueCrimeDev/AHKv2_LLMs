@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-26T12:16:12.043Z",
-  "totalScripts": 252,
+  "lastUpdated": "2026-04-26T18:15:40.031Z",
+  "totalScripts": 253,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4920,7 +4920,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-04-26T06:18:36Z",
+      "lastModified": "2026-04-26T16:42:22Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 3,
@@ -5027,6 +5027,25 @@
       "forks": 0,
       "owner": "ct9ub",
       "code": "```cpp\n; ============================================\n; Repository: ct9ub/total-program2-hotkey\n; ============================================\n; URL: https://github.com/ct9ub/total-program2-hotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 4/26/2026\n; License: Not specified\n;\n; Description:\n; 통합관리 프로그램 창 전환 미니 패널 (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ct9ub/total-program2-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ct9ub/total-program2-hotkey/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <total-program2-hotkey>\n\n; Example initialization\nclass TotalProgram2HotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"total-program2-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TotalProgram2HotkeyExample()\n```"
+    },
+    {
+      "id": "github-1207820898",
+      "title": "lang-layout-remapper",
+      "category": "GitHub Repository",
+      "description": "RU - ENG mapping with AutoHotkey v2 for Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-11T12:57:29Z",
+      "lastModified": "2026-04-26T12:40:37Z",
+      "source": "github",
+      "url": "https://github.com/constantineserkov/lang-layout-remapper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "constantineserkov",
+      "code": "```cpp\n; ============================================\n; Repository: constantineserkov/lang-layout-remapper\n; ============================================\n; URL: https://github.com/constantineserkov/lang-layout-remapper\n; Stars: 0 | Forks: 0\n; Last Updated: 4/26/2026\n; License: MIT License\n;\n; Description:\n; RU - ENG mapping with AutoHotkey v2 for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/constantineserkov/lang-layout-remapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/constantineserkov/lang-layout-remapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <lang-layout-remapper>\n\n; Example initialization\nclass LangLayoutRemapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"lang-layout-remapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LangLayoutRemapperExample()\n```"
     }
   ]
 }
