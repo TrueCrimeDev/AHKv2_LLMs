@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-26T06:39:35.711Z",
+  "lastUpdated": "2026-04-26T12:16:12.043Z",
   "totalScripts": 252,
   "categories": [
     "GUI",
@@ -4982,13 +4982,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-23T19:37:41Z",
-      "lastModified": "2026-04-24T07:07:05Z",
+      "lastModified": "2026-04-26T10:44:22Z",
       "source": "github",
       "url": "https://github.com/eshkeremen228-hue/SuperMenu",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "eshkeremen228-hue",
-      "code": "```cpp\n; ============================================\n; Repository: eshkeremen228-hue/SuperMenu\n; ============================================\n; URL: https://github.com/eshkeremen228-hue/SuperMenu\n; Stars: 2 | Forks: 0\n; Last Updated: 4/24/2026\n; License: Not specified\n;\n; Description:\n; Powerful launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eshkeremen228-hue/SuperMenu.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eshkeremen228-hue/SuperMenu/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperMenu>\n\n; Example initialization\nclass SupermenuExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperMenu loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupermenuExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: eshkeremen228-hue/SuperMenu\n; ============================================\n; URL: https://github.com/eshkeremen228-hue/SuperMenu\n; Stars: 3 | Forks: 0\n; Last Updated: 4/26/2026\n; License: Not specified\n;\n; Description:\n; Powerful launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eshkeremen228-hue/SuperMenu.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eshkeremen228-hue/SuperMenu/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperMenu>\n\n; Example initialization\nclass SupermenuExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperMenu loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupermenuExample()\n```"
     },
     {
       "id": "github-1219794550",
