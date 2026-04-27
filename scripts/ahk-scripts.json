@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-27T00:33:43.282Z",
-  "totalScripts": 254,
+  "lastUpdated": "2026-04-27T06:55:00.814Z",
+  "totalScripts": 255,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-04-26T19:13:04Z",
+      "lastModified": "2026-04-27T06:54:30Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
       "forks": 1,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 4/26/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 4/27/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -5065,6 +5065,25 @@
       "forks": 0,
       "owner": "PepegaSan",
       "code": "```cpp\n; ============================================\n; Repository: PepegaSan/Visual-Desktop-Autohotkey\n; ============================================\n; URL: https://github.com/PepegaSan/Visual-Desktop-Autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 4/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 tools for Windows 11 virtual desktops using VirtualDesktopAccessor: fast switching, move the active window to another desktop, pin a window on every desktop, create a new desktop — plus an optional script to route new windows to one desktop (silent or follow).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PepegaSan/Visual-Desktop-Autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PepegaSan/Visual-Desktop-Autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Visual-Desktop-Autohotkey>\n\n; Example initialization\nclass VisualDesktopAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Visual-Desktop-Autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VisualDesktopAutohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1209391190",
+      "title": "ahk-scripts",
+      "category": "GitHub Repository",
+      "description": "A collection of AutoHotkey v2 scripts to automate and enhance daily workflows",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-13T11:34:47Z",
+      "lastModified": "2026-04-27T05:23:12Z",
+      "source": "github",
+      "url": "https://github.com/elsherif7/ahk-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "elsherif7",
+      "code": "```cpp\n; ============================================\n; Repository: elsherif7/ahk-scripts\n; ============================================\n; URL: https://github.com/elsherif7/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 4/27/2026\n; License: Not specified\n;\n; Description:\n; A collection of AutoHotkey v2 scripts to automate and enhance daily workflows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/elsherif7/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/elsherif7/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
     }
   ]
 }
