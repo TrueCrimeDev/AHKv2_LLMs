@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-27T12:34:04.642Z",
-  "totalScripts": 255,
+  "lastUpdated": "2026-04-28T00:36:43.377Z",
+  "totalScripts": 256,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5084,6 +5084,27 @@
       "forks": 0,
       "owner": "elsherif7",
       "code": "```cpp\n; ============================================\n; Repository: elsherif7/ahk-scripts\n; ============================================\n; URL: https://github.com/elsherif7/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 4/27/2026\n; License: Not specified\n;\n; Description:\n; A collection of AutoHotkey v2 scripts to automate and enhance daily workflows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/elsherif7/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/elsherif7/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
+    },
+    {
+      "id": "github-1222331592",
+      "title": "minecraft-ahk",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 scripts for Minecraft",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey-v2",
+        "minecraft"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-27T09:03:10Z",
+      "lastModified": "2026-04-27T16:52:31Z",
+      "source": "github",
+      "url": "https://github.com/mariomo16/minecraft-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mariomo16",
+      "code": "```cpp\n; ============================================\n; Repository: mariomo16/minecraft-ahk\n; ============================================\n; URL: https://github.com/mariomo16/minecraft-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 4/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 scripts for Minecraft\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mariomo16/minecraft-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mariomo16/minecraft-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <minecraft-ahk>\n\n; Example initialization\nclass MinecraftAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"minecraft-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MinecraftAhkExample()\n```"
     }
   ]
 }
