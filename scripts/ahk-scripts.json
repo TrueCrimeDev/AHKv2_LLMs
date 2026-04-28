@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-28T00:36:43.377Z",
-  "totalScripts": 256,
+  "lastUpdated": "2026-04-28T06:56:05.707Z",
+  "totalScripts": 257,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-04-27T09:29:46Z",
+      "lastModified": "2026-04-28T06:44:46Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
       "forks": 1,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 4/27/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 4/28/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -5105,6 +5105,25 @@
       "forks": 0,
       "owner": "mariomo16",
       "code": "```cpp\n; ============================================\n; Repository: mariomo16/minecraft-ahk\n; ============================================\n; URL: https://github.com/mariomo16/minecraft-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 4/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 scripts for Minecraft\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mariomo16/minecraft-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mariomo16/minecraft-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <minecraft-ahk>\n\n; Example initialization\nclass MinecraftAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"minecraft-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MinecraftAhkExample()\n```"
+    },
+    {
+      "id": "github-1223150040",
+      "title": "clean-paste-seo-formatter",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2.0 script to strip text formatting and convert case for SEO-optimized writing.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-28T03:49:22Z",
+      "lastModified": "2026-04-28T03:52:34Z",
+      "source": "github",
+      "url": "https://github.com/rifinscom/clean-paste-seo-formatter",
+      "stars": 0,
+      "forks": 0,
+      "owner": "rifinscom",
+      "code": "```cpp\n; ============================================\n; Repository: rifinscom/clean-paste-seo-formatter\n; ============================================\n; URL: https://github.com/rifinscom/clean-paste-seo-formatter\n; Stars: 0 | Forks: 0\n; Last Updated: 4/28/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2.0 script to strip text formatting and convert case for SEO-optimized writing.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rifinscom/clean-paste-seo-formatter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rifinscom/clean-paste-seo-formatter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clean-paste-seo-formatter>\n\n; Example initialization\nclass CleanPasteSeoFormatterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clean-paste-seo-formatter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CleanPasteSeoFormatterExample()\n```"
     }
   ]
 }
