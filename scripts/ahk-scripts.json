@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-29T12:34:07.122Z",
+  "lastUpdated": "2026-04-29T18:31:57.750Z",
   "totalScripts": 260,
   "categories": [
     "GUI",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-04-28T07:22:30Z",
+      "lastModified": "2026-04-29T13:14:52Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
       "forks": 1,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 4/28/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 4/29/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
