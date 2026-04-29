@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-29T06:51:40.661Z",
+  "lastUpdated": "2026-04-29T12:34:07.122Z",
   "totalScripts": 260,
   "categories": [
     "GUI",
@@ -5174,13 +5174,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-28T19:21:20Z",
-      "lastModified": "2026-04-28T19:53:02Z",
+      "lastModified": "2026-04-29T11:44:31Z",
       "source": "github",
       "url": "https://github.com/Dawnflare/AutohotkeyCreateNew",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "Dawnflare",
-      "code": "```cpp\n; ============================================\n; Repository: Dawnflare/AutohotkeyCreateNew\n; ============================================\n; URL: https://github.com/Dawnflare/AutohotkeyCreateNew\n; Stars: 0 | Forks: 0\n; Last Updated: 4/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 helper shortcuts for creating files, folders, and shortcuts in Windows Explorer.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dawnflare/AutohotkeyCreateNew.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dawnflare/AutohotkeyCreateNew/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutohotkeyCreateNew>\n\n; Example initialization\nclass AutohotkeycreatenewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutohotkeyCreateNew loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeycreatenewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Dawnflare/AutohotkeyCreateNew\n; ============================================\n; URL: https://github.com/Dawnflare/AutohotkeyCreateNew\n; Stars: 1 | Forks: 0\n; Last Updated: 4/29/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 helper shortcuts for creating files, folders, and shortcuts in Windows Explorer.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dawnflare/AutohotkeyCreateNew.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dawnflare/AutohotkeyCreateNew/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutohotkeyCreateNew>\n\n; Example initialization\nclass AutohotkeycreatenewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutohotkeyCreateNew loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeycreatenewExample()\n```"
     }
   ]
 }
