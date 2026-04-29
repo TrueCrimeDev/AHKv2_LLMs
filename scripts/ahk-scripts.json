@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-28T18:33:49.854Z",
-  "totalScripts": 258,
+  "lastUpdated": "2026-04-29T00:38:07.820Z",
+  "totalScripts": 260,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-04-14T07:43:31Z",
+      "lastModified": "2026-04-28T21:19:39Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
       "stars": 224,
       "forks": 33,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 224 | Forks: 33\n; Last Updated: 4/14/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 224 | Forks: 33\n; Last Updated: 4/28/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -5077,13 +5077,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-13T11:34:47Z",
-      "lastModified": "2026-04-27T05:23:12Z",
+      "lastModified": "2026-04-28T18:37:57Z",
       "source": "github",
       "url": "https://github.com/elsherif7/ahk-scripts",
       "stars": 0,
       "forks": 0,
       "owner": "elsherif7",
-      "code": "```cpp\n; ============================================\n; Repository: elsherif7/ahk-scripts\n; ============================================\n; URL: https://github.com/elsherif7/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 4/27/2026\n; License: Not specified\n;\n; Description:\n; A collection of AutoHotkey v2 scripts to automate and enhance daily workflows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/elsherif7/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/elsherif7/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: elsherif7/ahk-scripts\n; ============================================\n; URL: https://github.com/elsherif7/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 4/28/2026\n; License: Not specified\n;\n; Description:\n; A collection of AutoHotkey v2 scripts to automate and enhance daily workflows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/elsherif7/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/elsherif7/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
     },
     {
       "id": "github-1222331592",
@@ -5143,6 +5143,44 @@
       "forks": 0,
       "owner": "hewzhew",
       "code": "```cpp\n; ============================================\n; Repository: hewzhew/qq-image-save-helper\n; ============================================\n; URL: https://github.com/hewzhew/qq-image-save-helper\n; Stars: 0 | Forks: 0\n; Last Updated: 4/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 utility for safely saving images from QQ image viewer with UI Automation readiness checks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hewzhew/qq-image-save-helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hewzhew/qq-image-save-helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <qq-image-save-helper>\n\n; Example initialization\nclass QqImageSaveHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"qq-image-save-helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := QqImageSaveHelperExample()\n```"
+    },
+    {
+      "id": "github-1224049295",
+      "title": "G900-Fn-Lock",
+      "category": "GitHub Repository",
+      "description": "Casper Excalibur G900 için fn lock AHK scripti. Diğer notebook modellerinde denenmedi. AutoHotkey v2 gerektirir. Cihazın HotkeyOSD driverinın sadece parlaklık için sağlamadığı ui elementini içinde barındır (Cihazınızın driverlerini indirmeniz tavsiye edilir.). Görev zamanlayıcı ile yönetici yetkileriyle otomatik başlatma ayarlanması tavsiye edilir.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-28T23:04:56Z",
+      "lastModified": "2026-04-28T23:23:17Z",
+      "source": "github",
+      "url": "https://github.com/heat-is-a-beat/G900-Fn-Lock",
+      "stars": 0,
+      "forks": 0,
+      "owner": "heat-is-a-beat",
+      "code": "```cpp\n; ============================================\n; Repository: heat-is-a-beat/G900-Fn-Lock\n; ============================================\n; URL: https://github.com/heat-is-a-beat/G900-Fn-Lock\n; Stars: 0 | Forks: 0\n; Last Updated: 4/28/2026\n; License: Not specified\n;\n; Description:\n; Casper Excalibur G900 için fn lock AHK scripti. Diğer notebook modellerinde denenmedi. AutoHotkey v2 gerektirir. Cihazın HotkeyOSD driverinın sadece parlaklık için sağlamadığı ui elementini içinde barındır (Cihazınızın driverlerini indirmeniz tavsiye edilir.). Görev zamanlayıcı ile yönetici yetkileriyle otomatik başlatma ayarlanması tavsiye edilir.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/heat-is-a-beat/G900-Fn-Lock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/heat-is-a-beat/G900-Fn-Lock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <G900-Fn-Lock>\n\n; Example initialization\nclass G900FnLockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"G900-Fn-Lock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := G900FnLockExample()\n```"
+    },
+    {
+      "id": "github-1223910955",
+      "title": "AutohotkeyCreateNew",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 helper shortcuts for creating files, folders, and shortcuts in Windows Explorer.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-28T19:21:20Z",
+      "lastModified": "2026-04-28T19:53:02Z",
+      "source": "github",
+      "url": "https://github.com/Dawnflare/AutohotkeyCreateNew",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Dawnflare",
+      "code": "```cpp\n; ============================================\n; Repository: Dawnflare/AutohotkeyCreateNew\n; ============================================\n; URL: https://github.com/Dawnflare/AutohotkeyCreateNew\n; Stars: 0 | Forks: 0\n; Last Updated: 4/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 helper shortcuts for creating files, folders, and shortcuts in Windows Explorer.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dawnflare/AutohotkeyCreateNew.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dawnflare/AutohotkeyCreateNew/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutohotkeyCreateNew>\n\n; Example initialization\nclass AutohotkeycreatenewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutohotkeyCreateNew loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeycreatenewExample()\n```"
     }
   ]
 }
