@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-30T06:54:12.877Z",
-  "totalScripts": 261,
+  "lastUpdated": "2026-04-30T12:33:43.787Z",
+  "totalScripts": 262,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5200,6 +5200,25 @@
       "forks": 0,
       "owner": "PCMon",
       "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 4/29/2026\n; License: Not specified\n;\n; Description:\n; A customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+    },
+    {
+      "id": "github-1225321547",
+      "title": "InputBloom",
+      "category": "GitHub Repository",
+      "description": "Lightweight AutoHotkey v2 desktop heatmap for monitoring daily keyboard activity and mouse clicks",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-30T07:00:26Z",
+      "lastModified": "2026-04-30T07:01:53Z",
+      "source": "github",
+      "url": "https://github.com/gyeozai/InputBloom",
+      "stars": 0,
+      "forks": 0,
+      "owner": "gyeozai",
+      "code": "```cpp\n; ============================================\n; Repository: gyeozai/InputBloom\n; ============================================\n; URL: https://github.com/gyeozai/InputBloom\n; Stars: 0 | Forks: 0\n; Last Updated: 4/30/2026\n; License: Not specified\n;\n; Description:\n; Lightweight AutoHotkey v2 desktop heatmap for monitoring daily keyboard activity and mouse clicks\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gyeozai/InputBloom.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gyeozai/InputBloom/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <InputBloom>\n\n; Example initialization\nclass InputbloomExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"InputBloom loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := InputbloomExample()\n```"
     }
   ]
 }
