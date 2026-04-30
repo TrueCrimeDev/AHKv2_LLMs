@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-29T18:31:57.750Z",
-  "totalScripts": 260,
+  "lastUpdated": "2026-04-30T00:37:33.690Z",
+  "totalScripts": 261,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5181,6 +5181,25 @@
       "forks": 0,
       "owner": "Dawnflare",
       "code": "```cpp\n; ============================================\n; Repository: Dawnflare/AutohotkeyCreateNew\n; ============================================\n; URL: https://github.com/Dawnflare/AutohotkeyCreateNew\n; Stars: 1 | Forks: 0\n; Last Updated: 4/29/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 helper shortcuts for creating files, folders, and shortcuts in Windows Explorer.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dawnflare/AutohotkeyCreateNew.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dawnflare/AutohotkeyCreateNew/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutohotkeyCreateNew>\n\n; Example initialization\nclass AutohotkeycreatenewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutohotkeyCreateNew loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeycreatenewExample()\n```"
+    },
+    {
+      "id": "github-1216100854",
+      "title": "EvenBetterGunMacro",
+      "category": "GitHub Repository",
+      "description": "A customizable Jailbreak loadout tool made with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-20T15:09:36Z",
+      "lastModified": "2026-04-29T18:42:10Z",
+      "source": "github",
+      "url": "https://github.com/PCMon/EvenBetterGunMacro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "PCMon",
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 4/29/2026\n; License: Not specified\n;\n; Description:\n; A customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     }
   ]
 }
