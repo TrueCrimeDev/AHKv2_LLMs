@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-04-30T18:31:19.514Z",
-  "totalScripts": 262,
+  "lastUpdated": "2026-05-01T00:39:59.462Z",
+  "totalScripts": 263,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4595,13 +4595,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-30T15:01:10Z",
-      "lastModified": "2026-04-05T22:49:27Z",
+      "lastModified": "2026-04-30T19:17:04Z",
       "source": "github",
       "url": "https://github.com/turkmehmetcan/ahk-gtd-email-automation",
       "stars": 0,
       "forks": 1,
       "owner": "turkmehmetcan",
-      "code": "```cpp\n; ============================================\n; Repository: turkmehmetcan/ahk-gtd-email-automation\n; ============================================\n; URL: https://github.com/turkmehmetcan/ahk-gtd-email-automation\n; Stars: 0 | Forks: 1\n; Last Updated: 4/5/2026\n; License: Not specified\n;\n; Description:\n; Keyboard shortcuts for GTD-style email processing, folder/label management and task creation in Outlook desktop and Gmail web using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/turkmehmetcan/ahk-gtd-email-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/turkmehmetcan/ahk-gtd-email-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-gtd-email-automation>\n\n; Example initialization\nclass AhkGtdEmailAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-gtd-email-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkGtdEmailAutomationExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: turkmehmetcan/ahk-gtd-email-automation\n; ============================================\n; URL: https://github.com/turkmehmetcan/ahk-gtd-email-automation\n; Stars: 0 | Forks: 1\n; Last Updated: 4/30/2026\n; License: Not specified\n;\n; Description:\n; Keyboard shortcuts for GTD-style email processing, folder/label management and task creation in Outlook desktop and Gmail web using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/turkmehmetcan/ahk-gtd-email-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/turkmehmetcan/ahk-gtd-email-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-gtd-email-automation>\n\n; Example initialization\nclass AhkGtdEmailAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-gtd-email-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkGtdEmailAutomationExample()\n```"
     },
     {
       "id": "github-1202489847",
@@ -5219,6 +5219,25 @@
       "forks": 0,
       "owner": "gyeozai",
       "code": "```cpp\n; ============================================\n; Repository: gyeozai/InputBloom\n; ============================================\n; URL: https://github.com/gyeozai/InputBloom\n; Stars: 0 | Forks: 0\n; Last Updated: 4/30/2026\n; License: Not specified\n;\n; Description:\n; Lightweight AutoHotkey v2 desktop heatmap for monitoring daily keyboard activity and mouse clicks\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gyeozai/InputBloom.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gyeozai/InputBloom/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <InputBloom>\n\n; Example initialization\nclass InputbloomExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"InputBloom loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := InputbloomExample()\n```"
+    },
+    {
+      "id": "github-1225876818",
+      "title": "AutoHideCursor",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script that hides the Windows cursor system-wide by replacing all cursor roles with a transparent cursor scheme. Activates on keyboard input and restores on mouse movement or exit. Works across most apps including Chrome, Notepad, and Explorer, using only native Windows cursor settings.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-30T18:30:04Z",
+      "lastModified": "2026-04-30T18:35:07Z",
+      "source": "github",
+      "url": "https://github.com/FSSocrates/AutoHideCursor",
+      "stars": 0,
+      "forks": 0,
+      "owner": "FSSocrates",
+      "code": "```cpp\n; ============================================\n; Repository: FSSocrates/AutoHideCursor\n; ============================================\n; URL: https://github.com/FSSocrates/AutoHideCursor\n; Stars: 0 | Forks: 0\n; Last Updated: 4/30/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that hides the Windows cursor system-wide by replacing all cursor roles with a transparent cursor scheme. Activates on keyboard input and restores on mouse movement or exit. Works across most apps including Chrome, Notepad, and Explorer, using only native Windows cursor settings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/FSSocrates/AutoHideCursor.git\n;\n; Option 2: Download ZIP\n;   https://github.com/FSSocrates/AutoHideCursor/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHideCursor>\n\n; Example initialization\nclass AutohidecursorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHideCursor loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohidecursorExample()\n```"
     }
   ]
 }
