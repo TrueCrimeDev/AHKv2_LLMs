@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-01T18:24:51.767Z",
-  "totalScripts": 263,
+  "lastUpdated": "2026-05-02T00:36:41.951Z",
+  "totalScripts": 264,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-04-28T21:19:39Z",
+      "lastModified": "2026-05-02T00:08:12Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 224,
+      "stars": 223,
       "forks": 33,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 224 | Forks: 33\n; Last Updated: 4/28/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 223 | Forks: 33\n; Last Updated: 5/2/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-04-14T13:28:08Z",
+      "lastModified": "2026-05-02T00:08:34Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
-      "stars": 34,
+      "stars": 33,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 34 | Forks: 3\n; Last Updated: 4/14/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 33 | Forks: 3\n; Last Updated: 5/2/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -4528,13 +4528,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T19:42:45Z",
-      "lastModified": "2026-04-04T19:54:35Z",
+      "lastModified": "2026-05-01T20:26:23Z",
       "source": "github",
       "url": "https://github.com/mogdho/Capslock-CopyPaste",
       "stars": 0,
       "forks": 0,
       "owner": "mogdho",
-      "code": "```cpp\n; ============================================\n; Repository: mogdho/Capslock-CopyPaste\n; ============================================\n; URL: https://github.com/mogdho/Capslock-CopyPaste\n; Stars: 0 | Forks: 0\n; Last Updated: 4/4/2026\n; License: MIT License\n;\n; Description:\n; A AutoHotkey v2 script that turns the CapsLock key into a smart Copy (single press) and Paste (double press) shortcut.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/Capslock-CopyPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/Capslock-CopyPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Capslock-CopyPaste>\n\n; Example initialization\nclass CapslockCopypasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Capslock-CopyPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockCopypasteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mogdho/Capslock-CopyPaste\n; ============================================\n; URL: https://github.com/mogdho/Capslock-CopyPaste\n; Stars: 0 | Forks: 0\n; Last Updated: 5/1/2026\n; License: MIT License\n;\n; Description:\n; A AutoHotkey v2 script that turns the CapsLock key into a smart Copy (single press) and Paste (double press) shortcut.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/Capslock-CopyPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/Capslock-CopyPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Capslock-CopyPaste>\n\n; Example initialization\nclass CapslockCopypasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Capslock-CopyPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockCopypasteExample()\n```"
     },
     {
       "id": "github-1201510294",
@@ -5238,6 +5238,25 @@
       "forks": 0,
       "owner": "FSSocrates",
       "code": "```cpp\n; ============================================\n; Repository: FSSocrates/AutoHideCursor\n; ============================================\n; URL: https://github.com/FSSocrates/AutoHideCursor\n; Stars: 0 | Forks: 0\n; Last Updated: 4/30/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that hides the Windows cursor system-wide by replacing all cursor roles with a transparent cursor scheme. Activates on keyboard input and restores on mouse movement or exit. Works across most apps including Chrome, Notepad, and Explorer, using only native Windows cursor settings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/FSSocrates/AutoHideCursor.git\n;\n; Option 2: Download ZIP\n;   https://github.com/FSSocrates/AutoHideCursor/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHideCursor>\n\n; Example initialization\nclass AutohidecursorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHideCursor loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohidecursorExample()\n```"
+    },
+    {
+      "id": "github-1226816450",
+      "title": "En-Ru-AutoHotKey-Script",
+      "category": "GitHub Repository",
+      "description": "Скрипт для AutoHotKey v2.0 для переключения раскладки в Windows 11. Работает безотказно.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-01T21:40:15Z",
+      "lastModified": "2026-05-01T21:46:37Z",
+      "source": "github",
+      "url": "https://github.com/alexeiyakovenko/En-Ru-AutoHotKey-Script",
+      "stars": 0,
+      "forks": 0,
+      "owner": "alexeiyakovenko",
+      "code": "```cpp\n; ============================================\n; Repository: alexeiyakovenko/En-Ru-AutoHotKey-Script\n; ============================================\n; URL: https://github.com/alexeiyakovenko/En-Ru-AutoHotKey-Script\n; Stars: 0 | Forks: 0\n; Last Updated: 5/1/2026\n; License: Not specified\n;\n; Description:\n; Скрипт для AutoHotKey v2.0 для переключения раскладки в Windows 11. Работает безотказно.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/alexeiyakovenko/En-Ru-AutoHotKey-Script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/alexeiyakovenko/En-Ru-AutoHotKey-Script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <En-Ru-AutoHotKey-Script>\n\n; Example initialization\nclass EnRuAutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"En-Ru-AutoHotKey-Script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EnRuAutohotkeyScriptExample()\n```"
     }
   ]
 }
