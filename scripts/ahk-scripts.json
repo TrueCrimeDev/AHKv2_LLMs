@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-02T00:36:41.951Z",
-  "totalScripts": 264,
+  "lastUpdated": "2026-05-02T06:40:43.373Z",
+  "totalScripts": 265,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5257,6 +5257,25 @@
       "forks": 0,
       "owner": "alexeiyakovenko",
       "code": "```cpp\n; ============================================\n; Repository: alexeiyakovenko/En-Ru-AutoHotKey-Script\n; ============================================\n; URL: https://github.com/alexeiyakovenko/En-Ru-AutoHotKey-Script\n; Stars: 0 | Forks: 0\n; Last Updated: 5/1/2026\n; License: Not specified\n;\n; Description:\n; Скрипт для AutoHotKey v2.0 для переключения раскладки в Windows 11. Работает безотказно.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/alexeiyakovenko/En-Ru-AutoHotKey-Script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/alexeiyakovenko/En-Ru-AutoHotKey-Script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <En-Ru-AutoHotKey-Script>\n\n; Example initialization\nclass EnRuAutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"En-Ru-AutoHotKey-Script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EnRuAutohotkeyScriptExample()\n```"
+    },
+    {
+      "id": "github-1043574985",
+      "title": "Sid-AHK-Combo-Toolbox",
+      "category": "GitHub Repository",
+      "description": "Sid AHK Combo Toolbox — 基於 AutoHotkey v2 的遊戲技能連段工具箱，支援多組連段、毫秒級延遲與視窗鎖定，讓你一鍵釋放複雜操作。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-08-24T06:42:09Z",
+      "lastModified": "2026-05-02T01:18:12Z",
+      "source": "github",
+      "url": "https://github.com/Sid-1996/Sid-AHK-Combo-Toolbox",
+      "stars": 1,
+      "forks": 0,
+      "owner": "Sid-1996",
+      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/Sid-AHK-Combo-Toolbox\n; ============================================\n; URL: https://github.com/Sid-1996/Sid-AHK-Combo-Toolbox\n; Stars: 1 | Forks: 0\n; Last Updated: 5/2/2026\n; License: MIT License\n;\n; Description:\n; Sid AHK Combo Toolbox — 基於 AutoHotkey v2 的遊戲技能連段工具箱，支援多組連段、毫秒級延遲與視窗鎖定，讓你一鍵釋放複雜操作。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/Sid-AHK-Combo-Toolbox.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/Sid-AHK-Combo-Toolbox/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Sid-AHK-Combo-Toolbox>\n\n; Example initialization\nclass SidAhkComboToolboxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Sid-AHK-Combo-Toolbox loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SidAhkComboToolboxExample()\n```"
     }
   ]
 }
