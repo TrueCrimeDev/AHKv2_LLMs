@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-02T12:19:47.625Z",
+  "lastUpdated": "2026-05-02T18:19:10.449Z",
   "totalScripts": 265,
   "categories": [
     "GUI",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-04-22T16:54:03Z",
+      "lastModified": "2026-05-02T15:53:28Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 1,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 4/22/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 5/2/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -4824,20 +4824,20 @@
       "id": "github-1206571452",
       "title": "AutoHotkey_ahk",
       "category": "GitHub Repository",
-      "description": "这是一个功能丰富的系统增��型 AutoHotkey v2 脚本，用于游戏/办公性能控制、系统管理以及窗口行为优化。只需几个键盘快捷键，即可轻松调节从 CPU 电源策略、GPU 功耗锁/频率锁到系统省电模式及窗口的日常管理。",
+      "description": "这是一个功能丰富的系统增强�� AutoHotkey v2 脚本，用于游戏/办公性能控制、系统管理以及窗口行为优化。只需几个键盘快捷键，即可轻松调节从 CPU 电源策略、GPU 功耗锁/频率锁到系统省电模式及窗口的日常管理。",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-10T03:33:57Z",
-      "lastModified": "2026-04-20T05:54:27Z",
+      "lastModified": "2026-05-02T15:55:34Z",
       "source": "github",
       "url": "https://github.com/melody0709/AutoHotkey_ahk",
       "stars": 0,
       "forks": 0,
       "owner": "melody0709",
-      "code": "```cpp\n; ============================================\n; Repository: melody0709/AutoHotkey_ahk\n; ============================================\n; URL: https://github.com/melody0709/AutoHotkey_ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 4/20/2026\n; License: Not specified\n;\n; Description:\n; 这是一个功能丰富的系统增��型 AutoHotkey v2 脚本，用于游戏/办公性能控制、系统管理以及窗口行为优化。只需几个键盘快捷键，即可轻松调节从 CPU 电源策略、GPU 功耗锁/频率锁到系统省电模式及窗口的日常管理。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/melody0709/AutoHotkey_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/melody0709/AutoHotkey_ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_ahk>\n\n; Example initialization\nclass AutohotkeyAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: melody0709/AutoHotkey_ahk\n; ============================================\n; URL: https://github.com/melody0709/AutoHotkey_ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/2/2026\n; License: Not specified\n;\n; Description:\n; 这是一个功能丰富的系统增强�� AutoHotkey v2 脚本，用于游戏/办公性能控制、系统管理以及窗口行为优化。只需几个键盘快捷键，即可轻松调节从 CPU 电源策略、GPU 功耗锁/频率锁到系统省电模式及窗口的日常管理。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/melody0709/AutoHotkey_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/melody0709/AutoHotkey_ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey_ahk>\n\n; Example initialization\nclass AutohotkeyAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyAhkExample()\n```"
     },
     {
       "id": "github-1213648622",
