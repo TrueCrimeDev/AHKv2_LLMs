@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-03T12:18:33.020Z",
-  "totalScripts": 265,
+  "lastUpdated": "2026-05-03T18:19:21.609Z",
+  "totalScripts": 266,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -711,13 +711,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-11T10:06:51Z",
-      "lastModified": "2026-03-14T15:10:49Z",
+      "lastModified": "2026-05-03T16:46:17Z",
       "source": "github",
       "url": "https://github.com/voothi/20240411110510-autohotkey",
       "stars": 2,
       "forks": 0,
       "owner": "voothi",
-      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 2 | Forks: 0\n; Last Updated: 3/14/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 2 | Forks: 0\n; Last Updated: 5/3/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
     },
     {
       "id": "github-1106851668",
@@ -3374,13 +3374,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-04-19T15:37:37Z",
+      "lastModified": "2026-05-03T18:11:51Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
       "stars": 2,
       "forks": 0,
       "owner": "zeno528",
-      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 2 | Forks: 0\n; Last Updated: 4/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 2 | Forks: 0\n; Last Updated: 5/3/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
     },
     {
       "id": "github-1169730446",
@@ -5276,6 +5276,29 @@
       "forks": 0,
       "owner": "Sid-1996",
       "code": "```cpp\n; ============================================\n; Repository: Sid-1996/Sid-AHK-Combo-Toolbox\n; ============================================\n; URL: https://github.com/Sid-1996/Sid-AHK-Combo-Toolbox\n; Stars: 1 | Forks: 0\n; Last Updated: 5/2/2026\n; License: MIT License\n;\n; Description:\n; Sid AHK Combo Toolbox — 基於 AutoHotkey v2 的遊戲技能連段工具箱，支援多組連段、毫秒級延遲與視窗鎖定，讓你一鍵釋放複雜操作。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/Sid-AHK-Combo-Toolbox.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/Sid-AHK-Combo-Toolbox/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Sid-AHK-Combo-Toolbox>\n\n; Example initialization\nclass SidAhkComboToolboxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Sid-AHK-Combo-Toolbox loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SidAhkComboToolboxExample()\n```"
+    },
+    {
+      "id": "github-1214708780",
+      "title": "YAML",
+      "category": "GitHub Repository",
+      "description": "Autohotkey v2 YAML parsing, powered by LibYAML",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "yaml",
+        "yaml-parser"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-19T00:02:38Z",
+      "lastModified": "2026-05-03T17:48:00Z",
+      "source": "github",
+      "url": "https://github.com/holy-tao/YAML",
+      "stars": 0,
+      "forks": 0,
+      "owner": "holy-tao",
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/YAML\n; ============================================\n; URL: https://github.com/holy-tao/YAML\n; Stars: 0 | Forks: 0\n; Last Updated: 5/3/2026\n; License: MIT License\n;\n; Description:\n; Autohotkey v2 YAML parsing, powered by LibYAML\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/YAML.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/YAML/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <YAML>\n\n; Example initialization\nclass YamlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"YAML loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YamlExample()\n```"
     }
   ]
 }
