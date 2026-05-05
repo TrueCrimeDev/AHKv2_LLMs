@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-05T12:27:15.565Z",
+  "lastUpdated": "2026-05-05T18:31:47.069Z",
   "totalScripts": 267,
   "categories": [
     "GUI",
@@ -4812,13 +4812,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-09-06T13:35:40Z",
-      "lastModified": "2026-04-18T09:03:08Z",
+      "lastModified": "2026-05-05T15:24:50Z",
       "source": "github",
       "url": "https://github.com/bamd5alifes7/PoE_AffixReader",
       "stars": 1,
       "forks": 0,
       "owner": "bamd5alifes7",
-      "code": "```cpp\n; ============================================\n; Repository: bamd5alifes7/PoE_AffixReader\n; ============================================\n; URL: https://github.com/bamd5alifes7/PoE_AffixReader\n; Stars: 1 | Forks: 0\n; Last Updated: 4/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2-based Path of Exile crafting helper with profile-driven affix matching, dashboard UI, coordinate capture, and detailed run logging.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bamd5alifes7/PoE_AffixReader.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bamd5alifes7/PoE_AffixReader/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PoE_AffixReader>\n\n; Example initialization\nclass PoeAffixreaderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PoE_AffixReader loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeAffixreaderExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bamd5alifes7/PoE_AffixReader\n; ============================================\n; URL: https://github.com/bamd5alifes7/PoE_AffixReader\n; Stars: 1 | Forks: 0\n; Last Updated: 5/5/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2-based Path of Exile crafting helper with profile-driven affix matching, dashboard UI, coordinate capture, and detailed run logging.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bamd5alifes7/PoE_AffixReader.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bamd5alifes7/PoE_AffixReader/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PoE_AffixReader>\n\n; Example initialization\nclass PoeAffixreaderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PoE_AffixReader loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeAffixreaderExample()\n```"
     },
     {
       "id": "github-1206571452",
