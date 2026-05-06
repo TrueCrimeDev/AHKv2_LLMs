@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-05T18:31:47.069Z",
-  "totalScripts": 267,
+  "lastUpdated": "2026-05-06T00:35:15.930Z",
+  "totalScripts": 268,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1453,13 +1453,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2021-02-14T08:17:59Z",
-      "lastModified": "2026-05-04T08:40:30Z",
+      "lastModified": "2026-05-05T19:54:06Z",
       "source": "github",
       "url": "https://github.com/TetraTheta/autohotkey-script",
       "stars": 0,
       "forks": 0,
       "owner": "TetraTheta",
-      "code": "```cpp\n; ============================================\n; Repository: TetraTheta/autohotkey-script\n; ============================================\n; URL: https://github.com/TetraTheta/autohotkey-script\n; Stars: 0 | Forks: 0\n; Last Updated: 5/4/2026\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TetraTheta/autohotkey-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TetraTheta/autohotkey-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-script>\n\n; Example initialization\nclass AutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TetraTheta/autohotkey-script\n; ============================================\n; URL: https://github.com/TetraTheta/autohotkey-script\n; Stars: 0 | Forks: 0\n; Last Updated: 5/5/2026\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TetraTheta/autohotkey-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TetraTheta/autohotkey-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-script>\n\n; Example initialization\nclass AutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptExample()\n```"
     },
     {
       "id": "github-1038813733",
@@ -5318,6 +5318,25 @@
       "forks": 0,
       "owner": "Evident-Technologies",
       "code": "```cpp\n; ============================================\n; Repository: Evident-Technologies/approve-pad\n; ============================================\n; URL: https://github.com/Evident-Technologies/approve-pad\n; Stars: 0 | Forks: 0\n; Last Updated: 5/4/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 Windows utility\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Evident-Technologies/approve-pad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Evident-Technologies/approve-pad/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <approve-pad>\n\n; Example initialization\nclass ApprovePadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"approve-pad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ApprovePadExample()\n```"
+    },
+    {
+      "id": "github-1230354326",
+      "title": "peerly-ahk",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 utility that holds Ctrl+Space on a target Chrome window for extended periods",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-05T23:17:01Z",
+      "lastModified": "2026-05-05T23:25:50Z",
+      "source": "github",
+      "url": "https://github.com/ivcmedia/peerly-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ivcmedia",
+      "code": "```cpp\n; ============================================\n; Repository: ivcmedia/peerly-ahk\n; ============================================\n; URL: https://github.com/ivcmedia/peerly-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/5/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 utility that holds Ctrl+Space on a target Chrome window for extended periods\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ivcmedia/peerly-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ivcmedia/peerly-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peerly-ahk>\n\n; Example initialization\nclass PeerlyAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peerly-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeerlyAhkExample()\n```"
     }
   ]
 }
