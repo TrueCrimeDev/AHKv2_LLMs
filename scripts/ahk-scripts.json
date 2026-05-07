@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-07T00:37:28.903Z",
+  "lastUpdated": "2026-05-07T07:01:30.471Z",
   "totalScripts": 269,
   "categories": [
     "GUI",
@@ -1453,13 +1453,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2021-02-14T08:17:59Z",
-      "lastModified": "2026-05-06T10:36:24Z",
+      "lastModified": "2026-05-07T03:02:11Z",
       "source": "github",
       "url": "https://github.com/TetraTheta/autohotkey-script",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "TetraTheta",
-      "code": "```cpp\n; ============================================\n; Repository: TetraTheta/autohotkey-script\n; ============================================\n; URL: https://github.com/TetraTheta/autohotkey-script\n; Stars: 0 | Forks: 0\n; Last Updated: 5/6/2026\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TetraTheta/autohotkey-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TetraTheta/autohotkey-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-script>\n\n; Example initialization\nclass AutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TetraTheta/autohotkey-script\n; ============================================\n; URL: https://github.com/TetraTheta/autohotkey-script\n; Stars: 1 | Forks: 0\n; Last Updated: 5/7/2026\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TetraTheta/autohotkey-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TetraTheta/autohotkey-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-script>\n\n; Example initialization\nclass AutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptExample()\n```"
     },
     {
       "id": "github-1038813733",
@@ -5292,13 +5292,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-19T00:02:38Z",
-      "lastModified": "2026-05-06T02:25:30Z",
+      "lastModified": "2026-05-07T00:39:29Z",
       "source": "github",
       "url": "https://github.com/holy-tao/YAML",
       "stars": 1,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/YAML\n; ============================================\n; URL: https://github.com/holy-tao/YAML\n; Stars: 1 | Forks: 0\n; Last Updated: 5/6/2026\n; License: MIT License\n;\n; Description:\n; Autohotkey v2 YAML parsing, powered by LibYAML\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/YAML.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/YAML/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <YAML>\n\n; Example initialization\nclass YamlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"YAML loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YamlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/YAML\n; ============================================\n; URL: https://github.com/holy-tao/YAML\n; Stars: 1 | Forks: 0\n; Last Updated: 5/7/2026\n; License: MIT License\n;\n; Description:\n; Autohotkey v2 YAML parsing, powered by LibYAML\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/YAML.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/YAML/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <YAML>\n\n; Example initialization\nclass YamlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"YAML loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YamlExample()\n```"
     },
     {
       "id": "github-1228613420",
