@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-07T07:01:30.471Z",
+  "lastUpdated": "2026-05-07T12:39:29.852Z",
   "totalScripts": 269,
   "categories": [
     "GUI",
@@ -4274,13 +4274,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-30T22:51:18Z",
-      "lastModified": "2026-05-03T01:47:48Z",
+      "lastModified": "2026-05-07T09:07:17Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/DarkGui",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/DarkGui\n; ============================================\n; URL: https://github.com/TrueCrimeDev/DarkGui\n; Stars: 0 | Forks: 0\n; Last Updated: 5/3/2026\n; License: Not specified\n;\n; Description:\n; Dark mode GUI framework for AutoHotkey v2. Drop-in Gui() replacement with auto-styled controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/DarkGui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/DarkGui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkGui>\n\n; Example initialization\nclass DarkguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkGui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkguiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/DarkGui\n; ============================================\n; URL: https://github.com/TrueCrimeDev/DarkGui\n; Stars: 1 | Forks: 0\n; Last Updated: 5/7/2026\n; License: Not specified\n;\n; Description:\n; Dark mode GUI framework for AutoHotkey v2. Drop-in Gui() replacement with auto-styled controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/DarkGui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/DarkGui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkGui>\n\n; Example initialization\nclass DarkguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkGui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkguiExample()\n```"
     },
     {
       "id": "github-1197143414",
