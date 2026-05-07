@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-06T18:35:18.512Z",
-  "totalScripts": 268,
+  "lastUpdated": "2026-05-07T00:37:28.903Z",
+  "totalScripts": 269,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2200,13 +2200,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T04:30:37Z",
-      "lastModified": "2026-04-24T12:13:02Z",
+      "lastModified": "2026-05-06T21:01:23Z",
       "source": "github",
       "url": "https://github.com/smogmanus1/ContentCapture-Pro",
       "stars": 4,
       "forks": 1,
       "owner": "smogmanus1",
-      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 4 | Forks: 1\n; Last Updated: 4/24/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smogmanus1/ContentCapture-Pro\n; ============================================\n; URL: https://github.com/smogmanus1/ContentCapture-Pro\n; Stars: 4 | Forks: 1\n; Last Updated: 5/6/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity tool for capturing and instantly recalling web content. Capture URLs, titles, and text with one hotkey (Ctrl+Alt+G), then recall with memorable hotstrings. Features 22 suffix variants per capture for social sharing, email, AI research, and more.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smogmanus1/ContentCapture-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smogmanus1/ContentCapture-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContentCapture-Pro>\n\n; Example initialization\nclass ContentcaptureProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContentCapture-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContentcaptureProExample()\n```"
     },
     {
       "id": "github-1142276252",
@@ -5337,6 +5337,25 @@
       "forks": 0,
       "owner": "ivcmedia",
       "code": "```cpp\n; ============================================\n; Repository: ivcmedia/peerly-ahk\n; ============================================\n; URL: https://github.com/ivcmedia/peerly-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/5/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 utility that holds Ctrl+Space on a target Chrome window for extended periods\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ivcmedia/peerly-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ivcmedia/peerly-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peerly-ahk>\n\n; Example initialization\nclass PeerlyAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peerly-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeerlyAhkExample()\n```"
+    },
+    {
+      "id": "github-1231283907",
+      "title": "ahk-v2-move-resize",
+      "category": "GitHub Repository",
+      "description": "A lightweight AutoHotkey v2 script to move and resize windows using Alt + Left/Right Click.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-06T20:16:06Z",
+      "lastModified": "2026-05-06T20:18:48Z",
+      "source": "github",
+      "url": "https://github.com/BakerTheDozen/ahk-v2-move-resize",
+      "stars": 0,
+      "forks": 0,
+      "owner": "BakerTheDozen",
+      "code": "```cpp\n; ============================================\n; Repository: BakerTheDozen/ahk-v2-move-resize\n; ============================================\n; URL: https://github.com/BakerTheDozen/ahk-v2-move-resize\n; Stars: 0 | Forks: 0\n; Last Updated: 5/6/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script to move and resize windows using Alt + Left/Right Click.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BakerTheDozen/ahk-v2-move-resize.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BakerTheDozen/ahk-v2-move-resize/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-v2-move-resize>\n\n; Example initialization\nclass AhkV2MoveResizeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-v2-move-resize loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2MoveResizeExample()\n```"
     }
   ]
 }
