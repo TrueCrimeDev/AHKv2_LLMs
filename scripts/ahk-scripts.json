@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-09T12:20:39.450Z",
-  "totalScripts": 272,
+  "lastUpdated": "2026-05-09T18:20:29.970Z",
+  "totalScripts": 273,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5388,13 +5388,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-07T11:14:17Z",
-      "lastModified": "2026-05-08T09:21:58Z",
+      "lastModified": "2026-05-09T15:26:08Z",
       "source": "github",
       "url": "https://github.com/engise/BongoCat-Claimer",
       "stars": 0,
       "forks": 0,
       "owner": "engise",
-      "code": "```cpp\n; ============================================\n; Repository: engise/BongoCat-Claimer\n; ============================================\n; URL: https://github.com/engise/BongoCat-Claimer\n; Stars: 0 | Forks: 0\n; Last Updated: 5/8/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 script for Bongo Cat that automatically claims your chests and generates points while you're away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/engise/BongoCat-Claimer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/engise/BongoCat-Claimer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BongoCat-Claimer>\n\n; Example initialization\nclass BongocatClaimerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BongoCat-Claimer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BongocatClaimerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: engise/BongoCat-Claimer\n; ============================================\n; URL: https://github.com/engise/BongoCat-Claimer\n; Stars: 0 | Forks: 0\n; Last Updated: 5/9/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 script for Bongo Cat that automatically claims your chests and generates points while you're away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/engise/BongoCat-Claimer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/engise/BongoCat-Claimer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BongoCat-Claimer>\n\n; Example initialization\nclass BongocatClaimerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BongoCat-Claimer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BongocatClaimerExample()\n```"
     },
     {
       "id": "github-1233775516",
@@ -5420,6 +5420,25 @@
       "forks": 0,
       "owner": "IsaacOnKeys",
       "code": "```cpp\n; ============================================\n; Repository: IsaacOnKeys/Windows-Cursor-Hider-v2\n; ============================================\n; URL: https://github.com/IsaacOnKeys/Windows-Cursor-Hider-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 5/9/2026\n; License: MIT License\n;\n; Description:\n; Windows cursor-hider for AutoHotkey v2. Hides the pointer while typing and restores the user’s current cursor scheme on mouse movement.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/IsaacOnKeys/Windows-Cursor-Hider-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/IsaacOnKeys/Windows-Cursor-Hider-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows-Cursor-Hider-v2>\n\n; Example initialization\nclass WindowsCursorHiderV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows-Cursor-Hider-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsCursorHiderV2Example()\n```"
+    },
+    {
+      "id": "github-1233935177",
+      "title": "AHKV2_Ultimate_GUI_And_Keybinds",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 hotkey manager with modern GUI overlay for editing, enabling, and disabling shortcuts in real time. Includes media controls, window tools, text expansion, and a configurable keybind system with per-feature toggles and profiles.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-09T14:36:39Z",
+      "lastModified": "2026-05-09T15:27:21Z",
+      "source": "github",
+      "url": "https://github.com/georgekl03/AHKV2_Ultimate_GUI_And_Keybinds",
+      "stars": 0,
+      "forks": 0,
+      "owner": "georgekl03",
+      "code": "```cpp\n; ============================================\n; Repository: georgekl03/AHKV2_Ultimate_GUI_And_Keybinds\n; ============================================\n; URL: https://github.com/georgekl03/AHKV2_Ultimate_GUI_And_Keybinds\n; Stars: 0 | Forks: 0\n; Last Updated: 5/9/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 hotkey manager with modern GUI overlay for editing, enabling, and disabling shortcuts in real time. Includes media controls, window tools, text expansion, and a configurable keybind system with per-feature toggles and profiles.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/georgekl03/AHKV2_Ultimate_GUI_And_Keybinds.git\n;\n; Option 2: Download ZIP\n;   https://github.com/georgekl03/AHKV2_Ultimate_GUI_And_Keybinds/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKV2_Ultimate_GUI_And_Keybinds>\n\n; Example initialization\nclass Ahkv2UltimateGuiAndKeybindsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKV2_Ultimate_GUI_And_Keybinds loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2UltimateGuiAndKeybindsExample()\n```"
     }
   ]
 }
