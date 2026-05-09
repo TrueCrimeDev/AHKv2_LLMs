@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-09T06:45:09.659Z",
-  "totalScripts": 271,
+  "lastUpdated": "2026-05-09T12:20:39.450Z",
+  "totalScripts": 272,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5395,6 +5395,31 @@
       "forks": 0,
       "owner": "engise",
       "code": "```cpp\n; ============================================\n; Repository: engise/BongoCat-Claimer\n; ============================================\n; URL: https://github.com/engise/BongoCat-Claimer\n; Stars: 0 | Forks: 0\n; Last Updated: 5/8/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 script for Bongo Cat that automatically claims your chests and generates points while you're away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/engise/BongoCat-Claimer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/engise/BongoCat-Claimer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BongoCat-Claimer>\n\n; Example initialization\nclass BongocatClaimerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BongoCat-Claimer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BongocatClaimerExample()\n```"
+    },
+    {
+      "id": "github-1233775516",
+      "title": "Windows-Cursor-Hider-v2",
+      "category": "GitHub Repository",
+      "description": "Windows cursor-hider for AutoHotkey v2. Hides the pointer while typing and restores the user’s current cursor scheme on mouse movement.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "cursor",
+        "mouse",
+        "productivity",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-09T10:45:58Z",
+      "lastModified": "2026-05-09T11:00:29Z",
+      "source": "github",
+      "url": "https://github.com/IsaacOnKeys/Windows-Cursor-Hider-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "IsaacOnKeys",
+      "code": "```cpp\n; ============================================\n; Repository: IsaacOnKeys/Windows-Cursor-Hider-v2\n; ============================================\n; URL: https://github.com/IsaacOnKeys/Windows-Cursor-Hider-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 5/9/2026\n; License: MIT License\n;\n; Description:\n; Windows cursor-hider for AutoHotkey v2. Hides the pointer while typing and restores the user’s current cursor scheme on mouse movement.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/IsaacOnKeys/Windows-Cursor-Hider-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/IsaacOnKeys/Windows-Cursor-Hider-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows-Cursor-Hider-v2>\n\n; Example initialization\nclass WindowsCursorHiderV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows-Cursor-Hider-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsCursorHiderV2Example()\n```"
     }
   ]
 }
