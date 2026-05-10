@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-10T12:20:18.126Z",
-  "totalScripts": 275,
+  "lastUpdated": "2026-05-10T18:21:06.482Z",
+  "totalScripts": 276,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5475,13 +5475,38 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-09T21:09:38Z",
-      "lastModified": "2026-05-09T21:24:20Z",
+      "lastModified": "2026-05-10T13:12:33Z",
       "source": "github",
       "url": "https://github.com/Enric-xX/Cs2-External-Bhop",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "Enric-xX",
-      "code": "```cpp\n; ============================================\n; Repository: Enric-xX/Cs2-External-Bhop\n; ============================================\n; URL: https://github.com/Enric-xX/Cs2-External-Bhop\n; Stars: 1 | Forks: 0\n; Last Updated: 5/9/2026\n; License: Not specified\n;\n; Description:\n; 🐇 Stable & Lightweight External BunnyHop for CS2. Built with AutoHotkey v2. Optimized for performance and safety.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Enric-xX/Cs2-External-Bhop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Enric-xX/Cs2-External-Bhop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Cs2-External-Bhop>\n\n; Example initialization\nclass Cs2ExternalBhopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Cs2-External-Bhop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Cs2ExternalBhopExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Enric-xX/Cs2-External-Bhop\n; ============================================\n; URL: https://github.com/Enric-xX/Cs2-External-Bhop\n; Stars: 2 | Forks: 0\n; Last Updated: 5/10/2026\n; License: Not specified\n;\n; Description:\n; 🐇 Stable & Lightweight External BunnyHop for CS2. Built with AutoHotkey v2. Optimized for performance and safety.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Enric-xX/Cs2-External-Bhop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Enric-xX/Cs2-External-Bhop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Cs2-External-Bhop>\n\n; Example initialization\nclass Cs2ExternalBhopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Cs2-External-Bhop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Cs2ExternalBhopExample()\n```"
+    },
+    {
+      "id": "github-1234504800",
+      "title": "Cs2-External-Triggerbot",
+      "category": "GitHub Repository",
+      "description": "🔫 Stable & Ultra-Fast External Triggerbot for CS2. Built with AutoHotkey v2. Low-latency DllCalls and zero-memory footprint.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "ahkv2",
+        "autohotkey",
+        "cs2",
+        "external",
+        "triggerbot"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-10T09:15:30Z",
+      "lastModified": "2026-05-10T13:12:42Z",
+      "source": "github",
+      "url": "https://github.com/Enric-xX/Cs2-External-Triggerbot",
+      "stars": 2,
+      "forks": 0,
+      "owner": "Enric-xX",
+      "code": "```cpp\n; ============================================\n; Repository: Enric-xX/Cs2-External-Triggerbot\n; ============================================\n; URL: https://github.com/Enric-xX/Cs2-External-Triggerbot\n; Stars: 2 | Forks: 0\n; Last Updated: 5/10/2026\n; License: Not specified\n;\n; Description:\n; 🔫 Stable & Ultra-Fast External Triggerbot for CS2. Built with AutoHotkey v2. Low-latency DllCalls and zero-memory footprint.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Enric-xX/Cs2-External-Triggerbot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Enric-xX/Cs2-External-Triggerbot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Cs2-External-Triggerbot>\n\n; Example initialization\nclass Cs2ExternalTriggerbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Cs2-External-Triggerbot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Cs2ExternalTriggerbotExample()\n```"
     }
   ]
 }
