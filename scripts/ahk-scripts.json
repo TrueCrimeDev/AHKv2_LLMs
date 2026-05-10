@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-10T06:56:32.346Z",
+  "lastUpdated": "2026-05-10T12:20:18.126Z",
   "totalScripts": 275,
   "categories": [
     "GUI",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-05-10T00:23:49Z",
+      "lastModified": "2026-05-10T10:02:14Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 224,
+      "stars": 225,
       "forks": 34,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 224 | Forks: 34\n; Last Updated: 5/10/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 225 | Forks: 34\n; Last Updated: 5/10/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -2261,13 +2261,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-27T04:59:41Z",
-      "lastModified": "2026-02-16T12:20:11Z",
+      "lastModified": "2026-05-10T10:44:39Z",
       "source": "github",
       "url": "https://github.com/ezflow997/LiveView",
       "stars": 3,
       "forks": 0,
       "owner": "ezflow997",
-      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 3 | Forks: 0\n; Last Updated: 2/16/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 3 | Forks: 0\n; Last Updated: 5/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
     },
     {
       "id": "github-1143820755",
