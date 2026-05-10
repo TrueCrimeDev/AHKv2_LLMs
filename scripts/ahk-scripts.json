@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-09T18:20:29.970Z",
-  "totalScripts": 273,
+  "lastUpdated": "2026-05-10T00:39:25.657Z",
+  "totalScripts": 275,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-05-02T00:08:12Z",
+      "lastModified": "2026-05-10T00:23:49Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 223,
-      "forks": 33,
+      "stars": 224,
+      "forks": 34,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 223 | Forks: 33\n; Last Updated: 5/2/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 224 | Forks: 34\n; Last Updated: 5/10/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -5439,6 +5439,49 @@
       "forks": 0,
       "owner": "georgekl03",
       "code": "```cpp\n; ============================================\n; Repository: georgekl03/AHKV2_Ultimate_GUI_And_Keybinds\n; ============================================\n; URL: https://github.com/georgekl03/AHKV2_Ultimate_GUI_And_Keybinds\n; Stars: 0 | Forks: 0\n; Last Updated: 5/9/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 hotkey manager with modern GUI overlay for editing, enabling, and disabling shortcuts in real time. Includes media controls, window tools, text expansion, and a configurable keybind system with per-feature toggles and profiles.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/georgekl03/AHKV2_Ultimate_GUI_And_Keybinds.git\n;\n; Option 2: Download ZIP\n;   https://github.com/georgekl03/AHKV2_Ultimate_GUI_And_Keybinds/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKV2_Ultimate_GUI_And_Keybinds>\n\n; Example initialization\nclass Ahkv2UltimateGuiAndKeybindsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKV2_Ultimate_GUI_And_Keybinds loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2UltimateGuiAndKeybindsExample()\n```"
+    },
+    {
+      "id": "github-1234203691",
+      "title": "red-display-windows",
+      "category": "GitHub Repository",
+      "description": "Auto-red-shifts your Windows display in the evening to reduce eye strain. AutoHotkey v2 port of red-display for macOS.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-09T22:02:59Z",
+      "lastModified": "2026-05-09T22:13:31Z",
+      "source": "github",
+      "url": "https://github.com/itscutarms/red-display-windows",
+      "stars": 0,
+      "forks": 0,
+      "owner": "itscutarms",
+      "code": "```cpp\n; ============================================\n; Repository: itscutarms/red-display-windows\n; ============================================\n; URL: https://github.com/itscutarms/red-display-windows\n; Stars: 0 | Forks: 0\n; Last Updated: 5/9/2026\n; License: MIT License\n;\n; Description:\n; Auto-red-shifts your Windows display in the evening to reduce eye strain. AutoHotkey v2 port of red-display for macOS.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/itscutarms/red-display-windows.git\n;\n; Option 2: Download ZIP\n;   https://github.com/itscutarms/red-display-windows/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <red-display-windows>\n\n; Example initialization\nclass RedDisplayWindowsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"red-display-windows loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RedDisplayWindowsExample()\n```"
+    },
+    {
+      "id": "github-1234179346",
+      "title": "Cs2-External-Bhop",
+      "category": "GitHub Repository",
+      "description": "🐇 Stable & Lightweight External BunnyHop for CS2. Built with AutoHotkey v2. Optimized for performance and safety.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey-v2",
+        "bhop",
+        "cs2",
+        "external-scripts",
+        "tool"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-09T21:09:38Z",
+      "lastModified": "2026-05-09T21:24:20Z",
+      "source": "github",
+      "url": "https://github.com/Enric-xX/Cs2-External-Bhop",
+      "stars": 1,
+      "forks": 0,
+      "owner": "Enric-xX",
+      "code": "```cpp\n; ============================================\n; Repository: Enric-xX/Cs2-External-Bhop\n; ============================================\n; URL: https://github.com/Enric-xX/Cs2-External-Bhop\n; Stars: 1 | Forks: 0\n; Last Updated: 5/9/2026\n; License: Not specified\n;\n; Description:\n; 🐇 Stable & Lightweight External BunnyHop for CS2. Built with AutoHotkey v2. Optimized for performance and safety.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Enric-xX/Cs2-External-Bhop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Enric-xX/Cs2-External-Bhop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Cs2-External-Bhop>\n\n; Example initialization\nclass Cs2ExternalBhopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Cs2-External-Bhop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Cs2ExternalBhopExample()\n```"
     }
   ]
 }
