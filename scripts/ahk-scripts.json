@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-10T18:21:06.482Z",
-  "totalScripts": 276,
+  "lastUpdated": "2026-05-11T00:39:45.684Z",
+  "totalScripts": 277,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5507,6 +5507,25 @@
       "forks": 0,
       "owner": "Enric-xX",
       "code": "```cpp\n; ============================================\n; Repository: Enric-xX/Cs2-External-Triggerbot\n; ============================================\n; URL: https://github.com/Enric-xX/Cs2-External-Triggerbot\n; Stars: 2 | Forks: 0\n; Last Updated: 5/10/2026\n; License: Not specified\n;\n; Description:\n; 🔫 Stable & Ultra-Fast External Triggerbot for CS2. Built with AutoHotkey v2. Low-latency DllCalls and zero-memory footprint.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Enric-xX/Cs2-External-Triggerbot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Enric-xX/Cs2-External-Triggerbot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Cs2-External-Triggerbot>\n\n; Example initialization\nclass Cs2ExternalTriggerbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Cs2-External-Triggerbot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Cs2ExternalTriggerbotExample()\n```"
+    },
+    {
+      "id": "github-1234907334",
+      "title": "dofus_helper",
+      "category": "GitHub Repository",
+      "description": "Scripts de automação AutoHotkey v2.0 para o jogo Dofus, oferecendo troca de contas via hotkeys e viagem coordenada usando o item Zap (Saco de Viagens).",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-10T19:47:04Z",
+      "lastModified": "2026-05-10T23:05:03Z",
+      "source": "github",
+      "url": "https://github.com/theviniis/dofus_helper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "theviniis",
+      "code": "```cpp\n; ============================================\n; Repository: theviniis/dofus_helper\n; ============================================\n; URL: https://github.com/theviniis/dofus_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 5/10/2026\n; License: Not specified\n;\n; Description:\n; Scripts de automação AutoHotkey v2.0 para o jogo Dofus, oferecendo troca de contas via hotkeys e viagem coordenada usando o item Zap (Saco de Viagens).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/theviniis/dofus_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/theviniis/dofus_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dofus_helper>\n\n; Example initialization\nclass DofusHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dofus_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DofusHelperExample()\n```"
     }
   ]
 }
