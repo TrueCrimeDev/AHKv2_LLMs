@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-12T00:36:58.422Z",
+  "lastUpdated": "2026-05-12T07:00:09.700Z",
   "totalScripts": 279,
   "categories": [
     "GUI",
@@ -5538,13 +5538,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-11T09:48:01Z",
-      "lastModified": "2026-05-11T09:48:10Z",
+      "lastModified": "2026-05-12T02:59:56Z",
       "source": "github",
       "url": "https://github.com/TAMAKIKENTA0o0/memo.ahk",
       "stars": 0,
       "forks": 0,
       "owner": "TAMAKIKENTA0o0",
-      "code": "```cpp\n; ============================================\n; Repository: TAMAKIKENTA0o0/memo.ahk\n; ============================================\n; URL: https://github.com/TAMAKIKENTA0o0/memo.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/11/2026\n; License: Not specified\n;\n; Description:\n; Edge-triggered sticky note for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TAMAKIKENTA0o0/memo.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TAMAKIKENTA0o0/memo.ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <memo.ahk>\n\n; Example initialization\nclass Memo.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"memo.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Memo.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TAMAKIKENTA0o0/memo.ahk\n; ============================================\n; URL: https://github.com/TAMAKIKENTA0o0/memo.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/12/2026\n; License: MIT License\n;\n; Description:\n; Edge-triggered sticky note for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TAMAKIKENTA0o0/memo.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TAMAKIKENTA0o0/memo.ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <memo.ahk>\n\n; Example initialization\nclass Memo.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"memo.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Memo.ahkExample()\n```"
     },
     {
       "id": "github-1235832816",
