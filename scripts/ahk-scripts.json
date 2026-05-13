@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-13T00:40:48.473Z",
+  "lastUpdated": "2026-05-13T07:04:04.403Z",
   "totalScripts": 279,
   "categories": [
     "GUI",
@@ -4103,13 +4103,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-17T03:08:50Z",
-      "lastModified": "2026-04-07T18:52:03Z",
+      "lastModified": "2026-05-13T06:30:33Z",
       "source": "github",
       "url": "https://github.com/yakunins/vertical-mouse-sensitivity",
       "stars": 0,
       "forks": 0,
       "owner": "yakunins",
-      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 4/7/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 5/13/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
     },
     {
       "id": "github-1194286569",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-05-03T09:17:12Z",
+      "lastModified": "2026-05-13T07:03:24Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
       "forks": 1,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 5/3/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 5/13/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
