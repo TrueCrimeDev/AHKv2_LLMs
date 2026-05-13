@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-13T12:45:32.911Z",
+  "lastUpdated": "2026-05-13T18:39:22.816Z",
   "totalScripts": 280,
   "categories": [
     "GUI",
@@ -4920,7 +4920,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-05-13T07:03:24Z",
+      "lastModified": "2026-05-13T14:57:04Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
@@ -5519,13 +5519,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-10T19:47:04Z",
-      "lastModified": "2026-05-11T15:12:22Z",
+      "lastModified": "2026-05-13T14:54:13Z",
       "source": "github",
       "url": "https://github.com/theviniis/dofus_helper",
       "stars": 0,
       "forks": 0,
       "owner": "theviniis",
-      "code": "```cpp\n; ============================================\n; Repository: theviniis/dofus_helper\n; ============================================\n; URL: https://github.com/theviniis/dofus_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 5/11/2026\n; License: Not specified\n;\n; Description:\n; Scripts de automação AutoHotkey v2.0 para o jogo Dofus, oferecendo troca de contas via hotkeys e viagem coordenada usando o item Zap (Saco de Viagens).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/theviniis/dofus_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/theviniis/dofus_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dofus_helper>\n\n; Example initialization\nclass DofusHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dofus_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DofusHelperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: theviniis/dofus_helper\n; ============================================\n; URL: https://github.com/theviniis/dofus_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 5/13/2026\n; License: Not specified\n;\n; Description:\n; Scripts de automação AutoHotkey v2.0 para o jogo Dofus, oferecendo troca de contas via hotkeys e viagem coordenada usando o item Zap (Saco de Viagens).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/theviniis/dofus_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/theviniis/dofus_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dofus_helper>\n\n; Example initialization\nclass DofusHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dofus_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DofusHelperExample()\n```"
     },
     {
       "id": "github-1235409431",
@@ -5576,13 +5576,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-13T09:27:57Z",
-      "lastModified": "2026-05-13T09:29:23Z",
+      "lastModified": "2026-05-13T13:06:10Z",
       "source": "github",
       "url": "https://github.com/FastAsFack/SerialPort.ahk",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "FastAsFack",
-      "code": "```cpp\n; ============================================\n; Repository: FastAsFack/SerialPort.ahk\n; ============================================\n; URL: https://github.com/FastAsFack/SerialPort.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/13/2026\n; License: Not specified\n;\n; Description:\n; SerialPort.ahk — AutoHotkey v2 serial COM port library\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/FastAsFack/SerialPort.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/FastAsFack/SerialPort.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SerialPort.ahk>\n\n; Example initialization\nclass Serialport.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SerialPort.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Serialport.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: FastAsFack/SerialPort.ahk\n; ============================================\n; URL: https://github.com/FastAsFack/SerialPort.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 5/13/2026\n; License: Not specified\n;\n; Description:\n; SerialPort.ahk — AutoHotkey v2 serial COM port library\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/FastAsFack/SerialPort.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/FastAsFack/SerialPort.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SerialPort.ahk>\n\n; Example initialization\nclass Serialport.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SerialPort.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Serialport.ahkExample()\n```"
     }
   ]
 }
