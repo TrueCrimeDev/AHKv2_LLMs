@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-13T07:04:04.403Z",
-  "totalScripts": 279,
+  "lastUpdated": "2026-05-13T12:45:32.911Z",
+  "totalScripts": 280,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5564,6 +5564,25 @@
       "forks": 0,
       "owner": "VaracolacisCrew",
       "code": "```cpp\n; ============================================\n; Repository: VaracolacisCrew/Symbolic-Link-Manager\n; ============================================\n; URL: https://github.com/VaracolacisCrew/Symbolic-Link-Manager\n; Stars: 0 | Forks: 0\n; Last Updated: 5/11/2026\n; License: MIT License\n;\n; Description:\n; A lightweight, open-source utility built with AutoHotkey v2 that provides a graphical interface for creating and managing Windows Symbolic Links (Symlinks).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VaracolacisCrew/Symbolic-Link-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VaracolacisCrew/Symbolic-Link-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Symbolic-Link-Manager>\n\n; Example initialization\nclass SymbolicLinkManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Symbolic-Link-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SymbolicLinkManagerExample()\n```"
+    },
+    {
+      "id": "github-1237544966",
+      "title": "SerialPort.ahk",
+      "category": "GitHub Repository",
+      "description": "SerialPort.ahk — AutoHotkey v2 serial COM port library",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-13T09:27:57Z",
+      "lastModified": "2026-05-13T09:29:23Z",
+      "source": "github",
+      "url": "https://github.com/FastAsFack/SerialPort.ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "FastAsFack",
+      "code": "```cpp\n; ============================================\n; Repository: FastAsFack/SerialPort.ahk\n; ============================================\n; URL: https://github.com/FastAsFack/SerialPort.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/13/2026\n; License: Not specified\n;\n; Description:\n; SerialPort.ahk — AutoHotkey v2 serial COM port library\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/FastAsFack/SerialPort.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/FastAsFack/SerialPort.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SerialPort.ahk>\n\n; Example initialization\nclass Serialport.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SerialPort.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Serialport.ahkExample()\n```"
     }
   ]
 }
