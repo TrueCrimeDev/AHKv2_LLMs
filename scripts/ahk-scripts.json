@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-15T07:08:29.619Z",
-  "totalScripts": 280,
+  "lastUpdated": "2026-05-15T12:38:44.430Z",
+  "totalScripts": 281,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -426,13 +426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-11-24T04:52:52Z",
-      "lastModified": "2026-05-11T10:29:30Z",
+      "lastModified": "2026-05-15T09:23:14Z",
       "source": "github",
       "url": "https://github.com/haraldchan/Svaner",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "haraldchan",
-      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 2 | Forks: 0\n; Last Updated: 5/11/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 3 | Forks: 0\n; Last Updated: 5/15/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
     },
     {
       "id": "github-266191907",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-05-13T14:57:04Z",
+      "lastModified": "2026-05-15T11:34:12Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
       "forks": 1,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 5/13/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 5/15/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -5583,6 +5583,31 @@
       "forks": 0,
       "owner": "FastAsFack",
       "code": "```cpp\n; ============================================\n; Repository: FastAsFack/SerialPort.ahk\n; ============================================\n; URL: https://github.com/FastAsFack/SerialPort.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 5/13/2026\n; License: Not specified\n;\n; Description:\n; SerialPort.ahk — AutoHotkey v2 serial COM port library\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/FastAsFack/SerialPort.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/FastAsFack/SerialPort.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SerialPort.ahk>\n\n; Example initialization\nclass Serialport.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SerialPort.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Serialport.ahkExample()\n```"
+    },
+    {
+      "id": "github-1239599429",
+      "title": "Simple-Icon-Picker",
+      "category": "GitHub Repository",
+      "description": "This small AutoHotkey v2 utility provides a simple way to browse and inspect icons stored inside Windows resource files such as shell32.dll, imageres.dll, or any other DLL/EXE containing icon resources.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "code",
+        "icon",
+        "picker",
+        "script"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-15T08:49:46Z",
+      "lastModified": "2026-05-15T09:07:50Z",
+      "source": "github",
+      "url": "https://github.com/akcansoft/Simple-Icon-Picker",
+      "stars": 0,
+      "forks": 0,
+      "owner": "akcansoft",
+      "code": "```cpp\n; ============================================\n; Repository: akcansoft/Simple-Icon-Picker\n; ============================================\n; URL: https://github.com/akcansoft/Simple-Icon-Picker\n; Stars: 0 | Forks: 0\n; Last Updated: 5/15/2026\n; License: The Unlicense\n;\n; Description:\n; This small AutoHotkey v2 utility provides a simple way to browse and inspect icons stored inside Windows resource files such as shell32.dll, imageres.dll, or any other DLL/EXE containing icon resources.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/Simple-Icon-Picker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/Simple-Icon-Picker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Simple-Icon-Picker>\n\n; Example initialization\nclass SimpleIconPickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Simple-Icon-Picker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SimpleIconPickerExample()\n```"
     }
   ]
 }
