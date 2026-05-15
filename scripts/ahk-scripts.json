@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-15T12:38:44.430Z",
-  "totalScripts": 281,
+  "lastUpdated": "2026-05-15T18:34:04.265Z",
+  "totalScripts": 282,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5608,6 +5608,25 @@
       "forks": 0,
       "owner": "akcansoft",
       "code": "```cpp\n; ============================================\n; Repository: akcansoft/Simple-Icon-Picker\n; ============================================\n; URL: https://github.com/akcansoft/Simple-Icon-Picker\n; Stars: 0 | Forks: 0\n; Last Updated: 5/15/2026\n; License: The Unlicense\n;\n; Description:\n; This small AutoHotkey v2 utility provides a simple way to browse and inspect icons stored inside Windows resource files such as shell32.dll, imageres.dll, or any other DLL/EXE containing icon resources.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/Simple-Icon-Picker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/Simple-Icon-Picker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Simple-Icon-Picker>\n\n; Example initialization\nclass SimpleIconPickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Simple-Icon-Picker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SimpleIconPickerExample()\n```"
+    },
+    {
+      "id": "github-1239897511",
+      "title": "UniqueInstance-for-AHK",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 可复用单实例管理库，让 AHK 程序在不同系统权限下最大限度的保持单实例运行。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-15T14:57:09Z",
+      "lastModified": "2026-05-15T17:46:24Z",
+      "source": "github",
+      "url": "https://github.com/nanhezzb/UniqueInstance-for-AHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nanhezzb",
+      "code": "```cpp\n; ============================================\n; Repository: nanhezzb/UniqueInstance-for-AHK\n; ============================================\n; URL: https://github.com/nanhezzb/UniqueInstance-for-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 5/15/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 可复用单实例管理库，让 AHK 程序在不同系统权限下最大限度的保持单实例运行。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nanhezzb/UniqueInstance-for-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nanhezzb/UniqueInstance-for-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UniqueInstance-for-AHK>\n\n; Example initialization\nclass UniqueinstanceForAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UniqueInstance-for-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UniqueinstanceForAhkExample()\n```"
     }
   ]
 }
