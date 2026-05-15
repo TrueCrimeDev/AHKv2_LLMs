@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-14T18:38:12.279Z",
+  "lastUpdated": "2026-05-15T00:39:39.667Z",
   "totalScripts": 280,
   "categories": [
     "GUI",
@@ -4528,13 +4528,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T19:42:45Z",
-      "lastModified": "2026-05-02T07:32:28Z",
+      "lastModified": "2026-05-14T21:36:34Z",
       "source": "github",
       "url": "https://github.com/mogdho/Capslock-CopyPaste",
       "stars": 0,
       "forks": 0,
       "owner": "mogdho",
-      "code": "```cpp\n; ============================================\n; Repository: mogdho/Capslock-CopyPaste\n; ============================================\n; URL: https://github.com/mogdho/Capslock-CopyPaste\n; Stars: 0 | Forks: 0\n; Last Updated: 5/2/2026\n; License: MIT License\n;\n; Description:\n; A AutoHotkey v2 script that turns the CapsLock key into a smart Copy (single press) and Paste (double press) shortcut.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/Capslock-CopyPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/Capslock-CopyPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Capslock-CopyPaste>\n\n; Example initialization\nclass CapslockCopypasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Capslock-CopyPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockCopypasteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mogdho/Capslock-CopyPaste\n; ============================================\n; URL: https://github.com/mogdho/Capslock-CopyPaste\n; Stars: 0 | Forks: 0\n; Last Updated: 5/14/2026\n; License: MIT License\n;\n; Description:\n; A AutoHotkey v2 script that turns the CapsLock key into a smart Copy (single press) and Paste (double press) shortcut.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/Capslock-CopyPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/Capslock-CopyPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Capslock-CopyPaste>\n\n; Example initialization\nclass CapslockCopypasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Capslock-CopyPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockCopypasteExample()\n```"
     },
     {
       "id": "github-1201510294",
@@ -5388,13 +5388,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-07T11:14:17Z",
-      "lastModified": "2026-05-09T15:26:08Z",
+      "lastModified": "2026-05-14T19:12:34Z",
       "source": "github",
       "url": "https://github.com/engise/BongoCat-Claimer",
       "stars": 0,
       "forks": 0,
       "owner": "engise",
-      "code": "```cpp\n; ============================================\n; Repository: engise/BongoCat-Claimer\n; ============================================\n; URL: https://github.com/engise/BongoCat-Claimer\n; Stars: 0 | Forks: 0\n; Last Updated: 5/9/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 script for Bongo Cat that automatically claims your chests and generates points while you're away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/engise/BongoCat-Claimer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/engise/BongoCat-Claimer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BongoCat-Claimer>\n\n; Example initialization\nclass BongocatClaimerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BongoCat-Claimer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BongocatClaimerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: engise/BongoCat-Claimer\n; ============================================\n; URL: https://github.com/engise/BongoCat-Claimer\n; Stars: 0 | Forks: 0\n; Last Updated: 5/14/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 script for Bongo Cat that automatically claims your chests and generates points while you're away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/engise/BongoCat-Claimer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/engise/BongoCat-Claimer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BongoCat-Claimer>\n\n; Example initialization\nclass BongocatClaimerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BongoCat-Claimer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BongocatClaimerExample()\n```"
     },
     {
       "id": "github-1233775516",
