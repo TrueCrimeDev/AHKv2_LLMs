@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-16T12:22:30.883Z",
-  "totalScripts": 285,
+  "lastUpdated": "2026-05-16T18:20:32.867Z",
+  "totalScripts": 286,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2559,22 +2559,22 @@
       "tags": [
         "github",
         "repository",
+        "ahk",
         "autohotkey",
         "ico",
         "icon",
         "utility",
-        "viewer",
-        "windows"
+        "viewer"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-03T17:38:56Z",
-      "lastModified": "2026-03-13T08:45:30Z",
+      "lastModified": "2026-05-16T13:14:24Z",
       "source": "github",
-      "url": "https://github.com/akcansoft/AS-Icon-Viewer",
+      "url": "https://github.com/mesutakcan/AS-Icon-Viewer",
       "stars": 4,
-      "forks": 1,
-      "owner": "akcansoft",
-      "code": "```cpp\n; ============================================\n; Repository: akcansoft/AS-Icon-Viewer\n; ============================================\n; URL: https://github.com/akcansoft/AS-Icon-Viewer\n; Stars: 4 | Forks: 1\n; Last Updated: 3/13/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A professional-grade icon extraction and management tool for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/AS-Icon-Viewer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/AS-Icon-Viewer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AS-Icon-Viewer>\n\n; Example initialization\nclass AsIconViewerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AS-Icon-Viewer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsIconViewerExample()\n```"
+      "forks": 0,
+      "owner": "mesutakcan",
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/AS-Icon-Viewer\n; ============================================\n; URL: https://github.com/mesutakcan/AS-Icon-Viewer\n; Stars: 4 | Forks: 0\n; Last Updated: 5/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A professional-grade icon extraction and management tool for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/AS-Icon-Viewer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/AS-Icon-Viewer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AS-Icon-Viewer>\n\n; Example initialization\nclass AsIconViewerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AS-Icon-Viewer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsIconViewerExample()\n```"
     },
     {
       "id": "github-1151616150",
@@ -3095,13 +3095,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-22T08:10:08Z",
-      "lastModified": "2026-02-23T18:03:27Z",
+      "lastModified": "2026-05-16T15:38:29Z",
       "source": "github",
-      "url": "https://github.com/akcansoft/SuperEdit-Control",
+      "url": "https://github.com/mesutakcan/SuperEdit-Control",
       "stars": 0,
       "forks": 0,
-      "owner": "akcansoft",
-      "code": "```cpp\n; ============================================\n; Repository: akcansoft/SuperEdit-Control\n; ============================================\n; URL: https://github.com/akcansoft/SuperEdit-Control\n; Stars: 0 | Forks: 0\n; Last Updated: 2/23/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; SuperEdit is a feature-rich wrapper for the standard AutoHotkey v2 Edit control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/SuperEdit-Control.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/SuperEdit-Control/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperEdit-Control>\n\n; Example initialization\nclass SupereditControlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperEdit-Control loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupereditControlExample()\n```"
+      "owner": "mesutakcan",
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/SuperEdit-Control\n; ============================================\n; URL: https://github.com/mesutakcan/SuperEdit-Control\n; Stars: 0 | Forks: 0\n; Last Updated: 5/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; SuperEdit is a feature-rich wrapper for the standard AutoHotkey v2 Edit control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/SuperEdit-Control.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/SuperEdit-Control/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperEdit-Control>\n\n; Example initialization\nclass SupereditControlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperEdit-Control loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupereditControlExample()\n```"
     },
     {
       "id": "github-1165234778",
@@ -3215,13 +3215,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-25T16:50:47Z",
-      "lastModified": "2026-03-08T14:17:20Z",
+      "lastModified": "2026-05-16T13:23:45Z",
       "source": "github",
-      "url": "https://github.com/akcansoft/IconButton",
-      "stars": 2,
+      "url": "https://github.com/mesutakcan/IconButton",
+      "stars": 3,
       "forks": 0,
-      "owner": "akcansoft",
-      "code": "```cpp\n; ============================================\n; Repository: akcansoft/IconButton\n; ============================================\n; URL: https://github.com/akcansoft/IconButton\n; Stars: 2 | Forks: 0\n; Last Updated: 3/8/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 button class with icon support\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/IconButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/IconButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IconButton>\n\n; Example initialization\nclass IconbuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IconButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := IconbuttonExample()\n```"
+      "owner": "mesutakcan",
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/IconButton\n; ============================================\n; URL: https://github.com/mesutakcan/IconButton\n; Stars: 3 | Forks: 0\n; Last Updated: 5/16/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 button class with icon support\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/IconButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/IconButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IconButton>\n\n; Example initialization\nclass IconbuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IconButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := IconbuttonExample()\n```"
     },
     {
       "id": "github-1167192092",
@@ -4482,13 +4482,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T11:13:40Z",
-      "lastModified": "2026-04-06T10:44:22Z",
+      "lastModified": "2026-05-16T13:02:12Z",
       "source": "github",
-      "url": "https://github.com/akcansoft/CtrlToolTip",
+      "url": "https://github.com/mesutakcan/CtrlToolTip",
       "stars": 1,
       "forks": 0,
-      "owner": "akcansoft",
-      "code": "```cpp\n; ============================================\n; Repository: akcansoft/CtrlToolTip\n; ============================================\n; URL: https://github.com/akcansoft/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 4/6/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
+      "owner": "mesutakcan",
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 5/16/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
     },
     {
       "id": "github-1199400681",
@@ -5576,13 +5576,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-13T09:27:57Z",
-      "lastModified": "2026-05-13T13:06:10Z",
+      "lastModified": "2026-05-16T12:29:19Z",
       "source": "github",
       "url": "https://github.com/FastAsFack/SerialPort.ahk",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "FastAsFack",
-      "code": "```cpp\n; ============================================\n; Repository: FastAsFack/SerialPort.ahk\n; ============================================\n; URL: https://github.com/FastAsFack/SerialPort.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 5/13/2026\n; License: Not specified\n;\n; Description:\n; SerialPort.ahk — AutoHotkey v2 serial COM port library\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/FastAsFack/SerialPort.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/FastAsFack/SerialPort.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SerialPort.ahk>\n\n; Example initialization\nclass Serialport.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SerialPort.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Serialport.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: FastAsFack/SerialPort.ahk\n; ============================================\n; URL: https://github.com/FastAsFack/SerialPort.ahk\n; Stars: 2 | Forks: 0\n; Last Updated: 5/16/2026\n; License: Not specified\n;\n; Description:\n; SerialPort.ahk — AutoHotkey v2 serial COM port library\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/FastAsFack/SerialPort.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/FastAsFack/SerialPort.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SerialPort.ahk>\n\n; Example initialization\nclass Serialport.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SerialPort.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Serialport.ahkExample()\n```"
     },
     {
       "id": "github-1239599429",
@@ -5601,13 +5601,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-15T08:49:46Z",
-      "lastModified": "2026-05-15T09:07:50Z",
+      "lastModified": "2026-05-16T12:40:28Z",
       "source": "github",
-      "url": "https://github.com/akcansoft/Simple-Icon-Picker",
+      "url": "https://github.com/mesutakcan/Simple-Icon-Picker",
       "stars": 0,
       "forks": 0,
-      "owner": "akcansoft",
-      "code": "```cpp\n; ============================================\n; Repository: akcansoft/Simple-Icon-Picker\n; ============================================\n; URL: https://github.com/akcansoft/Simple-Icon-Picker\n; Stars: 0 | Forks: 0\n; Last Updated: 5/15/2026\n; License: The Unlicense\n;\n; Description:\n; This small AutoHotkey v2 utility provides a simple way to browse and inspect icons stored inside Windows resource files such as shell32.dll, imageres.dll, or any other DLL/EXE containing icon resources.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/akcansoft/Simple-Icon-Picker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/akcansoft/Simple-Icon-Picker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Simple-Icon-Picker>\n\n; Example initialization\nclass SimpleIconPickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Simple-Icon-Picker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SimpleIconPickerExample()\n```"
+      "owner": "mesutakcan",
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/Simple-Icon-Picker\n; ============================================\n; URL: https://github.com/mesutakcan/Simple-Icon-Picker\n; Stars: 0 | Forks: 0\n; Last Updated: 5/16/2026\n; License: The Unlicense\n;\n; Description:\n; This small AutoHotkey v2 utility provides a simple way to browse and inspect icons stored inside Windows resource files such as shell32.dll, imageres.dll, or any other DLL/EXE containing icon resources.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/Simple-Icon-Picker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/Simple-Icon-Picker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Simple-Icon-Picker>\n\n; Example initialization\nclass SimpleIconPickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Simple-Icon-Picker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SimpleIconPickerExample()\n```"
     },
     {
       "id": "github-1239897511",
@@ -5689,13 +5689,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-16T11:33:36Z",
-      "lastModified": "2026-05-16T12:21:16Z",
+      "lastModified": "2026-05-16T15:32:48Z",
       "source": "github",
       "url": "https://github.com/xavierskip/Wheel-Window-Switcher",
       "stars": 0,
       "forks": 0,
       "owner": "xavierskip",
       "code": "```cpp\n; ============================================\n; Repository: xavierskip/Wheel-Window-Switcher\n; ============================================\n; URL: https://github.com/xavierskip/Wheel-Window-Switcher\n; Stars: 0 | Forks: 0\n; Last Updated: 5/16/2026\n; License: Not specified\n;\n; Description:\n; is a AutoHotkey v2.0 script that allows you to quickly switch between windows use your Mouse Wheel\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xavierskip/Wheel-Window-Switcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xavierskip/Wheel-Window-Switcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Wheel-Window-Switcher>\n\n; Example initialization\nclass WheelWindowSwitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Wheel-Window-Switcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WheelWindowSwitcherExample()\n```"
+    },
+    {
+      "id": "github-1240639624",
+      "title": "joplin-prompt-picker",
+      "category": "GitHub Repository",
+      "description": "Use Joplin as prompt library with AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-16T11:36:17Z",
+      "lastModified": "2026-05-16T13:04:39Z",
+      "source": "github",
+      "url": "https://github.com/tftranslate/joplin-prompt-picker",
+      "stars": 0,
+      "forks": 0,
+      "owner": "tftranslate",
+      "code": "```cpp\n; ============================================\n; Repository: tftranslate/joplin-prompt-picker\n; ============================================\n; URL: https://github.com/tftranslate/joplin-prompt-picker\n; Stars: 0 | Forks: 0\n; Last Updated: 5/16/2026\n; License: MIT License\n;\n; Description:\n; Use Joplin as prompt library with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tftranslate/joplin-prompt-picker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tftranslate/joplin-prompt-picker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <joplin-prompt-picker>\n\n; Example initialization\nclass JoplinPromptPickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"joplin-prompt-picker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := JoplinPromptPickerExample()\n```"
     }
   ]
 }
