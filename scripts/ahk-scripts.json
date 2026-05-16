@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-15T18:34:04.265Z",
-  "totalScripts": 282,
+  "lastUpdated": "2026-05-16T00:37:32.288Z",
+  "totalScripts": 284,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-04-11T05:26:04Z",
+      "lastModified": "2026-05-15T21:11:24Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
-      "stars": 33,
+      "stars": 34,
       "forks": 4,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 33 | Forks: 4\n; Last Updated: 4/11/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 34 | Forks: 4\n; Last Updated: 5/15/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -3672,13 +3672,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-13T15:46:06Z",
-      "lastModified": "2026-03-13T15:50:40Z",
+      "lastModified": "2026-05-15T19:31:48Z",
       "source": "github",
       "url": "https://github.com/ThomasBasquin/peace-preamp-ahk",
       "stars": 0,
       "forks": 0,
       "owner": "ThomasBasquin",
-      "code": "```cpp\n; ============================================\n; Repository: ThomasBasquin/peace-preamp-ahk\n; ============================================\n; URL: https://github.com/ThomasBasquin/peace-preamp-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 3/13/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for controlling Peace (Equalizer APO) preamp with OSD overlay\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ThomasBasquin/peace-preamp-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ThomasBasquin/peace-preamp-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peace-preamp-ahk>\n\n; Example initialization\nclass PeacePreampAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peace-preamp-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeacePreampAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ThomasBasquin/peace-preamp-ahk\n; ============================================\n; URL: https://github.com/ThomasBasquin/peace-preamp-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/15/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for controlling Peace (Equalizer APO) preamp with OSD overlay\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ThomasBasquin/peace-preamp-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ThomasBasquin/peace-preamp-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peace-preamp-ahk>\n\n; Example initialization\nclass PeacePreampAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peace-preamp-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeacePreampAhkExample()\n```"
     },
     {
       "id": "github-1180501627",
@@ -5627,6 +5627,56 @@
       "forks": 0,
       "owner": "nanhezzb",
       "code": "```cpp\n; ============================================\n; Repository: nanhezzb/UniqueInstance-for-AHK\n; ============================================\n; URL: https://github.com/nanhezzb/UniqueInstance-for-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 5/15/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 可复用单实例管理库，让 AHK 程序在不同系统权限下最大限度的保持单实例运行。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nanhezzb/UniqueInstance-for-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nanhezzb/UniqueInstance-for-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UniqueInstance-for-AHK>\n\n; Example initialization\nclass UniqueinstanceForAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UniqueInstance-for-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UniqueinstanceForAhkExample()\n```"
+    },
+    {
+      "id": "github-1240070415",
+      "title": "AHK2_Colorful_GUI",
+      "category": "GitHub Repository",
+      "description": "A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-gui",
+        "ahkv2",
+        "autohotkey-v2",
+        "canvas-viewport",
+        "custom-ui",
+        "gui"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-15T18:29:35Z",
+      "lastModified": "2026-05-15T23:14:05Z",
+      "source": "github",
+      "url": "https://github.com/AbsurdianVibe/AHK2_Colorful_GUI",
+      "stars": 0,
+      "forks": 0,
+      "owner": "AbsurdianVibe",
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 5/15/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
+    },
+    {
+      "id": "github-1238108402",
+      "title": "AHK2_AbsurdianFocusFrame",
+      "category": "GitHub Repository",
+      "description": "A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.",
+      "tags": [
+        "github",
+        "repository",
+        "accessibility",
+        "ahk2",
+        "ahk2exe",
+        "autohotkey-v2",
+        "focus-frame",
+        "tweak"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-13T20:25:58Z",
+      "lastModified": "2026-05-15T23:20:53Z",
+      "source": "github",
+      "url": "https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame",
+      "stars": 0,
+      "forks": 0,
+      "owner": "AbsurdianVibe",
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 5/15/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
     }
   ]
 }
