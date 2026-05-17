@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-17T00:40:53.415Z",
-  "totalScripts": 286,
+  "lastUpdated": "2026-05-17T06:59:17.503Z",
+  "totalScripts": 287,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-04-27T11:37:26Z",
+      "lastModified": "2026-05-17T04:21:14Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 4/27/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 5/17/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -5715,6 +5715,25 @@
       "forks": 0,
       "owner": "tftranslate",
       "code": "```cpp\n; ============================================\n; Repository: tftranslate/joplin-prompt-picker\n; ============================================\n; URL: https://github.com/tftranslate/joplin-prompt-picker\n; Stars: 0 | Forks: 0\n; Last Updated: 5/16/2026\n; License: MIT License\n;\n; Description:\n; Use Joplin as prompt library with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tftranslate/joplin-prompt-picker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tftranslate/joplin-prompt-picker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <joplin-prompt-picker>\n\n; Example initialization\nclass JoplinPromptPickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"joplin-prompt-picker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := JoplinPromptPickerExample()\n```"
+    },
+    {
+      "id": "github-1240807763",
+      "title": "pinyin-tones",
+      "category": "GitHub Repository",
+      "description": "Script ligero en AutoHotkey v2 que facilita escribir pinyin con marcas de tono en Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-16T15:41:25Z",
+      "lastModified": "2026-05-17T05:49:37Z",
+      "source": "github",
+      "url": "https://github.com/ffbnchtt/pinyin-tones",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ffbnchtt",
+      "code": "```cpp\n; ============================================\n; Repository: ffbnchtt/pinyin-tones\n; ============================================\n; URL: https://github.com/ffbnchtt/pinyin-tones\n; Stars: 0 | Forks: 0\n; Last Updated: 5/17/2026\n; License: MIT License\n;\n; Description:\n; Script ligero en AutoHotkey v2 que facilita escribir pinyin con marcas de tono en Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ffbnchtt/pinyin-tones.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ffbnchtt/pinyin-tones/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pinyin-tones>\n\n; Example initialization\nclass PinyinTonesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pinyin-tones loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PinyinTonesExample()\n```"
     }
   ]
 }
