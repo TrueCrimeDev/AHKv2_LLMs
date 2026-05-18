@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-18T13:15:23.450Z",
-  "totalScripts": 290,
+  "lastUpdated": "2026-05-18T18:38:09.568Z",
+  "totalScripts": 291,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5795,6 +5795,25 @@
       "forks": 2,
       "owner": "Magnetron85",
       "code": "```cpp\n; ============================================\n; Repository: Magnetron85/Radiology-Right-Click\n; ============================================\n; URL: https://github.com/Magnetron85/Radiology-Right-Click\n; Stars: 8 | Forks: 2\n; Last Updated: 5/17/2026\n; License: Other\n;\n; Description:\n; Right-click context menu of measurement and analysis helpers for radiology dictation. AutoHotkey v2. PolyForm Noncommercial. Research/educational use only -- not a medical device.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/Radiology-Right-Click.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/Radiology-Right-Click/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Radiology-Right-Click>\n\n; Example initialization\nclass RadiologyRightClickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Radiology-Right-Click loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RadiologyRightClickExample()\n```"
+    },
+    {
+      "id": "github-1242760553",
+      "title": "ColoringPixelsBot",
+      "category": "GitHub Repository",
+      "description": "Un bot automatizzato per il gioco Coloring Pixels scritto in AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-18T18:20:53Z",
+      "lastModified": "2026-05-18T18:24:54Z",
+      "source": "github",
+      "url": "https://github.com/AldAndrew0/ColoringPixelsBot",
+      "stars": 0,
+      "forks": 0,
+      "owner": "AldAndrew0",
+      "code": "```cpp\n; ============================================\n; Repository: AldAndrew0/ColoringPixelsBot\n; ============================================\n; URL: https://github.com/AldAndrew0/ColoringPixelsBot\n; Stars: 0 | Forks: 0\n; Last Updated: 5/18/2026\n; License: Not specified\n;\n; Description:\n; Un bot automatizzato per il gioco Coloring Pixels scritto in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AldAndrew0/ColoringPixelsBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AldAndrew0/ColoringPixelsBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ColoringPixelsBot>\n\n; Example initialization\nclass ColoringpixelsbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ColoringPixelsBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ColoringpixelsbotExample()\n```"
     }
   ]
 }
