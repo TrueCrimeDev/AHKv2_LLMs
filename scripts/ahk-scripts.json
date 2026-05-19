@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-18T18:38:09.568Z",
-  "totalScripts": 291,
+  "lastUpdated": "2026-05-19T00:43:36.411Z",
+  "totalScripts": 292,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-05-04T21:40:07Z",
+      "lastModified": "2026-05-18T21:52:07Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 1,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 5/4/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 5/18/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -5750,13 +5750,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T13:37:08Z",
-      "lastModified": "2026-05-17T22:48:13Z",
+      "lastModified": "2026-05-18T21:22:59Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_My_libs",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_My_libs\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_My_libs\n; Stars: 0 | Forks: 0\n; Last Updated: 5/17/2026\n; License: MIT License\n;\n; Description:\n; An advanced mouse click handler for AutoHotkey v2.0. It manages short clicks, double clicks, and button holds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_My_libs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_My_libs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_My_libs>\n\n; Example initialization\nclass Ahk2MyLibsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_My_libs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2MyLibsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_My_libs\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_My_libs\n; Stars: 0 | Forks: 0\n; Last Updated: 5/18/2026\n; License: MIT License\n;\n; Description:\n; An advanced mouse click handler for AutoHotkey v2.0. It manages short clicks, double clicks, and button holds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_My_libs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_My_libs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_My_libs>\n\n; Example initialization\nclass Ahk2MyLibsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_My_libs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2MyLibsExample()\n```"
     },
     {
       "id": "github-1241836157",
@@ -5807,13 +5807,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-18T18:20:53Z",
-      "lastModified": "2026-05-18T18:24:54Z",
+      "lastModified": "2026-05-18T22:06:20Z",
       "source": "github",
       "url": "https://github.com/AldAndrew0/ColoringPixelsBot",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "AldAndrew0",
-      "code": "```cpp\n; ============================================\n; Repository: AldAndrew0/ColoringPixelsBot\n; ============================================\n; URL: https://github.com/AldAndrew0/ColoringPixelsBot\n; Stars: 0 | Forks: 0\n; Last Updated: 5/18/2026\n; License: Not specified\n;\n; Description:\n; Un bot automatizzato per il gioco Coloring Pixels scritto in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AldAndrew0/ColoringPixelsBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AldAndrew0/ColoringPixelsBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ColoringPixelsBot>\n\n; Example initialization\nclass ColoringpixelsbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ColoringPixelsBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ColoringpixelsbotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AldAndrew0/ColoringPixelsBot\n; ============================================\n; URL: https://github.com/AldAndrew0/ColoringPixelsBot\n; Stars: 1 | Forks: 0\n; Last Updated: 5/18/2026\n; License: Not specified\n;\n; Description:\n; Un bot automatizzato per il gioco Coloring Pixels scritto in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AldAndrew0/ColoringPixelsBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AldAndrew0/ColoringPixelsBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ColoringPixelsBot>\n\n; Example initialization\nclass ColoringpixelsbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ColoringPixelsBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ColoringpixelsbotExample()\n```"
+    },
+    {
+      "id": "github-1242825176",
+      "title": "Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey",
+      "category": "GitHub Repository",
+      "description": "Pobierz Autohotkey ważne !!! -Autohotkey v2.0",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-18T19:43:45Z",
+      "lastModified": "2026-05-18T19:49:29Z",
+      "source": "github",
+      "url": "https://github.com/Dziadek9114/Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Dziadek9114",
+      "code": "```cpp\n; ============================================\n; Repository: Dziadek9114/Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey\n; ============================================\n; URL: https://github.com/Dziadek9114/Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 5/18/2026\n; License: Not specified\n;\n; Description:\n; Pobierz Autohotkey ważne !!! -Autohotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dziadek9114/Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dziadek9114/Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey>\n\n; Example initialization\nclass MacroMinecraftMoreCpsAndEsayGodbrigeAhkAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacroMinecraftMoreCpsAndEsayGodbrigeAhkAutohotkeyExample()\n```"
     }
   ]
 }
