@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-19T07:14:25.990Z",
+  "lastUpdated": "2026-05-19T13:06:54.421Z",
   "totalScripts": 292,
   "categories": [
     "GUI",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-05-02T00:08:34Z",
+      "lastModified": "2026-05-19T11:08:30Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 33,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 33 | Forks: 3\n; Last Updated: 5/2/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 33 | Forks: 3\n; Last Updated: 5/19/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -5807,13 +5807,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-18T18:20:53Z",
-      "lastModified": "2026-05-18T22:06:20Z",
+      "lastModified": "2026-05-19T07:56:10Z",
       "source": "github",
       "url": "https://github.com/AldAndrew0/ColoringPixelsBot",
       "stars": 1,
       "forks": 0,
       "owner": "AldAndrew0",
-      "code": "```cpp\n; ============================================\n; Repository: AldAndrew0/ColoringPixelsBot\n; ============================================\n; URL: https://github.com/AldAndrew0/ColoringPixelsBot\n; Stars: 1 | Forks: 0\n; Last Updated: 5/18/2026\n; License: Not specified\n;\n; Description:\n; Un bot automatizzato per il gioco Coloring Pixels scritto in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AldAndrew0/ColoringPixelsBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AldAndrew0/ColoringPixelsBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ColoringPixelsBot>\n\n; Example initialization\nclass ColoringpixelsbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ColoringPixelsBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ColoringpixelsbotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AldAndrew0/ColoringPixelsBot\n; ============================================\n; URL: https://github.com/AldAndrew0/ColoringPixelsBot\n; Stars: 1 | Forks: 0\n; Last Updated: 5/19/2026\n; License: Not specified\n;\n; Description:\n; Un bot automatizzato per il gioco Coloring Pixels scritto in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AldAndrew0/ColoringPixelsBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AldAndrew0/ColoringPixelsBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ColoringPixelsBot>\n\n; Example initialization\nclass ColoringpixelsbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ColoringPixelsBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ColoringpixelsbotExample()\n```"
     },
     {
       "id": "github-1242825176",
