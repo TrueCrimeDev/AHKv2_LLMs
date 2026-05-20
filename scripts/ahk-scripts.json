@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-20T12:53:31.235Z",
-  "totalScripts": 292,
+  "lastUpdated": "2026-05-20T18:49:05.481Z",
+  "totalScripts": 293,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-05-19T14:28:24Z",
+      "lastModified": "2026-05-20T14:30:26Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 33,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 33 | Forks: 3\n; Last Updated: 5/19/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 33 | Forks: 3\n; Last Updated: 5/20/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -5833,6 +5833,31 @@
       "forks": 0,
       "owner": "Dziadek9114",
       "code": "```cpp\n; ============================================\n; Repository: Dziadek9114/Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey\n; ============================================\n; URL: https://github.com/Dziadek9114/Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 5/18/2026\n; License: Not specified\n;\n; Description:\n; Pobierz Autohotkey ważne !!! -Autohotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dziadek9114/Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dziadek9114/Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey>\n\n; Example initialization\nclass MacroMinecraftMoreCpsAndEsayGodbrigeAhkAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Macro-Minecraft-more-CPS-and-esay-godbrige-AHK-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacroMinecraftMoreCpsAndEsayGodbrigeAhkAutohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1244862817",
+      "title": "layout-toolkit-ru-en",
+      "category": "GitHub Repository",
+      "description": "A small AutoHotkey v2 toolkit for manual and live RU/EN keyboard layout conversion.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "en-ru",
+        "keyboard-layout",
+        "punto-switcher",
+        "text-conversion"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-20T17:11:41Z",
+      "lastModified": "2026-05-20T17:32:09Z",
+      "source": "github",
+      "url": "https://github.com/ToPoR007/layout-toolkit-ru-en",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ToPoR007",
+      "code": "```cpp\n; ============================================\n; Repository: ToPoR007/layout-toolkit-ru-en\n; ============================================\n; URL: https://github.com/ToPoR007/layout-toolkit-ru-en\n; Stars: 0 | Forks: 0\n; Last Updated: 5/20/2026\n; License: MIT License\n;\n; Description:\n; A small AutoHotkey v2 toolkit for manual and live RU/EN keyboard layout conversion.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ToPoR007/layout-toolkit-ru-en.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ToPoR007/layout-toolkit-ru-en/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <layout-toolkit-ru-en>\n\n; Example initialization\nclass LayoutToolkitRuEnExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"layout-toolkit-ru-en loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LayoutToolkitRuEnExample()\n```"
     }
   ]
 }
