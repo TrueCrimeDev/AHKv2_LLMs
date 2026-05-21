@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-21T00:45:00.561Z",
+  "lastUpdated": "2026-05-21T07:18:53.783Z",
   "totalScripts": 293,
   "categories": [
     "GUI",
@@ -3386,7 +3386,7 @@
       "id": "github-1169730446",
       "title": "luma-flyout-ahk",
       "category": "GitHub Repository",
-      "description": "OSD de brillo personalizado en AutoHotkey v2 para Windows 11, con atajos configurables y control de brillo por WMI",
+      "description": "LumaFlyout AHK es un OSD (On-Screen Display) personalizado para Windows 10/11, desarrollado en AutoHotkey v2, que permite controlar brillo, volumen y navegación del sistema mediante hotkeys configurables, mostrando una interfaz visual moderna directamente en pantalla.",
       "tags": [
         "github",
         "repository",
@@ -3398,13 +3398,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T05:42:43Z",
-      "lastModified": "2026-03-01T15:50:02Z",
+      "lastModified": "2026-05-21T04:16:16Z",
       "source": "github",
       "url": "https://github.com/xmunder/luma-flyout-ahk",
       "stars": 0,
       "forks": 0,
       "owner": "xmunder",
-      "code": "```cpp\n; ============================================\n; Repository: xmunder/luma-flyout-ahk\n; ============================================\n; URL: https://github.com/xmunder/luma-flyout-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 3/1/2026\n; License: MIT License\n;\n; Description:\n; OSD de brillo personalizado en AutoHotkey v2 para Windows 11, con atajos configurables y control de brillo por WMI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xmunder/luma-flyout-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xmunder/luma-flyout-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <luma-flyout-ahk>\n\n; Example initialization\nclass LumaFlyoutAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"luma-flyout-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LumaFlyoutAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: xmunder/luma-flyout-ahk\n; ============================================\n; URL: https://github.com/xmunder/luma-flyout-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/21/2026\n; License: MIT License\n;\n; Description:\n; LumaFlyout AHK es un OSD (On-Screen Display) personalizado para Windows 10/11, desarrollado en AutoHotkey v2, que permite controlar brillo, volumen y navegación del sistema mediante hotkeys configurables, mostrando una interfaz visual moderna directamente en pantalla.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xmunder/luma-flyout-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xmunder/luma-flyout-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <luma-flyout-ahk>\n\n; Example initialization\nclass LumaFlyoutAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"luma-flyout-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LumaFlyoutAhkExample()\n```"
     },
     {
       "id": "github-1170189374",
