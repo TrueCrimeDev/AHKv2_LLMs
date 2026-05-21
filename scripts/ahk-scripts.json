@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-21T13:09:03.232Z",
+  "lastUpdated": "2026-05-21T18:39:31.952Z",
   "totalScripts": 293,
   "categories": [
     "GUI",
@@ -4920,7 +4920,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-05-21T08:08:37Z",
+      "lastModified": "2026-05-21T18:12:15Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
@@ -5851,13 +5851,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-20T17:11:41Z",
-      "lastModified": "2026-05-20T19:48:16Z",
+      "lastModified": "2026-05-21T18:27:29Z",
       "source": "github",
       "url": "https://github.com/ToPoR007/layout-toolkit-ru-en",
       "stars": 0,
       "forks": 0,
       "owner": "ToPoR007",
-      "code": "```cpp\n; ============================================\n; Repository: ToPoR007/layout-toolkit-ru-en\n; ============================================\n; URL: https://github.com/ToPoR007/layout-toolkit-ru-en\n; Stars: 0 | Forks: 0\n; Last Updated: 5/20/2026\n; License: MIT License\n;\n; Description:\n; A small AutoHotkey v2 toolkit for manual and live RU/EN keyboard layout conversion.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ToPoR007/layout-toolkit-ru-en.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ToPoR007/layout-toolkit-ru-en/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <layout-toolkit-ru-en>\n\n; Example initialization\nclass LayoutToolkitRuEnExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"layout-toolkit-ru-en loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LayoutToolkitRuEnExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ToPoR007/layout-toolkit-ru-en\n; ============================================\n; URL: https://github.com/ToPoR007/layout-toolkit-ru-en\n; Stars: 0 | Forks: 0\n; Last Updated: 5/21/2026\n; License: MIT License\n;\n; Description:\n; A small AutoHotkey v2 toolkit for manual and live RU/EN keyboard layout conversion.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ToPoR007/layout-toolkit-ru-en.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ToPoR007/layout-toolkit-ru-en/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <layout-toolkit-ru-en>\n\n; Example initialization\nclass LayoutToolkitRuEnExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"layout-toolkit-ru-en loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LayoutToolkitRuEnExample()\n```"
     }
   ]
 }
