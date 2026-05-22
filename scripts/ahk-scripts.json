@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-22T12:50:48.280Z",
-  "totalScripts": 293,
+  "lastUpdated": "2026-05-22T18:37:35.352Z",
+  "totalScripts": 296,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-05-20T23:41:51Z",
+      "lastModified": "2026-05-22T16:11:45Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 45,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 45 | Forks: 8\n; Last Updated: 5/20/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 45 | Forks: 8\n; Last Updated: 5/22/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -4920,7 +4920,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-05-22T12:45:03Z",
+      "lastModified": "2026-05-22T13:37:07Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
@@ -5645,13 +5645,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-15T18:29:35Z",
-      "lastModified": "2026-05-17T21:38:48Z",
+      "lastModified": "2026-05-22T16:47:07Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_Colorful_GUI",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 5/17/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
     },
     {
       "id": "github-1238108402",
@@ -5670,13 +5670,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-13T20:25:58Z",
-      "lastModified": "2026-05-15T23:20:53Z",
+      "lastModified": "2026-05-22T16:47:38Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 5/15/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
     },
     {
       "id": "github-1240637987",
@@ -5750,13 +5750,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T13:37:08Z",
-      "lastModified": "2026-05-18T21:22:59Z",
+      "lastModified": "2026-05-22T16:47:21Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_My_libs",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_My_libs\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_My_libs\n; Stars: 0 | Forks: 0\n; Last Updated: 5/18/2026\n; License: MIT License\n;\n; Description:\n; An advanced mouse click handler for AutoHotkey v2.0. It manages short clicks, double clicks, and button holds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_My_libs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_My_libs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_My_libs>\n\n; Example initialization\nclass Ahk2MyLibsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_My_libs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2MyLibsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_My_libs\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_My_libs\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: MIT License\n;\n; Description:\n; An advanced mouse click handler for AutoHotkey v2.0. It manages short clicks, double clicks, and button holds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_My_libs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_My_libs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_My_libs>\n\n; Example initialization\nclass Ahk2MyLibsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_My_libs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2MyLibsExample()\n```"
     },
     {
       "id": "github-1241836157",
@@ -5851,13 +5851,70 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-20T17:11:41Z",
-      "lastModified": "2026-05-21T18:27:29Z",
+      "lastModified": "2026-05-22T18:11:59Z",
       "source": "github",
       "url": "https://github.com/ToPoR007/layout-toolkit-ru-en",
       "stars": 0,
       "forks": 0,
       "owner": "ToPoR007",
-      "code": "```cpp\n; ============================================\n; Repository: ToPoR007/layout-toolkit-ru-en\n; ============================================\n; URL: https://github.com/ToPoR007/layout-toolkit-ru-en\n; Stars: 0 | Forks: 0\n; Last Updated: 5/21/2026\n; License: MIT License\n;\n; Description:\n; A small AutoHotkey v2 toolkit for manual and live RU/EN keyboard layout conversion.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ToPoR007/layout-toolkit-ru-en.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ToPoR007/layout-toolkit-ru-en/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <layout-toolkit-ru-en>\n\n; Example initialization\nclass LayoutToolkitRuEnExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"layout-toolkit-ru-en loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LayoutToolkitRuEnExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ToPoR007/layout-toolkit-ru-en\n; ============================================\n; URL: https://github.com/ToPoR007/layout-toolkit-ru-en\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: MIT License\n;\n; Description:\n; A small AutoHotkey v2 toolkit for manual and live RU/EN keyboard layout conversion.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ToPoR007/layout-toolkit-ru-en.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ToPoR007/layout-toolkit-ru-en/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <layout-toolkit-ru-en>\n\n; Example initialization\nclass LayoutToolkitRuEnExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"layout-toolkit-ru-en loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LayoutToolkitRuEnExample()\n```"
+    },
+    {
+      "id": "github-1246904280",
+      "title": "flower-menu",
+      "category": "GitHub Repository",
+      "description": "🌸 Radial app launcher for Windows triggered by middle mouse button — AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-22T17:25:58Z",
+      "lastModified": "2026-05-22T17:26:07Z",
+      "source": "github",
+      "url": "https://github.com/Wozniak90/flower-menu",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Wozniak90",
+      "code": "```cpp\n; ============================================\n; Repository: Wozniak90/flower-menu\n; ============================================\n; URL: https://github.com/Wozniak90/flower-menu\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: Not specified\n;\n; Description:\n; 🌸 Radial app launcher for Windows triggered by middle mouse button — AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Wozniak90/flower-menu.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Wozniak90/flower-menu/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <flower-menu>\n\n; Example initialization\nclass FlowerMenuExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"flower-menu loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FlowerMenuExample()\n```"
+    },
+    {
+      "id": "github-1246825699",
+      "title": "colemak-ahk-v2",
+      "category": "GitHub Repository",
+      "description": "Colemak layout for AutoHotKey V2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-22T15:42:24Z",
+      "lastModified": "2026-05-22T15:48:33Z",
+      "source": "github",
+      "url": "https://github.com/ikubaysan/colemak-ahk-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ikubaysan",
+      "code": "```cpp\n; ============================================\n; Repository: ikubaysan/colemak-ahk-v2\n; ============================================\n; URL: https://github.com/ikubaysan/colemak-ahk-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: Not specified\n;\n; Description:\n; Colemak layout for AutoHotKey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ikubaysan/colemak-ahk-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ikubaysan/colemak-ahk-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <colemak-ahk-v2>\n\n; Example initialization\nclass ColemakAhkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"colemak-ahk-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ColemakAhkV2Example()\n```"
+    },
+    {
+      "id": "github-1246770552",
+      "title": "Autohotkey-v2-Modern-Framework",
+      "category": "GitHub Repository",
+      "description": "No description available",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-22T14:34:24Z",
+      "lastModified": "2026-05-22T14:42:33Z",
+      "source": "github",
+      "url": "https://github.com/Cyszx/Autohotkey-v2-Modern-Framework",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Cyszx",
+      "code": "```cpp\n; ============================================\n; Repository: Cyszx/Autohotkey-v2-Modern-Framework\n; ============================================\n; URL: https://github.com/Cyszx/Autohotkey-v2-Modern-Framework\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Cyszx/Autohotkey-v2-Modern-Framework.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Cyszx/Autohotkey-v2-Modern-Framework/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Autohotkey-v2-Modern-Framework>\n\n; Example initialization\nclass AutohotkeyV2ModernFrameworkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Autohotkey-v2-Modern-Framework loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2ModernFrameworkExample()\n```"
     }
   ]
 }
