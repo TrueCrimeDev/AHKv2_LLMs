@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-22T18:37:35.352Z",
-  "totalScripts": 296,
+  "lastUpdated": "2026-05-23T00:42:05.303Z",
+  "totalScripts": 297,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5645,7 +5645,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-15T18:29:35Z",
-      "lastModified": "2026-05-22T16:47:07Z",
+      "lastModified": "2026-05-22T23:43:32Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_Colorful_GUI",
       "stars": 0,
@@ -5750,7 +5750,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T13:37:08Z",
-      "lastModified": "2026-05-22T16:47:21Z",
+      "lastModified": "2026-05-22T20:05:16Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_My_libs",
       "stars": 0,
@@ -5851,7 +5851,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-20T17:11:41Z",
-      "lastModified": "2026-05-22T18:11:59Z",
+      "lastModified": "2026-05-22T20:16:16Z",
       "source": "github",
       "url": "https://github.com/ToPoR007/layout-toolkit-ru-en",
       "stars": 0,
@@ -5870,7 +5870,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-22T17:25:58Z",
-      "lastModified": "2026-05-22T17:26:07Z",
+      "lastModified": "2026-05-22T19:55:27Z",
       "source": "github",
       "url": "https://github.com/Wozniak90/flower-menu",
       "stars": 0,
@@ -5908,13 +5908,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-22T14:34:24Z",
-      "lastModified": "2026-05-22T14:42:33Z",
+      "lastModified": "2026-05-22T22:19:53Z",
       "source": "github",
       "url": "https://github.com/Cyszx/Autohotkey-v2-Modern-Framework",
       "stars": 0,
       "forks": 0,
       "owner": "Cyszx",
       "code": "```cpp\n; ============================================\n; Repository: Cyszx/Autohotkey-v2-Modern-Framework\n; ============================================\n; URL: https://github.com/Cyszx/Autohotkey-v2-Modern-Framework\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Cyszx/Autohotkey-v2-Modern-Framework.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Cyszx/Autohotkey-v2-Modern-Framework/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Autohotkey-v2-Modern-Framework>\n\n; Example initialization\nclass AutohotkeyV2ModernFrameworkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Autohotkey-v2-Modern-Framework loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2ModernFrameworkExample()\n```"
+    },
+    {
+      "id": "github-1247078222",
+      "title": "AHK-ScreenClip-OCR-Automation",
+      "category": "GitHub Repository",
+      "description": "Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-22T21:59:54Z",
+      "lastModified": "2026-05-22T22:15:01Z",
+      "source": "github",
+      "url": "https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation",
+      "stars": 0,
+      "forks": 0,
+      "owner": "KwangBeomPark",
+      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/AHK-ScreenClip-OCR-Automation\n; ============================================\n; URL: https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ScreenClip-OCR-Automation>\n\n; Example initialization\nclass AhkScreenclipOcrAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ScreenClip-OCR-Automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScreenclipOcrAutomationExample()\n```"
     }
   ]
 }
