@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-23T00:42:05.303Z",
-  "totalScripts": 297,
+  "lastUpdated": "2026-05-23T06:56:25.174Z",
+  "totalScripts": 299,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5934,6 +5934,44 @@
       "forks": 0,
       "owner": "KwangBeomPark",
       "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/AHK-ScreenClip-OCR-Automation\n; ============================================\n; URL: https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ScreenClip-OCR-Automation>\n\n; Example initialization\nclass AhkScreenclipOcrAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ScreenClip-OCR-Automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScreenclipOcrAutomationExample()\n```"
+    },
+    {
+      "id": "github-1247276932",
+      "title": "spotify-desktop-widget",
+      "category": "GitHub Repository",
+      "description": "A lightweight Spotify mini-widget overlay built with AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-23T05:27:48Z",
+      "lastModified": "2026-05-23T06:23:12Z",
+      "source": "github",
+      "url": "https://github.com/Khazyah/spotify-desktop-widget",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Khazyah",
+      "code": "```cpp\n; ============================================\n; Repository: Khazyah/spotify-desktop-widget\n; ============================================\n; URL: https://github.com/Khazyah/spotify-desktop-widget\n; Stars: 0 | Forks: 0\n; Last Updated: 5/23/2026\n; License: Not specified\n;\n; Description:\n; A lightweight Spotify mini-widget overlay built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Khazyah/spotify-desktop-widget.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Khazyah/spotify-desktop-widget/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <spotify-desktop-widget>\n\n; Example initialization\nclass SpotifyDesktopWidgetExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"spotify-desktop-widget loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SpotifyDesktopWidgetExample()\n```"
+    },
+    {
+      "id": "github-1247167426",
+      "title": "KeyFlip",
+      "category": "GitHub Repository",
+      "description": "One-keypress fixer for text typed in the wrong Hebrew/English keyboard layout. Windows, AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-23T01:26:42Z",
+      "lastModified": "2026-05-23T01:26:49Z",
+      "source": "github",
+      "url": "https://github.com/Danaor/KeyFlip",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Danaor",
+      "code": "```cpp\n; ============================================\n; Repository: Danaor/KeyFlip\n; ============================================\n; URL: https://github.com/Danaor/KeyFlip\n; Stars: 0 | Forks: 0\n; Last Updated: 5/23/2026\n; License: MIT License\n;\n; Description:\n; One-keypress fixer for text typed in the wrong Hebrew/English keyboard layout. Windows, AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Danaor/KeyFlip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Danaor/KeyFlip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyFlip>\n\n; Example initialization\nclass KeyflipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyFlip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyflipExample()\n```"
     }
   ]
 }
