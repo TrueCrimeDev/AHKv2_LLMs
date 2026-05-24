@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-24T00:43:00.551Z",
-  "totalScripts": 300,
+  "lastUpdated": "2026-05-24T07:07:49.521Z",
+  "totalScripts": 301,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-05-23T14:29:04Z",
+      "lastModified": "2026-05-24T01:59:29Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 1,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 5/23/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 5/24/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -5991,6 +5991,25 @@
       "forks": 0,
       "owner": "zhbrcn",
       "code": "```cpp\n; ============================================\n; Repository: zhbrcn/pinyin-auto-english\n; ============================================\n; URL: https://github.com/zhbrcn/pinyin-auto-english\n; Stars: 0 | Forks: 0\n; Last Updated: 5/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本，在 Windows 上配合微软拼音输入��使用。  核心功能：当可编辑控件获得焦点时，自动将微软拼音切换到英文模式，省去手动切换的烦恼。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zhbrcn/pinyin-auto-english.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zhbrcn/pinyin-auto-english/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pinyin-auto-english>\n\n; Example initialization\nclass PinyinAutoEnglishExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pinyin-auto-english loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PinyinAutoEnglishExample()\n```"
+    },
+    {
+      "id": "github-1247932057",
+      "title": "WinMouse",
+      "category": "GitHub Repository",
+      "description": "Portable Windows AutoHotkey v2 utility for QA/testing automation — bind numpad hotkeys to deterministic input sequences (clicks, keys, text, image-match) on locked-down Win10 LTSB, standard user, no installer.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-24T01:10:50Z",
+      "lastModified": "2026-05-24T01:11:17Z",
+      "source": "github",
+      "url": "https://github.com/refactordude/WinMouse",
+      "stars": 0,
+      "forks": 0,
+      "owner": "refactordude",
+      "code": "```cpp\n; ============================================\n; Repository: refactordude/WinMouse\n; ============================================\n; URL: https://github.com/refactordude/WinMouse\n; Stars: 0 | Forks: 0\n; Last Updated: 5/24/2026\n; License: Not specified\n;\n; Description:\n; Portable Windows AutoHotkey v2 utility for QA/testing automation — bind numpad hotkeys to deterministic input sequences (clicks, keys, text, image-match) on locked-down Win10 LTSB, standard user, no installer.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/refactordude/WinMouse.git\n;\n; Option 2: Download ZIP\n;   https://github.com/refactordude/WinMouse/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMouse>\n\n; Example initialization\nclass WinmouseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMouse loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmouseExample()\n```"
     }
   ]
 }
