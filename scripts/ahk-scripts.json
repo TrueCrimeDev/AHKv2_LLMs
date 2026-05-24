@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-23T18:22:08.068Z",
+  "lastUpdated": "2026-05-24T00:43:00.551Z",
   "totalScripts": 300,
   "categories": [
     "GUI",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-05-10T10:02:14Z",
+      "lastModified": "2026-05-23T19:52:32Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
       "stars": 225,
       "forks": 34,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 225 | Forks: 34\n; Last Updated: 5/10/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 225 | Forks: 34\n; Last Updated: 5/23/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -5519,13 +5519,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-10T19:47:04Z",
-      "lastModified": "2026-05-18T13:13:34Z",
+      "lastModified": "2026-05-23T21:50:00Z",
       "source": "github",
       "url": "https://github.com/theviniis/dofus_helper",
       "stars": 0,
       "forks": 0,
       "owner": "theviniis",
-      "code": "```cpp\n; ============================================\n; Repository: theviniis/dofus_helper\n; ============================================\n; URL: https://github.com/theviniis/dofus_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 5/18/2026\n; License: Not specified\n;\n; Description:\n; Scripts de automação AutoHotkey v2.0 para o jogo Dofus, oferecendo troca de contas via hotkeys e viagem coordenada usando o item Zap (Saco de Viagens).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/theviniis/dofus_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/theviniis/dofus_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dofus_helper>\n\n; Example initialization\nclass DofusHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dofus_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DofusHelperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: theviniis/dofus_helper\n; ============================================\n; URL: https://github.com/theviniis/dofus_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 5/23/2026\n; License: Not specified\n;\n; Description:\n; Scripts de automação AutoHotkey v2.0 para o jogo Dofus, oferecendo troca de contas via hotkeys e viagem coordenada usando o item Zap (Saco de Viagens).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/theviniis/dofus_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/theviniis/dofus_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dofus_helper>\n\n; Example initialization\nclass DofusHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dofus_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DofusHelperExample()\n```"
     },
     {
       "id": "github-1235409431",
@@ -5927,13 +5927,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-22T21:59:54Z",
-      "lastModified": "2026-05-22T22:15:01Z",
+      "lastModified": "2026-05-23T20:24:19Z",
       "source": "github",
       "url": "https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation",
       "stars": 0,
       "forks": 0,
       "owner": "KwangBeomPark",
-      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/AHK-ScreenClip-OCR-Automation\n; ============================================\n; URL: https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ScreenClip-OCR-Automation>\n\n; Example initialization\nclass AhkScreenclipOcrAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ScreenClip-OCR-Automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScreenclipOcrAutomationExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/AHK-ScreenClip-OCR-Automation\n; ============================================\n; URL: https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation\n; Stars: 0 | Forks: 0\n; Last Updated: 5/23/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/AHK-ScreenClip-OCR-Automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ScreenClip-OCR-Automation>\n\n; Example initialization\nclass AhkScreenclipOcrAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ScreenClip-OCR-Automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScreenclipOcrAutomationExample()\n```"
     },
     {
       "id": "github-1247276932",
