@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-25T00:44:21.229Z",
-  "totalScripts": 301,
+  "lastUpdated": "2026-05-25T07:35:56.701Z",
+  "totalScripts": 302,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-05-22T13:37:07Z",
+      "lastModified": "2026-05-25T03:33:05Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
-      "forks": 1,
+      "forks": 2,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 5/22/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 2\n; Last Updated: 5/25/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit with fingerprint, keypad, and Cayo Perico solvers, plus NoSave support. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -6010,6 +6010,25 @@
       "forks": 0,
       "owner": "refactordude",
       "code": "```cpp\n; ============================================\n; Repository: refactordude/WinMouse\n; ============================================\n; URL: https://github.com/refactordude/WinMouse\n; Stars: 0 | Forks: 0\n; Last Updated: 5/24/2026\n; License: Not specified\n;\n; Description:\n; Portable Windows AutoHotkey v2 utility for QA/testing automation — bind numpad hotkeys to deterministic input sequences (clicks, keys, text, image-match) on locked-down Win10 LTSB, standard user, no installer.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/refactordude/WinMouse.git\n;\n; Option 2: Download ZIP\n;   https://github.com/refactordude/WinMouse/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMouse>\n\n; Example initialization\nclass WinmouseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMouse loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmouseExample()\n```"
+    },
+    {
+      "id": "github-1247297592",
+      "title": "autohotkey-scripts-bundle",
+      "category": "GitHub Repository",
+      "description": "Strap:  a modular AutoHotkey v2 script bundle for Windows",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-23T06:07:49Z",
+      "lastModified": "2026-05-25T04:41:42Z",
+      "source": "github",
+      "url": "https://github.com/H-int0/autohotkey-scripts-bundle",
+      "stars": 0,
+      "forks": 0,
+      "owner": "H-int0",
+      "code": "```cpp\n; ============================================\n; Repository: H-int0/autohotkey-scripts-bundle\n; ============================================\n; URL: https://github.com/H-int0/autohotkey-scripts-bundle\n; Stars: 0 | Forks: 0\n; Last Updated: 5/25/2026\n; License: Not specified\n;\n; Description:\n; Strap:  a modular AutoHotkey v2 script bundle for Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/H-int0/autohotkey-scripts-bundle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/H-int0/autohotkey-scripts-bundle/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-scripts-bundle>\n\n; Example initialization\nclass AutohotkeyScriptsBundleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-scripts-bundle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsBundleExample()\n```"
     }
   ]
 }
