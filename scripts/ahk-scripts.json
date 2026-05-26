@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-26T07:14:23.704Z",
-  "totalScripts": 302,
+  "lastUpdated": "2026-05-26T13:00:36.729Z",
+  "totalScripts": 303,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5769,13 +5769,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-05-17T22:24:56Z",
+      "lastModified": "2026-05-26T10:19:24Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 0,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 0 | Forks: 0\n; Last Updated: 5/17/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 0 | Forks: 0\n; Last Updated: 5/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -6035,6 +6035,25 @@
       "forks": 0,
       "owner": "H-int0",
       "code": "```cpp\n; ============================================\n; Repository: H-int0/autohotkey-v2-scripts\n; ============================================\n; URL: https://github.com/H-int0/autohotkey-v2-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 5/26/2026\n; License: Not specified\n;\n; Description:\n; Strap: A modular AutoHotkey v2 (AHK) script bundle for Windows automation and macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/H-int0/autohotkey-v2-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/H-int0/autohotkey-v2-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2-scripts>\n\n; Example initialization\nclass AutohotkeyV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2ScriptsExample()\n```"
+    },
+    {
+      "id": "github-1250135500",
+      "title": "window-peek",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 shortcut to temporarily peek at the window underneath the active one.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-26T10:39:56Z",
+      "lastModified": "2026-05-26T11:29:44Z",
+      "source": "github",
+      "url": "https://github.com/NathanOtano/window-peek",
+      "stars": 0,
+      "forks": 0,
+      "owner": "NathanOtano",
+      "code": "```cpp\n; ============================================\n; Repository: NathanOtano/window-peek\n; ============================================\n; URL: https://github.com/NathanOtano/window-peek\n; Stars: 0 | Forks: 0\n; Last Updated: 5/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 shortcut to temporarily peek at the window underneath the active one.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NathanOtano/window-peek.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NathanOtano/window-peek/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-peek>\n\n; Example initialization\nclass WindowPeekExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-peek loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowPeekExample()\n```"
     }
   ]
 }
