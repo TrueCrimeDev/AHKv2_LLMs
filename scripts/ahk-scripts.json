@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-26T13:00:36.729Z",
+  "lastUpdated": "2026-05-26T18:48:55.684Z",
   "totalScripts": 303,
   "categories": [
     "GUI",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-05-25T16:34:48Z",
+      "lastModified": "2026-05-26T17:51:30Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
       "forks": 2,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 2\n; Last Updated: 5/25/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring fingerprint and keypad solvers, NoSave support, and standalone utilities. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 2\n; Last Updated: 5/26/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring fingerprint and keypad solvers, NoSave support, and standalone utilities. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -5769,7 +5769,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-05-26T10:19:24Z",
+      "lastModified": "2026-05-26T18:43:29Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 0,
@@ -6047,13 +6047,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-26T10:39:56Z",
-      "lastModified": "2026-05-26T11:29:44Z",
+      "lastModified": "2026-05-26T16:32:49Z",
       "source": "github",
       "url": "https://github.com/NathanOtano/window-peek",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "NathanOtano",
-      "code": "```cpp\n; ============================================\n; Repository: NathanOtano/window-peek\n; ============================================\n; URL: https://github.com/NathanOtano/window-peek\n; Stars: 0 | Forks: 0\n; Last Updated: 5/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 shortcut to temporarily peek at the window underneath the active one.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NathanOtano/window-peek.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NathanOtano/window-peek/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-peek>\n\n; Example initialization\nclass WindowPeekExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-peek loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowPeekExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: NathanOtano/window-peek\n; ============================================\n; URL: https://github.com/NathanOtano/window-peek\n; Stars: 1 | Forks: 0\n; Last Updated: 5/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 shortcut to temporarily peek at the window underneath the active one.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NathanOtano/window-peek.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NathanOtano/window-peek/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-peek>\n\n; Example initialization\nclass WindowPeekExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-peek loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowPeekExample()\n```"
     }
   ]
 }
