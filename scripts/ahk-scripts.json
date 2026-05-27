@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-27T13:10:50.547Z",
+  "lastUpdated": "2026-05-27T18:48:08.314Z",
   "totalScripts": 303,
   "categories": [
     "GUI",
@@ -6028,13 +6028,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-23T06:07:49Z",
-      "lastModified": "2026-05-26T04:52:51Z",
+      "lastModified": "2026-05-27T16:53:16Z",
       "source": "github",
       "url": "https://github.com/H-int0/autohotkey-v2-scripts",
       "stars": 0,
       "forks": 0,
       "owner": "H-int0",
-      "code": "```cpp\n; ============================================\n; Repository: H-int0/autohotkey-v2-scripts\n; ============================================\n; URL: https://github.com/H-int0/autohotkey-v2-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 5/26/2026\n; License: Not specified\n;\n; Description:\n; Strap: A modular AutoHotkey v2 (AHK) script bundle for Windows automation and macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/H-int0/autohotkey-v2-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/H-int0/autohotkey-v2-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2-scripts>\n\n; Example initialization\nclass AutohotkeyV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2ScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: H-int0/autohotkey-v2-scripts\n; ============================================\n; URL: https://github.com/H-int0/autohotkey-v2-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 5/27/2026\n; License: MIT License\n;\n; Description:\n; Strap: A modular AutoHotkey v2 (AHK) script bundle for Windows automation and macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/H-int0/autohotkey-v2-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/H-int0/autohotkey-v2-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2-scripts>\n\n; Example initialization\nclass AutohotkeyV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2ScriptsExample()\n```"
     },
     {
       "id": "github-1250135500",
