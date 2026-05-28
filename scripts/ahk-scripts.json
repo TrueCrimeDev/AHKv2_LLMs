@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-27T18:48:08.314Z",
+  "lastUpdated": "2026-05-28T00:40:24.781Z",
   "totalScripts": 303,
   "categories": [
     "GUI",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-05-25T16:34:50Z",
+      "lastModified": "2026-05-27T19:19:24Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 45,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 45 | Forks: 8\n; Last Updated: 5/25/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 45 | Forks: 8\n; Last Updated: 5/27/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -5519,13 +5519,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-10T19:47:04Z",
-      "lastModified": "2026-05-26T06:45:11Z",
+      "lastModified": "2026-05-27T20:53:15Z",
       "source": "github",
       "url": "https://github.com/theviniis/dofus_helper",
       "stars": 0,
       "forks": 0,
       "owner": "theviniis",
-      "code": "```cpp\n; ============================================\n; Repository: theviniis/dofus_helper\n; ============================================\n; URL: https://github.com/theviniis/dofus_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 5/26/2026\n; License: Not specified\n;\n; Description:\n; Scripts de automação AutoHotkey v2.0 para o jogo Dofus, oferecendo troca de contas via hotkeys e viagem coordenada usando o item Zap (Saco de Viagens).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/theviniis/dofus_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/theviniis/dofus_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dofus_helper>\n\n; Example initialization\nclass DofusHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dofus_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DofusHelperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: theviniis/dofus_helper\n; ============================================\n; URL: https://github.com/theviniis/dofus_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 5/27/2026\n; License: Not specified\n;\n; Description:\n; Scripts de automação AutoHotkey v2.0 para o jogo Dofus, oferecendo troca de contas via hotkeys e viagem coordenada usando o item Zap (Saco de Viagens).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/theviniis/dofus_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/theviniis/dofus_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dofus_helper>\n\n; Example initialization\nclass DofusHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dofus_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DofusHelperExample()\n```"
     },
     {
       "id": "github-1235409431",
