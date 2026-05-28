@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-28T07:22:00.779Z",
-  "totalScripts": 305,
+  "lastUpdated": "2026-05-28T13:15:20.893Z",
+  "totalScripts": 306,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-05-24T15:34:23Z",
+      "lastModified": "2026-05-28T11:12:21Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 225,
+      "stars": 226,
       "forks": 34,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 225 | Forks: 34\n; Last Updated: 5/24/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 226 | Forks: 34\n; Last Updated: 5/28/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -6092,6 +6092,25 @@
       "forks": 0,
       "owner": "GnuKeyLLC",
       "code": "```cpp\n; ============================================\n; Repository: GnuKeyLLC/MultiShortcutsPro\n; ============================================\n; URL: https://github.com/GnuKeyLLC/MultiShortcutsPro\n; Stars: 0 | Forks: 0\n; Last Updated: 5/28/2026\n; License: MIT License\n;\n; Description:\n; free AutoHotkey v2 productivity tool for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GnuKeyLLC/MultiShortcutsPro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GnuKeyLLC/MultiShortcutsPro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MultiShortcutsPro>\n\n; Example initialization\nclass MultishortcutsproExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MultiShortcutsPro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MultishortcutsproExample()\n```"
+    },
+    {
+      "id": "github-1217707997",
+      "title": "KeyTap-Pro",
+      "category": "GitHub Repository",
+      "description": "KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-04-22T06:23:39Z",
+      "lastModified": "2026-05-28T12:39:02Z",
+      "source": "github",
+      "url": "https://github.com/JeromRequillo/KeyTap-Pro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "JeromRequillo",
+      "code": "```cpp\n; ============================================\n; Repository: JeromRequillo/KeyTap-Pro\n; ============================================\n; URL: https://github.com/JeromRequillo/KeyTap-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 5/28/2026\n; License: MIT License\n;\n; Description:\n; KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JeromRequillo/KeyTap-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JeromRequillo/KeyTap-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyTap-Pro>\n\n; Example initialization\nclass KeytapProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyTap-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeytapProExample()\n```"
     }
   ]
 }
