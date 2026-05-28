@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-28T13:15:20.893Z",
-  "totalScripts": 306,
+  "lastUpdated": "2026-05-28T18:53:38.403Z",
+  "totalScripts": 307,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6028,13 +6028,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-23T06:07:49Z",
-      "lastModified": "2026-05-27T16:53:16Z",
+      "lastModified": "2026-05-28T16:22:58Z",
       "source": "github",
       "url": "https://github.com/H-int0/autohotkey-v2-scripts",
       "stars": 0,
       "forks": 0,
       "owner": "H-int0",
-      "code": "```cpp\n; ============================================\n; Repository: H-int0/autohotkey-v2-scripts\n; ============================================\n; URL: https://github.com/H-int0/autohotkey-v2-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 5/27/2026\n; License: MIT License\n;\n; Description:\n; Strap: A modular AutoHotkey v2 (AHK) script bundle for Windows automation and macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/H-int0/autohotkey-v2-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/H-int0/autohotkey-v2-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2-scripts>\n\n; Example initialization\nclass AutohotkeyV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2ScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: H-int0/autohotkey-v2-scripts\n; ============================================\n; URL: https://github.com/H-int0/autohotkey-v2-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 5/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Strap: A modular AutoHotkey v2 (AHK) script bundle for Windows automation and macros.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/H-int0/autohotkey-v2-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/H-int0/autohotkey-v2-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2-scripts>\n\n; Example initialization\nclass AutohotkeyV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2ScriptsExample()\n```"
     },
     {
       "id": "github-1250135500",
@@ -6104,13 +6104,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-22T06:23:39Z",
-      "lastModified": "2026-05-28T12:39:02Z",
+      "lastModified": "2026-05-28T14:34:26Z",
       "source": "github",
       "url": "https://github.com/JeromRequillo/KeyTap-Pro",
       "stars": 0,
       "forks": 0,
       "owner": "JeromRequillo",
       "code": "```cpp\n; ============================================\n; Repository: JeromRequillo/KeyTap-Pro\n; ============================================\n; URL: https://github.com/JeromRequillo/KeyTap-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 5/28/2026\n; License: MIT License\n;\n; Description:\n; KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JeromRequillo/KeyTap-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JeromRequillo/KeyTap-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyTap-Pro>\n\n; Example initialization\nclass KeytapProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyTap-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeytapProExample()\n```"
+    },
+    {
+      "id": "github-1252531815",
+      "title": "Web-Automation-Multi-Service-Bots-AutoHotkey-v2-",
+      "category": "GitHub Repository",
+      "description": "these are the automation bots i built for automation of a website ",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-28T16:02:37Z",
+      "lastModified": "2026-05-28T16:18:01Z",
+      "source": "github",
+      "url": "https://github.com/tanmay328/Web-Automation-Multi-Service-Bots-AutoHotkey-v2-",
+      "stars": 0,
+      "forks": 0,
+      "owner": "tanmay328",
+      "code": "```cpp\n; ============================================\n; Repository: tanmay328/Web-Automation-Multi-Service-Bots-AutoHotkey-v2-\n; ============================================\n; URL: https://github.com/tanmay328/Web-Automation-Multi-Service-Bots-AutoHotkey-v2-\n; Stars: 0 | Forks: 0\n; Last Updated: 5/28/2026\n; License: Not specified\n;\n; Description:\n; these are the automation bots i built for automation of a website \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tanmay328/Web-Automation-Multi-Service-Bots-AutoHotkey-v2-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tanmay328/Web-Automation-Multi-Service-Bots-AutoHotkey-v2-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Web-Automation-Multi-Service-Bots-AutoHotkey-v2->\n\n; Example initialization\nclass WebAutomationMultiServiceBotsAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Web-Automation-Multi-Service-Bots-AutoHotkey-v2- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WebAutomationMultiServiceBotsAutohotkeyV2Example()\n```"
     }
   ]
 }
