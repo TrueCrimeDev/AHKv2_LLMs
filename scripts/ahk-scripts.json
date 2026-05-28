@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-28T00:40:24.781Z",
-  "totalScripts": 303,
+  "lastUpdated": "2026-05-28T07:22:00.779Z",
+  "totalScripts": 305,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -426,13 +426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-11-24T04:52:52Z",
-      "lastModified": "2026-05-20T10:47:03Z",
+      "lastModified": "2026-05-28T03:24:46Z",
       "source": "github",
       "url": "https://github.com/haraldchan/Svaner",
       "stars": 3,
       "forks": 0,
       "owner": "haraldchan",
-      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 3 | Forks: 0\n; Last Updated: 5/20/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 3 | Forks: 0\n; Last Updated: 5/28/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
     },
     {
       "id": "github-266191907",
@@ -6054,6 +6054,44 @@
       "forks": 0,
       "owner": "NathanOtano",
       "code": "```cpp\n; ============================================\n; Repository: NathanOtano/window-peek\n; ============================================\n; URL: https://github.com/NathanOtano/window-peek\n; Stars: 1 | Forks: 0\n; Last Updated: 5/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 shortcut to temporarily peek at the window underneath the active one.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NathanOtano/window-peek.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NathanOtano/window-peek/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-peek>\n\n; Example initialization\nclass WindowPeekExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-peek loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowPeekExample()\n```"
+    },
+    {
+      "id": "github-911411173",
+      "title": "ahk-scripts",
+      "category": "GitHub Repository",
+      "description": "Standalone Windows automation scripts built with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-01-03T00:38:46Z",
+      "lastModified": "2026-05-28T05:46:30Z",
+      "source": "github",
+      "url": "https://github.com/matejkadlec/ahk-scripts",
+      "stars": 1,
+      "forks": 0,
+      "owner": "matejkadlec",
+      "code": "```cpp\n; ============================================\n; Repository: matejkadlec/ahk-scripts\n; ============================================\n; URL: https://github.com/matejkadlec/ahk-scripts\n; Stars: 1 | Forks: 0\n; Last Updated: 5/28/2026\n; License: MIT License\n;\n; Description:\n; Standalone Windows automation scripts built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matejkadlec/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matejkadlec/ahk-scripts/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
+    },
+    {
+      "id": "github-1251846091",
+      "title": "MultiShortcutsPro",
+      "category": "GitHub Repository",
+      "description": "free AutoHotkey v2 productivity tool for Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-28T00:57:10Z",
+      "lastModified": "2026-05-28T01:39:50Z",
+      "source": "github",
+      "url": "https://github.com/GnuKeyLLC/MultiShortcutsPro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "GnuKeyLLC",
+      "code": "```cpp\n; ============================================\n; Repository: GnuKeyLLC/MultiShortcutsPro\n; ============================================\n; URL: https://github.com/GnuKeyLLC/MultiShortcutsPro\n; Stars: 0 | Forks: 0\n; Last Updated: 5/28/2026\n; License: MIT License\n;\n; Description:\n; free AutoHotkey v2 productivity tool for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GnuKeyLLC/MultiShortcutsPro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GnuKeyLLC/MultiShortcutsPro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MultiShortcutsPro>\n\n; Example initialization\nclass MultishortcutsproExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MultiShortcutsPro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MultishortcutsproExample()\n```"
     }
   ]
 }
