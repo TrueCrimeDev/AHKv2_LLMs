@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OOP Inheritance - AHKv2 &amp; LLMs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive visualization of the AutoHotkey v2 / v2.1-alpha object inheritance hierarchy: the Any-rooted type tree, the prototype vs class chains, and Struct inheritance.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+  <script src="highlight-ahk2.js"></script>
+  <style>
+    .viz-layout {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 24px;
+      flex: 1;
+      width: 100%;
+    }
+
+    .viz-hero {
+      padding: 0 0 18px;
+      border-bottom: 1px solid var(--border-muted);
+      margin-bottom: 20px;
+    }
+    .viz-hero h1 {
+      margin: 0 0 6px;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+    .viz-hero p {
+      margin: 0;
+      color: var(--text-secondary);
+      font-size: 14px;
+      max-width: 720px;
+      line-height: 1.6;
+    }
+    .viz-hero .alpha-note {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 11px;
+      font-family: var(--font-mono);
+      color: var(--accent-purple);
+      background: rgba(168, 85, 247, 0.08);
+      border: 1px solid rgba(168, 85, 247, 0.25);
+      border-radius: 4px;
+      padding: 3px 8px;
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin: 36px 0 14px;
+    }
+    .section-label:first-of-type { margin-top: 8px; }
+    .section-label .hint {
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 400;
+      color: var(--text-muted);
+      margin-left: 8px;
+    }
+
+    /* ── Tree explorer ── */
+    .explorer {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 20px;
+      align-items: start;
+    }
+    @media (max-width: 880px) {
+      .explorer { grid-template-columns: 1fr; }
+      .detail-panel { position: static !important; }
+    }
+
+    .tree-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+      overflow-x: auto;
+    }
+
+    .tree-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-muted);
+    }
+    .tree-search {
+      flex: 1;
+      min-width: 140px;
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 13px;
+      padding: 7px 10px;
+    }
+    .tree-search:focus { outline: none; border-color: var(--accent); }
+    .tree-search::placeholder { color: var(--text-muted); }
+    .mini-btn {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      border-radius: var(--radius-sm);
+      font-family: var(--font-sans);
+      font-size: 12px;
+      font-weight: 500;
+      padding: 7px 10px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .mini-btn:hover { color: var(--text-primary); border-color: var(--accent); }
+
+    ul.tree, ul.tree ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    ul.tree ul { padding-left: 20px; }
+    ul.tree li {
+      position: relative;
+      padding-left: 20px;
+    }
+    /* vertical connector */
+    ul.tree ul > li::before {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: 0;
+      bottom: 0;
+      border-left: 1px solid var(--border);
+    }
+    ul.tree ul > li:last-child::before { height: 17px; }
+    /* horizontal elbow */
+    ul.tree ul > li::after {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: 17px;
+      width: 13px;
+      border-top: 1px solid var(--border);
+    }
+
+    .node-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin: 2px 0;
+    }
+    .caret {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-size: 10px;
+      transition: transform 0.15s;
+      user-select: none;
+    }
+    .caret.open { transform: rotate(90deg); }
+    .caret.leaf { visibility: hidden; }
+
+    .node-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: var(--radius-sm);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 13px;
+      padding: 3px 9px;
+      cursor: pointer;
+      transition: all 0.12s;
+      white-space: nowrap;
+    }
+    .node-btn:hover { background: var(--bg-elevated); border-color: var(--border-muted); }
+    .node-btn.selected {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+      color: var(--accent-hover);
+    }
+    .node-btn .badge {
+      font-size: 9px;
+      font-family: var(--font-mono);
+      padding: 1px 5px;
+      border-radius: 3px;
+      margin-left: 7px;
+      vertical-align: middle;
+      letter-spacing: 0.3px;
+    }
+    .badge.alpha { color: var(--accent-purple); background: rgba(168,85,247,0.12); border: 1px solid rgba(168,85,247,0.3); }
+    .badge.abstract { color: var(--accent-blue); background: rgba(91,159,239,0.10); border: 1px solid rgba(91,159,239,0.3); }
+    li.filtered-out { display: none; }
+
+    /* ── Detail panel ── */
+    .detail-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      position: sticky;
+      top: 76px;
+    }
+    .detail-name {
+      font-family: var(--font-mono);
+      font-size: 19px;
+      font-weight: 600;
+      color: var(--accent);
+      margin: 0;
+      word-break: break-word;
+    }
+    .detail-kind {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin: 2px 0 14px;
+    }
+    .detail-extends {
+      font-size: 12px;
+      font-family: var(--font-mono);
+      color: var(--text-secondary);
+      margin: 0 0 14px;
+      padding: 8px 10px;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-muted);
+      border-radius: var(--radius-sm);
+      line-height: 1.7;
+    }
+    .detail-extends .chain-link { color: var(--accent); cursor: pointer; }
+    .detail-extends .chain-link:hover { text-decoration: underline; }
+    .detail-extends .arrow { color: var(--text-muted); margin: 0 4px; }
+    .detail-desc { font-size: 13.5px; color: var(--text-secondary); line-height: 1.6; margin: 0 0 16px; }
+    .detail-members-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin: 16px 0 8px;
+    }
+    .member-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 4px; }
+    .member-list li {
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      padding-left: 14px;
+      position: relative;
+    }
+    .member-list li::before { content: '›'; position: absolute; left: 0; color: var(--accent); }
+    .member-list code {
+      font-family: var(--font-mono);
+      color: var(--text-primary);
+      background: var(--bg-primary);
+      border: 1px solid var(--border-muted);
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-size: 0.92em;
+    }
+    .detail-panel pre {
+      margin: 14px 0 0;
+      font-size: 12.5px;
+    }
+
+    /* ── Chain diagrams ── */
+    .chain-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px 24px;
+    }
+    .chain-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+    @media (max-width: 760px) { .chain-grid { grid-template-columns: 1fr; gap: 22px; } }
+    .chain-col h3 { margin: 0 0 4px; font-size: 15px; font-weight: 600; color: var(--text-primary); }
+    .chain-col .sub { margin: 0 0 16px; font-size: 12.5px; color: var(--text-muted); line-height: 1.5; }
+
+    .chain-flow { display: flex; flex-direction: column; gap: 0; }
+    .chain-step {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .chain-box {
+      flex: 1;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      padding: 9px 12px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: var(--bg-elevated);
+      color: var(--text-primary);
+    }
+    .chain-box .lbl { display: block; font-family: var(--font-sans); font-size: 10.5px; color: var(--text-muted); margin-top: 2px; }
+    .chain-box.origin { border-color: var(--accent); background: var(--accent-dim); color: var(--accent-hover); }
+    .chain-box.proto { border-color: rgba(123,201,111,0.4); }
+    .chain-box.cls { border-color: rgba(91,159,239,0.4); }
+    .chain-box.alpha { border-color: rgba(168,85,247,0.45); }
+    .chain-box.terminal { color: var(--text-muted); border-style: dashed; }
+    .chain-connector {
+      height: 18px;
+      margin-left: 18px;
+      border-left: 2px solid var(--border);
+      position: relative;
+    }
+    .chain-connector::after {
+      content: '.Base';
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      color: var(--text-muted);
+    }
+    .chain-note {
+      margin-top: 16px;
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      padding: 10px 12px;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-muted);
+      border-left: 2px solid var(--accent);
+      border-radius: var(--radius-sm);
+    }
+    .chain-note code { font-family: var(--font-mono); color: var(--text-primary); font-size: 0.92em; }
+
+    .legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; font-size: 12px; color: var(--text-secondary); }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .legend .swatch { width: 11px; height: 11px; border-radius: 3px; border: 1px solid; }
+    .swatch.s-proto { border-color: rgba(123,201,111,0.6); background: rgba(123,201,111,0.12); }
+    .swatch.s-cls { border-color: rgba(91,159,239,0.6); background: rgba(91,159,239,0.12); }
+    .swatch.s-alpha { border-color: rgba(168,85,247,0.6); background: rgba(168,85,247,0.12); }
+    .swatch.s-origin { border-color: var(--accent); background: var(--accent-dim); }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+    @media (max-width: 760px) { .two-col { grid-template-columns: 1fr; } }
+    .two-col pre { margin: 0; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">AHK</span>
+        <span class="logo-text">v2 &amp; LLMs</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#posts" class="nav-link">Posts</a>
+        <a href="wiki.html" class="nav-link">Wiki</a>
+        <a href="inheritance.html" class="nav-link" style="color: var(--accent);">Inheritance</a>
+        <a href="playground.html" class="nav-link">Playground</a>
+        <a href="https://www.autohotkey.com/docs/v2/" target="_blank" class="nav-link">AHK Docs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="viz-layout">
+    <section class="viz-hero">
+      <h1>AHK v2 Object Inheritance</h1>
+      <p>
+        AutoHotkey v2 is prototype-based: every value descends from <code>Any</code>, and
+        inheritance flows through two parallel <code>.Base</code> chains &mdash; one for
+        instances (the <em>prototype</em> chain) and one for classes (for static members).
+        Explore the built-in type hierarchy below, then see how a user-defined
+        <code>extends</code> maps onto both chains.
+      </p>
+      <span class="alpha-note">Includes v2.1-alpha additions: Struct &amp; the parallel .Ptr hierarchy</span>
+    </section>
+
+    <div class="section-label">Built-in type hierarchy
+      <span class="hint">click a type for details &middot; carets expand/collapse</span>
+    </div>
+
+    <div class="explorer">
+      <div class="tree-panel">
+        <div class="tree-toolbar">
+          <input type="text" id="search" class="tree-search" placeholder="Filter types (e.g. Error, Gui, Struct)…" autocomplete="off">
+          <button class="mini-btn" id="expand-all">Expand all</button>
+          <button class="mini-btn" id="collapse-all">Collapse</button>
+        </div>
+        <ul class="tree" id="tree"></ul>
+      </div>
+
+      <aside class="detail-panel" id="detail"><!-- populated by JS --></aside>
+    </div>
+
+    <div class="section-label">The two inheritance chains
+      <span class="hint">how <code style="font-size:11px">class Dog extends Animal</code> resolves members</span>
+    </div>
+
+    <div class="chain-card">
+      <div class="chain-grid">
+        <div class="chain-col">
+          <h3>Prototype chain</h3>
+          <p class="sub">Instance member &amp; method lookup. An instance's <code>.Base</code> is its class's <code>Prototype</code>.</p>
+          <div class="chain-flow">
+            <div class="chain-box origin">rex<span class="lbl">a Dog instance</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box proto">Dog.Prototype<span class="lbl">Speak() → "barks"</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box proto">Animal.Prototype<span class="lbl">__New(), Speak()</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box proto">Object.Prototype<span class="lbl">HasProp, DefineProp…</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box terminal">Any.Prototype<span class="lbl">GetMethod, root</span></div>
+          </div>
+        </div>
+
+        <div class="chain-col">
+          <h3>Class chain</h3>
+          <p class="sub">Static member lookup. A class's <code>.Base</code> is its parent <em>class</em>.</p>
+          <div class="chain-flow">
+            <div class="chain-box origin">Dog<span class="lbl">the class object</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box cls">Animal<span class="lbl">static Kingdom</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box cls">Object<span class="lbl">implicit superclass</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box terminal">Any<span class="lbl">root type</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chain-note">
+        Both chains are linked: <code>rex.Base == Dog.Prototype</code> and
+        <code>Dog.Prototype.Base == Animal.Prototype</code>, while <code>Dog.Base == Animal</code>.
+        Every class object is itself an instance of <code>Class</code>. Verify any link live with
+        <code>Type(x)</code>, <code>x.Base</code>, and the <code>is</code> operator.
+      </div>
+
+      <div class="legend">
+        <span><span class="swatch s-origin"></span> origin object</span>
+        <span><span class="swatch s-proto"></span> prototype object</span>
+        <span><span class="swatch s-cls"></span> class object</span>
+      </div>
+    </div>
+
+    <div class="section-label">Inspect it yourself</div>
+    <div class="two-col">
+      <pre><code class="language-ahk2" id="code-define"></code></pre>
+      <pre><code class="language-ahk2" id="code-inspect"></code></pre>
+    </div>
+
+    <div class="section-label">Alpha: Struct inheritance &amp; the parallel .Ptr chain
+      <span class="hint">v2.1-alpha.22+</span>
+    </div>
+
+    <div class="chain-card">
+      <div class="chain-grid">
+        <div class="chain-col">
+          <h3>Struct value classes</h3>
+          <p class="sub"><code>Struct</code> supports <code>extends</code>; a subclass appends its fields to the parent's layout.</p>
+          <div class="chain-flow">
+            <div class="chain-box alpha">Circle<span class="lbl">+ radius: Float64</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box alpha">Shape<span class="lbl">area: Float64</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box terminal">Object → Any<span class="lbl">root types</span></div>
+          </div>
+        </div>
+        <div class="chain-col">
+          <h3>Auto-generated .Ptr classes</h3>
+          <p class="sub">Each struct gets a <code>.Ptr</code> view class, and the pointer chain mirrors the value chain.</p>
+          <div class="chain-flow">
+            <div class="chain-box alpha">Circle.Ptr<span class="lbl">subclasses Shape.Ptr</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box alpha">Shape.Ptr<span class="lbl">typed pointer view</span></div>
+            <div class="chain-connector"></div>
+            <div class="chain-box terminal">(root)<span class="lbl"></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="chain-note">
+        Because the pointer hierarchy is parallel, a <code>DllCall</code> or function typed to accept
+        <code>Shape.Ptr</code> will also accept a <code>Circle.Ptr</code> &mdash; struct subtyping works
+        across the FFI boundary, not just for AHK-level member lookup.
+      </div>
+      <div class="two-col" style="margin-top:20px;">
+        <pre><code class="language-ahk2" id="code-struct"></code></pre>
+        <pre><code class="language-ahk2" id="code-struct-ptr"></code></pre>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2025 AHKv2 &amp; LLMs</span>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="wiki.html">Wiki</a>
+      <a href="https://github.com/TrueCrimeDev/AHKv2_LLMs" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
+  <script>
+    // ── Type hierarchy data (AHK v2 + v2.1-alpha) ───────────────────────────
+    // kind: 'abstract' = base type you don't instantiate, 'alpha' = v2.1 addition
+    const HIERARCHY = {
+      name: "Any", kind: "abstract",
+      desc: "The root of every value in AHK v2 — objects and primitives alike. Defines the most universal members.",
+      members: ["<code>GetMethod(name)</code>", "<code>HasBase(obj)</code>", "<code>HasMethod(name)</code>", "<code>HasProp(name)</code>"],
+      snippet: '"hello" is Any   ; true\n(42)    is Any   ; true — primitives too',
+      children: [
+        {
+          name: "Object",
+          desc: "Base of all non-primitive values. Provides the prototype machinery: every object stores a Base and named properties.",
+          members: ["<code>Base</code> — the next link in the chain", "<code>DefineProp(name, desc)</code>", "<code>GetOwnPropDesc(name)</code>", "<code>OwnProps()</code>", "<code>Clone()</code>"],
+          snippet: 'o := {x: 1}\no.DefineProp("y", {Get: (this) => 99})\no.Base == Object.Prototype   ; true',
+          children: [
+            { name: "Array", desc: "Ordered, 1-indexed list. Supports negative indexing and a Default for missing elements.",
+              members: ["<code>Length</code>, <code>Capacity</code>", "<code>Push(v*)</code>, <code>Pop()</code>", "<code>InsertAt</code>, <code>RemoveAt</code>", "<code>__Enum()</code> for <code>for</code> loops"],
+              snippet: 'a := [10, 20, 30]\na[-1]        ; 30\na.Push(40)' },
+            { name: "Map", desc: "Key/value dictionary — the correct v2 structure for string-keyed lookups (not object literals).",
+              members: ["<code>CaseSense</code> (for string keys)", "<code>Count</code>", "<code>Has(key)</code>, <code>Get(key, default?)</code>", "<code>Set(k, v)</code>, <code>Delete(key)</code>"],
+              snippet: 'm := Map("a", 1, "b", 2)\nm.CaseSense := false\nm["A"]   ; 1' },
+            { name: "Class", kind: "abstract", desc: "The type of every class object. A class is an Object whose Prototype holds the instance members; its own Base is its parent class.",
+              members: ["<code>Prototype</code> — instance member store", "<code>Call(params*)</code> — construct an instance", "static members live on the class itself"],
+              snippet: 'Type(Array)            ; "Class"\nArray.Prototype.Base   ; Object.Prototype' },
+            { name: "Func", desc: "A callable function object. Closures, bound functions and enumerators specialize it.",
+              members: ["<code>Name</code>, <code>IsBuiltIn</code>", "<code>MinParams</code>, <code>MaxParams</code>, <code>IsVariadic</code>", "<code>Call(params*)</code>", "<code>Bind(params*)</code>"],
+              snippet: 'f := SubStr\nf.MaxParams        ; 3\ng := f.Bind("hello") ; partial application',
+              children: [
+                { name: "BoundFunc", desc: "A function with some parameters pre-filled, produced by Func.Bind() or ObjBindMethod()." },
+                { name: "Closure", desc: "A nested function that captures variables from its enclosing scope." },
+                { name: "Enumerator", desc: "Returned by __Enum(); drives for-loops by yielding successive values." }
+              ] },
+            { name: "Error", desc: "Base class for exceptions. Subclass it to create typed errors you can catch selectively.",
+              members: ["<code>Message</code>, <code>What</code>, <code>Extra</code>", "<code>File</code>, <code>Line</code>", "<code>Stack</code>"],
+              snippet: 'try\n    throw ValueError("bad", -1, val)\ncatch ValueError as e\n    MsgBox(e.Message)',
+              children: [
+                { name: "MemoryError", desc: "Allocation failed (out of memory)." },
+                { name: "OSError", desc: "A Win32 API call failed; carries the system error number." },
+                { name: "TargetError", desc: "A target window, control or other object could not be found." },
+                { name: "TimeoutError", desc: "An operation exceeded its allotted time." },
+                { name: "TypeError", desc: "A value had the wrong type for the operation." },
+                { name: "ValueError", desc: "A value was the right type but otherwise invalid.",
+                  children: [ { name: "IndexError", desc: "An index was out of range." } ] },
+                { name: "ZeroDivisionError", desc: "Division or modulo by zero." },
+                { name: "UnsetError", desc: "An attempt was made to read an unset variable, item or property.",
+                  children: [
+                    { name: "MemberError", desc: "Base for missing member access.",
+                      children: [
+                        { name: "PropertyError", desc: "A property does not exist or is unset." },
+                        { name: "MethodError", desc: "A method does not exist." }
+                      ] },
+                    { name: "UnsetItemError", desc: "An array/map item was unset." }
+                  ] }
+              ] },
+            { name: "Buffer", desc: "A block of raw memory with an address and size — the backing store for binary data and DllCall.",
+              members: ["<code>Ptr</code> — memory address", "<code>Size</code>", "<code>__New(size, fill?)</code>"],
+              snippet: 'b := Buffer(16, 0)\nNumPut("Int", 42, b, 0)',
+              children: [ { name: "ClipboardAll", desc: "Captures the clipboard in all formats as a Buffer." } ] },
+            { name: "Gui", desc: "A window you build from controls. Each control is a nested Gui.Control subclass.",
+              members: ["<code>Add(type, opts, text)</code>", "<code>Show()</code>, <code>Hide()</code>", "<code>OnEvent(name, cb)</code>", "<code>__New(opts, title, eventObj?)</code>"],
+              snippet: 'g := Gui("+Resize", "Demo")\ng.Add("Button", , "OK").OnEvent("Click", (*) => g.Hide())\ng.Show()',
+              children: [ { name: "Gui.Control", kind: "abstract", desc: "Base for every control type — Button, Edit, ListView, etc. — each a nested class under Gui." } ] },
+            { name: "Menu", desc: "A popup or menu-bar menu.",
+              children: [ { name: "MenuBar", desc: "A menu attached to the top of a Gui window." } ] },
+            { name: "InputHook", desc: "Collects keyboard input in the background for hotstring-like processing." },
+            { name: "File", desc: "An open file handle from FileOpen(), with read/write/seek methods." },
+            { name: "RegExMatchInfo", desc: "The match object returned by RegExMatch(); indexes captured subpatterns." },
+            { name: "VarRef", desc: "A reference to a variable, created with the & operator and read/written via %deref%." },
+            { name: "ComValue", desc: "Wraps a COM value or object for interop.",
+              children: [
+                { name: "ComObject", desc: "A COM object instance." },
+                { name: "ComObjArray", desc: "A COM SAFEARRAY." },
+                { name: "ComValueRef", desc: "A by-reference COM value." }
+              ] },
+            { name: "Struct", kind: "alpha", desc: "v2.1-alpha: a class with a fixed C-style memory layout declared via typed fields. Supports extends; a subclass appends fields. Each Struct also gets an auto-generated .Ptr view class whose hierarchy parallels the value classes.",
+              members: ["<code>Ptr</code>, <code>Size</code>", "typed fields: <code>u8, i32, Float64, …</code>", "<code>StructClass[N]()</code> typed arrays", "<code>DefineProp(.., {Offset})</code> for unions"],
+              snippet: 'Struct Shape { area: Float64 }\nStruct Circle extends Shape { radius: Float64 }\nci := Circle()\nci.radius := 5.0' }
+          ]
+        },
+        {
+          name: "Primitive", kind: "abstract",
+          desc: "Base of the immutable scalar values. Primitives are not Objects but still descend from Any.",
+          members: ["values are immutable", "no DefineProp / properties of their own"],
+          snippet: '(3.14) is Primitive   ; true\n"x"   is Primitive    ; true',
+          children: [
+            { name: "Number", kind: "abstract", desc: "Numeric primitives — the common base of Integer and Float.",
+              members: ["arithmetic & comparison operators", "auto-coerces with strings where valid"],
+              snippet: '(42) is Number   ; true',
+              children: [
+                { name: "Integer", desc: "A 64-bit signed integer. Hex literals (0x..) produce Integers.",
+                  snippet: 'Type(0xFF)   ; "Integer"' },
+                { name: "Float", desc: "A 64-bit IEEE-754 double. Any literal with a decimal point is a Float.",
+                  snippet: 'Type(3.0)    ; "Float"' }
+              ] },
+            { name: "String", desc: "An immutable sequence of characters. The default type for quoted literals and most input.",
+              members: ["1-indexed via <code>SubStr</code>", "<code>StrLen</code>, <code>InStr</code>, <code>StrSplit</code>"],
+              snippet: 'Type("hi")   ; "String"' }
+          ]
+        }
+      ]
+    };
+
+    // ── Render the tree ─────────────────────────────────────────────────────
+    const nodeIndex = new Map();   // name -> data node
+    let selectedBtn = null;
+
+    function badge(kind) {
+      if (kind === "alpha") return ' <span class="badge alpha">alpha</span>';
+      if (kind === "abstract") return ' <span class="badge abstract">base</span>';
+      return "";
+    }
+
+    function buildNode(node) {
+      nodeIndex.set(node.name, node);
+      const li = document.createElement("li");
+      const row = document.createElement("div");
+      row.className = "node-row";
+
+      const caret = document.createElement("span");
+      const hasChildren = node.children && node.children.length;
+      caret.className = "caret" + (hasChildren ? " open" : " leaf");
+      caret.textContent = "▶";
+      row.appendChild(caret);
+
+      const btn = document.createElement("button");
+      btn.className = "node-btn";
+      btn.dataset.name = node.name;
+      btn.innerHTML = node.name + badge(node.kind);
+      btn.addEventListener("click", () => selectNode(node.name));
+      row.appendChild(btn);
+      li.appendChild(row);
+
+      if (hasChildren) {
+        const ul = document.createElement("ul");
+        node.children.forEach(child => ul.appendChild(buildNode(child)));
+        li.appendChild(ul);
+        caret.addEventListener("click", () => {
+          const open = caret.classList.toggle("open");
+          ul.style.display = open ? "" : "none";
+        });
+      }
+      return li;
+    }
+
+    function selectNode(name) {
+      const node = nodeIndex.get(name);
+      if (!node) return;
+      if (selectedBtn) selectedBtn.classList.remove("selected");
+      const btn = document.querySelector('.node-btn[data-name="' + cssEscape(name) + '"]');
+      if (btn) { btn.classList.add("selected"); selectedBtn = btn; }
+      renderDetail(node);
+    }
+
+    function cssEscape(s) { return s.replace(/[^a-zA-Z0-9_-]/g, m => "\\" + m); }
+
+    function parentChain(name) {
+      // walk down from root to find ancestors of name
+      const path = [];
+      (function find(node, trail) {
+        const next = trail.concat(node.name);
+        if (node.name === name) { path.push(...next); return true; }
+        if (node.children) for (const c of node.children) if (find(c, next)) return true;
+        return false;
+      })(HIERARCHY, []);
+      return path; // [Any, ..., name]
+    }
+
+    function renderDetail(node) {
+      const kindLabel = node.kind === "alpha" ? "v2.1-alpha type"
+        : node.kind === "abstract" ? "Abstract base type" : "Built-in class";
+
+      const chain = parentChain(node.name);
+      const chainHtml = chain.map((n, i) =>
+        (i ? '<span class="arrow">▸</span>' : '') +
+        (n === node.name ? '<span style="color:var(--text-primary)">' + n + '</span>'
+                         : '<span class="chain-link" data-jump="' + n + '">' + n + '</span>')
+      ).join('');
+
+      let html = '<p class="detail-name">' + node.name + '</p>';
+      html += '<div class="detail-kind">' + kindLabel + '</div>';
+      html += '<div class="detail-extends">' + chainHtml + '</div>';
+      html += '<p class="detail-desc">' + node.desc + '</p>';
+
+      if (node.members && node.members.length) {
+        html += '<div class="detail-members-title">Key members</div>';
+        html += '<ul class="member-list">' + node.members.map(m => '<li>' + m + '</li>').join('') + '</ul>';
+      }
+      if (node.snippet) {
+        html += '<div class="detail-members-title">Example</div>';
+        html += '<pre><code class="language-ahk2"></code></pre>';
+      }
+
+      const panel = document.getElementById("detail");
+      panel.innerHTML = html;
+      if (node.snippet) {
+        const codeEl = panel.querySelector("pre code");
+        codeEl.textContent = node.snippet;
+        if (window.hljs) hljs.highlightElement(codeEl);
+      }
+      panel.querySelectorAll(".chain-link").forEach(el =>
+        el.addEventListener("click", () => selectNode(el.dataset.jump)));
+    }
+
+    // ── Search / filter ──────────────────────────────────────────────────────
+    function applyFilter(q) {
+      q = q.trim().toLowerCase();
+      const tree = document.getElementById("tree");
+      tree.querySelectorAll("li").forEach(li => li.classList.remove("filtered-out"));
+      if (!q) return;
+      tree.querySelectorAll("li").forEach(li => {
+        const btn = li.querySelector(":scope > .node-row .node-btn");
+        const name = btn ? btn.dataset.name.toLowerCase() : "";
+        const selfMatch = name.includes(q);
+        // show li if itself matches or any descendant matches
+        const anyDescMatch = Array.from(li.querySelectorAll(".node-btn"))
+          .some(b => b.dataset.name.toLowerCase().includes(q));
+        if (!selfMatch && !anyDescMatch) li.classList.add("filtered-out");
+        // ensure ancestors of a match stay expanded
+        if (anyDescMatch || selfMatch) {
+          const childUl = li.querySelector(":scope > ul");
+          const caret = li.querySelector(":scope > .node-row .caret");
+          if (childUl) { childUl.style.display = ""; if (caret) caret.classList.add("open"); }
+        }
+      });
+    }
+
+    function setAllExpanded(open) {
+      document.querySelectorAll("#tree ul").forEach(ul => ul.style.display = open ? "" : "none");
+      document.querySelectorAll("#tree .caret:not(.leaf)").forEach(c => c.classList.toggle("open", open));
+    }
+
+    // ── Static code samples ──────────────────────────────────────────────────
+    const CODE = {
+      define:
+`; A two-level class hierarchy
+class Animal {
+    static Kingdom := "Animalia"   ; static member
+    __New(name) => this.name := name
+    Speak() => this.name " makes a sound"
+}
+
+class Dog extends Animal {
+    Speak() => this.name " barks"  ; override
+}
+
+rex := Dog("Rex")
+MsgBox(rex.Speak())                ; "Rex barks"
+MsgBox(Dog.Kingdom)                ; inherited static -> "Animalia"`,
+      inspect:
+`; Inspecting the live chains
+Type(rex)                       ; "Dog"
+rex is Animal                   ; true  (the 'is' operator)
+
+; prototype chain (instances)
+rex.Base == Dog.Prototype             ; true
+Dog.Prototype.Base == Animal.Prototype ; true
+Animal.Prototype.Base == Object.Prototype ; true
+
+; class chain (statics)
+Dog.Base == Animal              ; true
+rex.HasBase(Animal.Prototype)   ; true`,
+      struct:
+`#Requires AutoHotkey v2.1-alpha.22
+
+Struct Shape {
+    area: Float64
+}
+
+Struct Circle extends Shape {     ; appends to Shape's layout
+    radius: Float64
+}
+
+ci := Circle()
+ci.radius := 5.0
+ci.area := 3.14159 * ci.radius ** 2
+ci.Size                           ; 16 bytes (both fields)`,
+      structPtr:
+`; The .Ptr hierarchy is auto-generated in parallel
+ptrShape := Shape.Ptr             ; pointer view class
+ptrCircle := Circle.Ptr
+
+; Circle.Ptr subclasses Shape.Ptr, so a function
+; typed for Shape.Ptr also accepts Circle.Ptr:
+Describe(s) {                     ; s typed as Shape.Ptr
+    return "area = " s.area
+}
+
+c := Circle()
+c.area := 9.0
+Describe(c.Ptr)                   ; works — Circle.Ptr <: Shape.Ptr`
+    };
+
+    function fillCode(id, key) {
+      const el = document.getElementById(id);
+      el.textContent = CODE[key];
+      if (window.hljs) hljs.highlightElement(el);
+    }
+
+    // ── Init ─────────────────────────────────────────────────────────────────
+    document.addEventListener("DOMContentLoaded", () => {
+      const tree = document.getElementById("tree");
+      tree.appendChild(buildNode(HIERARCHY));
+      selectNode("Any");
+
+      document.getElementById("search").addEventListener("input", e => applyFilter(e.target.value));
+      document.getElementById("expand-all").addEventListener("click", () => setAllExpanded(true));
+      document.getElementById("collapse-all").addEventListener("click", () => setAllExpanded(false));
+
+      fillCode("code-define", "define");
+      fillCode("code-inspect", "inspect");
+      fillCode("code-struct", "struct");
+      fillCode("code-struct-ptr", "structPtr");
+    });
+  </script>
+</body>
+</html>
