@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-28T18:53:38.403Z",
+  "lastUpdated": "2026-05-29T00:46:48.677Z",
   "totalScripts": 307,
   "categories": [
     "GUI",
@@ -5769,13 +5769,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-05-27T10:16:42Z",
+      "lastModified": "2026-05-28T22:41:53Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 1,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 5/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 5/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -6028,7 +6028,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-23T06:07:49Z",
-      "lastModified": "2026-05-28T16:22:58Z",
+      "lastModified": "2026-05-28T18:56:01Z",
       "source": "github",
       "url": "https://github.com/H-int0/autohotkey-v2-scripts",
       "stars": 0,
@@ -6114,7 +6114,7 @@
     },
     {
       "id": "github-1252531815",
-      "title": "Web-Automation-Multi-Service-Bots-AutoHotkey-v2-",
+      "title": "Web_Automation_Bots_AHK_AutoHotKey_v2",
       "category": "GitHub Repository",
       "description": "these are the automation bots i built for automation of a website ",
       "tags": [
@@ -6123,13 +6123,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-28T16:02:37Z",
-      "lastModified": "2026-05-28T16:18:01Z",
+      "lastModified": "2026-05-28T21:49:18Z",
       "source": "github",
-      "url": "https://github.com/tanmay328/Web-Automation-Multi-Service-Bots-AutoHotkey-v2-",
+      "url": "https://github.com/tanmay328/Web_Automation_Bots_AHK_AutoHotKey_v2",
       "stars": 0,
       "forks": 0,
       "owner": "tanmay328",
-      "code": "```cpp\n; ============================================\n; Repository: tanmay328/Web-Automation-Multi-Service-Bots-AutoHotkey-v2-\n; ============================================\n; URL: https://github.com/tanmay328/Web-Automation-Multi-Service-Bots-AutoHotkey-v2-\n; Stars: 0 | Forks: 0\n; Last Updated: 5/28/2026\n; License: Not specified\n;\n; Description:\n; these are the automation bots i built for automation of a website \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tanmay328/Web-Automation-Multi-Service-Bots-AutoHotkey-v2-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tanmay328/Web-Automation-Multi-Service-Bots-AutoHotkey-v2-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Web-Automation-Multi-Service-Bots-AutoHotkey-v2->\n\n; Example initialization\nclass WebAutomationMultiServiceBotsAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Web-Automation-Multi-Service-Bots-AutoHotkey-v2- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WebAutomationMultiServiceBotsAutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tanmay328/Web_Automation_Bots_AHK_AutoHotKey_v2\n; ============================================\n; URL: https://github.com/tanmay328/Web_Automation_Bots_AHK_AutoHotKey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 5/28/2026\n; License: Not specified\n;\n; Description:\n; these are the automation bots i built for automation of a website \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tanmay328/Web_Automation_Bots_AHK_AutoHotKey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tanmay328/Web_Automation_Bots_AHK_AutoHotKey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Web_Automation_Bots_AHK_AutoHotKey_v2>\n\n; Example initialization\nclass WebAutomationBotsAhkAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Web_Automation_Bots_AHK_AutoHotKey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WebAutomationBotsAhkAutohotkeyV2Example()\n```"
     }
   ]
 }
