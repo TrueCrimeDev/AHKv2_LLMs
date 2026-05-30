@@ -56,8 +56,8 @@ hwnd_active := WinExist("A")
 ; DllCall("SomeFunc", POINT[3])  ; TypeError in alpha.25
 
 Struct POINT {
-    x: i32
-    y: i32
+    x: Int32
+    y: Int32
 }
 
 ; STRUCT.PTR.__VALUE -- consolidated to base class

@@ -55,7 +55,7 @@ The classic use case is a discriminated union like COM's `VARIANT`:
 
 ```ahk2
 Struct Variant {
-    vtype: u16
+    vtype: UInt16
 }
 
 ; All three value fields overlap at byte offset 8
@@ -79,7 +79,7 @@ A practical example -- access a 32-bit color value both as a whole and as indivi
 
 ```ahk2
 Struct Color {
-    rgba: u32
+    rgba: UInt32
 }
 DefineProp(Color.Prototype, "r", {Type: UInt8, Offset: 0})
 DefineProp(Color.Prototype, "g", {Type: UInt8, Offset: 1})
@@ -99,8 +99,8 @@ You can reference another field's position by name:
 
 ```ahk2
 Struct Register {
-    lo: u16
-    hi: u16
+    lo: UInt16
+    hi: UInt16
 }
 DefineProp(Register.Prototype, "full", {Type: UInt32, Offset: "lo"})
 

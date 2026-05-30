@@ -8,8 +8,8 @@ The `Struct` keyword creates classes with defined memory layouts. Fields use typ
 
 ```ahk2
 Struct POINT {
-    x: i32
-    y: i32
+    x: Int32
+    y: Int32
 }
 
 pt := POINT()
@@ -37,19 +37,19 @@ Structs can embed other structs, and the memory layout is computed correctly:
 
 ```ahk2
 Struct NMHDR {
-    hwndFrom: uptr
-    idFrom: uptr
-    code: i32
+    hwndFrom: UPtr
+    idFrom: UPtr
+    code: Int32
 }
 
 Struct NMCUSTOMDRAW {
     hdr: NMHDR
-    dwDrawStage: u32
-    hdc: uptr
+    dwDrawStage: UInt32
+    hdc: UPtr
     rc: RECT
-    dwItemSpec: uptr
-    uItemState: u32
-    lItemlParam: iptr
+    dwItemSpec: UPtr
+    uItemState: UInt32
+    lItemlParam: Ptr
 }
 
 ncd := NMCUSTOMDRAW()
@@ -144,15 +144,15 @@ The real power of the `Struct` keyword shows in Win32 API calls. Define once, us
 
 ```ahk2
 Struct MEMORYSTATUSEX {
-    dwLength: u32
-    dwMemoryLoad: u32
-    ullTotalPhys: u64
-    ullAvailPhys: u64
-    ullTotalPageFile: u64
-    ullAvailPageFile: u64
-    ullTotalVirtual: u64
-    ullAvailVirtual: u64
-    ullAvailExtendedVirtual: u64
+    dwLength: UInt32
+    dwMemoryLoad: UInt32
+    ullTotalPhys: UInt64
+    ullAvailPhys: UInt64
+    ullTotalPageFile: UInt64
+    ullAvailPageFile: UInt64
+    ullTotalVirtual: UInt64
+    ullAvailVirtual: UInt64
+    ullAvailExtendedVirtual: UInt64
 }
 
 ms := MEMORYSTATUSEX()

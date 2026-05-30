@@ -28,9 +28,9 @@ isNopeSet := IsSet(nope)
 ; even after smaller fields. Fixed padding.
 
 Struct AlignedRecord {
-    id: u8
+    id: UInt8
     values: Float64[3]
-    flags: u32
+    flags: UInt32
 }
 
 rec := AlignedRecord()
@@ -56,8 +56,8 @@ expectedSize := 4 * 16
 ; STRUCTCLASS.PTR -- no longer seals the struct
 
 Struct Header {
-    magic: u32
-    version: u16
+    magic: UInt32
+    version: UInt16
 }
 
 ptrType := Header.Ptr  ; used to seal the struct -- now safe
@@ -71,14 +71,14 @@ h.version := 26
 ; Unset struct param auto-creates StructType() for output
 
 Struct SYSTEMTIME {
-    wYear: u16
-    wMonth: u16
-    wDayOfWeek: u16
-    wDay: u16
-    wHour: u16
-    wMinute: u16
-    wSecond: u16
-    wMilliseconds: u16
+    wYear: UInt16
+    wMonth: UInt16
+    wDayOfWeek: UInt16
+    wDay: UInt16
+    wHour: UInt16
+    wMinute: UInt16
+    wSecond: UInt16
+    wMilliseconds: UInt16
 }
 
 st := SYSTEMTIME()

@@ -12,7 +12,7 @@ Union a `Float64` with a `UInt64` to read the raw sign, exponent, and mantissa b
 
 ```ahk2
 Struct F64Bits {
-    raw: u64
+    raw: UInt64
 }
 DefineProp(F64Bits.Prototype, "f", {Type: Float64, Offset: 0})
 
@@ -33,7 +33,7 @@ Pack an IP address as a single `u32` for network calls, but read/write individua
 
 ```ahk2
 Struct IPv4 {
-    addr: u32
+    addr: UInt32
 }
 DefineProp(IPv4.Prototype, "a", {Type: UInt8, Offset: 0})
 DefineProp(IPv4.Prototype, "b", {Type: UInt8, Offset: 1})
@@ -55,7 +55,7 @@ Turn a raw `u32` bitfield into named boolean properties with a generic helper:
 
 ```ahk2
 Struct Perms {
-    bits: u32
+    bits: UInt32
 }
 
 BitFlag(proto, name, bit) {
@@ -86,7 +86,7 @@ A color struct with union byte access plus callable methods for hex formatting a
 
 ```ahk2
 Struct RGBA {
-    packed: u32
+    packed: UInt32
 }
 DefineProp(RGBA.Prototype, "r", {Type: UInt8, Offset: 0})
 DefineProp(RGBA.Prototype, "g", {Type: UInt8, Offset: 1})
@@ -126,8 +126,8 @@ A 2D vector struct with add, scale, dot product, length, normalize, and string c
 
 ```ahk2
 Struct Vec2 {
-    x: f32
-    y: f32
+    x: Float32
+    y: Float32
 }
 
 V(x, y) {
@@ -267,8 +267,8 @@ A fixed-size circular buffer backed by a `Float64[8]` array inside a struct:
 ```ahk2
 Struct Ring {
     data: Float64[8]
-    head: u32
-    count: u32
+    head: UInt32
+    count: UInt32
 }
 
 DefineProp(Ring.Prototype, "Push", {Call: (this, v) {
@@ -301,10 +301,10 @@ Pre-allocate a single buffer and stamp out zero-copy struct views with `Struct.A
 
 ```ahk2
 Struct Particle {
-    x: f32
-    y: f32
-    vx: f32
-    vy: f32
+    x: Float32
+    y: Float32
+    vx: Float32
+    vy: Float32
 }
 
 arena := Buffer(Particle().Size * 1000)
@@ -358,7 +358,7 @@ MakeType(name, fields) {
     return cls
 }
 
-Pixel := MakeType("Pixel", ["r:u8", "g:u8", "b:u8", "a:u8"])
+Pixel := MakeType("Pixel", ["r:UInt8", "g:UInt8", "b:UInt8", "a:UInt8"])
 px := (Object.Call)(Pixel)
 px.r := 255, px.g := 128, px.b := 0, px.a := 255
 ; px.r => 255, px.g => 128

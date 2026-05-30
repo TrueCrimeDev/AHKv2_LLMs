@@ -48,9 +48,9 @@ Alpha.25 had alignment bugs when arrays were embedded inside structs. Alpha.26 c
 
 ```ahk2
 Struct AlignedRecord {
-    id: u8              ; 1 byte
+    id: UInt8              ; 1 byte
     values: Float64[3]  ; 8-byte aligned, even after 1-byte id
-    flags: u32
+    flags: UInt32
 }
 ```
 
@@ -73,8 +73,8 @@ Previously, accessing `StructClass.Ptr` on a struct class would "seal" the struc
 
 ```ahk2
 Struct Header {
-    magic: u32
-    version: u16
+    magic: UInt32
+    version: UInt16
 }
 
 ; This used to seal the struct:
@@ -92,14 +92,14 @@ When you pass `unset` for a struct parameter in `DllCall`, alpha.26 now creates 
 
 ```ahk2
 Struct SYSTEMTIME {
-    wYear: u16
-    wMonth: u16
-    wDayOfWeek: u16
-    wDay: u16
-    wHour: u16
-    wMinute: u16
-    wSecond: u16
-    wMilliseconds: u16
+    wYear: UInt16
+    wMonth: UInt16
+    wDayOfWeek: UInt16
+    wDay: UInt16
+    wHour: UInt16
+    wMinute: UInt16
+    wSecond: UInt16
+    wMilliseconds: UInt16
 }
 
 ; DllCall creates a SYSTEMTIME() for output
