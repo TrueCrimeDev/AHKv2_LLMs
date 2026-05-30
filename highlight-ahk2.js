@@ -3,34 +3,24 @@
 
 hljs.registerLanguage('ahk2', function(hljs) {
 
-  // Struct/class name after keyword -- matched separately so { stays white
+  // Struct/class declarations -- keyword + the type name highlighted as a
+  // class title (teal). Uses the begin-array form so the captured name gets
+  // its own scope; a plain `match` mode is terminal and would drop `contains`.
   var STRUCT_DEF = {
-    match: /\bStruct\s+[A-Z]\w*/,
-    className: 'keyword',
-    contains: [
-      { match: /\bStruct\b/, className: 'keyword' },
-      { match: /[A-Z]\w*/, className: 'title.class' }
-    ],
+    begin: [/\bStruct\b/, /\s+/, /[A-Za-z_]\w*/],
+    beginScope: { 1: 'keyword', 3: 'title.class' },
     relevance: 10
   };
 
   var CLASS_DEF = {
-    match: /\bclass\s+[A-Z]\w*/,
-    className: 'keyword',
-    contains: [
-      { match: /\bclass\b/, className: 'keyword' },
-      { match: /[A-Z]\w*/, className: 'title.class' }
-    ]
+    begin: [/\bclass\b/, /\s+/, /[A-Za-z_]\w*/],
+    beginScope: { 1: 'keyword', 3: 'title.class' }
   };
 
-  // extends keyword + class name
+  // extends keyword + parent class name
   var EXTENDS_DEF = {
-    match: /\bextends\s+[A-Z]\w*/,
-    className: 'keyword',
-    contains: [
-      { match: /\bextends\b/, className: 'keyword' },
-      { match: /[A-Z]\w*/, className: 'title.class' }
-    ]
+    begin: [/\bextends\b/, /\s+/, /[A-Za-z_]\w*/],
+    beginScope: { 1: 'keyword', 3: 'title.class' }
   };
 
   // Built-in functions that use parentheses
