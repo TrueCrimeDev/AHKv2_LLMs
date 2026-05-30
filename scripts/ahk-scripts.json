@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-30T12:26:46.784Z",
-  "totalScripts": 308,
+  "lastUpdated": "2026-05-30T18:24:37.172Z",
+  "totalScripts": 310,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-05-27T19:19:24Z",
+      "lastModified": "2026-05-30T17:07:30Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 45,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 45 | Forks: 8\n; Last Updated: 5/27/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 45 | Forks: 8\n; Last Updated: 5/30/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -5769,13 +5769,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-05-28T22:41:53Z",
+      "lastModified": "2026-05-30T16:22:51Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 1,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 5/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 5/30/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -6149,6 +6149,48 @@
       "forks": 0,
       "owner": "seanwisk",
       "code": "```cpp\n; ============================================\n; Repository: seanwisk/ahk-nav-fix\n; ============================================\n; URL: https://github.com/seanwisk/ahk-nav-fix\n; Stars: 0 | Forks: 0\n; Last Updated: 5/30/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 arrow keys and extras for compact keyboards (Alt+ijkl)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/seanwisk/ahk-nav-fix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/seanwisk/ahk-nav-fix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-nav-fix>\n\n; Example initialization\nclass AhkNavFixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-nav-fix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkNavFixExample()\n```"
+    },
+    {
+      "id": "github-1254478644",
+      "title": "stdlib-ahk",
+      "category": "GitHub Repository",
+      "description": "Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-30T16:05:52Z",
+      "lastModified": "2026-05-30T16:48:38Z",
+      "source": "github",
+      "url": "https://github.com/MonoEven/stdlib-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "MonoEven",
+      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/30/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
+    },
+    {
+      "id": "github-608904813",
+      "title": "Capslock2",
+      "category": "GitHub Repository",
+      "description": "Utilizing Capslock by Autohotkey v2",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey2",
+        "autohotkeyv2",
+        "capslock"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2023-03-03T01:01:32Z",
+      "lastModified": "2026-05-30T14:00:18Z",
+      "source": "github",
+      "url": "https://github.com/matrix1001/Capslock2",
+      "stars": 9,
+      "forks": 1,
+      "owner": "matrix1001",
+      "code": "```cpp\n; ============================================\n; Repository: matrix1001/Capslock2\n; ============================================\n; URL: https://github.com/matrix1001/Capslock2\n; Stars: 9 | Forks: 1\n; Last Updated: 5/30/2026\n; License: Other\n;\n; Description:\n; Utilizing Capslock by Autohotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matrix1001/Capslock2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matrix1001/Capslock2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Capslock2>\n\n; Example initialization\nclass Capslock2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Capslock2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Capslock2Example()\n```"
     }
   ]
 }
