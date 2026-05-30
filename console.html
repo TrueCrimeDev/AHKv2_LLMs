@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AHK v2 Console Edition - AHKv2 &amp; LLMs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AutoHotkey v2.1 +Console: a fork that gives AHK real stdout/stderr, exit codes, headless mode, and machine-readable JSON diagnostics so scripts run headless in terminals, CI, and AI tooling.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+  <script src="highlight-ahk2.js"></script>
+  <style>
+    .con-layout {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 24px;
+      display: grid;
+      grid-template-columns: 210px 1fr;
+      gap: 28px;
+      align-items: start;
+      flex: 1;
+      width: 100%;
+    }
+    @media (max-width: 860px) {
+      .con-layout { grid-template-columns: 1fr; padding: 16px; }
+      .con-toc { display: none; }
+    }
+
+    /* TOC */
+    .con-toc { position: sticky; top: 76px; max-height: calc(100vh - 96px); overflow-y: auto; padding: 16px 0; }
+    .con-toc::-webkit-scrollbar { width: 3px; }
+    .con-toc::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+    .toc-title { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.2px; color: var(--text-muted); margin: 0 0 12px; padding: 0 12px; }
+    .toc-list { list-style: none; padding: 0; margin: 0; }
+    .toc-list li a { display: block; padding: 5px 12px; font-size: 13px; color: var(--text-secondary); border-left: 2px solid transparent; transition: all 0.15s; line-height: 1.4; }
+    .toc-list li a:hover { color: var(--text-primary); border-left-color: var(--border); background: rgba(255,255,255,0.02); }
+    .toc-list li a.active { color: var(--accent); border-left-color: var(--accent); }
+
+    .con-content { min-width: 0; }
+
+    /* Hero */
+    .con-hero {
+      background: linear-gradient(180deg, var(--bg-card), var(--bg-secondary));
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 30px 32px;
+      margin-bottom: 28px;
+    }
+    .con-badge {
+      display: inline-flex; align-items: center; gap: 7px;
+      font-family: var(--font-mono); font-size: 11px; font-weight: 500;
+      color: var(--accent-green);
+      background: rgba(123,201,111,0.08);
+      border: 1px solid rgba(123,201,111,0.3);
+      border-radius: 5px; padding: 4px 10px; margin-bottom: 16px;
+    }
+    .con-badge .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent-green); }
+    .con-hero h1 { margin: 0 0 12px; font-size: 30px; font-weight: 700; letter-spacing: -0.5px; line-height: 1.15; }
+    .con-hero h1 .plus { color: var(--accent); }
+    .con-onesentence { margin: 0 0 20px; font-size: 16px; line-height: 1.6; color: var(--text-secondary); max-width: 720px; }
+    .con-onesentence strong { color: var(--text-primary); font-weight: 600; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      font-size: 13px; font-weight: 600; padding: 9px 16px; border-radius: var(--radius-sm);
+      transition: all 0.15s; border: 1px solid transparent;
+    }
+    .btn-primary { background: var(--accent); color: #1a1207; }
+    .btn-primary:hover { background: var(--accent-hover); color: #1a1207; }
+    .btn-ghost { background: var(--bg-elevated); border-color: var(--border); color: var(--text-primary); }
+    .btn-ghost:hover { border-color: var(--accent); color: var(--text-primary); }
+
+    /* Section headings */
+    .con-content h2 {
+      font-size: 21px; font-weight: 700; margin: 40px 0 14px;
+      padding-bottom: 8px; border-bottom: 1px solid var(--border-muted);
+      scroll-margin-top: 76px;
+    }
+    .con-content h2:first-of-type { margin-top: 8px; }
+    .con-content h3 { font-size: 16px; font-weight: 600; margin: 24px 0 8px; color: var(--text-primary); scroll-margin-top: 76px; }
+    .con-content p { color: var(--text-secondary); line-height: 1.75; margin: 0 0 1em; font-size: 15px; }
+    .con-content p strong, .con-content li strong { color: var(--text-primary); font-weight: 600; }
+    .con-content > ul { margin: 0 0 1em 0; padding: 0; list-style: none; }
+    .con-content > ul > li {
+      position: relative; padding: 8px 0 8px 22px; color: var(--text-secondary);
+      line-height: 1.6; font-size: 14.5px; border-bottom: 1px solid var(--border-muted);
+    }
+    .con-content > ul > li:last-child { border-bottom: none; }
+    .con-content > ul > li::before { content: '▸'; position: absolute; left: 2px; top: 8px; color: var(--accent); }
+    .con-content code {
+      font-family: var(--font-mono); font-size: 0.86em; color: #e0e0e0;
+      background: #252525; border: 1px solid var(--border); padding: 2px 6px; border-radius: 4px;
+    }
+
+    .pitch {
+      background: var(--bg-card); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+      border-radius: var(--radius-sm); padding: 18px 22px; margin: 0 0 8px;
+    }
+    .pitch p { margin: 0; font-size: 15px; color: var(--text-secondary); line-height: 1.75; }
+
+    /* Comparison table */
+    .cmp { width: 100%; border-collapse: collapse; margin: 14px 0 4px; font-size: 14px; }
+    .cmp th, .cmp td { text-align: left; padding: 12px 14px; border: 1px solid var(--border-muted); vertical-align: top; }
+    .cmp thead th { background: var(--bg-elevated); font-weight: 600; font-size: 13px; }
+    .cmp thead th.col-stock { color: var(--text-secondary); }
+    .cmp thead th.col-fork { color: var(--accent); }
+    .cmp tbody th { background: var(--bg-secondary); font-weight: 600; color: var(--text-primary); white-space: nowrap; width: 110px; }
+    .cmp td.stock { color: var(--text-muted); }
+    .cmp td.fork { color: var(--text-primary); }
+    .cmp td code { font-size: 0.85em; }
+
+    /* Exit code chips */
+    .codes { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; margin: 14px 0; }
+    .code-chip { background: var(--bg-card); border: 1px solid var(--border-muted); border-radius: var(--radius-sm); padding: 12px 14px; }
+    .code-chip .num { font-family: var(--font-mono); font-size: 22px; font-weight: 700; line-height: 1; }
+    .code-chip .lbl { display: block; margin-top: 6px; font-size: 12px; color: var(--text-secondary); }
+    .code-chip.ok .num { color: var(--accent-green); }
+    .code-chip.err .num { color: var(--accent-red); }
+    .code-chip.warn .num { color: var(--accent); }
+
+    /* Feature grid */
+    .feat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin: 16px 0; }
+    .feat {
+      background: var(--bg-card); border: 1px solid var(--border-muted); border-radius: var(--radius-sm);
+      padding: 16px 18px; transition: border-color 0.15s;
+    }
+    .feat:hover { border-color: var(--border); }
+    .feat h4 { margin: 0 0 6px; font-size: 14px; font-weight: 600; color: var(--text-primary); }
+    .feat h4 code { font-family: var(--font-mono); font-size: 0.85em; color: var(--accent); background: var(--accent-dim); border: 1px solid rgba(255,159,67,0.2); padding: 1px 6px; border-radius: 4px; }
+    .feat p { margin: 0; font-size: 13px; color: var(--text-secondary); line-height: 1.55; }
+
+    /* Switch reference table */
+    .switches { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 13.5px; }
+    .switches th, .switches td { text-align: left; padding: 10px 13px; border: 1px solid var(--border-muted); }
+    .switches thead th { background: var(--bg-elevated); font-weight: 600; font-size: 12.5px; }
+    .switches td:first-child { white-space: nowrap; }
+    .switches code { font-size: 0.86em; color: var(--accent); background: var(--accent-dim); border: 1px solid rgba(255,159,67,0.2); }
+    .switches td { color: var(--text-secondary); }
+
+    .con-content pre { margin: 14px 0; }
+    pre.shell {
+      background: #121212; border: 1px solid #2a2a2a; border-radius: var(--radius-md);
+      padding: 16px 18px; overflow-x: auto; margin: 14px 0;
+    }
+    pre.shell code {
+      font-family: var(--font-mono); font-size: 13px; line-height: 1.7; color: #d4d4d4;
+      background: none; border: none; padding: 0; white-space: pre; display: block;
+    }
+    .shell .cmd { color: #9cdcfe; }
+    .shell .cmt { color: #6a9955; font-style: italic; }
+    .shell .out { color: #808080; }
+    .shell .flag { color: #dcdcaa; }
+
+    .callout {
+      background: linear-gradient(135deg, rgba(255,159,67,0.06), rgba(168,85,247,0.05));
+      border: 1px solid var(--border); border-radius: var(--radius-md);
+      padding: 22px 26px; margin: 28px 0 8px;
+    }
+    .callout .q { font-size: 16.5px; line-height: 1.65; color: var(--text-primary); font-weight: 500; margin: 0; font-style: italic; }
+    .callout .q::before { content: '“'; color: var(--accent); font-size: 1.4em; vertical-align: -0.25em; margin-right: 2px; }
+    .callout .q::after { content: '”'; color: var(--accent); font-size: 1.4em; vertical-align: -0.4em; margin-left: 2px; }
+
+    .note { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+    .note code { font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">AHK</span>
+        <span class="logo-text">v2 &amp; LLMs</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#posts" class="nav-link">Posts</a>
+        <a href="wiki.html" class="nav-link">Wiki</a>
+        <a href="inheritance.html" class="nav-link">Inheritance</a>
+        <a href="console.html" class="nav-link" style="color: var(--accent);">Console</a>
+        <a href="playground.html" class="nav-link">Playground</a>
+        <a href="https://www.autohotkey.com/docs/v2/" target="_blank" class="nav-link">AHK Docs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="con-layout">
+    <nav class="con-toc">
+      <h4 class="toc-title">On this page</h4>
+      <ul class="toc-list" id="toc-list"></ul>
+    </nav>
+
+    <article class="con-content">
+      <div class="con-hero">
+        <span class="con-badge"><span class="dot"></span> fork of AutoHotkey v2.1</span>
+        <h1>AutoHotkey v2.1 <span class="plus">+Console</span></h1>
+        <p class="con-onesentence">
+          A fork of AutoHotkey v2.1 that makes AHK behave like a <strong>real command-line program</strong> &mdash;
+          stdout/stderr, exit codes, JSON diagnostics, and no GUI popups &mdash; so scripts can run
+          <strong>headless</strong> in terminals, CI, and AI tooling.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://github.com/truecrimedev/autohotkey" target="_blank" rel="noopener">View the fork on GitHub →</a>
+          <a class="btn btn-ghost" href="#why">Why it matters</a>
+        </div>
+      </div>
+
+      <h2 id="what">What it is</h2>
+      <div class="pitch">
+        <p>
+          Stock AutoHotkey is built around the desktop: errors pop up in a <code>MsgBox</code>, there's no real
+          stdout, and nothing returns a meaningful exit code. The <strong>+Console</strong> fork keeps the
+          language identical but adds a proper command-line surface. Scripts can print to stdout/stderr, run
+          fully headless (errors go to the shell instead of a dialog), emit machine-readable JSON diagnostics,
+          and return standard process exit codes. That turns AHK into something you can pipe, script in a
+          Makefile, run in CI, or hand to an LLM agent that reads the error output and fixes the code.
+        </p>
+      </div>
+
+      <h2 id="why">Why it matters</h2>
+      <p>The whole point is the contrast. Same language, completely different relationship with the shell:</p>
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="col-stock">Stock AHK v2</th>
+            <th class="col-fork">+Console fork</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>An error</th>
+            <td class="stock">blocks on a <code>MsgBox</code> dialog</td>
+            <td class="fork">written to <strong>stderr</strong>, process exits</td>
+          </tr>
+          <tr>
+            <th>Exit code</th>
+            <td class="stock">always <code>0</code></td>
+            <td class="fork"><code>0</code> ok · <code>10</code> runtime · <code>12</code> parse · <code>13</code> validate · <code>14</code> test fail</td>
+          </tr>
+          <tr>
+            <th>Output</th>
+            <td class="stock">GUI only</td>
+            <td class="fork"><code>Print()</code> → stdout · <code>"*"</code>/<code>"**"</code> streams</td>
+          </tr>
+          <tr>
+            <th>Tooling</th>
+            <td class="stock">hard to automate</td>
+            <td class="fork">JSON diagnostics for CI / agents to parse</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="features">Features</h2>
+      <div class="feat-grid">
+        <div class="feat">
+          <h4>Real streams</h4>
+          <p><code>Print("...")</code> writes a line to stdout; <code>FileAppend "x", "*"</code> / <code>"**"</code> target stdout / stderr directly.</p>
+        </div>
+        <div class="feat">
+          <h4>Headless <code>/Headless</code></h4>
+          <p>Suppresses every dialog; errors and warnings go to stderr. Usable where there is no desktop at all.</p>
+        </div>
+        <div class="feat">
+          <h4>Structured diagnostics <code>/Diag=json</code></h4>
+          <p>One JSON object per error/warning with <code>severity</code>, <code>type</code> (error class like <code>TypeError</code>), <code>code</code>, <code>message</code>, <code>file</code>, <code>line</code>, <code>source</code>, and <code>stack</code>. Machine-parseable.</p>
+        </div>
+        <div class="feat">
+          <h4>Editor-style errors <code>/ErrorStdOut[:color]</code></h4>
+          <p><code>file (line) : ==&gt; message</code>, with the verbatim source line plus surrounding context and optional ANSI color on a terminal.</p>
+        </div>
+        <div class="feat">
+          <h4>Exit codes</h4>
+          <p>Shells and CI can branch on success vs. parse / runtime / test failure instead of guessing.</p>
+        </div>
+        <div class="feat">
+          <h4>Subcommands</h4>
+          <p><code>check script.ahk</code> (syntax-validate) and <code>test script.ahk</code> (test runner), each with its own exit code.</p>
+        </div>
+        <div class="feat">
+          <h4>Runtime eval</h4>
+          <p><code>Eval(expr)</code> plus a <code>SyntaxError</code> class, gated behind <code>#EnableEval</code>.</p>
+        </div>
+        <div class="feat">
+          <h4>Source introspection</h4>
+          <p><code>_ScriptGetLines()</code> exposes the script's own source for programmatic context.</p>
+        </div>
+      </div>
+
+      <h2 id="exit-codes">Exit codes</h2>
+      <p>Every run ends with a standard process exit code, so a shell or CI step can react to exactly what happened:</p>
+      <div class="codes">
+        <div class="code-chip ok"><span class="num">0</span><span class="lbl">success</span></div>
+        <div class="code-chip err"><span class="num">10</span><span class="lbl">runtime error</span></div>
+        <div class="code-chip err"><span class="num">12</span><span class="lbl">parse error</span></div>
+        <div class="code-chip warn"><span class="num">13</span><span class="lbl">validate failed</span></div>
+        <div class="code-chip warn"><span class="num">14</span><span class="lbl">test failure</span></div>
+      </div>
+      <pre class="shell"><code><span class="cmt"># branch on the result, like any other CLI tool</span>
+<span class="cmd">AutoHotkey.exe</span> <span class="flag">/Headless</span> build.ahk <span class="cmt">&amp;&amp; echo "ok" || echo "failed ($?)"</span></code></pre>
+
+      <h2 id="streams">Printing to streams</h2>
+      <p>The language is unchanged, so this is just normal AHK v2 &mdash; it simply has somewhere to go now:</p>
+      <pre><code class="language-ahk2" id="c-print"></code></pre>
+
+      <h2 id="cli">Command-line switches</h2>
+      <table class="switches">
+        <thead>
+          <tr><th>Switch</th><th>What it does</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><code>/Headless</code></td><td>Suppress all dialogs; route errors and warnings to stderr. For servers, CI, and any desktop-less environment.</td></tr>
+          <tr><td><code>/Diag=json</code></td><td>Emit one machine-readable JSON object per diagnostic (severity, type, code, message, file, line, source, stack).</td></tr>
+          <tr><td><code>/ErrorStdOut</code></td><td>Editor-style human errors: <code>file (line) : ==&gt; message</code> with source context. Append <code>:color</code> for ANSI color.</td></tr>
+        </tbody>
+      </table>
+      <pre class="shell"><code><span class="cmt"># headless run, errors to stderr</span>
+<span class="cmd">AutoHotkey.exe</span> <span class="flag">/Headless</span> deploy.ahk
+
+<span class="cmt"># machine-readable diagnostics for an agent or CI to parse</span>
+<span class="cmd">AutoHotkey.exe</span> <span class="flag">/Diag=json</span> <span class="flag">/Headless</span> deploy.ahk <span class="cmt">2&gt; diagnostics.ndjson</span>
+
+<span class="cmt"># editor-style errors with color in a terminal</span>
+<span class="cmd">AutoHotkey.exe</span> <span class="flag">/ErrorStdOut:color</span> deploy.ahk</code></pre>
+
+      <h2 id="diagnostics">JSON diagnostics</h2>
+      <p>
+        With <code>/Diag=json</code>, each error or warning is emitted as a single JSON object &mdash; one per line &mdash;
+        instead of a dialog. A CI runner or an LLM agent can read this, point at the offending line, and act:
+      </p>
+      <pre><code class="language-json" id="c-json"></code></pre>
+      <p class="note">Fields: <code>severity</code>, <code>type</code> (the error class, e.g. <code>TypeError</code>), <code>code</code>, <code>message</code>, <code>file</code>, <code>line</code>, <code>source</code> (the verbatim line), and <code>stack</code>.</p>
+
+      <h2 id="subcommands">Subcommands</h2>
+      <p><strong><code>check</code></strong> syntax-validates a script without running it; <strong><code>test</code></strong> runs its tests. Each returns its own exit code, so they slot straight into a pipeline:</p>
+      <pre class="shell"><code><span class="cmt"># validate syntax only (exit 12 on parse error)</span>
+<span class="cmd">AutoHotkey.exe</span> check script.ahk
+
+<span class="cmt"># run the test suite (exit 14 on test failure)</span>
+<span class="cmd">AutoHotkey.exe</span> test script.ahk
+
+<span class="cmt"># a tiny CI gate</span>
+<span class="cmd">AutoHotkey.exe</span> check src.ahk <span class="cmt">&amp;&amp;</span> <span class="cmd">AutoHotkey.exe</span> test src.ahk</code></pre>
+
+      <h2 id="eval">Runtime eval &amp; introspection</h2>
+      <p>
+        Opt-in with <code>#EnableEval</code> to evaluate AHK expressions at runtime; a dedicated
+        <code>SyntaxError</code> class reports malformed input. <code>_ScriptGetLines()</code> hands back the
+        script's own source for tools that need context around a line.
+      </p>
+      <pre><code class="language-ahk2" id="c-eval"></code></pre>
+
+      <h2 id="agents">Why agents &amp; CI care</h2>
+      <div class="callout">
+        <p class="q">Normal AHK assumes a human is sitting at a desktop watching dialog boxes. This fork assumes a program is on the other end &mdash; a shell, a CI runner, or an AI agent &mdash; and gives it the streams, exit codes, and structured output that program needs to actually understand what happened.</p>
+      </div>
+      <p style="margin-top:18px;">
+        That is exactly the loop the <a href="post.html?slug=cloudahk">CloudAHK</a> service and the
+        <a href="post.html?slug=opus-4.8-examples">Opus 4.8 examples</a> rely on: run a script, capture
+        stdout/stderr and a real exit code, feed any structured error back to the model, and let it fix the
+        code &mdash; no human-in-the-loop dialog box in the way.
+      </p>
+
+      <h2 id="get">Get it</h2>
+      <p>The fork lives here &mdash; same language, console-grade surface:</p>
+      <div class="hero-actions" style="margin-top:4px;">
+        <a class="btn btn-primary" href="https://github.com/truecrimedev/autohotkey" target="_blank" rel="noopener">github.com/truecrimedev/autohotkey →</a>
+        <a class="btn btn-ghost" href="wiki.html">Read the AHK v2.1 wiki</a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2025 AHKv2 &amp; LLMs</span>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="https://github.com/truecrimedev/autohotkey" target="_blank">+Console fork</a>
+      <a href="https://github.com/TrueCrimeDev/AHKv2_LLMs" target="_blank">Site repo</a>
+    </div>
+  </footer>
+
+  <script>
+    // ── Code samples (set as textContent so HTML-escaping is never an issue) ──
+    const CODE = {
+      print:
+`#Requires AutoHotkey v2.1
+
+; Print() writes a line to stdout — the everyday workhorse.
+Print("Build started")
+Print(Format("Compiling {} files...", 7))
+
+; The standard streams are addressable directly:
+FileAppend "result: ok\`n", "*"      ; "*"  → stdout
+FileAppend "note: cache miss\`n", "**" ; "**" → stderr
+
+; Same script, run anywhere — pipe it, redirect it, capture it.`,
+      json:
+`{"severity":"error","type":"TypeError","code":2,
+ "message":"Expected a Number but got a String.",
+ "file":"deploy.ahk","line":42,
+ "source":"total := count + label",
+ "stack":["deploy.ahk:42 (Main)","deploy.ahk:88 (Run)"]}`,
+      eval:
+`#Requires AutoHotkey v2.1
+#EnableEval                     ; opt in to runtime evaluation
+
+try {
+    result := Eval("2 * (3 + 4)")
+    Print("Eval => " result)    ; Eval => 14
+} catch SyntaxError as e {
+    FileAppend "bad expression: " e.Message "\`n", "**"
+    ExitApp(12)
+}
+
+; Pull the script's own source for context-aware tooling.
+for lineNo, text in _ScriptGetLines()
+    Print(Format("{:3}: {}", lineNo, text))`
+    };
+
+    function fillCode(id, key, lang) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.textContent = CODE[key];
+      if (window.hljs) {
+        if (lang && hljs.getLanguage(lang)) {
+          el.className = "language-" + lang;
+          el.innerHTML = hljs.highlight(CODE[key], { language: lang }).value;
+        } else {
+          hljs.highlightElement(el);
+        }
+      }
+    }
+
+    function buildToc() {
+      const heads = document.querySelectorAll(".con-content h2");
+      const list = document.getElementById("toc-list");
+      list.innerHTML = Array.from(heads).map(h =>
+        '<li><a href="#' + h.id + '">' + h.firstChild.textContent.trim() + '</a></li>'
+      ).join("");
+    }
+
+    function scrollSpy() {
+      const links = document.querySelectorAll(".toc-list a");
+      const heads = document.querySelectorAll(".con-content h2");
+      function onScroll() {
+        let cur = "";
+        heads.forEach(h => { if (h.getBoundingClientRect().top <= 110) cur = h.id; });
+        links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + cur));
+      }
+      window.addEventListener("scroll", onScroll, { passive: true });
+      onScroll();
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      fillCode("c-print", "print", "ahk2");
+      fillCode("c-json", "json", "json");
+      fillCode("c-eval", "eval", "ahk2");
+      buildToc();
+      scrollSpy();
+    });
+  </script>
+</body>
+</html>
