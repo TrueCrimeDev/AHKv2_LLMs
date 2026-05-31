@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-31T12:30:25.015Z",
-  "totalScripts": 310,
+  "lastUpdated": "2026-05-31T18:25:48.378Z",
+  "totalScripts": 313,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-05-28T11:12:21Z",
+      "lastModified": "2026-05-31T14:33:30Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 226,
-      "forks": 34,
+      "stars": 227,
+      "forks": 35,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 226 | Forks: 34\n; Last Updated: 5/28/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 227 | Forks: 35\n; Last Updated: 5/31/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -711,13 +711,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-11T10:06:51Z",
-      "lastModified": "2026-05-29T23:51:38Z",
+      "lastModified": "2026-05-31T18:20:57Z",
       "source": "github",
       "url": "https://github.com/voothi/20240411110510-autohotkey",
       "stars": 3,
       "forks": 0,
       "owner": "voothi",
-      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 3 | Forks: 0\n; Last Updated: 5/29/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 3 | Forks: 0\n; Last Updated: 5/31/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
     },
     {
       "id": "github-1106851668",
@@ -6191,6 +6191,67 @@
       "forks": 1,
       "owner": "matrix1001",
       "code": "```cpp\n; ============================================\n; Repository: matrix1001/Capslock2\n; ============================================\n; URL: https://github.com/matrix1001/Capslock2\n; Stars: 9 | Forks: 1\n; Last Updated: 5/30/2026\n; License: Other\n;\n; Description:\n; Utilizing Capslock by Autohotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matrix1001/Capslock2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matrix1001/Capslock2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Capslock2>\n\n; Example initialization\nclass Capslock2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Capslock2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Capslock2Example()\n```"
+    },
+    {
+      "id": "github-1255306388",
+      "title": "SuperMenu-v5.0-Ultimate",
+      "category": "GitHub Repository",
+      "description": "Advanced Windows automation toolkit and context menu built with AutoHotkey v2.0",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-31T17:04:44Z",
+      "lastModified": "2026-05-31T17:06:42Z",
+      "source": "github",
+      "url": "https://github.com/eshkeremen228-hue/SuperMenu-v5.0-Ultimate",
+      "stars": 0,
+      "forks": 0,
+      "owner": "eshkeremen228-hue",
+      "code": "```cpp\n; ============================================\n; Repository: eshkeremen228-hue/SuperMenu-v5.0-Ultimate\n; ============================================\n; URL: https://github.com/eshkeremen228-hue/SuperMenu-v5.0-Ultimate\n; Stars: 0 | Forks: 0\n; Last Updated: 5/31/2026\n; License: MIT License\n;\n; Description:\n; Advanced Windows automation toolkit and context menu built with AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eshkeremen228-hue/SuperMenu-v5.0-Ultimate.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eshkeremen228-hue/SuperMenu-v5.0-Ultimate/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperMenu-v5.0-Ultimate>\n\n; Example initialization\nclass SupermenuV5.0UltimateExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperMenu-v5.0-Ultimate loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupermenuV5.0UltimateExample()\n```"
+    },
+    {
+      "id": "github-1255169526",
+      "title": "WindowsKeyMapper",
+      "category": "GitHub Repository",
+      "description": "A lightweight, battery-efficient Windows key remapping utility with a modern Windows 11 system-themed interface (Light/Dark mode) and interactive toggle switches. Built entirely on AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "keyboard",
+        "remapping",
+        "windows",
+        "windows-11"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-31T13:49:53Z",
+      "lastModified": "2026-05-31T14:55:02Z",
+      "source": "github",
+      "url": "https://github.com/AhmarZaidi/WindowsKeyMapper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "AhmarZaidi",
+      "code": "```cpp\n; ============================================\n; Repository: AhmarZaidi/WindowsKeyMapper\n; ============================================\n; URL: https://github.com/AhmarZaidi/WindowsKeyMapper\n; Stars: 0 | Forks: 0\n; Last Updated: 5/31/2026\n; License: Not specified\n;\n; Description:\n; A lightweight, battery-efficient Windows key remapping utility with a modern Windows 11 system-themed interface (Light/Dark mode) and interactive toggle switches. Built entirely on AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AhmarZaidi/WindowsKeyMapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AhmarZaidi/WindowsKeyMapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowsKeyMapper>\n\n; Example initialization\nclass WindowskeymapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowsKeyMapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowskeymapperExample()\n```"
+    },
+    {
+      "id": "github-1255159639",
+      "title": "desktop-todo-list",
+      "category": "GitHub Repository",
+      "description": "极简桌面悬浮待办清单工具 / Minimalist floating desktop todo list tool (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-05-31T13:36:16Z",
+      "lastModified": "2026-05-31T13:36:24Z",
+      "source": "github",
+      "url": "https://github.com/Accelerate404/desktop-todo-list",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Accelerate404",
+      "code": "```cpp\n; ============================================\n; Repository: Accelerate404/desktop-todo-list\n; ============================================\n; URL: https://github.com/Accelerate404/desktop-todo-list\n; Stars: 0 | Forks: 0\n; Last Updated: 5/31/2026\n; License: Not specified\n;\n; Description:\n; 极简桌面悬浮待办清单工具 / Minimalist floating desktop todo list tool (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Accelerate404/desktop-todo-list.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Accelerate404/desktop-todo-list/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <desktop-todo-list>\n\n; Example initialization\nclass DesktopTodoListExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"desktop-todo-list loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktopTodoListExample()\n```"
     }
   ]
 }
