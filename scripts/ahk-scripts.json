@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-01T07:48:04.355Z",
-  "totalScripts": 315,
+  "lastUpdated": "2026-06-01T14:03:20.412Z",
+  "totalScripts": 316,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -711,13 +711,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-11T10:06:51Z",
-      "lastModified": "2026-05-31T22:51:42Z",
+      "lastModified": "2026-06-01T09:14:36Z",
       "source": "github",
       "url": "https://github.com/voothi/20240411110510-autohotkey",
       "stars": 3,
       "forks": 0,
       "owner": "voothi",
-      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 3 | Forks: 0\n; Last Updated: 5/31/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 3 | Forks: 0\n; Last Updated: 6/1/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
     },
     {
       "id": "github-1106851668",
@@ -6296,6 +6296,25 @@
       "forks": 0,
       "owner": "ltanedo",
       "code": "```cpp\n; ============================================\n; Repository: ltanedo/antigraity-ahk-toggle\n; ============================================\n; URL: https://github.com/ltanedo/antigraity-ahk-toggle\n; Stars: 0 | Forks: 0\n; Last Updated: 6/1/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 toggle for Antigravity using Alt+Space\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ltanedo/antigraity-ahk-toggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ltanedo/antigraity-ahk-toggle/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <antigraity-ahk-toggle>\n\n; Example initialization\nclass AntigraityAhkToggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"antigraity-ahk-toggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AntigraityAhkToggleExample()\n```"
+    },
+    {
+      "id": "github-1256037474",
+      "title": "Light-Select-Translator",
+      "category": "GitHub Repository",
+      "description": "轻量 Windows 划词翻译工具，基于 AutoHotkey v2。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-01T12:01:56Z",
+      "lastModified": "2026-06-01T12:03:33Z",
+      "source": "github",
+      "url": "https://github.com/modakai/Light-Select-Translator",
+      "stars": 0,
+      "forks": 0,
+      "owner": "modakai",
+      "code": "```cpp\n; ============================================\n; Repository: modakai/Light-Select-Translator\n; ============================================\n; URL: https://github.com/modakai/Light-Select-Translator\n; Stars: 0 | Forks: 0\n; Last Updated: 6/1/2026\n; License: Not specified\n;\n; Description:\n; 轻量 Windows 划词翻译工具，基于 AutoHotkey v2。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/modakai/Light-Select-Translator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/modakai/Light-Select-Translator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Light-Select-Translator>\n\n; Example initialization\nclass LightSelectTranslatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Light-Select-Translator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LightSelectTranslatorExample()\n```"
     }
   ]
 }
