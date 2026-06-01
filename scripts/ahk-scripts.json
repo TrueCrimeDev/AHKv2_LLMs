@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-01T00:48:20.057Z",
-  "totalScripts": 313,
+  "lastUpdated": "2026-06-01T07:48:04.355Z",
+  "totalScripts": 315,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5193,13 +5193,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-05-25T21:59:04Z",
+      "lastModified": "2026-06-01T06:05:32Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
       "forks": 0,
       "owner": "PCMon",
-      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 5/25/2026\n; License: Not specified\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/1/2026\n; License: Not specified\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     },
     {
       "id": "github-1225321547",
@@ -5519,13 +5519,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-10T19:47:04Z",
-      "lastModified": "2026-05-29T18:15:45Z",
+      "lastModified": "2026-06-01T07:26:15Z",
       "source": "github",
       "url": "https://github.com/theviniis/dofus_helper",
       "stars": 0,
       "forks": 0,
       "owner": "theviniis",
-      "code": "```cpp\n; ============================================\n; Repository: theviniis/dofus_helper\n; ============================================\n; URL: https://github.com/theviniis/dofus_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 5/29/2026\n; License: Not specified\n;\n; Description:\n; Scripts de automação AutoHotkey v2.0 para o jogo Dofus, oferecendo troca de contas via hotkeys e viagem coordenada usando o item Zap (Saco de Viagens).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/theviniis/dofus_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/theviniis/dofus_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dofus_helper>\n\n; Example initialization\nclass DofusHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dofus_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DofusHelperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: theviniis/dofus_helper\n; ============================================\n; URL: https://github.com/theviniis/dofus_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 6/1/2026\n; License: Not specified\n;\n; Description:\n; Scripts de automação AutoHotkey v2.0 para o jogo Dofus, oferecendo troca de contas via hotkeys e viagem coordenada usando o item Zap (Saco de Viagens).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/theviniis/dofus_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/theviniis/dofus_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dofus_helper>\n\n; Example initialization\nclass DofusHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dofus_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DofusHelperExample()\n```"
     },
     {
       "id": "github-1235409431",
@@ -5769,13 +5769,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-05-30T20:20:35Z",
+      "lastModified": "2026-06-01T06:33:44Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 1,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 5/30/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 6/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -6161,13 +6161,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-30T16:05:52Z",
-      "lastModified": "2026-05-30T16:48:38Z",
+      "lastModified": "2026-06-01T04:28:27Z",
       "source": "github",
       "url": "https://github.com/MonoEven/stdlib-ahk",
       "stars": 0,
       "forks": 0,
       "owner": "MonoEven",
-      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 5/30/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/1/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
     },
     {
       "id": "github-608904813",
@@ -6252,6 +6252,50 @@
       "forks": 0,
       "owner": "Accelerate404",
       "code": "```cpp\n; ============================================\n; Repository: Accelerate404/desktop-todo-list\n; ============================================\n; URL: https://github.com/Accelerate404/desktop-todo-list\n; Stars: 0 | Forks: 0\n; Last Updated: 5/31/2026\n; License: Not specified\n;\n; Description:\n; 极简桌面悬浮待办清单工具 / Minimalist floating desktop todo list tool (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Accelerate404/desktop-todo-list.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Accelerate404/desktop-todo-list/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <desktop-todo-list>\n\n; Example initialization\nclass DesktopTodoListExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"desktop-todo-list loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktopTodoListExample()\n```"
+    },
+    {
+      "id": "github-1255603811",
+      "title": "Windows_Renamer",
+      "category": "GitHub Repository",
+      "description": "Add a prefix/suffix to many files at once in Windows Explorer — select files, press Alt+F2, done. Lightweight AutoHotkey v2 tray tool.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "batch-rename",
+        "file-explorer",
+        "file-management",
+        "hotkey"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-01T02:21:21Z",
+      "lastModified": "2026-06-01T06:06:10Z",
+      "source": "github",
+      "url": "https://github.com/surrealier/Windows_Renamer",
+      "stars": 1,
+      "forks": 0,
+      "owner": "surrealier",
+      "code": "```cpp\n; ============================================\n; Repository: surrealier/Windows_Renamer\n; ============================================\n; URL: https://github.com/surrealier/Windows_Renamer\n; Stars: 1 | Forks: 0\n; Last Updated: 6/1/2026\n; License: MIT License\n;\n; Description:\n; Add a prefix/suffix to many files at once in Windows Explorer — select files, press Alt+F2, done. Lightweight AutoHotkey v2 tray tool.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/surrealier/Windows_Renamer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/surrealier/Windows_Renamer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows_Renamer>\n\n; Example initialization\nclass WindowsRenamerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows_Renamer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsRenamerExample()\n```"
+    },
+    {
+      "id": "github-1255670981",
+      "title": "antigraity-ahk-toggle",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 toggle for Antigravity using Alt+Space",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-01T04:17:59Z",
+      "lastModified": "2026-06-01T04:18:07Z",
+      "source": "github",
+      "url": "https://github.com/ltanedo/antigraity-ahk-toggle",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ltanedo",
+      "code": "```cpp\n; ============================================\n; Repository: ltanedo/antigraity-ahk-toggle\n; ============================================\n; URL: https://github.com/ltanedo/antigraity-ahk-toggle\n; Stars: 0 | Forks: 0\n; Last Updated: 6/1/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 toggle for Antigravity using Alt+Space\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ltanedo/antigraity-ahk-toggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ltanedo/antigraity-ahk-toggle/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <antigraity-ahk-toggle>\n\n; Example initialization\nclass AntigraityAhkToggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"antigraity-ahk-toggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AntigraityAhkToggleExample()\n```"
     }
   ]
 }
