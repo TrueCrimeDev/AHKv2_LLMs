@@ -126,6 +126,19 @@
         html += `<div class="panel shot-wrap"><h2>Captured window</h2><img class="shot" src="${esc(m.screenshot)}" alt="${esc(m.display)} GUI"><div class="cap">Launched on the v2.1-alpha.30+Console fork, sample clipboard preloaded, captured via PrintWindow.</div></div>`;
       }
 
+      if (m.fallback) {
+        const fb = m.fallback;
+        const fbRun = fb.runs===true ? ['Runs', ACCENT.run, '✅'] : (fb.parse ? ['Crashes', ACCENT.crash, '❌'] : ['Won’t parse', ACCENT.fail, '—']);
+        let head = fb.recovered
+          ? `<div class="err" style="background:rgba(123,201,111,.08);border-left-color:#7BC96F;color:#aee0a3">✅ Recovered — failed the primary prompt, but the simpler fallback prompt produced a working window.</div>`
+          : `<div style="font-size:13px;color:#9a9a9a;margin-bottom:10px">Re-run with the stricter fallback prompt — still ${fb.runs===false?'crashes':'fails to parse'}.</div>`;
+        let body = `<div class="badges" style="margin-bottom:10px">${badge(fbRun[1],`${fbRun[2]} <b>${fbRun[0]}</b>`)}${badge(fb.parse?ACCENT.run:ACCENT.fail,`Parse <b>${fb.parse?'PASS':'FAIL'}</b>`)}${badge('#5B9FEF',`Code <b>${fb.score}</b>/100`)}${fb.visual!=null?badge('#A855F7',`Visual <b>${fb.visual}</b>/20`):''}</div>`;
+        if (fb.runtime_err) body += `<div class="err">${esc(fb.runtime_err)}</div>`;
+        if (fb.screenshot) body += `<img class="shot" style="margin-top:10px" src="${esc(fb.screenshot)}" alt="${esc(m.display)} fallback GUI">`;
+        if (fb.code) body += `<details style="margin-top:10px"><summary style="cursor:pointer;color:#9a9a9a;font-size:13px">Fallback source (${fb.lines||0} lines)</summary><pre style="margin-top:8px"><code class="language-ahk2" id="fbsrc"></code></pre></details>`;
+        html += `<div class="panel" style="border-color:${fb.recovered?'rgba(123,201,111,.4)':'#2c2c2c'}"><h2>Fallback retry</h2>${head}${body}</div>`;
+      }
+
       if (m.analysis) {
         marked.setOptions({ gfm:true, breaks:true });
         html += `<div class="panel"><h2>Analysis</h2><div class="analysis">${marked.parse(m.analysis)}</div></div>`;
@@ -142,6 +155,8 @@
       document.getElementById('content').innerHTML = html;
       const codeEl = document.getElementById('src');
       if (codeEl) { codeEl.textContent = m.code || '(source unavailable)'; hljs.highlightElement(codeEl); }
+      const fbEl = document.getElementById('fbsrc');
+      if (fbEl && m.fallback) { fbEl.textContent = m.fallback.code || ''; hljs.highlightElement(fbEl); }
       document.title = m.display + ' - AHKv2 & LLMs';
     }
 

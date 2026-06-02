@@ -47,6 +47,10 @@ I have a folder of AutoHotkey v2 scripts named after the model that wrote each o
 .h-dim{color:#5a5a5a;}
 .bm-cta{display:inline-block;margin:4px 0 2px;padding:9px 16px;background:#5B9FEF;color:#0b0b0b;font-weight:600;font-size:13.5px;border-radius:8px;text-decoration:none;}
 .bm-cta:hover{background:#4d8fe0;}
+.fbchips{display:flex;flex-wrap:wrap;gap:8px;}
+.fbchip{display:inline-flex;flex-direction:column;background:#121212;border:1px solid #2c2c2c;border-left:3px solid #7BC96F;border-radius:8px;padding:7px 11px;font-size:12.5px;}
+.fbchip a{color:#fff;font-weight:600;text-decoration:none;}.fbchip a:hover{color:#5B9FEF;}
+.fbchip .fbwas{color:#7f7f7f;font-size:10.5px;margin-top:1px;}
 </style>
 
 The headline up front:
@@ -195,6 +199,22 @@ To stress-test with fresh models, I ran two live OpenRouter sweeps — 24 models
 <div class="bm-wrap"><div class="bm-flow"><div class="bm-fb"><b>22</b>returned code</div><div class="bm-arrow">→</div><div class="bm-fb" style="border-left:3px solid #5B9FEF"><b>6</b>parsed</div><div class="bm-arrow">→</div><div class="bm-fb bm-good"><b>1</b>actually ran — WizardLM 2 8x22B</div></div></div>
 
 Hermes 4 (405B *and* 70B), Mistral Large 3, Llama 3.3 70B, Nemotron 3 Super, Opus 4.8 — all generated live, all broken. The folder's *runnable* entries are the pre-existing ones, pasted from richer chat sessions. The lesson isn't "these models are bad"; it's that **single-turn, low-temperature API generation of niche-syntax code is brittle** — context and iteration, not just model choice, decide whether it runs. (Both of Mistral's *coding-specialized* models, Codestral and Devstral, didn't even parse, while general models did better.)
+
+## The Fallback Round
+
+A second prompt — [`Prompt_Fallback.md`](https://github.com/TrueCrimeDev/AHKv2_LLMs) — exists for exactly this: when a model fails the hard spec, retry with a **stricter, more explicit, and simpler** brief. It hammers the exact failure modes (“never assume methods from other languages exist,” the class-as-variable trap, `Map()` has no `.Keys()`) and asks for a plainer three-button editor. I re-ran every reachable failure through it.
+
+<div class="bm-wrap"><div class="bm-h">The fallback round — failures retried with a stricter, simpler prompt</div><div class="bm-flow"><div class="bm-fb"><b>31</b>failures retried</div><div class="bm-arrow">→</div><div class="bm-fb" style="border-left:3px solid #5B9FEF"><b>20</b>now parse</div><div class="bm-arrow">→</div><div class="bm-fb bm-good"><b>11 recovered</b>now build a window</div></div></div>
+
+**11 of 30 recovered** — roughly a third. The louder warnings plus the gentler task were enough to rescue models that face-planted the first time:
+
+<div class="bm-wrap"><div class="fbchips"><span class="fbchip"><a href="model.html?id=Devstral_2512">Devstral 2512</a><span class="fbwas">wouldn't parse → runs</span></span><span class="fbchip"><a href="model.html?id=GLM_4-6">GLM-4.6</a><span class="fbwas">wouldn't parse → runs</span></span><span class="fbchip"><a href="model.html?id=GLM5-Turbo">GLM-5 Turbo</a><span class="fbwas">crashed → runs</span></span><span class="fbchip"><a href="model.html?id=GPT-5-4-mini">GPT-5.4 mini</a><span class="fbwas">wouldn't parse → runs</span></span><span class="fbchip"><a href="model.html?id=Gemini_3-5_Flash">Gemini 3.5 Flash</a><span class="fbwas">crashed → runs</span></span><span class="fbchip"><a href="model.html?id=Grok_4-3_Test">Grok 4.3</a><span class="fbwas">wouldn't parse → runs</span></span><span class="fbchip"><a href="model.html?id=Llama_4_Maverick">Llama 4 Maverick</a><span class="fbwas">wouldn't parse → runs</span></span><span class="fbchip"><a href="model.html?id=MiniMax2">MiniMax 2</a><span class="fbwas">wouldn't parse → runs</span></span><span class="fbchip"><a href="model.html?id=Mistral_Large_3">Mistral Large 3</a><span class="fbwas">crashed → runs</span></span><span class="fbchip"><a href="model.html?id=Mistral_Medium_3-1">Mistral Medium 3.1</a><span class="fbwas">wouldn't parse → runs</span></span><span class="fbchip"><a href="model.html?id=Qwen3_Max">Qwen3 Max</a><span class="fbwas">crashed → runs</span></span></div></div>
+
+The pattern in *who* recovered is telling. [GLM-4.6](model.html?id=GLM_4-6), which had reproduced the prompt's verbatim class-as-variable example, fixed it the moment the warning got louder. [Mistral Large 3](model.html?id=Mistral_Large_3) dropped its undefined `Exception` call. [Devstral 2512](model.html?id=Devstral_2512) — the coding-specialist that wouldn't even parse — finally ran. These were *surface* mistakes a sharper prompt could sand off.
+
+What **didn't** recover is just as telling: [Hermes 4](model.html?id=Hermes_4_405B) (both sizes), [Llama 3.3 70B](model.html?id=Llama_3-3_70B), and [Nemotron 3 Super](model.html?id=Nemotron_3_Super_120B) failed *again* — Hermes still returning a void where a value belongs. When a model's instinct is to invent an API, a louder warning doesn't reliably override it. A retry is a cheap, effective safety net for shallow errors; it is not a fix for a model that doesn't know the language.
+
+Each recovered model's page shows the side-by-side: primary attempt, then the fallback window it finally produced.
 
 ## Complete Standings
 

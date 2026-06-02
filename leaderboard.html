@@ -71,6 +71,7 @@
       <span class="chip" data-f="runs"><span class="dot" style="background:#7BC96F"></span>Runs</span>
       <span class="chip" data-f="crash"><span class="dot" style="background:#DC3545"></span>Crashes</span>
       <span class="chip" data-f="fail"><span class="dot" style="background:#6a6a6a"></span>Won’t parse</span>
+      <span class="chip" data-f="recovered"><span class="dot" style="background:#7BC96F"></span>↻ Recovered on fallback</span>
       <span class="lb-count" id="count"></span>
     </div>
     <div style="overflow-x:auto"><table class="bm-heat" id="tbl"><thead><tr>
@@ -94,7 +95,7 @@
   function state(r){ if(r.bytes===0)return 'dnf'; if(!r.parse)return 'fail'; return r.runs?'runs':'crash'; }
   function render(){
     let rows=DATA.filter(r=>r.bytes>0)
-      .filter(r=>filt==='all'||state(r)===filt)
+      .filter(r=>filt==='all'?true:filt==='recovered'?(r.fallback&&r.fallback.recovered):state(r)===filt)
       .filter(r=>!q||r.display.toLowerCase().includes(q));
     rows.sort((a,b)=>{ let x=a[sortK],y=b[sortK];
       if(sortK==='display'){x=(''+x).toLowerCase();y=(''+y).toLowerCase();}
@@ -103,7 +104,7 @@
     document.getElementById('body').innerHTML = rows.map(r=>{
       const fc=FAMILY[r.provider]||'#888';
       const parseCell=r.parse?'<td class="h-emer">PASS</td>':'<td class="h-red">FAIL</td>';
-      const nm=esc(r.display)+(r.source==='openrouter'?' <span style="font-size:10px;color:#6f6f6f">live</span>':'');
+      const nm=esc(r.display)+(r.source==='openrouter'?' <span style="font-size:10px;color:#6f6f6f">live</span>':'')+(r.fallback&&r.fallback.recovered?' <span title="recovered via fallback prompt" style="color:#7BC96F;font-weight:700">↻</span>':'');
       return `<tr><td class="h-rank">${r.rank}</td>`+
         `<td class="h-name"><span class="fdot" style="background:${fc}" title="${esc(r.provider)}"></span>`+
         `<a href="model.html?id=${encodeURIComponent(r.id)}">${nm}</a></td>`+
