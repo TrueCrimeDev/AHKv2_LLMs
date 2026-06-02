@@ -548,3 +548,17 @@ span.hljs-punctuation { color: #d4d4d4 !important; }
 
 /* Hotkey symbols -- yellow */
 .hljs-symbol { color: #dcdcaa !important; }
+
+
+/* mobile-nav */
+html { overflow-x: hidden; }
+@media (max-width: 680px) {
+  .site-header { padding: 0 12px; }
+  .header-inner { height: auto; flex-wrap: wrap; row-gap: 6px; padding: 8px 0; }
+  .logo { flex: 1 1 100%; font-size: 15px; }
+  .nav { flex: 1 1 100%; flex-wrap: wrap; gap: 3px; }
+  .nav-link { padding: 6px 9px; font-size: 12.5px; }
+  .main-grid { padding: 14px 12px; }
+  .hero-section h1 { font-size: 22px; }
+  .site-footer { flex-direction: column; gap: 8px; text-align: center; padding: 16px 12px; }
+}
