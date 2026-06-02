@@ -1,26 +1,56 @@
 # One Prompt, 60 Models: An AHK v2 Clipboard-Formatter Benchmark
 
-I have a folder of AutoHotkey v2 scripts named after the model that wrote each one — `GPT-5-5-Pro.ahk`, `Gemini_3_Pro.ahk`, `Hermes_4_405B.ahk`, and five dozen more. Every file is the same model answering the **same prompt**. This post grades all of them on three escalating signals — does it *parse*, does it *run*, does it *look right* — then adds two live multi-provider sweeps through OpenRouter.
+I have a folder of AutoHotkey v2 scripts named after the model that wrote each one — `GPT-5-5-Pro.ahk`, `Gemini_3_Pro.ahk`, `Hermes_4_405B.ahk`, and five dozen more. Every file is the same model answering the **same prompt**. This post grades all of them on three escalating signals — does it *parse*, does it *run*, does it *look right* — then digs into *why* the flagships diverge. **Every model name links to its own page** with full source, itemized scorecards, the captured window, and analysis.
 
-The headline up front: of **61 outputs, 39 parse, only 24 build a working window, and just 2 render the dark theme the prompt demanded.** Each filter throws away roughly a third of the field. **Every model below has its own page** — click any name for the full source, an itemized scorecard, the captured window, and a per-model breakdown.
+<style>
+.bm-wrap{margin:22px 0;}
+.bm-h{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#707070;font-weight:600;margin:0 0 10px;}
+.bm-funnel{display:flex;flex-direction:column;gap:7px;}
+.bm-frow{display:flex;align-items:center;gap:12px;}
+.bm-fbar{height:38px;border-radius:7px;display:flex;align-items:center;padding:0 14px;color:#fff;font-weight:600;font-size:14px;white-space:nowrap;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);}
+.bm-fmeta{font-size:12.5px;color:#9a9a9a;}
+.bm-fmeta b{color:#d6d6d6;font-weight:600;}
+.bm-bars{display:flex;flex-direction:column;gap:9px;}
+.bm-brow{display:grid;grid-template-columns:172px 1fr 34px;align-items:center;gap:12px;font-size:13px;}
+.bm-blabel{color:#c4c4c4;text-align:right;}
+.bm-btrack{background:#1c1c1c;border-radius:5px;height:20px;overflow:hidden;border:1px solid #262626;}
+.bm-bfill{height:100%;border-radius:5px;}
+.bm-bval{color:#fff;font-variant-numeric:tabular-nums;font-weight:600;}
+.bm-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:12px;}
+.bm-card{background:#121212;border:1px solid #2c2c2c;border-radius:12px;padding:14px 15px;border-top:3px solid #444;}
+.bm-card h4{margin:0 0 2px;font-size:15px;color:#fff;}
+.bm-card .prov{font-size:11px;color:#6f6f6f;margin-bottom:10px;}
+.bm-stat{display:flex;justify-content:space-between;font-size:12.5px;padding:3px 0;border-bottom:1px solid #1d1d1d;}
+.bm-stat:last-of-type{border-bottom:none;}
+.bm-stat .k{color:#9a9a9a;}.bm-stat .v{color:#fff;font-weight:600;}
+.bm-verdict{margin-top:9px;font-size:12px;line-height:1.5;color:#b6b6b6;border-top:1px solid #2c2c2c;padding-top:8px;}
+.bm-flow{display:flex;flex-wrap:wrap;gap:0;align-items:stretch;margin:6px 0;}
+.bm-fb{flex:1;min-width:120px;background:#161616;border:1px solid #2c2c2c;border-radius:9px;padding:11px 13px;font-size:12.5px;color:#d2d2d2;}
+.bm-fb b{color:#fff;display:block;font-size:13.5px;margin-bottom:2px;}
+.bm-arrow{display:flex;align-items:center;color:#5a5a5a;font-size:20px;padding:0 8px;}
+.bm-split{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+@media(max-width:680px){.bm-split{grid-template-columns:1fr;}}
+.bm-good{border-left:3px solid #7BC96F;}.bm-bad{border-left:3px solid #DC3545;}
+.bm-tag{display:inline-block;font-size:10.5px;font-weight:600;padding:2px 7px;border-radius:5px;margin-left:6px;vertical-align:middle;}
+.bm-tag.run{background:rgba(123,201,111,.14);color:#7BC96F;}
+.bm-tag.crash{background:rgba(220,53,69,.14);color:#e0727d;}
+</style>
+
+The headline up front:
+
+<div class="bm-wrap"><div class="bm-h">Every filter discards roughly a third of the field</div><div class="bm-funnel"><div class="bm-frow"><div class="bm-fbar" style="width:100%;background:linear-gradient(90deg,#3a3a3a,#2a2a2a)">61 submitted code</div></div><div class="bm-frow"><div class="bm-fbar" style="width:64%;background:linear-gradient(90deg,#5B9FEF,#3f6ea8)">39 parse</div><div class="bm-fmeta"><b>64%</b> · 22 are syntactically broken</div></div><div class="bm-frow"><div class="bm-fbar" style="width:39%;background:linear-gradient(90deg,#22D3EE,#1a93a6)">24 run</div><div class="bm-fmeta"><b>39%</b> · 15 crash on launch</div></div><div class="bm-frow"><div class="bm-fbar" style="width:13%;background:linear-gradient(90deg,#A855F7,#7a3fb0)">5 render dark</div><div class="bm-fmeta"><b>8%</b> · 19 ignore the theme</div></div><div class="bm-frow"><div class="bm-fbar" style="width:6%;background:linear-gradient(90deg,#7BC96F,#56935f)">2 fully dark</div><div class="bm-fmeta"><b>3%</b> · title bar included</div></div></div></div>
+
+A green parse check is the floor, not the ceiling. The drop from "parses" to "runs" to "looks like what we asked for" is where the models actually separate — and where the flagships behave very differently from one another.
 
 ## The Prompt
 
-Every model received one strict spec: build a **dark-mode clipboard text-formatter** as a single dependency-free AHK v2 GUI. The prompt is a full agent harness with a `P0_CRITICAL` rule block, a tiered reasoning system, and an eight-item `DIAGNOSTIC_CHECKLIST`. The build target is specific and gradeable: load the clipboard on startup; three transforms (`StrUpper`/`StrLower`/`StrTitle`); multi-step undo + redo on `Ctrl+Z`/`Ctrl+Y`; a live char/line counter; a resizable, **dark-themed**, `Escape`-to-close window; and a `ControlWrapper` base class with two overriding subclasses.
-
-Its `P0_CRITICAL` block even spends a paragraph on one AHK trap: reusing the class name as the storage variable throws `Class 'X' cannot be used as an output variable`, because identifiers are case-insensitive. Hold that thought.
+Every model received one strict spec: build a **dark-mode clipboard text-formatter** as a single dependency-free AHK v2 GUI. The prompt is a full agent harness with a `P0_CRITICAL` rule block and an eight-item `DIAGNOSTIC_CHECKLIST`. The build target is specific and gradeable: load the clipboard on startup; three transforms (`StrUpper`/`StrLower`/`StrTitle`); multi-step undo + redo on `Ctrl+Z`/`Ctrl+Y`; a live char/line counter; a resizable, **dark-themed**, `Escape`-to-close window; and a `ControlWrapper` base class with two overriding subclasses.
 
 ## How Scoring Works
 
 Three signals of increasing strictness, all against the **v2.1-alpha.30+Console** fork.
 
-**1. Parse (`/validate`).** A parse-only load: exit `0` parses, exit `12` is a syntax error. Objective, but weak — it never runs a line.
-
-**2. Runs (launch + capture).** Each parsing script is *launched* under `/ErrorStdOut`. A PowerShell harness waits for the main window, captures it with `PrintWindow` (occlusion-proof), then kills it. Builds a window → ✅. Throws before drawing → ❌. This separates "looks like AHK" from "is a program."
-
-**3. Visual (pixel analysis).** Each captured window is scored 0–20: dark background, dark title bar, dark-mode consistency, sane proportions, visible content — measured from the actual pixels. The prompt *required* dark mode, so this checks whether the model delivered it on screen, not just in the source.
-
-Plus a **code score (0–100)** — an automated `DIAGNOSTIC_CHECKLIST` pass (Map storage, `.Bind(this)`, inheritance, transforms, undo/redo, no empty catch, etc.). The leaderboard sorts by **Runs first, then code score.** A crash on launch ranks below every program that opens, however clean its source.
+**1. Parse (`/validate`)** — a parse-only load. Objective, but weak: it never runs a line. **2. Runs (launch + capture)** — each parsing script is launched, its window captured via `PrintWindow`, then killed. Builds a window → ✅, throws first → ❌. **3. Visual (pixel analysis)** — the captured window scored 0–20 from its actual pixels: dark background, dark title bar, consistency, proportions, content. Plus a **code score (0–100)** from the `DIAGNOSTIC_CHECKLIST`. The board sorts by **Runs, then code score** — a crash ranks below every program that opens.
 
 ## The Leaderboard
 
@@ -42,90 +72,108 @@ The top of the field — all ✅, all open a window. Click a model for its page.
 | 12 | [Grok 4.2](model.html?id=Grok_4-2_Test) | ✅ | 78 | 4/20 |
 | 13 | [GPT-5.4 nano](model.html?id=GPT-5-4-nano) | ✅ | 77 | 4/20 |
 
-`GPT-5.5 Pro` takes it outright — the only family to both top the code score and fully render the dark theme:
+<img src="posts/img/gpt55pro-gui.png" alt="GPT-5.5 Pro clipboard formatter, fully dark theme" style="max-width:100%;border:1px solid #303030;border-radius:8px">
 
-<img src="posts/img/gpt55pro-gui.png" alt="GPT-5.5 Pro clipboard formatter, fully dark theme, sample text loaded" style="max-width:100%;border:1px solid #303030;border-radius:8px">
+## Who Beats Whom — by Family
 
-The full 1–61 standings — every link live — are at the end.
+The single most useful cut isn't model-by-model, it's **family-by-family**. Run rate (of the family's parsing entries) tells you who reliably ships a *working* program; best visual tells you who can actually paint the theme.
+
+<div class="bm-wrap"><div class="bm-h">Run rate by family (parsing entries that build a window)</div><div class="bm-bars"><div class="bm-brow"><div class="bm-blabel">Anthropic · Opus/Sonnet</div><div class="bm-btrack"><div class="bm-bfill" style="width:80%;background:#7BC96F"></div></div><div class="bm-bval">4/5</div></div><div class="bm-brow"><div class="bm-blabel">MiniMax</div><div class="bm-btrack"><div class="bm-bfill" style="width:75%;background:#7BC96F"></div></div><div class="bm-bval">3/4</div></div><div class="bm-brow"><div class="bm-blabel">OpenAI · GPT-5.x</div><div class="bm-btrack"><div class="bm-bfill" style="width:71%;background:#7BC96F"></div></div><div class="bm-bval">5/7</div></div><div class="bm-brow"><div class="bm-blabel">Alibaba · Qwen</div><div class="bm-btrack"><div class="bm-bfill" style="width:50%;background:#F59E42"></div></div><div class="bm-bval">2/4</div></div><div class="bm-brow"><div class="bm-blabel">xAI · Grok</div><div class="bm-btrack"><div class="bm-bfill" style="width:40%;background:#F59E42"></div></div><div class="bm-bval">2/5</div></div><div class="bm-brow"><div class="bm-blabel">Google · Gemini</div><div class="bm-btrack"><div class="bm-bfill" style="width:25%;background:#DC3545"></div></div><div class="bm-bval">1/4</div></div><div class="bm-brow"><div class="bm-blabel">One-shot via API</div><div class="bm-btrack"><div class="bm-bfill" style="width:5%;background:#DC3545"></div></div><div class="bm-bval">1/22</div></div></div></div>
+
+Three distinct personalities fall out of the data:
+
+**OpenAI (GPT-5.x) — the only family that finishes the job.** Five of seven run, and it is the *sole* family to render a fully dark window, title bar included. The reason is one DllCall its rivals omit:
+
+```ahk
+; GPT-5.5 Pro — actually darkens the Windows title bar
+DllCall("dwmapi\DwmSetWindowAttribute", "ptr", this.gui.Hwnd,
+        "int", 20, "int*", enabled, "int", 4, "int")   ; DWMWA_USE_IMMERSIVE_DARK_MODE
+```
+
+**Anthropic (Opus / Sonnet) — the reliable runner that stops one call short.** Best run rate in the field (4/5), but every Anthropic entry caps at 15/20 visual. They paint the *client* dark and forget the *frame*:
+
+```ahk
+; Opus 4.7 Fast — dark client, but no DWM title-bar call
+this.gui.BackColor := 0x1E1E1E
+this.gui.Add("Edit", "... Background252526", "")
+; …no DwmSetWindowAttribute(hwnd, 20, ...) anywhere → light title bar
+```
+
+That one missing line is the entire difference between 20/20 and 15/20 — and it's the same line across all three Anthropic runners.
+
+**Google (Gemini) — writes the prettiest code that doesn't run.** Gemini's *code* scores well (up to 86), but 3 of 4 crash at launch, each on a confidently hallucinated API:
+
+<div class="bm-split"><div class="bm-fb bm-bad"><b>Gemini 2.5 Pro <span class="bm-tag crash">crash</span></b><code>this.hEdit.SetSel(StrLen(...))</code> — <code>Gui.Edit</code> has no <code>SetSel</code> method. So does GPT-5 Codex, independently.</div><div class="bm-fb bm-bad"><b>Grok 4 Fast <span class="bm-tag crash">crash</span></b><code>Add("Edit", "... Multi ReadOnly? No")</code> — "ReadOnly? No" isn't an option token. <em>Invalid option.</em></div></div>
+
+These parse perfectly — they are syntactically valid calls to things that don't exist — so only *running* the program exposes them.
+
+## The Flagship Tale of the Tape
+
+Five headline models, same prompt, wildly different outcomes:
+
+<div class="bm-wrap"><div class="bm-cards"><div class="bm-card" style="border-top-color:#7BC96F"><h4>GPT-5.5 Pro</h4><div class="prov">OpenAI</div><div class="bm-stat"><span class="k">Runs</span><span class="v" style="color:#7BC96F">✅</span></div><div class="bm-stat"><span class="k">Visual</span><span class="v">20/20</span></div><div class="bm-stat"><span class="k">Code</span><span class="v">95</span></div><div class="bm-verdict">The only complete-and-dark winner. Transform registry, real DWM theming. Ships undo with no redo — its one miss.</div></div><div class="bm-card" style="border-top-color:#5B9FEF"><h4>Opus 4.8 Fast</h4><div class="prov">Anthropic</div><div class="bm-stat"><span class="k">Runs</span><span class="v" style="color:#7BC96F">✅</span></div><div class="bm-stat"><span class="k">Visual</span><span class="v">15/20</span></div><div class="bm-stat"><span class="k">Code</span><span class="v">88</span></div><div class="bm-verdict">Rock-solid runner, clean wrapper classes. Dark client, light title bar — one DWM call from perfect.</div></div><div class="bm-card" style="border-top-color:#5B9FEF"><h4>Qwen 3.7</h4><div class="prov">Alibaba</div><div class="bm-stat"><span class="k">Runs</span><span class="v" style="color:#7BC96F">✅</span></div><div class="bm-stat"><span class="k">Visual</span><span class="v">15/20</span></div><div class="bm-stat"><span class="k">Code</span><span class="v">92</span></div><div class="bm-verdict">Best open-ish runner: full undo+redo, all three transforms. Same light-title-bar gap as Anthropic.</div></div><div class="bm-card" style="border-top-color:#DC3545"><h4>Gemini 3 Pro</h4><div class="prov">Google</div><div class="bm-stat"><span class="k">Runs</span><span class="v" style="color:#e0727d">❌</span></div><div class="bm-stat"><span class="k">Visual</span><span class="v">—</span></div><div class="bm-stat"><span class="k">Code</span><span class="v">75</span></div><div class="bm-verdict">Reads well, dies on launch (Invalid option). High code score, zero working window.</div></div><div class="bm-card" style="border-top-color:#DC3545"><h4>Hermes 4 405B</h4><div class="prov">Nous · open weights</div><div class="bm-stat"><span class="k">Runs</span><span class="v" style="color:#e0727d">❌</span></div><div class="bm-stat"><span class="k">Visual</span><span class="v">—</span></div><div class="bm-stat"><span class="k">Code</span><span class="v">95</span></div><div class="bm-verdict">Tied for highest code score in the folder. Calls <code>IsMap()</code>, which doesn't exist. Never opens.</div></div></div></div>
 
 ## Does It Actually Run?
 
-Parse-validation passed **39** of 61 outputs. Launch them, and **15 die before drawing a pixel** — a runtime mortality rate hiding behind a green check. Only **24 build a window.**
+Parse passed **39** of 61. Fifteen die before drawing a pixel — runtime mortality hidden behind a green check. The causes are remarkably few:
+
+<div class="bm-wrap"><div class="bm-h">Runtime crash causes (15 parsing scripts that then threw)</div><div class="bm-bars"><div class="bm-brow"><div class="bm-blabel">Hallucinated API</div><div class="bm-btrack"><div class="bm-bfill" style="width:100%;background:#DC3545"></div></div><div class="bm-bval">6</div></div><div class="bm-brow"><div class="bm-blabel">Invalid GUI option</div><div class="bm-btrack"><div class="bm-bfill" style="width:67%;background:#F59E42"></div></div><div class="bm-bval">4</div></div><div class="bm-brow"><div class="bm-blabel">Wrong arg count</div><div class="bm-btrack"><div class="bm-bfill" style="width:33%;background:#F59E42"></div></div><div class="bm-bval">2</div></div><div class="bm-brow"><div class="bm-blabel">Hallucinated method</div><div class="bm-btrack"><div class="bm-bfill" style="width:33%;background:#F59E42"></div></div><div class="bm-bval">2</div></div><div class="bm-brow"><div class="bm-blabel">Void return as value</div><div class="bm-btrack"><div class="bm-bfill" style="width:17%;background:#A855F7"></div></div><div class="bm-bval">1</div></div></div></div>
+
+Eight of the fifteen — the hallucinated APIs and methods — are the same class of error: a perfectly-formed call to a function or method that AHK v2 does not define. `IsMap()` should be `value is Map`; `Gui.Edit` has no `SetSel`. A parser cannot catch these; only execution can.
 
 <img src="posts/img/clipboard-gallery.png" alt="Contact sheet of the 24 LLM clipboard formatters that build a working window" style="max-width:100%;border:1px solid #303030;border-radius:8px">
 
-Every crash parsed clean and then threw on launch. By cause:
+## The Dark-Mode Gap, Explained
 
-| Count | Runtime crash cause                                              |
-|-------|-----------------------------------------------------------------|
-| 6     | **Hallucinated API** — called a function that doesn't exist (`IsMap()`, `Exception()`) |
-| 4     | **Invalid GUI control option** string                           |
-| 2     | **Wrong argument count** to a function                          |
-| 2     | **Hallucinated method** — `Gui.Edit.SetSel()` (no such method)   |
-| 1     | **Void return used as a value** — `.Opt()` inside a property setter |
+Of the 24 running programs, only 5 render meaningfully dark and only 2 are fully dark. But here's the catch: **most of the light ones contain dark-mode code.** Dark mode in AHK v2 is two independent jobs, and models routinely do one and skip the other:
 
-The hallucination pattern is the killer. `IsMap()` is not an AHK built-in; the real test is `value is Map`. `Gui.Edit` has no `SetSel`. These are syntactically perfect calls to functions that don't exist, so the parser waves them through and the runtime throws the instant control reaches them. Two labs' models — [GPT-5 Codex](model.html?id=GPT-5_Codex) and [Gemini 2.5 Pro](model.html?id=Gemini_2-5_Pro) — independently invented the *same* `SetSel()` method.
+<div class="bm-wrap"><div class="bm-flow"><div class="bm-fb"><b>Client area</b>set <code>gui.BackColor</code> + each control's <code>Background</code> option</div><div class="bm-arrow">+</div><div class="bm-fb"><b>Title bar</b><code>DwmSetWindowAttribute(hwnd, 20, true)</code></div><div class="bm-arrow">=</div><div class="bm-fb bm-good"><b>Fully dark</b>20/20 — only GPT-5.5 Pro &amp; Extra do both</div></div></div>
 
-## The Dark-Mode Gap
-
-The prompt said dark mode. Here is how many of the 24 running programs actually delivered it on screen:
-
-- **2 fully dark** (20/20) — dark client *and* dark title bar: [GPT-5.5 Pro](model.html?id=GPT-5-5-Pro) and its Extra variant.
-- **3 partially dark** (15/20) — dark editor, but a stock light Windows title bar: [Qwen 3.7](model.html?id=Qwen_3-7), [Opus 4.7 Fast](model.html?id=Opus_4-7_Fast), [Opus 4.8 Fast](model.html?id=Opus_4-8_Fast).
-- **19 light** (≤4/20) — a white window despite the requirement.
-
-So **79% of the running programs ignored or fumbled the dark-mode requirement visually** — even though most of them *contain* dark-mode code that scores points on the rubric. Writing `DwmSetWindowAttribute(...)` earns the code point; getting the window to actually paint dark is a different skill, and only a handful have it. This gap is exactly why a screenshot belongs in the loop: "has dark-mode code" and "looks dark" are not the same claim. Each model's page shows its captured window and an itemized visual scorecard.
-
-## The Live OpenRouter Sweeps
-
-To pressure-test the folder with models that had never seen this prompt, I ran two sweeps live through OpenRouter — 24 models across a dozen providers, one user message, `temperature 0.2`, the AHK block extracted and saved into the folder. **22 returned code.** Of those:
-
-- **6 parsed.**
-- **1 ran** — [WizardLM 2 8x22B](model.html?id=WizardLM_2_8x22B).
-
-One. Every other live generation — Hermes 4 (405B *and* 70B), Mistral Large 3, Llama 3.3 70B, Nemotron 3 Super, Opus 4.8, and the rest — either failed to parse or crashed on launch. The runnable entries in the folder are the *pre-existing* ones, pasted from richer chat sessions. That gap is itself the finding: **single-turn, low-temperature API generation of niche-syntax code is dramatically more fragile than a curated chat output** — a 1-in-22 hit rate here. It was also pointed that both of Mistral's *coding-specialized* models, Codestral and Devstral, didn't even parse, while general models from the same lab did better.
-
-## The Class-as-Variable Trap
-
-Before runtime, 22 outputs never parsed at all. The most common single error is the one the prompt explicitly warned about. AHK identifiers are **case-insensitive**, so `main` and `Main` are the same name:
-
-```ahk
-main := Main()        ; throws: Class cannot be used as an output variable
-
-class Main {
-}
-```
-
-[Phi-4](model.html?id=Phi-4) and [ERNIE 4.5](model.html?id=ERNIE_4-5_300B) both wrote exactly `main := Main()`. [GLM-4.6](model.html?id=GLM_4-6) reproduced the prompt's *verbatim invalid example*, `clipboardEditor := ClipboardEditor()`. The passers just renamed the variable — `editor := ClipboardEditor()` — as instructed. The fix is one word; the warning wasn't enough to plant the reflex.
+Skip the second job and you get a dark editor stapled to a stock white Windows title bar — the **15/20 tier**: Qwen 3.7, Opus 4.7 Fast, Opus 4.8 Fast. Skip both and you get a white app that nonetheless earns "dark-mode-code-present" points on the rubric — the **≤4/20 tier**, 19 of the 24. This is the cleanest demonstration in the whole benchmark that *containing* a feature and *delivering* it are different claims, and only pixels tell them apart.
 
 ## Clean Code That Doesn't Run
 
-The runtime gate's sharpest lesson: *readability is not correctness.* Here is [Hermes 4 405B](model.html?id=Hermes_4_405B)'s base class — arguably the most elegant `ControlWrapper` in the whole folder, and a 95 on the code score:
+The runtime gate's sharpest lesson: *readability is not correctness.*
+
+<div class="bm-wrap"><div class="bm-flow"><div class="bm-fb"><b>Hermes 4 405B</b>code score <b style="color:#fff">95</b> — tied best</div><div class="bm-arrow">→</div><div class="bm-fb bm-bad"><b style="color:#e0727d">❌ crashes</b>calls <code>IsMap()</code> — no such function → rank 25</div></div><div class="bm-flow" style="margin-top:8px"><div class="bm-fb"><b>GPT-5.5 Pro</b>code score <b style="color:#fff">95</b> — tied best</div><div class="bm-arrow">→</div><div class="bm-fb bm-good"><b style="color:#7BC96F">✅ runs &amp; renders dark</b>every symbol exists → rank 1</div></div></div></div>
+
+Two identical code scores; opposite outcomes. Here is Hermes' base class — the most elegant `ControlWrapper` in the folder — and the one word that kills it:
 
 ```ahk
 class ControlWrapper {
-   Control := ""
    Options := Map()
    __New(options := "") {
-      this.Options := IsMap(options) ? options : Map()
+      this.Options := IsMap(options) ? options : Map()   ; IsMap() is not an AHK v2 function
    }
 }
 ```
 
-It reads beautifully. It also calls `IsMap()` — a function that **does not exist in AHK v2**. So it parses without complaint, scores 95, and throws `UnsetError` the instant `__New` runs. The prettiest base class in the benchmark never opens a window, and ranks 25th behind every program that does.
-
-Contrast the winner, [GPT-5.5 Pro](model.html?id=GPT-5-5-Pro), which treats transforms as data and uses only symbols that exist:
+The fix is `options is Map`. It reads as expert AHK and throws `UnsetError` the instant `__New` runs. Contrast the winner, which treats transforms as data and uses only symbols that exist:
 
 ```ahk
 this.transforms.Add("Upper", TextTransform("Upper", StrUpper))
 this.transforms.Add("Lower", TextTransform("Lower", StrLower))
 ```
 
-## Two Surprises
+## The Class-as-Variable Trap
 
-**Size is not correctness.** GPT-5.5 Pro's 721-line answer is the largest in the folder and the #1 result — yet it ships **undo with no redo**, a required feature simply absent. It runs, renders dark, and tops the board while quietly missing the spec.
+Before runtime, 22 outputs never parsed. The most common single error is the one the prompt explicitly warned about. AHK identifiers are **case-insensitive**, so `main` and `Main` are the same name:
 
-**Reasoning time bought nothing.** NVIDIA's [Nemotron 3 Super](model.html?id=Nemotron_3_Super_120B) spent 201 seconds — 5× the next-slowest — producing clean-parsing code that still crashed on an undefined variable. Extra deliberation polished the prose without fixing the one fact that mattered.
+```ahk
+main := Main()        ; throws: Class cannot be used as an output variable
+class Main {
+}
+```
+
+[Phi-4](model.html?id=Phi-4) and [ERNIE 4.5](model.html?id=ERNIE_4-5_300B) both wrote exactly `main := Main()`. [GLM-4.6](model.html?id=GLM_4-6) reproduced the prompt's *verbatim invalid example*. The passers just renamed the variable — `editor := ClipboardEditor()`. The fix is one word; the warning wasn't enough to plant the reflex.
+
+## The One-Shot Penalty
+
+To stress-test with fresh models, I ran two live OpenRouter sweeps — 24 models, a dozen providers, one user message at `temperature 0.2`. The result is its own finding:
+
+<div class="bm-wrap"><div class="bm-flow"><div class="bm-fb"><b>22</b>returned code</div><div class="bm-arrow">→</div><div class="bm-fb" style="border-left:3px solid #5B9FEF"><b>6</b>parsed</div><div class="bm-arrow">→</div><div class="bm-fb bm-good"><b>1</b>actually ran — WizardLM 2 8x22B</div></div></div>
+
+Hermes 4 (405B *and* 70B), Mistral Large 3, Llama 3.3 70B, Nemotron 3 Super, Opus 4.8 — all generated live, all broken. The folder's *runnable* entries are the pre-existing ones, pasted from richer chat sessions. The lesson isn't "these models are bad"; it's that **single-turn, low-temperature API generation of niche-syntax code is brittle** — context and iteration, not just model choice, decide whether it runs. (Both of Mistral's *coding-specialized* models, Codestral and Devstral, didn't even parse, while general models did better.)
 
 ## Complete Standings
 
@@ -200,31 +248,10 @@ All 61 outputs that emitted code, ranked by **Runs, then code score.** ✅ build
 
 The inversion at rank 25 is the whole argument: **Hermes 4 405B scores 95 — tied for the highest in the folder — and ranks 25th, behind every program that opens a window.**
 
-## Reproduce It
-
-Parse, then *run*, then look:
-
-```bash
-AutoHotkey64.exe /ErrorStdOut /validate "Model.ahk"   # exit 0 parses, 12 = syntax error
-```
-
-```powershell
-$p = Start-Process $exe -ArgumentList '/ErrorStdOut "Model.ahk"' -PassThru
-while (-not $p.HasExited -and $p.MainWindowHandle -eq 0) { Start-Sleep -m 250 }
-if ($p.MainWindowHandle -ne 0) { [Win32]::PrintWindow($h, $hdc, 2) }  # runs - capture it
-else { "crashed: exit $($p.ExitCode)" }                               # crashed
-```
-
-The captured PNG then feeds a pixel pass (background luminance, title-bar darkness) for the visual score. Generation posts `Prompt.md` to OpenRouter and writes each response into the folder named after the model — so the leaderboard grows itself every time a new model ships.
-
 ## Takeaways
 
-- **Parse-rate is a vanity metric.** 64% of outputs parse; 39% run; 3% nail the visual brief. A green `/validate` means the syntax is plausible, nothing more. Launch generated code before trusting it, and look at it before shipping it.
-
-- **Hallucinated APIs are the #1 runtime killer.** Six models called functions that don't exist; two invented a method. The code looks expert; the symbols are fiction — a failure mode both a linter and a parser miss.
-
-- **"Has the feature in code" ≠ "shows the feature on screen."** Most running GUIs contain dark-mode calls and still render light. Pixels are the only honest test of a visual requirement.
-
-- **One-shot API generation is brittle for niche syntax.** 1 of 22 live OpenRouter generations produced a runnable program. Context and iteration, not just model choice, decide whether it runs.
-
-- **Readability ≠ correctness.** The folder's most elegant base class scores 95 and never opens a window.
+- **Parse-rate is a vanity metric.** 64% parse; 39% run; 3% nail the visual brief. Launch generated code before trusting it, and look at it before shipping it.
+- **Hallucinated APIs are the #1 runtime killer.** Eight of fifteen crashes are calls to functions or methods that don't exist — invisible to a linter and a parser alike.
+- **"Has the feature in code" ≠ "shows the feature."** Most running GUIs contain dark-mode calls and still render light; the winners make the one DWM title-bar call the others skip.
+- **Families have personalities.** OpenAI finishes; Anthropic reliably runs but stops one call short of dark; Gemini writes clean code that crashes. Pick by the failure mode you can least afford.
+- **One-shot API generation is brittle for niche syntax.** 1 of 22 live generations ran. Context and iteration beat raw model choice.
