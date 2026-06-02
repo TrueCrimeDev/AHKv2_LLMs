@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-02T13:18:05.428Z",
-  "totalScripts": 317,
+  "lastUpdated": "2026-06-02T19:15:50.546Z",
+  "totalScripts": 319,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-05-30T09:12:51Z",
+      "lastModified": "2026-06-02T14:24:47Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 34,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 34 | Forks: 3\n; Last Updated: 5/30/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 34 | Forks: 3\n; Last Updated: 6/2/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -5349,13 +5349,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-06T20:16:06Z",
-      "lastModified": "2026-05-06T20:18:48Z",
+      "lastModified": "2026-06-02T15:19:40Z",
       "source": "github",
       "url": "https://github.com/BakerTheDozen/ahk-v2-move-resize",
       "stars": 0,
       "forks": 0,
       "owner": "BakerTheDozen",
-      "code": "```cpp\n; ============================================\n; Repository: BakerTheDozen/ahk-v2-move-resize\n; ============================================\n; URL: https://github.com/BakerTheDozen/ahk-v2-move-resize\n; Stars: 0 | Forks: 0\n; Last Updated: 5/6/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script to move and resize windows using Alt + Left/Right Click.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BakerTheDozen/ahk-v2-move-resize.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BakerTheDozen/ahk-v2-move-resize/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-v2-move-resize>\n\n; Example initialization\nclass AhkV2MoveResizeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-v2-move-resize loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2MoveResizeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BakerTheDozen/ahk-v2-move-resize\n; ============================================\n; URL: https://github.com/BakerTheDozen/ahk-v2-move-resize\n; Stars: 0 | Forks: 0\n; Last Updated: 6/2/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script to move and resize windows using Alt + Left/Right Click.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BakerTheDozen/ahk-v2-move-resize.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BakerTheDozen/ahk-v2-move-resize/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-v2-move-resize>\n\n; Example initialization\nclass AhkV2MoveResizeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-v2-move-resize loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2MoveResizeExample()\n```"
     },
     {
       "id": "github-1232368909",
@@ -6104,13 +6104,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-22T06:23:39Z",
-      "lastModified": "2026-06-01T14:46:41Z",
+      "lastModified": "2026-06-02T14:45:38Z",
       "source": "github",
       "url": "https://github.com/JeromRequillo/KeyTap-Pro",
       "stars": 0,
       "forks": 0,
       "owner": "JeromRequillo",
-      "code": "```cpp\n; ============================================\n; Repository: JeromRequillo/KeyTap-Pro\n; ============================================\n; URL: https://github.com/JeromRequillo/KeyTap-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/1/2026\n; License: MIT License\n;\n; Description:\n; KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JeromRequillo/KeyTap-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JeromRequillo/KeyTap-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyTap-Pro>\n\n; Example initialization\nclass KeytapProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyTap-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeytapProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: JeromRequillo/KeyTap-Pro\n; ============================================\n; URL: https://github.com/JeromRequillo/KeyTap-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/2/2026\n; License: MIT License\n;\n; Description:\n; KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JeromRequillo/KeyTap-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JeromRequillo/KeyTap-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyTap-Pro>\n\n; Example initialization\nclass KeytapProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyTap-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeytapProExample()\n```"
     },
     {
       "id": "github-1252531815",
@@ -6334,6 +6334,44 @@
       "forks": 0,
       "owner": "123cz789",
       "code": "```cpp\n; ============================================\n; Repository: 123cz789/LingoPin-AHK\n; ============================================\n; URL: https://github.com/123cz789/LingoPin-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 6/2/2026\n; License: MIT License\n;\n; Description:\n; 一款基于 AutoHotkey v2 的全场景中英智能双模转写与贴图翻译工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/123cz789/LingoPin-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/123cz789/LingoPin-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LingoPin-AHK>\n\n; Example initialization\nclass LingopinAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LingoPin-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LingopinAhkExample()\n```"
+    },
+    {
+      "id": "github-1257394795",
+      "title": "G502-Gestures",
+      "category": "GitHub Repository",
+      "description": "MX Master + Logitech Options stilusu gesztusgomb a Logitech G502-re (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-02T16:30:08Z",
+      "lastModified": "2026-06-02T16:30:20Z",
+      "source": "github",
+      "url": "https://github.com/damndotrun/G502-Gestures",
+      "stars": 0,
+      "forks": 0,
+      "owner": "damndotrun",
+      "code": "```cpp\n; ============================================\n; Repository: damndotrun/G502-Gestures\n; ============================================\n; URL: https://github.com/damndotrun/G502-Gestures\n; Stars: 0 | Forks: 0\n; Last Updated: 6/2/2026\n; License: Not specified\n;\n; Description:\n; MX Master + Logitech Options stilusu gesztusgomb a Logitech G502-re (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/damndotrun/G502-Gestures.git\n;\n; Option 2: Download ZIP\n;   https://github.com/damndotrun/G502-Gestures/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <G502-Gestures>\n\n; Example initialization\nclass G502GesturesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"G502-Gestures loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := G502GesturesExample()\n```"
+    },
+    {
+      "id": "github-1257314641",
+      "title": "Asciify",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey v2.0 script that replaces all typographical punctuation marks in the selected text with programming punctuation marks.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-02T15:03:23Z",
+      "lastModified": "2026-06-02T15:10:56Z",
+      "source": "github",
+      "url": "https://github.com/sakulmore/Asciify",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sakulmore",
+      "code": "```cpp\n; ============================================\n; Repository: sakulmore/Asciify\n; ============================================\n; URL: https://github.com/sakulmore/Asciify\n; Stars: 0 | Forks: 0\n; Last Updated: 6/2/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2.0 script that replaces all typographical punctuation marks in the selected text with programming punctuation marks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sakulmore/Asciify.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sakulmore/Asciify/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Asciify>\n\n; Example initialization\nclass AsciifyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Asciify loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsciifyExample()\n```"
     }
   ]
 }
