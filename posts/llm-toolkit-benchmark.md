@@ -1,5 +1,7 @@
 # The Clipboard Toolkit: 10 Coding Models, 12 Transforms
 
+📋 All four benchmark prompts are on the **[Prompts page](prompts.html)**.
+
 A second AHK v2 benchmark, built to fix a problem with the first reasoning test: that one was all-or-nothing, and a single trap zeroed everyone. This one is deliberately **broad and shallow** — twelve independent text transforms over the clipboard, each easy on its own. The spread comes from *how many* a model gets right, so models land across a gradient instead of pass/fail.
 
 The task: a clipboard transform toolkit GUI exposing twelve `TF_*(text)` functions — five easy, four mid, three hard. Each is graded **functionally** against hidden inputs (feed text, call the function, assert the output), so "it runs" and "it's correct" are measured separately. A reference implementation scores 24/24, so the spec is provably solvable.

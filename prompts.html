@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Benchmark Prompts - AHKv2 &amp; LLMs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=mobile-2026-06">
+  <style>
+    .pr-main { max-width: 880px; width: 100%; margin: 0 auto; padding: 20px 24px; flex: 1; }
+    .pr-head h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.3px; margin: 0 0 6px; }
+    .pr-head p { color: var(--text-secondary); font-size: 14.5px; line-height: 1.7; margin: 0 0 8px; max-width: 70ch; }
+    .back-link { display:inline-flex; gap:6px; font-size:13px; color:var(--text-secondary); margin-bottom:14px; font-weight:500; }
+    .back-link:hover { color: var(--accent); }
+    .pr-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; margin: 18px 0; overflow: hidden; }
+    .pr-cardhead { display:flex; flex-wrap:wrap; align-items:baseline; gap:10px; padding: 16px 18px; border-bottom: 1px solid var(--border-muted); }
+    .pr-cardhead h2 { font-size: 17px; margin: 0; color: #fff; }
+    .pr-tag { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .8px; padding: 3px 9px; border-radius: 5px; background:#1a1a1a; border:1px solid var(--border); color:#a9cdf5; }
+    .pr-cardhead .desc { flex: 1 1 100%; font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+    .pr-cardhead .raw { font-size: 12.5px; font-weight: 600; color: var(--accent); }
+    .pr-card pre { margin: 0; max-height: 460px; overflow: auto; background: #0f0f0f; padding: 16px 18px; font-family: 'JetBrains Mono', monospace; font-size: 12.5px; line-height: 1.6; color: #c8c8c8; white-space: pre; }
+    details > summary { list-style: none; cursor: pointer; padding: 11px 18px; font-size: 13px; color: var(--text-secondary); font-weight: 500; user-select: none; }
+    details > summary:hover { color: #fff; }
+    details[open] > summary { border-bottom: 1px solid var(--border-muted); }
+    summary::-webkit-details-marker { display: none; }
+    @media (max-width: 680px) { .pr-main { padding: 14px 12px; } .pr-head h1 { font-size: 21px; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="logo.svg" alt="AHK" width="28" height="28" style="border-radius:7px;display:block"><span class="logo-text">v2 &amp; LLMs</span></a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="post.html?slug=llm-clipboard-benchmark" class="nav-link">Benchmark</a>
+        <a href="prompts.html" class="nav-link" style="color:var(--accent)">Prompts</a>
+        <a href="wiki.html" class="nav-link">Wiki</a>
+        <a href="playground.html" class="nav-link">Playground</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pr-main">
+    <a class="back-link" href="post.html?slug=llm-clipboard-benchmark">&larr; Back to the benchmark</a>
+    <div class="pr-head">
+      <h1>The Benchmark Prompts</h1>
+      <p>The exact prompts fed to every model. Each is a self-contained AHK v2 agent harness — a strict rule block, a tiered reasoning system, an eight-item diagnostic checklist, and a concrete build target. The only thing that changes between runs is the build target at the bottom.</p>
+    </div>
+    <div id="cards"></div>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2025 AHKv2 &amp; LLMs</span>
+    <div class="footer-links"><a href="index.html">Home</a><a href="https://github.com/TrueCrimeDev/AHKv2_LLMs">GitHub</a></div>
+  </footer>
+
+  <script>
+    const PROMPTS = [
+      { file: 'prompts/Prompt.md',          name: 'Primary — GUI Clipboard Formatter', tag: 'Primary', desc: 'Build a clipboard text-formatter GUI: three case transforms, multi-step undo/redo, live counts, a ControlWrapper inheritance hierarchy. The main benchmark.' },
+      { file: 'prompts/Prompt_Toolkit.md',  name: 'Toolkit — 12 Transforms',           tag: 'Toolkit', desc: 'Twelve independent TF_*(text) transforms over the clipboard, easy floor to hard tail (Slugify, NaturalSort, Base64). Graded functionally for a smooth spread.' },
+      { file: 'prompts/Prompt_Reason.md',   name: 'Reasoning — Expression Evaluator',   tag: 'Reasoning', desc: 'A from-scratch recursive-descent math evaluator with correct precedence and associativity, wired to the clipboard. Built-in eval forbidden.' },
+      { file: 'prompts/Prompt_Fallback.md', name: 'Fallback — Stricter Retry',          tag: 'Fallback', desc: 'A louder, more explicit, simpler retry given to any model that failed the primary prompt. Hammers the exact failure modes.' },
+    ];
+    const esc = s => s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+    const host = document.getElementById('cards');
+    (async () => {
+      for (const p of PROMPTS) {
+        let text = '';
+        try { const r = await fetch(p.file); text = r.ok ? await r.text() : '(could not load ' + p.file + ')'; }
+        catch (e) { text = '(error loading ' + p.file + ')'; }
+        const card = document.createElement('div');
+        card.className = 'pr-card';
+        card.innerHTML = `
+          <div class="pr-cardhead">
+            <h2>${esc(p.name)}</h2>
+            <span class="pr-tag">${esc(p.tag)}</span>
+            <a class="raw" href="${p.file}" target="_blank" rel="noopener">raw &nearr;</a>
+            <div class="desc">${esc(p.desc)}</div>
+          </div>
+          <details><summary>Show full prompt (${(text.length/1024).toFixed(1)} KB)</summary><pre></pre></details>`;
+        card.querySelector('pre').textContent = text;
+        host.appendChild(card);
+      }
+    })();
+  </script>
+</body>
+</html>
