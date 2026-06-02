@@ -109,7 +109,6 @@
           ${badge(runState[1], `${runState[2]} <b>${runState[0]}</b>`)}
           ${badge(m.parse?ACCENT.run:ACCENT.fail, `Parse <b>${m.parse?'PASS':'FAIL'}</b>`)}
           ${badge('#5B9FEF', `Code score <b>${m.score}</b>/100`)}
-          ${m.visual!=null ? badge('#A855F7', `Visual <b>${m.visual}</b>/20`) : ''}
           ${m.rank ? badge('#22D3EE', `Rank <b>#${m.rank}</b>`) : ''}
           ${m.lines ? badge('#303030', `${m.lines} lines`) : ''}
         </div>`;
@@ -118,18 +117,8 @@
         html += `<div class="panel"><h2>Runtime crash</h2><div class="err">${esc(m.runtime_err)}</div></div>`;
       }
 
-      html += `<div class="grid2">`;
-      // left: code score breakdown
       html += `<div class="panel"><h2>Code scorecard</h2>${critRows(m.score_items, m.score_maxes)}
         <div class="totline"><span class="lbl" style="color:#b0b0b0">Total</span><span class="n">${m.score}<span style="font-size:14px;color:#808080">/100</span></span></div></div>`;
-      // right: visual or screenshot
-      if (m.visual!=null && m.visual_items) {
-        html += `<div class="panel"><h2>Visual scorecard</h2>${critRows(m.visual_items, m.visual_maxes)}
-          <div class="totline"><span class="lbl" style="color:#b0b0b0">Total</span><span class="n">${m.visual}<span style="font-size:14px;color:#808080">/20</span></span></div></div>`;
-      } else {
-        html += `<div class="panel"><h2>Visual</h2><p style="color:var(--text-muted);font-size:13.5px">No window — nothing to render. ${m.parse?'The program parses but crashes before drawing.':'The source does not parse.'}</p></div>`;
-      }
-      html += `</div>`;
 
       if (m.screenshot) {
         html += `<div class="panel shot-wrap"><h2>Captured window</h2><img class="shot" src="${esc(m.screenshot)}" alt="${esc(m.display)} GUI"><div class="cap">Launched on the v2.1-alpha.30+Console fork, sample clipboard preloaded, captured via PrintWindow.</div></div>`;
@@ -141,7 +130,7 @@
         let head = fb.recovered
           ? `<div class="err" style="background:rgba(123,201,111,.08);border-left-color:#7BC96F;color:#aee0a3">✅ Recovered — failed the primary prompt, but the simpler fallback prompt produced a working window.</div>`
           : `<div style="font-size:13px;color:#9a9a9a;margin-bottom:10px">Re-run with the stricter fallback prompt — still ${fb.runs===false?'crashes':'fails to parse'}.</div>`;
-        let body = `<div class="badges" style="margin-bottom:10px">${badge(fbRun[1],`${fbRun[2]} <b>${fbRun[0]}</b>`)}${badge(fb.parse?ACCENT.run:ACCENT.fail,`Parse <b>${fb.parse?'PASS':'FAIL'}</b>`)}${badge('#5B9FEF',`Code <b>${fb.score}</b>/100`)}${fb.visual!=null?badge('#A855F7',`Visual <b>${fb.visual}</b>/20`):''}</div>`;
+        let body = `<div class="badges" style="margin-bottom:10px">${badge(fbRun[1],`${fbRun[2]} <b>${fbRun[0]}</b>`)}${badge(fb.parse?ACCENT.run:ACCENT.fail,`Parse <b>${fb.parse?'PASS':'FAIL'}</b>`)}${badge('#5B9FEF',`Code <b>${fb.score}</b>/100`)}</div>`;
         if (fb.runtime_err) body += `<div class="err">${esc(fb.runtime_err)}</div>`;
         if (fb.screenshot) body += `<img class="shot" style="margin-top:10px" src="${esc(fb.screenshot)}" alt="${esc(m.display)} fallback GUI">`;
         if (fb.code) body += `<details style="margin-top:10px"><summary style="cursor:pointer;color:#9a9a9a;font-size:13px">Fallback source (${fb.lines||0} lines)</summary><pre style="margin-top:8px"><code class="language-ahk2" id="fbsrc"></code></pre></details>`;
