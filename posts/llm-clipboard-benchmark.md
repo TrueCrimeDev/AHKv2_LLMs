@@ -1,144 +1,106 @@
-# One Prompt, 50 Models: An AHK v2 Clipboard-Formatter Benchmark
+# One Prompt, 60 Models: An AHK v2 Clipboard-Formatter Benchmark
 
-I have a folder of AutoHotkey v2 scripts named after the model that wrote each one — `GPT-5-5-Pro.ahk`, `Gemini_3_Pro.ahk`, `DeepSeek_V4.ahk`, and dozens more. Every file is the same model answering the **same prompt**. This post scores all of them on two hard signals, then adds a fresh 12-model sweep run live through OpenRouter.
+I have a folder of AutoHotkey v2 scripts named after the model that wrote each one — `GPT-5-5-Pro.ahk`, `Gemini_3_Pro.ahk`, `Hermes_4_405B.ahk`, and five dozen more. Every file is the same model answering the **same prompt**. This post grades all of them on three escalating signals — does it *parse*, does it *run*, does it *look right* — then adds two live multi-provider sweeps through OpenRouter.
 
-The result is a leaderboard, a failure taxonomy, and one very consistent lesson: the mistake a prompt *explicitly forbids* is still the mistake models make most.
+The headline up front: of **61 outputs, 39 parse, only 24 build a working window, and just 2 render the dark theme the prompt demanded.** Each filter throws away roughly a third of the field. **Every model below has its own page** — click any name for the full source, an itemized scorecard, the captured window, and a per-model breakdown.
 
 ## The Prompt
 
-Every model received one strict spec: build a **dark-mode clipboard text-formatter** as a single dependency-free AHK v2 GUI. The prompt is not a one-liner — it is a full agent harness with a `P0_CRITICAL` rule block, a tiered reasoning system, and an eight-item `DIAGNOSTIC_CHECKLIST` the model must clear before emitting code.
+Every model received one strict spec: build a **dark-mode clipboard text-formatter** as a single dependency-free AHK v2 GUI. The prompt is a full agent harness with a `P0_CRITICAL` rule block, a tiered reasoning system, and an eight-item `DIAGNOSTIC_CHECKLIST`. The build target is specific and gradeable: load the clipboard on startup; three transforms (`StrUpper`/`StrLower`/`StrTitle`); multi-step undo + redo on `Ctrl+Z`/`Ctrl+Y`; a live char/line counter; a resizable, **dark-themed**, `Escape`-to-close window; and a `ControlWrapper` base class with two overriding subclasses.
 
-The build target is specific enough to be gradeable:
-
-- Load the current clipboard into a multi-line edit on startup.
-- Three transforms — `StrUpper`, `StrLower`, `StrTitle` — that rewrite the edit and the clipboard.
-- **Undo and Redo** with full multi-step history, bound to `Ctrl+Z` / `Ctrl+Y`, disabled via `.Opt()` when empty.
-- A live status line with character and line counts.
-- A resizable, DPI-aware, dark-themed window with an `Escape`-to-close handler.
-- A `ControlWrapper` base class plus **two derived classes** that each override at least one method — used for real, not decoration.
-
-Crucially, the prompt's `P0_CRITICAL` section spends an entire block warning about one AHK-specific trap:
-
-> Reusing the class name as the storage variable throws `Class 'X' cannot be used as an output variable`. The variable name must differ from the class name, case-insensitive.
-> INVALID: `clipboardEditor := ClipboardEditor()`
-> VALID: `editor := ClipboardEditor()`
-
-Hold that thought.
+Its `P0_CRITICAL` block even spends a paragraph on one AHK trap: reusing the class name as the storage variable throws `Class 'X' cannot be used as an output variable`, because identifiers are case-insensitive. Hold that thought.
 
 ## How Scoring Works
 
-Each output is judged on two axes, validated against the actual interpreter the project targets — the **v2.1-alpha.30+Console** fork.
+Three signals of increasing strictness, all against the **v2.1-alpha.30+Console** fork.
 
-**1. Parse validation (40 pts, hard gate).** Every script runs through `AutoHotkey64.exe /validate`, a parse-only load. Exit `0` means it parses; exit `12` means a load-time syntax error with a line number. This is binary and objective — no opinion involved. It does *not* execute the GUI, so it catches syntax and structural errors but not runtime logic bugs.
+**1. Parse (`/validate`).** A parse-only load: exit `0` parses, exit `12` is a syntax error. Objective, but weak — it never runs a line.
 
-**2. Rule + spec adherence (60 pts, automated heuristic).** Regex checks for the `DIAGNOSTIC_CHECKLIST` items (correct header, `Map()` storage, no `=> { multi-line }` blocks, no empty `catch {}`, `.Bind(this)` callbacks, no JS contamination) and the build-target features (inheritance depth, the three transforms, undo+redo, dark mode, resize, escape, `.Opt()`, live counts).
+**2. Runs (launch + capture).** Each parsing script is *launched* under `/ErrorStdOut`. A PowerShell harness waits for the main window, captures it with `PrintWindow` (occlusion-proof), then kills it. Builds a window → ✅. Throws before drawing → ❌. This separates "looks like AHK" from "is a program."
 
-The second axis is a heuristic and is labeled as such. It under-credits very abstracted code — for example, a model that passes `StrUpper` as a bare function reference into a registry rather than calling `StrUpper(...)` directly. Where a number looked unfair I read the source by hand. Treat the parse column as fact and the score column as a strong-but-imperfect proxy.
+**3. Visual (pixel analysis).** Each captured window is scored 0–20: dark background, dark title bar, dark-mode consistency, sane proportions, visible content — measured from the actual pixels. The prompt *required* dark mode, so this checks whether the model delivered it on screen, not just in the source.
+
+Plus a **code score (0–100)** — an automated `DIAGNOSTIC_CHECKLIST` pass (Map storage, `.Bind(this)`, inheritance, transforms, undo/redo, no empty catch, etc.). The leaderboard sorts by **Runs first, then code score.** A crash on launch ranks below every program that opens, however clean its source.
 
 ## The Leaderboard
 
-Top of the table, sorted by score. `src` is line count; `parse` is the hard interpreter gate.
+The top of the field — all ✅, all open a window. Click a model for its page.
 
-| #  | Model                  | src | parse | score |
-|----|------------------------|-----|-------|-------|
-| 1  | GPT-5.5 Pro            | 721 | PASS  | 95    |
-| 2  | GPT-5.5 Pro (Extra)    | 260 | PASS  | 95    |
-| 3  | Hermes 4 405B 🆕        | 202 | PASS  | 95    |
-| 4  | GPT-5.2 Pro (v2)       | 324 | PASS  | 92    |
-| 5  | Opus 4.8 🆕             | 278 | PASS  | 92    |
-| 6  | Qwen 3.7               | 229 | PASS  | 92    |
-| 7  | Alpha Owl              | 251 | PASS  | 90    |
-| 8  | Llama 3.3 70B 🆕        | 154 | PASS  | 90    |
-| 9  | Mistral Large 3 🆕      | 196 | PASS  | 90    |
-| 10 | Nemotron 3 Super 120B 🆕| 200 | PASS  | 90    |
-| 11 | Opus 4.7 (Fast)        | 195 | PASS  | 88    |
-| 12 | Opus 4.8 (Fast)        | 309 | PASS  | 88    |
-| 13 | Gemini 3.5 Flash       | 176 | PASS  | 86    |
-| 14 | DeepSeek V4            | 164 | PASS  | 83    |
-| 15 | Gemini 3.1 Flash Lite  | 102 | PASS  | 83    |
+| #  | Model                  | runs | code | visual |
+|----|------------------------|:----:|:----:|:------:|
+| 1  | [GPT-5.5 Pro](model.html?id=GPT-5-5-Pro) | ✅ | 95 | 20/20 |
+| 2  | [GPT-5.5 Pro (Extra)](model.html?id=GPT-5-5-Pro_Extra) | ✅ | 95 | 20/20 |
+| 3  | [GPT-5.2 Pro (v2)](model.html?id=GPT-5-2-Pro2) | ✅ | 92 | 4/20 |
+| 4  | [Qwen 3.7](model.html?id=Qwen_3-7) | ✅ | 92 | 15/20 |
+| 5  | [Alpha Owl](model.html?id=Alpha_Owl) | ✅ | 90 | 4/20 |
+| 6  | [WizardLM 2 8x22B 🆕](model.html?id=WizardLM_2_8x22B) | ✅ | 90 | 4/20 |
+| 7  | [Opus 4.7 (Fast)](model.html?id=Opus_4-7_Fast) | ✅ | 88 | 15/20 |
+| 8  | [Opus 4.8 (Fast)](model.html?id=Opus_4-8_Fast) | ✅ | 88 | 15/20 |
+| 9  | [DeepSeek V4](model.html?id=DeepSeek_V4) | ✅ | 83 | 4/20 |
+| 10 | [Gemini 3.1 Flash Lite](model.html?id=Gemini_3-1_Flash_Lite) | ✅ | 83 | 4/20 |
+| 11 | [Sonnet 4.6](model.html?id=Sonnet_4-6) | ✅ | 80 | 4/20 |
+| 12 | [Grok 4.2](model.html?id=Grok_4-2_Test) | ✅ | 78 | 4/20 |
+| 13 | [GPT-5.4 nano](model.html?id=GPT-5-4-nano) | ✅ | 77 | 4/20 |
 
-A three-way tie at the top: GPT-5.5 Pro, its "Extra" variant, and — straight out of the live OpenRouter sweep — **Hermes 4 405B**, an open-weights model holding its own against frontier closed models on a strict AHK v2 spec. One rung down at 92, **Opus 4.8** (run live for this post) ties GPT-5.2 Pro and Qwen 3.7 with a tight 278-line answer — a reminder that the score rewards completeness over column inches.
+`GPT-5.5 Pro` takes it outright — the only family to both top the code score and fully render the dark theme:
 
-Across all **51 model outputs that produced code, 37 (73%) parsed clean**. Three more models returned nothing usable (empty file). The bottom third is where it gets interesting. The full 1–51 standings — including three entries running under internal codenames (Alpha Owl, Spectre, Cognito) — are tabulated in the **Complete Standings** section at the end of this post.
+<img src="posts/img/gpt55pro-gui.png" alt="GPT-5.5 Pro clipboard formatter, fully dark theme, sample text loaded" style="max-width:100%;border:1px solid #303030;border-radius:8px">
 
-## The Live OpenRouter Sweep
+The full 1–61 standings — every link live — are at the end.
 
-To pressure-test the folder with models that had never seen this prompt, I ran it through twelve models live via OpenRouter — one user message, `temperature 0.2`, the AHK block extracted from each response and saved straight into the folder.
+## Does It Actually Run?
 
-| Model                  | Provider     | Latency | Out tokens | Parse |
-|------------------------|--------------|---------|-----------|-------|
-| Hermes 4 405B          | Nous         | 40 s    | 1658      | PASS  |
-| Mistral Large 3        | Mistral      | 22 s    | 1504      | PASS  |
-| Llama 3.3 70B          | Meta         | 36 s    | 1373      | PASS  |
-| Nemotron 3 Super 120B  | NVIDIA       | 201 s   | 1659      | PASS  |
-| Codestral 2508         | Mistral      | 8 s     | 1460      | FAIL  |
-| Devstral 2512          | Mistral      | 33 s    | 1468      | FAIL  |
-| Command A              | Cohere       | 17 s    | 1282      | FAIL  |
-| Jamba Large 1.7        | AI21         | 27 s    | 1719      | FAIL  |
-| ERNIE 4.5 300B         | Baidu        | 73 s    | 1926      | FAIL  |
-| Llama 4 Maverick       | Meta         | 22 s    | 1128      | FAIL  |
-| Nova Premier           | Amazon       | 41 s    | 1352      | FAIL  |
-| Phi-4                  | Microsoft    | 16 s    | 1128      | FAIL  |
+Parse-validation passed **39** of 61 outputs. Launch them, and **15 die before drawing a pixel** — a runtime mortality rate hiding behind a green check. Only **24 build a window.**
 
-**Four of twelve parsed clean** — and the most pointed result is that both of Mistral's *coding-specialized* models, Codestral and Devstral, failed, while their general-purpose Mistral Large 3 sailed through at 90. A "coder" label is trained on mainstream languages; AHK v2's alpha syntax is far enough off the beaten path that general reasoning beat narrow code tuning here.
+<img src="posts/img/clipboard-gallery.png" alt="Contact sheet of the 24 LLM clipboard formatters that build a working window" style="max-width:100%;border:1px solid #303030;border-radius:8px">
 
-`anthropic/claude-opus-4.8` was added through the same pipeline on request: 3377 output tokens in 32 seconds, parsed clean, and landed at **#5 overall (92)** — the strongest single OpenRouter generation in this run after Hermes 4.
+Every crash parsed clean and then threw on launch. By cause:
 
-## What Separated Pass from Fail
+| Count | Runtime crash cause                                              |
+|-------|-----------------------------------------------------------------|
+| 6     | **Hallucinated API** — called a function that doesn't exist (`IsMap()`, `Exception()`) |
+| 4     | **Invalid GUI control option** string                           |
+| 2     | **Wrong argument count** to a function                          |
+| 2     | **Hallucinated method** — `Gui.Edit.SetSel()` (no such method)   |
+| 1     | **Void return used as a value** — `.Opt()` inside a property setter |
 
-Collapsing every parse failure to its first error message produces a remarkably short list:
+The hallucination pattern is the killer. `IsMap()` is not an AHK built-in; the real test is `value is Map`. `Gui.Edit` has no `SetSel`. These are syntactically perfect calls to functions that don't exist, so the parser waves them through and the runtime throws the instant control reaches them. Two labs' models — [GPT-5 Codex](model.html?id=GPT-5_Codex) and [Gemini 2.5 Pro](model.html?id=Gemini_2-5_Pro) — independently invented the *same* `SetSel()` method.
 
-| Count | Load-time error                                        |
-|-------|--------------------------------------------------------|
-| 4     | `This Class cannot be used as an output variable`      |
-| 4     | (empty file / no output)                               |
-| 3     | `Not a valid method, class or property definition`     |
-| 2     | `This line does not contain a recognized action`       |
-| 1     | `Invalid assignment`                                   |
-| 1     | `Missing ")"`                                           |
-| 1     | `This parameter declaration conflicts...`              |
-| 1     | `Missing comma`                                         |
+## The Dark-Mode Gap
 
-The single most common *syntax* failure is the one the prompt devoted a whole block to preventing.
+The prompt said dark mode. Here is how many of the 24 running programs actually delivered it on screen:
+
+- **2 fully dark** (20/20) — dark client *and* dark title bar: [GPT-5.5 Pro](model.html?id=GPT-5-5-Pro) and its Extra variant.
+- **3 partially dark** (15/20) — dark editor, but a stock light Windows title bar: [Qwen 3.7](model.html?id=Qwen_3-7), [Opus 4.7 Fast](model.html?id=Opus_4-7_Fast), [Opus 4.8 Fast](model.html?id=Opus_4-8_Fast).
+- **19 light** (≤4/20) — a white window despite the requirement.
+
+So **79% of the running programs ignored or fumbled the dark-mode requirement visually** — even though most of them *contain* dark-mode code that scores points on the rubric. Writing `DwmSetWindowAttribute(...)` earns the code point; getting the window to actually paint dark is a different skill, and only a handful have it. This gap is exactly why a screenshot belongs in the loop: "has dark-mode code" and "looks dark" are not the same claim. Each model's page shows its captured window and an itemized visual scorecard.
+
+## The Live OpenRouter Sweeps
+
+To pressure-test the folder with models that had never seen this prompt, I ran two sweeps live through OpenRouter — 24 models across a dozen providers, one user message, `temperature 0.2`, the AHK block extracted and saved into the folder. **22 returned code.** Of those:
+
+- **6 parsed.**
+- **1 ran** — [WizardLM 2 8x22B](model.html?id=WizardLM_2_8x22B).
+
+One. Every other live generation — Hermes 4 (405B *and* 70B), Mistral Large 3, Llama 3.3 70B, Nemotron 3 Super, Opus 4.8, and the rest — either failed to parse or crashed on launch. The runnable entries in the folder are the *pre-existing* ones, pasted from richer chat sessions. That gap is itself the finding: **single-turn, low-temperature API generation of niche-syntax code is dramatically more fragile than a curated chat output** — a 1-in-22 hit rate here. It was also pointed that both of Mistral's *coding-specialized* models, Codestral and Devstral, didn't even parse, while general models from the same lab did better.
 
 ## The Class-as-Variable Trap
 
-AHK identifiers are **case-insensitive**. So `main` and `Main` are the same name. Write this:
+Before runtime, 22 outputs never parsed at all. The most common single error is the one the prompt explicitly warned about. AHK identifiers are **case-insensitive**, so `main` and `Main` are the same name:
 
 ```ahk
-main := Main()
+main := Main()        ; throws: Class cannot be used as an output variable
 
 class Main {
-    ; ...
 }
 ```
 
-…and the interpreter throws `This Class cannot be used as an output variable` on line 4, because you just tried to assign into the class's own name. The prompt warns about this explicitly. Phi-4 and ERNIE 4.5 both wrote exactly `main := Main()` and died on it.
+[Phi-4](model.html?id=Phi-4) and [ERNIE 4.5](model.html?id=ERNIE_4-5_300B) both wrote exactly `main := Main()`. [GLM-4.6](model.html?id=GLM_4-6) reproduced the prompt's *verbatim invalid example*, `clipboardEditor := ClipboardEditor()`. The passers just renamed the variable — `editor := ClipboardEditor()` — as instructed. The fix is one word; the warning wasn't enough to plant the reflex.
 
-GLM-4.6 went further and reproduced the prompt's *verbatim invalid example*:
+## Clean Code That Doesn't Run
 
-```ahk
-clipboardEditor := ClipboardEditor()
-
-class ClipboardEditor {
-    ; ...
-}
-```
-
-That is character-for-character the line the prompt labels `INVALID`. The models that passed simply renamed the variable — `editor := ClipboardEditor()` — exactly as instructed. The fix is one word; recognizing that you need it is the hard part, and a warning in the prompt was not enough to plant the reflex.
-
-## Patterns That Won
-
-The high scorers shared an ergonomic instinct: treat the transforms as **data**, not branches. GPT-5.5 Pro built a registry and dropped the built-ins straight in as function objects:
-
-```ahk
-this.transforms.Add("Upper", TextTransform("Upper", StrUpper))
-this.transforms.Add("Lower", TextTransform("Lower", StrLower))
-```
-
-No `if/else` ladder, no duplicated wiring — adding a transform is one line. (This is also the pattern a naive regex under-scores, because `StrUpper` never appears with a trailing `(`.)
-
-Hermes 4 405B, the top open-weights finisher, nailed the part most models fumble — a genuinely *useful* base class whose derived types override real behavior rather than existing for show:
+The runtime gate's sharpest lesson: *readability is not correctness.* Here is [Hermes 4 405B](model.html?id=Hermes_4_405B)'s base class — arguably the most elegant `ControlWrapper` in the whole folder, and a 95 on the code score:
 
 ```ahk
 class ControlWrapper {
@@ -147,104 +109,122 @@ class ControlWrapper {
    __New(options := "") {
       this.Options := IsMap(options) ? options : Map()
    }
-   Opt(options) {
-      if IsMap(options)
-         for option, value in options
-            this.Control.Opt(option, value)
-      else
-         this.Control.Opt(options)
-   }
-}
-
-class EditWrap extends ControlWrapper {
-   ; overrides Create / value handling
 }
 ```
 
-That `Map()`-or-string `Opt()` overload is the kind of small, correct ergonomics the prompt rewards.
+It reads beautifully. It also calls `IsMap()` — a function that **does not exist in AHK v2**. So it parses without complaint, scores 95, and throws `UnsetError` the instant `__New` runs. The prettiest base class in the benchmark never opens a window, and ranks 25th behind every program that does.
+
+Contrast the winner, [GPT-5.5 Pro](model.html?id=GPT-5-5-Pro), which treats transforms as data and uses only symbols that exist:
+
+```ahk
+this.transforms.Add("Upper", TextTransform("Upper", StrUpper))
+this.transforms.Add("Lower", TextTransform("Lower", StrLower))
+```
 
 ## Two Surprises
 
-**Size is not correctness.** GPT-5.5 Pro's 721-line answer is by a wide margin the largest in the folder, with a full transform registry and a `TextHistory` class. It still **shipped undo with no redo** — a required feature, simply absent. Length signaled ambition, not completeness; the automated check caught the gap that a skim would miss.
+**Size is not correctness.** GPT-5.5 Pro's 721-line answer is the largest in the folder and the #1 result — yet it ships **undo with no redo**, a required feature simply absent. It runs, renders dark, and tops the board while quietly missing the spec.
 
-**The 200-second outlier.** NVIDIA's Nemotron 3 Super spent 201 seconds reasoning — 5× the next-slowest — to land a clean, 90-scoring result. On a niche-syntax task, heavy deliberation paid off where fast coder models stumbled.
+**Reasoning time bought nothing.** NVIDIA's [Nemotron 3 Super](model.html?id=Nemotron_3_Super_120B) spent 201 seconds — 5× the next-slowest — producing clean-parsing code that still crashed on an undefined variable. Extra deliberation polished the prose without fixing the one fact that mattered.
 
 ## Complete Standings
 
-All 51 model outputs that emitted code, ranked. `src` is line count, `parse` is the hard interpreter gate, `score` is the 100-point composite. 🆕 marks the live OpenRouter sweep; `DNF` rows returned an empty file.
+All 61 outputs that emitted code, ranked by **Runs, then code score.** ✅ builds a window · ❌ parses but crashes · `—` never parsed. 🆕 = live OpenRouter sweep. Every name links to its page.
 
-| # | Model | src | parse | score |
-|---|-------|-----|-------|-------|
-| 1 | GPT-5.5 Pro | 721 | PASS | 95 |
-| 2 | GPT-5.5 Pro (Extra) | 260 | PASS | 95 |
-| 3 | Hermes 4 405B 🆕 | 202 | PASS | 95 |
-| 4 | GPT-5.2 Pro (v2) | 324 | PASS | 92 |
-| 5 | Opus 4.8 🆕 | 278 | PASS | 92 |
-| 6 | Qwen 3.7 | 229 | PASS | 92 |
-| 7 | Alpha Owl | 251 | PASS | 90 |
-| 8 | Llama 3.3 70B 🆕 | 154 | PASS | 90 |
-| 9 | Mistral Large 3 🆕 | 196 | PASS | 90 |
-| 10 | Nemotron 3 Super 120B 🆕 | 200 | PASS | 90 |
-| 11 | Opus 4.7 (Fast) | 195 | PASS | 88 |
-| 12 | Opus 4.8 (Fast) | 309 | PASS | 88 |
-| 13 | Gemini 3.5 Flash | 176 | PASS | 86 |
-| 14 | DeepSeek V4 | 164 | PASS | 83 |
-| 15 | Gemini 3.1 Flash Lite | 102 | PASS | 83 |
-| 16 | Sonnet 4.6 | 136 | PASS | 80 |
-| 17 | Qwen 3.6 | 85 | PASS | 79 |
-| 18 | Grok 4.2 | 299 | PASS | 78 |
-| 19 | GPT-5.4 nano | 142 | PASS | 77 |
-| 20 | GPT-5 Codex | 72 | PASS | 77 |
-| 21 | Gemini 2.5 Pro | 59 | PASS | 77 |
-| 22 | KAT-Coder Pro v2 | 247 | PASS | 76 |
-| 23 | KAT-Coder | 92 | PASS | 76 |
-| 24 | MiMo V2 Pro | 163 | PASS | 76 |
-| 25 | Gemini 3 Pro | 54 | PASS | 75 |
-| 26 | Grok 4 Fast | 71 | PASS | 75 |
-| 27 | Grok Code Fast 1 | 71 | PASS | 75 |
-| 28 | MiniMax 3 | 111 | PASS | 75 |
-| 29 | Qwen3-VL 235B-A22B | 71 | PASS | 75 |
-| 30 | GLM-5 Turbo | 106 | PASS | 74 |
-| 31 | GPT-5.2 Pro | 185 | PASS | 74 |
-| 32 | Opus 4.6 (Fast) | 51 | PASS | 74 |
-| 33 | MiniMax 2.7 | 70 | PASS | 72 |
-| 34 | Qwen3 Max | 50 | PASS | 72 |
-| 35 | Spectre | 149 | PASS | 71 |
-| 36 | Grok Code Fast 2 | 81 | PASS | 70 |
-| 37 | MiniMax 2.7a | 70 | PASS | 70 |
-| 38 | Codestral 2508 🆕 | 192 | FAIL | 55 |
-| 39 | Command A 🆕 | 141 | FAIL | 55 |
-| 40 | Jamba Large 1.7 🆕 | 147 | FAIL | 55 |
-| 41 | ERNIE 4.5 300B 🆕 | 220 | FAIL | 54 |
-| 42 | Llama 4 Maverick 🆕 | 131 | FAIL | 53 |
-| 43 | Devstral 2512 🆕 | 180 | FAIL | 50 |
-| 44 | Nova Premier 🆕 | 162 | FAIL | 50 |
-| 45 | Phi-4 🆕 | 144 | FAIL | 48 |
-| 46 | Grok 4.3 | 138 | FAIL | 41 |
-| 47 | MiniMax 2 | 198 | FAIL | 38 |
-| 48 | Cognito v2 | 74 | FAIL | 34 |
-| 49 | GLM-4.6 | 65 | FAIL | 34 |
-| 50 | DeepSeek (Web) | 35 | FAIL | 33 |
-| 51 | GPT-5.4 mini | 52 | FAIL | 32 |
-| — | DeepSeek V3-1 | 0 | DNF | 0 |
-| — | DeepSeek V3-2 Exp | 0 | DNF | 0 |
-| — | o3 DeepResearch | 0 | DNF | 0 |
+| # | Model | runs | parse | code | visual |
+|---|-------|:----:|:-----:|:----:|:------:|
+| 1 | [GPT-5.5 Pro](model.html?id=GPT-5-5-Pro) | ✅ | PASS | 95 | 20 |
+| 2 | [GPT-5.5 Pro (Extra)](model.html?id=GPT-5-5-Pro_Extra) | ✅ | PASS | 95 | 20 |
+| 3 | [GPT-5.2 Pro (v2)](model.html?id=GPT-5-2-Pro2) | ✅ | PASS | 92 | 4 |
+| 4 | [Qwen 3.7](model.html?id=Qwen_3-7) | ✅ | PASS | 92 | 15 |
+| 5 | [Alpha Owl](model.html?id=Alpha_Owl) | ✅ | PASS | 90 | 4 |
+| 6 | [WizardLM 2 8x22B 🆕](model.html?id=WizardLM_2_8x22B) | ✅ | PASS | 90 | 4 |
+| 7 | [Opus 4.7 (Fast)](model.html?id=Opus_4-7_Fast) | ✅ | PASS | 88 | 15 |
+| 8 | [Opus 4.8 (Fast)](model.html?id=Opus_4-8_Fast) | ✅ | PASS | 88 | 15 |
+| 9 | [DeepSeek V4](model.html?id=DeepSeek_V4) | ✅ | PASS | 83 | 4 |
+| 10 | [Gemini 3.1 Flash Lite](model.html?id=Gemini_3-1_Flash_Lite) | ✅ | PASS | 83 | 4 |
+| 11 | [Sonnet 4.6](model.html?id=Sonnet_4-6) | ✅ | PASS | 80 | 4 |
+| 12 | [Grok 4.2](model.html?id=Grok_4-2_Test) | ✅ | PASS | 78 | 4 |
+| 13 | [GPT-5.4 nano](model.html?id=GPT-5-4-nano) | ✅ | PASS | 77 | 4 |
+| 14 | [KAT-Coder](model.html?id=KAT_Coder) | ✅ | PASS | 76 | 4 |
+| 15 | [KAT-Coder Pro v2](model.html?id=KAT-Coder-Pro-v2) | ✅ | PASS | 76 | 4 |
+| 16 | [MiMo V2 Pro](model.html?id=MiMo-V2-Pro) | ✅ | PASS | 76 | 4 |
+| 17 | [MiniMax 3](model.html?id=MiniMax3) | ✅ | PASS | 75 | 4 |
+| 18 | [Qwen3-VL 235B-A22B](model.html?id=Qwen3_VL_235%20B_A22B_Instruct) | ✅ | PASS | 75 | 4 |
+| 19 | [GPT-5.2 Pro](model.html?id=GPT-5-2-Pro) | ✅ | PASS | 74 | 4 |
+| 20 | [Opus 4.6 (Fast)](model.html?id=Opus-4-6_Fast) | ✅ | PASS | 74 | 4 |
+| 21 | [MiniMax 2.7](model.html?id=MiniMax2-7) | ✅ | PASS | 72 | 2 |
+| 22 | [Spectre](model.html?id=Spectre) | ✅ | PASS | 71 | 4 |
+| 23 | [Grok Code Fast 2](model.html?id=Grok_Code_Fast_2) | ✅ | PASS | 70 | 4 |
+| 24 | [MiniMax 2.7a](model.html?id=MiniMax2-7a) | ✅ | PASS | 70 | 4 |
+| 25 | [Hermes 4 405B 🆕](model.html?id=Hermes_4_405B) | ❌ | PASS | 95 | — |
+| 26 | [Hermes 4 70B 🆕](model.html?id=Hermes_4_70B) | ❌ | PASS | 95 | — |
+| 27 | [Opus 4.8](model.html?id=Opus_4-8) | ❌ | PASS | 92 | — |
+| 28 | [Llama 3.3 70B 🆕](model.html?id=Llama_3-3_70B) | ❌ | PASS | 90 | — |
+| 29 | [Mistral Large 3 🆕](model.html?id=Mistral_Large_3) | ❌ | PASS | 90 | — |
+| 30 | [Nemotron 3 Super 120B 🆕](model.html?id=Nemotron_3_Super_120B) | ❌ | PASS | 90 | — |
+| 31 | [Gemini 3.5 Flash](model.html?id=Gemini_3-5_Flash) | ❌ | PASS | 86 | — |
+| 32 | [Qwen 3.6](model.html?id=Qwen_3-6) | ❌ | PASS | 79 | — |
+| 33 | [GPT-5 Codex](model.html?id=GPT-5_Codex) | ❌ | PASS | 77 | — |
+| 34 | [Gemini 2.5 Pro](model.html?id=Gemini_2-5_Pro) | ❌ | PASS | 77 | — |
+| 35 | [Gemini 3 Pro](model.html?id=Gemini_3_Pro) | ❌ | PASS | 75 | — |
+| 36 | [Grok 4 Fast](model.html?id=Grok_4_Fast) | ❌ | PASS | 75 | — |
+| 37 | [Grok Code Fast 1](model.html?id=Grok_Code_Fast_1) | ❌ | PASS | 75 | — |
+| 38 | [GLM-5 Turbo](model.html?id=GLM5-Turbo) | ❌ | PASS | 74 | — |
+| 39 | [Qwen3 Max](model.html?id=Qwen3_Max) | ❌ | PASS | 72 | — |
+| 40 | [Sonar Reasoning Pro 🆕](model.html?id=Sonar_Reasoning_Pro) | — | FAIL | 58 | — |
+| 41 | [Codestral 2508 🆕](model.html?id=Codestral_2508) | — | FAIL | 55 | — |
+| 42 | [Command A 🆕](model.html?id=Command_A) | — | FAIL | 55 | — |
+| 43 | [Jamba Large 1.7 🆕](model.html?id=Jamba_Large_1-7) | — | FAIL | 55 | — |
+| 44 | [Mistral Medium 3.1 🆕](model.html?id=Mistral_Medium_3-1) | — | FAIL | 55 | — |
+| 45 | [ERNIE 4.5 300B 🆕](model.html?id=ERNIE_4-5_300B) | — | FAIL | 54 | — |
+| 46 | [ERNIE 4.5 VL 424B 🆕](model.html?id=ERNIE_4-5_VL_424B) | — | FAIL | 53 | — |
+| 47 | [Llama 4 Maverick 🆕](model.html?id=Llama_4_Maverick) | — | FAIL | 53 | — |
+| 48 | [Devstral 2512 🆕](model.html?id=Devstral_2512) | — | FAIL | 50 | — |
+| 49 | [Nova Premier 🆕](model.html?id=Nova_Premier) | — | FAIL | 50 | — |
+| 50 | [Nova Pro 🆕](model.html?id=Nova_Pro) | — | FAIL | 50 | — |
+| 51 | [Nemotron Super 49B 🆕](model.html?id=Nemotron_Super_49B) | — | FAIL | 48 | — |
+| 52 | [Phi-4 🆕](model.html?id=Phi-4) | — | FAIL | 48 | — |
+| 53 | [Hunyuan A13B 🆕](model.html?id=Hunyuan_A13B) | — | FAIL | 46 | — |
+| 54 | [Grok 4.3](model.html?id=Grok_4-3_Test) | — | FAIL | 41 | — |
+| 55 | [Command R+ 🆕](model.html?id=Command_R_Plus) | — | FAIL | 38 | — |
+| 56 | [MiniMax 2](model.html?id=MiniMax2) | — | FAIL | 38 | — |
+| 57 | [Cognito v2](model.html?id=Cognito_v2) | — | FAIL | 34 | — |
+| 58 | [GLM-4.6](model.html?id=GLM_4-6) | — | FAIL | 34 | — |
+| 59 | [DeepSeek (Web)](model.html?id=DeepSeek_Web) | — | FAIL | 33 | — |
+| 60 | [GPT-5.4 mini](model.html?id=GPT-5-4-mini) | — | FAIL | 32 | — |
+| 61 | [Reka Flash 3 🆕](model.html?id=Reka_Flash_3) | — | FAIL | 18 | — |
+| — | DeepSeek V3-1 | — | — | 0 | — |
+| — | DeepSeek V3-2 Exp | — | — | 0 | — |
+| — | o3 DeepResearch | — | — | 0 | — |
 
-A pattern worth noting in the long tail: line count and score barely correlate. `Grok 4.2` writes 299 lines for a score of 78; `Opus 4.6 (Fast)` writes 51 for 74. Verbosity is not adherence — several of the most compact passing entries out-score sprawling ones, and every `FAIL` below rank 37 wrote *more* than enough code to be correct. The defect was always structural, never a token budget.
+The inversion at rank 25 is the whole argument: **Hermes 4 405B scores 95 — tied for the highest in the folder — and ranks 25th, behind every program that opens a window.**
 
 ## Reproduce It
 
-The harness is two small scripts. Validation shells out to the fork:
+Parse, then *run*, then look:
 
 ```bash
-AutoHotkey64.exe /ErrorStdOut /validate "Model.ahk"   # exit 0 = parses, 12 = syntax error
+AutoHotkey64.exe /ErrorStdOut /validate "Model.ahk"   # exit 0 parses, 12 = syntax error
 ```
 
-Generation posts `Prompt.md` to OpenRouter as a single user message, extracts the fenced AHK block, and writes it into the folder named after the model — so the leaderboard grows itself every time a new model ships.
+```powershell
+$p = Start-Process $exe -ArgumentList '/ErrorStdOut "Model.ahk"' -PassThru
+while (-not $p.HasExited -and $p.MainWindowHandle -eq 0) { Start-Sleep -m 250 }
+if ($p.MainWindowHandle -ne 0) { [Win32]::PrintWindow($h, $hdc, 2) }  # runs - capture it
+else { "crashed: exit $($p.ExitCode)" }                               # crashed
+```
+
+The captured PNG then feeds a pixel pass (background luminance, title-bar darkness) for the visual score. Generation posts `Prompt.md` to OpenRouter and writes each response into the folder named after the model — so the leaderboard grows itself every time a new model ships.
 
 ## Takeaways
 
-- **Parse-rate is the floor, not the ceiling.** 72% of models produce *loadable* AHK v2; far fewer produce *complete* AHK v2. Always run generated code through `/validate` before trusting it.
-- **Explicit warnings under-perform.** Naming the exact trap in the prompt cut the class-as-variable error but did not eliminate it. Guardrails that *block* the mistake beat guardrails that *describe* it.
-- **"Coder" models are not AHK models.** General-purpose frontier reasoning, and even a strong open-weights generalist like Hermes 4, beat code-tuned models on this alpha-syntax task.
-- **Score, then read.** Automated rules rank the field fast; a human pass catches the abstracted winner and the oversized-but-incomplete entry. Use both.
+- **Parse-rate is a vanity metric.** 64% of outputs parse; 39% run; 3% nail the visual brief. A green `/validate` means the syntax is plausible, nothing more. Launch generated code before trusting it, and look at it before shipping it.
+
+- **Hallucinated APIs are the #1 runtime killer.** Six models called functions that don't exist; two invented a method. The code looks expert; the symbols are fiction — a failure mode both a linter and a parser miss.
+
+- **"Has the feature in code" ≠ "shows the feature on screen."** Most running GUIs contain dark-mode calls and still render light. Pixels are the only honest test of a visual requirement.
+
+- **One-shot API generation is brittle for niche syntax.** 1 of 22 live OpenRouter generations produced a runnable program. Context and iteration, not just model choice, decide whether it runs.
+
+- **Readability ≠ correctness.** The folder's most elegant base class scores 95 and never opens a window.

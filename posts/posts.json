@@ -1,9 +1,9 @@
 [
   {
     "slug": "llm-clipboard-benchmark",
-    "title": "One Prompt, 50 Models: An AHK v2 Clipboard-Formatter Benchmark",
+    "title": "One Prompt, 60 Models: An AHK v2 Clipboard-Formatter Benchmark",
     "date": "2026-06-01",
-    "description": "Fifty LLMs answered the same strict AHK v2 prompt. Scored on parse-validation against the alpha.30 fork plus automated rule adherence, with a live 12-model OpenRouter sweep. 72% parse; the most common failure is the one the prompt explicitly forbids.",
+    "description": "60+ LLMs answered the same strict AHK v2 prompt, graded on three signals \u2014 parse, actually-runs, and visual dark-mode rendering \u2014 with per-model pages and two live OpenRouter sweeps. Only 24 of 61 build a working window.",
     "tags": [
       "LLMs",
       "Benchmark",

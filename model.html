@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Model - AHKv2 &amp; LLMs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=dark-scrollbars">
+  <script src="https://cdn.jsdelivr.net/npm/marked@11.1.0/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+  <script src="highlight-ahk2.js?v=directive-args"></script>
+  <style>
+    .model-container { max-width: 940px; margin: 0 auto; padding: 20px 24px; flex: 1; }
+    .back-link { display:inline-flex; align-items:center; gap:6px; font-size:13px; color:var(--text-secondary); margin-bottom:16px; font-weight:500; }
+    .back-link:hover { color: var(--accent); }
+    .model-head { display:flex; flex-wrap:wrap; align-items:baseline; gap:12px; border-bottom:1px solid var(--border-muted); padding-bottom:16px; margin-bottom:20px; }
+    .model-name { font-size:28px; font-weight:700; letter-spacing:-0.3px; margin:0; }
+    .model-provider { font-size:13px; color:var(--text-muted); font-weight:500; }
+    .badges { display:flex; flex-wrap:wrap; gap:8px; margin:6px 0 0; }
+    .badge { display:inline-flex; align-items:center; gap:6px; background:#1a1a1a; border:1px solid var(--border); border-radius:6px; padding:5px 10px; font-size:12.5px; font-weight:500; color:#d0d0d0; }
+    .badge .dot { width:7px; height:7px; border-radius:50%; }
+    .badge b { color:#fff; font-weight:600; }
+    .grid2 { display:grid; grid-template-columns: 1fr 1fr; gap:20px; align-items:start; }
+    @media (max-width:760px){ .grid2 { grid-template-columns:1fr; } }
+    .panel { background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:18px 20px; margin-bottom:20px; }
+    .panel h2 { font-size:15px; margin:0 0 12px; text-transform:uppercase; letter-spacing:1.2px; color:#808080; font-weight:600; }
+    .crit { display:flex; justify-content:space-between; align-items:center; gap:10px; padding:6px 0; border-bottom:1px solid #1f1f1f; font-size:13.5px; }
+    .crit:last-child { border-bottom:none; }
+    .crit .lbl { color:#b0b0b0; }
+    .crit .val { font-variant-numeric:tabular-nums; color:#fff; font-weight:500; }
+    .bar { height:6px; border-radius:3px; background:#202020; overflow:hidden; margin-top:3px; }
+    .bar > span { display:block; height:100%; border-radius:3px; }
+    .shot { width:100%; border:1px solid var(--border); border-radius:8px; display:block; }
+    .shot-wrap .cap { font-size:12px; color:var(--text-muted); margin-top:6px; }
+    pre { background:#171717; border:1px solid #2a2a2a; border-radius:8px; padding:18px; overflow:auto; max-height:620px; }
+    pre code { font-size:13px; line-height:1.6; background:none; border:none; padding:0; }
+    .err { background:rgba(220,53,69,0.08); border-left:3px solid #DC3545; border-radius:0 6px 6px 0; padding:10px 14px; font-family:'JetBrains Mono',monospace; font-size:12.5px; color:#f0b8bd; white-space:pre-wrap; }
+    .analysis { line-height:1.75; font-size:14.5px; }
+    .analysis p { margin:0 0 1em; }
+    .analysis code { background:#252525; border:1px solid #383838; padding:2px 6px; border-radius:4px; font-size:0.88em; }
+    .totline { display:flex; justify-content:space-between; align-items:baseline; margin-top:10px; padding-top:10px; border-top:1px solid var(--border); }
+    .totline .n { font-size:22px; font-weight:600; color:#fff; }
+    .navrow { display:flex; justify-content:space-between; gap:10px; margin-top:24px; }
+    .navrow a { font-size:13px; color:var(--text-secondary); font-weight:500; }
+    .navrow a:hover { color:var(--accent); }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><span class="logo-mark">AHK</span><span class="logo-text">v2 &amp; LLMs</span></a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="post.html?slug=llm-clipboard-benchmark" class="nav-link">Benchmark</a>
+        <a href="wiki.html" class="nav-link">Wiki</a>
+        <a href="playground.html" class="nav-link">Playground</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="model-container">
+    <a class="back-link" href="post.html?slug=llm-clipboard-benchmark">&larr; Back to the benchmark</a>
+    <div id="content"><p style="color:var(--text-muted)">Loading…</p></div>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2025 AHKv2 &amp; LLMs</span>
+    <div class="footer-links"><a href="index.html">Home</a><a href="https://github.com/TrueCrimeDev/AHKv2_LLMs" target="_blank">GitHub</a></div>
+  </footer>
+
+  <script>
+    const DATA = 'posts/clipboard-benchmark/models.json';
+    const params = new URLSearchParams(location.search);
+    const id = params.get('id');
+    const esc = s => (s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+    const ACCENT = { run:'#7BC96F', crash:'#DC3545', fail:'#F59E42', na:'#606060' };
+
+    function badge(dot, label) { return `<span class="badge"><span class="dot" style="background:${dot}"></span>${label}</span>`; }
+
+    function critRows(items, maxes) {
+      return Object.keys(items).map(k => {
+        const v = items[k], m = maxes[k] || v || 1;
+        const pct = Math.max(0, Math.min(100, 100*v/m));
+        const col = v >= m ? '#7BC96F' : (v > 0 ? '#5B9FEF' : '#606060');
+        const name = k.replace(/_/g,' ').replace(/\b\w/g, c=>c.toUpperCase());
+        return `<div class="crit"><div class="lbl">${name}<div class="bar"><span style="width:${pct}%;background:${col}"></span></div></div><div class="val">${v}/${m}</div></div>`;
+      }).join('');
+    }
+
+    function render(m) {
+      const runState = m.runs===true ? ['Runs', ACCENT.run, '✅'] : (m.parse ? ['Crashes', ACCENT.crash, '❌'] : ['Won’t parse', ACCENT.fail, '—']);
+      let html = `
+        <div class="model-head">
+          <h1 class="model-name">${esc(m.display)}</h1>
+          <span class="model-provider">${esc(m.provider||'')} ${m.source==='openrouter'?'· live via OpenRouter':'· folder entry'}</span>
+        </div>
+        <div class="badges">
+          ${badge(runState[1], `${runState[2]} <b>${runState[0]}</b>`)}
+          ${badge(m.parse?ACCENT.run:ACCENT.fail, `Parse <b>${m.parse?'PASS':'FAIL'}</b>`)}
+          ${badge('#5B9FEF', `Code score <b>${m.score}</b>/100`)}
+          ${m.visual!=null ? badge('#A855F7', `Visual <b>${m.visual}</b>/20`) : ''}
+          ${m.rank ? badge('#22D3EE', `Rank <b>#${m.rank}</b>`) : ''}
+          ${m.lines ? badge('#303030', `${m.lines} lines`) : ''}
+        </div>`;
+
+      if (m.runs===false && m.runtime_err) {
+        html += `<div class="panel"><h2>Runtime crash</h2><div class="err">${esc(m.runtime_err)}</div></div>`;
+      }
+
+      html += `<div class="grid2">`;
+      // left: code score breakdown
+      html += `<div class="panel"><h2>Code scorecard</h2>${critRows(m.score_items, m.score_maxes)}
+        <div class="totline"><span class="lbl" style="color:#b0b0b0">Total</span><span class="n">${m.score}<span style="font-size:14px;color:#808080">/100</span></span></div></div>`;
+      // right: visual or screenshot
+      if (m.visual!=null && m.visual_items) {
+        html += `<div class="panel"><h2>Visual scorecard</h2>${critRows(m.visual_items, m.visual_maxes)}
+          <div class="totline"><span class="lbl" style="color:#b0b0b0">Total</span><span class="n">${m.visual}<span style="font-size:14px;color:#808080">/20</span></span></div></div>`;
+      } else {
+        html += `<div class="panel"><h2>Visual</h2><p style="color:var(--text-muted);font-size:13.5px">No window — nothing to render. ${m.parse?'The program parses but crashes before drawing.':'The source does not parse.'}</p></div>`;
+      }
+      html += `</div>`;
+
+      if (m.screenshot) {
+        html += `<div class="panel shot-wrap"><h2>Captured window</h2><img class="shot" src="${esc(m.screenshot)}" alt="${esc(m.display)} GUI"><div class="cap">Launched on the v2.1-alpha.30+Console fork, sample clipboard preloaded, captured via PrintWindow.</div></div>`;
+      }
+
+      if (m.analysis) {
+        marked.setOptions({ gfm:true, breaks:true });
+        html += `<div class="panel"><h2>Analysis</h2><div class="analysis">${marked.parse(m.analysis)}</div></div>`;
+      }
+
+      html += `<div class="panel"><h2>Source (${m.lines||0} lines)</h2><pre><code class="language-ahk2" id="src"></code></pre></div>`;
+
+      let nav = '<div class="navrow">';
+      nav += m.prev ? `<a href="model.html?id=${encodeURIComponent(m.prev)}">&larr; #${m.rank-1}</a>` : '<span></span>';
+      nav += m.next ? `<a href="model.html?id=${encodeURIComponent(m.next)}">#${m.rank+1} &rarr;</a>` : '<span></span>';
+      nav += '</div>';
+      html += nav;
+
+      document.getElementById('content').innerHTML = html;
+      const codeEl = document.getElementById('src');
+      if (codeEl) { codeEl.textContent = m.code || '(source unavailable)'; hljs.highlightElement(codeEl); }
+      document.title = m.display + ' - AHKv2 & LLMs';
+    }
+
+    (async function(){
+      try {
+        const all = await (await fetch(DATA)).json();
+        const m = all.find(x => x.id === id);
+        if (!m) { document.getElementById('content').innerHTML = '<p>Model not found.</p>'; return; }
+        render(m);
+      } catch(e) {
+        document.getElementById('content').innerHTML = `<p>Error: ${e.message}</p>`;
+      }
+    })();
+  </script>
+</body>
+</html>
