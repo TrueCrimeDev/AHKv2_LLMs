@@ -20,6 +20,9 @@
     .pr-tag { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .8px; padding: 3px 9px; border-radius: 5px; background:#1a1a1a; border:1px solid var(--border); color:#a9cdf5; }
     .pr-cardhead .desc { flex: 1 1 100%; font-size: 13px; color: var(--text-muted); margin-top: 2px; }
     .pr-cardhead .raw { font-size: 12.5px; font-weight: 600; color: var(--accent); }
+    .pr-copy { font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 6px; background: #1f1f1f; border: 1px solid var(--border); color: #d0d0d0; cursor: pointer; transition: .12s; }
+    .pr-copy:hover { border-color: var(--accent); color: #fff; }
+    .pr-copy.ok { background: rgba(123,201,111,.16); border-color: #7BC96F; color: #aee0a3; }
     .pr-card pre { margin: 0; max-height: 460px; overflow: auto; background: #0f0f0f; padding: 16px 18px; font-family: 'JetBrains Mono', monospace; font-size: 12.5px; line-height: 1.6; color: #c8c8c8; white-space: pre; }
     details > summary { list-style: none; cursor: pointer; padding: 11px 18px; font-size: 13px; color: var(--text-secondary); font-weight: 500; user-select: none; }
     details > summary:hover { color: #fff; }
@@ -76,11 +79,27 @@
           <div class="pr-cardhead">
             <h2>${esc(p.name)}</h2>
             <span class="pr-tag">${esc(p.tag)}</span>
+            <button class="pr-copy" type="button">Copy</button>
             <a class="raw" href="${p.file}" target="_blank" rel="noopener">raw &nearr;</a>
             <div class="desc">${esc(p.desc)}</div>
           </div>
           <details><summary>Show full prompt (${(text.length/1024).toFixed(1)} KB)</summary><pre></pre></details>`;
         card.querySelector('pre').textContent = text;
+        const btn = card.querySelector('.pr-copy');
+        btn.onclick = async () => {
+          let ok = false;
+          try { await navigator.clipboard.writeText(text); ok = true; }
+          catch (e) {
+            const ta = document.createElement('textarea');
+            ta.value = text; ta.style.position = 'fixed'; ta.style.top = '-9999px';
+            document.body.appendChild(ta); ta.focus(); ta.select();
+            try { ok = document.execCommand('copy'); } catch (_) {}
+            ta.remove();
+          }
+          btn.textContent = ok ? 'Copied!' : 'Copy failed';
+          btn.classList.toggle('ok', ok);
+          setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('ok'); }, 1600);
+        };
         host.appendChild(card);
       }
     })();
