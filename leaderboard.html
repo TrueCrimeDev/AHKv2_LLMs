@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LLM Leaderboard - AHKv2 &amp; LLMs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=dark-scrollbars">
+  <style>
+    .lb-main{max-width:1000px;margin:0 auto;padding:20px 24px;flex:1;}
+    .lb-head h1{font-size:26px;font-weight:700;letter-spacing:-0.3px;margin:0 0 4px;}
+    .lb-head p{color:var(--text-secondary);font-size:14px;margin:0 0 18px;}
+    .bm-h{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#707070;font-weight:600;margin:0 0 10px;}
+    .bm-wrap{margin:18px 0;}
+    .lb-controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 12px;}
+    .lb-search{background:#181818;border:1px solid #303030;border-radius:8px;padding:8px 12px;color:#fff;font-size:13px;min-width:200px;font-family:inherit;}
+    .lb-search:focus{outline:none;border-color:#5B9FEF;box-shadow:0 0 0 3px #5B9FEF18;}
+    .chip{background:#1a1a1a;border:1px solid #303030;border-radius:20px;padding:6px 13px;font-size:12.5px;color:#b0b0b0;cursor:pointer;user-select:none;transition:.12s;}
+    .chip:hover{border-color:#505050;color:#fff;}
+    .chip.on{background:#2a2a2a;color:#fff;border-color:#5B9FEF;}
+    .chip .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:middle;}
+    table.bm-heat{width:100%;border-collapse:collapse;font-size:13px;}
+    .bm-heat th{background:#161616;color:#808080;font-size:11px;text-transform:uppercase;letter-spacing:.8px;padding:9px 6px;border-bottom:1px solid #303030;cursor:pointer;position:sticky;top:0;white-space:nowrap;}
+    .bm-heat th:hover{color:#fff;}
+    .bm-heat th.sorted::after{content:" \25BC";font-size:9px;color:#5B9FEF;}
+    .bm-heat th.asc.sorted::after{content:" \25B2";}
+    .bm-heat td{padding:6px 7px;text-align:center;border-bottom:1px solid #1a1a1a;font-variant-numeric:tabular-nums;}
+    .bm-heat .h-rank{color:#6f6f6f;}
+    .bm-heat .h-name{text-align:left;white-space:nowrap;}
+    .bm-heat .h-name a{color:#d6d6d6;text-decoration:none;}
+    .bm-heat .h-name a:hover{color:#5B9FEF;}
+    .bm-heat .fdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:middle;}
+    .bm-heat tbody tr:hover td{background:#161616;}
+    .h-emer{background:rgba(123,201,111,.16);color:#aee0a3;font-weight:600;}
+    .h-blue{background:rgba(91,159,239,.15);color:#a9cdf5;font-weight:600;}
+    .h-amber{background:rgba(245,158,66,.15);color:#f0c48a;font-weight:600;}
+    .h-red{background:rgba(220,53,69,.13);color:#e3969d;font-weight:600;}
+    .h-dim{color:#5a5a5a;}
+    .lb-count{font-size:12px;color:#707070;margin-left:auto;}
+    .back-link{display:inline-flex;gap:6px;font-size:13px;color:var(--text-secondary);margin-bottom:14px;font-weight:500;}
+    .back-link:hover{color:var(--accent);}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><span class="logo-mark">AHK</span><span class="logo-text">v2 &amp; LLMs</span></a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="post.html?slug=llm-clipboard-benchmark" class="nav-link">Benchmark</a>
+        <a href="wiki.html" class="nav-link">Wiki</a>
+        <a href="playground.html" class="nav-link">Playground</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="lb-main">
+    <a class="back-link" href="post.html?slug=llm-clipboard-benchmark">&larr; Back to the write-up</a>
+    <div class="lb-head">
+      <h1>AHK v2 LLM Leaderboard</h1>
+      <p>60+ models, one prompt. Ranked by what actually shipped: does it run, does it look right. Click a header to sort, a chip to filter, a name for its page.</p>
+    </div>
+
+    <div class="bm-wrap"><div class="bm-h">Every model, plotted: code score (x) vs. what actually shipped (y)</div><svg viewBox="0 0 720 470" width="100%" style="background:#0d0d0d;border:1px solid #262626;border-radius:12px" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif"><defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><text x="80" y="405" fill="#6f6f6f" font-size="10.5" text-anchor="middle">0</text><line x1="80" y1="395" x2="80" y2="50" stroke="#1c1c1c"/><text x="232" y="405" fill="#6f6f6f" font-size="10.5" text-anchor="middle">25</text><line x1="232" y1="395" x2="232" y2="50" stroke="#1c1c1c"/><text x="385" y="405" fill="#6f6f6f" font-size="10.5" text-anchor="middle">50</text><line x1="385" y1="395" x2="385" y2="50" stroke="#1c1c1c"/><text x="538" y="405" fill="#6f6f6f" font-size="10.5" text-anchor="middle">75</text><line x1="538" y1="395" x2="538" y2="50" stroke="#1c1c1c"/><text x="690" y="405" fill="#6f6f6f" font-size="10.5" text-anchor="middle">100</text><line x1="690" y1="395" x2="690" y2="50" stroke="#1c1c1c"/><line x1="80" y1="60" x2="690" y2="60" stroke="#262626" stroke-dasharray="3 4"/><text x="72" y="63" fill="#6f6f6f" font-size="10.5" text-anchor="end">20 · fully dark</text><line x1="80" y1="155" x2="690" y2="155" stroke="#262626" stroke-dasharray="3 4"/><text x="72" y="158" fill="#6f6f6f" font-size="10.5" text-anchor="end">visual</text><line x1="80" y1="250" x2="690" y2="250" stroke="#262626" stroke-dasharray="3 4"/><text x="72" y="253" fill="#6f6f6f" font-size="10.5" text-anchor="end">barely dark</text><line x1="80" y1="295" x2="690" y2="295" stroke="#3a1d20" /><text x="72" y="316" fill="#c2616a" font-size="10.5" text-anchor="end">crashed</text><line x1="80" y1="355" x2="690" y2="355" stroke="#2a2a2a" /><text x="72" y="376" fill="#777" font-size="10.5" text-anchor="end">didn’t parse</text><circle cx="660" cy="57" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="660" cy="59" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="641" cy="214" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="641" cy="105" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="629" cy="212" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="629" cy="214" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="617" cy="106" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="617" cy="108" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="586" cy="215" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="586" cy="211" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="568" cy="213" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="556" cy="209" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="550" cy="211" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="544" cy="214" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="544" cy="210" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="544" cy="212" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="538" cy="214" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="538" cy="210" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="531" cy="213" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="531" cy="215" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="519" cy="230" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="513" cy="213" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="507" cy="209" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="507" cy="211" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="660" cy="315" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="660" cy="308" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="641" cy="312" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="629" cy="316" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="629" cy="309" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="629" cy="313" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="605" cy="317" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="562" cy="310" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="550" cy="314" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="550" cy="307" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="538" cy="311" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="538" cy="315" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="538" cy="308" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="531" cy="312" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="519" cy="316" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="434" cy="369" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="416" cy="373" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="416" cy="377" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="416" cy="370" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="416" cy="374" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="409" cy="367" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="403" cy="371" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="403" cy="375" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="385" cy="368" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="385" cy="372" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="385" cy="376" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="373" cy="369" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="373" cy="373" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="361" cy="377" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="330" cy="370" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="312" cy="374" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="312" cy="367" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="287" cy="371" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="287" cy="375" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="281" cy="368" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="275" cy="372" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="190" cy="376" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><line x1="660" y1="57" x2="590" y2="31" stroke="#7BC96F" stroke-width="1" stroke-opacity="0.5"/><text x="590" y="27" fill="#fff" font-size="12" font-weight="600" text-anchor="end">GPT-5.5 Pro</text><text x="590" y="40" fill="#7BC96F" font-size="10.5" text-anchor="end">runs · 20/20 dark</text><line x1="660" y1="315" x2="510" y2="333" stroke="#DC3545" stroke-width="1" stroke-opacity="0.5"/><text x="510" y="329" fill="#fff" font-size="12" font-weight="600" text-anchor="end">Hermes 4 405B</text><text x="510" y="342" fill="#DC3545" font-size="10.5" text-anchor="end">code 95 · crashes</text><text x="385" y="430" fill="#9a9a9a" font-size="11.5" text-anchor="middle">code score (automated rule adherence) →</text><g transform="translate(80,448)"><circle cx="6" cy="-3" r="5" fill="#7BC96F"/><text x="16" y="1" fill="#b6b6b6" font-size="11">runs</text><circle cx="86" cy="-3" r="5" fill="#DC3545"/><text x="96" y="1" fill="#b6b6b6" font-size="11">parses, crashes</text><circle cx="226" cy="-3" r="5" fill="#6a6a6a"/><text x="236" y="1" fill="#b6b6b6" font-size="11">won’t parse</text></g></svg></div>
+
+    <div class="lb-controls">
+      <input id="search" class="lb-search" type="text" placeholder="Filter models…" autocomplete="off">
+      <span class="chip on" data-f="all">All</span>
+      <span class="chip" data-f="runs"><span class="dot" style="background:#7BC96F"></span>Runs</span>
+      <span class="chip" data-f="crash"><span class="dot" style="background:#DC3545"></span>Crashes</span>
+      <span class="chip" data-f="fail"><span class="dot" style="background:#6a6a6a"></span>Won’t parse</span>
+      <span class="lb-count" id="count"></span>
+    </div>
+    <div style="overflow-x:auto"><table class="bm-heat" id="tbl"><thead><tr>
+      <th data-k="rank" class="sorted">#</th><th data-k="display" style="text-align:left">Model</th>
+      <th data-k="runs">runs</th><th data-k="parse">parse</th><th data-k="score">code</th><th data-k="visual">visual</th>
+    </tr></thead><tbody id="body"></tbody></table></div>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2025 AHKv2 &amp; LLMs</span>
+    <div class="footer-links"><a href="index.html">Home</a><a href="https://github.com/TrueCrimeDev/AHKv2_LLMs" target="_blank">GitHub</a></div>
+  </footer>
+
+  <script>
+  const FAMILY = {OpenAI:'#74AA9C',Anthropic:'#D4A27F',Google:'#5B9FEF',Alibaba:'#A855F7','xAI':'#9aa0a6',DeepSeek:'#4D6BFE',MiniMax:'#F59E42','Zhipu AI':'#22D3EE',Kuaishou:'#7BC96F',Xiaomi:'#FF6900',Microsoft:'#00A4EF',Nous:'#A855F7',Mistral:'#FF7000',Meta:'#0866FF',Cohere:'#39594D',Amazon:'#FF9900',NVIDIA:'#76B900',Baidu:'#2932E1',Tencent:'#0052D9',Perplexity:'#20808D',Reka:'#cc66ff',AI21:'#e63',codename:'#888',OpenRouter:'#888'};
+  const esc=s=>(s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  let DATA=[], sortK='rank', asc=true, filt='all', q='';
+  const codeCls=s=>s>=90?'h-emer':s>=75?'h-blue':s>=50?'h-amber':'h-red';
+  const visCell=v=>v==null?'<td class="h-dim">—</td>':`<td class="${v>=18?'h-emer':v>=14?'h-amber':'h-dim'}">${v}</td>`;
+  const runsCell=r=>(r.bytes===0||!r.parse)?'<td class="h-dim">—</td>':(r.runs?'<td class="h-emer">✅</td>':'<td class="h-red">❌</td>');
+  function state(r){ if(r.bytes===0)return 'dnf'; if(!r.parse)return 'fail'; return r.runs?'runs':'crash'; }
+  function render(){
+    let rows=DATA.filter(r=>r.bytes>0)
+      .filter(r=>filt==='all'||state(r)===filt)
+      .filter(r=>!q||r.display.toLowerCase().includes(q));
+    rows.sort((a,b)=>{ let x=a[sortK],y=b[sortK];
+      if(sortK==='display'){x=(''+x).toLowerCase();y=(''+y).toLowerCase();}
+      else {x=x==null?-1:x; y=y==null?-1:y;}
+      return (x<y?-1:x>y?1:0)*(asc?1:-1); });
+    document.getElementById('body').innerHTML = rows.map(r=>{
+      const fc=FAMILY[r.provider]||'#888';
+      const parseCell=r.parse?'<td class="h-emer">PASS</td>':'<td class="h-red">FAIL</td>';
+      const nm=esc(r.display)+(r.source==='openrouter'?' <span style="font-size:10px;color:#6f6f6f">live</span>':'');
+      return `<tr><td class="h-rank">${r.rank}</td>`+
+        `<td class="h-name"><span class="fdot" style="background:${fc}" title="${esc(r.provider)}"></span>`+
+        `<a href="model.html?id=${encodeURIComponent(r.id)}">${nm}</a></td>`+
+        runsCell(r)+parseCell+`<td class="${codeCls(r.score)}">${r.score}</td>`+visCell(r.visual)+`</tr>`;
+    }).join('');
+    document.getElementById('count').textContent = rows.length+' shown';
+    document.querySelectorAll('#tbl th').forEach(th=>{th.classList.toggle('sorted',th.dataset.k===sortK);th.classList.toggle('asc',th.dataset.k===sortK&&asc);});
+  }
+  document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k; if(k===sortK)asc=!asc; else {sortK=k; asc=(k==='display'||k==='rank');} render();});
+  document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');filt=c.dataset.f;render();});
+  document.getElementById('search').oninput=e=>{q=e.target.value.toLowerCase().trim();render();};
+  fetch('posts/clipboard-benchmark/models.json').then(r=>r.json()).then(d=>{DATA=d;render();})
+    .catch(e=>document.getElementById('body').innerHTML='<tr><td colspan="6">Failed to load: '+e.message+'</td></tr>');
+  </script>
+</body>
+</html>
