@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-03T13:38:31.193Z",
+  "lastUpdated": "2026-06-03T19:20:41.347Z",
   "totalScripts": 319,
   "categories": [
     "GUI",
@@ -5349,13 +5349,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-06T20:16:06Z",
-      "lastModified": "2026-06-02T15:19:40Z",
+      "lastModified": "2026-06-03T14:48:56Z",
       "source": "github",
       "url": "https://github.com/BakerTheDozen/ahk-v2-move-resize",
       "stars": 0,
       "forks": 0,
       "owner": "BakerTheDozen",
-      "code": "```cpp\n; ============================================\n; Repository: BakerTheDozen/ahk-v2-move-resize\n; ============================================\n; URL: https://github.com/BakerTheDozen/ahk-v2-move-resize\n; Stars: 0 | Forks: 0\n; Last Updated: 6/2/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script to move and resize windows using Alt + Left/Right Click.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BakerTheDozen/ahk-v2-move-resize.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BakerTheDozen/ahk-v2-move-resize/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-v2-move-resize>\n\n; Example initialization\nclass AhkV2MoveResizeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-v2-move-resize loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2MoveResizeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BakerTheDozen/ahk-v2-move-resize\n; ============================================\n; URL: https://github.com/BakerTheDozen/ahk-v2-move-resize\n; Stars: 0 | Forks: 0\n; Last Updated: 6/3/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 script to move and resize windows using Alt + Left/Right Click.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BakerTheDozen/ahk-v2-move-resize.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BakerTheDozen/ahk-v2-move-resize/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-v2-move-resize>\n\n; Example initialization\nclass AhkV2MoveResizeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-v2-move-resize loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2MoveResizeExample()\n```"
     },
     {
       "id": "github-1232368909",
