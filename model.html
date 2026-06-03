@@ -99,7 +99,7 @@
     }
 
     function render(m) {
-      const runState = m.runs===true ? ['Runs', ACCENT.run, '✅'] : (m.parse ? ['Crashes', ACCENT.crash, '❌'] : ['Won’t parse', ACCENT.fail, '—']);
+      const runState = m.runs===true ? ['Runs', ACCENT.run, '✔️'] : (m.parse ? ['Crashes', ACCENT.crash, '❌'] : ['Won’t parse', ACCENT.fail, '—']);
       let html = `
         <div class="model-head">
           <h1 class="model-name">${esc(m.display)}</h1>
@@ -126,9 +126,9 @@
 
       if (m.fallback) {
         const fb = m.fallback;
-        const fbRun = fb.runs===true ? ['Runs', ACCENT.run, '✅'] : (fb.parse ? ['Crashes', ACCENT.crash, '❌'] : ['Won’t parse', ACCENT.fail, '—']);
+        const fbRun = fb.runs===true ? ['Runs', ACCENT.run, '✔️'] : (fb.parse ? ['Crashes', ACCENT.crash, '❌'] : ['Won’t parse', ACCENT.fail, '—']);
         let head = fb.recovered
-          ? `<div class="err" style="background:rgba(123,201,111,.08);border-left-color:#7BC96F;color:#aee0a3">✅ Recovered — failed the primary prompt, but the simpler fallback prompt produced a working window.</div>`
+          ? `<div class="err" style="background:rgba(123,201,111,.08);border-left-color:#7BC96F;color:#aee0a3">✔️ Recovered — failed the primary prompt, but the simpler fallback prompt produced a working window.</div>`
           : `<div style="font-size:13px;color:#9a9a9a;margin-bottom:10px">Re-run with the stricter fallback prompt — still ${fb.runs===false?'crashes':'fails to parse'}.</div>`;
         let body = `<div class="badges" style="margin-bottom:10px">${badge(fbRun[1],`${fbRun[2]} <b>${fbRun[0]}</b>`)}${badge(fb.parse?ACCENT.run:ACCENT.fail,`Parse <b>${fb.parse?'PASS':'FAIL'}</b>`)}${badge('#5B9FEF',`Code <b>${fb.score}</b>/100`)}</div>`;
         if (fb.runtime_err) body += `<div class="err">${esc(fb.runtime_err)}</div>`;
