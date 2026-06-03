@@ -134,7 +134,6 @@ a:hover { color: var(--accent-hover); }
     grid-template-columns: 1fr;
     padding: 16px;
   }
-  .sidebar-col { order: -1; }
 }
 
 /* ── Content Column ── */
@@ -569,3 +568,10 @@ html { overflow-x: hidden; }
 body > * { min-width: 0; }
 .main-grid > * { min-width: 0; }
 .content-col { min-width: 0; }
+
+/* repos-feed-mobile */
+@media (max-width: 680px) {
+  .sidebar-col { margin-top: 8px; }
+  .repos-container { max-height: 360px; overflow-y: auto; }
+  .sidebar-header h3 { font-size: 15px; }
+}
