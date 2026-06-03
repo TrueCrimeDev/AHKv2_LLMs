@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-03T07:43:26.420Z",
+  "lastUpdated": "2026-06-03T13:38:31.193Z",
   "totalScripts": 319,
   "categories": [
     "GUI",
@@ -426,13 +426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-11-24T04:52:52Z",
-      "lastModified": "2026-06-02T12:37:13Z",
+      "lastModified": "2026-06-03T08:56:12Z",
       "source": "github",
       "url": "https://github.com/haraldchan/Svaner",
       "stars": 4,
       "forks": 0,
       "owner": "haraldchan",
-      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 4 | Forks: 0\n; Last Updated: 6/2/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 4 | Forks: 0\n; Last Updated: 6/3/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
     },
     {
       "id": "github-266191907",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-06-03T06:50:37Z",
+      "lastModified": "2026-06-03T12:35:07Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 34,
@@ -6104,13 +6104,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-22T06:23:39Z",
-      "lastModified": "2026-06-02T14:45:38Z",
+      "lastModified": "2026-06-03T12:21:42Z",
       "source": "github",
       "url": "https://github.com/JeromRequillo/KeyTap-Pro",
       "stars": 0,
       "forks": 0,
       "owner": "JeromRequillo",
-      "code": "```cpp\n; ============================================\n; Repository: JeromRequillo/KeyTap-Pro\n; ============================================\n; URL: https://github.com/JeromRequillo/KeyTap-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/2/2026\n; License: MIT License\n;\n; Description:\n; KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JeromRequillo/KeyTap-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JeromRequillo/KeyTap-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyTap-Pro>\n\n; Example initialization\nclass KeytapProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyTap-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeytapProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: JeromRequillo/KeyTap-Pro\n; ============================================\n; URL: https://github.com/JeromRequillo/KeyTap-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/3/2026\n; License: MIT License\n;\n; Description:\n; KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JeromRequillo/KeyTap-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JeromRequillo/KeyTap-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyTap-Pro>\n\n; Example initialization\nclass KeytapProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyTap-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeytapProExample()\n```"
     },
     {
       "id": "github-1252531815",
@@ -6161,13 +6161,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-30T16:05:52Z",
-      "lastModified": "2026-06-01T04:28:27Z",
+      "lastModified": "2026-06-03T12:00:24Z",
       "source": "github",
       "url": "https://github.com/MonoEven/stdlib-ahk",
       "stars": 0,
       "forks": 0,
       "owner": "MonoEven",
-      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/1/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/3/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
     },
     {
       "id": "github-608904813",
