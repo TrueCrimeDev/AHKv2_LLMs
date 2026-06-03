@@ -40,7 +40,7 @@ So the three `FAIL` rows aren't "weak models" — they're one cold API shot that
 
 The top two tell the story. **Sonnet 4.6** gets 11 of 12 transforms *and* builds a working window — the cleanest all-rounder. **Opus 4.8** matches it on logic (11/12) but its **GUI crashes on launch** — it reached for `Gui.Edit.Pos`, a property that doesn't exist. Best evaluator in the field, hung on a hallucinated UI property. The functional and runtime signals disagree on purpose, and that disagreement is the most interesting cell in the table.
 
-<img src="posts/img/toolkit-sonnet.png" alt="Sonnet 4.6 clipboard transform toolkit GUI" style="max-width:100%;border:1px solid #303030;border-radius:8px">
+<img src="posts/img/toolkit-sonnet.png?v=2" alt="Sonnet 4.6 clipboard transform toolkit GUI" style="max-width:100%;border:1px solid #303030;border-radius:8px">
 
 ## What Is It Really Measuring?
 
