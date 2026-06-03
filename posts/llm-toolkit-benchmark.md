@@ -8,11 +8,33 @@ The task: a clipboard transform toolkit GUI exposing twelve `TF_*(text)` functio
 
 ## The Leaderboard
 
-Top-10 coding models, one-shot via OpenRouter. Ranked by transforms correct, then whether the GUI actually builds.
+Ten of the strongest coding models **available on OpenRouter**, each handed the prompt **once** — a single API message at `temperature 0.2`, no chat back-and-forth, no retries.
+
+**Why GPT-5.1 and not GPT-5.5?** GPT-5.5 isn't on OpenRouter — the newest OpenAI model there is GPT-5.1 — and the "GPT-5.5 Pro" that won the [main GUI benchmark](post.html?slug=llm-clipboard-benchmark) came from a richer *chat session*, not a one-shot API call. One-shot generation of AHK's niche alpha syntax is brittle (the GUI run saw just **1 of 22** models actually run), so a `FAIL` here means "fumbled a single cold attempt," not "bad model."
+
+**How to read the table.** `parse` = the script compiles · `GUI runs` = a window actually opens (❌ = it compiled but **crashed on launch**) · `transforms` = how many of the 12 produce **correct output on hidden tests** — this is the real score · `cases` = total individual test cases passed. Ranked by transforms, then by whether it runs.
 
 <div class="bm-wrap"><table class="bm-heat"><thead><tr><th>#</th><th style="text-align:left">Model</th><th>parse</th><th>GUI runs</th><th>transforms</th><th>cases</th></tr></thead><tbody><tr><td class="h-rank">1</td><td class="h-name">Sonnet 4.6</td><td class="h-emer">PASS</td><td class="h-emer">✅</td><td class="h-emer">11/12</td><td class="h-emer">25/27</td></tr><tr><td class="h-rank">2</td><td class="h-name">Opus 4.8</td><td class="h-emer">PASS</td><td class="h-red">❌</td><td class="h-emer">11/12</td><td class="h-emer">25/27</td></tr><tr><td class="h-rank">3</td><td class="h-name">GLM-5</td><td class="h-emer">PASS</td><td class="h-emer">✅</td><td class="h-emer">10/12</td><td class="h-emer">23/27</td></tr><tr><td class="h-rank">4</td><td class="h-name">Grok 4.3</td><td class="h-emer">PASS</td><td class="h-emer">✅</td><td class="h-emer">10/12</td><td class="h-emer">23/27</td></tr><tr><td class="h-rank">5</td><td class="h-name">MiniMax M3</td><td class="h-emer">PASS</td><td class="h-emer">✅</td><td class="h-amber">9/12</td><td class="h-amber">20/27</td></tr><tr><td class="h-rank">6</td><td class="h-name">Gemini 3.1 Pro</td><td class="h-emer">PASS</td><td class="h-red">❌</td><td class="h-amber">9/12</td><td class="h-amber">20/27</td></tr><tr><td class="h-rank">7</td><td class="h-name">Qwen3 Coder</td><td class="h-emer">PASS</td><td class="h-emer">✅</td><td class="h-red">3/12</td><td class="h-red">6/27</td></tr><tr><td class="h-rank">8</td><td class="h-name">DeepSeek V4 Pro</td><td class="h-red">FAIL</td><td class="h-dim">—</td><td class="h-dim">0/12</td><td class="h-dim">0/27</td></tr><tr><td class="h-rank">9</td><td class="h-name">GPT-5.1</td><td class="h-red">FAIL</td><td class="h-dim">—</td><td class="h-dim">0/12</td><td class="h-dim">0/27</td></tr><tr><td class="h-rank">10</td><td class="h-name">Kimi K2.6</td><td class="h-red">FAIL</td><td class="h-dim">—</td><td class="h-dim">0/12</td><td class="h-dim">0/27</td></tr></tbody></table></div>
 
 The gradient is exactly what the evaluator couldn't produce: **11, 11, 10, 10, 9, 9, 3** among the seven that parse. Nobody is perfect, nobody (who parses) is useless.
+
+### Why each one fell short
+
+Same data, in plain English — what actually went wrong for everyone who isn't fully green:
+
+| Model | What happened |
+| ----- | ------------- |
+| **Sonnet 4.6** | The winner — 11/12 transforms in a GUI that opens. Only miss: `NaturalSort`. |
+| **Opus 4.8** | 11/12 transforms, but the **GUI crashes on launch** — it called `Gui.Edit.Pos`, a property that doesn't exist. Best logic, broken hands. |
+| **GLM-5 / Grok 4.3** | Solid all-rounders — 10/12, GUI runs. |
+| **MiniMax M3** | 9/12, GUI runs. |
+| **Gemini 3.1 Pro** | 9/12, but the **GUI crashes** on an uninitialized variable before the window draws. |
+| **Qwen3 Coder** | Parses and runs, but only **3/12 transforms** correct — the coding specialist tripped on AHK's syntax. |
+| **DeepSeek V4 Pro** | **Won't compile** — a syntax error in the generated code. |
+| **GPT-5.1** | **Won't compile** — `Missing ending "%"`, a botched `%dynamic%` dereference deep in an otherwise complete file. |
+| **Kimi K2.6** | **Won't compile** — it pasted its reasoning prose ("I'll define a Map of button labels…") straight into the code. |
+
+So the three `FAIL` rows aren't "weak models" — they're one cold API shot that hit an AHK-specific snag a second turn would have caught.
 
 ## Best Brain, Broken Hands
 
