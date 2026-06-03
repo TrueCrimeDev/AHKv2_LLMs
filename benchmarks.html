@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Benchmarks - AHKv2 &amp; LLMs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2026-06b">
+  <style>
+    .bx-main { max-width: 880px; width: 100%; margin: 0 auto; padding: 24px; flex: 1; }
+    .bx-head h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.3px; margin: 0 0 6px; }
+    .bx-head p { color: var(--text-secondary); font-size: 15px; line-height: 1.7; margin: 0 0 8px; max-width: 68ch; }
+    .bx-grid { display: grid; gap: 16px; margin-top: 20px; }
+    .bx-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    .bx-links a { font-size: 13px; font-weight: 600; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 7px; padding: 7px 13px; }
+    .bx-links a:hover { border-color: var(--accent); color: #fff; }
+    @media (max-width: 680px) { .bx-main { padding: 14px 12px; } .bx-head h1 { font-size: 22px; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="logo.svg" alt="AHK" width="28" height="28" style="border-radius:7px;display:block"><span class="logo-text">v2 &amp; LLMs</span></a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="benchmarks.html" class="nav-link" style="color:var(--accent)">Benchmarks</a>
+        <a href="prompts.html" class="nav-link">Prompts</a>
+        <a href="wiki.html" class="nav-link">Wiki</a>
+        <a href="playground.html" class="nav-link">Playground</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="bx-main">
+    <div class="bx-head">
+      <h1>The Benchmarks</h1>
+      <p>How well do today's LLMs actually write AutoHotkey v2? Each benchmark feeds dozens of models the same strict prompt, then grades what comes back — does it parse, does it run, is it correct — against the real interpreter.</p>
+      <div class="bx-links">
+        <a href="leaderboard.html">Interactive leaderboard &rarr;</a>
+        <a href="prompts.html">The prompts &rarr;</a>
+      </div>
+    </div>
+    <div id="post-grid" class="bx-grid post-grid">
+      <div class="post-card skeleton"><div class="post-link"><div class="skeleton-bar short"></div><div class="skeleton-bar"></div><div class="skeleton-bar wide"></div></div></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2025 AHKv2 &amp; LLMs</span>
+    <div class="footer-links"><a href="index.html">Home</a><a href="https://github.com/TrueCrimeDev/AHKv2_LLMs">GitHub</a></div>
+  </footer>
+
+  <script>
+    (async function () {
+      const grid = document.getElementById('post-grid');
+      try {
+        const posts = await (await fetch('posts/posts.json')).json();
+        const bench = posts
+          .filter(p => (p.tags || []).includes('Benchmark') || /benchmark/.test(p.slug))
+          .sort((a, b) => new Date(b.date) - new Date(a.date));
+        if (!bench.length) { grid.innerHTML = '<p class="empty-state">No benchmarks yet.</p>'; return; }
+        grid.innerHTML = bench.map(post => {
+          const date = new Date(post.date).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+          const tags = (post.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
+          return `<article class="post-card"><a class="post-link" href="post.html?slug=${encodeURIComponent(post.slug)}">
+            <div class="post-meta"><time datetime="${post.date}">${date}</time></div>
+            <h3 class="post-title">${post.title}</h3>
+            <p class="post-excerpt">${post.description}</p>
+            <div class="tag-row">${tags}</div></a></article>`;
+        }).join('');
+      } catch (e) {
+        grid.innerHTML = '<p class="empty-state">Failed to load benchmarks.</p>';
+      }
+    })();
+  </script>
+</body>
+</html>
