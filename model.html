@@ -99,14 +99,14 @@
     }
 
     function render(m) {
-      const runState = m.runs===true ? ['Runs', ACCENT.run, '✔️'] : (m.parse ? ['Crashes', ACCENT.crash, '❌'] : ['Won’t parse', ACCENT.fail, '—']);
+      const runState = m.runs===true ? ['Runs', ACCENT.run, '✓'] : (m.parse ? ['Crashes', ACCENT.crash, '✗'] : ['Won’t parse', ACCENT.fail, '—']);
       let html = `
         <div class="model-head">
           <h1 class="model-name">${esc(m.display)}</h1>
           <span class="model-provider">${esc(m.provider||'')} ${m.source==='openrouter'?'· live via OpenRouter':'· folder entry'}</span>
         </div>
         <div class="badges">
-          ${badge(runState[1], `${runState[2]} <b>${runState[0]}</b>`)}
+          ${badge(runState[1], `<span style="color:${runState[1]}">${runState[2]}</span> <b>${runState[0]}</b>`)}
           ${badge(m.parse?ACCENT.run:ACCENT.fail, `Parse <b>${m.parse?'PASS':'FAIL'}</b>`)}
           ${badge('#5B9FEF', `Code score <b>${m.score}</b>/100`)}
           ${m.rank ? badge('#22D3EE', `Rank <b>#${m.rank}</b>`) : ''}
@@ -126,11 +126,11 @@
 
       if (m.fallback) {
         const fb = m.fallback;
-        const fbRun = fb.runs===true ? ['Runs', ACCENT.run, '✔️'] : (fb.parse ? ['Crashes', ACCENT.crash, '❌'] : ['Won’t parse', ACCENT.fail, '—']);
+        const fbRun = fb.runs===true ? ['Runs', ACCENT.run, '✓'] : (fb.parse ? ['Crashes', ACCENT.crash, '✗'] : ['Won’t parse', ACCENT.fail, '—']);
         let head = fb.recovered
-          ? `<div class="err" style="background:rgba(123,201,111,.08);border-left-color:#7BC96F;color:#aee0a3">✔️ Recovered — failed the primary prompt, but the simpler fallback prompt produced a working window.</div>`
+          ? `<div class="err" style="background:rgba(123,201,111,.08);border-left-color:#7BC96F;color:#aee0a3">✓ Recovered — failed the primary prompt, but the simpler fallback prompt produced a working window.</div>`
           : `<div style="font-size:13px;color:#9a9a9a;margin-bottom:10px">Re-run with the stricter fallback prompt — still ${fb.runs===false?'crashes':'fails to parse'}.</div>`;
-        let body = `<div class="badges" style="margin-bottom:10px">${badge(fbRun[1],`${fbRun[2]} <b>${fbRun[0]}</b>`)}${badge(fb.parse?ACCENT.run:ACCENT.fail,`Parse <b>${fb.parse?'PASS':'FAIL'}</b>`)}${badge('#5B9FEF',`Code <b>${fb.score}</b>/100`)}</div>`;
+        let body = `<div class="badges" style="margin-bottom:10px">${badge(fbRun[1],`<span style="color:${fbRun[1]}">${fbRun[2]}</span> <b>${fbRun[0]}</b>`)}${badge(fb.parse?ACCENT.run:ACCENT.fail,`Parse <b>${fb.parse?'PASS':'FAIL'}</b>`)}${badge('#5B9FEF',`Code <b>${fb.score}</b>/100`)}</div>`;
         if (fb.runtime_err) body += `<div class="err">${esc(fb.runtime_err)}</div>`;
         if (fb.screenshot) body += `<img class="shot" style="margin-top:10px" src="${esc(fb.screenshot)}" alt="${esc(m.display)} fallback GUI">`;
         if (fb.code) body += `<details style="margin-top:10px"><summary style="cursor:pointer;color:#9a9a9a;font-size:13px">Fallback source (${fb.lines||0} lines)</summary><pre style="margin-top:8px"><code class="language-ahk2" id="fbsrc"></code></pre></details>`;

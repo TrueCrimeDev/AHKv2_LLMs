@@ -100,7 +100,7 @@
   let DATA=[], sortK='rank', asc=true, filt='all', q='';
   const codeCls=s=>s>=90?'h-emer':s>=75?'h-blue':s>=50?'h-amber':'h-red';
   const visCell=v=>v==null?'<td class="h-dim">—</td>':`<td class="${v>=18?'h-emer':v>=14?'h-amber':'h-dim'}">${v}</td>`;
-  const runsCell=r=>(r.bytes===0||!r.parse)?'<td class="h-dim">—</td>':(r.runs?'<td class="h-emer">✔️</td>':'<td class="h-red">❌</td>');
+  const runsCell=r=>(r.bytes===0||!r.parse)?'<td class="h-dim">—</td>':(r.runs?'<td class="h-emer">✓</td>':'<td class="h-red">✗</td>');
   function state(r){ if(r.bytes===0)return 'dnf'; if(!r.parse)return 'fail'; return r.runs?'runs':'crash'; }
   function render(){
     let rows=DATA.filter(r=>r.bytes>0)
