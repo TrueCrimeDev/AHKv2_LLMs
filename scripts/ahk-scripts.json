@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-04T07:39:36.773Z",
-  "totalScripts": 319,
+  "lastUpdated": "2026-06-04T13:05:49.206Z",
+  "totalScripts": 320,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5001,13 +5001,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-24T08:17:44Z",
-      "lastModified": "2026-04-25T06:56:30Z",
+      "lastModified": "2026-06-04T10:50:58Z",
       "source": "github",
       "url": "https://github.com/lachlanmcglennon/RobloxReconnect",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "lachlanmcglennon",
-      "code": "```cpp\n; ============================================\n; Repository: lachlanmcglennon/RobloxReconnect\n; ============================================\n; URL: https://github.com/lachlanmcglennon/RobloxReconnect\n; Stars: 0 | Forks: 0\n; Last Updated: 4/25/2026\n; License: Not specified\n;\n; Description:\n; Roblox auto-reconnect GUI tool (AutoHotkey v2) with VIP/Public server support, auto-rejoin, and GPU-saver minimize mode.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lachlanmcglennon/RobloxReconnect.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lachlanmcglennon/RobloxReconnect/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RobloxReconnect>\n\n; Example initialization\nclass RobloxreconnectExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RobloxReconnect loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxreconnectExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lachlanmcglennon/RobloxReconnect\n; ============================================\n; URL: https://github.com/lachlanmcglennon/RobloxReconnect\n; Stars: 1 | Forks: 0\n; Last Updated: 6/4/2026\n; License: MIT License\n;\n; Description:\n; Roblox auto-reconnect GUI tool (AutoHotkey v2) with VIP/Public server support, auto-rejoin, and GPU-saver minimize mode.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lachlanmcglennon/RobloxReconnect.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lachlanmcglennon/RobloxReconnect/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RobloxReconnect>\n\n; Example initialization\nclass RobloxreconnectExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RobloxReconnect loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxreconnectExample()\n```"
     },
     {
       "id": "github-1221331202",
@@ -5769,13 +5769,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-06-03T21:53:47Z",
+      "lastModified": "2026-06-04T09:42:09Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 1,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 6/3/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 6/4/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -6323,17 +6323,21 @@
       "description": "一款基于 AutoHotkey v2 的全场景中英智能双模转写与贴图翻译工具",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "ahk",
+        "autohotkey",
+        "productivity",
+        "windows-utility"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-02T04:23:57Z",
-      "lastModified": "2026-06-02T04:28:08Z",
+      "lastModified": "2026-06-04T09:00:04Z",
       "source": "github",
       "url": "https://github.com/123cz789/LingoPin-AHK",
       "stars": 0,
       "forks": 0,
       "owner": "123cz789",
-      "code": "```cpp\n; ============================================\n; Repository: 123cz789/LingoPin-AHK\n; ============================================\n; URL: https://github.com/123cz789/LingoPin-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 6/2/2026\n; License: MIT License\n;\n; Description:\n; 一款基于 AutoHotkey v2 的全场景中英智能双模转写与贴图翻译工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/123cz789/LingoPin-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/123cz789/LingoPin-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LingoPin-AHK>\n\n; Example initialization\nclass LingopinAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LingoPin-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LingopinAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 123cz789/LingoPin-AHK\n; ============================================\n; URL: https://github.com/123cz789/LingoPin-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 6/4/2026\n; License: MIT License\n;\n; Description:\n; 一款基于 AutoHotkey v2 的全场景中英智能双模转写与贴图翻译工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/123cz789/LingoPin-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/123cz789/LingoPin-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LingoPin-AHK>\n\n; Example initialization\nclass LingopinAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LingoPin-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LingopinAhkExample()\n```"
     },
     {
       "id": "github-1257394795",
@@ -6372,6 +6376,31 @@
       "forks": 0,
       "owner": "sakulmore",
       "code": "```cpp\n; ============================================\n; Repository: sakulmore/Asciify\n; ============================================\n; URL: https://github.com/sakulmore/Asciify\n; Stars: 0 | Forks: 0\n; Last Updated: 6/2/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2.0 script that replaces all typographical punctuation marks in the selected text with programming punctuation marks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sakulmore/Asciify.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sakulmore/Asciify/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Asciify>\n\n; Example initialization\nclass AsciifyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Asciify loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsciifyExample()\n```"
+    },
+    {
+      "id": "github-1259135339",
+      "title": "DeskTabs",
+      "category": "GitHub Repository",
+      "description": "A clickable desktop bar for the virtual desktops of Windows 11. One button per desktop, made for per-project time tracking. AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk-v2",
+        "ai-assisted",
+        "autohotkey",
+        "claude-code",
+        "desktop-switcher"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-04T08:16:52Z",
+      "lastModified": "2026-06-04T12:22:13Z",
+      "source": "github",
+      "url": "https://github.com/paehtz/DeskTabs",
+      "stars": 0,
+      "forks": 0,
+      "owner": "paehtz",
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 0 | Forks: 0\n; Last Updated: 6/4/2026\n; License: MIT License\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11. One button per desktop, made for per-project time tracking. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     }
   ]
 }
