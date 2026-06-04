@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-03T19:20:41.347Z",
+  "lastUpdated": "2026-06-04T00:54:33.867Z",
   "totalScripts": 319,
   "categories": [
     "GUI",
@@ -5769,13 +5769,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-06-01T06:33:44Z",
+      "lastModified": "2026-06-03T21:53:47Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 1,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 6/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 6/3/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
