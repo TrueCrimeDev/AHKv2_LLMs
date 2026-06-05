@@ -51,8 +51,33 @@ node scripts/run-benchmark.mjs --models openai/gpt-4o,deepseek/deepseek-chat
 - `bench/results/results.json` — full per-cell record (stdout, stderr, status).
 - `bench/results/scorecard.md` — the model × task matrix with a score column.
 
-## Tasks
+## Tasks and coverage
 
-See [`tasks.json`](./tasks.json). Each entry has an `id`, the `prompt` text,
-the `expected` value, and a `probes` note describing which v2 idiom it targets.
+See [`tasks.json`](./tasks.json). Each entry has an `id`, a `tier`, the `prompt`
+text, the `expected` value, and a `probes` note describing the v2 idiom it
+targets. The suite is organized so that, between the two tiers, it exercises the
+operations most real programs use *and* the operations AHK v2 specifically
+exists for.
+
+**Tier 1 — universal computation core** (what you'd test in any language):
+closures, recursion, array sorting (no native v2 sort), regex capture loops,
+`Map()` counters, basic OOP, bitwise ops, integer-vs-float division, variadics,
+and `Format()`.
+
+**Tier 2 — depth + the AHK domain** (where v1-trained models fail hardest):
+
+- *OOP depth*: inheritance (`extends`/override), property get/set, `static` + `__New`.
+- *Error handling & control flow*: `throw`/`try`/`catch`, divide-by-zero catch,
+  `Switch`/`Case`, `for key, value in` iteration.
+- *AHK-specific*: `DllCall` into Win32, `Buffer` + `NumPut`/`NumGet`, file I/O
+  (`FileAppend`/`FileRead`/`A_Temp`), and `DateDiff`.
+
+### Known limitation
+
+The benchmark can only auto-grade tasks that resolve to a single stdout value.
+AHK's most representative operations — **GUI, hotkeys, `Send`, window
+management** — are interactive and stateful, so they can't be scored this way.
+That qualitative side is covered separately by the whole-program comparison
+(e.g. the clipboard-manager example), not by this harness.
+
 Add a task by appending an object with a deterministic single-value answer.
