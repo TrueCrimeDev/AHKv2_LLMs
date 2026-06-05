@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "description": "Deterministic AHK v2 micro-benchmark. Each task asks a model for an AutoHotkey v2 function named Solve() that returns a single value. A driver prints String(Solve()) to stdout; the harness runs it via CloudAHK and compares stdout (trimmed) to `expected`. Pass/fail is fully automatic.",
+  "match": "trim",
+  "tasks": [
+    {
+      "id": "map-lookup",
+      "probes": "Map() vs v1 object literal",
+      "prompt": "Build a Map from the keys [\"a\", \"b\", \"c\"] and the values [10, 20, 30], then return the value stored under key \"b\".",
+      "expected": "20"
+    },
+    {
+      "id": "array-sum",
+      "probes": "Array iteration / loop",
+      "prompt": "Return the sum of all integers from 1 to 100 inclusive.",
+      "expected": "5050"
+    },
+    {
+      "id": "string-reverse",
+      "probes": "String indexing / SubStr",
+      "prompt": "Return the string \"AutoHotkey\" with its characters in reverse order.",
+      "expected": "yektoHotuA"
+    },
+    {
+      "id": "closure-counter",
+      "probes": "Closures / fat-arrow functions",
+      "prompt": "Create a counter closure: a function that returns an incrementing integer, starting at 1 on its first call. Call it three times and return the value from the third call.",
+      "expected": "3"
+    },
+    {
+      "id": "regex-capture",
+      "probes": "RegExMatch capture groups",
+      "prompt": "Using RegExMatch on the string \"2026-06-05\" with a pattern that captures the four-digit year, return that captured year as a string.",
+      "expected": "2026"
+    },
+    {
+      "id": "round-format",
+      "probes": "Round() and numeric formatting",
+      "prompt": "Return Round(3.14159, 2) as a string.",
+      "expected": "3.14"
+    },
+    {
+      "id": "array-max",
+      "probes": "Comparison / Max",
+      "prompt": "Return the largest value in the array [3, 7, 2, 9, 4].",
+      "expected": "9"
+    },
+    {
+      "id": "split-join",
+      "probes": "StrSplit / array join",
+      "prompt": "Split the string \"a,b,c\" on commas, then join the parts back together with a hyphen and return the result (i.e. \"a-b-c\").",
+      "expected": "a-b-c"
+    }
+  ]
+}
