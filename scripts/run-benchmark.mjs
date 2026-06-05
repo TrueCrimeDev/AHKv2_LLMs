@@ -53,10 +53,11 @@ const DEFAULT_MODELS = [
 ];
 
 function parseArgs(argv) {
-  const a = { models: null, dryRun: false, genOnly: false };
+  const a = { models: null, tasks: null, dryRun: false, genOnly: false };
   for (let i = 0; i < argv.length; i++) {
     const x = argv[i];
     if (x === "--models") a.models = (argv[++i] || "").split(",").map((s) => s.trim()).filter(Boolean);
+    else if (x === "--tasks") a.tasks = (argv[++i] || "").split(",").map((s) => s.trim()).filter(Boolean);
     else if (x === "--dry-run") a.dryRun = true;
     else if (x === "--gen-only") a.genOnly = true;
     else if (x === "--help" || x === "-h") a.help = true;
@@ -67,14 +68,17 @@ function parseArgs(argv) {
 const slug = (s) => s.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
 
 function buildPrompt(task) {
-  // Minimal, identical harness contract. No v2 idiom hints.
+  // Minimal, identical harness contract. No v2 idiom hints. Note: we allow
+  // top-level classes/helpers because AHK v2 forbids nesting a class inside a
+  // function -- otherwise "only the function" wording would force illegal code.
   return [
-    `Write an AutoHotkey v2 function named Solve() that does the following:`,
+    `Write AutoHotkey v2 code that defines a function named Solve() which does the following:`,
     ``,
     task.prompt,
     ``,
     `Solve() must take no arguments and return the value.`,
-    `Return only the function definition -- no explanation, no example calls, no markdown.`,
+    `Define any classes or helper functions the solution needs at the top level of the script; Solve() should use them.`,
+    `Return only AHK v2 code -- no explanation, no example calls, no markdown.`,
   ].join("\n");
 }
 
@@ -175,7 +179,7 @@ async function main() {
   }
 
   const spec = JSON.parse(await readFile(join(BENCH_DIR, "tasks.json"), "utf8"));
-  const tasks = spec.tasks;
+  const tasks = args.tasks?.length ? spec.tasks.filter((t) => args.tasks.includes(t.id)) : spec.tasks;
   const models = args.models?.length ? args.models : DEFAULT_MODELS;
   const execUrl = args.genOnly ? null : process.env.AHK_EXEC_URL || null;
 
