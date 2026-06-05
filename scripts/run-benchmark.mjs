@@ -45,10 +45,11 @@ const RESULTS_DIR = join(BENCH_DIR, "results");
 const OR_BASE = "https://openrouter.ai/api/v1";
 
 const DEFAULT_MODELS = [
-  "openai/gpt-4o",
-  "google/gemini-2.5-pro",
-  "meta-llama/llama-3.3-70b-instruct",
-  "deepseek/deepseek-chat",
+  "openai/gpt-5.5",
+  "google/gemini-3.1-pro-preview",
+  "x-ai/grok-4.20",
+  "deepseek/deepseek-v4-pro",
+  "meta-llama/llama-4-maverick",
 ];
 
 function parseArgs(argv) {
