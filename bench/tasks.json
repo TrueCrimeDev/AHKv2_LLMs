@@ -1,55 +1,67 @@
 {
-  "version": 1,
-  "description": "Deterministic AHK v2 micro-benchmark. Each task asks a model for an AutoHotkey v2 function named Solve() that returns a single value. A driver prints String(Solve()) to stdout; the harness runs it via CloudAHK and compares stdout (trimmed) to `expected`. Pass/fail is fully automatic.",
+  "version": 2,
+  "description": "Deterministic AHK v2 micro-benchmark. Each task asks a model for an AutoHotkey v2 function named Solve() that returns a single value. A driver prints String(Solve()) to stdout; the harness runs it via CloudAHK and compares stdout (trimmed) to `expected`. Tasks are chosen to discriminate genuine v2 knowledge -- closures, integer vs float division, the absent native array sort, regex output vars, variadics, Format() specs, and OOP -- not just syntax.",
   "match": "trim",
   "tasks": [
     {
-      "id": "map-lookup",
-      "probes": "Map() vs v1 object literal",
-      "prompt": "Build a Map from the keys [\"a\", \"b\", \"c\"] and the values [10, 20, 30], then return the value stored under key \"b\".",
-      "expected": "20"
+      "id": "closure-factory",
+      "probes": "Closures / function factories (a returned closure must capture its argument)",
+      "prompt": "Write a higher-order function that takes a number `factor` and returns a new function which multiplies its own argument by that captured `factor`. Use it to build a 'triple' function (factor 3), then return the result of calling triple with 14.",
+      "expected": "42"
     },
     {
-      "id": "array-sum",
-      "probes": "Array iteration / loop",
-      "prompt": "Return the sum of all integers from 1 to 100 inclusive.",
-      "expected": "5050"
+      "id": "recursion-fib",
+      "probes": "Recursion and large integer arithmetic",
+      "prompt": "Compute Fibonacci numbers where fib(1) = 1 and fib(2) = 1. Return fib(30).",
+      "expected": "832040"
     },
     {
-      "id": "string-reverse",
-      "probes": "String indexing / SubStr",
-      "prompt": "Return the string \"AutoHotkey\" with its characters in reverse order.",
-      "expected": "yektoHotuA"
+      "id": "manual-sort",
+      "probes": "Sorting an Array (AHK v2 has no built-in Array sort method)",
+      "prompt": "Sort the array [5, 3, 8, 1, 9, 2, 7] into ascending order, then return the element at 1-based index 5.",
+      "expected": "7"
     },
     {
-      "id": "closure-counter",
-      "probes": "Closures / fat-arrow functions",
-      "prompt": "Create a counter closure: a function that returns an incrementing integer, starting at 1 on its first call. Call it three times and return the value from the third call.",
+      "id": "regex-digit-sum",
+      "probes": "RegExMatch in a loop with the &outputVar capture and Pos advancing",
+      "prompt": "Scan the string \"ab12cd345ef6\" for every maximal run of digits, convert each run to an integer, and return the sum of those integers.",
+      "expected": "363"
+    },
+    {
+      "id": "word-frequency",
+      "probes": "Map() used as a counter, then finding the maximum value",
+      "prompt": "Count how often each space-separated word occurs in the sentence \"the quick brown fox the lazy dog the end\", and return the highest occurrence count of any single word.",
       "expected": "3"
     },
     {
-      "id": "regex-capture",
-      "probes": "RegExMatch capture groups",
-      "prompt": "Using RegExMatch on the string \"2026-06-05\" with a pattern that captures the four-digit year, return that captured year as a string.",
-      "expected": "2026"
+      "id": "class-stack",
+      "probes": "Class definition, methods, and an Array used as a stack",
+      "prompt": "Define a Stack class with Push and Pop methods backed by an array. Push 10, then 20, then 30; Pop twice; Push 40. Return the value currently on top of the stack without removing it.",
+      "expected": "40"
     },
     {
-      "id": "round-format",
-      "probes": "Round() and numeric formatting",
-      "prompt": "Return Round(3.14159, 2) as a string.",
-      "expected": "3.14"
+      "id": "bit-popcount",
+      "probes": "Bitwise operators (&, >>) in a loop",
+      "prompt": "Return the number of bits set to 1 in the binary representation of the integer 0xABCDEF.",
+      "expected": "17"
     },
     {
-      "id": "array-max",
-      "probes": "Comparison / Max",
-      "prompt": "Return the largest value in the array [3, 7, 2, 9, 4].",
-      "expected": "9"
+      "id": "collatz-steps",
+      "probes": "While loops and INTEGER division -- AHK v2 '/' is float, '//' is integer",
+      "prompt": "Starting from 27, repeatedly apply the Collatz rule: if the current number is even, divide it by two; if it is odd, replace it with three times the number plus one. Count how many steps it takes to reach 1 (the starting value 27 is step 0). Return that step count.",
+      "expected": "111"
     },
     {
-      "id": "split-join",
-      "probes": "StrSplit / array join",
-      "prompt": "Split the string \"a,b,c\" on commas, then join the parts back together with a hyphen and return the result (i.e. \"a-b-c\").",
-      "expected": "a-b-c"
+      "id": "variadic-sum",
+      "probes": "Variadic parameters (args*) and iterating them",
+      "prompt": "Write a variadic function that accepts any number of numeric arguments and returns their total. Return the result of calling it with the arguments 3, 14, 15, 9, 26, 5.",
+      "expected": "72"
+    },
+    {
+      "id": "format-float",
+      "probes": "Format() format specifiers and float division",
+      "prompt": "Return the result of formatting the value of 22 divided by 7 to exactly three digits after the decimal point, using AHK v2's Format function.",
+      "expected": "3.143"
     }
   ]
 }
