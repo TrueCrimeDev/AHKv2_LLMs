@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-06T00:44:37.701Z",
+  "lastUpdated": "2026-06-06T07:06:07.242Z",
   "totalScripts": 320,
   "categories": [
     "GUI",
@@ -499,7 +499,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-06-06T00:43:03Z",
+      "lastModified": "2026-06-06T00:49:06Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 46,
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-06-02T04:37:02Z",
+      "lastModified": "2026-06-06T04:24:21Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 6/2/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 6/6/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -6331,13 +6331,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-02T04:23:57Z",
-      "lastModified": "2026-06-04T09:00:04Z",
+      "lastModified": "2026-06-06T04:36:20Z",
       "source": "github",
       "url": "https://github.com/123cz789/LingoPin-AHK",
       "stars": 0,
       "forks": 0,
       "owner": "123cz789",
-      "code": "```cpp\n; ============================================\n; Repository: 123cz789/LingoPin-AHK\n; ============================================\n; URL: https://github.com/123cz789/LingoPin-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 6/4/2026\n; License: MIT License\n;\n; Description:\n; 一款基于 AutoHotkey v2 的全场景中英智能双模转写与贴图翻译工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/123cz789/LingoPin-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/123cz789/LingoPin-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LingoPin-AHK>\n\n; Example initialization\nclass LingopinAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LingoPin-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LingopinAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 123cz789/LingoPin-AHK\n; ============================================\n; URL: https://github.com/123cz789/LingoPin-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 6/6/2026\n; License: MIT License\n;\n; Description:\n; 一款基于 AutoHotkey v2 的全场景中英智能双模转写与贴图翻译工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/123cz789/LingoPin-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/123cz789/LingoPin-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LingoPin-AHK>\n\n; Example initialization\nclass LingopinAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LingoPin-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LingopinAhkExample()\n```"
     },
     {
       "id": "github-1257394795",
