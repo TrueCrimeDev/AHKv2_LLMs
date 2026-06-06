@@ -77,7 +77,9 @@ class ReposFeed {
       return;
     }
 
-    const reposList = repos.map(repo => this.createRepoCard(repo)).join('');
+    const sorted = repos.slice().sort((a, b) =>
+      new Date(b.pushed_at || b.updated_at) - new Date(a.pushed_at || a.updated_at));
+    const reposList = sorted.map(repo => this.createRepoCard(repo)).join('');
     this.container.innerHTML = `<ul class="repos-list">${reposList}</ul>`;
   }
 
@@ -85,7 +87,7 @@ class ReposFeed {
    * Create HTML for a single repository card
    */
   createRepoCard(repo) {
-    const updatedDate = new Date(repo.updated_at);
+    const updatedDate = new Date(repo.pushed_at || repo.updated_at);
     const formattedDate = this.formatDate(updatedDate);
     const stars = this.formatNumber(repo.stargazers_count);
     const description = repo.description 
@@ -118,7 +120,10 @@ class ReposFeed {
     const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
 
     if (diffDays === 0) {
-      return 'today';
+      const diffMin = Math.floor(diffMs / 60000);
+      if (diffMin < 1) return 'just now';
+      if (diffMin < 60) return `${diffMin}m ago`;
+      return `${Math.floor(diffMin / 60)}h ago`;
     } else if (diffDays === 1) {
       return 'yesterday';
     } else if (diffDays < 7) {
