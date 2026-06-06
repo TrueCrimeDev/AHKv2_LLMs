@@ -1,0 +1,155 @@
+{
+  "version": 3,
+  "description": "Deterministic AHK v2 micro-benchmark. Each task asks a model for an AutoHotkey v2 function named Solve() that returns a single value. A driver prints String(Solve()) to stdout; the harness runs it via CloudAHK and compares stdout (trimmed) to `expected`. Tier 1 covers the universal computation core (algorithms, data structures, string/number work). Tier 2 covers OOP depth, error handling / control flow, and the AHK-specific domain (DllCall, Buffer/NumPut, file I/O, DateDiff) -- where v1-trained models fail hardest.",
+  "match": "trim",
+  "tasks": [
+    {
+      "id": "closure-factory",
+      "tier": 1,
+      "probes": "Closures / function factories (a returned closure must capture its argument)",
+      "prompt": "Write a higher-order function that takes a number `factor` and returns a new function which multiplies its own argument by that captured `factor`. Use it to build a 'triple' function (factor 3), then return the result of calling triple with 14.",
+      "expected": "42"
+    },
+    {
+      "id": "recursion-fib",
+      "tier": 1,
+      "probes": "Recursion and large integer arithmetic",
+      "prompt": "Compute Fibonacci numbers where fib(1) = 1 and fib(2) = 1. Return fib(30).",
+      "expected": "832040"
+    },
+    {
+      "id": "manual-sort",
+      "tier": 1,
+      "probes": "Sorting an Array (AHK v2 has no built-in Array sort method)",
+      "prompt": "Sort the array [5, 3, 8, 1, 9, 2, 7] into ascending order, then return the element at 1-based index 5.",
+      "expected": "7"
+    },
+    {
+      "id": "regex-digit-sum",
+      "tier": 1,
+      "probes": "RegExMatch in a loop with the &outputVar capture and Pos advancing",
+      "prompt": "Scan the string \"ab12cd345ef6\" for every maximal run of digits, convert each run to an integer, and return the sum of those integers.",
+      "expected": "363"
+    },
+    {
+      "id": "word-frequency",
+      "tier": 1,
+      "probes": "Map() used as a counter, then finding the maximum value",
+      "prompt": "Count how often each space-separated word occurs in the sentence \"the quick brown fox the lazy dog the end\", and return the highest occurrence count of any single word.",
+      "expected": "3"
+    },
+    {
+      "id": "class-stack",
+      "tier": 1,
+      "probes": "Class definition, methods, and an Array used as a stack",
+      "prompt": "Define a Stack class with Push and Pop methods backed by an array. Push 10, then 20, then 30; Pop twice; Push 40. Return the value currently on top of the stack without removing it.",
+      "expected": "40"
+    },
+    {
+      "id": "bit-popcount",
+      "tier": 1,
+      "probes": "Bitwise operators (&, >>) in a loop",
+      "prompt": "Return the number of bits set to 1 in the binary representation of the integer 0xABCDEF.",
+      "expected": "17"
+    },
+    {
+      "id": "collatz-steps",
+      "tier": 1,
+      "probes": "While loops and INTEGER division -- AHK v2 '/' is float, '//' is integer",
+      "prompt": "Starting from 27, repeatedly apply the Collatz rule: if the current number is even, divide it by two; if it is odd, replace it with three times the number plus one. Count how many steps it takes to reach 1 (the starting value 27 is step 0). Return that step count.",
+      "expected": "111"
+    },
+    {
+      "id": "variadic-sum",
+      "tier": 1,
+      "probes": "Variadic parameters (args*) and iterating them",
+      "prompt": "Write a variadic function that accepts any number of numeric arguments and returns their total. Return the result of calling it with the arguments 3, 14, 15, 9, 26, 5.",
+      "expected": "72"
+    },
+    {
+      "id": "format-float",
+      "tier": 1,
+      "probes": "Format() format specifiers and float division",
+      "prompt": "Return the result of formatting the value of 22 divided by 7 to exactly three digits after the decimal point, using AHK v2's Format function.",
+      "expected": "3.143"
+    },
+
+    {
+      "id": "inheritance",
+      "tier": 2,
+      "probes": "Class inheritance: extends, method override, inherited property",
+      "prompt": "Define a class Animal whose Speak() method returns the string \"generic\" and which sets an instance property Legs to 4. Define a class Dog that extends Animal and overrides Speak() to return \"woof\". Create a Dog, and return its Speak() result concatenated directly with its Legs value (e.g. \"woof4\").",
+      "expected": "woof4"
+    },
+    {
+      "id": "property-getset",
+      "tier": 2,
+      "probes": "Property getter AND setter with transformation",
+      "prompt": "Define a class with a single property whose setter stores three times whatever value is assigned, and whose getter returns the stored value. Create an instance, assign 7 to that property, then return the property's value.",
+      "expected": "21"
+    },
+    {
+      "id": "static-counter",
+      "tier": 2,
+      "probes": "Static class field mutated across instances in __New",
+      "prompt": "Define a class that keeps a static counter of how many instances have been created, incrementing it inside __New. Create five instances, then return the value of that static counter.",
+      "expected": "5"
+    },
+    {
+      "id": "try-catch-message",
+      "tier": 2,
+      "probes": "throw / try / catch and reading Error.Message",
+      "prompt": "Write code that throws an Error with the message \"boom\", catches it in a try/catch, and returns the caught error's Message.",
+      "expected": "boom"
+    },
+    {
+      "id": "divzero-catch",
+      "tier": 2,
+      "probes": "Catching a runtime (divide-by-zero) error",
+      "prompt": "Inside a try block, evaluate 1 divided by 0 so that it raises a runtime error. Catch that error and return the string \"caught\".",
+      "expected": "caught"
+    },
+    {
+      "id": "switch-case",
+      "tier": 2,
+      "probes": "Switch / Case statement",
+      "prompt": "Using a Switch statement on the integer 3, map 1 to \"one\", 2 to \"two\", and 3 to \"three\". Return the matched string.",
+      "expected": "three"
+    },
+    {
+      "id": "for-in-map",
+      "tier": 2,
+      "probes": "for key, value in Map iteration",
+      "prompt": "Create a Map with the pairs a=10, b=20, c=30. Using a for-loop that iterates key and value pairs, sum all the values and return the total.",
+      "expected": "60"
+    },
+    {
+      "id": "dllcall-muldiv",
+      "tier": 2,
+      "probes": "DllCall into a Win32 function with typed arguments",
+      "prompt": "Use DllCall to invoke the Win32 MulDiv function with the arguments 7, 1000, and 3 (all int), and return its integer result.",
+      "expected": "2333"
+    },
+    {
+      "id": "buffer-numput",
+      "tier": 2,
+      "probes": "Buffer allocation with NumPut / NumGet round-trip",
+      "prompt": "Allocate a Buffer, write the unsigned 32-bit integer 0xDEADBEEF into it at offset 0 with NumPut, then read it back with NumGet as an unsigned 32-bit integer and return that value.",
+      "expected": "3735928559"
+    },
+    {
+      "id": "file-roundtrip",
+      "tier": 2,
+      "probes": "File I/O: FileAppend then FileRead via A_Temp",
+      "prompt": "Write exactly the text \"hello\" (no trailing newline) to a new temporary file under A_Temp, read the file's contents back, delete the file, and return the contents that were read.",
+      "expected": "hello"
+    },
+    {
+      "id": "date-diff",
+      "tier": 2,
+      "probes": "DateDiff with YYYYMMDD timestamps",
+      "prompt": "Using DateDiff, return the number of whole days from 2026-01-01 to 2026-06-05.",
+      "expected": "155"
+    }
+  ]
+}

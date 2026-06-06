@@ -82,8 +82,8 @@ The real power: arrays of user-defined structs.
 
 ```ahk2
 Struct POINT {
-    x: i32
-    y: i32
+    x: Int32
+    y: Int32
 }
 
 pa := POINT[3]()
@@ -111,10 +111,10 @@ Struct arrays shine when working with Win32 GDI:
 
 ```ahk2
 Struct RGBQUAD {
-    blue: u8
-    green: u8
-    red: u8
-    reserved: u8
+    blue: UInt8
+    green: UInt8
+    red: UInt8
+    reserved: UInt8
 }
 
 pal := RGBQUAD[256]()
@@ -131,8 +131,8 @@ Alpha.23 fixes `.Size` to return the struct's **layout size** rather than the al
 
 ```ahk2
 Struct SmallPair {
-    a: u8
-    b: u8
+    a: UInt8
+    b: UInt8
 }
 
 s := SmallPair()

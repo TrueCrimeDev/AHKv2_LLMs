@@ -134,7 +134,7 @@ Prompt: *"Read the raw bytes of a 32-bit RGBA color."* (requires `v2.1-alpha.22`
 
 ```ahk2
 Struct Color {
-    rgba: u32
+    rgba: UInt32
 }
 DefineProp(Color.Prototype, "r", {Type: UInt8, Offset: 0})
 DefineProp(Color.Prototype, "g", {Type: UInt8, Offset: 1})

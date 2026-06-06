@@ -78,7 +78,7 @@ Two bugs fixed in `WinExist`:
 Alpha.25 adds a guard against a crash scenario: passing a struct array class as a `DllCall` return type.
 
 ```ahk2
-Struct POINT { x: i32, y: i32 }
+Struct POINT { x: Int32, y: Int32 }
 
 ; Before alpha.25: crash
 ; After alpha.25: proper error

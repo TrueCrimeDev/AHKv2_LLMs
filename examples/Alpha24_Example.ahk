@@ -43,7 +43,7 @@ CallbackFree(cb_mix)
 
 ; VARIANT-style discriminated union: multiple types at same offset
 Struct Variant {
-    vtype: u16
+    vtype: UInt16
 }
 DefineProp(Variant.Prototype, "intVal",  {Type: Int32,   Offset: 8})
 DefineProp(Variant.Prototype, "fltVal",  {Type: Float64, Offset: 8})
@@ -59,7 +59,7 @@ vFlt.fltVal := 3.14159
 
 ; RGBA color: packed u32 with individual byte overlays
 Struct Color {
-    rgba: u32
+    rgba: UInt32
 }
 DefineProp(Color.Prototype, "r", {Type: UInt8, Offset: 0})
 DefineProp(Color.Prototype, "g", {Type: UInt8, Offset: 1})
@@ -76,8 +76,8 @@ c_packed := c.rgba
 
 ; Named offset: reference another field's position
 Struct Register {
-    lo: u16
-    hi: u16
+    lo: UInt16
+    hi: UInt16
 }
 DefineProp(Register.Prototype, "full", {Type: UInt32, Offset: "lo"})
 
@@ -132,7 +132,7 @@ for field in ["value", "id", "flags"]
 
 ; Struct.Ptr and Struct[N] no longer leak via circular refs
 Struct Tile {
-    id: u16
+    id: UInt16
     elevation: Float32
 }
 grid := Tile[6]()
@@ -142,10 +142,10 @@ loop 6 {
 }
 
 ; Nested struct release: outer frees inner correctly
-Struct Inner { data: u32 }
+Struct Inner { data: UInt32 }
 Struct Outer {
     header: Inner
-    tag: u16
+    tag: UInt16
 }
 o := Outer()
 o.header.data := 0xCAFEBABE

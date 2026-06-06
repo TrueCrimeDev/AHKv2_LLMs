@@ -22,7 +22,7 @@ Run: bin\AutoHotkey64.exe Alpha_Tricks.ahk
 ; IEEE 754 float dissection
 ; Union a f64 with u64 to read raw sign/exponent/mantissa
 Struct F64Bits {
-    raw: u64
+    raw: UInt64
 }
 DefineProp(F64Bits.Prototype, "f", {Type: Float64, Offset: 0})
 fv := F64Bits()
@@ -33,7 +33,7 @@ mant := fv.raw & 0xFFFFFFFFFFFFF  ; => 0x91EB851EB851F
 
 ; IPv4 address as u32/4xu8 overlay
 Struct IPv4 {
-    addr: u32
+    addr: UInt32
 }
 DefineProp(IPv4.Prototype, "a", {Type: UInt8, Offset: 0})
 DefineProp(IPv4.Prototype, "b", {Type: UInt8, Offset: 1})
@@ -45,7 +45,7 @@ ip.a := 192, ip.b := 168, ip.c := 1, ip.d := 42
 
 ; Named bit flags via helper
 Struct Perms {
-    bits: u32
+    bits: UInt32
 }
 BitFlag(proto, name, bit) {
     DefineProp(proto, name, {
@@ -64,7 +64,7 @@ f.Read := 1, f.Execute := 1
 
 ; RGBA color union with mix
 Struct RGBA {
-    packed: u32
+    packed: UInt32
 }
 DefineProp(RGBA.Prototype, "r", {Type: UInt8, Offset: 0})
 DefineProp(RGBA.Prototype, "g", {Type: UInt8, Offset: 1})
@@ -87,8 +87,8 @@ blue := RGB(0, 0, 255)
 
 ; Vec2 struct with math methods
 Struct Vec2 {
-    x: f32
-    y: f32
+    x: Float32
+    y: Float32
 }
 V(x, y) {
     v := Vec2()
@@ -172,8 +172,8 @@ Describe(val?) {
 ; Ring buffer
 Struct Ring {
     data: Float64[8]
-    head: u32
-    count: u32
+    head: UInt32
+    count: UInt32
 }
 DefineProp(Ring.Prototype, "Push", {Call: (this, v) {
     idx := Mod(this.head + this.count, 8) + 1
@@ -193,10 +193,10 @@ loop 12
 ; Arena allocator via Struct.At
 ; Zero-copy views into a single pre-allocated buffer
 Struct Particle {
-    x: f32
-    y: f32
-    vx: f32
-    vy: f32
+    x: Float32
+    y: Float32
+    vx: Float32
+    vy: Float32
 }
 arena := Buffer(Particle().Size * 1000)
 Spawn(idx) => Particle.At(arena.Ptr + (idx - 1) * Particle().Size)
@@ -227,7 +227,7 @@ MakeType(name, fields) {
     }
     return cls
 }
-Pixel := MakeType("Pixel", ["r:u8", "g:u8", "b:u8", "a:u8"])
+Pixel := MakeType("Pixel", ["r:UInt8", "g:UInt8", "b:UInt8", "a:UInt8"])
 px := (Object.Call)(Pixel)
 px.r := 255, px.g := 128, px.b := 0, px.a := 255
 ; px.r => 255, px.g => 128

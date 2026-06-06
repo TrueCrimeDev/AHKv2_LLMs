@@ -16,62 +16,62 @@ Run: bin\AutoHotkey64.exe Alpha22_Example.ahk
 ; STRUCT DEFINITIONS -- typed memory layouts
 
 Struct POINT {
-    x: i32
-    y: i32
+    x: Int32
+    y: Int32
 }
 
 Struct RECT {
-    left: i32
-    top: i32
-    right: i32
-    bottom: i32
+    left: Int32
+    top: Int32
+    right: Int32
+    bottom: Int32
 }
 
 Struct Color {
-    r: u8
-    g: u8
-    b: u8
-    a: u8
+    r: UInt8
+    g: UInt8
+    b: UInt8
+    a: UInt8
 }
 
 ; Nested structs -- the compiler handles layout automatically
 Struct NMHDR {
-    hwndFrom: uptr
-    idFrom: uptr
-    code: i32
+    hwndFrom: UPtr
+    idFrom: UPtr
+    code: Int32
 }
 
 Struct NMCUSTOMDRAW {
     hdr: NMHDR
-    dwDrawStage: u32
-    hdc: uptr
+    dwDrawStage: UInt32
+    hdc: UPtr
     rc: RECT
-    dwItemSpec: uptr
-    uItemState: u32
-    lItemlParam: iptr
+    dwItemSpec: UPtr
+    uItemState: UInt32
+    lItemlParam: Ptr
 }
 
 Struct SYSTEMTIME {
-    wYear: u16
-    wMonth: u16
-    wDayOfWeek: u16
-    wDay: u16
-    wHour: u16
-    wMinute: u16
-    wSecond: u16
-    wMilliseconds: u16
+    wYear: UInt16
+    wMonth: UInt16
+    wDayOfWeek: UInt16
+    wDay: UInt16
+    wHour: UInt16
+    wMinute: UInt16
+    wSecond: UInt16
+    wMilliseconds: UInt16
 }
 
 Struct MEMORYSTATUSEX {
-    dwLength: u32
-    dwMemoryLoad: u32
-    ullTotalPhys: u64
-    ullAvailPhys: u64
-    ullTotalPageFile: u64
-    ullAvailPageFile: u64
-    ullTotalVirtual: u64
-    ullAvailVirtual: u64
-    ullAvailExtendedVirtual: u64
+    dwLength: UInt32
+    dwMemoryLoad: UInt32
+    ullTotalPhys: UInt64
+    ullAvailPhys: UInt64
+    ullTotalPageFile: UInt64
+    ullAvailPageFile: UInt64
+    ullTotalVirtual: UInt64
+    ullAvailVirtual: UInt64
+    ullAvailExtendedVirtual: UInt64
 }
 
 ; STRUCT USAGE -- create instances, set fields

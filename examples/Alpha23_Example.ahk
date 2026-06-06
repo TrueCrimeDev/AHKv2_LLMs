@@ -56,8 +56,8 @@ floatArr[3] := 1.41421
 
 ; Struct arrays -- arrays of user-defined structs
 Struct POINT {
-    x: i32
-    y: i32
+    x: Int32
+    y: Int32
 }
 
 points := POINT[3]()
@@ -74,10 +74,10 @@ loop 32
 
 ; 256-entry grayscale palette, passable to SetDIBColorTable
 Struct RGBQUAD {
-    blue: u8
-    green: u8
-    red: u8
-    reserved: u8
+    blue: UInt8
+    green: UInt8
+    red: UInt8
+    reserved: UInt8
 }
 
 palette := RGBQUAD[256]()
@@ -87,8 +87,8 @@ loop 256
 ; SIZE FIX -- returns layout size, not allocation size
 
 Struct SmallPair {
-    a: u8
-    b: u8
+    a: UInt8
+    b: UInt8
 }
 
 pair := SmallPair()
