@@ -1,5 +1,13 @@
 [
   {
+    "slug": "llm-benchmark-ahk-v2",
+    "title": "Five LLMs Take the AHK v2 Benchmark -- Graded by Running the Code",
+    "date": "2026-06-05",
+    "description": "An execution-graded benchmark of five flagship LLMs on 21 AHK v2 tasks: each model's Solve() function is run on the real interpreter and compared to a golden value. Gemini 3.1 Pro scores 21/21; the rest are separated by v2-specific footguns -- case-insensitive identifier collisions, key-vs-value Map iteration, catch-without-as, and hallucinated stdlib.",
+    "tags": ["LLMs", "Benchmark", "Execution", "Gemini", "GPT-5.5"],
+    "path": "posts/llm-benchmark-ahk-v2.md"
+  },
+  {
     "slug": "opus-4.8-examples",
     "title": "Claude Opus 4.8: AHK v2 Output Examples",
     "date": "2026-05-29",
