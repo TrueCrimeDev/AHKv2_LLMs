@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-06T18:28:26.154Z",
-  "totalScripts": 320,
+  "lastUpdated": "2026-06-07T00:47:52.215Z",
+  "totalScripts": 321,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4255,13 +4255,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-07T21:58:54Z",
-      "lastModified": "2026-06-06T18:12:48Z",
+      "lastModified": "2026-06-07T00:23:10Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/ClautoHotkey",
       "stars": 32,
       "forks": 5,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 32 | Forks: 5\n; Last Updated: 6/6/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 32 | Forks: 5\n; Last Updated: 6/7/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
     },
     {
       "id": "github-1196649768",
@@ -5927,13 +5927,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-22T21:59:54Z",
-      "lastModified": "2026-06-04T20:32:43Z",
+      "lastModified": "2026-06-06T21:16:20Z",
       "source": "github",
       "url": "https://github.com/KwangBeomPark/ClipOCR-Pro",
       "stars": 0,
       "forks": 0,
       "owner": "KwangBeomPark",
-      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/ClipOCR-Pro\n; ============================================\n; URL: https://github.com/KwangBeomPark/ClipOCR-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/4/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/ClipOCR-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/ClipOCR-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipOCR-Pro>\n\n; Example initialization\nclass ClipocrProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipOCR-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipocrProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/ClipOCR-Pro\n; ============================================\n; URL: https://github.com/KwangBeomPark/ClipOCR-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/6/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/ClipOCR-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/ClipOCR-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipOCR-Pro>\n\n; Example initialization\nclass ClipocrProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipOCR-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipocrProExample()\n```"
     },
     {
       "id": "github-1247276932",
@@ -6401,6 +6401,25 @@
       "forks": 0,
       "owner": "paehtz",
       "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 0 | Forks: 0\n; Last Updated: 6/4/2026\n; License: MIT License\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11. One button per desktop, made for per-project time tracking. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+    },
+    {
+      "id": "github-1261581594",
+      "title": "MouseDesktopGestureSwitcher",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 mouse gesture utility for fast Windows virtual desktop switching and window moving",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-06T22:10:45Z",
+      "lastModified": "2026-06-06T22:17:34Z",
+      "source": "github",
+      "url": "https://github.com/fneoc/MouseDesktopGestureSwitcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "fneoc",
+      "code": "```cpp\n; ============================================\n; Repository: fneoc/MouseDesktopGestureSwitcher\n; ============================================\n; URL: https://github.com/fneoc/MouseDesktopGestureSwitcher\n; Stars: 0 | Forks: 0\n; Last Updated: 6/6/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 mouse gesture utility for fast Windows virtual desktop switching and window moving\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fneoc/MouseDesktopGestureSwitcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fneoc/MouseDesktopGestureSwitcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MouseDesktopGestureSwitcher>\n\n; Example initialization\nclass MousedesktopgestureswitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MouseDesktopGestureSwitcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousedesktopgestureswitcherExample()\n```"
     }
   ]
 }
