@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-08T07:44:06.464Z",
-  "totalScripts": 323,
+  "lastUpdated": "2026-06-08T13:29:02.079Z",
+  "totalScripts": 324,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-06-04T19:07:57Z",
+      "lastModified": "2026-06-08T13:01:38Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 35,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 6/4/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 6/8/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -1472,13 +1472,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-15T21:40:08Z",
-      "lastModified": "2026-05-08T04:26:35Z",
+      "lastModified": "2026-06-08T13:24:13Z",
       "source": "github",
       "url": "https://github.com/Sid-1996/BrownDust2-Beat-Helper",
       "stars": 8,
       "forks": 0,
       "owner": "Sid-1996",
-      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/BrownDust2-Beat-Helper\n; ============================================\n; URL: https://github.com/Sid-1996/BrownDust2-Beat-Helper\n; Stars: 8 | Forks: 0\n; Last Updated: 5/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 tool for Brown Dust 2 music mini-game automation. Features draggable & resizable overlays, color detection, multi-zone support, and INI settings. Perfect for keeping perfect beats without finger fatigue.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/BrownDust2-Beat-Helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/BrownDust2-Beat-Helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BrownDust2-Beat-Helper>\n\n; Example initialization\nclass Browndust2BeatHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BrownDust2-Beat-Helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Browndust2BeatHelperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/BrownDust2-Beat-Helper\n; ============================================\n; URL: https://github.com/Sid-1996/BrownDust2-Beat-Helper\n; Stars: 8 | Forks: 0\n; Last Updated: 6/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 tool for Brown Dust 2 music mini-game automation. Features draggable & resizable overlays, color detection, multi-zone support, and INI settings. Perfect for keeping perfect beats without finger fatigue.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/BrownDust2-Beat-Helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/BrownDust2-Beat-Helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BrownDust2-Beat-Helper>\n\n; Example initialization\nclass Browndust2BeatHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BrownDust2-Beat-Helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Browndust2BeatHelperExample()\n```"
     },
     {
       "id": "github-1120865514",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-06-06T11:19:13Z",
+      "lastModified": "2026-06-08T11:48:52Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 6/6/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 6/8/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-06-08T02:43:32Z",
+      "lastModified": "2026-06-08T12:53:39Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 1,
@@ -6457,13 +6457,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-07T20:14:28Z",
-      "lastModified": "2026-06-07T20:56:10Z",
+      "lastModified": "2026-06-08T10:28:29Z",
       "source": "github",
       "url": "https://github.com/Tunaaaaqqq/ForzaHorizon6-Macros",
       "stars": 0,
       "forks": 0,
       "owner": "Tunaaaaqqq",
-      "code": "```cpp\n; ============================================\n; Repository: Tunaaaaqqq/ForzaHorizon6-Macros\n; ============================================\n; URL: https://github.com/Tunaaaaqqq/ForzaHorizon6-Macros\n; Stars: 0 | Forks: 0\n; Last Updated: 6/7/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 macros for Forza Horizon 6 / FH6, including wheelspin and skill point loops.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Tunaaaaqqq/ForzaHorizon6-Macros.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Tunaaaaqqq/ForzaHorizon6-Macros/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ForzaHorizon6-Macros>\n\n; Example initialization\nclass Forzahorizon6MacrosExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ForzaHorizon6-Macros loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Forzahorizon6MacrosExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Tunaaaaqqq/ForzaHorizon6-Macros\n; ============================================\n; URL: https://github.com/Tunaaaaqqq/ForzaHorizon6-Macros\n; Stars: 0 | Forks: 0\n; Last Updated: 6/8/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 macros for Forza Horizon 6 / FH6, including wheelspin and skill point loops.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Tunaaaaqqq/ForzaHorizon6-Macros.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Tunaaaaqqq/ForzaHorizon6-Macros/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ForzaHorizon6-Macros>\n\n; Example initialization\nclass Forzahorizon6MacrosExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ForzaHorizon6-Macros loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Forzahorizon6MacrosExample()\n```"
+    },
+    {
+      "id": "github-1262822543",
+      "title": "Forza-Horizon-6-Wheelspin-Macro",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-08T11:01:09Z",
+      "lastModified": "2026-06-08T11:04:09Z",
+      "source": "github",
+      "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "M-Haziq-Iqbal",
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     }
   ]
 }
