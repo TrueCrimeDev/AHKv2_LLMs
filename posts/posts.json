@@ -1,9 +1,9 @@
 [
   {
     "slug": "ahk-eval-benchmark",
-    "title": "AHK-Eval: 36 Tasks, 181 Hidden Tests, 12 Models",
+    "title": "AHK-Eval: 36 Tasks, 181 Hidden Tests, 13 Models",
     "date": "2026-06-11",
-    "description": "A HumanEval-style AHK v2 benchmark: 36 independent functions across six categories and three difficulty tiers, graded against hidden test cases. GPT-5.5 lands one task from perfect; Kimi K2.6 is the only model to crack NaturalSort; half the field dies on v2's relational-operator trap.",
+    "description": "A HumanEval-style AHK v2 benchmark: 36 independent functions across six categories and three difficulty tiers, graded against hidden test cases. GPT-5.5 lands one task from perfect; Claude Fable 5 \u2014 the model that built the benchmark, run cold over the bare API \u2014 takes second at 34/36 and falls into its own favorite trap.",
     "tags": [
       "LLMs",
       "Benchmark",
