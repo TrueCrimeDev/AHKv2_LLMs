@@ -14,9 +14,9 @@
   },
   {
     "slug": "llm-clipboard-benchmark",
-    "title": "One Prompt, 72 Models: An AHK v2 Clipboard-Formatter Benchmark",
+    "title": "One Prompt, 77 Models: An AHK v2 Clipboard-Formatter Benchmark",
     "date": "2026-06-01",
-    "description": "72 LLMs answered the same strict AHK v2 prompt, graded on two signals \u2014 does it parse, and does it actually run \u2014 against the alpha.30 fork, with per-model pages and live OpenRouter sweeps. Only 25 of the 69 that returned code build a working window.",
+    "description": "77 LLMs answered the same strict AHK v2 prompt, graded on two signals \u2014 does it parse, and does it actually run \u2014 against the alpha.30 fork, with per-model pages and live OpenRouter sweeps. Only 30 of the 74 that returned code build a working window \u2014 Claude Fable 5's five entries all do.",
     "tags": [
       "LLMs",
       "Benchmark",
