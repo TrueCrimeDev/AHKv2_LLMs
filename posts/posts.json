@@ -1,9 +1,9 @@
 [
   {
     "slug": "llm-toolkit-benchmark",
-    "title": "The Clipboard Toolkit: 10 Coding Models, 12 Transforms",
+    "title": "The Clipboard Toolkit: 11 Coding Models, 12 Transforms",
     "date": "2026-06-02",
-    "description": "A second, deliberately discriminating AHK v2 benchmark: twelve independent clipboard text transforms, graded functionally. The top-10 coding models spread from 3/12 to 11/12 \u2014 with the best evaluator (Opus 4.8) hung on a crashing GUI.",
+    "description": "A second, deliberately discriminating AHK v2 benchmark: twelve independent clipboard text transforms, graded functionally against hidden test cases. The top-11 coding models spread from 3/12 to 11/12 \u2014 with the best logic in the field (Opus 4.8) hung on a crashing GUI.",
     "tags": [
       "LLMs",
       "Benchmark",
@@ -14,9 +14,9 @@
   },
   {
     "slug": "llm-clipboard-benchmark",
-    "title": "One Prompt, 60 Models: An AHK v2 Clipboard-Formatter Benchmark",
+    "title": "One Prompt, 72 Models: An AHK v2 Clipboard-Formatter Benchmark",
     "date": "2026-06-01",
-    "description": "60+ LLMs answered the same strict AHK v2 prompt, graded on two signals \u2014 does it parse, and does it actually run \u2014 against the alpha.30 fork, with per-model pages and two live OpenRouter sweeps. Only 24 of 61 build a working window.",
+    "description": "72 LLMs answered the same strict AHK v2 prompt, graded on two signals \u2014 does it parse, and does it actually run \u2014 against the alpha.30 fork, with per-model pages and live OpenRouter sweeps. Only 25 of the 69 that returned code build a working window.",
     "tags": [
       "LLMs",
       "Benchmark",
