@@ -1,5 +1,18 @@
 [
   {
+    "slug": "ahk-eval-benchmark",
+    "title": "AHK-Eval: 36 Tasks, 181 Hidden Tests, 12 Models",
+    "date": "2026-06-11",
+    "description": "A HumanEval-style AHK v2 benchmark: 36 independent functions across six categories and three difficulty tiers, graded against hidden test cases. GPT-5.5 lands one task from perfect; Kimi K2.6 is the only model to crack NaturalSort; half the field dies on v2's relational-operator trap.",
+    "tags": [
+      "LLMs",
+      "Benchmark",
+      "OpenRouter",
+      "AHK-Eval"
+    ],
+    "path": "posts/ahk-eval-benchmark.md"
+  },
+  {
     "slug": "fable-5-clipboard-sweep",
     "title": "Claude Fable 5: Five Entries, Five Windows",
     "date": "2026-06-11",
