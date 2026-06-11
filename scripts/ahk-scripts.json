@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-11T13:19:13.547Z",
-  "totalScripts": 332,
+  "lastUpdated": "2026-06-11T19:00:39.037Z",
+  "totalScripts": 333,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1472,13 +1472,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-08-15T21:40:08Z",
-      "lastModified": "2026-06-09T16:38:43Z",
+      "lastModified": "2026-06-11T15:58:19Z",
       "source": "github",
       "url": "https://github.com/Sid-1996/BrownDust2-Beat-Helper",
-      "stars": 9,
+      "stars": 8,
       "forks": 0,
       "owner": "Sid-1996",
-      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/BrownDust2-Beat-Helper\n; ============================================\n; URL: https://github.com/Sid-1996/BrownDust2-Beat-Helper\n; Stars: 9 | Forks: 0\n; Last Updated: 6/9/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 tool for Brown Dust 2 music mini-game automation. Features draggable & resizable overlays, color detection, multi-zone support, and INI settings. Perfect for keeping perfect beats without finger fatigue.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/BrownDust2-Beat-Helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/BrownDust2-Beat-Helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BrownDust2-Beat-Helper>\n\n; Example initialization\nclass Browndust2BeatHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BrownDust2-Beat-Helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Browndust2BeatHelperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/BrownDust2-Beat-Helper\n; ============================================\n; URL: https://github.com/Sid-1996/BrownDust2-Beat-Helper\n; Stars: 8 | Forks: 0\n; Last Updated: 6/11/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 tool for Brown Dust 2 music mini-game automation. Features draggable & resizable overlays, color detection, multi-zone support, and INI settings. Perfect for keeping perfect beats without finger fatigue.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/BrownDust2-Beat-Helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/BrownDust2-Beat-Helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BrownDust2-Beat-Helper>\n\n; Example initialization\nclass Browndust2BeatHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BrownDust2-Beat-Helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Browndust2BeatHelperExample()\n```"
     },
     {
       "id": "github-1120865514",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-06-11T09:56:20Z",
+      "lastModified": "2026-06-11T17:43:55Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 1,
@@ -5788,13 +5788,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-10T17:32:29Z",
-      "lastModified": "2026-06-11T03:47:29Z",
+      "lastModified": "2026-06-11T17:42:38Z",
       "source": "github",
       "url": "https://github.com/Magnetron85/Radiology-Right-Click",
-      "stars": 8,
-      "forks": 2,
+      "stars": 9,
+      "forks": 3,
       "owner": "Magnetron85",
-      "code": "```cpp\n; ============================================\n; Repository: Magnetron85/Radiology-Right-Click\n; ============================================\n; URL: https://github.com/Magnetron85/Radiology-Right-Click\n; Stars: 8 | Forks: 2\n; Last Updated: 6/11/2026\n; License: Other\n;\n; Description:\n; Right-click context menu of measurement and analysis helpers for radiology dictation. AutoHotkey v2. PolyForm Noncommercial. Research/educational use only -- not a medical device.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/Radiology-Right-Click.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/Radiology-Right-Click/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Radiology-Right-Click>\n\n; Example initialization\nclass RadiologyRightClickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Radiology-Right-Click loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RadiologyRightClickExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Magnetron85/Radiology-Right-Click\n; ============================================\n; URL: https://github.com/Magnetron85/Radiology-Right-Click\n; Stars: 9 | Forks: 3\n; Last Updated: 6/11/2026\n; License: Other\n;\n; Description:\n; Right-click context menu of measurement and analysis helpers for radiology dictation. AutoHotkey v2. PolyForm Noncommercial. Research/educational use only -- not a medical device.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/Radiology-Right-Click.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/Radiology-Right-Click/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Radiology-Right-Click>\n\n; Example initialization\nclass RadiologyRightClickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Radiology-Right-Click loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RadiologyRightClickExample()\n```"
     },
     {
       "id": "github-1242760553",
@@ -6104,13 +6104,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-22T06:23:39Z",
-      "lastModified": "2026-06-10T12:43:19Z",
+      "lastModified": "2026-06-11T15:18:44Z",
       "source": "github",
       "url": "https://github.com/JeromRequillo/KeyTap-Pro",
       "stars": 0,
       "forks": 0,
       "owner": "JeromRequillo",
-      "code": "```cpp\n; ============================================\n; Repository: JeromRequillo/KeyTap-Pro\n; ============================================\n; URL: https://github.com/JeromRequillo/KeyTap-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/10/2026\n; License: MIT License\n;\n; Description:\n; KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JeromRequillo/KeyTap-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JeromRequillo/KeyTap-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyTap-Pro>\n\n; Example initialization\nclass KeytapProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyTap-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeytapProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: JeromRequillo/KeyTap-Pro\n; ============================================\n; URL: https://github.com/JeromRequillo/KeyTap-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/11/2026\n; License: MIT License\n;\n; Description:\n; KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JeromRequillo/KeyTap-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JeromRequillo/KeyTap-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyTap-Pro>\n\n; Example initialization\nclass KeytapProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyTap-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeytapProExample()\n```"
     },
     {
       "id": "github-1252531815",
@@ -6476,7 +6476,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-06-11T09:56:17Z",
+      "lastModified": "2026-06-11T13:45:00Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
       "stars": 5,
@@ -6660,6 +6660,25 @@
       "forks": 0,
       "owner": "WenLiCG",
       "code": "```cpp\n; ============================================\n; Repository: WenLiCG/WindowsHotkeyManager\n; ============================================\n; URL: https://github.com/WenLiCG/WindowsHotkeyManager\n; Stars: 0 | Forks: 0\n; Last Updated: 6/11/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 window hotkey manager for Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/WenLiCG/WindowsHotkeyManager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/WenLiCG/WindowsHotkeyManager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowsHotkeyManager>\n\n; Example initialization\nclass WindowshotkeymanagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowsHotkeyManager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowshotkeymanagerExample()\n```"
+    },
+    {
+      "id": "github-1266114888",
+      "title": "MCF.ahk",
+      "category": "GitHub Repository",
+      "description": "MCF In-Memory COFF Linker for AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-11T10:32:30Z",
+      "lastModified": "2026-06-11T15:34:03Z",
+      "source": "github",
+      "url": "https://github.com/Vedette1/MCF.ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Vedette1",
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/11/2026\n; License: Not specified\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     }
   ]
 }
