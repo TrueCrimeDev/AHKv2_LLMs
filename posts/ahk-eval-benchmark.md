@@ -81,3 +81,249 @@ The full grid — 36 tasks × 12 models. A dot is a fail or parse error; `n/m` i
 AHK-Eval is the methodology the first two benchmarks were building toward: many small independent probes, hidden functional tests, partial credit, and a provably solvable reference. The result is the cleanest separation yet — 35/36 to 9/36 across thirteen frontier models — and the failures are no longer about getting a file to compile. They're about whether a model actually knows AHK v2: that relational operators throw on strings, that `StrJoin` doesn't exist, and that `item2` belongs before `item10`.
 
 *Method notes: v2.1-alpha.30+Console fork for all parsing and execution; one API message per task via OpenRouter (Fable 5 via the Anthropic API), `temperature 0.2`, `max_tokens 8000`; fenced-code extraction with directive stripping; reasoning-channel fallback for models that return `content: null`. Harness, tasks, and grading driver were built and verified with Claude Fable 5; expected outputs come from a Python oracle independent of the AHK reference.*
+
+## Appendix: All 36 Tasks
+
+The public half of every task — exactly what each model saw (signature, spec, one example). The 181 hidden test cases stay hidden; that's what keeps the next run honest.
+
+### strings
+
+**`AE_Acronym(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+Return the acronym of the phrase: the first character of every space-separated word, uppercased, concatenated. Words are separated by one or more spaces.
+
+*Example:* `AE_Acronym("for your information")` → `"FYI"`
+
+**`AE_RepeatStr(s, n)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+Return the string s repeated n times (n is an integer >= 0). n = 0 returns an empty string.
+
+*Example:* `AE_RepeatStr("ab", 3)` → `"ababab"`
+
+**`AE_SwapCase(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+Return s with the case of every ASCII letter inverted (upper becomes lower, lower becomes upper). All other characters are unchanged.
+
+*Example:* `AE_SwapCase("Hello World!")` → `"hELLO wORLD!"`
+
+**`AE_WordWrap(s, w)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+Greedy word wrap: s is a single line of words separated by single spaces. Pack words left to right; start a new line (\`n) when adding the next word (plus one joining space) would exceed width w. No word in the input is longer than w. Return the wrapped text joined with newlines (\`n), no trailing newline.
+
+*Example:* `AE_WordWrap("the quick brown fox", 10)` → `"the quick
+brown fox"`
+
+**`AE_Caesar(s, k)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+Caesar cipher: shift every ASCII letter forward by k positions (k is an integer 0-25), wrapping around the alphabet, preserving case. Non-letters are unchanged.
+
+*Example:* `AE_Caesar("abc XYZ", 3)` → `"def ABC"`
+
+**`AE_ExpandTabs(s, n)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+Replace each tab (\`t) with spaces up to the next tab stop. Tab stops are every n columns (n >= 1). A tab always produces at least one space. Newlines (\`n) reset the column counter to 0. Return the expanded string.
+
+*Example:* `AE_ExpandTabs("a	b", 4)` → `"a   b"`
+
+### regex
+
+**`AE_ExtractDigits(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+Return only the digit characters of s, concatenated in order. If s has no digits return an empty string.
+
+*Example:* `AE_ExtractDigits("a1b22c333")` → `"122333"`
+
+**`AE_IsHexColor(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+Return 1 if s is a valid CSS hex color — a '#' followed by exactly 3 or exactly 6 hex digits (0-9, a-f, A-F) — otherwise 0. Nothing else may precede or follow.
+
+*Example:* `AE_IsHexColor("#1A2b3C")` → `1`
+
+**`AE_ExtractEmails(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+Extract every email address from s and return them joined by ';' in order of appearance. An email here is: one or more of [A-Za-z0-9._%+-], then '@', then one or more of [A-Za-z0-9.-], then a final '.' and 2+ ASCII letters. Return an empty string when there are none.
+
+*Example:* `AE_ExtractEmails("mail bob@x.io now")` → `"bob@x.io"`
+
+**`AE_StripTags(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+Remove every HTML-like tag from s: any substring starting with '<' and ending at the next '>'. There are no unmatched '<' in the input. Return the remaining text unchanged otherwise.
+
+*Example:* `AE_StripTags("<b>hi</b>")` → `"hi"`
+
+**`AE_DateReformat(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+Rewrite every ISO date of the exact form YYYY-MM-DD (4 digits, dash, 2 digits, dash, 2 digits) found in s as DD/MM/YYYY, leaving all other text untouched. Return the rewritten string.
+
+*Example:* `AE_DateReformat("due 2026-06-11 ok")` → `"due 11/06/2026 ok"`
+
+**`AE_CamelToSnake(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+Convert a camelCase/PascalCase identifier (ASCII letters and digits only) to snake_case: insert '_' before every uppercase letter that directly follows a lowercase letter or digit, then lowercase the whole string.
+
+*Example:* `AE_CamelToSnake("camelCaseString")` → `"camel_case_string"`
+
+### data
+
+**`AE_Unique(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+s is a comma-separated list of items (no spaces around commas). Return the list with duplicates removed, keeping the first occurrence of each item, joined by commas. Comparison is case-sensitive.
+
+*Example:* `AE_Unique("a,b,a,c,b")` → `"a,b,c"`
+
+**`AE_SumCSV(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+s is a comma-separated list of integers (possibly negative). Return their sum as an integer.
+
+*Example:* `AE_SumCSV("1,2,3")` → `6`
+
+**`AE_GroupByFirstLetter(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+s is a comma-separated list of lowercase words. Group the words by their first character. Return the groups as 'letter:word1,word2' joined by ';', with groups ordered alphabetically by letter and words keeping their original order inside each group.
+
+*Example:* `AE_GroupByFirstLetter("apple,banana,avocado")` → `"a:apple,avocado;b:banana"`
+
+**`AE_TopWord(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+s is lowercase words separated by single spaces. Return 'word:count' for the most frequent word. Ties are broken by which word appears first in s.
+
+*Example:* `AE_TopWord("a b a c a b")` → `"a:3"`
+
+**`AE_MergeRanges(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+s is a comma-separated list of integer ranges 'a-b' with a <= b. Merge every pair of ranges that overlap (one range's start <= the other range's end). Touching ranges like 1-4 and 5-7 do NOT merge. Return the merged ranges sorted by start, each formatted 'a-b' (even when a = b), joined by commas.
+
+*Example:* `AE_MergeRanges("1-3,2-4,6-8")` → `"1-4,6-8"`
+
+**`AE_Pivot(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+s is 'key=value' pairs joined by ';' where keys are lowercase words and values are integers (possibly negative). Sum the values per key. Return 'key=sum' pairs joined by ';', keys sorted alphabetically.
+
+*Example:* `AE_Pivot("a=1;b=2;a=3")` → `"a=4;b=2"`
+
+### numbers
+
+**`AE_Clamp(x, lo, hi)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+Return integer x clamped to the inclusive range [lo, hi].
+
+*Example:* `AE_Clamp(15, 1, 10)` → `10`
+
+**`AE_HexToDec(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+s is a hexadecimal number as a string (no 0x prefix, mixed case allowed). Return its decimal value as an integer.
+
+*Example:* `AE_HexToDec("ff")` → `255`
+
+**`AE_ToRoman(n)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+Convert integer n (1-3999) to a Roman numeral string using standard subtractive notation (IV, IX, XL, XC, CD, CM).
+
+*Example:* `AE_ToRoman(1994)` → `"MCMXCIV"`
+
+**`AE_Ordinal(n)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+Return integer n (n >= 1) with its English ordinal suffix: 1st, 2nd, 3rd, 4th, ... 11th, 12th, 13th are 'th'; 21st, 22nd, 23rd follow the digit rule.
+
+*Example:* `AE_Ordinal(42)` → `"42nd"`
+
+**`AE_FormatBytes(n)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+Format a byte count n (integer >= 0) as a human-readable size using binary units (1 KB = 1024 B): pick the largest unit of B, KB, MB, GB where the value is >= 1 (n < 1024 stays in B; values >= 1024 GB still use GB). Round to 1 decimal place, drop a trailing '.0', and append a space plus the unit.
+
+*Example:* `AE_FormatBytes(1536)` → `"1.5 KB"`
+
+**`AE_BaseN(n, b)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+Convert non-negative integer n to its representation in base b (2 <= b <= 16), using lowercase letters a-f for digit values 10-15. AE_BaseN(0, b) returns '0'.
+
+*Example:* `AE_BaseN(255, 2)` → `"11111111"`
+
+### datetime
+
+**`AE_DayOfWeek(ymd)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+ymd is a date string in YYYYMMDD form. Return the full English weekday name (Monday, Tuesday, ...).
+
+*Example:* `AE_DayOfWeek("20260611")` → `"Thursday"`
+
+**`AE_DaysBetween(a, b)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+a and b are YYYYMMDD date strings. Return the absolute number of days between them as an integer.
+
+*Example:* `AE_DaysBetween("20260601", "20260611")` → `10`
+
+**`AE_EndOfMonth(ymd)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+ymd is a YYYYMMDD date string. Return the last day of that month as a YYYYMMDD string (handle leap years).
+
+*Example:* `AE_EndOfMonth("20260210")` → `"20260228"`
+
+**`AE_Duration(n)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+n is a number of seconds (integer >= 0). Format it as hours/minutes/seconds like '1h 2m 3s', omitting any zero unit. n = 0 returns '0s'. No days unit — hours can exceed 23.
+
+*Example:* `AE_Duration(3661)` → `"1h 1m 1s"`
+
+**`AE_AddBusinessDays(ymd, n)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+ymd is a YYYYMMDD date string, n an integer >= 1. Advance n business days: each step moves to the next calendar day, skipping Saturdays and Sundays (the result always lands on a weekday). Return the result as YYYYMMDD.
+
+*Example:* `AE_AddBusinessDays("20260611", 1)` → `"20260612"`
+
+**`AE_ISOWeek(ymd)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+ymd is a YYYYMMDD date string. Return its ISO-8601 week number (1-53) as an integer. ISO weeks start on Monday; week 1 is the week containing the year's first Thursday — so early January can belong to week 52/53 of the previous year and late December to week 1 of the next.
+
+*Example:* `AE_ISOWeek("20260101")` → `1`
+
+### algorithms
+
+**`AE_IsPalindrome(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+Return 1 if s is a palindrome considering only ASCII letters and digits, case-insensitively (ignore spaces and punctuation); otherwise 0.
+
+*Example:* `AE_IsPalindrome("A man, a plan, a canal: Panama")` → `1`
+
+**`AE_RunLengthEncode(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#7BC96F18;color:#7BC96F;vertical-align:middle">easy</span>
+
+Run-length encode s: replace each maximal run of a repeated character with the character followed by the run length (always include the count, even for runs of 1). Empty input returns an empty string.
+
+*Example:* `AE_RunLengthEncode("aaabcc")` → `"a3b1c2"`
+
+**`AE_BracketsBalanced(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+Return 1 if the brackets (), [], {} in s are balanced and correctly nested, otherwise 0. All non-bracket characters are ignored.
+
+*Example:* `AE_BracketsBalanced("a(b[c]{d})")` → `1`
+
+**`AE_CsvField(line, i)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#F59E4218;color:#F59E42;vertical-align:middle">mid</span>
+
+line is one CSV record (RFC 4180 style): fields separated by commas; a field may be wrapped in double quotes, inside which commas are literal and a doubled quote "" is an escaped quote character. Return the i-th field (1-based) with quoting removed and escapes resolved.
+
+*Example:* `AE_CsvField("a,"b,c",d", 2)` → `"b,c"`
+
+**`AE_NaturalSort(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+s is a comma-separated list of lowercase alphanumeric items. Sort them in natural order: split each item into alternating letter and digit runs; compare run by run — digit runs compare as integers, letter runs compare as plain text. So item2 comes before item10. Return the sorted list joined by commas.
+
+*Example:* `AE_NaturalSort("item10,item2,item1")` → `"item1,item2,item10"`
+
+**`AE_EvalRPN(s)`** <span style="display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:5px;background:#DC354518;color:#DC3545;vertical-align:middle">hard</span>
+
+Evaluate a Reverse Polish Notation expression: space-separated tokens, each an integer (possibly negative like -3) or one of + - * /. Division is integer division truncating toward zero (7 / -2 = -3). The expression is valid. Return the result as an integer.
+
+*Example:* `AE_EvalRPN("3 4 + 2 *")` → `14`
+
+## Send Me a Harder One
+
+`NaturalSort` walled eleven of thirteen frontier models; the relational-operator trap ate seven. I want more tasks like that — **community-submitted hard tests** for the next AHK-Eval round.
+
+Open an issue on **[the blog's GitHub repo](https://github.com/TrueCrimeDev/AHKv2_LLMs/issues)** titled `AHK-Eval task: <name>` with:
+
+- **Spec** — a precise, unambiguous description of one function: string/integer inputs, a single string or integer return. No GUI, clipboard, file I/O, or timing — it must grade headlessly.
+- **One public example** — input → output.
+- **4-6 hidden cases** — inputs with expected outputs, including the edge cases you expect models to fumble.
+- **A reference implementation** in AHK v2 if you have one (if not, I'll write it — every task ships only after a reference passes 100% against an independent oracle).
+
+The best submissions probe **AHK v2 semantics** rather than raw algorithm difficulty: things like `A_Index` re-binding in `while`, relational operators throwing on strings, `Map()` iteration order, `Sort()`'s newline contract, case-insensitive comparison defaults. The traps that read fine and run wrong.
