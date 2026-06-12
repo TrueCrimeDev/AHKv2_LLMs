@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-12T00:51:27.267Z",
+  "lastUpdated": "2026-06-12T07:39:00.726Z",
   "totalScripts": 334,
   "categories": [
     "GUI",
@@ -426,13 +426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-11-24T04:52:52Z",
-      "lastModified": "2026-06-03T08:56:12Z",
+      "lastModified": "2026-06-12T05:43:45Z",
       "source": "github",
       "url": "https://github.com/haraldchan/Svaner",
       "stars": 4,
       "forks": 0,
       "owner": "haraldchan",
-      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 4 | Forks: 0\n; Last Updated: 6/3/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: haraldchan/Svaner\n; ============================================\n; URL: https://github.com/haraldchan/Svaner\n; Stars: 4 | Forks: 0\n; Last Updated: 6/12/2026\n; License: MIT License\n;\n; Description:\n; A reactive Gui library for AutoHotkey v2 inspired by frontend frameworks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/haraldchan/Svaner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/haraldchan/Svaner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Svaner>\n\n; Example initialization\nclass SvanerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Svaner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SvanerExample()\n```"
     },
     {
       "id": "github-266191907",
@@ -5788,13 +5788,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-10T17:32:29Z",
-      "lastModified": "2026-06-11T17:42:38Z",
+      "lastModified": "2026-06-12T01:54:58Z",
       "source": "github",
       "url": "https://github.com/Magnetron85/Radiology-Right-Click",
       "stars": 9,
       "forks": 3,
       "owner": "Magnetron85",
-      "code": "```cpp\n; ============================================\n; Repository: Magnetron85/Radiology-Right-Click\n; ============================================\n; URL: https://github.com/Magnetron85/Radiology-Right-Click\n; Stars: 9 | Forks: 3\n; Last Updated: 6/11/2026\n; License: Other\n;\n; Description:\n; Right-click context menu of measurement and analysis helpers for radiology dictation. AutoHotkey v2. PolyForm Noncommercial. Research/educational use only -- not a medical device.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/Radiology-Right-Click.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/Radiology-Right-Click/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Radiology-Right-Click>\n\n; Example initialization\nclass RadiologyRightClickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Radiology-Right-Click loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RadiologyRightClickExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Magnetron85/Radiology-Right-Click\n; ============================================\n; URL: https://github.com/Magnetron85/Radiology-Right-Click\n; Stars: 9 | Forks: 3\n; Last Updated: 6/12/2026\n; License: Other\n;\n; Description:\n; Right-click context menu of measurement and analysis helpers for radiology dictation. AutoHotkey v2. PolyForm Noncommercial. Research/educational use only -- not a medical device.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/Radiology-Right-Click.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/Radiology-Right-Click/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Radiology-Right-Click>\n\n; Example initialization\nclass RadiologyRightClickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Radiology-Right-Click loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RadiologyRightClickExample()\n```"
     },
     {
       "id": "github-1242760553",
@@ -6104,13 +6104,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-22T06:23:39Z",
-      "lastModified": "2026-06-11T15:18:44Z",
+      "lastModified": "2026-06-12T06:41:15Z",
       "source": "github",
       "url": "https://github.com/JeromRequillo/KeyTap-Pro",
       "stars": 0,
       "forks": 0,
       "owner": "JeromRequillo",
-      "code": "```cpp\n; ============================================\n; Repository: JeromRequillo/KeyTap-Pro\n; ============================================\n; URL: https://github.com/JeromRequillo/KeyTap-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/11/2026\n; License: MIT License\n;\n; Description:\n; KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JeromRequillo/KeyTap-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JeromRequillo/KeyTap-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyTap-Pro>\n\n; Example initialization\nclass KeytapProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyTap-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeytapProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: JeromRequillo/KeyTap-Pro\n; ============================================\n; URL: https://github.com/JeromRequillo/KeyTap-Pro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/12/2026\n; License: MIT License\n;\n; Description:\n; KeyTap Pro is a portable, and powerful productivity suite built using AutoHotkey v2. Initially designed as a simple auto-incrementing invoice generator, it has evolved into a fully featured automation tool equipped with dynamic macro mapping, an automated VAT calculator, and an intuitive tabbed user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JeromRequillo/KeyTap-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JeromRequillo/KeyTap-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyTap-Pro>\n\n; Example initialization\nclass KeytapProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyTap-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeytapProExample()\n```"
     },
     {
       "id": "github-1252531815",
@@ -6672,13 +6672,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-06-11T15:34:03Z",
+      "lastModified": "2026-06-12T07:34:22Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
       "stars": 0,
       "forks": 0,
       "owner": "Vedette1",
-      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/11/2026\n; License: Not specified\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/12/2026\n; License: Not specified\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     },
     {
       "id": "github-1266742477",
