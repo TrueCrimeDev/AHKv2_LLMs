@@ -49,7 +49,7 @@
     <a class="back-link" href="post.html?slug=llm-clipboard-benchmark">&larr; Back to the benchmark</a>
     <div class="pr-head">
       <h1>The Benchmark Prompts</h1>
-      <p>The exact prompts fed to every model. Each is a self-contained AHK v2 agent harness — a strict rule block, a tiered reasoning system, an eight-item diagnostic checklist, and a concrete build target. The only thing that changes between runs is the build target at the bottom.</p>
+      <p>The exact prompts fed to every model. The first four are self-contained AHK v2 agent harnesses — a strict rule block, a tiered reasoning system, an eight-item diagnostic checklist, and a concrete build target. The fifth is the AHK-Eval per-task template that generated 36 independent prompts, one per function.</p>
     </div>
     <div id="cards"></div>
   </main>
@@ -65,6 +65,7 @@
       { file: 'prompts/Prompt_Toolkit.md',  name: 'Toolkit — 12 Transforms',           tag: 'Toolkit', desc: 'Twelve independent TF_*(text) transforms over the clipboard, easy floor to hard tail (Slugify, NaturalSort, Base64). Graded functionally for a smooth spread.' },
       { file: 'prompts/Prompt_Reason.md',   name: 'Reasoning — Expression Evaluator',   tag: 'Reasoning', desc: 'A from-scratch recursive-descent math evaluator with correct precedence and associativity, wired to the clipboard. Built-in eval forbidden.' },
       { file: 'prompts/Prompt_Fallback.md', name: 'Fallback — Stricter Retry',          tag: 'Fallback', desc: 'A louder, more explicit, simpler retry given to any model that failed the primary prompt. Hammers the exact failure modes.' },
+      { file: 'prompts/Prompt_AHK-Eval.md', name: 'AHK-Eval — 36-Task Template',        tag: 'AHK-Eval', desc: 'The per-task template behind the 36-function suite: one independent API call per task, hidden test cases, functional grading. Includes the exact rendered prompt for NaturalSort.' },
     ];
     const esc = s => s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
     const host = document.getElementById('cards');

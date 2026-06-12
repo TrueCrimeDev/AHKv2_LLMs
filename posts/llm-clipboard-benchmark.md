@@ -2,7 +2,7 @@
 
 I have a folder of AutoHotkey v2 scripts named after the model that wrote each one — `GPT-5-5-Pro.ahk`, `Gemini_3_Pro.ahk`, `Hermes_4_405B.ahk`, and six dozen more. Every file is the same model answering the **same prompt**. This post grades all of them on two escalating signals — does it *parse* and does it *run* — then digs into *why* the flagships diverge. **Every model name links to its own page** with full source, itemized scorecards, the captured window, and analysis.
 
-The four benchmark prompts — primary, fallback, reasoning, and toolkit — are on the **[Prompts page](prompts.html)**.
+All five benchmark prompts — primary, fallback, reasoning, toolkit, and the AHK-Eval template — are on the **[Prompts page](prompts.html)**.
 
 <style>
 .bm-wrap{margin:22px 0;}

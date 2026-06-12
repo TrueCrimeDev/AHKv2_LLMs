@@ -1,6 +1,6 @@
 # The Clipboard Toolkit: 11 Coding Models, 12 Transforms
 
-All four benchmark prompts are on the **[Prompts page](prompts.html)**.
+All five benchmark prompts are on the **[Prompts page](prompts.html)**.
 
 A second AHK v2 benchmark, built to fix a problem with the first reasoning test: that one was all-or-nothing, and a single trap zeroed everyone. This one is deliberately **broad and shallow** — twelve independent text transforms over the clipboard, each easy on its own. The spread comes from *how many* a model gets right, so models land across a gradient instead of pass/fail.
 
