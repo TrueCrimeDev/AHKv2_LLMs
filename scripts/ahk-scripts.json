@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-14T12:40:48.129Z",
-  "totalScripts": 339,
+  "lastUpdated": "2026-06-14T18:31:04.359Z",
+  "totalScripts": 340,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5851,13 +5851,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-20T17:11:41Z",
-      "lastModified": "2026-05-22T20:16:16Z",
+      "lastModified": "2026-06-14T16:04:19Z",
       "source": "github",
       "url": "https://github.com/ToPoR007/layout-toolkit-ru-en",
       "stars": 0,
       "forks": 0,
       "owner": "ToPoR007",
-      "code": "```cpp\n; ============================================\n; Repository: ToPoR007/layout-toolkit-ru-en\n; ============================================\n; URL: https://github.com/ToPoR007/layout-toolkit-ru-en\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: MIT License\n;\n; Description:\n; A small AutoHotkey v2 toolkit for manual and live RU/EN keyboard layout conversion.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ToPoR007/layout-toolkit-ru-en.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ToPoR007/layout-toolkit-ru-en/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <layout-toolkit-ru-en>\n\n; Example initialization\nclass LayoutToolkitRuEnExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"layout-toolkit-ru-en loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LayoutToolkitRuEnExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ToPoR007/layout-toolkit-ru-en\n; ============================================\n; URL: https://github.com/ToPoR007/layout-toolkit-ru-en\n; Stars: 0 | Forks: 0\n; Last Updated: 6/14/2026\n; License: MIT License\n;\n; Description:\n; A small AutoHotkey v2 toolkit for manual and live RU/EN keyboard layout conversion.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ToPoR007/layout-toolkit-ru-en.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ToPoR007/layout-toolkit-ru-en/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <layout-toolkit-ru-en>\n\n; Example initialization\nclass LayoutToolkitRuEnExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"layout-toolkit-ru-en loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LayoutToolkitRuEnExample()\n```"
     },
     {
       "id": "github-1246904280",
@@ -6796,6 +6796,31 @@
       "forks": 0,
       "owner": "asorei",
       "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 6/14/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 표시하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
+    },
+    {
+      "id": "github-1269456433",
+      "title": "rog-ally-hearthstone-access",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 ROG Ally gamepad mapper for Hearthstone Access standard/arena play",
+      "tags": [
+        "github",
+        "repository",
+        "accessibility",
+        "autohotkey",
+        "gamepad",
+        "hearthstone",
+        "hearthstone-access",
+        "rog-ally"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-14T18:29:57Z",
+      "lastModified": "2026-06-14T18:30:05Z",
+      "source": "github",
+      "url": "https://github.com/matrixzombie/rog-ally-hearthstone-access",
+      "stars": 0,
+      "forks": 0,
+      "owner": "matrixzombie",
+      "code": "```cpp\n; ============================================\n; Repository: matrixzombie/rog-ally-hearthstone-access\n; ============================================\n; URL: https://github.com/matrixzombie/rog-ally-hearthstone-access\n; Stars: 0 | Forks: 0\n; Last Updated: 6/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 ROG Ally gamepad mapper for Hearthstone Access standard/arena play\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matrixzombie/rog-ally-hearthstone-access.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matrixzombie/rog-ally-hearthstone-access/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <rog-ally-hearthstone-access>\n\n; Example initialization\nclass RogAllyHearthstoneAccessExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"rog-ally-hearthstone-access loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RogAllyHearthstoneAccessExample()\n```"
     }
   ]
 }
