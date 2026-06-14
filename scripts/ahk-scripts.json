@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-13T18:30:43.868Z",
+  "lastUpdated": "2026-06-14T00:49:52.654Z",
   "totalScripts": 338,
   "categories": [
     "GUI",
@@ -6672,13 +6672,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-06-12T10:30:10Z",
+      "lastModified": "2026-06-13T20:50:41Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "Vedette1",
-      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/12/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 6/13/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     },
     {
       "id": "github-1266742477",
