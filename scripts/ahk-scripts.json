@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-14T18:31:04.359Z",
+  "lastUpdated": "2026-06-15T00:51:36.026Z",
   "totalScripts": 340,
   "categories": [
     "GUI",
@@ -5193,13 +5193,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-06-09T20:45:06Z",
+      "lastModified": "2026-06-14T19:07:16Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
       "forks": 0,
       "owner": "PCMon",
-      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/9/2026\n; License: Not specified\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/14/2026\n; License: Not specified\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     },
     {
       "id": "github-1225321547",
@@ -5851,7 +5851,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-20T17:11:41Z",
-      "lastModified": "2026-06-14T16:04:19Z",
+      "lastModified": "2026-06-14T19:33:43Z",
       "source": "github",
       "url": "https://github.com/ToPoR007/layout-toolkit-ru-en",
       "stars": 0,
@@ -6799,28 +6799,28 @@
     },
     {
       "id": "github-1269456433",
-      "title": "rog-ally-hearthstone-access",
+      "title": "rog-ally-hearthstone-controller",
       "category": "GitHub Repository",
-      "description": "AutoHotkey v2 ROG Ally gamepad mapper for Hearthstone Access standard/arena play",
+      "description": "AutoHotkey v2 ROG Ally/Xbox controller mapper for accessible Hearthstone standard, arena, and Battlegrounds play",
       "tags": [
         "github",
         "repository",
         "accessibility",
         "autohotkey",
+        "controller",
         "gamepad",
         "hearthstone",
-        "hearthstone-access",
         "rog-ally"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T18:29:57Z",
-      "lastModified": "2026-06-14T18:30:05Z",
+      "lastModified": "2026-06-14T18:59:44Z",
       "source": "github",
-      "url": "https://github.com/matrixzombie/rog-ally-hearthstone-access",
+      "url": "https://github.com/matrixzombie/rog-ally-hearthstone-controller",
       "stars": 0,
       "forks": 0,
       "owner": "matrixzombie",
-      "code": "```cpp\n; ============================================\n; Repository: matrixzombie/rog-ally-hearthstone-access\n; ============================================\n; URL: https://github.com/matrixzombie/rog-ally-hearthstone-access\n; Stars: 0 | Forks: 0\n; Last Updated: 6/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 ROG Ally gamepad mapper for Hearthstone Access standard/arena play\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matrixzombie/rog-ally-hearthstone-access.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matrixzombie/rog-ally-hearthstone-access/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <rog-ally-hearthstone-access>\n\n; Example initialization\nclass RogAllyHearthstoneAccessExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"rog-ally-hearthstone-access loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RogAllyHearthstoneAccessExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: matrixzombie/rog-ally-hearthstone-controller\n; ============================================\n; URL: https://github.com/matrixzombie/rog-ally-hearthstone-controller\n; Stars: 0 | Forks: 0\n; Last Updated: 6/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 ROG Ally/Xbox controller mapper for accessible Hearthstone standard, arena, and Battlegrounds play\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matrixzombie/rog-ally-hearthstone-controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matrixzombie/rog-ally-hearthstone-controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <rog-ally-hearthstone-controller>\n\n; Example initialization\nclass RogAllyHearthstoneControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"rog-ally-hearthstone-controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RogAllyHearthstoneControllerExample()\n```"
     }
   ]
 }
