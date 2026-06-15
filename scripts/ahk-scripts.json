@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-15T08:00:44.338Z",
+  "lastUpdated": "2026-06-15T14:08:02.880Z",
   "totalScripts": 342,
   "categories": [
     "GUI",
@@ -6331,13 +6331,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-02T04:23:57Z",
-      "lastModified": "2026-06-06T04:36:20Z",
+      "lastModified": "2026-06-15T13:13:17Z",
       "source": "github",
       "url": "https://github.com/123cz789/LingoPin-AHK",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "123cz789",
-      "code": "```cpp\n; ============================================\n; Repository: 123cz789/LingoPin-AHK\n; ============================================\n; URL: https://github.com/123cz789/LingoPin-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 6/6/2026\n; License: MIT License\n;\n; Description:\n; 一款基于 AutoHotkey v2 的全场景中英智能双模转写与贴图翻译工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/123cz789/LingoPin-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/123cz789/LingoPin-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LingoPin-AHK>\n\n; Example initialization\nclass LingopinAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LingoPin-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LingopinAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 123cz789/LingoPin-AHK\n; ============================================\n; URL: https://github.com/123cz789/LingoPin-AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 6/15/2026\n; License: MIT License\n;\n; Description:\n; 一款基于 AutoHotkey v2 的全场景中英智能双模转写与贴图翻译工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/123cz789/LingoPin-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/123cz789/LingoPin-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LingoPin-AHK>\n\n; Example initialization\nclass LingopinAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LingoPin-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LingopinAhkExample()\n```"
     },
     {
       "id": "github-1257394795",
