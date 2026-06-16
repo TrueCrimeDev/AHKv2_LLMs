@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-16T13:47:32.726Z",
-  "totalScripts": 345,
+  "lastUpdated": "2026-06-16T19:14:30.221Z",
+  "totalScripts": 346,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-06-16T09:13:15Z",
+      "lastModified": "2026-06-16T14:28:15Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 35,
@@ -6922,6 +6922,25 @@
       "forks": 0,
       "owner": "J-MaFf",
       "code": "```cpp\n; ============================================\n; Repository: J-MaFf/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/J-MaFf/AutoHotkey-Scripts\n; Stars: 1 | Forks: 0\n; Last Updated: 6/16/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for Windows — custom keyboard shortcuts, Markdown-to-HTML conversion, and productivity utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/J-MaFf/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/J-MaFf/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
+    },
+    {
+      "id": "github-1271469084",
+      "title": "HoldLeftMouseButton",
+      "category": "GitHub Repository",
+      "description": "Accessibility helper for Windows: hold the left mouse button without sustained effort (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-16T17:35:48Z",
+      "lastModified": "2026-06-16T17:35:57Z",
+      "source": "github",
+      "url": "https://github.com/foosmith/HoldLeftMouseButton",
+      "stars": 0,
+      "forks": 0,
+      "owner": "foosmith",
+      "code": "```cpp\n; ============================================\n; Repository: foosmith/HoldLeftMouseButton\n; ============================================\n; URL: https://github.com/foosmith/HoldLeftMouseButton\n; Stars: 0 | Forks: 0\n; Last Updated: 6/16/2026\n; License: MIT License\n;\n; Description:\n; Accessibility helper for Windows: hold the left mouse button without sustained effort (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/foosmith/HoldLeftMouseButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/foosmith/HoldLeftMouseButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HoldLeftMouseButton>\n\n; Example initialization\nclass HoldleftmousebuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HoldLeftMouseButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HoldleftmousebuttonExample()\n```"
     }
   ]
 }
