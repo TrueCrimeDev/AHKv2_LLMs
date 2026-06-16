@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-16T07:58:48.595Z",
-  "totalScripts": 343,
+  "lastUpdated": "2026-06-16T13:47:32.726Z",
+  "totalScripts": 345,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-06-08T13:01:38Z",
+      "lastModified": "2026-06-16T09:13:15Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 35,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 6/8/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 6/16/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -6270,13 +6270,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-01T02:21:21Z",
-      "lastModified": "2026-06-02T01:44:55Z",
+      "lastModified": "2026-06-16T12:29:54Z",
       "source": "github",
       "url": "https://github.com/surrealier/Windows_Renamer",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "surrealier",
-      "code": "```cpp\n; ============================================\n; Repository: surrealier/Windows_Renamer\n; ============================================\n; URL: https://github.com/surrealier/Windows_Renamer\n; Stars: 2 | Forks: 0\n; Last Updated: 6/2/2026\n; License: MIT License\n;\n; Description:\n; Add a prefix/suffix to many files at once in Windows Explorer — select files, press Alt+F2, done. Lightweight AutoHotkey v2 tray tool.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/surrealier/Windows_Renamer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/surrealier/Windows_Renamer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows_Renamer>\n\n; Example initialization\nclass WindowsRenamerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows_Renamer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsRenamerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: surrealier/Windows_Renamer\n; ============================================\n; URL: https://github.com/surrealier/Windows_Renamer\n; Stars: 3 | Forks: 0\n; Last Updated: 6/16/2026\n; License: MIT License\n;\n; Description:\n; Add a prefix/suffix to many files at once in Windows Explorer — select files, press Alt+F2, done. Lightweight AutoHotkey v2 tray tool.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/surrealier/Windows_Renamer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/surrealier/Windows_Renamer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows_Renamer>\n\n; Example initialization\nclass WindowsRenamerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows_Renamer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsRenamerExample()\n```"
     },
     {
       "id": "github-1255670981",
@@ -6394,13 +6394,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-06-04T14:31:31Z",
+      "lastModified": "2026-06-16T12:24:14Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
-      "stars": 0,
-      "forks": 0,
+      "stars": 1,
+      "forks": 1,
       "owner": "paehtz",
-      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 0 | Forks: 0\n; Last Updated: 6/4/2026\n; License: MIT License\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11. One button per desktop, made for per-project time tracking. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 1 | Forks: 1\n; Last Updated: 6/16/2026\n; License: MIT License\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11. One button per desktop, made for per-project time tracking. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     },
     {
       "id": "github-1261581594",
@@ -6672,7 +6672,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-06-16T07:02:38Z",
+      "lastModified": "2026-06-16T11:13:13Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
       "stars": 1,
@@ -6833,13 +6833,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-15T04:04:16Z",
-      "lastModified": "2026-06-15T04:04:24Z",
+      "lastModified": "2026-06-16T11:37:51Z",
       "source": "github",
       "url": "https://github.com/markchristianrobbins/ahk-window-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "markchristianrobbins",
-      "code": "```cpp\n; ============================================\n; Repository: markchristianrobbins/ahk-window-hotkeys\n; ============================================\n; URL: https://github.com/markchristianrobbins/ahk-window-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 6/15/2026\n; License: Not specified\n;\n; Description:\n; High-performance window-management suite written in AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/markchristianrobbins/ahk-window-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/markchristianrobbins/ahk-window-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-window-hotkeys>\n\n; Example initialization\nclass AhkWindowHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-window-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWindowHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: markchristianrobbins/ahk-window-hotkeys\n; ============================================\n; URL: https://github.com/markchristianrobbins/ahk-window-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 6/16/2026\n; License: Not specified\n;\n; Description:\n; High-performance window-management suite written in AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/markchristianrobbins/ahk-window-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/markchristianrobbins/ahk-window-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-window-hotkeys>\n\n; Example initialization\nclass AhkWindowHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-window-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWindowHotkeysExample()\n```"
     },
     {
       "id": "github-1269677848",
@@ -6884,6 +6884,44 @@
       "forks": 0,
       "owner": "bunihayashi",
       "code": "```cpp\n; ============================================\n; Repository: bunihayashi/salvar-foto\n; ============================================\n; URL: https://github.com/bunihayashi/salvar-foto\n; Stars: 1 | Forks: 0\n; Last Updated: 6/16/2026\n; License: MIT License\n;\n; Description:\n; Scripts AutoHotkey v2 para salvar imagens do clipboard em PNG sequencial\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bunihayashi/salvar-foto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bunihayashi/salvar-foto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <salvar-foto>\n\n; Example initialization\nclass SalvarFotoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"salvar-foto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SalvarFotoExample()\n```"
+    },
+    {
+      "id": "github-1271219964",
+      "title": "my-autohotkey-scripts",
+      "category": "GitHub Repository",
+      "description": "Windowsの作業を快適にするAutoHotkey(v2)スクリプト集。繰り返し行われる動作の自動化や、独自の便利ショートカットキーを追加してPC作業を効率化します。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-16T12:57:43Z",
+      "lastModified": "2026-06-16T13:21:11Z",
+      "source": "github",
+      "url": "https://github.com/tokiyaokoshi/my-autohotkey-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "tokiyaokoshi",
+      "code": "```cpp\n; ============================================\n; Repository: tokiyaokoshi/my-autohotkey-scripts\n; ============================================\n; URL: https://github.com/tokiyaokoshi/my-autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 6/16/2026\n; License: Not specified\n;\n; Description:\n; Windowsの作業を快適にするAutoHotkey(v2)スクリプト集。繰り返し行われる動作の自動化や、独自の便利ショートカットキーを追加してPC作業を効率化します。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tokiyaokoshi/my-autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tokiyaokoshi/my-autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <my-autohotkey-scripts>\n\n; Example initialization\nclass MyAutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"my-autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAutohotkeyScriptsExample()\n```"
+    },
+    {
+      "id": "github-905920577",
+      "title": "AutoHotkey-Scripts",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 scripts for Windows — custom keyboard shortcuts, Markdown-to-HTML conversion, and productivity utilities",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-12-19T19:42:27Z",
+      "lastModified": "2026-06-16T08:01:20Z",
+      "source": "github",
+      "url": "https://github.com/J-MaFf/AutoHotkey-Scripts",
+      "stars": 1,
+      "forks": 0,
+      "owner": "J-MaFf",
+      "code": "```cpp\n; ============================================\n; Repository: J-MaFf/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/J-MaFf/AutoHotkey-Scripts\n; Stars: 1 | Forks: 0\n; Last Updated: 6/16/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for Windows — custom keyboard shortcuts, Markdown-to-HTML conversion, and productivity utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/J-MaFf/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/J-MaFf/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
     }
   ]
 }
