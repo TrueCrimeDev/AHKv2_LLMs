@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-17T00:51:25.812Z",
+  "lastUpdated": "2026-06-17T07:52:17.775Z",
   "totalScripts": 346,
   "categories": [
     "GUI",
@@ -5193,13 +5193,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-06-14T19:07:16Z",
+      "lastModified": "2026-06-17T04:35:31Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
       "forks": 0,
       "owner": "PCMon",
-      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/14/2026\n; License: Not specified\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/17/2026\n; License: Not specified\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     },
     {
       "id": "github-1225321547",
@@ -6833,13 +6833,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-15T04:04:16Z",
-      "lastModified": "2026-06-16T11:37:51Z",
+      "lastModified": "2026-06-17T02:38:18Z",
       "source": "github",
       "url": "https://github.com/markchristianrobbins/ahk-window-hotkeys",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "markchristianrobbins",
-      "code": "```cpp\n; ============================================\n; Repository: markchristianrobbins/ahk-window-hotkeys\n; ============================================\n; URL: https://github.com/markchristianrobbins/ahk-window-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 6/16/2026\n; License: Not specified\n;\n; Description:\n; High-performance window-management suite written in AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/markchristianrobbins/ahk-window-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/markchristianrobbins/ahk-window-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-window-hotkeys>\n\n; Example initialization\nclass AhkWindowHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-window-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWindowHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: markchristianrobbins/ahk-window-hotkeys\n; ============================================\n; URL: https://github.com/markchristianrobbins/ahk-window-hotkeys\n; Stars: 1 | Forks: 0\n; Last Updated: 6/17/2026\n; License: Not specified\n;\n; Description:\n; High-performance window-management suite written in AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/markchristianrobbins/ahk-window-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/markchristianrobbins/ahk-window-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-window-hotkeys>\n\n; Example initialization\nclass AhkWindowHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-window-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWindowHotkeysExample()\n```"
     },
     {
       "id": "github-1269677848",
@@ -6934,13 +6934,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-16T17:35:48Z",
-      "lastModified": "2026-06-16T17:35:57Z",
+      "lastModified": "2026-06-17T03:10:15Z",
       "source": "github",
       "url": "https://github.com/foosmith/HoldLeftMouseButton",
       "stars": 0,
       "forks": 0,
       "owner": "foosmith",
-      "code": "```cpp\n; ============================================\n; Repository: foosmith/HoldLeftMouseButton\n; ============================================\n; URL: https://github.com/foosmith/HoldLeftMouseButton\n; Stars: 0 | Forks: 0\n; Last Updated: 6/16/2026\n; License: MIT License\n;\n; Description:\n; Accessibility helper for Windows: hold the left mouse button without sustained effort (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/foosmith/HoldLeftMouseButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/foosmith/HoldLeftMouseButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HoldLeftMouseButton>\n\n; Example initialization\nclass HoldleftmousebuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HoldLeftMouseButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HoldleftmousebuttonExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: foosmith/HoldLeftMouseButton\n; ============================================\n; URL: https://github.com/foosmith/HoldLeftMouseButton\n; Stars: 0 | Forks: 0\n; Last Updated: 6/17/2026\n; License: MIT License\n;\n; Description:\n; Accessibility helper for Windows: hold the left mouse button without sustained effort (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/foosmith/HoldLeftMouseButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/foosmith/HoldLeftMouseButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HoldLeftMouseButton>\n\n; Example initialization\nclass HoldleftmousebuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HoldLeftMouseButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HoldleftmousebuttonExample()\n```"
     }
   ]
 }
