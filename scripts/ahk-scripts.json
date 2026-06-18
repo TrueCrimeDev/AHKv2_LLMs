@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-18T00:51:22.825Z",
-  "totalScripts": 346,
+  "lastUpdated": "2026-06-18T07:42:25.147Z",
+  "totalScripts": 348,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5001,13 +5001,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-24T08:17:44Z",
-      "lastModified": "2026-06-10T02:40:21Z",
+      "lastModified": "2026-06-18T03:19:33Z",
       "source": "github",
       "url": "https://github.com/lachlanmcglennon/RobloxReconnect",
       "stars": 1,
       "forks": 0,
       "owner": "lachlanmcglennon",
-      "code": "```cpp\n; ============================================\n; Repository: lachlanmcglennon/RobloxReconnect\n; ============================================\n; URL: https://github.com/lachlanmcglennon/RobloxReconnect\n; Stars: 1 | Forks: 0\n; Last Updated: 6/10/2026\n; License: MIT License\n;\n; Description:\n; Roblox auto-reconnect GUI tool (AutoHotkey v2) with VIP/Public server support, auto-rejoin, and GPU-saver minimize mode.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lachlanmcglennon/RobloxReconnect.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lachlanmcglennon/RobloxReconnect/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RobloxReconnect>\n\n; Example initialization\nclass RobloxreconnectExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RobloxReconnect loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxreconnectExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lachlanmcglennon/RobloxReconnect\n; ============================================\n; URL: https://github.com/lachlanmcglennon/RobloxReconnect\n; Stars: 1 | Forks: 0\n; Last Updated: 6/18/2026\n; License: MIT License\n;\n; Description:\n; Roblox auto-reconnect GUI tool (AutoHotkey v2) with VIP/Public server support, auto-rejoin, and GPU-saver minimize mode.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lachlanmcglennon/RobloxReconnect.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lachlanmcglennon/RobloxReconnect/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RobloxReconnect>\n\n; Example initialization\nclass RobloxreconnectExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RobloxReconnect loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxreconnectExample()\n```"
     },
     {
       "id": "github-1221331202",
@@ -6814,13 +6814,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T18:29:57Z",
-      "lastModified": "2026-06-14T18:59:44Z",
+      "lastModified": "2026-06-18T06:42:20Z",
       "source": "github",
       "url": "https://github.com/matrixzombie/rog-ally-hearthstone-controller",
       "stars": 0,
       "forks": 0,
       "owner": "matrixzombie",
-      "code": "```cpp\n; ============================================\n; Repository: matrixzombie/rog-ally-hearthstone-controller\n; ============================================\n; URL: https://github.com/matrixzombie/rog-ally-hearthstone-controller\n; Stars: 0 | Forks: 0\n; Last Updated: 6/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 ROG Ally/Xbox controller mapper for accessible Hearthstone standard, arena, and Battlegrounds play\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matrixzombie/rog-ally-hearthstone-controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matrixzombie/rog-ally-hearthstone-controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <rog-ally-hearthstone-controller>\n\n; Example initialization\nclass RogAllyHearthstoneControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"rog-ally-hearthstone-controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RogAllyHearthstoneControllerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: matrixzombie/rog-ally-hearthstone-controller\n; ============================================\n; URL: https://github.com/matrixzombie/rog-ally-hearthstone-controller\n; Stars: 0 | Forks: 0\n; Last Updated: 6/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 ROG Ally/Xbox controller mapper for accessible Hearthstone standard, arena, and Battlegrounds play\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matrixzombie/rog-ally-hearthstone-controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matrixzombie/rog-ally-hearthstone-controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <rog-ally-hearthstone-controller>\n\n; Example initialization\nclass RogAllyHearthstoneControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"rog-ally-hearthstone-controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RogAllyHearthstoneControllerExample()\n```"
     },
     {
       "id": "github-1269747172",
@@ -6896,13 +6896,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-16T12:57:43Z",
-      "lastModified": "2026-06-16T13:21:11Z",
+      "lastModified": "2026-06-18T02:58:45Z",
       "source": "github",
       "url": "https://github.com/tokiyaokoshi/my-autohotkey-scripts",
       "stars": 0,
       "forks": 0,
       "owner": "tokiyaokoshi",
-      "code": "```cpp\n; ============================================\n; Repository: tokiyaokoshi/my-autohotkey-scripts\n; ============================================\n; URL: https://github.com/tokiyaokoshi/my-autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 6/16/2026\n; License: Not specified\n;\n; Description:\n; Windowsの作業を快適にするAutoHotkey(v2)スクリプト集。繰り返し行われる動作の自動化や、独自の便利ショートカットキーを追加してPC作業を効率化します。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tokiyaokoshi/my-autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tokiyaokoshi/my-autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <my-autohotkey-scripts>\n\n; Example initialization\nclass MyAutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"my-autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAutohotkeyScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tokiyaokoshi/my-autohotkey-scripts\n; ============================================\n; URL: https://github.com/tokiyaokoshi/my-autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 6/18/2026\n; License: Not specified\n;\n; Description:\n; Windowsの作業を快適にするAutoHotkey(v2)スクリプト集。繰り返し行われる動作の自動化や、独自の便利ショートカットキーを追加してPC作業を効率化します。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tokiyaokoshi/my-autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tokiyaokoshi/my-autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <my-autohotkey-scripts>\n\n; Example initialization\nclass MyAutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"my-autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAutohotkeyScriptsExample()\n```"
     },
     {
       "id": "github-905920577",
@@ -6915,13 +6915,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-19T19:42:27Z",
-      "lastModified": "2026-06-16T08:01:20Z",
+      "lastModified": "2026-06-18T04:52:53Z",
       "source": "github",
       "url": "https://github.com/J-MaFf/AutoHotkey-Scripts",
       "stars": 1,
       "forks": 0,
       "owner": "J-MaFf",
-      "code": "```cpp\n; ============================================\n; Repository: J-MaFf/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/J-MaFf/AutoHotkey-Scripts\n; Stars: 1 | Forks: 0\n; Last Updated: 6/16/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for Windows — custom keyboard shortcuts, Markdown-to-HTML conversion, and productivity utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/J-MaFf/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/J-MaFf/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: J-MaFf/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/J-MaFf/AutoHotkey-Scripts\n; Stars: 1 | Forks: 0\n; Last Updated: 6/18/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for Windows — custom keyboard shortcuts, Markdown-to-HTML conversion, and productivity utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/J-MaFf/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/J-MaFf/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
     },
     {
       "id": "github-1271469084",
@@ -6941,6 +6941,44 @@
       "forks": 0,
       "owner": "foosmith",
       "code": "```cpp\n; ============================================\n; Repository: foosmith/HoldLeftMouseButton\n; ============================================\n; URL: https://github.com/foosmith/HoldLeftMouseButton\n; Stars: 0 | Forks: 0\n; Last Updated: 6/17/2026\n; License: MIT License\n;\n; Description:\n; Accessibility helper for Windows: hold the left mouse button without sustained effort (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/foosmith/HoldLeftMouseButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/foosmith/HoldLeftMouseButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HoldLeftMouseButton>\n\n; Example initialization\nclass HoldleftmousebuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HoldLeftMouseButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HoldleftmousebuttonExample()\n```"
+    },
+    {
+      "id": "github-1273057469",
+      "title": "xDiff",
+      "category": "GitHub Repository",
+      "description": "xDiff is a lightweight AutoHotkey v2 (AHK v2) script that integrates Meld (or any file comparison tool) directly into the Windows File Explorer right-click context menu. It mimics the behavior of professional diff tools like Beyond Compare.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-18T07:06:47Z",
+      "lastModified": "2026-06-18T07:29:52Z",
+      "source": "github",
+      "url": "https://github.com/bitwaver/xDiff",
+      "stars": 1,
+      "forks": 0,
+      "owner": "bitwaver",
+      "code": "```cpp\n; ============================================\n; Repository: bitwaver/xDiff\n; ============================================\n; URL: https://github.com/bitwaver/xDiff\n; Stars: 1 | Forks: 0\n; Last Updated: 6/18/2026\n; License: Not specified\n;\n; Description:\n; xDiff is a lightweight AutoHotkey v2 (AHK v2) script that integrates Meld (or any file comparison tool) directly into the Windows File Explorer right-click context menu. It mimics the behavior of professional diff tools like Beyond Compare.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bitwaver/xDiff.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bitwaver/xDiff/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <xDiff>\n\n; Example initialization\nclass XdiffExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"xDiff loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := XdiffExample()\n```"
+    },
+    {
+      "id": "github-1269616069",
+      "title": "ahklint",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 / 2.1 linter",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-14T23:44:01Z",
+      "lastModified": "2026-06-18T04:08:18Z",
+      "source": "github",
+      "url": "https://github.com/holy-tao/ahklint",
+      "stars": 0,
+      "forks": 0,
+      "owner": "holy-tao",
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 6/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
     }
   ]
 }
