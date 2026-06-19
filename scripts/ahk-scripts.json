@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-19T13:12:54.508Z",
-  "totalScripts": 349,
+  "lastUpdated": "2026-06-19T18:37:52.111Z",
+  "totalScripts": 350,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5645,13 +5645,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-15T18:29:35Z",
-      "lastModified": "2026-06-18T20:49:54Z",
+      "lastModified": "2026-06-19T16:21:03Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_Colorful_GUI",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 6/18/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
     },
     {
       "id": "github-1238108402",
@@ -6476,13 +6476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-06-19T06:58:55Z",
+      "lastModified": "2026-06-19T13:15:17Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
-      "stars": 11,
+      "stars": 12,
       "forks": 2,
       "owner": "M-Haziq-Iqbal",
-      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 11 | Forks: 2\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 12 | Forks: 2\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     },
     {
       "id": "github-1263747205",
@@ -6991,13 +6991,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-19T02:57:53Z",
-      "lastModified": "2026-06-19T02:57:59Z",
+      "lastModified": "2026-06-19T14:03:41Z",
       "source": "github",
       "url": "https://github.com/NateCC0902/mackeys-windows",
       "stars": 0,
       "forks": 0,
       "owner": "NateCC0902",
       "code": "```cpp\n; ============================================\n; Repository: NateCC0902/mackeys-windows\n; ============================================\n; URL: https://github.com/NateCC0902/mackeys-windows\n; Stars: 0 | Forks: 0\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; Make the Windows key act like the macOS Command key (AutoHotkey v2), with a one-click Mac/normal toggle\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NateCC0902/mackeys-windows.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NateCC0902/mackeys-windows/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mackeys-windows>\n\n; Example initialization\nclass MackeysWindowsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mackeys-windows loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MackeysWindowsExample()\n```"
+    },
+    {
+      "id": "github-1274489217",
+      "title": "AutoHotkeyClipboardDelete",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script to return back Delete key functionality to Windows clipboard history",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-19T15:08:07Z",
+      "lastModified": "2026-06-19T15:20:37Z",
+      "source": "github",
+      "url": "https://github.com/EriqBorg/AutoHotkeyClipboardDelete",
+      "stars": 0,
+      "forks": 0,
+      "owner": "EriqBorg",
+      "code": "```cpp\n; ============================================\n; Repository: EriqBorg/AutoHotkeyClipboardDelete\n; ============================================\n; URL: https://github.com/EriqBorg/AutoHotkeyClipboardDelete\n; Stars: 0 | Forks: 0\n; Last Updated: 6/19/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script to return back Delete key functionality to Windows clipboard history\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EriqBorg/AutoHotkeyClipboardDelete.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EriqBorg/AutoHotkeyClipboardDelete/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkeyClipboardDelete>\n\n; Example initialization\nclass AutohotkeyclipboarddeleteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkeyClipboardDelete loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyclipboarddeleteExample()\n```"
     }
   ]
 }
