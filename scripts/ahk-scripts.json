@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-19T00:55:48.436Z",
-  "totalScripts": 348,
+  "lastUpdated": "2026-06-19T07:53:50.042Z",
+  "totalScripts": 349,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-06-15T05:19:19Z",
+      "lastModified": "2026-06-19T07:18:21Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 1,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 6/15/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 1 | Forks: 0\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-06-17T16:08:44Z",
+      "lastModified": "2026-06-19T07:02:01Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 1,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 6/17/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 1 | Forks: 0\n; Last Updated: 6/19/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-06-07T23:11:13Z",
+      "lastModified": "2026-06-19T07:08:31Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
       "forks": 2,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 2\n; Last Updated: 6/7/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring fingerprint and keypad solvers, NoSave support, and standalone utilities. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 2\n; Last Updated: 6/19/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring fingerprint and keypad solvers, NoSave support, and standalone utilities. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -6161,13 +6161,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-30T16:05:52Z",
-      "lastModified": "2026-06-11T01:37:03Z",
+      "lastModified": "2026-06-19T05:38:28Z",
       "source": "github",
       "url": "https://github.com/MonoEven/stdlib-ahk",
       "stars": 1,
       "forks": 0,
       "owner": "MonoEven",
-      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 6/11/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 6/19/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
     },
     {
       "id": "github-608904813",
@@ -6476,13 +6476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-06-18T17:27:09Z",
+      "lastModified": "2026-06-19T06:58:55Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
-      "stars": 10,
+      "stars": 11,
       "forks": 2,
       "owner": "M-Haziq-Iqbal",
-      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 10 | Forks: 2\n; Last Updated: 6/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 11 | Forks: 2\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     },
     {
       "id": "github-1263747205",
@@ -6915,13 +6915,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-19T19:42:27Z",
-      "lastModified": "2026-06-18T04:52:53Z",
+      "lastModified": "2026-06-19T03:33:06Z",
       "source": "github",
       "url": "https://github.com/J-MaFf/AutoHotkey-Scripts",
       "stars": 1,
       "forks": 0,
       "owner": "J-MaFf",
-      "code": "```cpp\n; ============================================\n; Repository: J-MaFf/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/J-MaFf/AutoHotkey-Scripts\n; Stars: 1 | Forks: 0\n; Last Updated: 6/18/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for Windows — custom keyboard shortcuts, Markdown-to-HTML conversion, and productivity utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/J-MaFf/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/J-MaFf/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: J-MaFf/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/J-MaFf/AutoHotkey-Scripts\n; Stars: 1 | Forks: 0\n; Last Updated: 6/19/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for Windows — custom keyboard shortcuts, Markdown-to-HTML conversion, and productivity utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/J-MaFf/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/J-MaFf/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
     },
     {
       "id": "github-1271469084",
@@ -6953,13 +6953,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-18T07:06:47Z",
-      "lastModified": "2026-06-18T07:29:52Z",
+      "lastModified": "2026-06-19T02:29:26Z",
       "source": "github",
       "url": "https://github.com/bitwaver/xDiff",
       "stars": 1,
       "forks": 0,
       "owner": "bitwaver",
-      "code": "```cpp\n; ============================================\n; Repository: bitwaver/xDiff\n; ============================================\n; URL: https://github.com/bitwaver/xDiff\n; Stars: 1 | Forks: 0\n; Last Updated: 6/18/2026\n; License: Not specified\n;\n; Description:\n; xDiff is a lightweight AutoHotkey v2 (AHK v2) script that integrates Meld (or any file comparison tool) directly into the Windows File Explorer right-click context menu. It mimics the behavior of professional diff tools like Beyond Compare.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bitwaver/xDiff.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bitwaver/xDiff/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <xDiff>\n\n; Example initialization\nclass XdiffExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"xDiff loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := XdiffExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bitwaver/xDiff\n; ============================================\n; URL: https://github.com/bitwaver/xDiff\n; Stars: 1 | Forks: 0\n; Last Updated: 6/19/2026\n; License: Not specified\n;\n; Description:\n; xDiff is a lightweight AutoHotkey v2 (AHK v2) script that integrates Meld (or any file comparison tool) directly into the Windows File Explorer right-click context menu. It mimics the behavior of professional diff tools like Beyond Compare.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bitwaver/xDiff.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bitwaver/xDiff/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <xDiff>\n\n; Example initialization\nclass XdiffExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"xDiff loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := XdiffExample()\n```"
     },
     {
       "id": "github-1269616069",
@@ -6979,6 +6979,25 @@
       "forks": 0,
       "owner": "holy-tao",
       "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 6/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
+    },
+    {
+      "id": "github-1273936664",
+      "title": "mackeys-windows",
+      "category": "GitHub Repository",
+      "description": "Make the Windows key act like the macOS Command key (AutoHotkey v2), with a one-click Mac/normal toggle",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-19T02:57:53Z",
+      "lastModified": "2026-06-19T02:57:59Z",
+      "source": "github",
+      "url": "https://github.com/NateCC0902/mackeys-windows",
+      "stars": 0,
+      "forks": 0,
+      "owner": "NateCC0902",
+      "code": "```cpp\n; ============================================\n; Repository: NateCC0902/mackeys-windows\n; ============================================\n; URL: https://github.com/NateCC0902/mackeys-windows\n; Stars: 0 | Forks: 0\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; Make the Windows key act like the macOS Command key (AutoHotkey v2), with a one-click Mac/normal toggle\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NateCC0902/mackeys-windows.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NateCC0902/mackeys-windows/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mackeys-windows>\n\n; Example initialization\nclass MackeysWindowsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mackeys-windows loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MackeysWindowsExample()\n```"
     }
   ]
 }
