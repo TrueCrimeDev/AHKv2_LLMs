@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-20T12:38:14.285Z",
-  "totalScripts": 351,
+  "lastUpdated": "2026-06-20T18:31:14.526Z",
+  "totalScripts": 352,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-06-19T07:08:31Z",
+      "lastModified": "2026-06-20T16:51:11Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
       "forks": 2,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 2\n; Last Updated: 6/19/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring fingerprint and keypad solvers, NoSave support, and standalone utilities. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 2\n; Last Updated: 6/20/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring fingerprint and keypad solvers, NoSave support, and standalone utilities. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -6476,13 +6476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-06-19T13:15:17Z",
+      "lastModified": "2026-06-20T17:39:27Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
       "stars": 12,
       "forks": 2,
       "owner": "M-Haziq-Iqbal",
-      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 12 | Forks: 2\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 12 | Forks: 2\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     },
     {
       "id": "github-1263747205",
@@ -7036,6 +7036,25 @@
       "forks": 0,
       "owner": "Yusce",
       "code": "```cpp\n; ============================================\n; Repository: Yusce/AHK2ScriptsForDomia\n; ============================================\n; URL: https://github.com/Yusce/AHK2ScriptsForDomia\n; Stars: 0 | Forks: 0\n; Last Updated: 6/20/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 脚本：Capslock中英文切换、窗口拖动缩放、快捷截图、中键手势切换任务视图/桌面\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Yusce/AHK2ScriptsForDomia.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Yusce/AHK2ScriptsForDomia/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2ScriptsForDomia>\n\n; Example initialization\nclass Ahk2scriptsfordomiaExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2ScriptsForDomia loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2scriptsfordomiaExample()\n```"
+    },
+    {
+      "id": "github-1275396555",
+      "title": "AutoCursorLock_AHKv2",
+      "category": "GitHub Repository",
+      "description": "Lightweight AutoHotkey v2 cursor lock utility for old windowed games.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-20T16:26:45Z",
+      "lastModified": "2026-06-20T17:47:35Z",
+      "source": "github",
+      "url": "https://github.com/Wakeupable/AutoCursorLock_AHKv2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Wakeupable",
+      "code": "```cpp\n; ============================================\n; Repository: Wakeupable/AutoCursorLock_AHKv2\n; ============================================\n; URL: https://github.com/Wakeupable/AutoCursorLock_AHKv2\n; Stars: 0 | Forks: 0\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; Lightweight AutoHotkey v2 cursor lock utility for old windowed games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Wakeupable/AutoCursorLock_AHKv2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Wakeupable/AutoCursorLock_AHKv2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCursorLock_AHKv2>\n\n; Example initialization\nclass AutocursorlockAhkv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCursorLock_AHKv2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocursorlockAhkv2Example()\n```"
     }
   ]
 }
