@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-20T07:21:39.343Z",
-  "totalScripts": 350,
+  "lastUpdated": "2026-06-20T12:38:14.285Z",
+  "totalScripts": 351,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-06-19T08:08:09Z",
+      "lastModified": "2026-06-20T08:05:09Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
       "stars": 228,
       "forks": 36,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 228 | Forks: 36\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 228 | Forks: 36\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -6814,7 +6814,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T18:29:57Z",
-      "lastModified": "2026-06-20T07:19:44Z",
+      "lastModified": "2026-06-20T07:33:03Z",
       "source": "github",
       "url": "https://github.com/matrixzombie/rog-ally-hearthstone-controller",
       "stars": 0,
@@ -7017,6 +7017,25 @@
       "forks": 0,
       "owner": "EriqBorg",
       "code": "```cpp\n; ============================================\n; Repository: EriqBorg/AutoHotkeyClipboardDelete\n; ============================================\n; URL: https://github.com/EriqBorg/AutoHotkeyClipboardDelete\n; Stars: 0 | Forks: 0\n; Last Updated: 6/19/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script to return back Delete key functionality to Windows clipboard history\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EriqBorg/AutoHotkeyClipboardDelete.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EriqBorg/AutoHotkeyClipboardDelete/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkeyClipboardDelete>\n\n; Example initialization\nclass AutohotkeyclipboarddeleteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkeyClipboardDelete loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyclipboarddeleteExample()\n```"
+    },
+    {
+      "id": "github-1275076241",
+      "title": "AHK2ScriptsForDomia",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 脚本：Capslock中英文切换、窗口拖动缩放、快捷截图、中键手势切换任务视图/桌面",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-20T08:10:10Z",
+      "lastModified": "2026-06-20T08:41:09Z",
+      "source": "github",
+      "url": "https://github.com/Yusce/AHK2ScriptsForDomia",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Yusce",
+      "code": "```cpp\n; ============================================\n; Repository: Yusce/AHK2ScriptsForDomia\n; ============================================\n; URL: https://github.com/Yusce/AHK2ScriptsForDomia\n; Stars: 0 | Forks: 0\n; Last Updated: 6/20/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 脚本：Capslock中英文切换、窗口拖动缩放、快捷截图、中键手势切换任务视图/桌面\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Yusce/AHK2ScriptsForDomia.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Yusce/AHK2ScriptsForDomia/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2ScriptsForDomia>\n\n; Example initialization\nclass Ahk2scriptsfordomiaExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2ScriptsForDomia loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2scriptsfordomiaExample()\n```"
     }
   ]
 }
