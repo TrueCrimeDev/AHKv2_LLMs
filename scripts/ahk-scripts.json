@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-20T00:46:25.834Z",
+  "lastUpdated": "2026-06-20T07:21:39.343Z",
   "totalScripts": 350,
   "categories": [
     "GUI",
@@ -2039,13 +2039,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-30T07:51:17Z",
-      "lastModified": "2026-06-19T08:10:58Z",
+      "lastModified": "2026-06-20T05:56:14Z",
       "source": "github",
       "url": "https://github.com/Summer1Solstice/AHKv2HTTP",
       "stars": 2,
       "forks": 0,
       "owner": "Summer1Solstice",
-      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 2 | Forks: 0\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Summer1Solstice/AHKv2HTTP\n; ============================================\n; URL: https://github.com/Summer1Solstice/AHKv2HTTP\n; Stars: 2 | Forks: 0\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; An HTTP server for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Summer1Solstice/AHKv2HTTP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Summer1Solstice/AHKv2HTTP/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHKv2HTTP>\n\n; Example initialization\nclass Ahkv2httpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHKv2HTTP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkv2httpExample()\n```"
     },
     {
       "id": "github-1136794120",
@@ -6814,13 +6814,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T18:29:57Z",
-      "lastModified": "2026-06-18T09:32:31Z",
+      "lastModified": "2026-06-20T07:19:44Z",
       "source": "github",
       "url": "https://github.com/matrixzombie/rog-ally-hearthstone-controller",
       "stars": 0,
       "forks": 0,
       "owner": "matrixzombie",
-      "code": "```cpp\n; ============================================\n; Repository: matrixzombie/rog-ally-hearthstone-controller\n; ============================================\n; URL: https://github.com/matrixzombie/rog-ally-hearthstone-controller\n; Stars: 0 | Forks: 0\n; Last Updated: 6/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 ROG Ally/Xbox controller mapper for accessible Hearthstone standard, arena, and Battlegrounds play\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matrixzombie/rog-ally-hearthstone-controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matrixzombie/rog-ally-hearthstone-controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <rog-ally-hearthstone-controller>\n\n; Example initialization\nclass RogAllyHearthstoneControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"rog-ally-hearthstone-controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RogAllyHearthstoneControllerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: matrixzombie/rog-ally-hearthstone-controller\n; ============================================\n; URL: https://github.com/matrixzombie/rog-ally-hearthstone-controller\n; Stars: 0 | Forks: 0\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 ROG Ally/Xbox controller mapper for accessible Hearthstone standard, arena, and Battlegrounds play\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/matrixzombie/rog-ally-hearthstone-controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/matrixzombie/rog-ally-hearthstone-controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <rog-ally-hearthstone-controller>\n\n; Example initialization\nclass RogAllyHearthstoneControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"rog-ally-hearthstone-controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RogAllyHearthstoneControllerExample()\n```"
     },
     {
       "id": "github-1269747172",
@@ -6972,13 +6972,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-06-19T23:49:37Z",
+      "lastModified": "2026-06-20T05:38:06Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
     },
     {
       "id": "github-1273936664",
