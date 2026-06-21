@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-21T07:39:38.954Z",
-  "totalScripts": 353,
+  "lastUpdated": "2026-06-21T12:41:33.906Z",
+  "totalScripts": 354,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6476,13 +6476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-06-20T17:39:27Z",
+      "lastModified": "2026-06-21T11:13:29Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
-      "stars": 12,
+      "stars": 13,
       "forks": 2,
       "owner": "M-Haziq-Iqbal",
-      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 12 | Forks: 2\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 13 | Forks: 2\n; Last Updated: 6/21/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     },
     {
       "id": "github-1263747205",
@@ -7074,6 +7074,25 @@
       "forks": 0,
       "owner": "0w0Demonic",
       "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/Alchemy\n; ============================================\n; URL: https://github.com/0w0Demonic/Alchemy\n; Stars: 5 | Forks: 0\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; Curious collection of AutoHotkey v2 utils for meta-programming and strange OOP patterns\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/Alchemy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/Alchemy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Alchemy>\n\n; Example initialization\nclass AlchemyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Alchemy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlchemyExample()\n```"
+    },
+    {
+      "id": "github-1275841127",
+      "title": "GlideBar",
+      "category": "GitHub Repository",
+      "description": "F15 + mouse movement scrolling tool for Windows / AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-21T07:46:52Z",
+      "lastModified": "2026-06-21T12:12:04Z",
+      "source": "github",
+      "url": "https://github.com/bananax-lab/GlideBar",
+      "stars": 0,
+      "forks": 0,
+      "owner": "bananax-lab",
+      "code": "```cpp\n; ============================================\n; Repository: bananax-lab/GlideBar\n; ============================================\n; URL: https://github.com/bananax-lab/GlideBar\n; Stars: 0 | Forks: 0\n; Last Updated: 6/21/2026\n; License: Not specified\n;\n; Description:\n; F15 + mouse movement scrolling tool for Windows / AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bananax-lab/GlideBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bananax-lab/GlideBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GlideBar>\n\n; Example initialization\nclass GlidebarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GlideBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GlidebarExample()\n```"
     }
   ]
 }
