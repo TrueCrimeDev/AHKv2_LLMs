@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-20T18:31:14.526Z",
-  "totalScripts": 352,
+  "lastUpdated": "2026-06-21T00:51:02.655Z",
+  "totalScripts": 353,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-06-18T11:35:44Z",
+      "lastModified": "2026-06-20T21:18:47Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
-      "stars": 46,
+      "stars": 47,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 46 | Forks: 8\n; Last Updated: 6/18/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 47 | Forks: 8\n; Last Updated: 6/20/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -6972,7 +6972,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-06-20T05:38:06Z",
+      "lastModified": "2026-06-20T19:17:56Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
@@ -7055,6 +7055,25 @@
       "forks": 0,
       "owner": "Wakeupable",
       "code": "```cpp\n; ============================================\n; Repository: Wakeupable/AutoCursorLock_AHKv2\n; ============================================\n; URL: https://github.com/Wakeupable/AutoCursorLock_AHKv2\n; Stars: 0 | Forks: 0\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; Lightweight AutoHotkey v2 cursor lock utility for old windowed games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Wakeupable/AutoCursorLock_AHKv2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Wakeupable/AutoCursorLock_AHKv2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCursorLock_AHKv2>\n\n; Example initialization\nclass AutocursorlockAhkv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCursorLock_AHKv2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocursorlockAhkv2Example()\n```"
+    },
+    {
+      "id": "github-1038022304",
+      "title": "Alchemy",
+      "category": "GitHub Repository",
+      "description": "Curious collection of AutoHotkey v2 utils for meta-programming and strange OOP patterns",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-08-14T13:49:21Z",
+      "lastModified": "2026-06-20T22:02:38Z",
+      "source": "github",
+      "url": "https://github.com/0w0Demonic/Alchemy",
+      "stars": 5,
+      "forks": 0,
+      "owner": "0w0Demonic",
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/Alchemy\n; ============================================\n; URL: https://github.com/0w0Demonic/Alchemy\n; Stars: 5 | Forks: 0\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; Curious collection of AutoHotkey v2 utils for meta-programming and strange OOP patterns\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/Alchemy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/Alchemy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Alchemy>\n\n; Example initialization\nclass AlchemyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Alchemy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlchemyExample()\n```"
     }
   ]
 }
