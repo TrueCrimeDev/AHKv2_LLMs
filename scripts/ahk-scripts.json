@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-22T13:54:06.149Z",
-  "totalScripts": 355,
+  "lastUpdated": "2026-06-22T19:07:04.978Z",
+  "totalScripts": 356,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-06-20T21:18:47Z",
+      "lastModified": "2026-06-22T14:00:41Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 47,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 47 | Forks: 8\n; Last Updated: 6/20/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 47 | Forks: 8\n; Last Updated: 6/22/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -5645,13 +5645,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-15T18:29:35Z",
-      "lastModified": "2026-06-19T16:21:03Z",
+      "lastModified": "2026-06-22T15:59:59Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_Colorful_GUI",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 6/19/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 6/22/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
     },
     {
       "id": "github-1238108402",
@@ -6833,13 +6833,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-15T04:04:16Z",
-      "lastModified": "2026-06-17T02:38:18Z",
+      "lastModified": "2026-06-22T17:08:42Z",
       "source": "github",
       "url": "https://github.com/markchristianrobbins/ahk-window-hotkeys",
       "stars": 1,
       "forks": 0,
       "owner": "markchristianrobbins",
-      "code": "```cpp\n; ============================================\n; Repository: markchristianrobbins/ahk-window-hotkeys\n; ============================================\n; URL: https://github.com/markchristianrobbins/ahk-window-hotkeys\n; Stars: 1 | Forks: 0\n; Last Updated: 6/17/2026\n; License: Not specified\n;\n; Description:\n; High-performance window-management suite written in AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/markchristianrobbins/ahk-window-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/markchristianrobbins/ahk-window-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-window-hotkeys>\n\n; Example initialization\nclass AhkWindowHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-window-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWindowHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: markchristianrobbins/ahk-window-hotkeys\n; ============================================\n; URL: https://github.com/markchristianrobbins/ahk-window-hotkeys\n; Stars: 1 | Forks: 0\n; Last Updated: 6/22/2026\n; License: Not specified\n;\n; Description:\n; High-performance window-management suite written in AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/markchristianrobbins/ahk-window-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/markchristianrobbins/ahk-window-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-window-hotkeys>\n\n; Example initialization\nclass AhkWindowHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-window-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWindowHotkeysExample()\n```"
     },
     {
       "id": "github-1269677848",
@@ -7112,6 +7112,31 @@
       "forks": 0,
       "owner": "CprALin",
       "code": "```cpp\n; ============================================\n; Repository: CprALin/RosinavScript\n; ============================================\n; URL: https://github.com/CprALin/RosinavScript\n; Stars: 0 | Forks: 0\n; Last Updated: 6/21/2026\n; License: Not specified\n;\n; Description:\n; Windows AutoHotkey v2 automation helper for ISDM/Citrix workflows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CprALin/RosinavScript.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CprALin/RosinavScript/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RosinavScript>\n\n; Example initialization\nclass RosinavscriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RosinavScript loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RosinavscriptExample()\n```"
+    },
+    {
+      "id": "github-1277221930",
+      "title": "citrix-hotkey-toggle",
+      "category": "GitHub Repository",
+      "description": "Keyboard-only toggle between a full-screen Citrix session and your local desktop - without breaking the Alt+Tab that switches windows inside Citrix. AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk-v2",
+        "autohotkey",
+        "citrix",
+        "citrix-workspace",
+        "hotkeys"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-22T17:38:40Z",
+      "lastModified": "2026-06-22T17:49:15Z",
+      "source": "github",
+      "url": "https://github.com/MikeClinton678/citrix-hotkey-toggle",
+      "stars": 0,
+      "forks": 0,
+      "owner": "MikeClinton678",
+      "code": "```cpp\n; ============================================\n; Repository: MikeClinton678/citrix-hotkey-toggle\n; ============================================\n; URL: https://github.com/MikeClinton678/citrix-hotkey-toggle\n; Stars: 0 | Forks: 0\n; Last Updated: 6/22/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only toggle between a full-screen Citrix session and your local desktop - without breaking the Alt+Tab that switches windows inside Citrix. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MikeClinton678/citrix-hotkey-toggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MikeClinton678/citrix-hotkey-toggle/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <citrix-hotkey-toggle>\n\n; Example initialization\nclass CitrixHotkeyToggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"citrix-hotkey-toggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CitrixHotkeyToggleExample()\n```"
     }
   ]
 }
