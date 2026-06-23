@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-23T12:58:37.301Z",
-  "totalScripts": 356,
+  "lastUpdated": "2026-06-23T18:43:21.969Z",
+  "totalScripts": 358,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5927,13 +5927,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-22T21:59:54Z",
-      "lastModified": "2026-06-16T07:27:36Z",
+      "lastModified": "2026-06-23T17:54:33Z",
       "source": "github",
       "url": "https://github.com/KwangBeomPark/ClipOCR-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "KwangBeomPark",
-      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/ClipOCR-Pro\n; ============================================\n; URL: https://github.com/KwangBeomPark/ClipOCR-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 6/16/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/ClipOCR-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/ClipOCR-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipOCR-Pro>\n\n; Example initialization\nclass ClipocrProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipOCR-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipocrProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/ClipOCR-Pro\n; ============================================\n; URL: https://github.com/KwangBeomPark/ClipOCR-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 6/23/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/ClipOCR-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/ClipOCR-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipOCR-Pro>\n\n; Example initialization\nclass ClipocrProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipOCR-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipocrProExample()\n```"
     },
     {
       "id": "github-1247276932",
@@ -6500,13 +6500,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-09T08:25:25Z",
-      "lastModified": "2026-06-17T19:33:40Z",
+      "lastModified": "2026-06-23T14:05:33Z",
       "source": "github",
       "url": "https://github.com/fkdns1/ahk-vivaldi-tab-wheel",
       "stars": 0,
       "forks": 0,
       "owner": "fkdns1",
-      "code": "```cpp\n; ============================================\n; Repository: fkdns1/ahk-vivaldi-tab-wheel\n; ============================================\n; URL: https://github.com/fkdns1/ahk-vivaldi-tab-wheel\n; Stars: 0 | Forks: 0\n; Last Updated: 6/17/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 vertical wheel tab switching helper for Vivaldi\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fkdns1/ahk-vivaldi-tab-wheel.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fkdns1/ahk-vivaldi-tab-wheel/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-vivaldi-tab-wheel>\n\n; Example initialization\nclass AhkVivaldiTabWheelExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-vivaldi-tab-wheel loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkVivaldiTabWheelExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: fkdns1/ahk-vivaldi-tab-wheel\n; ============================================\n; URL: https://github.com/fkdns1/ahk-vivaldi-tab-wheel\n; Stars: 0 | Forks: 0\n; Last Updated: 6/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 vertical wheel tab switching helper for Vivaldi\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fkdns1/ahk-vivaldi-tab-wheel.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fkdns1/ahk-vivaldi-tab-wheel/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-vivaldi-tab-wheel>\n\n; Example initialization\nclass AhkVivaldiTabWheelExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-vivaldi-tab-wheel loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkVivaldiTabWheelExample()\n```"
     },
     {
       "id": "github-1263747369",
@@ -6524,13 +6524,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-09T08:25:37Z",
-      "lastModified": "2026-06-17T19:33:55Z",
+      "lastModified": "2026-06-23T14:05:48Z",
       "source": "github",
       "url": "https://github.com/fkdns1/ahk-smart-wheel",
       "stars": 0,
       "forks": 0,
       "owner": "fkdns1",
-      "code": "```cpp\n; ============================================\n; Repository: fkdns1/ahk-smart-wheel\n; ============================================\n; URL: https://github.com/fkdns1/ahk-smart-wheel\n; Stars: 0 | Forks: 0\n; Last Updated: 6/17/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 smart wheel gesture prototype for burst and flick scrolling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fkdns1/ahk-smart-wheel.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fkdns1/ahk-smart-wheel/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-smart-wheel>\n\n; Example initialization\nclass AhkSmartWheelExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-smart-wheel loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkSmartWheelExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: fkdns1/ahk-smart-wheel\n; ============================================\n; URL: https://github.com/fkdns1/ahk-smart-wheel\n; Stars: 0 | Forks: 0\n; Last Updated: 6/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 smart wheel gesture prototype for burst and flick scrolling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fkdns1/ahk-smart-wheel.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fkdns1/ahk-smart-wheel/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-smart-wheel>\n\n; Example initialization\nclass AhkSmartWheelExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-smart-wheel loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkSmartWheelExample()\n```"
     },
     {
       "id": "github-1263747034",
@@ -6548,13 +6548,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-09T08:25:12Z",
-      "lastModified": "2026-06-17T19:33:26Z",
+      "lastModified": "2026-06-23T14:05:12Z",
       "source": "github",
       "url": "https://github.com/fkdns1/ahk-obsidian-autoscroll",
       "stars": 0,
       "forks": 0,
       "owner": "fkdns1",
-      "code": "```cpp\n; ============================================\n; Repository: fkdns1/ahk-obsidian-autoscroll\n; ============================================\n; URL: https://github.com/fkdns1/ahk-obsidian-autoscroll\n; Stars: 0 | Forks: 0\n; Last Updated: 6/17/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 auto-scroll helper tuned for Obsidian reading workflows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fkdns1/ahk-obsidian-autoscroll.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fkdns1/ahk-obsidian-autoscroll/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-obsidian-autoscroll>\n\n; Example initialization\nclass AhkObsidianAutoscrollExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-obsidian-autoscroll loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkObsidianAutoscrollExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: fkdns1/ahk-obsidian-autoscroll\n; ============================================\n; URL: https://github.com/fkdns1/ahk-obsidian-autoscroll\n; Stars: 0 | Forks: 0\n; Last Updated: 6/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 auto-scroll helper tuned for Obsidian reading workflows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fkdns1/ahk-obsidian-autoscroll.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fkdns1/ahk-obsidian-autoscroll/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-obsidian-autoscroll>\n\n; Example initialization\nclass AhkObsidianAutoscrollExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-obsidian-autoscroll loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkObsidianAutoscrollExample()\n```"
     },
     {
       "id": "github-1263746839",
@@ -6572,13 +6572,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-09T08:25:00Z",
-      "lastModified": "2026-06-17T19:33:24Z",
+      "lastModified": "2026-06-23T14:04:52Z",
       "source": "github",
       "url": "https://github.com/fkdns1/ahk-alt-tab-taskview",
       "stars": 0,
       "forks": 0,
       "owner": "fkdns1",
-      "code": "```cpp\n; ============================================\n; Repository: fkdns1/ahk-alt-tab-taskview\n; ============================================\n; URL: https://github.com/fkdns1/ahk-alt-tab-taskview\n; Stars: 0 | Forks: 0\n; Last Updated: 6/17/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 Insert-key shortcut for Alt-Tab and Task View window selection\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fkdns1/ahk-alt-tab-taskview.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fkdns1/ahk-alt-tab-taskview/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-alt-tab-taskview>\n\n; Example initialization\nclass AhkAltTabTaskviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-alt-tab-taskview loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAltTabTaskviewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: fkdns1/ahk-alt-tab-taskview\n; ============================================\n; URL: https://github.com/fkdns1/ahk-alt-tab-taskview\n; Stars: 0 | Forks: 0\n; Last Updated: 6/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 Insert-key shortcut for Alt-Tab and Task View window selection\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fkdns1/ahk-alt-tab-taskview.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fkdns1/ahk-alt-tab-taskview/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-alt-tab-taskview>\n\n; Example initialization\nclass AhkAltTabTaskviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-alt-tab-taskview loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAltTabTaskviewExample()\n```"
     },
     {
       "id": "github-1263746641",
@@ -6596,13 +6596,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-09T08:24:47Z",
-      "lastModified": "2026-06-17T19:48:53Z",
+      "lastModified": "2026-06-23T14:05:02Z",
       "source": "github",
       "url": "https://github.com/fkdns1/ahk-1hub",
       "stars": 0,
       "forks": 0,
       "owner": "fkdns1",
-      "code": "```cpp\n; ============================================\n; Repository: fkdns1/ahk-1hub\n; ============================================\n; URL: https://github.com/fkdns1/ahk-1hub\n; Stars: 0 | Forks: 0\n; Last Updated: 6/17/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 tray hub for launching and managing AHK modules\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fkdns1/ahk-1hub.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fkdns1/ahk-1hub/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-1hub>\n\n; Example initialization\nclass Ahk1hubExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-1hub loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk1hubExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: fkdns1/ahk-1hub\n; ============================================\n; URL: https://github.com/fkdns1/ahk-1hub\n; Stars: 0 | Forks: 0\n; Last Updated: 6/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 tray hub for launching and managing AHK modules\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/fkdns1/ahk-1hub.git\n;\n; Option 2: Download ZIP\n;   https://github.com/fkdns1/ahk-1hub/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-1hub>\n\n; Example initialization\nclass Ahk1hubExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-1hub loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk1hubExample()\n```"
     },
     {
       "id": "github-1264060659",
@@ -7137,6 +7137,44 @@
       "forks": 0,
       "owner": "MikeClinton678",
       "code": "```cpp\n; ============================================\n; Repository: MikeClinton678/citrix-hotkey-toggle\n; ============================================\n; URL: https://github.com/MikeClinton678/citrix-hotkey-toggle\n; Stars: 0 | Forks: 0\n; Last Updated: 6/22/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only toggle between a full-screen Citrix session and your local desktop - without breaking the Alt+Tab that switches windows inside Citrix. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MikeClinton678/citrix-hotkey-toggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MikeClinton678/citrix-hotkey-toggle/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <citrix-hotkey-toggle>\n\n; Example initialization\nclass CitrixHotkeyToggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"citrix-hotkey-toggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CitrixHotkeyToggleExample()\n```"
+    },
+    {
+      "id": "github-1278384558",
+      "title": "satechi-windows-russian",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 fix for Satechi Slim X3 keyboard Russian layout on Windows",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-23T18:33:40Z",
+      "lastModified": "2026-06-23T18:34:14Z",
+      "source": "github",
+      "url": "https://github.com/v-l-ge/satechi-windows-russian",
+      "stars": 0,
+      "forks": 0,
+      "owner": "v-l-ge",
+      "code": "```cpp\n; ============================================\n; Repository: v-l-ge/satechi-windows-russian\n; ============================================\n; URL: https://github.com/v-l-ge/satechi-windows-russian\n; Stars: 0 | Forks: 0\n; Last Updated: 6/23/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 fix for Satechi Slim X3 keyboard Russian layout on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/v-l-ge/satechi-windows-russian.git\n;\n; Option 2: Download ZIP\n;   https://github.com/v-l-ge/satechi-windows-russian/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <satechi-windows-russian>\n\n; Example initialization\nclass SatechiWindowsRussianExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"satechi-windows-russian loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SatechiWindowsRussianExample()\n```"
+    },
+    {
+      "id": "github-1276896797",
+      "title": "human-typer",
+      "category": "GitHub Repository",
+      "description": "Types your text into any field like a human — real keystrokes with natural timing, so it bypasses paste detection. AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-22T11:50:30Z",
+      "lastModified": "2026-06-23T17:08:27Z",
+      "source": "github",
+      "url": "https://github.com/thiengo105/human-typer",
+      "stars": 0,
+      "forks": 0,
+      "owner": "thiengo105",
+      "code": "```cpp\n; ============================================\n; Repository: thiengo105/human-typer\n; ============================================\n; URL: https://github.com/thiengo105/human-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 6/23/2026\n; License: MIT License\n;\n; Description:\n; Types your text into any field like a human — real keystrokes with natural timing, so it bypasses paste detection. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/thiengo105/human-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/thiengo105/human-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <human-typer>\n\n; Example initialization\nclass HumanTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"human-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HumanTyperExample()\n```"
     }
   ]
 }
