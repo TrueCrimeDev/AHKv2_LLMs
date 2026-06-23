@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-23T00:45:02.546Z",
+  "lastUpdated": "2026-06-23T07:16:20.513Z",
   "totalScripts": 356,
   "categories": [
     "GUI",
@@ -5984,13 +5984,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-23T09:59:21Z",
-      "lastModified": "2026-05-23T10:00:17Z",
+      "lastModified": "2026-06-23T05:24:12Z",
       "source": "github",
       "url": "https://github.com/zhbrcn/pinyin-auto-english",
       "stars": 0,
       "forks": 0,
       "owner": "zhbrcn",
-      "code": "```cpp\n; ============================================\n; Repository: zhbrcn/pinyin-auto-english\n; ============================================\n; URL: https://github.com/zhbrcn/pinyin-auto-english\n; Stars: 0 | Forks: 0\n; Last Updated: 5/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本，在 Windows 上配合微软拼音输入��使用。  核心功能：当可编辑控件获得焦点时，自动将微软拼音切换到英文模式，省去手动切换的烦恼。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zhbrcn/pinyin-auto-english.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zhbrcn/pinyin-auto-english/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pinyin-auto-english>\n\n; Example initialization\nclass PinyinAutoEnglishExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pinyin-auto-english loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PinyinAutoEnglishExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zhbrcn/pinyin-auto-english\n; ============================================\n; URL: https://github.com/zhbrcn/pinyin-auto-english\n; Stars: 0 | Forks: 0\n; Last Updated: 6/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本，在 Windows 上配合微软拼音输入��使用。  核心功能：当可编辑控件获得焦点时，自动将微软拼音切换到英文模式，省去手动切换的烦恼。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zhbrcn/pinyin-auto-english.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zhbrcn/pinyin-auto-english/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pinyin-auto-english>\n\n; Example initialization\nclass PinyinAutoEnglishExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pinyin-auto-english loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PinyinAutoEnglishExample()\n```"
     },
     {
       "id": "github-1247932057",
