@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-24T07:13:06.603Z",
-  "totalScripts": 358,
+  "lastUpdated": "2026-06-24T12:46:11.568Z",
+  "totalScripts": 359,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -7175,6 +7175,31 @@
       "forks": 0,
       "owner": "thiengo105",
       "code": "```cpp\n; ============================================\n; Repository: thiengo105/human-typer\n; ============================================\n; URL: https://github.com/thiengo105/human-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 6/23/2026\n; License: MIT License\n;\n; Description:\n; Types your text into any field like a human — real keystrokes with natural timing, so it bypasses paste detection. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/thiengo105/human-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/thiengo105/human-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <human-typer>\n\n; Example initialization\nclass HumanTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"human-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HumanTyperExample()\n```"
+    },
+    {
+      "id": "github-1278924525",
+      "title": "MediaCtrl",
+      "category": "GitHub Repository",
+      "description": "Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "chrome-extension",
+        "nodejs",
+        "websocket"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-24T08:03:03Z",
+      "lastModified": "2026-06-24T08:09:49Z",
+      "source": "github",
+      "url": "https://github.com/von110187/MediaCtrl",
+      "stars": 0,
+      "forks": 0,
+      "owner": "von110187",
+      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 6/24/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
     }
   ]
 }
