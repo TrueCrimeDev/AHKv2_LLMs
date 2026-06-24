@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-23T18:43:21.969Z",
+  "lastUpdated": "2026-06-24T00:40:37.803Z",
   "totalScripts": 358,
   "categories": [
     "GUI",
@@ -5927,7 +5927,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-22T21:59:54Z",
-      "lastModified": "2026-06-23T17:54:33Z",
+      "lastModified": "2026-06-23T21:30:13Z",
       "source": "github",
       "url": "https://github.com/KwangBeomPark/ClipOCR-Pro",
       "stars": 2,
@@ -6833,13 +6833,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-15T04:04:16Z",
-      "lastModified": "2026-06-22T17:08:42Z",
+      "lastModified": "2026-06-23T23:13:05Z",
       "source": "github",
       "url": "https://github.com/markchristianrobbins/ahk-window-hotkeys",
       "stars": 1,
       "forks": 0,
       "owner": "markchristianrobbins",
-      "code": "```cpp\n; ============================================\n; Repository: markchristianrobbins/ahk-window-hotkeys\n; ============================================\n; URL: https://github.com/markchristianrobbins/ahk-window-hotkeys\n; Stars: 1 | Forks: 0\n; Last Updated: 6/22/2026\n; License: Not specified\n;\n; Description:\n; High-performance window-management suite written in AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/markchristianrobbins/ahk-window-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/markchristianrobbins/ahk-window-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-window-hotkeys>\n\n; Example initialization\nclass AhkWindowHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-window-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWindowHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: markchristianrobbins/ahk-window-hotkeys\n; ============================================\n; URL: https://github.com/markchristianrobbins/ahk-window-hotkeys\n; Stars: 1 | Forks: 0\n; Last Updated: 6/23/2026\n; License: Not specified\n;\n; Description:\n; High-performance window-management suite written in AutoHotkey v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/markchristianrobbins/ahk-window-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/markchristianrobbins/ahk-window-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-window-hotkeys>\n\n; Example initialization\nclass AhkWindowHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-window-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWindowHotkeysExample()\n```"
     },
     {
       "id": "github-1269677848",
