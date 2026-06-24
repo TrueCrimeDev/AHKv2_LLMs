@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-24T00:40:37.803Z",
+  "lastUpdated": "2026-06-24T07:13:06.603Z",
   "totalScripts": 358,
   "categories": [
     "GUI",
@@ -4103,13 +4103,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-17T03:08:50Z",
-      "lastModified": "2026-05-13T06:30:33Z",
+      "lastModified": "2026-06-24T05:40:47Z",
       "source": "github",
       "url": "https://github.com/yakunins/vertical-mouse-sensitivity",
       "stars": 0,
       "forks": 0,
       "owner": "yakunins",
-      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 5/13/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 6/24/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
     },
     {
       "id": "github-1194286569",
