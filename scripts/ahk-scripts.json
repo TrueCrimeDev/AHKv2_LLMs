@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-24T18:36:53.003Z",
+  "lastUpdated": "2026-06-25T00:45:32.622Z",
   "totalScripts": 359,
   "categories": [
     "GUI",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-06-23T09:15:15Z",
+      "lastModified": "2026-06-24T19:54:58Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 35,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 6/23/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 6/24/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -1934,13 +1934,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-11T20:22:16Z",
-      "lastModified": "2026-01-11T20:40:34Z",
+      "lastModified": "2026-06-24T19:50:34Z",
       "source": "github",
       "url": "https://github.com/maso27/ShiftFN_autohotkey",
       "stars": 0,
       "forks": 0,
       "owner": "maso27",
-      "code": "```cpp\n; ============================================\n; Repository: maso27/ShiftFN_autohotkey\n; ============================================\n; URL: https://github.com/maso27/ShiftFN_autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 1/11/2026\n; License: MIT License\n;\n; Description:\n; Autohotkey v2 script to streamline navigation on keyboards\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/maso27/ShiftFN_autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/maso27/ShiftFN_autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ShiftFN_autohotkey>\n\n; Example initialization\nclass ShiftfnAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ShiftFN_autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShiftfnAutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: maso27/ShiftFN_autohotkey\n; ============================================\n; URL: https://github.com/maso27/ShiftFN_autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 6/24/2026\n; License: MIT License\n;\n; Description:\n; Autohotkey v2 script to streamline navigation on keyboards\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/maso27/ShiftFN_autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/maso27/ShiftFN_autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ShiftFN_autohotkey>\n\n; Example initialization\nclass ShiftfnAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ShiftFN_autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShiftfnAutohotkeyExample()\n```"
     },
     {
       "id": "github-1132347509",
