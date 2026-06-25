@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-25T00:45:32.622Z",
-  "totalScripts": 359,
+  "lastUpdated": "2026-06-25T07:13:33.046Z",
+  "totalScripts": 360,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1175,13 +1175,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-10-07T03:49:34Z",
-      "lastModified": "2026-04-19T01:48:30Z",
+      "lastModified": "2026-06-25T04:59:53Z",
       "source": "github",
       "url": "https://github.com/holy-tao/MsgPack",
       "stars": 4,
       "forks": 1,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/MsgPack\n; ============================================\n; URL: https://github.com/holy-tao/MsgPack\n; Stars: 4 | Forks: 1\n; Last Updated: 4/19/2026\n; License: MIT License\n;\n; Description:\n; MessagePack implementation in pure AutoHotkey v2 / msgpack.io[AutoHotkey]\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/MsgPack.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/MsgPack/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MsgPack>\n\n; Example initialization\nclass MsgpackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MsgPack loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MsgpackExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/MsgPack\n; ============================================\n; URL: https://github.com/holy-tao/MsgPack\n; Stars: 4 | Forks: 1\n; Last Updated: 6/25/2026\n; License: MIT License\n;\n; Description:\n; MessagePack implementation in pure AutoHotkey v2 / msgpack.io[AutoHotkey]\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/MsgPack.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/MsgPack/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MsgPack>\n\n; Example initialization\nclass MsgpackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MsgPack loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MsgpackExample()\n```"
     },
     {
       "id": "github-762196209",
@@ -3374,13 +3374,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-05-03T18:11:51Z",
+      "lastModified": "2026-06-25T07:01:49Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
-      "stars": 2,
+      "stars": 5,
       "forks": 0,
       "owner": "zeno528",
-      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 2 | Forks: 0\n; Last Updated: 5/3/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 5 | Forks: 0\n; Last Updated: 6/25/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
     },
     {
       "id": "github-1169730446",
@@ -7200,6 +7200,28 @@
       "forks": 0,
       "owner": "von110187",
       "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 6/24/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
+    },
+    {
+      "id": "github-825062151",
+      "title": "alt-ime-us-ahk",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for explicitly turning Japanese IME on/off with Left/Right Alt on US keyboard layouts.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey-v2",
+        "ime",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-07-06T16:55:38Z",
+      "lastModified": "2026-06-25T05:28:24Z",
+      "source": "github",
+      "url": "https://github.com/Xeyu404/alt-ime-us-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Xeyu404",
+      "code": "```cpp\n; ============================================\n; Repository: Xeyu404/alt-ime-us-ahk\n; ============================================\n; URL: https://github.com/Xeyu404/alt-ime-us-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/25/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for explicitly turning Japanese IME on/off with Left/Right Alt on US keyboard layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xeyu404/alt-ime-us-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xeyu404/alt-ime-us-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-us-ahk>\n\n; Example initialization\nclass AltImeUsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-us-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeUsAhkExample()\n```"
     }
   ]
 }
