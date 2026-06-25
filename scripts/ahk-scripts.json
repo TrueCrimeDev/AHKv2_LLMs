@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-25T12:49:15.794Z",
-  "totalScripts": 360,
+  "lastUpdated": "2026-06-25T18:46:12.604Z",
+  "totalScripts": 361,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-06-24T19:54:58Z",
+      "lastModified": "2026-06-25T14:28:39Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 35,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 6/24/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 6/25/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -3374,7 +3374,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-06-25T07:01:49Z",
+      "lastModified": "2026-06-25T17:01:45Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
       "stars": 5,
@@ -6789,13 +6789,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T05:34:05Z",
-      "lastModified": "2026-06-14T07:13:18Z",
+      "lastModified": "2026-06-25T14:53:27Z",
       "source": "github",
       "url": "https://github.com/asorei/poe1-leveling-overlay-kr",
       "stars": 0,
       "forks": 0,
       "owner": "asorei",
-      "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 6/14/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 표시하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 6/25/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 표시하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
     },
     {
       "id": "github-1269456433",
@@ -7222,6 +7222,25 @@
       "forks": 0,
       "owner": "Xeyu404",
       "code": "```cpp\n; ============================================\n; Repository: Xeyu404/alt-ime-us-ahk\n; ============================================\n; URL: https://github.com/Xeyu404/alt-ime-us-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/25/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for explicitly turning Japanese IME on/off with Left/Right Alt on US keyboard layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xeyu404/alt-ime-us-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xeyu404/alt-ime-us-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-us-ahk>\n\n; Example initialization\nclass AltImeUsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-us-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeUsAhkExample()\n```"
+    },
+    {
+      "id": "github-1278017332",
+      "title": "ASCII-Sleep-Diary",
+      "category": "GitHub Repository",
+      "description": "A program that automatically tracks your sleep based upon computer activity, written in AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-23T11:42:31Z",
+      "lastModified": "2026-06-25T18:45:09Z",
+      "source": "github",
+      "url": "https://github.com/UndeadKitten/ASCII-Sleep-Diary",
+      "stars": 0,
+      "forks": 0,
+      "owner": "UndeadKitten",
+      "code": "```cpp\n; ============================================\n; Repository: UndeadKitten/ASCII-Sleep-Diary\n; ============================================\n; URL: https://github.com/UndeadKitten/ASCII-Sleep-Diary\n; Stars: 0 | Forks: 0\n; Last Updated: 6/25/2026\n; License: MIT License\n;\n; Description:\n; A program that automatically tracks your sleep based upon computer activity, written in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/UndeadKitten/ASCII-Sleep-Diary.git\n;\n; Option 2: Download ZIP\n;   https://github.com/UndeadKitten/ASCII-Sleep-Diary/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ASCII-Sleep-Diary>\n\n; Example initialization\nclass AsciiSleepDiaryExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ASCII-Sleep-Diary loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsciiSleepDiaryExample()\n```"
     }
   ]
 }
