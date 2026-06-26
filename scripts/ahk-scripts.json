@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-26T07:19:44.229Z",
-  "totalScripts": 361,
+  "lastUpdated": "2026-06-26T12:45:24.956Z",
+  "totalScripts": 363,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6789,13 +6789,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T05:34:05Z",
-      "lastModified": "2026-06-25T14:53:27Z",
+      "lastModified": "2026-06-26T12:17:47Z",
       "source": "github",
       "url": "https://github.com/asorei/poe1-leveling-overlay-kr",
       "stars": 0,
       "forks": 0,
       "owner": "asorei",
-      "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 6/25/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 표시하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 6/26/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 표시하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
     },
     {
       "id": "github-1269456433",
@@ -7241,6 +7241,44 @@
       "forks": 0,
       "owner": "UndeadKitten",
       "code": "```cpp\n; ============================================\n; Repository: UndeadKitten/ASCII-Sleep-Diary\n; ============================================\n; URL: https://github.com/UndeadKitten/ASCII-Sleep-Diary\n; Stars: 0 | Forks: 0\n; Last Updated: 6/25/2026\n; License: MIT License\n;\n; Description:\n; A program that automatically tracks your sleep based upon computer activity, written in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/UndeadKitten/ASCII-Sleep-Diary.git\n;\n; Option 2: Download ZIP\n;   https://github.com/UndeadKitten/ASCII-Sleep-Diary/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ASCII-Sleep-Diary>\n\n; Example initialization\nclass AsciiSleepDiaryExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ASCII-Sleep-Diary loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsciiSleepDiaryExample()\n```"
+    },
+    {
+      "id": "github-1281157108",
+      "title": "Continuous-pasting",
+      "category": "GitHub Repository",
+      "description": "连续粘贴 - 自动监控剪贴板按顺序连续粘贴工具，AutoHotkey v2 脚本，通过不忙脚本盒子快捷键触发，支持批量复制集中粘贴、FIFO 队列管理、自定义快捷键设置，告别反复切换窗口提高办公效率",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-26T09:22:13Z",
+      "lastModified": "2026-06-26T09:23:37Z",
+      "source": "github",
+      "url": "https://github.com/bm-panda/Continuous-pasting",
+      "stars": 0,
+      "forks": 0,
+      "owner": "bm-panda",
+      "code": "```cpp\n; ============================================\n; Repository: bm-panda/Continuous-pasting\n; ============================================\n; URL: https://github.com/bm-panda/Continuous-pasting\n; Stars: 0 | Forks: 0\n; Last Updated: 6/26/2026\n; License: Not specified\n;\n; Description:\n; 连续粘贴 - 自动监控剪贴板按顺序连续粘贴工具，AutoHotkey v2 脚本，通过不忙脚本盒子快捷键触发，支持批量复制集中粘贴、FIFO 队列管理、自定义快捷键设置，告别反复切换窗口提高办公效率\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bm-panda/Continuous-pasting.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bm-panda/Continuous-pasting/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Continuous-pasting>\n\n; Example initialization\nclass ContinuousPastingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Continuous-pasting loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContinuousPastingExample()\n```"
+    },
+    {
+      "id": "github-1281057371",
+      "title": "AHK-Debug-Runner",
+      "category": "GitHub Repository",
+      "description": "🔧 AHK 调试运行器 v3.0 - AutoHotkey V1/V2 双版本脚本调试工具，自动捕获错误弹窗",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-26T07:28:48Z",
+      "lastModified": "2026-06-26T07:28:56Z",
+      "source": "github",
+      "url": "https://github.com/2958360390qq-dotcom/AHK-Debug-Runner",
+      "stars": 0,
+      "forks": 0,
+      "owner": "2958360390qq-dotcom",
+      "code": "```cpp\n; ============================================\n; Repository: 2958360390qq-dotcom/AHK-Debug-Runner\n; ============================================\n; URL: https://github.com/2958360390qq-dotcom/AHK-Debug-Runner\n; Stars: 0 | Forks: 0\n; Last Updated: 6/26/2026\n; License: MIT License\n;\n; Description:\n; 🔧 AHK 调试运行器 v3.0 - AutoHotkey V1/V2 双版本脚本调试工具，自动捕获错误弹窗\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2958360390qq-dotcom/AHK-Debug-Runner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2958360390qq-dotcom/AHK-Debug-Runner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-Debug-Runner>\n\n; Example initialization\nclass AhkDebugRunnerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-Debug-Runner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkDebugRunnerExample()\n```"
     }
   ]
 }
