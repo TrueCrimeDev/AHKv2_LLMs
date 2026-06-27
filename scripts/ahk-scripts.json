@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-27T07:06:15.591Z",
-  "totalScripts": 363,
+  "lastUpdated": "2026-06-27T12:29:03.952Z",
+  "totalScripts": 364,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4907,7 +4907,7 @@
       "id": "github-1127729797",
       "title": "gtao-heist-toolkit",
       "category": "GitHub Repository",
-      "description": "GTA Online heist toolkit featuring puzzle solvers, NoSave support, and other useful standalone scripts. AutoHotkey v2.",
+      "description": "GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.",
       "tags": [
         "github",
         "repository",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-06-25T09:25:26Z",
+      "lastModified": "2026-06-27T11:14:10Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 4,
       "forks": 2,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 2\n; Last Updated: 6/25/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, NoSave support, and other useful standalone scripts. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 2\n; Last Updated: 6/27/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -6476,13 +6476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-06-25T21:02:41Z",
+      "lastModified": "2026-06-27T11:19:04Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
-      "stars": 14,
+      "stars": 16,
       "forks": 2,
       "owner": "M-Haziq-Iqbal",
-      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 14 | Forks: 2\n; Last Updated: 6/25/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 16 | Forks: 2\n; Last Updated: 6/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     },
     {
       "id": "github-1263747205",
@@ -6782,20 +6782,20 @@
       "id": "github-1268938190",
       "title": "poe1-leveling-overlay-kr",
       "category": "GitHub Repository",
-      "description": "Path of Exile1 한국어 레벨링 가이드를 ���시하는 AutoHotkey v2 오버레이",
+      "description": "Path of Exile1 한국어 레벨링 가이드를 표���하는 AutoHotkey v2 오버레이",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T05:34:05Z",
-      "lastModified": "2026-06-27T04:53:54Z",
+      "lastModified": "2026-06-27T11:26:26Z",
       "source": "github",
       "url": "https://github.com/asorei/poe1-leveling-overlay-kr",
       "stars": 0,
       "forks": 0,
       "owner": "asorei",
-      "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 6/27/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 ���시하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 6/27/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 표���하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
     },
     {
       "id": "github-1269456433",
@@ -7279,6 +7279,25 @@
       "forks": 0,
       "owner": "2958360390qq-dotcom",
       "code": "```cpp\n; ============================================\n; Repository: 2958360390qq-dotcom/AHK-Debug-Runner\n; ============================================\n; URL: https://github.com/2958360390qq-dotcom/AHK-Debug-Runner\n; Stars: 0 | Forks: 0\n; Last Updated: 6/26/2026\n; License: MIT License\n;\n; Description:\n; 🔧 AHK 调试运行器 v3.0 - AutoHotkey V1/V2 双版本脚本调试工具，自动捕获错误弹窗\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2958360390qq-dotcom/AHK-Debug-Runner.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2958360390qq-dotcom/AHK-Debug-Runner/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-Debug-Runner>\n\n; Example initialization\nclass AhkDebugRunnerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-Debug-Runner loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkDebugRunnerExample()\n```"
+    },
+    {
+      "id": "github-1281987126",
+      "title": "Primary_Win_D",
+      "category": "GitHub Repository",
+      "description": "一个用于多显示器环境的 AutoHotkey v2 脚本：按下 Win + D 时，只最小化主显示器上的普通应用窗口，再次按下时恢复这些窗口。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-27T07:01:48Z",
+      "lastModified": "2026-06-27T07:21:45Z",
+      "source": "github",
+      "url": "https://github.com/dogdreamson555/Primary_Win_D",
+      "stars": 1,
+      "forks": 0,
+      "owner": "dogdreamson555",
+      "code": "```cpp\n; ============================================\n; Repository: dogdreamson555/Primary_Win_D\n; ============================================\n; URL: https://github.com/dogdreamson555/Primary_Win_D\n; Stars: 1 | Forks: 0\n; Last Updated: 6/27/2026\n; License: Not specified\n;\n; Description:\n; 一个用于多显示器环境的 AutoHotkey v2 脚本：按下 Win + D 时，只最小化主显示器上的普通应用窗口，再次按下时恢复这些窗口。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dogdreamson555/Primary_Win_D.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dogdreamson555/Primary_Win_D/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Primary_Win_D>\n\n; Example initialization\nclass PrimaryWinDExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Primary_Win_D loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PrimaryWinDExample()\n```"
     }
   ]
 }
