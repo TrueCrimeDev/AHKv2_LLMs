@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-06-29T18:42:14.266Z",
-  "totalScripts": 365,
+  "lastUpdated": "2026-06-30T00:45:01.442Z",
+  "totalScripts": 366,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-06-28T21:43:48Z",
+      "lastModified": "2026-06-29T18:42:54Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 35,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 6/28/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 6/29/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -5193,13 +5193,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-06-17T04:35:31Z",
+      "lastModified": "2026-06-29T19:35:41Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
       "forks": 0,
       "owner": "PCMon",
-      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/17/2026\n; License: Not specified\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 6/29/2026\n; License: Not specified\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     },
     {
       "id": "github-1225321547",
@@ -7317,6 +7317,31 @@
       "forks": 0,
       "owner": "holy-tao",
       "code": "```cpp\n; ============================================\n; Repository: holy-tao/libclang.ahk\n; ============================================\n; URL: https://github.com/holy-tao/libclang.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2.1 bindings for libclang\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/libclang.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/libclang.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <libclang.ahk>\n\n; Example initialization\nclass Libclang.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"libclang.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Libclang.ahkExample()\n```"
+    },
+    {
+      "id": "github-1284474454",
+      "title": "mouse-dpi-osd",
+      "category": "GitHub Repository",
+      "description": "On-screen DPI overlay for generic gaming mice without manufacturer software (Windows + AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "dpi",
+        "gaming",
+        "gaming-mouse",
+        "overlay",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-29T22:42:57Z",
+      "lastModified": "2026-06-29T22:45:17Z",
+      "source": "github",
+      "url": "https://github.com/Hesamsamani/mouse-dpi-osd",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Hesamsamani",
+      "code": "```cpp\n; ============================================\n; Repository: Hesamsamani/mouse-dpi-osd\n; ============================================\n; URL: https://github.com/Hesamsamani/mouse-dpi-osd\n; Stars: 0 | Forks: 0\n; Last Updated: 6/29/2026\n; License: MIT License\n;\n; Description:\n; On-screen DPI overlay for generic gaming mice without manufacturer software (Windows + AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Hesamsamani/mouse-dpi-osd.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Hesamsamani/mouse-dpi-osd/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mouse-dpi-osd>\n\n; Example initialization\nclass MouseDpiOsdExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mouse-dpi-osd loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseDpiOsdExample()\n```"
     }
   ]
 }
