@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-02T12:40:22.252Z",
-  "totalScripts": 366,
+  "lastUpdated": "2026-07-02T18:32:01.045Z",
+  "totalScripts": 367,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -7342,6 +7342,25 @@
       "forks": 0,
       "owner": "Hesamsamani",
       "code": "```cpp\n; ============================================\n; Repository: Hesamsamani/mouse-dpi-osd\n; ============================================\n; URL: https://github.com/Hesamsamani/mouse-dpi-osd\n; Stars: 0 | Forks: 0\n; Last Updated: 6/29/2026\n; License: MIT License\n;\n; Description:\n; On-screen DPI overlay for generic gaming mice without manufacturer software (Windows + AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Hesamsamani/mouse-dpi-osd.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Hesamsamani/mouse-dpi-osd/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mouse-dpi-osd>\n\n; Example initialization\nclass MouseDpiOsdExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mouse-dpi-osd loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseDpiOsdExample()\n```"
+    },
+    {
+      "id": "github-1287324262",
+      "title": "minecraft-armor-swap-macro",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 macro that hotkey-swaps Minecraft armor pieces.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-02T15:25:16Z",
+      "lastModified": "2026-07-02T15:25:36Z",
+      "source": "github",
+      "url": "https://github.com/DoradoDevs/minecraft-armor-swap-macro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "DoradoDevs",
+      "code": "```cpp\n; ============================================\n; Repository: DoradoDevs/minecraft-armor-swap-macro\n; ============================================\n; URL: https://github.com/DoradoDevs/minecraft-armor-swap-macro\n; Stars: 0 | Forks: 0\n; Last Updated: 7/2/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 macro that hotkey-swaps Minecraft armor pieces.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DoradoDevs/minecraft-armor-swap-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DoradoDevs/minecraft-armor-swap-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <minecraft-armor-swap-macro>\n\n; Example initialization\nclass MinecraftArmorSwapMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"minecraft-armor-swap-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MinecraftArmorSwapMacroExample()\n```"
     }
   ]
 }
