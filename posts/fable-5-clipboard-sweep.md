@@ -4,7 +4,17 @@ Anthropic's **Claude Fable 5** just joined the [clipboard-formatter benchmark](p
 
 Every other multi-entry model on the board is there twice. Fable 5 fielded five — and didn't drop one.
 
-<div class="bm-wrap"><table class="bm-heat"><thead><tr><th>#</th><th style="text-align:left">Entry</th><th>config</th><th>runs</th><th>code</th><th>visual</th><th>lines</th></tr></thead><tbody><tr><td class="h-rank">7</td><td class="h-name"><a href="model.html?id=Claude_Fable_5_Spotlight">Fable 5 (Spotlight)</a></td><td class="h-dim">feature showcase</td><td class="h-emer">✓</td><td class="h-emer">89</td><td class="h-emer">20/20</td><td class="h-dim">533</td></tr><tr><td class="h-rank">11</td><td class="h-name"><a href="model.html?id=Claude_Fable_5_AHK_OOP">Fable 5 (AHK OOP)</a></td><td class="h-dim">OOP knowledge tree</td><td class="h-emer">✓</td><td class="h-emer">86</td><td class="h-emer">20/20</td><td class="h-dim">76</td></tr><tr><td class="h-rank">12</td><td class="h-name"><a href="model.html?id=Claude_Fable_5">Fable 5</a></td><td class="h-dim">default</td><td class="h-emer">✓</td><td class="h-blue">85</td><td class="h-dim">4/20</td><td class="h-dim">78</td></tr><tr><td class="h-rank">13</td><td class="h-name"><a href="model.html?id=Claude_Fable_5_Skills">Fable 5 (Skills)</a></td><td class="h-dim">skills harness</td><td class="h-emer">✓</td><td class="h-blue">85</td><td class="h-dim">4/20</td><td class="h-dim">78</td></tr><tr><td class="h-rank">16</td><td class="h-name"><a href="model.html?id=Claude_Fable_5_NoSkills">Fable 5 (No Skills)</a></td><td class="h-dim">bare, no tooling</td><td class="h-emer">✓</td><td class="h-blue">80</td><td class="h-dim">4/20</td><td class="h-dim">40</td></tr></tbody></table></div>
+<div class="bm-wrap"><table class="bm-heat"><thead><tr><th>#</th><th style="text-align:left">Entry</th><th>config</th><th>runs</th><th>code</th><th>visual</th><th>lines</th></tr></thead><tbody><tr><td class="h-rank">1</td><td class="h-name"><a href="model.html?id=Claude_Fable_5_Full_Harness">Fable 5 (Full Harness)</a></td><td class="h-dim">full live harness</td><td class="h-emer">✓</td><td class="h-emer">98</td><td class="h-emer">20/20</td><td class="h-dim">175</td></tr><tr><td class="h-rank">8</td><td class="h-name"><a href="model.html?id=Claude_Fable_5_Spotlight">Fable 5 (Spotlight)</a></td><td class="h-dim">feature showcase</td><td class="h-emer">✓</td><td class="h-emer">89</td><td class="h-emer">20/20</td><td class="h-dim">533</td></tr><tr><td class="h-rank">12</td><td class="h-name"><a href="model.html?id=Claude_Fable_5_AHK_OOP">Fable 5 (AHK OOP)</a></td><td class="h-dim">OOP knowledge tree</td><td class="h-emer">✓</td><td class="h-emer">86</td><td class="h-emer">20/20</td><td class="h-dim">76</td></tr><tr><td class="h-rank">13</td><td class="h-name"><a href="model.html?id=Claude_Fable_5">Fable 5</a></td><td class="h-dim">default</td><td class="h-emer">✓</td><td class="h-blue">85</td><td class="h-dim">4/20</td><td class="h-dim">78</td></tr><tr><td class="h-rank">14</td><td class="h-name"><a href="model.html?id=Claude_Fable_5_Skills">Fable 5 (Skills)</a></td><td class="h-dim">skills harness</td><td class="h-emer">✓</td><td class="h-blue">85</td><td class="h-dim">4/20</td><td class="h-dim">78</td></tr><tr><td class="h-rank">17</td><td class="h-name"><a href="model.html?id=Claude_Fable_5_NoSkills">Fable 5 (No Skills)</a></td><td class="h-dim">bare, no tooling</td><td class="h-emer">✓</td><td class="h-blue">80</td><td class="h-dim">4/20</td><td class="h-dim">40</td></tr></tbody></table></div>
+
+## Update (July 1): A Sixth Run Takes Rank 1
+
+A sixth config joined the sweep: **[Full Harness](model.html?id=Claude_Fable_5_Full_Harness)** — the live, day-to-day working setup, with auto-loading syntax rules, skills, and one thing no June run had: *this post in its context*. Same prompt, same one-shot rules, same pipeline.
+
+It's the first entry on the 78-model board to clear all three signals at once: **98 code** (the board high — GPT-5.5 Pro held 95), a running window, and a 20/20 fully dark visual. Rank 1 overall.
+
+The interesting part isn't the score — it's *which* points moved. The two spec items every June config missed ("What It Didn't Do", below) are exactly what the July run shipped: a real two-stack undo/redo with `.Opt()` gating, and `ControlWrapper` inheritance where both derived overrides do work the base can't — `EditWrap.Value` normalizes clipboard line endings so the char count is honest, `ButtonWrap.Value` remaps to the button label. The config delta this time wasn't tooling. It was feedback: a harness that remembers what its last review said.
+
+The June entries each slid down one rank to make room; the table above shows current board positions.
 
 ## Why the Sweep Is the Story
 
@@ -52,7 +62,7 @@ OnTransform(label, *) {
 
 ## What It Didn't Do
 
-The honest column. Two spec items went unclaimed in **every** config:
+The honest column. Two spec items went unclaimed in **every June** config (the July Full Harness run later shipped both — see the update above):
 
 - **No undo/redo stack.** The prompt asks for multi-step undo on `Ctrl+Z`/`Ctrl+Y`; none of the five implements it. It's the single most expensive consistent miss.
 - **Little inheritance.** The spec's `ControlWrapper` base-class-plus-subclasses architecture mostly didn't appear (four entries have zero `extends`, Spotlight has one).
