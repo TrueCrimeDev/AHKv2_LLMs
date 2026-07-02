@@ -36,6 +36,8 @@ The pattern held across the mid-field, and violently: **DeepSeek V4 Pro +12 over
 
 And the one falsification the arm design predicted showed up on schedule: **GPT-5.1 got *worse* than probe-repair** (25 → 24). Its own expected values were wrong often enough (13 of its 36 cells never passed their own probes) that the loop optimized toward its own misreadings. Self-tests are an amplifier: they amplify spec understanding, including bad spec understanding.
 
+**Footnote: the oracle rerun.** "Why would a model grade itself?" is the obvious objection, so we isolated it. GPT-5.1's self-test arm was re-run with exactly one change: its own test *inputs* were kept, but every expected value was recomputed by the reference implementation. Result: **26/36** — the regression recovered, and its best arm on the board. The mechanism, quantified: of the 214 tests it wrote, **15 (7%) carried a wrong expected value**, and those 15 were the whole story. So the honest split is: *execution* does the heavy lifting (12 of 13 models gained despite imperfect self-oracles), but a harness that can't trust its own expected values leaks a couple of tasks. (Single fresh sample — ±1 is noise; the direction isn't.)
+
 ## The Real Harness
 
 The scripted arms are simulations of a coding harness. The last arm is one: headless **Claude Code**, tools on, real interpreter, the model choosing its own verification strategy. Three models, 36 tasks each:
