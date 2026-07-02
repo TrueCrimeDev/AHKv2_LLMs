@@ -43,7 +43,7 @@ Round 1 concluded: *"Knowing about a trap in one context does not inoculate the 
 
 ## The Blind Spot
 
-The feedback arm's one structural limit showed up at the top of the board. GPT-5.5's `Pivot` draft **passed the public example** — so the repair round never fired — and then failed 3 of 5 hidden cases. Probe-based feedback only helps when the bug shows on the probe; a single public example is a coarse probe. That's the argument for the next iteration: let the model write and run *its own* test cases, the way a real agentic harness would.
+The feedback arm's one structural limit showed up at the top of the board. GPT-5.5's `Pivot` draft **passed the public example** — so the repair round never fired — and then failed 3 of 5 hidden cases. Probe-based feedback only helps when the bug shows on the probe; a single public example is a coarse probe. That's the argument for the next iteration: let the model write and run *its own* test cases, the way a real agentic harness would. (**[Round 3](post.html?slug=ahk-eval-round-3) ran exactly that** — GPT-5.5's `Pivot` fell to its own tests, and the field gained +5.4.)
 
 And the arms are independent samples, not a pipeline — each is a fresh generation, so ±1-task moves are within sampling noise, and a handful of tasks regressed under feedback (`EvalRPN` 11 → 9: repair can overcorrect a function that was already close).
 

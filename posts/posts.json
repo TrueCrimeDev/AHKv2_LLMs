@@ -1,5 +1,19 @@
 [
   {
+    "slug": "ahk-eval-round-3",
+    "title": "AHK-Eval Round 3: Self-Tests, and What Happens When the Harness Is Real",
+    "date": "2026-07-02",
+    "description": "Two final harness arms: models writing their own test cases lift the field +5.4 tasks (GPT-5.5 posts the first non-Fable perfect run; one model regresses on its own wrong tests) \u2014 and headless Claude Code turns Opus 4.8 and Sonnet 4.6 from 29 and 25 cold into 36/36 and 35/36, at eleven cents a task.",
+    "tags": [
+      "LLMs",
+      "Benchmark",
+      "AHK-Eval",
+      "Harness",
+      "Claude Code"
+    ],
+    "path": "posts/ahk-eval-round-3.md"
+  },
+  {
     "slug": "ahk-eval-context-arms",
     "title": "AHK-Eval Round 2: What a Coding Harness Is Actually Worth",
     "date": "2026-07-02",
