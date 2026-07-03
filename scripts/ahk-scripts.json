@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-03T12:39:12.854Z",
+  "lastUpdated": "2026-07-03T18:28:41.584Z",
   "totalScripts": 370,
   "categories": [
     "GUI",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-06-30T15:23:40Z",
+      "lastModified": "2026-07-03T15:54:48Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 48,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 48 | Forks: 8\n; Last Updated: 6/30/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 48 | Forks: 8\n; Last Updated: 7/3/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -5708,13 +5708,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-16T11:36:17Z",
-      "lastModified": "2026-05-16T13:04:39Z",
+      "lastModified": "2026-07-03T15:26:57Z",
       "source": "github",
       "url": "https://github.com/tftranslate/joplin-prompt-picker",
       "stars": 0,
       "forks": 0,
       "owner": "tftranslate",
-      "code": "```cpp\n; ============================================\n; Repository: tftranslate/joplin-prompt-picker\n; ============================================\n; URL: https://github.com/tftranslate/joplin-prompt-picker\n; Stars: 0 | Forks: 0\n; Last Updated: 5/16/2026\n; License: MIT License\n;\n; Description:\n; Use Joplin as prompt library with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tftranslate/joplin-prompt-picker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tftranslate/joplin-prompt-picker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <joplin-prompt-picker>\n\n; Example initialization\nclass JoplinPromptPickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"joplin-prompt-picker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := JoplinPromptPickerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tftranslate/joplin-prompt-picker\n; ============================================\n; URL: https://github.com/tftranslate/joplin-prompt-picker\n; Stars: 0 | Forks: 0\n; Last Updated: 7/3/2026\n; License: MIT License\n;\n; Description:\n; Use Joplin as prompt library with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tftranslate/joplin-prompt-picker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tftranslate/joplin-prompt-picker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <joplin-prompt-picker>\n\n; Example initialization\nclass JoplinPromptPickerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"joplin-prompt-picker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := JoplinPromptPickerExample()\n```"
     },
     {
       "id": "github-1240807763",
@@ -6161,13 +6161,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-30T16:05:52Z",
-      "lastModified": "2026-06-30T14:27:20Z",
+      "lastModified": "2026-07-03T14:40:47Z",
       "source": "github",
       "url": "https://github.com/MonoEven/stdlib-ahk",
       "stars": 3,
       "forks": 0,
       "owner": "MonoEven",
-      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 3 | Forks: 0\n; Last Updated: 6/30/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 3 | Forks: 0\n; Last Updated: 7/3/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
     },
     {
       "id": "github-608904813",
@@ -6476,13 +6476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-07-03T11:02:14Z",
+      "lastModified": "2026-07-03T16:43:19Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
-      "stars": 19,
+      "stars": 21,
       "forks": 2,
       "owner": "M-Haziq-Iqbal",
-      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 19 | Forks: 2\n; Last Updated: 7/3/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 21 | Forks: 2\n; Last Updated: 7/3/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     },
     {
       "id": "github-1263747205",
