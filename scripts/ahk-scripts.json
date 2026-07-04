@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-04T00:35:51.480Z",
+  "lastUpdated": "2026-07-04T07:01:30.729Z",
   "totalScripts": 370,
   "categories": [
     "GUI",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-03T11:57:46Z",
+      "lastModified": "2026-07-04T04:10:04Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 5,
       "forks": 2,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 5 | Forks: 2\n; Last Updated: 7/3/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 5 | Forks: 2\n; Last Updated: 7/4/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -7215,13 +7215,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-07-06T16:55:38Z",
-      "lastModified": "2026-06-26T06:46:00Z",
+      "lastModified": "2026-07-04T04:49:19Z",
       "source": "github",
       "url": "https://github.com/Xeyu404/alt-ime-us-ahk",
       "stars": 0,
       "forks": 0,
       "owner": "Xeyu404",
-      "code": "```cpp\n; ============================================\n; Repository: Xeyu404/alt-ime-us-ahk\n; ============================================\n; URL: https://github.com/Xeyu404/alt-ime-us-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 6/26/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for explicitly turning Japanese IME on/off with Left/Right Alt on US keyboard layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xeyu404/alt-ime-us-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xeyu404/alt-ime-us-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-us-ahk>\n\n; Example initialization\nclass AltImeUsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-us-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeUsAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Xeyu404/alt-ime-us-ahk\n; ============================================\n; URL: https://github.com/Xeyu404/alt-ime-us-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/4/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for explicitly turning Japanese IME on/off with Left/Right Alt on US keyboard layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xeyu404/alt-ime-us-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xeyu404/alt-ime-us-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-us-ahk>\n\n; Example initialization\nclass AltImeUsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-us-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeUsAhkExample()\n```"
     },
     {
       "id": "github-1278017332",
