@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-05T00:38:25.856Z",
+  "lastUpdated": "2026-07-05T07:07:00.342Z",
   "totalScripts": 370,
   "categories": [
     "GUI",
@@ -7310,13 +7310,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-28T19:38:16Z",
-      "lastModified": "2026-07-01T22:44:55Z",
+      "lastModified": "2026-07-05T03:20:55Z",
       "source": "github",
       "url": "https://github.com/holy-tao/libclang.ahk",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/libclang.ahk\n; ============================================\n; URL: https://github.com/holy-tao/libclang.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2.1 bindings for libclang\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/libclang.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/libclang.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <libclang.ahk>\n\n; Example initialization\nclass Libclang.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"libclang.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Libclang.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/libclang.ahk\n; ============================================\n; URL: https://github.com/holy-tao/libclang.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/5/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2.1 bindings for libclang\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/libclang.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/libclang.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <libclang.ahk>\n\n; Example initialization\nclass Libclang.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"libclang.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Libclang.ahkExample()\n```"
     },
     {
       "id": "github-1284474454",
