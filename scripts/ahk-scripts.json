@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-04T18:21:53.078Z",
+  "lastUpdated": "2026-07-05T00:38:25.856Z",
   "totalScripts": 370,
   "categories": [
     "GUI",
@@ -4780,7 +4780,7 @@
       "id": "github-1209014000",
       "title": "alt-ime-rev",
       "category": "GitHub Repository",
-      "description": "Toggle Japanese IME with Left/Right Alt key tap on Windows �� AutoHotkey v2 fork of karakaram/alt-ime-ahk",
+      "description": "Toggle Japanese IME with Left/Right Alt key tap on Windows — AutoHotkey v2 fork of karakaram/alt-ime-ahk",
       "tags": [
         "github",
         "repository",
@@ -4793,13 +4793,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-13T02:27:20Z",
-      "lastModified": "2026-04-13T08:25:31Z",
+      "lastModified": "2026-07-04T20:20:15Z",
       "source": "github",
       "url": "https://github.com/yuki0ueda/alt-ime-rev",
-      "stars": 1,
-      "forks": 0,
+      "stars": 3,
+      "forks": 1,
       "owner": "yuki0ueda",
-      "code": "```cpp\n; ============================================\n; Repository: yuki0ueda/alt-ime-rev\n; ============================================\n; URL: https://github.com/yuki0ueda/alt-ime-rev\n; Stars: 1 | Forks: 0\n; Last Updated: 4/13/2026\n; License: MIT License\n;\n; Description:\n; Toggle Japanese IME with Left/Right Alt key tap on Windows �� AutoHotkey v2 fork of karakaram/alt-ime-ahk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yuki0ueda/alt-ime-rev.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yuki0ueda/alt-ime-rev/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-rev>\n\n; Example initialization\nclass AltImeRevExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-rev loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeRevExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yuki0ueda/alt-ime-rev\n; ============================================\n; URL: https://github.com/yuki0ueda/alt-ime-rev\n; Stars: 3 | Forks: 1\n; Last Updated: 7/4/2026\n; License: MIT License\n;\n; Description:\n; Toggle Japanese IME with Left/Right Alt key tap on Windows — AutoHotkey v2 fork of karakaram/alt-ime-ahk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yuki0ueda/alt-ime-rev.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yuki0ueda/alt-ime-rev/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-rev>\n\n; Example initialization\nclass AltImeRevExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-rev loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeRevExample()\n```"
     },
     {
       "id": "github-853350413",
