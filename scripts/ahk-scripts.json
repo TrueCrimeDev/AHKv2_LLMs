@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-06T07:34:15.833Z",
+  "lastUpdated": "2026-07-06T13:16:50.426Z",
   "totalScripts": 373,
   "categories": [
     "GUI",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-05T09:26:34Z",
+      "lastModified": "2026-07-06T12:46:06Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 5,
       "forks": 2,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 5 | Forks: 2\n; Last Updated: 7/5/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 5 | Forks: 2\n; Last Updated: 7/6/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -5689,13 +5689,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-16T11:33:36Z",
-      "lastModified": "2026-05-18T12:45:23Z",
+      "lastModified": "2026-07-06T09:56:31Z",
       "source": "github",
       "url": "https://github.com/xavierskip/Wheel-Window-Switcher",
       "stars": 0,
       "forks": 0,
       "owner": "xavierskip",
-      "code": "```cpp\n; ============================================\n; Repository: xavierskip/Wheel-Window-Switcher\n; ============================================\n; URL: https://github.com/xavierskip/Wheel-Window-Switcher\n; Stars: 0 | Forks: 0\n; Last Updated: 5/18/2026\n; License: Not specified\n;\n; Description:\n; is a AutoHotkey v2.0 script that allows you to quickly switch between windows use your Mouse Wheel\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xavierskip/Wheel-Window-Switcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xavierskip/Wheel-Window-Switcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Wheel-Window-Switcher>\n\n; Example initialization\nclass WheelWindowSwitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Wheel-Window-Switcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WheelWindowSwitcherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: xavierskip/Wheel-Window-Switcher\n; ============================================\n; URL: https://github.com/xavierskip/Wheel-Window-Switcher\n; Stars: 0 | Forks: 0\n; Last Updated: 7/6/2026\n; License: Not specified\n;\n; Description:\n; is a AutoHotkey v2.0 script that allows you to quickly switch between windows use your Mouse Wheel\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xavierskip/Wheel-Window-Switcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xavierskip/Wheel-Window-Switcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Wheel-Window-Switcher>\n\n; Example initialization\nclass WheelWindowSwitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Wheel-Window-Switcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WheelWindowSwitcherExample()\n```"
     },
     {
       "id": "github-1240639624",
