@@ -2696,6 +2696,116 @@
   "analysis": "**GPT-OSS 120B** parses clean but **crashes on launch** \u2014 an uncaught runtime error. It never draws a window. Reported error: `Invalid control type.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **87/100**.",
   "rank": 40,
   "prev": "GLM_4-7",
+  "next": "Hy3"
+ },
+ {
+  "id": "Hy3",
+  "display": "Hy3",
+  "provider": "Tencent",
+  "source": "openrouter",
+  "parse": true,
+  "runs": false,
+  "score": 87,
+  "score_items": {
+   "Parses": 40,
+   "#Requires + SingleInstance": 7,
+   "Map() storage (no obj literal)": 5,
+   "No multi-line => block": 5,
+   "No empty catch": 4,
+   "No JS contamination": 4,
+   ".Bind(this) callbacks": 5,
+   "Uses Map()": 0,
+   "Inheritance depth": 4,
+   "Str transforms": 3,
+   "Undo + Redo": 4,
+   "Dark-mode code": 0,
+   "Resize handling": 0,
+   "Escape close": 2,
+   ".Opt() enable/disable": 2,
+   "Live char/line count": 2
+  },
+  "score_maxes": {
+   "Parses": 40,
+   "#Requires + SingleInstance": 7,
+   "Map() storage (no obj literal)": 5,
+   "No multi-line => block": 5,
+   "No empty catch": 4,
+   "No JS contamination": 4,
+   ".Bind(this) callbacks": 5,
+   "Uses Map()": 5,
+   "Inheritance depth": 6,
+   "Str transforms": 3,
+   "Undo + Redo": 4,
+   "Dark-mode code": 3,
+   "Resize handling": 3,
+   "Escape close": 2,
+   ".Opt() enable/disable": 2,
+   "Live char/line count": 2
+  },
+  "visual": null,
+  "lines": 196,
+  "bytes": 5026,
+  "runtime_err": "Invalid option.",
+  "screenshot": null,
+  "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\neditor := ClipboardEditor()\n\nclass ControlWrapper {\n    ctrl := 0\n    label := \"\"\n    \n    __New(parent, label) {\n        this.label := label\n        this.Create(parent)\n    }\n    \n    Create(parent) {\n        throw Error(\"Create must be overridden\")\n    }\n    \n    SetEnabled(state) {\n        this.ctrl.Opt(state ? \"+Enabled\" : \"-Enabled\")\n    }\n    \n    GetValue() {\n        return this.ctrl.Value\n    }\n    \n    SetValue(val) {\n        this.ctrl.Value := val\n    }\n}\n\nclass EditWrap extends ControlWrapper {\n    Create(parent) {\n        this.ctrl := parent.Add(\"Edit\", \"r12 w500 -Wrap VScroll\", \"\")\n    }\n    \n    SetText(val) {\n        this.ctrl.Value := val\n    }\n    \n    GetText() {\n        return this.ctrl.Value\n    }\n}\n\nclass ButtonWrap extends ControlWrapper {\n    handler := 0\n    \n    Create(parent) {\n        this.ctrl := parent.Add(\"Button\", \"\", this.label)\n    }\n    \n    OnClick(fn) {\n        this.handler := fn\n        this.ctrl.OnEvent(\"Click\", fn)\n    }\n}\n\nclass ClipboardEditor {\n    gui := 0\n    edit := 0\n    btnUpper := 0\n    btnLower := 0\n    btnProper := 0\n    btnUndo := 0\n    btnRedo := 0\n    status := 0\n    history := 0\n    future := 0\n    current := \"\"\n    \n    __New() {\n        this.history := Array()\n        this.future := Array()\n        this.gui := Gui()\n        this.gui.Title := \"Clipboard Text Formatter - Local Tool\"\n        this.edit := EditWrap(this.gui, \"Working Text\")\n        this.edit.ctrl.OnEvent(\"Change\", this.OnEditChange.Bind(this))\n        this.btnUpper := ButtonWrap(this.gui, \"UPPER CASE\")\n        this.btnUpper.OnClick(this.DoUpper.Bind(this))\n        this.btnLower := ButtonWrap(this.gui, \"lower case\")\n        this.btnLower.OnClick(this.DoLower.Bind(this))\n        this.btnProper := ButtonWrap(this.gui, \"Proper Case\")\n        this.btnProper.OnClick(this.DoProper.Bind(this))\n        this.btnUndo := ButtonWrap(this.gui, \"Undo\")\n        this.btnUndo.OnClick(this.DoUndo.Bind(this))\n        this.btnRedo := ButtonWrap(this.gui, \"Redo\")\n        this.btnRedo.OnClick(this.DoRedo.Bind(this))\n        this.status := this.gui.Add(\"Text\", \"w500\", \"Chars: 0 | Lines: 0\")\n        this.gui.OnEvent(\"Escape\", this.OnEscape.Bind(this))\n        this.gui.Add(\"Button\", \"\", \"Close\").OnEvent(\"Click\", this.OnEscape.Bind(this))\n        this.LoadClipboard()\n        this.RefreshStatus()\n        this.UpdateButtons()\n        this.gui.Show()\n    }\n    \n    LoadClipboard() {\n        try {\n            txt := A_Clipboard\n            if (txt = \"\") {\n                MsgBox(\"Clipboard is empty or non-text. Starting with empty working text.\", \"Notice\")\n                txt := \"\"\n            }\n            if (!IsString(txt)) {\n                MsgBox(\"Clipboard does not contain text. Starting with empty working text.\", \"Notice\")\n                txt := \"\"\n            }\n            this.current := txt\n            this.edit.SetValue(txt)\n        } catch {\n            MsgBox(\"Could not read clipboard. Starting empty.\", \"Error\")\n            this.current := \"\"\n            this.edit.SetValue(\"\")\n        }\n    }\n    \n    OnEditChange(*) {\n        this.current := this.edit.GetValue()\n        this.history.Push(this.current)\n        this.future.Length := 0\n        this.RefreshStatus()\n        this.UpdateButtons()\n    }\n    \n    DoUpper(*) {\n        this.ApplyTransform(StrUpper(this.current))\n    }\n    \n    DoLower(*) {\n        this.ApplyTransform(StrLower(this.current))\n    }\n    \n    DoProper(*) {\n        this.ApplyTransform(StrTitle(this.current))\n    }\n    \n    ApplyTransform(result) {\n        if (result = this.current) {\n            return\n        }\n        this.history.Push(this.current)\n        this.current := result\n        this.future.Length := 0\n        this.edit.SetValue(result)\n        A_Clipboard := result\n        this.RefreshStatus()\n        this.UpdateButtons()\n    }\n    \n    DoUndo(*) {\n        if (this.history.Length = 0) {\n            return\n        }\n        this.future.Push(this.current)\n        this.current := this.history.Pop()\n        this.edit.SetValue(this.current)\n        A_Clipboard := this.current\n        this.RefreshStatus()\n        this.UpdateButtons()\n    }\n    \n    DoRedo(*) {\n        if (this.future.Length = 0) {\n            return\n        }\n        this.history.Push(this.current)\n        this.current := this.future.Pop()\n        this.edit.SetValue(this.current)\n        A_Clipboard := this.current\n        this.RefreshStatus()\n        this.UpdateButtons()\n    }\n    \n    RefreshStatus() {\n        txt := this.current\n        chars := StrLen(txt)\n        lines := (txt = \"\") ? 0 : (StrSplit(txt, \"`n\")).Length\n        this.status.Value := \"Chars: \" chars \" | Lines: \" lines\n    }\n    \n    UpdateButtons() {\n        this.btnUndo.SetEnabled(this.history.Length > 0)\n        this.btnRedo.SetEnabled(this.future.Length > 0)\n    }\n    \n    OnEscape(*) {\n        this.gui.Destroy()\n    }\n    \n    __Delete() {\n        if (this.gui) {\n            try this.gui.Destroy()\n        }\n    }\n}\n",
+  "analysis": "**Hy3** parses clean but **crashes on launch** \u2014 an invalid GUI control option. It never draws a window. Reported error: `Invalid option.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **87/100**.",
+  "rank": 41,
+  "prev": "GPT_OSS_120B",
+  "next": "Hy3_Free"
+ },
+ {
+  "id": "Hy3_Free",
+  "display": "Hy3 (free)",
+  "provider": "Tencent",
+  "source": "openrouter",
+  "parse": true,
+  "runs": false,
+  "score": 87,
+  "score_items": {
+   "Parses": 40,
+   "#Requires + SingleInstance": 7,
+   "Map() storage (no obj literal)": 5,
+   "No multi-line => block": 5,
+   "No empty catch": 4,
+   "No JS contamination": 4,
+   ".Bind(this) callbacks": 5,
+   "Uses Map()": 0,
+   "Inheritance depth": 4,
+   "Str transforms": 3,
+   "Undo + Redo": 4,
+   "Dark-mode code": 0,
+   "Resize handling": 0,
+   "Escape close": 2,
+   ".Opt() enable/disable": 2,
+   "Live char/line count": 2
+  },
+  "score_maxes": {
+   "Parses": 40,
+   "#Requires + SingleInstance": 7,
+   "Map() storage (no obj literal)": 5,
+   "No multi-line => block": 5,
+   "No empty catch": 4,
+   "No JS contamination": 4,
+   ".Bind(this) callbacks": 5,
+   "Uses Map()": 5,
+   "Inheritance depth": 6,
+   "Str transforms": 3,
+   "Undo + Redo": 4,
+   "Dark-mode code": 3,
+   "Resize handling": 3,
+   "Escape close": 2,
+   ".Opt() enable/disable": 2,
+   "Live char/line count": 2
+  },
+  "visual": null,
+  "lines": 201,
+  "bytes": 5183,
+  "runtime_err": "Invalid control type.",
+  "screenshot": null,
+  "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\nformatter := ClipboardFormatter()\n\nclass ControlWrapper {\n    ctrl := \"\"\n    label := \"\"\n    \n    __New(parent, opts, label) {\n        this.label := label\n        this.ctrl := parent.Add(opts)\n    }\n    \n    SetState(state) {\n        this.ctrl.Opt(state)\n    }\n    \n    GetValue() {\n        return this.ctrl.Value\n    }\n    \n    SetValue(val) {\n        this.ctrl.Value := val\n    }\n}\n\nclass EditWrap extends ControlWrapper {\n    __New(parent, opts, label) {\n        super.__New(parent, \"Edit \" opts, label)\n        this.ctrl.SetFont(\"s10\")\n    }\n    \n    SetState(state) {\n        this.ctrl.Opt(state)\n    }\n    \n    AppendText(txt) {\n        this.ctrl.Value := this.ctrl.Value txt\n    }\n}\n\nclass ButtonWrap extends ControlWrapper {\n    __New(parent, opts, label, onClick) {\n        super.__New(parent, \"Button \" opts, label)\n        this.ctrl.Text := label\n        this.ctrl.OnEvent(\"Click\", onClick)\n    }\n    \n    SetState(state) {\n        if (state == \"disabled\") {\n            this.ctrl.Opt(\"-BackgroundE4E4E4\")\n            this.ctrl.Opt(\"Disabled\")\n        } else {\n            this.ctrl.Opt(\"+BackgroundE4E4E4\")\n            this.ctrl.Opt(\"-Disabled\")\n        }\n    }\n}\n\nclass ClipboardFormatter {\n    gui := \"\"\n    editWrap := \"\"\n    statusLine := \"\"\n    undoBtn := \"\"\n    redoBtn := \"\"\n    history := []\n    future := []\n    current := \"\"\n    \n    __New() {\n        this.gui := Gui()\n        this.gui.Title := \"Clipboard Text Formatter - Local Tool\"\n        this.gui.OnEvent(\"Escape\", this.CloseGui.Bind(this))\n        this.gui.OnEvent(\"Close\", this.CloseGui.Bind(this))\n        \n        this.editWrap := EditWrap(this.gui, \"x10 y10 w400 h200 vEdit\", \"Edit\")\n        startText := this.LoadClipboard()\n        this.editWrap.SetValue(startText)\n        this.current := startText\n        this.history.Push(startText)\n        \n        this.undoBtn := ButtonWrap(this.gui, \"x10 y220 w90\", \"Undo\", this.DoUndo.Bind(this))\n        this.redoBtn := ButtonWrap(this.gui, \"x110 y220 w90\", \"Redo\", this.DoRedo.Bind(this))\n        ButtonWrap(this.gui, \"x210 y220 w90\", \"UPPER CASE\", this.ApplyUpper.Bind(this))\n        ButtonWrap(this.gui, \"x310 y220 w90\", \"lower case\", this.ApplyLower.Bind(this))\n        ButtonWrap(this.gui, \"x10 y255 w390\", \"Proper Case\", this.ApplyProper.Bind(this))\n        \n        this.statusLine := this.gui.Add(\"Text\", \"x10 y295 w400\", \"\")\n        \n        this.gui.Add(\"Text\", \"x10 y315 w400\", \"Ctrl+Z Undo  |  Ctrl+Y Redo  |  Esc Close\")\n        \n        this.UpdateStatus()\n        this.UpdateButtons()\n        this.gui.Show()\n        \n        Hotkey(\"^z\", this.DoUndo.Bind(this))\n        Hotkey(\"^y\", this.DoRedo.Bind(this))\n    }\n    \n    LoadClipboard() {\n        txt := A_Clipboard\n        if (txt == \"\" || !IsObject(txt) && Type(txt) != \"String\") {\n            txt := \"\"\n        }\n        if (txt == \"\") {\n            MsgBox(\"Clipboard is empty or non-text. Starting with empty working text.\", \"Clipboard Formatter\")\n        }\n        return txt\n    }\n    \n    ApplyUpper(*) {\n        this.TransformText(StrUpper(this.current))\n    }\n    \n    ApplyLower(*) {\n        this.TransformText(StrLower(this.current))\n    }\n    \n    ApplyProper(*) {\n        this.TransformText(StrTitle(this.current))\n    }\n    \n    TransformText(newText) {\n        if (newText == this.current) {\n            return\n        }\n        this.history.Push(this.current)\n        this.future := []\n        this.current := newText\n        this.editWrap.SetValue(newText)\n        A_Clipboard := newText\n        this.UpdateStatus()\n        this.UpdateButtons()\n    }\n    \n    DoUndo(*) {\n        if (this.history.Length <= 1) {\n            return\n        }\n        this.future.Push(this.current)\n        this.history.Pop()\n        this.current := this.history[this.history.Length]\n        this.editWrap.SetValue(this.current)\n        A_Clipboard := this.current\n        this.UpdateStatus()\n        this.UpdateButtons()\n    }\n    \n    DoRedo(*) {\n        if (this.future.Length == 0) {\n            return\n        }\n        prev := this.future.Pop()\n        this.history.Push(prev)\n        this.current := prev\n        this.editWrap.SetValue(this.current)\n        A_Clipboard := this.current\n        this.UpdateStatus()\n        this.UpdateButtons()\n    }\n    \n    UpdateButtons() {\n        if (this.history.Length <= 1) {\n            this.undoBtn.SetState(\"disabled\")\n        } else {\n            this.undoBtn.SetState(\"enabled\")\n        }\n        if (this.future.Length == 0) {\n            this.redoBtn.SetState(\"disabled\")\n        } else {\n            this.redoBtn.SetState(\"enabled\")\n        }\n    }\n    \n    UpdateStatus() {\n        txt := this.current\n        chars := StrLen(txt)\n        lines := 0\n        if (txt != \"\") {\n            loop parse txt, \"`n\", \"`r\"\n            {\n                lines++\n            }\n        }\n        this.statusLine.Text := \"Characters: \" chars \"   Lines: \" lines\n    }\n    \n    CloseGui(*) {\n        this.gui.Hide()\n        ExitApp()\n    }\n    \n    __Delete() {\n        Hotkey(\"^z\", \"Off\")\n        Hotkey(\"^y\", \"Off\")\n        if (this.gui) {\n            this.gui.Destroy()\n        }\n    }\n}\n",
+  "analysis": "**Hy3 (free)** parses clean but **crashes on launch** \u2014 an uncaught runtime error. It never draws a window. Reported error: `Invalid control type.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **87/100**.",
+  "rank": 42,
+  "prev": "Hy3",
   "next": "Gemini_3-5_Flash"
  },
  {
@@ -2762,8 +2872,8 @@
    "recovered": true
   },
   "analysis": "**Gemini 3.5 Flash** parses clean but **crashes on launch** \u2014 the wrong number of arguments to a function. It never draws a window. Reported error: `Too many parameters passed to function.`\n\nCode signals: 2 `extends` classes, 2/3 Str transforms, no undo. Static score **86/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Gemini 3.5 Flash **recovered** \u2014 the retry builds a working window (visual 7/20).",
-  "rank": 41,
-  "prev": "GPT_OSS_120B",
+  "rank": 43,
+  "prev": "Hy3_Free",
   "next": "Qwen_3-6"
  },
  {
@@ -2830,7 +2940,7 @@
    "recovered": false
   },
   "analysis": "**Qwen 3.6** parses clean but **crashes on launch** \u2014 an invalid GUI control option. It never draws a window. Reported error: `Invalid option.`\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **79/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`This line does not contain a recognized action.`).",
-  "rank": 42,
+  "rank": 44,
   "prev": "Gemini_3-5_Flash",
   "next": "GPT-5_Codex"
  },
@@ -2885,7 +2995,7 @@
   "screenshot": null,
   "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\napp := ClipboardTextEditor()\n\nclass ClipboardTextEditor {\n    __New() {\n        local clipText\n        clipText := A_Clipboard\n        if Type(clipText) != \"String\" {\n            clipText := \"\"\n        }\n        this.gui := Gui()\n        this.gui.SetFont(\"s10\", \"Segoe UI\")\n        this.gui.MarginX := 20\n        this.gui.MarginY := 20\n        this.gui.Title := \"Clipboard Editor - Demo/Educational purposes only\"\n        this.editControl := this.gui.AddEdit(\"w380 h220\")\n        this.editControl.Value := clipText\n        this.upperButton := this.gui.AddButton(\"xm y+10 w120 h32\", \"Uppercase\")\n        this.lowerButton := this.gui.AddButton(\"x+10 yp w120 h32\", \"Lowercase\")\n        this.titleButton := this.gui.AddButton(\"x+10 yp w120 h32\", \"Title Case\")\n        this.saveButton := this.gui.AddButton(\"xm y+10 w380 h36\", \"Save to Clipboard\")\n        this.upperButton.OnEvent(\"Click\", this.OnUppercase.Bind(this))\n        this.lowerButton.OnEvent(\"Click\", this.OnLowercase.Bind(this))\n        this.titleButton.OnEvent(\"Click\", this.OnTitlecase.Bind(this))\n        this.saveButton.OnEvent(\"Click\", this.OnSave.Bind(this))\n        this.gui.OnEvent(\"Close\", this.OnClose.Bind(this))\n        this.gui.OnEvent(\"Escape\", this.OnClose.Bind(this))\n        this.gui.Show()\n        this.RefreshCaret()\n    }\n\n    OnUppercase(ctrl, info) {\n        local text\n        text := this.editControl.Value\n        this.editControl.Value := StrUpper(text)\n        this.RefreshCaret()\n    }\n\n    OnLowercase(ctrl, info) {\n        local text\n        text := this.editControl.Value\n        this.editControl.Value := StrLower(text)\n        this.RefreshCaret()\n    }\n\n    OnTitlecase(ctrl, info) {\n        local text\n        text := this.editControl.Value\n        this.editControl.Value := StrTitle(text)\n        this.RefreshCaret()\n    }\n\n    OnSave(ctrl, info) {\n        local text\n        text := this.editControl.Value\n        A_Clipboard := text\n        MsgBox(\"Clipboard updated.\")\n    }\n\n    OnClose(ctrl := \"\", info := \"\") {\n        ExitApp\n    }\n\n    RefreshCaret() {\n        local caretPos\n        caretPos := StrLen(this.editControl.Value)\n        this.editControl.Focus()\n        this.editControl.SetSel(caretPos, caretPos)\n    }\n}",
   "analysis": "**GPT-5 Codex** parses clean but **crashes on launch** \u2014 a hallucinated method that AHK v2 doesn't define. It never draws a window. Reported error: `This value of type \"Gui.Edit\" has no method named \"SetSel\".`\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **77/100**.",
-  "rank": 43,
+  "rank": 45,
   "prev": "Qwen_3-6",
   "next": "Gemini_2-5_Pro"
  },
@@ -2953,7 +3063,7 @@
    "recovered": false
   },
   "analysis": "**Gemini 2.5 Pro** parses clean but **crashes on launch** \u2014 a hallucinated method that AHK v2 doesn't define. It never draws a window. Reported error: `This value of type \"Gui.Edit\" has no method named \"SetSel\".`\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **77/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`This local variable declaration conflicts with an existing p`).",
-  "rank": 44,
+  "rank": 46,
   "prev": "GPT-5_Codex",
   "next": "Gemini_3_Pro"
  },
@@ -3008,7 +3118,7 @@
   "screenshot": null,
   "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\neditorApp := ClipboardEditor()\n\nclass ClipboardEditor {\n    \n    ui := unset\n    textBox := unset\n    statusText := unset\n    \n    __New() {\n        this.ui := Gui(\"+Resize +AlwaysOnTop\", \"Clipboard Editor\")\n        this.ui.SetFont(\"s10\", \"Segoe UI\")\n        \n        this.textBox := this.ui.Add(\"Edit\", \"w600 h400 vMainEdit Scroll\", A_Clipboard)\n        \n        this.ui.Add(\"Button\", \"w190 Section\", \"UPPER CASE\").OnEvent(\"Click\", this.Transform.Bind(this, StrUpper))\n        this.ui.Add(\"Button\", \"w190 ys\", \"lower case\").OnEvent(\"Click\", this.Transform.Bind(this, StrLower))\n        this.ui.Add(\"Button\", \"w190 ys\", \"Title Case\").OnEvent(\"Click\", this.Transform.Bind(this, StrTitle))\n        \n        saveBtn := this.ui.Add(\"Button\", \"w600 xs\", \"Save to Clipboard\")\n        saveBtn.SetFont(\"Bold\")\n        saveBtn.OnEvent(\"Click\", this.Save.Bind(this))\n        \n        this.ui.OnEvent(\"Close\", (*) => ExitApp())\n        this.ui.OnEvent(\"Escape\", (*) => ExitApp())\n        \n        this.ui.Show()\n    }\n    \n    Transform(transformerFunc, *) {\n        try {\n            currentText := this.textBox.Value\n            this.textBox.Value := transformerFunc(currentText)\n            this.textBox.Focus()\n        } catch as err {\n            this.ShowError(err)\n        }\n    }\n    \n    Save(*) {\n        try {\n            A_Clipboard := this.textBox.Value\n            MsgBox(\"Content saved to clipboard.\", \"Success\", \"T1 64\")\n        } catch as err {\n            this.ShowError(err)\n        }\n    }\n\n    ShowError(err) {\n        MsgBox(\"Error: \" . err.Message, \"Operation Failed\", \"Iconx\")\n    }\n}",
   "analysis": "**Gemini 3 Pro** parses clean but **crashes on launch** \u2014 an invalid GUI control option. It never draws a window. Reported error: `Invalid option.`\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **75/100**.",
-  "rank": 45,
+  "rank": 47,
   "prev": "Gemini_2-5_Pro",
   "next": "Grok_4_Fast"
  },
@@ -3063,7 +3173,7 @@
   "screenshot": null,
   "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\ntextEditor := ClipboardEditor()\n\nclass ClipboardEditor {\n    gui := \"\"\n    edit := \"\"\n    upperBtn := \"\"\n    lowerBtn := \"\"\n    titleBtn := \"\"\n    saveBtn := \"\"\n    closeBtn := \"\"\n    \n    __New() {\n        this.gui := Gui(\"+Resize\", \"Clipboard Text Editor\")\n        this.edit := this.gui.Add(\"Edit\", \"x10 y10 w580 h260 vEdit Multi ReadOnly? No\")\n        this.upperBtn := this.gui.Add(\"Button\", \"x10 y280 w100 h30\", \"Uppercase\")\n        this.lowerBtn := this.gui.Add(\"Button\", \"x120 y280 w100 h30\", \"Lowercase\")\n        this.titleBtn := this.gui.Add(\"Button\", \"x230 y280 w100 h30\", \"Title Case\")\n        this.saveBtn := this.gui.Add(\"Button\", \"x340 y280 w100 h30\", \"Save to Clipboard\")\n        this.closeBtn := this.gui.Add(\"Button\", \"x450 y280 w100 h30\", \"Close\")\n        \n        this.upperBtn.OnEvent(\"Click\", this.ChangeToUpper.Bind(this))\n        this.lowerBtn.OnEvent(\"Click\", this.ChangeToLower.Bind(this))\n        this.titleBtn.OnEvent(\"Click\", this.ChangeToTitle.Bind(this))\n        this.saveBtn.OnEvent(\"Click\", this.SaveToClipboard.Bind(this))\n        this.closeBtn.OnEvent(\"Click\", this.CloseGui.Bind(this))\n        this.gui.OnEvent(\"Close\", this.CloseGui.Bind(this))\n        this.gui.OnEvent(\"Escape\", this.CloseGui.Bind(this))\n        \n        this.LoadClipboard()\n        this.gui.Show(\"w600 h320\")\n    }\n    \n    LoadClipboard() {\n        try {\n            clipboardText := A_Clipboard\n        } catch {\n            clipboardText := \"\"\n        }\n        this.edit.Text := clipboardText\n    }\n    \n    ChangeToUpper() {\n        this.edit.Text := StrUpper(this.edit.Text)\n    }\n    \n    ChangeToLower() {\n        this.edit.Text := StrLower(this.edit.Text)\n    }\n    \n    ChangeToTitle() {\n        this.edit.Text := StrTitle(this.edit.Text)\n    }\n    \n    SaveToClipboard() {\n        A_Clipboard := this.edit.Text\n        MsgBox(\"Text saved to clipboard!\", \"Success\", \"OK Iconi\")\n    }\n    \n    CloseGui(*) {\n        this.gui.Destroy()\n    }\n    \n    __Delete() {\n        if (this.gui) {\n            this.gui.Destroy()\n        }\n    }\n}",
   "analysis": "**Grok 4 Fast** parses clean but **crashes on launch** \u2014 an invalid GUI control option. It never draws a window. Reported error: `Invalid option.`\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **75/100**.",
-  "rank": 46,
+  "rank": 48,
   "prev": "Gemini_3_Pro",
   "next": "Grok_Code_Fast_1"
  },
@@ -3118,7 +3228,7 @@
   "screenshot": null,
   "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\ntextEditor := ClipboardEditor()\n\nclass ClipboardEditor {\n    gui := \"\"\n    edit := \"\"\n    upperBtn := \"\"\n    lowerBtn := \"\"\n    titleBtn := \"\"\n    saveBtn := \"\"\n    closeBtn := \"\"\n    \n    __New() {\n        this.gui := Gui(\"+Resize\", \"Clipboard Text Editor\")\n        this.edit := this.gui.Add(\"Edit\", \"x10 y10 w580 h260 vEdit Multi ReadOnly? No\")\n        this.upperBtn := this.gui.Add(\"Button\", \"x10 y280 w100 h30\", \"Uppercase\")\n        this.lowerBtn := this.gui.Add(\"Button\", \"x120 y280 w100 h30\", \"Lowercase\")\n        this.titleBtn := this.gui.Add(\"Button\", \"x230 y280 w100 h30\", \"Title Case\")\n        this.saveBtn := this.gui.Add(\"Button\", \"x340 y280 w100 h30\", \"Save to Clipboard\")\n        this.closeBtn := this.gui.Add(\"Button\", \"x450 y280 w100 h30\", \"Close\")\n        \n        this.upperBtn.OnEvent(\"Click\", this.ChangeToUpper.Bind(this))\n        this.lowerBtn.OnEvent(\"Click\", this.ChangeToLower.Bind(this))\n        this.titleBtn.OnEvent(\"Click\", this.ChangeToTitle.Bind(this))\n        this.saveBtn.OnEvent(\"Click\", this.SaveToClipboard.Bind(this))\n        this.closeBtn.OnEvent(\"Click\", this.CloseGui.Bind(this))\n        this.gui.OnEvent(\"Close\", this.CloseGui.Bind(this))\n        this.gui.OnEvent(\"Escape\", this.CloseGui.Bind(this))\n        \n        this.LoadClipboard()\n        this.gui.Show(\"w600 h320\")\n    }\n    \n    LoadClipboard() {\n        try {\n            clipboardText := A_Clipboard\n        } catch {\n            clipboardText := \"\"\n        }\n        this.edit.Text := clipboardText\n    }\n    \n    ChangeToUpper() {\n        this.edit.Text := StrUpper(this.edit.Text)\n    }\n    \n    ChangeToLower() {\n        this.edit.Text := StrLower(this.edit.Text)\n    }\n    \n    ChangeToTitle() {\n        this.edit.Text := StrTitle(this.edit.Text)\n    }\n    \n    SaveToClipboard() {\n        A_Clipboard := this.edit.Text\n        MsgBox(\"Text saved to clipboard!\", \"Success\", \"OK Iconi\")\n    }\n    \n    CloseGui(*) {\n        this.gui.Destroy()\n    }\n    \n    __Delete() {\n        if (this.gui) {\n            this.gui.Destroy()\n        }\n    }\n}",
   "analysis": "**Grok Code Fast 1** parses clean but **crashes on launch** \u2014 an invalid GUI control option. It never draws a window. Reported error: `Invalid option.`\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **75/100**.",
-  "rank": 47,
+  "rank": 49,
   "prev": "Grok_4_Fast",
   "next": "GLM5-Turbo"
  },
@@ -3186,7 +3296,7 @@
    "recovered": true
   },
   "analysis": "**GLM-5 Turbo** parses clean but **crashes on launch** \u2014 the wrong number of arguments to a function. It never draws a window. Reported error: `Too many parameters passed to function.`\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **74/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, GLM-5 Turbo **recovered** \u2014 the retry builds a working window (visual 4/20).",
-  "rank": 48,
+  "rank": 50,
   "prev": "Grok_Code_Fast_1",
   "next": "Qwen3_Max"
  },
@@ -3254,7 +3364,7 @@
    "recovered": true
   },
   "analysis": "**Qwen3 Max** parses clean but **crashes on launch** \u2014 a hallucinated API \u2014 it calls a function that doesn't exist in AHK v2. It never draws a window. Reported error: `Warning: This local variable appears to never be assigned a value.`\n\nCode signals: 0 `extends` classes, 0/3 Str transforms, no undo. Static score **72/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Qwen3 Max **recovered** \u2014 the retry builds a working window (visual 4/20).",
-  "rank": 49,
+  "rank": 51,
   "prev": "GLM5-Turbo",
   "next": "Sonar_Reasoning_Pro"
  },
@@ -3322,7 +3432,7 @@
    "recovered": false
   },
   "analysis": "**Sonar Reasoning Pro** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **58/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`This line does not contain a recognized action.`).",
-  "rank": 50,
+  "rank": 52,
   "prev": "Qwen3_Max",
   "next": "Codestral_2508"
  },
@@ -3390,7 +3500,7 @@
    "recovered": false
   },
   "analysis": "**Codestral 2508** fails at the parse gate: `Invalid assignment.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **55/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`Missing \"'\"`).",
-  "rank": 51,
+  "rank": 53,
   "prev": "Sonar_Reasoning_Pro",
   "next": "Command_A"
  },
@@ -3458,7 +3568,7 @@
    "recovered": false
   },
   "analysis": "**Command A** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **55/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`Warning: This local variable appears to never be assigned a `).",
-  "rank": 52,
+  "rank": 54,
   "prev": "Codestral_2508",
   "next": "Jamba_Large_1-7"
  },
@@ -3526,7 +3636,7 @@
    "recovered": false
   },
   "analysis": "**Jamba Large 1.7** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **55/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`Unexpected \"{\"`).",
-  "rank": 53,
+  "rank": 55,
   "prev": "Command_A",
   "next": "Mistral_Medium_3-1"
  },
@@ -3594,7 +3704,7 @@
    "recovered": true
   },
   "analysis": "**Mistral Medium 3.1** fails at the parse gate: `Missing \")\"`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **55/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Mistral Medium 3.1 **recovered** \u2014 the retry builds a working window (visual 4/20).",
-  "rank": 54,
+  "rank": 56,
   "prev": "Jamba_Large_1-7",
   "next": "Qwen3_Coder_Next"
  },
@@ -3649,7 +3759,7 @@
   "screenshot": null,
   "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\neditor := Formatter()\n\nclass ControlWrapper {\n   hCtrl := \"\"\n   __New(hCtrl) {\n      this.hCtrl := hCtrl\n   }\n   Opt(options*) {\n      return GuiCtrlOpt(this.hCtrl, options*)\n   }\n}\n\nclass EditWrap extends ControlWrapper {\n   __New(hCtrl) {\n      super.__New(hCtrl)\n   }\n   Value {\n      get => this.GetText()\n      set => this.SetText(value)\n   }\n   GetText() {\n      GuiCtrlGetText, text, % this.hCtrl\n      return text\n   }\n   SetText(text) {\n      GuiCtrlSetText, % this.hCtrl, % text\n   }\n}\n\nclass ButtonWrap extends ControlWrapper {\n   __New(hCtrl) {\n      super.__New(hCtrl)\n   }\n   SetEnabled(enabled) {\n      this.Opt(enabled ? \"-Disabled\" : \"+Disabled\")\n   }\n}\n\nclass Formatter {\n   gui := \"\"\n   editCtrl := \"\"\n   statusCtrl := \"\"\n   undoStack := Map()\n   redoStack := Map()\n   undoIndex := 0\n   transformCount := 0\n\n   __New() {\n      this.gui := Gui()\n      this.gui.Opt(\"+Resize\")\n      this.gui.OnEvent(\"Close\", this.OnClose.Bind(this))\n      this.gui.OnEvent(\"Size\", this.OnSize.Bind(this))\n      this.gui.OnEvent(\"Escape\", this.OnEscape.Bind(this))\n\n      this.editCtrl := EditWrap(this.gui.Add(\"Edit\", \"w600 h300 vEditWrap Multi\", \"\").Hwnd)\n      this.editCtrl.Value := Clipboard\n\n      this.statusCtrl := this.gui.Add(\"Text\", \"xp y+10 w600 cGray\", \"Chars: 0 | Lines: 0\")\n\n      btnUpper := ButtonWrap(this.gui.Add(\"Button\", \"xp y+10 w100 h26 vBtnUpper\", \"UPPER CASE\").Hwnd)\n      btnLower := ButtonWrap(this.gui.Add(\"Button\", \"x+10 w100 h26 vBtnLower\", \"lower case\").Hwnd)\n      btnProper := ButtonWrap(this.gui.Add(\"Button\", \"x+10 w100 h26 vBtnProper\", \"Proper Case\").Hwnd)\n      btnUndo := ButtonWrap(this.gui.Add(\"Button\", \"xp y+10 w80 h26 vBtnUndo Disabled\", \"Undo\").Hwnd)\n      btnRedo := ButtonWrap(this.gui.Add(\"Button\", \"x+10 w80 h26 vBtnRedo Disabled\", \"Redo\").Hwnd)\n\n      btnUpper.OnEvent(\"Click\", this.OnUpper.Bind(this))\n      btnLower.OnEvent(\"Click\", this.OnLower.Bind(this))\n      btnProper.OnEvent(\"Click\", this.OnProper.Bind(this))\n      btnUndo.OnEvent(\"Click\", this.OnUndo.Bind(this))\n      btnRedo.OnEvent(\"Click\", this.OnRedo.Bind(this))\n\n      this.editCtrl.OnEvent(\"Change\", this.OnEditChange.Bind(this))\n\n      this.undoStack[0] := Clipboard\n      this.undoIndex := 0\n      this.transformCount := 0\n\n      this.UpdateUndoRedoButtons()\n      this.UpdateStatus()\n      this.gui.Show()\n   }\n\n   OnUpper(*) {\n      this.ApplyTransform(\"Upper\")\n   }\n\n   OnLower(*) {\n      this.ApplyTransform(\"Lower\")\n   }\n\n   OnProper(*) {\n      this.ApplyTransform(\"Proper\")\n   }\n\n   ApplyTransform(mode) {\n      current := this.editCtrl.Value\n      if (current = \"\") {\n         this.ShowMessage(\"No text to transform.\")\n         return\n      }\n      try {\n         if (mode = \"Upper\")\n            transformed := StrUpper(current)\n         else if (mode = \"Lower\")\n            transformed := StrLower(current)\n         else if (mode = \"Proper\")\n            transformed := StrTitle(current)\n         else\n            return\n      } catch {\n         this.ShowMessage(\"Failed to apply transform.\")\n         return\n      }\n\n      this.PushToUndo(current)\n      this.editCtrl.Value := transformed\n      Clipboard := transformed\n      this.transformCount += 1\n      this.UpdateUndoRedoButtons()\n      this.UpdateStatus()\n   }\n\n   OnUndo(*) {\n      if (this.undoIndex <= 0)\n         return\n      this.undoIndex -= 1\n      current := this.editCtrl.Value\n      previous := this.undoStack[this.undoIndex]\n      this.editCtrl.Value := previous\n      Clipboard := previous\n      this.redoStack[this.transformCount] := current\n      this.UpdateUndoRedoButtons()\n      this.UpdateStatus()\n   }\n\n   OnRedo(*) {\n      if (!this.redoStack.HasKey(this.transformCount))\n         return\n      next := this.redoStack[this.transformCount]\n      this.editCtrl.Value := next\n      Clipboard := next\n      this.undoIndex += 1\n      this.transformCount += 1\n      this.redoStack.Delete(this.transformCount - 1)\n      this.UpdateUndoRedoButtons()\n      this.UpdateStatus()\n   }\n\n   OnEditChange(*) {\n      this.UpdateStatus()\n   }\n\n   OnSize(w, h) {\n      if (!this.gui)\n         return\n      this.editCtrl.Opt(\"w\" (w - 20) \" h\" (h - 160))\n      this.statusCtrl.Opt(\"w\" (w - 20))\n      btnWidth := 100\n      btnCount := 3\n      totalBtnWidth := btnWidth * btnCount + 20 * (btnCount - 1)\n      xStart := (w - totalBtnWidth) // 2\n      if (xStart < 0)\n         xStart := 10\n      this.gui[\"BtnUpper\"].Opt(\"x\" xStart)\n      this.gui[\"BtnLower\"].Opt(\"x\" (xStart + btnWidth + 10))\n      this.gui[\"BtnProper\"].Opt(\"x\" (xStart + 2 * btnWidth + 20))\n      undoRedoX := xStart\n      this.gui[\"BtnUndo\"].Opt(\"x\" undoRedoX \" y+10\")\n      this.gui[\"BtnRedo\"].Opt(\"x\" (undoRedoX + 90) \" y+10\")\n   }\n\n   OnEscape(*) {\n      this.gui.Destroy()\n   }\n\n   OnClose(*) {\n      this.gui.Destroy()\n   }\n\n   PushToUndo(text) {\n      this.undoIndex += 1\n      this.undoStack[this.undoIndex] := text\n      this.redoStack := Map()\n      for key in this.redoStack\n         this.redoStack.Delete(key)\n   }\n\n   UpdateUndoRedoButtons() {\n      this.gui[\"BtnUndo\"].Opt(this.undoIndex > 0 ? \"-Disabled\" : \"+Disabled\")\n      this.gui[\"BtnRedo\"].Opt(this.redoStack.HasKey(this.transformCount) ? \"-Disabled\" : \"+Disabled\")\n   }\n\n   UpdateStatus() {\n      text := this.editCtrl.Value\n      charCount := StrLen(text)\n      lineCount := 0\n      if (text != \"\") {\n         lineCount := StrCount(text, \"`n\") + 1\n      }\n      this.statusCtrl.Value := \"Chars: \" charCount \" | Lines: \" lineCount\n   }\n\n   ShowMessage(msg) {\n      MsgBox(msg, 0, \"Clipboard Formatter\")\n   }\n\n   __Delete() {\n      this.gui := \"\"\n      this.editCtrl := \"\"\n      this.statusCtrl := \"\"\n      this.undoStack := Map()\n      this.redoStack := Map()\n   }\n}\n",
   "analysis": "**Qwen3 Coder Next** fails at the parse gate: `Function calls require a space or \"(\".  Use comma only between parameters.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **55/100**.",
-  "rank": 55,
+  "rank": 57,
   "prev": "Mistral_Medium_3-1",
   "next": "ERNIE_4-5_300B"
  },
@@ -3704,7 +3814,7 @@
   "screenshot": null,
   "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\nmain := Main()\n\nclass ControlWrapper {\n    _ctrl := \"\"\n\n    __New(gui, type, options) {\n        this._ctrl := gui.Add(type, options)\n    }\n\n    Value {\n        get => this._ctrl.Value\n        set => this._ctrl.Value := value\n    }\n\n    Opt(options) {\n        this._ctrl.Opt(options)\n    }\n\n    OnEvent(event, callback) {\n        this._ctrl.OnEvent(event, callback)\n    }\n}\n\nclass EditWrap extends ControlWrapper {\n    __New(gui, options) {\n        super(gui, \"Edit\", options)\n        this._ctrl.OnEvent(\"Change\", this.OnChange.Bind(this))\n    }\n\n    OnChange() {\n        ; Virtual method for derived classes to override if needed\n    }\n\n    GetTextLines() {\n        return StrSplit(this.Value, \"`n\", \"`r\").Length\n    }\n}\n\nclass ButtonWrap extends ControlWrapper {\n    __New(gui, text, options) {\n        super(gui, \"Button\", options)\n        this._ctrl.Value := text\n    }\n}\n\nclass Main {\n    static HISTORY_LIMIT := 50\n\n    _gui := \"\"\n    _edit := \"\"\n    _history := Map()\n    _historyIndex := 0\n    _status := \"\"\n\n    __New() {\n        this._gui := Gui(, \"Clipboard Formatter - Dark Mode\")\n        this._gui.BackColor := \"2D2D2D\"\n        this._gui.MarginX := 10\n        this._gui.MarginY := 10\n\n        this._edit := EditWrap(this._gui, {\n            w: 400, h: 200, vScroll: true, MultiLine: true,\n            Font: {S: 10, Options: \"Consolas\"},\n            Background: \"1E1E1E\", Foreground: \"E0E0E0\"\n        })\n\n        this._gui.AddText(, \"Transform:\")\n        upperBtn := ButtonWrap(this._gui, \"UPPER CASE\", {\n            x: 10, yP: 10, w: 100, OnClick: this.OnUpper.Bind(this)\n        })\n        lowerBtn := ButtonWrap(this._gui, \"lower case\", {\n            xP: 10, w: 100, OnClick: this.OnLower.Bind(this)\n        })\n        properBtn := ButtonWrap(this._gui, \"Proper Case\", {\n            xP: 10, w: 100, OnClick: this.OnProper.Bind(this)\n        })\n\n        this._gui.AddText(, \"History:\")\n        undoBtn := ButtonWrap(this._gui, \"Undo (Ctrl+Z)\", {\n            x: 10, yP: 10, w: 100, OnClick: this.OnUndo.Bind(this)\n        })\n        redoBtn := ButtonWrap(this._gui, \"Redo (Ctrl+Y)\", {\n            xP: 10, w: 100, OnClick: this.OnRedo.Bind(this)\n        })\n\n        this._status := this._gui.AddText(, \"\", {\n            x: 10, yP: 20, w: 400, h: 20,\n            Font: {S: 9, Options: \"Consolas\"},\n            Background: \"2D2D2D\", Foreground: \"A0A0A0\"\n        })\n\n        this._gui.OnEvent(\"Escape\", this.OnClose.Bind(this))\n        this._gui.OnEvent(\"Size\", this.OnSize.Bind(this))\n        Hotkey(\"^z\", this.OnUndo.Bind(this), this._gui)\n        Hotkey(\"^y\", this.OnRedo.Bind(this), this._gui)\n\n        this.LoadClipboard()\n        this.UpdateStatus()\n        this.UpdateHistoryButtons()\n        this._gui.Show(\"w420 h350 AutoSize Center\")\n    }\n\n    LoadClipboard() {\n        try {\n            if !Clipboard.Wait(0.1) {\n                throw Error(\"Clipboard busy\")\n            }\n            text := Clipboard()\n            if !IsObject(text) {\n                this._edit.Value := text ?? \"\"\n            } else {\n                throw Error(\"Non-text clipboard content\")\n            }\n        } catch as err {\n            MsgBox(\"Error loading clipboard: \" err.Message, \"Clipboard Error\", 0x10)\n            this._edit.Value := \"\"\n        }\n    }\n\n    SaveToHistory(text) {\n        if (this._historyIndex < this._history.Count) {\n            ; Trim future history when making new changes\n            loop this._history.Count - this._historyIndex {\n                this._history.Delete(this._historyIndex + A_Index)\n            }\n        }\n\n        this._history[this._historyIndex + 1] := text\n        this._historyIndex += 1\n\n        ; Limit history size\n        if (this._history.Count > this.HISTORY_LIMIT) {\n            this._history.Delete(1)\n            this._historyIndex -= 1\n        }\n    }\n\n    OnUpper() {\n        this.Transform(StrUpper)\n    }\n\n    OnLower() {\n        this.Transform(StrLower)\n    }\n\n    OnProper() {\n        this.Transform(ObjBindMethod(Str, \"Title\"))\n    }\n\n    Transform(transformFunc) {\n        current := this._edit.Value\n        if (current == \"\") {\n            return\n        }\n\n        newText := transformFunc(current)\n        if (newText != current) {\n            this._edit.Value := newText\n            this.SaveToHistory(newText)\n            Clipboard := newText\n            this.UpdateStatus()\n            this.UpdateHistoryButtons()\n        }\n    }\n\n    OnUndo() {\n        if (this._historyIndex <= 0) {\n            return\n        }\n\n        this._historyIndex -= 1\n        this._edit.Value := this._history[this._historyIndex + 1] ?? \"\"\n        this.UpdateStatus()\n        this.UpdateHistoryButtons()\n    }\n\n    OnRedo() {\n        if (this._historyIndex >= this._history.Count) {\n            return\n        }\n\n        this._historyIndex += 1\n        this._edit.Value := this._history[this._historyIndex] ?? \"\"\n        this.UpdateStatus()\n        this.UpdateHistoryButtons()\n    }\n\n    UpdateStatus() {\n        text := this._edit.Value\n        charCount := StrLen(text)\n        lineCount := this._edit.GetTextLines()\n        this._status.Value := Format(\"Chars: {1}  Lines: {2}\", charCount, lineCount)\n    }\n\n    UpdateHistoryButtons() {\n        undoBtn := this._gui[\"Button1\"] ; First button is Undo\n        redoBtn := this._gui[\"Button2\"] ; Second button is Redo\n\n        undoBtn.Opt(this._historyIndex > 0 ? \"\" : \"Disabled\")\n        redoBtn.Opt(this._historyIndex < this._history.Count ? \"\" : \"Disabled\")\n    }\n\n    OnSize() {\n        this._gui.Move(,, A_GuiWidth, A_GuiHeight)\n        this._edit._ctrl.Move(,, A_GuiWidth - 20, A_GuiHeight - 100)\n        this._status._ctrl.Move(10, A_GuiHeight - 30, A_GuiWidth - 20, 20)\n    }\n\n    OnClose() {\n        this._gui.Destroy()\n    }\n\n    __Delete() {\n        Hotkey(\"^z\", , this._gui, \"Off\")\n        Hotkey(\"^y\", , this._gui, \"Off\")\n    }\n}\n",
   "analysis": "**ERNIE 4.5 300B** fails at the parse gate: `This Class cannot be used as an output variable.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 2/3 Str transforms, undo+redo. Static score **54/100**.",
-  "rank": 56,
+  "rank": 58,
   "prev": "Qwen3_Coder_Next",
   "next": "ERNIE_4-5_VL_424B"
  },
@@ -3772,7 +3882,7 @@
    "recovered": false
   },
   "analysis": "**ERNIE 4.5 VL 424B** fails at the parse gate: `Warning: This local variable appears to never be assigned a value.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **53/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`Warning: This local variable appears to never be assigned a `).",
-  "rank": 57,
+  "rank": 59,
   "prev": "ERNIE_4-5_300B",
   "next": "Llama_4_Maverick"
  },
@@ -3840,7 +3950,7 @@
    "recovered": true
   },
   "analysis": "**Llama 4 Maverick** fails at the parse gate: `Missing \")\"`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **53/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Llama 4 Maverick **recovered** \u2014 the retry builds a working window (visual 4/20).",
-  "rank": 58,
+  "rank": 60,
   "prev": "ERNIE_4-5_VL_424B",
   "next": "DeepSeek_V3-2"
  },
@@ -3895,7 +4005,7 @@
   "screenshot": null,
   "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\napp := ClipboardEditor()\n\nclass ClipboardEditor {\n    __New() {\n        this.history := []\n        this.future := []\n        this.currentText := \"\"\n        this.BuildGUI()\n        this.LoadClipboard()\n        this.UpdateStatus()\n    }\n\n    BuildGUI() {\n        this.gui := Gui()\n        this.gui.Title := \"Clipboard Formatter\"\n        this.gui.OnEvent(\"Escape\", this.Close.Bind(this))\n        this.gui.OnEvent(\"Size\", this.Resize.Bind(this))\n\n        this.editWrap := EditWrap(this.gui, \"r10 w600\")\n        this.editWrap.control.OnEvent(\"Change\", this.EditChanged.Bind(this))\n\n        this.btnUpper := ButtonWrap(this.gui, \"UPPER CASE\")\n        this.btnUpper.control.OnEvent(\"Click\", this.ToUpper.Bind(this))\n\n        this.btnLower := ButtonWrap(this.gui, \"lower case\")\n        this.btnLower.control.OnEvent(\"Click\", this.ToLower.Bind(this))\n\n        this.btnProper := ButtonWrap(this.gui, \"Proper Case\")\n        this.btnProper.control.OnEvent(\"Click\", this.ToProper.Bind(this))\n\n        this.btnUndo := ButtonWrap(this.gui, \"Undo (Ctrl+Z)\")\n        this.btnUndo.control.OnEvent(\"Click\", this.Undo.Bind(this))\n\n        this.btnRedo := ButtonWrap(this.gui, \"Redo (Ctrl+Y)\")\n        this.btnRedo.control.OnEvent(\"Click\", this.Redo.Bind(this))\n\n        this.status := this.gui.Add(\"Text\", \"w600\", \"Status\")\n\n        this.gui.Show()\n        this.UpdateButtonStates()\n    }\n\n    LoadClipboard() {\n        try {\n            clipText := A_Clipboard\n            if !IsSet(clipText) || clipText == \"\" {\n                this.editWrap.control.Value := \"(Clipboard is empty or non-text)\"\n                this.currentText := \"\"\n            } else {\n                this.editWrap.control.Value := clipText\n                this.currentText := clipText\n                this.history.Push(clipText)\n                this.future := []\n            }\n        } catch Error as e {\n            this.editWrap.control.Value := \"Error reading clipboard: \" e.Message\n            this.currentText := \"\"\n        }\n    }\n\n    EditChanged(*) {\n        this.currentText := this.editWrap.control.Value\n        this.UpdateStatus()\n        this.UpdateButtonStates()\n    }\n\n    ToUpper(*) {\n        this.ApplyTransform(StrUpper.Bind(, this.currentText))\n    }\n\n    ToLower(*) {\n        this.ApplyTransform(StrLower.Bind(, this.currentText))\n    }\n\n    ToProper(*) {\n        this.ApplyTransform(StrTitle.Bind(, this.currentText))\n    }\n\n    ApplyTransform(func) {\n        newText := func()\n        if newText == this.currentText {\n            return\n        }\n        this.history.Push(this.currentText)\n        this.future := []\n        this.currentText := newText\n        this.editWrap.control.Value := newText\n        A_Clipboard := newText\n        this.UpdateStatus()\n        this.UpdateButtonStates()\n    }\n\n    Undo(*) {\n        if this.history.Length > 0 {\n            this.future.Push(this.currentText)\n            this.currentText := this.history.Pop()\n            this.editWrap.control.Value := this.currentText\n            A_Clipboard := this.currentText\n            this.UpdateStatus()\n            this.UpdateButtonStates()\n        }\n    }\n\n    Redo(*) {\n        if this.future.Length > 0 {\n            this.history.Push(this.currentText)\n            this.currentText := this.future.Pop()\n            this.editWrap.control.Value := this.currentText\n            A_Clipboard := this.currentText\n            this.UpdateStatus()\n            this.UpdateButtonStates()\n        }\n    }\n\n    UpdateStatus() {\n        charCount := StrLen(this.currentText)\n        lineCount := StrCount(this.currentText, \"`n\") + 1\n        this.status.Value := \"Characters: \" charCount \" | Lines: \" lineCount\n    }\n\n    UpdateButtonStates() {\n        this.btnUndo.control.Opt(this.history.Length > 0 ? \"\" : \"-Default\")\n        this.btnRedo.control.Opt(this.future.Length > 0 ? \"\" : \"-Default\")\n    }\n\n    Resize(guiObj, minMax, width, height) {\n        this.editWrap.control.Move(, , width - 20)\n        this.status.Move(, , width - 20)\n    }\n\n    Close(*) {\n        this.gui.Destroy()\n    }\n\n    __Delete() {\n        if IsSet(this.gui) && this.gui.Hwnd {\n            this.gui.Destroy()\n        }\n    }\n}\n\nclass ControlWrapper {\n    __New(gui, options := \"\") {\n        this.gui := gui\n        this.options := options\n        this.control := this.CreateControl()\n    }\n\n    CreateControl() {\n        throw Error(\"CreateControl must be overridden\", -1)\n    }\n}\n\nclass EditWrap extends ControlWrapper {\n    CreateControl() {\n        return this.gui.Add(\"Edit\", this.options)\n    }\n}\n\nclass ButtonWrap extends ControlWrapper {\n    __New(gui, text, options := \"\") {\n        this.text := text\n        super.__New(gui, options)\n    }\n\n    CreateControl() {\n        return this.gui.Add(\"Button\", this.options, this.text)\n    }\n}\n",
   "analysis": "**DeepSeek V3.2** fails at the parse gate: `IsSet requires a variable or unset expression.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **50/100**.",
-  "rank": 59,
+  "rank": 61,
   "prev": "Llama_4_Maverick",
   "next": "Devstral_2512"
  },
@@ -3963,8 +4073,63 @@
    "recovered": true
   },
   "analysis": "**Devstral 2512** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **50/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Devstral 2512 **recovered** \u2014 the retry builds a working window (visual 4/20).",
-  "rank": 60,
+  "rank": 62,
   "prev": "DeepSeek_V3-2",
+  "next": "Laguna_XS_2-1"
+ },
+ {
+  "id": "Laguna_XS_2-1",
+  "display": "Laguna XS 2.1",
+  "provider": "Poolside",
+  "source": "openrouter",
+  "parse": false,
+  "runs": null,
+  "score": 50,
+  "score_items": {
+   "Parses": 0,
+   "#Requires + SingleInstance": 7,
+   "Map() storage (no obj literal)": 5,
+   "No multi-line => block": 5,
+   "No empty catch": 4,
+   "No JS contamination": 4,
+   ".Bind(this) callbacks": 5,
+   "Uses Map()": 0,
+   "Inheritance depth": 4,
+   "Str transforms": 3,
+   "Undo + Redo": 4,
+   "Dark-mode code": 0,
+   "Resize handling": 3,
+   "Escape close": 2,
+   ".Opt() enable/disable": 2,
+   "Live char/line count": 2
+  },
+  "score_maxes": {
+   "Parses": 40,
+   "#Requires + SingleInstance": 7,
+   "Map() storage (no obj literal)": 5,
+   "No multi-line => block": 5,
+   "No empty catch": 4,
+   "No JS contamination": 4,
+   ".Bind(this) callbacks": 5,
+   "Uses Map()": 5,
+   "Inheritance depth": 6,
+   "Str transforms": 3,
+   "Undo + Redo": 4,
+   "Dark-mode code": 3,
+   "Resize handling": 3,
+   "Escape close": 2,
+   ".Opt() enable/disable": 2,
+   "Live char/line count": 2
+  },
+  "visual": null,
+  "lines": 260,
+  "bytes": 7055,
+  "runtime_err": "Missing \"\"\"",
+  "screenshot": null,
+  "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\nformatter := ClipboardFormatter()\n\nclass ControlWrapper {\n    GuiRef := 0\n    Name := \"\"\n    X := 0\n    Y := 0\n    Width := 100\n    Height := 25\n    Control := 0\n    \n    __New(gui, name, x, y, w, h := 25) {\n        this.GuiRef := gui\n        this.Name := name\n        this.X := x\n        this.Y := y\n        this.Width := w\n        this.Height := h\n    }\n    \n    Create() {\n        this.Control := this.GuiRef.Add(\"Custom\", \n            this.X \"|\" this.Y \" w\" this.Width \" h\" this.Height \" +0x580000\")\n    }\n    \n    Update() {\n    }\n    \n    Destroy() {\n        if this.Control {\n            this.Control.Destroy()\n            this.Control := 0\n        }\n    }\n}\n\nclass EditWrap extends ControlWrapper {\n    EditCtrl := 0\n    ChangeCallback := 0\n    \n    __New(gui, name, x, y, w, h := 150) {\n        super.__New(gui, name, x, y, w, h)\n        this.Height := h\n    }\n    \n    Create() {\n        this.EditCtrl := this.GuiRef.Add(\"Edit\", \n            this.X \"|\" this.Y \" v\" this.Name \" w\" this.Width \" h\" this.Height \" AltSubmit +Wrap +WantReturn +HScroll\", \"\")\n    }\n    \n    GetValue() {\n        return this.EditCtrl.Value\n    }\n    \n    SetValue(text) {\n        this.EditCtrl.Value := text\n    }\n    \n    OnChange(handler) {\n        this.ChangeCallback := handler\n        this.EditCtrl.OnEvent(\"Change\", this.ChangeCallback.Bind(this))\n    }\n}\n\nclass ButtonWrap extends ControlWrapper {\n    ButtonCtrl := 0\n    ClickCallback := 0\n    \n    __New(gui, name, x, y, w := 100, h := 25, caption := \"\") {\n        super.__New(gui, name, x, y, w, h)\n        this.Caption := caption\n    }\n    \n    Create() {\n        this.ButtonCtrl := this.GuiRef.Add(\"Button\", \n            this.X \"|\" this.Y \" w\" this.Width \" h\" this.Height, this.Caption)\n    }\n    \n    OnClick(handler) {\n        this.ClickCallback := handler\n        this.ButtonCtrl.OnEvent(\"Click\", this.ClickCallback.Bind(this))\n    }\n    \n    SetEnabled(enabled) {\n        if enabled {\n            this.ButtonCtrl.Opt(\"+Disabled\", false)\n        } else {\n            this.ButtonCtrl.Opt(\"+Disabled\", true)\n        }\n    }\n}\n\nclass ClipboardFormatter {\n    GuiRef := 0\n    Edit := 0\n    UpperBtn := 0\n    LowerBtn := 0\n    TitleBtn := 0\n    UndoBtn := 0\n    RedoBtn := 0\n    Status := 0\n    \n    History := []\n    HistoryIndex := -1\n    CurrentText := \"\"\n    \n    __New() {\n        this.GuiRef := Gui(\"-MinimizeBox +Resize +AlwaysOnTop\", \"Clipboard Formatter\")\n        this.GuiRef.OnEvent(\"Close\", (*) => ExitApp)\n        this.GuiRef.OnEvent(\"Escape\", (*) => this.Close())\n        this.GuiRef.OnEvent(\"Size\", (*) => this.Resize())\n        this.GuiRef.OnEvent(\"Key\", this.KeyHandler.Bind(this))\n        \n        this.Edit := new EditWrap(this.GuiRef, \"WorkingText\", 10, 10, 400, 150)\n        this.Edit.Create()\n        this.Edit.OnChange(this.TextChanged)\n        \n        this.UpperBtn := new ButtonWrap(this.GuiRef, \"UpperBtn\", 10, 170, 100, 25, \"UPPER CASE\")\n        this.UpperBtn.Create()\n        this.UpperBtn.OnClick(this.ToUpper)\n        \n        this.LowerBtn := new ButtonWrap(this.GuiRef, \"LowerBtn\", 120, 170, 100, 25, \"lower case\")\n        this.LowerBtn.Create()\n        this.LowerBtn.OnClick(this.ToLower)\n        \n        this.TitleBtn := new ButtonWrap(this.GuiRef, \"TitleBtn\", 230, 170, 100, 25, \"Proper Case\")\n        this.TitleBtn.Create()\n        this.TitleBtn.OnClick(this.ToTitle)\n        \n        this.UndoBtn := new ButtonWrap(this.GuiRef, \"UndoBtn\", 10, 210, 100, 25, \"Undo\")\n        this.UndoBtn.Create()\n        this.UndoBtn.OnClick(this.Undo)\n        \n        this.RedoBtn := new ButtonWrap(this.GuiRef, \"RedoBtn\", 120, 210, 100, 25, \"Redo\")\n        this.RedoBtn.Create()\n        this.RedoBtn.OnClick(this.Redo)\n        \n        this.Status := this.GuiRef.Add(\"Static\", 10 \"|\" 250 \" w550 h20, \"\")\n        \n        this.GuiRef.Show(\"AutoSize\")\n        \n        this.LoadClipboard()\n        this.UpdateStatus()\n        this.UpdateUndoRedoState()\n    }\n    \n    LoadClipboard() {\n        clipType := ClipboardAll\n        if (ClipboardType = \"Text\" || Clipboard != \"\") {\n            this.CurrentText := Clipboard\n            this.Edit.SetValue(this.CurrentText)\n            this.History.Push(this.CurrentText)\n            this.HistoryIndex := 0\n        } else {\n            this.CurrentText := \"\"\n            this.Edit.SetValue(\"\")\n            this.History.Push(\"\")\n            this.HistoryIndex := 0\n            this.Status.Text := \"Clipboard is empty or contains non-text data\"\n        }\n    }\n    \n    ToUpper() {\n        this.Transform(StrUpper(this.CurrentText))\n    }\n    \n    ToLower() {\n        this.Transform(StrLower(this.CurrentText))\n    }\n    \n    ToTitle() {\n        this.Transform(StrTitle(this.CurrentText))\n    }\n    \n    Transform(newText) {\n        this.CurrentText := newText\n        this.Edit.SetValue(this.CurrentText)\n        Clipboard := this.CurrentText\n        this.AddToHistory()\n        this.UpdateStatus()\n        this.UpdateUndoRedoState()\n    }\n    \n    AddToHistory() {\n        if (this.HistoryIndex < this.History.Length - 1) {\n            this.History := this.History[1..this.HistoryIndex + 1]\n        }\n        this.History.Push(this.CurrentText)\n        this.HistoryIndex := this.History.Length - 1\n    }\n    \n    Undo() {\n        if (this.HistoryIndex > 0) {\n            this.HistoryIndex--\n            this.CurrentText := this.History[this.HistoryIndex + 1]\n            this.Edit.SetValue(this.CurrentText)\n            Clipboard := this.CurrentText\n            this.UpdateStatus()\n            this.UpdateUndoRedoState()\n        }\n    }\n    \n    Redo() {\n        if (this.HistoryIndex < this.History.Length - 1) {\n            this.HistoryIndex++\n            this.CurrentText := this.History[this.HistoryIndex + 1]\n            this.Edit.SetValue(this.CurrentText)\n            Clipboard := this.CurrentText\n            this.UpdateStatus()\n            this.UpdateUndoRedoState()\n        }\n    }\n    \n    TextChanged() {\n        this.CurrentText := this.Edit.GetValue()\n        this.UpdateStatus()\n    }\n    \n    UpdateStatus() {\n        charCount := StrLen(this.CurrentText)\n        lineCount := 1\n        if (this.CurrentText != \"\") {\n            lineCount := StrReplace(this.CurrentText, \"`n\", \"`n\").Length - StrReplace(this.CurrentText, \"`n\", \"\").Length + 1\n        }\n        this.Status.Text := \"Characters: \" charCount \" | Lines: \" lineCount\n    }\n    \n    UpdateUndoRedoState() {\n        canUndo := this.HistoryIndex > 0\n        canRedo := this.HistoryIndex < this.History.Length - 1\n        \n        this.UndoBtn.SetEnabled(canUndo)\n        this.RedoBtn.SetEnabled(canRedo)\n    }\n    \n    Resize() {\n    }\n    \n    KeyHandler(e) {\n        if (e.Name = \"z\" && GetKeyState(\"Ctrl\", \"P\")) {\n            this.Undo()\n        } else if (e.Name = \"y\" && GetKeyState(\"Ctrl\", \"P\")) {\n            this.Redo()\n        }\n    }\n    \n    Close() {\n        this.GuiRef.Destroy()\n        ExitApp\n    }\n    \n    __Delete() {\n        if this.GuiRef {\n            this.GuiRef.Destroy()\n        }\n    }\n}\n",
+  "analysis": "**Laguna XS 2.1** fails at the parse gate: `Missing \"\"\"`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **50/100**.",
+  "rank": 63,
+  "prev": "Devstral_2512",
   "next": "Nova_Premier"
  },
  {
@@ -4031,8 +4196,8 @@
    "recovered": false
   },
   "analysis": "**Nova Premier** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **50/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`This value of type \"Gui\" has no property named \"Controls\".`).",
-  "rank": 61,
-  "prev": "Devstral_2512",
+  "rank": 64,
+  "prev": "Laguna_XS_2-1",
   "next": "Nova_Pro"
  },
  {
@@ -4099,8 +4264,63 @@
    "recovered": false
   },
   "analysis": "**Nova Pro** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **50/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`This Class cannot be used as an output variable.`).",
-  "rank": 62,
+  "rank": 65,
   "prev": "Nova_Premier",
+  "next": "Laguna_XS_2-1_Free"
+ },
+ {
+  "id": "Laguna_XS_2-1_Free",
+  "display": "Laguna XS 2.1 (free)",
+  "provider": "Poolside",
+  "source": "openrouter",
+  "parse": false,
+  "runs": null,
+  "score": 48,
+  "score_items": {
+   "Parses": 0,
+   "#Requires + SingleInstance": 7,
+   "Map() storage (no obj literal)": 5,
+   "No multi-line => block": 5,
+   "No empty catch": 4,
+   "No JS contamination": 4,
+   ".Bind(this) callbacks": 5,
+   "Uses Map()": 0,
+   "Inheritance depth": 4,
+   "Str transforms": 3,
+   "Undo + Redo": 4,
+   "Dark-mode code": 0,
+   "Resize handling": 3,
+   "Escape close": 2,
+   ".Opt() enable/disable": 0,
+   "Live char/line count": 2
+  },
+  "score_maxes": {
+   "Parses": 40,
+   "#Requires + SingleInstance": 7,
+   "Map() storage (no obj literal)": 5,
+   "No multi-line => block": 5,
+   "No empty catch": 4,
+   "No JS contamination": 4,
+   ".Bind(this) callbacks": 5,
+   "Uses Map()": 5,
+   "Inheritance depth": 6,
+   "Str transforms": 3,
+   "Undo + Redo": 4,
+   "Dark-mode code": 3,
+   "Resize handling": 3,
+   "Escape close": 2,
+   ".Opt() enable/disable": 2,
+   "Live char/line count": 2
+  },
+  "visual": null,
+  "lines": 267,
+  "bytes": 6792,
+  "runtime_err": "This line does not contain a recognized action.",
+  "screenshot": null,
+  "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\neditor := ClipboardEditor()\n\nclass ControlWrapper {\n    guiRef\n    ctrlName\n    \n    __New(guiRef, name) {\n        this.guiRef := guiRef\n        this.ctrlName := name\n    }\n    \n    Add(params*) {\n        throw \"Add must be overridden\"\n    }\n    \n    Get() {\n        throw \"Get must be overridden\"\n    }\n    \n    Set(value) {\n        throw \"Set must be overridden\"\n    }\n    \n    Enable() {\n        throw \"Enable must be overridden\"\n    }\n    \n    Disable() {\n        throw \"Disable must be overridden\"\n    }\n}\n\nclass EditWrap extends ControlWrapper {\n    width := 600\n    height := 200\n    \n    Add(params*) {\n        return this.guiRef.Add(\"Edit\", \"w\" this.width \" h\" this.height \" v\" this.ctrlName, params*)\n    }\n    \n    Get() {\n        return this.guiRef.Controls[this.ctrlName].Value\n    }\n    \n    Set(text) {\n        this.guiRef.Controls[this.ctrlName].Value := text\n    }\n    \n    Enable() {\n        this.guiRef.Controls[this.ctrlName].Enabled := true\n    }\n    \n    Disable() {\n        this.guiRef.Controls[this.ctrlName].Enabled := false\n    }\n}\n\nclass ButtonWrap extends ControlWrapper {\n    label := \"\"\n    \n    Add() {\n        return this.guiRef.Add(\"Button\", \"g\" this.ctrlName, this.label)\n    }\n    \n    Get() {\n        return this.guiRef.Controls[this.ctrlName].Enabled\n    }\n    \n    Set(enabled) {\n        this.guiRef.Controls[this.ctrlName].Enabled := enabled\n    }\n    \n    Enable() {\n        this.guiRef.Controls[this.ctrlName].Enabled := true\n    }\n    \n    Disable() {\n        this.guiRef.Controls[this.ctrlName].Enabled := false\n    }\n}\n\nclass ClipboardEditor {\n    gui\n    editCtrl\n    history\n    redoStack\n    currentText\n    lastMessage\n    \n    __New() {\n        this.history := []\n        this.redoStack := []\n        this.currentText := \"\"\n        this.lastMessage := \"\"\n        this.BuildGUI()\n        this.LoadClipboard()\n        this.gui.Show()\n    }\n    \n    BuildGUI() {\n        this.gui := Gui(\"+Resize +MinSize600x400\", \"Clipboard Text Formatter\")\n        \n        this.editCtrl := EditWrap(this.gui, \"WorkEdit\")\n        this.editCtrl.Add()\n        \n        local upperBtn := ButtonWrap(this.gui, \"UpperBtn\")\n        upperBtn.label := \"UPPER CASE\"\n        upperBtn.Add()\n        \n        local lowerBtn := ButtonWrap(this.gui, \"LowerBtn\")\n        lowerBtn.label := \"lower case\"\n        lowerBtn.Add()\n        \n        local properBtn := ButtonWrap(this.gui, \"ProperBtn\")\n        properBtn.label := \"Proper Case\"\n        properBtn.Add()\n        \n        this.gui.Add(\"Button\", \"gUndoBtn\", \"Undo\")\n        this.gui.Add(\"Button\", \"gRedoBtn\", \"Redo\")\n        \n        this.gui.Add(\"Text\", \"w600 vStatus\", \"\")\n        \n        this.gui.OnEvent(\"Close\", this.Close.Bind(this))\n        this.gui.OnEvent(\"Escape\", this.Close.Bind(this))\n        this.gui.OnEvent(\"Size\", this.OnResize.Bind(this))\n        this.gui.OnEvent(\"UndoBtn\", this.Undo.Bind(this))\n        this.gui.OnEvent(\"RedoBtn\", this.Redo.Bind(this))\n        \n        this.gui.Controls[\"UpperBtn\"].OnEvent(\"Click\", this.ToUpper.Bind(this))\n        this.gui.Controls[\"LowerBtn\"].OnEvent(\"Click\", this.ToLower.Bind(this))\n        this.gui.Controls[\"ProperBtn\"].OnEvent(\"Click\", this.ToProper.Bind(this))\n        this.gui.Controls[\"WorkEdit\"].OnEvent(\"Change\", this.OnEditChange.Bind(this))\n        \n        this.gui.OnEvent(\"KeyDown\", this.OnKeyDown.Bind(this))\n        \n        this.UpdateButtonStates()\n    }\n    \n    LoadClipboard() {\n        local clip\n        try clip := ClipboardAll\n        catch\n            clip := \"\"\n        \n        if (!ClipWait(0.5)) {\n            this.currentText := \"\"\n            this.editCtrl.Set(\"\")\n            this.lastMessage := \"Clipboard is empty. Paste text and refresh.\"\n        } else if (this.IsText(Clipboard)) {\n            this.currentText := Clipboard\n            this.editCtrl.Set(this.currentText)\n            this.lastMessage := \"\"\n        } else {\n            this.currentText := \"\"\n            this.editCtrl.Set(\"\")\n            this.lastMessage := \"Clipboard does not contain text.\"\n        }\n        this.UpdateStatus()\n        this.UpdateTitle()\n    }\n    \n    IsText(text) {\n        return Type(text) = \"String\" || Type(text) = \"Buffer\"\n    }\n    \n    UpdateTitle() {\n        if (this.lastMessage != \"\")\n            this.gui.Title := \"Clipboard Text Formatter - \" this.lastMessage\n        else\n            this.gui.Title := \"Clipboard Text Formatter\"\n    }\n    \n    UpdateStatus() {\n        local chars := StrLen(this.currentText)\n        local lines := StrSplit(this.currentText, \"`n\").Length\n        this.gui.Controls[\"Status\"].Value := \"Chars: \" chars \" | Lines: \" lines\n    }\n    \n    ToUpper(*) {\n        this.Transform(StrUpper(this.currentText))\n    }\n    \n    ToLower(*) {\n        this.Transform(StrLower(this.currentText))\n    }\n    \n    ToProper(*) {\n        this.Transform(StrTitle(this.currentText))\n    }\n    \n    Transform(newText) {\n        this.history.Push(this.currentText)\n        this.redoStack := []\n        \n        this.currentText := newText\n        this.editCtrl.Set(this.currentText)\n        this.UpdateStatus()\n        \n        Clipboard := newText\n        \n        this.UpdateButtonStates()\n    }\n    \n    Undo(*) {\n        if (this.history.Length = 0)\n            return\n        \n        this.redoStack.Push(this.currentText)\n        \n        this.currentText := this.history.Pop()\n        this.editCtrl.Set(this.currentText)\n        this.UpdateStatus()\n        Clipboard := this.currentText\n        \n        this.UpdateButtonStates()\n    }\n    \n    Redo(*) {\n        if (this.redoStack.Length = 0)\n            return\n        \n        this.history.Push(this.currentText)\n        \n        this.currentText := this.redoStack.Pop()\n        this.editCtrl.Set(this.currentText)\n        this.UpdateStatus()\n        Clipboard := this.currentText\n        \n        this.UpdateButtonStates()\n    }\n    \n    UpdateButtonStates() {\n        this.gui.Controls[\"UndoBtn\"].Enabled := this.history.Length > 0\n        this.gui.Controls[\"RedoBtn\"].Enabled := this.redoStack.Length > 0\n    }\n    \n    OnEditChange(*) {\n        this.currentText := this.editCtrl.Get()\n        this.UpdateStatus()\n    }\n    \n    OnKeyDown(eventName, key) {\n        if (key = \"z\" && GetKeyState(\"Ctrl\", \"P\"))\n            this.Undo()\n        else if (key = \"y\" && GetKeyState(\"Ctrl\", \"P\"))\n            this.Redo()\n    }\n    \n    OnResize(*) {\n        local w := this.gui.Width\n        local h := this.gui.Height\n        this.editCtrl.guiRef.Controls[\"WorkEdit\"].Move(10, 10, w - 20, h - 150)\n        this.gui.Controls[\"Status\"].Move(10, h - 30, w - 20, 20)\n    }\n    \n    Close(*) {\n        this.gui.Destroy()\n    }\n    \n    __Delete() {\n        if (this.gui)\n            this.gui.Destroy()\n    }\n}\n",
+  "analysis": "**Laguna XS 2.1 (free)** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **48/100**.",
+  "rank": 66,
+  "prev": "Nova_Pro",
   "next": "Nemotron_Super_49B"
  },
  {
@@ -4167,8 +4387,8 @@
    "recovered": false
   },
   "analysis": "**Nemotron Super 49B** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **48/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`Function calls require a space or \"(\".  Use comma only betwe`).",
-  "rank": 63,
-  "prev": "Nova_Pro",
+  "rank": 67,
+  "prev": "Laguna_XS_2-1_Free",
   "next": "Phi-4"
  },
  {
@@ -4235,7 +4455,7 @@
    "recovered": false
   },
   "analysis": "**Phi-4** fails at the parse gate: `This Class cannot be used as an output variable.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **48/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`Not a valid property getter/setter.`).",
-  "rank": 64,
+  "rank": 68,
   "prev": "Nemotron_Super_49B",
   "next": "Kimi_K2_Thinking"
  },
@@ -4290,7 +4510,7 @@
   "screenshot": null,
   "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\neditor := ClipboardFormatter()\n\nclass ControlWrapper {\n    control := \"\"\n    hwnd := \"\"\n    \n    __New(gui, type, options, text, x, y, w, h) {\n        this.control := gui.AddControl(type, options \" x\" x \" y\" y \" w\" w \" h\" h, text)\n        this.hwnd := this.control.Hwnd\n        this.AfterCreate()\n    }\n    \n    AfterCreate() {\n    }\n}\n\nclass EditWrap extends ControlWrapper {\n    AfterCreate() {\n    }\n    \n    GetText() {\n        return this.control.Value\n    }\n    \n    SetText(text) {\n        this.control.Value := text\n    }\n    \n    GetLineCount() {\n        return this.control.LineCount\n    }\n    \n    GetCharCount() {\n        return StrLen(this.control.Value)\n    }\n}\n\nclass ButtonWrap extends ControlWrapper {\n    AfterCreate() {\n    }\n    \n    SetOnClick(callback) {\n        this.control.OnEvent(\"Click\", callback)\n    }\n    \n    SetEnabled(enabled) {\n        this.control.Opt(enabled ? \"+Enabled\" : \"-Enabled\")\n    }\n}\n\nclass ClipboardFormatter {\n    gui := \"\"\n    editWrap := \"\"\n    btnUpper := \"\"\n    btnLower := \"\"\n    btnProper := \"\"\n    btnUndo := \"\"\n    btnRedo := \"\"\n    statusText := \"\"\n    history := []\n    historyIndex := -1\n    currentText := \"\"\n    \n    __New() {\n        this.gui := Gui()\n        this.gui.Title := \"Clipboard Text Formatter\"\n        this.gui.OnEvent(\"Close\", this.OnClose.Bind(this))\n        this.gui.OnEvent(\"Escape\", this.OnEscape.Bind(this))\n        \n        this.editWrap := EditWrap(this.gui, \"Edit\", \"Multi\", \"\", 10, 10, 380, 200)\n        this.editWrap.control.OnEvent(\"Change\", this.OnEditChange.Bind(this))\n        this.editWrap.control.OnEvent(\"KeyDown\", this.OnKeyDown.Bind(this))\n        \n        this.btnUpper := ButtonWrap(this.gui, \"Button\", \"\", \"UPPER CASE\", 10, 220, 100, 30)\n        this.btnUpper.SetOnClick(this.ApplyTransform.Bind(this, \"UPPER\"))\n        \n        this.btnLower := ButtonWrap(this.gui, \"Button\", \"\", \"lower case\", 120, 220, 100, 30)\n        this.btnLower.SetOnClick(this.ApplyTransform.Bind(this, \"LOWER\"))\n        \n        this.btnProper := ButtonWrap(this.gui, \"Button\", \"\", \"Proper Case\", 230, 220, 100, 30)\n        this.btnProper.SetOnClick(this.ApplyTransform.Bind(this, \"PROPER\"))\n        \n        this.btnUndo := ButtonWrap(this.gui, \"Button\", \"\", \"Undo\", 10, 260, 80, 30)\n        this.btnUndo.SetOnClick(this.Undo.Bind(this))\n        \n        this.btnRedo := ButtonWrap(this.gui, \"Button\", \"\", \"Redo\", 100, 260, 80, 30)\n        this.btnRedo.SetOnClick(this.Redo.Bind(this))\n        \n        this.statusText := this.gui.AddText(\"x10 y300 w380\", \"Status: Ready\")\n        \n        this.history := []\n        this.historyIndex := -1\n        \n        this.LoadClipboard()\n        this.gui.Show()\n    }\n    \n    LoadClipboard() {\n        clipContent := \"\"\n        try {\n            temp := A_Clipboard\n            if IsString(temp) {\n                clipContent := temp\n            } else {\n                this.SetStatus(\"Clipboard does not contain text\")\n            }\n        } catch e {\n            this.SetStatus(\"Error accessing clipboard: \" e.Message)\n        }\n        \n        this.InitializeHistory(clipContent)\n        this.editWrap.SetText(clipContent)\n        this.UpdateStatus()\n        this.UpdateUndoRedoButtons()\n    }\n    \n    InitializeHistory(initialText) {\n        this.history := [initialText]\n        this.historyIndex := 0\n        this.currentText := initialText\n    }\n    \n    UpdateHistory(newText) {\n        if (this.currentText = newText) {\n            return\n        }\n        \n        if (this.historyIndex < this.history.Length - 1) {\n            this.history.RemoveAt(this.historyIndex + 1, this.history.Length - this.historyIndex - 1)\n        }\n        \n        this.history.Push(newText)\n        this.historyIndex := this.history.Length - 1\n        this.currentText := newText\n    }\n    \n    ApplyTransform(transformType) {\n        text := this.editWrap.GetText()\n        \n        switch transformType {\n            case \"UPPER\":\n                transformed := StrUpper(text)\n            case \"LOWER\":\n                transformed := StrLower(text)\n            case \"PROPER\":\n                transformed := StrTitle(text)\n            default:\n                return\n        }\n        \n        this.editWrap.SetText(transformed)\n        this.UpdateHistory(transformed)\n        this.UpdateStatus()\n        this.UpdateUndoRedoButtons()\n        \n        try {\n            A_Clipboard := transformed\n            this.SetStatus(\"Transformed and copied to clipboard\")\n        } catch e {\n            this.SetStatus(\"Error writing to clipboard: \" e.Message)\n        }\n    }\n    \n    Undo() {\n        if (this.historyIndex <= 0) {\n            return\n        }\n        \n        this.historyIndex--\n        this.currentText := this.history[this.historyIndex]\n        this.editWrap.SetText(this.currentText)\n        this.UpdateStatus()\n        this.UpdateUndoRedoButtons()\n        this.SetStatus(\"Undone\")\n    }\n    \n    Redo() {\n        if (this.historyIndex >= this.history.Length - 1) {\n            return\n        }\n        \n        this.historyIndex++\n        this.currentText := this.history[this.historyIndex]\n        this.editWrap.SetText(this.currentText)\n        this.UpdateStatus()\n        this.UpdateUndoRedoButtons()\n        this.SetStatus(\"Redone\")\n    }\n    \n    OnEditChange() {\n        newText := this.editWrap.GetText()\n        this.UpdateHistory(newText)\n        this.UpdateStatus()\n        this.UpdateUndoRedoButtons()\n    }\n    \n    OnKeyDown(key, info) {\n        if (info.Ctrl && key = \"z\") {\n            this.Undo()\n            return 1\n        }\n        if (info.Ctrl && key = \"y\") {\n            this.Redo()\n            return 1\n        }\n    }\n    \n    UpdateStatus() {\n        charCount := this.editWrap.GetCharCount()\n        lineCount := this.editWrap.GetLineCount()\n        this.SetStatus(\"Chars: \" charCount \" | Lines: \" lineCount)\n    }\n    \n    UpdateUndoRedoButtons() {\n        canUndo := this.historyIndex > 0\n        canRedo := this.historyIndex < this.history.Length - 1\n        \n        this.btnUndo.SetEnabled(canUndo)\n        this.btnRedo.SetEnabled(canRedo)\n    }\n    \n    SetStatus(message) {\n        this.statusText.Value := \"Status: \" message\n    }\n    \n    OnEscape() {\n        this.gui.Destroy()\n    }\n    \n    OnClose() {\n        this.gui.Destroy()\n    }\n    \n    __Delete() {\n        try this.gui.Destroy()\n    }\n}\n",
   "analysis": "**Kimi K2 Thinking** fails at the parse gate: `Warning: This local variable appears to never be assigned a value.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **47/100**.",
-  "rank": 65,
+  "rank": 69,
   "prev": "Phi-4",
   "next": "Hunyuan_A13B"
  },
@@ -4358,7 +4578,7 @@
    "recovered": false
   },
   "analysis": "**Hunyuan A13B** fails at the parse gate: `Unexpected \"{\"`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, undo+redo. Static score **46/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`Warning: This local variable appears to never be assigned a `).",
-  "rank": 66,
+  "rank": 70,
   "prev": "Kimi_K2_Thinking",
   "next": "Mistral_Medium_3-5"
  },
@@ -4413,7 +4633,7 @@
   "screenshot": null,
   "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\neditor := ClipboardEditor()\n\nclass ControlWrapper {\n\t__New(owner, name, type, x, y, w, h, options := \"\") {\n\t\tthis.owner := owner\n\t\tthis.name := name\n\t\tthis.type := type\n\t\tthis.x := x\n\t\tthis.y := y\n\t\tthis.w := w\n\t\tthis.h := h\n\t\tthis.options := options\n\t\tthis.control := \"\"\n\t}\n\tCreate() {\n\t\tthis.control := GuiControl(this.type, this.name, this.options, this.x, this.y, this.w, this.h)\n\t\treturn this.control\n\t}\n\tUpdate(text) {\n\t\tGuiControl(this.type, this.name, text)\n\t}\n\tEnable(state) {\n\t\tGuiControl(this.type, this.name, state ? \"Enable\" : \"Disable\")\n\t}\n}\n\nclass EditWrap extends ControlWrapper {\n\t__New(owner, name, x, y, w, h) {\n\t\tbase.__New(owner, name, \"Edit\", x, y, w, h, \"Multi HS276 VScroll\")\n\t}\n\tGetValue() {\n\t\treturn GuiControlGet(this.type, \"\", this.name, \"Value\")\n\t}\n}\n\nclass ButtonWrap extends ControlWrapper {\n\t__New(owner, name, x, y, w, h, text) {\n\t\tbase.__New(owner, name, \"Button\", x, y, w, h, text)\n\t}\n}\n\nclass ClipboardEditor {\n\t__New() {\n\t\tthis.history := []\n\t\tthis.historyIndex := -1\n\t\tthis.workingText := \"\"\n\t\tthis.gui := Gui(\"+AlwaysOnTop +Resize\", \"Clipboard Formatter\")\n\t\tthis.gui.OnEvent(\"Close\", this.OnClose.Bind(this))\n\t\tthis.gui.OnEvent(\"Escape\", this.OnClose.Bind(this))\n\t\tthis.gui.SetFont(\"Segoe UI\", 9)\n\n\t\tthis.edit := EditWrap(this, \"WorkingText\", 10, 10, 580, 300)\n\t\tthis.edit.Create()\n\n\t\tthis.upperBtn := ButtonWrap(this, \"UpperBtn\", 10, 320, 120, 30, \"UPPER CASE\")\n\t\tthis.upperBtn.Create()\n\t\tGuiControl(\"Button\", \"UpperBtn\", \"gUpperCase\")\n\n\t\tthis.lowerBtn := ButtonWrap(this, \"LowerBtn\", 140, 320, 120, 30, \"lower case\")\n\t\tthis.lowerBtn.Create()\n\t\tGuiControl(\"Button\", \"LowerBtn\", \"gLowerCase\")\n\n\t\tthis.properBtn := ButtonWrap(this, \"ProperBtn\", 270, 320, 120, 30, \"Proper Case\")\n\t\tthis.properBtn.Create()\n\t\tGuiControl(\"Button\", \"ProperBtn\", \"gProperCase\")\n\n\t\tthis.undoBtn := ButtonWrap(this, \"UndoBtn\", 400, 320, 80, 30, \"Undo\")\n\t\tthis.undoBtn.Create()\n\t\tGuiControl(\"Button\", \"UndoBtn\", \"gUndo\")\n\t\tGuiControl(\"Button\", \"UndoBtn\", \"Shortcut\" . A_Tab . \"Ctrl-Z\")\n\n\t\tthis.redoBtn := ButtonWrap(this, \"RedoBtn\", 490, 320, 80, 30, \"Redo\")\n\t\tthis.redoBtn.Create()\n\t\tGuiControl(\"Button\", \"RedoBtn\", \"gRedo\")\n\t\tGuiControl(\"Button\", \"RedoBtn\", \"Shortcut\" . A_Tab . \"Ctrl-Y\")\n\n\t\tthis.status := GuiAdd(\"Text\", \"x10 y360 w580 h20\", \"Chars: 0 | Lines: 0\")\n\t\tGuiShow()\n\t\tthis.LoadClipboard()\n\t\tGuiControl(\"Button\", \"UndoBtn\", \"Disable\")\n\t\tGuiControl(\"Button\", \"RedoBtn\", \"Disable\")\n\t}\n\tLoadClipboard() {\n\t\ttry {\n\t\t\tthis.workingText := A_Clipboard\n\t\t\tif (this.workingText = \"\")\n\t\t\t\tthrow \"Clipboard is empty or contains non-text data.\"\n\t\t\tthis.edit.Update(this.workingText)\n\t\t\tthis.UpdateStatus()\n\t\t} catch e {\n\t\t\tMsgBox(\"Error: \" e \"`nPlease copy some text first.\", 0x40010, \"Clipboard Error\")\n\t\t\tExitApp(1)\n\t\t}\n\t}\n\tUpperCase() {\n\t\tthis.ApplyTransform(StrUpper(this.workingText))\n\t}\n\tLowerCase() {\n\t\tthis.ApplyTransform(StrLower(this.workingText))\n\t}\n\tProperCase() {\n\t\tthis.ApplyTransform(StrTitle(this.workingText))\n\t}\n\tApplyTransform(newText) {\n\t\tif (this.historyIndex < this.history.Length - 1) {\n\t\t\tthis.history.RemoveAt(this.historyIndex + 1)\n\t\t}\n\t\tthis.history.Push(this.workingText)\n\t\tthis.historyIndex += 1\n\t\tthis.workingText := newText\n\t\tthis.edit.Update(newText)\n\t\tA_Clipboard := newText\n\t\tthis.UpdateHistoryButtons()\n\t\tthis.UpdateStatus()\n\t}\n\tUndo() {\n\t\tif (this.historyIndex > 0) {\n\t\t\tthis.historyIndex -= 1\n\t\t\tthis.workingText := this.history[this.historyIndex]\n\t\t\tthis.edit.Update(this.workingText)\n\t\t\tA_Clipboard := this.workingText\n\t\t\tthis.UpdateHistoryButtons()\n\t\t\tthis.UpdateStatus()\n\t\t}\n\t}\n\tRedo() {\n\t\tif (this.historyIndex < this.history.Length - 1) {\n\t\t\tthis.historyIndex += 1\n\t\t\tthis.workingText := this.history[this.historyIndex]\n\t\t\tthis.edit.Update(this.workingText)\n\t\t\tA_Clipboard := this.workingText\n\t\t\tthis.UpdateHistoryButtons()\n\t\t\tthis.UpdateStatus()\n\t\t}\n\t}\n\tUpdateHistoryButtons() {\n\t\tGuiControl(\"Button\", \"UndoBtn\", this.historyIndex > 0 ? \"Enable\" : \"Disable\")\n\t\tGuiControl(\"Button\", \"RedoBtn\", this.historyIndex < this.history.Length - 1 ? \"Enable\" : \"Disable\")\n\t}\n\tUpdateStatus() {\n\t\tchars := StrLen(this.workingText)\n\t\tlines := StrSplit(this.workingText, \"`n\").Length\n\t\tGuiControl(\"Text\", this.status, \"Chars: \" chars \" | Lines: \" lines)\n\t}\n\tOnClose() {\n\t\tExitApp()\n\t}\n\tUpperCase.Bind(this) {\n\t\tthis.UpperCase()\n\t}\n\tLowerCase.Bind(this) {\n\t\tthis.LowerCase()\n\t}\n\tProperCase.Bind(this) {\n\t\tthis.ProperCase()\n\t}\n\tUndo.Bind(this) {\n\t\tthis.Undo()\n\t}\n\tRedo.Bind(this) {\n\t\tthis.Redo()\n\t}\n\t__Delete() {\n\t\tGuiDestroy(this.gui)\n\t}\n}\n",
   "analysis": "**Mistral Medium 3.5** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **45/100**.",
-  "rank": 67,
+  "rank": 71,
   "prev": "Hunyuan_A13B",
   "next": "Grok_4-3_Test"
  },
@@ -4481,7 +4701,7 @@
    "recovered": true
   },
   "analysis": "**Grok 4.3** fails at the parse gate: `This parameter declaration conflicts with an existing parameter.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 2/3 Str transforms, no undo. Static score **41/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Grok 4.3 **recovered** \u2014 the retry builds a working window (visual 4/20).",
-  "rank": 68,
+  "rank": 72,
   "prev": "Mistral_Medium_3-5",
   "next": "Command_R_Plus"
  },
@@ -4549,7 +4769,7 @@
    "recovered": false
   },
   "analysis": "**Command R+** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **38/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`Warning: This local variable appears to never be assigned a `).",
-  "rank": 69,
+  "rank": 73,
   "prev": "Grok_4-3_Test",
   "next": "MiniMax2"
  },
@@ -4617,7 +4837,7 @@
    "recovered": true
   },
   "analysis": "**MiniMax 2** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 0/3 Str transforms, no undo. Static score **38/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, MiniMax 2 **recovered** \u2014 the retry builds a working window (visual 4/20).",
-  "rank": 70,
+  "rank": 74,
   "prev": "Command_R_Plus",
   "next": "Cognito_v2"
  },
@@ -4672,7 +4892,7 @@
   "screenshot": null,
   "code": "#Requires AutoHotkey v2.1-alpha.16\n#SingleInstance Force\n\nmyEditor := EditorGUI()\n\nclass EditorGUI {\n    __New() {\n        this.gui := Gui()\n        this.gui.Title := \"Clipboard Text Editor\"\n        this.gui.OnEvent(\"Close\", this.SaveOnClose.Bind(this))\n        \n        this.edit := this.gui.Add(\"Edit\", \"w400 h300\")\n        this.upperBtn := this.gui.Add(\"Button\", \"g\", \"Uppercase\")\n        this.lowerBtn := this.gui.Add(\"Button\", \"g\", \"Lowercase\")\n        this.titleBtn := this.gui.Add(\"Button\", \"g\", \"Title Case\")\n        this.saveBtn := this.gui.Add(\"Button\", \"g\", \"Save to Clipboard\")\n        \n        this.upperBtn.OnEvent(\"Click\", this.ChangeToUpper.Bind(this))\n        this.lowerBtn.OnEvent(\"Click\", this.ChangeToLower.Bind(this))\n        this.titleBtn.OnEvent(\"Click\", this.ChangeToTitleCase.Bind(this))\n        this.saveBtn.OnEvent(\"Click\", this.SaveToClipboard.Bind(this))\n        \n        this.LoadClipboardContent()\n        this.gui.Show()\n    }\n\n    LoadClipboardContent() {\n        try {\n            this.clipContent := Clipboard\n            this.edit.Value := this.clipContent\n        } catch e as Error {\n            MsgBox(e.Message)\n        }\n    }\n\n    SaveToClipboard() {\n        try {\n            Clipboard := this.edit.Value\n            MsgBox(\"Content saved to clipboard!\")\n        } catch e as Error {\n            MsgBox(\"Error saving to clipboard: \" e.Message)\n        }\n    }\n\n    SaveOnClose() {\n        if (Clipboard != this.edit.Value) {\n            try {\n                Clipboard := this.edit.Value\n            } catch e as Error {\n                MsgBox(\"Error saving on close: \" e.Message)\n            }\n        }\n    }\n\n    ChangeToUpper(*) {\n        this.edit.Value := StrUpper(this.edit.Value)\n    }\n\n    ChangeToLower(*) {\n        this.edit.Value := StrLower(this.edit.Value)\n    }\n\n    ChangeToTitleCase(*) {\n        this.edit.Value := this.TitleCase(this.edit.Value)\n    }\n\n    TitleCase(text) {\n        return RegexReplace(\n            RegexReplace(text, \"(?<=^|\\s)\\w\", m => StrUpper(m)), \n            \"(?<=^|\\s)\\w+(?= |$)\", \n            m => StrLower(m)\n        )\n    }\n}",
   "analysis": "**Cognito v2** fails at the parse gate: `Warning: This local variable appears to never be assigned a value.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **34/100**.",
-  "rank": 71,
+  "rank": 75,
   "prev": "MiniMax2",
   "next": "GLM_4-6"
  },
@@ -4740,7 +4960,7 @@
    "recovered": true
   },
   "analysis": "**GLM-4.6** fails at the parse gate: `This Class cannot be used as an output variable.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **34/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, GLM-4.6 **recovered** \u2014 the retry builds a working window (visual 4/20).",
-  "rank": 72,
+  "rank": 76,
   "prev": "Cognito_v2",
   "next": "DeepSeek_Web"
  },
@@ -4808,7 +5028,7 @@
    "recovered": false
   },
   "analysis": "**DeepSeek (Web)** fails at the parse gate: `This Class cannot be used as an output variable.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **33/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`Parameter #1 of Gui.Control.Prototype.Value.Set is invalid.`).",
-  "rank": 73,
+  "rank": 77,
   "prev": "GLM_4-6",
   "next": "GPT-5-4-mini"
  },
@@ -4876,7 +5096,7 @@
    "recovered": true
   },
   "analysis": "**GPT-5.4 mini** fails at the parse gate: `Missing comma`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **32/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, GPT-5.4 mini **recovered** \u2014 the retry builds a working window (visual 4/20).",
-  "rank": 74,
+  "rank": 78,
   "prev": "DeepSeek_Web",
   "next": "Reka_Flash_3"
  },
@@ -4944,7 +5164,7 @@
    "recovered": false
   },
   "analysis": "**Reka Flash 3** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 0/3 Str transforms, undo+redo. Static score **18/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`runtime exit 0`).",
-  "rank": 75,
+  "rank": 79,
   "prev": "GPT-5-4-mini",
   "next": null
  },

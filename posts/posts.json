@@ -1,257 +1,283 @@
 [
-  {
-    "slug": "ahk-eval-round-3",
-    "title": "AHK-Eval Round 3: Self-Tests, and What Happens When the Harness Is Real",
-    "date": "2026-07-02",
-    "description": "Two final harness arms: models writing their own test cases lift the field +5.4 tasks (GPT-5.5 posts the first non-Fable perfect run; one model regresses on its own wrong tests) \u2014 and headless Claude Code turns Opus 4.8 and Sonnet 4.6 from 29 and 25 cold into 36/36 and 35/36, at eleven cents a task.",
-    "tags": [
-      "LLMs",
-      "Benchmark",
-      "AHK-Eval",
-      "Harness",
-      "Claude Code"
-    ],
-    "path": "posts/ahk-eval-round-3.md"
-  },
-  {
-    "slug": "ahk-eval-context-arms",
-    "title": "AHK-Eval Round 2: What a Coding Harness Is Actually Worth",
-    "date": "2026-07-02",
-    "description": "The same 36 tasks and 181 hidden tests, re-run with two harness arms across all 13 models: a rules-card system prompt moves the field +0.4 tasks and hurts as many models as it helps; one round of execution feedback lifts every single model (+3.3 mean) and carries Fable 5 to the suite's first perfect 36/36 \u2014 after it wrote its favorite trap yet again.",
-    "tags": [
-      "LLMs",
-      "Benchmark",
-      "AHK-Eval",
-      "Harness"
-    ],
-    "path": "posts/ahk-eval-context-arms.md"
-  },
-  {
-    "slug": "ahk-eval-benchmark",
-    "title": "AHK-Eval: 36 Tasks, 181 Hidden Tests, 13 Models",
-    "date": "2026-06-11",
-    "description": "A HumanEval-style AHK v2 benchmark: 36 independent functions across six categories and three difficulty tiers, graded against hidden test cases. GPT-5.5 lands one task from perfect; Claude Fable 5 \u2014 the model that built the benchmark, run cold over the bare API \u2014 takes second at 34/36 and falls into its own favorite trap.",
-    "tags": [
-      "LLMs",
-      "Benchmark",
-      "OpenRouter",
-      "AHK-Eval"
-    ],
-    "path": "posts/ahk-eval-benchmark.md"
-  },
-  {
-    "slug": "fable-5-clipboard-sweep",
-    "title": "Claude Fable 5: Five Entries, Five Windows",
-    "date": "2026-06-11",
-    "description": "Claude Fable 5 joins the clipboard-formatter board with five entries under five harness configs \u2014 and sweeps both gates: all five parse, all five run. Two ship fully dark 20/20 windows; the bare no-tooling entry is the leanest runner on the board at 40 lines. Updated July 1: a sixth run under the full live harness clears the whole checklist at 98 and takes rank 1 on the board.",
-    "tags": [
-      "LLMs",
-      "Claude",
-      "Fable 5",
-      "Benchmark"
-    ],
-    "path": "posts/fable-5-clipboard-sweep.md"
-  },
-  {
-    "slug": "llm-toolkit-benchmark",
-    "title": "The Clipboard Toolkit: 11 Coding Models, 12 Transforms",
-    "date": "2026-06-02",
-    "description": "A second, deliberately discriminating AHK v2 benchmark: twelve independent clipboard text transforms, graded functionally against hidden test cases. The top-11 coding models spread from 3/12 to 11/12 \u2014 with the best logic in the field (Opus 4.8) hung on a crashing GUI.",
-    "tags": [
-      "LLMs",
-      "Benchmark",
-      "OpenRouter",
-      "Coding"
-    ],
-    "path": "posts/llm-toolkit-benchmark.md"
-  },
-  {
-    "slug": "llm-clipboard-benchmark",
-    "title": "One Prompt, 77 Models: An AHK v2 Clipboard-Formatter Benchmark",
-    "date": "2026-06-01",
-    "description": "77 LLMs answered the same strict AHK v2 prompt, graded on two signals \u2014 does it parse, and does it actually run \u2014 against the alpha.30 fork, with per-model pages and live OpenRouter sweeps. Only 30 of the 74 that returned code build a working window \u2014 Claude Fable 5's five entries all do.",
-    "tags": [
-      "LLMs",
-      "Benchmark",
-      "OpenRouter",
-      "GUI"
-    ],
-    "path": "posts/llm-clipboard-benchmark.md"
-  },
-  {
-    "slug": "opus-4.8-examples",
-    "title": "Claude Opus 4.8: AHK v2 Output Examples",
-    "date": "2026-05-29",
-    "description": "Real, unedited AHK v2 outputs from Claude Opus 4.8 -- idiomatic Map() usage, correct event-callback binding, validated properties, typed error handling, and v2.1 alpha struct overlays. Includes a runnable clipboard-history example.",
-    "tags": [
-      "LLMs",
-      "Claude",
-      "Opus 4.8",
-      "Examples"
-    ],
-    "path": "posts/opus-4.8-examples.md"
-  },
-  {
-    "slug": "cloudahk",
-    "title": "CloudAHK: Remote AHK v2 Execution via REST API",
-    "date": "2026-04-14",
-    "description": "A FastAPI service for executing AHK v2 scripts over HTTP with an ANTLR parser endpoint. Includes an AHK v2 client class and template system.",
-    "tags": [
-      "CloudAHK",
-      "API",
-      "FastAPI",
-      "ANTLR"
-    ],
-    "path": "posts/cloudahk.md"
-  },
-  {
-    "slug": "alpha-tricks",
-    "title": "AHK v2.1 Alpha Tricks: Unions, Arenas, and Prototype Black Magic",
-    "date": "2026-04-14",
-    "description": "Advanced patterns combining struct unions, typed callbacks, DefineProp, and Struct.At -- IEEE 754 dissection, ring buffers, arena allocators, Vec2 math, and dynamic class factories.",
-    "tags": [
-      "Alpha Release",
-      "Structs",
-      "Advanced",
-      "DefineProp"
-    ],
-    "path": "posts/alpha-tricks.md"
-  },
-  {
-    "slug": "alpha26-performance",
-    "title": "AHK v2.1-alpha.26: Memory Optimization and Modal Dialog Fixes",
-    "date": "2026-04-14",
-    "description": "Struct memory co-allocation for faster construction, array alignment fixes, keyboard shortcuts in modal dialogs, and WM_CLOSE reload.",
-    "tags": [
-      "Alpha Release",
-      "Structs",
-      "Performance",
-      "Bug Fixes"
-    ],
-    "path": "posts/alpha26-performance.md"
-  },
-  {
-    "slug": "alpha25-ahk-opt",
-    "title": "AHK v2.1-alpha.25: Inline Window Options and Stability Fixes",
-    "date": "2026-04-14",
-    "description": "The ahk_opt WinTitle criterion for per-call window search options, hotkey behavior fixes, and module system improvements.",
-    "tags": [
-      "Alpha Release",
-      "WinTitle",
-      "Hotkeys",
-      "Modules"
-    ],
-    "path": "posts/alpha25-ahk-opt.md"
-  },
-  {
-    "slug": "alpha24-callbacks-unions",
-    "title": "AHK v2.1-alpha.24: Typed Callbacks and C-Style Unions",
-    "date": "2026-04-13",
-    "description": "CallbackCreate with typed parameter arrays for float support, DefineProp Offset for union-like memory overlays, and wildcard re-exports.",
-    "tags": [
-      "Alpha Release",
-      "Callbacks",
-      "Structs",
-      "Modules"
-    ],
-    "path": "posts/alpha24-callbacks-unions.md"
-  },
-  {
-    "slug": "alpha23-numeric-types",
-    "title": "AHK v2.1-alpha.23: Numeric Types and Struct Arrays",
-    "date": "2026-04-13",
-    "description": "Dedicated numeric type classes (Int32, Float32), structured arrays with StructClass[N] syntax, negative indexing, and Size fix.",
-    "tags": [
-      "Alpha Release",
-      "Structs",
-      "Arrays",
-      "Numeric Types"
-    ],
-    "path": "posts/alpha23-numeric-types.md"
-  },
-  {
-    "slug": "alpha22-structs",
-    "title": "AHK v2.1-alpha.22: The Struct Revolution",
-    "date": "2026-04-12",
-    "description": "The native Struct keyword with typed fields, auto-generated .Ptr classes, DefineProp() function, Type() unset, and Win32 API integration.",
-    "tags": [
-      "Alpha Release",
-      "Structs",
-      "Win32 API",
-      "DefineProp"
-    ],
-    "path": "posts/alpha22-structs.md"
-  },
-  {
-    "slug": "oop-in-llms",
-    "title": "Object-Oriented Programming in LLMs",
-    "date": "2025-12-15",
-    "description": "How large language models understand and generate OOP code, patterns they excel at, and leveraging their capabilities for better AHK v2 class design.",
-    "tags": [
-      "OOP",
-      "LLMs",
-      "Classes"
-    ],
-    "path": "posts/oop-in-llms.md"
-  },
-  {
-    "slug": "oop-guis",
-    "title": "Building OOP GUIs in AutoHotkey v2",
-    "date": "2025-12-14",
-    "description": "A comprehensive guide to creating maintainable, reusable GUI applications using object-oriented principles and component architecture.",
-    "tags": [
-      "GUI",
-      "OOP",
-      "Components"
-    ],
-    "path": "posts/oop-guis.md"
-  },
-  {
-    "slug": "darkmode-guis",
-    "title": "Creating Dark Mode GUIs in AHK v2",
-    "date": "2025-12-13",
-    "description": "Step-by-step tutorial on implementing native dark mode theming using DllCall and Windows API integration.",
-    "tags": [
-      "GUI",
-      "Dark Mode",
-      "Windows API"
-    ],
-    "path": "posts/darkmode-guis.md"
-  },
-  {
-    "slug": "tapholdmanager",
-    "title": "Customizing TapHoldManager.ahk",
-    "date": "2025-12-12",
-    "description": "Master the TapHoldManager library for creating sophisticated key combinations with tap, hold, multi-tap, and tap-and-hold behaviors.",
-    "tags": [
-      "Hotkeys",
-      "Libraries",
-      "Advanced"
-    ],
-    "path": "posts/tapholdmanager.md"
-  },
-  {
-    "slug": "prompt-engineering-ahk",
-    "title": "Prompt Engineering for AHK v2 Code Generation",
-    "date": "2025-12-11",
-    "description": "Craft effective prompts to get high-quality AutoHotkey v2 code from LLMs with templates, anti-patterns, and validation techniques.",
-    "tags": [
-      "Prompts",
-      "LLMs",
-      "Best Practices"
-    ],
-    "path": "posts/prompt-engineering-ahk.md"
-  },
-  {
-    "slug": "example-post",
-    "title": "Using AutoHotkey v2 with Coding Agents and LLMs",
-    "date": "2025-11-17",
-    "description": "A lightweight workflow for combining AutoHotkey v2 scripts with GitHub Copilot, ChatGPT, and other coding agents.",
-    "tags": [
-      "AutoHotkey v2",
-      "LLMs",
-      "Workflows"
-    ],
-    "path": "posts/example-post.md"
-  }
+ {
+  "slug": "hy3-clipboard-bench",
+  "title": "Tencent Hy3: One Option String From a Window",
+  "date": "2026-07-07",
+  "description": "Tencent's 295B MoE joins the clipboard-formatter board on both its paid and free endpoints: a +41-point generational jump over Hunyuan A13B, a static score of 87 tying GLM-4.7 and GPT-OSS 120B \u2014 and two startup crashes, each exactly one corrected line away from a working window. Compared against the open MoE cohort and the closed budget tier at the same price.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "Tencent",
+   "Hy3"
+  ],
+  "path": "posts/hy3-clipboard-bench.md"
+ },
+ {
+  "slug": "laguna-xs-clipboard-bench",
+  "title": "Poolside Laguna XS 2.1: The Coding Agent That Writes AHK v1",
+  "date": "2026-07-07",
+  "description": "The board's first Poolside entry: a 33B-A3B coding-agent model that fails the parse gate on both endpoints \u2014 not with v2 mistakes, but with a confident v1/JavaScript hybrid dialect. Its static 50 still tops the sub-50B open class and beats closed GPT-5.4 mini by 18 points, while GPT-5.4 nano proves small-and-cheap can ship a running window.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "Poolside",
+   "Laguna"
+  ],
+  "path": "posts/laguna-xs-clipboard-bench.md"
+ },
+ {
+  "slug": "ahk-eval-round-3",
+  "title": "AHK-Eval Round 3: Self-Tests, and What Happens When the Harness Is Real",
+  "date": "2026-07-02",
+  "description": "Two final harness arms: models writing their own test cases lift the field +5.4 tasks (GPT-5.5 posts the first non-Fable perfect run; one model regresses on its own wrong tests) \u2014 and headless Claude Code turns Opus 4.8 and Sonnet 4.6 from 29 and 25 cold into 36/36 and 35/36, at eleven cents a task.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "Harness",
+   "Claude Code"
+  ],
+  "path": "posts/ahk-eval-round-3.md"
+ },
+ {
+  "slug": "ahk-eval-context-arms",
+  "title": "AHK-Eval Round 2: What a Coding Harness Is Actually Worth",
+  "date": "2026-07-02",
+  "description": "The same 36 tasks and 181 hidden tests, re-run with two harness arms across all 13 models: a rules-card system prompt moves the field +0.4 tasks and hurts as many models as it helps; one round of execution feedback lifts every single model (+3.3 mean) and carries Fable 5 to the suite's first perfect 36/36 \u2014 after it wrote its favorite trap yet again.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "Harness"
+  ],
+  "path": "posts/ahk-eval-context-arms.md"
+ },
+ {
+  "slug": "ahk-eval-benchmark",
+  "title": "AHK-Eval: 36 Tasks, 181 Hidden Tests, 13 Models",
+  "date": "2026-06-11",
+  "description": "A HumanEval-style AHK v2 benchmark: 36 independent functions across six categories and three difficulty tiers, graded against hidden test cases. GPT-5.5 lands one task from perfect; Claude Fable 5 \u2014 the model that built the benchmark, run cold over the bare API \u2014 takes second at 34/36 and falls into its own favorite trap.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "OpenRouter",
+   "AHK-Eval"
+  ],
+  "path": "posts/ahk-eval-benchmark.md"
+ },
+ {
+  "slug": "fable-5-clipboard-sweep",
+  "title": "Claude Fable 5: Five Entries, Five Windows",
+  "date": "2026-06-11",
+  "description": "Claude Fable 5 joins the clipboard-formatter board with five entries under five harness configs \u2014 and sweeps both gates: all five parse, all five run. Two ship fully dark 20/20 windows; the bare no-tooling entry is the leanest runner on the board at 40 lines. Updated July 1: a sixth run under the full live harness clears the whole checklist at 98 and takes rank 1 on the board.",
+  "tags": [
+   "LLMs",
+   "Claude",
+   "Fable 5",
+   "Benchmark"
+  ],
+  "path": "posts/fable-5-clipboard-sweep.md"
+ },
+ {
+  "slug": "llm-toolkit-benchmark",
+  "title": "The Clipboard Toolkit: 11 Coding Models, 12 Transforms",
+  "date": "2026-06-02",
+  "description": "A second, deliberately discriminating AHK v2 benchmark: twelve independent clipboard text transforms, graded functionally against hidden test cases. The top-11 coding models spread from 3/12 to 11/12 \u2014 with the best logic in the field (Opus 4.8) hung on a crashing GUI.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "OpenRouter",
+   "Coding"
+  ],
+  "path": "posts/llm-toolkit-benchmark.md"
+ },
+ {
+  "slug": "llm-clipboard-benchmark",
+  "title": "One Prompt, 77 Models: An AHK v2 Clipboard-Formatter Benchmark",
+  "date": "2026-06-01",
+  "description": "77 LLMs answered the same strict AHK v2 prompt, graded on two signals \u2014 does it parse, and does it actually run \u2014 against the alpha.30 fork, with per-model pages and live OpenRouter sweeps. Only 30 of the 74 that returned code build a working window \u2014 Claude Fable 5's five entries all do.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "OpenRouter",
+   "GUI"
+  ],
+  "path": "posts/llm-clipboard-benchmark.md"
+ },
+ {
+  "slug": "opus-4.8-examples",
+  "title": "Claude Opus 4.8: AHK v2 Output Examples",
+  "date": "2026-05-29",
+  "description": "Real, unedited AHK v2 outputs from Claude Opus 4.8 -- idiomatic Map() usage, correct event-callback binding, validated properties, typed error handling, and v2.1 alpha struct overlays. Includes a runnable clipboard-history example.",
+  "tags": [
+   "LLMs",
+   "Claude",
+   "Opus 4.8",
+   "Examples"
+  ],
+  "path": "posts/opus-4.8-examples.md"
+ },
+ {
+  "slug": "cloudahk",
+  "title": "CloudAHK: Remote AHK v2 Execution via REST API",
+  "date": "2026-04-14",
+  "description": "A FastAPI service for executing AHK v2 scripts over HTTP with an ANTLR parser endpoint. Includes an AHK v2 client class and template system.",
+  "tags": [
+   "CloudAHK",
+   "API",
+   "FastAPI",
+   "ANTLR"
+  ],
+  "path": "posts/cloudahk.md"
+ },
+ {
+  "slug": "alpha-tricks",
+  "title": "AHK v2.1 Alpha Tricks: Unions, Arenas, and Prototype Black Magic",
+  "date": "2026-04-14",
+  "description": "Advanced patterns combining struct unions, typed callbacks, DefineProp, and Struct.At -- IEEE 754 dissection, ring buffers, arena allocators, Vec2 math, and dynamic class factories.",
+  "tags": [
+   "Alpha Release",
+   "Structs",
+   "Advanced",
+   "DefineProp"
+  ],
+  "path": "posts/alpha-tricks.md"
+ },
+ {
+  "slug": "alpha26-performance",
+  "title": "AHK v2.1-alpha.26: Memory Optimization and Modal Dialog Fixes",
+  "date": "2026-04-14",
+  "description": "Struct memory co-allocation for faster construction, array alignment fixes, keyboard shortcuts in modal dialogs, and WM_CLOSE reload.",
+  "tags": [
+   "Alpha Release",
+   "Structs",
+   "Performance",
+   "Bug Fixes"
+  ],
+  "path": "posts/alpha26-performance.md"
+ },
+ {
+  "slug": "alpha25-ahk-opt",
+  "title": "AHK v2.1-alpha.25: Inline Window Options and Stability Fixes",
+  "date": "2026-04-14",
+  "description": "The ahk_opt WinTitle criterion for per-call window search options, hotkey behavior fixes, and module system improvements.",
+  "tags": [
+   "Alpha Release",
+   "WinTitle",
+   "Hotkeys",
+   "Modules"
+  ],
+  "path": "posts/alpha25-ahk-opt.md"
+ },
+ {
+  "slug": "alpha24-callbacks-unions",
+  "title": "AHK v2.1-alpha.24: Typed Callbacks and C-Style Unions",
+  "date": "2026-04-13",
+  "description": "CallbackCreate with typed parameter arrays for float support, DefineProp Offset for union-like memory overlays, and wildcard re-exports.",
+  "tags": [
+   "Alpha Release",
+   "Callbacks",
+   "Structs",
+   "Modules"
+  ],
+  "path": "posts/alpha24-callbacks-unions.md"
+ },
+ {
+  "slug": "alpha23-numeric-types",
+  "title": "AHK v2.1-alpha.23: Numeric Types and Struct Arrays",
+  "date": "2026-04-13",
+  "description": "Dedicated numeric type classes (Int32, Float32), structured arrays with StructClass[N] syntax, negative indexing, and Size fix.",
+  "tags": [
+   "Alpha Release",
+   "Structs",
+   "Arrays",
+   "Numeric Types"
+  ],
+  "path": "posts/alpha23-numeric-types.md"
+ },
+ {
+  "slug": "alpha22-structs",
+  "title": "AHK v2.1-alpha.22: The Struct Revolution",
+  "date": "2026-04-12",
+  "description": "The native Struct keyword with typed fields, auto-generated .Ptr classes, DefineProp() function, Type() unset, and Win32 API integration.",
+  "tags": [
+   "Alpha Release",
+   "Structs",
+   "Win32 API",
+   "DefineProp"
+  ],
+  "path": "posts/alpha22-structs.md"
+ },
+ {
+  "slug": "oop-in-llms",
+  "title": "Object-Oriented Programming in LLMs",
+  "date": "2025-12-15",
+  "description": "How large language models understand and generate OOP code, patterns they excel at, and leveraging their capabilities for better AHK v2 class design.",
+  "tags": [
+   "OOP",
+   "LLMs",
+   "Classes"
+  ],
+  "path": "posts/oop-in-llms.md"
+ },
+ {
+  "slug": "oop-guis",
+  "title": "Building OOP GUIs in AutoHotkey v2",
+  "date": "2025-12-14",
+  "description": "A comprehensive guide to creating maintainable, reusable GUI applications using object-oriented principles and component architecture.",
+  "tags": [
+   "GUI",
+   "OOP",
+   "Components"
+  ],
+  "path": "posts/oop-guis.md"
+ },
+ {
+  "slug": "darkmode-guis",
+  "title": "Creating Dark Mode GUIs in AHK v2",
+  "date": "2025-12-13",
+  "description": "Step-by-step tutorial on implementing native dark mode theming using DllCall and Windows API integration.",
+  "tags": [
+   "GUI",
+   "Dark Mode",
+   "Windows API"
+  ],
+  "path": "posts/darkmode-guis.md"
+ },
+ {
+  "slug": "tapholdmanager",
+  "title": "Customizing TapHoldManager.ahk",
+  "date": "2025-12-12",
+  "description": "Master the TapHoldManager library for creating sophisticated key combinations with tap, hold, multi-tap, and tap-and-hold behaviors.",
+  "tags": [
+   "Hotkeys",
+   "Libraries",
+   "Advanced"
+  ],
+  "path": "posts/tapholdmanager.md"
+ },
+ {
+  "slug": "prompt-engineering-ahk",
+  "title": "Prompt Engineering for AHK v2 Code Generation",
+  "date": "2025-12-11",
+  "description": "Craft effective prompts to get high-quality AutoHotkey v2 code from LLMs with templates, anti-patterns, and validation techniques.",
+  "tags": [
+   "Prompts",
+   "LLMs",
+   "Best Practices"
+  ],
+  "path": "posts/prompt-engineering-ahk.md"
+ },
+ {
+  "slug": "example-post",
+  "title": "Using AutoHotkey v2 with Coding Agents and LLMs",
+  "date": "2025-11-17",
+  "description": "A lightweight workflow for combining AutoHotkey v2 scripts with GitHub Copilot, ChatGPT, and other coding agents.",
+  "tags": [
+   "AutoHotkey v2",
+   "LLMs",
+   "Workflows"
+  ],
+  "path": "posts/example-post.md"
+ }
 ]
