@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-07T07:12:24.381Z",
+  "lastUpdated": "2026-07-07T12:49:52.005Z",
   "totalScripts": 374,
   "categories": [
     "GUI",
@@ -7193,13 +7193,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-06-24T08:09:49Z",
+      "lastModified": "2026-07-07T10:59:29Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
       "forks": 0,
       "owner": "von110187",
-      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 6/24/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 7/7/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
     },
     {
       "id": "github-825062151",
@@ -7493,13 +7493,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T19:00:34Z",
-      "lastModified": "2026-07-06T22:18:27Z",
+      "lastModified": "2026-07-07T10:59:16Z",
       "source": "github",
       "url": "https://github.com/Xofredlum/FreDock",
       "stars": 0,
       "forks": 0,
       "owner": "Xofredlum",
-      "code": "```cpp\n; ============================================\n; Repository: Xofredlum/FreDock\n; ============================================\n; URL: https://github.com/Xofredlum/FreDock\n; Stars: 0 | Forks: 0\n; Last Updated: 7/6/2026\n; License: MIT License\n;\n; Description:\n; A lightweight, portable clipboard companion for Windows built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xofredlum/FreDock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xofredlum/FreDock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FreDock>\n\n; Example initialization\nclass FredockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FreDock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FredockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Xofredlum/FreDock\n; ============================================\n; URL: https://github.com/Xofredlum/FreDock\n; Stars: 0 | Forks: 0\n; Last Updated: 7/7/2026\n; License: MIT License\n;\n; Description:\n; A lightweight, portable clipboard companion for Windows built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xofredlum/FreDock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xofredlum/FreDock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FreDock>\n\n; Example initialization\nclass FredockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FreDock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FredockExample()\n```"
     }
   ]
 }
