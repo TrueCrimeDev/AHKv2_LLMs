@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-08T06:51:07.768Z",
-  "totalScripts": 375,
+  "lastUpdated": "2026-07-08T12:35:15.238Z",
+  "totalScripts": 377,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4482,13 +4482,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T11:13:40Z",
-      "lastModified": "2026-05-16T13:02:12Z",
+      "lastModified": "2026-07-08T11:29:20Z",
       "source": "github",
       "url": "https://github.com/mesutakcan/CtrlToolTip",
       "stars": 1,
       "forks": 0,
       "owner": "mesutakcan",
-      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 5/16/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 7/8/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
     },
     {
       "id": "github-1199400681",
@@ -7193,13 +7193,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-07-07T15:41:27Z",
+      "lastModified": "2026-07-08T09:58:57Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
       "forks": 0,
       "owner": "von110187",
-      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 7/7/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 7/8/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
     },
     {
       "id": "github-825062151",
@@ -7525,6 +7525,50 @@
       "forks": 0,
       "owner": "supersillysage",
       "code": "```cpp\n; ============================================\n; Repository: supersillysage/sageSanity\n; ============================================\n; URL: https://github.com/supersillysage/sageSanity\n; Stars: 1 | Forks: 0\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/supersillysage/sageSanity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/supersillysage/sageSanity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sageSanity>\n\n; Example initialization\nclass SagesanityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sageSanity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SagesanityExample()\n```"
+    },
+    {
+      "id": "github-998124418",
+      "title": "AetherGazer-SemiAuto-AHK",
+      "category": "GitHub Repository",
+      "description": "深空之眼 (Aether Gazer) AutoHotkey v2 半自動戰鬥腳本：自動普攻、連招、FindText 圖像辨識、視窗調整與自動更新檢查",
+      "tags": [
+        "github",
+        "repository",
+        "aether-gazer",
+        "autohotkey",
+        "autohotkey-v2",
+        "deep-space-gazer",
+        "findtext",
+        "game-automation"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-06-07T23:06:17Z",
+      "lastModified": "2026-07-08T11:28:01Z",
+      "source": "github",
+      "url": "https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK",
+      "stars": 4,
+      "forks": 0,
+      "owner": "Sid-1996",
+      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/AetherGazer-SemiAuto-AHK\n; ============================================\n; URL: https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK\n; Stars: 4 | Forks: 0\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; 深空之眼 (Aether Gazer) AutoHotkey v2 半自動戰鬥腳本：自動普攻、連招、FindText 圖像辨識、視窗調整與自動更新檢查\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AetherGazer-SemiAuto-AHK>\n\n; Example initialization\nclass AethergazerSemiautoAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AetherGazer-SemiAuto-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AethergazerSemiautoAhkExample()\n```"
+    },
+    {
+      "id": "github-1293027184",
+      "title": "per-monitor-alt-tab",
+      "category": "GitHub Repository",
+      "description": "Override Windows Alt+Tab to cycle only windows on the current monitor (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-08T03:49:46Z",
+      "lastModified": "2026-07-08T11:41:46Z",
+      "source": "github",
+      "url": "https://github.com/phuongdmp7/per-monitor-alt-tab",
+      "stars": 0,
+      "forks": 0,
+      "owner": "phuongdmp7",
+      "code": "```cpp\n; ============================================\n; Repository: phuongdmp7/per-monitor-alt-tab\n; ============================================\n; URL: https://github.com/phuongdmp7/per-monitor-alt-tab\n; Stars: 0 | Forks: 0\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; Override Windows Alt+Tab to cycle only windows on the current monitor (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/phuongdmp7/per-monitor-alt-tab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/phuongdmp7/per-monitor-alt-tab/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <per-monitor-alt-tab>\n\n; Example initialization\nclass PerMonitorAltTabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"per-monitor-alt-tab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PerMonitorAltTabExample()\n```"
     }
   ]
 }
