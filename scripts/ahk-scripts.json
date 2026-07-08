@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-07T18:41:26.830Z",
-  "totalScripts": 374,
+  "lastUpdated": "2026-07-08T00:32:15.577Z",
+  "totalScripts": 375,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -7493,13 +7493,38 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T19:00:34Z",
-      "lastModified": "2026-07-07T14:35:26Z",
+      "lastModified": "2026-07-07T23:05:10Z",
       "source": "github",
       "url": "https://github.com/Xofredlum/FreDock",
       "stars": 0,
       "forks": 0,
       "owner": "Xofredlum",
       "code": "```cpp\n; ============================================\n; Repository: Xofredlum/FreDock\n; ============================================\n; URL: https://github.com/Xofredlum/FreDock\n; Stars: 0 | Forks: 0\n; Last Updated: 7/7/2026\n; License: MIT License\n;\n; Description:\n; A lightweight, portable clipboard companion for Windows built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xofredlum/FreDock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xofredlum/FreDock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FreDock>\n\n; Example initialization\nclass FredockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FreDock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FredockExample()\n```"
+    },
+    {
+      "id": "github-1291645159",
+      "title": "sageSanity",
+      "category": "GitHub Repository",
+      "description": "autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk",
+      "tags": [
+        "github",
+        "repository",
+        "afk",
+        "ahk",
+        "animal-hospital",
+        "auto",
+        "autohotkey",
+        "automation"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-07T01:32:32Z",
+      "lastModified": "2026-07-07T23:11:55Z",
+      "source": "github",
+      "url": "https://github.com/supersillysage/sageSanity",
+      "stars": 1,
+      "forks": 0,
+      "owner": "supersillysage",
+      "code": "```cpp\n; ============================================\n; Repository: supersillysage/sageSanity\n; ============================================\n; URL: https://github.com/supersillysage/sageSanity\n; Stars: 1 | Forks: 0\n; Last Updated: 7/7/2026\n; License: MIT License\n;\n; Description:\n; autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/supersillysage/sageSanity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/supersillysage/sageSanity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sageSanity>\n\n; Example initialization\nclass SagesanityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sageSanity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SagesanityExample()\n```"
     }
   ]
 }
