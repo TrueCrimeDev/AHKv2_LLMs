@@ -3,7 +3,7 @@
   "slug": "hy3-clipboard-bench",
   "title": "Tencent Hy3: One Option String From a Window",
   "date": "2026-07-07",
-  "description": "Tencent's 295B MoE joins the clipboard-formatter board on both its paid and free endpoints: a +41-point generational jump over Hunyuan A13B, a static score of 87 tying GLM-4.7 and GPT-OSS 120B \u2014 and two startup crashes, each exactly one corrected line away from a working window. Compared against the open MoE cohort and the closed budget tier at the same price.",
+  "description": "Tencent's 295B MoE joins the clipboard-formatter board on both its paid and free endpoints: a +41-point generational jump over Hunyuan A13B, a static score of 87 tying GLM-4.7 and GPT-OSS 120B \u2014 and two startup crashes, each exactly one corrected line away from a working window. Compared against the open MoE cohort and the closed budget tier at the same price. Updated same day with AHK-Eval results: 19/36 and 22/36 on the hidden-test suite \u2014 mid-field, with the free endpoint tying GPT-5.1's cold run and beating the paid endpoint by three tasks.",
   "tags": [
    "LLMs",
    "Benchmark",
@@ -16,7 +16,7 @@
   "slug": "laguna-xs-clipboard-bench",
   "title": "Poolside Laguna XS 2.1: The Coding Agent That Writes AHK v1",
   "date": "2026-07-07",
-  "description": "The board's first Poolside entry: a 33B-A3B coding-agent model that fails the parse gate on both endpoints \u2014 not with v2 mistakes, but with a confident v1/JavaScript hybrid dialect. Its static 50 still tops the sub-50B open class and beats closed GPT-5.4 mini by 18 points, while GPT-5.4 nano proves small-and-cheap can ship a running window.",
+  "description": "The board's first Poolside entry: a 33B-A3B coding-agent model that fails the parse gate on both endpoints \u2014 not with v2 mistakes, but with a confident v1/JavaScript hybrid dialect. Its static 50 still tops the sub-50B open class and beats closed GPT-5.4 mini by 18 points, while GPT-5.4 nano proves small-and-cheap can ship a running window. Updated same day with AHK-Eval results: 8/36 and 9/36 \u2014 the floor of the 17-model hidden-test board, with regex mid-field and strings at zero.",
   "tags": [
    "LLMs",
    "Benchmark",

@@ -49,4 +49,19 @@ At $0.06/M in, $0.12/M out, Laguna is among the cheapest paid models on the boar
 
 Laguna XS 2.1 is a coding-agent model, and it shows in both directions. The program structure — wrapper classes, undo stacks, event wiring — is more ambitious than half the models above it. But AHK v2 is clearly outside its training distribution, and it fills the gap with confident v1/JS syntax that a validator rejects on line 7. This is precisely the model profile that needs its natural habitat: an agent loop with a compiler in it. One `/validate` round-trip would tell it about `new`; one-shot generation never gets that chance. On this board, one-shot is the test — and the test says: wrong language.
 
+## Update (July 7, Later): The Hidden-Test Benchmark
+
+Both endpoints also ran the cold arm of [AHK-Eval](post.html?slug=ahk-eval-benchmark) — 36 functions, 181 hidden cases, same grader as the 13-model field.
+
+<div class="bm-wrap"><table class="bm-heat"><thead><tr><th style="text-align:left">Entry</th><th>tasks</th><th>cases</th><th>parse fails</th><th style="text-align:left">field position</th></tr></thead><tbody><tr><td class="h-name"><a href="model.html?id=Laguna_XS_2-1_Free">Laguna XS 2.1 (free)</a></td><td class="h-amber">9/36</td><td class="h-dim">47/181</td><td class="h-dim">10</td><td class="h-dim" style="text-align:left">ties Mistral Large 3 for last</td></tr><tr><td class="h-name"><a href="model.html?id=Laguna_XS_2-1">Laguna XS 2.1</a></td><td class="h-amber">8/36</td><td class="h-dim">43/181</td><td class="h-dim">12</td><td class="h-dim" style="text-align:left">new floor of the 17-model board</td></tr></tbody></table></div>
+
+The parse-fail census reads like the GUI entries all over again, in miniature — a third of all submissions never got past the loader:
+
+- v1 forced-expression `%` syntax inside v2 functions
+- `for i from 2 to parsedRanges.Length` — a loop syntax no AutoHotkey version has ever had
+- a `Sort(keys, , , , , , , , , , , ,)` call with a hallucinated twelve-parameter signature
+- and one submission that shipped its own chain of thought as code: the function body opens with *"Okay, I need to write an AutoHotkey v2 function…"*
+
+But the category split is the real portrait of this model. **Regex: 4/6 on both endpoints** — genuinely mid-field, level with much larger models. **Strings: 0/6 on both. Datetime: 1/6 and 0/6.** And the free endpoint solved `AE_EvalRPN` — a hard-tier stack-machine task that Kimi K2.6, a 30/36 model, missed. Pattern logic and algorithmic reasoning are alive; everything that touches AHK-specific surface area dies at the parser. That's exactly what "out of distribution" looks like when you decompose it, and exactly the profile that a compiler-in-the-loop agent harness — Poolside's actual product — is built to repair.
+
 *Disclosure: Claude Fable 5 generated these entries via the OpenRouter API and wrote this post. Every number comes from the same pipeline that graded all 82 entries — parse validation against the v2.1-alpha.30+Console fork, runtime launch where applicable, and the static rule checker. The per-model pages linked above show full source and itemized scorecards.*

@@ -70,4 +70,17 @@ The free endpoint's *first* generation (discarded after an upstream retry) burne
 
 Hy3 is the strongest Tencent showing on this board by a wide margin, and both entries are — literally — **one corrected line away from running**. Swap `"+Enabled"` for `"-Disabled"` in the paid entry, or split `Add(opts)` into `Add(type, opts)` in the free one, and each opens its window. The model has learned nearly everything about AHK v2 except the part that only running the code teaches. That's exactly the gap agent-style validation loops exist to close — and exactly what a one-shot benchmark is designed to expose.
 
+## Update (July 7, Later): The Hidden-Test Benchmark
+
+Same day, both endpoints went through [AHK-Eval](post.html?slug=ahk-eval-benchmark) — 36 independent functions, 181 hidden test cases, cold one-shot arm, graded by the same parse-then-execute pipeline as the 13-model field.
+
+<div class="bm-wrap"><table class="bm-heat"><thead><tr><th style="text-align:left">Entry</th><th>tasks</th><th>cases</th><th>parse fails</th><th style="text-align:left">field position</th></tr></thead><tbody><tr><td class="h-name"><a href="model.html?id=Hy3_Free">Hy3 (free)</a></td><td class="h-blue">22/36</td><td class="h-dim">112/181</td><td class="h-dim">8</td><td class="h-dim" style="text-align:left">ties GPT-5.1 and DeepSeek V4 Pro</td></tr><tr><td class="h-name"><a href="model.html?id=Hy3">Hy3</a></td><td class="h-blue">19/36</td><td class="h-dim">98/181</td><td class="h-dim">4</td><td class="h-dim" style="text-align:left">between DeepSeek V4 Pro (22) and Qwen3 Coder (16)</td></tr></tbody></table></div>
+
+Solid mid-field — ahead of Qwen3 Coder and far ahead of Mistral Large 3 (9/36), with the free endpoint tying GPT-5.1's cold run. The tier profile is the standard shape: 8–10 of 12 easy, 7–9 of 12 mid, and a hard-tier wall (3–4 of 12). Hy3 (paid) cracked `AE_CsvField`, both endpoints cracked `AE_EvalRPN`, and the field's two graveyards — `AE_NaturalSort`, `AE_ISOWeek` — stayed graveyards.
+
+Two findings worth keeping:
+
+- **The free endpoint beat the paid one by three tasks.** Same model name, different upstream providers, different results — the same run-to-run instability as the stability footnote above, now measurable across 36 samples.
+- **The dialect tell is consistent with the GUI test.** The parse failures aren't AHK v2 mistakes — they're foreign operators: `%` used as infix modulo (Python/JS; AHK spells it `Mod()`), and on the free endpoint, `..` string concatenation. That's *Lua* leaking out of a Chinese MoE mid-function. One invented token killed the GUI entry; here, foreign operators killed 4–8 of 36 functions at the parser.
+
 *Disclosure: Claude Fable 5 generated these entries via the OpenRouter API and wrote this post. Every number comes from the same pipeline that graded all 82 entries — parse validation against the v2.1-alpha.30+Console fork, live launch with stderr capture (including one dismissed error dialog), and the static rule checker. The per-model pages linked above show full source and itemized scorecards.*
