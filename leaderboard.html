@@ -41,6 +41,12 @@
     .lb-count{font-size:12px;color:#707070;margin-left:auto;}
     .back-link{display:inline-flex;gap:6px;font-size:13px;color:var(--text-secondary);margin-bottom:14px;font-weight:500;}
     .back-link:hover{color:var(--accent);}
+    .swdot{cursor:pointer;transition:opacity .15s;}
+    .swdot.dim{opacity:.12;}
+    #tip{position:fixed;pointer-events:none;background:#1a1a1a;border:1px solid #303030;border-radius:8px;padding:7px 10px;font-size:12px;color:#d0d0d0;z-index:10;display:none;max-width:260px;box-shadow:0 4px 16px rgba(0,0,0,.5);}
+    #tip b{color:#fff;display:block;margin-bottom:2px;}
+    .bm-note{font-size:12px;color:#707070;line-height:1.55;margin:10px 0 0;}
+    .bm-note a{color:#8ab4e8;text-decoration:none;}
   
     @media (max-width: 680px) {
       .lb-main { padding: 14px 12px; }
@@ -72,7 +78,7 @@
       <p>60+ models, one prompt. Ranked by what actually shipped: does it run, does it look right. Click a header to sort, a chip to filter, a name for its page.</p>
     </div>
 
-    <div class="bm-wrap"><div class="bm-h">Every model, plotted: code score (x) vs. what actually shipped (y)</div><svg viewBox="0 0 720 470" width="100%" style="background:#0d0d0d;border:1px solid #262626;border-radius:12px" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif"><defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><text x="80" y="405" fill="#6f6f6f" font-size="10.5" text-anchor="middle">0</text><line x1="80" y1="395" x2="80" y2="50" stroke="#1c1c1c"/><text x="232" y="405" fill="#6f6f6f" font-size="10.5" text-anchor="middle">25</text><line x1="232" y1="395" x2="232" y2="50" stroke="#1c1c1c"/><text x="385" y="405" fill="#6f6f6f" font-size="10.5" text-anchor="middle">50</text><line x1="385" y1="395" x2="385" y2="50" stroke="#1c1c1c"/><text x="538" y="405" fill="#6f6f6f" font-size="10.5" text-anchor="middle">75</text><line x1="538" y1="395" x2="538" y2="50" stroke="#1c1c1c"/><text x="690" y="405" fill="#6f6f6f" font-size="10.5" text-anchor="middle">100</text><line x1="690" y1="395" x2="690" y2="50" stroke="#1c1c1c"/><line x1="80" y1="60" x2="690" y2="60" stroke="#262626" stroke-dasharray="3 4"/><text x="72" y="63" fill="#6f6f6f" font-size="10.5" text-anchor="end">20 · fully dark</text><line x1="80" y1="155" x2="690" y2="155" stroke="#262626" stroke-dasharray="3 4"/><text x="72" y="158" fill="#6f6f6f" font-size="10.5" text-anchor="end">visual</text><line x1="80" y1="250" x2="690" y2="250" stroke="#262626" stroke-dasharray="3 4"/><text x="72" y="253" fill="#6f6f6f" font-size="10.5" text-anchor="end">barely dark</text><line x1="80" y1="295" x2="690" y2="295" stroke="#3a1d20" /><text x="72" y="316" fill="#c2616a" font-size="10.5" text-anchor="end">crashed</text><line x1="80" y1="355" x2="690" y2="355" stroke="#2a2a2a" /><text x="72" y="376" fill="#777" font-size="10.5" text-anchor="end">didn’t parse</text><circle cx="660" cy="57" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="660" cy="59" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="641" cy="214" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="641" cy="105" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="629" cy="212" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="629" cy="214" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="617" cy="106" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="617" cy="108" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="586" cy="215" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="586" cy="211" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="568" cy="213" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="556" cy="209" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="550" cy="211" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="544" cy="214" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="544" cy="210" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="544" cy="212" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="538" cy="214" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="538" cy="210" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="531" cy="213" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="531" cy="215" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="519" cy="230" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="513" cy="213" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="507" cy="209" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="507" cy="211" r="6" fill="#7BC96F" fill-opacity="0.92" filter="url(#g)"/><circle cx="660" cy="315" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="660" cy="308" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="641" cy="312" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="629" cy="316" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="629" cy="309" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="629" cy="313" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="605" cy="317" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="562" cy="310" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="550" cy="314" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="550" cy="307" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="538" cy="311" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="538" cy="315" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="538" cy="308" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="531" cy="312" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="519" cy="316" r="6" fill="#DC3545" fill-opacity="0.85" filter="url(#g)"/><circle cx="434" cy="369" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="416" cy="373" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="416" cy="377" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="416" cy="370" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="416" cy="374" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="409" cy="367" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="403" cy="371" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="403" cy="375" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="385" cy="368" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="385" cy="372" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="385" cy="376" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="373" cy="369" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="373" cy="373" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="361" cy="377" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="330" cy="370" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="312" cy="374" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="312" cy="367" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="287" cy="371" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="287" cy="375" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="281" cy="368" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="275" cy="372" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><circle cx="190" cy="376" r="6" fill="#6a6a6a" fill-opacity="0.5" filter="url(#g)"/><line x1="660" y1="57" x2="590" y2="31" stroke="#7BC96F" stroke-width="1" stroke-opacity="0.5"/><text x="590" y="27" fill="#fff" font-size="12" font-weight="600" text-anchor="end">GPT-5.5 Pro</text><text x="590" y="40" fill="#7BC96F" font-size="10.5" text-anchor="end">runs · 20/20 dark</text><line x1="660" y1="315" x2="510" y2="333" stroke="#DC3545" stroke-width="1" stroke-opacity="0.5"/><text x="510" y="329" fill="#fff" font-size="12" font-weight="600" text-anchor="end">Hermes 4 405B</text><text x="510" y="342" fill="#DC3545" font-size="10.5" text-anchor="end">code 95 · crashes</text><text x="385" y="430" fill="#9a9a9a" font-size="11.5" text-anchor="middle">code score (automated rule adherence) →</text><g transform="translate(80,448)"><circle cx="6" cy="-3" r="5" fill="#7BC96F"/><text x="16" y="1" fill="#b6b6b6" font-size="11">runs</text><circle cx="86" cy="-3" r="5" fill="#DC3545"/><text x="96" y="1" fill="#b6b6b6" font-size="11">parses, crashes</text><circle cx="226" cy="-3" r="5" fill="#6a6a6a"/><text x="236" y="1" fill="#b6b6b6" font-size="11">won’t parse</text></g></svg></div>
+    <div class="bm-wrap"><div class="bm-h">Every model, plotted: code score (x) vs. what actually shipped (y)</div><div id="swarm"></div></div>
 
     <div class="lb-controls">
       <input id="search" class="lb-search" type="text" placeholder="Filter models…" autocomplete="off">
@@ -87,6 +93,14 @@
       <th data-k="rank" class="sorted">#</th><th data-k="display" style="text-align:left">Model</th>
       <th data-k="runs">runs</th><th data-k="parse">parse</th><th data-k="score">code</th><th data-k="visual">visual</th>
     </tr></thead><tbody id="body"></tbody></table></div>
+
+    <div class="bm-wrap" style="margin-top:40px"><div class="bm-h">The bigger picture: SWE-bench Verified vs. what a token costs</div>
+      <div id="swe"></div>
+      <div style="overflow-x:auto;margin-top:14px"><table class="bm-heat"><thead><tr>
+        <th style="text-align:left">Model</th><th>SWE-bench Verified</th><th>in $/M</th><th>out $/M</th><th>AHK-Eval cold</th>
+      </tr></thead><tbody id="swebody"></tbody></table></div>
+      <p class="bm-note">SWE-bench Verified scores as published on <a href="https://llm-stats.com/benchmarks/swe-bench-verified">llm-stats</a> and <a href="https://benchlm.ai/benchmarks/sweVerified">BenchLM</a>, 2026-07-09; GPT-5.5 is OpenAI-reported (OpenAI stopped submitting Verified in early 2026). xAI does not report Verified — it publishes <a href="https://x.ai/news/grok-4-5">SWE-bench Pro</a> instead (Grok 4.5: 64.7%), which isn't comparable and so isn't plotted. Pricing from the OpenRouter API, 2026-07-09. AHK-Eval is <a href="post.html?slug=ahk-eval-benchmark">this site's 36-task hidden-test suite</a>, cold arm, tasks solved of 36.</p>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -121,11 +135,111 @@
     }).join('');
     document.getElementById('count').textContent = rows.length+' shown';
     document.querySelectorAll('#tbl th').forEach(th=>{th.classList.toggle('sorted',th.dataset.k===sortK);th.classList.toggle('asc',th.dataset.k===sortK&&asc);});
+    const vis=new Set(rows.map(r=>r.id));
+    document.querySelectorAll('#swarm .swdot').forEach(el=>el.classList.toggle('dim',!vis.has(el.dataset.id)));
   }
+
+  // beeswarm: collision-resolved dots, ties stack into countable towers
+  function renderSwarm(data){
+    const X0=80,X1=690,R=5,SEP=11.5;
+    const px=c=>X0+(X1-X0)*c/100;
+    const baseY=r=>r.runs?250-190*(r.visual||0)/20:(r.parse?318:374);
+    const col=r=>r.runs?'#7BC96F':(r.parse?'#DC3545':'#6a6a6a');
+    const groups={runs:[],crash:[],fail:[]};
+    data.filter(r=>r.bytes>0).forEach(r=>groups[state(r)].push(r));
+    let dots='';const pos={};
+    for(const g of Object.values(groups)){
+      g.sort((a,b)=>px(a.score)-px(b.score)||baseY(a)-baseY(b));
+      const placed=[];
+      for(const r of g){
+        const x=px(r.score),by=baseY(r);let y=by,k=0;
+        while(placed.some(p=>(x-p[0])**2+(y-p[1])**2<SEP*SEP)){k++;y=by+Math.ceil(k/2)*SEP*(k%2?1:-1);}
+        placed.push([x,y]);pos[r.id]=[x,y];
+        const sub='code '+r.score+' · '+(r.runs?('runs · visual '+(r.visual||0)+'/20'):(r.parse?'parses, crashes':'won’t parse'));
+        dots+=`<a href="model.html?id=${encodeURIComponent(r.id)}"><circle class="swdot" data-id="${esc(r.id)}" data-name="${esc(r.display)}" data-sub="${esc(sub)}" cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="${R}" fill="${col(r)}" fill-opacity="${state(r)==='fail'?'0.85':'1'}" stroke="#0d0d0d" stroke-width="2"/></a>`;
+      }
+    }
+    let grid='';for(const c of [0,25,50,75,100]) grid+=`<text x="${px(c)}" y="437" fill="#6f6f6f" font-size="10.5" text-anchor="middle">${c}</text><line x1="${px(c)}" y1="425" x2="${px(c)}" y2="50" stroke="#1c1c1c"/>`;
+    const bands='<line x1="80" y1="60" x2="690" y2="60" stroke="#262626" stroke-dasharray="3 4"/><text x="72" y="63" fill="#6f6f6f" font-size="10.5" text-anchor="end">20 · fully dark</text>'
+      +'<line x1="80" y1="155" x2="690" y2="155" stroke="#262626" stroke-dasharray="3 4"/><text x="72" y="158" fill="#6f6f6f" font-size="10.5" text-anchor="end">visual</text>'
+      +'<line x1="80" y1="250" x2="690" y2="250" stroke="#262626" stroke-dasharray="3 4"/><text x="72" y="253" fill="#6f6f6f" font-size="10.5" text-anchor="end">barely dark</text>'
+      +'<line x1="80" y1="290" x2="690" y2="290" stroke="#3a1d20"/><text x="72" y="321" fill="#c2616a" font-size="10.5" text-anchor="end">crashed</text>'
+      +'<line x1="80" y1="350" x2="690" y2="350" stroke="#2a2a2a"/><text x="72" y="385" fill="#777" font-size="10.5" text-anchor="end">didn’t parse</text>';
+    const lab=(d,s,x,y,dx,dy,c)=>`<line x1="${x}" y1="${y}" x2="${x+dx}" y2="${y+dy}" stroke="${c}" stroke-width="1" stroke-opacity="0.5"/><text x="${x+dx}" y="${y+dy-4}" fill="#fff" font-size="12" font-weight="600" text-anchor="${dx<0?'end':'start'}">${d}</text><text x="${x+dx}" y="${y+dy+9}" fill="${c}" font-size="10.5" text-anchor="${dx<0?'end':'start'}">${s}</text>`;
+    let ann='';
+    if(pos['GPT-5-5-Pro']){const p=pos['GPT-5-5-Pro'];ann+=lab('GPT-5.5 Pro','runs · 20/20 dark',p[0],p[1],-70,-26,'#7BC96F');}
+    if(pos['Hermes_4_405B']){const p=pos['Hermes_4_405B'];ann+=lab('Hermes 4 405B','code 95 · crashes',p[0],p[1],-150,26,'#DC3545');}
+    document.getElementById('swarm').innerHTML=
+      `<svg viewBox="0 0 720 540" width="100%" style="background:#0d0d0d;border:1px solid #262626;border-radius:12px" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">${grid}${bands}${dots}${ann}`
+      +'<text x="385" y="459" fill="#9a9a9a" font-size="11.5" text-anchor="middle">code score (automated rule adherence) →</text>'
+      +'<g transform="translate(80,505)"><circle cx="6" cy="-3" r="5" fill="#7BC96F"/><text x="16" y="1" fill="#b6b6b6" font-size="11">runs</text><circle cx="86" cy="-3" r="5" fill="#DC3545"/><text x="96" y="1" fill="#b6b6b6" font-size="11">parses, crashes</text><circle cx="226" cy="-3" r="5" fill="#6a6a6a"/><text x="236" y="1" fill="#b6b6b6" font-size="11">won’t parse</text></g></svg>';
+  }
+
+  // SWE-bench Verified vs OpenRouter price (sources + dates in the note below the table)
+  const SWE=[
+    {n:'Claude Fable 5',s:95.0,i:10.00,o:50.00,a:34,dx:-10,dy:2,side:'end'},
+    {n:'GPT-5.5',s:88.7,i:5.00,o:30.00,a:35,dx:8,dy:-8,side:'start'},
+    {n:'Claude Opus 4.8',s:88.6,i:5.00,o:25.00,a:29,dx:-9,dy:14,side:'end'},
+    {n:'Gemini 3.1 Pro',s:80.6,i:2.00,o:12.00,a:32,dx:0,dy:-11,side:'middle'},
+    {n:'DeepSeek V4 Pro',s:80.6,i:0.43,o:0.87,a:22,dx:0,dy:-11,side:'middle'},
+    {n:'MiniMax M3',s:80.5,i:0.30,o:1.20,a:26,dx:2,dy:17,side:'middle'},
+    {n:'Kimi K2.6',s:80.2,i:0.65,o:3.41,a:30,dx:8,dy:-6,side:'start'},
+    {n:'Claude Sonnet 4.6',s:79.6,i:3.00,o:15.00,a:25,dx:0,dy:18,side:'middle'},
+    {n:'GLM-5',s:77.8,i:0.60,o:1.92,a:25,dx:2,dy:17,side:'middle'},
+    {n:'GPT-5.1',s:76.3,i:1.25,o:10.00,a:22,dx:0,dy:17,side:'middle'},
+    {n:'Tencent Hy3',s:74.4,i:0.14,o:0.58,a:19,dx:0,dy:-11,side:'middle'},
+    {n:'Laguna XS 2.1',s:69.9,i:0.06,o:0.12,a:8,dx:9,dy:4,side:'start'},
+    {n:'Qwen3 Coder',s:69.6,i:0.22,o:1.80,a:16,dx:2,dy:17,side:'middle'}
+  ];
+  const SWE_NP=[
+    {n:'Grok 4.5',i:2.00,o:6.00,a:31,note:'not reported · SWE-bench Pro 64.7%'},
+    {n:'Grok 4.3',i:1.25,o:2.50,a:28,note:'not reported'},
+    {n:'Mistral Large 3',i:0.50,o:1.50,a:9,note:'not reported'}
+  ];
+  function renderSwe(){
+    const X0=80,X1=690,LO=Math.log10(0.05),HI=Math.log10(60);
+    const px=v=>X0+(Math.log10(v)-LO)/(HI-LO)*(X1-X0);
+    const py=s=>40+(100-s)*300/35;   // y-domain 65..100
+    let grid='';
+    for(const t of [0.1,0.3,1,3,10,30]) grid+=`<line x1="${px(t).toFixed(0)}" y1="340" x2="${px(t).toFixed(0)}" y2="40" stroke="#1c1c1c"/><text x="${px(t).toFixed(0)}" y="357" fill="#6f6f6f" font-size="10.5" text-anchor="middle">$${t<1?t.toFixed(2):t}</text>`;
+    for(const t of [70,75,80,85,90,95]) grid+=`<line x1="80" y1="${py(t).toFixed(0)}" x2="690" y2="${py(t).toFixed(0)}" stroke="#1c1c1c" stroke-dasharray="3 4"/><text x="72" y="${(py(t)+3).toFixed(0)}" fill="#6f6f6f" font-size="10.5" text-anchor="end">${t}%</text>`;
+    const front=['Laguna XS 2.1','Tencent Hy3','DeepSeek V4 Pro','Claude Opus 4.8','GPT-5.5','Claude Fable 5'];
+    const fpts=front.map(n=>{const d=SWE.find(x=>x.n===n);return px(d.o).toFixed(0)+','+py(d.s).toFixed(0);}).join(' ');
+    let dots='',labels='';
+    for(const d of SWE){
+      const x=px(d.o),y=py(d.s);
+      dots+=`<circle class="swdot" data-name="${esc(d.n)}" data-sub="SWE-bench Verified ${d.s}% · $${d.i.toFixed(2)} in / $${d.o.toFixed(2)} out per M" cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="5" fill="#5B9FEF" stroke="#0d0d0d" stroke-width="2"/>`;
+      labels+=`<text x="${(x+d.dx).toFixed(0)}" y="${(y+d.dy).toFixed(0)}" fill="#c9c9c9" font-size="10.5" text-anchor="${d.side}">${esc(d.n)}</text>`;
+    }
+    document.getElementById('swe').innerHTML=
+      `<svg viewBox="0 0 720 395" width="100%" style="background:#0d0d0d;border:1px solid #262626;border-radius:12px" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">${grid}`
+      +`<polyline points="${fpts}" fill="none" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="4 4"/>`
+      +dots+labels
+      +'<text x="385" y="383" fill="#9a9a9a" font-size="11.5" text-anchor="middle">output price, $ per million tokens (OpenRouter, log scale) →</text>'
+      +'<text x="130" y="60" fill="#6f6f6f" font-size="10.5">dashed = cost-efficiency frontier</text></svg>';
+    const sweCls=s=>s>=88?'h-emer':s>=78?'h-blue':s>=72?'h-amber':'h-red';
+    const ahkCell=a=>a==null?'<td class="h-dim">—</td>':`<td class="${a>=30?'h-emer':a>=22?'h-blue':a>=15?'h-amber':'h-red'}">${a}/36</td>`;
+    document.getElementById('swebody').innerHTML=
+      SWE.map(d=>`<tr><td class="h-name">${esc(d.n)}</td><td class="${sweCls(d.s)}">${d.s.toFixed(1)}%</td><td class="h-dim">$${d.i.toFixed(2)}</td><td class="h-dim">$${d.o.toFixed(2)}</td>${ahkCell(d.a)}</tr>`).join('')
+      +SWE_NP.map(d=>`<tr><td class="h-name">${esc(d.n)}</td><td class="h-dim" style="font-size:11px">${esc(d.note)}</td><td class="h-dim">$${d.i.toFixed(2)}</td><td class="h-dim">$${d.o.toFixed(2)}</td>${ahkCell(d.a)}</tr>`).join('');
+  }
+
+  // shared tooltip for both charts
+  const tip=document.createElement('div');tip.id='tip';document.body.appendChild(tip);
+  document.addEventListener('mouseover',e=>{
+    const d=e.target.closest('.swdot');if(!d)return;
+    tip.innerHTML='<b>'+d.dataset.name+'</b>'+d.dataset.sub;tip.style.display='block';
+  });
+  document.addEventListener('mousemove',e=>{
+    if(tip.style.display!=='block')return;
+    tip.style.left=Math.min(e.clientX+14,window.innerWidth-280)+'px';tip.style.top=(e.clientY+14)+'px';
+  });
+  document.addEventListener('mouseout',e=>{if(e.target.closest&&e.target.closest('.swdot'))tip.style.display='none';});
   document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k; if(k===sortK)asc=!asc; else {sortK=k; asc=(k==='display'||k==='rank');} render();});
   document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');filt=c.dataset.f;render();});
   document.getElementById('search').oninput=e=>{q=e.target.value.toLowerCase().trim();render();};
-  fetch('posts/clipboard-benchmark/models.json').then(r=>r.json()).then(d=>{DATA=d;render();})
+  renderSwe();
+  fetch('posts/clipboard-benchmark/models.json').then(r=>r.json()).then(d=>{DATA=d;renderSwarm(DATA);render();})
     .catch(e=>document.getElementById('body').innerHTML='<tr><td colspan="6">Failed to load: '+e.message+'</td></tr>');
   </script>
 </body>
