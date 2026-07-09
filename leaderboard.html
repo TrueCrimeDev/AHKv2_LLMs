@@ -98,10 +98,14 @@
       <div id="swe"></div>
       <div class="bm-h" style="margin-top:26px">Same axes, our benchmark: AHK-Eval tasks solved vs. what a token costs</div>
       <div id="ahkcost"></div>
+      <div class="bm-h" style="margin-top:26px">Every benchmark on the site, one grid</div>
+      <div style="overflow-x:auto"><table class="bm-heat" id="benchgrid"><thead><tr>
+        <th style="text-align:left">Model</th><th>GUI code<br>/100</th><th>GUI visual<br>/20</th><th>OOP judge<br>/100</th><th>Toolkit<br>cases %</th><th>AHK-Eval<br>/36</th><th>Eval +repair<br>/36</th>
+      </tr></thead><tbody id="gridbody"></tbody></table></div>
       <div style="overflow-x:auto;margin-top:14px"><table class="bm-heat"><thead><tr>
         <th style="text-align:left">Model</th><th>SWE-bench Verified</th><th>in $/M</th><th>out $/M</th><th>AHK-Eval cold</th>
       </tr></thead><tbody id="swebody"></tbody></table></div>
-      <p class="bm-note">SWE-bench Verified scores as published on <a href="https://llm-stats.com/benchmarks/swe-bench-verified">llm-stats</a> and <a href="https://benchlm.ai/benchmarks/sweVerified">BenchLM</a>, 2026-07-09; GPT-5.5 is OpenAI-reported (OpenAI stopped submitting Verified in early 2026). xAI does not report Verified — it publishes <a href="https://x.ai/news/grok-4-5">SWE-bench Pro</a> instead (Grok 4.5: 64.7%), which isn't comparable and so isn't plotted. Pricing from the OpenRouter API, 2026-07-09. AHK-Eval is <a href="post.html?slug=ahk-eval-benchmark">this site's 36-task hidden-test suite</a>, cold arm, tasks solved of 36. The AHK-Eval chart plots paid endpoints only — free tiers ($0) can't sit on a log cost axis; Hy3 (free) solved 22/36, Laguna XS 2.1 (free) 9/36.</p>
+      <p class="bm-note">SWE-bench Verified scores as published on <a href="https://llm-stats.com/benchmarks/swe-bench-verified">llm-stats</a> and <a href="https://benchlm.ai/benchmarks/sweVerified">BenchLM</a>, 2026-07-09; GPT-5.5 is OpenAI-reported (OpenAI stopped submitting Verified in early 2026). xAI does not report Verified — it publishes <a href="https://x.ai/news/grok-4-5">SWE-bench Pro</a> instead (Grok 4.5: 64.7%), which isn't comparable and so isn't plotted. Pricing from the OpenRouter API, 2026-07-09. AHK-Eval is <a href="post.html?slug=ahk-eval-benchmark">this site's 36-task hidden-test suite</a>, cold arm, tasks solved of 36. The AHK-Eval chart plots paid endpoints only — free tiers ($0) can't sit on a log cost axis; Hy3 (free) solved 22/36, Laguna XS 2.1 (free) 9/36. In the grid, rows are exact model endpoints: GUI-board and OOP-judge cells fill only where that same endpoint ran the <a href="post.html?slug=llm-clipboard-benchmark">GUI benchmark</a> (its GPT-5.5 <em>Pro</em> and Kimi K2.<em>7</em> entries are different models, so those cells stay empty). Toolkit is hidden-case % from the <a href="post.html?slug=llm-toolkit-benchmark">12-function one-shot</a> — the zeros are single parse errors zeroing the whole file. Eval +repair is <a href="post.html?slug=ahk-eval-context-arms">round 2's</a> rules-card + one-repair arm.</p>
     </div>
   </main>
 
@@ -270,6 +274,38 @@
       +'<text x="130" y="60" fill="#6f6f6f" font-size="10.5">y: AHK-Eval tasks solved of 36 (cold) · dashed = cost-efficiency frontier</text></svg>';
   }
 
+  // cross-benchmark grid: every benchmark on the site, one row per model endpoint.
+  // GUI/OOP cells exist only where the SAME endpoint ran the GUI board — the Pro
+  // and older variants there are different models, so those cells stay empty.
+  const GRID=[
+    {n:'GPT-5.5',tk:85,ev:35,evr:35},
+    {n:'Claude Fable 5',gui:85,vis:4,oop:78,ev:34,evr:36},
+    {n:'Gemini 3.1 Pro',tk:74,ev:32,evr:35},
+    {n:'Grok 4.5',ev:31},
+    {n:'Kimi K2.6',tk:0,ev:30,evr:32},
+    {n:'Claude Opus 4.8',gui:92,oop:82,tk:93,ev:29,evr:34},
+    {n:'Grok 4.3',gui:41,oop:80,tk:85,ev:28,evr:31},
+    {n:'MiniMax M3',tk:74,ev:26,evr:30},
+    {n:'Claude Sonnet 4.6',gui:80,vis:4,oop:74,tk:93,ev:25,evr:29},
+    {n:'GLM-5',tk:85,ev:25,evr:29},
+    {n:'GPT-5.1',tk:0,ev:22,evr:25},
+    {n:'DeepSeek V4 Pro',tk:0,ev:22,evr:27},
+    {n:'Tencent Hy3',gui:87,oop:77,ev:19},
+    {n:'Qwen3 Coder',tk:22,ev:16,evr:18},
+    {n:'Mistral Large 3',gui:90,oop:52,ev:9,evr:15},
+    {n:'Laguna XS 2.1',gui:50,oop:38,ev:8}
+  ];
+  function renderGrid(){
+    const cell=(v,max)=>{
+      if(v==null) return '<td class="h-dim">—</td>';
+      const f=Math.max(0,Math.min(1,v/max));
+      return `<td style="background:rgba(91,159,239,${(0.04+f*0.42).toFixed(2)});color:${f>=0.55?'#fff':'#c2d4ea'};font-weight:600">${v}</td>`;
+    };
+    document.getElementById('gridbody').innerHTML=GRID.map(r=>
+      `<tr><td class="h-name">${esc(r.n)}</td>`
+      +cell(r.gui,100)+cell(r.vis,20)+cell(r.oop,100)+cell(r.tk,100)+cell(r.ev,36)+cell(r.evr,36)+'</tr>').join('');
+  }
+
   // shared tooltip for both charts
   const tip=document.createElement('div');tip.id='tip';document.body.appendChild(tip);
   document.addEventListener('mouseover',e=>{
@@ -286,6 +322,7 @@
   document.getElementById('search').oninput=e=>{q=e.target.value.toLowerCase().trim();render();};
   renderSwe();
   renderAhk();
+  renderGrid();
   fetch('posts/clipboard-benchmark/models.json').then(r=>r.json()).then(d=>{DATA=d;renderSwarm(DATA);render();})
     .catch(e=>document.getElementById('body').innerHTML='<tr><td colspan="7">Failed to load: '+e.message+'</td></tr>');
   </script>
