@@ -96,10 +96,12 @@
 
     <div class="bm-wrap" style="margin-top:40px"><div class="bm-h">The bigger picture: SWE-bench Verified vs. what a token costs</div>
       <div id="swe"></div>
+      <div class="bm-h" style="margin-top:26px">Same axes, our benchmark: AHK-Eval tasks solved vs. what a token costs</div>
+      <div id="ahkcost"></div>
       <div style="overflow-x:auto;margin-top:14px"><table class="bm-heat"><thead><tr>
         <th style="text-align:left">Model</th><th>SWE-bench Verified</th><th>in $/M</th><th>out $/M</th><th>AHK-Eval cold</th>
       </tr></thead><tbody id="swebody"></tbody></table></div>
-      <p class="bm-note">SWE-bench Verified scores as published on <a href="https://llm-stats.com/benchmarks/swe-bench-verified">llm-stats</a> and <a href="https://benchlm.ai/benchmarks/sweVerified">BenchLM</a>, 2026-07-09; GPT-5.5 is OpenAI-reported (OpenAI stopped submitting Verified in early 2026). xAI does not report Verified — it publishes <a href="https://x.ai/news/grok-4-5">SWE-bench Pro</a> instead (Grok 4.5: 64.7%), which isn't comparable and so isn't plotted. Pricing from the OpenRouter API, 2026-07-09. AHK-Eval is <a href="post.html?slug=ahk-eval-benchmark">this site's 36-task hidden-test suite</a>, cold arm, tasks solved of 36.</p>
+      <p class="bm-note">SWE-bench Verified scores as published on <a href="https://llm-stats.com/benchmarks/swe-bench-verified">llm-stats</a> and <a href="https://benchlm.ai/benchmarks/sweVerified">BenchLM</a>, 2026-07-09; GPT-5.5 is OpenAI-reported (OpenAI stopped submitting Verified in early 2026). xAI does not report Verified — it publishes <a href="https://x.ai/news/grok-4-5">SWE-bench Pro</a> instead (Grok 4.5: 64.7%), which isn't comparable and so isn't plotted. Pricing from the OpenRouter API, 2026-07-09. AHK-Eval is <a href="post.html?slug=ahk-eval-benchmark">this site's 36-task hidden-test suite</a>, cold arm, tasks solved of 36. The AHK-Eval chart plots paid endpoints only — free tiers ($0) can't sit on a log cost axis; Hy3 (free) solved 22/36, Laguna XS 2.1 (free) 9/36.</p>
     </div>
   </main>
 
@@ -225,6 +227,49 @@
       +SWE_NP.map(d=>`<tr><td class="h-name">${esc(d.n)}</td><td class="h-dim" style="font-size:11px">${esc(d.note)}</td><td class="h-dim">$${d.i.toFixed(2)}</td><td class="h-dim">$${d.o.toFixed(2)}</td>${ahkCell(d.a)}</tr>`).join('');
   }
 
+  // AHK-Eval solved vs OpenRouter price — same frame as the SWE chart, but every
+  // model has a score here (free-tier endpoints excluded: $0 breaks a log axis)
+  const AHKC=[
+    {n:'GPT-5.5',s:35,o:30.00,dx:0,dy:-11,side:'middle'},
+    {n:'Claude Fable 5',s:34,o:50.00,dx:-9,dy:14,side:'end'},
+    {n:'Gemini 3.1 Pro',s:32,o:12.00,dx:0,dy:-11,side:'middle'},
+    {n:'Grok 4.5',s:31,o:6.00,dx:8,dy:-4,side:'start'},
+    {n:'Kimi K2.6',s:30,o:3.41,dx:8,dy:4,side:'start'},
+    {n:'Claude Opus 4.8',s:29,o:25.00,dx:-9,dy:4,side:'end'},
+    {n:'Grok 4.3',s:28,o:2.50,dx:8,dy:12,side:'start'},
+    {n:'MiniMax M3',s:26,o:1.20,dx:0,dy:-11,side:'middle'},
+    {n:'Claude Sonnet 4.6',s:25,o:15.00,dx:0,dy:17,side:'middle'},
+    {n:'GLM-5',s:25,o:1.92,dx:0,dy:17,side:'middle'},
+    {n:'GPT-5.1',s:22,o:10.00,dx:0,dy:17,side:'middle'},
+    {n:'DeepSeek V4 Pro',s:22,o:0.87,dx:0,dy:-11,side:'middle'},
+    {n:'Tencent Hy3',s:19,o:0.58,dx:0,dy:17,side:'middle'},
+    {n:'Qwen3 Coder',s:16,o:1.80,dx:0,dy:17,side:'middle'},
+    {n:'Mistral Large 3',s:9,o:1.50,dx:0,dy:-11,side:'middle'},
+    {n:'Laguna XS 2.1',s:8,o:0.12,dx:9,dy:4,side:'start'}
+  ];
+  function renderAhk(){
+    const X0=80,X1=690,LO=Math.log10(0.05),HI=Math.log10(60);
+    const px=v=>X0+(Math.log10(v)-LO)/(HI-LO)*(X1-X0);
+    const py=s=>40+(36-s)*300/30;   // y-domain 6..36 tasks
+    let grid='';
+    for(const t of [0.1,0.3,1,3,10,30]) grid+=`<line x1="${px(t).toFixed(0)}" y1="340" x2="${px(t).toFixed(0)}" y2="40" stroke="#1c1c1c"/><text x="${px(t).toFixed(0)}" y="357" fill="#6f6f6f" font-size="10.5" text-anchor="middle">$${t<1?t.toFixed(2):t}</text>`;
+    for(const t of [10,15,20,25,30,35]) grid+=`<line x1="80" y1="${py(t).toFixed(0)}" x2="690" y2="${py(t).toFixed(0)}" stroke="#1c1c1c" stroke-dasharray="3 4"/><text x="72" y="${(py(t)+3).toFixed(0)}" fill="#6f6f6f" font-size="10.5" text-anchor="end">${t}</text>`;
+    const front=['Laguna XS 2.1','Tencent Hy3','DeepSeek V4 Pro','MiniMax M3','Grok 4.3','Kimi K2.6','Grok 4.5','Gemini 3.1 Pro','GPT-5.5'];
+    const fpts=front.map(n=>{const d=AHKC.find(x=>x.n===n);return px(d.o).toFixed(0)+','+py(d.s).toFixed(0);}).join(' ');
+    let dots='',labels='';
+    for(const d of AHKC){
+      const x=px(d.o),y=py(d.s);
+      dots+=`<circle class="swdot" data-name="${esc(d.n)}" data-sub="AHK-Eval ${d.s}/36 solved · $${d.o.toFixed(2)} out per M" cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="5" fill="#A855F7" stroke="#0d0d0d" stroke-width="2"/>`;
+      labels+=`<text x="${(x+d.dx).toFixed(0)}" y="${(y+d.dy).toFixed(0)}" fill="#c9c9c9" font-size="10.5" text-anchor="${d.side}">${esc(d.n)}</text>`;
+    }
+    document.getElementById('ahkcost').innerHTML=
+      `<svg viewBox="0 0 720 395" width="100%" style="background:#0d0d0d;border:1px solid #262626;border-radius:12px" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">${grid}`
+      +`<polyline points="${fpts}" fill="none" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="4 4"/>`
+      +dots+labels
+      +'<text x="385" y="383" fill="#9a9a9a" font-size="11.5" text-anchor="middle">output price, $ per million tokens (OpenRouter, log scale) →</text>'
+      +'<text x="130" y="60" fill="#6f6f6f" font-size="10.5">y: AHK-Eval tasks solved of 36 (cold) · dashed = cost-efficiency frontier</text></svg>';
+  }
+
   // shared tooltip for both charts
   const tip=document.createElement('div');tip.id='tip';document.body.appendChild(tip);
   document.addEventListener('mouseover',e=>{
@@ -240,6 +285,7 @@
   document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');filt=c.dataset.f;render();});
   document.getElementById('search').oninput=e=>{q=e.target.value.toLowerCase().trim();render();};
   renderSwe();
+  renderAhk();
   fetch('posts/clipboard-benchmark/models.json').then(r=>r.json()).then(d=>{DATA=d;renderSwarm(DATA);render();})
     .catch(e=>document.getElementById('body').innerHTML='<tr><td colspan="7">Failed to load: '+e.message+'</td></tr>');
   </script>
