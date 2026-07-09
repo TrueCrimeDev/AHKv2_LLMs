@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-08T18:30:42.825Z",
+  "lastUpdated": "2026-07-09T00:36:06.230Z",
   "totalScripts": 377,
   "categories": [
     "GUI",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-07-08T14:20:18Z",
+      "lastModified": "2026-07-08T19:33:11Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
-      "stars": 35,
+      "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -5645,13 +5645,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-15T18:29:35Z",
-      "lastModified": "2026-07-02T22:56:47Z",
+      "lastModified": "2026-07-08T22:01:39Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_Colorful_GUI",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 7/2/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
     },
     {
       "id": "github-1238108402",
@@ -6476,13 +6476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-07-08T16:58:24Z",
+      "lastModified": "2026-07-08T23:06:21Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
-      "stars": 22,
+      "stars": 23,
       "forks": 3,
       "owner": "M-Haziq-Iqbal",
-      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 22 | Forks: 3\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 23 | Forks: 3\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     },
     {
       "id": "github-1263747205",
@@ -7518,13 +7518,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-07T01:32:32Z",
-      "lastModified": "2026-07-08T16:14:32Z",
+      "lastModified": "2026-07-09T00:31:56Z",
       "source": "github",
       "url": "https://github.com/supersillysage/sageSanity",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "supersillysage",
-      "code": "```cpp\n; ============================================\n; Repository: supersillysage/sageSanity\n; ============================================\n; URL: https://github.com/supersillysage/sageSanity\n; Stars: 1 | Forks: 0\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/supersillysage/sageSanity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/supersillysage/sageSanity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sageSanity>\n\n; Example initialization\nclass SagesanityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sageSanity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SagesanityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: supersillysage/sageSanity\n; ============================================\n; URL: https://github.com/supersillysage/sageSanity\n; Stars: 2 | Forks: 0\n; Last Updated: 7/9/2026\n; License: MIT License\n;\n; Description:\n; autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/supersillysage/sageSanity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/supersillysage/sageSanity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sageSanity>\n\n; Example initialization\nclass SagesanityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sageSanity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SagesanityExample()\n```"
     },
     {
       "id": "github-998124418",
