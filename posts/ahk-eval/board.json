@@ -1,0 +1,501 @@
+{
+ "generated": "2026-07-09",
+ "tasks": 36,
+ "cases": 181,
+ "cat_totals": {
+  "algorithms": 6,
+  "data": 6,
+  "datetime": 6,
+  "numbers": 6,
+  "regex": 6,
+  "strings": 6
+ },
+ "rows": [
+  {
+   "stem": "GPT-5-5",
+   "display": "GPT-5.5",
+   "provider": "OpenAI",
+   "solved": 35,
+   "cases": 176,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": 35,
+   "repair": 35,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 6,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 11,
+    "mid": 12
+   },
+   "price_out": 30.0,
+   "rank": 1
+  },
+  {
+   "stem": "Claude_Fable_5",
+   "display": "Fable 5",
+   "provider": "Anthropic",
+   "solved": 34,
+   "cases": 172,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": 35,
+   "repair": 36,
+   "cc": 36,
+   "cats": {
+    "algorithms": 6,
+    "data": 6,
+    "datetime": 6,
+    "numbers": 5,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 12,
+    "mid": 11
+   },
+   "price_out": 50.0,
+   "rank": 2
+  },
+  {
+   "stem": "Gemini_3-1_Pro",
+   "display": "Gemini 3.1 Pro",
+   "provider": "Google",
+   "solved": 32,
+   "cases": 161,
+   "case_tot": 181,
+   "parse_fail": 2,
+   "rules": 32,
+   "repair": 35,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 6,
+    "datetime": 5,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 10,
+    "mid": 11
+   },
+   "price_out": 12.0,
+   "rank": 3
+  },
+  {
+   "stem": "Grok_4-5",
+   "display": "Grok 4.5",
+   "provider": "xAI",
+   "solved": 31,
+   "cases": 160,
+   "case_tot": 181,
+   "parse_fail": 2,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 5,
+    "datetime": 5,
+    "numbers": 5,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 9,
+    "mid": 10
+   },
+   "price_out": 6.0,
+   "rank": 4
+  },
+  {
+   "stem": "Kimi_K2-6",
+   "display": "Kimi K2.6",
+   "provider": "Moonshot",
+   "solved": 30,
+   "cases": 162,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": 26,
+   "repair": 32,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 5,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 3,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 10,
+    "hard": 9,
+    "mid": 11
+   },
+   "price_out": 3.41,
+   "rank": 5
+  },
+  {
+   "stem": "Opus_4-8",
+   "display": "Opus 4.8",
+   "provider": "Anthropic",
+   "solved": 29,
+   "cases": 155,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": 29,
+   "repair": 34,
+   "cc": 36,
+   "cats": {
+    "algorithms": 5,
+    "data": 4,
+    "datetime": 6,
+    "numbers": 5,
+    "regex": 3,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 10,
+    "hard": 8,
+    "mid": 11
+   },
+   "price_out": 25.0,
+   "rank": 6
+  },
+  {
+   "stem": "Grok_4-3",
+   "display": "Grok 4.3",
+   "provider": "xAI",
+   "solved": 28,
+   "cases": 145,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": 25,
+   "repair": 31,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 3,
+    "datetime": 5,
+    "numbers": 5,
+    "regex": 6,
+    "strings": 4
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 7,
+    "mid": 10
+   },
+   "price_out": 2.5,
+   "rank": 7
+  },
+  {
+   "stem": "MiniMax_M3",
+   "display": "MiniMax M3",
+   "provider": "MiniMax",
+   "solved": 26,
+   "cases": 134,
+   "case_tot": 181,
+   "parse_fail": 3,
+   "rules": 24,
+   "repair": 30,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 3,
+    "datetime": 3,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 4
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 6,
+    "mid": 9
+   },
+   "price_out": 1.2,
+   "rank": 8
+  },
+  {
+   "stem": "Sonnet_4-6",
+   "display": "Sonnet 4.6",
+   "provider": "Anthropic",
+   "solved": 25,
+   "cases": 133,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": 27,
+   "repair": 29,
+   "cc": 35,
+   "cats": {
+    "algorithms": 4,
+    "data": 3,
+    "datetime": 6,
+    "numbers": 4,
+    "regex": 4,
+    "strings": 4
+   },
+   "tiers": {
+    "easy": 9,
+    "hard": 7,
+    "mid": 9
+   },
+   "price_out": 15.0,
+   "rank": 9
+  },
+  {
+   "stem": "GLM-5",
+   "display": "GLM-5",
+   "provider": "Zhipu AI",
+   "solved": 25,
+   "cases": 130,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": 27,
+   "repair": 29,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 4,
+    "datetime": 5,
+    "numbers": 5,
+    "regex": 3,
+    "strings": 3
+   },
+   "tiers": {
+    "easy": 10,
+    "hard": 8,
+    "mid": 7
+   },
+   "price_out": 1.92,
+   "rank": 10
+  },
+  {
+   "stem": "GPT-5-1",
+   "display": "GPT-5.1",
+   "provider": "OpenAI",
+   "solved": 22,
+   "cases": 117,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": 25,
+   "repair": 25,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 2,
+    "datetime": 2,
+    "numbers": 6,
+    "regex": 3,
+    "strings": 5
+   },
+   "tiers": {
+    "easy": 6,
+    "hard": 7,
+    "mid": 9
+   },
+   "price_out": 10.0,
+   "rank": 11
+  },
+  {
+   "stem": "Hy3_Free",
+   "display": "Hy3 (free)",
+   "provider": "Tencent",
+   "solved": 22,
+   "cases": 112,
+   "case_tot": 181,
+   "parse_fail": 8,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 3,
+    "datetime": 4,
+    "numbers": 4,
+    "regex": 3,
+    "strings": 4
+   },
+   "tiers": {
+    "easy": 10,
+    "hard": 3,
+    "mid": 9
+   },
+   "price_out": 0,
+   "rank": 12
+  },
+  {
+   "stem": "DeepSeek_V4_Pro",
+   "display": "DeepSeek V4 Pro",
+   "provider": "DeepSeek",
+   "solved": 22,
+   "cases": 111,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": 26,
+   "repair": 27,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 2,
+    "datetime": 3,
+    "numbers": 5,
+    "regex": 5,
+    "strings": 3
+   },
+   "tiers": {
+    "easy": 8,
+    "hard": 5,
+    "mid": 9
+   },
+   "price_out": 0.87,
+   "rank": 13
+  },
+  {
+   "stem": "Hy3",
+   "display": "Hy3",
+   "provider": "Tencent",
+   "solved": 19,
+   "cases": 98,
+   "case_tot": 181,
+   "parse_fail": 4,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 2,
+    "datetime": 2,
+    "numbers": 5,
+    "regex": 4,
+    "strings": 2
+   },
+   "tiers": {
+    "easy": 8,
+    "hard": 4,
+    "mid": 7
+   },
+   "price_out": 0.58,
+   "rank": 14
+  },
+  {
+   "stem": "Qwen3_Coder",
+   "display": "Qwen3 Coder",
+   "provider": "Alibaba",
+   "solved": 16,
+   "cases": 86,
+   "case_tot": 181,
+   "parse_fail": 4,
+   "rules": 15,
+   "repair": 18,
+   "cc": null,
+   "cats": {
+    "algorithms": 3,
+    "data": 2,
+    "datetime": 0,
+    "numbers": 5,
+    "regex": 3,
+    "strings": 3
+   },
+   "tiers": {
+    "easy": 7,
+    "hard": 4,
+    "mid": 5
+   },
+   "price_out": 1.8,
+   "rank": 15
+  },
+  {
+   "stem": "Mistral_Large_3",
+   "display": "Mistral Large 3",
+   "provider": "Mistral",
+   "solved": 9,
+   "cases": 59,
+   "case_tot": 181,
+   "parse_fail": 3,
+   "rules": 12,
+   "repair": 15,
+   "cc": null,
+   "cats": {
+    "algorithms": 1,
+    "data": 1,
+    "datetime": 0,
+    "numbers": 4,
+    "regex": 2,
+    "strings": 1
+   },
+   "tiers": {
+    "easy": 6,
+    "hard": 1,
+    "mid": 2
+   },
+   "price_out": 1.5,
+   "rank": 16
+  },
+  {
+   "stem": "Laguna_XS_2-1_Free",
+   "display": "Laguna XS 2.1 (free)",
+   "provider": "Poolside",
+   "solved": 9,
+   "cases": 47,
+   "case_tot": 181,
+   "parse_fail": 10,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 1,
+    "data": 1,
+    "datetime": 0,
+    "numbers": 3,
+    "regex": 4,
+    "strings": 0
+   },
+   "tiers": {
+    "easy": 4,
+    "hard": 3,
+    "mid": 2
+   },
+   "price_out": 0,
+   "rank": 17
+  },
+  {
+   "stem": "Laguna_XS_2-1",
+   "display": "Laguna XS 2.1",
+   "provider": "Poolside",
+   "solved": 8,
+   "cases": 43,
+   "case_tot": 181,
+   "parse_fail": 12,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 0,
+    "data": 1,
+    "datetime": 1,
+    "numbers": 2,
+    "regex": 4,
+    "strings": 0
+   },
+   "tiers": {
+    "easy": 5,
+    "hard": 1,
+    "mid": 2
+   },
+   "price_out": 0.12,
+   "rank": 18
+  }
+ ]
+}

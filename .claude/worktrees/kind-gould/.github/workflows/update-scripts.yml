@@ -1,0 +1,103 @@
+# Automated AHK v2 Script Feed Update Workflow
+name: Update AHK v2 Scripts
+
+on:
+  # Run on schedule (every 6 hours)
+  schedule:
+    - cron: '0 */6 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      fetch_github:
+        description: 'Fetch new scripts from GitHub'
+        required: false
+        default: 'true'
+        type: boolean
+      validate:
+        description: 'Validate all scripts'
+        required: false
+        default: 'true'
+        type: boolean
+
+# Permissions needed to commit updates
+permissions:
+  contents: write
+
+env:
+  AHK_FEED_LIMIT: 50
+  AHK_SEARCH_QUERY: 'autohotkey v2 language:AutoHotkey'
+
+jobs:
+  update-scripts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run script update
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Starting AHK v2 script update..."
+
+          # Build command based on inputs
+          BUILD_ARGS="--stats"
+
+          if [ "${{ github.event.inputs.fetch_github }}" != "false" ]; then
+            BUILD_ARGS="$BUILD_ARGS --fetch"
+          fi
+
+          if [ "${{ github.event.inputs.validate }}" != "false" ]; then
+            BUILD_ARGS="$BUILD_ARGS --validate"
+          fi
+
+          # Always export
+          BUILD_ARGS="$BUILD_ARGS --export"
+
+          # Run the build script
+          node scripts/build.js $BUILD_ARGS
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet scripts/ahk-scripts.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updates
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add scripts/ahk-scripts.json
+          git add dist/ || true
+
+          git commit -m "chore: Update AHK v2 script feed [automated]"
+          git push
+
+      - name: Summary
+        run: |
+          echo "## Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f scripts/ahk-scripts.json ]; then
+            SCRIPT_COUNT=$(cat scripts/ahk-scripts.json | grep -c '"id":' || echo "0")
+            echo "- **Total Scripts**: $SCRIPT_COUNT" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ "${{ steps.changes.outputs.changed }}" == "true" ]; then
+            echo "- **Status**: Updated and committed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- **Status**: No changes detected" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "_Last run: $(date -u)_" >> $GITHUB_STEP_SUMMARY
