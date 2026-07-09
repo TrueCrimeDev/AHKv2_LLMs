@@ -87,7 +87,7 @@
       <div style="overflow-x:auto;margin-top:14px"><table class="bm-heat"><thead><tr>
         <th style="text-align:left">Model</th><th>SWE-bench Verified</th><th>in $/M</th><th>out $/M</th><th>AHK-Eval cold</th>
       </tr></thead><tbody id="swebody"></tbody></table></div>
-      <p class="bm-note">SWE-bench Verified scores as published on <a href="https://llm-stats.com/benchmarks/swe-bench-verified">llm-stats</a> and <a href="https://benchlm.ai/benchmarks/sweVerified">BenchLM</a>, 2026-07-09; GPT-5.5 is OpenAI-reported (OpenAI stopped submitting Verified in early 2026). xAI does not report Verified — it publishes <a href="https://x.ai/news/grok-4-5">SWE-bench Pro</a> instead (Grok 4.5: 64.7%), which isn't comparable and so isn't plotted. Pricing from the OpenRouter API, 2026-07-09. The AHK-Eval chart plots paid endpoints only — free tiers ($0) can't sit on a log cost axis. In the grid, rows are exact model endpoints: GUI-board and OOP-judge cells fill only where that same endpoint ran the <a href="post.html?slug=llm-clipboard-benchmark">GUI benchmark</a> (its GPT-5.5 <em>Pro</em> and Kimi K2.<em>7</em> entries are different models, so those cells stay empty). Toolkit is hidden-case % from the <a href="post.html?slug=llm-toolkit-benchmark">12-function one-shot</a> — the zeros are single parse errors zeroing the whole file. Eval +repair is <a href="post.html?slug=ahk-eval-context-arms">round 2's</a> rules-card + one-repair arm.</p>
+      <p class="bm-note">SWE-bench Verified scores as published on <a href="https://llm-stats.com/benchmarks/swe-bench-verified">llm-stats</a> and <a href="https://benchlm.ai/benchmarks/sweVerified">BenchLM</a>, 2026-07-09; GPT-5.5 is OpenAI-reported (OpenAI stopped submitting Verified in early 2026). xAI does not report Verified — it publishes <a href="https://x.ai/news/grok-4-5">SWE-bench Pro</a> instead (Grok 4.5: 64.7%), which isn't comparable and so isn't plotted. Likewise <a href="https://openai.com/index/gpt-5-6/">GPT-5.6</a> (launched 2026-07-09) ships without a Verified score — OpenAI reports DeepSWE v1.1 and SWE-bench Pro for it — so the 5.6 family sits in the table unplotted. Pricing from the OpenRouter API, 2026-07-09. The AHK-Eval chart plots paid endpoints only — free tiers ($0) can't sit on a log cost axis. In the grid, rows are exact model endpoints: GUI-board and OOP-judge cells fill only where that same endpoint ran the <a href="post.html?slug=llm-clipboard-benchmark">GUI benchmark</a> (its GPT-5.5 <em>Pro</em> and Kimi K2.<em>7</em> entries are different models, so those cells stay empty). Toolkit is hidden-case % from the <a href="post.html?slug=llm-toolkit-benchmark">12-function one-shot</a> — the zeros are single parse errors zeroing the whole file. Eval +repair is <a href="post.html?slug=ahk-eval-context-arms">round 2's</a> rules-card + one-repair arm.</p>
     </div>
   </main>
 
@@ -144,6 +144,12 @@
     {n:'Qwen3 Coder',s:69.6,i:0.22,o:1.80,a:16,dx:2,dy:17,side:'middle'}
   ];
   const SWE_NP=[
+    {n:'GPT-5.6 Sol Pro',i:5.00,o:30.00,a:35,note:'not reported · SWE-bench Pro 64.6% (Sol)'},
+    {n:'GPT-5.6 Sol',i:5.00,o:30.00,a:34,note:'not reported · SWE-bench Pro 64.6%'},
+    {n:'GPT-5.6 Luna Pro',i:1.00,o:6.00,a:34,note:'not reported'},
+    {n:'GPT-5.6 Luna',i:1.00,o:6.00,a:33,note:'not reported'},
+    {n:'GPT-5.6 Terra',i:2.50,o:15.00,a:32,note:'not reported'},
+    {n:'GPT-5.6 Terra Pro',i:2.50,o:15.00,a:31,note:'not reported'},
     {n:'Grok 4.5',i:2.00,o:6.00,a:31,note:'not reported · SWE-bench Pro 64.7%'},
     {n:'Grok 4.3',i:1.25,o:2.50,a:28,note:'not reported'},
     {n:'Mistral Large 3',i:0.50,o:1.50,a:9,note:'not reported'}
@@ -179,10 +185,16 @@
   // AHK-Eval solved vs OpenRouter price — same frame as the SWE chart, but every
   // model has a score here (free-tier endpoints excluded: $0 breaks a log axis)
   const AHKC=[
-    {n:'GPT-5.5',s:35,o:30.00,dx:0,dy:-11,side:'middle'},
-    {n:'Claude Fable 5',s:34,o:50.00,dx:-9,dy:14,side:'end'},
-    {n:'Gemini 3.1 Pro',s:32,o:12.00,dx:0,dy:-11,side:'middle'},
-    {n:'Grok 4.5',s:31,o:6.00,dx:8,dy:-4,side:'start'},
+    {n:'GPT-5.5',s:35,o:30.00,jx:-5,dx:-8,dy:-6,side:'end'},
+    {n:'GPT-5.6 Sol Pro',l:'5.6 Sol Pro',s:35,o:30.00,jx:5,dx:10,dy:4,side:'start'},
+    {n:'GPT-5.6 Sol',l:'5.6 Sol',s:34,o:30.00,dx:12,dy:16,side:'start'},
+    {n:'GPT-5.6 Luna Pro',l:'5.6 Luna Pro',s:34,o:6.00,dx:9,dy:-6,side:'start'},
+    {n:'GPT-5.6 Luna',l:'5.6 Luna',s:33,o:6.00,dx:9,dy:4,side:'start'},
+    {n:'GPT-5.6 Terra',l:'5.6 Terra',s:32,o:15.00,dx:9,dy:0,side:'start'},
+    {n:'GPT-5.6 Terra Pro',l:'5.6 Terra Pro',s:31,o:15.00,dx:9,dy:12,side:'start'},
+    {n:'Claude Fable 5',s:34,o:50.00,dx:2,dy:26,side:'middle'},
+    {n:'Gemini 3.1 Pro',s:32,o:12.00,dx:-9,dy:4,side:'end'},
+    {n:'Grok 4.5',s:31,o:6.00,dx:-9,dy:4,side:'end'},
     {n:'Kimi K2.6',s:30,o:3.41,dx:8,dy:4,side:'start'},
     {n:'Claude Opus 4.8',s:29,o:25.00,dx:-9,dy:4,side:'end'},
     {n:'Grok 4.3',s:28,o:2.50,dx:8,dy:12,side:'start'},
@@ -203,13 +215,13 @@
     let grid='';
     for(const t of [0.1,0.3,1,3,10,30]) grid+=`<line x1="${px(t).toFixed(0)}" y1="340" x2="${px(t).toFixed(0)}" y2="40" stroke="#1c1c1c"/><text x="${px(t).toFixed(0)}" y="357" fill="#6f6f6f" font-size="10.5" text-anchor="middle">$${t<1?t.toFixed(2):t}</text>`;
     for(const t of [10,15,20,25,30,35]) grid+=`<line x1="80" y1="${py(t).toFixed(0)}" x2="690" y2="${py(t).toFixed(0)}" stroke="#1c1c1c" stroke-dasharray="3 4"/><text x="72" y="${(py(t)+3).toFixed(0)}" fill="#6f6f6f" font-size="10.5" text-anchor="end">${t}</text>`;
-    const front=['Laguna XS 2.1','Tencent Hy3','DeepSeek V4 Pro','MiniMax M3','Grok 4.3','Kimi K2.6','Grok 4.5','Gemini 3.1 Pro','GPT-5.5'];
-    const fpts=front.map(n=>{const d=AHKC.find(x=>x.n===n);return px(d.o).toFixed(0)+','+py(d.s).toFixed(0);}).join(' ');
+    const front=['Laguna XS 2.1','Tencent Hy3','DeepSeek V4 Pro','MiniMax M3','Grok 4.3','Kimi K2.6','GPT-5.6 Luna Pro','GPT-5.6 Sol Pro'];
+    const fpts=front.map(n=>{const d=AHKC.find(x=>x.n===n);return (px(d.o)+(d.jx||0)).toFixed(0)+','+py(d.s).toFixed(0);}).join(' ');
     let dots='',labels='';
     for(const d of AHKC){
-      const x=px(d.o),y=py(d.s);
+      const x=px(d.o)+(d.jx||0),y=py(d.s);
       dots+=`<circle class="swdot" data-name="${esc(d.n)}" data-sub="AHK-Eval ${d.s}/36 solved · $${d.o.toFixed(2)} out per M" cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="5" fill="#A855F7" stroke="#0d0d0d" stroke-width="2"/>`;
-      labels+=`<text x="${(x+d.dx).toFixed(0)}" y="${(y+d.dy).toFixed(0)}" fill="#c9c9c9" font-size="10.5" text-anchor="${d.side}">${esc(d.n)}</text>`;
+      labels+=`<text x="${(x+d.dx).toFixed(0)}" y="${(y+d.dy).toFixed(0)}" fill="#c9c9c9" font-size="10.5" text-anchor="${d.side}">${esc(d.l||d.n)}</text>`;
     }
     document.getElementById('ahkcost').innerHTML=
       `<svg viewBox="0 0 720 395" width="100%" style="background:#0d0d0d;border:1px solid #262626;border-radius:12px" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">${grid}`
@@ -223,9 +235,15 @@
   // GUI/OOP cells exist only where the SAME endpoint ran the GUI board — the Pro
   // and older variants there are different models, so those cells stay empty.
   const GRID=[
+    {n:'GPT-5.6 Sol Pro',ev:35},
     {n:'GPT-5.5',tk:85,ev:35,evr:35},
+    {n:'GPT-5.6 Sol',ev:34},
+    {n:'GPT-5.6 Luna Pro',ev:34},
     {n:'Claude Fable 5',gui:85,vis:4,oop:78,ev:34,evr:36},
+    {n:'GPT-5.6 Luna',ev:33},
+    {n:'GPT-5.6 Terra',ev:32},
     {n:'Gemini 3.1 Pro',tk:74,ev:32,evr:35},
+    {n:'GPT-5.6 Terra Pro',ev:31},
     {n:'Grok 4.5',ev:31},
     {n:'Kimi K2.6',tk:0,ev:30,evr:32},
     {n:'Claude Opus 4.8',gui:92,oop:82,tk:93,ev:29,evr:34},

@@ -12,6 +12,33 @@
  },
  "rows": [
   {
+   "stem": "GPT-5-6_Sol_Pro",
+   "display": "GPT-5.6 Sol Pro",
+   "provider": "OpenAI",
+   "solved": 35,
+   "cases": 177,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 6,
+    "data": 6,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 12,
+    "mid": 12
+   },
+   "price_out": 30.0,
+   "rank": 1
+  },
+  {
    "stem": "GPT-5-5",
    "display": "GPT-5.5",
    "provider": "OpenAI",
@@ -36,7 +63,61 @@
     "mid": 12
    },
    "price_out": 30.0,
-   "rank": 1
+   "rank": 2
+  },
+  {
+   "stem": "GPT-5-6_Sol",
+   "display": "GPT-5.6 Sol",
+   "provider": "OpenAI",
+   "solved": 34,
+   "cases": 176,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 6,
+    "datetime": 6,
+    "numbers": 5,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 10,
+    "mid": 12
+   },
+   "price_out": 30.0,
+   "rank": 3
+  },
+  {
+   "stem": "GPT-5-6_Luna_Pro",
+   "display": "GPT-5.6 Luna Pro",
+   "provider": "OpenAI",
+   "solved": 34,
+   "cases": 175,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 6,
+    "data": 6,
+    "datetime": 5,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 11,
+    "mid": 11
+   },
+   "price_out": 6.0,
+   "rank": 4
   },
   {
    "stem": "Claude_Fable_5",
@@ -63,7 +144,61 @@
     "mid": 11
    },
    "price_out": 50.0,
-   "rank": 2
+   "rank": 5
+  },
+  {
+   "stem": "GPT-5-6_Luna",
+   "display": "GPT-5.6 Luna",
+   "provider": "OpenAI",
+   "solved": 33,
+   "cases": 169,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 6,
+    "data": 5,
+    "datetime": 4,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 10,
+    "mid": 11
+   },
+   "price_out": 6.0,
+   "rank": 6
+  },
+  {
+   "stem": "GPT-5-6_Terra",
+   "display": "GPT-5.6 Terra",
+   "provider": "OpenAI",
+   "solved": 32,
+   "cases": 164,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 4,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 10,
+    "hard": 12,
+    "mid": 10
+   },
+   "price_out": 15.0,
+   "rank": 7
   },
   {
    "stem": "Gemini_3-1_Pro",
@@ -90,7 +225,34 @@
     "mid": 11
    },
    "price_out": 12.0,
-   "rank": 3
+   "rank": 8
+  },
+  {
+   "stem": "GPT-5-6_Terra_Pro",
+   "display": "GPT-5.6 Terra Pro",
+   "provider": "OpenAI",
+   "solved": 31,
+   "cases": 162,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 5,
+    "datetime": 5,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 8,
+    "mid": 12
+   },
+   "price_out": 15.0,
+   "rank": 9
   },
   {
    "stem": "Grok_4-5",
@@ -117,7 +279,7 @@
     "mid": 10
    },
    "price_out": 6.0,
-   "rank": 4
+   "rank": 10
   },
   {
    "stem": "Kimi_K2-6",
@@ -144,7 +306,7 @@
     "mid": 11
    },
    "price_out": 3.41,
-   "rank": 5
+   "rank": 11
   },
   {
    "stem": "Opus_4-8",
@@ -171,7 +333,7 @@
     "mid": 11
    },
    "price_out": 25.0,
-   "rank": 6
+   "rank": 12
   },
   {
    "stem": "Grok_4-3",
@@ -198,7 +360,7 @@
     "mid": 10
    },
    "price_out": 2.5,
-   "rank": 7
+   "rank": 13
   },
   {
    "stem": "MiniMax_M3",
@@ -225,7 +387,7 @@
     "mid": 9
    },
    "price_out": 1.2,
-   "rank": 8
+   "rank": 14
   },
   {
    "stem": "Sonnet_4-6",
@@ -252,7 +414,7 @@
     "mid": 9
    },
    "price_out": 15.0,
-   "rank": 9
+   "rank": 15
   },
   {
    "stem": "GLM-5",
@@ -279,7 +441,7 @@
     "mid": 7
    },
    "price_out": 1.92,
-   "rank": 10
+   "rank": 16
   },
   {
    "stem": "GPT-5-1",
@@ -306,7 +468,7 @@
     "mid": 9
    },
    "price_out": 10.0,
-   "rank": 11
+   "rank": 17
   },
   {
    "stem": "Hy3_Free",
@@ -333,7 +495,7 @@
     "mid": 9
    },
    "price_out": 0,
-   "rank": 12
+   "rank": 18
   },
   {
    "stem": "DeepSeek_V4_Pro",
@@ -360,7 +522,7 @@
     "mid": 9
    },
    "price_out": 0.87,
-   "rank": 13
+   "rank": 19
   },
   {
    "stem": "Hy3",
@@ -387,7 +549,7 @@
     "mid": 7
    },
    "price_out": 0.58,
-   "rank": 14
+   "rank": 20
   },
   {
    "stem": "Qwen3_Coder",
@@ -414,7 +576,7 @@
     "mid": 5
    },
    "price_out": 1.8,
-   "rank": 15
+   "rank": 21
   },
   {
    "stem": "Mistral_Large_3",
@@ -441,7 +603,7 @@
     "mid": 2
    },
    "price_out": 1.5,
-   "rank": 16
+   "rank": 22
   },
   {
    "stem": "Laguna_XS_2-1_Free",
@@ -468,7 +630,7 @@
     "mid": 2
    },
    "price_out": 0,
-   "rank": 17
+   "rank": 23
   },
   {
    "stem": "Laguna_XS_2-1",
@@ -495,7 +657,7 @@
     "mid": 2
    },
    "price_out": 0.12,
-   "rank": 18
+   "rank": 24
   }
  ]
 }
