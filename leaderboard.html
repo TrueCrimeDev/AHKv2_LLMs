@@ -91,7 +91,7 @@
     </div>
     <div style="overflow-x:auto"><table class="bm-heat" id="tbl"><thead><tr>
       <th data-k="rank" class="sorted">#</th><th data-k="display" style="text-align:left">Model</th>
-      <th data-k="runs">runs</th><th data-k="parse">parse</th><th data-k="score">code</th><th data-k="visual">visual</th>
+      <th data-k="runs">runs</th><th data-k="parse">parse</th><th data-k="score">code</th><th data-k="visual">visual</th><th data-k="oop" title="LLM-judge panel: GPT-5.4-mini + Haiku 4.5, five 20-point dimensions">OOP</th>
     </tr></thead><tbody id="body"></tbody></table></div>
 
     <div class="bm-wrap" style="margin-top:40px"><div class="bm-h">The bigger picture: SWE-bench Verified vs. what a token costs</div>
@@ -114,6 +114,7 @@
   let DATA=[], sortK='rank', asc=true, filt='all', q='';
   const codeCls=s=>s>=90?'h-emer':s>=75?'h-blue':s>=50?'h-amber':'h-red';
   const visCell=v=>v==null?'<td class="h-dim">—</td>':`<td class="${v>=18?'h-emer':v>=14?'h-amber':'h-dim'}">${v}</td>`;
+  const oopCell=o=>o==null?'<td class="h-dim">—</td>':`<td class="${o>=85?'h-emer':o>=70?'h-blue':o>=55?'h-amber':'h-red'}">${o}</td>`;
   const runsCell=r=>(r.bytes===0||!r.parse)?'<td class="h-dim">—</td>':(r.runs?'<td class="h-emer">✓</td>':'<td class="h-red">✗</td>');
   function state(r){ if(r.bytes===0)return 'dnf'; if(!r.parse)return 'fail'; return r.runs?'runs':'crash'; }
   function render(){
@@ -131,7 +132,7 @@
       return `<tr><td class="h-rank">${r.rank}</td>`+
         `<td class="h-name"><span class="fdot" style="background:${fc}" title="${esc(r.provider)}"></span>`+
         `<a href="model.html?id=${encodeURIComponent(r.id)}">${nm}</a></td>`+
-        runsCell(r)+parseCell+`<td class="${codeCls(r.score)}">${r.score}</td>`+visCell(r.visual)+`</tr>`;
+        runsCell(r)+parseCell+`<td class="${codeCls(r.score)}">${r.score}</td>`+visCell(r.visual)+oopCell(r.oop)+`</tr>`;
     }).join('');
     document.getElementById('count').textContent = rows.length+' shown';
     document.querySelectorAll('#tbl th').forEach(th=>{th.classList.toggle('sorted',th.dataset.k===sortK);th.classList.toggle('asc',th.dataset.k===sortK&&asc);});
@@ -240,7 +241,7 @@
   document.getElementById('search').oninput=e=>{q=e.target.value.toLowerCase().trim();render();};
   renderSwe();
   fetch('posts/clipboard-benchmark/models.json').then(r=>r.json()).then(d=>{DATA=d;renderSwarm(DATA);render();})
-    .catch(e=>document.getElementById('body').innerHTML='<tr><td colspan="6">Failed to load: '+e.message+'</td></tr>');
+    .catch(e=>document.getElementById('body').innerHTML='<tr><td colspan="7">Failed to load: '+e.message+'</td></tr>');
   </script>
 </body>
 </html>

@@ -66,7 +66,34 @@
   "analysis": "**Fable 5 (Full Harness)** parses and **builds a working window**.\n\nVisually it nails the brief: fully dark window, dark title bar included.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **98/100**, visual **20/20**.",
   "rank": 1,
   "prev": null,
-  "next": "GPT-5-5-Pro"
+  "next": "GPT-5-5-Pro",
+  "oop": 80,
+  "oop_items": {
+   "Class architecture": 16.0,
+   "v2 idiom": 15.5,
+   "Callback discipline": 18.0,
+   "Error handling": 14.0,
+   "Readability": 16.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 73,
+    "note": "Good wrapper classes, but it still leans on a mostly procedural app class with a silent catch."
+   },
+   {
+    "judge": "haiku45",
+    "total": 87,
+    "note": "Well-structured OOP with meaningful wrapper hierarchy, clean v2 idiom, and proper event binding\u2014minor: bare array initialization and one swallowed catch."
+   }
+  ]
  },
  {
   "id": "GPT-5-5-Pro",
@@ -135,7 +162,34 @@
   "analysis": "**GPT-5.5 Pro** parses and **builds a working window**.\n\nVisually it nails the brief: fully dark window, dark title bar included.\n\nCode signals: 6 `extends` classes, 2/3 Str transforms, undo only. Static score **95/100**, visual **20/20**.",
   "rank": 2,
   "prev": "Claude_Fable_5_Full_Harness",
-  "next": "GPT-5-5-Pro_Extra"
+  "next": "GPT-5-5-Pro_Extra",
+  "oop": 79,
+  "oop_items": {
+   "Class architecture": 16.0,
+   "v2 idiom": 16.0,
+   "Callback discipline": 17.5,
+   "Error handling": 13.5,
+   "Readability": 16.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 71,
+    "note": "Solid wrapper-based OOP, but some AHK-v2 drift remains and error handling is mostly just debug logging."
+   },
+   {
+    "judge": "haiku45",
+    "total": 87,
+    "note": "Well-structured OOP with meaningful class hierarchy, clean v2 idiom, and proper event binding\u2014minor issues in error handling scope and some utility class ceremo"
+   }
+  ]
  },
  {
   "id": "GPT-5-5-Pro_Extra",
@@ -204,7 +258,34 @@
   "analysis": "**GPT-5.5 Pro (Extra)** parses and **builds a working window**.\n\nVisually it nails the brief: fully dark window, dark title bar included.\n\nCode signals: 5 `extends` classes, 2/3 Str transforms, no undo. Static score **95/100**, visual **20/20**.",
   "rank": 3,
   "prev": "GPT-5-5-Pro",
-  "next": "GPT-5-2-Pro2"
+  "next": "GPT-5-2-Pro2",
+  "oop": 74,
+  "oop_items": {
+   "Class architecture": 15.0,
+   "v2 idiom": 14.5,
+   "Callback discipline": 17.0,
+   "Error handling": 12.5,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 67,
+    "note": "Class wrappers are real but thin; most behavior still lives in one app class with try/catch noise."
+   },
+   {
+    "judge": "haiku45",
+    "total": 82,
+    "note": "Well-structured OOP with proper inheritance hierarchy, but AbstractNode's NodeCounter is unused ceremony and some error handling swallows failures silently."
+   }
+  ]
  },
  {
   "id": "GPT-5-2-Pro2",
@@ -273,7 +354,34 @@
   "analysis": "**GPT-5.2 Pro (v2)** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 3 `extends` classes, 2/3 Str transforms, no undo. Static score **92/100**, visual **4/20**.",
   "rank": 4,
   "prev": "GPT-5-5-Pro_Extra",
-  "next": "Qwen_3-7"
+  "next": "Qwen_3-7",
+  "oop": 76,
+  "oop_items": {
+   "Class architecture": 15.5,
+   "v2 idiom": 16.5,
+   "Callback discipline": 16.0,
+   "Error handling": 12.5,
+   "Readability": 16.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 71,
+    "note": "Good small wrapper classes, but callbacks and clipboard errors still rely on a few ad hoc patterns."
+   },
+   {
+    "judge": "haiku45",
+    "total": 82,
+    "note": "Well-structured OOP with meaningful wrapper classes and clean separation of concerns, but clipboard error handling swallows failures silently."
+   }
+  ]
  },
  {
   "id": "Qwen_3-7",
@@ -342,7 +450,34 @@
   "analysis": "**Qwen 3.7** parses and **builds a working window**.\n\nIt darkens the client area but leaves the Windows title bar light \u2014 partial dark mode.\n\nCode signals: 3 `extends` classes, 3/3 Str transforms, undo+redo. Static score **92/100**, visual **15/20**.",
   "rank": 5,
   "prev": "GPT-5-2-Pro2",
-  "next": "Alpha_Owl"
+  "next": "Alpha_Owl",
+  "oop": 75,
+  "oop_items": {
+   "Class architecture": 14.0,
+   "v2 idiom": 15.5,
+   "Callback discipline": 17.5,
+   "Error handling": 11.5,
+   "Readability": 16.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 70,
+    "note": "Good wrapper-based OO, but it leans on a single controller class and has some v1-ish/invented API noise."
+   },
+   {
+    "judge": "haiku45",
+    "total": 80,
+    "note": "Solid OOP with meaningful wrapper hierarchy, clean callbacks via .Bind(), but try blocks swallow clipboard failures and EditWrap/TextWrap are near-identical."
+   }
+  ]
  },
  {
   "id": "Alpha_Owl",
@@ -411,7 +546,34 @@
   "analysis": "**Alpha Owl** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 2 `extends` classes, 2/3 Str transforms, no undo. Static score **90/100**, visual **4/20**.",
   "rank": 6,
   "prev": "Qwen_3-7",
-  "next": "WizardLM_2_8x22B"
+  "next": "WizardLM_2_8x22B",
+  "oop": 74,
+  "oop_items": {
+   "Class architecture": 14.5,
+   "v2 idiom": 15.0,
+   "Callback discipline": 16.5,
+   "Error handling": 13.5,
+   "Readability": 15.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 71,
+    "note": "Solid wrapper classes, but the main app is still a single owner object with some rough AHK v2 idioms."
+   },
+   {
+    "judge": "haiku45",
+    "total": 78,
+    "note": "Solid OOP with meaningful subclasses and proper binding, but Map() initialized with empty strings is wasteful and OnEvent wrapping adds ceremony without value."
+   }
+  ]
  },
  {
   "id": "WizardLM_2_8x22B",
@@ -480,7 +642,34 @@
   "analysis": "**WizardLM 2 8x22B** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **90/100**, visual **4/20**.",
   "rank": 7,
   "prev": "Alpha_Owl",
-  "next": "Claude_Fable_5_Spotlight"
+  "next": "Claude_Fable_5_Spotlight",
+  "oop": 70,
+  "oop_items": {
+   "Class architecture": 14.5,
+   "v2 idiom": 14.5,
+   "Callback discipline": 17.0,
+   "Error handling": 9.0,
+   "Readability": 15.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 65,
+    "note": "Modest wrapper classes help, but most behavior still lives in one controller and error handling is mostly swallowed."
+   },
+   {
+    "judge": "haiku45",
+    "total": 75,
+    "note": "Solid wrapper pattern with meaningful subclasses, but ControlWrapper.Create() is unused ceremony and error handling swallows clipboard failures silently."
+   }
+  ]
  },
  {
   "id": "Claude_Fable_5_Spotlight",
@@ -549,7 +738,34 @@
   "analysis": "**Fable 5 (Spotlight)** parses and **builds a working window**.\n\nVisually it nails the brief: fully dark window, dark title bar included.\n\nCode signals: 1 `extends` class, 3/3 Str transforms, no undo. Static score **89/100**, visual **20/20**.",
   "rank": 8,
   "prev": "WizardLM_2_8x22B",
-  "next": "Opus_4-7_Fast"
+  "next": "Opus_4-7_Fast",
+  "oop": 80,
+  "oop_items": {
+   "Class architecture": 16.5,
+   "v2 idiom": 16.5,
+   "Callback discipline": 16.5,
+   "Error handling": 14.0,
+   "Readability": 16.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 72,
+    "note": "Good modular decomposition, but many callbacks are still fat arrows and error handling is mostly catch-and-toast."
+   },
+   {
+    "judge": "haiku45",
+    "total": 88,
+    "note": "Well-structured command palette with proper OOP, clean AHK v2 idiom, and thoughtful separation of concerns\u2014minor error handling gaps in user-facing operations."
+   }
+  ]
  },
  {
   "id": "Opus_4-7_Fast",
@@ -618,7 +834,34 @@
   "analysis": "**Opus 4.7 (Fast)** parses and **builds a working window**.\n\nIt darkens the client area but leaves the Windows title bar light \u2014 partial dark mode.\n\nCode signals: 2 `extends` classes, 2/3 Str transforms, no undo. Static score **88/100**, visual **15/20**.",
   "rank": 9,
   "prev": "Claude_Fable_5_Spotlight",
-  "next": "Opus_4-8_Fast"
+  "next": "Opus_4-8_Fast",
+  "oop": 64,
+  "oop_items": {
+   "Class architecture": 15.0,
+   "v2 idiom": 13.5,
+   "Callback discipline": 14.0,
+   "Error handling": 7.0,
+   "Readability": 15.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 49,
+    "note": "Some class structure exists, but it\u2019s mostly thin wrappers plus a flat controller with no real error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 80,
+    "note": "Well-structured OOP with meaningful wrapper hierarchy, but error handling is absent and _writing flag is a code smell."
+   }
+  ]
  },
  {
   "id": "Opus_4-8_Fast",
@@ -687,7 +930,34 @@
   "analysis": "**Opus 4.8 (Fast)** parses and **builds a working window**.\n\nIt darkens the client area but leaves the Windows title bar light \u2014 partial dark mode.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **88/100**, visual **15/20**.",
   "rank": 10,
   "prev": "Opus_4-7_Fast",
-  "next": "GPT-5-3"
+  "next": "GPT-5-3",
+  "oop": 78,
+  "oop_items": {
+   "Class architecture": 15.0,
+   "v2 idiom": 14.5,
+   "Callback discipline": 17.5,
+   "Error handling": 14.5,
+   "Readability": 16.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 67,
+    "note": "Good class split, but it still mixes legacy GUI calls and a few AHK-v1-ish/awkward idioms."
+   },
+   {
+    "judge": "haiku45",
+    "total": 88,
+    "note": "Well-structured OOP with meaningful wrapper classes, clean v2 idiom, and proper event binding\u2014minor: ControlWrapper.Anchor() is ceremonial."
+   }
+  ]
  },
  {
   "id": "GPT-5-3",
@@ -756,7 +1026,34 @@
   "analysis": "**GPT-5.3** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **87/100**, visual **4/20**.",
   "rank": 11,
   "prev": "Opus_4-8_Fast",
-  "next": "Claude_Fable_5_AHK_OOP"
+  "next": "Claude_Fable_5_AHK_OOP",
+  "oop": 73,
+  "oop_items": {
+   "Class architecture": 15.5,
+   "v2 idiom": 18.0,
+   "Callback discipline": 17.0,
+   "Error handling": 7.0,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 65,
+    "note": "Good OOP wrappers and bound handlers, but error handling is basically absent."
+   },
+   {
+    "judge": "haiku45",
+    "total": 81,
+    "note": "Well-structured OOP with proper wrapper classes and bound methods, but undo/redo stacks lack bounds checking and empty __Delete is noise."
+   }
+  ]
  },
  {
   "id": "Claude_Fable_5_AHK_OOP",
@@ -825,7 +1122,34 @@
   "analysis": "**Fable 5 (AHK OOP)** parses and **builds a working window**.\n\nVisually it nails the brief: fully dark window, dark title bar included.\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **86/100**, visual **20/20**.",
   "rank": 12,
   "prev": "GPT-5-3",
-  "next": "Claude_Fable_5"
+  "next": "Claude_Fable_5",
+  "oop": 71,
+  "oop_items": {
+   "Class architecture": 14.0,
+   "v2 idiom": 14.5,
+   "Callback discipline": 17.5,
+   "Error handling": 9.5,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 54,
+    "note": "Single cohesive class, but mostly a wrapper around GUI setup with a few lambda callbacks and little error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 88,
+    "note": "Well-structured single-class GUI wrapper with proper state encapsulation, clean callbacks via .Bind(), and solid AHK v2 idiom\u2014minor error handling gap in clipbo"
+   }
+  ]
  },
  {
   "id": "Claude_Fable_5",
@@ -894,7 +1218,34 @@
   "analysis": "**Fable 5** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **85/100**, visual **4/20**.",
   "rank": 13,
   "prev": "Claude_Fable_5_AHK_OOP",
-  "next": "Claude_Fable_5_Skills"
+  "next": "Claude_Fable_5_Skills",
+  "oop": 78,
+  "oop_items": {
+   "Class architecture": 15.5,
+   "v2 idiom": 18.0,
+   "Callback discipline": 18.0,
+   "Error handling": 8.5,
+   "Readability": 17.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 70,
+    "note": "Clean cohesive class wrapper, but error handling is basically absent."
+   },
+   {
+    "judge": "haiku45",
+    "total": 85,
+    "note": "Well-structured single-class design with proper encapsulation; minor: empty catch blocks absent but error paths (transform failures) not surfaced to user."
+   }
+  ]
  },
  {
   "id": "Claude_Fable_5_Skills",
@@ -963,7 +1314,34 @@
   "analysis": "**Fable 5 (Skills)** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **85/100**, visual **4/20**.",
   "rank": 14,
   "prev": "Claude_Fable_5",
-  "next": "DeepSeek_V4"
+  "next": "DeepSeek_V4",
+  "oop": 78,
+  "oop_items": {
+   "Class architecture": 15.5,
+   "v2 idiom": 18.5,
+   "Callback discipline": 17.5,
+   "Error handling": 9.0,
+   "Readability": 17.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 70,
+    "note": "Good cohesive class, but GUI/event handling is still fairly conventional and error handling is minimal."
+   },
+   {
+    "judge": "haiku45",
+    "total": 85,
+    "note": "Well-structured single-class design with proper encapsulation; minor: empty catch blocks absent but no explicit error handling for clipboard/string operations."
+   }
+  ]
  },
  {
   "id": "DeepSeek_V4",
@@ -1032,7 +1410,34 @@
   "analysis": "**DeepSeek V4** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 2 `extends` classes, 2/3 Str transforms, no undo. Static score **83/100**, visual **4/20**.",
   "rank": 15,
   "prev": "Claude_Fable_5_Skills",
-  "next": "Gemini_3-1_Flash_Lite"
+  "next": "Gemini_3-1_Flash_Lite",
+  "oop": 68,
+  "oop_items": {
+   "Class architecture": 14.5,
+   "v2 idiom": 14.5,
+   "Callback discipline": 17.0,
+   "Error handling": 8.0,
+   "Readability": 14.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 62,
+    "note": "Good wrapper classes, but the app is still mostly a single procedural GUI controller with little error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 75,
+    "note": "Solid OOP with wrapper classes and bound callbacks, but error handling is sparse and FormatText logic is convoluted."
+   }
+  ]
  },
  {
   "id": "Gemini_3-1_Flash_Lite",
@@ -1101,7 +1506,34 @@
   "analysis": "**Gemini 3.1 Flash Lite** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 2 `extends` classes, 2/3 Str transforms, no undo. Static score **83/100**, visual **4/20**.",
   "rank": 16,
   "prev": "DeepSeek_V4",
-  "next": "Claude_Fable_5_NoSkills"
+  "next": "Claude_Fable_5_NoSkills",
+  "oop": 72,
+  "oop_items": {
+   "Class architecture": 16.5,
+   "v2 idiom": 16.0,
+   "Callback discipline": 17.0,
+   "Error handling": 7.5,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 64,
+    "note": "Cohesive wrapper/app classes, but several invented/v1-ish APIs and no real error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 81,
+    "note": "Solid OOP with wrapper classes and clean event binding, but Join() helper and Transformer statics are minor design friction."
+   }
+  ]
  },
  {
   "id": "Claude_Fable_5_NoSkills",
@@ -1170,7 +1602,34 @@
   "analysis": "**Fable 5 (No Skills)** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **80/100**, visual **4/20**.",
   "rank": 17,
   "prev": "Gemini_3-1_Flash_Lite",
-  "next": "Sonnet_4-6"
+  "next": "Sonnet_4-6",
+  "oop": 76,
+  "oop_items": {
+   "Class architecture": 15.0,
+   "v2 idiom": 18.5,
+   "Callback discipline": 18.0,
+   "Error handling": 7.0,
+   "Readability": 17.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 71,
+    "note": "Compact cohesive class, but essentially no error handling and a couple of event callbacks use inline arrows."
+   },
+   {
+    "judge": "haiku45",
+    "total": 80,
+    "note": "Solid single-class design with clean AHK v2 idiom; minor: no validation, tooltip timer could fail if called rapidly, missing clipboard error handling."
+   }
+  ]
  },
  {
   "id": "Sonnet_4-6",
@@ -1239,7 +1698,34 @@
   "analysis": "**Sonnet 4.6** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, undo+redo. Static score **80/100**, visual **4/20**.",
   "rank": 18,
   "prev": "Claude_Fable_5_NoSkills",
-  "next": "Grok_4-2_Test"
+  "next": "Grok_4-2_Test",
+  "oop": 74,
+  "oop_items": {
+   "Class architecture": 15.5,
+   "v2 idiom": 15.5,
+   "Callback discipline": 18.5,
+   "Error handling": 9.5,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 64,
+    "note": "Single cohesive class, but it still mixes GUI/state/logic and has almost no real error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 85,
+    "note": "Single well-designed class with clean state ownership; minor: empty catch in __Delete, no validation on clipboard load, tight coupling of UI and logic."
+   }
+  ]
  },
  {
   "id": "Grok_4-2_Test",
@@ -1308,7 +1794,34 @@
   "analysis": "**Grok 4.2** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **78/100**, visual **4/20**.",
   "rank": 19,
   "prev": "Sonnet_4-6",
-  "next": "GPT-5-4-nano"
+  "next": "GPT-5-4-nano",
+  "oop": 70,
+  "oop_items": {
+   "Class architecture": 14.5,
+   "v2 idiom": 16.0,
+   "Callback discipline": 16.5,
+   "Error handling": 9.5,
+   "Readability": 13.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 62,
+    "note": "Cohesive classes exist, but most behavior still lives in one palette class with a swallowed catch."
+   },
+   {
+    "judge": "haiku45",
+    "total": 78,
+    "note": "Well-structured command palette with proper OOP, but TryCalculate swallows errors silently and DoReverse reinvents Array.Reverse."
+   }
+  ]
  },
  {
   "id": "GPT-5-4-nano",
@@ -1377,7 +1890,34 @@
   "analysis": "**GPT-5.4 nano** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **77/100**, visual **4/20**.",
   "rank": 20,
   "prev": "Grok_4-2_Test",
-  "next": "KAT_Coder"
+  "next": "KAT_Coder",
+  "oop": 75,
+  "oop_items": {
+   "Class architecture": 14.0,
+   "v2 idiom": 16.5,
+   "Callback discipline": 17.0,
+   "Error handling": 12.5,
+   "Readability": 15.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 68,
+    "note": "Single cohesive class with some real state, but callback wiring and error handling are only moderately clean."
+   },
+   {
+    "judge": "haiku45",
+    "total": 82,
+    "note": "Single well-designed class with proper state ownership, clean event binding via Map dispatch, and solid AHK v2 idiom\u2014minor: empty catch in Log() and ops Map cou"
+   }
+  ]
  },
  {
   "id": "KAT_Coder",
@@ -1446,7 +1986,34 @@
   "analysis": "**KAT-Coder** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **76/100**, visual **4/20**.",
   "rank": 21,
   "prev": "GPT-5-4-nano",
-  "next": "KAT-Coder-Pro-v2"
+  "next": "KAT-Coder-Pro-v2",
+  "oop": 67,
+  "oop_items": {
+   "Class architecture": 13.0,
+   "v2 idiom": 13.0,
+   "Callback discipline": 16.0,
+   "Error handling": 11.0,
+   "Readability": 14.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 55,
+    "note": "Single class is cohesive, but it mixes AHK v2 with a few v1-era/invented patterns and noisy comments."
+   },
+   {
+    "judge": "haiku45",
+    "total": 79,
+    "note": "Well-structured single-class GUI wrapper with proper binding and event handling; minor idiom slip (ClipboardAll as string) and catch blocks could be more specif"
+   }
+  ]
  },
  {
   "id": "KAT-Coder-Pro-v2",
@@ -1515,7 +2082,34 @@
   "analysis": "**KAT-Coder Pro v2** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **76/100**, visual **4/20**.",
   "rank": 22,
   "prev": "KAT_Coder",
-  "next": "MiMo-V2-Pro"
+  "next": "MiMo-V2-Pro",
+  "oop": 60,
+  "oop_items": {
+   "Class architecture": 11.5,
+   "v2 idiom": 13.0,
+   "Callback discipline": 14.5,
+   "Error handling": 8.5,
+   "Readability": 12.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 49,
+    "note": "Two-class split exists, but event handlers and repeated status-timer logic stay mostly procedural."
+   },
+   {
+    "judge": "haiku45",
+    "total": 71,
+    "note": "Two classes with clear separation, but TextFormatter is a static utility (not OOP), and repetitive status-bar logic across handlers."
+   }
+  ]
  },
  {
   "id": "MiMo-V2-Pro",
@@ -1584,7 +2178,34 @@
   "analysis": "**MiMo V2 Pro** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **76/100**, visual **4/20**.",
   "rank": 23,
   "prev": "KAT-Coder-Pro-v2",
-  "next": "MiniMax3"
+  "next": "MiniMax3",
+  "oop": 74,
+  "oop_items": {
+   "Class architecture": 13.0,
+   "v2 idiom": 15.0,
+   "Callback discipline": 17.0,
+   "Error handling": 14.0,
+   "Readability": 15.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 68,
+    "note": "Single cohesive class with bound methods, but lots of procedural GUI building and some redundant helpers/comments."
+   },
+   {
+    "judge": "haiku45",
+    "total": 80,
+    "note": "Solid single-class design with proper event binding; invented Join() helper and try-catch verbosity are minor flaws."
+   }
+  ]
  },
  {
   "id": "MiniMax3",
@@ -1653,7 +2274,34 @@
   "analysis": "**MiniMax 3** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, undo+redo. Static score **75/100**, visual **4/20**.",
   "rank": 24,
   "prev": "MiMo-V2-Pro",
-  "next": "Qwen3_VL_235 B_A22B_Instruct"
+  "next": "Qwen3_VL_235 B_A22B_Instruct",
+  "oop": 66,
+  "oop_items": {
+   "Class architecture": 14.5,
+   "v2 idiom": 12.5,
+   "Callback discipline": 17.0,
+   "Error handling": 6.5,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 55,
+    "note": "Single cohesive class, but otherwise fairly procedural with weak error handling and v1-ish idiom slips."
+   },
+   {
+    "judge": "haiku45",
+    "total": 77,
+    "note": "Single well-structured class with clean event binding, but undoStack/redoStack should be Map() and error handling is absent."
+   }
+  ]
  },
  {
   "id": "Qwen3_VL_235 B_A22B_Instruct",
@@ -1722,7 +2370,34 @@
   "analysis": "**Qwen3-VL 235B-A22B** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **75/100**, visual **4/20**.",
   "rank": 25,
   "prev": "MiniMax3",
-  "next": "GPT-5-2-Pro"
+  "next": "GPT-5-2-Pro",
+  "oop": 76,
+  "oop_items": {
+   "Class architecture": 13.5,
+   "v2 idiom": 17.0,
+   "Callback discipline": 18.5,
+   "Error handling": 12.0,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 73,
+    "note": "Single cohesive class with bound handlers; mostly idiomatic, but errors are under-handled and a few v2 details are sloppy."
+   },
+   {
+    "judge": "haiku45",
+    "total": 80,
+    "note": "Well-structured single-class GUI wrapper with proper binding; minor: swallowed LoadClipboard error and unused buttonRow field."
+   }
+  ]
  },
  {
   "id": "GPT-5-2-Pro",
@@ -1791,7 +2466,34 @@
   "analysis": "**GPT-5.2 Pro** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **74/100**, visual **4/20**.",
   "rank": 26,
   "prev": "Qwen3_VL_235 B_A22B_Instruct",
-  "next": "Opus-4-6_Fast"
+  "next": "Opus-4-6_Fast",
+  "oop": 73,
+  "oop_items": {
+   "Class architecture": 16.0,
+   "v2 idiom": 16.0,
+   "Callback discipline": 17.0,
+   "Error handling": 8.0,
+   "Readability": 16.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 62,
+    "note": "Single cohesive class with bound handlers, but lots of imperative GUI plumbing and no real error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 84,
+    "note": "Well-structured single class with proper state ownership, clean event binding, and v2 idiom\u2014minor: property getter/setter for Text unused, sparse error handling"
+   }
+  ]
  },
  {
   "id": "Opus-4-6_Fast",
@@ -1860,7 +2562,34 @@
   "analysis": "**Opus 4.6 (Fast)** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **74/100**, visual **4/20**.",
   "rank": 27,
   "prev": "GPT-5-2-Pro",
-  "next": "MiniMax2-7"
+  "next": "MiniMax2-7",
+  "oop": 72,
+  "oop_items": {
+   "Class architecture": 14.0,
+   "v2 idiom": 18.0,
+   "Callback discipline": 15.5,
+   "Error handling": 9.0,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 66,
+    "note": "Single cohesive class, but event handlers use inline lambdas and the one catch silently falls back to blank."
+   },
+   {
+    "judge": "haiku45",
+    "total": 78,
+    "note": "Solid single-class design with clean v2 idiom and proper binding, but LoadClipboard swallows errors silently and indentation is broken."
+   }
+  ]
  },
  {
   "id": "MiniMax2-7",
@@ -1929,7 +2658,34 @@
   "analysis": "**MiniMax 2.7** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 0/3 Str transforms, no undo. Static score **72/100**, visual **2/20**.",
   "rank": 28,
   "prev": "Opus-4-6_Fast",
-  "next": "Spectre"
+  "next": "Spectre",
+  "oop": 68,
+  "oop_items": {
+   "Class architecture": 14.0,
+   "v2 idiom": 16.0,
+   "Callback discipline": 18.0,
+   "Error handling": 4.5,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 65,
+    "note": "Single cohesive class with good binding, but almost no error handling and some v1-era GUI idiom."
+   },
+   {
+    "judge": "haiku45",
+    "total": 71,
+    "note": "Single well-structured class with proper binding, but lacks error handling for clipboard operations and has a redundant ExitApp wrapper."
+   }
+  ]
  },
  {
   "id": "Spectre",
@@ -1998,7 +2754,34 @@
   "analysis": "**Spectre** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **71/100**, visual **4/20**.",
   "rank": 29,
   "prev": "MiniMax2-7",
-  "next": "Grok_Code_Fast_2"
+  "next": "Grok_Code_Fast_2",
+  "oop": 65,
+  "oop_items": {
+   "Class architecture": 12.5,
+   "v2 idiom": 14.5,
+   "Callback discipline": 15.5,
+   "Error handling": 9.5,
+   "Readability": 13.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 53,
+    "note": "Single class is coherent, but event/error handling is still mostly inline and some AHK v2 idioms are shaky."
+   },
+   {
+    "judge": "haiku45",
+    "total": 77,
+    "note": "Solid single-class design with proper binding and error handling, but UpdateStatus() is fragile and status control should be stored as instance property."
+   }
+  ]
  },
  {
   "id": "Grok_Code_Fast_2",
@@ -2067,7 +2850,34 @@
   "analysis": "**Grok Code Fast 2** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **70/100**, visual **4/20**.",
   "rank": 30,
   "prev": "Spectre",
-  "next": "MiniMax2-7a"
+  "next": "MiniMax2-7a",
+  "oop": 70,
+  "oop_items": {
+   "Class architecture": 13.5,
+   "v2 idiom": 16.5,
+   "Callback discipline": 18.0,
+   "Error handling": 7.0,
+   "Readability": 15.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 69,
+    "note": "Single cohesive class with bound method events, but clipboard/error handling is mostly swallowed and heuristic-based."
+   },
+   {
+    "judge": "haiku45",
+    "total": 71,
+    "note": "Solid single-class design with clean binding, but empty catch block and magic-string placeholder detection undermine robustness."
+   }
+  ]
  },
  {
   "id": "MiniMax2-7a",
@@ -2136,7 +2946,34 @@
   "analysis": "**MiniMax 2.7a** parses and **builds a working window**.\n\nDespite the prompt asking for dark mode, the window renders **light** \u2014 the styling didn't take.\n\nCode signals: 0 `extends` classes, 0/3 Str transforms, no undo. Static score **70/100**, visual **4/20**.",
   "rank": 31,
   "prev": "Grok_Code_Fast_2",
-  "next": "Hermes_4_405B"
+  "next": "Hermes_4_405B",
+  "oop": 74,
+  "oop_items": {
+   "Class architecture": 13.5,
+   "v2 idiom": 18.0,
+   "Callback discipline": 18.0,
+   "Error handling": 9.0,
+   "Readability": 16.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 69,
+    "note": "Single cohesive class with clean bound handlers, but error handling is minimal and one catch is empty."
+   },
+   {
+    "judge": "haiku45",
+    "total": 80,
+    "note": "Solid single-class design with clean v2 idiom and proper binding, but bare try-catch swallows errors and lacks user feedback on load failure."
+   }
+  ]
  },
  {
   "id": "Hermes_4_405B",
@@ -2204,7 +3041,34 @@
   "analysis": "**Hermes 4 405B** parses clean but **crashes on launch** \u2014 a hallucinated API \u2014 it calls a function that doesn't exist in AHK v2. It never draws a window. Reported error: `Warning: This local variable appears to never be assigned a value.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **95/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`No value was returned.`).",
   "rank": 32,
   "prev": "MiniMax2-7a",
-  "next": "Hermes_4_70B"
+  "next": "Hermes_4_70B",
+  "oop": 48,
+  "oop_items": {
+   "Class architecture": 11.0,
+   "v2 idiom": 9.5,
+   "Callback discipline": 11.0,
+   "Error handling": 6.0,
+   "Readability": 11.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 32,
+    "note": "Wrapper classes exist, but composition is thin and much of the app logic is still centralized in one controller."
+   },
+   {
+    "judge": "haiku45",
+    "total": 65,
+    "note": "Solid wrapper classes with meaningful inheritance, but undo/redo uses bare arrays instead of Map(), and event dispatch via .Call property is non-idiomatic."
+   }
+  ]
  },
  {
   "id": "Hermes_4_70B",
@@ -2272,7 +3136,34 @@
   "analysis": "**Hermes 4 70B** parses clean but **crashes on launch** \u2014 a hallucinated API \u2014 it calls a function that doesn't exist in AHK v2. It never draws a window. Reported error: `Warning: This local variable appears to never be assigned a value.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **95/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`This Class cannot be used as an output variable.`).",
   "rank": 33,
   "prev": "Hermes_4_405B",
-  "next": "GPT-5-3-Codex"
+  "next": "GPT-5-3-Codex",
+  "oop": 48,
+  "oop_items": {
+   "Class architecture": 10.5,
+   "v2 idiom": 9.5,
+   "Callback discipline": 10.0,
+   "Error handling": 8.5,
+   "Readability": 10.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 33,
+    "note": "Some OOP wrappers exist, but the script still leans on invented APIs, v1 leftovers, and shallow callbacks."
+   },
+   {
+    "judge": "haiku45",
+    "total": 64,
+    "note": "Base class with throw stubs + wrapper subclasses is ceremonial; history mutation logic scattered across three identical Transform methods; 'new' keyword and g: "
+   }
+  ]
  },
  {
   "id": "GPT-5-3-Codex",
@@ -2327,7 +3218,34 @@
   "analysis": "**GPT-5.3 Codex** parses clean but **crashes on launch** \u2014 an uncaught runtime error. It never draws a window. Reported error: `This local variable has not been assigned a value. Specifically: buttonWrap`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **92/100**.",
   "rank": 34,
   "prev": "Hermes_4_70B",
-  "next": "Opus_4-8"
+  "next": "Opus_4-8",
+  "oop": 74,
+  "oop_items": {
+   "Class architecture": 14.0,
+   "v2 idiom": 15.5,
+   "Callback discipline": 17.0,
+   "Error handling": 13.5,
+   "Readability": 14.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 69,
+    "note": "Good wrapper/base-class structure, but a lot of ceremonial methods and some v1-ish cleanup patterns remain."
+   },
+   {
+    "judge": "haiku45",
+    "total": 80,
+    "note": "Well-structured OOP with meaningful wrapper hierarchy, clean event binding, but some dead locals and minor idiom inconsistencies (bare array.Push, unnecessary l"
+   }
+  ]
  },
  {
   "id": "Opus_4-8",
@@ -2382,7 +3300,34 @@
   "analysis": "**Opus 4.8** parses clean but **crashes on launch** \u2014 a void return used as a value. It never draws a window. Reported error: `No value was returned.`\n\nCode signals: 3 `extends` classes, 3/3 Str transforms, undo+redo. Static score **92/100**.",
   "rank": 35,
   "prev": "GPT-5-3-Codex",
-  "next": "Llama_3-3_70B"
+  "next": "Llama_3-3_70B",
+  "oop": 82,
+  "oop_items": {
+   "Class architecture": 16.0,
+   "v2 idiom": 16.5,
+   "Callback discipline": 17.5,
+   "Error handling": 15.0,
+   "Readability": 16.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 75,
+    "note": "Good wrapper composition and .Bind(this), but still largely one orchestration class with light error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 88,
+    "note": "Well-structured wrapper classes with meaningful subclasses, clean binding, proper v2 idiom, but wrapper inheritance is somewhat ceremonial (delegates everything"
+   }
+  ]
  },
  {
   "id": "Llama_3-3_70B",
@@ -2450,7 +3395,34 @@
   "analysis": "**Llama 3.3 70B** parses clean but **crashes on launch** \u2014 a hallucinated API \u2014 it calls a function that doesn't exist in AHK v2. It never draws a window. Reported error: `Warning: This local variable appears to never be assigned a value.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **90/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`Warning: This local variable appears to never be assigned a `).",
   "rank": 36,
   "prev": "Opus_4-8",
-  "next": "Mistral_Large_3"
+  "next": "Mistral_Large_3",
+  "oop": 42,
+  "oop_items": {
+   "Class architecture": 9.0,
+   "v2 idiom": 7.5,
+   "Callback discipline": 12.0,
+   "Error handling": 3.5,
+   "Readability": 9.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 22,
+    "note": "Wrapper classes exist, but Gui.Create/Gui.OnEvent and broken history slicing make it mostly procedural."
+   },
+   {
+    "judge": "haiku45",
+    "total": 61,
+    "note": "Wrapper classes add ceremony without earning their place; history management logic duplicated across three Transform methods."
+   }
+  ]
  },
  {
   "id": "Mistral_Large_3",
@@ -2518,7 +3490,34 @@
   "analysis": "**Mistral Large 3** parses clean but **crashes on launch** \u2014 a hallucinated API \u2014 it calls a function that doesn't exist in AHK v2. It never draws a window. Reported error: `Warning: This local variable appears to never be assigned a value.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **90/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Mistral Large 3 **recovered** \u2014 the retry builds a working window (visual 4/20).",
   "rank": 37,
   "prev": "Llama_3-3_70B",
-  "next": "Nemotron_3_Super_120B"
+  "next": "Nemotron_3_Super_120B",
+  "oop": 52,
+  "oop_items": {
+   "Class architecture": 11.0,
+   "v2 idiom": 8.5,
+   "Callback discipline": 11.0,
+   "Error handling": 9.5,
+   "Readability": 12.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 35,
+    "note": "OOP wrapper layer exists, but most code is v1/alien API soup with shallow, uneven abstraction."
+   },
+   {
+    "judge": "haiku45",
+    "total": 69,
+    "note": "Wrapper classes add ceremony without meaningful abstraction; core logic is sound but architecture doesn't justify the indirection."
+   }
+  ]
  },
  {
   "id": "Nemotron_3_Super_120B",
@@ -2586,7 +3585,34 @@
   "analysis": "**Nemotron 3 Super 120B** parses clean but **crashes on launch** \u2014 a hallucinated API \u2014 it calls a function that doesn't exist in AHK v2. It never draws a window. Reported error: `Warning: This local variable appears to never be assigned a value.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **90/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`Warning: This local variable appears to never be assigned a `).",
   "rank": 38,
   "prev": "Mistral_Large_3",
-  "next": "GLM_4-7"
+  "next": "GLM_4-7",
+  "oop": 55,
+  "oop_items": {
+   "Class architecture": 11.5,
+   "v2 idiom": 10.0,
+   "Callback discipline": 13.0,
+   "Error handling": 7.5,
+   "Readability": 13.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 41,
+    "note": "Small wrapper class exists, but most behavior is one Main god-class with weak AHK v2 idiom."
+   },
+   {
+    "judge": "haiku45",
+    "total": 69,
+    "note": "Wrapper classes add ceremony without earning their place; undo/redo as bare arrays instead of a proper history stack class."
+   }
+  ]
  },
  {
   "id": "GLM_4-7",
@@ -2641,7 +3667,34 @@
   "analysis": "**GLM-4.7** parses clean but **crashes on launch** \u2014 an uncaught runtime error. It never draws a window. Reported error: `Invalid control type.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **87/100**.",
   "rank": 39,
   "prev": "Nemotron_3_Super_120B",
-  "next": "GPT_OSS_120B"
+  "next": "GPT_OSS_120B",
+  "oop": 75,
+  "oop_items": {
+   "Class architecture": 15.0,
+   "v2 idiom": 15.0,
+   "Callback discipline": 17.0,
+   "Error handling": 13.0,
+   "Readability": 15.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 69,
+    "note": "Good wrapper classes and bound handlers, but hotkey cleanup/error handling are thin and a few v2 quirks remain."
+   },
+   {
+    "judge": "haiku45",
+    "total": 81,
+    "note": "Well-structured OOP with meaningful control wrappers and clean event binding, but try-catch is overly broad and hotkeyUndo/Redo storage is unnecessary."
+   }
+  ]
  },
  {
   "id": "GPT_OSS_120B",
@@ -2696,7 +3749,34 @@
   "analysis": "**GPT-OSS 120B** parses clean but **crashes on launch** \u2014 an uncaught runtime error. It never draws a window. Reported error: `Invalid control type.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **87/100**.",
   "rank": 40,
   "prev": "GLM_4-7",
-  "next": "Hy3"
+  "next": "Hy3",
+  "oop": 70,
+  "oop_items": {
+   "Class architecture": 14.5,
+   "v2 idiom": 16.0,
+   "Callback discipline": 17.0,
+   "Error handling": 7.0,
+   "Readability": 15.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 65,
+    "note": "Good OO wrapper layering, but error handling is mostly absent and a few v1-ish globals remain."
+   },
+   {
+    "judge": "haiku45",
+    "total": 74,
+    "note": "Solid OOP with wrapper classes and clean event binding, but undo/redo stacks should be Map-based and error handling is sparse."
+   }
+  ]
  },
  {
   "id": "Hy3",
@@ -2751,7 +3831,34 @@
   "analysis": "**Hy3** parses clean but **crashes on launch** \u2014 an invalid GUI control option. It never draws a window. Reported error: `Invalid option.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **87/100**.",
   "rank": 41,
   "prev": "GPT_OSS_120B",
-  "next": "Hy3_Free"
+  "next": "Hy3_Free",
+  "oop": 77,
+  "oop_items": {
+   "Class architecture": 15.5,
+   "v2 idiom": 16.5,
+   "Callback discipline": 16.5,
+   "Error handling": 13.0,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 72,
+    "note": "Decent wrapper-based OOP and bind-style events, but still some flat GUI wiring and shallow error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 82,
+    "note": "Well-structured OOP with proper wrapper hierarchy, clean v2 idiom, but OnEditChange pushes every keystroke to history unconditionally\u2014should only push on user e"
+   }
+  ]
  },
  {
   "id": "Hy3_Free",
@@ -2806,7 +3913,34 @@
   "analysis": "**Hy3 (free)** parses clean but **crashes on launch** \u2014 an uncaught runtime error. It never draws a window. Reported error: `Invalid control type.`\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **87/100**.",
   "rank": 42,
   "prev": "Hy3",
-  "next": "Gemini_3-5_Flash"
+  "next": "Gemini_3-5_Flash",
+  "oop": 70,
+  "oop_items": {
+   "Class architecture": 15.0,
+   "v2 idiom": 16.5,
+   "Callback discipline": 16.5,
+   "Error handling": 8.0,
+   "Readability": 14.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 62,
+    "note": "Solid wrapper classes, but mostly one controller with a few thin shells and minimal error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 78,
+    "note": "Solid OOP with meaningful inheritance, clean v2 idiom, but weak error handling and some redundant SetState overrides."
+   }
+  ]
  },
  {
   "id": "Gemini_3-5_Flash",
@@ -2874,7 +4008,34 @@
   "analysis": "**Gemini 3.5 Flash** parses clean but **crashes on launch** \u2014 the wrong number of arguments to a function. It never draws a window. Reported error: `Too many parameters passed to function.`\n\nCode signals: 2 `extends` classes, 2/3 Str transforms, no undo. Static score **86/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Gemini 3.5 Flash **recovered** \u2014 the retry builds a working window (visual 7/20).",
   "rank": 43,
   "prev": "Hy3_Free",
-  "next": "Qwen_3-6"
+  "next": "Qwen_3-6",
+  "oop": 70,
+  "oop_items": {
+   "Class architecture": 15.0,
+   "v2 idiom": 16.0,
+   "Callback discipline": 15.0,
+   "Error handling": 9.5,
+   "Readability": 14.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 62,
+    "note": "Good class separation, but it still leans on flat wrapper plumbing, a swallowed clipboard write failure, and a few v2 rough edges."
+   },
+   {
+    "judge": "haiku45",
+    "total": 78,
+    "note": "Solid OOP with wrapper classes and clean separation, but empty catch blocks and a redundant Value property override undermine rigor."
+   }
+  ]
  },
  {
   "id": "Qwen_3-6",
@@ -2942,7 +4103,34 @@
   "analysis": "**Qwen 3.6** parses clean but **crashes on launch** \u2014 an invalid GUI control option. It never draws a window. Reported error: `Invalid option.`\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **79/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`This line does not contain a recognized action.`).",
   "rank": 44,
   "prev": "Gemini_3-5_Flash",
-  "next": "GPT-5_Codex"
+  "next": "GPT-5_Codex",
+  "oop": 66,
+  "oop_items": {
+   "Class architecture": 12.0,
+   "v2 idiom": 11.5,
+   "Callback discipline": 17.5,
+   "Error handling": 11.5,
+   "Readability": 14.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 53,
+    "note": "Single-class script with some method encapsulation, but lots of v1/awkward AHK style and weak error scoping."
+   },
+   {
+    "judge": "haiku45",
+    "total": 80,
+    "note": "Solid single-class design with proper method binding; minor: unused _options fields and catch-all Error handler swallowing details."
+   }
+  ]
  },
  {
   "id": "GPT-5_Codex",
@@ -2997,7 +4185,34 @@
   "analysis": "**GPT-5 Codex** parses clean but **crashes on launch** \u2014 a hallucinated method that AHK v2 doesn't define. It never draws a window. Reported error: `This value of type \"Gui.Edit\" has no method named \"SetSel\".`\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **77/100**.",
   "rank": 45,
   "prev": "Qwen_3-6",
-  "next": "Gemini_2-5_Pro"
+  "next": "Gemini_2-5_Pro",
+  "oop": 72,
+  "oop_items": {
+   "Class architecture": 13.0,
+   "v2 idiom": 17.5,
+   "Callback discipline": 18.5,
+   "Error handling": 7.0,
+   "Readability": 16.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 65,
+    "note": "Single cohesive class with proper .Bind handlers, but almost no real error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 79,
+    "note": "Single well-structured class with proper binding and clean event handlers, but lacks error handling for clipboard operations and RefreshCaret logic is slightly "
+   }
+  ]
  },
  {
   "id": "Gemini_2-5_Pro",
@@ -3065,7 +4280,34 @@
   "analysis": "**Gemini 2.5 Pro** parses clean but **crashes on launch** \u2014 a hallucinated method that AHK v2 doesn't define. It never draws a window. Reported error: `This value of type \"Gui.Edit\" has no method named \"SetSel\".`\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **77/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`This local variable declaration conflicts with an existing p`).",
   "rank": 46,
   "prev": "GPT-5_Codex",
-  "next": "Gemini_3_Pro"
+  "next": "Gemini_3_Pro",
+  "oop": 72,
+  "oop_items": {
+   "Class architecture": 14.0,
+   "v2 idiom": 17.5,
+   "Callback discipline": 17.5,
+   "Error handling": 7.0,
+   "Readability": 16.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 67,
+    "note": "Small cohesive class with bound handlers, but essentially no error handling beyond a bare GUI shell."
+   },
+   {
+    "judge": "haiku45",
+    "total": 77,
+    "note": "Solid single-class design with clean v2 idiom; minor error handling gaps and a questionable ExitApp in Close handler."
+   }
+  ]
  },
  {
   "id": "Gemini_3_Pro",
@@ -3120,7 +4362,34 @@
   "analysis": "**Gemini 3 Pro** parses clean but **crashes on launch** \u2014 an invalid GUI control option. It never draws a window. Reported error: `Invalid option.`\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **75/100**.",
   "rank": 47,
   "prev": "Gemini_2-5_Pro",
-  "next": "Grok_4_Fast"
+  "next": "Grok_4_Fast",
+  "oop": 77,
+  "oop_items": {
+   "Class architecture": 14.0,
+   "v2 idiom": 17.5,
+   "Callback discipline": 16.0,
+   "Error handling": 14.0,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 74,
+    "note": "Cohesive single-class app with bound handlers; idiomatic overall, but a few lambda-style events and broad catches remain."
+   },
+   {
+    "judge": "haiku45",
+    "total": 80,
+    "note": "Solid single-class design with proper binding and error handling; lacks composition/inheritance opportunities but clean and idiomatic v2."
+   }
+  ]
  },
  {
   "id": "Grok_4_Fast",
@@ -3175,7 +4444,34 @@
   "analysis": "**Grok 4 Fast** parses clean but **crashes on launch** \u2014 an invalid GUI control option. It never draws a window. Reported error: `Invalid option.`\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **75/100**.",
   "rank": 48,
   "prev": "Gemini_3_Pro",
-  "next": "Grok_Code_Fast_1"
+  "next": "Grok_Code_Fast_1",
+  "oop": 64,
+  "oop_items": {
+   "Class architecture": 12.5,
+   "v2 idiom": 12.5,
+   "Callback discipline": 16.5,
+   "Error handling": 9.0,
+   "Readability": 14.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 54,
+    "note": "Single cohesive class, but v1-style Gui/Add and weak error handling keep it mediocre."
+   },
+   {
+    "judge": "haiku45",
+    "total": 75,
+    "note": "Solid single-class design with proper binding; minor idiom slip (ReadOnly? No syntax) and swallowed clipboard error."
+   }
+  ]
  },
  {
   "id": "Grok_Code_Fast_1",
@@ -3230,7 +4526,34 @@
   "analysis": "**Grok Code Fast 1** parses clean but **crashes on launch** \u2014 an invalid GUI control option. It never draws a window. Reported error: `Invalid option.`\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **75/100**.",
   "rank": 49,
   "prev": "Grok_4_Fast",
-  "next": "GLM5-Turbo"
+  "next": "GLM5-Turbo",
+  "oop": 70,
+  "oop_items": {
+   "Class architecture": 14.0,
+   "v2 idiom": 14.0,
+   "Callback discipline": 17.0,
+   "Error handling": 9.0,
+   "Readability": 15.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 64,
+    "note": "Single cohesive class, but mostly a thin wrapper around one GUI with a catch that silently empties clipboard failures."
+   },
+   {
+    "judge": "haiku45",
+    "total": 75,
+    "note": "Solid single-class design with proper binding; minor idiom slip (ReadOnly? No syntax) and swallowed clipboard error hurt otherwise clean execution."
+   }
+  ]
  },
  {
   "id": "GLM5-Turbo",
@@ -3298,7 +4621,34 @@
   "analysis": "**GLM-5 Turbo** parses clean but **crashes on launch** \u2014 the wrong number of arguments to a function. It never draws a window. Reported error: `Too many parameters passed to function.`\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **74/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, GLM-5 Turbo **recovered** \u2014 the retry builds a working window (visual 4/20).",
   "rank": 50,
   "prev": "Grok_Code_Fast_1",
-  "next": "Qwen3_Max"
+  "next": "Qwen3_Max",
+  "oop": 70,
+  "oop_items": {
+   "Class architecture": 13.0,
+   "v2 idiom": 15.5,
+   "Callback discipline": 17.5,
+   "Error handling": 9.5,
+   "Readability": 14.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 65,
+    "note": "Single cohesive class, but mostly one-owner procedural GUI code with a few AHK v2 and error-handling rough edges."
+   },
+   {
+    "judge": "haiku45",
+    "total": 75,
+    "note": "Solid single-class design with proper binding, but SaveToClipboard verification logic is flawed and error handling swallows real problems."
+   }
+  ]
  },
  {
   "id": "Qwen3_Max",
@@ -3366,7 +4716,34 @@
   "analysis": "**Qwen3 Max** parses clean but **crashes on launch** \u2014 a hallucinated API \u2014 it calls a function that doesn't exist in AHK v2. It never draws a window. Reported error: `Warning: This local variable appears to never be assigned a value.`\n\nCode signals: 0 `extends` classes, 0/3 Str transforms, no undo. Static score **72/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Qwen3 Max **recovered** \u2014 the retry builds a working window (visual 4/20).",
   "rank": 51,
   "prev": "GLM5-Turbo",
-  "next": "Sonar_Reasoning_Pro"
+  "next": "Sonar_Reasoning_Pro",
+  "oop": 60,
+  "oop_items": {
+   "Class architecture": 13.0,
+   "v2 idiom": 12.5,
+   "Callback discipline": 14.5,
+   "Error handling": 5.5,
+   "Readability": 14.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 46,
+    "note": "Single class is cohesive, but it\u2019s mostly a flat GUI procedure with several v1/incorrect API idioms."
+   },
+   {
+    "judge": "haiku45",
+    "total": 74,
+    "note": "Single well-structured class with proper binding, but GetClipboardText() error handling swallows failures and OnTitleCase uses undeclared Join() function."
+   }
+  ]
  },
  {
   "id": "Sonar_Reasoning_Pro",
@@ -3434,7 +4811,34 @@
   "analysis": "**Sonar Reasoning Pro** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **58/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`This line does not contain a recognized action.`).",
   "rank": 52,
   "prev": "Qwen3_Max",
-  "next": "Codestral_2508"
+  "next": "Codestral_2508",
+  "oop": 52,
+  "oop_items": {
+   "Class architecture": 11.5,
+   "v2 idiom": 7.5,
+   "Callback discipline": 13.0,
+   "Error handling": 9.5,
+   "Readability": 11.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 36,
+    "note": "Thin wrappers exist, but the script is mostly one procedural god-class with several v1/invalid AHK patterns."
+   },
+   {
+    "judge": "haiku45",
+    "total": 69,
+    "note": "Solid OOP structure with wrapper classes, but v1 idiom leaks (%transformFunc%, bare = in Enable), and history Map() usage is awkward."
+   }
+  ]
  },
  {
   "id": "Codestral_2508",
@@ -3502,7 +4906,34 @@
   "analysis": "**Codestral 2508** fails at the parse gate: `Invalid assignment.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **55/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`Missing \"'\"`).",
   "rank": 53,
   "prev": "Sonar_Reasoning_Pro",
-  "next": "Command_A"
+  "next": "Command_A",
+  "oop": 60,
+  "oop_items": {
+   "Class architecture": 13.5,
+   "v2 idiom": 9.0,
+   "Callback discipline": 13.5,
+   "Error handling": 11.0,
+   "Readability": 13.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 54,
+    "note": "Some OOP wrappering exists, but the script is still mostly a single controller and uses v1-style/invented AHK APIs."
+   },
+   {
+    "judge": "haiku45",
+    "total": 66,
+    "note": "Wrapper classes add ceremony without earning their place; core logic is sound but architecture doesn't justify the abstraction layer."
+   }
+  ]
  },
  {
   "id": "Command_A",
@@ -3570,7 +5001,34 @@
   "analysis": "**Command A** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **55/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`Warning: This local variable appears to never be assigned a `).",
   "rank": 54,
   "prev": "Codestral_2508",
-  "next": "Jamba_Large_1-7"
+  "next": "Jamba_Large_1-7",
+  "oop": 53,
+  "oop_items": {
+   "Class architecture": 12.5,
+   "v2 idiom": 10.5,
+   "Callback discipline": 12.0,
+   "Error handling": 8.0,
+   "Readability": 10.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 44,
+    "note": "Uses wrapper classes, but composition is thin and several AHK-v1/JavaScript-ish patterns leak through."
+   },
+   {
+    "judge": "haiku45",
+    "total": 62,
+    "note": "Wrapper classes add ceremony without meaningful abstraction; history uses Map with string keys instead of proper state object; multiple Gui.Submit() calls in Re"
+   }
+  ]
  },
  {
   "id": "Jamba_Large_1-7",
@@ -3638,7 +5096,34 @@
   "analysis": "**Jamba Large 1.7** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **55/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`Unexpected \"{\"`).",
   "rank": 55,
   "prev": "Command_A",
-  "next": "Mistral_Medium_3-1"
+  "next": "Mistral_Medium_3-1",
+  "oop": 50,
+  "oop_items": {
+   "Class architecture": 8.5,
+   "v2 idiom": 12.0,
+   "Callback discipline": 11.0,
+   "Error handling": 8.0,
+   "Readability": 10.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 39,
+    "note": "Has some wrappers, but stateful logic stays in one Main class with several AHK v1/JS-style slips."
+   },
+   {
+    "judge": "haiku45",
+    "total": 60,
+    "note": "Wrapper classes add ceremony without meaningful abstraction; HistoryIndex logic is off-by-one prone; Create() returns nothing but assigns to Map."
+   }
+  ]
  },
  {
   "id": "Mistral_Medium_3-1",
@@ -3706,7 +5191,34 @@
   "analysis": "**Mistral Medium 3.1** fails at the parse gate: `Missing \")\"`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **55/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Mistral Medium 3.1 **recovered** \u2014 the retry builds a working window (visual 4/20).",
   "rank": 56,
   "prev": "Jamba_Large_1-7",
-  "next": "Qwen3_Coder_Next"
+  "next": "Qwen3_Coder_Next",
+  "oop": 70,
+  "oop_items": {
+   "Class architecture": 13.5,
+   "v2 idiom": 14.0,
+   "Callback discipline": 15.5,
+   "Error handling": 12.5,
+   "Readability": 14.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 61,
+    "note": "Modular wrapper classes help, but the OOP is thin and the script mixes v2-style code with several rough edges."
+   },
+   {
+    "judge": "haiku45",
+    "total": 78,
+    "note": "Solid wrapper pattern with meaningful subclasses, clean v2 idiom, but ControlWrapper.OnEvent() signature is non-standard and history logic could be cleaner."
+   }
+  ]
  },
  {
   "id": "Qwen3_Coder_Next",
@@ -3761,7 +5273,34 @@
   "analysis": "**Qwen3 Coder Next** fails at the parse gate: `Function calls require a space or \"(\".  Use comma only between parameters.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **55/100**.",
   "rank": 57,
   "prev": "Mistral_Medium_3-1",
-  "next": "ERNIE_4-5_300B"
+  "next": "ERNIE_4-5_300B",
+  "oop": 52,
+  "oop_items": {
+   "Class architecture": 12.0,
+   "v2 idiom": 7.0,
+   "Callback discipline": 14.0,
+   "Error handling": 8.0,
+   "Readability": 10.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 43,
+    "note": "Some wrapper classes exist, but v1-style APIs and a fragile undo/redo design dominate."
+   },
+   {
+    "judge": "haiku45",
+    "total": 60,
+    "note": "Decent OOP structure undermined by v1 syntax (GuiCtrlGetText), weak undo/redo logic, and empty catch blocks."
+   }
+  ]
  },
  {
   "id": "ERNIE_4-5_300B",
@@ -3816,7 +5355,34 @@
   "analysis": "**ERNIE 4.5 300B** fails at the parse gate: `This Class cannot be used as an output variable.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 2/3 Str transforms, undo+redo. Static score **54/100**.",
   "rank": 58,
   "prev": "Qwen3_Coder_Next",
-  "next": "ERNIE_4-5_VL_424B"
+  "next": "ERNIE_4-5_VL_424B",
+  "oop": 56,
+  "oop_items": {
+   "Class architecture": 12.0,
+   "v2 idiom": 8.0,
+   "Callback discipline": 14.0,
+   "Error handling": 11.5,
+   "Readability": 10.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 42,
+    "note": "Wrapper classes are thin shells over a mostly procedural Main class, with several v1/non-idiomatic AHK constructs."
+   },
+   {
+    "judge": "haiku45",
+    "total": 70,
+    "note": "Solid wrapper pattern with good binding discipline, but Map() misuse, GUI.Add() options as object literals, and fragile button lookup by index undermine the arc"
+   }
+  ]
  },
  {
   "id": "ERNIE_4-5_VL_424B",
@@ -3884,7 +5450,34 @@
   "analysis": "**ERNIE 4.5 VL 424B** fails at the parse gate: `Warning: This local variable appears to never be assigned a value.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **53/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`Warning: This local variable appears to never be assigned a `).",
   "rank": 59,
   "prev": "ERNIE_4-5_300B",
-  "next": "Llama_4_Maverick"
+  "next": "Llama_4_Maverick",
+  "oop": 50,
+  "oop_items": {
+   "Class architecture": 11.0,
+   "v2 idiom": 9.5,
+   "Callback discipline": 12.0,
+   "Error handling": 9.5,
+   "Readability": 8.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 31,
+    "note": "Some OOP exists, but it\u2019s mostly a thin wrapper layer over a monolithic Main with lots of v1/JS/C-style noise."
+   },
+   {
+    "judge": "haiku45",
+    "total": 70,
+    "note": "Solid wrapper pattern with Map usage, but muddled CreateControls() and some v1 idiom leakage (object literals as dicts, IsObject type-check)."
+   }
+  ]
  },
  {
   "id": "Llama_4_Maverick",
@@ -3952,7 +5545,34 @@
   "analysis": "**Llama 4 Maverick** fails at the parse gate: `Missing \")\"`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **53/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Llama 4 Maverick **recovered** \u2014 the retry builds a working window (visual 4/20).",
   "rank": 60,
   "prev": "ERNIE_4-5_VL_424B",
-  "next": "DeepSeek_V3-2"
+  "next": "DeepSeek_V3-2",
+  "oop": 72,
+  "oop_items": {
+   "Class architecture": 14.5,
+   "v2 idiom": 15.0,
+   "Callback discipline": 16.5,
+   "Error handling": 11.0,
+   "Readability": 15.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 67,
+    "note": "Solid small-wrapper OOP, but most behavior still lives in one Main class and a few callback lambdas."
+   },
+   {
+    "judge": "haiku45",
+    "total": 77,
+    "note": "Solid OOP with meaningful wrapper hierarchy, clean callbacks via .Bind(), but undo/redo logic duplicates state-sync code and error handling is shallow."
+   }
+  ]
  },
  {
   "id": "DeepSeek_V3-2",
@@ -4007,7 +5627,34 @@
   "analysis": "**DeepSeek V3.2** fails at the parse gate: `IsSet requires a variable or unset expression.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **50/100**.",
   "rank": 61,
   "prev": "Llama_4_Maverick",
-  "next": "Devstral_2512"
+  "next": "Devstral_2512",
+  "oop": 76,
+  "oop_items": {
+   "Class architecture": 14.0,
+   "v2 idiom": 15.5,
+   "Callback discipline": 18.0,
+   "Error handling": 12.0,
+   "Readability": 16.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 71,
+    "note": "Cohesive wrapper classes and bound methods are good, but error handling is mostly one broad catch."
+   },
+   {
+    "judge": "haiku45",
+    "total": 80,
+    "note": "Solid OOP with meaningful wrapper hierarchy, clean bindings, but wrapper classes are thin and history/future state could be encapsulated better."
+   }
+  ]
  },
  {
   "id": "Devstral_2512",
@@ -4075,7 +5722,34 @@
   "analysis": "**Devstral 2512** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **50/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Devstral 2512 **recovered** \u2014 the retry builds a working window (visual 4/20).",
   "rank": 62,
   "prev": "DeepSeek_V3-2",
-  "next": "Laguna_XS_2-1"
+  "next": "Laguna_XS_2-1",
+  "oop": 61,
+  "oop_items": {
+   "Class architecture": 13.0,
+   "v2 idiom": 12.0,
+   "Callback discipline": 13.5,
+   "Error handling": 9.5,
+   "Readability": 13.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 48,
+    "note": "Some OOP wrappers exist, but the script is mostly a single coordinator with several v1/incorrect AHK patterns."
+   },
+   {
+    "judge": "haiku45",
+    "total": 74,
+    "note": "Solid OOP with meaningful subclasses, but ControlWrapper.ApplyStyle() duplicates color logic and LoadClipboard() swallows errors without user feedback."
+   }
+  ]
  },
  {
   "id": "Laguna_XS_2-1",
@@ -4130,7 +5804,34 @@
   "analysis": "**Laguna XS 2.1** fails at the parse gate: `Missing \"\"\"`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **50/100**.",
   "rank": 63,
   "prev": "Devstral_2512",
-  "next": "Nova_Premier"
+  "next": "Nova_Premier",
+  "oop": 38,
+  "oop_items": {
+   "Class architecture": 10.5,
+   "v2 idiom": 7.5,
+   "Callback discipline": 6.0,
+   "Error handling": 4.0,
+   "Readability": 9.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 33,
+    "note": "Class wrappers exist, but they\u2019re thin shells around one main class with several v1/C-style leftovers."
+   },
+   {
+    "judge": "haiku45",
+    "total": 42,
+    "note": "Wrapper classes add ceremony without earning their place; unbound callbacks and 'new' keyword break v2 idiom; missing error handling on clipboard operations."
+   }
+  ]
  },
  {
   "id": "Nova_Premier",
@@ -4198,7 +5899,34 @@
   "analysis": "**Nova Premier** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **50/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`This value of type \"Gui\" has no property named \"Controls\".`).",
   "rank": 64,
   "prev": "Laguna_XS_2-1",
-  "next": "Nova_Pro"
+  "next": "Nova_Pro",
+  "oop": 60,
+  "oop_items": {
+   "Class architecture": 13.5,
+   "v2 idiom": 10.0,
+   "Callback discipline": 14.5,
+   "Error handling": 9.0,
+   "Readability": 13.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 52,
+    "note": "Some OOP wrappers exist, but they sit atop v1/C-style API misuse and weak error scoping."
+   },
+   {
+    "judge": "haiku45",
+    "total": 68,
+    "note": "Solid OOP structure with wrapper classes, but idiom lapses (GuiControl.New, bare = in history/redoStack, missing space in if!IsObject) and error handling swallo"
+   }
+  ]
  },
  {
   "id": "Nova_Pro",
@@ -4266,7 +5994,34 @@
   "analysis": "**Nova Pro** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **50/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`This Class cannot be used as an output variable.`).",
   "rank": 65,
   "prev": "Nova_Premier",
-  "next": "Laguna_XS_2-1_Free"
+  "next": "Laguna_XS_2-1_Free",
+  "oop": 48,
+  "oop_items": {
+   "Class architecture": 11.5,
+   "v2 idiom": 8.5,
+   "Callback discipline": 9.5,
+   "Error handling": 7.5,
+   "Readability": 11.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 33,
+    "note": "Some class structure exists, but it mixes v1/v2 APIs, invented wrappers, and stringy/wrong event wiring."
+   },
+   {
+    "judge": "haiku45",
+    "total": 64,
+    "note": "Reasonable OOP structure with wrapper classes, but ControlWrapper base is mostly ceremonial and event wiring mixes .g assignment with .Bind() inconsistently."
+   }
+  ]
  },
  {
   "id": "Laguna_XS_2-1_Free",
@@ -4321,7 +6076,34 @@
   "analysis": "**Laguna XS 2.1 (free)** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **48/100**.",
   "rank": 66,
   "prev": "Nova_Pro",
-  "next": "Nemotron_Super_49B"
+  "next": "Nemotron_Super_49B",
+  "oop": 54,
+  "oop_items": {
+   "Class architecture": 12.0,
+   "v2 idiom": 13.5,
+   "Callback discipline": 10.5,
+   "Error handling": 6.5,
+   "Readability": 12.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 50,
+    "note": "OOP wrapper layer exists, but the app is still mostly one coordinator class with some event wiring and weak error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 59,
+    "note": "Wrapper classes add ceremony without earning their place; core logic is sound but architecture doesn't justify the abstraction layer."
+   }
+  ]
  },
  {
   "id": "Nemotron_Super_49B",
@@ -4389,7 +6171,34 @@
   "analysis": "**Nemotron Super 49B** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **48/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`Function calls require a space or \"(\".  Use comma only betwe`).",
   "rank": 67,
   "prev": "Laguna_XS_2-1_Free",
-  "next": "Phi-4"
+  "next": "Phi-4",
+  "oop": 44,
+  "oop_items": {
+   "Class architecture": 10.5,
+   "v2 idiom": 8.5,
+   "Callback discipline": 10.0,
+   "Error handling": 6.0,
+   "Readability": 8.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 28,
+    "note": "Some class layering, but v1/v2/API mistakes and broken event/history logic dominate."
+   },
+   {
+    "judge": "haiku45",
+    "total": 59,
+    "note": "Wrapper classes add ceremony without meaningful abstraction; EditWrap.parent undefined; history logic uses A_Index() incorrectly; empty catch blocks swallow rea"
+   }
+  ]
  },
  {
   "id": "Phi-4",
@@ -4457,7 +6266,34 @@
   "analysis": "**Phi-4** fails at the parse gate: `This Class cannot be used as an output variable.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **48/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`Not a valid property getter/setter.`).",
   "rank": 68,
   "prev": "Nemotron_Super_49B",
-  "next": "Kimi_K2_Thinking"
+  "next": "Kimi_K2_Thinking",
+  "oop": 42,
+  "oop_items": {
+   "Class architecture": 9.5,
+   "v2 idiom": 9.0,
+   "Callback discipline": 9.0,
+   "Error handling": 4.5,
+   "Readability": 10.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 26,
+    "note": "Some OOP wrappers exist, but core GUI wiring still leans on legacy g-labels and loose procedural style."
+   },
+   {
+    "judge": "haiku45",
+    "total": 58,
+    "note": "Wrapper classes add ceremony without meaningful abstraction; button handlers still use stringy 'g' prefix instead of bound methods."
+   }
+  ]
  },
  {
   "id": "Kimi_K2_Thinking",
@@ -4512,7 +6348,34 @@
   "analysis": "**Kimi K2 Thinking** fails at the parse gate: `Warning: This local variable appears to never be assigned a value.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **47/100**.",
   "rank": 69,
   "prev": "Phi-4",
-  "next": "Hunyuan_A13B"
+  "next": "Hunyuan_A13B",
+  "oop": 71,
+  "oop_items": {
+   "Class architecture": 12.5,
+   "v2 idiom": 15.5,
+   "Callback discipline": 15.5,
+   "Error handling": 13.0,
+   "Readability": 14.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 60,
+    "note": "Some wrapper OOP exists, but it\u2019s mostly a single procedural controller with thin ceremonial classes."
+   },
+   {
+    "judge": "haiku45",
+    "total": 82,
+    "note": "Well-structured OOP with meaningful wrapper classes and clean event binding, but wrapper subclasses are mostly empty shells that don't justify inheritance."
+   }
+  ]
  },
  {
   "id": "Hunyuan_A13B",
@@ -4580,7 +6443,34 @@
   "analysis": "**Hunyuan A13B** fails at the parse gate: `Unexpected \"{\"`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, undo+redo. Static score **46/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still won't parse (`Warning: This local variable appears to never be assigned a `).",
   "rank": 70,
   "prev": "Kimi_K2_Thinking",
-  "next": "Mistral_Medium_3-5"
+  "next": "Mistral_Medium_3-5",
+  "oop": 16,
+  "oop_items": {
+   "Class architecture": 3.5,
+   "v2 idiom": 4.0,
+   "Callback discipline": 4.0,
+   "Error handling": 1.0,
+   "Readability": 4.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 9,
+    "note": "Broken pseudo-OOP with invented Gui.New/OnClick APIs and almost no real event wiring."
+   },
+   {
+    "judge": "haiku45",
+    "total": 24,
+    "note": "Wrapper classes are ceremonial pass-throughs; core logic is scattered across methods with no real separation of concerns; fundamental misunderstanding of Gui.Ne"
+   }
+  ]
  },
  {
   "id": "Mistral_Medium_3-5",
@@ -4635,7 +6525,34 @@
   "analysis": "**Mistral Medium 3.5** fails at the parse gate: `Not a valid method, class or property definition.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **45/100**.",
   "rank": 71,
   "prev": "Hunyuan_A13B",
-  "next": "Grok_4-3_Test"
+  "next": "Grok_4-3_Test",
+  "oop": 38,
+  "oop_items": {
+   "Class architecture": 9.0,
+   "v2 idiom": 7.5,
+   "Callback discipline": 3.5,
+   "Error handling": 8.5,
+   "Readability": 9.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 20,
+    "note": "Uses classes, but GUI and events are wired with invented/incorrect APIs and stringy control calls."
+   },
+   {
+    "judge": "haiku45",
+    "total": 56,
+    "note": "Wrapper classes add ceremony without earning their place; event binding syntax is fundamentally broken; v1 GuiControl() calls undermine the abstraction."
+   }
+  ]
  },
  {
   "id": "Grok_4-3_Test",
@@ -4703,7 +6620,34 @@
   "analysis": "**Grok 4.3** fails at the parse gate: `This parameter declaration conflicts with an existing parameter.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 2/3 Str transforms, no undo. Static score **41/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, Grok 4.3 **recovered** \u2014 the retry builds a working window (visual 4/20).",
   "rank": 72,
   "prev": "Mistral_Medium_3-5",
-  "next": "Command_R_Plus"
+  "next": "Command_R_Plus",
+  "oop": 80,
+  "oop_items": {
+   "Class architecture": 15.5,
+   "v2 idiom": 16.5,
+   "Callback discipline": 17.5,
+   "Error handling": 13.0,
+   "Readability": 17.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 71,
+    "note": "Good small OOP wrapper layer, but still mostly one coordinator class with thin wrappers."
+   },
+   {
+    "judge": "haiku45",
+    "total": 88,
+    "note": "Well-structured wrapper classes with proper inheritance, clean event binding via .Bind(), and solid AHK v2 idiom, but error handling could be more defensive."
+   }
+  ]
  },
  {
   "id": "Command_R_Plus",
@@ -4771,7 +6715,34 @@
   "analysis": "**Command R+** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 2 `extends` classes, 3/3 Str transforms, undo+redo. Static score **38/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`Warning: This local variable appears to never be assigned a `).",
   "rank": 73,
   "prev": "Grok_4-3_Test",
-  "next": "MiniMax2"
+  "next": "MiniMax2",
+  "oop": 39,
+  "oop_items": {
+   "Class architecture": 6.5,
+   "v2 idiom": 6.5,
+   "Callback discipline": 13.0,
+   "Error handling": 4.5,
+   "Readability": 8.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 36,
+    "note": "OOP wrapper is present but mostly ceremonial; v1/v2 API mixing and broken state handling dominate."
+   },
+   {
+    "judge": "haiku45",
+    "total": 42,
+    "note": "Wrapper classes add ceremony without value; undoStack/redoStack never initialized; 'new' keyword used throughout; Gui.Add() called redundantly after wrapper cre"
+   }
+  ]
  },
  {
   "id": "MiniMax2",
@@ -4839,7 +6810,34 @@
   "analysis": "**MiniMax 2** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 0/3 Str transforms, no undo. Static score **38/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, MiniMax 2 **recovered** \u2014 the retry builds a working window (visual 4/20).",
   "rank": 74,
   "prev": "Command_R_Plus",
-  "next": "Cognito_v2"
+  "next": "Cognito_v2",
+  "oop": 38,
+  "oop_items": {
+   "Class architecture": 7.5,
+   "v2 idiom": 7.5,
+   "Callback discipline": 12.0,
+   "Error handling": 3.5,
+   "Readability": 7.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 23,
+    "note": "Single class with lots of static/state soup, v1/JS-ish leftovers, and several dead or broken members."
+   },
+   {
+    "judge": "haiku45",
+    "total": 53,
+    "note": "God-class with static soup, some v2 idioms correct but inconsistent, dead code (btnSave, animateButton, ShowStatus undefined), and swallowed errors."
+   }
+  ]
  },
  {
   "id": "Cognito_v2",
@@ -4894,7 +6892,34 @@
   "analysis": "**Cognito v2** fails at the parse gate: `Warning: This local variable appears to never be assigned a value.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **34/100**.",
   "rank": 75,
   "prev": "MiniMax2",
-  "next": "GLM_4-6"
+  "next": "GLM_4-6",
+  "oop": 66,
+  "oop_items": {
+   "Class architecture": 13.0,
+   "v2 idiom": 11.5,
+   "Callback discipline": 15.0,
+   "Error handling": 12.0,
+   "Readability": 15.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 51,
+    "note": "Single cohesive class, but mostly a thin wrapper around GUI setup with some v1-ish/API roughness."
+   },
+   {
+    "judge": "haiku45",
+    "total": 82,
+    "note": "Single well-structured class with clean event binding and proper error handling; minor regex logic could be extracted."
+   }
+  ]
  },
  {
   "id": "GLM_4-6",
@@ -4962,7 +6987,34 @@
   "analysis": "**GLM-4.6** fails at the parse gate: `This Class cannot be used as an output variable.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **34/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, GLM-4.6 **recovered** \u2014 the retry builds a working window (visual 4/20).",
   "rank": 76,
   "prev": "Cognito_v2",
-  "next": "DeepSeek_Web"
+  "next": "DeepSeek_Web",
+  "oop": 74,
+  "oop_items": {
+   "Class architecture": 14.5,
+   "v2 idiom": 17.0,
+   "Callback discipline": 18.0,
+   "Error handling": 7.5,
+   "Readability": 16.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 73,
+    "note": "Single cohesive class with Bind-based events, but no real error handling and one logic-only helper method."
+   },
+   {
+    "judge": "haiku45",
+    "total": 74,
+    "note": "Single well-structured class with proper binding, but StrJoin() is non-standard and error handling is absent."
+   }
+  ]
  },
  {
   "id": "DeepSeek_Web",
@@ -5030,7 +7082,34 @@
   "analysis": "**DeepSeek (Web)** fails at the parse gate: `This Class cannot be used as an output variable.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 3/3 Str transforms, no undo. Static score **33/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`Parameter #1 of Gui.Control.Prototype.Value.Set is invalid.`).",
   "rank": 77,
   "prev": "GLM_4-6",
-  "next": "GPT-5-4-mini"
+  "next": "GPT-5-4-mini",
+  "oop": 52,
+  "oop_items": {
+   "Class architecture": 10.0,
+   "v2 idiom": 10.5,
+   "Callback discipline": 16.0,
+   "Error handling": 2.5,
+   "Readability": 13.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 52,
+    "note": "Single cohesive class, but v1-style Gui/Add usage and no real error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 52,
+    "note": "Class owns state but mixes GUI setup with logic; static field initialization is non-idiomatic and fragile."
+   }
+  ]
  },
  {
   "id": "GPT-5-4-mini",
@@ -5098,7 +7177,34 @@
   "analysis": "**GPT-5.4 mini** fails at the parse gate: `Missing comma`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 2/3 Str transforms, no undo. Static score **32/100**.\n\n**Fallback:** given the stricter, simpler fallback prompt, GPT-5.4 mini **recovered** \u2014 the retry builds a working window (visual 4/20).",
   "rank": 78,
   "prev": "DeepSeek_Web",
-  "next": "Reka_Flash_3"
+  "next": "Reka_Flash_3",
+  "oop": 60,
+  "oop_items": {
+   "Class architecture": 13.0,
+   "v2 idiom": 9.5,
+   "Callback discipline": 16.0,
+   "Error handling": 7.5,
+   "Readability": 13.5
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 49,
+    "note": "Single class with thin event methods, but it mixes v1 syntax and has no real error handling."
+   },
+   {
+    "judge": "haiku45",
+    "total": 70,
+    "note": "Solid single-class design with v1 Loop,Parse syntax and missing error handling for clipboard operations."
+   }
+  ]
  },
  {
   "id": "Reka_Flash_3",
@@ -5166,7 +7272,34 @@
   "analysis": "**Reka Flash 3** fails at the parse gate: `This line does not contain a recognized action.`. The interpreter never finishes loading the script, so nothing runs.\n\nCode signals: 0 `extends` classes, 0/3 Str transforms, undo+redo. Static score **18/100**.\n\n**Fallback:** re-run with the simpler fallback prompt, it still crashes (`runtime exit 0`).",
   "rank": 79,
   "prev": "GPT-5-4-mini",
-  "next": null
+  "next": null,
+  "oop": 0,
+  "oop_items": {
+   "Class architecture": 0.5,
+   "v2 idiom": 0.0,
+   "Callback discipline": 0.0,
+   "Error handling": 0.0,
+   "Readability": 0.0
+  },
+  "oop_maxes": {
+   "Class architecture": 20,
+   "v2 idiom": 20,
+   "Callback discipline": 20,
+   "Error handling": 20,
+   "Readability": 20
+  },
+  "oop_judges": [
+   {
+    "judge": "gpt54mini",
+    "total": 1,
+    "note": "Pure noise/soup: no real classes, rampant non-AHK tokens, and the script is not coherent code."
+   },
+   {
+    "judge": "haiku45",
+    "total": 0,
+    "note": "Submission is corrupted/gibberish\u2014massive repetitive variable declarations followed by incoherent concatenation noise; not parseable AutoHotkey."
+   }
+  ]
  },
  {
   "id": "DeepSeek_V3-1",
