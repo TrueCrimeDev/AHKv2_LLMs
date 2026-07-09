@@ -1,5 +1,19 @@
 [
  {
+  "slug": "grok-4.5-ahk-eval",
+  "title": "xAI Grok 4.5: Fourth Place, Undone by Borrowed Operators",
+  "date": "2026-07-09",
+  "description": "xAI's newest lands fourth of eighteen on the 36-task hidden-test suite — 31/36 cold, the best xAI run recorded, with a perfect easy tier only GPT-5.5 matches and a hard tier that ties Kimi K2.6. Every dropped point traces to an idiom from another language: infix % for Mod(), an invented Array.Sort(), and one InStr call with its arguments in the wrong slots that aced RFC-4180 quote escapes but lost the task to plain comma-splitting. Total run cost: 32 cents.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "xAI",
+   "Grok",
+   "AHK-Eval"
+  ],
+  "path": "posts/grok-4.5-ahk-eval.md"
+ },
+ {
   "slug": "hy3-clipboard-bench",
   "title": "Tencent Hy3: One Option String From a Window",
   "date": "2026-07-07",
