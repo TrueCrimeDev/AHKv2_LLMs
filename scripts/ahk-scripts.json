@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-09T18:36:57.492Z",
-  "totalScripts": 378,
+  "lastUpdated": "2026-07-10T00:37:45.736Z",
+  "totalScripts": 380,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-07-05T11:24:40Z",
+      "lastModified": "2026-07-09T18:55:45Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
-      "stars": 49,
+      "stars": 50,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 49 | Forks: 8\n; Last Updated: 7/5/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 50 | Forks: 8\n; Last Updated: 7/9/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -1982,13 +1982,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T17:07:28Z",
-      "lastModified": "2026-07-09T17:22:00Z",
+      "lastModified": "2026-07-09T18:42:06Z",
       "source": "github",
       "url": "https://github.com/Ncoder-official/Snaptivity",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "Ncoder-official",
-      "code": "```cpp\n; ============================================\n; Repository: Ncoder-official/Snaptivity\n; ============================================\n; URL: https://github.com/Ncoder-official/Snaptivity\n; Stars: 2 | Forks: 0\n; Last Updated: 7/9/2026\n; License: Other\n;\n; Description:\n; An SOCD script recreated using AHK built to simulate hardware SOCD via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ncoder-official/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ncoder-official/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Ncoder-official/Snaptivity\n; ============================================\n; URL: https://github.com/Ncoder-official/Snaptivity\n; Stars: 3 | Forks: 0\n; Last Updated: 7/9/2026\n; License: Other\n;\n; Description:\n; An SOCD script recreated using AHK built to simulate hardware SOCD via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ncoder-official/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ncoder-official/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1135272932",
@@ -6476,13 +6476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-07-08T23:06:21Z",
+      "lastModified": "2026-07-09T22:37:31Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
       "stars": 23,
       "forks": 3,
       "owner": "M-Haziq-Iqbal",
-      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 23 | Forks: 3\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 23 | Forks: 3\n; Last Updated: 7/9/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     },
     {
       "id": "github-1263747205",
@@ -7588,6 +7588,50 @@
       "forks": 0,
       "owner": "yu1row",
       "code": "```cpp\n; ============================================\n; Repository: yu1row/ExplorerHotkeys\n; ============================================\n; URL: https://github.com/yu1row/ExplorerHotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 7/9/2026\n; License: MIT License\n;\n; Description:\n; Hotkeys for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yu1row/ExplorerHotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yu1row/ExplorerHotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ExplorerHotkeys>\n\n; Example initialization\nclass ExplorerhotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ExplorerHotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ExplorerhotkeysExample()\n```"
+    },
+    {
+      "id": "github-1295765228",
+      "title": "mouse-side-buttons-volume-control",
+      "category": "GitHub Repository",
+      "description": "Remap mouse Forward/Backward side buttons to Volume Up/Down using AutoHotkey v2. Features smart auto-repeat and clean volume step snapping.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-script",
+        "ahk-v2",
+        "ahkv2",
+        "autohotkey-v2",
+        "mouse-backward",
+        "mouse-forward"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-09T20:46:30Z",
+      "lastModified": "2026-07-09T23:06:43Z",
+      "source": "github",
+      "url": "https://github.com/florescu730/mouse-side-buttons-volume-control",
+      "stars": 0,
+      "forks": 0,
+      "owner": "florescu730",
+      "code": "```cpp\n; ============================================\n; Repository: florescu730/mouse-side-buttons-volume-control\n; ============================================\n; URL: https://github.com/florescu730/mouse-side-buttons-volume-control\n; Stars: 0 | Forks: 0\n; Last Updated: 7/9/2026\n; License: MIT License\n;\n; Description:\n; Remap mouse Forward/Backward side buttons to Volume Up/Down using AutoHotkey v2. Features smart auto-repeat and clean volume step snapping.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/florescu730/mouse-side-buttons-volume-control.git\n;\n; Option 2: Download ZIP\n;   https://github.com/florescu730/mouse-side-buttons-volume-control/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mouse-side-buttons-volume-control>\n\n; Example initialization\nclass MouseSideButtonsVolumeControlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mouse-side-buttons-volume-control loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseSideButtonsVolumeControlExample()\n```"
+    },
+    {
+      "id": "github-1295762706",
+      "title": "ForcePaste-v2.0",
+      "category": "GitHub Repository",
+      "description": "Autohotkey script to bypass restrictions on text insertion by simulating keyboard input.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-09T20:43:03Z",
+      "lastModified": "2026-07-09T21:10:37Z",
+      "source": "github",
+      "url": "https://github.com/MaybeXode/ForcePaste-v2.0",
+      "stars": 0,
+      "forks": 0,
+      "owner": "MaybeXode",
+      "code": "```cpp\n; ============================================\n; Repository: MaybeXode/ForcePaste-v2.0\n; ============================================\n; URL: https://github.com/MaybeXode/ForcePaste-v2.0\n; Stars: 0 | Forks: 0\n; Last Updated: 7/9/2026\n; License: MIT License\n;\n; Description:\n; Autohotkey script to bypass restrictions on text insertion by simulating keyboard input.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MaybeXode/ForcePaste-v2.0.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MaybeXode/ForcePaste-v2.0/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ForcePaste-v2.0>\n\n; Example initialization\nclass ForcepasteV2.0Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ForcePaste-v2.0 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForcepasteV2.0Example()\n```"
     }
   ]
 }
