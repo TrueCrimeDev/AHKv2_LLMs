@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-10T07:11:47.768Z",
-  "totalScripts": 380,
+  "lastUpdated": "2026-07-10T12:46:20.938Z",
+  "totalScripts": 381,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-09T04:22:17Z",
+      "lastModified": "2026-07-10T09:59:29Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
-      "stars": 4,
-      "forks": 1,
+      "stars": 5,
+      "forks": 2,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 4 | Forks: 1\n; Last Updated: 7/9/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 5 | Forks: 2\n; Last Updated: 7/10/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -6672,13 +6672,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-06-18T14:26:45Z",
+      "lastModified": "2026-07-10T07:21:09Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
       "stars": 2,
       "forks": 0,
       "owner": "Vedette1",
-      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 2 | Forks: 0\n; Last Updated: 6/18/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 2 | Forks: 0\n; Last Updated: 7/10/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     },
     {
       "id": "github-1266742477",
@@ -7625,13 +7625,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-09T20:43:03Z",
-      "lastModified": "2026-07-09T21:10:37Z",
+      "lastModified": "2026-07-10T11:49:21Z",
       "source": "github",
       "url": "https://github.com/MaybeXode/ForcePaste-v2.0",
       "stars": 0,
       "forks": 0,
       "owner": "MaybeXode",
-      "code": "```cpp\n; ============================================\n; Repository: MaybeXode/ForcePaste-v2.0\n; ============================================\n; URL: https://github.com/MaybeXode/ForcePaste-v2.0\n; Stars: 0 | Forks: 0\n; Last Updated: 7/9/2026\n; License: MIT License\n;\n; Description:\n; Autohotkey script to bypass restrictions on text insertion by simulating keyboard input.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MaybeXode/ForcePaste-v2.0.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MaybeXode/ForcePaste-v2.0/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ForcePaste-v2.0>\n\n; Example initialization\nclass ForcepasteV2.0Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ForcePaste-v2.0 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForcepasteV2.0Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MaybeXode/ForcePaste-v2.0\n; ============================================\n; URL: https://github.com/MaybeXode/ForcePaste-v2.0\n; Stars: 0 | Forks: 0\n; Last Updated: 7/10/2026\n; License: MIT License\n;\n; Description:\n; Autohotkey script to bypass restrictions on text insertion by simulating keyboard input.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MaybeXode/ForcePaste-v2.0.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MaybeXode/ForcePaste-v2.0/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ForcePaste-v2.0>\n\n; Example initialization\nclass ForcepasteV2.0Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ForcePaste-v2.0 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForcepasteV2.0Example()\n```"
+    },
+    {
+      "id": "github-1296307076",
+      "title": "roblox-piano-autoplayer",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 macro that auto-plays Virtual Piano notation songs (playpianosheets.com) into a Roblox piano",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-10T09:05:55Z",
+      "lastModified": "2026-07-10T09:48:17Z",
+      "source": "github",
+      "url": "https://github.com/brageat/roblox-piano-autoplayer",
+      "stars": 0,
+      "forks": 0,
+      "owner": "brageat",
+      "code": "```cpp\n; ============================================\n; Repository: brageat/roblox-piano-autoplayer\n; ============================================\n; URL: https://github.com/brageat/roblox-piano-autoplayer\n; Stars: 0 | Forks: 0\n; Last Updated: 7/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 macro that auto-plays Virtual Piano notation songs (playpianosheets.com) into a Roblox piano\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/brageat/roblox-piano-autoplayer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/brageat/roblox-piano-autoplayer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <roblox-piano-autoplayer>\n\n; Example initialization\nclass RobloxPianoAutoplayerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"roblox-piano-autoplayer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxPianoAutoplayerExample()\n```"
     }
   ]
 }
