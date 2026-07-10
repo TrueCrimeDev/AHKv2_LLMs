@@ -363,6 +363,60 @@
    "rank": 13
   },
   {
+   "stem": "Grok_Latest",
+   "display": "Grok Latest",
+   "provider": "xAI",
+   "solved": 28,
+   "cases": 145,
+   "case_tot": 181,
+   "parse_fail": 2,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 4,
+    "datetime": 4,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 4
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 8,
+    "mid": 9
+   },
+   "price_out": 6.0,
+   "rank": 14
+  },
+  {
+   "stem": "Aion_3-0",
+   "display": "Aion-3.0",
+   "provider": "AionLabs",
+   "solved": 27,
+   "cases": 143,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 3,
+    "datetime": 5,
+    "numbers": 6,
+    "regex": 4,
+    "strings": 5
+   },
+   "tiers": {
+    "easy": 10,
+    "hard": 6,
+    "mid": 11
+   },
+   "price_out": 6.0,
+   "rank": 15
+  },
+  {
    "stem": "MiniMax_M3",
    "display": "MiniMax M3",
    "provider": "MiniMax",
@@ -387,7 +441,7 @@
     "mid": 9
    },
    "price_out": 1.2,
-   "rank": 14
+   "rank": 16
   },
   {
    "stem": "Sonnet_4-6",
@@ -414,7 +468,7 @@
     "mid": 9
    },
    "price_out": 15.0,
-   "rank": 15
+   "rank": 17
   },
   {
    "stem": "GLM-5",
@@ -441,7 +495,34 @@
     "mid": 7
    },
    "price_out": 1.92,
-   "rank": 16
+   "rank": 18
+  },
+  {
+   "stem": "Aion_3-0_Mini",
+   "display": "Aion-3.0 Mini",
+   "provider": "AionLabs",
+   "solved": 22,
+   "cases": 120,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 1,
+    "datetime": 5,
+    "numbers": 5,
+    "regex": 5,
+    "strings": 2
+   },
+   "tiers": {
+    "easy": 10,
+    "hard": 5,
+    "mid": 7
+   },
+   "price_out": 1.4,
+   "rank": 19
   },
   {
    "stem": "GPT-5-1",
@@ -468,7 +549,7 @@
     "mid": 9
    },
    "price_out": 10.0,
-   "rank": 17
+   "rank": 20
   },
   {
    "stem": "Hy3_Free",
@@ -495,7 +576,7 @@
     "mid": 9
    },
    "price_out": 0,
-   "rank": 18
+   "rank": 21
   },
   {
    "stem": "DeepSeek_V4_Pro",
@@ -522,7 +603,7 @@
     "mid": 9
    },
    "price_out": 0.87,
-   "rank": 19
+   "rank": 22
   },
   {
    "stem": "Hy3",
@@ -549,7 +630,7 @@
     "mid": 7
    },
    "price_out": 0.58,
-   "rank": 20
+   "rank": 23
   },
   {
    "stem": "Qwen3_Coder",
@@ -576,7 +657,7 @@
     "mid": 5
    },
    "price_out": 1.8,
-   "rank": 21
+   "rank": 24
   },
   {
    "stem": "Mistral_Large_3",
@@ -603,7 +684,7 @@
     "mid": 2
    },
    "price_out": 1.5,
-   "rank": 22
+   "rank": 25
   },
   {
    "stem": "Laguna_XS_2-1_Free",
@@ -630,7 +711,7 @@
     "mid": 2
    },
    "price_out": 0,
-   "rank": 23
+   "rank": 26
   },
   {
    "stem": "Laguna_XS_2-1",
@@ -657,7 +738,7 @@
     "mid": 2
    },
    "price_out": 0.12,
-   "rank": 24
+   "rank": 27
   }
  ]
 }
