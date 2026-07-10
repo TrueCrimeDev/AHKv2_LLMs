@@ -1,5 +1,19 @@
 [
  {
+  "slug": "gpt-5.6-ahk-eval",
+  "title": "OpenAI GPT-5.6: A New #1 by One Hidden Case — and a Family That Codes in Borrowed APIs",
+  "date": "2026-07-09",
+  "description": "All six GPT-5.6 endpoints ran AHK-Eval on launch day. Sol Pro dethrones GPT-5.5 by a single hidden case (177 vs 176); $6/M Luna Pro ties $30/M Sol at 34/36 and lands on the cost-efficiency frontier; Terra Pro pays 6× the tokens to score below base Terra. Nearly every dropped task is a borrowed API — s.Split(), Array.Sort(), a nonexistent Trunc(), and the char-range comparison that cost the new #1 its only task. Total sweep: $5.23.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "OpenAI",
+   "GPT-5.6",
+   "AHK-Eval"
+  ],
+  "path": "posts/gpt-5.6-ahk-eval.md"
+ },
+ {
   "slug": "grok-4.5-ahk-eval",
   "title": "xAI Grok 4.5: Fourth Place, Undone by Borrowed Operators",
   "date": "2026-07-09",
@@ -17,7 +31,7 @@
   "slug": "hy3-clipboard-bench",
   "title": "Tencent Hy3: One Option String From a Window",
   "date": "2026-07-07",
-  "description": "Tencent's 295B MoE joins the clipboard-formatter board on both its paid and free endpoints: a +41-point generational jump over Hunyuan A13B, a static score of 87 tying GLM-4.7 and GPT-OSS 120B \u2014 and two startup crashes, each exactly one corrected line away from a working window. Compared against the open MoE cohort and the closed budget tier at the same price. Updated same day with AHK-Eval results: 19/36 and 22/36 on the hidden-test suite \u2014 mid-field, with the free endpoint tying GPT-5.1's cold run and beating the paid endpoint by three tasks.",
+  "description": "Tencent's 295B MoE joins the clipboard-formatter board on both its paid and free endpoints: a +41-point generational jump over Hunyuan A13B, a static score of 87 tying GLM-4.7 and GPT-OSS 120B — and two startup crashes, each exactly one corrected line away from a working window. Compared against the open MoE cohort and the closed budget tier at the same price. Updated same day with AHK-Eval results: 19/36 and 22/36 on the hidden-test suite — mid-field, with the free endpoint tying GPT-5.1's cold run and beating the paid endpoint by three tasks.",
   "tags": [
    "LLMs",
    "Benchmark",
@@ -30,7 +44,7 @@
   "slug": "laguna-xs-clipboard-bench",
   "title": "Poolside Laguna XS 2.1: The Coding Agent That Writes AHK v1",
   "date": "2026-07-07",
-  "description": "The board's first Poolside entry: a 33B-A3B coding-agent model that fails the parse gate on both endpoints \u2014 not with v2 mistakes, but with a confident v1/JavaScript hybrid dialect. Its static 50 still tops the sub-50B open class and beats closed GPT-5.4 mini by 18 points, while GPT-5.4 nano proves small-and-cheap can ship a running window. Updated same day with AHK-Eval results: 8/36 and 9/36 \u2014 the floor of the 17-model hidden-test board, with regex mid-field and strings at zero.",
+  "description": "The board's first Poolside entry: a 33B-A3B coding-agent model that fails the parse gate on both endpoints — not with v2 mistakes, but with a confident v1/JavaScript hybrid dialect. Its static 50 still tops the sub-50B open class and beats closed GPT-5.4 mini by 18 points, while GPT-5.4 nano proves small-and-cheap can ship a running window. Updated same day with AHK-Eval results: 8/36 and 9/36 — the floor of the 17-model hidden-test board, with regex mid-field and strings at zero.",
   "tags": [
    "LLMs",
    "Benchmark",
@@ -43,7 +57,7 @@
   "slug": "ahk-eval-round-3",
   "title": "AHK-Eval Round 3: Self-Tests, and What Happens When the Harness Is Real",
   "date": "2026-07-02",
-  "description": "Two final harness arms: models writing their own test cases lift the field +5.4 tasks (GPT-5.5 posts the first non-Fable perfect run; one model regresses on its own wrong tests) \u2014 and headless Claude Code turns Opus 4.8 and Sonnet 4.6 from 29 and 25 cold into 36/36 and 35/36, at eleven cents a task.",
+  "description": "Two final harness arms: models writing their own test cases lift the field +5.4 tasks (GPT-5.5 posts the first non-Fable perfect run; one model regresses on its own wrong tests) — and headless Claude Code turns Opus 4.8 and Sonnet 4.6 from 29 and 25 cold into 36/36 and 35/36, at eleven cents a task.",
   "tags": [
    "LLMs",
    "Benchmark",
@@ -57,7 +71,7 @@
   "slug": "ahk-eval-context-arms",
   "title": "AHK-Eval Round 2: What a Coding Harness Is Actually Worth",
   "date": "2026-07-02",
-  "description": "The same 36 tasks and 181 hidden tests, re-run with two harness arms across all 13 models: a rules-card system prompt moves the field +0.4 tasks and hurts as many models as it helps; one round of execution feedback lifts every single model (+3.3 mean) and carries Fable 5 to the suite's first perfect 36/36 \u2014 after it wrote its favorite trap yet again.",
+  "description": "The same 36 tasks and 181 hidden tests, re-run with two harness arms across all 13 models: a rules-card system prompt moves the field +0.4 tasks and hurts as many models as it helps; one round of execution feedback lifts every single model (+3.3 mean) and carries Fable 5 to the suite's first perfect 36/36 — after it wrote its favorite trap yet again.",
   "tags": [
    "LLMs",
    "Benchmark",
@@ -70,7 +84,7 @@
   "slug": "ahk-eval-benchmark",
   "title": "AHK-Eval: 36 Tasks, 181 Hidden Tests, 13 Models",
   "date": "2026-06-11",
-  "description": "A HumanEval-style AHK v2 benchmark: 36 independent functions across six categories and three difficulty tiers, graded against hidden test cases. GPT-5.5 lands one task from perfect; Claude Fable 5 \u2014 the model that built the benchmark, run cold over the bare API \u2014 takes second at 34/36 and falls into its own favorite trap.",
+  "description": "A HumanEval-style AHK v2 benchmark: 36 independent functions across six categories and three difficulty tiers, graded against hidden test cases. GPT-5.5 lands one task from perfect; Claude Fable 5 — the model that built the benchmark, run cold over the bare API — takes second at 34/36 and falls into its own favorite trap.",
   "tags": [
    "LLMs",
    "Benchmark",
@@ -83,7 +97,7 @@
   "slug": "fable-5-clipboard-sweep",
   "title": "Claude Fable 5: Five Entries, Five Windows",
   "date": "2026-06-11",
-  "description": "Claude Fable 5 joins the clipboard-formatter board with five entries under five harness configs \u2014 and sweeps both gates: all five parse, all five run. Two ship fully dark 20/20 windows; the bare no-tooling entry is the leanest runner on the board at 40 lines. Updated July 1: a sixth run under the full live harness clears the whole checklist at 98 and takes rank 1 on the board.",
+  "description": "Claude Fable 5 joins the clipboard-formatter board with five entries under five harness configs — and sweeps both gates: all five parse, all five run. Two ship fully dark 20/20 windows; the bare no-tooling entry is the leanest runner on the board at 40 lines. Updated July 1: a sixth run under the full live harness clears the whole checklist at 98 and takes rank 1 on the board.",
   "tags": [
    "LLMs",
    "Claude",
@@ -96,7 +110,7 @@
   "slug": "llm-toolkit-benchmark",
   "title": "The Clipboard Toolkit: 11 Coding Models, 12 Transforms",
   "date": "2026-06-02",
-  "description": "A second, deliberately discriminating AHK v2 benchmark: twelve independent clipboard text transforms, graded functionally against hidden test cases. The top-11 coding models spread from 3/12 to 11/12 \u2014 with the best logic in the field (Opus 4.8) hung on a crashing GUI.",
+  "description": "A second, deliberately discriminating AHK v2 benchmark: twelve independent clipboard text transforms, graded functionally against hidden test cases. The top-11 coding models spread from 3/12 to 11/12 — with the best logic in the field (Opus 4.8) hung on a crashing GUI.",
   "tags": [
    "LLMs",
    "Benchmark",
@@ -109,7 +123,7 @@
   "slug": "llm-clipboard-benchmark",
   "title": "One Prompt, 77 Models: An AHK v2 Clipboard-Formatter Benchmark",
   "date": "2026-06-01",
-  "description": "77 LLMs answered the same strict AHK v2 prompt, graded on two signals \u2014 does it parse, and does it actually run \u2014 against the alpha.30 fork, with per-model pages and live OpenRouter sweeps. Only 30 of the 74 that returned code build a working window \u2014 Claude Fable 5's five entries all do.",
+  "description": "77 LLMs answered the same strict AHK v2 prompt, graded on two signals — does it parse, and does it actually run — against the alpha.30 fork, with per-model pages and live OpenRouter sweeps. Only 30 of the 74 that returned code build a working window — Claude Fable 5's five entries all do.",
   "tags": [
    "LLMs",
    "Benchmark",
