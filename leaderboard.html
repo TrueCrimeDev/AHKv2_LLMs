@@ -29,6 +29,15 @@
     .h-amber{background:rgba(245,158,66,.15);color:#f0c48a;font-weight:600;}
     .h-red{background:rgba(220,53,69,.13);color:#e3969d;font-weight:600;}
     .h-dim{color:#5a5a5a;}
+    .swecell{white-space:nowrap;}
+    .swewrap{display:inline-flex;align-items:center;gap:10px;vertical-align:middle;width:206px;justify-content:flex-start;text-align:left;}
+    .swev{width:40px;text-align:right;color:#e8e8e8;font-weight:500;font-variant-numeric:tabular-nums;}
+    .swetrack{width:130px;height:6px;border-radius:3px;background:#232323;overflow:hidden;}
+    .swefill{display:block;height:100%;border-radius:0 3px 3px 0;}
+    .chip{display:inline-block;padding:2px 10px;border-radius:6px;font-weight:600;font-size:12px;}
+    .bm-heat tr.npsep td{padding:14px 7px 5px;color:#6f6f6f;font-size:10.5px;text-transform:uppercase;letter-spacing:1.1px;text-align:left;border-bottom:1px solid #262626;}
+    .bm-heat tbody tr.npsep:hover td{background:transparent;}
+    .npnote{color:#5a5a5a;font-size:11px;}
     .back-link{display:inline-flex;gap:6px;font-size:13px;color:var(--text-secondary);margin-bottom:14px;font-weight:500;}
     .back-link:hover{color:var(--accent);}
     .swdot{cursor:pointer;transition:opacity .15s;}
@@ -144,15 +153,15 @@
     {n:'Qwen3 Coder',s:69.6,i:0.22,o:1.80,a:16,dx:2,dy:17,side:'middle'}
   ];
   const SWE_NP=[
-    {n:'GPT-5.6 Sol Pro',i:5.00,o:30.00,a:35,note:'not reported · SWE-bench Pro 64.6% (Sol)'},
-    {n:'GPT-5.6 Sol',i:5.00,o:30.00,a:34,note:'not reported · SWE-bench Pro 64.6%'},
-    {n:'GPT-5.6 Luna Pro',i:1.00,o:6.00,a:34,note:'not reported'},
-    {n:'GPT-5.6 Luna',i:1.00,o:6.00,a:33,note:'not reported'},
-    {n:'GPT-5.6 Terra',i:2.50,o:15.00,a:32,note:'not reported'},
-    {n:'GPT-5.6 Terra Pro',i:2.50,o:15.00,a:31,note:'not reported'},
-    {n:'Grok 4.5',i:2.00,o:6.00,a:31,note:'not reported · SWE-bench Pro 64.7%'},
-    {n:'Grok 4.3',i:1.25,o:2.50,a:28,note:'not reported'},
-    {n:'Mistral Large 3',i:0.50,o:1.50,a:9,note:'not reported'}
+    {n:'GPT-5.6 Sol Pro',i:5.00,o:30.00,a:35,note:'SWE-bench Pro 64.6% (Sol)'},
+    {n:'GPT-5.6 Sol',i:5.00,o:30.00,a:34,note:'SWE-bench Pro 64.6%'},
+    {n:'GPT-5.6 Luna Pro',i:1.00,o:6.00,a:34,note:''},
+    {n:'GPT-5.6 Luna',i:1.00,o:6.00,a:33,note:''},
+    {n:'GPT-5.6 Terra',i:2.50,o:15.00,a:32,note:''},
+    {n:'GPT-5.6 Terra Pro',i:2.50,o:15.00,a:31,note:''},
+    {n:'Grok 4.5',i:2.00,o:6.00,a:31,note:'SWE-bench Pro 64.7%'},
+    {n:'Grok 4.3',i:1.25,o:2.50,a:28,note:''},
+    {n:'Mistral Large 3',i:0.50,o:1.50,a:9,note:''}
   ];
   function renderSwe(){
     const X0=80,X1=690,LO=Math.log10(0.05),HI=Math.log10(60);
@@ -175,11 +184,12 @@
       +dots+labels
       +'<text x="385" y="383" fill="#9a9a9a" font-size="11.5" text-anchor="middle">output price, $ per million tokens (OpenRouter, log scale) →</text>'
       +'<text x="130" y="60" fill="#6f6f6f" font-size="10.5">dashed = cost-efficiency frontier</text></svg>';
-    const sweCls=s=>s>=88?'h-emer':s>=78?'h-blue':s>=72?'h-amber':'h-red';
-    const ahkCell=a=>a==null?'<td class="h-dim">—</td>':`<td class="${a>=30?'h-emer':a>=22?'h-blue':a>=15?'h-amber':'h-red'}">${a}/36</td>`;
+    const sweAccent=s=>s>=88?'#7BC96F':s>=78?'#5B9FEF':s>=72?'#F59E42':'#DC3545';
+    const ahkChip=a=>a==null?'<td class="h-dim">—</td>':`<td><span class="chip ${a>=30?'h-emer':a>=22?'h-blue':a>=15?'h-amber':'h-red'}">${a}/36</span></td>`;
     document.getElementById('swebody').innerHTML=
-      SWE.map(d=>`<tr><td class="h-name">${esc(d.n)}</td><td class="${sweCls(d.s)}">${d.s.toFixed(1)}%</td><td class="h-dim">$${d.i.toFixed(2)}</td><td class="h-dim">$${d.o.toFixed(2)}</td>${ahkCell(d.a)}</tr>`).join('')
-      +SWE_NP.map(d=>`<tr><td class="h-name">${esc(d.n)}</td><td class="h-dim" style="font-size:11px">${esc(d.note)}</td><td class="h-dim">$${d.i.toFixed(2)}</td><td class="h-dim">$${d.o.toFixed(2)}</td>${ahkCell(d.a)}</tr>`).join('');
+      SWE.map(d=>`<tr><td class="h-name">${esc(d.n)}</td><td class="swecell"><span class="swewrap"><span class="swev">${d.s.toFixed(1)}</span><span class="swetrack"><span class="swefill" style="width:${d.s}%;background:${sweAccent(d.s)}"></span></span></span></td><td class="h-dim">$${d.i.toFixed(2)}</td><td class="h-dim">$${d.o.toFixed(2)}</td>${ahkChip(d.a)}</tr>`).join('')
+      +'<tr class="npsep"><td colspan="5">No published Verified score — ordered by AHK-Eval</td></tr>'
+      +SWE_NP.map(d=>`<tr><td class="h-name">${esc(d.n)}</td><td class="swecell"><span class="swewrap"><span class="swev h-dim">—</span>${d.note?`<span class="npnote">${esc(d.note)}</span>`:''}</span></td><td class="h-dim">$${d.i.toFixed(2)}</td><td class="h-dim">$${d.o.toFixed(2)}</td>${ahkChip(d.a)}</tr>`).join('');
   }
 
   // AHK-Eval solved vs OpenRouter price — same frame as the SWE chart, but every
