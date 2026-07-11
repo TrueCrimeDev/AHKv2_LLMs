@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-11T00:30:52.874Z",
+  "lastUpdated": "2026-07-11T06:46:31.545Z",
   "totalScripts": 381,
   "categories": [
     "GUI",
@@ -5645,13 +5645,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-15T18:29:35Z",
-      "lastModified": "2026-07-10T23:25:52Z",
+      "lastModified": "2026-07-11T04:26:54Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_Colorful_GUI",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 7/10/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 7/11/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
     },
     {
       "id": "github-1238108402",
@@ -7193,13 +7193,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-07-10T03:46:06Z",
+      "lastModified": "2026-07-11T05:01:59Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
       "forks": 0,
       "owner": "von110187",
-      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 7/10/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 7/11/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
     },
     {
       "id": "github-825062151",
@@ -7373,13 +7373,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-22T15:01:29Z",
-      "lastModified": "2026-07-03T08:02:26Z",
+      "lastModified": "2026-07-11T06:30:48Z",
       "source": "github",
       "url": "https://github.com/YellowKidokc/ai-hub-v2",
       "stars": 1,
       "forks": 0,
       "owner": "YellowKidokc",
-      "code": "```cpp\n; ============================================\n; Repository: YellowKidokc/ai-hub-v2\n; ============================================\n; URL: https://github.com/YellowKidokc/ai-hub-v2\n; Stars: 1 | Forks: 0\n; Last Updated: 7/3/2026\n; License: Not specified\n;\n; Description:\n; AI-HUB v2 — AutoHotkey-powered personal productivity hub with clipboard sync, TTS, task calendar, prompt picker, and modular dashboard\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/YellowKidokc/ai-hub-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/YellowKidokc/ai-hub-v2/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ai-hub-v2>\n\n; Example initialization\nclass AiHubV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ai-hub-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AiHubV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: YellowKidokc/ai-hub-v2\n; ============================================\n; URL: https://github.com/YellowKidokc/ai-hub-v2\n; Stars: 1 | Forks: 0\n; Last Updated: 7/11/2026\n; License: Not specified\n;\n; Description:\n; AI-HUB v2 — AutoHotkey-powered personal productivity hub with clipboard sync, TTS, task calendar, prompt picker, and modular dashboard\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/YellowKidokc/ai-hub-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/YellowKidokc/ai-hub-v2/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ai-hub-v2>\n\n; Example initialization\nclass AiHubV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ai-hub-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AiHubV2Example()\n```"
     },
     {
       "id": "github-1287832229",
