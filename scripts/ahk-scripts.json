@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-10T18:31:17.459Z",
+  "lastUpdated": "2026-07-11T00:30:52.874Z",
   "totalScripts": 381,
   "categories": [
     "GUI",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-10T09:59:29Z",
+      "lastModified": "2026-07-10T19:51:38Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
-      "stars": 5,
-      "forks": 2,
+      "stars": 6,
+      "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 5 | Forks: 2\n; Last Updated: 7/10/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 6 | Forks: 3\n; Last Updated: 7/10/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -5645,13 +5645,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-15T18:29:35Z",
-      "lastModified": "2026-07-08T22:01:39Z",
+      "lastModified": "2026-07-10T23:25:52Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_Colorful_GUI",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 7/10/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
     },
     {
       "id": "github-1238108402",
@@ -5927,13 +5927,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-22T21:59:54Z",
-      "lastModified": "2026-06-30T17:43:56Z",
+      "lastModified": "2026-07-10T21:53:37Z",
       "source": "github",
       "url": "https://github.com/KwangBeomPark/ClipOCR-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "KwangBeomPark",
-      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/ClipOCR-Pro\n; ============================================\n; URL: https://github.com/KwangBeomPark/ClipOCR-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 6/30/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/ClipOCR-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/ClipOCR-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipOCR-Pro>\n\n; Example initialization\nclass ClipocrProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipOCR-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipocrProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/ClipOCR-Pro\n; ============================================\n; URL: https://github.com/KwangBeomPark/ClipOCR-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 7/10/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/ClipOCR-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/ClipOCR-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipOCR-Pro>\n\n; Example initialization\nclass ClipocrProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipOCR-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipocrProExample()\n```"
     },
     {
       "id": "github-1247276932",
@@ -7518,13 +7518,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-07T01:32:32Z",
-      "lastModified": "2026-07-09T18:09:17Z",
+      "lastModified": "2026-07-10T19:23:32Z",
       "source": "github",
       "url": "https://github.com/supersillysage/sageSanity",
       "stars": 2,
       "forks": 0,
       "owner": "supersillysage",
-      "code": "```cpp\n; ============================================\n; Repository: supersillysage/sageSanity\n; ============================================\n; URL: https://github.com/supersillysage/sageSanity\n; Stars: 2 | Forks: 0\n; Last Updated: 7/9/2026\n; License: MIT License\n;\n; Description:\n; autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/supersillysage/sageSanity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/supersillysage/sageSanity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sageSanity>\n\n; Example initialization\nclass SagesanityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sageSanity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SagesanityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: supersillysage/sageSanity\n; ============================================\n; URL: https://github.com/supersillysage/sageSanity\n; Stars: 2 | Forks: 0\n; Last Updated: 7/10/2026\n; License: MIT License\n;\n; Description:\n; autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/supersillysage/sageSanity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/supersillysage/sageSanity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sageSanity>\n\n; Example initialization\nclass SagesanityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sageSanity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SagesanityExample()\n```"
     },
     {
       "id": "github-998124418",
