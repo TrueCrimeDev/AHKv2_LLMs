@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-11T18:18:32.963Z",
-  "totalScripts": 381,
+  "lastUpdated": "2026-07-12T00:32:56.849Z",
+  "totalScripts": 382,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6476,13 +6476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-07-09T22:37:31Z",
+      "lastModified": "2026-07-11T18:21:48Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
-      "stars": 23,
+      "stars": 24,
       "forks": 3,
       "owner": "M-Haziq-Iqbal",
-      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 23 | Forks: 3\n; Last Updated: 7/9/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 24 | Forks: 3\n; Last Updated: 7/11/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     },
     {
       "id": "github-1263747205",
@@ -7651,6 +7651,31 @@
       "forks": 0,
       "owner": "brageat",
       "code": "```cpp\n; ============================================\n; Repository: brageat/roblox-piano-autoplayer\n; ============================================\n; URL: https://github.com/brageat/roblox-piano-autoplayer\n; Stars: 0 | Forks: 0\n; Last Updated: 7/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 macro that auto-plays Virtual Piano notation songs (playpianosheets.com) into a Roblox piano\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/brageat/roblox-piano-autoplayer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/brageat/roblox-piano-autoplayer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <roblox-piano-autoplayer>\n\n; Example initialization\nclass RobloxPianoAutoplayerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"roblox-piano-autoplayer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxPianoAutoplayerExample()\n```"
+    },
+    {
+      "id": "github-1297728381",
+      "title": "mnemosyne",
+      "category": "GitHub Repository",
+      "description": "Minimalistic hotkey-driven quick-notes app for Windows. Dark theme, borderless UI, plain-text storage. Built with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "autohotkey",
+        "dark-theme",
+        "hotkeys",
+        "minimalist",
+        "note-taking"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-11T19:28:49Z",
+      "lastModified": "2026-07-11T19:59:27Z",
+      "source": "github",
+      "url": "https://github.com/vitaliso/mnemosyne",
+      "stars": 0,
+      "forks": 0,
+      "owner": "vitaliso",
+      "code": "```cpp\n; ============================================\n; Repository: vitaliso/mnemosyne\n; ============================================\n; URL: https://github.com/vitaliso/mnemosyne\n; Stars: 0 | Forks: 0\n; Last Updated: 7/11/2026\n; License: MIT License\n;\n; Description:\n; Minimalistic hotkey-driven quick-notes app for Windows. Dark theme, borderless UI, plain-text storage. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/vitaliso/mnemosyne.git\n;\n; Option 2: Download ZIP\n;   https://github.com/vitaliso/mnemosyne/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mnemosyne>\n\n; Example initialization\nclass MnemosyneExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mnemosyne loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MnemosyneExample()\n```"
     }
   ]
 }
