@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-12T12:19:18.057Z",
+  "lastUpdated": "2026-07-12T18:19:18.041Z",
   "totalScripts": 382,
   "categories": [
     "GUI",
@@ -1729,13 +1729,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-03T16:38:09Z",
-      "lastModified": "2026-05-17T23:13:54Z",
+      "lastModified": "2026-07-12T13:49:03Z",
       "source": "github",
       "url": "https://github.com/eyetechanalytics/Beacon",
       "stars": 0,
       "forks": 0,
       "owner": "eyetechanalytics",
-      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Beacon\n; ============================================\n; URL: https://github.com/eyetechanalytics/Beacon\n; Stars: 0 | Forks: 0\n; Last Updated: 5/17/2026\n; License: MIT License\n;\n; Description:\n; Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Beacon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Beacon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Beacon>\n\n; Example initialization\nclass BeaconExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Beacon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeaconExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Beacon\n; ============================================\n; URL: https://github.com/eyetechanalytics/Beacon\n; Stars: 0 | Forks: 0\n; Last Updated: 7/12/2026\n; License: MIT License\n;\n; Description:\n; Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Beacon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Beacon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Beacon>\n\n; Example initialization\nclass BeaconExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Beacon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeaconExample()\n```"
     },
     {
       "id": "github-1127454293",
@@ -4482,13 +4482,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T11:13:40Z",
-      "lastModified": "2026-07-08T11:29:20Z",
+      "lastModified": "2026-07-12T16:44:52Z",
       "source": "github",
       "url": "https://github.com/mesutakcan/CtrlToolTip",
       "stars": 1,
       "forks": 0,
       "owner": "mesutakcan",
-      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 7/8/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 7/12/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
     },
     {
       "id": "github-1199400681",
@@ -7543,13 +7543,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-06-07T23:06:17Z",
-      "lastModified": "2026-07-08T11:28:01Z",
+      "lastModified": "2026-07-12T16:55:08Z",
       "source": "github",
       "url": "https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK",
-      "stars": 4,
+      "stars": 5,
       "forks": 0,
       "owner": "Sid-1996",
-      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/AetherGazer-SemiAuto-AHK\n; ============================================\n; URL: https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK\n; Stars: 4 | Forks: 0\n; Last Updated: 7/8/2026\n; License: MIT License\n;\n; Description:\n; 深空之眼 (Aether Gazer) AutoHotkey v2 半自動戰鬥腳本：自動普攻、連招、FindText 圖像辨識、視窗調整與自動更新檢查\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AetherGazer-SemiAuto-AHK>\n\n; Example initialization\nclass AethergazerSemiautoAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AetherGazer-SemiAuto-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AethergazerSemiautoAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/AetherGazer-SemiAuto-AHK\n; ============================================\n; URL: https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK\n; Stars: 5 | Forks: 0\n; Last Updated: 7/12/2026\n; License: MIT License\n;\n; Description:\n; 深空之眼 (Aether Gazer) AutoHotkey v2 半自動戰鬥腳本：自動普攻、連招、FindText 圖像辨識、視窗調整與自動更新檢查\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AetherGazer-SemiAuto-AHK>\n\n; Example initialization\nclass AethergazerSemiautoAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AetherGazer-SemiAuto-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AethergazerSemiautoAhkExample()\n```"
     },
     {
       "id": "github-1293027184",
