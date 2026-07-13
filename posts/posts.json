@@ -1,5 +1,21 @@
 [
  {
+  "slug": "ahk-contract-benchmark",
+  "title": "AHK-Contract: 24 Class Contracts, 173 Hidden Tests, and a Benchmark Built to Be Beaten by Agents",
+  "preview_title": "AHK-Contract: The OOP Benchmark",
+  "date": "2026-07-12",
+  "description": "AHK-Eval grades one stateless call; it can't see construction protocol, super chaining, dispatch order, this-binding, or lifecycle. AHK-Contract can: 24 class contracts across six categories, 173 hidden behavioral cases with base-chain error matching, graded on the pinned alpha.30 fork. Adversarially gated before any model run — 48 plausible-wrong mutants all killed, blind spec-reads on every task, shuffled-order re-grading. Two arms: cold one-shot vs coding agent with execution feedback; the per-category delta is the product. Three falsifiable predictions frozen in advance.",
+  "preview": "24 class contracts, 173 hidden tests, zero models so far — the cold-vs-agent delta is the product.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Contract",
+   "OOP",
+   "Methodology"
+  ],
+  "path": "posts/ahk-contract-benchmark.md"
+ },
+ {
   "slug": "muse-spark-1.1-ahk-eval",
   "title": "Meta Muse Spark 1.1: Mid-Board Debut, Three Tasks Dead on One Invented Method",
   "preview_title": "Muse Spark 1.1 Debuts at #12",
