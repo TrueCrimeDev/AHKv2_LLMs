@@ -1,5 +1,21 @@
 [
  {
+  "slug": "ahk-repair-benchmark",
+  "title": "AHK-Repair: Terra Fixes What It Can't Write",
+  "preview_title": "AHK-Repair: Terra Tops the Fix Board",
+  "date": "2026-07-14",
+  "description": "Thirty real broken submissions mined from the AHK-Eval failure corpus become a repair benchmark: fix another model's dead code with the smallest change, graded against the original hidden cases plus a minimality metric. Eleven models ran it for $3.45 total. GPT-5.6 Terra — the terse mid-tier that drops easy generation tasks — is the best repairer at 64%; GLM-5.2 repairs better than GLM-5 while scoring worse on generation; parse deaths get fixed at 40%, silent wrong-value bugs at 28%. Seven bugs survived everyone, including Terra's own submission for a task it fixed from another model's pen.",
+  "preview": "Terra repairs 64% of other models' dead code — including a task its own submission still fails.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Repair",
+   "GPT-5.6",
+   "GLM-5.2"
+  ],
+  "path": "posts/ahk-repair-benchmark.md"
+ },
+ {
   "slug": "ahk-contract-benchmark",
   "title": "AHK-Contract: 24 Class Contracts, 173 Hidden Tests, and a Benchmark Built to Be Beaten by Agents",
   "preview_title": "AHK-Contract: The OOP Benchmark",
