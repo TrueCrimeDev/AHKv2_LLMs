@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-14T12:28:20.212Z",
-  "totalScripts": 383,
+  "lastUpdated": "2026-07-14T18:24:21.143Z",
+  "totalScripts": 384,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-07-14T07:47:37Z",
+      "lastModified": "2026-07-14T14:17:35Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -7696,6 +7696,25 @@
       "forks": 0,
       "owner": "constarik",
       "code": "```cpp\n; ============================================\n; Repository: constarik/numlock-manager\n; ============================================\n; URL: https://github.com/constarik/numlock-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 7/14/2026\n; License: MIT License\n;\n; Description:\n; Transparent NumLock/CapsLock/ScrollLock manager in a single AutoHotkey v2 script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/constarik/numlock-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/constarik/numlock-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <numlock-manager>\n\n; Example initialization\nclass NumlockManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"numlock-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NumlockManagerExample()\n```"
+    },
+    {
+      "id": "github-949678939",
+      "title": "virtual-desktop-switcher",
+      "category": "GitHub Repository",
+      "description": "This AutoHotkey v2 script enhances virtual desktop navigation on Windows by providing shortcuts to switch between desktops.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-03-17T00:43:05Z",
+      "lastModified": "2026-07-14T18:20:26Z",
+      "source": "github",
+      "url": "https://github.com/keychain2db/virtual-desktop-switcher",
+      "stars": 5,
+      "forks": 0,
+      "owner": "keychain2db",
+      "code": "```cpp\n; ============================================\n; Repository: keychain2db/virtual-desktop-switcher\n; ============================================\n; URL: https://github.com/keychain2db/virtual-desktop-switcher\n; Stars: 5 | Forks: 0\n; Last Updated: 7/14/2026\n; License: MIT License\n;\n; Description:\n; This AutoHotkey v2 script enhances virtual desktop navigation on Windows by providing shortcuts to switch between desktops.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/keychain2db/virtual-desktop-switcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/keychain2db/virtual-desktop-switcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <virtual-desktop-switcher>\n\n; Example initialization\nclass VirtualDesktopSwitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"virtual-desktop-switcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VirtualDesktopSwitcherExample()\n```"
     }
   ]
 }
