@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-12",
+ "generated": "2026-07-13",
  "tasks": 36,
  "cases": 181,
  "cat_totals": {
@@ -525,6 +525,33 @@
    "rank": 19
   },
   {
+   "stem": "GLM-5-2",
+   "display": "GLM-5.2",
+   "provider": "Zhipu AI",
+   "solved": 24,
+   "cases": 133,
+   "case_tot": 181,
+   "parse_fail": 2,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 4,
+    "datetime": 4,
+    "numbers": 4,
+    "regex": 3,
+    "strings": 5
+   },
+   "tiers": {
+    "easy": 9,
+    "hard": 8,
+    "mid": 7
+   },
+   "price_out": 3.0,
+   "rank": 20
+  },
+  {
    "stem": "Aion_3-0_Mini",
    "display": "Aion-3.0 Mini",
    "provider": "AionLabs",
@@ -549,7 +576,7 @@
     "mid": 7
    },
    "price_out": 1.4,
-   "rank": 20
+   "rank": 21
   },
   {
    "stem": "GPT-5-1",
@@ -576,7 +603,7 @@
     "mid": 9
    },
    "price_out": 10.0,
-   "rank": 21
+   "rank": 22
   },
   {
    "stem": "Hy3_Free",
@@ -603,7 +630,7 @@
     "mid": 9
    },
    "price_out": 0,
-   "rank": 22
+   "rank": 23
   },
   {
    "stem": "DeepSeek_V4_Pro",
@@ -630,7 +657,7 @@
     "mid": 9
    },
    "price_out": 0.87,
-   "rank": 23
+   "rank": 24
   },
   {
    "stem": "Hy3",
@@ -657,7 +684,7 @@
     "mid": 7
    },
    "price_out": 0.58,
-   "rank": 24
+   "rank": 25
   },
   {
    "stem": "Qwen3_Coder",
@@ -684,7 +711,7 @@
     "mid": 5
    },
    "price_out": 1.8,
-   "rank": 25
+   "rank": 26
   },
   {
    "stem": "Mistral_Large_3",
@@ -711,7 +738,7 @@
     "mid": 2
    },
    "price_out": 1.5,
-   "rank": 26
+   "rank": 27
   },
   {
    "stem": "Laguna_XS_2-1_Free",
@@ -738,7 +765,7 @@
     "mid": 2
    },
    "price_out": 0,
-   "rank": 27
+   "rank": 28
   },
   {
    "stem": "Laguna_XS_2-1",
@@ -765,7 +792,7 @@
     "mid": 2
    },
    "price_out": 0.12,
-   "rank": 28
+   "rank": 29
   }
  ]
 }
