@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-14T06:45:23.589Z",
-  "totalScripts": 382,
+  "lastUpdated": "2026-07-14T12:28:20.212Z",
+  "totalScripts": 383,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-07-13T14:23:15Z",
+      "lastModified": "2026-07-14T07:47:37Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 7/13/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 7/14/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -7676,6 +7676,26 @@
       "forks": 0,
       "owner": "vitaliso",
       "code": "```cpp\n; ============================================\n; Repository: vitaliso/mnemosyne\n; ============================================\n; URL: https://github.com/vitaliso/mnemosyne\n; Stars: 0 | Forks: 0\n; Last Updated: 7/11/2026\n; License: MIT License\n;\n; Description:\n; Minimalistic hotkey-driven quick-notes app for Windows. Dark theme, borderless UI, plain-text storage. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/vitaliso/mnemosyne.git\n;\n; Option 2: Download ZIP\n;   https://github.com/vitaliso/mnemosyne/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mnemosyne>\n\n; Example initialization\nclass MnemosyneExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mnemosyne loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MnemosyneExample()\n```"
+    },
+    {
+      "id": "github-1300244229",
+      "title": "numlock-manager",
+      "category": "GitHub Repository",
+      "description": "Transparent NumLock/CapsLock/ScrollLock manager in a single AutoHotkey v2 script",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey-numlock-keyboard-windows-tray"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-14T08:56:17Z",
+      "lastModified": "2026-07-14T09:01:59Z",
+      "source": "github",
+      "url": "https://github.com/constarik/numlock-manager",
+      "stars": 0,
+      "forks": 0,
+      "owner": "constarik",
+      "code": "```cpp\n; ============================================\n; Repository: constarik/numlock-manager\n; ============================================\n; URL: https://github.com/constarik/numlock-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 7/14/2026\n; License: MIT License\n;\n; Description:\n; Transparent NumLock/CapsLock/ScrollLock manager in a single AutoHotkey v2 script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/constarik/numlock-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/constarik/numlock-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <numlock-manager>\n\n; Example initialization\nclass NumlockManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"numlock-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NumlockManagerExample()\n```"
     }
   ]
 }
