@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-15T12:29:59.219Z",
-  "totalScripts": 388,
+  "lastUpdated": "2026-07-15T18:25:19.682Z",
+  "totalScripts": 389,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1342,13 +1342,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-06-15T14:05:31Z",
-      "lastModified": "2026-03-14T06:27:45Z",
+      "lastModified": "2026-07-15T14:12:02Z",
       "source": "github",
       "url": "https://github.com/souldew/autohotkey-v2",
       "stars": 0,
       "forks": 0,
       "owner": "souldew",
-      "code": "```cpp\n; ============================================\n; Repository: souldew/autohotkey-v2\n; ============================================\n; URL: https://github.com/souldew/autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 3/14/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/souldew/autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/souldew/autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: souldew/autohotkey-v2\n; ============================================\n; URL: https://github.com/souldew/autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/15/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/souldew/autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/souldew/autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-950201159",
@@ -4255,13 +4255,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-07T21:58:54Z",
-      "lastModified": "2026-07-12T01:50:32Z",
+      "lastModified": "2026-07-15T13:11:41Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/ClautoHotkey",
-      "stars": 35,
+      "stars": 36,
       "forks": 5,
       "owner": "TrueCrimeDev",
-      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 35 | Forks: 5\n; Last Updated: 7/12/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/ClautoHotkey\n; ============================================\n; URL: https://github.com/TrueCrimeDev/ClautoHotkey\n; Stars: 36 | Forks: 5\n; Last Updated: 7/15/2026\n; License: Not specified\n;\n; Description:\n; This repo has the docs needed to create a useful Autohotkey v2 project in Claude. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/ClautoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/ClautoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClautoHotkey>\n\n; Example initialization\nclass ClautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClautoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClautohotkeyExample()\n```"
     },
     {
       "id": "github-1196649768",
@@ -7796,6 +7796,25 @@
       "forks": 0,
       "owner": "palmtom316",
       "code": "```cpp\n; ============================================\n; Repository: palmtom316/ahkhelper\n; ============================================\n; URL: https://github.com/palmtom316/ahkhelper\n; Stars: 0 | Forks: 0\n; Last Updated: 7/15/2026\n; License: Other\n;\n; Description:\n; ScreenPlus — AutoHotkey v2 productivity toolkit (virtual desktops, AutoCopy, clipboard)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/palmtom316/ahkhelper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/palmtom316/ahkhelper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkhelper>\n\n; Example initialization\nclass AhkhelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkhelper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkhelperExample()\n```"
+    },
+    {
+      "id": "github-1301622489",
+      "title": "keyboard-window-switcher",
+      "category": "GitHub Repository",
+      "description": "Summon apps and move across Windows virtual desktops from the keyboard (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-15T13:01:52Z",
+      "lastModified": "2026-07-15T14:44:14Z",
+      "source": "github",
+      "url": "https://github.com/hhazama/keyboard-window-switcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "hhazama",
+      "code": "```cpp\n; ============================================\n; Repository: hhazama/keyboard-window-switcher\n; ============================================\n; URL: https://github.com/hhazama/keyboard-window-switcher\n; Stars: 0 | Forks: 0\n; Last Updated: 7/15/2026\n; License: MIT License\n;\n; Description:\n; Summon apps and move across Windows virtual desktops from the keyboard (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hhazama/keyboard-window-switcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hhazama/keyboard-window-switcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keyboard-window-switcher>\n\n; Example initialization\nclass KeyboardWindowSwitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keyboard-window-switcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardWindowSwitcherExample()\n```"
     }
   ]
 }
