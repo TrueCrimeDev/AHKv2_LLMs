@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-15T00:26:39.216Z",
-  "totalScripts": 386,
+  "lastUpdated": "2026-07-15T06:46:10.511Z",
+  "totalScripts": 387,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-07-14T23:55:57Z",
+      "lastModified": "2026-07-15T03:33:47Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 2,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 2 | Forks: 0\n; Last Updated: 7/14/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 2 | Forks: 0\n; Last Updated: 7/15/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -7758,6 +7758,25 @@
       "forks": 0,
       "owner": "EnginArslan49",
       "code": "```cpp\n; ============================================\n; Repository: EnginArslan49/yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2\n; ============================================\n; URL: https://github.com/EnginArslan49/yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2\n; Stars: 1 | Forks: 0\n; Last Updated: 7/14/2026\n; License: Not specified\n;\n; Description:\n; Yazılımcılar için AutoHotkey v2 ile özelleştirilmiş mouse tuş kısayolları. Visual Studio ve VS Code için kopyala, yapıştır, derle-çalıştır, masaüstü ve tarayıcılarda kopyalama ve yapıştırma işlemlerini tek tıkla gerçekleştirin. Kolay kurulum, otomatik başlatma ve makro tuş desteğiyle verimliliği artırın.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EnginArslan49/yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EnginArslan49/yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2>\n\n; Example initialization\nclass YazilimcilarIcinOzellestirilmisMouseTusKisayollariAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YazilimcilarIcinOzellestirilmisMouseTusKisayollariAutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-1301079688",
+      "title": "DialDeck",
+      "category": "GitHub Repository",
+      "description": "Surface Dial control surface for agent workflows — keyless AutoHotkey v2 engine driving herdr agent orchestration + dev/modeling macros",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-15T01:14:49Z",
+      "lastModified": "2026-07-15T01:20:14Z",
+      "source": "github",
+      "url": "https://github.com/wtcrowe4/DialDeck",
+      "stars": 0,
+      "forks": 0,
+      "owner": "wtcrowe4",
+      "code": "```cpp\n; ============================================\n; Repository: wtcrowe4/DialDeck\n; ============================================\n; URL: https://github.com/wtcrowe4/DialDeck\n; Stars: 0 | Forks: 0\n; Last Updated: 7/15/2026\n; License: Not specified\n;\n; Description:\n; Surface Dial control surface for agent workflows — keyless AutoHotkey v2 engine driving herdr agent orchestration + dev/modeling macros\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wtcrowe4/DialDeck.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wtcrowe4/DialDeck/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DialDeck>\n\n; Example initialization\nclass DialdeckExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DialDeck loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DialdeckExample()\n```"
     }
   ]
 }
