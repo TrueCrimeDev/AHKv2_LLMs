@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-14T18:24:21.143Z",
-  "totalScripts": 384,
+  "lastUpdated": "2026-07-15T00:26:39.216Z",
+  "totalScripts": 386,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-06-19T08:32:52Z",
+      "lastModified": "2026-07-14T23:55:57Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 2,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 2 | Forks: 0\n; Last Updated: 6/19/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 2 | Forks: 0\n; Last Updated: 7/14/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -6161,13 +6161,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-30T16:05:52Z",
-      "lastModified": "2026-07-05T15:11:35Z",
+      "lastModified": "2026-07-14T21:10:53Z",
       "source": "github",
       "url": "https://github.com/MonoEven/stdlib-ahk",
-      "stars": 4,
+      "stars": 5,
       "forks": 0,
       "owner": "MonoEven",
-      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 4 | Forks: 0\n; Last Updated: 7/5/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MonoEven/stdlib-ahk\n; ============================================\n; URL: https://github.com/MonoEven/stdlib-ahk\n; Stars: 5 | Forks: 0\n; Last Updated: 7/14/2026\n; License: Not specified\n;\n; Description:\n; Python 3.10-inspired standard library modules for AutoHotkey v2, with a stable <stdlib\\...> include surface, examples, and ahktest-backed parity tests.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MonoEven/stdlib-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MonoEven/stdlib-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <stdlib-ahk>\n\n; Example initialization\nclass StdlibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"stdlib-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StdlibAhkExample()\n```"
     },
     {
       "id": "github-608904813",
@@ -7708,13 +7708,56 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-17T00:43:05Z",
-      "lastModified": "2026-07-14T18:20:26Z",
+      "lastModified": "2026-07-14T18:49:38Z",
       "source": "github",
       "url": "https://github.com/keychain2db/virtual-desktop-switcher",
       "stars": 5,
       "forks": 0,
       "owner": "keychain2db",
       "code": "```cpp\n; ============================================\n; Repository: keychain2db/virtual-desktop-switcher\n; ============================================\n; URL: https://github.com/keychain2db/virtual-desktop-switcher\n; Stars: 5 | Forks: 0\n; Last Updated: 7/14/2026\n; License: MIT License\n;\n; Description:\n; This AutoHotkey v2 script enhances virtual desktop navigation on Windows by providing shortcuts to switch between desktops.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/keychain2db/virtual-desktop-switcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/keychain2db/virtual-desktop-switcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <virtual-desktop-switcher>\n\n; Example initialization\nclass VirtualDesktopSwitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"virtual-desktop-switcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VirtualDesktopSwitcherExample()\n```"
+    },
+    {
+      "id": "github-1300899028",
+      "title": "WindowResizerAutoHotKey",
+      "category": "GitHub Repository",
+      "description": "Requires AutoHotkey v2. Uses Windows APIs to detect the active window. Draws an overlay across your monitors. Moves and resizes desktop application windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-14T19:59:38Z",
+      "lastModified": "2026-07-14T21:27:50Z",
+      "source": "github",
+      "url": "https://github.com/MathCadScience/WindowResizerAutoHotKey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "MathCadScience",
+      "code": "```cpp\n; ============================================\n; Repository: MathCadScience/WindowResizerAutoHotKey\n; ============================================\n; URL: https://github.com/MathCadScience/WindowResizerAutoHotKey\n; Stars: 0 | Forks: 0\n; Last Updated: 7/14/2026\n; License: Not specified\n;\n; Description:\n; Requires AutoHotkey v2. Uses Windows APIs to detect the active window. Draws an overlay across your monitors. Moves and resizes desktop application windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MathCadScience/WindowResizerAutoHotKey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MathCadScience/WindowResizerAutoHotKey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowResizerAutoHotKey>\n\n; Example initialization\nclass WindowresizerautohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowResizerAutoHotKey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowresizerautohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1071356172",
+      "title": "yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2",
+      "category": "GitHub Repository",
+      "description": "Yazılımcılar için AutoHotkey v2 ile özelleştirilmiş mouse tuş kısayolları. Visual Studio ve VS Code için kopyala, yapıştır, derle-çalıştır, masaüstü ve tarayıcılarda kopyalama ve yapıştırma işlemlerini tek tıkla gerçekleştirin. Kolay kurulum, otomatik başlatma ve makro tuş desteğiyle verimliliği artırın.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey-scripts",
+        "autohotkey-v2",
+        "fare-kisayollari",
+        "mouse-kisayollari",
+        "yazilimcilar-icin"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-10-07T08:33:58Z",
+      "lastModified": "2026-07-14T19:20:10Z",
+      "source": "github",
+      "url": "https://github.com/EnginArslan49/yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2",
+      "stars": 1,
+      "forks": 0,
+      "owner": "EnginArslan49",
+      "code": "```cpp\n; ============================================\n; Repository: EnginArslan49/yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2\n; ============================================\n; URL: https://github.com/EnginArslan49/yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2\n; Stars: 1 | Forks: 0\n; Last Updated: 7/14/2026\n; License: Not specified\n;\n; Description:\n; Yazılımcılar için AutoHotkey v2 ile özelleştirilmiş mouse tuş kısayolları. Visual Studio ve VS Code için kopyala, yapıştır, derle-çalıştır, masaüstü ve tarayıcılarda kopyalama ve yapıştırma işlemlerini tek tıkla gerçekleştirin. Kolay kurulum, otomatik başlatma ve makro tuş desteğiyle verimliliği artırın.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EnginArslan49/yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EnginArslan49/yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2>\n\n; Example initialization\nclass YazilimcilarIcinOzellestirilmisMouseTusKisayollariAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"yazilimcilar-icin-ozellestirilmis-mouse-tus-kisayollari-autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YazilimcilarIcinOzellestirilmisMouseTusKisayollariAutohotkeyV2Example()\n```"
     }
   ]
 }
