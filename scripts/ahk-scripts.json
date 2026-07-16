@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-16T06:50:08.689Z",
-  "totalScripts": 390,
+  "lastUpdated": "2026-07-16T12:33:56.171Z",
+  "totalScripts": 391,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-07-15T09:07:05Z",
+      "lastModified": "2026-07-16T07:47:27Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 7/15/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 7/16/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -6476,13 +6476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-08T11:01:09Z",
-      "lastModified": "2026-07-15T08:18:31Z",
+      "lastModified": "2026-07-16T08:05:45Z",
       "source": "github",
       "url": "https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro",
       "stars": 23,
       "forks": 3,
       "owner": "M-Haziq-Iqbal",
-      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 23 | Forks: 3\n; Last Updated: 7/15/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; ============================================\n; URL: https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro\n; Stars: 23 | Forks: 3\n; Last Updated: 7/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation tool for Forza Horizon 6 featuring a custom UI, session tracking, and workflow automation for efficient in-game progression.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-Haziq-Iqbal/Forza-Horizon-6-Wheelspin-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Forza-Horizon-6-Wheelspin-Macro>\n\n; Example initialization\nclass ForzaHorizon6WheelspinMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Forza-Horizon-6-Wheelspin-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ForzaHorizon6WheelspinMacroExample()\n```"
     },
     {
       "id": "github-1263747205",
@@ -7689,13 +7689,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-14T08:56:17Z",
-      "lastModified": "2026-07-15T12:00:56Z",
+      "lastModified": "2026-07-16T10:22:12Z",
       "source": "github",
       "url": "https://github.com/constarik/numlock-manager",
       "stars": 0,
       "forks": 0,
       "owner": "constarik",
-      "code": "```cpp\n; ============================================\n; Repository: constarik/numlock-manager\n; ============================================\n; URL: https://github.com/constarik/numlock-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 7/15/2026\n; License: MIT License\n;\n; Description:\n; Transparent NumLock/CapsLock/ScrollLock manager in a single AutoHotkey v2 script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/constarik/numlock-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/constarik/numlock-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <numlock-manager>\n\n; Example initialization\nclass NumlockManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"numlock-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NumlockManagerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: constarik/numlock-manager\n; ============================================\n; URL: https://github.com/constarik/numlock-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 7/16/2026\n; License: MIT License\n;\n; Description:\n; Transparent NumLock/CapsLock/ScrollLock manager in a single AutoHotkey v2 script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/constarik/numlock-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/constarik/numlock-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <numlock-manager>\n\n; Example initialization\nclass NumlockManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"numlock-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NumlockManagerExample()\n```"
     },
     {
       "id": "github-949678939",
@@ -7840,6 +7840,31 @@
       "forks": 0,
       "owner": "GregoireF",
       "code": "```cpp\n; ============================================\n; Repository: GregoireF/dd-toolkit\n; ============================================\n; URL: https://github.com/GregoireF/dd-toolkit\n; Stars: 0 | Forks: 0\n; Last Updated: 7/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 toolkit for Dungeon Defenders Redux: gameplay macros (tower stacking, ability loops, Jester wheel, charge shot) and known game config fixes.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GregoireF/dd-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GregoireF/dd-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <dd-toolkit>\n\n; Example initialization\nclass DdToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"dd-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DdToolkitExample()\n```"
+    },
+    {
+      "id": "github-1302635380",
+      "title": "uncloned-tray",
+      "category": "GitHub Repository",
+      "description": "Several small transparent Windows utilities under one tray icon — AutoHotkey v2, one process, one instance",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "downloads",
+        "keyboard",
+        "numlock",
+        "tray",
+        "utility"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-16T10:16:15Z",
+      "lastModified": "2026-07-16T10:17:05Z",
+      "source": "github",
+      "url": "https://github.com/constarik/uncloned-tray",
+      "stars": 0,
+      "forks": 0,
+      "owner": "constarik",
+      "code": "```cpp\n; ============================================\n; Repository: constarik/uncloned-tray\n; ============================================\n; URL: https://github.com/constarik/uncloned-tray\n; Stars: 0 | Forks: 0\n; Last Updated: 7/16/2026\n; License: MIT License\n;\n; Description:\n; Several small transparent Windows utilities under one tray icon — AutoHotkey v2, one process, one instance\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/constarik/uncloned-tray.git\n;\n; Option 2: Download ZIP\n;   https://github.com/constarik/uncloned-tray/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <uncloned-tray>\n\n; Example initialization\nclass UnclonedTrayExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"uncloned-tray loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UnclonedTrayExample()\n```"
     }
   ]
 }
