@@ -1,5 +1,21 @@
 [
  {
+  "slug": "kimi-k3-ahk-eval",
+  "title": "Kimi K3: Four Tasks Better Than K2.6, and the First Model Through AHK-Contract",
+  "preview_title": "Kimi K3 Nearly Beats the Agent Benchmark Cold",
+  "date": "2026-07-16",
+  "description": "Moonshot K3 takes rank 6 on AHK-Eval at 34/36 — four tasks clear of K2.6 — and becomes the first model ever to run AHK-Contract, scoring 23/24 cold. It went 4/4 on the binding and meta categories the suite named its load-bearing cases, leaving one task of headroom for the cold-to-agent delta the benchmark was built to measure. Its single contract loss is one line: calling a stored hook as this.pre(v), which AHK resolves as a method call and hands the instance as an implicit first argument. Both sweeps, 60 calls, $1.71.",
+  "preview": "23/24 cold on a suite built to be beaten by agents — and the one miss is a method-call resolution bug.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "AHK-Contract",
+   "Kimi"
+  ],
+  "path": "posts/kimi-k3-ahk-eval.md"
+ },
+ {
   "slug": "ahk-repair-benchmark",
   "title": "AHK-Repair: Terra Fixes What It Can't Write",
   "preview_title": "AHK-Repair: Terra Tops the Fix Board",
