@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-19T12:18:46.303Z",
-  "totalScripts": 395,
+  "lastUpdated": "2026-07-19T18:18:56.145Z",
+  "totalScripts": 396,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6672,13 +6672,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-07-10T07:21:09Z",
+      "lastModified": "2026-07-19T14:32:48Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
       "stars": 2,
       "forks": 0,
       "owner": "Vedette1",
-      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 2 | Forks: 0\n; Last Updated: 7/10/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 2 | Forks: 0\n; Last Updated: 7/19/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     },
     {
       "id": "github-1266742477",
@@ -6896,13 +6896,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-16T12:57:43Z",
-      "lastModified": "2026-06-18T02:58:45Z",
+      "lastModified": "2026-07-19T14:09:04Z",
       "source": "github",
       "url": "https://github.com/tokiyaokoshi/my-autohotkey-scripts",
       "stars": 0,
       "forks": 0,
       "owner": "tokiyaokoshi",
-      "code": "```cpp\n; ============================================\n; Repository: tokiyaokoshi/my-autohotkey-scripts\n; ============================================\n; URL: https://github.com/tokiyaokoshi/my-autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 6/18/2026\n; License: Not specified\n;\n; Description:\n; Windowsの作業を快適にするAutoHotkey(v2)スクリプト集。繰り返し行われる動作の自動化や、独自の便利ショートカットキーを追加してPC作業を効率化します。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tokiyaokoshi/my-autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tokiyaokoshi/my-autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <my-autohotkey-scripts>\n\n; Example initialization\nclass MyAutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"my-autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAutohotkeyScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tokiyaokoshi/my-autohotkey-scripts\n; ============================================\n; URL: https://github.com/tokiyaokoshi/my-autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 7/19/2026\n; License: MIT License\n;\n; Description:\n; Windowsの作業を快適にするAutoHotkey(v2)スクリプト集。繰り返し行われる動作の自動化や、独自の便利ショートカットキーを追加してPC作業を効率化します。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tokiyaokoshi/my-autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tokiyaokoshi/my-autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <my-autohotkey-scripts>\n\n; Example initialization\nclass MyAutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"my-autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyAutohotkeyScriptsExample()\n```"
     },
     {
       "id": "github-905920577",
@@ -7907,7 +7907,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-18T06:55:35Z",
-      "lastModified": "2026-07-19T11:20:15Z",
+      "lastModified": "2026-07-19T15:28:42Z",
       "source": "github",
       "url": "https://github.com/dT-Tb-labs/win-05410-n",
       "stars": 0,
@@ -7958,6 +7958,31 @@
       "forks": 0,
       "owner": "zensuihime",
       "code": "```cpp\n; ============================================\n; Repository: zensuihime/nikke-overcharge\n; ============================================\n; URL: https://github.com/zensuihime/nikke-overcharge\n; Stars: 0 | Forks: 0\n; Last Updated: 7/19/2026\n; License: MIT License\n;\n; Description:\n; A charge-timing macro & burst-skill spammer for the game NIKKE — live-tunable timing, on-screen HUD, fully rebindable. AutoHotkey v2, Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zensuihime/nikke-overcharge.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zensuihime/nikke-overcharge/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <nikke-overcharge>\n\n; Example initialization\nclass NikkeOverchargeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"nikke-overcharge loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NikkeOverchargeExample()\n```"
+    },
+    {
+      "id": "github-1305858921",
+      "title": "noc-shift-automation",
+      "category": "GitHub Repository",
+      "description": "Desktop automation for a Windows-based Network Operations Center (NOC). Automates VPN connection, browser dashboard authentication, shift startup/shutdown tasks and team notifications using AutoHotkey v2, PowerShell and JavaScript.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey-v2",
+        "automation",
+        "browser-automation",
+        "chrome-extension",
+        "cisco-anyconnect",
+        "javascript"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-19T16:27:12Z",
+      "lastModified": "2026-07-19T16:34:08Z",
+      "source": "github",
+      "url": "https://github.com/Guga-G/noc-shift-automation",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Guga-G",
+      "code": "```cpp\n; ============================================\n; Repository: Guga-G/noc-shift-automation\n; ============================================\n; URL: https://github.com/Guga-G/noc-shift-automation\n; Stars: 0 | Forks: 0\n; Last Updated: 7/19/2026\n; License: Apache License 2.0\n;\n; Description:\n; Desktop automation for a Windows-based Network Operations Center (NOC). Automates VPN connection, browser dashboard authentication, shift startup/shutdown tasks and team notifications using AutoHotkey v2, PowerShell and JavaScript.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Guga-G/noc-shift-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Guga-G/noc-shift-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <noc-shift-automation>\n\n; Example initialization\nclass NocShiftAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"noc-shift-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NocShiftAutomationExample()\n```"
     }
   ]
 }
