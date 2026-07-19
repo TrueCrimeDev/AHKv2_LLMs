@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-18T18:18:53.846Z",
-  "totalScripts": 393,
+  "lastUpdated": "2026-07-19T00:32:04.262Z",
+  "totalScripts": 394,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-07-18T18:10:21Z",
+      "lastModified": "2026-07-18T22:30:47Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 2,
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-17T15:57:25Z",
+      "lastModified": "2026-07-18T23:55:21Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
-      "stars": 6,
+      "stars": 8,
       "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 6 | Forks: 3\n; Last Updated: 7/17/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 8 | Forks: 3\n; Last Updated: 7/18/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -7914,6 +7914,25 @@
       "forks": 0,
       "owner": "dT-Tb-labs",
       "code": "```cpp\n; ============================================\n; Repository: dT-Tb-labs/win-05410-n\n; ============================================\n; URL: https://github.com/dT-Tb-labs/win-05410-n\n; Stars: 0 | Forks: 0\n; Last Updated: 7/18/2026\n; License: MIT License\n;\n; Description:\n; Keep a Windows laptop awake with the lid closed (clamshell mode) while Caps Lock is ON — full-screen blackout overlay on lid close + real monitor power-off after idle. Single-file AutoHotkey v2, no admin.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dT-Tb-labs/win-05410-n.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dT-Tb-labs/win-05410-n/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <win-05410-n>\n\n; Example initialization\nclass Win05410NExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"win-05410-n loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Win05410NExample()\n```"
+    },
+    {
+      "id": "github-1305146283",
+      "title": "autohotkey",
+      "category": "GitHub Repository",
+      "description": "A collection of AutoHotkey v2.0 scripts I use to streamline my workflows on Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-18T18:41:23Z",
+      "lastModified": "2026-07-18T18:57:01Z",
+      "source": "github",
+      "url": "https://github.com/prueba-error/autohotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "prueba-error",
+      "code": "```cpp\n; ============================================\n; Repository: prueba-error/autohotkey\n; ============================================\n; URL: https://github.com/prueba-error/autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 7/18/2026\n; License: Not specified\n;\n; Description:\n; A collection of AutoHotkey v2.0 scripts I use to streamline my workflows on Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/prueba-error/autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/prueba-error/autohotkey/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     }
   ]
 }
