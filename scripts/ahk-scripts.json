@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-19T00:32:04.262Z",
+  "lastUpdated": "2026-07-19T06:52:02.906Z",
   "totalScripts": 394,
   "categories": [
     "GUI",
@@ -5788,13 +5788,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-10T17:32:29Z",
-      "lastModified": "2026-07-16T21:42:32Z",
+      "lastModified": "2026-07-19T01:52:13Z",
       "source": "github",
       "url": "https://github.com/Magnetron85/Radiology-Right-Click",
       "stars": 10,
       "forks": 3,
       "owner": "Magnetron85",
-      "code": "```cpp\n; ============================================\n; Repository: Magnetron85/Radiology-Right-Click\n; ============================================\n; URL: https://github.com/Magnetron85/Radiology-Right-Click\n; Stars: 10 | Forks: 3\n; Last Updated: 7/16/2026\n; License: Other\n;\n; Description:\n; Right-click context menu of measurement and analysis helpers for radiology dictation. AutoHotkey v2. PolyForm Noncommercial. Research/educational use only -- not a medical device.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/Radiology-Right-Click.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/Radiology-Right-Click/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Radiology-Right-Click>\n\n; Example initialization\nclass RadiologyRightClickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Radiology-Right-Click loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RadiologyRightClickExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Magnetron85/Radiology-Right-Click\n; ============================================\n; URL: https://github.com/Magnetron85/Radiology-Right-Click\n; Stars: 10 | Forks: 3\n; Last Updated: 7/19/2026\n; License: Other\n;\n; Description:\n; Right-click context menu of measurement and analysis helpers for radiology dictation. AutoHotkey v2. PolyForm Noncommercial. Research/educational use only -- not a medical device.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/Radiology-Right-Click.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/Radiology-Right-Click/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Radiology-Right-Click>\n\n; Example initialization\nclass RadiologyRightClickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Radiology-Right-Click loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RadiologyRightClickExample()\n```"
     },
     {
       "id": "github-1242760553",
