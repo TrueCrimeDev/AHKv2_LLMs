@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-20T12:43:53.677Z",
+  "lastUpdated": "2026-07-20T18:38:51.215Z",
   "totalScripts": 398,
   "categories": [
     "GUI",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-07-20T05:13:19Z",
+      "lastModified": "2026-07-20T14:12:28Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-18T23:55:21Z",
+      "lastModified": "2026-07-20T18:15:51Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
-      "stars": 8,
+      "stars": 9,
       "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 8 | Forks: 3\n; Last Updated: 7/18/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 9 | Forks: 3\n; Last Updated: 7/20/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -5750,13 +5750,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T13:37:08Z",
-      "lastModified": "2026-06-14T06:55:32Z",
+      "lastModified": "2026-07-20T15:33:30Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_My_libs",
       "stars": 1,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_My_libs\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_My_libs\n; Stars: 1 | Forks: 0\n; Last Updated: 6/14/2026\n; License: MIT License\n;\n; Description:\n; An advanced mouse click handler for AutoHotkey v2.0. It manages short clicks, double clicks, and button holds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_My_libs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_My_libs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_My_libs>\n\n; Example initialization\nclass Ahk2MyLibsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_My_libs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2MyLibsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_My_libs\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_My_libs\n; Stars: 1 | Forks: 0\n; Last Updated: 7/20/2026\n; License: MIT License\n;\n; Description:\n; An advanced mouse click handler for AutoHotkey v2.0. It manages short clicks, double clicks, and button holds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_My_libs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_My_libs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_My_libs>\n\n; Example initialization\nclass Ahk2MyLibsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_My_libs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2MyLibsExample()\n```"
     },
     {
       "id": "github-1241836157",
@@ -7995,13 +7995,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-19T21:18:03Z",
-      "lastModified": "2026-07-19T21:29:32Z",
+      "lastModified": "2026-07-20T14:54:31Z",
       "source": "github",
       "url": "https://github.com/svrkd/ahk-ellipsoid-vol",
       "stars": 0,
       "forks": 0,
       "owner": "svrkd",
-      "code": "```cpp\n; ============================================\n; Repository: svrkd/ahk-ellipsoid-vol\n; ============================================\n; URL: https://github.com/svrkd/ahk-ellipsoid-vol\n; Stars: 0 | Forks: 0\n; Last Updated: 7/19/2026\n; License: MIT License\n;\n; Description:\n; Script AutoHotkey v2 para cálculo automático de volume elipsoide (V = X × Y × Z × 0,52) em medidas de nódulos/lesões destacadas em texto (formato \"Y x Z x W [unidade]\"), com saída em português brasileiro (\"...com volume de X,X cm³\"). Atalho global (Alt+V), unidade inferida do texto original (cm/mm/m), separador decimal em vírgula na saída.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/svrkd/ahk-ellipsoid-vol.git\n;\n; Option 2: Download ZIP\n;   https://github.com/svrkd/ahk-ellipsoid-vol/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-ellipsoid-vol>\n\n; Example initialization\nclass AhkEllipsoidVolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-ellipsoid-vol loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkEllipsoidVolExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: svrkd/ahk-ellipsoid-vol\n; ============================================\n; URL: https://github.com/svrkd/ahk-ellipsoid-vol\n; Stars: 0 | Forks: 0\n; Last Updated: 7/20/2026\n; License: MIT License\n;\n; Description:\n; Script AutoHotkey v2 para cálculo automático de volume elipsoide (V = X × Y × Z × 0,52) em medidas de nódulos/lesões destacadas em texto (formato \"Y x Z x W [unidade]\"), com saída em português brasileiro (\"...com volume de X,X cm³\"). Atalho global (Alt+V), unidade inferida do texto original (cm/mm/m), separador decimal em vírgula na saída.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/svrkd/ahk-ellipsoid-vol.git\n;\n; Option 2: Download ZIP\n;   https://github.com/svrkd/ahk-ellipsoid-vol/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-ellipsoid-vol>\n\n; Example initialization\nclass AhkEllipsoidVolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-ellipsoid-vol loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkEllipsoidVolExample()\n```"
     },
     {
       "id": "github-1306478581",
@@ -8014,7 +8014,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-20T10:16:10Z",
-      "lastModified": "2026-07-20T10:18:25Z",
+      "lastModified": "2026-07-20T15:50:23Z",
       "source": "github",
       "url": "https://github.com/qlxsply/juju",
       "stars": 0,
