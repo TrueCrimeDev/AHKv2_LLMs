@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-20T07:05:45.279Z",
-  "totalScripts": 397,
+  "lastUpdated": "2026-07-20T12:43:53.677Z",
+  "totalScripts": 398,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1453,13 +1453,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2021-02-14T08:17:59Z",
-      "lastModified": "2026-05-07T03:02:11Z",
+      "lastModified": "2026-07-20T08:21:14Z",
       "source": "github",
       "url": "https://github.com/TetraTheta/autohotkey-script",
       "stars": 1,
       "forks": 0,
       "owner": "TetraTheta",
-      "code": "```cpp\n; ============================================\n; Repository: TetraTheta/autohotkey-script\n; ============================================\n; URL: https://github.com/TetraTheta/autohotkey-script\n; Stars: 1 | Forks: 0\n; Last Updated: 5/7/2026\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TetraTheta/autohotkey-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TetraTheta/autohotkey-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-script>\n\n; Example initialization\nclass AutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: TetraTheta/autohotkey-script\n; ============================================\n; URL: https://github.com/TetraTheta/autohotkey-script\n; Stars: 1 | Forks: 0\n; Last Updated: 7/20/2026\n; License: Not specified\n;\n; Description:\n; Collection of AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TetraTheta/autohotkey-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TetraTheta/autohotkey-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-script>\n\n; Example initialization\nclass AutohotkeyScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptExample()\n```"
     },
     {
       "id": "github-1038813733",
@@ -7681,7 +7681,7 @@
       "id": "github-1300244229",
       "title": "numlock-manager",
       "category": "GitHub Repository",
-      "description": "Transparent NumLock/CapsLock/ScrollLock manager in a single AutoHotkey v2 script",
+      "description": "[ARCHIVED - superseded by uncloned-tray] Transparent NumLock/CapsLock/ScrollLock manager in a single AutoHotkey v2 script",
       "tags": [
         "github",
         "repository",
@@ -7689,13 +7689,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-14T08:56:17Z",
-      "lastModified": "2026-07-16T10:22:12Z",
+      "lastModified": "2026-07-20T09:57:50Z",
       "source": "github",
       "url": "https://github.com/constarik/numlock-manager",
       "stars": 0,
       "forks": 0,
       "owner": "constarik",
-      "code": "```cpp\n; ============================================\n; Repository: constarik/numlock-manager\n; ============================================\n; URL: https://github.com/constarik/numlock-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 7/16/2026\n; License: MIT License\n;\n; Description:\n; Transparent NumLock/CapsLock/ScrollLock manager in a single AutoHotkey v2 script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/constarik/numlock-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/constarik/numlock-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <numlock-manager>\n\n; Example initialization\nclass NumlockManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"numlock-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NumlockManagerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: constarik/numlock-manager\n; ============================================\n; URL: https://github.com/constarik/numlock-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 7/20/2026\n; License: MIT License\n;\n; Description:\n; [ARCHIVED - superseded by uncloned-tray] Transparent NumLock/CapsLock/ScrollLock manager in a single AutoHotkey v2 script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/constarik/numlock-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/constarik/numlock-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <numlock-manager>\n\n; Example initialization\nclass NumlockManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"numlock-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NumlockManagerExample()\n```"
     },
     {
       "id": "github-949678939",
@@ -8002,6 +8002,25 @@
       "forks": 0,
       "owner": "svrkd",
       "code": "```cpp\n; ============================================\n; Repository: svrkd/ahk-ellipsoid-vol\n; ============================================\n; URL: https://github.com/svrkd/ahk-ellipsoid-vol\n; Stars: 0 | Forks: 0\n; Last Updated: 7/19/2026\n; License: MIT License\n;\n; Description:\n; Script AutoHotkey v2 para cálculo automático de volume elipsoide (V = X × Y × Z × 0,52) em medidas de nódulos/lesões destacadas em texto (formato \"Y x Z x W [unidade]\"), com saída em português brasileiro (\"...com volume de X,X cm³\"). Atalho global (Alt+V), unidade inferida do texto original (cm/mm/m), separador decimal em vírgula na saída.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/svrkd/ahk-ellipsoid-vol.git\n;\n; Option 2: Download ZIP\n;   https://github.com/svrkd/ahk-ellipsoid-vol/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-ellipsoid-vol>\n\n; Example initialization\nclass AhkEllipsoidVolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-ellipsoid-vol loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkEllipsoidVolExample()\n```"
+    },
+    {
+      "id": "github-1306478581",
+      "title": "juju",
+      "category": "GitHub Repository",
+      "description": "基于AutoHotkey v2实现的Windows脚本工具",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-20T10:16:10Z",
+      "lastModified": "2026-07-20T10:18:25Z",
+      "source": "github",
+      "url": "https://github.com/qlxsply/juju",
+      "stars": 0,
+      "forks": 0,
+      "owner": "qlxsply",
+      "code": "```cpp\n; ============================================\n; Repository: qlxsply/juju\n; ============================================\n; URL: https://github.com/qlxsply/juju\n; Stars: 0 | Forks: 0\n; Last Updated: 7/20/2026\n; License: MIT License\n;\n; Description:\n; 基于AutoHotkey v2实现的Windows脚本工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/qlxsply/juju.git\n;\n; Option 2: Download ZIP\n;   https://github.com/qlxsply/juju/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <juju>\n\n; Example initialization\nclass JujuExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"juju loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := JujuExample()\n```"
     }
   ]
 }
