@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-20T18:38:51.215Z",
-  "totalScripts": 398,
+  "lastUpdated": "2026-07-21T00:32:06.773Z",
+  "totalScripts": 399,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8021,6 +8021,25 @@
       "forks": 0,
       "owner": "qlxsply",
       "code": "```cpp\n; ============================================\n; Repository: qlxsply/juju\n; ============================================\n; URL: https://github.com/qlxsply/juju\n; Stars: 0 | Forks: 0\n; Last Updated: 7/20/2026\n; License: MIT License\n;\n; Description:\n; 基于AutoHotkey v2实现的Windows脚本工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/qlxsply/juju.git\n;\n; Option 2: Download ZIP\n;   https://github.com/qlxsply/juju/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <juju>\n\n; Example initialization\nclass JujuExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"juju loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := JujuExample()\n```"
+    },
+    {
+      "id": "github-1195655207",
+      "title": "claude-auto-continue",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script that auto-sends continue to Claude Desktop/browser on a timer. Tray icon, hotkeys, editable message, clipboard-safe, Win32 focus bypass.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-03-29T23:29:20Z",
+      "lastModified": "2026-07-20T21:28:35Z",
+      "source": "github",
+      "url": "https://github.com/socrates777usa/claude-auto-continue",
+      "stars": 0,
+      "forks": 0,
+      "owner": "socrates777usa",
+      "code": "```cpp\n; ============================================\n; Repository: socrates777usa/claude-auto-continue\n; ============================================\n; URL: https://github.com/socrates777usa/claude-auto-continue\n; Stars: 0 | Forks: 0\n; Last Updated: 7/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that auto-sends continue to Claude Desktop/browser on a timer. Tray icon, hotkeys, editable message, clipboard-safe, Win32 focus bypass.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/socrates777usa/claude-auto-continue.git\n;\n; Option 2: Download ZIP\n;   https://github.com/socrates777usa/claude-auto-continue/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-auto-continue>\n\n; Example initialization\nclass ClaudeAutoContinueExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-auto-continue loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeAutoContinueExample()\n```"
     }
   ]
 }
