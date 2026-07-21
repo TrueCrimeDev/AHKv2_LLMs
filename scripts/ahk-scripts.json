@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-21T00:32:06.773Z",
-  "totalScripts": 399,
+  "lastUpdated": "2026-07-21T06:52:18.031Z",
+  "totalScripts": 400,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-07-13T20:12:02Z",
+      "lastModified": "2026-07-21T01:43:15Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
-      "stars": 50,
+      "stars": 51,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 50 | Forks: 8\n; Last Updated: 7/13/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 51 | Forks: 8\n; Last Updated: 7/21/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -6672,13 +6672,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-07-19T14:32:48Z",
+      "lastModified": "2026-07-21T04:05:46Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
       "stars": 2,
       "forks": 0,
       "owner": "Vedette1",
-      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 2 | Forks: 0\n; Last Updated: 7/19/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 2 | Forks: 0\n; Last Updated: 7/21/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     },
     {
       "id": "github-1266742477",
@@ -8040,6 +8040,31 @@
       "forks": 0,
       "owner": "socrates777usa",
       "code": "```cpp\n; ============================================\n; Repository: socrates777usa/claude-auto-continue\n; ============================================\n; URL: https://github.com/socrates777usa/claude-auto-continue\n; Stars: 0 | Forks: 0\n; Last Updated: 7/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that auto-sends continue to Claude Desktop/browser on a timer. Tray icon, hotkeys, editable message, clipboard-safe, Win32 focus bypass.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/socrates777usa/claude-auto-continue.git\n;\n; Option 2: Download ZIP\n;   https://github.com/socrates777usa/claude-auto-continue/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-auto-continue>\n\n; Example initialization\nclass ClaudeAutoContinueExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-auto-continue loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeAutoContinueExample()\n```"
+    },
+    {
+      "id": "github-1307172878",
+      "title": "peekdock",
+      "category": "GitHub Repository",
+      "description": "A tiny AutoHotkey v2 Chrome app-window dock toggled by the middle mouse button.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "chrome",
+        "productivity",
+        "utility",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-21T02:05:52Z",
+      "lastModified": "2026-07-21T06:52:04Z",
+      "source": "github",
+      "url": "https://github.com/JojoZhu9/peekdock",
+      "stars": 0,
+      "forks": 0,
+      "owner": "JojoZhu9",
+      "code": "```cpp\n; ============================================\n; Repository: JojoZhu9/peekdock\n; ============================================\n; URL: https://github.com/JojoZhu9/peekdock\n; Stars: 0 | Forks: 0\n; Last Updated: 7/21/2026\n; License: MIT License\n;\n; Description:\n; A tiny AutoHotkey v2 Chrome app-window dock toggled by the middle mouse button.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JojoZhu9/peekdock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JojoZhu9/peekdock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peekdock>\n\n; Example initialization\nclass PeekdockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peekdock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeekdockExample()\n```"
     }
   ]
 }
