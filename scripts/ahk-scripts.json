@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-21T18:28:48.350Z",
+  "lastUpdated": "2026-07-22T00:30:40.381Z",
   "totalScripts": 400,
   "categories": [
     "GUI",
@@ -1342,13 +1342,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-06-15T14:05:31Z",
-      "lastModified": "2026-07-15T14:12:02Z",
+      "lastModified": "2026-07-21T23:58:04Z",
       "source": "github",
       "url": "https://github.com/souldew/autohotkey-v2",
       "stars": 0,
       "forks": 0,
       "owner": "souldew",
-      "code": "```cpp\n; ============================================\n; Repository: souldew/autohotkey-v2\n; ============================================\n; URL: https://github.com/souldew/autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/15/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/souldew/autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/souldew/autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: souldew/autohotkey-v2\n; ============================================\n; URL: https://github.com/souldew/autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/21/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/souldew/autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/souldew/autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-950201159",
