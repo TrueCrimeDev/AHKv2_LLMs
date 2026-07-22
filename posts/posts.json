@@ -50,8 +50,10 @@
  {
   "slug": "gpt-5.6-ahk-eval",
   "title": "OpenAI GPT-5.6: A New #1 by One Hidden Case — and a Family That Codes in Borrowed APIs",
+  "preview_title": "GPT-5.6 Takes #1 by One Hidden Case",
   "date": "2026-07-09",
   "description": "All six GPT-5.6 endpoints ran AHK-Eval on launch day. Sol Pro dethrones GPT-5.5 by a single hidden case (177 vs 176); $6/M Luna Pro ties $30/M Sol at 34/36 and lands on the cost-efficiency frontier; Terra Pro pays 6× the tokens to score below base Terra. Nearly every dropped task is a borrowed API — s.Split(), Array.Sort(), a nonexistent Trunc(), and the char-range comparison that cost the new #1 its only task. Total sweep: $5.23.",
+  "preview": "Sol Pro takes #1 by one hidden case, while $6/M Luna Pro ties the $30/M Sol tier at 34/36.",
   "tags": [
    "LLMs",
    "Benchmark",
@@ -130,9 +132,9 @@
  },
  {
   "slug": "ahk-eval-benchmark",
-  "title": "AHK-Eval: 36 Tasks, 181 Hidden Tests, 13 Models",
+    "title": "AHK-Eval Explained: 36 Tasks, 181 Hidden Tests",
   "date": "2026-06-11",
-  "description": "A HumanEval-style AHK v2 benchmark: 36 independent functions across six categories and three difficulty tiers, graded against hidden test cases. GPT-5.5 lands one task from perfect; Claude Fable 5 — the model that built the benchmark, run cold over the bare API — takes second at 34/36 and falls into its own favorite trap.",
+    "description": "How AHK-Eval works: 36 independent AutoHotkey v2 functions, 181 hidden cases, live model rankings, category difficulty, and the measured lift from rules cards and execution feedback.",
   "tags": [
    "LLMs",
    "Benchmark",

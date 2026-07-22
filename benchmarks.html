@@ -7,15 +7,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=2026-06b">
+  <link rel="stylesheet" href="style.css?v=dark-system-2026-07">
   <style>
     .bx-main { max-width: 880px; width: 100%; margin: 0 auto; padding: 24px; flex: 1; }
     .bx-head h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.3px; margin: 0 0 6px; }
     .bx-head p { color: var(--text-secondary); font-size: 15px; line-height: 1.7; margin: 0 0 8px; max-width: 68ch; }
     .bx-grid { display: grid; gap: 16px; margin-top: 20px; }
     .bx-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
-    .bx-links a { font-size: 13px; font-weight: 600; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 7px; padding: 7px 13px; }
-    .bx-links a:hover { border-color: var(--accent); color: #fff; }
+    .bx-links a { font-size: 13px; font-weight: 600; color: var(--text-secondary); border-radius: 8px; padding: 7px 13px; box-shadow: inset 0 0 0 1px var(--border); }
+    .bx-links a:hover { box-shadow: inset 0 0 0 1px var(--accent); color: #fff; }
+    .bx-card-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+    .bx-card-meta time { color: var(--text-muted); font-size: 12px; }
+    .provider-badge { display: inline-flex; align-items: center; gap: 7px; min-height: 24px; padding: 4px 9px; border-radius: 6px; background: #1a1a1a; box-shadow: inset 0 0 0 1px #303030; color: #d0d0d0; font-size: 12px; font-weight: 500; line-height: 1; }
+    .provider-dot { width: 6px; height: 6px; flex: 0 0 6px; border-radius: 50%; background: var(--provider-color, #5B9FEF); box-shadow: 0 0 0 3px color-mix(in srgb, var(--provider-color, #5B9FEF) 12%, transparent); }
+    .bx-grid .post-title { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+    .bx-grid .post-excerpt { max-width: 68ch; }
+    .bx-grid .tag-row { margin-top: 14px; }
     @media (max-width: 680px) { .bx-main { padding: 14px 12px; } .bx-head h1 { font-size: 22px; } }
   </style>
 </head>
@@ -25,7 +32,7 @@
       <a href="index.html" class="logo"><img src="logo.svg" alt="AHK" width="28" height="28" style="border-radius:7px;display:block"><span class="logo-text">v2 &amp; LLMs</span></a>
       <nav class="nav">
         <a href="index.html" class="nav-link">Home</a>
-        <a href="benchmarks.html" class="nav-link" style="color:var(--accent)">Benchmarks</a>
+        <a href="benchmarks.html" class="nav-link active" aria-current="page">Benchmarks</a>
         <a href="leaderboard.html" class="nav-link">Leaderboard</a>
         <a href="prompts.html" class="nav-link">Prompts</a>
         <a href="wiki.html" class="nav-link">Wiki</a>
@@ -56,6 +63,28 @@
   <script>
     (async function () {
       const grid = document.getElementById('post-grid');
+      const providerDefinitions = [
+        { tags: ['OpenAI'], label: 'OpenAI', color: '#7BC96F' },
+        { tags: ['Claude', 'Anthropic'], label: 'Anthropic', color: '#F59E42' },
+        { tags: ['xAI'], label: 'xAI', color: '#A855F7' },
+        { tags: ['Tencent'], label: 'Tencent', color: '#22D3EE' },
+        { tags: ['Poolside'], label: 'Poolside', color: '#5B9FEF' },
+        { tags: ['Google', 'Gemini'], label: 'Google', color: '#5B9FEF' },
+        { tags: ['OpenRouter'], label: 'OpenRouter', color: '#22D3EE' }
+      ];
+      const genericTags = new Set(['LLMs', 'Benchmark']);
+      const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      })[character]);
+      const getProvider = post => providerDefinitions.find(provider =>
+        provider.tags.some(tag => (post.tags || []).includes(tag))
+      ) || { label: 'Multi-provider', color: '#606060', tags: [] };
+      const getPreview = post => {
+        if (post.preview) return post.preview;
+        const firstSentence = String(post.description || '').match(/^.*?[.!?](?:\s|$)/)?.[0]?.trim();
+        const source = firstSentence || post.description || '';
+        return source.length > 150 ? `${source.slice(0, 147).trimEnd()}…` : source;
+      };
       try {
         const posts = await (await fetch('posts/posts.json')).json();
         const bench = posts
@@ -64,11 +93,18 @@
         if (!bench.length) { grid.innerHTML = '<p class="empty-state">No benchmarks yet.</p>'; return; }
         grid.innerHTML = bench.map(post => {
           const date = new Date(post.date).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
-          const tags = (post.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
-          return `<article class="post-card"><a class="post-link" href="post.html?slug=${encodeURIComponent(post.slug)}">
-            <div class="post-meta"><time datetime="${post.date}">${date}</time></div>
-            <h3 class="post-title">${post.title}</h3>
-            <p class="post-excerpt">${post.description}</p>
+          const provider = getProvider(post);
+          const providerTags = new Set(provider.tags);
+          const tags = (post.tags || [])
+            .filter(tag => !genericTags.has(tag) && !providerTags.has(tag))
+            .map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('');
+          return `<article class="post-card"><a class="post-link" href="post.html?slug=${encodeURIComponent(post.slug)}" aria-label="Read ${escapeHtml(post.title)}">
+            <div class="bx-card-meta">
+              <span class="provider-badge" style="--provider-color:${provider.color}"><span class="provider-dot" aria-hidden="true"></span>${escapeHtml(provider.label)}</span>
+              <time datetime="${escapeHtml(post.date)}">${escapeHtml(date)}</time>
+            </div>
+            <h3 class="post-title">${escapeHtml(post.preview_title || post.title)}</h3>
+            <p class="post-excerpt">${escapeHtml(getPreview(post))}</p>
             <div class="tag-row">${tags}</div></a></article>`;
         }).join('');
       } catch (e) {

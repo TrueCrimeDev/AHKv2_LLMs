@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-13",
+ "generated": "2026-07-21",
  "tasks": 36,
  "cases": 181,
  "cat_totals": {
@@ -147,6 +147,33 @@
    "rank": 5
   },
   {
+   "stem": "Kimi_K3",
+   "display": "Kimi K3",
+   "provider": "Moonshot",
+   "solved": 34,
+   "cases": 171,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 6,
+    "datetime": 5,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 11,
+    "mid": 11
+   },
+   "price_out": 15.0,
+   "rank": 6
+  },
+  {
    "stem": "GPT-5-6_Luna",
    "display": "GPT-5.6 Luna",
    "provider": "OpenAI",
@@ -171,7 +198,34 @@
     "mid": 11
    },
    "price_out": 6.0,
-   "rank": 6
+   "rank": 7
+  },
+  {
+   "stem": "Gemini_3-6_Flash",
+   "display": "Gemini 3.6 Flash",
+   "provider": "Google",
+   "solved": 32,
+   "cases": 168,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 4,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 9,
+    "mid": 11
+   },
+   "price_out": 7.5,
+   "rank": 8
   },
   {
    "stem": "GPT-5-6_Terra",
@@ -198,7 +252,7 @@
     "mid": 10
    },
    "price_out": 15.0,
-   "rank": 7
+   "rank": 9
   },
   {
    "stem": "Gemini_3-1_Pro",
@@ -225,7 +279,7 @@
     "mid": 11
    },
    "price_out": 12.0,
-   "rank": 8
+   "rank": 10
   },
   {
    "stem": "GPT-5-6_Terra_Pro",
@@ -252,7 +306,7 @@
     "mid": 12
    },
    "price_out": 15.0,
-   "rank": 9
+   "rank": 11
   },
   {
    "stem": "Grok_4-5",
@@ -279,7 +333,7 @@
     "mid": 10
    },
    "price_out": 6.0,
-   "rank": 10
+   "rank": 12
   },
   {
    "stem": "Kimi_K2-6",
@@ -305,8 +359,8 @@
     "hard": 9,
     "mid": 11
    },
-   "price_out": 3.41,
-   "rank": 11
+   "price_out": 4.0,
+   "rank": 13
   },
   {
    "stem": "Muse_Spark_1-1",
@@ -333,7 +387,7 @@
     "mid": 10
    },
    "price_out": 4.25,
-   "rank": 12
+   "rank": 14
   },
   {
    "stem": "Opus_4-8",
@@ -360,7 +414,7 @@
     "mid": 11
    },
    "price_out": 25.0,
-   "rank": 13
+   "rank": 15
   },
   {
    "stem": "Grok_4-3",
@@ -387,7 +441,7 @@
     "mid": 10
    },
    "price_out": 2.5,
-   "rank": 14
+   "rank": 16
   },
   {
    "stem": "Grok_Latest",
@@ -414,7 +468,7 @@
     "mid": 9
    },
    "price_out": 6.0,
-   "rank": 15
+   "rank": 17
   },
   {
    "stem": "Aion_3-0",
@@ -441,7 +495,7 @@
     "mid": 11
    },
    "price_out": 6.0,
-   "rank": 16
+   "rank": 18
   },
   {
    "stem": "MiniMax_M3",
@@ -468,7 +522,7 @@
     "mid": 9
    },
    "price_out": 1.2,
-   "rank": 17
+   "rank": 19
   },
   {
    "stem": "Sonnet_4-6",
@@ -495,7 +549,7 @@
     "mid": 9
    },
    "price_out": 15.0,
-   "rank": 18
+   "rank": 20
   },
   {
    "stem": "GLM-5",
@@ -522,7 +576,7 @@
     "mid": 7
    },
    "price_out": 1.92,
-   "rank": 19
+   "rank": 21
   },
   {
    "stem": "GLM-5-2",
@@ -549,7 +603,7 @@
     "mid": 7
    },
    "price_out": 3.0,
-   "rank": 20
+   "rank": 22
   },
   {
    "stem": "Aion_3-0_Mini",
@@ -576,7 +630,7 @@
     "mid": 7
    },
    "price_out": 1.4,
-   "rank": 21
+   "rank": 23
   },
   {
    "stem": "GPT-5-1",
@@ -603,7 +657,34 @@
     "mid": 9
    },
    "price_out": 10.0,
-   "rank": 22
+   "rank": 24
+  },
+  {
+   "stem": "Inkling",
+   "display": "Inkling",
+   "provider": "Thinking Machines",
+   "solved": 22,
+   "cases": 116,
+   "case_tot": 181,
+   "parse_fail": 5,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 4,
+    "datetime": 1,
+    "numbers": 6,
+    "regex": 2,
+    "strings": 5
+   },
+   "tiers": {
+    "easy": 7,
+    "hard": 6,
+    "mid": 9
+   },
+   "price_out": 4.05,
+   "rank": 25
   },
   {
    "stem": "Hy3_Free",
@@ -630,7 +711,7 @@
     "mid": 9
    },
    "price_out": 0,
-   "rank": 23
+   "rank": 26
   },
   {
    "stem": "DeepSeek_V4_Pro",
@@ -657,7 +738,61 @@
     "mid": 9
    },
    "price_out": 0.87,
-   "rank": 24
+   "rank": 27
+  },
+  {
+   "stem": "Gemini_3-5_Flash_Lite",
+   "display": "Gemini 3.5 Flash-Lite",
+   "provider": "Google",
+   "solved": 20,
+   "cases": 109,
+   "case_tot": 181,
+   "parse_fail": 5,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 1,
+    "data": 3,
+    "datetime": 4,
+    "numbers": 5,
+    "regex": 4,
+    "strings": 3
+   },
+   "tiers": {
+    "easy": 9,
+    "hard": 3,
+    "mid": 8
+   },
+   "price_out": 2.5,
+   "rank": 28
+  },
+  {
+   "stem": "Auto_Router",
+   "display": "Auto Router",
+   "provider": "OpenRouter",
+   "solved": 19,
+   "cases": 103,
+   "case_tot": 181,
+   "parse_fail": 7,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 2,
+    "datetime": 5,
+    "numbers": 3,
+    "regex": 3,
+    "strings": 2
+   },
+   "tiers": {
+    "easy": 9,
+    "hard": 5,
+    "mid": 5
+   },
+   "price_out": null,
+   "rank": 29
   },
   {
    "stem": "Hy3",
@@ -684,7 +819,34 @@
     "mid": 7
    },
    "price_out": 0.58,
-   "rank": 25
+   "rank": 30
+  },
+  {
+   "stem": "LongCat_2-0",
+   "display": "LongCat 2.0",
+   "provider": "Meituan",
+   "solved": 19,
+   "cases": 97,
+   "case_tot": 181,
+   "parse_fail": 5,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 2,
+    "datetime": 2,
+    "numbers": 6,
+    "regex": 4,
+    "strings": 1
+   },
+   "tiers": {
+    "easy": 8,
+    "hard": 5,
+    "mid": 6
+   },
+   "price_out": 1.2,
+   "rank": 31
   },
   {
    "stem": "Qwen3_Coder",
@@ -711,7 +873,7 @@
     "mid": 5
    },
    "price_out": 1.8,
-   "rank": 26
+   "rank": 32
   },
   {
    "stem": "Mistral_Large_3",
@@ -738,7 +900,7 @@
     "mid": 2
    },
    "price_out": 1.5,
-   "rank": 27
+   "rank": 33
   },
   {
    "stem": "Laguna_XS_2-1_Free",
@@ -765,7 +927,7 @@
     "mid": 2
    },
    "price_out": 0,
-   "rank": 28
+   "rank": 34
   },
   {
    "stem": "Laguna_XS_2-1",
@@ -792,7 +954,7 @@
     "mid": 2
    },
    "price_out": 0.12,
-   "rank": 29
+   "rank": 35
   }
  ]
 }

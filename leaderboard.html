@@ -7,9 +7,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=2026-06b">
+  <link rel="stylesheet" href="style.css?v=dark-system-2026-07">
   <style>
-    .lb-main{max-width:1000px;margin:0 auto;padding:20px 24px;flex:1; width: 100%;}
+    .lb-main{max-width:1080px;margin:0 auto;padding:20px 24px;flex:1; width: 100%;}
     .lb-head h1{font-size:26px;font-weight:700;letter-spacing:-0.3px;margin:0 0 4px;}
     .lb-head p{color:var(--text-secondary);font-size:14px;margin:0 0 18px;}
     .bm-h{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#707070;font-weight:600;margin:0 0 10px;}
@@ -40,9 +40,26 @@
     .npnote{color:#5a5a5a;font-size:11px;}
     .back-link{display:inline-flex;gap:6px;font-size:13px;color:var(--text-secondary);margin-bottom:14px;font-weight:500;}
     .back-link:hover{color:var(--accent);}
-    .swdot{cursor:pointer;transition:opacity .15s;}
-    #tip{position:fixed;pointer-events:none;background:#1a1a1a;border:1px solid #303030;border-radius:8px;padding:7px 10px;font-size:12px;color:#d0d0d0;z-index:10;display:none;max-width:260px;box-shadow:0 4px 16px rgba(0,0,0,.5);}
-    #tip b{color:#fff;display:block;margin-bottom:2px;}
+    .analysis-stack{display:grid;gap:34px;margin-top:34px;}
+    .chart-section{margin:0;}
+    .chart-section .bm-h{display:flex;align-items:center;gap:8px;margin-bottom:10px;}
+    .chart-section .bm-h::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--chart-accent,#5B9FEF);}
+    .chart-frame{padding:8px;background:#121212;border-radius:12px;box-shadow:inset 0 0 0 1px #303030;overflow:hidden;}
+    .cost-chart{display:block;width:100%;height:auto;}
+    .swdot{cursor:help;transition:opacity .15s,stroke-width .15s;outline:none;}
+    .swdot:hover,.swdot:focus{stroke:#fff;stroke-width:3;}
+    #tip{position:fixed;pointer-events:none;background:#1a1a1a;border:0;border-radius:12px;padding:14px 16px;font-size:12px;color:#d0d0d0;z-index:110;display:none;width:min(290px,calc(100vw - 24px));box-shadow:inset 0 0 0 1px #303030,0 10px 30px rgba(0,0,0,.55);}
+    #tip .tip-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:9px;}
+    #tip .tip-badge{display:inline-flex;align-items:center;gap:7px;padding:3px 7px;background:#121212;border-radius:6px;box-shadow:inset 0 0 0 1px #303030;color:#d0d0d0;font-size:10px;font-weight:500;}
+    #tip .tip-badge i{width:6px;height:6px;border-radius:50%;background:var(--tip-accent,#5B9FEF);}
+    #tip .tip-frontier{color:#7BC96F;font:500 9px/1.2 'JetBrains Mono',monospace;}
+    #tip>strong{color:#fff;display:block;margin-bottom:11px;font-size:14px;font-weight:500;}
+    #tip .tip-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px 14px;}
+    #tip .tip-grid span{display:block;color:#707070;font-size:9px;text-transform:uppercase;letter-spacing:1.2px;font-weight:600;}
+    #tip .tip-grid b{display:block;margin-top:2px;color:#fff;font:500 11px/1.35 'JetBrains Mono',monospace;}
+    #tip .tip-note{margin-top:10px;padding-top:9px;border-top:1px solid #303030;color:#a0a0a0;font-size:10px;line-height:1.45;}
+    .data-section{padding-top:4px;}
+    .table-shell{overflow-x:auto;background:#121212;border-radius:12px;box-shadow:inset 0 0 0 1px #303030;padding:4px 12px 10px;}
     .bm-note{font-size:12px;color:#707070;line-height:1.55;margin:10px 0 0;}
     .bm-note a{color:#8ab4e8;text-decoration:none;}
     @media (max-width: 680px) {
@@ -50,6 +67,8 @@
       .lb-head h1 { font-size: 21px; }
       table.bm-heat { font-size: 11.5px; }
       .bm-heat td, .bm-heat th { padding: 6px 4px; }
+      .chart-frame{margin-inline:-4px;padding:3px;}
+      #tip .tip-grid{grid-template-columns:1fr;}
     }
   </style>
 </head>
@@ -60,7 +79,7 @@
       <nav class="nav">
         <a href="index.html" class="nav-link">Home</a>
         <a href="benchmarks.html" class="nav-link">Benchmarks</a>
-        <a href="leaderboard.html" class="nav-link" style="color:var(--accent)">Leaderboard</a>
+        <a href="leaderboard.html" class="nav-link active" aria-current="page">Leaderboard</a>
         <a href="prompts.html" class="nav-link">Prompts</a>
         <a href="wiki.html" class="nav-link">Wiki</a>
         <a href="playground.html" class="nav-link">Playground</a>
@@ -75,27 +94,43 @@
       <p>The canonical board for the 36-task, 181-hidden-case AHK v2 suite. Cold = one-shot API call per task; the harness arms re-run the same tasks with a <a href="post.html?slug=ahk-eval-context-arms">rules card, a repair round</a>, or <a href="post.html?slug=ahk-eval-round-3">headless Claude Code</a>. Click a header to sort. The GUI benchmark lives on the <a href="clipboard-leaderboard.html">clipboard leaderboard</a>.</p>
     </div>
 
-    <div style="overflow-x:auto"><table class="bm-heat" id="board"><thead><tr>
-      <th data-k="rank" class="sorted">#</th><th data-k="display" style="text-align:left">Model</th>
-      <th data-k="solved">cold /36</th><th data-k="cases">cases /181</th><th data-k="parse_fail">parse fails</th>
-      <th data-k="rules" title="rules-card system prompt arm">+rules</th>
-      <th data-k="repair" title="rules card + one repair round">+repair</th>
-      <th data-k="cc" title="headless Claude Code harness">CC</th>
-      <th data-k="price_out">out $/M</th>
-    </tr></thead><tbody id="boardbody"></tbody></table></div>
-    <p class="bm-note" id="boardnote"></p>
+    <div class="analysis-stack">
+      <section class="chart-section" style="--chart-accent:#5B9FEF" aria-labelledby="ahk-chart-title">
+        <div class="bm-h" id="ahk-chart-title">AHK-Eval: tasks solved vs. what a token costs</div>
+        <div id="ahkcost" class="chart-frame"></div>
+      </section>
 
-    <div class="bm-wrap" style="margin-top:40px"><div class="bm-h">The bigger picture: SWE-bench Verified vs. what a token costs</div>
-      <div id="swe"></div>
-      <div class="bm-h" style="margin-top:26px">Same axes, our benchmark: AHK-Eval tasks solved vs. what a token costs</div>
-      <div id="ahkcost"></div>
-      <div class="bm-h" style="margin-top:26px">Every benchmark on the site, one grid</div>
-      <div style="overflow-x:auto"><table class="bm-heat" id="benchgrid"><thead><tr>
+      <section class="chart-section" style="--chart-accent:#A855F7" aria-labelledby="swe-chart-title">
+        <div class="bm-h" id="swe-chart-title">The bigger picture: SWE-bench Verified vs. what a token costs</div>
+        <div id="swe" class="chart-frame"></div>
+      </section>
+
+      <section class="data-section" aria-labelledby="board-table-title">
+        <div class="bm-h" id="board-table-title">AHK-Eval model data</div>
+        <div class="table-shell"><table class="bm-heat" id="board"><thead><tr>
+          <th data-k="rank" class="sorted">#</th><th data-k="display" style="text-align:left">Model</th>
+          <th data-k="solved">cold /36</th><th data-k="cases">cases /181</th><th data-k="parse_fail">parse fails</th>
+          <th data-k="rules" title="rules-card system prompt arm">+rules</th>
+          <th data-k="repair" title="rules card + one repair round">+repair</th>
+          <th data-k="cc" title="headless Claude Code harness">CC</th>
+          <th data-k="price_out">out $/M</th>
+        </tr></thead><tbody id="boardbody"></tbody></table></div>
+        <p class="bm-note" id="boardnote"></p>
+      </section>
+
+      <section class="data-section" aria-labelledby="benchmark-grid-title">
+        <div class="bm-h" id="benchmark-grid-title">Every benchmark on the site, one grid</div>
+        <div class="table-shell"><table class="bm-heat" id="benchgrid"><thead><tr>
         <th style="text-align:left">Model</th><th>GUI code<br>/100</th><th>GUI visual<br>/20</th><th>OOP judge<br>/100</th><th>Toolkit<br>cases %</th><th>AHK-Eval<br>/36</th><th>Eval +repair<br>/36</th>
-      </tr></thead><tbody id="gridbody"></tbody></table></div>
-      <div style="overflow-x:auto;margin-top:14px"><table class="bm-heat"><thead><tr>
+        </tr></thead><tbody id="gridbody"></tbody></table></div>
+      </section>
+
+      <section class="data-section" aria-labelledby="pricing-table-title">
+        <div class="bm-h" id="pricing-table-title">SWE-bench, pricing, and AHK-Eval detail</div>
+        <div class="table-shell"><table class="bm-heat"><thead><tr>
         <th style="text-align:left">Model</th><th>SWE-bench Verified</th><th>in $/M</th><th>out $/M</th><th>AHK-Eval cold</th>
-      </tr></thead><tbody id="swebody"></tbody></table></div>
+        </tr></thead><tbody id="swebody"></tbody></table></div>
+      </section>
       <p class="bm-note">SWE-bench Verified scores as published on <a href="https://llm-stats.com/benchmarks/swe-bench-verified">llm-stats</a> and <a href="https://benchlm.ai/benchmarks/sweVerified">BenchLM</a>, 2026-07-09; GPT-5.5 is OpenAI-reported (OpenAI stopped submitting Verified in early 2026). xAI does not report Verified — it publishes <a href="https://x.ai/news/grok-4-5">SWE-bench Pro</a> instead (Grok 4.5: 64.7%), which isn't comparable and so isn't plotted. Likewise <a href="https://openai.com/index/gpt-5-6/">GPT-5.6</a> (launched 2026-07-09) ships without a Verified score — OpenAI reports DeepSWE v1.1 and SWE-bench Pro for it — so the 5.6 family sits in the table unplotted. Pricing from the OpenRouter API, 2026-07-09. AionLabs' Aion-3.0 systems (multi-model storytelling ensembles on GLM / DeepSeek bases) publish no Verified score. <em>Grok Latest</em> is OpenRouter's rolling alias — this run resolved to <code>grok-4.5-20260708</code> and scored 28/36 against the pinned Grok 4.5 endpoint's 31/36, a caution on reading single-run deltas at temperature 0.2; the alias is skipped in the charts. The AHK-Eval chart plots paid endpoints only — free tiers ($0) can't sit on a log cost axis. In the grid, rows are exact model endpoints: GUI-board and OOP-judge cells fill only where that same endpoint ran the <a href="post.html?slug=llm-clipboard-benchmark">GUI benchmark</a> (its GPT-5.5 <em>Pro</em> and Kimi K2.<em>7</em> entries are different models, so those cells stay empty). Toolkit is hidden-case % from the <a href="post.html?slug=llm-toolkit-benchmark">12-function one-shot</a> — the zeros are single parse errors zeroing the whole file. Eval +repair is <a href="post.html?slug=ahk-eval-context-arms">round 2's</a> rules-card + one-repair arm.</p>
     </div>
   </main>
@@ -106,8 +141,8 @@
   </footer>
 
   <script>
-  const FAMILY = {OpenAI:'#74AA9C',Anthropic:'#D4A27F',Google:'#5B9FEF',Alibaba:'#A855F7','xAI':'#9aa0a6',DeepSeek:'#4D6BFE',MiniMax:'#F59E42','Zhipu AI':'#22D3EE',Moonshot:'#7BC96F',Mistral:'#FF7000',Tencent:'#0052D9',Poolside:'#A855F7',AionLabs:'#f472b6',OpenRouter:'#888'};
-  const esc=s=>(''+(s??'')).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  const FAMILY = {OpenAI:'#7BC96F',Anthropic:'#F59E42',Google:'#5B9FEF',Alibaba:'#A855F7','xAI':'#a0a0a0',DeepSeek:'#22D3EE',MiniMax:'#F59E42','Zhipu AI':'#22D3EE',Moonshot:'#7BC96F',Mistral:'#DC3545',Tencent:'#5B9FEF',Poolside:'#A855F7',AionLabs:'#A855F7',OpenRouter:'#808080'};
+  const esc=s=>(''+(s??'')).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
   let ROWS=[], sortK='rank', asc=true;
   const solvedCell=v=>v==null?'<td class="h-dim">—</td>':`<td class="${v>=30?'h-emer':v>=22?'h-blue':v>=15?'h-amber':'h-red'}">${v}</td>`;
   function renderBoard(){
@@ -131,7 +166,7 @@
   }
   document.querySelectorAll('#board th').forEach(th=>th.onclick=()=>{const k=th.dataset.k; if(k===sortK)asc=!asc; else {sortK=k; asc=(k==='display'||k==='rank'||k==='parse_fail'||k==='price_out');} renderBoard();});
   fetch('posts/ahk-eval/board.json').then(r=>r.json()).then(d=>{
-    ROWS=d.rows; renderBoard();
+    ROWS=d.rows; renderBoard(); renderAhk(); renderSwe();
     document.getElementById('boardnote').textContent=
       `${d.rows.length} entries · ${d.tasks} tasks · ${d.cases} hidden cases · board generated ${d.generated}. “—” means that model hasn't run the arm yet.`;
   }).catch(e=>document.getElementById('boardbody').innerHTML='<tr><td colspan="9">Failed to load: '+e.message+'</td></tr>');
@@ -168,27 +203,46 @@
     {n:'Aion-3.0 Mini',i:0.70,o:1.40,a:22,note:''},
     {n:'Mistral Large 3',i:0.50,o:1.50,a:9,note:''}
   ];
+  const BOARD_NAME={
+    'Claude Fable 5':'Fable 5',
+    'Claude Sonnet 4.6':'Sonnet 4.6',
+    'Tencent Hy3':'Hy3'
+  };
+  const boardRecord=name=>ROWS.find(row=>row.display===(BOARD_NAME[name]||name));
+  const priceRecord=name=>[...SWE,...SWE_NP].find(row=>row.n===name);
+  function pointAttrs({chart,name,provider,score,secondaryLabel,secondary,rank,input,output,frontier,accent,note}){
+    const aria=[name,chart,score,secondary,rank&&`rank ${rank}`,`input price ${input}`,`output price ${output}`,frontier].filter(Boolean).join(', ');
+    return `tabindex="0" role="img" aria-label="${esc(aria)}" data-chart="${esc(chart)}" data-name="${esc(name)}" data-provider="${esc(provider||'—')}" data-score="${esc(score)}" data-secondary-label="${esc(secondaryLabel||'Related')}" data-secondary="${esc(secondary||'—')}" data-rank="${esc(rank||'—')}" data-input="${esc(input)}" data-output="${esc(output)}" data-frontier="${esc(frontier||'')}" data-accent="${esc(accent)}" data-note="${esc(note||'')}"`;
+  }
   function renderSwe(){
     const X0=80,X1=690,LO=Math.log10(0.05),HI=Math.log10(60);
     const px=v=>X0+(Math.log10(v)-LO)/(HI-LO)*(X1-X0);
     const py=s=>40+(100-s)*300/35;   // y-domain 65..100
     let grid='';
-    for(const t of [0.1,0.3,1,3,10,30]) grid+=`<line x1="${px(t).toFixed(0)}" y1="340" x2="${px(t).toFixed(0)}" y2="40" stroke="#1c1c1c"/><text x="${px(t).toFixed(0)}" y="357" fill="#6f6f6f" font-size="10.5" text-anchor="middle">$${t<1?t.toFixed(2):t}</text>`;
-    for(const t of [70,75,80,85,90,95]) grid+=`<line x1="80" y1="${py(t).toFixed(0)}" x2="690" y2="${py(t).toFixed(0)}" stroke="#1c1c1c" stroke-dasharray="3 4"/><text x="72" y="${(py(t)+3).toFixed(0)}" fill="#6f6f6f" font-size="10.5" text-anchor="end">${t}%</text>`;
+    for(const t of [0.1,0.3,1,3,10,30]) grid+=`<line x1="${px(t).toFixed(0)}" y1="340" x2="${px(t).toFixed(0)}" y2="40" stroke="#232323"/><text x="${px(t).toFixed(0)}" y="357" fill="#707070" font-size="10.5" text-anchor="middle">$${t<1?t.toFixed(2):t}</text>`;
+    for(const t of [70,75,80,85,90,95]) grid+=`<line x1="80" y1="${py(t).toFixed(0)}" x2="690" y2="${py(t).toFixed(0)}" stroke="#232323" stroke-dasharray="3 4"/><text x="72" y="${(py(t)+3).toFixed(0)}" fill="#707070" font-size="10.5" text-anchor="end">${t}%</text>`;
     const front=['Laguna XS 2.1','Tencent Hy3','DeepSeek V4 Pro','Claude Opus 4.8','GPT-5.5','Claude Fable 5'];
     const fpts=front.map(n=>{const d=SWE.find(x=>x.n===n);return px(d.o).toFixed(0)+','+py(d.s).toFixed(0);}).join(' ');
     let dots='',labels='';
     for(const d of SWE){
       const x=px(d.o),y=py(d.s);
-      dots+=`<circle class="swdot" data-name="${esc(d.n)}" data-sub="SWE-bench Verified ${d.s}% · $${d.i.toFixed(2)} in / $${d.o.toFixed(2)} out per M" cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="5" fill="#5B9FEF" stroke="#0d0d0d" stroke-width="2"/>`;
-      labels+=`<text x="${(x+d.dx).toFixed(0)}" y="${(y+d.dy).toFixed(0)}" fill="#c9c9c9" font-size="10.5" text-anchor="${d.side}">${esc(d.n)}</text>`;
+      const board=boardRecord(d.n);
+      const attrs=pointAttrs({
+        chart:'SWE-bench Verified',name:d.n,provider:board?.provider,
+        score:`${d.s.toFixed(1)}% Verified`,secondaryLabel:'AHK-Eval',secondary:d.a==null?'—':`${d.a}/36 tasks`,
+        rank:board?`#${board.rank} AHK-Eval`:'—',input:`$${d.i.toFixed(2)}/M`,output:`$${d.o.toFixed(2)}/M`,
+        frontier:front.includes(d.n)?'Cost-efficiency frontier':'',accent:'#A855F7',
+        note:'Published SWE-bench Verified score; price uses the OpenRouter endpoint.'
+      });
+      dots+=`<circle class="swdot" ${attrs} cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="6" fill="#A855F7" stroke="#0f0f0f" stroke-width="2"/>`;
+      labels+=`<text x="${(x+d.dx).toFixed(0)}" y="${(y+d.dy).toFixed(0)}" fill="#d0d0d0" font-size="10.5" text-anchor="${d.side}">${esc(d.n)}</text>`;
     }
     document.getElementById('swe').innerHTML=
-      `<svg viewBox="0 0 720 395" width="100%" style="background:#0d0d0d;border:1px solid #262626;border-radius:12px" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">${grid}`
-      +`<polyline points="${fpts}" fill="none" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="4 4"/>`
+      `<svg class="cost-chart" viewBox="0 0 720 395" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif" role="img" aria-labelledby="swe-chart-title swe-svg-desc"><desc id="swe-svg-desc">Higher is better. Farther left is cheaper. Focus any model point for score, pricing, provider, AHK-Eval result, and frontier status.</desc>${grid}`
+      +`<polyline points="${fpts}" fill="none" stroke="#606060" stroke-width="1" stroke-dasharray="4 4"/>`
       +dots+labels
-      +'<text x="385" y="383" fill="#9a9a9a" font-size="11.5" text-anchor="middle">output price, $ per million tokens (OpenRouter, log scale) →</text>'
-      +'<text x="130" y="60" fill="#6f6f6f" font-size="10.5">dashed = cost-efficiency frontier</text></svg>';
+      +'<text x="385" y="383" fill="#a0a0a0" font-size="11.5" text-anchor="middle">output price, $ per million tokens (OpenRouter, log scale) →</text>'
+      +'<text x="130" y="60" fill="#707070" font-size="10.5">dashed = cost-efficiency frontier</text></svg>';
     const sweAccent=s=>s>=88?'#7BC96F':s>=78?'#5B9FEF':s>=72?'#F59E42':'#DC3545';
     const ahkChip=a=>a==null?'<td class="h-dim">—</td>':`<td><span class="chip ${a>=30?'h-emer':a>=22?'h-blue':a>=15?'h-amber':'h-red'}">${a}/36</span></td>`;
     document.getElementById('swebody').innerHTML=
@@ -232,22 +286,31 @@
     const px=v=>X0+(Math.log10(v)-LO)/(HI-LO)*(X1-X0);
     const py=s=>40+(36-s)*300/30;   // y-domain 6..36 tasks
     let grid='';
-    for(const t of [0.1,0.3,1,3,10,30]) grid+=`<line x1="${px(t).toFixed(0)}" y1="340" x2="${px(t).toFixed(0)}" y2="40" stroke="#1c1c1c"/><text x="${px(t).toFixed(0)}" y="357" fill="#6f6f6f" font-size="10.5" text-anchor="middle">$${t<1?t.toFixed(2):t}</text>`;
-    for(const t of [10,15,20,25,30,35]) grid+=`<line x1="80" y1="${py(t).toFixed(0)}" x2="690" y2="${py(t).toFixed(0)}" stroke="#1c1c1c" stroke-dasharray="3 4"/><text x="72" y="${(py(t)+3).toFixed(0)}" fill="#6f6f6f" font-size="10.5" text-anchor="end">${t}</text>`;
+    for(const t of [0.1,0.3,1,3,10,30]) grid+=`<line x1="${px(t).toFixed(0)}" y1="340" x2="${px(t).toFixed(0)}" y2="40" stroke="#232323"/><text x="${px(t).toFixed(0)}" y="357" fill="#707070" font-size="10.5" text-anchor="middle">$${t<1?t.toFixed(2):t}</text>`;
+    for(const t of [10,15,20,25,30,35]) grid+=`<line x1="80" y1="${py(t).toFixed(0)}" x2="690" y2="${py(t).toFixed(0)}" stroke="#232323" stroke-dasharray="3 4"/><text x="72" y="${(py(t)+3).toFixed(0)}" fill="#707070" font-size="10.5" text-anchor="end">${t}</text>`;
     const front=['Laguna XS 2.1','Tencent Hy3','DeepSeek V4 Pro','MiniMax M3','Grok 4.3','Kimi K2.6','GPT-5.6 Luna Pro','GPT-5.6 Sol Pro'];
     const fpts=front.map(n=>{const d=AHKC.find(x=>x.n===n);return (px(d.o)+(d.jx||0)).toFixed(0)+','+py(d.s).toFixed(0);}).join(' ');
     let dots='',labels='';
     for(const d of AHKC){
       const x=px(d.o)+(d.jx||0),y=py(d.s);
-      dots+=`<circle class="swdot" data-name="${esc(d.n)}" data-sub="AHK-Eval ${d.s}/36 solved · $${d.o.toFixed(2)} out per M" cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="5" fill="#A855F7" stroke="#0d0d0d" stroke-width="2"/>`;
-      labels+=`<text x="${(x+d.dx).toFixed(0)}" y="${(y+d.dy).toFixed(0)}" fill="#c9c9c9" font-size="10.5" text-anchor="${d.side}">${esc(d.l||d.n)}</text>`;
+      const board=boardRecord(d.n),price=priceRecord(d.n);
+      const repair=board?.repair==null?'':` Repair arm: ${board.repair}/36.`;
+      const attrs=pointAttrs({
+        chart:'AHK-Eval',name:d.n,provider:board?.provider,
+        score:`${d.s}/36 tasks`,secondaryLabel:'Hidden cases',secondary:board?`${board.cases}/181`:'Load live board for cases',
+        rank:board?`#${board.rank}`:'Loading',input:price?`$${price.i.toFixed(2)}/M`:'—',output:`$${d.o.toFixed(2)}/M`,
+        frontier:front.includes(d.n)?'Cost-efficiency frontier':'',accent:'#5B9FEF',
+        note:`Cold one-shot run.${board?` ${board.parse_fail} parse failure${board.parse_fail===1?'':'s'}.`:''}${repair}`
+      });
+      dots+=`<circle class="swdot" ${attrs} cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="6" fill="#5B9FEF" stroke="#0f0f0f" stroke-width="2"/>`;
+      labels+=`<text x="${(x+d.dx).toFixed(0)}" y="${(y+d.dy).toFixed(0)}" fill="#d0d0d0" font-size="10.5" text-anchor="${d.side}">${esc(d.l||d.n)}</text>`;
     }
     document.getElementById('ahkcost').innerHTML=
-      `<svg viewBox="0 0 720 395" width="100%" style="background:#0d0d0d;border:1px solid #262626;border-radius:12px" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">${grid}`
-      +`<polyline points="${fpts}" fill="none" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="4 4"/>`
+      `<svg class="cost-chart" viewBox="0 0 720 395" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif" role="img" aria-labelledby="ahk-chart-title ahk-svg-desc"><desc id="ahk-svg-desc">Higher is better. Farther left is cheaper. Focus any model point for tasks, hidden cases, rank, pricing, provider, and harness details.</desc>${grid}`
+      +`<polyline points="${fpts}" fill="none" stroke="#606060" stroke-width="1" stroke-dasharray="4 4"/>`
       +dots+labels
-      +'<text x="385" y="383" fill="#9a9a9a" font-size="11.5" text-anchor="middle">output price, $ per million tokens (OpenRouter, log scale) →</text>'
-      +'<text x="130" y="60" fill="#6f6f6f" font-size="10.5">y: AHK-Eval tasks solved of 36 (cold) · dashed = cost-efficiency frontier</text></svg>';
+      +'<text x="385" y="383" fill="#a0a0a0" font-size="11.5" text-anchor="middle">output price, $ per million tokens (OpenRouter, log scale) →</text>'
+      +'<text x="130" y="60" fill="#707070" font-size="10.5">y: AHK-Eval tasks solved of 36 (cold) · dashed = cost-efficiency frontier</text></svg>';
   }
 
   // cross-benchmark grid: every benchmark on the site, one row per model endpoint.
@@ -286,7 +349,7 @@
     const cell=(v,max)=>{
       if(v==null) return '<td class="h-dim">—</td>';
       const f=Math.max(0,Math.min(1,v/max));
-      return `<td style="background:rgba(91,159,239,${(0.04+f*0.42).toFixed(2)});color:${f>=0.55?'#fff':'#c2d4ea'};font-weight:600">${v}</td>`;
+      return `<td style="background:rgba(91,159,239,${(0.04+f*0.11).toFixed(2)});color:${f>=0.55?'#fff':'#d0d0d0'};font-weight:500">${v}</td>`;
     };
     document.getElementById('gridbody').innerHTML=GRID.map(r=>
       `<tr><td class="h-name">${esc(r.n)}</td>`
@@ -294,19 +357,40 @@
   }
 
 
-  // shared tooltip for the chart dots
-  const tip=document.createElement('div');tip.id='tip';document.body.appendChild(tip);
-  document.addEventListener('mouseover',e=>{
-    const d=e.target.closest('.swdot');if(!d)return;
-    tip.innerHTML='<b>'+d.dataset.name+'</b>'+d.dataset.sub;tip.style.display='block';
-  });
-  document.addEventListener('mousemove',e=>{
-    if(tip.style.display!=='block')return;
-    tip.style.left=Math.min(e.clientX+14,window.innerWidth-280)+'px';tip.style.top=(e.clientY+14)+'px';
-  });
-  document.addEventListener('mouseout',e=>{if(e.target.closest&&e.target.closest('.swdot'))tip.style.display='none';});
-  renderSwe();
+  // Shared detail card for chart points. Pointer placement is derived from the
+  // plotted mark, so the card stays stable while the user reads it.
+  const tip=document.createElement('div');tip.id='tip';tip.setAttribute('aria-hidden','true');document.body.appendChild(tip);
+  let activeDot=null;
+  const tipMetric=(label,value)=>`<div><span>${esc(label)}</span><b>${esc(value||'—')}</b></div>`;
+  function placeTip(dot){
+    const mark=dot.getBoundingClientRect(),box=tip.getBoundingClientRect(),pad=12;
+    let left=mark.right+12;
+    if(left+box.width>window.innerWidth-pad) left=mark.left-box.width-12;
+    left=Math.max(pad,Math.min(left,window.innerWidth-box.width-pad));
+    const top=Math.max(pad,Math.min(mark.top+mark.height/2-box.height/2,window.innerHeight-box.height-pad));
+    tip.style.left=`${left}px`;tip.style.top=`${top}px`;
+  }
+  function showTip(dot){
+    if(!dot)return;
+    activeDot=dot;
+    tip.style.setProperty('--tip-accent',dot.dataset.accent||'#5B9FEF');
+    tip.innerHTML=`<div class="tip-head"><span class="tip-badge"><i></i>${esc(dot.dataset.chart)}</span>${dot.dataset.frontier?`<span class="tip-frontier">${esc(dot.dataset.frontier)}</span>`:''}</div>`
+      +`<strong>${esc(dot.dataset.name)}</strong>`
+      +`<div class="tip-grid">${tipMetric('Score',dot.dataset.score)}${tipMetric(dot.dataset.secondaryLabel,dot.dataset.secondary)}${tipMetric('Rank',dot.dataset.rank)}${tipMetric('Provider',dot.dataset.provider)}${tipMetric('Input price',dot.dataset.input)}${tipMetric('Output price',dot.dataset.output)}</div>`
+      +(dot.dataset.note?`<div class="tip-note">${esc(dot.dataset.note)}</div>`:'');
+    tip.style.display='block';tip.setAttribute('aria-hidden','false');placeTip(dot);
+  }
+  function hideTip(){activeDot=null;tip.style.display='none';tip.setAttribute('aria-hidden','true');}
+  document.addEventListener('mouseover',e=>showTip(e.target.closest?.('.swdot')));
+  document.addEventListener('mouseout',e=>{const dot=e.target.closest?.('.swdot');if(dot&&e.relatedTarget!==dot)hideTip();});
+  document.addEventListener('focusin',e=>showTip(e.target.closest?.('.swdot')));
+  document.addEventListener('focusout',e=>{if(e.target.closest?.('.swdot'))hideTip();});
+  document.addEventListener('click',e=>{const dot=e.target.closest?.('.swdot');if(dot){e.preventDefault();showTip(dot);}});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')hideTip();});
+  window.addEventListener('resize',()=>{if(activeDot)placeTip(activeDot);});
+  window.addEventListener('scroll',()=>{if(activeDot)placeTip(activeDot);},{passive:true});
   renderAhk();
+  renderSwe();
   renderGrid();
   </script>
 </body>
