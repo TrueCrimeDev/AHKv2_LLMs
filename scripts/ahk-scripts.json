@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-22T06:53:04.615Z",
-  "totalScripts": 400,
+  "lastUpdated": "2026-07-22T12:33:52.485Z",
+  "totalScripts": 401,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8014,7 +8014,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-20T10:16:10Z",
-      "lastModified": "2026-07-22T01:16:35Z",
+      "lastModified": "2026-07-22T10:26:41Z",
       "source": "github",
       "url": "https://github.com/qlxsply/juju",
       "stars": 0,
@@ -8065,6 +8065,31 @@
       "forks": 0,
       "owner": "JojoZhu9",
       "code": "```cpp\n; ============================================\n; Repository: JojoZhu9/peekdock\n; ============================================\n; URL: https://github.com/JojoZhu9/peekdock\n; Stars: 0 | Forks: 0\n; Last Updated: 7/21/2026\n; License: MIT License\n;\n; Description:\n; A tiny AutoHotkey v2 Chrome app-window dock toggled by the middle mouse button.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JojoZhu9/peekdock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JojoZhu9/peekdock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peekdock>\n\n; Example initialization\nclass PeekdockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peekdock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeekdockExample()\n```"
+    },
+    {
+      "id": "github-1308659022",
+      "title": "MacPilot",
+      "category": "GitHub Repository",
+      "description": "🪟→🍎 macOS keyboard shortcuts on Windows — remap Alt/Win to Command/Option, with JetBrains, Explorer & Terminal profiles. AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "developer-tools",
+        "key-remapping",
+        "keyboard",
+        "macos",
+        "productivity"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-22T09:58:21Z",
+      "lastModified": "2026-07-22T10:02:08Z",
+      "source": "github",
+      "url": "https://github.com/M4xwe11-02/MacPilot",
+      "stars": 0,
+      "forks": 0,
+      "owner": "M4xwe11-02",
+      "code": "```cpp\n; ============================================\n; Repository: M4xwe11-02/MacPilot\n; ============================================\n; URL: https://github.com/M4xwe11-02/MacPilot\n; Stars: 0 | Forks: 0\n; Last Updated: 7/22/2026\n; License: MIT License\n;\n; Description:\n; 🪟→🍎 macOS keyboard shortcuts on Windows — remap Alt/Win to Command/Option, with JetBrains, Explorer & Terminal profiles. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M4xwe11-02/MacPilot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M4xwe11-02/MacPilot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MacPilot>\n\n; Example initialization\nclass MacpilotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MacPilot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacpilotExample()\n```"
     }
   ]
 }
