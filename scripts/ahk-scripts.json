@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-22T12:33:52.485Z",
-  "totalScripts": 401,
+  "lastUpdated": "2026-07-22T18:26:11.614Z",
+  "totalScripts": 404,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-21T13:38:22Z",
+      "lastModified": "2026-07-22T15:18:18Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 9,
       "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 9 | Forks: 3\n; Last Updated: 7/21/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 9 | Forks: 3\n; Last Updated: 7/22/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -8090,6 +8090,69 @@
       "forks": 0,
       "owner": "M4xwe11-02",
       "code": "```cpp\n; ============================================\n; Repository: M4xwe11-02/MacPilot\n; ============================================\n; URL: https://github.com/M4xwe11-02/MacPilot\n; Stars: 0 | Forks: 0\n; Last Updated: 7/22/2026\n; License: MIT License\n;\n; Description:\n; 🪟→🍎 macOS keyboard shortcuts on Windows — remap Alt/Win to Command/Option, with JetBrains, Explorer & Terminal profiles. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M4xwe11-02/MacPilot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M4xwe11-02/MacPilot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MacPilot>\n\n; Example initialization\nclass MacpilotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MacPilot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacpilotExample()\n```"
+    },
+    {
+      "id": "github-1290579228",
+      "title": "ahk-f13-keybindings",
+      "category": "GitHub Repository",
+      "description": "F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-06T04:15:18Z",
+      "lastModified": "2026-07-22T15:39:55Z",
+      "source": "github",
+      "url": "https://github.com/hakhatz2486/ahk-f13-keybindings",
+      "stars": 0,
+      "forks": 0,
+      "owner": "hakhatz2486",
+      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/ahk-f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/ahk-f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 7/22/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/ahk-f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/ahk-f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-f13-keybindings>\n\n; Example initialization\nclass AhkF13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkF13KeybindingsExample()\n```"
+    },
+    {
+      "id": "github-1308626088",
+      "title": "ohnishi-ime-layout",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 layout optimization for Japanese IME typing",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-22T09:23:32Z",
+      "lastModified": "2026-07-22T12:38:59Z",
+      "source": "github",
+      "url": "https://github.com/aray-99/ohnishi-ime-layout",
+      "stars": 0,
+      "forks": 0,
+      "owner": "aray-99",
+      "code": "```cpp\n; ============================================\n; Repository: aray-99/ohnishi-ime-layout\n; ============================================\n; URL: https://github.com/aray-99/ohnishi-ime-layout\n; Stars: 0 | Forks: 0\n; Last Updated: 7/22/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 layout optimization for Japanese IME typing\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/aray-99/ohnishi-ime-layout.git\n;\n; Option 2: Download ZIP\n;   https://github.com/aray-99/ohnishi-ime-layout/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ohnishi-ime-layout>\n\n; Example initialization\nclass OhnishiImeLayoutExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ohnishi-ime-layout loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OhnishiImeLayoutExample()\n```"
+    },
+    {
+      "id": "github-1299305331",
+      "title": "tactile-ahk-windows",
+      "category": "GitHub Repository",
+      "description": "Tactile-style grid window placement for Windows 11 in a single AutoHotkey v2 script.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "keyboard-driven",
+        "tactile",
+        "window-management",
+        "window-manager"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-13T13:08:57Z",
+      "lastModified": "2026-07-22T18:18:07Z",
+      "source": "github",
+      "url": "https://github.com/ismael86/tactile-ahk-windows",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ismael86",
+      "code": "```cpp\n; ============================================\n; Repository: ismael86/tactile-ahk-windows\n; ============================================\n; URL: https://github.com/ismael86/tactile-ahk-windows\n; Stars: 0 | Forks: 0\n; Last Updated: 7/22/2026\n; License: Not specified\n;\n; Description:\n; Tactile-style grid window placement for Windows 11 in a single AutoHotkey v2 script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ismael86/tactile-ahk-windows.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ismael86/tactile-ahk-windows/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <tactile-ahk-windows>\n\n; Example initialization\nclass TactileAhkWindowsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"tactile-ahk-windows loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TactileAhkWindowsExample()\n```"
     }
   ]
 }
