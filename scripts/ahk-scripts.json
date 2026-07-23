@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-22T18:26:11.614Z",
+  "lastUpdated": "2026-07-23T00:32:27.943Z",
   "totalScripts": 404,
   "categories": [
     "GUI",
@@ -4920,7 +4920,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-22T15:18:18Z",
+      "lastModified": "2026-07-22T18:53:43Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 9,
@@ -5645,13 +5645,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-15T18:29:35Z",
-      "lastModified": "2026-07-11T04:26:54Z",
+      "lastModified": "2026-07-22T19:47:29Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_Colorful_GUI",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 0 | Forks: 0\n; Last Updated: 7/11/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_Colorful_GUI\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_Colorful_GUI\n; Stars: 1 | Forks: 0\n; Last Updated: 7/22/2026\n; License: MIT License\n;\n; Description:\n; A colorful, two-layer (Canvas/Viewport) GUI library for AutoHotkey v2 with dynamic layouts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_Colorful_GUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_Colorful_GUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Colorful_GUI>\n\n; Example initialization\nclass Ahk2ColorfulGuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Colorful_GUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ColorfulGuiExample()\n```"
     },
     {
       "id": "github-1238108402",
@@ -7518,13 +7518,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-07T01:32:32Z",
-      "lastModified": "2026-07-17T21:16:01Z",
+      "lastModified": "2026-07-22T20:51:41Z",
       "source": "github",
       "url": "https://github.com/supersillysage/sageSanity",
       "stars": 2,
       "forks": 0,
       "owner": "supersillysage",
-      "code": "```cpp\n; ============================================\n; Repository: supersillysage/sageSanity\n; ============================================\n; URL: https://github.com/supersillysage/sageSanity\n; Stars: 2 | Forks: 0\n; Last Updated: 7/17/2026\n; License: MIT License\n;\n; Description:\n; autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/supersillysage/sageSanity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/supersillysage/sageSanity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sageSanity>\n\n; Example initialization\nclass SagesanityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sageSanity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SagesanityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: supersillysage/sageSanity\n; ============================================\n; URL: https://github.com/supersillysage/sageSanity\n; Stars: 2 | Forks: 0\n; Last Updated: 7/22/2026\n; License: MIT License\n;\n; Description:\n; autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/supersillysage/sageSanity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/supersillysage/sageSanity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sageSanity>\n\n; Example initialization\nclass SagesanityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sageSanity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SagesanityExample()\n```"
     },
     {
       "id": "github-998124418",
