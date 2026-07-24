@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-24T00:29:25.942Z",
-  "totalScripts": 404,
+  "lastUpdated": "2026-07-24T06:52:03.228Z",
+  "totalScripts": 405,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2219,13 +2219,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-26T07:34:08Z",
-      "lastModified": "2026-05-02T12:10:56Z",
+      "lastModified": "2026-07-24T06:29:01Z",
       "source": "github",
       "url": "https://github.com/NaoeRiki21/Off-CCD",
       "stars": 0,
       "forks": 0,
       "owner": "NaoeRiki21",
-      "code": "```cpp\n; ============================================\n; Repository: NaoeRiki21/Off-CCD\n; ============================================\n; URL: https://github.com/NaoeRiki21/Off-CCD\n; Stars: 0 | Forks: 0\n; Last Updated: 5/2/2026\n; License: MIT License\n;\n; Description:\n; 一个基于 AutoHotkey v2 的轻量级进程核心分配与优先级管理工具。专为 AMD 多 CCD 用户优化，有效降低跨 CCD 延迟。 (A lightweight AHKv2 utility for AMD CCD affinity & process priority management.)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NaoeRiki21/Off-CCD.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NaoeRiki21/Off-CCD/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Off-CCD>\n\n; Example initialization\nclass OffCcdExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Off-CCD loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OffCcdExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: NaoeRiki21/Off-CCD\n; ============================================\n; URL: https://github.com/NaoeRiki21/Off-CCD\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: MIT License\n;\n; Description:\n; 一个基于 AutoHotkey v2 的轻量级进程核心分配与优先级管理工具。专为 AMD 多 CCD 用户优化，有效降低跨 CCD 延迟。 (A lightweight AHKv2 utility for AMD CCD affinity & process priority management.)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NaoeRiki21/Off-CCD.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NaoeRiki21/Off-CCD/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Off-CCD>\n\n; Example initialization\nclass OffCcdExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Off-CCD loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OffCcdExample()\n```"
     },
     {
       "id": "github-1142586999",
@@ -8121,13 +8121,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-22T09:23:32Z",
-      "lastModified": "2026-07-22T12:38:59Z",
+      "lastModified": "2026-07-24T06:42:21Z",
       "source": "github",
       "url": "https://github.com/aray-99/ohnishi-ime-layout",
       "stars": 0,
       "forks": 0,
       "owner": "aray-99",
-      "code": "```cpp\n; ============================================\n; Repository: aray-99/ohnishi-ime-layout\n; ============================================\n; URL: https://github.com/aray-99/ohnishi-ime-layout\n; Stars: 0 | Forks: 0\n; Last Updated: 7/22/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 layout optimization for Japanese IME typing\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/aray-99/ohnishi-ime-layout.git\n;\n; Option 2: Download ZIP\n;   https://github.com/aray-99/ohnishi-ime-layout/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ohnishi-ime-layout>\n\n; Example initialization\nclass OhnishiImeLayoutExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ohnishi-ime-layout loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OhnishiImeLayoutExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: aray-99/ohnishi-ime-layout\n; ============================================\n; URL: https://github.com/aray-99/ohnishi-ime-layout\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 layout optimization for Japanese IME typing\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/aray-99/ohnishi-ime-layout.git\n;\n; Option 2: Download ZIP\n;   https://github.com/aray-99/ohnishi-ime-layout/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ohnishi-ime-layout>\n\n; Example initialization\nclass OhnishiImeLayoutExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ohnishi-ime-layout loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OhnishiImeLayoutExample()\n```"
     },
     {
       "id": "github-1299305331",
@@ -8153,6 +8153,25 @@
       "forks": 0,
       "owner": "ismael86",
       "code": "```cpp\n; ============================================\n; Repository: ismael86/tactile-ahk-windows\n; ============================================\n; URL: https://github.com/ismael86/tactile-ahk-windows\n; Stars: 0 | Forks: 0\n; Last Updated: 7/22/2026\n; License: Not specified\n;\n; Description:\n; Tactile-style grid window placement for Windows 11 in a single AutoHotkey v2 script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ismael86/tactile-ahk-windows.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ismael86/tactile-ahk-windows/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <tactile-ahk-windows>\n\n; Example initialization\nclass TactileAhkWindowsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"tactile-ahk-windows loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TactileAhkWindowsExample()\n```"
+    },
+    {
+      "id": "github-1310611197",
+      "title": "autohotkey_v2",
+      "category": "GitHub Repository",
+      "description": "No description available",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-24T04:08:16Z",
+      "lastModified": "2026-07-24T04:11:03Z",
+      "source": "github",
+      "url": "https://github.com/AnishKhamkar7/autohotkey_v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "AnishKhamkar7",
+      "code": "```cpp\n; ============================================\n; Repository: AnishKhamkar7/autohotkey_v2\n; ============================================\n; URL: https://github.com/AnishKhamkar7/autohotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AnishKhamkar7/autohotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AnishKhamkar7/autohotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     }
   ]
 }
