@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-24T12:31:14.347Z",
+  "lastUpdated": "2026-07-24T18:31:01.734Z",
   "totalScripts": 406,
   "categories": [
     "GUI",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-07-21T01:43:15Z",
+      "lastModified": "2026-07-24T15:27:12Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 51,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 51 | Forks: 8\n; Last Updated: 7/21/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 51 | Forks: 8\n; Last Updated: 7/24/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -8095,20 +8095,20 @@
       "id": "github-1290579228",
       "title": "ahk-f13-keybindings",
       "category": "GitHub Repository",
-      "description": "F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。",
+      "description": "F13キーをショートカットキーとして使用��るためのAutoHotkey v2スクリプトです。",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T04:15:18Z",
-      "lastModified": "2026-07-22T15:39:55Z",
+      "lastModified": "2026-07-24T14:56:55Z",
       "source": "github",
       "url": "https://github.com/hakhatz2486/ahk-f13-keybindings",
       "stars": 0,
       "forks": 0,
       "owner": "hakhatz2486",
-      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/ahk-f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/ahk-f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 7/22/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/ahk-f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/ahk-f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-f13-keybindings>\n\n; Example initialization\nclass AhkF13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkF13KeybindingsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/ahk-f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/ahk-f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用��るためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/ahk-f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/ahk-f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-f13-keybindings>\n\n; Example initialization\nclass AhkF13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkF13KeybindingsExample()\n```"
     },
     {
       "id": "github-1308626088",
