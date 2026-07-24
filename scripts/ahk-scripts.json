@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-24T06:52:03.228Z",
-  "totalScripts": 405,
+  "lastUpdated": "2026-07-24T12:31:14.347Z",
+  "totalScripts": 406,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6789,13 +6789,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T05:34:05Z",
-      "lastModified": "2026-07-17T10:39:39Z",
+      "lastModified": "2026-07-24T11:01:54Z",
       "source": "github",
       "url": "https://github.com/asorei/poe1-leveling-overlay-kr",
       "stars": 0,
       "forks": 0,
       "owner": "asorei",
-      "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 7/17/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 표시하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 표시하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
     },
     {
       "id": "github-1269456433",
@@ -8172,6 +8172,25 @@
       "forks": 0,
       "owner": "AnishKhamkar7",
       "code": "```cpp\n; ============================================\n; Repository: AnishKhamkar7/autohotkey_v2\n; ============================================\n; URL: https://github.com/AnishKhamkar7/autohotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AnishKhamkar7/autohotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AnishKhamkar7/autohotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-1310853255",
+      "title": "alt-ime-lite",
+      "category": "GitHub Repository",
+      "description": "A simple AutoHotkey v2 script that switches the IME to alphanumeric input with a left Alt tap and to Kana input with a right Alt tap, while preserving normal Alt-key shortcuts.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-24T09:14:04Z",
+      "lastModified": "2026-07-24T09:53:47Z",
+      "source": "github",
+      "url": "https://github.com/shuichi/alt-ime-lite",
+      "stars": 0,
+      "forks": 0,
+      "owner": "shuichi",
+      "code": "```cpp\n; ============================================\n; Repository: shuichi/alt-ime-lite\n; ============================================\n; URL: https://github.com/shuichi/alt-ime-lite\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A simple AutoHotkey v2 script that switches the IME to alphanumeric input with a left Alt tap and to Kana input with a right Alt tap, while preserving normal Alt-key shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shuichi/alt-ime-lite.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shuichi/alt-ime-lite/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-lite>\n\n; Example initialization\nclass AltImeLiteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-lite loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeLiteExample()\n```"
     }
   ]
 }
