@@ -1,5 +1,21 @@
 [
  {
+  "slug": "opus-5-clipboard-bench",
+  "title": "Opus 5 Under the Live Harness: The First 100",
+  "preview_title": "Opus 5 Takes the Clipboard Board's First Perfect Score",
+  "date": "2026-07-24",
+  "description": "Claude Opus 5, run as the live working harness rather than a cold API call, takes rank 1 of 83 on the clipboard-formatter benchmark with the first perfect static score the board has produced — 100/100, a running window, and a 20/20 fully dark render. The two points over Fable 5 come from one item: a third derived wrapper class, where each override gives Value a different meaning per control type. The run also exposed a defect in the capture harness — PowerShell is DPI-unaware, so every screenshot of a DPI-aware window was measured 20% small and silently cropped, including the previously published rank-1 shot.",
+  "preview": "A perfect 100 at the top, and the discovery that the board's screenshots were cropping 20% off every DPI-aware window.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "Clipboard",
+   "Opus 5",
+   "Anthropic"
+  ],
+  "path": "posts/opus-5-clipboard-bench.md"
+ },
+ {
   "slug": "kimi-k3-ahk-eval",
   "title": "Kimi K3: Four Tasks Better Than K2.6, and the First Model Through AHK-Contract",
   "preview_title": "Kimi K3 Nearly Beats the Agent Benchmark Cold",
