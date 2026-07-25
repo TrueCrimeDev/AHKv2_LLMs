@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-25T06:47:39.060Z",
-  "totalScripts": 407,
+  "lastUpdated": "2026-07-25T18:18:49.672Z",
+  "totalScripts": 408,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-07-20T14:12:28Z",
+      "lastModified": "2026-07-25T12:20:23Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 7/20/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 7/25/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -8184,13 +8184,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-24T09:14:04Z",
-      "lastModified": "2026-07-24T09:53:47Z",
+      "lastModified": "2026-07-25T10:03:45Z",
       "source": "github",
       "url": "https://github.com/shuichi/alt-ime-lite",
       "stars": 0,
       "forks": 0,
       "owner": "shuichi",
-      "code": "```cpp\n; ============================================\n; Repository: shuichi/alt-ime-lite\n; ============================================\n; URL: https://github.com/shuichi/alt-ime-lite\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A simple AutoHotkey v2 script that switches the IME to alphanumeric input with a left Alt tap and to Kana input with a right Alt tap, while preserving normal Alt-key shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shuichi/alt-ime-lite.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shuichi/alt-ime-lite/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-lite>\n\n; Example initialization\nclass AltImeLiteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-lite loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeLiteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: shuichi/alt-ime-lite\n; ============================================\n; URL: https://github.com/shuichi/alt-ime-lite\n; Stars: 0 | Forks: 0\n; Last Updated: 7/25/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A simple AutoHotkey v2 script that switches the IME to alphanumeric input with a left Alt tap and to Kana input with a right Alt tap, while preserving normal Alt-key shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shuichi/alt-ime-lite.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shuichi/alt-ime-lite/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-lite>\n\n; Example initialization\nclass AltImeLiteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-lite loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeLiteExample()\n```"
     },
     {
       "id": "github-1311683945",
@@ -8203,13 +8203,37 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-25T05:18:28Z",
-      "lastModified": "2026-07-25T05:27:38Z",
+      "lastModified": "2026-07-25T18:17:35Z",
       "source": "github",
       "url": "https://github.com/ericfmyers/LCARS.ahk",
       "stars": 0,
       "forks": 0,
       "owner": "ericfmyers",
       "code": "```cpp\n; ============================================\n; Repository: ericfmyers/LCARS.ahk\n; ============================================\n; URL: https://github.com/ericfmyers/LCARS.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/25/2026\n; License: MIT License\n;\n; Description:\n; A fully responsive, modular Star Trek LCARS terminal interface and desktop environment manager for Windows built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ericfmyers/LCARS.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ericfmyers/LCARS.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LCARS.ahk>\n\n; Example initialization\nclass Lcars.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LCARS.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Lcars.ahkExample()\n```"
+    },
+    {
+      "id": "github-1311846508",
+      "title": "PoEAutoFlask-AHKv2",
+      "category": "GitHub Repository",
+      "description": "Automatic buff-flask uptime for Path of Exile — AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "macro",
+        "path-of-exile",
+        "poe"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-25T09:21:26Z",
+      "lastModified": "2026-07-25T09:28:30Z",
+      "source": "github",
+      "url": "https://github.com/NGCK/PoEAutoFlask-AHKv2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "NGCK",
+      "code": "```cpp\n; ============================================\n; Repository: NGCK/PoEAutoFlask-AHKv2\n; ============================================\n; URL: https://github.com/NGCK/PoEAutoFlask-AHKv2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/25/2026\n; License: Not specified\n;\n; Description:\n; Automatic buff-flask uptime for Path of Exile — AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NGCK/PoEAutoFlask-AHKv2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NGCK/PoEAutoFlask-AHKv2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PoEAutoFlask-AHKv2>\n\n; Example initialization\nclass PoeautoflaskAhkv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PoEAutoFlask-AHKv2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeautoflaskAhkv2Example()\n```"
     }
   ]
 }
