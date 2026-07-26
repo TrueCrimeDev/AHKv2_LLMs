@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-26T00:35:13.384Z",
-  "totalScripts": 408,
+  "lastUpdated": "2026-07-26T06:55:39.708Z",
+  "totalScripts": 409,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8234,6 +8234,25 @@
       "forks": 0,
       "owner": "NGCK",
       "code": "```cpp\n; ============================================\n; Repository: NGCK/PoEAutoFlask-AHKv2\n; ============================================\n; URL: https://github.com/NGCK/PoEAutoFlask-AHKv2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/25/2026\n; License: Not specified\n;\n; Description:\n; Automatic buff-flask uptime for Path of Exile — AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NGCK/PoEAutoFlask-AHKv2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NGCK/PoEAutoFlask-AHKv2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PoEAutoFlask-AHKv2>\n\n; Example initialization\nclass PoeautoflaskAhkv2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PoEAutoFlask-AHKv2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeautoflaskAhkv2Example()\n```"
+    },
+    {
+      "id": "github-1312379474",
+      "title": "ahk",
+      "category": "GitHub Repository",
+      "description": "My collection of custom AutoHotkey (v2 & v1) scripts for Windows automation, hardware controls, and productivity enhancements.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-25T23:53:45Z",
+      "lastModified": "2026-07-26T00:45:06Z",
+      "source": "github",
+      "url": "https://github.com/stmyers/ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "stmyers",
+      "code": "```cpp\n; ============================================\n; Repository: stmyers/ahk\n; ============================================\n; URL: https://github.com/stmyers/ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/26/2026\n; License: Not specified\n;\n; Description:\n; My collection of custom AutoHotkey (v2 & v1) scripts for Windows automation, hardware controls, and productivity enhancements.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stmyers/ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stmyers/ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk>\n\n; Example initialization\nclass AhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkExample()\n```"
     }
   ]
 }
