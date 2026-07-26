@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-26T06:55:39.708Z",
-  "totalScripts": 409,
+  "lastUpdated": "2026-07-26T12:24:26.795Z",
+  "totalScripts": 410,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5918,7 +5918,7 @@
     },
     {
       "id": "github-1247078222",
-      "title": "ClipOCR-Pro",
+      "title": "01_ClipOCR-Pro",
       "category": "GitHub Repository",
       "description": "Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.",
       "tags": [
@@ -5927,13 +5927,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-22T21:59:54Z",
-      "lastModified": "2026-07-10T21:53:37Z",
+      "lastModified": "2026-07-26T11:39:31Z",
       "source": "github",
-      "url": "https://github.com/KwangBeomPark/ClipOCR-Pro",
+      "url": "https://github.com/KwangBeomPark/01_ClipOCR-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "KwangBeomPark",
-      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/ClipOCR-Pro\n; ============================================\n; URL: https://github.com/KwangBeomPark/ClipOCR-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 7/10/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/ClipOCR-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/ClipOCR-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipOCR-Pro>\n\n; Example initialization\nclass ClipocrProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipOCR-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipocrProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/01_ClipOCR-Pro\n; ============================================\n; URL: https://github.com/KwangBeomPark/01_ClipOCR-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 7/26/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/01_ClipOCR-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/01_ClipOCR-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <01_ClipOCR-Pro>\n\n; Example initialization\nclass 01ClipocrProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"01_ClipOCR-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 01ClipocrProExample()\n```"
     },
     {
       "id": "github-1247276932",
@@ -8253,6 +8253,25 @@
       "forks": 0,
       "owner": "stmyers",
       "code": "```cpp\n; ============================================\n; Repository: stmyers/ahk\n; ============================================\n; URL: https://github.com/stmyers/ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/26/2026\n; License: Not specified\n;\n; Description:\n; My collection of custom AutoHotkey (v2 & v1) scripts for Windows automation, hardware controls, and productivity enhancements.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stmyers/ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stmyers/ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk>\n\n; Example initialization\nclass AhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkExample()\n```"
+    },
+    {
+      "id": "github-1312723194",
+      "title": "minwm",
+      "category": "GitHub Repository",
+      "description": "A work-in-progress tiling window manager for Windows, written in AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-26T10:59:14Z",
+      "lastModified": "2026-07-26T11:45:54Z",
+      "source": "github",
+      "url": "https://github.com/sujaybokil/minwm",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sujaybokil",
+      "code": "```cpp\n; ============================================\n; Repository: sujaybokil/minwm\n; ============================================\n; URL: https://github.com/sujaybokil/minwm\n; Stars: 0 | Forks: 0\n; Last Updated: 7/26/2026\n; License: MIT License\n;\n; Description:\n; A work-in-progress tiling window manager for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sujaybokil/minwm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sujaybokil/minwm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <minwm>\n\n; Example initialization\nclass MinwmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"minwm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MinwmExample()\n```"
     }
   ]
 }
