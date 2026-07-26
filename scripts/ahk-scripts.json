@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-26T12:24:26.795Z",
-  "totalScripts": 410,
+  "lastUpdated": "2026-07-26T18:21:21.424Z",
+  "totalScripts": 412,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-07-24T15:27:12Z",
+      "lastModified": "2026-07-26T13:18:33Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
-      "stars": 51,
+      "stars": 52,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 51 | Forks: 8\n; Last Updated: 7/24/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 52 | Forks: 8\n; Last Updated: 7/26/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-07-25T12:20:23Z",
+      "lastModified": "2026-07-26T16:27:12Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 7/25/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 7/26/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -2918,13 +2918,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-21T04:38:50Z",
-      "lastModified": "2026-05-25T11:15:02Z",
+      "lastModified": "2026-07-26T18:20:07Z",
       "source": "github",
       "url": "https://github.com/gor-dey/windows-keybind-config",
       "stars": 0,
       "forks": 0,
       "owner": "gor-dey",
-      "code": "```cpp\n; ============================================\n; Repository: gor-dey/windows-keybind-config\n; ============================================\n; URL: https://github.com/gor-dey/windows-keybind-config\n; Stars: 0 | Forks: 0\n; Last Updated: 5/25/2026\n; License: Not specified\n;\n; Description:\n; Конфиг для программы AutoHotkeys. Использовать v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gor-dey/windows-keybind-config.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gor-dey/windows-keybind-config/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows-keybind-config>\n\n; Example initialization\nclass WindowsKeybindConfigExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows-keybind-config loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsKeybindConfigExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: gor-dey/windows-keybind-config\n; ============================================\n; URL: https://github.com/gor-dey/windows-keybind-config\n; Stars: 0 | Forks: 0\n; Last Updated: 7/26/2026\n; License: Not specified\n;\n; Description:\n; Конфиг для программы AutoHotkeys. Использовать v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gor-dey/windows-keybind-config.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gor-dey/windows-keybind-config/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows-keybind-config>\n\n; Example initialization\nclass WindowsKeybindConfigExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows-keybind-config loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsKeybindConfigExample()\n```"
     },
     {
       "id": "github-1161345927",
@@ -6672,13 +6672,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-07-21T04:05:46Z",
+      "lastModified": "2026-07-26T13:31:46Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "Vedette1",
-      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 2 | Forks: 0\n; Last Updated: 7/21/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 3 | Forks: 0\n; Last Updated: 7/26/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     },
     {
       "id": "github-1266742477",
@@ -8272,6 +8272,55 @@
       "forks": 0,
       "owner": "sujaybokil",
       "code": "```cpp\n; ============================================\n; Repository: sujaybokil/minwm\n; ============================================\n; URL: https://github.com/sujaybokil/minwm\n; Stars: 0 | Forks: 0\n; Last Updated: 7/26/2026\n; License: MIT License\n;\n; Description:\n; A work-in-progress tiling window manager for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sujaybokil/minwm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sujaybokil/minwm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <minwm>\n\n; Example initialization\nclass MinwmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"minwm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MinwmExample()\n```"
+    },
+    {
+      "id": "github-1312419288",
+      "title": "afkbloomfisch",
+      "category": "GitHub Repository",
+      "description": "Macro de pesca para Fisch (Roblox) em AutoHotkey v2: leitura de tela em bloco a 58,7 varreduras/s, atuador que reage a inversao em ~16 ms, 68 perfis de vara e painel proprio em GDI+.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "fisch",
+        "gdiplus"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-26T01:35:40Z",
+      "lastModified": "2026-07-26T18:07:36Z",
+      "source": "github",
+      "url": "https://github.com/highdevian/afkbloomfisch",
+      "stars": 0,
+      "forks": 0,
+      "owner": "highdevian",
+      "code": "```cpp\n; ============================================\n; Repository: highdevian/afkbloomfisch\n; ============================================\n; URL: https://github.com/highdevian/afkbloomfisch\n; Stars: 0 | Forks: 0\n; Last Updated: 7/26/2026\n; License: Not specified\n;\n; Description:\n; Macro de pesca para Fisch (Roblox) em AutoHotkey v2: leitura de tela em bloco a 58,7 varreduras/s, atuador que reage a inversao em ~16 ms, 68 perfis de vara e painel proprio em GDI+.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/highdevian/afkbloomfisch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/highdevian/afkbloomfisch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <afkbloomfisch>\n\n; Example initialization\nclass AfkbloomfischExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"afkbloomfisch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AfkbloomfischExample()\n```"
+    },
+    {
+      "id": "github-1312809015",
+      "title": "GroupBox",
+      "category": "GitHub Repository",
+      "description": "A VB/VBA-style container GroupBox for AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk2",
+        "autohotkey",
+        "class",
+        "groupbox"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-26T13:06:51Z",
+      "lastModified": "2026-07-26T13:13:37Z",
+      "source": "github",
+      "url": "https://github.com/mesutakcan/GroupBox",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mesutakcan",
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/GroupBox\n; ============================================\n; URL: https://github.com/mesutakcan/GroupBox\n; Stars: 0 | Forks: 0\n; Last Updated: 7/26/2026\n; License: MIT License\n;\n; Description:\n; A VB/VBA-style container GroupBox for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/GroupBox.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/GroupBox/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GroupBox>\n\n; Example initialization\nclass GroupboxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GroupBox loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GroupboxExample()\n```"
     }
   ]
 }
