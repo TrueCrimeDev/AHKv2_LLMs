@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-27T07:09:15.483Z",
-  "totalScripts": 413,
+  "lastUpdated": "2026-07-27T13:04:13.206Z",
+  "totalScripts": 415,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8014,13 +8014,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-20T10:16:10Z",
-      "lastModified": "2026-07-22T10:26:41Z",
+      "lastModified": "2026-07-27T10:04:57Z",
       "source": "github",
       "url": "https://github.com/qlxsply/juju",
       "stars": 0,
       "forks": 0,
       "owner": "qlxsply",
-      "code": "```cpp\n; ============================================\n; Repository: qlxsply/juju\n; ============================================\n; URL: https://github.com/qlxsply/juju\n; Stars: 0 | Forks: 0\n; Last Updated: 7/22/2026\n; License: MIT License\n;\n; Description:\n; 基于AutoHotkey v2实现的Windows脚本工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/qlxsply/juju.git\n;\n; Option 2: Download ZIP\n;   https://github.com/qlxsply/juju/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <juju>\n\n; Example initialization\nclass JujuExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"juju loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := JujuExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: qlxsply/juju\n; ============================================\n; URL: https://github.com/qlxsply/juju\n; Stars: 0 | Forks: 0\n; Last Updated: 7/27/2026\n; License: MIT License\n;\n; Description:\n; 基于AutoHotkey v2实现的Windows脚本工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/qlxsply/juju.git\n;\n; Option 2: Download ZIP\n;   https://github.com/qlxsply/juju/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <juju>\n\n; Example initialization\nclass JujuExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"juju loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := JujuExample()\n```"
     },
     {
       "id": "github-1195655207",
@@ -8346,6 +8346,44 @@
       "forks": 0,
       "owner": "Pale66",
       "code": "```cpp\n; ============================================\n; Repository: Pale66/fancyzones_helper\n; ============================================\n; URL: https://github.com/Pale66/fancyzones_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 7/27/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 script for navigating between windows assigned to PowerToys FancyZones zones and moving windows between them using simple hotkeys.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pale66/fancyzones_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pale66/fancyzones_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fancyzones_helper>\n\n; Example initialization\nclass FancyzonesHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fancyzones_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FancyzonesHelperExample()\n```"
+    },
+    {
+      "id": "github-1313843686",
+      "title": "NVDRefreshRateBugFix",
+      "category": "GitHub Repository",
+      "description": "Autohotkey v2 Script to fix refresh rate sub-1fps display bug",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-27T12:54:39Z",
+      "lastModified": "2026-07-27T13:04:01Z",
+      "source": "github",
+      "url": "https://github.com/AjuliDev/NVDRefreshRateBugFix",
+      "stars": 0,
+      "forks": 0,
+      "owner": "AjuliDev",
+      "code": "```cpp\n; ============================================\n; Repository: AjuliDev/NVDRefreshRateBugFix\n; ============================================\n; URL: https://github.com/AjuliDev/NVDRefreshRateBugFix\n; Stars: 0 | Forks: 0\n; Last Updated: 7/27/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; Autohotkey v2 Script to fix refresh rate sub-1fps display bug\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AjuliDev/NVDRefreshRateBugFix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AjuliDev/NVDRefreshRateBugFix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <NVDRefreshRateBugFix>\n\n; Example initialization\nclass NvdrefreshratebugfixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"NVDRefreshRateBugFix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NvdrefreshratebugfixExample()\n```"
+    },
+    {
+      "id": "github-1313545037",
+      "title": "DocBot",
+      "category": "GitHub Repository",
+      "description": "DocBot is een AutoHotkey v2-hulpmiddel voor medewerkers met twee hoofdfuncties: (a) tekstvervanging via hotstrings, en (b) bellen via de interne IP-telefonie van het ziekenhuis, inclusief automatische detectie van telefoonnummers op het klembord. Alles draait via één GUI met sidebar-navigatie en een tray-icoon.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-27T07:26:40Z",
+      "lastModified": "2026-07-27T07:58:46Z",
+      "source": "github",
+      "url": "https://github.com/Pastinakel/DocBot",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Pastinakel",
+      "code": "```cpp\n; ============================================\n; Repository: Pastinakel/DocBot\n; ============================================\n; URL: https://github.com/Pastinakel/DocBot\n; Stars: 0 | Forks: 0\n; Last Updated: 7/27/2026\n; License: MIT License\n;\n; Description:\n; DocBot is een AutoHotkey v2-hulpmiddel voor medewerkers met twee hoofdfuncties: (a) tekstvervanging via hotstrings, en (b) bellen via de interne IP-telefonie van het ziekenhuis, inclusief automatische detectie van telefoonnummers op het klembord. Alles draait via één GUI met sidebar-navigatie en een tray-icoon.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pastinakel/DocBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pastinakel/DocBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DocBot>\n\n; Example initialization\nclass DocbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DocBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DocbotExample()\n```"
     }
   ]
 }
