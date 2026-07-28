@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-28T00:31:20.485Z",
-  "totalScripts": 416,
+  "lastUpdated": "2026-07-28T06:53:48.595Z",
+  "totalScripts": 417,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8339,13 +8339,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-26T21:25:56Z",
-      "lastModified": "2026-07-27T00:32:33Z",
+      "lastModified": "2026-07-28T01:08:46Z",
       "source": "github",
       "url": "https://github.com/Pale66/fancyzones_helper",
       "stars": 0,
       "forks": 0,
       "owner": "Pale66",
-      "code": "```cpp\n; ============================================\n; Repository: Pale66/fancyzones_helper\n; ============================================\n; URL: https://github.com/Pale66/fancyzones_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 7/27/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 script for navigating between windows assigned to PowerToys FancyZones zones and moving windows between them using simple hotkeys.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pale66/fancyzones_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pale66/fancyzones_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fancyzones_helper>\n\n; Example initialization\nclass FancyzonesHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fancyzones_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FancyzonesHelperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Pale66/fancyzones_helper\n; ============================================\n; URL: https://github.com/Pale66/fancyzones_helper\n; Stars: 0 | Forks: 0\n; Last Updated: 7/28/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 script for navigating between windows assigned to PowerToys FancyZones zones and moving windows between them using simple hotkeys.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pale66/fancyzones_helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pale66/fancyzones_helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fancyzones_helper>\n\n; Example initialization\nclass FancyzonesHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fancyzones_helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FancyzonesHelperExample()\n```"
     },
     {
       "id": "github-1313843686",
@@ -8402,13 +8402,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T22:05:25Z",
-      "lastModified": "2026-07-28T00:03:18Z",
+      "lastModified": "2026-07-28T02:03:33Z",
       "source": "github",
       "url": "https://github.com/CLochstampfor60/LockBadges",
       "stars": 1,
       "forks": 0,
       "owner": "CLochstampfor60",
       "code": "```cpp\n; ============================================\n; Repository: CLochstampfor60/LockBadges\n; ============================================\n; URL: https://github.com/CLochstampfor60/LockBadges\n; Stars: 1 | Forks: 0\n; Last Updated: 7/28/2026\n; License: MIT License\n;\n; Description:\n; Movable, translucent on-screen indicators for Caps, Num and Scroll Lock on Windows. Place them where you actually look, size and colour them per lock, and see through them while you type. AutoHotkey v2, no keyboard hook, no telemetry.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CLochstampfor60/LockBadges.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CLochstampfor60/LockBadges/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LockBadges>\n\n; Example initialization\nclass LockbadgesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LockBadges loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LockbadgesExample()\n```"
+    },
+    {
+      "id": "github-1314640985",
+      "title": "typebox-ahk",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 overlay for prepared text auto-typing on Windows",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-28T06:46:59Z",
+      "lastModified": "2026-07-28T06:47:28Z",
+      "source": "github",
+      "url": "https://github.com/xvdosha-alt/typebox-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "xvdosha-alt",
+      "code": "```cpp\n; ============================================\n; Repository: xvdosha-alt/typebox-ahk\n; ============================================\n; URL: https://github.com/xvdosha-alt/typebox-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/28/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 overlay for prepared text auto-typing on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xvdosha-alt/typebox-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xvdosha-alt/typebox-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <typebox-ahk>\n\n; Example initialization\nclass TypeboxAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"typebox-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TypeboxAhkExample()\n```"
     }
   ]
 }
