@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-27T18:32:27.607Z",
-  "totalScripts": 415,
+  "lastUpdated": "2026-07-28T00:31:20.485Z",
+  "totalScripts": 416,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2918,13 +2918,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-21T04:38:50Z",
-      "lastModified": "2026-07-26T18:20:07Z",
+      "lastModified": "2026-07-27T19:18:28Z",
       "source": "github",
       "url": "https://github.com/gor-dey/windows-keybind-config",
       "stars": 0,
       "forks": 0,
       "owner": "gor-dey",
-      "code": "```cpp\n; ============================================\n; Repository: gor-dey/windows-keybind-config\n; ============================================\n; URL: https://github.com/gor-dey/windows-keybind-config\n; Stars: 0 | Forks: 0\n; Last Updated: 7/26/2026\n; License: Not specified\n;\n; Description:\n; Конфиг для программы AutoHotkeys. Использовать v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gor-dey/windows-keybind-config.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gor-dey/windows-keybind-config/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows-keybind-config>\n\n; Example initialization\nclass WindowsKeybindConfigExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows-keybind-config loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsKeybindConfigExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: gor-dey/windows-keybind-config\n; ============================================\n; URL: https://github.com/gor-dey/windows-keybind-config\n; Stars: 0 | Forks: 0\n; Last Updated: 7/27/2026\n; License: Not specified\n;\n; Description:\n; Конфиг для программы AutoHotkeys. Использовать v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gor-dey/windows-keybind-config.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gor-dey/windows-keybind-config/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows-keybind-config>\n\n; Example initialization\nclass WindowsKeybindConfigExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows-keybind-config loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsKeybindConfigExample()\n```"
     },
     {
       "id": "github-1161345927",
@@ -8296,13 +8296,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-26T01:35:40Z",
-      "lastModified": "2026-07-26T18:07:36Z",
+      "lastModified": "2026-07-27T20:18:20Z",
       "source": "github",
       "url": "https://github.com/highdevian/afkbloomfisch",
       "stars": 0,
       "forks": 0,
       "owner": "highdevian",
-      "code": "```cpp\n; ============================================\n; Repository: highdevian/afkbloomfisch\n; ============================================\n; URL: https://github.com/highdevian/afkbloomfisch\n; Stars: 0 | Forks: 0\n; Last Updated: 7/26/2026\n; License: Not specified\n;\n; Description:\n; Macro de pesca para Fisch (Roblox) em AutoHotkey v2: leitura de tela em bloco a 58,7 varreduras/s, atuador que reage a inversao em ~16 ms, 68 perfis de vara e painel proprio em GDI+.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/highdevian/afkbloomfisch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/highdevian/afkbloomfisch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <afkbloomfisch>\n\n; Example initialization\nclass AfkbloomfischExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"afkbloomfisch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AfkbloomfischExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: highdevian/afkbloomfisch\n; ============================================\n; URL: https://github.com/highdevian/afkbloomfisch\n; Stars: 0 | Forks: 0\n; Last Updated: 7/27/2026\n; License: Not specified\n;\n; Description:\n; Macro de pesca para Fisch (Roblox) em AutoHotkey v2: leitura de tela em bloco a 58,7 varreduras/s, atuador que reage a inversao em ~16 ms, 68 perfis de vara e painel proprio em GDI+.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/highdevian/afkbloomfisch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/highdevian/afkbloomfisch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <afkbloomfisch>\n\n; Example initialization\nclass AfkbloomfischExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"afkbloomfisch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AfkbloomfischExample()\n```"
     },
     {
       "id": "github-1312809015",
@@ -8384,6 +8384,31 @@
       "forks": 0,
       "owner": "Pastinakel",
       "code": "```cpp\n; ============================================\n; Repository: Pastinakel/DocBot\n; ============================================\n; URL: https://github.com/Pastinakel/DocBot\n; Stars: 0 | Forks: 0\n; Last Updated: 7/27/2026\n; License: MIT License\n;\n; Description:\n; DocBot is een AutoHotkey v2-hulpmiddel voor medewerkers met twee hoofdfuncties: (a) tekstvervanging via hotstrings, en (b) bellen via de interne IP-telefonie van het ziekenhuis, inclusief automatische detectie van telefoonnummers op het klembord. Alles draait via één GUI met sidebar-navigatie en een tray-icoon.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pastinakel/DocBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pastinakel/DocBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DocBot>\n\n; Example initialization\nclass DocbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DocBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DocbotExample()\n```"
+    },
+    {
+      "id": "github-1314312994",
+      "title": "LockBadges",
+      "category": "GitHub Repository",
+      "description": "Movable, translucent on-screen indicators for Caps, Num and Scroll Lock on Windows. Place them where you actually look, size and colour them per lock, and see through them while you type. AutoHotkey v2, no keyboard hook, no telemetry.",
+      "tags": [
+        "github",
+        "repository",
+        "accessibility",
+        "autohotkey",
+        "autohotkey-v2",
+        "caps-lock",
+        "indicator",
+        "keyboard"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-27T22:05:25Z",
+      "lastModified": "2026-07-28T00:03:18Z",
+      "source": "github",
+      "url": "https://github.com/CLochstampfor60/LockBadges",
+      "stars": 1,
+      "forks": 0,
+      "owner": "CLochstampfor60",
+      "code": "```cpp\n; ============================================\n; Repository: CLochstampfor60/LockBadges\n; ============================================\n; URL: https://github.com/CLochstampfor60/LockBadges\n; Stars: 1 | Forks: 0\n; Last Updated: 7/28/2026\n; License: MIT License\n;\n; Description:\n; Movable, translucent on-screen indicators for Caps, Num and Scroll Lock on Windows. Place them where you actually look, size and colour them per lock, and see through them while you type. AutoHotkey v2, no keyboard hook, no telemetry.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CLochstampfor60/LockBadges.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CLochstampfor60/LockBadges/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LockBadges>\n\n; Example initialization\nclass LockbadgesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LockBadges loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LockbadgesExample()\n```"
     }
   ]
 }
