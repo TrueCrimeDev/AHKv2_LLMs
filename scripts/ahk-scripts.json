@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-29T12:41:45.820Z",
+  "lastUpdated": "2026-07-29T18:21:11.055Z",
   "totalScripts": 419,
   "categories": [
     "GUI",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-07-17T12:14:57Z",
+      "lastModified": "2026-07-29T16:24:31Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
-      "stars": 37,
+      "stars": 38,
       "forks": 4,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 37 | Forks: 4\n; Last Updated: 7/17/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 38 | Forks: 4\n; Last Updated: 7/29/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -4920,7 +4920,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-29T09:32:07Z",
+      "lastModified": "2026-07-29T14:29:47Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 9,
@@ -8440,7 +8440,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-29T12:23:10Z",
-      "lastModified": "2026-07-29T12:28:53Z",
+      "lastModified": "2026-07-29T13:59:58Z",
       "source": "github",
       "url": "https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher",
       "stars": 0,
@@ -8459,13 +8459,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-06-17T11:50:51Z",
-      "lastModified": "2026-07-29T09:57:01Z",
+      "lastModified": "2026-07-29T18:02:02Z",
       "source": "github",
       "url": "https://github.com/Nyaldee/AutoHotkey-qwerty-french",
       "stars": 0,
       "forks": 0,
       "owner": "Nyaldee",
-      "code": "```cpp\n; ============================================\n; Repository: Nyaldee/AutoHotkey-qwerty-french\n; ============================================\n; URL: https://github.com/Nyaldee/AutoHotkey-qwerty-french\n; Stars: 0 | Forks: 0\n; Last Updated: 7/29/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script adding a French accented-character layer on a physical QWERTY keyboard, plus general Windows shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nyaldee/AutoHotkey-qwerty-french.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nyaldee/AutoHotkey-qwerty-french/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-qwerty-french>\n\n; Example initialization\nclass AutohotkeyQwertyFrenchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-qwerty-french loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyQwertyFrenchExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nyaldee/AutoHotkey-qwerty-french\n; ============================================\n; URL: https://github.com/Nyaldee/AutoHotkey-qwerty-french\n; Stars: 0 | Forks: 0\n; Last Updated: 7/29/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script adding a French accented-character layer on a physical QWERTY keyboard, plus general Windows shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nyaldee/AutoHotkey-qwerty-french.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nyaldee/AutoHotkey-qwerty-french/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-qwerty-french>\n\n; Example initialization\nclass AutohotkeyQwertyFrenchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-qwerty-french loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyQwertyFrenchExample()\n```"
     }
   ]
 }
