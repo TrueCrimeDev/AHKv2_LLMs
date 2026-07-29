@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-29T00:29:36.526Z",
+  "lastUpdated": "2026-07-29T06:55:08.802Z",
   "totalScripts": 417,
   "categories": [
     "GUI",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-28T16:16:34Z",
+      "lastModified": "2026-07-29T06:25:01Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 9,
       "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 9 | Forks: 3\n; Last Updated: 7/28/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 9 | Forks: 3\n; Last Updated: 7/29/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -8252,13 +8252,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-25T23:53:45Z",
-      "lastModified": "2026-07-26T00:45:06Z",
+      "lastModified": "2026-07-29T01:03:33Z",
       "source": "github",
       "url": "https://github.com/stmyers/ahk",
       "stars": 0,
       "forks": 0,
       "owner": "stmyers",
-      "code": "```cpp\n; ============================================\n; Repository: stmyers/ahk\n; ============================================\n; URL: https://github.com/stmyers/ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/26/2026\n; License: Not specified\n;\n; Description:\n; My collection of custom AutoHotkey (v2 & v1) scripts for Windows automation, hardware controls, and productivity enhancements.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stmyers/ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stmyers/ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk>\n\n; Example initialization\nclass AhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: stmyers/ahk\n; ============================================\n; URL: https://github.com/stmyers/ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/29/2026\n; License: Not specified\n;\n; Description:\n; My collection of custom AutoHotkey (v2 & v1) scripts for Windows automation, hardware controls, and productivity enhancements.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stmyers/ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stmyers/ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk>\n\n; Example initialization\nclass AhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkExample()\n```"
     },
     {
       "id": "github-1312723194",
