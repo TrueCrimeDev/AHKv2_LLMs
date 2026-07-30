@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-29T18:21:11.055Z",
-  "totalScripts": 419,
+  "lastUpdated": "2026-07-30T00:30:09.838Z",
+  "totalScripts": 420,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -711,13 +711,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-11T10:06:51Z",
-      "lastModified": "2026-06-17T16:43:14Z",
+      "lastModified": "2026-07-29T21:16:17Z",
       "source": "github",
       "url": "https://github.com/voothi/20240411110510-autohotkey",
       "stars": 3,
       "forks": 0,
       "owner": "voothi",
-      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 3 | Forks: 0\n; Last Updated: 6/17/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: voothi/20240411110510-autohotkey\n; ============================================\n; URL: https://github.com/voothi/20240411110510-autohotkey\n; Stars: 3 | Forks: 0\n; Last Updated: 7/29/2026\n; License: MIT License\n;\n; Description:\n; This repository is a collection of personal AutoHotkey v2 scripts designed to automate various tasks across different applications\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/voothi/20240411110510-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/voothi/20240411110510-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <20240411110510-autohotkey>\n\n; Example initialization\nclass 20240411110510AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"20240411110510-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 20240411110510AutohotkeyExample()\n```"
     },
     {
       "id": "github-1106851668",
@@ -950,13 +950,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-11-22T12:06:14Z",
-      "lastModified": "2026-07-28T22:01:01Z",
+      "lastModified": "2026-07-29T20:52:16Z",
       "source": "github",
       "url": "https://github.com/beingcarrot/Mouse-Flow-Gestures",
       "stars": 0,
       "forks": 0,
       "owner": "beingcarrot",
-      "code": "```cpp\n; ============================================\n; Repository: beingcarrot/Mouse-Flow-Gestures\n; ============================================\n; URL: https://github.com/beingcarrot/Mouse-Flow-Gestures\n; Stars: 0 | Forks: 0\n; Last Updated: 7/28/2026\n; License: Not specified\n;\n; Description:\n; A power-user AutoHotkey v2 script designed for any 5-button mouse.. Enables trackpad-like gestures, instant virtual desktop management, window snapping, and advanced productivity shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/beingcarrot/Mouse-Flow-Gestures.git\n;\n; Option 2: Download ZIP\n;   https://github.com/beingcarrot/Mouse-Flow-Gestures/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Flow-Gestures>\n\n; Example initialization\nclass MouseFlowGesturesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Flow-Gestures loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseFlowGesturesExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: beingcarrot/Mouse-Flow-Gestures\n; ============================================\n; URL: https://github.com/beingcarrot/Mouse-Flow-Gestures\n; Stars: 0 | Forks: 0\n; Last Updated: 7/29/2026\n; License: Not specified\n;\n; Description:\n; A power-user AutoHotkey v2 script designed for any 5-button mouse.. Enables trackpad-like gestures, instant virtual desktop management, window snapping, and advanced productivity shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/beingcarrot/Mouse-Flow-Gestures.git\n;\n; Option 2: Download ZIP\n;   https://github.com/beingcarrot/Mouse-Flow-Gestures/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Flow-Gestures>\n\n; Example initialization\nclass MouseFlowGesturesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Flow-Gestures loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseFlowGesturesExample()\n```"
     },
     {
       "id": "github-838227269",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-07-29T11:36:51Z",
+      "lastModified": "2026-07-29T21:18:51Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 2,
@@ -4482,13 +4482,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T11:13:40Z",
-      "lastModified": "2026-07-12T16:44:52Z",
+      "lastModified": "2026-07-29T21:41:24Z",
       "source": "github",
       "url": "https://github.com/mesutakcan/CtrlToolTip",
       "stars": 1,
       "forks": 0,
       "owner": "mesutakcan",
-      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 7/12/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 7/29/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
     },
     {
       "id": "github-1199400681",
@@ -7543,13 +7543,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-06-07T23:06:17Z",
-      "lastModified": "2026-07-12T16:55:08Z",
+      "lastModified": "2026-07-29T20:51:41Z",
       "source": "github",
       "url": "https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK",
       "stars": 5,
       "forks": 0,
       "owner": "Sid-1996",
-      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/AetherGazer-SemiAuto-AHK\n; ============================================\n; URL: https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK\n; Stars: 5 | Forks: 0\n; Last Updated: 7/12/2026\n; License: MIT License\n;\n; Description:\n; 深空之眼 (Aether Gazer) AutoHotkey v2 半自動戰鬥腳本：自動普攻、連招、FindText 圖像辨識、視窗調整與自動更新檢查\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AetherGazer-SemiAuto-AHK>\n\n; Example initialization\nclass AethergazerSemiautoAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AetherGazer-SemiAuto-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AethergazerSemiautoAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Sid-1996/AetherGazer-SemiAuto-AHK\n; ============================================\n; URL: https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK\n; Stars: 5 | Forks: 0\n; Last Updated: 7/29/2026\n; License: MIT License\n;\n; Description:\n; 深空之眼 (Aether Gazer) AutoHotkey v2 半自動戰鬥腳本：自動普攻、連招、FindText 圖像辨識、視窗調整與自動更新檢查\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sid-1996/AetherGazer-SemiAuto-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AetherGazer-SemiAuto-AHK>\n\n; Example initialization\nclass AethergazerSemiautoAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AetherGazer-SemiAuto-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AethergazerSemiautoAhkExample()\n```"
     },
     {
       "id": "github-1293027184",
@@ -8252,7 +8252,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-25T23:53:45Z",
-      "lastModified": "2026-07-29T01:03:33Z",
+      "lastModified": "2026-07-29T21:23:48Z",
       "source": "github",
       "url": "https://github.com/stmyers/ahk",
       "stars": 0,
@@ -8466,6 +8466,25 @@
       "forks": 0,
       "owner": "Nyaldee",
       "code": "```cpp\n; ============================================\n; Repository: Nyaldee/AutoHotkey-qwerty-french\n; ============================================\n; URL: https://github.com/Nyaldee/AutoHotkey-qwerty-french\n; Stars: 0 | Forks: 0\n; Last Updated: 7/29/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script adding a French accented-character layer on a physical QWERTY keyboard, plus general Windows shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nyaldee/AutoHotkey-qwerty-french.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nyaldee/AutoHotkey-qwerty-french/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-qwerty-french>\n\n; Example initialization\nclass AutohotkeyQwertyFrenchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-qwerty-french loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyQwertyFrenchExample()\n```"
+    },
+    {
+      "id": "github-1316396622",
+      "title": "KEY-HOLDER",
+      "category": "GitHub Repository",
+      "description": "key holder that works globaly in game/app/program. requires autohotkey v2.0 to run.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-29T17:23:37Z",
+      "lastModified": "2026-07-29T20:49:12Z",
+      "source": "github",
+      "url": "https://github.com/IAMFUCKINGARCHITECT/KEY-HOLDER",
+      "stars": 0,
+      "forks": 0,
+      "owner": "IAMFUCKINGARCHITECT",
+      "code": "```cpp\n; ============================================\n; Repository: IAMFUCKINGARCHITECT/KEY-HOLDER\n; ============================================\n; URL: https://github.com/IAMFUCKINGARCHITECT/KEY-HOLDER\n; Stars: 0 | Forks: 0\n; Last Updated: 7/29/2026\n; License: MIT License\n;\n; Description:\n; key holder that works globaly in game/app/program. requires autohotkey v2.0 to run.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/IAMFUCKINGARCHITECT/KEY-HOLDER.git\n;\n; Option 2: Download ZIP\n;   https://github.com/IAMFUCKINGARCHITECT/KEY-HOLDER/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KEY-HOLDER>\n\n; Example initialization\nclass KeyHolderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KEY-HOLDER loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyHolderExample()\n```"
     }
   ]
 }
