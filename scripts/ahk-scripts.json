@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-30T12:34:58.328Z",
-  "totalScripts": 421,
+  "lastUpdated": "2026-07-30T18:30:41.032Z",
+  "totalScripts": 422,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-07-29T16:24:31Z",
+      "lastModified": "2026-07-30T14:23:37Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
-      "stars": 38,
+      "stars": 39,
       "forks": 4,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 38 | Forks: 4\n; Last Updated: 7/29/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 39 | Forks: 4\n; Last Updated: 7/30/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -4920,13 +4920,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-07-29T14:29:47Z",
+      "lastModified": "2026-07-30T15:46:50Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 9,
       "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 9 | Forks: 3\n; Last Updated: 7/29/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 9 | Forks: 3\n; Last Updated: 7/30/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -7518,7 +7518,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-07T01:32:32Z",
-      "lastModified": "2026-07-30T01:53:21Z",
+      "lastModified": "2026-07-30T15:46:13Z",
       "source": "github",
       "url": "https://github.com/supersillysage/sageSanity",
       "stars": 2,
@@ -8252,13 +8252,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-25T23:53:45Z",
-      "lastModified": "2026-07-29T21:23:48Z",
+      "lastModified": "2026-07-30T16:50:07Z",
       "source": "github",
       "url": "https://github.com/stmyers/ahk",
       "stars": 0,
       "forks": 0,
       "owner": "stmyers",
-      "code": "```cpp\n; ============================================\n; Repository: stmyers/ahk\n; ============================================\n; URL: https://github.com/stmyers/ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/29/2026\n; License: Not specified\n;\n; Description:\n; My collection of custom AutoHotkey (v2 & v1) scripts for Windows automation, hardware controls, and productivity enhancements.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stmyers/ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stmyers/ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk>\n\n; Example initialization\nclass AhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: stmyers/ahk\n; ============================================\n; URL: https://github.com/stmyers/ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 7/30/2026\n; License: Not specified\n;\n; Description:\n; My collection of custom AutoHotkey (v2 & v1) scripts for Windows automation, hardware controls, and productivity enhancements.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stmyers/ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stmyers/ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk>\n\n; Example initialization\nclass AhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkExample()\n```"
     },
     {
       "id": "github-1312723194",
@@ -8504,6 +8504,25 @@
       "forks": 0,
       "owner": "TechHQUSA",
       "code": "```cpp\n; ============================================\n; Repository: TechHQUSA/makro-legacy-v2\n; ============================================\n; URL: https://github.com/TechHQUSA/makro-legacy-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/30/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; AutoHotkey v2 of Makro (2017-2022), the original text expander this project grew out of\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TechHQUSA/makro-legacy-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TechHQUSA/makro-legacy-v2/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <makro-legacy-v2>\n\n; Example initialization\nclass MakroLegacyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"makro-legacy-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MakroLegacyV2Example()\n```"
+    },
+    {
+      "id": "github-1317491523",
+      "title": "AssinaZap",
+      "category": "GitHub Repository",
+      "description": "Assinatura automatica nas mensagens do aplicativo nativo do WhatsApp para Windows. AutoHotkey v2, roda na bandeja, sem rede e sem telemetria.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-30T16:51:40Z",
+      "lastModified": "2026-07-30T16:55:36Z",
+      "source": "github",
+      "url": "https://github.com/ArturGabriel153/AssinaZap",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ArturGabriel153",
+      "code": "```cpp\n; ============================================\n; Repository: ArturGabriel153/AssinaZap\n; ============================================\n; URL: https://github.com/ArturGabriel153/AssinaZap\n; Stars: 0 | Forks: 0\n; Last Updated: 7/30/2026\n; License: Not specified\n;\n; Description:\n; Assinatura automatica nas mensagens do aplicativo nativo do WhatsApp para Windows. AutoHotkey v2, roda na bandeja, sem rede e sem telemetria.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ArturGabriel153/AssinaZap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ArturGabriel153/AssinaZap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AssinaZap>\n\n; Example initialization\nclass AssinazapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AssinaZap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AssinazapExample()\n```"
     }
   ]
 }
