@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-30T06:54:03.237Z",
+  "lastUpdated": "2026-07-30T12:34:58.328Z",
   "totalScripts": 421,
   "categories": [
     "GUI",
@@ -4482,13 +4482,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T11:13:40Z",
-      "lastModified": "2026-07-29T21:41:24Z",
+      "lastModified": "2026-07-30T10:43:53Z",
       "source": "github",
       "url": "https://github.com/mesutakcan/CtrlToolTip",
       "stars": 1,
       "forks": 0,
       "owner": "mesutakcan",
-      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 7/29/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 7/30/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
     },
     {
       "id": "github-1199400681",
@@ -8389,7 +8389,7 @@
       "id": "github-1314312994",
       "title": "LockBadges",
       "category": "GitHub Repository",
-      "description": "Movable, translucent on-screen indicators for Caps, Num and Scroll Lock on Windows. Place them where you actually look, size and colour them per lock, and see through them while you type. AutoHotkey v2, no keyboard hook, no telemetry.",
+      "description": "Movable, translucent on-screen indicators for Caps, Mute, Num and Scroll Lock on Windows. Place them where you actually look, size and colour them per lock, and see through them while you type. AutoHotkey v2, no keyboard hook, no telemetry.",
       "tags": [
         "github",
         "repository",
@@ -8402,13 +8402,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T22:05:25Z",
-      "lastModified": "2026-07-28T23:46:51Z",
+      "lastModified": "2026-07-30T11:58:49Z",
       "source": "github",
       "url": "https://github.com/CLochstampfor60/LockBadges",
       "stars": 1,
       "forks": 0,
       "owner": "CLochstampfor60",
-      "code": "```cpp\n; ============================================\n; Repository: CLochstampfor60/LockBadges\n; ============================================\n; URL: https://github.com/CLochstampfor60/LockBadges\n; Stars: 1 | Forks: 0\n; Last Updated: 7/28/2026\n; License: MIT License\n;\n; Description:\n; Movable, translucent on-screen indicators for Caps, Num and Scroll Lock on Windows. Place them where you actually look, size and colour them per lock, and see through them while you type. AutoHotkey v2, no keyboard hook, no telemetry.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CLochstampfor60/LockBadges.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CLochstampfor60/LockBadges/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LockBadges>\n\n; Example initialization\nclass LockbadgesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LockBadges loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LockbadgesExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CLochstampfor60/LockBadges\n; ============================================\n; URL: https://github.com/CLochstampfor60/LockBadges\n; Stars: 1 | Forks: 0\n; Last Updated: 7/30/2026\n; License: MIT License\n;\n; Description:\n; Movable, translucent on-screen indicators for Caps, Mute, Num and Scroll Lock on Windows. Place them where you actually look, size and colour them per lock, and see through them while you type. AutoHotkey v2, no keyboard hook, no telemetry.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CLochstampfor60/LockBadges.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CLochstampfor60/LockBadges/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LockBadges>\n\n; Example initialization\nclass LockbadgesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LockBadges loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LockbadgesExample()\n```"
     },
     {
       "id": "github-1314640985",
@@ -8440,13 +8440,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-29T12:23:10Z",
-      "lastModified": "2026-07-29T13:59:58Z",
+      "lastModified": "2026-07-30T12:11:25Z",
       "source": "github",
       "url": "https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher",
       "stars": 0,
       "forks": 0,
       "owner": "God-creator-of-the-universe",
-      "code": "```cpp\n; ============================================\n; Repository: God-creator-of-the-universe/GcotuAHK2Launcher\n; ============================================\n; URL: https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 7/29/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Simple fast convenient Windows app launcher/switcher using AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GcotuAHK2Launcher>\n\n; Example initialization\nclass Gcotuahk2launcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GcotuAHK2Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Gcotuahk2launcherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: God-creator-of-the-universe/GcotuAHK2Launcher\n; ============================================\n; URL: https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 7/30/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Simple fast convenient Windows app launcher/switcher using AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GcotuAHK2Launcher>\n\n; Example initialization\nclass Gcotuahk2launcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GcotuAHK2Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Gcotuahk2launcherExample()\n```"
     },
     {
       "id": "github-1003603159",
