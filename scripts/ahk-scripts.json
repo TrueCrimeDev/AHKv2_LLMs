@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-30T00:30:09.838Z",
-  "totalScripts": 420,
+  "lastUpdated": "2026-07-30T06:54:03.237Z",
+  "totalScripts": 421,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6672,13 +6672,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-07-28T07:14:56Z",
+      "lastModified": "2026-07-30T04:08:32Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "owner": "Vedette1",
-      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 3 | Forks: 0\n; Last Updated: 7/28/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 4 | Forks: 0\n; Last Updated: 7/30/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     },
     {
       "id": "github-1266742477",
@@ -7518,13 +7518,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-07T01:32:32Z",
-      "lastModified": "2026-07-22T20:51:41Z",
+      "lastModified": "2026-07-30T01:53:21Z",
       "source": "github",
       "url": "https://github.com/supersillysage/sageSanity",
       "stars": 2,
       "forks": 0,
       "owner": "supersillysage",
-      "code": "```cpp\n; ============================================\n; Repository: supersillysage/sageSanity\n; ============================================\n; URL: https://github.com/supersillysage/sageSanity\n; Stars: 2 | Forks: 0\n; Last Updated: 7/22/2026\n; License: MIT License\n;\n; Description:\n; autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/supersillysage/sageSanity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/supersillysage/sageSanity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sageSanity>\n\n; Example initialization\nclass SagesanityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sageSanity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SagesanityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: supersillysage/sageSanity\n; ============================================\n; URL: https://github.com/supersillysage/sageSanity\n; Stars: 2 | Forks: 0\n; Last Updated: 7/30/2026\n; License: MIT License\n;\n; Description:\n; autohotkey v2 macro that automatically drinks coffee in roblox animal hospital to maintain sanity while afk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/supersillysage/sageSanity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/supersillysage/sageSanity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sageSanity>\n\n; Example initialization\nclass SagesanityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sageSanity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SagesanityExample()\n```"
     },
     {
       "id": "github-998124418",
@@ -8485,6 +8485,25 @@
       "forks": 0,
       "owner": "IAMFUCKINGARCHITECT",
       "code": "```cpp\n; ============================================\n; Repository: IAMFUCKINGARCHITECT/KEY-HOLDER\n; ============================================\n; URL: https://github.com/IAMFUCKINGARCHITECT/KEY-HOLDER\n; Stars: 0 | Forks: 0\n; Last Updated: 7/29/2026\n; License: MIT License\n;\n; Description:\n; key holder that works globaly in game/app/program. requires autohotkey v2.0 to run.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/IAMFUCKINGARCHITECT/KEY-HOLDER.git\n;\n; Option 2: Download ZIP\n;   https://github.com/IAMFUCKINGARCHITECT/KEY-HOLDER/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KEY-HOLDER>\n\n; Example initialization\nclass KeyHolderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KEY-HOLDER loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyHolderExample()\n```"
+    },
+    {
+      "id": "github-1316777308",
+      "title": "makro-legacy-v2",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 of Makro (2017-2022), the original text expander this project grew out of",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-30T03:19:56Z",
+      "lastModified": "2026-07-30T03:30:19Z",
+      "source": "github",
+      "url": "https://github.com/TechHQUSA/makro-legacy-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "TechHQUSA",
+      "code": "```cpp\n; ============================================\n; Repository: TechHQUSA/makro-legacy-v2\n; ============================================\n; URL: https://github.com/TechHQUSA/makro-legacy-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/30/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; AutoHotkey v2 of Makro (2017-2022), the original text expander this project grew out of\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TechHQUSA/makro-legacy-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TechHQUSA/makro-legacy-v2/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <makro-legacy-v2>\n\n; Example initialization\nclass MakroLegacyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"makro-legacy-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MakroLegacyV2Example()\n```"
     }
   ]
 }
