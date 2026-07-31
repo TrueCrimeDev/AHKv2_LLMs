@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-31T12:39:02.055Z",
-  "totalScripts": 424,
+  "lastUpdated": "2026-07-31T18:31:08.427Z",
+  "totalScripts": 425,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4793,13 +4793,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-13T02:27:20Z",
-      "lastModified": "2026-07-04T20:20:15Z",
+      "lastModified": "2026-07-31T16:52:44Z",
       "source": "github",
       "url": "https://github.com/yuki0ueda/alt-ime-rev",
-      "stars": 3,
-      "forks": 1,
+      "stars": 4,
+      "forks": 2,
       "owner": "yuki0ueda",
-      "code": "```cpp\n; ============================================\n; Repository: yuki0ueda/alt-ime-rev\n; ============================================\n; URL: https://github.com/yuki0ueda/alt-ime-rev\n; Stars: 3 | Forks: 1\n; Last Updated: 7/4/2026\n; License: MIT License\n;\n; Description:\n; Toggle Japanese IME with Left/Right Alt key tap on Windows — AutoHotkey v2 fork of karakaram/alt-ime-ahk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yuki0ueda/alt-ime-rev.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yuki0ueda/alt-ime-rev/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-rev>\n\n; Example initialization\nclass AltImeRevExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-rev loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeRevExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yuki0ueda/alt-ime-rev\n; ============================================\n; URL: https://github.com/yuki0ueda/alt-ime-rev\n; Stars: 4 | Forks: 2\n; Last Updated: 7/31/2026\n; License: MIT License\n;\n; Description:\n; Toggle Japanese IME with Left/Right Alt key tap on Windows — AutoHotkey v2 fork of karakaram/alt-ime-ahk\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yuki0ueda/alt-ime-rev.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yuki0ueda/alt-ime-rev/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-rev>\n\n; Example initialization\nclass AltImeRevExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-rev loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeRevExample()\n```"
     },
     {
       "id": "github-853350413",
@@ -8402,13 +8402,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T22:05:25Z",
-      "lastModified": "2026-07-30T11:58:49Z",
+      "lastModified": "2026-07-31T17:48:06Z",
       "source": "github",
       "url": "https://github.com/CLochstampfor60/LockBadges",
       "stars": 1,
       "forks": 0,
       "owner": "CLochstampfor60",
-      "code": "```cpp\n; ============================================\n; Repository: CLochstampfor60/LockBadges\n; ============================================\n; URL: https://github.com/CLochstampfor60/LockBadges\n; Stars: 1 | Forks: 0\n; Last Updated: 7/30/2026\n; License: MIT License\n;\n; Description:\n; Movable, translucent on-screen indicators for Caps, Mute, Num and Scroll Lock on Windows. Place them where you actually look, size and colour them per lock, and see through them while you type. AutoHotkey v2, no keyboard hook, no telemetry.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CLochstampfor60/LockBadges.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CLochstampfor60/LockBadges/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LockBadges>\n\n; Example initialization\nclass LockbadgesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LockBadges loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LockbadgesExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CLochstampfor60/LockBadges\n; ============================================\n; URL: https://github.com/CLochstampfor60/LockBadges\n; Stars: 1 | Forks: 0\n; Last Updated: 7/31/2026\n; License: MIT License\n;\n; Description:\n; Movable, translucent on-screen indicators for Caps, Mute, Num and Scroll Lock on Windows. Place them where you actually look, size and colour them per lock, and see through them while you type. AutoHotkey v2, no keyboard hook, no telemetry.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CLochstampfor60/LockBadges.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CLochstampfor60/LockBadges/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LockBadges>\n\n; Example initialization\nclass LockbadgesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LockBadges loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LockbadgesExample()\n```"
     },
     {
       "id": "github-1314640985",
@@ -8561,6 +8561,25 @@
       "forks": 0,
       "owner": "realSilasYang",
       "code": "```cpp\n; ============================================\n; Repository: realSilasYang/key-mouse-remapper-assistant\n; ============================================\n; URL: https://github.com/realSilasYang/key-mouse-remapper-assistant\n; Stars: 1 | Forks: 0\n; Last Updated: 7/31/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射小助手\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/realSilasYang/key-mouse-remapper-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/realSilasYang/key-mouse-remapper-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <key-mouse-remapper-assistant>\n\n; Example initialization\nclass KeyMouseRemapperAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"key-mouse-remapper-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyMouseRemapperAssistantExample()\n```"
+    },
+    {
+      "id": "github-1318618243",
+      "title": "chatgpt-manager-autohotkey",
+      "category": "GitHub Repository",
+      "description": "A customizable AutoHotkey v2 manager for the ChatGPT PWA with hotkeys, window management, multi-window support, persistent state, and configurable behavior.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-31T17:56:13Z",
+      "lastModified": "2026-07-31T18:05:28Z",
+      "source": "github",
+      "url": "https://github.com/muhammed-shadil-dev/chatgpt-manager-autohotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "muhammed-shadil-dev",
+      "code": "```cpp\n; ============================================\n; Repository: muhammed-shadil-dev/chatgpt-manager-autohotkey\n; ============================================\n; URL: https://github.com/muhammed-shadil-dev/chatgpt-manager-autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 7/31/2026\n; License: MIT License\n;\n; Description:\n; A customizable AutoHotkey v2 manager for the ChatGPT PWA with hotkeys, window management, multi-window support, persistent state, and configurable behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/muhammed-shadil-dev/chatgpt-manager-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/muhammed-shadil-dev/chatgpt-manager-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chatgpt-manager-autohotkey>\n\n; Example initialization\nclass ChatgptManagerAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chatgpt-manager-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChatgptManagerAutohotkeyExample()\n```"
     }
   ]
 }
