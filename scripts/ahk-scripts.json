@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-30T18:30:41.032Z",
-  "totalScripts": 422,
+  "lastUpdated": "2026-07-31T00:33:42.387Z",
+  "totalScripts": 424,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-07-26T13:18:33Z",
+      "lastModified": "2026-07-30T22:36:00Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 52,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 52 | Forks: 8\n; Last Updated: 7/26/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 52 | Forks: 8\n; Last Updated: 7/30/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -8459,13 +8459,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-06-17T11:50:51Z",
-      "lastModified": "2026-07-29T18:02:02Z",
+      "lastModified": "2026-07-31T00:09:37Z",
       "source": "github",
       "url": "https://github.com/Nyaldee/AutoHotkey-qwerty-french",
       "stars": 0,
       "forks": 0,
       "owner": "Nyaldee",
-      "code": "```cpp\n; ============================================\n; Repository: Nyaldee/AutoHotkey-qwerty-french\n; ============================================\n; URL: https://github.com/Nyaldee/AutoHotkey-qwerty-french\n; Stars: 0 | Forks: 0\n; Last Updated: 7/29/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script adding a French accented-character layer on a physical QWERTY keyboard, plus general Windows shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nyaldee/AutoHotkey-qwerty-french.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nyaldee/AutoHotkey-qwerty-french/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-qwerty-french>\n\n; Example initialization\nclass AutohotkeyQwertyFrenchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-qwerty-french loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyQwertyFrenchExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nyaldee/AutoHotkey-qwerty-french\n; ============================================\n; URL: https://github.com/Nyaldee/AutoHotkey-qwerty-french\n; Stars: 0 | Forks: 0\n; Last Updated: 7/31/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script adding a French accented-character layer on a physical QWERTY keyboard, plus general Windows shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nyaldee/AutoHotkey-qwerty-french.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nyaldee/AutoHotkey-qwerty-french/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-qwerty-french>\n\n; Example initialization\nclass AutohotkeyQwertyFrenchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-qwerty-french loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyQwertyFrenchExample()\n```"
     },
     {
       "id": "github-1316396622",
@@ -8523,6 +8523,44 @@
       "forks": 0,
       "owner": "ArturGabriel153",
       "code": "```cpp\n; ============================================\n; Repository: ArturGabriel153/AssinaZap\n; ============================================\n; URL: https://github.com/ArturGabriel153/AssinaZap\n; Stars: 0 | Forks: 0\n; Last Updated: 7/30/2026\n; License: Not specified\n;\n; Description:\n; Assinatura automatica nas mensagens do aplicativo nativo do WhatsApp para Windows. AutoHotkey v2, roda na bandeja, sem rede e sem telemetria.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ArturGabriel153/AssinaZap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ArturGabriel153/AssinaZap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AssinaZap>\n\n; Example initialization\nclass AssinazapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AssinaZap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AssinazapExample()\n```"
+    },
+    {
+      "id": "github-1317735253",
+      "title": "prisoln-life-glicht-script-help-from-klosai-need-autohotkey-v2",
+      "category": "GitHub Repository",
+      "description": "its an app/scrupt where you can glich in prionl ife its an macro but you need autohotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-30T22:43:07Z",
+      "lastModified": "2026-07-30T22:47:22Z",
+      "source": "github",
+      "url": "https://github.com/x0xblackk/prisoln-life-glicht-script-help-from-klosai-need-autohotkey-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "x0xblackk",
+      "code": "```cpp\n; ============================================\n; Repository: x0xblackk/prisoln-life-glicht-script-help-from-klosai-need-autohotkey-v2\n; ============================================\n; URL: https://github.com/x0xblackk/prisoln-life-glicht-script-help-from-klosai-need-autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/30/2026\n; License: Not specified\n;\n; Description:\n; its an app/scrupt where you can glich in prionl ife its an macro but you need autohotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/x0xblackk/prisoln-life-glicht-script-help-from-klosai-need-autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/x0xblackk/prisoln-life-glicht-script-help-from-klosai-need-autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <prisoln-life-glicht-script-help-from-klosai-need-autohotkey-v2>\n\n; Example initialization\nclass PrisolnLifeGlichtScriptHelpFromKlosaiNeedAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"prisoln-life-glicht-script-help-from-klosai-need-autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PrisolnLifeGlichtScriptHelpFromKlosaiNeedAutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-1317609827",
+      "title": "key-mouse-remapper-assistant",
+      "category": "GitHub Repository",
+      "description": "基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射小助手",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-30T19:18:58Z",
+      "lastModified": "2026-07-30T21:22:57Z",
+      "source": "github",
+      "url": "https://github.com/realSilasYang/key-mouse-remapper-assistant",
+      "stars": 0,
+      "forks": 0,
+      "owner": "realSilasYang",
+      "code": "```cpp\n; ============================================\n; Repository: realSilasYang/key-mouse-remapper-assistant\n; ============================================\n; URL: https://github.com/realSilasYang/key-mouse-remapper-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 7/30/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射小助手\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/realSilasYang/key-mouse-remapper-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/realSilasYang/key-mouse-remapper-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <key-mouse-remapper-assistant>\n\n; Example initialization\nclass KeyMouseRemapperAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"key-mouse-remapper-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyMouseRemapperAssistantExample()\n```"
     }
   ]
 }
