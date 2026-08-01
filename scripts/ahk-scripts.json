@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-07-31T18:31:08.427Z",
+  "lastUpdated": "2026-08-01T00:32:45.691Z",
   "totalScripts": 425,
   "categories": [
     "GUI",
@@ -3091,17 +3091,22 @@
       "description": "SuperEdit is a feature-rich wrapper for the standard AutoHotkey v2 Edit control.",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "ahk",
+        "autohotkey",
+        "class",
+        "control",
+        "superedit"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-22T08:10:08Z",
-      "lastModified": "2026-05-16T15:38:29Z",
+      "lastModified": "2026-07-31T21:20:34Z",
       "source": "github",
       "url": "https://github.com/mesutakcan/SuperEdit-Control",
       "stars": 0,
       "forks": 0,
       "owner": "mesutakcan",
-      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/SuperEdit-Control\n; ============================================\n; URL: https://github.com/mesutakcan/SuperEdit-Control\n; Stars: 0 | Forks: 0\n; Last Updated: 5/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; SuperEdit is a feature-rich wrapper for the standard AutoHotkey v2 Edit control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/SuperEdit-Control.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/SuperEdit-Control/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperEdit-Control>\n\n; Example initialization\nclass SupereditControlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperEdit-Control loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupereditControlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/SuperEdit-Control\n; ============================================\n; URL: https://github.com/mesutakcan/SuperEdit-Control\n; Stars: 0 | Forks: 0\n; Last Updated: 7/31/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; SuperEdit is a feature-rich wrapper for the standard AutoHotkey v2 Edit control.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/SuperEdit-Control.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/SuperEdit-Control/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SuperEdit-Control>\n\n; Example initialization\nclass SupereditControlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SuperEdit-Control loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SupereditControlExample()\n```"
     },
     {
       "id": "github-1165234778",
@@ -8564,7 +8569,7 @@
     },
     {
       "id": "github-1318618243",
-      "title": "chatgpt-manager-autohotkey",
+      "title": "chatgpt-manager",
       "category": "GitHub Repository",
       "description": "A customizable AutoHotkey v2 manager for the ChatGPT PWA with hotkeys, window management, multi-window support, persistent state, and configurable behavior.",
       "tags": [
@@ -8573,13 +8578,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-31T17:56:13Z",
-      "lastModified": "2026-07-31T18:05:28Z",
+      "lastModified": "2026-07-31T18:56:22Z",
       "source": "github",
-      "url": "https://github.com/muhammed-shadil-dev/chatgpt-manager-autohotkey",
-      "stars": 0,
+      "url": "https://github.com/muhammed-shadil-dev/chatgpt-manager",
+      "stars": 1,
       "forks": 0,
       "owner": "muhammed-shadil-dev",
-      "code": "```cpp\n; ============================================\n; Repository: muhammed-shadil-dev/chatgpt-manager-autohotkey\n; ============================================\n; URL: https://github.com/muhammed-shadil-dev/chatgpt-manager-autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 7/31/2026\n; License: MIT License\n;\n; Description:\n; A customizable AutoHotkey v2 manager for the ChatGPT PWA with hotkeys, window management, multi-window support, persistent state, and configurable behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/muhammed-shadil-dev/chatgpt-manager-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/muhammed-shadil-dev/chatgpt-manager-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chatgpt-manager-autohotkey>\n\n; Example initialization\nclass ChatgptManagerAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chatgpt-manager-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChatgptManagerAutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: muhammed-shadil-dev/chatgpt-manager\n; ============================================\n; URL: https://github.com/muhammed-shadil-dev/chatgpt-manager\n; Stars: 1 | Forks: 0\n; Last Updated: 7/31/2026\n; License: MIT License\n;\n; Description:\n; A customizable AutoHotkey v2 manager for the ChatGPT PWA with hotkeys, window management, multi-window support, persistent state, and configurable behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/muhammed-shadil-dev/chatgpt-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/muhammed-shadil-dev/chatgpt-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chatgpt-manager>\n\n; Example initialization\nclass ChatgptManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chatgpt-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChatgptManagerExample()\n```"
     }
   ]
 }
