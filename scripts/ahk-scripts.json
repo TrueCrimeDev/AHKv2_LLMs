@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-01T00:32:45.691Z",
-  "totalScripts": 425,
+  "lastUpdated": "2026-08-01T06:51:02.295Z",
+  "totalScripts": 426,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8585,6 +8585,25 @@
       "forks": 0,
       "owner": "muhammed-shadil-dev",
       "code": "```cpp\n; ============================================\n; Repository: muhammed-shadil-dev/chatgpt-manager\n; ============================================\n; URL: https://github.com/muhammed-shadil-dev/chatgpt-manager\n; Stars: 1 | Forks: 0\n; Last Updated: 7/31/2026\n; License: MIT License\n;\n; Description:\n; A customizable AutoHotkey v2 manager for the ChatGPT PWA with hotkeys, window management, multi-window support, persistent state, and configurable behavior.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/muhammed-shadil-dev/chatgpt-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/muhammed-shadil-dev/chatgpt-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <chatgpt-manager>\n\n; Example initialization\nclass ChatgptManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"chatgpt-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ChatgptManagerExample()\n```"
+    },
+    {
+      "id": "github-1318979259",
+      "title": "autohotkey-scripts",
+      "category": "GitHub Repository",
+      "description": "Personal collection of AutoHotkey v2 scripts for Windows automation",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-01T04:58:50Z",
+      "lastModified": "2026-08-01T04:59:05Z",
+      "source": "github",
+      "url": "https://github.com/VoxNut/autohotkey-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "VoxNut",
+      "code": "```cpp\n; ============================================\n; Repository: VoxNut/autohotkey-scripts\n; ============================================\n; URL: https://github.com/VoxNut/autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 8/1/2026\n; License: Not specified\n;\n; Description:\n; Personal collection of AutoHotkey v2 scripts for Windows automation\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VoxNut/autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VoxNut/autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
     }
   ]
 }
