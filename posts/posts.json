@@ -1,5 +1,21 @@
 [
  {
+  "slug": "ahk-harness-graph",
+  "title": "The Grading Graph: One Rule, Four Tiers, and 47 Scripts That Quietly Did Nothing",
+  "preview_title": "The Harness Graph — and the Silent Bug It Found in 47 Scripts",
+  "date": "2026-08-02",
+  "description": "The grading harness behind the benchmarks, drawn in full: four gated tiers, one shared resource that forces the live-input tier to run serially, and a checker whose only job is discarding untrustworthy evidence. Pointed at the 159-script AHK-Eval corpus it found 49 files that will not load and 47 that load perfectly and silently do nothing — Clipboard := text is v1, so in v2 the copy never happens. Two fixes to CodeIntel cut the noise 45% while raising the count of scripts with a real defect from 1 to 48.",
+  "preview": "A dependency graph, a shim that shadows the built-ins, and a clipboard benchmark full of scripts that cannot copy.",
+  "tags": [
+   "Harness",
+   "Benchmark",
+   "Tooling",
+   "AHK-Eval",
+   "Static Analysis"
+  ],
+  "path": "posts/ahk-harness-graph.md"
+ },
+ {
   "slug": "opus-5-clipboard-bench",
   "title": "Opus 5 Under the Live Harness: The First 100",
   "preview_title": "Opus 5 Takes the Clipboard Board's First Perfect Score",
