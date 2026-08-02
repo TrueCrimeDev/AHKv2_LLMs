@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-02T12:23:12.780Z",
-  "totalScripts": 426,
+  "lastUpdated": "2026-08-02T18:20:44.041Z",
+  "totalScripts": 430,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -3715,13 +3715,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-13T21:16:59Z",
-      "lastModified": "2026-04-07T19:34:04Z",
+      "lastModified": "2026-08-02T15:20:00Z",
       "source": "github",
       "url": "https://github.com/armaninyow/Clipboard-Plus",
       "stars": 2,
       "forks": 0,
       "owner": "armaninyow",
-      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Clipboard-Plus\n; ============================================\n; URL: https://github.com/armaninyow/Clipboard-Plus\n; Stars: 2 | Forks: 0\n; Last Updated: 4/7/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Clipboard-Plus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Clipboard-Plus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Plus>\n\n; Example initialization\nclass ClipboardPlusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Plus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardPlusExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: armaninyow/Clipboard-Plus\n; ============================================\n; URL: https://github.com/armaninyow/Clipboard-Plus\n; Stars: 2 | Forks: 0\n; Last Updated: 8/2/2026\n; License: Creative Commons Zero v1.0 Universal\n;\n; Description:\n; Built with AutoHotkey v2 and developed with the assistance of Claude AI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/armaninyow/Clipboard-Plus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/armaninyow/Clipboard-Plus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Plus>\n\n; Example initialization\nclass ClipboardPlusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Plus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardPlusExample()\n```"
     },
     {
       "id": "github-1181511326",
@@ -8604,6 +8604,82 @@
       "forks": 0,
       "owner": "VoxNut",
       "code": "```cpp\n; ============================================\n; Repository: VoxNut/autohotkey-scripts\n; ============================================\n; URL: https://github.com/VoxNut/autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 8/1/2026\n; License: Not specified\n;\n; Description:\n; Personal collection of AutoHotkey v2 scripts for Windows automation\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VoxNut/autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VoxNut/autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
+    },
+    {
+      "id": "github-1320458880",
+      "title": "monitor-control-script",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey v2 script for Windows to seamlessly switch input sources and adjust external monitor brightness with a custom OSD, powered by NirSoft ControlMyMonitor DDC/CI commands.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-02T17:56:38Z",
+      "lastModified": "2026-08-02T18:01:58Z",
+      "source": "github",
+      "url": "https://github.com/Relativestein/monitor-control-script",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Relativestein",
+      "code": "```cpp\n; ============================================\n; Repository: Relativestein/monitor-control-script\n; ============================================\n; URL: https://github.com/Relativestein/monitor-control-script\n; Stars: 0 | Forks: 0\n; Last Updated: 8/2/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 script for Windows to seamlessly switch input sources and adjust external monitor brightness with a custom OSD, powered by NirSoft ControlMyMonitor DDC/CI commands.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Relativestein/monitor-control-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Relativestein/monitor-control-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <monitor-control-script>\n\n; Example initialization\nclass MonitorControlScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"monitor-control-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MonitorControlScriptExample()\n```"
+    },
+    {
+      "id": "github-1320373193",
+      "title": "ClipStepper",
+      "category": "GitHub Repository",
+      "description": "Navigate tabular data cell-by-cell with clipboard automation. Built with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-02T16:23:05Z",
+      "lastModified": "2026-08-02T16:48:24Z",
+      "source": "github",
+      "url": "https://github.com/bceenaeiklmr/ClipStepper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "bceenaeiklmr",
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/ClipStepper\n; ============================================\n; URL: https://github.com/bceenaeiklmr/ClipStepper\n; Stars: 0 | Forks: 0\n; Last Updated: 8/2/2026\n; License: MIT License\n;\n; Description:\n; Navigate tabular data cell-by-cell with clipboard automation. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/ClipStepper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/ClipStepper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipStepper>\n\n; Example initialization\nclass ClipstepperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipStepper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipstepperExample()\n```"
+    },
+    {
+      "id": "github-1320213658",
+      "title": "typewriter-plugin",
+      "category": "GitHub Repository",
+      "description": "A lightweight AutoHotkey v2 tool that types clipboard text character by character, simulating real human typing.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-02T13:30:41Z",
+      "lastModified": "2026-08-02T15:51:38Z",
+      "source": "github",
+      "url": "https://github.com/new11151/typewriter-plugin",
+      "stars": 1,
+      "forks": 0,
+      "owner": "new11151",
+      "code": "```cpp\n; ============================================\n; Repository: new11151/typewriter-plugin\n; ============================================\n; URL: https://github.com/new11151/typewriter-plugin\n; Stars: 1 | Forks: 0\n; Last Updated: 8/2/2026\n; License: Not specified\n;\n; Description:\n; A lightweight AutoHotkey v2 tool that types clipboard text character by character, simulating real human typing.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/new11151/typewriter-plugin.git\n;\n; Option 2: Download ZIP\n;   https://github.com/new11151/typewriter-plugin/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <typewriter-plugin>\n\n; Example initialization\nclass TypewriterPluginExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"typewriter-plugin loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TypewriterPluginExample()\n```"
+    },
+    {
+      "id": "github-1320315801",
+      "title": "data-registration-automation",
+      "category": "GitHub Repository",
+      "description": "Automating the registration of materials in a web application using AutoHotkey v2, utilizing arrays, keyboard sequences, timeouts, and automatic navigation.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-02T15:29:00Z",
+      "lastModified": "2026-08-02T15:31:36Z",
+      "source": "github",
+      "url": "https://github.com/smarchena/data-registration-automation",
+      "stars": 0,
+      "forks": 0,
+      "owner": "smarchena",
+      "code": "```cpp\n; ============================================\n; Repository: smarchena/data-registration-automation\n; ============================================\n; URL: https://github.com/smarchena/data-registration-automation\n; Stars: 0 | Forks: 0\n; Last Updated: 8/2/2026\n; License: Not specified\n;\n; Description:\n; Automating the registration of materials in a web application using AutoHotkey v2, utilizing arrays, keyboard sequences, timeouts, and automatic navigation.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smarchena/data-registration-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smarchena/data-registration-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <data-registration-automation>\n\n; Example initialization\nclass DataRegistrationAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"data-registration-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DataRegistrationAutomationExample()\n```"
     }
   ]
 }
