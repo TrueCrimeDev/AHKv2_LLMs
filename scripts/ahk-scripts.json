@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-03T07:09:03.330Z",
-  "totalScripts": 431,
+  "lastUpdated": "2026-08-03T13:03:33.236Z",
+  "totalScripts": 432,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4925,13 +4925,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-08-01T12:21:07Z",
+      "lastModified": "2026-08-03T09:49:22Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 9,
       "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 9 | Forks: 3\n; Last Updated: 8/1/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 9 | Forks: 3\n; Last Updated: 8/3/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -5755,13 +5755,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T13:37:08Z",
-      "lastModified": "2026-07-20T15:33:30Z",
+      "lastModified": "2026-08-03T12:34:51Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_My_libs",
       "stars": 1,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_My_libs\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_My_libs\n; Stars: 1 | Forks: 0\n; Last Updated: 7/20/2026\n; License: MIT License\n;\n; Description:\n; An advanced mouse click handler for AutoHotkey v2.0. It manages short clicks, double clicks, and button holds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_My_libs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_My_libs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_My_libs>\n\n; Example initialization\nclass Ahk2MyLibsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_My_libs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2MyLibsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_My_libs\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_My_libs\n; Stars: 1 | Forks: 0\n; Last Updated: 8/3/2026\n; License: MIT License\n;\n; Description:\n; An advanced mouse click handler for AutoHotkey v2.0. It manages short clicks, double clicks, and button holds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_My_libs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_My_libs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_My_libs>\n\n; Example initialization\nclass Ahk2MyLibsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_My_libs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2MyLibsExample()\n```"
     },
     {
       "id": "github-1241836157",
@@ -8699,6 +8699,25 @@
       "forks": 0,
       "owner": "anodizzed",
       "code": "```cpp\n; ============================================\n; Repository: anodizzed/open-path-folder\n; ============================================\n; URL: https://github.com/anodizzed/open-path-folder\n; Stars: 0 | Forks: 0\n; Last Updated: 8/3/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 utility that opens the folder for a selected Windows path in File Explorer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/anodizzed/open-path-folder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/anodizzed/open-path-folder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <open-path-folder>\n\n; Example initialization\nclass OpenPathFolderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"open-path-folder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OpenPathFolderExample()\n```"
+    },
+    {
+      "id": "github-66622218",
+      "title": "UrlDownload",
+      "category": "GitHub Repository",
+      "description": "An AutoHotKey v1 & v2 library for downloading url files",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2016-08-26T06:23:25Z",
+      "lastModified": "2026-08-03T10:03:45Z",
+      "source": "github",
+      "url": "https://github.com/Fooly-Cooly/UrlDownload",
+      "stars": 1,
+      "forks": 0,
+      "owner": "Fooly-Cooly",
+      "code": "```cpp\n; ============================================\n; Repository: Fooly-Cooly/UrlDownload\n; ============================================\n; URL: https://github.com/Fooly-Cooly/UrlDownload\n; Stars: 1 | Forks: 0\n; Last Updated: 8/3/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An AutoHotKey v1 & v2 library for downloading url files\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Fooly-Cooly/UrlDownload.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Fooly-Cooly/UrlDownload/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UrlDownload>\n\n; Example initialization\nclass UrldownloadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UrlDownload loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UrldownloadExample()\n```"
     }
   ]
 }
