@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-03T00:33:49.509Z",
-  "totalScripts": 430,
+  "lastUpdated": "2026-08-03T07:09:03.330Z",
+  "totalScripts": 431,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8680,6 +8680,25 @@
       "forks": 0,
       "owner": "smarchena",
       "code": "```cpp\n; ============================================\n; Repository: smarchena/data-registration-automation\n; ============================================\n; URL: https://github.com/smarchena/data-registration-automation\n; Stars: 0 | Forks: 0\n; Last Updated: 8/2/2026\n; License: Not specified\n;\n; Description:\n; Automating the registration of materials in a web application using AutoHotkey v2, utilizing arrays, keyboard sequences, timeouts, and automatic navigation.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smarchena/data-registration-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smarchena/data-registration-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <data-registration-automation>\n\n; Example initialization\nclass DataRegistrationAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"data-registration-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DataRegistrationAutomationExample()\n```"
+    },
+    {
+      "id": "github-1321191957",
+      "title": "open-path-folder",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 utility that opens the folder for a selected Windows path in File Explorer",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-03T04:03:16Z",
+      "lastModified": "2026-08-03T04:07:44Z",
+      "source": "github",
+      "url": "https://github.com/anodizzed/open-path-folder",
+      "stars": 0,
+      "forks": 0,
+      "owner": "anodizzed",
+      "code": "```cpp\n; ============================================\n; Repository: anodizzed/open-path-folder\n; ============================================\n; URL: https://github.com/anodizzed/open-path-folder\n; Stars: 0 | Forks: 0\n; Last Updated: 8/3/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 utility that opens the folder for a selected Windows path in File Explorer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/anodizzed/open-path-folder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/anodizzed/open-path-folder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <open-path-folder>\n\n; Example initialization\nclass OpenPathFolderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"open-path-folder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OpenPathFolderExample()\n```"
     }
   ]
 }
