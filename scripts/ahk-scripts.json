@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-03T13:03:33.236Z",
-  "totalScripts": 432,
+  "lastUpdated": "2026-08-03T18:35:29.134Z",
+  "totalScripts": 433,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5675,13 +5675,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-13T20:25:58Z",
-      "lastModified": "2026-05-22T16:47:38Z",
+      "lastModified": "2026-08-03T18:12:40Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 5/22/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 8/3/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
     },
     {
       "id": "github-1240637987",
@@ -8635,13 +8635,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-02T16:23:05Z",
-      "lastModified": "2026-08-02T23:50:44Z",
+      "lastModified": "2026-08-03T16:32:51Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/ClipStepper",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/ClipStepper\n; ============================================\n; URL: https://github.com/bceenaeiklmr/ClipStepper\n; Stars: 2 | Forks: 0\n; Last Updated: 8/2/2026\n; License: MIT License\n;\n; Description:\n; Navigate tabular data cell-by-cell with clipboard automation. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/ClipStepper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/ClipStepper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipStepper>\n\n; Example initialization\nclass ClipstepperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipStepper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipstepperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/ClipStepper\n; ============================================\n; URL: https://github.com/bceenaeiklmr/ClipStepper\n; Stars: 3 | Forks: 0\n; Last Updated: 8/3/2026\n; License: MIT License\n;\n; Description:\n; Navigate tabular data cell-by-cell with clipboard automation. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/ClipStepper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/ClipStepper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipStepper>\n\n; Example initialization\nclass ClipstepperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipStepper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipstepperExample()\n```"
     },
     {
       "id": "github-1320213658",
@@ -8718,6 +8718,25 @@
       "forks": 0,
       "owner": "Fooly-Cooly",
       "code": "```cpp\n; ============================================\n; Repository: Fooly-Cooly/UrlDownload\n; ============================================\n; URL: https://github.com/Fooly-Cooly/UrlDownload\n; Stars: 1 | Forks: 0\n; Last Updated: 8/3/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An AutoHotKey v1 & v2 library for downloading url files\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Fooly-Cooly/UrlDownload.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Fooly-Cooly/UrlDownload/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UrlDownload>\n\n; Example initialization\nclass UrldownloadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UrlDownload loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UrldownloadExample()\n```"
+    },
+    {
+      "id": "github-1321799123",
+      "title": "Windows-display-desktop-background-filename-on-each-active-screen",
+      "category": "GitHub Repository",
+      "description": "Windows Display Desktop Background Filename on Each Active Screen A lightweight AutoHotkey v2 utility that shows the current wallpaper filename on every active monitor in Windows. ",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-03T13:12:49Z",
+      "lastModified": "2026-08-03T13:15:14Z",
+      "source": "github",
+      "url": "https://github.com/mixedmsgs/Windows-display-desktop-background-filename-on-each-active-screen",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mixedmsgs",
+      "code": "```cpp\n; ============================================\n; Repository: mixedmsgs/Windows-display-desktop-background-filename-on-each-active-screen\n; ============================================\n; URL: https://github.com/mixedmsgs/Windows-display-desktop-background-filename-on-each-active-screen\n; Stars: 0 | Forks: 0\n; Last Updated: 8/3/2026\n; License: MIT License\n;\n; Description:\n; Windows Display Desktop Background Filename on Each Active Screen A lightweight AutoHotkey v2 utility that shows the current wallpaper filename on every active monitor in Windows. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mixedmsgs/Windows-display-desktop-background-filename-on-each-active-screen.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mixedmsgs/Windows-display-desktop-background-filename-on-each-active-screen/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows-display-desktop-background-filename-on-each-active-screen>\n\n; Example initialization\nclass WindowsDisplayDesktopBackgroundFilenameOnEachActiveScreenExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows-display-desktop-background-filename-on-each-active-screen loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsDisplayDesktopBackgroundFilenameOnEachActiveScreenExample()\n```"
     }
   ]
 }
