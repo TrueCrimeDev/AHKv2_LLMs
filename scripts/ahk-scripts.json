@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-04T00:32:55.261Z",
-  "totalScripts": 433,
+  "lastUpdated": "2026-08-04T06:53:04.689Z",
+  "totalScripts": 434,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8737,6 +8737,25 @@
       "forks": 0,
       "owner": "mixedmsgs",
       "code": "```cpp\n; ============================================\n; Repository: mixedmsgs/Windows-display-desktop-background-filename-on-each-active-screen\n; ============================================\n; URL: https://github.com/mixedmsgs/Windows-display-desktop-background-filename-on-each-active-screen\n; Stars: 0 | Forks: 0\n; Last Updated: 8/3/2026\n; License: MIT License\n;\n; Description:\n; Windows Display Desktop Background Filename on Each Active Screen A lightweight AutoHotkey v2 utility that shows the current wallpaper filename on every active monitor in Windows. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mixedmsgs/Windows-display-desktop-background-filename-on-each-active-screen.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mixedmsgs/Windows-display-desktop-background-filename-on-each-active-screen/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows-display-desktop-background-filename-on-each-active-screen>\n\n; Example initialization\nclass WindowsDisplayDesktopBackgroundFilenameOnEachActiveScreenExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows-display-desktop-background-filename-on-each-active-screen loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsDisplayDesktopBackgroundFilenameOnEachActiveScreenExample()\n```"
+    },
+    {
+      "id": "github-1322601178",
+      "title": "EasySanskrit-AutoHotkey",
+      "category": "GitHub Repository",
+      "description": "A simple AutoHotkey v2 script for typing romanized Sanskrit",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-04T06:33:54Z",
+      "lastModified": "2026-08-04T06:47:35Z",
+      "source": "github",
+      "url": "https://github.com/takawaji/EasySanskrit-AutoHotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "takawaji",
+      "code": "```cpp\n; ============================================\n; Repository: takawaji/EasySanskrit-AutoHotkey\n; ============================================\n; URL: https://github.com/takawaji/EasySanskrit-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/4/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script for typing romanized Sanskrit\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/takawaji/EasySanskrit-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/takawaji/EasySanskrit-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasySanskrit-AutoHotkey>\n\n; Example initialization\nclass EasysanskritAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasySanskrit-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasysanskritAutohotkeyExample()\n```"
     }
   ]
 }
