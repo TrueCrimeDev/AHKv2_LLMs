@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-04T18:32:25.885Z",
+  "lastUpdated": "2026-08-05T02:07:14.581Z",
   "totalScripts": 434,
   "categories": [
     "GUI",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-08-04T16:17:19Z",
+      "lastModified": "2026-08-04T23:41:32Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 2,
@@ -8214,13 +8214,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-25T05:18:28Z",
-      "lastModified": "2026-08-01T20:10:27Z",
+      "lastModified": "2026-08-04T18:49:53Z",
       "source": "github",
       "url": "https://github.com/ericfmyers/LCARS.ahk",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "ericfmyers",
-      "code": "```cpp\n; ============================================\n; Repository: ericfmyers/LCARS.ahk\n; ============================================\n; URL: https://github.com/ericfmyers/LCARS.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 8/1/2026\n; License: MIT License\n;\n; Description:\n; A fully responsive, modular Star Trek LCARS terminal interface and desktop environment manager for Windows built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ericfmyers/LCARS.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ericfmyers/LCARS.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LCARS.ahk>\n\n; Example initialization\nclass Lcars.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LCARS.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Lcars.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ericfmyers/LCARS.ahk\n; ============================================\n; URL: https://github.com/ericfmyers/LCARS.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 8/4/2026\n; License: MIT License\n;\n; Description:\n; A fully responsive, modular Star Trek LCARS terminal interface and desktop environment manager for Windows built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ericfmyers/LCARS.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ericfmyers/LCARS.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LCARS.ahk>\n\n; Example initialization\nclass Lcars.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LCARS.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Lcars.ahkExample()\n```"
     },
     {
       "id": "github-1311846508",
@@ -8635,13 +8635,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-02T16:23:05Z",
-      "lastModified": "2026-08-03T16:32:51Z",
+      "lastModified": "2026-08-04T20:05:07Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/ClipStepper",
-      "stars": 3,
-      "forks": 0,
+      "stars": 4,
+      "forks": 1,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/ClipStepper\n; ============================================\n; URL: https://github.com/bceenaeiklmr/ClipStepper\n; Stars: 3 | Forks: 0\n; Last Updated: 8/3/2026\n; License: MIT License\n;\n; Description:\n; Navigate tabular data cell-by-cell with clipboard automation. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/ClipStepper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/ClipStepper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipStepper>\n\n; Example initialization\nclass ClipstepperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipStepper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipstepperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/ClipStepper\n; ============================================\n; URL: https://github.com/bceenaeiklmr/ClipStepper\n; Stars: 4 | Forks: 1\n; Last Updated: 8/4/2026\n; License: MIT License\n;\n; Description:\n; Navigate tabular data cell-by-cell with clipboard automation. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/ClipStepper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/ClipStepper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipStepper>\n\n; Example initialization\nclass ClipstepperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipStepper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipstepperExample()\n```"
     },
     {
       "id": "github-1320213658",
