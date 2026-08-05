@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-05T02:07:14.581Z",
+  "lastUpdated": "2026-08-05T08:29:10.375Z",
   "totalScripts": 434,
   "categories": [
     "GUI",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-04T14:25:45Z",
+      "lastModified": "2026-08-05T06:26:41Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 8/4/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 8/5/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -5675,13 +5675,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-13T20:25:58Z",
-      "lastModified": "2026-08-03T18:12:40Z",
+      "lastModified": "2026-08-05T08:02:41Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 8/3/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 8/5/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
     },
     {
       "id": "github-1240637987",
@@ -8635,13 +8635,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-02T16:23:05Z",
-      "lastModified": "2026-08-04T20:05:07Z",
+      "lastModified": "2026-08-05T07:26:21Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/ClipStepper",
-      "stars": 4,
+      "stars": 5,
       "forks": 1,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/ClipStepper\n; ============================================\n; URL: https://github.com/bceenaeiklmr/ClipStepper\n; Stars: 4 | Forks: 1\n; Last Updated: 8/4/2026\n; License: MIT License\n;\n; Description:\n; Navigate tabular data cell-by-cell with clipboard automation. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/ClipStepper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/ClipStepper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipStepper>\n\n; Example initialization\nclass ClipstepperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipStepper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipstepperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/ClipStepper\n; ============================================\n; URL: https://github.com/bceenaeiklmr/ClipStepper\n; Stars: 5 | Forks: 1\n; Last Updated: 8/5/2026\n; License: MIT License\n;\n; Description:\n; Navigate tabular data cell-by-cell with clipboard automation. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/ClipStepper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/ClipStepper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipStepper>\n\n; Example initialization\nclass ClipstepperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipStepper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipstepperExample()\n```"
     },
     {
       "id": "github-1320213658",
@@ -8749,13 +8749,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-04T06:33:54Z",
-      "lastModified": "2026-08-04T06:56:59Z",
+      "lastModified": "2026-08-05T05:05:07Z",
       "source": "github",
       "url": "https://github.com/takawaji/EasySanskrit-AutoHotkey",
       "stars": 0,
       "forks": 0,
       "owner": "takawaji",
-      "code": "```cpp\n; ============================================\n; Repository: takawaji/EasySanskrit-AutoHotkey\n; ============================================\n; URL: https://github.com/takawaji/EasySanskrit-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/4/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script for typing romanized Sanskrit\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/takawaji/EasySanskrit-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/takawaji/EasySanskrit-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasySanskrit-AutoHotkey>\n\n; Example initialization\nclass EasysanskritAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasySanskrit-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasysanskritAutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: takawaji/EasySanskrit-AutoHotkey\n; ============================================\n; URL: https://github.com/takawaji/EasySanskrit-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/5/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script for typing romanized Sanskrit\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/takawaji/EasySanskrit-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/takawaji/EasySanskrit-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasySanskrit-AutoHotkey>\n\n; Example initialization\nclass EasysanskritAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasySanskrit-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasysanskritAutohotkeyExample()\n```"
     }
   ]
 }
