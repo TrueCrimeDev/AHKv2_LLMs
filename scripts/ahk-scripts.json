@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-06T02:11:24.225Z",
-  "totalScripts": 437,
+  "lastUpdated": "2026-08-06T08:28:41.172Z",
+  "totalScripts": 439,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8819,6 +8819,44 @@
       "forks": 0,
       "owner": "ivanov0ivanov",
       "code": "```cpp\n; ============================================\n; Repository: ivanov0ivanov/custom-lang-toggler\n; ============================================\n; URL: https://github.com/ivanov0ivanov/custom-lang-toggler\n; Stars: 0 | Forks: 0\n; Last Updated: 8/5/2026\n; License: MIT License\n;\n; Description:\n; Keep 3+ keyboard layouts, use 2: Alt+Shift toggles only your chosen pair (config.ini), the rest stay on Win+Space. Focus-safe, works in system dialogs. AutoHotkey v2, Windows 10/11.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ivanov0ivanov/custom-lang-toggler.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ivanov0ivanov/custom-lang-toggler/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <custom-lang-toggler>\n\n; Example initialization\nclass CustomLangTogglerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"custom-lang-toggler loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CustomLangTogglerExample()\n```"
+    },
+    {
+      "id": "github-1324859714",
+      "title": "PlmHelper",
+      "category": "GitHub Repository",
+      "description": "Laboratory PLM automation tool based on AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-06T06:58:44Z",
+      "lastModified": "2026-08-06T08:24:34Z",
+      "source": "github",
+      "url": "https://github.com/FadedRK/PlmHelper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "FadedRK",
+      "code": "```cpp\n; ============================================\n; Repository: FadedRK/PlmHelper\n; ============================================\n; URL: https://github.com/FadedRK/PlmHelper\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: MIT License\n;\n; Description:\n; Laboratory PLM automation tool based on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/FadedRK/PlmHelper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/FadedRK/PlmHelper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PlmHelper>\n\n; Example initialization\nclass PlmhelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PlmHelper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PlmhelperExample()\n```"
+    },
+    {
+      "id": "github-1324869053",
+      "title": "gbf-relink-autofarm",
+      "category": "GitHub Repository",
+      "description": "Automated farming macro for Granblue Fantasy: Relink using AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-06T07:10:04Z",
+      "lastModified": "2026-08-06T07:19:02Z",
+      "source": "github",
+      "url": "https://github.com/jhbenassi/gbf-relink-autofarm",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jhbenassi",
+      "code": "```cpp\n; ============================================\n; Repository: jhbenassi/gbf-relink-autofarm\n; ============================================\n; URL: https://github.com/jhbenassi/gbf-relink-autofarm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: MIT License\n;\n; Description:\n; Automated farming macro for Granblue Fantasy: Relink using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jhbenassi/gbf-relink-autofarm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jhbenassi/gbf-relink-autofarm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gbf-relink-autofarm>\n\n; Example initialization\nclass GbfRelinkAutofarmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gbf-relink-autofarm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GbfRelinkAutofarmExample()\n```"
     }
   ]
 }
