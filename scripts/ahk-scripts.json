@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-06T13:57:48.334Z",
-  "totalScripts": 439,
+  "lastUpdated": "2026-08-06T23:54:16.933Z",
+  "totalScripts": 442,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-06T12:35:09Z",
+      "lastModified": "2026-08-06T14:32:00Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -2261,13 +2261,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-27T04:59:41Z",
-      "lastModified": "2026-05-10T10:44:39Z",
+      "lastModified": "2026-08-06T20:50:06Z",
       "source": "github",
       "url": "https://github.com/ezflow997/LiveView",
       "stars": 3,
       "forks": 0,
       "owner": "ezflow997",
-      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 3 | Forks: 0\n; Last Updated: 5/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 3 | Forks: 0\n; Last Updated: 8/6/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
     },
     {
       "id": "github-1143820755",
@@ -4925,13 +4925,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-08-05T22:22:02Z",
+      "lastModified": "2026-08-06T19:09:56Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 10,
       "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 10 | Forks: 3\n; Last Updated: 8/5/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 10 | Forks: 3\n; Last Updated: 8/6/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -8787,13 +8787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-08-05T11:17:58Z",
+      "lastModified": "2026-08-06T22:16:14Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 0,
       "forks": 0,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/5/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1324193494",
@@ -8857,6 +8857,69 @@
       "forks": 0,
       "owner": "jhbenassi",
       "code": "```cpp\n; ============================================\n; Repository: jhbenassi/gbf-relink-autofarm\n; ============================================\n; URL: https://github.com/jhbenassi/gbf-relink-autofarm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: MIT License\n;\n; Description:\n; Automated farming macro for Granblue Fantasy: Relink using AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jhbenassi/gbf-relink-autofarm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jhbenassi/gbf-relink-autofarm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gbf-relink-autofarm>\n\n; Example initialization\nclass GbfRelinkAutofarmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gbf-relink-autofarm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GbfRelinkAutofarmExample()\n```"
+    },
+    {
+      "id": "github-1325472485",
+      "title": "TextTools",
+      "category": "GitHub Repository",
+      "description": "AHK v2 LLM text actions for selected text on Windows",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "autohotkey",
+        "llm",
+        "openai-compatible",
+        "windows",
+        "writing-assistant"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-06T16:18:18Z",
+      "lastModified": "2026-08-06T18:12:01Z",
+      "source": "github",
+      "url": "https://github.com/BelyaevAD/TextTools",
+      "stars": 0,
+      "forks": 0,
+      "owner": "BelyaevAD",
+      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
+    },
+    {
+      "id": "github-1325424502",
+      "title": "zalo-listing-bot",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 bot for harvesting and relaying Zalo room listings",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-06T15:34:07Z",
+      "lastModified": "2026-08-06T15:34:17Z",
+      "source": "github",
+      "url": "https://github.com/nguyen-dzu/zalo-listing-bot",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nguyen-dzu",
+      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
+    },
+    {
+      "id": "github-1324090814",
+      "title": "shiftkey",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for automation and custom functionality",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-05T13:36:39Z",
+      "lastModified": "2026-08-06T14:36:23Z",
+      "source": "github",
+      "url": "https://github.com/kunal-ma/shiftkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kunal-ma",
+      "code": "```cpp\n; ============================================\n; Repository: kunal-ma/shiftkey\n; ============================================\n; URL: https://github.com/kunal-ma/shiftkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script for automation and custom functionality\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunal-ma/shiftkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunal-ma/shiftkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <shiftkey>\n\n; Example initialization\nclass ShiftkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"shiftkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShiftkeyExample()\n```"
     }
   ]
 }
