@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-07T02:28:27.424Z",
-  "totalScripts": 442,
+  "lastUpdated": "2026-08-07T07:08:34.311Z",
+  "totalScripts": 443,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8894,13 +8894,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T15:34:07Z",
-      "lastModified": "2026-08-06T15:34:17Z",
+      "lastModified": "2026-08-07T03:13:11Z",
       "source": "github",
       "url": "https://github.com/nguyen-dzu/zalo-listing-bot",
       "stars": 0,
       "forks": 0,
       "owner": "nguyen-dzu",
-      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
     },
     {
       "id": "github-1324090814",
@@ -8920,6 +8920,25 @@
       "forks": 0,
       "owner": "kunal-ma",
       "code": "```cpp\n; ============================================\n; Repository: kunal-ma/shiftkey\n; ============================================\n; URL: https://github.com/kunal-ma/shiftkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script for automation and custom functionality\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunal-ma/shiftkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunal-ma/shiftkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <shiftkey>\n\n; Example initialization\nclass ShiftkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"shiftkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShiftkeyExample()\n```"
+    },
+    {
+      "id": "github-1326264322",
+      "title": "sentence-auto-capitalizer-ja",
+      "category": "GitHub Repository",
+      "description": "Google日本語入力OFF時に英文の文頭だけを大文字にするAutoHotkey v2スクリプト",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-07T05:48:08Z",
+      "lastModified": "2026-08-07T05:49:18Z",
+      "source": "github",
+      "url": "https://github.com/kai7spec/sentence-auto-capitalizer-ja",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kai7spec",
+      "code": "```cpp\n; ============================================\n; Repository: kai7spec/sentence-auto-capitalizer-ja\n; ============================================\n; URL: https://github.com/kai7spec/sentence-auto-capitalizer-ja\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: MIT License\n;\n; Description:\n; Google日本語入力OFF時に英文の文頭だけを大文字にするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kai7spec/sentence-auto-capitalizer-ja.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kai7spec/sentence-auto-capitalizer-ja/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sentence-auto-capitalizer-ja>\n\n; Example initialization\nclass SentenceAutoCapitalizerJaExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sentence-auto-capitalizer-ja loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SentenceAutoCapitalizerJaExample()\n```"
     }
   ]
 }
