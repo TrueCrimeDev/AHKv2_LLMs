@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-07T12:54:12.153Z",
+  "lastUpdated": "2026-08-07T18:50:06.347Z",
   "totalScripts": 444,
   "categories": [
     "GUI",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-07T12:17:58Z",
+      "lastModified": "2026-08-07T14:24:54Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-08-07T12:47:24Z",
+      "lastModified": "2026-08-07T18:32:06Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 2,
@@ -8768,13 +8768,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-05T13:15:01Z",
-      "lastModified": "2026-08-05T13:17:30Z",
+      "lastModified": "2026-08-07T13:53:11Z",
       "source": "github",
       "url": "https://github.com/jonupchurch/AHK",
       "stars": 0,
       "forks": 0,
       "owner": "jonupchurch",
-      "code": "```cpp\n; ============================================\n; Repository: jonupchurch/AHK\n; ============================================\n; URL: https://github.com/jonupchurch/AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 8/5/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that auto-approves Claude Code permission prompts without disturbing your mouse\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jonupchurch/AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jonupchurch/AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK>\n\n; Example initialization\nclass AhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jonupchurch/AHK\n; ============================================\n; URL: https://github.com/jonupchurch/AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that auto-approves Claude Code permission prompts without disturbing your mouse\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jonupchurch/AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jonupchurch/AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK>\n\n; Example initialization\nclass AhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkExample()\n```"
     },
     {
       "id": "github-1313787242",
@@ -8875,13 +8875,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T16:18:18Z",
-      "lastModified": "2026-08-06T18:12:01Z",
+      "lastModified": "2026-08-07T18:48:41Z",
       "source": "github",
       "url": "https://github.com/BelyaevAD/TextTools",
       "stars": 0,
       "forks": 0,
       "owner": "BelyaevAD",
-      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
     },
     {
       "id": "github-1325424502",
@@ -8951,7 +8951,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-07T11:40:31Z",
-      "lastModified": "2026-08-07T11:42:43Z",
+      "lastModified": "2026-08-07T12:59:21Z",
       "source": "github",
       "url": "https://github.com/gotahugis14-spec/GhostIcons",
       "stars": 0,
