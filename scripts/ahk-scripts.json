@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-08T01:16:35.382Z",
+  "lastUpdated": "2026-08-08T06:43:58.035Z",
   "totalScripts": 444,
   "categories": [
     "GUI",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-08-07T22:16:13Z",
+      "lastModified": "2026-08-08T04:28:28Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
-      "stars": 2,
+      "stars": 4,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 2 | Forks: 0\n; Last Updated: 8/7/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 4 | Forks: 0\n; Last Updated: 8/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -8932,13 +8932,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-07T05:48:08Z",
-      "lastModified": "2026-08-07T05:49:18Z",
+      "lastModified": "2026-08-08T05:51:56Z",
       "source": "github",
       "url": "https://github.com/kai7spec/sentence-auto-capitalizer-ja",
       "stars": 0,
       "forks": 0,
       "owner": "kai7spec",
-      "code": "```cpp\n; ============================================\n; Repository: kai7spec/sentence-auto-capitalizer-ja\n; ============================================\n; URL: https://github.com/kai7spec/sentence-auto-capitalizer-ja\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: MIT License\n;\n; Description:\n; Google日本語入力OFF時に英文の文頭だけを大文字にするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kai7spec/sentence-auto-capitalizer-ja.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kai7spec/sentence-auto-capitalizer-ja/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sentence-auto-capitalizer-ja>\n\n; Example initialization\nclass SentenceAutoCapitalizerJaExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sentence-auto-capitalizer-ja loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SentenceAutoCapitalizerJaExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kai7spec/sentence-auto-capitalizer-ja\n; ============================================\n; URL: https://github.com/kai7spec/sentence-auto-capitalizer-ja\n; Stars: 0 | Forks: 0\n; Last Updated: 8/8/2026\n; License: MIT License\n;\n; Description:\n; Google日本語入力OFF時に英文の文頭だけを大文字にするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kai7spec/sentence-auto-capitalizer-ja.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kai7spec/sentence-auto-capitalizer-ja/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sentence-auto-capitalizer-ja>\n\n; Example initialization\nclass SentenceAutoCapitalizerJaExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sentence-auto-capitalizer-ja loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SentenceAutoCapitalizerJaExample()\n```"
     },
     {
       "id": "github-1326600333",
