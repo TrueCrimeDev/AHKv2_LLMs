@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-08T12:39:07.340Z",
-  "totalScripts": 445,
+  "lastUpdated": "2026-08-08T18:31:21.788Z",
+  "totalScripts": 446,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8176,13 +8176,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-24T04:08:16Z",
-      "lastModified": "2026-07-24T04:11:03Z",
+      "lastModified": "2026-08-08T17:18:07Z",
       "source": "github",
       "url": "https://github.com/AnishKhamkar7/autohotkey_v2",
       "stars": 0,
       "forks": 0,
       "owner": "AnishKhamkar7",
-      "code": "```cpp\n; ============================================\n; Repository: AnishKhamkar7/autohotkey_v2\n; ============================================\n; URL: https://github.com/AnishKhamkar7/autohotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AnishKhamkar7/autohotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AnishKhamkar7/autohotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AnishKhamkar7/autohotkey_v2\n; ============================================\n; URL: https://github.com/AnishKhamkar7/autohotkey_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 8/8/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AnishKhamkar7/autohotkey_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AnishKhamkar7/autohotkey_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey_v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-1310853255",
@@ -8894,13 +8894,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T15:34:07Z",
-      "lastModified": "2026-08-07T03:13:11Z",
+      "lastModified": "2026-08-08T16:10:37Z",
       "source": "github",
       "url": "https://github.com/nguyen-dzu/zalo-listing-bot",
       "stars": 0,
       "forks": 0,
       "owner": "nguyen-dzu",
-      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/8/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
     },
     {
       "id": "github-1324090814",
@@ -8978,6 +8978,25 @@
       "forks": 0,
       "owner": "sachahjkl",
       "code": "```cpp\n; ============================================\n; Repository: sachahjkl/epicmousemover\n; ============================================\n; URL: https://github.com/sachahjkl/epicmousemover\n; Stars: 0 | Forks: 0\n; Last Updated: 8/8/2026\n; License: Not specified\n;\n; Description:\n; Mouse jitter written in AutoHotkey v2. Troll project oneshotted by GPT 4o. I'm not responsible if you use this tool\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sachahjkl/epicmousemover.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sachahjkl/epicmousemover/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <epicmousemover>\n\n; Example initialization\nclass EpicmousemoverExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"epicmousemover loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EpicmousemoverExample()\n```"
+    },
+    {
+      "id": "github-1327768574",
+      "title": "fileman",
+      "category": "GitHub Repository",
+      "description": "A duplicate file finder built in **AutoHotkey v2**. It utilizes multi-threaded hashing via child worker processes, the native Windows Crypto API (`bcrypt.dll`), and COM-based inter-process communication to process backup archives in minutes.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-08T13:16:28Z",
+      "lastModified": "2026-08-08T14:42:03Z",
+      "source": "github",
+      "url": "https://github.com/bceenaeiklmr/fileman",
+      "stars": 1,
+      "forks": 0,
+      "owner": "bceenaeiklmr",
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/fileman\n; ============================================\n; URL: https://github.com/bceenaeiklmr/fileman\n; Stars: 1 | Forks: 0\n; Last Updated: 8/8/2026\n; License: MIT License\n;\n; Description:\n; A duplicate file finder built in **AutoHotkey v2**. It utilizes multi-threaded hashing via child worker processes, the native Windows Crypto API (`bcrypt.dll`), and COM-based inter-process communication to process backup archives in minutes.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/fileman.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/fileman/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fileman>\n\n; Example initialization\nclass FilemanExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fileman loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilemanExample()\n```"
     }
   ]
 }
