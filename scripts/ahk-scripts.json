@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-08T06:43:58.035Z",
-  "totalScripts": 444,
+  "lastUpdated": "2026-08-08T12:39:07.340Z",
+  "totalScripts": 445,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-08-08T04:28:28Z",
+      "lastModified": "2026-08-08T09:19:59Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 4,
@@ -8787,13 +8787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-08-07T10:58:55Z",
+      "lastModified": "2026-08-08T12:16:20Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 0,
       "forks": 0,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1324193494",
@@ -8958,6 +8958,26 @@
       "forks": 0,
       "owner": "gotahugis14-spec",
       "code": "```cpp\n; ============================================\n; Repository: gotahugis14-spec/GhostIcons\n; ============================================\n; URL: https://github.com/gotahugis14-spec/GhostIcons\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: MIT License\n;\n; Description:\n; GhostIcons - desktop icons that hide until hovered (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gotahugis14-spec/GhostIcons.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gotahugis14-spec/GhostIcons/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GhostIcons>\n\n; Example initialization\nclass GhosticonsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GhostIcons loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GhosticonsExample()\n```"
+    },
+    {
+      "id": "github-1327614435",
+      "title": "epicmousemover",
+      "category": "GitHub Repository",
+      "description": "Mouse jitter written in AutoHotkey v2. Troll project oneshotted by GPT 4o. I'm not responsible if you use this tool",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-08T09:51:30Z",
+      "lastModified": "2026-08-08T12:11:22Z",
+      "source": "github",
+      "url": "https://github.com/sachahjkl/epicmousemover",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sachahjkl",
+      "code": "```cpp\n; ============================================\n; Repository: sachahjkl/epicmousemover\n; ============================================\n; URL: https://github.com/sachahjkl/epicmousemover\n; Stars: 0 | Forks: 0\n; Last Updated: 8/8/2026\n; License: Not specified\n;\n; Description:\n; Mouse jitter written in AutoHotkey v2. Troll project oneshotted by GPT 4o. I'm not responsible if you use this tool\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sachahjkl/epicmousemover.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sachahjkl/epicmousemover/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <epicmousemover>\n\n; Example initialization\nclass EpicmousemoverExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"epicmousemover loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EpicmousemoverExample()\n```"
     }
   ]
 }
