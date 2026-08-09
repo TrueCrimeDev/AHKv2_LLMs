@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-08T18:31:21.788Z",
-  "totalScripts": 446,
+  "lastUpdated": "2026-08-09T01:21:51.136Z",
+  "totalScripts": 447,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-08-03T23:53:19Z",
+      "lastModified": "2026-08-08T19:35:31Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 52,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 52 | Forks: 8\n; Last Updated: 8/3/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 52 | Forks: 8\n; Last Updated: 8/8/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-08-08T09:19:59Z",
+      "lastModified": "2026-08-08T21:46:51Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 4,
@@ -8749,13 +8749,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-04T06:33:54Z",
-      "lastModified": "2026-08-07T01:43:43Z",
+      "lastModified": "2026-08-09T01:10:06Z",
       "source": "github",
       "url": "https://github.com/takawaji/EasySanskrit-AutoHotkey",
       "stars": 0,
       "forks": 0,
       "owner": "takawaji",
-      "code": "```cpp\n; ============================================\n; Repository: takawaji/EasySanskrit-AutoHotkey\n; ============================================\n; URL: https://github.com/takawaji/EasySanskrit-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script for typing romanized Sanskrit\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/takawaji/EasySanskrit-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/takawaji/EasySanskrit-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasySanskrit-AutoHotkey>\n\n; Example initialization\nclass EasysanskritAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasySanskrit-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasysanskritAutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: takawaji/EasySanskrit-AutoHotkey\n; ============================================\n; URL: https://github.com/takawaji/EasySanskrit-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/9/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script for typing romanized Sanskrit\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/takawaji/EasySanskrit-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/takawaji/EasySanskrit-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasySanskrit-AutoHotkey>\n\n; Example initialization\nclass EasysanskritAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasySanskrit-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasysanskritAutohotkeyExample()\n```"
     },
     {
       "id": "github-1324068771",
@@ -8990,13 +8990,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-08T13:16:28Z",
-      "lastModified": "2026-08-08T14:42:03Z",
+      "lastModified": "2026-08-08T22:15:01Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/fileman",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/fileman\n; ============================================\n; URL: https://github.com/bceenaeiklmr/fileman\n; Stars: 1 | Forks: 0\n; Last Updated: 8/8/2026\n; License: MIT License\n;\n; Description:\n; A duplicate file finder built in **AutoHotkey v2**. It utilizes multi-threaded hashing via child worker processes, the native Windows Crypto API (`bcrypt.dll`), and COM-based inter-process communication to process backup archives in minutes.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/fileman.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/fileman/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fileman>\n\n; Example initialization\nclass FilemanExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fileman loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilemanExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/fileman\n; ============================================\n; URL: https://github.com/bceenaeiklmr/fileman\n; Stars: 2 | Forks: 0\n; Last Updated: 8/8/2026\n; License: MIT License\n;\n; Description:\n; A duplicate file finder built in **AutoHotkey v2**. It utilizes multi-threaded hashing via child worker processes, the native Windows Crypto API (`bcrypt.dll`), and COM-based inter-process communication to process backup archives in minutes.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/fileman.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/fileman/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fileman>\n\n; Example initialization\nclass FilemanExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fileman loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilemanExample()\n```"
+    },
+    {
+      "id": "github-1327197669",
+      "title": "hotbar-seller-script",
+      "category": "GitHub Repository",
+      "description": "Portable AutoHotkey v2 Minecraft hotbar auction seller with saved toggle-key UI",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-07T22:01:41Z",
+      "lastModified": "2026-08-07T22:54:43Z",
+      "source": "github",
+      "url": "https://github.com/TRYINGTHINGSYO/hotbar-seller-script",
+      "stars": 0,
+      "forks": 0,
+      "owner": "TRYINGTHINGSYO",
+      "code": "```cpp\n; ============================================\n; Repository: TRYINGTHINGSYO/hotbar-seller-script\n; ============================================\n; URL: https://github.com/TRYINGTHINGSYO/hotbar-seller-script\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; Portable AutoHotkey v2 Minecraft hotbar auction seller with saved toggle-key UI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TRYINGTHINGSYO/hotbar-seller-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TRYINGTHINGSYO/hotbar-seller-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotbar-seller-script>\n\n; Example initialization\nclass HotbarSellerScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotbar-seller-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotbarSellerScriptExample()\n```"
     }
   ]
 }
