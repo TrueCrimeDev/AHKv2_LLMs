@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-09T06:49:43.931Z",
-  "totalScripts": 447,
+  "lastUpdated": "2026-08-09T12:41:02.627Z",
+  "totalScripts": 448,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2261,13 +2261,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-27T04:59:41Z",
-      "lastModified": "2026-08-07T21:38:18Z",
+      "lastModified": "2026-08-09T10:43:41Z",
       "source": "github",
       "url": "https://github.com/ezflow997/LiveView",
       "stars": 3,
       "forks": 0,
       "owner": "ezflow997",
-      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 3 | Forks: 0\n; Last Updated: 8/7/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 3 | Forks: 0\n; Last Updated: 8/9/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
     },
     {
       "id": "github-1143820755",
@@ -8445,13 +8445,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-29T12:23:10Z",
-      "lastModified": "2026-07-30T12:11:25Z",
+      "lastModified": "2026-08-09T11:26:51Z",
       "source": "github",
       "url": "https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher",
       "stars": 0,
       "forks": 0,
       "owner": "God-creator-of-the-universe",
-      "code": "```cpp\n; ============================================\n; Repository: God-creator-of-the-universe/GcotuAHK2Launcher\n; ============================================\n; URL: https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 7/30/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Simple fast convenient Windows app launcher/switcher using AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GcotuAHK2Launcher>\n\n; Example initialization\nclass Gcotuahk2launcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GcotuAHK2Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Gcotuahk2launcherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: God-creator-of-the-universe/GcotuAHK2Launcher\n; ============================================\n; URL: https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 8/9/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Simple fast convenient Windows app launcher/switcher using AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GcotuAHK2Launcher>\n\n; Example initialization\nclass Gcotuahk2launcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GcotuAHK2Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Gcotuahk2launcherExample()\n```"
     },
     {
       "id": "github-1003603159",
@@ -8787,13 +8787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-08-08T12:16:20Z",
+      "lastModified": "2026-08-09T12:27:18Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 0,
       "forks": 0,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/9/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1324193494",
@@ -9016,6 +9016,31 @@
       "forks": 0,
       "owner": "TRYINGTHINGSYO",
       "code": "```cpp\n; ============================================\n; Repository: TRYINGTHINGSYO/hotbar-seller-script\n; ============================================\n; URL: https://github.com/TRYINGTHINGSYO/hotbar-seller-script\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; Portable AutoHotkey v2 Minecraft hotbar auction seller with saved toggle-key UI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TRYINGTHINGSYO/hotbar-seller-script.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TRYINGTHINGSYO/hotbar-seller-script/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotbar-seller-script>\n\n; Example initialization\nclass HotbarSellerScriptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotbar-seller-script loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotbarSellerScriptExample()\n```"
+    },
+    {
+      "id": "github-1328598523",
+      "title": "DarkMenuBar",
+      "category": "GitHub Repository",
+      "description": "Dark Theme MenuBar for AutoHotkey v2.1-alpha.30+",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk-gui",
+        "ahk-library",
+        "ahk-script",
+        "ahk-v2",
+        "ahkv2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-09T08:37:51Z",
+      "lastModified": "2026-08-09T09:35:32Z",
+      "source": "github",
+      "url": "https://github.com/nperovic/DarkMenuBar",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nperovic",
+      "code": "```cpp\n; ============================================\n; Repository: nperovic/DarkMenuBar\n; ============================================\n; URL: https://github.com/nperovic/DarkMenuBar\n; Stars: 0 | Forks: 0\n; Last Updated: 8/9/2026\n; License: Not specified\n;\n; Description:\n; Dark Theme MenuBar for AutoHotkey v2.1-alpha.30+\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nperovic/DarkMenuBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nperovic/DarkMenuBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkMenuBar>\n\n; Example initialization\nclass DarkmenubarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkMenuBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkmenubarExample()\n```"
     }
   ]
 }
