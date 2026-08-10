@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-10T07:24:14.202Z",
-  "totalScripts": 449,
+  "lastUpdated": "2026-08-10T12:58:43.018Z",
+  "totalScripts": 451,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-08-09T20:36:12Z",
+      "lastModified": "2026-08-10T12:42:37Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
-      "stars": 52,
+      "stars": 53,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 52 | Forks: 8\n; Last Updated: 8/9/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 53 | Forks: 8\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -2261,7 +2261,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-27T04:59:41Z",
-      "lastModified": "2026-08-10T03:02:57Z",
+      "lastModified": "2026-08-10T10:50:24Z",
       "source": "github",
       "url": "https://github.com/ezflow997/LiveView",
       "stars": 4,
@@ -4925,13 +4925,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-08-10T02:51:44Z",
+      "lastModified": "2026-08-10T12:36:19Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
-      "stars": 10,
+      "stars": 11,
       "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 10 | Forks: 3\n; Last Updated: 8/10/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 11 | Forks: 3\n; Last Updated: 8/10/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -8106,20 +8106,20 @@
       "id": "github-1290579228",
       "title": "ahk-f13-keybindings",
       "category": "GitHub Repository",
-      "description": "F13キーをショートカットキーとして使用��るためのAutoHotkey v2スクリプトです。",
+      "description": "F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T04:15:18Z",
-      "lastModified": "2026-07-24T14:56:55Z",
+      "lastModified": "2026-08-10T07:54:29Z",
       "source": "github",
       "url": "https://github.com/hakhatz2486/ahk-f13-keybindings",
       "stars": 0,
       "forks": 0,
       "owner": "hakhatz2486",
-      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/ahk-f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/ahk-f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用��るためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/ahk-f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/ahk-f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-f13-keybindings>\n\n; Example initialization\nclass AhkF13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkF13KeybindingsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/ahk-f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/ahk-f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/ahk-f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/ahk-f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-f13-keybindings>\n\n; Example initialization\nclass AhkF13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkF13KeybindingsExample()\n```"
     },
     {
       "id": "github-1308626088",
@@ -8787,13 +8787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-08-09T12:27:18Z",
+      "lastModified": "2026-08-10T11:51:55Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 0,
       "forks": 0,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/9/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1324193494",
@@ -8894,13 +8894,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T15:34:07Z",
-      "lastModified": "2026-08-08T16:10:37Z",
+      "lastModified": "2026-08-10T09:19:58Z",
       "source": "github",
       "url": "https://github.com/nguyen-dzu/zalo-listing-bot",
       "stars": 0,
       "forks": 0,
       "owner": "nguyen-dzu",
-      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/8/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
     },
     {
       "id": "github-1324090814",
@@ -9034,13 +9034,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-09T08:37:51Z",
-      "lastModified": "2026-08-09T09:35:32Z",
+      "lastModified": "2026-08-10T08:26:36Z",
       "source": "github",
       "url": "https://github.com/nperovic/DarkMenuBar",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "nperovic",
-      "code": "```cpp\n; ============================================\n; Repository: nperovic/DarkMenuBar\n; ============================================\n; URL: https://github.com/nperovic/DarkMenuBar\n; Stars: 0 | Forks: 0\n; Last Updated: 8/9/2026\n; License: Not specified\n;\n; Description:\n; Dark Theme MenuBar for AutoHotkey v2.1-alpha.30+\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nperovic/DarkMenuBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nperovic/DarkMenuBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkMenuBar>\n\n; Example initialization\nclass DarkmenubarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkMenuBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkmenubarExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nperovic/DarkMenuBar\n; ============================================\n; URL: https://github.com/nperovic/DarkMenuBar\n; Stars: 1 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; Dark Theme MenuBar for AutoHotkey v2.1-alpha.30+\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nperovic/DarkMenuBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nperovic/DarkMenuBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkMenuBar>\n\n; Example initialization\nclass DarkmenubarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkMenuBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkmenubarExample()\n```"
     },
     {
       "id": "github-1329492454",
@@ -9060,6 +9060,44 @@
       "forks": 0,
       "owner": "kirinlin",
       "code": "```cpp\n; ============================================\n; Repository: kirinlin/ahk-scripts\n; ============================================\n; URL: https://github.com/kirinlin/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: MIT License\n;\n; Description:\n; Personal collection of AutoHotkey v2 scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kirinlin/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kirinlin/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
+    },
+    {
+      "id": "github-1327068476",
+      "title": "UGG_Macro",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 macro for Ultimate Gym Game on ROBLOX by SPEARHEADS. Made with AutoHotkey v2 utilizing screen-reading to lift with stamina-driven reps, auto-eating, and stat reports to Discord.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-07T19:09:22Z",
+      "lastModified": "2026-08-10T11:24:52Z",
+      "source": "github",
+      "url": "https://github.com/defZalken/UGG_Macro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "defZalken",
+      "code": "```cpp\n; ============================================\n; Repository: defZalken/UGG_Macro\n; ============================================\n; URL: https://github.com/defZalken/UGG_Macro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 macro for Ultimate Gym Game on ROBLOX by SPEARHEADS. Made with AutoHotkey v2 utilizing screen-reading to lift with stamina-driven reps, auto-eating, and stat reports to Discord.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/defZalken/UGG_Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/defZalken/UGG_Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UGG_Macro>\n\n; Example initialization\nclass UggMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UGG_Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UggMacroExample()\n```"
+    },
+    {
+      "id": "github-1329693932",
+      "title": "WindowPuller",
+      "category": "GitHub Repository",
+      "description": "An AutoHotkey v2 script to reproduce the Linux 'window pull' feature on Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-10T10:22:42Z",
+      "lastModified": "2026-08-10T10:38:55Z",
+      "source": "github",
+      "url": "https://github.com/Falluck/WindowPuller",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Falluck",
+      "code": "```cpp\n; ============================================\n; Repository: Falluck/WindowPuller\n; ============================================\n; URL: https://github.com/Falluck/WindowPuller\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 script to reproduce the Linux 'window pull' feature on Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Falluck/WindowPuller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Falluck/WindowPuller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowPuller>\n\n; Example initialization\nclass WindowpullerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowPuller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowpullerExample()\n```"
     }
   ]
 }
