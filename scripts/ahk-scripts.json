@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-10T12:58:43.018Z",
-  "totalScripts": 451,
+  "lastUpdated": "2026-08-10T18:51:24.191Z",
+  "totalScripts": 453,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-10T06:05:41Z",
+      "lastModified": "2026-08-10T14:29:40Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -4925,7 +4925,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-08-10T12:36:19Z",
+      "lastModified": "2026-08-10T14:16:27Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 11,
@@ -8787,7 +8787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-08-10T11:51:55Z",
+      "lastModified": "2026-08-10T15:06:27Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 0,
@@ -8875,13 +8875,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T16:18:18Z",
-      "lastModified": "2026-08-07T18:48:41Z",
+      "lastModified": "2026-08-10T18:04:12Z",
       "source": "github",
       "url": "https://github.com/BelyaevAD/TextTools",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "BelyaevAD",
-      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 0 | Forks: 0\n; Last Updated: 8/7/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 1 | Forks: 0\n; Last Updated: 8/10/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
     },
     {
       "id": "github-1325424502",
@@ -8894,7 +8894,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T15:34:07Z",
-      "lastModified": "2026-08-10T09:19:58Z",
+      "lastModified": "2026-08-10T18:23:27Z",
       "source": "github",
       "url": "https://github.com/nguyen-dzu/zalo-listing-bot",
       "stars": 0,
@@ -9098,6 +9098,50 @@
       "forks": 0,
       "owner": "Falluck",
       "code": "```cpp\n; ============================================\n; Repository: Falluck/WindowPuller\n; ============================================\n; URL: https://github.com/Falluck/WindowPuller\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 script to reproduce the Linux 'window pull' feature on Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Falluck/WindowPuller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Falluck/WindowPuller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowPuller>\n\n; Example initialization\nclass WindowpullerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowPuller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowpullerExample()\n```"
+    },
+    {
+      "id": "github-1329907901",
+      "title": "ahk-game-scripts",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 scripts that fix small annoyances in and around games. Keep a game running while you tab away, center any window, search vendor inventories. Each script is a single file with its own docs.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "autohotkey-v2",
+        "gaming",
+        "lotro",
+        "no-mans-sky"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-10T14:21:49Z",
+      "lastModified": "2026-08-10T17:33:16Z",
+      "source": "github",
+      "url": "https://github.com/Vermillion203/ahk-game-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Vermillion203",
+      "code": "```cpp\n; ============================================\n; Repository: Vermillion203/ahk-game-scripts\n; ============================================\n; URL: https://github.com/Vermillion203/ahk-game-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 scripts that fix small annoyances in and around games. Keep a game running while you tab away, center any window, search vendor inventories. Each script is a single file with its own docs.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vermillion203/ahk-game-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vermillion203/ahk-game-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-game-scripts>\n\n; Example initialization\nclass AhkGameScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-game-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkGameScriptsExample()\n```"
+    },
+    {
+      "id": "github-1329976777",
+      "title": "desktop-indicator",
+      "category": "GitHub Repository",
+      "description": "Windows 11 Virtual Desktop name overlay (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-10T15:34:04Z",
+      "lastModified": "2026-08-10T15:55:17Z",
+      "source": "github",
+      "url": "https://github.com/hjlim-99/desktop-indicator",
+      "stars": 0,
+      "forks": 0,
+      "owner": "hjlim-99",
+      "code": "```cpp\n; ============================================\n; Repository: hjlim-99/desktop-indicator\n; ============================================\n; URL: https://github.com/hjlim-99/desktop-indicator\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; Windows 11 Virtual Desktop name overlay (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hjlim-99/desktop-indicator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hjlim-99/desktop-indicator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <desktop-indicator>\n\n; Example initialization\nclass DesktopIndicatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"desktop-indicator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktopIndicatorExample()\n```"
     }
   ]
 }
