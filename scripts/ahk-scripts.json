@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-11T12:54:47.881Z",
-  "totalScripts": 453,
+  "lastUpdated": "2026-08-11T18:56:20.162Z",
+  "totalScripts": 455,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-11T11:57:00Z",
+      "lastModified": "2026-08-11T14:33:12Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -2261,13 +2261,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-27T04:59:41Z",
-      "lastModified": "2026-08-10T10:50:24Z",
+      "lastModified": "2026-08-11T17:15:03Z",
       "source": "github",
       "url": "https://github.com/ezflow997/LiveView",
       "stars": 4,
       "forks": 0,
       "owner": "ezflow997",
-      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 4 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ezflow997/LiveView\n; ============================================\n; URL: https://github.com/ezflow997/LiveView\n; Stars: 4 | Forks: 0\n; Last Updated: 8/11/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 live window thumbnail viewer with widgets and background cycling\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ezflow997/LiveView.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ezflow997/LiveView/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LiveView>\n\n; Example initialization\nclass LiveviewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LiveView loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LiveviewExample()\n```"
     },
     {
       "id": "github-1143820755",
@@ -3379,13 +3379,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-07-04T13:00:57Z",
+      "lastModified": "2026-08-11T18:19:22Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
       "stars": 5,
-      "forks": 0,
+      "forks": 1,
       "owner": "zeno528",
-      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 5 | Forks: 0\n; Last Updated: 7/4/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 5 | Forks: 1\n; Last Updated: 8/11/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
     },
     {
       "id": "github-1169730446",
@@ -5198,13 +5198,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-08-02T19:53:31Z",
+      "lastModified": "2026-08-11T18:27:38Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
       "forks": 0,
       "owner": "PCMon",
-      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/2/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     },
     {
       "id": "github-1225321547",
@@ -8787,13 +8787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-08-10T15:06:27Z",
+      "lastModified": "2026-08-11T15:21:40Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 0,
       "forks": 0,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1324193494",
@@ -8894,13 +8894,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T15:34:07Z",
-      "lastModified": "2026-08-10T18:23:27Z",
+      "lastModified": "2026-08-11T14:48:05Z",
       "source": "github",
       "url": "https://github.com/nguyen-dzu/zalo-listing-bot",
       "stars": 0,
       "forks": 0,
       "owner": "nguyen-dzu",
-      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
     },
     {
       "id": "github-1324090814",
@@ -9142,6 +9142,44 @@
       "forks": 0,
       "owner": "hjlim-99",
       "code": "```cpp\n; ============================================\n; Repository: hjlim-99/desktop-indicator\n; ============================================\n; URL: https://github.com/hjlim-99/desktop-indicator\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; Windows 11 Virtual Desktop name overlay (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hjlim-99/desktop-indicator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hjlim-99/desktop-indicator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <desktop-indicator>\n\n; Example initialization\nclass DesktopIndicatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"desktop-indicator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktopIndicatorExample()\n```"
+    },
+    {
+      "id": "github-1331238199",
+      "title": "AHK-ChromeSimulatedSearch",
+      "category": "GitHub Repository",
+      "description": "This is a AutoHotkey v2 script that programmatically opens a Chrome tab using a hotkey and searches whatever is entered in the variable. Time and keystrokes is the main focus, using a shortcut you can avoid using the mouse and multiple keystrokes to type out what you wish to search.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-11T18:30:17Z",
+      "lastModified": "2026-08-11T18:35:48Z",
+      "source": "github",
+      "url": "https://github.com/MarionRepo/AHK-ChromeSimulatedSearch",
+      "stars": 0,
+      "forks": 0,
+      "owner": "MarionRepo",
+      "code": "```cpp\n; ============================================\n; Repository: MarionRepo/AHK-ChromeSimulatedSearch\n; ============================================\n; URL: https://github.com/MarionRepo/AHK-ChromeSimulatedSearch\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: Not specified\n;\n; Description:\n; This is a AutoHotkey v2 script that programmatically opens a Chrome tab using a hotkey and searches whatever is entered in the variable. Time and keystrokes is the main focus, using a shortcut you can avoid using the mouse and multiple keystrokes to type out what you wish to search.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MarionRepo/AHK-ChromeSimulatedSearch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MarionRepo/AHK-ChromeSimulatedSearch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ChromeSimulatedSearch>\n\n; Example initialization\nclass AhkChromesimulatedsearchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ChromeSimulatedSearch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkChromesimulatedsearchExample()\n```"
+    },
+    {
+      "id": "github-1331103621",
+      "title": "FL-Launcher",
+      "category": "GitHub Repository",
+      "description": "A Launcher for FL Studio, developed with AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-11T15:57:33Z",
+      "lastModified": "2026-08-11T18:03:01Z",
+      "source": "github",
+      "url": "https://github.com/kiriuu/FL-Launcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kiriuu",
+      "code": "```cpp\n; ============================================\n; Repository: kiriuu/FL-Launcher\n; ============================================\n; URL: https://github.com/kiriuu/FL-Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: MIT License\n;\n; Description:\n; A Launcher for FL Studio, developed with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kiriuu/FL-Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kiriuu/FL-Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FL-Launcher>\n\n; Example initialization\nclass FlLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FL-Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FlLauncherExample()\n```"
     }
   ]
 }
