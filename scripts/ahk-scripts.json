@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-10T18:51:24.191Z",
+  "lastUpdated": "2026-08-11T01:21:31.107Z",
   "totalScripts": 453,
   "categories": [
     "GUI",
@@ -1729,13 +1729,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-03T16:38:09Z",
-      "lastModified": "2026-07-12T13:49:03Z",
+      "lastModified": "2026-08-11T00:45:17Z",
       "source": "github",
       "url": "https://github.com/eyetechanalytics/Beacon",
       "stars": 0,
       "forks": 0,
       "owner": "eyetechanalytics",
-      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Beacon\n; ============================================\n; URL: https://github.com/eyetechanalytics/Beacon\n; Stars: 0 | Forks: 0\n; Last Updated: 7/12/2026\n; License: MIT License\n;\n; Description:\n; Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Beacon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Beacon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Beacon>\n\n; Example initialization\nclass BeaconExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Beacon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeaconExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Beacon\n; ============================================\n; URL: https://github.com/eyetechanalytics/Beacon\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: MIT License\n;\n; Description:\n; Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Beacon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Beacon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Beacon>\n\n; Example initialization\nclass BeaconExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Beacon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeaconExample()\n```"
     },
     {
       "id": "github-1127454293",
@@ -8113,7 +8113,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T04:15:18Z",
-      "lastModified": "2026-08-10T07:54:29Z",
+      "lastModified": "2026-08-10T20:03:01Z",
       "source": "github",
       "url": "https://github.com/hakhatz2486/ahk-f13-keybindings",
       "stars": 0,
@@ -9116,7 +9116,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-10T14:21:49Z",
-      "lastModified": "2026-08-10T17:33:16Z",
+      "lastModified": "2026-08-10T18:55:26Z",
       "source": "github",
       "url": "https://github.com/Vermillion203/ahk-game-scripts",
       "stars": 0,
