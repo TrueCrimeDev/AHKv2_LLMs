@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-11T01:21:31.107Z",
+  "lastUpdated": "2026-08-11T06:59:35.034Z",
   "totalScripts": 453,
   "categories": [
     "GUI",
@@ -9053,13 +9053,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-10T06:19:46Z",
-      "lastModified": "2026-08-10T06:27:44Z",
+      "lastModified": "2026-08-11T04:21:50Z",
       "source": "github",
       "url": "https://github.com/kirinlin/ahk-scripts",
       "stars": 0,
       "forks": 0,
       "owner": "kirinlin",
-      "code": "```cpp\n; ============================================\n; Repository: kirinlin/ahk-scripts\n; ============================================\n; URL: https://github.com/kirinlin/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: MIT License\n;\n; Description:\n; Personal collection of AutoHotkey v2 scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kirinlin/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kirinlin/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kirinlin/ahk-scripts\n; ============================================\n; URL: https://github.com/kirinlin/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: MIT License\n;\n; Description:\n; Personal collection of AutoHotkey v2 scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kirinlin/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kirinlin/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
     },
     {
       "id": "github-1327068476",
