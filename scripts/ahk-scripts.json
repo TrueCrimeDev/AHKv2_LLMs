@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-12T07:18:13.178Z",
+  "lastUpdated": "2026-08-12T12:59:28.366Z",
   "totalScripts": 459,
   "categories": [
     "GUI",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-11T19:46:40Z",
+      "lastModified": "2026-08-12T09:56:31Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 8/11/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 8/12/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-08-08T21:46:51Z",
+      "lastModified": "2026-08-12T12:28:16Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
-      "stars": 4,
+      "stars": 5,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 4 | Forks: 0\n; Last Updated: 8/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 5 | Forks: 0\n; Last Updated: 8/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -5681,13 +5681,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-13T20:25:58Z",
-      "lastModified": "2026-08-06T01:22:43Z",
+      "lastModified": "2026-08-12T12:31:44Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 8/6/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
     },
     {
       "id": "github-1240637987",
@@ -8900,7 +8900,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T15:34:07Z",
-      "lastModified": "2026-08-12T07:08:46Z",
+      "lastModified": "2026-08-12T09:55:54Z",
       "source": "github",
       "url": "https://github.com/nguyen-dzu/zalo-listing-bot",
       "stars": 0,
@@ -9040,13 +9040,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-09T08:37:51Z",
-      "lastModified": "2026-08-10T08:26:36Z",
+      "lastModified": "2026-08-12T12:39:58Z",
       "source": "github",
       "url": "https://github.com/nperovic/DarkMenuBar",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "nperovic",
-      "code": "```cpp\n; ============================================\n; Repository: nperovic/DarkMenuBar\n; ============================================\n; URL: https://github.com/nperovic/DarkMenuBar\n; Stars: 1 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; Dark Theme MenuBar for AutoHotkey v2.1-alpha.30+\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nperovic/DarkMenuBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nperovic/DarkMenuBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkMenuBar>\n\n; Example initialization\nclass DarkmenubarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkMenuBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkmenubarExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nperovic/DarkMenuBar\n; ============================================\n; URL: https://github.com/nperovic/DarkMenuBar\n; Stars: 2 | Forks: 0\n; Last Updated: 8/12/2026\n; License: Not specified\n;\n; Description:\n; Dark Theme MenuBar for AutoHotkey v2.1-alpha.30+\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nperovic/DarkMenuBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nperovic/DarkMenuBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkMenuBar>\n\n; Example initialization\nclass DarkmenubarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkMenuBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkmenubarExample()\n```"
     },
     {
       "id": "github-1329492454",
@@ -9204,7 +9204,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-12T04:42:30Z",
-      "lastModified": "2026-08-12T06:46:00Z",
+      "lastModified": "2026-08-12T07:28:18Z",
       "source": "github",
       "url": "https://github.com/kxn4t/vive-ultimate-tracker-poweroff",
       "stars": 0,
