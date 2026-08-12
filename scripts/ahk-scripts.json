@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-12T12:59:28.366Z",
-  "totalScripts": 459,
+  "lastUpdated": "2026-08-12T18:56:32.170Z",
+  "totalScripts": 460,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-08-10T12:42:37Z",
+      "lastModified": "2026-08-12T14:27:15Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 53,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 53 | Forks: 8\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 53 | Forks: 8\n; Last Updated: 8/12/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-12T09:56:31Z",
+      "lastModified": "2026-08-12T14:27:32Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-08-12T12:28:16Z",
+      "lastModified": "2026-08-12T13:48:14Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
-      "stars": 5,
+      "stars": 6,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 5 | Forks: 0\n; Last Updated: 8/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 6 | Forks: 0\n; Last Updated: 8/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 🚀 A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -5204,13 +5204,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-08-11T20:54:17Z",
+      "lastModified": "2026-08-12T15:57:37Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
       "forks": 0,
       "owner": "PCMon",
-      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     },
     {
       "id": "github-1225321547",
@@ -5681,7 +5681,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-13T20:25:58Z",
-      "lastModified": "2026-08-12T12:31:44Z",
+      "lastModified": "2026-08-12T17:42:25Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame",
       "stars": 0,
@@ -8793,13 +8793,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-08-11T15:21:40Z",
+      "lastModified": "2026-08-12T15:50:28Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 0,
       "forks": 0,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1324193494",
@@ -9027,7 +9027,7 @@
       "id": "github-1328598523",
       "title": "DarkMenuBar",
       "category": "GitHub Repository",
-      "description": "Dark Theme MenuBar for AutoHotkey v2.1-alpha.30+",
+      "description": "Dark Theme MenuBar for AutoHotkey v2.1-alpha.30+ and v2.0",
       "tags": [
         "github",
         "repository",
@@ -9040,13 +9040,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-09T08:37:51Z",
-      "lastModified": "2026-08-12T12:39:58Z",
+      "lastModified": "2026-08-12T13:42:07Z",
       "source": "github",
       "url": "https://github.com/nperovic/DarkMenuBar",
       "stars": 2,
       "forks": 0,
       "owner": "nperovic",
-      "code": "```cpp\n; ============================================\n; Repository: nperovic/DarkMenuBar\n; ============================================\n; URL: https://github.com/nperovic/DarkMenuBar\n; Stars: 2 | Forks: 0\n; Last Updated: 8/12/2026\n; License: Not specified\n;\n; Description:\n; Dark Theme MenuBar for AutoHotkey v2.1-alpha.30+\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nperovic/DarkMenuBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nperovic/DarkMenuBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkMenuBar>\n\n; Example initialization\nclass DarkmenubarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkMenuBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkmenubarExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nperovic/DarkMenuBar\n; ============================================\n; URL: https://github.com/nperovic/DarkMenuBar\n; Stars: 2 | Forks: 0\n; Last Updated: 8/12/2026\n; License: Not specified\n;\n; Description:\n; Dark Theme MenuBar for AutoHotkey v2.1-alpha.30+ and v2.0\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nperovic/DarkMenuBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nperovic/DarkMenuBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DarkMenuBar>\n\n; Example initialization\nclass DarkmenubarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DarkMenuBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkmenubarExample()\n```"
     },
     {
       "id": "github-1329492454",
@@ -9160,13 +9160,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-11T18:30:17Z",
-      "lastModified": "2026-08-11T18:35:48Z",
+      "lastModified": "2026-08-12T14:35:34Z",
       "source": "github",
       "url": "https://github.com/MarionRepo/AHK-ChromeSimulatedSearch",
       "stars": 0,
       "forks": 0,
       "owner": "MarionRepo",
-      "code": "```cpp\n; ============================================\n; Repository: MarionRepo/AHK-ChromeSimulatedSearch\n; ============================================\n; URL: https://github.com/MarionRepo/AHK-ChromeSimulatedSearch\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: Not specified\n;\n; Description:\n; This is a AutoHotkey v2 script that programmatically opens a Chrome tab using a hotkey and searches whatever is entered in the variable. Time and keystrokes is the main focus, using a shortcut you can avoid using the mouse and multiple keystrokes to type out what you wish to search.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MarionRepo/AHK-ChromeSimulatedSearch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MarionRepo/AHK-ChromeSimulatedSearch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ChromeSimulatedSearch>\n\n; Example initialization\nclass AhkChromesimulatedsearchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ChromeSimulatedSearch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkChromesimulatedsearchExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MarionRepo/AHK-ChromeSimulatedSearch\n; ============================================\n; URL: https://github.com/MarionRepo/AHK-ChromeSimulatedSearch\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: Not specified\n;\n; Description:\n; This is a AutoHotkey v2 script that programmatically opens a Chrome tab using a hotkey and searches whatever is entered in the variable. Time and keystrokes is the main focus, using a shortcut you can avoid using the mouse and multiple keystrokes to type out what you wish to search.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MarionRepo/AHK-ChromeSimulatedSearch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MarionRepo/AHK-ChromeSimulatedSearch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ChromeSimulatedSearch>\n\n; Example initialization\nclass AhkChromesimulatedsearchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ChromeSimulatedSearch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkChromesimulatedsearchExample()\n```"
     },
     {
       "id": "github-1331103621",
@@ -9179,13 +9179,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-11T15:57:33Z",
-      "lastModified": "2026-08-11T21:39:47Z",
+      "lastModified": "2026-08-12T13:32:56Z",
       "source": "github",
       "url": "https://github.com/kiriuu/FL-Launcher",
       "stars": 0,
       "forks": 0,
       "owner": "kiriuu",
-      "code": "```cpp\n; ============================================\n; Repository: kiriuu/FL-Launcher\n; ============================================\n; URL: https://github.com/kiriuu/FL-Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: MIT License\n;\n; Description:\n; A Launcher for FL Studio, developed with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kiriuu/FL-Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kiriuu/FL-Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FL-Launcher>\n\n; Example initialization\nclass FlLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FL-Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FlLauncherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kiriuu/FL-Launcher\n; ============================================\n; URL: https://github.com/kiriuu/FL-Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: MIT License\n;\n; Description:\n; A Launcher for FL Studio, developed with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kiriuu/FL-Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kiriuu/FL-Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FL-Launcher>\n\n; Example initialization\nclass FlLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FL-Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FlLauncherExample()\n```"
     },
     {
       "id": "github-1331615876",
@@ -9274,6 +9274,25 @@
       "forks": 0,
       "owner": "nemesisprojectstudios",
       "code": "```cpp\n; ============================================\n; Repository: nemesisprojectstudios/AutoCrypt\n; ============================================\n; URL: https://github.com/nemesisprojectstudios/AutoCrypt\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2.1-alpha text & file encryption tool\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nemesisprojectstudios/AutoCrypt.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nemesisprojectstudios/AutoCrypt/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCrypt>\n\n; Example initialization\nclass AutocryptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCrypt loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocryptExample()\n```"
+    },
+    {
+      "id": "github-1332048096",
+      "title": "AutoKey",
+      "category": "GitHub Repository",
+      "description": "基于 AutoHotkey v2 的 Windows 自动按键工具",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-12T13:16:01Z",
+      "lastModified": "2026-08-12T14:16:04Z",
+      "source": "github",
+      "url": "https://github.com/JiangChenrui/AutoKey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "JiangChenrui",
+      "code": "```cpp\n; ============================================\n; Repository: JiangChenrui/AutoKey\n; ============================================\n; URL: https://github.com/JiangChenrui/AutoKey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 的 Windows 自动按键工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JiangChenrui/AutoKey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JiangChenrui/AutoKey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoKey>\n\n; Example initialization\nclass AutokeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoKey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutokeyExample()\n```"
     }
   ]
 }
