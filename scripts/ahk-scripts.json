@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-11T18:56:20.162Z",
-  "totalScripts": 455,
+  "lastUpdated": "2026-08-12T07:18:13.178Z",
+  "totalScripts": 459,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-11T14:33:12Z",
+      "lastModified": "2026-08-11T19:46:40Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -3372,20 +3372,26 @@
       "id": "github-1169619112",
       "title": "CursorTip",
       "category": "GitHub Repository",
-      "description": "AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示",
+      "description": "极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "capslock",
+        "clipboard",
+        "desktop-tool",
+        "ime",
+        "windows"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-08-11T18:19:22Z",
+      "lastModified": "2026-08-11T19:30:30Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
       "stars": 5,
       "forks": 1,
       "owner": "zeno528",
-      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 5 | Forks: 1\n; Last Updated: 8/11/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 脚本 - 大小写 + 输入法 + 复制状态提示\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 5 | Forks: 1\n; Last Updated: 8/11/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
     },
     {
       "id": "github-1169730446",
@@ -4925,13 +4931,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-08-10T14:16:27Z",
+      "lastModified": "2026-08-12T06:02:42Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
       "stars": 11,
       "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 11 | Forks: 3\n; Last Updated: 8/10/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 11 | Forks: 3\n; Last Updated: 8/12/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -5198,7 +5204,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-08-11T18:27:38Z",
+      "lastModified": "2026-08-11T20:54:17Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
@@ -8894,13 +8900,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T15:34:07Z",
-      "lastModified": "2026-08-11T14:48:05Z",
+      "lastModified": "2026-08-12T07:08:46Z",
       "source": "github",
       "url": "https://github.com/nguyen-dzu/zalo-listing-bot",
       "stars": 0,
       "forks": 0,
       "owner": "nguyen-dzu",
-      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nguyen-dzu/zalo-listing-bot\n; ============================================\n; URL: https://github.com/nguyen-dzu/zalo-listing-bot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 bot for harvesting and relaying Zalo room listings\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nguyen-dzu/zalo-listing-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nguyen-dzu/zalo-listing-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-listing-bot>\n\n; Example initialization\nclass ZaloListingBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-listing-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloListingBotExample()\n```"
     },
     {
       "id": "github-1324090814",
@@ -9173,13 +9179,101 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-11T15:57:33Z",
-      "lastModified": "2026-08-11T18:03:01Z",
+      "lastModified": "2026-08-11T21:39:47Z",
       "source": "github",
       "url": "https://github.com/kiriuu/FL-Launcher",
       "stars": 0,
       "forks": 0,
       "owner": "kiriuu",
       "code": "```cpp\n; ============================================\n; Repository: kiriuu/FL-Launcher\n; ============================================\n; URL: https://github.com/kiriuu/FL-Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: MIT License\n;\n; Description:\n; A Launcher for FL Studio, developed with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kiriuu/FL-Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kiriuu/FL-Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FL-Launcher>\n\n; Example initialization\nclass FlLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FL-Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FlLauncherExample()\n```"
+    },
+    {
+      "id": "github-1331615876",
+      "title": "vive-ultimate-tracker-poweroff",
+      "category": "GitHub Repository",
+      "description": "Turn off all your VIVE Ultimate Trackers at once — automates VIVE Hub via UI Automation (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "stream-deck",
+        "vive",
+        "vive-tracker",
+        "vive-ultimate-tracker",
+        "vr"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-12T04:42:30Z",
+      "lastModified": "2026-08-12T06:46:00Z",
+      "source": "github",
+      "url": "https://github.com/kxn4t/vive-ultimate-tracker-poweroff",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kxn4t",
+      "code": "```cpp\n; ============================================\n; Repository: kxn4t/vive-ultimate-tracker-poweroff\n; ============================================\n; URL: https://github.com/kxn4t/vive-ultimate-tracker-poweroff\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: MIT License\n;\n; Description:\n; Turn off all your VIVE Ultimate Trackers at once — automates VIVE Hub via UI Automation (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kxn4t/vive-ultimate-tracker-poweroff.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kxn4t/vive-ultimate-tracker-poweroff/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vive-ultimate-tracker-poweroff>\n\n; Example initialization\nclass ViveUltimateTrackerPoweroffExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vive-ultimate-tracker-poweroff loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ViveUltimateTrackerPoweroffExample()\n```"
+    },
+    {
+      "id": "github-1331299062",
+      "title": "TerminAHK",
+      "category": "GitHub Repository",
+      "description": "A Windows Powershell terminal emulator built in AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-11T19:47:24Z",
+      "lastModified": "2026-08-11T20:18:36Z",
+      "source": "github",
+      "url": "https://github.com/nemesisprojectstudios/TerminAHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nemesisprojectstudios",
+      "code": "```cpp\n; ============================================\n; Repository: nemesisprojectstudios/TerminAHK\n; ============================================\n; URL: https://github.com/nemesisprojectstudios/TerminAHK\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A Windows Powershell terminal emulator built in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nemesisprojectstudios/TerminAHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nemesisprojectstudios/TerminAHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TerminAHK>\n\n; Example initialization\nclass TerminahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TerminAHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TerminahkExample()\n```"
+    },
+    {
+      "id": "github-1330758226",
+      "title": "o2om",
+      "category": "GitHub Repository",
+      "description": "Lightweight AutoHotkey v2 Stand-Up & Physical Health Reminder for Windows (Break Timer, Posture Stretches, Arabic/English RTL)",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "arabic",
+        "autohotkey",
+        "autohotkey-v2",
+        "break-timer",
+        "desktop-app"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-11T09:56:31Z",
+      "lastModified": "2026-08-11T20:26:11Z",
+      "source": "github",
+      "url": "https://github.com/BelalWaheed/o2om",
+      "stars": 1,
+      "forks": 0,
+      "owner": "BelalWaheed",
+      "code": "```cpp\n; ============================================\n; Repository: BelalWaheed/o2om\n; ============================================\n; URL: https://github.com/BelalWaheed/o2om\n; Stars: 1 | Forks: 0\n; Last Updated: 8/11/2026\n; License: Not specified\n;\n; Description:\n; Lightweight AutoHotkey v2 Stand-Up & Physical Health Reminder for Windows (Break Timer, Posture Stretches, Arabic/English RTL)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelalWaheed/o2om.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelalWaheed/o2om/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <o2om>\n\n; Example initialization\nclass O2omExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"o2om loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := O2omExample()\n```"
+    },
+    {
+      "id": "github-1293496222",
+      "title": "AutoCrypt",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2.1-alpha text & file encryption tool",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-07-08T11:15:39Z",
+      "lastModified": "2026-08-11T19:44:51Z",
+      "source": "github",
+      "url": "https://github.com/nemesisprojectstudios/AutoCrypt",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nemesisprojectstudios",
+      "code": "```cpp\n; ============================================\n; Repository: nemesisprojectstudios/AutoCrypt\n; ============================================\n; URL: https://github.com/nemesisprojectstudios/AutoCrypt\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2.1-alpha text & file encryption tool\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nemesisprojectstudios/AutoCrypt.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nemesisprojectstudios/AutoCrypt/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCrypt>\n\n; Example initialization\nclass AutocryptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCrypt loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocryptExample()\n```"
     }
   ]
 }
