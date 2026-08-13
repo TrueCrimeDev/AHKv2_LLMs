@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-12T18:56:32.170Z",
-  "totalScripts": 460,
+  "lastUpdated": "2026-08-13T01:40:30.047Z",
+  "totalScripts": 463,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8679,13 +8679,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-02T15:29:00Z",
-      "lastModified": "2026-08-04T13:07:54Z",
+      "lastModified": "2026-08-13T00:16:33Z",
       "source": "github",
       "url": "https://github.com/smarchena/data-registration-automation",
       "stars": 0,
       "forks": 0,
       "owner": "smarchena",
-      "code": "```cpp\n; ============================================\n; Repository: smarchena/data-registration-automation\n; ============================================\n; URL: https://github.com/smarchena/data-registration-automation\n; Stars: 0 | Forks: 0\n; Last Updated: 8/4/2026\n; License: Not specified\n;\n; Description:\n; Automating the registration of materials in a web application using AutoHotkey v2, utilizing arrays, keyboard sequences, timeouts, and automatic navigation.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smarchena/data-registration-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smarchena/data-registration-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <data-registration-automation>\n\n; Example initialization\nclass DataRegistrationAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"data-registration-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DataRegistrationAutomationExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smarchena/data-registration-automation\n; ============================================\n; URL: https://github.com/smarchena/data-registration-automation\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: Not specified\n;\n; Description:\n; Automating the registration of materials in a web application using AutoHotkey v2, utilizing arrays, keyboard sequences, timeouts, and automatic navigation.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smarchena/data-registration-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smarchena/data-registration-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <data-registration-automation>\n\n; Example initialization\nclass DataRegistrationAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"data-registration-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DataRegistrationAutomationExample()\n```"
     },
     {
       "id": "github-1321191957",
@@ -9293,6 +9293,63 @@
       "forks": 0,
       "owner": "JiangChenrui",
       "code": "```cpp\n; ============================================\n; Repository: JiangChenrui/AutoKey\n; ============================================\n; URL: https://github.com/JiangChenrui/AutoKey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 的 Windows 自动按键工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/JiangChenrui/AutoKey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/JiangChenrui/AutoKey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoKey>\n\n; Example initialization\nclass AutokeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoKey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutokeyExample()\n```"
+    },
+    {
+      "id": "github-1332545054",
+      "title": "marutto-path-copy",
+      "category": "GitHub Repository",
+      "description": "Windows Explorerのファイル・フォルダのパスを整形してコピーするAutoHotkey v2スクリプト",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-13T00:13:37Z",
+      "lastModified": "2026-08-13T01:34:56Z",
+      "source": "github",
+      "url": "https://github.com/ogura-ryoya/marutto-path-copy",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ogura-ryoya",
+      "code": "```cpp\n; ============================================\n; Repository: ogura-ryoya/marutto-path-copy\n; ============================================\n; URL: https://github.com/ogura-ryoya/marutto-path-copy\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: Not specified\n;\n; Description:\n; Windows Explorerのファイル・フォルダのパスを整形してコピーするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ogura-ryoya/marutto-path-copy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ogura-ryoya/marutto-path-copy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <marutto-path-copy>\n\n; Example initialization\nclass MaruttoPathCopyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"marutto-path-copy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MaruttoPathCopyExample()\n```"
+    },
+    {
+      "id": "github-1332571491",
+      "title": "TBXR-AutoPiano-for-roblox",
+      "category": "GitHub Repository",
+      "description": "A premium, dark-themed Roblox AutoPiano engine built with AutoHotkey v2. Features real-time timing control, multi-sheet compatibility, and an elegant graphical user interface.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-13T01:03:44Z",
+      "lastModified": "2026-08-13T01:05:34Z",
+      "source": "github",
+      "url": "https://github.com/TBXR-sf/TBXR-AutoPiano-for-roblox",
+      "stars": 0,
+      "forks": 0,
+      "owner": "TBXR-sf",
+      "code": "```cpp\n; ============================================\n; Repository: TBXR-sf/TBXR-AutoPiano-for-roblox\n; ============================================\n; URL: https://github.com/TBXR-sf/TBXR-AutoPiano-for-roblox\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: Other\n;\n; Description:\n; A premium, dark-themed Roblox AutoPiano engine built with AutoHotkey v2. Features real-time timing control, multi-sheet compatibility, and an elegant graphical user interface.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TBXR-sf/TBXR-AutoPiano-for-roblox.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TBXR-sf/TBXR-AutoPiano-for-roblox/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TBXR-AutoPiano-for-roblox>\n\n; Example initialization\nclass TbxrAutopianoForRobloxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TBXR-AutoPiano-for-roblox loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TbxrAutopianoForRobloxExample()\n```"
+    },
+    {
+      "id": "github-1332435799",
+      "title": "biro",
+      "category": "GitHub Repository",
+      "description": "Atalhos de pasta, busca de arquivos e expansão de texto para Windows. AutoHotkey v2, sem instalação.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-12T20:51:09Z",
+      "lastModified": "2026-08-12T21:04:02Z",
+      "source": "github",
+      "url": "https://github.com/horstmr/biro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "horstmr",
+      "code": "```cpp\n; ============================================\n; Repository: horstmr/biro\n; ============================================\n; URL: https://github.com/horstmr/biro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: MIT License\n;\n; Description:\n; Atalhos de pasta, busca de arquivos e expansão de texto para Windows. AutoHotkey v2, sem instalação.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/horstmr/biro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/horstmr/biro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <biro>\n\n; Example initialization\nclass BiroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"biro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BiroExample()\n```"
     }
   ]
 }
