@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-13T01:40:30.047Z",
+  "lastUpdated": "2026-08-13T07:20:28.840Z",
   "totalScripts": 463,
   "categories": [
     "GUI",
@@ -2219,13 +2219,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-26T07:34:08Z",
-      "lastModified": "2026-07-24T06:29:01Z",
+      "lastModified": "2026-08-13T06:03:43Z",
       "source": "github",
       "url": "https://github.com/NaoeRiki21/Off-CCD",
       "stars": 0,
       "forks": 0,
       "owner": "NaoeRiki21",
-      "code": "```cpp\n; ============================================\n; Repository: NaoeRiki21/Off-CCD\n; ============================================\n; URL: https://github.com/NaoeRiki21/Off-CCD\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: MIT License\n;\n; Description:\n; 一个基于 AutoHotkey v2 的轻量级进程核心分配与优先级管理工具。专为 AMD 多 CCD 用户优化，有效降低跨 CCD 延迟。 (A lightweight AHKv2 utility for AMD CCD affinity & process priority management.)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NaoeRiki21/Off-CCD.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NaoeRiki21/Off-CCD/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Off-CCD>\n\n; Example initialization\nclass OffCcdExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Off-CCD loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OffCcdExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: NaoeRiki21/Off-CCD\n; ============================================\n; URL: https://github.com/NaoeRiki21/Off-CCD\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: MIT License\n;\n; Description:\n; 一个基于 AutoHotkey v2 的轻量级进程核心分配与优先级管理工具。专为 AMD 多 CCD 用户优化，有效降低跨 CCD 延迟。 (A lightweight AHKv2 utility for AMD CCD affinity & process priority management.)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NaoeRiki21/Off-CCD.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NaoeRiki21/Off-CCD/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Off-CCD>\n\n; Example initialization\nclass OffCcdExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Off-CCD loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OffCcdExample()\n```"
     },
     {
       "id": "github-1142586999",
@@ -9298,20 +9298,20 @@
       "id": "github-1332545054",
       "title": "marutto-path-copy",
       "category": "GitHub Repository",
-      "description": "Windows Explorerのファイル・フォルダのパスを整形してコピーするAutoHotkey v2スクリプト",
+      "description": "Windows Explorerのファイル・フォルダのパスを整形してまるっとコピーするAutoHotkey v2スクリプト",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-13T00:13:37Z",
-      "lastModified": "2026-08-13T01:34:56Z",
+      "lastModified": "2026-08-13T03:35:53Z",
       "source": "github",
       "url": "https://github.com/ogura-ryoya/marutto-path-copy",
       "stars": 0,
       "forks": 0,
       "owner": "ogura-ryoya",
-      "code": "```cpp\n; ============================================\n; Repository: ogura-ryoya/marutto-path-copy\n; ============================================\n; URL: https://github.com/ogura-ryoya/marutto-path-copy\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: Not specified\n;\n; Description:\n; Windows Explorerのファイル・フォルダのパスを整形してコピーするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ogura-ryoya/marutto-path-copy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ogura-ryoya/marutto-path-copy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <marutto-path-copy>\n\n; Example initialization\nclass MaruttoPathCopyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"marutto-path-copy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MaruttoPathCopyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ogura-ryoya/marutto-path-copy\n; ============================================\n; URL: https://github.com/ogura-ryoya/marutto-path-copy\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: Not specified\n;\n; Description:\n; Windows Explorerのファイル・フォルダのパスを整形してまるっとコピーするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ogura-ryoya/marutto-path-copy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ogura-ryoya/marutto-path-copy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <marutto-path-copy>\n\n; Example initialization\nclass MaruttoPathCopyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"marutto-path-copy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MaruttoPathCopyExample()\n```"
     },
     {
       "id": "github-1332571491",
