@@ -1,5 +1,59 @@
 [
  {
+  "slug": "grok-4-6-sweep",
+  "title": "Grok 4.6: Third on Everything, and a Share of the Eval Record",
+  "preview_title": "Grok 4.6 Ties the Eval Record and Finishes Third on All Three Suites",
+  "date": "2026-08-13",
+  "description": "xAI's Grok 4.6 posts 35/36 on eval — the joint-highest solved count on the board — with a hard tier of 11/12 beaten only by Claude Fable 5, and zero parse failures across all ninety calls. It finishes third on all three suites: 22/30 on repair with the tightest minimality in its bracket, and 22/24 on contract. The borrowed-operator failures that defined the Grok 4.5 writeup are gone entirely. Its one contract parse failure is the round's most sophisticated mistake — reaching correctly for the alpha.30 Struct keyword and getting the field layout wrong.",
+  "preview": "One integer comparison away from the best cold eval score the board has recorded — and seven times the price of the model that beat it on two suites.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "AHK-Repair",
+   "AHK-Contract",
+   "Grok 4.6",
+   "xAI"
+  ],
+  "path": "posts/grok-4-6-sweep.md"
+ },
+ {
+  "slug": "gemini-3-7-flash-sweep",
+  "title": "Gemini 3.7 Flash: The Repair Board Gets a New Ceiling",
+  "preview_title": "Gemini 3.7 Flash Takes Repair and Contract Outright",
+  "date": "2026-08-13",
+  "description": "Google's Gemini 3.7 Flash runs all three AHK suites for $0.27 and takes rank 1 on repair (28/30, a five-item lead over the previous best) and rank 1 on contract with the board's first perfect score — 24/24 tasks, 173/173 cases, zero parse failures. It places 7th of 37 on eval at 33/36 with a hard tier of 10/12, cleared by only three entries before it. Ninety calls, zero API failures, roughly four seconds and 1,200 completion tokens each — no call came within a tenth of the output cap, so the placement holds against every historical arm.",
+  "preview": "A perfect contract sweep, a five-item lead on repair, and ninety calls for twenty-seven cents.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "AHK-Repair",
+   "AHK-Contract",
+   "Gemini 3.7 Flash",
+   "Google"
+  ],
+  "path": "posts/gemini-3-7-flash-sweep.md"
+ },
+ {
+  "slug": "deepseek-v4-pro-0813-sweep",
+  "title": "DeepSeek V4 Pro 0813: A Flawless Mid-Tier and a Reasoning Budget That Runs Out",
+  "preview_title": "DeepSeek V4 Pro 0813 Solves Every Mid Task, Then Thinks Itself Out of Budget",
+  "date": "2026-08-13",
+  "description": "DeepSeek's V4 Pro 0813 lands 30/36 on eval, 14/30 on repair and 20/24 on contract for $0.76 — an eight-task gain over the undated V4 Pro at a third of the token price. The tier shape is the sharpest the board has recorded: easy 12/12, mid 12/12, then 6/12 on hard. The run also exposed how heavily it reasons — a repair median of 15,312 tokens against a 16,000 cap, two calls that produced no code at all, and a harness fallback that logged a reasoning transcript as a successful answer.",
+  "preview": "Every easy and mid task solved, half the hard tier lost, and 20,000 tokens spent thinking without writing a line of code.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "AHK-Repair",
+   "AHK-Contract",
+   "DeepSeek V4 Pro",
+   "DeepSeek"
+  ],
+  "path": "posts/deepseek-v4-pro-0813-sweep.md"
+ },
+ {
   "slug": "ahk-harness-graph",
   "title": "The Grading Graph: One Rule, Four Tiers, and 47 Scripts That Quietly Did Nothing",
   "preview_title": "The Harness Graph — and the Silent Bug It Found in 47 Scripts",
