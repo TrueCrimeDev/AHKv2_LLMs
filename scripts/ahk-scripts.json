@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-13T13:00:28.613Z",
+  "lastUpdated": "2026-08-13T18:57:51.092Z",
   "totalScripts": 463,
   "categories": [
     "GUI",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-12T14:27:32Z",
+      "lastModified": "2026-08-13T14:34:20Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 8/12/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 8/13/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -5197,20 +5197,20 @@
       "id": "github-1216100854",
       "title": "EvenBetterGunMacro",
       "category": "GitHub Repository",
-      "description": "An open source customizable Jailbreak loadout tool made with AutoHotkey v2.",
+      "description": "An open source customizable Jailbreak macro tool made with AutoHotkey v2.",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-08-12T15:57:37Z",
+      "lastModified": "2026-08-13T18:06:40Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
       "forks": 0,
       "owner": "PCMon",
-      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak loadout tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak macro tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     },
     {
       "id": "github-1225321547",
@@ -8793,7 +8793,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-08-13T10:19:02Z",
+      "lastModified": "2026-08-13T17:20:48Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 0,
@@ -9160,13 +9160,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-11T18:30:17Z",
-      "lastModified": "2026-08-12T14:35:34Z",
+      "lastModified": "2026-08-13T13:43:42Z",
       "source": "github",
       "url": "https://github.com/MarionRepo/AHK-ChromeSimulatedSearch",
       "stars": 0,
       "forks": 0,
       "owner": "MarionRepo",
-      "code": "```cpp\n; ============================================\n; Repository: MarionRepo/AHK-ChromeSimulatedSearch\n; ============================================\n; URL: https://github.com/MarionRepo/AHK-ChromeSimulatedSearch\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: Not specified\n;\n; Description:\n; This is a AutoHotkey v2 script that programmatically opens a Chrome tab using a hotkey and searches whatever is entered in the variable. Time and keystrokes is the main focus, using a shortcut you can avoid using the mouse and multiple keystrokes to type out what you wish to search.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MarionRepo/AHK-ChromeSimulatedSearch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MarionRepo/AHK-ChromeSimulatedSearch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ChromeSimulatedSearch>\n\n; Example initialization\nclass AhkChromesimulatedsearchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ChromeSimulatedSearch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkChromesimulatedsearchExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MarionRepo/AHK-ChromeSimulatedSearch\n; ============================================\n; URL: https://github.com/MarionRepo/AHK-ChromeSimulatedSearch\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: Not specified\n;\n; Description:\n; This is a AutoHotkey v2 script that programmatically opens a Chrome tab using a hotkey and searches whatever is entered in the variable. Time and keystrokes is the main focus, using a shortcut you can avoid using the mouse and multiple keystrokes to type out what you wish to search.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MarionRepo/AHK-ChromeSimulatedSearch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MarionRepo/AHK-ChromeSimulatedSearch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ChromeSimulatedSearch>\n\n; Example initialization\nclass AhkChromesimulatedsearchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ChromeSimulatedSearch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkChromesimulatedsearchExample()\n```"
     },
     {
       "id": "github-1331103621",
