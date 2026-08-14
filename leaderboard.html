@@ -96,7 +96,7 @@
       <div style="overflow-x:auto;margin-top:14px"><table class="bm-heat"><thead><tr>
         <th style="text-align:left">Model</th><th>SWE-bench Verified</th><th>in $/M</th><th>out $/M</th><th>AHK-Eval cold</th>
       </tr></thead><tbody id="swebody"></tbody></table></div>
-      <p class="bm-note">SWE-bench Verified scores as published on <a href="https://llm-stats.com/benchmarks/swe-bench-verified">llm-stats</a> and <a href="https://benchlm.ai/benchmarks/sweVerified">BenchLM</a>, 2026-07-09; GPT-5.5 is OpenAI-reported (OpenAI stopped submitting Verified in early 2026). xAI does not report Verified — it publishes <a href="https://x.ai/news/grok-4-5">SWE-bench Pro</a> instead (Grok 4.5: 64.7%), which isn't comparable and so isn't plotted. Likewise <a href="https://openai.com/index/gpt-5-6/">GPT-5.6</a> (launched 2026-07-09) ships without a Verified score — OpenAI reports DeepSWE v1.1 and SWE-bench Pro for it — so the 5.6 family sits in the table unplotted. Pricing from the OpenRouter API, 2026-07-09. AionLabs' Aion-3.0 systems (multi-model storytelling ensembles on GLM / DeepSeek bases) publish no Verified score. <em>Grok Latest</em> is OpenRouter's rolling alias — this run resolved to <code>grok-4.5-20260708</code> and scored 28/36 against the pinned Grok 4.5 endpoint's 31/36, a caution on reading single-run deltas at temperature 0.2; the alias is skipped in the charts. The AHK-Eval chart plots paid endpoints only — free tiers ($0) can't sit on a log cost axis. In the grid, rows are exact model endpoints: GUI-board and OOP-judge cells fill only where that same endpoint ran the <a href="post.html?slug=llm-clipboard-benchmark">GUI benchmark</a> (its GPT-5.5 <em>Pro</em> and Kimi K2.<em>7</em> entries are different models, so those cells stay empty). Toolkit is hidden-case % from the <a href="post.html?slug=llm-toolkit-benchmark">12-function one-shot</a> — the zeros are single parse errors zeroing the whole file. Eval +repair is <a href="post.html?slug=ahk-eval-context-arms">round 2's</a> rules-card + one-repair arm.</p>
+      <p class="bm-note">SWE-bench Verified scores as published on <a href="https://llm-stats.com/benchmarks/swe-bench-verified">llm-stats</a> and <a href="https://benchlm.ai/benchmarks/sweVerified">BenchLM</a>, 2026-07-09; GPT-5.5 is OpenAI-reported (OpenAI stopped submitting Verified in early 2026). xAI does not report Verified — it publishes <a href="https://x.ai/news/grok-4-5">SWE-bench Pro</a> instead (Grok 4.5: 64.7%), which isn't comparable and so isn't plotted. Likewise <a href="https://openai.com/index/gpt-5-6/">GPT-5.6</a> (launched 2026-07-09) ships without a Verified score — OpenAI reports DeepSWE v1.1 and SWE-bench Pro for it — so the 5.6 family sits in the table unplotted. Pricing from the OpenRouter API, 2026-07-09. The three 2026-08-13 arms are likewise unplotted on the Verified chart: <a href="https://deepmind.google/models/model-cards/gemini-3-7-flash/">Gemini 3.7 Flash</a> reports DeepSWE v1.1 65.3% and FrontierCode 1.1 43.6% but no Verified score, xAI's Grok 4.6 reports DeepSWE v1.1 65.9% and APEX-SWE 56.4%, and DeepSeek V4 Pro 0813's Verified figures are vendor-claimed only — sources disagree by more than fifteen points and none has been independently reproduced, so it stays off the axis. Their pricing is from the OpenRouter API, 2026-08-13.  AionLabs' Aion-3.0 systems (multi-model storytelling ensembles on GLM / DeepSeek bases) publish no Verified score. <em>Grok Latest</em> is OpenRouter's rolling alias — this run resolved to <code>grok-4.5-20260708</code> and scored 28/36 against the pinned Grok 4.5 endpoint's 31/36, a caution on reading single-run deltas at temperature 0.2; the alias is skipped in the charts. The AHK-Eval chart plots paid endpoints only — free tiers ($0) can't sit on a log cost axis. In the grid, rows are exact model endpoints: GUI-board and OOP-judge cells fill only where that same endpoint ran the <a href="post.html?slug=llm-clipboard-benchmark">GUI benchmark</a> (its GPT-5.5 <em>Pro</em> and Kimi K2.<em>7</em> entries are different models, so those cells stay empty). Toolkit is hidden-case % from the <a href="post.html?slug=llm-toolkit-benchmark">12-function one-shot</a> — the zeros are single parse errors zeroing the whole file. Eval +repair is <a href="post.html?slug=ahk-eval-context-arms">round 2's</a> rules-card + one-repair arm.</p>
     </div>
   </main>
 
@@ -153,14 +153,17 @@
     {n:'Qwen3 Coder',s:69.6,i:0.22,o:1.80,a:16,dx:2,dy:17,side:'middle'}
   ];
   const SWE_NP=[
+    {n:'Grok 4.6',i:2.00,o:6.00,a:35,note:'DeepSWE v1.1 65.9%; Verified not published'},
     {n:'GPT-5.6 Sol Pro',i:5.00,o:30.00,a:35,note:'SWE-bench Pro 64.6% (Sol)'},
     {n:'GPT-5.6 Sol',i:5.00,o:30.00,a:34,note:'SWE-bench Pro 64.6%'},
     {n:'GPT-5.6 Luna Pro',i:1.00,o:6.00,a:34,note:''},
     {n:'GPT-5.6 Luna',i:1.00,o:6.00,a:33,note:''},
+    {n:'Gemini 3.7 Flash',i:0.375,o:1.875,a:33,note:'DeepSWE v1.1 65.3%; Verified not published'},
     {n:'GPT-5.6 Terra',i:2.50,o:15.00,a:32,note:''},
     {n:'GPT-5.6 Terra Pro',i:2.50,o:15.00,a:31,note:''},
     {n:'Grok 4.5',i:2.00,o:6.00,a:31,note:'SWE-bench Pro 64.7%'},
     {n:'Muse Spark 1.1',i:1.25,o:4.25,a:30,note:'SWE-bench Pro 61.5%'},
+    {n:'DeepSeek V4 Pro 0813',i:0.435,o:0.87,a:30,note:'vendor-claimed only, unreproduced'},
     {n:'Grok 4.3',i:1.25,o:2.50,a:28,note:''},
     {n:'Grok Latest',i:2.00,o:6.00,a:28,note:'alias → grok-4.5-20260708'},
     {n:'Aion-3.0',i:3.00,o:6.00,a:27,note:''},
@@ -201,6 +204,9 @@
   // model has a score here (free-tier endpoints excluded: $0 breaks a log axis)
   const AHKC=[
     {n:'GPT-5.5',s:35,o:30.00,jx:-5,dx:-8,dy:-6,side:'end'},
+    {n:'Grok 4.6',s:35,o:6.00,dx:-9,dy:4,side:'end'},
+    {n:'Gemini 3.7 Flash',s:33,o:1.875,dx:-9,dy:4,side:'end'},
+    {n:'DeepSeek V4 Pro 0813',s:30,o:0.87,dx:-9,dy:4,side:'end'},
     {n:'GPT-5.6 Sol Pro',l:'5.6 Sol Pro',s:35,o:30.00,jx:5,dx:10,dy:4,side:'start'},
     {n:'GPT-5.6 Sol',l:'5.6 Sol',s:34,o:30.00,dx:12,dy:16,side:'start'},
     {n:'GPT-5.6 Luna Pro',l:'5.6 Luna Pro',s:34,o:6.00,dx:9,dy:-6,side:'start'},
@@ -234,7 +240,7 @@
     let grid='';
     for(const t of [0.1,0.3,1,3,10,30]) grid+=`<line x1="${px(t).toFixed(0)}" y1="340" x2="${px(t).toFixed(0)}" y2="40" stroke="#1c1c1c"/><text x="${px(t).toFixed(0)}" y="357" fill="#6f6f6f" font-size="10.5" text-anchor="middle">$${t<1?t.toFixed(2):t}</text>`;
     for(const t of [10,15,20,25,30,35]) grid+=`<line x1="80" y1="${py(t).toFixed(0)}" x2="690" y2="${py(t).toFixed(0)}" stroke="#1c1c1c" stroke-dasharray="3 4"/><text x="72" y="${(py(t)+3).toFixed(0)}" fill="#6f6f6f" font-size="10.5" text-anchor="end">${t}</text>`;
-    const front=['Laguna XS 2.1','Tencent Hy3','DeepSeek V4 Pro','MiniMax M3','Grok 4.3','Kimi K2.6','GPT-5.6 Luna Pro','GPT-5.6 Sol Pro'];
+    const front=['Laguna XS 2.1','Tencent Hy3','DeepSeek V4 Pro 0813','Gemini 3.7 Flash','Grok 4.6'];
     const fpts=front.map(n=>{const d=AHKC.find(x=>x.n===n);return (px(d.o)+(d.jx||0)).toFixed(0)+','+py(d.s).toFixed(0);}).join(' ');
     let dots='',labels='';
     for(const d of AHKC){
