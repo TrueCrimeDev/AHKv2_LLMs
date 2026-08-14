@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-13T18:57:51.092Z",
-  "totalScripts": 463,
+  "lastUpdated": "2026-08-14T01:39:05.826Z",
+  "totalScripts": 466,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-13T14:34:20Z",
+      "lastModified": "2026-08-13T21:07:51Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -4931,13 +4931,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-08-13T10:38:00Z",
+      "lastModified": "2026-08-13T20:17:53Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
-      "stars": 11,
+      "stars": 12,
       "forks": 3,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 11 | Forks: 3\n; Last Updated: 8/13/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 12 | Forks: 3\n; Last Updated: 8/13/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -5204,7 +5204,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-08-13T18:06:40Z",
+      "lastModified": "2026-08-13T22:28:54Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
@@ -9305,13 +9305,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-13T00:13:37Z",
-      "lastModified": "2026-08-13T03:35:53Z",
+      "lastModified": "2026-08-14T00:55:15Z",
       "source": "github",
       "url": "https://github.com/ogura-ryoya/marutto-path-copy",
       "stars": 0,
       "forks": 0,
       "owner": "ogura-ryoya",
-      "code": "```cpp\n; ============================================\n; Repository: ogura-ryoya/marutto-path-copy\n; ============================================\n; URL: https://github.com/ogura-ryoya/marutto-path-copy\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: Not specified\n;\n; Description:\n; Windows Explorerのファイル・フォルダのパスを整形してまるっとコピーするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ogura-ryoya/marutto-path-copy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ogura-ryoya/marutto-path-copy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <marutto-path-copy>\n\n; Example initialization\nclass MaruttoPathCopyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"marutto-path-copy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MaruttoPathCopyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ogura-ryoya/marutto-path-copy\n; ============================================\n; URL: https://github.com/ogura-ryoya/marutto-path-copy\n; Stars: 0 | Forks: 0\n; Last Updated: 8/14/2026\n; License: Not specified\n;\n; Description:\n; Windows Explorerのファイル・フォルダのパスを整形してまるっとコピーするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ogura-ryoya/marutto-path-copy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ogura-ryoya/marutto-path-copy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <marutto-path-copy>\n\n; Example initialization\nclass MaruttoPathCopyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"marutto-path-copy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MaruttoPathCopyExample()\n```"
     },
     {
       "id": "github-1332571491",
@@ -9350,6 +9350,67 @@
       "forks": 0,
       "owner": "horstmr",
       "code": "```cpp\n; ============================================\n; Repository: horstmr/biro\n; ============================================\n; URL: https://github.com/horstmr/biro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/12/2026\n; License: MIT License\n;\n; Description:\n; Atalhos de pasta, busca de arquivos e expansão de texto para Windows. AutoHotkey v2, sem instalação.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/horstmr/biro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/horstmr/biro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <biro>\n\n; Example initialization\nclass BiroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"biro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BiroExample()\n```"
+    },
+    {
+      "id": "github-1333591092",
+      "title": "gta-antiidle",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 anti-idle script for GTA V - keeps Windows awake and feeds focus-gated input to the game",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-13T22:39:05Z",
+      "lastModified": "2026-08-13T22:39:14Z",
+      "source": "github",
+      "url": "https://github.com/raold/gta-antiidle",
+      "stars": 0,
+      "forks": 0,
+      "owner": "raold",
+      "code": "```cpp\n; ============================================\n; Repository: raold/gta-antiidle\n; ============================================\n; URL: https://github.com/raold/gta-antiidle\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 anti-idle script for GTA V - keeps Windows awake and feeds focus-gated input to the game\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/raold/gta-antiidle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/raold/gta-antiidle/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gta-antiidle>\n\n; Example initialization\nclass GtaAntiidleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gta-antiidle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaAntiidleExample()\n```"
+    },
+    {
+      "id": "github-1333516616",
+      "title": "autohotkey-ai-selector",
+      "category": "GitHub Repository",
+      "description": "F1 ile 14 yapay zekâ servisini açan AutoHotkey v2 seçici",
+      "tags": [
+        "github",
+        "repository",
+        "ai-tools",
+        "autohotkey",
+        "autohotkey-v2",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-13T20:33:04Z",
+      "lastModified": "2026-08-13T21:58:47Z",
+      "source": "github",
+      "url": "https://github.com/baranseren/autohotkey-ai-selector",
+      "stars": 0,
+      "forks": 0,
+      "owner": "baranseren",
+      "code": "```cpp\n; ============================================\n; Repository: baranseren/autohotkey-ai-selector\n; ============================================\n; URL: https://github.com/baranseren/autohotkey-ai-selector\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: MIT License\n;\n; Description:\n; F1 ile 14 yapay zekâ servisini açan AutoHotkey v2 seçici\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/baranseren/autohotkey-ai-selector.git\n;\n; Option 2: Download ZIP\n;   https://github.com/baranseren/autohotkey-ai-selector/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-ai-selector>\n\n; Example initialization\nclass AutohotkeyAiSelectorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-ai-selector loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyAiSelectorExample()\n```"
+    },
+    {
+      "id": "github-1332023443",
+      "title": "ClipboardManager.ahk",
+      "category": "GitHub Repository",
+      "description": "Windows clipboard manager built with AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-12T12:49:58Z",
+      "lastModified": "2026-08-13T21:20:59Z",
+      "source": "github",
+      "url": "https://github.com/KRASIN24/ClipboardManager.ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "KRASIN24",
+      "code": "```cpp\n; ============================================\n; Repository: KRASIN24/ClipboardManager.ahk\n; ============================================\n; URL: https://github.com/KRASIN24/ClipboardManager.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: Not specified\n;\n; Description:\n; Windows clipboard manager built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KRASIN24/ClipboardManager.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KRASIN24/ClipboardManager.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipboardManager.ahk>\n\n; Example initialization\nclass Clipboardmanager.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipboardManager.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Clipboardmanager.ahkExample()\n```"
     }
   ]
 }
