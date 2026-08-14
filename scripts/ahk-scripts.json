@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-14T12:56:48.046Z",
-  "totalScripts": 466,
+  "lastUpdated": "2026-08-14T18:47:29.516Z",
+  "totalScripts": 468,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-14T07:28:18Z",
+      "lastModified": "2026-08-14T13:30:11Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -5204,13 +5204,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-08-13T22:28:54Z",
+      "lastModified": "2026-08-14T15:36:09Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
       "forks": 0,
       "owner": "PCMon",
-      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak macro tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/14/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak macro tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     },
     {
       "id": "github-1225321547",
@@ -8388,13 +8388,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T07:26:40Z",
-      "lastModified": "2026-08-11T12:13:01Z",
+      "lastModified": "2026-08-14T13:58:49Z",
       "source": "github",
       "url": "https://github.com/Pastinakel/DocBot",
       "stars": 0,
       "forks": 0,
       "owner": "Pastinakel",
-      "code": "```cpp\n; ============================================\n; Repository: Pastinakel/DocBot\n; ============================================\n; URL: https://github.com/Pastinakel/DocBot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/11/2026\n; License: MIT License\n;\n; Description:\n; DocBot is een AutoHotkey v2-hulpmiddel voor medewerkers met twee hoofdfuncties: (a) tekstvervanging via hotstrings, en (b) bellen via de interne IP-telefonie van het bedrijf, inclusief automatische detectie van telefoonnummers op het klembord. Alles draait via één GUI met sidebar-navigatie en een tray-icoon.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pastinakel/DocBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pastinakel/DocBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DocBot>\n\n; Example initialization\nclass DocbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DocBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DocbotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Pastinakel/DocBot\n; ============================================\n; URL: https://github.com/Pastinakel/DocBot\n; Stars: 0 | Forks: 0\n; Last Updated: 8/14/2026\n; License: Other\n;\n; Description:\n; DocBot is een AutoHotkey v2-hulpmiddel voor medewerkers met twee hoofdfuncties: (a) tekstvervanging via hotstrings, en (b) bellen via de interne IP-telefonie van het bedrijf, inclusief automatische detectie van telefoonnummers op het klembord. Alles draait via één GUI met sidebar-navigatie en een tray-icoon.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pastinakel/DocBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pastinakel/DocBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DocBot>\n\n; Example initialization\nclass DocbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DocBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DocbotExample()\n```"
     },
     {
       "id": "github-1314312994",
@@ -8565,7 +8565,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-30T19:18:58Z",
-      "lastModified": "2026-08-14T11:41:55Z",
+      "lastModified": "2026-08-14T14:25:24Z",
       "source": "github",
       "url": "https://github.com/realSilasYang/key-mouse-remapper-assistant",
       "stars": 1,
@@ -9078,13 +9078,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-07T19:09:22Z",
-      "lastModified": "2026-08-10T11:24:52Z",
+      "lastModified": "2026-08-14T13:48:31Z",
       "source": "github",
       "url": "https://github.com/defZalken/UGG_Macro",
       "stars": 0,
       "forks": 0,
       "owner": "defZalken",
-      "code": "```cpp\n; ============================================\n; Repository: defZalken/UGG_Macro\n; ============================================\n; URL: https://github.com/defZalken/UGG_Macro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 macro for Ultimate Gym Game on ROBLOX by SPEARHEADS. Made with AutoHotkey v2 utilizing screen-reading to lift with stamina-driven reps, auto-eating, and stat reports to Discord.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/defZalken/UGG_Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/defZalken/UGG_Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UGG_Macro>\n\n; Example initialization\nclass UggMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UGG_Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UggMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: defZalken/UGG_Macro\n; ============================================\n; URL: https://github.com/defZalken/UGG_Macro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/14/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 macro for Ultimate Gym Game on ROBLOX by SPEARHEADS. Made with AutoHotkey v2 utilizing screen-reading to lift with stamina-driven reps, auto-eating, and stat reports to Discord.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/defZalken/UGG_Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/defZalken/UGG_Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UGG_Macro>\n\n; Example initialization\nclass UggMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UGG_Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UggMacroExample()\n```"
     },
     {
       "id": "github-1329693932",
@@ -9411,6 +9411,44 @@
       "forks": 0,
       "owner": "KRASIN24",
       "code": "```cpp\n; ============================================\n; Repository: KRASIN24/ClipboardManager.ahk\n; ============================================\n; URL: https://github.com/KRASIN24/ClipboardManager.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: Not specified\n;\n; Description:\n; Windows clipboard manager built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KRASIN24/ClipboardManager.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KRASIN24/ClipboardManager.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClipboardManager.ahk>\n\n; Example initialization\nclass Clipboardmanager.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClipboardManager.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Clipboardmanager.ahkExample()\n```"
+    },
+    {
+      "id": "github-1334469126",
+      "title": "afk-antiidle",
+      "category": "GitHub Repository",
+      "description": "Focus-gated AutoHotkey v2 anti-idle script - keeps Windows awake and feeds input to a game only while it is the active window",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-14T18:26:58Z",
+      "lastModified": "2026-08-14T18:29:25Z",
+      "source": "github",
+      "url": "https://github.com/raold/afk-antiidle",
+      "stars": 0,
+      "forks": 0,
+      "owner": "raold",
+      "code": "```cpp\n; ============================================\n; Repository: raold/afk-antiidle\n; ============================================\n; URL: https://github.com/raold/afk-antiidle\n; Stars: 0 | Forks: 0\n; Last Updated: 8/14/2026\n; License: MIT License\n;\n; Description:\n; Focus-gated AutoHotkey v2 anti-idle script - keeps Windows awake and feeds input to a game only while it is the active window\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/raold/afk-antiidle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/raold/afk-antiidle/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <afk-antiidle>\n\n; Example initialization\nclass AfkAntiidleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"afk-antiidle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AfkAntiidleExample()\n```"
+    },
+    {
+      "id": "github-1334231256",
+      "title": "WinMouseCopy",
+      "category": "GitHub Repository",
+      "description": "一个基于 AutoHotkey v2 的全局鼠标增强工具，「划词复制 + 侧键粘贴」；普通单击/双击/拖拽完全不受干扰；敏感场景自动失效：密码框 / UAC / 全屏游戏视频 / 远程桌面协助 / 终端 / 密码管理器 / 网银控件",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-14T13:50:58Z",
+      "lastModified": "2026-08-14T15:04:58Z",
+      "source": "github",
+      "url": "https://github.com/yujiejunyu/WinMouseCopy",
+      "stars": 1,
+      "forks": 0,
+      "owner": "yujiejunyu",
+      "code": "```cpp\n; ============================================\n; Repository: yujiejunyu/WinMouseCopy\n; ============================================\n; URL: https://github.com/yujiejunyu/WinMouseCopy\n; Stars: 1 | Forks: 0\n; Last Updated: 8/14/2026\n; License: Not specified\n;\n; Description:\n; 一个基于 AutoHotkey v2 的全局鼠标增强工具，「划词复制 + 侧键粘贴」；普通单击/双击/拖拽完全不受干扰；敏感场景自动失效：密码框 / UAC / 全屏游戏视频 / 远程桌面协助 / 终端 / 密码管理器 / 网银控件\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yujiejunyu/WinMouseCopy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yujiejunyu/WinMouseCopy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMouseCopy>\n\n; Example initialization\nclass WinmousecopyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMouseCopy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmousecopyExample()\n```"
     }
   ]
 }
