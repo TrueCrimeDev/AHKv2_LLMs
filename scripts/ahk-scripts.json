@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-15T12:29:21.004Z",
-  "totalScripts": 468,
+  "lastUpdated": "2026-08-15T18:22:06.845Z",
+  "totalScripts": 469,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4493,7 +4493,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T11:13:40Z",
-      "lastModified": "2026-08-15T12:09:23Z",
+      "lastModified": "2026-08-15T14:38:51Z",
       "source": "github",
       "url": "https://github.com/mesutakcan/CtrlToolTip",
       "stars": 1,
@@ -6800,13 +6800,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T05:34:05Z",
-      "lastModified": "2026-07-24T11:01:54Z",
+      "lastModified": "2026-08-15T13:34:44Z",
       "source": "github",
       "url": "https://github.com/asorei/poe1-leveling-overlay-kr",
       "stars": 0,
       "forks": 0,
       "owner": "asorei",
-      "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 7/24/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 표시하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: asorei/poe1-leveling-overlay-kr\n; ============================================\n; URL: https://github.com/asorei/poe1-leveling-overlay-kr\n; Stars: 0 | Forks: 0\n; Last Updated: 8/15/2026\n; License: MIT License\n;\n; Description:\n; Path of Exile1 한국어 레벨링 가이드를 표시하는 AutoHotkey v2 오버레이\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/asorei/poe1-leveling-overlay-kr.git\n;\n; Option 2: Download ZIP\n;   https://github.com/asorei/poe1-leveling-overlay-kr/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe1-leveling-overlay-kr>\n\n; Example initialization\nclass Poe1LevelingOverlayKrExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe1-leveling-overlay-kr loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Poe1LevelingOverlayKrExample()\n```"
     },
     {
       "id": "github-1269456433",
@@ -8451,13 +8451,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-29T12:23:10Z",
-      "lastModified": "2026-08-14T11:37:20Z",
+      "lastModified": "2026-08-15T14:55:18Z",
       "source": "github",
       "url": "https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "God-creator-of-the-universe",
-      "code": "```cpp\n; ============================================\n; Repository: God-creator-of-the-universe/GcotuAHK2Launcher\n; ============================================\n; URL: https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 8/14/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Simple fast convenient Windows app launcher/switcher using AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GcotuAHK2Launcher>\n\n; Example initialization\nclass Gcotuahk2launcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GcotuAHK2Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Gcotuahk2launcherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: God-creator-of-the-universe/GcotuAHK2Launcher\n; ============================================\n; URL: https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher\n; Stars: 1 | Forks: 0\n; Last Updated: 8/15/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Simple fast convenient Windows app launcher/switcher using AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/God-creator-of-the-universe/GcotuAHK2Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GcotuAHK2Launcher>\n\n; Example initialization\nclass Gcotuahk2launcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GcotuAHK2Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Gcotuahk2launcherExample()\n```"
     },
     {
       "id": "github-1003603159",
@@ -9248,13 +9248,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-11T09:56:31Z",
-      "lastModified": "2026-08-11T20:26:11Z",
+      "lastModified": "2026-08-15T16:04:05Z",
       "source": "github",
       "url": "https://github.com/BelalWaheed/o2om",
       "stars": 1,
       "forks": 0,
       "owner": "BelalWaheed",
-      "code": "```cpp\n; ============================================\n; Repository: BelalWaheed/o2om\n; ============================================\n; URL: https://github.com/BelalWaheed/o2om\n; Stars: 1 | Forks: 0\n; Last Updated: 8/11/2026\n; License: Not specified\n;\n; Description:\n; Lightweight AutoHotkey v2 Stand-Up & Physical Health Reminder for Windows (Break Timer, Posture Stretches, Arabic/English RTL)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelalWaheed/o2om.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelalWaheed/o2om/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <o2om>\n\n; Example initialization\nclass O2omExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"o2om loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := O2omExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BelalWaheed/o2om\n; ============================================\n; URL: https://github.com/BelalWaheed/o2om\n; Stars: 1 | Forks: 0\n; Last Updated: 8/15/2026\n; License: Not specified\n;\n; Description:\n; Lightweight AutoHotkey v2 Stand-Up & Physical Health Reminder for Windows (Break Timer, Posture Stretches, Arabic/English RTL)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelalWaheed/o2om.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelalWaheed/o2om/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <o2om>\n\n; Example initialization\nclass O2omExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"o2om loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := O2omExample()\n```"
     },
     {
       "id": "github-1293496222",
@@ -9449,6 +9449,31 @@
       "forks": 0,
       "owner": "yujiejunyu",
       "code": "```cpp\n; ============================================\n; Repository: yujiejunyu/WinMouseCopy\n; ============================================\n; URL: https://github.com/yujiejunyu/WinMouseCopy\n; Stars: 1 | Forks: 0\n; Last Updated: 8/14/2026\n; License: Not specified\n;\n; Description:\n; 一个基于 AutoHotkey v2 的全局鼠标增强工具，「划词复制 + 侧键粘贴」；普通单击/双击/拖拽完全不受干扰；敏感场景自动失效：密码框 / UAC / 全屏游戏视频 / 远程桌面协助 / 终端 / 密码管理器 / 网银控件\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yujiejunyu/WinMouseCopy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yujiejunyu/WinMouseCopy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMouseCopy>\n\n; Example initialization\nclass WinmousecopyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMouseCopy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmousecopyExample()\n```"
+    },
+    {
+      "id": "github-1335199594",
+      "title": "clipboard-image-to-path",
+      "category": "GitHub Repository",
+      "description": "Convert Windows clipboard images to file paths so text-only AI agents (Claude Code, Codex, Cursor...) can read screenshots - AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "ai-agent",
+        "ai-cli",
+        "autohotkey",
+        "claude-code",
+        "clipboard"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-15T15:30:40Z",
+      "lastModified": "2026-08-15T16:48:09Z",
+      "source": "github",
+      "url": "https://github.com/WANGJIEYI/clipboard-image-to-path",
+      "stars": 1,
+      "forks": 0,
+      "owner": "WANGJIEYI",
+      "code": "```cpp\n; ============================================\n; Repository: WANGJIEYI/clipboard-image-to-path\n; ============================================\n; URL: https://github.com/WANGJIEYI/clipboard-image-to-path\n; Stars: 1 | Forks: 0\n; Last Updated: 8/15/2026\n; License: MIT License\n;\n; Description:\n; Convert Windows clipboard images to file paths so text-only AI agents (Claude Code, Codex, Cursor...) can read screenshots - AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/WANGJIEYI/clipboard-image-to-path.git\n;\n; Option 2: Download ZIP\n;   https://github.com/WANGJIEYI/clipboard-image-to-path/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-image-to-path>\n\n; Example initialization\nclass ClipboardImageToPathExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-image-to-path loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardImageToPathExample()\n```"
     }
   ]
 }
