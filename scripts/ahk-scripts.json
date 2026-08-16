@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-16T01:03:59.760Z",
-  "totalScripts": 469,
+  "lastUpdated": "2026-08-16T06:32:47.218Z",
+  "totalScripts": 470,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5799,13 +5799,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-10T17:32:29Z",
-      "lastModified": "2026-07-19T01:52:13Z",
+      "lastModified": "2026-08-16T03:49:38Z",
       "source": "github",
       "url": "https://github.com/Magnetron85/Radiology-Right-Click",
       "stars": 10,
       "forks": 3,
       "owner": "Magnetron85",
-      "code": "```cpp\n; ============================================\n; Repository: Magnetron85/Radiology-Right-Click\n; ============================================\n; URL: https://github.com/Magnetron85/Radiology-Right-Click\n; Stars: 10 | Forks: 3\n; Last Updated: 7/19/2026\n; License: Other\n;\n; Description:\n; Right-click context menu of measurement and analysis helpers for radiology dictation. AutoHotkey v2. PolyForm Noncommercial. Research/educational use only -- not a medical device.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/Radiology-Right-Click.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/Radiology-Right-Click/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Radiology-Right-Click>\n\n; Example initialization\nclass RadiologyRightClickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Radiology-Right-Click loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RadiologyRightClickExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Magnetron85/Radiology-Right-Click\n; ============================================\n; URL: https://github.com/Magnetron85/Radiology-Right-Click\n; Stars: 10 | Forks: 3\n; Last Updated: 8/16/2026\n; License: Other\n;\n; Description:\n; Right-click context menu of measurement and analysis helpers for radiology dictation. AutoHotkey v2. PolyForm Noncommercial. Research/educational use only -- not a medical device.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Magnetron85/Radiology-Right-Click.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Magnetron85/Radiology-Right-Click/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Radiology-Right-Click>\n\n; Example initialization\nclass RadiologyRightClickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Radiology-Right-Click loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RadiologyRightClickExample()\n```"
     },
     {
       "id": "github-1242760553",
@@ -8755,13 +8755,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-04T06:33:54Z",
-      "lastModified": "2026-08-09T01:10:06Z",
+      "lastModified": "2026-08-16T02:24:09Z",
       "source": "github",
       "url": "https://github.com/takawaji/EasySanskrit-AutoHotkey",
       "stars": 0,
       "forks": 0,
       "owner": "takawaji",
-      "code": "```cpp\n; ============================================\n; Repository: takawaji/EasySanskrit-AutoHotkey\n; ============================================\n; URL: https://github.com/takawaji/EasySanskrit-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/9/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script for typing romanized Sanskrit\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/takawaji/EasySanskrit-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/takawaji/EasySanskrit-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasySanskrit-AutoHotkey>\n\n; Example initialization\nclass EasysanskritAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasySanskrit-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasysanskritAutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: takawaji/EasySanskrit-AutoHotkey\n; ============================================\n; URL: https://github.com/takawaji/EasySanskrit-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/16/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script for typing romanized Sanskrit\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/takawaji/EasySanskrit-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/takawaji/EasySanskrit-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasySanskrit-AutoHotkey>\n\n; Example initialization\nclass EasysanskritAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasySanskrit-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasysanskritAutohotkeyExample()\n```"
     },
     {
       "id": "github-1324068771",
@@ -9474,6 +9474,31 @@
       "forks": 0,
       "owner": "WANGJIEYI",
       "code": "```cpp\n; ============================================\n; Repository: WANGJIEYI/clipboard-image-to-path\n; ============================================\n; URL: https://github.com/WANGJIEYI/clipboard-image-to-path\n; Stars: 1 | Forks: 0\n; Last Updated: 8/15/2026\n; License: MIT License\n;\n; Description:\n; Convert Windows clipboard images to file paths so text-only AI agents (Claude Code, Codex, Cursor...) can read screenshots - AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/WANGJIEYI/clipboard-image-to-path.git\n;\n; Option 2: Download ZIP\n;   https://github.com/WANGJIEYI/clipboard-image-to-path/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-image-to-path>\n\n; Example initialization\nclass ClipboardImageToPathExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-image-to-path loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardImageToPathExample()\n```"
+    },
+    {
+      "id": "github-1335535207",
+      "title": "CapCutZoomAutomation",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 automation for fast, repeatable zoom keyframes and opacity effects in CapCut Desktop.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "capcut-for-pc",
+        "keyframes",
+        "keyframes-animation"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-16T01:10:39Z",
+      "lastModified": "2026-08-16T05:09:37Z",
+      "source": "github",
+      "url": "https://github.com/ContinenteCNC/CapCutZoomAutomation",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ContinenteCNC",
+      "code": "```cpp\n; ============================================\n; Repository: ContinenteCNC/CapCutZoomAutomation\n; ============================================\n; URL: https://github.com/ContinenteCNC/CapCutZoomAutomation\n; Stars: 0 | Forks: 0\n; Last Updated: 8/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation for fast, repeatable zoom keyframes and opacity effects in CapCut Desktop.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ContinenteCNC/CapCutZoomAutomation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ContinenteCNC/CapCutZoomAutomation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapCutZoomAutomation>\n\n; Example initialization\nclass CapcutzoomautomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapCutZoomAutomation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapcutzoomautomationExample()\n```"
     }
   ]
 }
