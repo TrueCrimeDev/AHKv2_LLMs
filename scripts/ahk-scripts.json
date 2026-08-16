@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-16T06:32:47.218Z",
-  "totalScripts": 470,
+  "lastUpdated": "2026-08-16T12:30:55.107Z",
+  "totalScripts": 471,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4493,13 +4493,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T11:13:40Z",
-      "lastModified": "2026-08-15T14:38:51Z",
+      "lastModified": "2026-08-16T12:07:40Z",
       "source": "github",
       "url": "https://github.com/mesutakcan/CtrlToolTip",
       "stars": 1,
       "forks": 0,
       "owner": "mesutakcan",
-      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 8/15/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 8/16/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
     },
     {
       "id": "github-1199400681",
@@ -5681,13 +5681,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-13T20:25:58Z",
-      "lastModified": "2026-08-13T12:32:10Z",
+      "lastModified": "2026-08-16T11:41:43Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame",
       "stars": 0,
       "forks": 0,
       "owner": "AbsurdianVibe",
-      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; ============================================\n; URL: https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame\n; Stars: 0 | Forks: 0\n; Last Updated: 8/16/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script to fix and improve Windows focus frames for better UX and accessibility.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_AbsurdianFocusFrame>\n\n; Example initialization\nclass Ahk2AbsurdianfocusframeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_AbsurdianFocusFrame loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2AbsurdianfocusframeExample()\n```"
     },
     {
       "id": "github-1240637987",
@@ -7204,13 +7204,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-07-18T10:10:05Z",
+      "lastModified": "2026-08-16T11:18:33Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
       "forks": 0,
       "owner": "von110187",
-      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 7/18/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 8/16/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
     },
     {
       "id": "github-825062151",
@@ -9499,6 +9499,31 @@
       "forks": 0,
       "owner": "ContinenteCNC",
       "code": "```cpp\n; ============================================\n; Repository: ContinenteCNC/CapCutZoomAutomation\n; ============================================\n; URL: https://github.com/ContinenteCNC/CapCutZoomAutomation\n; Stars: 0 | Forks: 0\n; Last Updated: 8/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation for fast, repeatable zoom keyframes and opacity effects in CapCut Desktop.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ContinenteCNC/CapCutZoomAutomation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ContinenteCNC/CapCutZoomAutomation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapCutZoomAutomation>\n\n; Example initialization\nclass CapcutzoomautomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapCutZoomAutomation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapcutzoomautomationExample()\n```"
+    },
+    {
+      "id": "github-699187676",
+      "title": "Dark_WindowSpy",
+      "category": "GitHub Repository",
+      "description": "Dark Mode Window Spy for AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk-gui",
+        "ahk-script",
+        "ahk2",
+        "ahkv2",
+        "autohotkey"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2023-10-02T05:49:33Z",
+      "lastModified": "2026-08-16T10:08:10Z",
+      "source": "github",
+      "url": "https://github.com/nperovic/Dark_WindowSpy",
+      "stars": 22,
+      "forks": 3,
+      "owner": "nperovic",
+      "code": "```cpp\n; ============================================\n; Repository: nperovic/Dark_WindowSpy\n; ============================================\n; URL: https://github.com/nperovic/Dark_WindowSpy\n; Stars: 22 | Forks: 3\n; Last Updated: 8/16/2026\n; License: MIT License\n;\n; Description:\n; Dark Mode Window Spy for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nperovic/Dark_WindowSpy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nperovic/Dark_WindowSpy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dark_WindowSpy>\n\n; Example initialization\nclass DarkWindowspyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dark_WindowSpy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DarkWindowspyExample()\n```"
     }
   ]
 }
