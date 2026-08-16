@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-16T12:30:55.107Z",
+  "lastUpdated": "2026-08-16T18:21:54.290Z",
   "totalScripts": 471,
   "categories": [
     "GUI",
@@ -5204,13 +5204,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-08-15T04:54:06Z",
+      "lastModified": "2026-08-16T17:51:34Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
       "forks": 0,
       "owner": "PCMon",
-      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/15/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak macro tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 8/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak macro tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     },
     {
       "id": "github-1225321547",
@@ -5681,7 +5681,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-13T20:25:58Z",
-      "lastModified": "2026-08-16T11:41:43Z",
+      "lastModified": "2026-08-16T15:05:10Z",
       "source": "github",
       "url": "https://github.com/AbsurdianVibe/AHK2_AbsurdianFocusFrame",
       "stars": 0,
@@ -8881,13 +8881,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T16:18:18Z",
-      "lastModified": "2026-08-15T06:23:02Z",
+      "lastModified": "2026-08-16T16:30:31Z",
       "source": "github",
       "url": "https://github.com/BelyaevAD/TextTools",
       "stars": 1,
       "forks": 0,
       "owner": "BelyaevAD",
-      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 1 | Forks: 0\n; Last Updated: 8/15/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 1 | Forks: 0\n; Last Updated: 8/16/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
     },
     {
       "id": "github-1325424502",
@@ -9435,20 +9435,20 @@
       "id": "github-1334231256",
       "title": "WinMouseCopy",
       "category": "GitHub Repository",
-      "description": "一个基于 AutoHotkey v2 的全局鼠标增强工具，「划词复制 + 侧键粘贴」；普通单击/双击/拖拽完全不受干扰；敏感场景自动失效：密码框 / UAC / 全屏游戏视频 / 远程桌面协助 / 终端 / 密码管理器 / 网银控件",
+      "description": "一个基于 AutoHotkey v2 的全局鼠��增强工具，「划词复制 + 侧键粘贴」；普通单击/双击/拖拽完全不受干扰；敏感场景自动失效：密码框 / UAC / 全屏游戏视频 / 远程桌面协助 / 终端 / 密码管理器 / 网银控件",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-14T13:50:58Z",
-      "lastModified": "2026-08-14T15:04:58Z",
+      "lastModified": "2026-08-16T13:24:43Z",
       "source": "github",
       "url": "https://github.com/yujiejunyu/WinMouseCopy",
       "stars": 1,
       "forks": 0,
       "owner": "yujiejunyu",
-      "code": "```cpp\n; ============================================\n; Repository: yujiejunyu/WinMouseCopy\n; ============================================\n; URL: https://github.com/yujiejunyu/WinMouseCopy\n; Stars: 1 | Forks: 0\n; Last Updated: 8/14/2026\n; License: Not specified\n;\n; Description:\n; 一个基于 AutoHotkey v2 的全局鼠标增强工具，「划词复制 + 侧键粘贴」；普通单击/双击/拖拽完全不受干扰；敏感场景自动失效：密码框 / UAC / 全屏游戏视频 / 远程桌面协助 / 终端 / 密码管理器 / 网银控件\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yujiejunyu/WinMouseCopy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yujiejunyu/WinMouseCopy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMouseCopy>\n\n; Example initialization\nclass WinmousecopyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMouseCopy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmousecopyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yujiejunyu/WinMouseCopy\n; ============================================\n; URL: https://github.com/yujiejunyu/WinMouseCopy\n; Stars: 1 | Forks: 0\n; Last Updated: 8/16/2026\n; License: Not specified\n;\n; Description:\n; 一个基于 AutoHotkey v2 的全局鼠��增强工具，「划词复制 + 侧键粘贴」；普通单击/双击/拖拽完全不受干扰；敏感场景自动失效：密码框 / UAC / 全屏游戏视频 / 远程桌面协助 / 终端 / 密码管理器 / 网银控件\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yujiejunyu/WinMouseCopy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yujiejunyu/WinMouseCopy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinMouseCopy>\n\n; Example initialization\nclass WinmousecopyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinMouseCopy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinmousecopyExample()\n```"
     },
     {
       "id": "github-1335199594",
