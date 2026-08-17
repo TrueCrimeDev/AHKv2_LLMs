@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-17T06:45:21.801Z",
-  "totalScripts": 472,
+  "lastUpdated": "2026-08-17T12:35:37.803Z",
+  "totalScripts": 473,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4493,13 +4493,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T11:13:40Z",
-      "lastModified": "2026-08-16T12:07:40Z",
+      "lastModified": "2026-08-17T12:24:07Z",
       "source": "github",
       "url": "https://github.com/mesutakcan/CtrlToolTip",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "mesutakcan",
-      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 1 | Forks: 0\n; Last Updated: 8/16/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/CtrlToolTip\n; ============================================\n; URL: https://github.com/mesutakcan/CtrlToolTip\n; Stars: 2 | Forks: 0\n; Last Updated: 8/17/2026\n; License: The Unlicense\n;\n; Description:\n; A small AutoHotkey v2 helper for adding standard Windows tooltips to GUI controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/CtrlToolTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/CtrlToolTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CtrlToolTip>\n\n; Example initialization\nclass CtrltooltipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CtrlToolTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CtrltooltipExample()\n```"
     },
     {
       "id": "github-1199400681",
@@ -9543,6 +9543,25 @@
       "forks": 0,
       "owner": "windknat",
       "code": "```cpp\n; ============================================\n; Repository: windknat/guide-ahk\n; ============================================\n; URL: https://github.com/windknat/guide-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 8/16/2026\n; License: Not specified\n;\n; Description:\n; 一個藉由AI協助開發使用 *AutoHotkey v2.0* 製作的《Final Fantasy XIV》簡易攻略閱讀工具。純粹是方便自己用及分享給週遭的人。本工具可自動讀取線上 Google 試算表（Google Sheets）中的副本與機制攻略資料，方便玩家在遊戲過程中快速查閱。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/windknat/guide-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/windknat/guide-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <guide-ahk>\n\n; Example initialization\nclass GuideAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"guide-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GuideAhkExample()\n```"
+    },
+    {
+      "id": "github-1337119244",
+      "title": "Ahk-wallhop",
+      "category": "GitHub Repository",
+      "description": "A simple AutoHotkey v2 script for Roblox Rivals to toggle keybind macros. can get you banned but not 100%.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-17T12:10:16Z",
+      "lastModified": "2026-08-17T12:32:50Z",
+      "source": "github",
+      "url": "https://github.com/pepiadrian51-bot/Ahk-wallhop",
+      "stars": 0,
+      "forks": 0,
+      "owner": "pepiadrian51-bot",
+      "code": "```cpp\n; ============================================\n; Repository: pepiadrian51-bot/Ahk-wallhop\n; ============================================\n; URL: https://github.com/pepiadrian51-bot/Ahk-wallhop\n; Stars: 0 | Forks: 0\n; Last Updated: 8/17/2026\n; License: Not specified\n;\n; Description:\n; A simple AutoHotkey v2 script for Roblox Rivals to toggle keybind macros. can get you banned but not 100%.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pepiadrian51-bot/Ahk-wallhop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pepiadrian51-bot/Ahk-wallhop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Ahk-wallhop>\n\n; Example initialization\nclass AhkWallhopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Ahk-wallhop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWallhopExample()\n```"
     }
   ]
 }
