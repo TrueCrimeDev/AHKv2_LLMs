@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-18T06:35:40.098Z",
-  "totalScripts": 475,
+  "lastUpdated": "2026-08-18T12:36:31.479Z",
+  "totalScripts": 477,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-17T14:42:28Z",
+      "lastModified": "2026-08-18T07:11:46Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 8/17/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 8/18/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -9605,6 +9605,49 @@
       "forks": 0,
       "owner": "Guga-G",
       "code": "```cpp\n; ============================================\n; Repository: Guga-G/window-automation-tool\n; ============================================\n; URL: https://github.com/Guga-G/window-automation-tool\n; Stars: 0 | Forks: 0\n; Last Updated: 8/17/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 utility for automated multi-monitor window management, including window positioning, centering, state preservation and fullscreen application safeguards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Guga-G/window-automation-tool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Guga-G/window-automation-tool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-automation-tool>\n\n; Example initialization\nclass WindowAutomationToolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-automation-tool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowAutomationToolExample()\n```"
+    },
+    {
+      "id": "github-1338376583",
+      "title": "codex-screenshot-prompt",
+      "category": "GitHub Repository",
+      "description": "Unofficial Windows AutoHotkey v2 screenshot workflow for Codex desktop",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "automation",
+        "codex",
+        "screenshot",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-18T12:24:54Z",
+      "lastModified": "2026-08-18T12:34:39Z",
+      "source": "github",
+      "url": "https://github.com/shadowrik/codex-screenshot-prompt",
+      "stars": 0,
+      "forks": 0,
+      "owner": "shadowrik",
+      "code": "```cpp\n; ============================================\n; Repository: shadowrik/codex-screenshot-prompt\n; ============================================\n; URL: https://github.com/shadowrik/codex-screenshot-prompt\n; Stars: 0 | Forks: 0\n; Last Updated: 8/18/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Windows AutoHotkey v2 screenshot workflow for Codex desktop\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shadowrik/codex-screenshot-prompt.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shadowrik/codex-screenshot-prompt/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <codex-screenshot-prompt>\n\n; Example initialization\nclass CodexScreenshotPromptExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"codex-screenshot-prompt loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CodexScreenshotPromptExample()\n```"
+    },
+    {
+      "id": "github-1338121674",
+      "title": "solidworks-mouse-remapper",
+      "category": "GitHub Repository",
+      "description": "Customize mouse zoom/pan/rotate(via AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-18T07:45:00Z",
+      "lastModified": "2026-08-18T07:50:48Z",
+      "source": "github",
+      "url": "https://github.com/frivermen/solidworks-mouse-remapper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "frivermen",
+      "code": "```cpp\n; ============================================\n; Repository: frivermen/solidworks-mouse-remapper\n; ============================================\n; URL: https://github.com/frivermen/solidworks-mouse-remapper\n; Stars: 0 | Forks: 0\n; Last Updated: 8/18/2026\n; License: Not specified\n;\n; Description:\n; Customize mouse zoom/pan/rotate(via AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/frivermen/solidworks-mouse-remapper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/frivermen/solidworks-mouse-remapper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <solidworks-mouse-remapper>\n\n; Example initialization\nclass SolidworksMouseRemapperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"solidworks-mouse-remapper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SolidworksMouseRemapperExample()\n```"
     }
   ]
 }
