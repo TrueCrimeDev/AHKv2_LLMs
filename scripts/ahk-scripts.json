@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-18T12:36:31.479Z",
+  "lastUpdated": "2026-08-18T18:31:46.898Z",
   "totalScripts": 477,
   "categories": [
     "GUI",
@@ -9555,13 +9555,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-17T12:10:16Z",
-      "lastModified": "2026-08-17T17:49:13Z",
+      "lastModified": "2026-08-18T13:19:41Z",
       "source": "github",
       "url": "https://github.com/pepiadrian51-bot/Ahk-wallhop",
       "stars": 1,
       "forks": 0,
       "owner": "pepiadrian51-bot",
-      "code": "```cpp\n; ============================================\n; Repository: pepiadrian51-bot/Ahk-wallhop\n; ============================================\n; URL: https://github.com/pepiadrian51-bot/Ahk-wallhop\n; Stars: 1 | Forks: 0\n; Last Updated: 8/17/2026\n; License: Not specified\n;\n; Description:\n; A simple AutoHotkey v2 script for Roblox Rivals to toggle keybind macros. can get you banned but not 100%.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pepiadrian51-bot/Ahk-wallhop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pepiadrian51-bot/Ahk-wallhop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Ahk-wallhop>\n\n; Example initialization\nclass AhkWallhopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Ahk-wallhop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWallhopExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: pepiadrian51-bot/Ahk-wallhop\n; ============================================\n; URL: https://github.com/pepiadrian51-bot/Ahk-wallhop\n; Stars: 1 | Forks: 0\n; Last Updated: 8/18/2026\n; License: Not specified\n;\n; Description:\n; A simple AutoHotkey v2 script for Roblox Rivals to toggle keybind macros. can get you banned but not 100%.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pepiadrian51-bot/Ahk-wallhop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pepiadrian51-bot/Ahk-wallhop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Ahk-wallhop>\n\n; Example initialization\nclass AhkWallhopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Ahk-wallhop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWallhopExample()\n```"
     },
     {
       "id": "github-1337304673",
@@ -9622,7 +9622,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-18T12:24:54Z",
-      "lastModified": "2026-08-18T12:34:39Z",
+      "lastModified": "2026-08-18T13:05:27Z",
       "source": "github",
       "url": "https://github.com/shadowrik/codex-screenshot-prompt",
       "stars": 0,
