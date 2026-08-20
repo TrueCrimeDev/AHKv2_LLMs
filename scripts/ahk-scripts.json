@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-20T01:00:13.900Z",
-  "totalScripts": 480,
+  "lastUpdated": "2026-08-20T06:38:14.099Z",
+  "totalScripts": 481,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -9717,6 +9717,31 @@
       "forks": 0,
       "owner": "PPiko-o",
       "code": "```cpp\n; ============================================\n; Repository: PPiko-o/fruit-Battlegrounds-macro\n; ============================================\n; URL: https://github.com/PPiko-o/fruit-Battlegrounds-macro\n; Stars: 1 | Forks: 0\n; Last Updated: 8/20/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; a macro for fruit battlegrounds using autohotkey V2 and pixel detection\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PPiko-o/fruit-Battlegrounds-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PPiko-o/fruit-Battlegrounds-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fruit-Battlegrounds-macro>\n\n; Example initialization\nclass FruitBattlegroundsMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fruit-Battlegrounds-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FruitBattlegroundsMacroExample()\n```"
+    },
+    {
+      "id": "github-1340239641",
+      "title": "monitor-backlight-balance",
+      "category": "GitHub Repository",
+      "description": "Even out LCD backlight bleed and clouding with a desktop-wide, click-through per-pixel gradient overlay. AutoHotkey v2, no drivers.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "backlight-bleed",
+        "calibration",
+        "display",
+        "monitor",
+        "overlay"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-20T03:25:55Z",
+      "lastModified": "2026-08-20T03:36:31Z",
+      "source": "github",
+      "url": "https://github.com/CometKim00/monitor-backlight-balance",
+      "stars": 0,
+      "forks": 0,
+      "owner": "CometKim00",
+      "code": "```cpp\n; ============================================\n; Repository: CometKim00/monitor-backlight-balance\n; ============================================\n; URL: https://github.com/CometKim00/monitor-backlight-balance\n; Stars: 0 | Forks: 0\n; Last Updated: 8/20/2026\n; License: MIT License\n;\n; Description:\n; Even out LCD backlight bleed and clouding with a desktop-wide, click-through per-pixel gradient overlay. AutoHotkey v2, no drivers.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CometKim00/monitor-backlight-balance.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CometKim00/monitor-backlight-balance/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <monitor-backlight-balance>\n\n; Example initialization\nclass MonitorBacklightBalanceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"monitor-backlight-balance loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MonitorBacklightBalanceExample()\n```"
     }
   ]
 }
