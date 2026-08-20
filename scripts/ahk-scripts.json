@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-19T18:28:29.611Z",
+  "lastUpdated": "2026-08-20T01:00:13.900Z",
   "totalScripts": 480,
   "categories": [
     "GUI",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-19T14:46:31Z",
+      "lastModified": "2026-08-19T19:21:47Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -8746,7 +8746,7 @@
     },
     {
       "id": "github-1322601178",
-      "title": "EasySanskrit-AutoHotkey",
+      "title": "EasySanskrit",
       "category": "GitHub Repository",
       "description": "A simple AutoHotkey v2 script for typing romanized Sanskrit",
       "tags": [
@@ -8755,13 +8755,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-04T06:33:54Z",
-      "lastModified": "2026-08-16T02:24:09Z",
+      "lastModified": "2026-08-20T00:48:53Z",
       "source": "github",
-      "url": "https://github.com/takawaji/EasySanskrit-AutoHotkey",
+      "url": "https://github.com/takawaji/EasySanskrit",
       "stars": 0,
       "forks": 0,
       "owner": "takawaji",
-      "code": "```cpp\n; ============================================\n; Repository: takawaji/EasySanskrit-AutoHotkey\n; ============================================\n; URL: https://github.com/takawaji/EasySanskrit-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/16/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script for typing romanized Sanskrit\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/takawaji/EasySanskrit-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/takawaji/EasySanskrit-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasySanskrit-AutoHotkey>\n\n; Example initialization\nclass EasysanskritAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasySanskrit-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasysanskritAutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: takawaji/EasySanskrit\n; ============================================\n; URL: https://github.com/takawaji/EasySanskrit\n; Stars: 0 | Forks: 0\n; Last Updated: 8/20/2026\n; License: MIT License\n;\n; Description:\n; A simple AutoHotkey v2 script for typing romanized Sanskrit\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/takawaji/EasySanskrit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/takawaji/EasySanskrit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EasySanskrit>\n\n; Example initialization\nclass EasysanskritExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EasySanskrit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EasysanskritExample()\n```"
     },
     {
       "id": "github-1324068771",
@@ -9695,7 +9695,7 @@
     },
     {
       "id": "github-1317803694",
-      "title": "fruit-BG-macro",
+      "title": "fruit-Battlegrounds-macro",
       "category": "GitHub Repository",
       "description": "a macro for fruit battlegrounds using autohotkey V2 and pixel detection",
       "tags": [
@@ -9706,17 +9706,17 @@
         "autohotkey",
         "autohotkey-v2",
         "automation",
-        "macro"
+        "fruitbattleground"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-31T01:05:19Z",
-      "lastModified": "2026-08-19T17:39:27Z",
+      "lastModified": "2026-08-20T00:24:00Z",
       "source": "github",
-      "url": "https://github.com/PPiko-o/fruit-BG-macro",
+      "url": "https://github.com/PPiko-o/fruit-Battlegrounds-macro",
       "stars": 1,
       "forks": 0,
       "owner": "PPiko-o",
-      "code": "```cpp\n; ============================================\n; Repository: PPiko-o/fruit-BG-macro\n; ============================================\n; URL: https://github.com/PPiko-o/fruit-BG-macro\n; Stars: 1 | Forks: 0\n; Last Updated: 8/19/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; a macro for fruit battlegrounds using autohotkey V2 and pixel detection\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PPiko-o/fruit-BG-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PPiko-o/fruit-BG-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fruit-BG-macro>\n\n; Example initialization\nclass FruitBgMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fruit-BG-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FruitBgMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PPiko-o/fruit-Battlegrounds-macro\n; ============================================\n; URL: https://github.com/PPiko-o/fruit-Battlegrounds-macro\n; Stars: 1 | Forks: 0\n; Last Updated: 8/20/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; a macro for fruit battlegrounds using autohotkey V2 and pixel detection\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PPiko-o/fruit-Battlegrounds-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PPiko-o/fruit-Battlegrounds-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fruit-Battlegrounds-macro>\n\n; Example initialization\nclass FruitBattlegroundsMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fruit-Battlegrounds-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FruitBattlegroundsMacroExample()\n```"
     }
   ]
 }
