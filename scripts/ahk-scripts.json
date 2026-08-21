@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-21T12:38:11.508Z",
+  "lastUpdated": "2026-08-21T18:30:12.725Z",
   "totalScripts": 483,
   "categories": [
     "GUI",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-08-12T14:27:15Z",
+      "lastModified": "2026-08-21T14:06:10Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 53,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 53 | Forks: 8\n; Last Updated: 8/12/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 53 | Forks: 8\n; Last Updated: 8/21/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-08-21T10:44:26Z",
+      "lastModified": "2026-08-21T14:20:10Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -8919,13 +8919,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-05T13:36:39Z",
-      "lastModified": "2026-08-13T07:48:59Z",
+      "lastModified": "2026-08-21T18:16:37Z",
       "source": "github",
       "url": "https://github.com/kunal-ma/shiftkey",
       "stars": 0,
       "forks": 0,
       "owner": "kunal-ma",
-      "code": "```cpp\n; ============================================\n; Repository: kunal-ma/shiftkey\n; ============================================\n; URL: https://github.com/kunal-ma/shiftkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/13/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script for automation and custom functionality\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunal-ma/shiftkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunal-ma/shiftkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <shiftkey>\n\n; Example initialization\nclass ShiftkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"shiftkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShiftkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunal-ma/shiftkey\n; ============================================\n; URL: https://github.com/kunal-ma/shiftkey\n; Stars: 0 | Forks: 0\n; Last Updated: 8/21/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; AutoHotkey v2 script for automation and custom functionality\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunal-ma/shiftkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunal-ma/shiftkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <shiftkey>\n\n; Example initialization\nclass ShiftkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"shiftkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShiftkeyExample()\n```"
     },
     {
       "id": "github-1326264322",
