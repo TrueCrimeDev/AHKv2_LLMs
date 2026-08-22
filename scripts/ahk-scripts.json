@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-08-22T01:00:11.387Z",
-  "totalScripts": 483,
+  "lastUpdated": "2026-08-22T06:32:34.700Z",
+  "totalScripts": 484,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -9780,6 +9780,25 @@
       "forks": 0,
       "owner": "Voidhunter44",
       "code": "```cpp\n; ============================================\n; Repository: Voidhunter44/Keylet\n; ============================================\n; URL: https://github.com/Voidhunter44/Keylet\n; Stars: 0 | Forks: 0\n; Last Updated: 8/21/2026\n; License: Not specified\n;\n; Description:\n; Hold any keyboard keys with a single toggle. Multi-profile floating widget for Windows. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Voidhunter44/Keylet.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Voidhunter44/Keylet/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Keylet>\n\n; Example initialization\nclass KeyletExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Keylet loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyletExample()\n```"
+    },
+    {
+      "id": "github-1342420639",
+      "title": "smart-dictionary",
+      "category": "GitHub Repository",
+      "description": "智能术语词典 Smart Dictionary - 划词即查的中英术语词典 (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-22T03:49:29Z",
+      "lastModified": "2026-08-22T04:06:47Z",
+      "source": "github",
+      "url": "https://github.com/StevenZhao666/smart-dictionary",
+      "stars": 0,
+      "forks": 0,
+      "owner": "StevenZhao666",
+      "code": "```cpp\n; ============================================\n; Repository: StevenZhao666/smart-dictionary\n; ============================================\n; URL: https://github.com/StevenZhao666/smart-dictionary\n; Stars: 0 | Forks: 0\n; Last Updated: 8/22/2026\n; License: Not specified\n;\n; Description:\n; 智能术语词典 Smart Dictionary - 划词即查的中英术语词典 (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/StevenZhao666/smart-dictionary.git\n;\n; Option 2: Download ZIP\n;   https://github.com/StevenZhao666/smart-dictionary/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <smart-dictionary>\n\n; Example initialization\nclass SmartDictionaryExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"smart-dictionary loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SmartDictionaryExample()\n```"
     }
   ]
 }
