@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-07T12:13:44.234Z",
+  "lastUpdated": "2026-09-07T18:10:50.872Z",
   "totalScripts": 493,
   "categories": [
     "GUI",
@@ -787,7 +787,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-09-07T12:09:54Z",
+      "lastModified": "2026-09-07T13:26:30Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
@@ -3385,13 +3385,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-08-28T13:33:13Z",
+      "lastModified": "2026-09-07T18:07:30Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
       "stars": 5,
-      "forks": 1,
+      "forks": 0,
       "owner": "zeno528",
-      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 5 | Forks: 1\n; Last Updated: 8/28/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 5 | Forks: 0\n; Last Updated: 9/7/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
     },
     {
       "id": "github-1169730446",
@@ -9941,13 +9941,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-06T12:56:45Z",
-      "lastModified": "2026-09-06T17:12:34Z",
+      "lastModified": "2026-09-07T14:17:32Z",
       "source": "github",
       "url": "https://github.com/larakkan/media-brightness-toggle",
       "stars": 0,
       "forks": 0,
       "owner": "larakkan",
-      "code": "```cpp\n; ============================================\n; Repository: larakkan/media-brightness-toggle\n; ============================================\n; URL: https://github.com/larakkan/media-brightness-toggle\n; Stars: 0 | Forks: 0\n; Last Updated: 9/6/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (v2) script that turns your keyboard's Media Play/Pause key into a toggle switch for your Volume Up/Down keys, which lets them control your display brightness instead of the volume when enabled.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/larakkan/media-brightness-toggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/larakkan/media-brightness-toggle/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <media-brightness-toggle>\n\n; Example initialization\nclass MediaBrightnessToggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"media-brightness-toggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediaBrightnessToggleExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: larakkan/media-brightness-toggle\n; ============================================\n; URL: https://github.com/larakkan/media-brightness-toggle\n; Stars: 0 | Forks: 0\n; Last Updated: 9/7/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (v2) script that turns your keyboard's Media Play/Pause key into a toggle switch for your Volume Up/Down keys, which lets them control your display brightness instead of the volume when enabled.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/larakkan/media-brightness-toggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/larakkan/media-brightness-toggle/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <media-brightness-toggle>\n\n; Example initialization\nclass MediaBrightnessToggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"media-brightness-toggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediaBrightnessToggleExample()\n```"
     },
     {
       "id": "github-1359460034",
