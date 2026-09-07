@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-06T18:09:44.894Z",
-  "totalScripts": 492,
+  "lastUpdated": "2026-09-07T00:26:55.050Z",
+  "totalScripts": 493,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-09-02T12:42:30Z",
+      "lastModified": "2026-09-06T21:13:45Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 9/2/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 9/6/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -9447,13 +9447,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-15T14:59:59Z",
-      "lastModified": "2026-09-05T23:47:42Z",
+      "lastModified": "2026-09-06T18:49:12Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/GpGFX",
-      "stars": 45,
+      "stars": 46,
       "forks": 4,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/GpGFX\n; ============================================\n; URL: https://github.com/bceenaeiklmr/GpGFX\n; Stars: 45 | Forks: 4\n; Last Updated: 9/5/2026\n; License: MIT License\n;\n; Description:\n; GDI+ graphics library for AutoHotkey v2 to create beautiful 2D graphics or render animations.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/GpGFX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/GpGFX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GpGFX>\n\n; Example initialization\nclass GpgfxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GpGFX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GpgfxExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/GpGFX\n; ============================================\n; URL: https://github.com/bceenaeiklmr/GpGFX\n; Stars: 46 | Forks: 4\n; Last Updated: 9/6/2026\n; License: MIT License\n;\n; Description:\n; GDI+ graphics library for AutoHotkey v2 to create beautiful 2D graphics or render animations.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/GpGFX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/GpGFX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GpGFX>\n\n; Example initialization\nclass GpgfxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GpGFX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GpgfxExample()\n```"
     },
     {
       "id": "github-1329907901",
@@ -9719,13 +9719,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-05T05:50:15Z",
-      "lastModified": "2026-09-05T10:31:43Z",
+      "lastModified": "2026-09-06T18:25:47Z",
       "source": "github",
       "url": "https://github.com/ELee1002/so3d-ahk-macros",
       "stars": 0,
       "forks": 0,
       "owner": "ELee1002",
-      "code": "```cpp\n; ============================================\n; Repository: ELee1002/so3d-ahk-macros\n; ============================================\n; URL: https://github.com/ELee1002/so3d-ahk-macros\n; Stars: 0 | Forks: 0\n; Last Updated: 9/5/2026\n; License: Not specified\n;\n; Description:\n; SO3D AutoHotkey v2 macros with AHI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ELee1002/so3d-ahk-macros.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ELee1002/so3d-ahk-macros/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <so3d-ahk-macros>\n\n; Example initialization\nclass So3dAhkMacrosExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"so3d-ahk-macros loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := So3dAhkMacrosExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ELee1002/so3d-ahk-macros\n; ============================================\n; URL: https://github.com/ELee1002/so3d-ahk-macros\n; Stars: 0 | Forks: 0\n; Last Updated: 9/6/2026\n; License: Not specified\n;\n; Description:\n; SO3D AutoHotkey v2 macros with AHI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ELee1002/so3d-ahk-macros.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ELee1002/so3d-ahk-macros/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <so3d-ahk-macros>\n\n; Example initialization\nclass So3dAhkMacrosExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"so3d-ahk-macros loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := So3dAhkMacrosExample()\n```"
     },
     {
       "id": "github-1357858301",
@@ -9948,6 +9948,31 @@
       "forks": 0,
       "owner": "larakkan",
       "code": "```cpp\n; ============================================\n; Repository: larakkan/media-brightness-toggle\n; ============================================\n; URL: https://github.com/larakkan/media-brightness-toggle\n; Stars: 0 | Forks: 0\n; Last Updated: 9/6/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey (v2) script that turns your keyboard's Media Play/Pause key into a toggle switch for your Volume Up/Down keys, which lets them control your display brightness instead of the volume when enabled.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/larakkan/media-brightness-toggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/larakkan/media-brightness-toggle/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <media-brightness-toggle>\n\n; Example initialization\nclass MediaBrightnessToggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"media-brightness-toggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediaBrightnessToggleExample()\n```"
+    },
+    {
+      "id": "github-1359460034",
+      "title": "pinyin-tones",
+      "category": "GitHub Repository",
+      "description": "Type Mandarin pinyin with tone marks on any keyboard layout - an AutoHotkey v2 script for Windows",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "chinese",
+        "keyboard-layout",
+        "language-learning",
+        "mandarin",
+        "pinyin"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-06T19:38:17Z",
+      "lastModified": "2026-09-06T20:19:38Z",
+      "source": "github",
+      "url": "https://github.com/pjazdzyk/pinyin-tones",
+      "stars": 0,
+      "forks": 0,
+      "owner": "pjazdzyk",
+      "code": "```cpp\n; ============================================\n; Repository: pjazdzyk/pinyin-tones\n; ============================================\n; URL: https://github.com/pjazdzyk/pinyin-tones\n; Stars: 0 | Forks: 0\n; Last Updated: 9/6/2026\n; License: MIT License\n;\n; Description:\n; Type Mandarin pinyin with tone marks on any keyboard layout - an AutoHotkey v2 script for Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pjazdzyk/pinyin-tones.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pjazdzyk/pinyin-tones/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pinyin-tones>\n\n; Example initialization\nclass PinyinTonesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pinyin-tones loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PinyinTonesExample()\n```"
     }
   ]
 }
