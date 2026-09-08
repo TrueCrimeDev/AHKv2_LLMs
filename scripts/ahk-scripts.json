@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-08T00:24:57.745Z",
+  "lastUpdated": "2026-09-08T06:15:12.801Z",
   "totalScripts": 493,
   "categories": [
     "GUI",
@@ -9681,13 +9681,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-14T21:45:26Z",
-      "lastModified": "2026-09-04T01:59:13Z",
+      "lastModified": "2026-09-08T03:37:36Z",
       "source": "github",
       "url": "https://github.com/MrGingerManBread/YT-Clean-View",
       "stars": 0,
       "forks": 0,
       "owner": "MrGingerManBread",
-      "code": "```cpp\n; ============================================\n; Repository: MrGingerManBread/YT-Clean-View\n; ============================================\n; URL: https://github.com/MrGingerManBread/YT-Clean-View\n; Stars: 0 | Forks: 0\n; Last Updated: 9/4/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script to open a YouTube link in your clipboard in DETURL's \"Clean Viewer\" webpage\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MrGingerManBread/YT-Clean-View.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MrGingerManBread/YT-Clean-View/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <YT-Clean-View>\n\n; Example initialization\nclass YtCleanViewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"YT-Clean-View loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YtCleanViewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MrGingerManBread/YT-Clean-View\n; ============================================\n; URL: https://github.com/MrGingerManBread/YT-Clean-View\n; Stars: 0 | Forks: 0\n; Last Updated: 9/8/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script to open a YouTube link in your clipboard in DETURL's \"Clean Viewer\" webpage\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MrGingerManBread/YT-Clean-View.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MrGingerManBread/YT-Clean-View/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <YT-Clean-View>\n\n; Example initialization\nclass YtCleanViewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"YT-Clean-View loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YtCleanViewExample()\n```"
     },
     {
       "id": "github-1334897587",
