@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-09T06:15:40.275Z",
-  "totalScripts": 496,
+  "lastUpdated": "2026-09-09T12:13:36.257Z",
+  "totalScripts": 497,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8953,7 +8953,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-09T02:14:34Z",
+      "lastModified": "2026-09-09T10:14:45Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
@@ -9548,13 +9548,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-01T13:23:25Z",
-      "lastModified": "2026-09-01T13:37:00Z",
+      "lastModified": "2026-09-09T11:01:12Z",
       "source": "github",
       "url": "https://github.com/yairsa/LangFix",
       "stars": 0,
       "forks": 0,
       "owner": "yairsa",
-      "code": "```cpp\n; ============================================\n; Repository: yairsa/LangFix\n; ============================================\n; URL: https://github.com/yairsa/LangFix\n; Stars: 0 | Forks: 0\n; Last Updated: 9/1/2026\n; License: Other\n;\n; Description:\n; Hebrew/English keyboard fixes for Windows: fix text typed in the wrong layout without selecting it, and un-reverse Hebrew copied out of a console. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yairsa/LangFix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yairsa/LangFix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LangFix>\n\n; Example initialization\nclass LangfixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LangFix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LangfixExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yairsa/LangFix\n; ============================================\n; URL: https://github.com/yairsa/LangFix\n; Stars: 0 | Forks: 0\n; Last Updated: 9/9/2026\n; License: Other\n;\n; Description:\n; Hebrew/English keyboard fixes for Windows: fix text typed in the wrong layout without selecting it, and un-reverse Hebrew copied out of a console. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yairsa/LangFix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yairsa/LangFix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LangFix>\n\n; Example initialization\nclass LangfixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LangFix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LangfixExample()\n```"
     },
     {
       "id": "github-1354651552",
@@ -10030,6 +10030,25 @@
       "forks": 0,
       "owner": "ogura-ryoya",
       "code": "```cpp\n; ============================================\n; Repository: ogura-ryoya/PASCOPI\n; ============================================\n; URL: https://github.com/ogura-ryoya/PASCOPI\n; Stars: 0 | Forks: 0\n; Last Updated: 9/9/2026\n; License: Not specified\n;\n; Description:\n; Windows Explorerのファイル・フォルダのパスを整形してコピーするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ogura-ryoya/PASCOPI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ogura-ryoya/PASCOPI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PASCOPI>\n\n; Example initialization\nclass PascopiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PASCOPI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PascopiExample()\n```"
+    },
+    {
+      "id": "github-1362617268",
+      "title": "macLike",
+      "category": "GitHub Repository",
+      "description": "macOS 风格键盘映射 for Windows 11 — AutoHotkey v2 托盘开关、终端安全复制、虚拟桌面键盘手势",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-09T11:55:26Z",
+      "lastModified": "2026-09-09T12:11:38Z",
+      "source": "github",
+      "url": "https://github.com/f62t6gz9mr/macLike",
+      "stars": 1,
+      "forks": 0,
+      "owner": "f62t6gz9mr",
+      "code": "```cpp\n; ============================================\n; Repository: f62t6gz9mr/macLike\n; ============================================\n; URL: https://github.com/f62t6gz9mr/macLike\n; Stars: 1 | Forks: 0\n; Last Updated: 9/9/2026\n; License: MIT License\n;\n; Description:\n; macOS 风格键盘映射 for Windows 11 — AutoHotkey v2 托盘开关、终端安全复制、虚拟桌面键盘手势\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/f62t6gz9mr/macLike.git\n;\n; Option 2: Download ZIP\n;   https://github.com/f62t6gz9mr/macLike/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <macLike>\n\n; Example initialization\nclass MaclikeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"macLike loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MaclikeExample()\n```"
     }
   ]
 }
