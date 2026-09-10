@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-10T00:23:15.056Z",
-  "totalScripts": 497,
+  "lastUpdated": "2026-09-10T06:15:55.598Z",
+  "totalScripts": 498,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8771,13 +8771,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-09-09T14:16:52Z",
+      "lastModified": "2026-09-10T01:29:32Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
-      "stars": 16,
+      "stars": 17,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 16 | Forks: 1\n; Last Updated: 9/9/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 17 | Forks: 1\n; Last Updated: 9/10/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -8953,13 +8953,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-09T21:38:04Z",
+      "lastModified": "2026-09-10T05:41:50Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
       "forks": 0,
       "owner": "chaoskey",
-      "code": "```cpp\n; ============================================\n; Repository: chaoskey/SharpKnife\n; ============================================\n; URL: https://github.com/chaoskey/SharpKnife\n; Stars: 0 | Forks: 0\n; Last Updated: 9/9/2026\n; License: MIT License\n;\n; Description:\n; SharpKnife （利刃），基于  AutoHotKey V2 的一个工具集合。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/chaoskey/SharpKnife.git\n;\n; Option 2: Download ZIP\n;   https://github.com/chaoskey/SharpKnife/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SharpKnife>\n\n; Example initialization\nclass SharpknifeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SharpKnife loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SharpknifeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: chaoskey/SharpKnife\n; ============================================\n; URL: https://github.com/chaoskey/SharpKnife\n; Stars: 0 | Forks: 0\n; Last Updated: 9/10/2026\n; License: MIT License\n;\n; Description:\n; SharpKnife （利刃），基于  AutoHotKey V2 的一个工具集合。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/chaoskey/SharpKnife.git\n;\n; Option 2: Download ZIP\n;   https://github.com/chaoskey/SharpKnife/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SharpKnife>\n\n; Example initialization\nclass SharpknifeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SharpKnife loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SharpknifeExample()\n```"
     },
     {
       "id": "github-1347948359",
@@ -10042,13 +10042,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-09T11:55:26Z",
-      "lastModified": "2026-09-09T12:11:38Z",
+      "lastModified": "2026-09-10T01:11:39Z",
       "source": "github",
       "url": "https://github.com/f62t6gz9mr/macLike",
-      "stars": 1,
+      "stars": 0,
       "forks": 0,
       "owner": "f62t6gz9mr",
-      "code": "```cpp\n; ============================================\n; Repository: f62t6gz9mr/macLike\n; ============================================\n; URL: https://github.com/f62t6gz9mr/macLike\n; Stars: 1 | Forks: 0\n; Last Updated: 9/9/2026\n; License: MIT License\n;\n; Description:\n; macOS 风格键盘映射 for Windows 11 — AutoHotkey v2 托盘开关、终端安全复制、虚拟桌面键盘手势\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/f62t6gz9mr/macLike.git\n;\n; Option 2: Download ZIP\n;   https://github.com/f62t6gz9mr/macLike/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <macLike>\n\n; Example initialization\nclass MaclikeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"macLike loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MaclikeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: f62t6gz9mr/macLike\n; ============================================\n; URL: https://github.com/f62t6gz9mr/macLike\n; Stars: 0 | Forks: 0\n; Last Updated: 9/10/2026\n; License: MIT License\n;\n; Description:\n; macOS 风格键盘映射 for Windows 11 — AutoHotkey v2 托盘开关、终端安全复制、虚拟桌面键盘手势\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/f62t6gz9mr/macLike.git\n;\n; Option 2: Download ZIP\n;   https://github.com/f62t6gz9mr/macLike/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <macLike>\n\n; Example initialization\nclass MaclikeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"macLike loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MaclikeExample()\n```"
+    },
+    {
+      "id": "github-1363455607",
+      "title": "promptbox",
+      "category": "GitHub Repository",
+      "description": "PromptBox · Alt+Q 提示词快取工具 — AutoHotkey v2 脚本，一键呼出浮窗搜索并复制常用提示词",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-10T03:04:55Z",
+      "lastModified": "2026-09-10T03:06:04Z",
+      "source": "github",
+      "url": "https://github.com/rurikoin12/promptbox",
+      "stars": 0,
+      "forks": 0,
+      "owner": "rurikoin12",
+      "code": "```cpp\n; ============================================\n; Repository: rurikoin12/promptbox\n; ============================================\n; URL: https://github.com/rurikoin12/promptbox\n; Stars: 0 | Forks: 0\n; Last Updated: 9/10/2026\n; License: Not specified\n;\n; Description:\n; PromptBox · Alt+Q 提示词快取工具 — AutoHotkey v2 脚本，一键呼出浮窗搜索并复制常用提示词\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rurikoin12/promptbox.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rurikoin12/promptbox/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <promptbox>\n\n; Example initialization\nclass PromptboxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"promptbox loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PromptboxExample()\n```"
     }
   ]
 }
