@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-10T12:13:13.444Z",
-  "totalScripts": 498,
+  "lastUpdated": "2026-09-10T18:10:39.780Z",
+  "totalScripts": 499,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-07T22:04:26Z",
+      "lastModified": "2026-09-10T14:27:23Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 7,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 7 | Forks: 0\n; Last Updated: 9/7/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 7 | Forks: 0\n; Last Updated: 9/10/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -8953,7 +8953,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-10T07:20:24Z",
+      "lastModified": "2026-09-10T12:18:46Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
@@ -9579,20 +9579,20 @@
       "id": "github-1354969559",
       "title": "WinHotKey-AHK",
       "category": "GitHub Repository",
-      "description": "WinHotKey 风格全局快捷键���具 (AutoHotkey v2)：配置文件驱动 + 托盘菜单 + 居中气泡通知",
+      "description": "WinHotKey 风格全局快捷键工具 (AutoHotkey v2)：配置文件驱动 + 托盘菜单 + 居中气泡通知",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-02T16:09:46Z",
-      "lastModified": "2026-09-02T16:15:12Z",
+      "lastModified": "2026-09-10T17:14:09Z",
       "source": "github",
       "url": "https://github.com/promax1799/WinHotKey-AHK",
       "stars": 0,
       "forks": 0,
       "owner": "promax1799",
-      "code": "```cpp\n; ============================================\n; Repository: promax1799/WinHotKey-AHK\n; ============================================\n; URL: https://github.com/promax1799/WinHotKey-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 9/2/2026\n; License: Not specified\n;\n; Description:\n; WinHotKey 风格全局快捷键���具 (AutoHotkey v2)：配置文件驱动 + 托盘菜单 + 居中气泡通知\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/promax1799/WinHotKey-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/promax1799/WinHotKey-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinHotKey-AHK>\n\n; Example initialization\nclass WinhotkeyAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinHotKey-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinhotkeyAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: promax1799/WinHotKey-AHK\n; ============================================\n; URL: https://github.com/promax1799/WinHotKey-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 9/10/2026\n; License: Not specified\n;\n; Description:\n; WinHotKey 风格全局快捷键工具 (AutoHotkey v2)：配置文件驱动 + 托盘菜单 + 居中气泡通知\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/promax1799/WinHotKey-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/promax1799/WinHotKey-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinHotKey-AHK>\n\n; Example initialization\nclass WinhotkeyAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinHotKey-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinhotkeyAhkExample()\n```"
     },
     {
       "id": "github-1355206821",
@@ -10068,6 +10068,31 @@
       "forks": 0,
       "owner": "rurikoin12",
       "code": "```cpp\n; ============================================\n; Repository: rurikoin12/promptbox\n; ============================================\n; URL: https://github.com/rurikoin12/promptbox\n; Stars: 0 | Forks: 0\n; Last Updated: 9/10/2026\n; License: Not specified\n;\n; Description:\n; PromptBox · Alt+Q 提示词快取工具 — AutoHotkey v2 脚本，一键呼出浮窗搜索并复制常用提示词\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rurikoin12/promptbox.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rurikoin12/promptbox/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <promptbox>\n\n; Example initialization\nclass PromptboxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"promptbox loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PromptboxExample()\n```"
+    },
+    {
+      "id": "github-1157341806",
+      "title": "AutoHotkey",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "productivity",
+        "webview2",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-13T17:54:53Z",
+      "lastModified": "2026-09-10T16:57:28Z",
+      "source": "github",
+      "url": "https://github.com/Flop0333/AutoHotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Flop0333",
+      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 9/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     }
   ]
 }
