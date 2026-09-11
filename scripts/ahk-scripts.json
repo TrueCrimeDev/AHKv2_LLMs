@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-11T06:14:59.365Z",
+  "lastUpdated": "2026-09-11T12:14:05.315Z",
   "totalScripts": 502,
   "categories": [
     "GUI",
@@ -4931,13 +4931,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-04T13:38:19Z",
-      "lastModified": "2026-09-09T23:47:02Z",
+      "lastModified": "2026-09-11T10:17:23Z",
       "source": "github",
       "url": "https://github.com/infpdev/gtao-heist-toolkit",
-      "stars": 16,
+      "stars": 17,
       "forks": 4,
       "owner": "infpdev",
-      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 16 | Forks: 4\n; Last Updated: 9/9/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: infpdev/gtao-heist-toolkit\n; ============================================\n; URL: https://github.com/infpdev/gtao-heist-toolkit\n; Stars: 17 | Forks: 4\n; Last Updated: 9/11/2026\n; License: Other\n;\n; Description:\n; GTA Online heist toolkit featuring puzzle solvers, buffered ledge grab automation, NoSave support, and useful standalone tools. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/infpdev/gtao-heist-toolkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/infpdev/gtao-heist-toolkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gtao-heist-toolkit>\n\n; Example initialization\nclass GtaoHeistToolkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gtao-heist-toolkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GtaoHeistToolkitExample()\n```"
     },
     {
       "id": "github-1217816750",
@@ -8771,13 +8771,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-09-10T09:05:02Z",
+      "lastModified": "2026-09-11T11:24:31Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 17,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 17 | Forks: 1\n; Last Updated: 9/10/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 17 | Forks: 1\n; Last Updated: 9/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -8953,7 +8953,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-11T05:49:54Z",
+      "lastModified": "2026-09-11T08:56:11Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
@@ -9239,13 +9239,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-17T12:10:16Z",
-      "lastModified": "2026-08-22T14:47:20Z",
+      "lastModified": "2026-09-11T12:13:25Z",
       "source": "github",
       "url": "https://github.com/pepiadrian51-bot/Ahk-wallhop",
       "stars": 1,
       "forks": 0,
       "owner": "pepiadrian51-bot",
-      "code": "```cpp\n; ============================================\n; Repository: pepiadrian51-bot/Ahk-wallhop\n; ============================================\n; URL: https://github.com/pepiadrian51-bot/Ahk-wallhop\n; Stars: 1 | Forks: 0\n; Last Updated: 8/22/2026\n; License: Not specified\n;\n; Description:\n; A simple AutoHotkey v2 script for Roblox Rivals to toggle keybind macros. can get you banned but not 100%.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pepiadrian51-bot/Ahk-wallhop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pepiadrian51-bot/Ahk-wallhop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Ahk-wallhop>\n\n; Example initialization\nclass AhkWallhopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Ahk-wallhop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWallhopExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: pepiadrian51-bot/Ahk-wallhop\n; ============================================\n; URL: https://github.com/pepiadrian51-bot/Ahk-wallhop\n; Stars: 1 | Forks: 0\n; Last Updated: 9/11/2026\n; License: Not specified\n;\n; Description:\n; A simple AutoHotkey v2 script for Roblox Rivals to toggle keybind macros. can get you banned but not 100%.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pepiadrian51-bot/Ahk-wallhop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pepiadrian51-bot/Ahk-wallhop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Ahk-wallhop>\n\n; Example initialization\nclass AhkWallhopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Ahk-wallhop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWallhopExample()\n```"
     },
     {
       "id": "github-1342524871",
@@ -10086,13 +10086,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T17:54:53Z",
-      "lastModified": "2026-09-10T18:47:23Z",
+      "lastModified": "2026-09-11T07:39:02Z",
       "source": "github",
       "url": "https://github.com/Flop0333/AutoHotkey",
       "stars": 0,
       "forks": 0,
       "owner": "Flop0333",
-      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 9/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 9/11/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1365414747",
@@ -10124,7 +10124,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-11T05:38:59Z",
-      "lastModified": "2026-09-11T05:46:46Z",
+      "lastModified": "2026-09-11T07:58:31Z",
       "source": "github",
       "url": "https://github.com/realwaike/MiniWar-AutoBuy",
       "stars": 0,
