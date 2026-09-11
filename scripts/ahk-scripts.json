@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-11T12:14:05.315Z",
+  "lastUpdated": "2026-09-11T18:10:07.314Z",
   "totalScripts": 502,
   "categories": [
     "GUI",
@@ -8388,13 +8388,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T07:26:40Z",
-      "lastModified": "2026-09-04T11:56:04Z",
+      "lastModified": "2026-09-11T17:59:26Z",
       "source": "github",
       "url": "https://github.com/Pastinakel/DocBot",
       "stars": 0,
       "forks": 0,
       "owner": "Pastinakel",
-      "code": "```cpp\n; ============================================\n; Repository: Pastinakel/DocBot\n; ============================================\n; URL: https://github.com/Pastinakel/DocBot\n; Stars: 0 | Forks: 0\n; Last Updated: 9/4/2026\n; License: Other\n;\n; Description:\n; DocBot is een AutoHotkey v2-hulpmiddel voor medewerkers met twee hoofdfuncties: (a) tekstvervanging via hotstrings, en (b) bellen via de interne IP-telefonie van het bedrijf, inclusief automatische detectie van telefoonnummers op het klembord. Alles draait via één GUI met sidebar-navigatie en een tray-icoon.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pastinakel/DocBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pastinakel/DocBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DocBot>\n\n; Example initialization\nclass DocbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DocBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DocbotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Pastinakel/DocBot\n; ============================================\n; URL: https://github.com/Pastinakel/DocBot\n; Stars: 0 | Forks: 0\n; Last Updated: 9/11/2026\n; License: Other\n;\n; Description:\n; DocBot is een AutoHotkey v2-hulpmiddel voor medewerkers met twee hoofdfuncties: (a) tekstvervanging via hotstrings, en (b) bellen via de interne IP-telefonie van het bedrijf, inclusief automatische detectie van telefoonnummers op het klembord. Alles draait via één GUI met sidebar-navigatie en een tray-icoon.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pastinakel/DocBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pastinakel/DocBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DocBot>\n\n; Example initialization\nclass DocbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DocBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DocbotExample()\n```"
     },
     {
       "id": "github-1314312994",
@@ -8771,7 +8771,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-09-11T11:24:31Z",
+      "lastModified": "2026-09-11T17:41:17Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 17,
@@ -8953,7 +8953,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-11T08:56:11Z",
+      "lastModified": "2026-09-11T12:34:33Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
@@ -10086,7 +10086,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T17:54:53Z",
-      "lastModified": "2026-09-11T07:39:02Z",
+      "lastModified": "2026-09-11T18:00:19Z",
       "source": "github",
       "url": "https://github.com/Flop0333/AutoHotkey",
       "stars": 0,
