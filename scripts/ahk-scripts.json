@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-12T12:11:54.890Z",
-  "totalScripts": 503,
+  "lastUpdated": "2026-09-12T18:09:38.682Z",
+  "totalScripts": 505,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8771,13 +8771,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-09-11T20:31:29Z",
+      "lastModified": "2026-09-12T17:59:28Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 17,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 17 | Forks: 1\n; Last Updated: 9/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 17 | Forks: 1\n; Last Updated: 9/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -8953,7 +8953,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-12T08:19:10Z",
+      "lastModified": "2026-09-12T12:47:01Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
@@ -9820,13 +9820,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-06T04:13:24Z",
-      "lastModified": "2026-09-06T05:01:45Z",
+      "lastModified": "2026-09-12T15:10:34Z",
       "source": "github",
       "url": "https://github.com/maplizm/ahk-key-debouncer",
       "stars": 0,
       "forks": 0,
       "owner": "maplizm",
-      "code": "```cpp\n; ============================================\n; Repository: maplizm/ahk-key-debouncer\n; ============================================\n; URL: https://github.com/maplizm/ahk-key-debouncer\n; Stars: 0 | Forks: 0\n; Last Updated: 9/6/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 utility for suppressing keyboard chattering with configurable debounce intervals.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/maplizm/ahk-key-debouncer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/maplizm/ahk-key-debouncer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-key-debouncer>\n\n; Example initialization\nclass AhkKeyDebouncerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-key-debouncer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkKeyDebouncerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: maplizm/ahk-key-debouncer\n; ============================================\n; URL: https://github.com/maplizm/ahk-key-debouncer\n; Stars: 0 | Forks: 0\n; Last Updated: 9/12/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 utility for suppressing keyboard chattering with configurable debounce intervals.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/maplizm/ahk-key-debouncer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/maplizm/ahk-key-debouncer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-key-debouncer>\n\n; Example initialization\nclass AhkKeyDebouncerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-key-debouncer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkKeyDebouncerExample()\n```"
     },
     {
       "id": "github-1358757589",
@@ -10175,6 +10175,50 @@
       "forks": 0,
       "owner": "Arutoria2024",
       "code": "```cpp\n; ============================================\n; Repository: Arutoria2024/ahk-scripts\n; ============================================\n; URL: https://github.com/Arutoria2024/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 9/12/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 小脚本集（Claude Code / Sublime Text 打开）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Arutoria2024/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Arutoria2024/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
+    },
+    {
+      "id": "github-1367435088",
+      "title": "Dragon_link",
+      "category": "GitHub Repository",
+      "description": "Dragon Link - 基于 AutoHotkey v2.0 的米哈游游戏自动化挂机脚本，支持原神、崩坏：星穹铁道、绝区零。An AHK v2 automation script for miHoYo games with hotkey remapping, auto-launch, AFK monitoring, and email alerts.",
+      "tags": [
+        "github",
+        "repository",
+        "afk",
+        "autohotkey",
+        "autohotkey-script",
+        "autohotkey-v2",
+        "automation",
+        "game-automation"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-12T15:40:19Z",
+      "lastModified": "2026-09-12T15:59:25Z",
+      "source": "github",
+      "url": "https://github.com/Li-Linling/Dragon_link",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Li-Linling",
+      "code": "```cpp\n; ============================================\n; Repository: Li-Linling/Dragon_link\n; ============================================\n; URL: https://github.com/Li-Linling/Dragon_link\n; Stars: 0 | Forks: 0\n; Last Updated: 9/12/2026\n; License: MIT License\n;\n; Description:\n; Dragon Link - 基于 AutoHotkey v2.0 的米哈游游戏自动化挂机脚本，支持原神、崩坏：星穹铁道、绝区零。An AHK v2 automation script for miHoYo games with hotkey remapping, auto-launch, AFK monitoring, and email alerts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Li-Linling/Dragon_link.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Li-Linling/Dragon_link/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Dragon_link>\n\n; Example initialization\nclass DragonLinkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Dragon_link loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DragonLinkExample()\n```"
+    },
+    {
+      "id": "github-1365647588",
+      "title": "KeyboardLayoutSwitcher",
+      "category": "GitHub Repository",
+      "description": "A lightweight AutoHotkey v2 script for switching between English, Russian, and Japanese keyboard layouts using custom hotkeys.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-11T08:22:48Z",
+      "lastModified": "2026-09-12T15:39:21Z",
+      "source": "github",
+      "url": "https://github.com/xumpen/KeyboardLayoutSwitcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "xumpen",
+      "code": "```cpp\n; ============================================\n; Repository: xumpen/KeyboardLayoutSwitcher\n; ============================================\n; URL: https://github.com/xumpen/KeyboardLayoutSwitcher\n; Stars: 0 | Forks: 0\n; Last Updated: 9/12/2026\n; License: Not specified\n;\n; Description:\n; A lightweight AutoHotkey v2 script for switching between English, Russian, and Japanese keyboard layouts using custom hotkeys.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xumpen/KeyboardLayoutSwitcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xumpen/KeyboardLayoutSwitcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyboardLayoutSwitcher>\n\n; Example initialization\nclass KeyboardlayoutswitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyboardLayoutSwitcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardlayoutswitcherExample()\n```"
     }
   ]
 }
