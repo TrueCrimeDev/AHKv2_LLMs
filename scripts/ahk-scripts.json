@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-13T00:27:14.420Z",
+  "lastUpdated": "2026-09-13T06:18:05.040Z",
   "totalScripts": 505,
   "categories": [
     "GUI",
@@ -561,13 +561,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-07T03:41:58Z",
-      "lastModified": "2026-04-27T09:09:57Z",
+      "lastModified": "2026-09-13T03:17:47Z",
       "source": "github",
       "url": "https://github.com/masaodev/myahk_v2",
       "stars": 0,
       "forks": 0,
       "owner": "masaodev",
-      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 4/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 9/13/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
     },
     {
       "id": "github-1039208508",
@@ -8953,13 +8953,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-12T12:47:01Z",
+      "lastModified": "2026-09-13T05:27:15Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
       "forks": 0,
       "owner": "chaoskey",
-      "code": "```cpp\n; ============================================\n; Repository: chaoskey/SharpKnife\n; ============================================\n; URL: https://github.com/chaoskey/SharpKnife\n; Stars: 0 | Forks: 0\n; Last Updated: 9/12/2026\n; License: MIT License\n;\n; Description:\n; SharpKnife （利刃），基于  AutoHotKey V2 的一个工具集合。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/chaoskey/SharpKnife.git\n;\n; Option 2: Download ZIP\n;   https://github.com/chaoskey/SharpKnife/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SharpKnife>\n\n; Example initialization\nclass SharpknifeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SharpKnife loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SharpknifeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: chaoskey/SharpKnife\n; ============================================\n; URL: https://github.com/chaoskey/SharpKnife\n; Stars: 0 | Forks: 0\n; Last Updated: 9/13/2026\n; License: MIT License\n;\n; Description:\n; SharpKnife （利刃），基于  AutoHotKey V2 的一个工具集合。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/chaoskey/SharpKnife.git\n;\n; Option 2: Download ZIP\n;   https://github.com/chaoskey/SharpKnife/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SharpKnife>\n\n; Example initialization\nclass SharpknifeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SharpKnife loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SharpknifeExample()\n```"
     },
     {
       "id": "github-1347948359",
@@ -10105,13 +10105,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-11T05:49:59Z",
-      "lastModified": "2026-09-11T23:40:58Z",
+      "lastModified": "2026-09-13T03:12:13Z",
       "source": "github",
       "url": "https://github.com/83d/BlackScreenOverlay-MouseSkip-ahk",
       "stars": 0,
       "forks": 0,
       "owner": "83d",
-      "code": "```cpp\n; ============================================\n; Repository: 83d/BlackScreenOverlay-MouseSkip-ahk\n; ============================================\n; URL: https://github.com/83d/BlackScreenOverlay-MouseSkip-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/11/2026\n; License: Not specified\n;\n; Description:\n; Windows 双屏黑色遮罩与鼠标双向跳过脚本（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/83d/BlackScreenOverlay-MouseSkip-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/83d/BlackScreenOverlay-MouseSkip-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BlackScreenOverlay-MouseSkip-ahk>\n\n; Example initialization\nclass BlackscreenoverlayMouseskipAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BlackScreenOverlay-MouseSkip-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BlackscreenoverlayMouseskipAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 83d/BlackScreenOverlay-MouseSkip-ahk\n; ============================================\n; URL: https://github.com/83d/BlackScreenOverlay-MouseSkip-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/13/2026\n; License: Not specified\n;\n; Description:\n; Windows 双屏黑色遮罩与鼠标双向跳过脚本（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/83d/BlackScreenOverlay-MouseSkip-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/83d/BlackScreenOverlay-MouseSkip-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BlackScreenOverlay-MouseSkip-ahk>\n\n; Example initialization\nclass BlackscreenoverlayMouseskipAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BlackScreenOverlay-MouseSkip-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BlackscreenoverlayMouseskipAhkExample()\n```"
     },
     {
       "id": "github-1365401279",
