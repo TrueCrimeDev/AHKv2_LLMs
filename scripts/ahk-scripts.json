@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-14T12:14:10.902Z",
+  "lastUpdated": "2026-09-14T18:10:13.439Z",
   "totalScripts": 508,
   "categories": [
     "GUI",
@@ -8524,20 +8524,24 @@
       "id": "github-1317491523",
       "title": "AssinaZap",
       "category": "GitHub Repository",
-      "description": "Assinatura automatica nas mensagens do aplicativo nativo do WhatsApp para Windows. AutoHotkey v2, roda na bandeja, sem rede e sem telemetria.",
+      "description": "Assinatura automática nas mensagens do WhatsApp para Windows. AutoHotkey v2, roda na bandeja, sem rede e sem telemetria.",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "produtividade",
+        "whatsapp",
+        "windows"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-30T16:51:40Z",
-      "lastModified": "2026-07-30T16:55:36Z",
+      "lastModified": "2026-09-14T12:49:20Z",
       "source": "github",
       "url": "https://github.com/ArturGabriel153/AssinaZap",
       "stars": 0,
       "forks": 0,
       "owner": "ArturGabriel153",
-      "code": "```cpp\n; ============================================\n; Repository: ArturGabriel153/AssinaZap\n; ============================================\n; URL: https://github.com/ArturGabriel153/AssinaZap\n; Stars: 0 | Forks: 0\n; Last Updated: 7/30/2026\n; License: Not specified\n;\n; Description:\n; Assinatura automatica nas mensagens do aplicativo nativo do WhatsApp para Windows. AutoHotkey v2, roda na bandeja, sem rede e sem telemetria.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ArturGabriel153/AssinaZap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ArturGabriel153/AssinaZap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AssinaZap>\n\n; Example initialization\nclass AssinazapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AssinaZap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AssinazapExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ArturGabriel153/AssinaZap\n; ============================================\n; URL: https://github.com/ArturGabriel153/AssinaZap\n; Stars: 0 | Forks: 0\n; Last Updated: 9/14/2026\n; License: MIT License\n;\n; Description:\n; Assinatura automática nas mensagens do WhatsApp para Windows. AutoHotkey v2, roda na bandeja, sem rede e sem telemetria.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ArturGabriel153/AssinaZap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ArturGabriel153/AssinaZap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AssinaZap>\n\n; Example initialization\nclass AssinazapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AssinaZap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AssinazapExample()\n```"
     },
     {
       "id": "github-1317735253",
