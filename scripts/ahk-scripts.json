@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-14T06:20:15.171Z",
-  "totalScripts": 507,
+  "lastUpdated": "2026-09-14T12:14:10.902Z",
+  "totalScripts": 508,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -10010,13 +10010,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-08T11:22:03Z",
-      "lastModified": "2026-09-09T03:57:06Z",
+      "lastModified": "2026-09-14T11:19:36Z",
       "source": "github",
       "url": "https://github.com/rimeinn/RimeDepot",
       "stars": 0,
       "forks": 0,
       "owner": "rimeinn",
-      "code": "```cpp\n; ============================================\n; Repository: rimeinn/RimeDepot\n; ============================================\n; URL: https://github.com/rimeinn/RimeDepot\n; Stars: 0 | Forks: 0\n; Last Updated: 9/9/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Rime package installer and RPPI browser for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rimeinn/RimeDepot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rimeinn/RimeDepot/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RimeDepot>\n\n; Example initialization\nclass RimedepotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RimeDepot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimedepotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: rimeinn/RimeDepot\n; ============================================\n; URL: https://github.com/rimeinn/RimeDepot\n; Stars: 0 | Forks: 0\n; Last Updated: 9/14/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Rime package installer and RPPI browser for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rimeinn/RimeDepot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rimeinn/RimeDepot/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RimeDepot>\n\n; Example initialization\nclass RimedepotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RimeDepot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimedepotExample()\n```"
     },
     {
       "id": "github-1332545054",
@@ -10092,13 +10092,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T17:54:53Z",
-      "lastModified": "2026-09-12T22:12:27Z",
+      "lastModified": "2026-09-14T11:26:14Z",
       "source": "github",
       "url": "https://github.com/Flop0333/AutoHotkey",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "Flop0333",
-      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 9/12/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 9/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1365414747",
@@ -10263,6 +10263,25 @@
       "forks": 0,
       "owner": "freegamefire03-boop",
       "code": "```cpp\n; ============================================\n; Repository: freegamefire03-boop/prompt-overlay\n; ============================================\n; URL: https://github.com/freegamefire03-boop/prompt-overlay\n; Stars: 0 | Forks: 0\n; Last Updated: 9/14/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 overlay that refines prompts for OpenCode via OpenRouter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/freegamefire03-boop/prompt-overlay.git\n;\n; Option 2: Download ZIP\n;   https://github.com/freegamefire03-boop/prompt-overlay/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <prompt-overlay>\n\n; Example initialization\nclass PromptOverlayExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"prompt-overlay loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PromptOverlayExample()\n```"
+    },
+    {
+      "id": "github-1369616455",
+      "title": "sideclick-ahk",
+      "category": "GitHub Repository",
+      "description": "Side mouse button autoclicker — AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-14T08:57:17Z",
+      "lastModified": "2026-09-14T08:57:27Z",
+      "source": "github",
+      "url": "https://github.com/xvDoshik/sideclick-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "xvDoshik",
+      "code": "```cpp\n; ============================================\n; Repository: xvDoshik/sideclick-ahk\n; ============================================\n; URL: https://github.com/xvDoshik/sideclick-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/14/2026\n; License: MIT License\n;\n; Description:\n; Side mouse button autoclicker — AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xvDoshik/sideclick-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xvDoshik/sideclick-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sideclick-ahk>\n\n; Example initialization\nclass SideclickAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sideclick-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SideclickAhkExample()\n```"
     }
   ]
 }
