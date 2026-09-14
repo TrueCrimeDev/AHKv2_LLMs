@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-14T00:27:09.044Z",
-  "totalScripts": 506,
+  "lastUpdated": "2026-09-14T06:20:15.171Z",
+  "totalScripts": 507,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -7204,13 +7204,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-08-29T07:14:27Z",
+      "lastModified": "2026-09-14T06:05:14Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
       "forks": 0,
       "owner": "von110187",
-      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 8/29/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 9/14/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
     },
     {
       "id": "github-825062151",
@@ -10244,6 +10244,25 @@
       "forks": 0,
       "owner": "Artllex",
       "code": "```cpp\n; ============================================\n; Repository: Artllex/AHK-Symbols-and-Snippets\n; ============================================\n; URL: https://github.com/Artllex/AHK-Symbols-and-Snippets\n; Stars: 0 | Forks: 0\n; Last Updated: 9/13/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 shortcuts for symbols, Greek letters, SQL snippets, Python and Markdown.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Artllex/AHK-Symbols-and-Snippets.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Artllex/AHK-Symbols-and-Snippets/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-Symbols-and-Snippets>\n\n; Example initialization\nclass AhkSymbolsAndSnippetsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-Symbols-and-Snippets loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkSymbolsAndSnippetsExample()\n```"
+    },
+    {
+      "id": "github-1369083718",
+      "title": "prompt-overlay",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 overlay that refines prompts for OpenCode via OpenRouter",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-14T00:51:14Z",
+      "lastModified": "2026-09-14T01:40:21Z",
+      "source": "github",
+      "url": "https://github.com/freegamefire03-boop/prompt-overlay",
+      "stars": 0,
+      "forks": 0,
+      "owner": "freegamefire03-boop",
+      "code": "```cpp\n; ============================================\n; Repository: freegamefire03-boop/prompt-overlay\n; ============================================\n; URL: https://github.com/freegamefire03-boop/prompt-overlay\n; Stars: 0 | Forks: 0\n; Last Updated: 9/14/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 overlay that refines prompts for OpenCode via OpenRouter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/freegamefire03-boop/prompt-overlay.git\n;\n; Option 2: Download ZIP\n;   https://github.com/freegamefire03-boop/prompt-overlay/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <prompt-overlay>\n\n; Example initialization\nclass PromptOverlayExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"prompt-overlay loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PromptOverlayExample()\n```"
     }
   ]
 }
