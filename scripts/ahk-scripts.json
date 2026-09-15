@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-15T00:25:17.889Z",
-  "totalScripts": 508,
+  "lastUpdated": "2026-09-15T06:15:42.799Z",
+  "totalScripts": 509,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -10286,6 +10286,25 @@
       "forks": 0,
       "owner": "xvDoshik",
       "code": "```cpp\n; ============================================\n; Repository: xvDoshik/sideclick-ahk\n; ============================================\n; URL: https://github.com/xvDoshik/sideclick-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/14/2026\n; License: MIT License\n;\n; Description:\n; Side mouse button autoclicker — AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xvDoshik/sideclick-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xvDoshik/sideclick-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sideclick-ahk>\n\n; Example initialization\nclass SideclickAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sideclick-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SideclickAhkExample()\n```"
+    },
+    {
+      "id": "github-1370952446",
+      "title": "Wallcamera",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 application for viewing and arranging historical CCTV camera folders.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-15T05:35:18Z",
+      "lastModified": "2026-09-15T06:14:42Z",
+      "source": "github",
+      "url": "https://github.com/55salvatore55/Wallcamera",
+      "stars": 0,
+      "forks": 0,
+      "owner": "55salvatore55",
+      "code": "```cpp\n; ============================================\n; Repository: 55salvatore55/Wallcamera\n; ============================================\n; URL: https://github.com/55salvatore55/Wallcamera\n; Stars: 0 | Forks: 0\n; Last Updated: 9/15/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 application for viewing and arranging historical CCTV camera folders.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/55salvatore55/Wallcamera.git\n;\n; Option 2: Download ZIP\n;   https://github.com/55salvatore55/Wallcamera/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Wallcamera>\n\n; Example initialization\nclass WallcameraExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Wallcamera loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WallcameraExample()\n```"
     }
   ]
 }
