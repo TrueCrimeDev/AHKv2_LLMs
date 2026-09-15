@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-15T12:13:06.044Z",
-  "totalScripts": 510,
+  "lastUpdated": "2026-09-15T18:10:03.005Z",
+  "totalScripts": 511,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8957,7 +8957,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-15T12:07:26Z",
+      "lastModified": "2026-09-15T13:57:37Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
@@ -9729,13 +9729,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-05T05:50:15Z",
-      "lastModified": "2026-09-06T18:25:47Z",
+      "lastModified": "2026-09-15T17:39:49Z",
       "source": "github",
       "url": "https://github.com/ELee1002/so3d-ahk-macros",
       "stars": 0,
       "forks": 0,
       "owner": "ELee1002",
-      "code": "```cpp\n; ============================================\n; Repository: ELee1002/so3d-ahk-macros\n; ============================================\n; URL: https://github.com/ELee1002/so3d-ahk-macros\n; Stars: 0 | Forks: 0\n; Last Updated: 9/6/2026\n; License: Not specified\n;\n; Description:\n; SO3D AutoHotkey v2 macros with AHI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ELee1002/so3d-ahk-macros.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ELee1002/so3d-ahk-macros/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <so3d-ahk-macros>\n\n; Example initialization\nclass So3dAhkMacrosExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"so3d-ahk-macros loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := So3dAhkMacrosExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ELee1002/so3d-ahk-macros\n; ============================================\n; URL: https://github.com/ELee1002/so3d-ahk-macros\n; Stars: 0 | Forks: 0\n; Last Updated: 9/15/2026\n; License: Not specified\n;\n; Description:\n; SO3D AutoHotkey v2 macros with AHI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ELee1002/so3d-ahk-macros.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ELee1002/so3d-ahk-macros/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <so3d-ahk-macros>\n\n; Example initialization\nclass So3dAhkMacrosExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"so3d-ahk-macros loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := So3dAhkMacrosExample()\n```"
     },
     {
       "id": "github-1357858301",
@@ -10096,13 +10096,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T17:54:53Z",
-      "lastModified": "2026-09-14T11:26:14Z",
+      "lastModified": "2026-09-15T16:00:59Z",
       "source": "github",
       "url": "https://github.com/Flop0333/AutoHotkey",
       "stars": 1,
       "forks": 0,
       "owner": "Flop0333",
-      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 9/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 9/15/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1365414747",
@@ -10324,6 +10324,25 @@
       "forks": 0,
       "owner": "eastonlight",
       "code": "```cpp\n; ============================================\n; Repository: eastonlight/omp-macro\n; ============================================\n; URL: https://github.com/eastonlight/omp-macro\n; Stars: 0 | Forks: 0\n; Last Updated: 9/15/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 macros for StarCraft 4x3 drone movement and construction\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eastonlight/omp-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eastonlight/omp-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <omp-macro>\n\n; Example initialization\nclass OmpMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"omp-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OmpMacroExample()\n```"
+    },
+    {
+      "id": "github-1371820233",
+      "title": "ClickThrough",
+      "category": "GitHub Repository",
+      "description": "This AutoHotkey (v2) script allows you to quickly activate and bring forward the window directly beneath your mouse cursor without sending a mouse click.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-15T16:54:15Z",
+      "lastModified": "2026-09-15T17:01:45Z",
+      "source": "github",
+      "url": "https://github.com/lidonghai/ClickThrough",
+      "stars": 0,
+      "forks": 0,
+      "owner": "lidonghai",
+      "code": "```cpp\n; ============================================\n; Repository: lidonghai/ClickThrough\n; ============================================\n; URL: https://github.com/lidonghai/ClickThrough\n; Stars: 0 | Forks: 0\n; Last Updated: 9/15/2026\n; License: Apache License 2.0\n;\n; Description:\n; This AutoHotkey (v2) script allows you to quickly activate and bring forward the window directly beneath your mouse cursor without sending a mouse click.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lidonghai/ClickThrough.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lidonghai/ClickThrough/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClickThrough>\n\n; Example initialization\nclass ClickthroughExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClickThrough loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClickthroughExample()\n```"
     }
   ]
 }
