@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-15T18:10:03.005Z",
-  "totalScripts": 511,
+  "lastUpdated": "2026-09-16T00:23:47.321Z",
+  "totalScripts": 512,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -10096,7 +10096,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T17:54:53Z",
-      "lastModified": "2026-09-15T16:00:59Z",
+      "lastModified": "2026-09-15T23:29:12Z",
       "source": "github",
       "url": "https://github.com/Flop0333/AutoHotkey",
       "stars": 1,
@@ -10343,6 +10343,25 @@
       "forks": 0,
       "owner": "lidonghai",
       "code": "```cpp\n; ============================================\n; Repository: lidonghai/ClickThrough\n; ============================================\n; URL: https://github.com/lidonghai/ClickThrough\n; Stars: 0 | Forks: 0\n; Last Updated: 9/15/2026\n; License: Apache License 2.0\n;\n; Description:\n; This AutoHotkey (v2) script allows you to quickly activate and bring forward the window directly beneath your mouse cursor without sending a mouse click.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lidonghai/ClickThrough.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lidonghai/ClickThrough/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClickThrough>\n\n; Example initialization\nclass ClickthroughExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClickThrough loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClickthroughExample()\n```"
+    },
+    {
+      "id": "github-1372012393",
+      "title": "Win11-Fullscreen-GhostUI",
+      "category": "GitHub Repository",
+      "description": "Ever get trapped in an exclusive fullscreen app on Windows 11 and can't check the time or change your music without minimizing everything?  This custom AutoHotkey (AHK v2) script fixes that. It forces the native Windows 11 taskbar and custom window controls (Minimize/Maximize/Close) to overlay on top of true full-screen software—behaving like a UWP",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-15T19:28:59Z",
+      "lastModified": "2026-09-15T19:34:19Z",
+      "source": "github",
+      "url": "https://github.com/VibeHubber/Win11-Fullscreen-GhostUI",
+      "stars": 0,
+      "forks": 0,
+      "owner": "VibeHubber",
+      "code": "```cpp\n; ============================================\n; Repository: VibeHubber/Win11-Fullscreen-GhostUI\n; ============================================\n; URL: https://github.com/VibeHubber/Win11-Fullscreen-GhostUI\n; Stars: 0 | Forks: 0\n; Last Updated: 9/15/2026\n; License: MIT License\n;\n; Description:\n; Ever get trapped in an exclusive fullscreen app on Windows 11 and can't check the time or change your music without minimizing everything?  This custom AutoHotkey (AHK v2) script fixes that. It forces the native Windows 11 taskbar and custom window controls (Minimize/Maximize/Close) to overlay on top of true full-screen software—behaving like a UWP\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VibeHubber/Win11-Fullscreen-GhostUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VibeHubber/Win11-Fullscreen-GhostUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Win11-Fullscreen-GhostUI>\n\n; Example initialization\nclass Win11FullscreenGhostuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Win11-Fullscreen-GhostUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Win11FullscreenGhostuiExample()\n```"
     }
   ]
 }
