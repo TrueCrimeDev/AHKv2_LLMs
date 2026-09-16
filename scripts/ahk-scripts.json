@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-16T12:13:54.974Z",
-  "totalScripts": 513,
+  "lastUpdated": "2026-09-16T18:10:44.709Z",
+  "totalScripts": 514,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-10T14:27:23Z",
+      "lastModified": "2026-09-16T16:22:58Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 7,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 7 | Forks: 0\n; Last Updated: 9/10/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 7 | Forks: 0\n; Last Updated: 9/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -8957,7 +8957,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-16T11:46:24Z",
+      "lastModified": "2026-09-16T13:30:39Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
@@ -9729,13 +9729,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-05T05:50:15Z",
-      "lastModified": "2026-09-15T17:39:49Z",
+      "lastModified": "2026-09-16T15:38:32Z",
       "source": "github",
       "url": "https://github.com/ELee1002/so3d-ahk-macros",
       "stars": 0,
       "forks": 0,
       "owner": "ELee1002",
-      "code": "```cpp\n; ============================================\n; Repository: ELee1002/so3d-ahk-macros\n; ============================================\n; URL: https://github.com/ELee1002/so3d-ahk-macros\n; Stars: 0 | Forks: 0\n; Last Updated: 9/15/2026\n; License: Not specified\n;\n; Description:\n; SO3D AutoHotkey v2 macros with AHI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ELee1002/so3d-ahk-macros.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ELee1002/so3d-ahk-macros/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <so3d-ahk-macros>\n\n; Example initialization\nclass So3dAhkMacrosExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"so3d-ahk-macros loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := So3dAhkMacrosExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ELee1002/so3d-ahk-macros\n; ============================================\n; URL: https://github.com/ELee1002/so3d-ahk-macros\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: Not specified\n;\n; Description:\n; SO3D AutoHotkey v2 macros with AHI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ELee1002/so3d-ahk-macros.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ELee1002/so3d-ahk-macros/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <so3d-ahk-macros>\n\n; Example initialization\nclass So3dAhkMacrosExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"so3d-ahk-macros loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := So3dAhkMacrosExample()\n```"
     },
     {
       "id": "github-1357858301",
@@ -10381,6 +10381,25 @@
       "forks": 0,
       "owner": "PetrovDS",
       "code": "```cpp\n; ============================================\n; Repository: PetrovDS/KLS\n; ============================================\n; URL: https://github.com/PetrovDS/KLS\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: The Unlicense\n;\n; Description:\n; Лёгкий аналог Punto Switcher на AutoHotkey v2: смена раскладки и регистра по горячим клавишам. Офлайн, без автопереключения.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PetrovDS/KLS.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PetrovDS/KLS/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KLS>\n\n; Example initialization\nclass KlsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KLS loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KlsExample()\n```"
+    },
+    {
+      "id": "github-1373249262",
+      "title": "audio-grouping",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for controlling Windows system volume and per-application audio groups",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-16T15:28:13Z",
+      "lastModified": "2026-09-16T15:32:10Z",
+      "source": "github",
+      "url": "https://github.com/modek4/audio-grouping",
+      "stars": 0,
+      "forks": 0,
+      "owner": "modek4",
+      "code": "```cpp\n; ============================================\n; Repository: modek4/audio-grouping\n; ============================================\n; URL: https://github.com/modek4/audio-grouping\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for controlling Windows system volume and per-application audio groups\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/modek4/audio-grouping.git\n;\n; Option 2: Download ZIP\n;   https://github.com/modek4/audio-grouping/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <audio-grouping>\n\n; Example initialization\nclass AudioGroupingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"audio-grouping loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AudioGroupingExample()\n```"
     }
   ]
 }
