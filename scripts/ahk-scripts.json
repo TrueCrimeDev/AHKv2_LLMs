@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-16T06:15:46.863Z",
-  "totalScripts": 512,
+  "lastUpdated": "2026-09-16T12:13:54.974Z",
+  "totalScripts": 513,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -3360,13 +3360,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-11T22:36:48Z",
-      "lastModified": "2026-04-17T05:15:15Z",
+      "lastModified": "2026-09-16T09:42:03Z",
       "source": "github",
       "url": "https://github.com/Dason-IsopodOverseer/UberMaus",
       "stars": 0,
       "forks": 0,
       "owner": "Dason-IsopodOverseer",
-      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 4/17/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
     },
     {
       "id": "github-1169619112",
@@ -7264,13 +7264,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-26T09:22:13Z",
-      "lastModified": "2026-06-26T09:23:37Z",
+      "lastModified": "2026-09-16T06:45:15Z",
       "source": "github",
       "url": "https://github.com/bm-panda/Continuous-pasting",
       "stars": 0,
       "forks": 0,
       "owner": "bm-panda",
-      "code": "```cpp\n; ============================================\n; Repository: bm-panda/Continuous-pasting\n; ============================================\n; URL: https://github.com/bm-panda/Continuous-pasting\n; Stars: 0 | Forks: 0\n; Last Updated: 6/26/2026\n; License: Not specified\n;\n; Description:\n; 连续粘贴 - 自动监控剪贴板按顺序连续粘贴工具，AutoHotkey v2 脚本，通过不忙脚本盒子快捷键触发，支持批量复制集中粘贴、FIFO 队列管理、自定义快捷键设置，告别反复切换窗口提高办公效率\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bm-panda/Continuous-pasting.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bm-panda/Continuous-pasting/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Continuous-pasting>\n\n; Example initialization\nclass ContinuousPastingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Continuous-pasting loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContinuousPastingExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bm-panda/Continuous-pasting\n; ============================================\n; URL: https://github.com/bm-panda/Continuous-pasting\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: Not specified\n;\n; Description:\n; 连续粘贴 - 自动监控剪贴板按顺序连续粘贴工具，AutoHotkey v2 脚本，通过不忙脚本盒子快捷键触发，支持批量复制集中粘贴、FIFO 队列管理、自定义快捷键设置，告别反复切换窗口提高办公效率\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bm-panda/Continuous-pasting.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bm-panda/Continuous-pasting/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Continuous-pasting>\n\n; Example initialization\nclass ContinuousPastingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Continuous-pasting loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContinuousPastingExample()\n```"
     },
     {
       "id": "github-1281057371",
@@ -8775,13 +8775,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-09-12T21:22:09Z",
+      "lastModified": "2026-09-16T10:05:09Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
-      "stars": 17,
+      "stars": 18,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 17 | Forks: 1\n; Last Updated: 9/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 18 | Forks: 1\n; Last Updated: 9/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -8957,7 +8957,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-16T05:06:33Z",
+      "lastModified": "2026-09-16T11:46:24Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
@@ -10096,13 +10096,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T17:54:53Z",
-      "lastModified": "2026-09-15T23:29:12Z",
+      "lastModified": "2026-09-16T07:02:00Z",
       "source": "github",
       "url": "https://github.com/Flop0333/AutoHotkey",
       "stars": 1,
       "forks": 0,
       "owner": "Flop0333",
-      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 9/15/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 9/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1365414747",
@@ -10298,13 +10298,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-15T05:35:18Z",
-      "lastModified": "2026-09-15T06:14:42Z",
+      "lastModified": "2026-09-16T07:16:02Z",
       "source": "github",
       "url": "https://github.com/55salvatore55/Wallcamera",
       "stars": 0,
       "forks": 0,
       "owner": "55salvatore55",
-      "code": "```cpp\n; ============================================\n; Repository: 55salvatore55/Wallcamera\n; ============================================\n; URL: https://github.com/55salvatore55/Wallcamera\n; Stars: 0 | Forks: 0\n; Last Updated: 9/15/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 application for viewing and arranging historical CCTV camera folders.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/55salvatore55/Wallcamera.git\n;\n; Option 2: Download ZIP\n;   https://github.com/55salvatore55/Wallcamera/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Wallcamera>\n\n; Example initialization\nclass WallcameraExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Wallcamera loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WallcameraExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 55salvatore55/Wallcamera\n; ============================================\n; URL: https://github.com/55salvatore55/Wallcamera\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 application for viewing and arranging historical CCTV camera folders.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/55salvatore55/Wallcamera.git\n;\n; Option 2: Download ZIP\n;   https://github.com/55salvatore55/Wallcamera/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Wallcamera>\n\n; Example initialization\nclass WallcameraExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Wallcamera loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WallcameraExample()\n```"
     },
     {
       "id": "github-1371160219",
@@ -10362,6 +10362,25 @@
       "forks": 0,
       "owner": "VibeHubber",
       "code": "```cpp\n; ============================================\n; Repository: VibeHubber/Win11-Fullscreen-GhostUI\n; ============================================\n; URL: https://github.com/VibeHubber/Win11-Fullscreen-GhostUI\n; Stars: 0 | Forks: 0\n; Last Updated: 9/15/2026\n; License: MIT License\n;\n; Description:\n; Ever get trapped in an exclusive fullscreen app on Windows 11 and can't check the time or change your music without minimizing everything?  This custom AutoHotkey (AHK v2) script fixes that. It forces the native Windows 11 taskbar and custom window controls (Minimize/Maximize/Close) to overlay on top of true full-screen software—behaving like a UWP\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VibeHubber/Win11-Fullscreen-GhostUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VibeHubber/Win11-Fullscreen-GhostUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Win11-Fullscreen-GhostUI>\n\n; Example initialization\nclass Win11FullscreenGhostuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Win11-Fullscreen-GhostUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Win11FullscreenGhostuiExample()\n```"
+    },
+    {
+      "id": "github-1372826746",
+      "title": "KLS",
+      "category": "GitHub Repository",
+      "description": "Лёгкий аналог Punto Switcher на AutoHotkey v2: смена раскладки и регистра по горячим клавишам. Офлайн, без автопереключения.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-16T09:45:33Z",
+      "lastModified": "2026-09-16T09:47:13Z",
+      "source": "github",
+      "url": "https://github.com/PetrovDS/KLS",
+      "stars": 0,
+      "forks": 0,
+      "owner": "PetrovDS",
+      "code": "```cpp\n; ============================================\n; Repository: PetrovDS/KLS\n; ============================================\n; URL: https://github.com/PetrovDS/KLS\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: The Unlicense\n;\n; Description:\n; Лёгкий аналог Punto Switcher на AutoHotkey v2: смена раскладки и регистра по горячим клавишам. Офлайн, без автопереключения.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PetrovDS/KLS.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PetrovDS/KLS/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KLS>\n\n; Example initialization\nclass KlsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KLS loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KlsExample()\n```"
     }
   ]
 }
