@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-17T00:24:01.309Z",
-  "totalScripts": 516,
+  "lastUpdated": "2026-09-17T06:16:08.388Z",
+  "totalScripts": 519,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6983,13 +6983,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-06-27T20:48:06Z",
+      "lastModified": "2026-09-17T04:23:33Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 6/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 9/17/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
     },
     {
       "id": "github-1273936664",
@@ -8957,13 +8957,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-16T13:30:39Z",
+      "lastModified": "2026-09-17T06:14:44Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
       "forks": 0,
       "owner": "chaoskey",
-      "code": "```cpp\n; ============================================\n; Repository: chaoskey/SharpKnife\n; ============================================\n; URL: https://github.com/chaoskey/SharpKnife\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: MIT License\n;\n; Description:\n; SharpKnife （利刃），基于  AutoHotKey V2 的一个工具集合。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/chaoskey/SharpKnife.git\n;\n; Option 2: Download ZIP\n;   https://github.com/chaoskey/SharpKnife/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SharpKnife>\n\n; Example initialization\nclass SharpknifeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SharpKnife loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SharpknifeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: chaoskey/SharpKnife\n; ============================================\n; URL: https://github.com/chaoskey/SharpKnife\n; Stars: 0 | Forks: 0\n; Last Updated: 9/17/2026\n; License: MIT License\n;\n; Description:\n; SharpKnife （利刃），基于  AutoHotKey V2 的一个工具集合。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/chaoskey/SharpKnife.git\n;\n; Option 2: Download ZIP\n;   https://github.com/chaoskey/SharpKnife/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SharpKnife>\n\n; Example initialization\nclass SharpknifeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SharpKnife loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SharpknifeExample()\n```"
     },
     {
       "id": "github-1347948359",
@@ -10438,6 +10438,63 @@
       "forks": 0,
       "owner": "cmaqr",
       "code": "```cpp\n; ============================================\n; Repository: cmaqr/accentpop\n; ============================================\n; URL: https://github.com/cmaqr/accentpop\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: Not specified\n;\n; Description:\n; macOS-style accent popup for Windows: hold a letter, pick the accent. AutoHotkey v2, no install.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cmaqr/accentpop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cmaqr/accentpop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <accentpop>\n\n; Example initialization\nclass AccentpopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"accentpop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AccentpopExample()\n```"
+    },
+    {
+      "id": "github-1374006523",
+      "title": "mouse-controll",
+      "category": "GitHub Repository",
+      "description": "Keyboard driven mouse pointer for Windows with a single precision slider (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-17T05:59:16Z",
+      "lastModified": "2026-09-17T06:15:50Z",
+      "source": "github",
+      "url": "https://github.com/Gleopold/mouse-controll",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Gleopold",
+      "code": "```cpp\n; ============================================\n; Repository: Gleopold/mouse-controll\n; ============================================\n; URL: https://github.com/Gleopold/mouse-controll\n; Stars: 0 | Forks: 0\n; Last Updated: 9/17/2026\n; License: Not specified\n;\n; Description:\n; Keyboard driven mouse pointer for Windows with a single precision slider (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Gleopold/mouse-controll.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Gleopold/mouse-controll/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mouse-controll>\n\n; Example initialization\nclass MouseControllExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mouse-controll loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseControllExample()\n```"
+    },
+    {
+      "id": "github-1373896792",
+      "title": "geurtsys-dota-2-helpers",
+      "category": "GitHub Repository",
+      "description": "Geurtsy's Dota 2 Helpers: AutoHotkey v2 voice-chat toggle with a persistent on-screen indicator and automatic game detection.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-17T03:48:46Z",
+      "lastModified": "2026-09-17T05:05:57Z",
+      "source": "github",
+      "url": "https://github.com/Geurtsy/geurtsys-dota-2-helpers",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Geurtsy",
+      "code": "```cpp\n; ============================================\n; Repository: Geurtsy/geurtsys-dota-2-helpers\n; ============================================\n; URL: https://github.com/Geurtsy/geurtsys-dota-2-helpers\n; Stars: 0 | Forks: 0\n; Last Updated: 9/17/2026\n; License: Not specified\n;\n; Description:\n; Geurtsy's Dota 2 Helpers: AutoHotkey v2 voice-chat toggle with a persistent on-screen indicator and automatic game detection.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Geurtsy/geurtsys-dota-2-helpers.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Geurtsy/geurtsys-dota-2-helpers/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <geurtsys-dota-2-helpers>\n\n; Example initialization\nclass GeurtsysDota2HelpersExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"geurtsys-dota-2-helpers loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GeurtsysDota2HelpersExample()\n```"
+    },
+    {
+      "id": "github-1035569444",
+      "title": "autohotkey-scripts",
+      "category": "GitHub Repository",
+      "description": "AHK v2 scripts to make my life easier",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2025-08-10T17:14:28Z",
+      "lastModified": "2026-09-17T00:47:14Z",
+      "source": "github",
+      "url": "https://github.com/jcmward/autohotkey-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jcmward",
+      "code": "```cpp\n; ============================================\n; Repository: jcmward/autohotkey-scripts\n; ============================================\n; URL: https://github.com/jcmward/autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 9/17/2026\n; License: Not specified\n;\n; Description:\n; AHK v2 scripts to make my life easier\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jcmward/autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jcmward/autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
     }
   ]
 }
