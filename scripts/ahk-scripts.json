@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-17T12:13:37.271Z",
-  "totalScripts": 519,
+  "lastUpdated": "2026-09-17T18:11:09.447Z",
+  "totalScripts": 520,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-17T12:08:30Z",
+      "lastModified": "2026-09-17T13:59:44Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 7,
@@ -10412,7 +10412,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-16T21:45:08Z",
-      "lastModified": "2026-09-17T10:43:49Z",
+      "lastModified": "2026-09-17T15:40:30Z",
       "source": "github",
       "url": "https://github.com/TrueCrimeDev/CursorMarker",
       "stars": 0,
@@ -10495,6 +10495,25 @@
       "forks": 0,
       "owner": "jcmward",
       "code": "```cpp\n; ============================================\n; Repository: jcmward/autohotkey-scripts\n; ============================================\n; URL: https://github.com/jcmward/autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 9/17/2026\n; License: Not specified\n;\n; Description:\n; AHK v2 scripts to make my life easier\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jcmward/autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jcmward/autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
+    },
+    {
+      "id": "github-1374813946",
+      "title": "ahk-script-library",
+      "category": "GitHub Repository",
+      "description": "A public collection of general-purpose AutoHotkey v2 scripts",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-17T17:34:24Z",
+      "lastModified": "2026-09-17T17:52:24Z",
+      "source": "github",
+      "url": "https://github.com/RubenFixit/ahk-script-library",
+      "stars": 0,
+      "forks": 0,
+      "owner": "RubenFixit",
+      "code": "```cpp\n; ============================================\n; Repository: RubenFixit/ahk-script-library\n; ============================================\n; URL: https://github.com/RubenFixit/ahk-script-library\n; Stars: 0 | Forks: 0\n; Last Updated: 9/17/2026\n; License: MIT License\n;\n; Description:\n; A public collection of general-purpose AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/RubenFixit/ahk-script-library.git\n;\n; Option 2: Download ZIP\n;   https://github.com/RubenFixit/ahk-script-library/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-script-library>\n\n; Example initialization\nclass AhkScriptLibraryExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-script-library loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptLibraryExample()\n```"
     }
   ]
 }
