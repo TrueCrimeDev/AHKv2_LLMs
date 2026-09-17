@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-16T18:10:44.709Z",
-  "totalScripts": 514,
+  "lastUpdated": "2026-09-17T00:24:01.309Z",
+  "totalScripts": 516,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-09-10T22:17:19Z",
+      "lastModified": "2026-09-16T23:05:41Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
-      "stars": 54,
+      "stars": 55,
       "forks": 8,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 54 | Forks: 8\n; Last Updated: 9/10/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 55 | Forks: 8\n; Last Updated: 9/16/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -10014,13 +10014,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-08T11:22:03Z",
-      "lastModified": "2026-09-14T11:19:36Z",
+      "lastModified": "2026-09-16T18:14:41Z",
       "source": "github",
       "url": "https://github.com/rimeinn/RimeDepot",
       "stars": 0,
       "forks": 0,
       "owner": "rimeinn",
-      "code": "```cpp\n; ============================================\n; Repository: rimeinn/RimeDepot\n; ============================================\n; URL: https://github.com/rimeinn/RimeDepot\n; Stars: 0 | Forks: 0\n; Last Updated: 9/14/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Rime package installer and RPPI browser for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rimeinn/RimeDepot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rimeinn/RimeDepot/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RimeDepot>\n\n; Example initialization\nclass RimedepotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RimeDepot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimedepotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: rimeinn/RimeDepot\n; ============================================\n; URL: https://github.com/rimeinn/RimeDepot\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Rime package installer and RPPI browser for AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rimeinn/RimeDepot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rimeinn/RimeDepot/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RimeDepot>\n\n; Example initialization\nclass RimedepotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RimeDepot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimedepotExample()\n```"
     },
     {
       "id": "github-1332545054",
@@ -10400,6 +10400,44 @@
       "forks": 0,
       "owner": "modek4",
       "code": "```cpp\n; ============================================\n; Repository: modek4/audio-grouping\n; ============================================\n; URL: https://github.com/modek4/audio-grouping\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for controlling Windows system volume and per-application audio groups\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/modek4/audio-grouping.git\n;\n; Option 2: Download ZIP\n;   https://github.com/modek4/audio-grouping/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <audio-grouping>\n\n; Example initialization\nclass AudioGroupingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"audio-grouping loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AudioGroupingExample()\n```"
+    },
+    {
+      "id": "github-1373664873",
+      "title": "CursorMarker",
+      "category": "GitHub Repository",
+      "description": "Screen magnifier, custom cursor designer and mouse-click highlight for screen recordings. AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-16T21:45:08Z",
+      "lastModified": "2026-09-17T00:17:27Z",
+      "source": "github",
+      "url": "https://github.com/TrueCrimeDev/CursorMarker",
+      "stars": 0,
+      "forks": 0,
+      "owner": "TrueCrimeDev",
+      "code": "```cpp\n; ============================================\n; Repository: TrueCrimeDev/CursorMarker\n; ============================================\n; URL: https://github.com/TrueCrimeDev/CursorMarker\n; Stars: 0 | Forks: 0\n; Last Updated: 9/17/2026\n; License: Not specified\n;\n; Description:\n; Screen magnifier, custom cursor designer and mouse-click highlight for screen recordings. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/TrueCrimeDev/CursorMarker.git\n;\n; Option 2: Download ZIP\n;   https://github.com/TrueCrimeDev/CursorMarker/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorMarker>\n\n; Example initialization\nclass CursormarkerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorMarker loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursormarkerExample()\n```"
+    },
+    {
+      "id": "github-1373674075",
+      "title": "accentpop",
+      "category": "GitHub Repository",
+      "description": "macOS-style accent popup for Windows: hold a letter, pick the accent. AutoHotkey v2, no install.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-16T21:59:14Z",
+      "lastModified": "2026-09-16T22:11:59Z",
+      "source": "github",
+      "url": "https://github.com/cmaqr/accentpop",
+      "stars": 0,
+      "forks": 0,
+      "owner": "cmaqr",
+      "code": "```cpp\n; ============================================\n; Repository: cmaqr/accentpop\n; ============================================\n; URL: https://github.com/cmaqr/accentpop\n; Stars: 0 | Forks: 0\n; Last Updated: 9/16/2026\n; License: Not specified\n;\n; Description:\n; macOS-style accent popup for Windows: hold a letter, pick the accent. AutoHotkey v2, no install.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cmaqr/accentpop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cmaqr/accentpop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <accentpop>\n\n; Example initialization\nclass AccentpopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"accentpop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AccentpopExample()\n```"
     }
   ]
 }
