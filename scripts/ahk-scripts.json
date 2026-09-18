@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-18T00:24:09.631Z",
-  "totalScripts": 520,
+  "lastUpdated": "2026-09-18T06:15:26.979Z",
+  "totalScripts": 521,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4114,13 +4114,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-17T03:08:50Z",
-      "lastModified": "2026-06-24T05:40:47Z",
+      "lastModified": "2026-09-18T00:49:55Z",
       "source": "github",
       "url": "https://github.com/yakunins/vertical-mouse-sensitivity",
-      "stars": 0,
+      "stars": 2,
       "forks": 0,
       "owner": "yakunins",
-      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 0 | Forks: 0\n; Last Updated: 6/24/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yakunins/vertical-mouse-sensitivity\n; ============================================\n; URL: https://github.com/yakunins/vertical-mouse-sensitivity\n; Stars: 2 | Forks: 0\n; Last Updated: 9/18/2026\n; License: Not specified\n;\n; Description:\n; Vertical mouse sensistivity adjustment for Windows. Written in AHK v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yakunins/vertical-mouse-sensitivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yakunins/vertical-mouse-sensitivity/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vertical-mouse-sensitivity>\n\n; Example initialization\nclass VerticalMouseSensitivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vertical-mouse-sensitivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VerticalMouseSensitivityExample()\n```"
     },
     {
       "id": "github-1194286569",
@@ -5780,13 +5780,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-06-04T09:42:09Z",
+      "lastModified": "2026-09-18T04:21:00Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
-      "stars": 1,
+      "stars": 3,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 1 | Forks: 0\n; Last Updated: 6/4/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 3 | Forks: 0\n; Last Updated: 9/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -6983,7 +6983,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-09-18T00:19:59Z",
+      "lastModified": "2026-09-18T03:26:57Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
@@ -8957,13 +8957,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-20T13:08:53Z",
-      "lastModified": "2026-09-17T08:01:07Z",
+      "lastModified": "2026-09-18T05:21:15Z",
       "source": "github",
       "url": "https://github.com/chaoskey/SharpKnife",
       "stars": 0,
       "forks": 0,
       "owner": "chaoskey",
-      "code": "```cpp\n; ============================================\n; Repository: chaoskey/SharpKnife\n; ============================================\n; URL: https://github.com/chaoskey/SharpKnife\n; Stars: 0 | Forks: 0\n; Last Updated: 9/17/2026\n; License: MIT License\n;\n; Description:\n; SharpKnife （利刃），基于  AutoHotKey V2 的一个工具集合。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/chaoskey/SharpKnife.git\n;\n; Option 2: Download ZIP\n;   https://github.com/chaoskey/SharpKnife/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SharpKnife>\n\n; Example initialization\nclass SharpknifeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SharpKnife loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SharpknifeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: chaoskey/SharpKnife\n; ============================================\n; URL: https://github.com/chaoskey/SharpKnife\n; Stars: 0 | Forks: 0\n; Last Updated: 9/18/2026\n; License: MIT License\n;\n; Description:\n; SharpKnife （利刃），基于  AutoHotKey V2 的一个工具集合。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/chaoskey/SharpKnife.git\n;\n; Option 2: Download ZIP\n;   https://github.com/chaoskey/SharpKnife/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SharpKnife>\n\n; Example initialization\nclass SharpknifeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SharpKnife loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SharpknifeExample()\n```"
     },
     {
       "id": "github-1347948359",
@@ -10514,6 +10514,25 @@
       "forks": 0,
       "owner": "RubenFixit",
       "code": "```cpp\n; ============================================\n; Repository: RubenFixit/ahk-script-library\n; ============================================\n; URL: https://github.com/RubenFixit/ahk-script-library\n; Stars: 0 | Forks: 0\n; Last Updated: 9/17/2026\n; License: MIT License\n;\n; Description:\n; A public collection of general-purpose AutoHotkey v2 scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/RubenFixit/ahk-script-library.git\n;\n; Option 2: Download ZIP\n;   https://github.com/RubenFixit/ahk-script-library/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-script-library>\n\n; Example initialization\nclass AhkScriptLibraryExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-script-library loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptLibraryExample()\n```"
+    },
+    {
+      "id": "github-1375253845",
+      "title": "AutoHotkey-Scripts",
+      "category": "GitHub Repository",
+      "description": "基于 AutoHotkey v2 开发的 Windows 11资源管理器增强工具集合",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-18T01:57:12Z",
+      "lastModified": "2026-09-18T02:01:59Z",
+      "source": "github",
+      "url": "https://github.com/nonPlanB/AutoHotkey-Scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nonPlanB",
+      "code": "```cpp\n; ============================================\n; Repository: nonPlanB/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/nonPlanB/AutoHotkey-Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 9/18/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 开发的 Windows 11资源管理器增强工具集合\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nonPlanB/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nonPlanB/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
     }
   ]
 }
