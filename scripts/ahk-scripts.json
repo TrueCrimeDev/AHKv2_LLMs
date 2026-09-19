@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-19T12:11:49.409Z",
-  "totalScripts": 524,
+  "lastUpdated": "2026-09-19T18:09:37.978Z",
+  "totalScripts": 525,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-19T12:10:40Z",
+      "lastModified": "2026-09-19T17:18:45Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 7,
@@ -8573,13 +8573,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-30T19:18:58Z",
-      "lastModified": "2026-08-19T16:26:34Z",
+      "lastModified": "2026-09-19T16:58:32Z",
       "source": "github",
       "url": "https://github.com/realSilasYang/key-mouse-remapper-assistant",
       "stars": 1,
       "forks": 0,
       "owner": "realSilasYang",
-      "code": "```cpp\n; ============================================\n; Repository: realSilasYang/key-mouse-remapper-assistant\n; ============================================\n; URL: https://github.com/realSilasYang/key-mouse-remapper-assistant\n; Stars: 1 | Forks: 0\n; Last Updated: 8/19/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射小助手\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/realSilasYang/key-mouse-remapper-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/realSilasYang/key-mouse-remapper-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <key-mouse-remapper-assistant>\n\n; Example initialization\nclass KeyMouseRemapperAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"key-mouse-remapper-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyMouseRemapperAssistantExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: realSilasYang/key-mouse-remapper-assistant\n; ============================================\n; URL: https://github.com/realSilasYang/key-mouse-remapper-assistant\n; Stars: 1 | Forks: 0\n; Last Updated: 9/19/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射小助手\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/realSilasYang/key-mouse-remapper-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/realSilasYang/key-mouse-remapper-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <key-mouse-remapper-assistant>\n\n; Example initialization\nclass KeyMouseRemapperAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"key-mouse-remapper-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyMouseRemapperAssistantExample()\n```"
     },
     {
       "id": "github-1318618243",
@@ -10590,6 +10590,25 @@
       "forks": 0,
       "owner": "povilaspanavas",
       "code": "```cpp\n; ============================================\n; Repository: povilaspanavas/PandaKeys.ahk\n; ============================================\n; URL: https://github.com/povilaspanavas/PandaKeys.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/18/2026\n; License: MIT License\n;\n; Description:\n; Collection of AutoHotkey V2 scrips\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/povilaspanavas/PandaKeys.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/povilaspanavas/PandaKeys.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PandaKeys.ahk>\n\n; Example initialization\nclass Pandakeys.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PandaKeys.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Pandakeys.ahkExample()\n```"
+    },
+    {
+      "id": "github-1377460870",
+      "title": "GestationalAgeCalculator",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 tabanli, klinik kullanim icin cift yonlu Gebelik Yasi, SAT ve BDT hesaplayici",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-19T17:52:25Z",
+      "lastModified": "2026-09-19T17:52:58Z",
+      "source": "github",
+      "url": "https://github.com/basaranm/GestationalAgeCalculator",
+      "stars": 0,
+      "forks": 0,
+      "owner": "basaranm",
+      "code": "```cpp\n; ============================================\n; Repository: basaranm/GestationalAgeCalculator\n; ============================================\n; URL: https://github.com/basaranm/GestationalAgeCalculator\n; Stars: 0 | Forks: 0\n; Last Updated: 9/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 tabanli, klinik kullanim icin cift yonlu Gebelik Yasi, SAT ve BDT hesaplayici\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/basaranm/GestationalAgeCalculator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/basaranm/GestationalAgeCalculator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GestationalAgeCalculator>\n\n; Example initialization\nclass GestationalagecalculatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GestationalAgeCalculator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GestationalagecalculatorExample()\n```"
     }
   ]
 }
