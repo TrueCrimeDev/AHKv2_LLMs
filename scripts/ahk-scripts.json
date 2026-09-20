@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-20T06:14:09.405Z",
+  "lastUpdated": "2026-09-20T12:12:10.153Z",
   "totalScripts": 527,
   "categories": [
     "GUI",
@@ -561,13 +561,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-07T03:41:58Z",
-      "lastModified": "2026-09-13T03:17:47Z",
+      "lastModified": "2026-09-20T11:49:52Z",
       "source": "github",
       "url": "https://github.com/masaodev/myahk_v2",
       "stars": 0,
       "forks": 0,
       "owner": "masaodev",
-      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 9/13/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 9/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
     },
     {
       "id": "github-1039208508",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-20T04:19:53Z",
+      "lastModified": "2026-09-20T10:21:03Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 8,
@@ -10614,20 +10614,20 @@
       "id": "github-1377812141",
       "title": "AHK2ManagerEx",
       "category": "GitHub Repository",
-      "description": "基于 AutoHotkey v2 的��本管理器：统一启动/关闭/重启脚本，支持子文件夹分组与 #Include 附加脚本自动过滤",
+      "description": "基于 AutoHotkey v2 的脚本管理器：统一启动/关闭/重启脚本，支持子文件夹分组与 #Include 附加脚本自动过滤",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-20T02:23:28Z",
-      "lastModified": "2026-09-20T02:27:28Z",
+      "lastModified": "2026-09-20T09:15:14Z",
       "source": "github",
       "url": "https://github.com/wfwuestc/AHK2ManagerEx",
       "stars": 0,
       "forks": 0,
       "owner": "wfwuestc",
-      "code": "```cpp\n; ============================================\n; Repository: wfwuestc/AHK2ManagerEx\n; ============================================\n; URL: https://github.com/wfwuestc/AHK2ManagerEx\n; Stars: 0 | Forks: 0\n; Last Updated: 9/20/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; 基于 AutoHotkey v2 的��本管理器：统一启动/关闭/重启脚本，支持子文件夹分组与 #Include 附加脚本自动过滤\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wfwuestc/AHK2ManagerEx.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wfwuestc/AHK2ManagerEx/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2ManagerEx>\n\n; Example initialization\nclass Ahk2managerexExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2ManagerEx loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2managerexExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: wfwuestc/AHK2ManagerEx\n; ============================================\n; URL: https://github.com/wfwuestc/AHK2ManagerEx\n; Stars: 0 | Forks: 0\n; Last Updated: 9/20/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; 基于 AutoHotkey v2 的脚本管理器：统一启动/关闭/重启脚本，支持子文件夹分组与 #Include 附加脚本自动过滤\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wfwuestc/AHK2ManagerEx.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wfwuestc/AHK2ManagerEx/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2ManagerEx>\n\n; Example initialization\nclass Ahk2managerexExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2ManagerEx loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2managerexExample()\n```"
     },
     {
       "id": "github-1377805535",
