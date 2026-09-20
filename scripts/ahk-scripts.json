@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-20T00:27:13.616Z",
-  "totalScripts": 525,
+  "lastUpdated": "2026-09-20T06:14:09.405Z",
+  "totalScripts": 527,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-19T18:51:21Z",
+      "lastModified": "2026-09-20T04:19:53Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
-      "stars": 7,
+      "stars": 8,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 7 | Forks: 0\n; Last Updated: 9/19/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 8 | Forks: 0\n; Last Updated: 9/20/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -10609,6 +10609,44 @@
       "forks": 0,
       "owner": "basaranm",
       "code": "```cpp\n; ============================================\n; Repository: basaranm/GestationalAgeCalculator\n; ============================================\n; URL: https://github.com/basaranm/GestationalAgeCalculator\n; Stars: 0 | Forks: 0\n; Last Updated: 9/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 tabanli, klinik kullanim icin cift yonlu Gebelik Yasi, SAT ve BDT hesaplayici\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/basaranm/GestationalAgeCalculator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/basaranm/GestationalAgeCalculator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GestationalAgeCalculator>\n\n; Example initialization\nclass GestationalagecalculatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GestationalAgeCalculator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GestationalagecalculatorExample()\n```"
+    },
+    {
+      "id": "github-1377812141",
+      "title": "AHK2ManagerEx",
+      "category": "GitHub Repository",
+      "description": "基于 AutoHotkey v2 的��本管理器：统一启动/关闭/重启脚本，支持子文件夹分组与 #Include 附加脚本自动过滤",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-20T02:23:28Z",
+      "lastModified": "2026-09-20T02:27:28Z",
+      "source": "github",
+      "url": "https://github.com/wfwuestc/AHK2ManagerEx",
+      "stars": 0,
+      "forks": 0,
+      "owner": "wfwuestc",
+      "code": "```cpp\n; ============================================\n; Repository: wfwuestc/AHK2ManagerEx\n; ============================================\n; URL: https://github.com/wfwuestc/AHK2ManagerEx\n; Stars: 0 | Forks: 0\n; Last Updated: 9/20/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; 基于 AutoHotkey v2 的��本管理器：统一启动/关闭/重启脚本，支持子文件夹分组与 #Include 附加脚本自动过滤\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wfwuestc/AHK2ManagerEx.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wfwuestc/AHK2ManagerEx/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2ManagerEx>\n\n; Example initialization\nclass Ahk2managerexExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2ManagerEx loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2managerexExample()\n```"
+    },
+    {
+      "id": "github-1377805535",
+      "title": "whisper-dictation",
+      "category": "GitHub Repository",
+      "description": "F9 push-to-talk dictation on Windows: AutoHotkey v2 + FFmpeg + whisper.cpp with CUDA",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-20T02:14:44Z",
+      "lastModified": "2026-09-20T02:14:51Z",
+      "source": "github",
+      "url": "https://github.com/mmmansouri/whisper-dictation",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mmmansouri",
+      "code": "```cpp\n; ============================================\n; Repository: mmmansouri/whisper-dictation\n; ============================================\n; URL: https://github.com/mmmansouri/whisper-dictation\n; Stars: 0 | Forks: 0\n; Last Updated: 9/20/2026\n; License: Not specified\n;\n; Description:\n; F9 push-to-talk dictation on Windows: AutoHotkey v2 + FFmpeg + whisper.cpp with CUDA\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mmmansouri/whisper-dictation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mmmansouri/whisper-dictation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <whisper-dictation>\n\n; Example initialization\nclass WhisperDictationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"whisper-dictation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WhisperDictationExample()\n```"
     }
   ]
 }
