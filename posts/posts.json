@@ -1,5 +1,24 @@
 [
  {
+  "slug": "jev-decisions-judge",
+  "title": "Jev: A Model That Cannot Write Code, Grading 2,952 AHK v2 Scripts for 13 Cents",
+  "preview_title": "Jev, OpenRouter's Decisions Model, Tries to Judge the AHK Bench",
+  "date": "2026-09-20",
+  "description": "OpenRouter's new decisions model returns probabilities instead of text, so it cannot take the bench — but it can try to grade it. Every submission on AHK-Eval, AHK-Contract and AHK-Repair, plus a 13-task probe of rare language features, went through Jev with its task card and hidden cases: 2,952 scripts, three questions each, $0.13. It predicts whether code loads with an AUROC of 0.82 (0.95 on Repair) and its low-confidence tail is reliable. But on whether code is correct it clears the always-say-yes baseline by under two points, rates 94% of zero-pass scripts as passing, and would rank GPT-6 Astra thirteenth. The failures it cannot see are the ones that define the board: fluent code calling a standard library AutoHotkey does not have.",
+  "preview": "AUROC 0.64 on Eval, 0.95 at spotting syntax errors, $0.13 for the whole roster — a pre-filter, not a judge.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "AHK-Contract",
+   "AHK-Repair",
+   "Jev",
+   "OpenRouter",
+   "LLM-as-judge"
+  ],
+  "path": "posts/jev-decisions-judge.md"
+ },
+ {
   "slug": "gpt-6-ahk-eval",
   "title": "OpenAI GPT-6 Astra: The First Perfect AHK-Eval, and the Bug It Refused to Fix",
   "preview_title": "GPT-6 Astra Runs the Table on AHK-Eval and AHK-Contract",
