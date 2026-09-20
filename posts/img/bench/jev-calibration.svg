@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d" font-family="DM Sans, -apple-system, Segoe UI, sans-serif">
+<title id="t">Calibration of Jev's pass probability</title>
+<desc id="d">Reliability diagram. X is Jev's average predicted pass probability per decile bin, Y is the share of scripts in that bin that actually passed every hidden case. The diagonal is perfect calibration. Dot size is the number of scripts in the bin.</desc>
+<rect width="760" height="420" fill="#141414"/>
+<text x="56" y="26" fill="#f0f0f0" font-size="15" font-weight="600" text-anchor="start" >Is a 0.9 really a 0.9? Calibration across 2,952 scripts</text>
+<text x="56" y="45" fill="#a0a0a0" font-size="12" font-weight="400" text-anchor="start" >Each dot is a decile of Jev's pass probability · size = scripts in the bin · dashed line = perfect calibration</text>
+<line x1="90" y1="360.0" x2="690" y2="360.0" stroke="#262626"/>
+<text x="82" y="364.0" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >0%</text>
+<line x1="90.0" y1="70" x2="90.0" y2="360" stroke="#262626"/>
+<text x="90.0" y="378" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >0.0</text>
+<line x1="90" y1="302.0" x2="690" y2="302.0" stroke="#262626"/>
+<text x="82" y="306.0" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >20%</text>
+<line x1="210.0" y1="70" x2="210.0" y2="360" stroke="#262626"/>
+<text x="210.0" y="378" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >0.2</text>
+<line x1="90" y1="244.0" x2="690" y2="244.0" stroke="#262626"/>
+<text x="82" y="248.0" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >40%</text>
+<line x1="330.0" y1="70" x2="330.0" y2="360" stroke="#262626"/>
+<text x="330.0" y="378" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >0.4</text>
+<line x1="90" y1="186.0" x2="690" y2="186.0" stroke="#262626"/>
+<text x="82" y="190.0" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >60%</text>
+<line x1="450.0" y1="70" x2="450.0" y2="360" stroke="#262626"/>
+<text x="450.0" y="378" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >0.6</text>
+<line x1="90" y1="128.0" x2="690" y2="128.0" stroke="#262626"/>
+<text x="82" y="132.0" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >80%</text>
+<line x1="570.0" y1="70" x2="570.0" y2="360" stroke="#262626"/>
+<text x="570.0" y="378" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >0.8</text>
+<line x1="90" y1="70.0" x2="690" y2="70.0" stroke="#262626"/>
+<text x="82" y="74.0" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >100%</text>
+<line x1="690.0" y1="70" x2="690.0" y2="360" stroke="#262626"/>
+<text x="690.0" y="378" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >1.0</text>
+<line x1="90" y1="360" x2="690" y2="70" stroke="#707070" stroke-dasharray="5 5"/>
+<circle cx="117.6" cy="360.0" r="7.4" fill="#199e70" fill-opacity="0.85" stroke="#141414"/>
+<circle cx="180.0" cy="349.3" r="6.9" fill="#d95926" fill-opacity="0.85" stroke="#141414"/>
+<circle cx="232.8" cy="328.7" r="8.4" fill="#d95926" fill-opacity="0.85" stroke="#141414"/>
+<circle cx="303.6" cy="260.5" r="7.3" fill="#199e70" fill-opacity="0.85" stroke="#141414"/>
+<circle cx="357.6" cy="291.3" r="8.9" fill="#d95926" fill-opacity="0.85" stroke="#141414"/>
+<circle cx="420.0" cy="217.9" r="10.7" fill="#199e70" fill-opacity="0.85" stroke="#141414"/>
+<circle cx="481.2" cy="178.8" r="14.7" fill="#199e70" fill-opacity="0.85" stroke="#141414"/>
+<text x="499.8648956863159" y="182.75" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >n=376</text>
+<circle cx="538.8" cy="162.2" r="17.6" fill="#199e70" fill-opacity="0.85" stroke="#141414"/>
+<text x="560.3951278037391" y="166.22" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >n=611</text>
+<circle cx="598.8" cy="132.1" r="21.1" fill="#199e70" fill-opacity="0.85" stroke="#141414"/>
+<text x="623.8677327141012" y="136.06" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >n=963</text>
+<circle cx="641.4" cy="108.6" r="17.6" fill="#199e70" fill-opacity="0.85" stroke="#141414"/>
+<text x="662.9505534942303" y="112.57" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >n=607</text>
+<text x="102.0" y="284.6" fill="#199e70" font-size="11" font-weight="400" text-anchor="start" >predicted 0.05, actual 0.00 (n=39) — the reject tail is honest</text>
+<text x="371.6" y="295.27" fill="#d95926" font-size="11" font-weight="400" text-anchor="start" >0.45 → 0.24: says maybe, means no</text>
+<text x="684.0" y="322.3" fill="#d95926" font-size="11" font-weight="400" text-anchor="end" >0.92 → 0.87: mostly right, but that 13% is 80 scripts</text>
+<text x="390.0" y="400" fill="#a0a0a0" font-size="11.5" font-weight="400" text-anchor="middle" >Jev's predicted pass probability (bin average)</text>
+<text x="20" y="215.0" fill="#a0a0a0" font-size="11.5" font-weight="400" text-anchor="middle" transform="rotate(-90 20 215.0)">share that actually passed</text>
+</svg>

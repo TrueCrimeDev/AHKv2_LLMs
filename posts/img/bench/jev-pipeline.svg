@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-labelledby="t d" font-family="DM Sans, -apple-system, Segoe UI, sans-serif">
+<title id="t">Where Jev fits in an AHK v2 grading pipeline</title>
+<desc id="d">Five stages left to right: candidate files, a Jev syntax gate, a Jev pass gate, the fork's validate step, and headless execution against hidden cases. Numbers under the gates show what they would have rejected across 2,952 graded scripts. A red note warns against ordering candidates by Jev's pass probability.</desc>
+<rect width="760" height="360" fill="#141414"/>
+<defs><marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#707070"/></marker></defs>
+<text x="24" y="26" fill="#f0f0f0" font-size="15" font-weight="600" text-anchor="start" >Where it belongs: two cheap gates in front of the interpreter</text>
+<text x="24" y="45" fill="#a0a0a0" font-size="12" font-weight="400" text-anchor="start" >Measured on the 2,952 graded scripts · what each gate would have skipped, and what it would have cost</text>
+<rect x="24" y="80" width="132" height="74" rx="8" fill="#1a1a1a" stroke="#303030"/>
+<text x="90.0" y="104" fill="#f0f0f0" font-size="11.5" font-weight="600" text-anchor="middle" >candidate .ahk files</text>
+<text x="90.0" y="124" fill="#a0a0a0" font-size="10.5" font-weight="400" text-anchor="middle" >from any model,</text>
+<text x="90.0" y="138" fill="#a0a0a0" font-size="10.5" font-weight="400" text-anchor="middle" >any count</text>
+<line x1="158" y1="117" x2="170" y2="117" stroke="#707070" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="172" y="80" width="132" height="74" rx="8" fill="#0f1a2a" stroke="#3987e5"/>
+<text x="238.0" y="104" fill="#f0f0f0" font-size="11.5" font-weight="600" text-anchor="middle" >Jev syntax gate</text>
+<text x="238.0" y="124" fill="#a0a0a0" font-size="10.5" font-weight="400" text-anchor="middle" >p_parse &lt; 0.3</text>
+<text x="238.0" y="138" fill="#a0a0a0" font-size="10.5" font-weight="400" text-anchor="middle" >→ reject</text>
+<line x1="306" y1="117" x2="318" y2="117" stroke="#707070" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="320" y="80" width="132" height="74" rx="8" fill="#0f1a2a" stroke="#3987e5"/>
+<text x="386.0" y="104" fill="#f0f0f0" font-size="11.5" font-weight="600" text-anchor="middle" >Jev pass gate</text>
+<text x="386.0" y="124" fill="#a0a0a0" font-size="10.5" font-weight="400" text-anchor="middle" >p_pass &lt; 0.2</text>
+<text x="386.0" y="138" fill="#a0a0a0" font-size="10.5" font-weight="400" text-anchor="middle" >→ reject</text>
+<line x1="454" y1="117" x2="466" y2="117" stroke="#707070" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="468" y="80" width="132" height="74" rx="8" fill="#1a1a1a" stroke="#303030"/>
+<text x="534.0" y="104" fill="#f0f0f0" font-size="11.5" font-weight="600" text-anchor="middle" >fork /validate</text>
+<text x="534.0" y="124" fill="#a0a0a0" font-size="10.5" font-weight="400" text-anchor="middle" >real parse,</text>
+<text x="534.0" y="138" fill="#a0a0a0" font-size="10.5" font-weight="400" text-anchor="middle" >~0.2 s each</text>
+<line x1="602" y1="117" x2="614" y2="117" stroke="#707070" stroke-width="1.5" marker-end="url(#ah)"/>
+<rect x="616" y="80" width="132" height="74" rx="8" fill="#0f2419" stroke="#199e70"/>
+<text x="682.0" y="104" fill="#f0f0f0" font-size="11.5" font-weight="600" text-anchor="middle" >execute + hidden cases</text>
+<text x="682.0" y="124" fill="#a0a0a0" font-size="10.5" font-weight="400" text-anchor="middle" >headless, ~1–2 s each,</text>
+<text x="682.0" y="138" fill="#a0a0a0" font-size="10.5" font-weight="400" text-anchor="middle" >the actual grade</text>
+<text x="24" y="182" fill="#a0a0a0" font-size="11" font-weight="400" text-anchor="start" >Jev call: ~0.3 s,</text>
+<text x="24" y="198" fill="#a0a0a0" font-size="11" font-weight="400" text-anchor="start" >$0.00004 each</text>
+<text x="24" y="213" fill="#a0a0a0" font-size="11" font-weight="400" text-anchor="start" >3 questions per file</text>
+<text x="180" y="182" fill="#f0f0f0" font-size="11.5" font-weight="600" text-anchor="start" >rejects 42 of 2,952</text>
+<text x="180" y="198" fill="#199e70" font-size="11" font-weight="400" text-anchor="start" >39 were real syntax errors</text>
+<text x="180" y="213" fill="#199e70" font-size="11" font-weight="400" text-anchor="start" >0 passing scripts lost</text>
+<text x="330" y="182" fill="#f0f0f0" font-size="11.5" font-weight="600" text-anchor="start" >rejects 66 more (2.2%)</text>
+<text x="330" y="198" fill="#199e70" font-size="11" font-weight="400" text-anchor="start" >37 syntax errors, 28 zero-pass</text>
+<text x="330" y="213" fill="#d95926" font-size="11" font-weight="400" text-anchor="start" >1 passing script lost</text>
+<text x="628" y="182" fill="#f0f0f0" font-size="11.5" font-weight="600" text-anchor="start" >2,844 files still run.</text>
+<text x="628" y="198" fill="#a0a0a0" font-size="11" font-weight="400" text-anchor="start" >The gates save ~4% of</text>
+<text x="628" y="213" fill="#a0a0a0" font-size="11" font-weight="400" text-anchor="start" >interpreter time, safely.</text>
+<rect x="24" y="240" width="712" height="96" rx="8" fill="#2a1410" stroke="#d95926"/>
+<text x="40" y="262" fill="#d95926" font-size="12.5" font-weight="700" text-anchor="start" >Do not use it to pick which candidate to run first</text>
+<text x="40" y="282" fill="#d0d0d0" font-size="11" font-weight="400" text-anchor="start" >Best-of-N over the 36 Eval tasks, 1,512 candidates: interpreter runs until the first true pass</text>
+<text x="40" y="300" fill="#f0f0f0" font-size="11.5" font-weight="600" text-anchor="start" >random order  1.41</text>
+<text x="200" y="300" fill="#d95926" font-size="11.5" font-weight="600" text-anchor="start" >Jev order  1.83</text>
+<text x="320" y="300" fill="#a0a0a0" font-size="11" font-weight="400" text-anchor="start" >AE_Pivot in Jev order: 18 runs. It puts fluent wrong answers on top.</text>
+<text x="40" y="322" fill="#707070" font-size="11" font-weight="400" text-anchor="start" >The low tail is a reliable no. The high end is not a reliable yes.</text>
+</svg>

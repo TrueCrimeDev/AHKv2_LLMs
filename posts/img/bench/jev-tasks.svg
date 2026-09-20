@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 650" width="760" height="650" role="img" aria-labelledby="t d" font-family="DM Sans, -apple-system, Segoe UI, sans-serif">
+<title id="t">Per-task agreement between Jev and the interpreter on AHK-Eval</title>
+<desc id="d">Horizontal bars for all 36 AHK-Eval tasks, sorted by how often Jev's four-way outcome matched the harness. A thin grey marker on each bar shows the task's real pass rate across the 42 models. The two track each other almost exactly because Jev predicts a pass for nearly everything.</desc>
+<rect width="760" height="650" fill="#141414"/>
+<text x="24" y="26" fill="#f0f0f0" font-size="15" font-weight="600" text-anchor="start" >Per task: Jev agrees with the interpreter exactly as often as models pass</text>
+<text x="24" y="45" fill="#a0a0a0" font-size="12" font-weight="400" text-anchor="start" >Bar = share of 42 submissions where Jev's outcome matched the harness · white tick = the task's real pass rate</text>
+<text x="182" y="79" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >NaturalSort</text>
+<rect x="190" y="70" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="70" width="165.0" height="10" rx="3" fill="#d95926"/>
+<rect x="309.0" y="68" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="79" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >33%</text>
+<text x="182" y="93" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Pivot</text>
+<rect x="190" y="84" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="84" width="200.0" height="10" rx="3" fill="#d95926"/>
+<rect x="379.0" y="82" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="93" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >40%</text>
+<text x="182" y="107" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >GroupByFirstLetter</text>
+<rect x="190" y="98" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="98" width="240.0" height="10" rx="3" fill="#d95926"/>
+<rect x="429.0" y="96" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="107" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >48%</text>
+<text x="182" y="121" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >MergeRanges</text>
+<rect x="190" y="112" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="112" width="240.0" height="10" rx="3" fill="#d95926"/>
+<rect x="464.0" y="110" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="121" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >48%</text>
+<text x="182" y="135" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >AddBusinessDays</text>
+<rect x="190" y="126" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="126" width="285.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="509.0" y="124" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="135" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >56%</text>
+<text x="182" y="149" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >CamelToSnake</text>
+<rect x="190" y="140" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="140" width="310.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="499.0" y="138" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="149" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >62%</text>
+<text x="182" y="163" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >ExpandTabs</text>
+<rect x="190" y="154" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="154" width="335.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="524.0" y="152" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="163" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >67%</text>
+<text x="182" y="177" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >ExtractDigits</text>
+<rect x="190" y="168" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="168" width="335.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="509.0" y="166" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="177" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >67%</text>
+<text x="182" y="191" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Unique</text>
+<rect x="190" y="182" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="182" width="335.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="524.0" y="180" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="191" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >67%</text>
+<text x="182" y="205" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >SwapCase</text>
+<rect x="190" y="196" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="196" width="345.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="534.0" y="194" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="205" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >69%</text>
+<text x="182" y="219" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Caesar</text>
+<rect x="190" y="210" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="210" width="345.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="534.0" y="208" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="219" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >69%</text>
+<text x="182" y="233" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Duration</text>
+<rect x="190" y="224" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="224" width="345.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="534.0" y="222" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="233" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >69%</text>
+<text x="182" y="247" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >ExtractEmails</text>
+<rect x="190" y="238" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="238" width="355.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="544.0" y="236" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="247" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >71%</text>
+<text x="182" y="261" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >ISOWeek</text>
+<rect x="190" y="252" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="252" width="355.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="499.0" y="250" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="261" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >71%</text>
+<text x="182" y="275" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >CsvField</text>
+<rect x="190" y="266" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="266" width="370.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="559.0" y="264" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="275" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >74%</text>
+<text x="182" y="289" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >WordWrap</text>
+<rect x="190" y="280" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="280" width="380.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="569.0" y="278" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="289" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >76%</text>
+<text x="182" y="303" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >DayOfWeek</text>
+<rect x="190" y="294" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="294" width="380.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="559.0" y="292" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="303" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >76%</text>
+<text x="182" y="317" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >IsPalindrome</text>
+<rect x="190" y="308" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="308" width="380.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="569.0" y="306" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="317" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >76%</text>
+<text x="182" y="331" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >EndOfMonth</text>
+<rect x="190" y="322" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="322" width="395.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="584.0" y="320" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="331" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >79%</text>
+<text x="182" y="345" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >IsHexColor</text>
+<rect x="190" y="336" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="336" width="405.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="604.0" y="334" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="345" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >81%</text>
+<text x="182" y="359" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >DateReformat</text>
+<rect x="190" y="350" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="350" width="415.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="604.0" y="348" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="359" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >83%</text>
+<text x="182" y="373" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >BaseN</text>
+<rect x="190" y="364" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="364" width="415.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="604.0" y="362" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="373" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >83%</text>
+<text x="182" y="387" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >DaysBetween</text>
+<rect x="190" y="378" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="378" width="415.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="619.0" y="376" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="387" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >83%</text>
+<text x="182" y="401" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >EvalRPN</text>
+<rect x="190" y="392" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="392" width="415.0" height="10" rx="3" fill="#3987e5"/>
+<rect x="584.0" y="390" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="401" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >83%</text>
+<text x="182" y="415" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Acronym</text>
+<rect x="190" y="406" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="406" width="430.0" height="10" rx="3" fill="#199e70"/>
+<rect x="619.0" y="404" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="415" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >86%</text>
+<text x="182" y="429" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >HexToDec</text>
+<rect x="190" y="420" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="420" width="430.0" height="10" rx="3" fill="#199e70"/>
+<rect x="619.0" y="418" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="429" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >86%</text>
+<text x="182" y="443" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >ToRoman</text>
+<rect x="190" y="434" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="434" width="430.0" height="10" rx="3" fill="#199e70"/>
+<rect x="619.0" y="432" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="443" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >86%</text>
+<text x="182" y="457" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Ordinal</text>
+<rect x="190" y="448" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="448" width="430.0" height="10" rx="3" fill="#199e70"/>
+<rect x="619.0" y="446" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="457" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >86%</text>
+<text x="182" y="471" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >RepeatStr</text>
+<rect x="190" y="462" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="462" width="440.0" height="10" rx="3" fill="#199e70"/>
+<rect x="629.0" y="460" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="471" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >88%</text>
+<text x="182" y="485" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >TopWord</text>
+<rect x="190" y="476" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="476" width="440.0" height="10" rx="3" fill="#199e70"/>
+<rect x="619.0" y="474" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="485" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >88%</text>
+<text x="182" y="499" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >FormatBytes</text>
+<rect x="190" y="490" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="490" width="440.0" height="10" rx="3" fill="#199e70"/>
+<rect x="629.0" y="488" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="499" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >88%</text>
+<text x="182" y="513" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >BracketsBalanced</text>
+<rect x="190" y="504" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="504" width="440.0" height="10" rx="3" fill="#199e70"/>
+<rect x="629.0" y="502" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="513" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >88%</text>
+<text x="182" y="527" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >RunLengthEncode</text>
+<rect x="190" y="518" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="518" width="450.0" height="10" rx="3" fill="#199e70"/>
+<rect x="639.0" y="516" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="527" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >90%</text>
+<text x="182" y="541" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >StripTags</text>
+<rect x="190" y="532" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="532" width="500.0" height="10" rx="3" fill="#199e70"/>
+<rect x="689.0" y="530" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="541" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >100%</text>
+<text x="182" y="555" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >SumCSV</text>
+<rect x="190" y="546" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="546" width="500.0" height="10" rx="3" fill="#199e70"/>
+<rect x="689.0" y="544" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="555" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >100%</text>
+<text x="182" y="569" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Clamp</text>
+<rect x="190" y="560" width="500" height="10" rx="3" fill="#202020"/>
+<rect x="190" y="560" width="500.0" height="10" rx="3" fill="#199e70"/>
+<rect x="689.0" y="558" width="2" height="14" fill="#f0f0f0"/>
+<text x="698" y="569" fill="#a0a0a0" font-size="10" font-weight="400" text-anchor="start" >100%</text>
+<text x="24" y="620" fill="#707070" font-size="10.5" font-weight="400" text-anchor="start" >Agreement is low exactly where reasoning about the algorithm is required: natural sort, pivot, grouping, interval merging.</text>
+<text x="24" y="636" fill="#707070" font-size="10.5" font-weight="400" text-anchor="start" >Where Jev is right, it is right because the task is easy and it said yes.</text>
+</svg>

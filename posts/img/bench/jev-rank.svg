@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" width="760" height="540" role="img" aria-labelledby="t d" font-family="DM Sans, -apple-system, Segoe UI, sans-serif">
+<title id="t">AHK-Eval: real leaderboard rank versus Jev's rank</title>
+<desc id="d">Scatter of 42 models. X is the model's real AHK-Eval rank, Y is where Jev's mean pass probability would rank it. Points on the diagonal agree. Labeled outliers show GPT-6 Astra pushed to 13th and Grok 4.5 pulled to 1st.</desc>
+<rect width="760" height="540" fill="#141414"/>
+<text x="56" y="26" fill="#f0f0f0" font-size="15" font-weight="600" text-anchor="start" >If Jev ran the leaderboard: real rank vs Jev rank, 42 models</text>
+<text x="56" y="45" fill="#a0a0a0" font-size="12" font-weight="400" text-anchor="start" >Spearman ρ = 0.33 · dots on the dashed line agree · every model's mean p_pass sits between 0.75 and 0.85</text>
+<line x1="70.0" y1="70" x2="70.0" y2="450" stroke="#262626"/>
+<text x="70.0" y="468" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >1</text>
+<line x1="70" y1="70.0" x2="710" y2="70.0" stroke="#262626"/>
+<text x="62" y="74.0" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >1</text>
+<line x1="210.5" y1="70" x2="210.5" y2="450" stroke="#262626"/>
+<text x="210.4878048780488" y="468" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >10</text>
+<line x1="70" y1="153.4" x2="710" y2="153.4" stroke="#262626"/>
+<text x="62" y="157.41463414634148" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >10</text>
+<line x1="366.6" y1="70" x2="366.6" y2="450" stroke="#262626"/>
+<text x="366.5853658536586" y="468" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >20</text>
+<line x1="70" y1="246.1" x2="710" y2="246.1" stroke="#262626"/>
+<text x="62" y="250.09756097560975" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >20</text>
+<line x1="522.7" y1="70" x2="522.7" y2="450" stroke="#262626"/>
+<text x="522.6829268292682" y="468" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >30</text>
+<line x1="70" y1="338.8" x2="710" y2="338.8" stroke="#262626"/>
+<text x="62" y="342.780487804878" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >30</text>
+<line x1="710.0" y1="70" x2="710.0" y2="450" stroke="#262626"/>
+<text x="710.0" y="468" fill="#707070" font-size="11" font-weight="400" text-anchor="middle" >42</text>
+<line x1="70" y1="450.0" x2="710" y2="450.0" stroke="#262626"/>
+<text x="62" y="454.0" fill="#707070" font-size="11" font-weight="400" text-anchor="end" >42</text>
+<line x1="70.0" y1="70.0" x2="710.0" y2="450.0" stroke="#707070" stroke-dasharray="5 5"/>
+<circle cx="70.0" cy="181.2" r="5" fill="#3987e5" stroke="#141414"/>
+<text x="78.0" y="177.21951219512195" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="start" >GPT-6 Astra</text>
+<circle cx="85.6" cy="329.5" r="5" fill="#d95926" stroke="#141414"/>
+<text x="93.60975609756098" y="337.51219512195127" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="start" >Astra xhigh</text>
+<circle cx="101.2" cy="236.8" r="5" fill="#d95926" stroke="#141414"/>
+<text x="109.21951219512195" y="244.82926829268294" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="start" >Gemini 3.8 Flash</text>
+<circle cx="116.8" cy="227.6" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="132.4" cy="153.4" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="148.0" cy="301.7" r="5" fill="#d95926" stroke="#141414"/>
+<circle cx="163.7" cy="264.6" r="5" fill="#d95926" stroke="#141414"/>
+<circle cx="179.3" cy="199.8" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="194.9" cy="246.1" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="210.5" cy="134.9" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="226.1" cy="79.3" r="5" fill="#3987e5" stroke="#141414"/>
+<text x="234.09756097560975" y="87.26829268292683" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="start" >Kimi K3</text>
+<circle cx="241.7" cy="88.5" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="257.3" cy="273.9" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="272.9" cy="97.8" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="288.5" cy="283.2" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="304.1" cy="385.1" r="5" fill="#d95926" stroke="#141414"/>
+<circle cx="319.8" cy="394.4" r="5" fill="#d95926" stroke="#141414"/>
+<circle cx="335.4" cy="422.2" r="5" fill="#d95926" stroke="#141414"/>
+<text x="327.3658536585366" y="438.1951219512195" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Gemini 3.1 Pro</text>
+<circle cx="351.0" cy="70.0" r="5" fill="#d95926" stroke="#141414"/>
+<text x="358.9756097560976" y="78.0" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="start" >Grok 4.5</text>
+<circle cx="366.6" cy="255.4" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="382.2" cy="218.3" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="397.8" cy="116.3" r="5" fill="#d95926" stroke="#141414"/>
+<circle cx="413.4" cy="172.0" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="429.0" cy="209.0" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="444.6" cy="450.0" r="5" fill="#d95926" stroke="#141414"/>
+<text x="436.6341463414634" y="466.0" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Aion 3.0</text>
+<circle cx="460.2" cy="357.3" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="475.9" cy="403.7" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="491.5" cy="107.1" r="5" fill="#d95926" stroke="#141414"/>
+<text x="499.4634146341464" y="105.07317073170732" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="start" >Sonnet 4.6</text>
+<circle cx="507.1" cy="190.5" r="5" fill="#d95926" stroke="#141414"/>
+<circle cx="522.7" cy="292.4" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="538.3" cy="311.0" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="553.9" cy="366.6" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="569.5" cy="412.9" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="585.1" cy="144.1" r="5" fill="#d95926" stroke="#141414"/>
+<text x="577.1219512195122" y="140.14634146341464" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >DeepSeek V4 Pro</text>
+<circle cx="600.7" cy="375.9" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="616.3" cy="320.2" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="632.0" cy="162.7" r="5" fill="#d95926" stroke="#141414"/>
+<text x="639.9512195121952" y="170.6829268292683" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="start" >Hy3</text>
+<circle cx="647.6" cy="338.8" r="5" fill="#3987e5" stroke="#141414"/>
+<circle cx="663.2" cy="125.6" r="5" fill="#d95926" stroke="#141414"/>
+<text x="655.1707317073171" y="121.60975609756098" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Qwen3 Coder</text>
+<circle cx="678.8" cy="431.5" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="694.4" cy="440.7" r="5" fill="#199e70" stroke="#141414"/>
+<circle cx="710.0" cy="348.0" r="5" fill="#3987e5" stroke="#141414"/>
+<text x="702.0" y="344.0487804878049" fill="#d0d0d0" font-size="10.5" font-weight="400" text-anchor="end" >Laguna XS</text>
+<circle cx="75" cy="506" r="5" fill="#199e70"/>
+<text x="85" y="510" fill="#a0a0a0" font-size="11" font-weight="400" text-anchor="start" >within 5 places</text>
+<circle cx="205" cy="506" r="5" fill="#3987e5"/>
+<text x="215" y="510" fill="#a0a0a0" font-size="11" font-weight="400" text-anchor="start" >6–14 places off</text>
+<circle cx="335" cy="506" r="5" fill="#d95926"/>
+<text x="345" y="510" fill="#a0a0a0" font-size="11" font-weight="400" text-anchor="start" >15+ places off</text>
+<text x="390.0" y="490" fill="#a0a0a0" font-size="11.5" font-weight="400" text-anchor="middle" >real AHK-Eval rank (1 = best)</text>
+<text x="18" y="260.0" fill="#a0a0a0" font-size="11.5" font-weight="400" text-anchor="middle" transform="rotate(-90 18 260.0)">Jev rank (1 = highest mean p_pass)</text>
+</svg>
