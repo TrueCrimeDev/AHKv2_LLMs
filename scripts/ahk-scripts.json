@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-21T12:13:32.045Z",
+  "lastUpdated": "2026-09-21T18:10:57.600Z",
   "totalScripts": 528,
   "categories": [
     "GUI",
@@ -8110,7 +8110,7 @@
     },
     {
       "id": "github-1290579228",
-      "title": "ahk-f13-keybindings",
+      "title": "f13-keybindings",
       "category": "GitHub Repository",
       "description": "F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。",
       "tags": [
@@ -8119,13 +8119,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T04:15:18Z",
-      "lastModified": "2026-08-26T08:38:21Z",
+      "lastModified": "2026-09-21T15:49:54Z",
       "source": "github",
-      "url": "https://github.com/hakhatz2486/ahk-f13-keybindings",
+      "url": "https://github.com/hakhatz2486/f13-keybindings",
       "stars": 0,
       "forks": 0,
       "owner": "hakhatz2486",
-      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/ahk-f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/ahk-f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 8/26/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/ahk-f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/ahk-f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-f13-keybindings>\n\n; Example initialization\nclass AhkF13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkF13KeybindingsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 9/21/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
     },
     {
       "id": "github-1308626088",
