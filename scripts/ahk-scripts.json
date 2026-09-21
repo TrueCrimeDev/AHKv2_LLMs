@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-21T00:26:49.368Z",
-  "totalScripts": 527,
+  "lastUpdated": "2026-09-21T06:20:43.246Z",
+  "totalScripts": 528,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -9773,13 +9773,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-05T01:31:11Z",
-      "lastModified": "2026-09-10T09:22:42Z",
+      "lastModified": "2026-09-21T02:30:17Z",
       "source": "github",
       "url": "https://github.com/p65536/AltTab-Classic-AHK",
       "stars": 0,
       "forks": 0,
       "owner": "p65536",
-      "code": "```cpp\n; ============================================\n; Repository: p65536/AltTab-Classic-AHK\n; ============================================\n; URL: https://github.com/p65536/AltTab-Classic-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 9/10/2026\n; License: MIT License\n;\n; Description:\n; A lightweight classic-style Alt+Tab window switcher for Windows, implemented in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/p65536/AltTab-Classic-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/p65536/AltTab-Classic-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AltTab-Classic-AHK>\n\n; Example initialization\nclass AlttabClassicAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AltTab-Classic-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlttabClassicAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: p65536/AltTab-Classic-AHK\n; ============================================\n; URL: https://github.com/p65536/AltTab-Classic-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 9/21/2026\n; License: MIT License\n;\n; Description:\n; A lightweight classic-style Alt+Tab window switcher for Windows, implemented in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/p65536/AltTab-Classic-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/p65536/AltTab-Classic-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AltTab-Classic-AHK>\n\n; Example initialization\nclass AlttabClassicAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AltTab-Classic-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlttabClassicAhkExample()\n```"
     },
     {
       "id": "github-1357976585",
@@ -10526,13 +10526,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-18T01:57:12Z",
-      "lastModified": "2026-09-18T02:01:59Z",
+      "lastModified": "2026-09-21T02:36:31Z",
       "source": "github",
       "url": "https://github.com/nonPlanB/AutoHotkey-Scripts",
       "stars": 0,
       "forks": 0,
       "owner": "nonPlanB",
-      "code": "```cpp\n; ============================================\n; Repository: nonPlanB/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/nonPlanB/AutoHotkey-Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 9/18/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 开发的 Windows 11资源管理器增强工具集合\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nonPlanB/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nonPlanB/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nonPlanB/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/nonPlanB/AutoHotkey-Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 9/21/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 开发的 Windows 11资源管理器增强工具集合\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nonPlanB/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nonPlanB/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
     },
     {
       "id": "github-1375947285",
@@ -10647,6 +10647,31 @@
       "forks": 0,
       "owner": "mmmansouri",
       "code": "```cpp\n; ============================================\n; Repository: mmmansouri/whisper-dictation\n; ============================================\n; URL: https://github.com/mmmansouri/whisper-dictation\n; Stars: 0 | Forks: 0\n; Last Updated: 9/20/2026\n; License: Not specified\n;\n; Description:\n; F9 push-to-talk dictation on Windows: AutoHotkey v2 + FFmpeg + whisper.cpp with CUDA\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mmmansouri/whisper-dictation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mmmansouri/whisper-dictation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <whisper-dictation>\n\n; Example initialization\nclass WhisperDictationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"whisper-dictation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WhisperDictationExample()\n```"
+    },
+    {
+      "id": "github-1378993142",
+      "title": "Rim",
+      "category": "GitHub Repository",
+      "description": "Rim = Run + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "fuzzy-finder",
+        "launcher",
+        "mouse-gestures",
+        "productivity",
+        "total-commander"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-21T02:41:21Z",
+      "lastModified": "2026-09-21T06:03:24Z",
+      "source": "github",
+      "url": "https://github.com/yviscool/Rim",
+      "stars": 0,
+      "forks": 0,
+      "owner": "yviscool",
+      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 0 | Forks: 0\n; Last Updated: 9/21/2026\n; License: MIT License\n;\n; Description:\n; Rim = Run + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
     }
   ]
 }
