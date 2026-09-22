@@ -1,5 +1,24 @@
 [
  {
+  "slug": "opus-5-5-ahk-eval",
+  "title": "Claude Opus 5.5: Every Answer Right, Eleven Answers Missing",
+  "preview_title": "Opus 5.5 Aces AHK-Contract, Loses Eval Tasks to a Refusal Gate",
+  "date": "2026-09-22",
+  "description": "Anthropic's Claude Opus 5.5, run cold over the direct API, solves every AHK-Eval task it answers (33 of 33, 166 of 166 hidden cases), posts a perfect 24/24 on AHK-Contract, and fixes 27 of 30 AHK-Repair items for third place. What it doesn't answer, it never saw: a 'cyber' safety classifier blocked 16 of 103 prompts before the model wrote a token, on tasks like swapping letter case and converting hex. The gate is not deterministic, since five prompts passed on an unchanged retry, and it blocks email extraction as a fresh Eval task while letting the same work through as a Repair item.",
+  "preview": "33 of 33 answered Eval tasks solved, 24/24 on Contract, 27/30 on Repair, for about $1. Eleven tasks never reached the model: a safety classifier blocked them first.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "AHK-Contract",
+   "AHK-Repair",
+   "Claude",
+   "Opus 5.5",
+   "Anthropic"
+  ],
+  "path": "posts/opus-5-5-ahk-eval.md"
+ },
+ {
   "slug": "jev-decisions-judge",
   "title": "Jev: A Model That Cannot Write Code, Grading 2,952 AHK v2 Scripts for 13 Cents",
   "preview_title": "Jev, OpenRouter's Decisions Model, Tries to Judge the AHK Bench",

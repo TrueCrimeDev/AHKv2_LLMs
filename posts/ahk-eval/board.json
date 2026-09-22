@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05",
+ "generated": "2026-09-22",
  "tasks": 36,
  "cases": 181,
  "cat_totals": {
@@ -336,6 +336,33 @@
    "rank": 12
   },
   {
+   "stem": "Opus_5-5",
+   "display": "Claude Opus 5.5",
+   "provider": "Anthropic",
+   "solved": 33,
+   "cases": 166,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 6,
+    "data": 6,
+    "datetime": 6,
+    "numbers": 5,
+    "regex": 4,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 12,
+    "mid": 10
+   },
+   "price_out": 20.0,
+   "rank": 13
+  },
+  {
    "stem": "Gemini_3-6_Flash",
    "display": "Gemini 3.6 Flash",
    "provider": "Google",
@@ -360,7 +387,7 @@
     "mid": 11
    },
    "price_out": 7.5,
-   "rank": 13
+   "rank": 14
   },
   {
    "stem": "GPT-5-6_Terra",
@@ -387,7 +414,7 @@
     "mid": 10
    },
    "price_out": 15.0,
-   "rank": 14
+   "rank": 15
   },
   {
    "stem": "Gemini_3-1_Pro",
@@ -414,7 +441,7 @@
     "mid": 11
    },
    "price_out": 12.0,
-   "rank": 15
+   "rank": 16
   },
   {
    "stem": "GPT-5-6_Terra_Pro",
@@ -441,7 +468,7 @@
     "mid": 12
    },
    "price_out": 15.0,
-   "rank": 16
+   "rank": 17
   },
   {
    "stem": "Grok_4-5",
@@ -468,7 +495,7 @@
     "mid": 10
    },
    "price_out": 6.0,
-   "rank": 17
+   "rank": 18
   },
   {
    "stem": "Kimi_K2-6",
@@ -495,7 +522,7 @@
     "mid": 11
    },
    "price_out": 4.0,
-   "rank": 18
+   "rank": 19
   },
   {
    "stem": "DeepSeek_V4_Pro_0813",
@@ -522,7 +549,7 @@
     "mid": 12
    },
    "price_out": 0.87,
-   "rank": 19
+   "rank": 20
   },
   {
    "stem": "Muse_Spark_1-1",
@@ -549,7 +576,7 @@
     "mid": 10
    },
    "price_out": 4.25,
-   "rank": 20
+   "rank": 21
   },
   {
    "stem": "Opus_4-8",
@@ -576,7 +603,7 @@
     "mid": 11
    },
    "price_out": 25.0,
-   "rank": 21
+   "rank": 22
   },
   {
    "stem": "Grok_4-3",
@@ -603,7 +630,7 @@
     "mid": 10
    },
    "price_out": 2.5,
-   "rank": 22
+   "rank": 23
   },
   {
    "stem": "Grok_Latest",
@@ -630,7 +657,7 @@
     "mid": 9
    },
    "price_out": 6.0,
-   "rank": 23
+   "rank": 24
   },
   {
    "stem": "Aion_3-0",
@@ -657,7 +684,7 @@
     "mid": 11
    },
    "price_out": 6.0,
-   "rank": 24
+   "rank": 25
   },
   {
    "stem": "MiniMax_M3",
@@ -684,7 +711,7 @@
     "mid": 9
    },
    "price_out": 1.2,
-   "rank": 25
+   "rank": 26
   },
   {
    "stem": "Sonnet_4-6",
@@ -711,7 +738,7 @@
     "mid": 9
    },
    "price_out": 15.0,
-   "rank": 26
+   "rank": 27
   },
   {
    "stem": "GLM-5",
@@ -738,7 +765,7 @@
     "mid": 7
    },
    "price_out": 1.92,
-   "rank": 27
+   "rank": 28
   },
   {
    "stem": "GLM-5-2",
@@ -765,7 +792,7 @@
     "mid": 7
    },
    "price_out": 3.0,
-   "rank": 28
+   "rank": 29
   },
   {
    "stem": "Aion_3-0_Mini",
@@ -792,7 +819,7 @@
     "mid": 7
    },
    "price_out": 1.4,
-   "rank": 29
+   "rank": 30
   },
   {
    "stem": "GPT-5-1",
@@ -819,7 +846,7 @@
     "mid": 9
    },
    "price_out": 10.0,
-   "rank": 30
+   "rank": 31
   },
   {
    "stem": "Inkling",
@@ -846,7 +873,7 @@
     "mid": 9
    },
    "price_out": 4.05,
-   "rank": 31
+   "rank": 32
   },
   {
    "stem": "Hy3_Free",
@@ -873,7 +900,7 @@
     "mid": 9
    },
    "price_out": 0,
-   "rank": 32
+   "rank": 33
   },
   {
    "stem": "DeepSeek_V4_Pro",
@@ -900,7 +927,7 @@
     "mid": 9
    },
    "price_out": 0.87,
-   "rank": 33
+   "rank": 34
   },
   {
    "stem": "Gemini_3-5_Flash_Lite",
@@ -927,7 +954,7 @@
     "mid": 8
    },
    "price_out": 2.5,
-   "rank": 34
+   "rank": 35
   },
   {
    "stem": "Auto_Router",
@@ -954,7 +981,7 @@
     "mid": 5
    },
    "price_out": null,
-   "rank": 35
+   "rank": 36
   },
   {
    "stem": "Hy3",
@@ -981,7 +1008,7 @@
     "mid": 7
    },
    "price_out": 0.58,
-   "rank": 36
+   "rank": 37
   },
   {
    "stem": "LongCat_2-0",
@@ -1008,7 +1035,7 @@
     "mid": 6
    },
    "price_out": 1.2,
-   "rank": 37
+   "rank": 38
   },
   {
    "stem": "Qwen3_Coder",
@@ -1035,7 +1062,7 @@
     "mid": 5
    },
    "price_out": 1.8,
-   "rank": 38
+   "rank": 39
   },
   {
    "stem": "Mistral_Large_3",
@@ -1062,7 +1089,7 @@
     "mid": 2
    },
    "price_out": 1.5,
-   "rank": 39
+   "rank": 40
   },
   {
    "stem": "Laguna_XS_2-1_Free",
@@ -1089,7 +1116,7 @@
     "mid": 2
    },
    "price_out": 0,
-   "rank": 40
+   "rank": 41
   },
   {
    "stem": "Laguna_XS_2-1",
@@ -1116,7 +1143,7 @@
     "mid": 2
    },
    "price_out": 0.12,
-   "rank": 41
+   "rank": 42
   }
  ]
 }
