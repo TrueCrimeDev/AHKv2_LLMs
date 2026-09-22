@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-22T00:24:44.586Z",
+  "lastUpdated": "2026-09-22T06:15:46.598Z",
   "totalScripts": 529,
   "categories": [
     "GUI",
@@ -6645,13 +6645,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-10T12:37:31Z",
-      "lastModified": "2026-06-10T12:42:34Z",
+      "lastModified": "2026-09-22T05:13:02Z",
       "source": "github",
       "url": "https://github.com/nanhezzb/PathUtil-for-AHK",
       "stars": 0,
       "forks": 0,
       "owner": "nanhezzb",
-      "code": "```cpp\n; ============================================\n; Repository: nanhezzb/PathUtil-for-AHK\n; ============================================\n; URL: https://github.com/nanhezzb/PathUtil-for-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 6/10/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 Windows 路径同一性比较与规范化工具库。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nanhezzb/PathUtil-for-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nanhezzb/PathUtil-for-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PathUtil-for-AHK>\n\n; Example initialization\nclass PathutilForAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PathUtil-for-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PathutilForAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nanhezzb/PathUtil-for-AHK\n; ============================================\n; URL: https://github.com/nanhezzb/PathUtil-for-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 9/22/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 Windows 路径同一性比较与规范化工具库。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nanhezzb/PathUtil-for-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nanhezzb/PathUtil-for-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PathUtil-for-AHK>\n\n; Example initialization\nclass PathutilForAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PathUtil-for-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PathutilForAhkExample()\n```"
     },
     {
       "id": "github-1266166034",
@@ -8119,13 +8119,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T04:15:18Z",
-      "lastModified": "2026-09-21T15:49:54Z",
+      "lastModified": "2026-09-22T05:50:34Z",
       "source": "github",
       "url": "https://github.com/hakhatz2486/f13-keybindings",
       "stars": 0,
       "forks": 0,
       "owner": "hakhatz2486",
-      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 9/21/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 9/22/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
     },
     {
       "id": "github-1308626088",
@@ -9691,13 +9691,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-14T21:45:26Z",
-      "lastModified": "2026-09-21T21:23:44Z",
+      "lastModified": "2026-09-22T04:38:22Z",
       "source": "github",
       "url": "https://github.com/MrGingerManBread/YT-Clean-View",
       "stars": 0,
       "forks": 0,
       "owner": "MrGingerManBread",
-      "code": "```cpp\n; ============================================\n; Repository: MrGingerManBread/YT-Clean-View\n; ============================================\n; URL: https://github.com/MrGingerManBread/YT-Clean-View\n; Stars: 0 | Forks: 0\n; Last Updated: 9/21/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script to open a YouTube link in your clipboard in DETURL's \"Clean Viewer\" webpage\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MrGingerManBread/YT-Clean-View.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MrGingerManBread/YT-Clean-View/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <YT-Clean-View>\n\n; Example initialization\nclass YtCleanViewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"YT-Clean-View loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YtCleanViewExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MrGingerManBread/YT-Clean-View\n; ============================================\n; URL: https://github.com/MrGingerManBread/YT-Clean-View\n; Stars: 0 | Forks: 0\n; Last Updated: 9/22/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script to open a YouTube link in your clipboard in DETURL's \"Clean Viewer\" webpage\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MrGingerManBread/YT-Clean-View.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MrGingerManBread/YT-Clean-View/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <YT-Clean-View>\n\n; Example initialization\nclass YtCleanViewExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"YT-Clean-View loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := YtCleanViewExample()\n```"
     },
     {
       "id": "github-1334897587",
