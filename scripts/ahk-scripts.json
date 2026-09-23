@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-23T00:23:17.763Z",
+  "lastUpdated": "2026-09-23T06:15:59.966Z",
   "totalScripts": 532,
   "categories": [
     "GUI",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-09-16T23:05:41Z",
+      "lastModified": "2026-09-23T00:58:43Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 55,
-      "forks": 8,
+      "forks": 9,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 55 | Forks: 8\n; Last Updated: 9/16/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 55 | Forks: 9\n; Last Updated: 9/23/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -6405,13 +6405,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-09-22T18:07:34Z",
+      "lastModified": "2026-09-23T04:51:14Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 3,
       "forks": 1,
       "owner": "paehtz",
-      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 3 | Forks: 1\n; Last Updated: 9/22/2026\n; License: MIT License\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11 - one button per desktop, made for per-project time tracking. Free download, no installer, no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 3 | Forks: 1\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11 - one button per desktop, made for per-project time tracking. Free download, no installer, no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     },
     {
       "id": "github-1261581594",
@@ -6683,13 +6683,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-09-06T11:52:47Z",
+      "lastModified": "2026-09-23T02:45:51Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
       "stars": 4,
       "forks": 0,
       "owner": "Vedette1",
-      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 4 | Forks: 0\n; Last Updated: 9/6/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 4 | Forks: 0\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     },
     {
       "id": "github-1266742477",
@@ -6983,13 +6983,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-09-19T22:59:17Z",
+      "lastModified": "2026-09-23T03:45:24Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 9/19/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
     },
     {
       "id": "github-1273936664",
@@ -9653,13 +9653,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-07-12T05:53:31Z",
-      "lastModified": "2026-09-04T07:35:48Z",
+      "lastModified": "2026-09-23T02:00:48Z",
       "source": "github",
       "url": "https://github.com/MrGingerManBread/OS-Power-State-Scheduler",
       "stars": 0,
       "forks": 0,
       "owner": "MrGingerManBread",
-      "code": "```cpp\n; ============================================\n; Repository: MrGingerManBread/OS-Power-State-Scheduler\n; ============================================\n; URL: https://github.com/MrGingerManBread/OS-Power-State-Scheduler\n; Stars: 0 | Forks: 0\n; Last Updated: 9/4/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Autohotkey v2 script to schedule a power event on your PC\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MrGingerManBread/OS-Power-State-Scheduler.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MrGingerManBread/OS-Power-State-Scheduler/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <OS-Power-State-Scheduler>\n\n; Example initialization\nclass OsPowerStateSchedulerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"OS-Power-State-Scheduler loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OsPowerStateSchedulerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: MrGingerManBread/OS-Power-State-Scheduler\n; ============================================\n; URL: https://github.com/MrGingerManBread/OS-Power-State-Scheduler\n; Stars: 0 | Forks: 0\n; Last Updated: 9/23/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Autohotkey v2 script to schedule a power event on your PC\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MrGingerManBread/OS-Power-State-Scheduler.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MrGingerManBread/OS-Power-State-Scheduler/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <OS-Power-State-Scheduler>\n\n; Example initialization\nclass OsPowerStateSchedulerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"OS-Power-State-Scheduler loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OsPowerStateSchedulerExample()\n```"
     },
     {
       "id": "github-1018333349",
