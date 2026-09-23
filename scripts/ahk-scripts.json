@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-23T12:13:56.994Z",
-  "totalScripts": 532,
+  "lastUpdated": "2026-09-23T18:12:04.111Z",
+  "totalScripts": 533,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -10665,7 +10665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-09-23T11:06:49Z",
+      "lastModified": "2026-09-23T17:32:47Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
@@ -10718,17 +10718,23 @@
       "description": "Zalo Auto Save: AutoHotkey v2 tool that auto-names images saved from Zalo PC",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "productivity",
+        "windows",
+        "zalo"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-22T15:52:02Z",
-      "lastModified": "2026-09-22T15:52:11Z",
+      "lastModified": "2026-09-23T14:27:14Z",
       "source": "github",
       "url": "https://github.com/dlam17/zalo-auto-save",
       "stars": 0,
       "forks": 0,
       "owner": "dlam17",
-      "code": "```cpp\n; ============================================\n; Repository: dlam17/zalo-auto-save\n; ============================================\n; URL: https://github.com/dlam17/zalo-auto-save\n; Stars: 0 | Forks: 0\n; Last Updated: 9/22/2026\n; License: MIT License\n;\n; Description:\n; Zalo Auto Save: AutoHotkey v2 tool that auto-names images saved from Zalo PC\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dlam17/zalo-auto-save.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dlam17/zalo-auto-save/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-auto-save>\n\n; Example initialization\nclass ZaloAutoSaveExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-auto-save loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloAutoSaveExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: dlam17/zalo-auto-save\n; ============================================\n; URL: https://github.com/dlam17/zalo-auto-save\n; Stars: 0 | Forks: 0\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; Zalo Auto Save: AutoHotkey v2 tool that auto-names images saved from Zalo PC\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dlam17/zalo-auto-save.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dlam17/zalo-auto-save/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <zalo-auto-save>\n\n; Example initialization\nclass ZaloAutoSaveExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"zalo-auto-save loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZaloAutoSaveExample()\n```"
     },
     {
       "id": "github-1054086227",
@@ -10753,6 +10759,25 @@
       "forks": 0,
       "owner": "sandraschi",
       "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 1 | Forks: 0\n; Last Updated: 9/22/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
+    },
+    {
+      "id": "github-1383843860",
+      "title": "One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for farming the One Among the Flock achievement in Age of Mythology: Extended Edition.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-23T16:42:29Z",
+      "lastModified": "2026-09-23T16:57:39Z",
+      "source": "github",
+      "url": "https://github.com/shuithemogwai/One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "shuithemogwai",
+      "code": "```cpp\n; ============================================\n; Repository: shuithemogwai/One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2\n; ============================================\n; URL: https://github.com/shuithemogwai/One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 9/23/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for farming the One Among the Flock achievement in Age of Mythology: Extended Edition.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shuithemogwai/One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shuithemogwai/One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2>\n\n; Example initialization\nclass OneAmongTheFlockAomAchievementFarmAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OneAmongTheFlockAomAchievementFarmAutohotkeyV2Example()\n```"
     }
   ]
 }
