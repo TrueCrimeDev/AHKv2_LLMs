@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-24T00:24:03.601Z",
+  "lastUpdated": "2026-09-24T06:16:01.233Z",
   "totalScripts": 534,
   "categories": [
     "GUI",
@@ -6405,13 +6405,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-09-23T06:50:17Z",
+      "lastModified": "2026-09-24T05:11:39Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 3,
       "forks": 1,
       "owner": "paehtz",
-      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 3 | Forks: 1\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11 - one button per desktop, made for per-project time tracking. Free download, no installer, no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 3 | Forks: 1\n; Last Updated: 9/24/2026\n; License: MIT License\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11 - one button per desktop, made for per-project time tracking. Free download, no installer, no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     },
     {
       "id": "github-1261581594",
@@ -6983,13 +6983,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-09-23T03:45:24Z",
+      "lastModified": "2026-09-24T01:06:25Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 9/24/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
     },
     {
       "id": "github-1273936664",
@@ -10665,13 +10665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-09-23T17:32:47Z",
+      "lastModified": "2026-09-24T04:22:50Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
       "forks": 1,
       "owner": "yviscool",
-      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 1 | Forks: 1\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; Rim = RunZ + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 1 | Forks: 1\n; Last Updated: 9/24/2026\n; License: MIT License\n;\n; Description:\n; Rim = RunZ + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
     },
     {
       "id": "github-1380537324",
