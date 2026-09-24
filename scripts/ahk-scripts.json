@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-23T18:12:04.111Z",
-  "totalScripts": 533,
+  "lastUpdated": "2026-09-24T00:24:03.601Z",
+  "totalScripts": 534,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1729,13 +1729,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-03T16:38:09Z",
-      "lastModified": "2026-07-12T13:49:03Z",
+      "lastModified": "2026-09-23T21:39:26Z",
       "source": "github",
       "url": "https://github.com/eyetechanalytics/Beacon",
       "stars": 0,
       "forks": 0,
       "owner": "eyetechanalytics",
-      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Beacon\n; ============================================\n; URL: https://github.com/eyetechanalytics/Beacon\n; Stars: 0 | Forks: 0\n; Last Updated: 7/12/2026\n; License: MIT License\n;\n; Description:\n; Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Beacon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Beacon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Beacon>\n\n; Example initialization\nclass BeaconExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Beacon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeaconExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: eyetechanalytics/Beacon\n; ============================================\n; URL: https://github.com/eyetechanalytics/Beacon\n; Stars: 0 | Forks: 0\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; Beacon (Ultimate Keyboard Shortcuts System)   Project Description: Beacon is a comprehensive, open-source productivity tool built on AutoHotkey v2.0+. It provides a centralized, menu-driven interface (accessible via AppsKey + G) that serves as a high-performance reference guide for keyboard shortcuts across the Windows ecosystem.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/eyetechanalytics/Beacon.git\n;\n; Option 2: Download ZIP\n;   https://github.com/eyetechanalytics/Beacon/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Beacon>\n\n; Example initialization\nclass BeaconExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Beacon loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BeaconExample()\n```"
     },
     {
       "id": "github-1127454293",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-22T23:41:57Z",
+      "lastModified": "2026-09-23T20:55:14Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 10,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 10 | Forks: 0\n; Last Updated: 9/22/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 10 | Forks: 0\n; Last Updated: 9/23/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -10583,13 +10583,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-18T22:41:14Z",
-      "lastModified": "2026-09-18T22:52:52Z",
+      "lastModified": "2026-09-23T19:59:55Z",
       "source": "github",
       "url": "https://github.com/povilaspanavas/PandaKeys.ahk",
       "stars": 0,
       "forks": 0,
       "owner": "povilaspanavas",
-      "code": "```cpp\n; ============================================\n; Repository: povilaspanavas/PandaKeys.ahk\n; ============================================\n; URL: https://github.com/povilaspanavas/PandaKeys.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/18/2026\n; License: MIT License\n;\n; Description:\n; Collection of AutoHotkey V2 scrips\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/povilaspanavas/PandaKeys.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/povilaspanavas/PandaKeys.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PandaKeys.ahk>\n\n; Example initialization\nclass Pandakeys.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PandaKeys.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Pandakeys.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: povilaspanavas/PandaKeys.ahk\n; ============================================\n; URL: https://github.com/povilaspanavas/PandaKeys.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; Collection of AutoHotkey V2 scrips\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/povilaspanavas/PandaKeys.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/povilaspanavas/PandaKeys.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PandaKeys.ahk>\n\n; Example initialization\nclass Pandakeys.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PandaKeys.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Pandakeys.ahkExample()\n```"
     },
     {
       "id": "github-1377460870",
@@ -10778,6 +10778,25 @@
       "forks": 0,
       "owner": "shuithemogwai",
       "code": "```cpp\n; ============================================\n; Repository: shuithemogwai/One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2\n; ============================================\n; URL: https://github.com/shuithemogwai/One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 9/23/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for farming the One Among the Flock achievement in Age of Mythology: Extended Edition.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/shuithemogwai/One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/shuithemogwai/One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2>\n\n; Example initialization\nclass OneAmongTheFlockAomAchievementFarmAutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"One-Among-the-Flock-AOM-Achievement-Farm-Autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OneAmongTheFlockAomAchievementFarmAutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-1384058517",
+      "title": "leer-seleccion",
+      "category": "GitHub Repository",
+      "description": "Lee en voz alta el texto seleccionado en Windows resaltando palabra a palabra dentro de la app (AutoHotkey v2 + UI Automation)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-23T19:02:21Z",
+      "lastModified": "2026-09-23T19:02:31Z",
+      "source": "github",
+      "url": "https://github.com/jttriana86/leer-seleccion",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jttriana86",
+      "code": "```cpp\n; ============================================\n; Repository: jttriana86/leer-seleccion\n; ============================================\n; URL: https://github.com/jttriana86/leer-seleccion\n; Stars: 0 | Forks: 0\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; Lee en voz alta el texto seleccionado en Windows resaltando palabra a palabra dentro de la app (AutoHotkey v2 + UI Automation)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jttriana86/leer-seleccion.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jttriana86/leer-seleccion/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <leer-seleccion>\n\n; Example initialization\nclass LeerSeleccionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"leer-seleccion loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LeerSeleccionExample()\n```"
     }
   ]
 }
