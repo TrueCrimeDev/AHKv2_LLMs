@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-25T12:14:02.510Z",
-  "totalScripts": 534,
+  "lastUpdated": "2026-09-25T18:11:05.335Z",
+  "totalScripts": 537,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8119,13 +8119,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T04:15:18Z",
-      "lastModified": "2026-09-22T14:44:15Z",
+      "lastModified": "2026-09-25T13:50:25Z",
       "source": "github",
       "url": "https://github.com/hakhatz2486/f13-keybindings",
       "stars": 0,
       "forks": 0,
       "owner": "hakhatz2486",
-      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 9/22/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 9/25/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
     },
     {
       "id": "github-1308626088",
@@ -10469,13 +10469,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-17T03:48:46Z",
-      "lastModified": "2026-09-18T09:12:40Z",
+      "lastModified": "2026-09-25T14:59:22Z",
       "source": "github",
       "url": "https://github.com/Geurtsy/geurtsys-dota-2-helpers",
       "stars": 0,
       "forks": 0,
       "owner": "Geurtsy",
-      "code": "```cpp\n; ============================================\n; Repository: Geurtsy/geurtsys-dota-2-helpers\n; ============================================\n; URL: https://github.com/Geurtsy/geurtsys-dota-2-helpers\n; Stars: 0 | Forks: 0\n; Last Updated: 9/18/2026\n; License: Not specified\n;\n; Description:\n; Geurtsy's Dota 2 Helpers: AutoHotkey v2 voice-chat toggle with a persistent on-screen indicator and automatic game detection.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Geurtsy/geurtsys-dota-2-helpers.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Geurtsy/geurtsys-dota-2-helpers/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <geurtsys-dota-2-helpers>\n\n; Example initialization\nclass GeurtsysDota2HelpersExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"geurtsys-dota-2-helpers loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GeurtsysDota2HelpersExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Geurtsy/geurtsys-dota-2-helpers\n; ============================================\n; URL: https://github.com/Geurtsy/geurtsys-dota-2-helpers\n; Stars: 0 | Forks: 0\n; Last Updated: 9/25/2026\n; License: Not specified\n;\n; Description:\n; Geurtsy's Dota 2 Helpers: AutoHotkey v2 voice-chat toggle with a persistent on-screen indicator and automatic game detection.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Geurtsy/geurtsys-dota-2-helpers.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Geurtsy/geurtsys-dota-2-helpers/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <geurtsys-dota-2-helpers>\n\n; Example initialization\nclass GeurtsysDota2HelpersExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"geurtsys-dota-2-helpers loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GeurtsysDota2HelpersExample()\n```"
     },
     {
       "id": "github-1035569444",
@@ -10665,7 +10665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-09-25T11:57:31Z",
+      "lastModified": "2026-09-25T16:46:50Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
@@ -10797,6 +10797,74 @@
       "forks": 0,
       "owner": "jttriana86",
       "code": "```cpp\n; ============================================\n; Repository: jttriana86/leer-seleccion\n; ============================================\n; URL: https://github.com/jttriana86/leer-seleccion\n; Stars: 0 | Forks: 0\n; Last Updated: 9/23/2026\n; License: MIT License\n;\n; Description:\n; Lee en voz alta el texto seleccionado en Windows resaltando palabra a palabra dentro de la app (AutoHotkey v2 + UI Automation)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jttriana86/leer-seleccion.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jttriana86/leer-seleccion/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <leer-seleccion>\n\n; Example initialization\nclass LeerSeleccionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"leer-seleccion loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LeerSeleccionExample()\n```"
+    },
+    {
+      "id": "github-1387715383",
+      "title": "wheel-flip",
+      "category": "GitHub Repository",
+      "description": "Windows 鼠标滚轮反转、自然滚动：按设备单独翻转滚轮（AutoHotkey v2）",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "mouse-wheel",
+        "natural-scrolling",
+        "reverse-scroll",
+        "scroll-invert"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-25T14:55:39Z",
+      "lastModified": "2026-09-25T16:03:36Z",
+      "source": "github",
+      "url": "https://github.com/Sev73n/wheel-flip",
+      "stars": 1,
+      "forks": 0,
+      "owner": "Sev73n",
+      "code": "```cpp\n; ============================================\n; Repository: Sev73n/wheel-flip\n; ============================================\n; URL: https://github.com/Sev73n/wheel-flip\n; Stars: 1 | Forks: 0\n; Last Updated: 9/25/2026\n; License: MIT License\n;\n; Description:\n; Windows 鼠标滚轮反转、自然滚动：按设备单独翻转滚轮（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sev73n/wheel-flip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sev73n/wheel-flip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <wheel-flip>\n\n; Example initialization\nclass WheelFlipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"wheel-flip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WheelFlipExample()\n```"
+    },
+    {
+      "id": "github-1387509342",
+      "title": "Hey-Claude-",
+      "category": "GitHub Repository",
+      "description": "Unofficial Stream Deck buttons and a hands-free 'Hey Claude' wake word for the Claude desktop app on Windows (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "claude",
+        "stream-deck",
+        "voice-control",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-25T13:02:15Z",
+      "lastModified": "2026-09-25T13:58:43Z",
+      "source": "github",
+      "url": "https://github.com/nickrannikko-hub/Hey-Claude-",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nickrannikko-hub",
+      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 0 | Forks: 0\n; Last Updated: 9/25/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Stream Deck buttons and a hands-free 'Hey Claude' wake word for the Claude desktop app on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
+    },
+    {
+      "id": "github-1387339008",
+      "title": "GSX",
+      "category": "GitHub Repository",
+      "description": "Ultra lightweight AutoHotkey v2 script that runs in the background and sends WinClose + WinKill when you press Guide (Xbox/Home) + Start at the same time on any XInput-compatible controller. ⚡",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-25T11:19:56Z",
+      "lastModified": "2026-09-25T12:33:00Z",
+      "source": "github",
+      "url": "https://github.com/yabaztayt/GSX",
+      "stars": 0,
+      "forks": 0,
+      "owner": "yabaztayt",
+      "code": "```cpp\n; ============================================\n; Repository: yabaztayt/GSX\n; ============================================\n; URL: https://github.com/yabaztayt/GSX\n; Stars: 0 | Forks: 0\n; Last Updated: 9/25/2026\n; License: Not specified\n;\n; Description:\n; Ultra lightweight AutoHotkey v2 script that runs in the background and sends WinClose + WinKill when you press Guide (Xbox/Home) + Start at the same time on any XInput-compatible controller. ⚡\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yabaztayt/GSX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yabaztayt/GSX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GSX>\n\n; Example initialization\nclass GsxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GSX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GsxExample()\n```"
     }
   ]
 }
