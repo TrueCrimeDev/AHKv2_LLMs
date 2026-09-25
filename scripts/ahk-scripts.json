@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-25T06:16:03.882Z",
+  "lastUpdated": "2026-09-25T12:14:02.510Z",
   "totalScripts": 534,
   "categories": [
     "GUI",
@@ -8832,13 +8832,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-28T14:55:10Z",
-      "lastModified": "2026-08-28T15:29:39Z",
+      "lastModified": "2026-09-25T09:24:18Z",
       "source": "github",
       "url": "https://github.com/pete2huan9/PowerCapsLock",
       "stars": 0,
       "forks": 0,
       "owner": "pete2huan9",
-      "code": "```cpp\n; ============================================\n; Repository: pete2huan9/PowerCapsLock\n; ============================================\n; URL: https://github.com/pete2huan9/PowerCapsLock\n; Stars: 0 | Forks: 0\n; Last Updated: 8/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; PowerCapsLock is an advanced AutoHotkey v2 productivity suite that transforms your `CapsLock` key into a multi-layer modal hyper-key for Vim-style navigation, window management, input method switching, and keyboard layout enhancements — complete with a modern, customizable GUI dashboard.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pete2huan9/PowerCapsLock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pete2huan9/PowerCapsLock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PowerCapsLock>\n\n; Example initialization\nclass PowercapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PowerCapsLock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PowercapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: pete2huan9/PowerCapsLock\n; ============================================\n; URL: https://github.com/pete2huan9/PowerCapsLock\n; Stars: 0 | Forks: 0\n; Last Updated: 9/25/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; PowerCapsLock is an advanced AutoHotkey v2 productivity suite that transforms your `CapsLock` key into a multi-layer modal hyper-key for Vim-style navigation, window management, input method switching, and keyboard layout enhancements — complete with a modern, customizable GUI dashboard.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pete2huan9/PowerCapsLock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pete2huan9/PowerCapsLock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PowerCapsLock>\n\n; Example initialization\nclass PowercapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PowerCapsLock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PowercapslockExample()\n```"
     },
     {
       "id": "github-1349666493",
@@ -10665,13 +10665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-09-24T15:20:10Z",
+      "lastModified": "2026-09-25T11:57:31Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
       "forks": 1,
       "owner": "yviscool",
-      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 1 | Forks: 1\n; Last Updated: 9/24/2026\n; License: MIT License\n;\n; Description:\n; Rim = RunZ + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 1 | Forks: 1\n; Last Updated: 9/25/2026\n; License: MIT License\n;\n; Description:\n; Rim = RunZ + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
     },
     {
       "id": "github-1380537324",
