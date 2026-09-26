@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-26T12:12:10.466Z",
-  "totalScripts": 540,
+  "lastUpdated": "2026-09-26T18:10:19.545Z",
+  "totalScripts": 543,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1342,13 +1342,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-06-15T14:05:31Z",
-      "lastModified": "2026-07-21T23:58:04Z",
+      "lastModified": "2026-09-26T15:24:09Z",
       "source": "github",
       "url": "https://github.com/souldew/autohotkey-v2",
       "stars": 0,
       "forks": 0,
       "owner": "souldew",
-      "code": "```cpp\n; ============================================\n; Repository: souldew/autohotkey-v2\n; ============================================\n; URL: https://github.com/souldew/autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 7/21/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/souldew/autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/souldew/autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: souldew/autohotkey-v2\n; ============================================\n; URL: https://github.com/souldew/autohotkey-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/souldew/autohotkey-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/souldew/autohotkey-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-v2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     },
     {
       "id": "github-950201159",
@@ -9476,13 +9476,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-10T14:21:49Z",
-      "lastModified": "2026-08-30T16:58:33Z",
+      "lastModified": "2026-09-26T17:00:09Z",
       "source": "github",
       "url": "https://github.com/Vermillion203/ahk-game-scripts",
       "stars": 0,
       "forks": 0,
       "owner": "Vermillion203",
-      "code": "```cpp\n; ============================================\n; Repository: Vermillion203/ahk-game-scripts\n; ============================================\n; URL: https://github.com/Vermillion203/ahk-game-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 8/30/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 scripts that fix small annoyances in and around games. Keep a game running while you tab away, center any window, search vendor inventories. Each script is a single file with its own docs.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vermillion203/ahk-game-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vermillion203/ahk-game-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-game-scripts>\n\n; Example initialization\nclass AhkGameScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-game-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkGameScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vermillion203/ahk-game-scripts\n; ============================================\n; URL: https://github.com/Vermillion203/ahk-game-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 scripts that fix small annoyances in and around games. Keep a game running while you tab away, center any window, search vendor inventories. Each script is a single file with its own docs.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vermillion203/ahk-game-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vermillion203/ahk-game-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-game-scripts>\n\n; Example initialization\nclass AhkGameScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-game-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkGameScriptsExample()\n```"
     },
     {
       "id": "github-1352643720",
@@ -10665,7 +10665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-09-26T04:43:06Z",
+      "lastModified": "2026-09-26T12:40:07Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
@@ -10815,13 +10815,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T14:55:39Z",
-      "lastModified": "2026-09-25T16:03:36Z",
+      "lastModified": "2026-09-26T12:56:41Z",
       "source": "github",
       "url": "https://github.com/Sev73n/wheel-flip",
       "stars": 1,
       "forks": 0,
       "owner": "Sev73n",
-      "code": "```cpp\n; ============================================\n; Repository: Sev73n/wheel-flip\n; ============================================\n; URL: https://github.com/Sev73n/wheel-flip\n; Stars: 1 | Forks: 0\n; Last Updated: 9/25/2026\n; License: MIT License\n;\n; Description:\n; Windows 鼠标滚轮反转、自然滚动：按设备单独翻转滚轮（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sev73n/wheel-flip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sev73n/wheel-flip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <wheel-flip>\n\n; Example initialization\nclass WheelFlipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"wheel-flip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WheelFlipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Sev73n/wheel-flip\n; ============================================\n; URL: https://github.com/Sev73n/wheel-flip\n; Stars: 1 | Forks: 0\n; Last Updated: 9/26/2026\n; License: MIT License\n;\n; Description:\n; Windows 鼠标滚轮反转、自然滚动：按设备单独翻转滚轮（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Sev73n/wheel-flip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Sev73n/wheel-flip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <wheel-flip>\n\n; Example initialization\nclass WheelFlipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"wheel-flip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WheelFlipExample()\n```"
     },
     {
       "id": "github-1387509342",
@@ -10839,13 +10839,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T13:02:15Z",
-      "lastModified": "2026-09-25T13:58:43Z",
+      "lastModified": "2026-09-26T17:44:29Z",
       "source": "github",
       "url": "https://github.com/nickrannikko-hub/Hey-Claude-",
       "stars": 0,
       "forks": 0,
       "owner": "nickrannikko-hub",
-      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 0 | Forks: 0\n; Last Updated: 9/25/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Stream Deck buttons and a hands-free 'Hey Claude' wake word for the Claude desktop app on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Stream Deck buttons and a hands-free 'Hey Claude' wake word for the Claude desktop app on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
     },
     {
       "id": "github-1387339008",
@@ -10877,7 +10877,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-11T15:57:33Z",
-      "lastModified": "2026-09-26T12:07:49Z",
+      "lastModified": "2026-09-26T17:41:02Z",
       "source": "github",
       "url": "https://github.com/kiriuu/FL-Launcher",
       "stars": 1,
@@ -10923,6 +10923,63 @@
       "forks": 0,
       "owner": "Icaruhvm",
       "code": "```cpp\n; ============================================\n; Repository: Icaruhvm/Anti-Afk-BrasiliaRP\n; ============================================\n; URL: https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; Script em AutoHotkey v2 para automatizar ações anti-AFK no Brasília RP. Inclui movimentação aleatória, consumo automático de comida/bebida, painel de testes e agendamento de desligamento do PC.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Anti-Afk-BrasiliaRP>\n\n; Example initialization\nclass AntiAfkBrasiliarpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Anti-Afk-BrasiliaRP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AntiAfkBrasiliarpExample()\n```"
+    },
+    {
+      "id": "github-1389568698",
+      "title": "autohotkeys-pharmacie-d-issy",
+      "category": "GitHub Repository",
+      "description": "Raccourcis AutoHotkey v2 pour l'officine : recherche (Google, VIDAL, Theriaque...) et flux ordonnances vers LGPI",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-26T17:15:26Z",
+      "lastModified": "2026-09-26T17:15:36Z",
+      "source": "github",
+      "url": "https://github.com/ogeredmon123-ship-it/autohotkeys-pharmacie-d-issy",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ogeredmon123-ship-it",
+      "code": "```cpp\n; ============================================\n; Repository: ogeredmon123-ship-it/autohotkeys-pharmacie-d-issy\n; ============================================\n; URL: https://github.com/ogeredmon123-ship-it/autohotkeys-pharmacie-d-issy\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; Raccourcis AutoHotkey v2 pour l'officine : recherche (Google, VIDAL, Theriaque...) et flux ordonnances vers LGPI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ogeredmon123-ship-it/autohotkeys-pharmacie-d-issy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ogeredmon123-ship-it/autohotkeys-pharmacie-d-issy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkeys-pharmacie-d-issy>\n\n; Example initialization\nclass AutohotkeysPharmacieDIssyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkeys-pharmacie-d-issy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeysPharmacieDIssyExample()\n```"
+    },
+    {
+      "id": "github-1389330354",
+      "title": "my_jlod_ahk",
+      "category": "GitHub Repository",
+      "description": "QWERTY / JLOD (Dvorak-based Japanese layout) switcher with SandS and thumb-key layers, for AutoHotkey v2 on Windows",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-26T14:27:37Z",
+      "lastModified": "2026-09-26T16:20:33Z",
+      "source": "github",
+      "url": "https://github.com/kraus1049/my_jlod_ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kraus1049",
+      "code": "```cpp\n; ============================================\n; Repository: kraus1049/my_jlod_ahk\n; ============================================\n; URL: https://github.com/kraus1049/my_jlod_ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; QWERTY / JLOD (Dvorak-based Japanese layout) switcher with SandS and thumb-key layers, for AutoHotkey v2 on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kraus1049/my_jlod_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kraus1049/my_jlod_ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <my_jlod_ahk>\n\n; Example initialization\nclass MyJlodAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"my_jlod_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyJlodAhkExample()\n```"
+    },
+    {
+      "id": "github-1389419006",
+      "title": "bing-reward",
+      "category": "GitHub Repository",
+      "description": "bing reward pc search autohotkey v2 script",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-26T15:23:09Z",
+      "lastModified": "2026-09-26T15:23:41Z",
+      "source": "github",
+      "url": "https://github.com/hungdev11/bing-reward",
+      "stars": 0,
+      "forks": 0,
+      "owner": "hungdev11",
+      "code": "```cpp\n; ============================================\n; Repository: hungdev11/bing-reward\n; ============================================\n; URL: https://github.com/hungdev11/bing-reward\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; bing reward pc search autohotkey v2 script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hungdev11/bing-reward.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hungdev11/bing-reward/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <bing-reward>\n\n; Example initialization\nclass BingRewardExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"bing-reward loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BingRewardExample()\n```"
     }
   ]
 }
