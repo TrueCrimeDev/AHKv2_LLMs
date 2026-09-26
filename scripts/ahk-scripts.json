@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-26T00:24:10.708Z",
-  "totalScripts": 538,
+  "lastUpdated": "2026-09-26T06:14:57.243Z",
+  "totalScripts": 540,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-24T23:48:21Z",
+      "lastModified": "2026-09-26T06:02:04Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 10,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 10 | Forks: 0\n; Last Updated: 9/24/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 10 | Forks: 0\n; Last Updated: 9/26/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -10665,13 +10665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-09-25T16:46:50Z",
+      "lastModified": "2026-09-26T04:43:06Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
       "forks": 1,
       "owner": "yviscool",
-      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 1 | Forks: 1\n; Last Updated: 9/25/2026\n; License: MIT License\n;\n; Description:\n; Rim = RunZ + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 1 | Forks: 1\n; Last Updated: 9/26/2026\n; License: MIT License\n;\n; Description:\n; Rim = RunZ + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
     },
     {
       "id": "github-1380537324",
@@ -10884,6 +10884,45 @@
       "forks": 0,
       "owner": "kiriuu",
       "code": "```cpp\n; ============================================\n; Repository: kiriuu/FL-Launcher\n; ============================================\n; URL: https://github.com/kiriuu/FL-Launcher\n; Stars: 1 | Forks: 0\n; Last Updated: 9/25/2026\n; License: MIT License\n;\n; Description:\n; A Launcher for FL Studio, developed with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kiriuu/FL-Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kiriuu/FL-Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FL-Launcher>\n\n; Example initialization\nclass FlLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FL-Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FlLauncherExample()\n```"
+    },
+    {
+      "id": "github-1261380561",
+      "title": "f13-nav-ahk-v2",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for F13-based navigation keys.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey-scripts"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-06T15:56:25Z",
+      "lastModified": "2026-09-26T01:50:20Z",
+      "source": "github",
+      "url": "https://github.com/apricotpersonallabo/f13-nav-ahk-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "apricotpersonallabo",
+      "code": "```cpp\n; ============================================\n; Repository: apricotpersonallabo/f13-nav-ahk-v2\n; ============================================\n; URL: https://github.com/apricotpersonallabo/f13-nav-ahk-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for F13-based navigation keys.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/apricotpersonallabo/f13-nav-ahk-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/apricotpersonallabo/f13-nav-ahk-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-nav-ahk-v2>\n\n; Example initialization\nclass F13NavAhkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-nav-ahk-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13NavAhkV2Example()\n```"
+    },
+    {
+      "id": "github-1388346655",
+      "title": "Anti-Afk-BrasiliaRP",
+      "category": "GitHub Repository",
+      "description": "Script em AutoHotkey v2 para automatizar ações anti-AFK no Brasília RP. Inclui movimentação aleatória, consumo automático de comida/bebida, painel de testes e agendamento de desligamento do PC.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-26T01:12:01Z",
+      "lastModified": "2026-09-26T01:16:39Z",
+      "source": "github",
+      "url": "https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Icaruhvm",
+      "code": "```cpp\n; ============================================\n; Repository: Icaruhvm/Anti-Afk-BrasiliaRP\n; ============================================\n; URL: https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; Script em AutoHotkey v2 para automatizar ações anti-AFK no Brasília RP. Inclui movimentação aleatória, consumo automático de comida/bebida, painel de testes e agendamento de desligamento do PC.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Anti-Afk-BrasiliaRP>\n\n; Example initialization\nclass AntiAfkBrasiliarpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Anti-Afk-BrasiliaRP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AntiAfkBrasiliarpExample()\n```"
     }
   ]
 }
