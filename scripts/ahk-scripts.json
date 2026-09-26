@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-25T18:11:05.335Z",
-  "totalScripts": 537,
+  "lastUpdated": "2026-09-26T00:24:10.708Z",
+  "totalScripts": 538,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6983,7 +6983,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-09-25T03:38:41Z",
+      "lastModified": "2026-09-25T23:33:58Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
@@ -10865,6 +10865,25 @@
       "forks": 0,
       "owner": "yabaztayt",
       "code": "```cpp\n; ============================================\n; Repository: yabaztayt/GSX\n; ============================================\n; URL: https://github.com/yabaztayt/GSX\n; Stars: 0 | Forks: 0\n; Last Updated: 9/25/2026\n; License: Not specified\n;\n; Description:\n; Ultra lightweight AutoHotkey v2 script that runs in the background and sends WinClose + WinKill when you press Guide (Xbox/Home) + Start at the same time on any XInput-compatible controller. ⚡\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yabaztayt/GSX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yabaztayt/GSX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GSX>\n\n; Example initialization\nclass GsxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GSX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GsxExample()\n```"
+    },
+    {
+      "id": "github-1331103621",
+      "title": "FL-Launcher",
+      "category": "GitHub Repository",
+      "description": "A Launcher for FL Studio, developed with AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-11T15:57:33Z",
+      "lastModified": "2026-09-25T18:17:08Z",
+      "source": "github",
+      "url": "https://github.com/kiriuu/FL-Launcher",
+      "stars": 1,
+      "forks": 0,
+      "owner": "kiriuu",
+      "code": "```cpp\n; ============================================\n; Repository: kiriuu/FL-Launcher\n; ============================================\n; URL: https://github.com/kiriuu/FL-Launcher\n; Stars: 1 | Forks: 0\n; Last Updated: 9/25/2026\n; License: MIT License\n;\n; Description:\n; A Launcher for FL Studio, developed with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kiriuu/FL-Launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kiriuu/FL-Launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FL-Launcher>\n\n; Example initialization\nclass FlLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FL-Launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FlLauncherExample()\n```"
     }
   ]
 }
