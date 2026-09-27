@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-26T18:10:19.545Z",
+  "lastUpdated": "2026-09-27T00:28:57.475Z",
   "totalScripts": 543,
   "categories": [
     "GUI",
@@ -10858,13 +10858,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T11:19:56Z",
-      "lastModified": "2026-09-25T12:33:00Z",
+      "lastModified": "2026-09-27T00:22:02Z",
       "source": "github",
       "url": "https://github.com/yabaztayt/GSX",
       "stars": 0,
       "forks": 0,
       "owner": "yabaztayt",
-      "code": "```cpp\n; ============================================\n; Repository: yabaztayt/GSX\n; ============================================\n; URL: https://github.com/yabaztayt/GSX\n; Stars: 0 | Forks: 0\n; Last Updated: 9/25/2026\n; License: Not specified\n;\n; Description:\n; Ultra lightweight AutoHotkey v2 script that runs in the background and sends WinClose + WinKill when you press Guide (Xbox/Home) + Start at the same time on any XInput-compatible controller. ⚡\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yabaztayt/GSX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yabaztayt/GSX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GSX>\n\n; Example initialization\nclass GsxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GSX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GsxExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yabaztayt/GSX\n; ============================================\n; URL: https://github.com/yabaztayt/GSX\n; Stars: 0 | Forks: 0\n; Last Updated: 9/27/2026\n; License: Not specified\n;\n; Description:\n; Ultra lightweight AutoHotkey v2 script that runs in the background and sends WinClose + WinKill when you press Guide (Xbox/Home) + Start at the same time on any XInput-compatible controller. ⚡\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yabaztayt/GSX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yabaztayt/GSX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GSX>\n\n; Example initialization\nclass GsxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GSX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GsxExample()\n```"
     },
     {
       "id": "github-1331103621",
@@ -10954,13 +10954,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-26T14:27:37Z",
-      "lastModified": "2026-09-26T16:20:33Z",
+      "lastModified": "2026-09-27T00:19:43Z",
       "source": "github",
       "url": "https://github.com/kraus1049/my_jlod_ahk",
       "stars": 0,
       "forks": 0,
       "owner": "kraus1049",
-      "code": "```cpp\n; ============================================\n; Repository: kraus1049/my_jlod_ahk\n; ============================================\n; URL: https://github.com/kraus1049/my_jlod_ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; QWERTY / JLOD (Dvorak-based Japanese layout) switcher with SandS and thumb-key layers, for AutoHotkey v2 on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kraus1049/my_jlod_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kraus1049/my_jlod_ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <my_jlod_ahk>\n\n; Example initialization\nclass MyJlodAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"my_jlod_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyJlodAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kraus1049/my_jlod_ahk\n; ============================================\n; URL: https://github.com/kraus1049/my_jlod_ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/27/2026\n; License: Not specified\n;\n; Description:\n; QWERTY / JLOD (Dvorak-based Japanese layout) switcher with SandS and thumb-key layers, for AutoHotkey v2 on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kraus1049/my_jlod_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kraus1049/my_jlod_ahk/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <my_jlod_ahk>\n\n; Example initialization\nclass MyJlodAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"my_jlod_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyJlodAhkExample()\n```"
     },
     {
       "id": "github-1389419006",
