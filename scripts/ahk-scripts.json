@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-27T06:15:27.611Z",
-  "totalScripts": 543,
+  "lastUpdated": "2026-09-27T12:13:02.573Z",
+  "totalScripts": 544,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -10858,7 +10858,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T11:19:56Z",
-      "lastModified": "2026-09-27T04:05:51Z",
+      "lastModified": "2026-09-27T12:06:43Z",
       "source": "github",
       "url": "https://github.com/yabaztayt/GSX",
       "stars": 0,
@@ -10980,6 +10980,30 @@
       "forks": 0,
       "owner": "hungdev11",
       "code": "```cpp\n; ============================================\n; Repository: hungdev11/bing-reward\n; ============================================\n; URL: https://github.com/hungdev11/bing-reward\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; bing reward pc search autohotkey v2 script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hungdev11/bing-reward.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hungdev11/bing-reward/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <bing-reward>\n\n; Example initialization\nclass BingRewardExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"bing-reward loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BingRewardExample()\n```"
+    },
+    {
+      "id": "github-1390545601",
+      "title": "ahk-mac-keymap",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 scripts that bring macOS-style keyboard shortcuts to Windows",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "keyboard",
+        "macos",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-27T09:21:01Z",
+      "lastModified": "2026-09-27T09:21:09Z",
+      "source": "github",
+      "url": "https://github.com/HirokiTakahashi2r/ahk-mac-keymap",
+      "stars": 0,
+      "forks": 0,
+      "owner": "HirokiTakahashi2r",
+      "code": "```cpp\n; ============================================\n; Repository: HirokiTakahashi2r/ahk-mac-keymap\n; ============================================\n; URL: https://github.com/HirokiTakahashi2r/ahk-mac-keymap\n; Stars: 0 | Forks: 0\n; Last Updated: 9/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 scripts that bring macOS-style keyboard shortcuts to Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/HirokiTakahashi2r/ahk-mac-keymap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/HirokiTakahashi2r/ahk-mac-keymap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-mac-keymap>\n\n; Example initialization\nclass AhkMacKeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-mac-keymap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkMacKeymapExample()\n```"
     }
   ]
 }
