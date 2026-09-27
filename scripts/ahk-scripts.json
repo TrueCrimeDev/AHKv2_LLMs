@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-27T12:13:02.573Z",
+  "lastUpdated": "2026-09-27T18:10:37.922Z",
   "totalScripts": 544,
   "categories": [
     "GUI",
@@ -10665,13 +10665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-09-26T12:40:07Z",
+      "lastModified": "2026-09-27T13:04:29Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
       "forks": 1,
       "owner": "yviscool",
-      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 1 | Forks: 1\n; Last Updated: 9/26/2026\n; License: MIT License\n;\n; Description:\n; Rim = RunZ + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 1 | Forks: 1\n; Last Updated: 9/27/2026\n; License: MIT License\n;\n; Description:\n; Rim = RunZ + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
     },
     {
       "id": "github-1380537324",
@@ -10851,20 +10851,20 @@
       "id": "github-1387339008",
       "title": "GSX",
       "category": "GitHub Repository",
-      "description": "Ultra lightweight AutoHotkey v2 script that runs in the background and sends WinClose + WinKill when you press Guide (Xbox/Home) + Start at the same time on any XInput-compatible controller. ⚡",
+      "description": "GSX is an ultra-lightweight AutoHotkey v2 utility for HTPCs. Press Guide + Start to instantly close the active app (WinClose → WinKill fallback), or Guide + Back to enable full controller-driven mouse and keyboard control, including a built-in on-screen keyboard.",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T11:19:56Z",
-      "lastModified": "2026-09-27T12:06:43Z",
+      "lastModified": "2026-09-27T12:57:29Z",
       "source": "github",
       "url": "https://github.com/yabaztayt/GSX",
       "stars": 0,
       "forks": 0,
       "owner": "yabaztayt",
-      "code": "```cpp\n; ============================================\n; Repository: yabaztayt/GSX\n; ============================================\n; URL: https://github.com/yabaztayt/GSX\n; Stars: 0 | Forks: 0\n; Last Updated: 9/27/2026\n; License: Not specified\n;\n; Description:\n; Ultra lightweight AutoHotkey v2 script that runs in the background and sends WinClose + WinKill when you press Guide (Xbox/Home) + Start at the same time on any XInput-compatible controller. ⚡\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yabaztayt/GSX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yabaztayt/GSX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GSX>\n\n; Example initialization\nclass GsxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GSX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GsxExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yabaztayt/GSX\n; ============================================\n; URL: https://github.com/yabaztayt/GSX\n; Stars: 0 | Forks: 0\n; Last Updated: 9/27/2026\n; License: Not specified\n;\n; Description:\n; GSX is an ultra-lightweight AutoHotkey v2 utility for HTPCs. Press Guide + Start to instantly close the active app (WinClose → WinKill fallback), or Guide + Back to enable full controller-driven mouse and keyboard control, including a built-in on-screen keyboard.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yabaztayt/GSX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yabaztayt/GSX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GSX>\n\n; Example initialization\nclass GsxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GSX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GsxExample()\n```"
     },
     {
       "id": "github-1331103621",
