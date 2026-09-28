@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-28T06:22:21.925Z",
-  "totalScripts": 544,
+  "lastUpdated": "2026-09-28T12:15:37.997Z",
+  "totalScripts": 547,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11005,6 +11005,69 @@
       "forks": 0,
       "owner": "HirokiTakahashi2r",
       "code": "```cpp\n; ============================================\n; Repository: HirokiTakahashi2r/ahk-mac-keymap\n; ============================================\n; URL: https://github.com/HirokiTakahashi2r/ahk-mac-keymap\n; Stars: 0 | Forks: 0\n; Last Updated: 9/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 scripts that bring macOS-style keyboard shortcuts to Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/HirokiTakahashi2r/ahk-mac-keymap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/HirokiTakahashi2r/ahk-mac-keymap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-mac-keymap>\n\n; Example initialization\nclass AhkMacKeymapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-mac-keymap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkMacKeymapExample()\n```"
+    },
+    {
+      "id": "github-1392555361",
+      "title": "gizli-pano",
+      "category": "GitHub Repository",
+      "description": "Second, private clipboard for Windows — keeps passwords out of the VM clipboard and Win+V history (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-28T11:41:35Z",
+      "lastModified": "2026-09-28T11:46:13Z",
+      "source": "github",
+      "url": "https://github.com/mtnseven/gizli-pano",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mtnseven",
+      "code": "```cpp\n; ============================================\n; Repository: mtnseven/gizli-pano\n; ============================================\n; URL: https://github.com/mtnseven/gizli-pano\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Second, private clipboard for Windows — keeps passwords out of the VM clipboard and Win+V history (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mtnseven/gizli-pano.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mtnseven/gizli-pano/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <gizli-pano>\n\n; Example initialization\nclass GizliPanoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"gizli-pano loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GizliPanoExample()\n```"
+    },
+    {
+      "id": "github-1392387895",
+      "title": "widget-meteo",
+      "category": "GitHub Repository",
+      "description": "Horloge et météo sur le bureau Windows, façon Android / iPhone (AutoHotkey v2) : prévisions, pluie dans l'heure, Bitcoin et bourse, actus, transports franciliens, phrases d'anglais. Gratuit, sans compte.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "clock",
+        "desktop-widget",
+        "francais",
+        "meteo"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-28T10:10:00Z",
+      "lastModified": "2026-09-28T11:04:56Z",
+      "source": "github",
+      "url": "https://github.com/mesix971/widget-meteo",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mesix971",
+      "code": "```cpp\n; ============================================\n; Repository: mesix971/widget-meteo\n; ============================================\n; URL: https://github.com/mesix971/widget-meteo\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Horloge et météo sur le bureau Windows, façon Android / iPhone (AutoHotkey v2) : prévisions, pluie dans l'heure, Bitcoin et bourse, actus, transports franciliens, phrases d'anglais. Gratuit, sans compte.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesix971/widget-meteo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesix971/widget-meteo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <widget-meteo>\n\n; Example initialization\nclass WidgetMeteoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"widget-meteo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WidgetMeteoExample()\n```"
+    },
+    {
+      "id": "github-1392019484",
+      "title": "VortexMacro",
+      "category": "GitHub Repository",
+      "description": "A macro for the Roblox game Prospecting. Record one loop by hand and it repeats it. AutoHotkey v2, portable, no installer.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-28T06:34:10Z",
+      "lastModified": "2026-09-28T07:20:43Z",
+      "source": "github",
+      "url": "https://github.com/athallajovian9-cyber/VortexMacro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "athallajovian9-cyber",
+      "code": "```cpp\n; ============================================\n; Repository: athallajovian9-cyber/VortexMacro\n; ============================================\n; URL: https://github.com/athallajovian9-cyber/VortexMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: Other\n;\n; Description:\n; A macro for the Roblox game Prospecting. Record one loop by hand and it repeats it. AutoHotkey v2, portable, no installer.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/athallajovian9-cyber/VortexMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/athallajovian9-cyber/VortexMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VortexMacro>\n\n; Example initialization\nclass VortexmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VortexMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VortexmacroExample()\n```"
     }
   ]
 }
