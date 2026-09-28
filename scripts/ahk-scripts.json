@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-27T18:10:37.922Z",
+  "lastUpdated": "2026-09-28T00:28:39.757Z",
   "totalScripts": 544,
   "categories": [
     "GUI",
@@ -6983,13 +6983,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-09-25T23:33:58Z",
+      "lastModified": "2026-09-27T23:30:30Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 9/25/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 9/27/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
     },
     {
       "id": "github-1273936664",
@@ -10614,20 +10614,20 @@
       "id": "github-1377812141",
       "title": "AHK2ManagerEx",
       "category": "GitHub Repository",
-      "description": "基于 AutoHotkey v2 的脚本管理器：统一启动/关闭/重启脚本，支持子文件夹分组与 #Include 附加脚本自动过滤",
+      "description": "基于 AutoHotkey v2 的��本管理器：统一启动/关闭/重启脚本，支持子文件夹分组与 #Include 附加脚本自动过滤",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-20T02:23:28Z",
-      "lastModified": "2026-09-20T09:15:14Z",
+      "lastModified": "2026-09-28T00:21:01Z",
       "source": "github",
       "url": "https://github.com/wfwuestc/AHK2ManagerEx",
       "stars": 0,
       "forks": 0,
       "owner": "wfwuestc",
-      "code": "```cpp\n; ============================================\n; Repository: wfwuestc/AHK2ManagerEx\n; ============================================\n; URL: https://github.com/wfwuestc/AHK2ManagerEx\n; Stars: 0 | Forks: 0\n; Last Updated: 9/20/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; 基于 AutoHotkey v2 的脚本管理器：统一启动/关闭/重启脚本，支持子文件夹分组与 #Include 附加脚本自动过滤\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wfwuestc/AHK2ManagerEx.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wfwuestc/AHK2ManagerEx/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2ManagerEx>\n\n; Example initialization\nclass Ahk2managerexExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2ManagerEx loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2managerexExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: wfwuestc/AHK2ManagerEx\n; ============================================\n; URL: https://github.com/wfwuestc/AHK2ManagerEx\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; 基于 AutoHotkey v2 的��本管理器：统一启动/关闭/重启脚本，支持子文件夹分组与 #Include 附加脚本自动过滤\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wfwuestc/AHK2ManagerEx.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wfwuestc/AHK2ManagerEx/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2ManagerEx>\n\n; Example initialization\nclass Ahk2managerexExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2ManagerEx loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2managerexExample()\n```"
     },
     {
       "id": "github-1377805535",
@@ -10827,25 +10827,26 @@
       "id": "github-1387509342",
       "title": "Hey-Claude-",
       "category": "GitHub Repository",
-      "description": "Unofficial Stream Deck buttons and a hands-free 'Hey Claude' wake word for the Claude desktop app on Windows (AutoHotkey v2)",
+      "description": "Hey, Claude! An unofficial plugin for the Claude desktop app on Windows: a floating captions window for your conversation, a hands-free 'Hey Claude' wake word, one-press voice and dictation, and shortcuts or Stream Deck buttons (AutoHotkey v2)",
       "tags": [
         "github",
         "repository",
         "autohotkey",
+        "captions",
         "claude",
-        "stream-deck",
-        "voice-control",
-        "windows"
+        "claude-desktop",
+        "overlay",
+        "plugin"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T13:02:15Z",
-      "lastModified": "2026-09-26T17:44:29Z",
+      "lastModified": "2026-09-27T23:51:36Z",
       "source": "github",
       "url": "https://github.com/nickrannikko-hub/Hey-Claude-",
       "stars": 0,
       "forks": 0,
       "owner": "nickrannikko-hub",
-      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Stream Deck buttons and a hands-free 'Hey Claude' wake word for the Claude desktop app on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 0 | Forks: 0\n; Last Updated: 9/27/2026\n; License: MIT License\n;\n; Description:\n; Hey, Claude! An unofficial plugin for the Claude desktop app on Windows: a floating captions window for your conversation, a hands-free 'Hey Claude' wake word, one-press voice and dictation, and shortcuts or Stream Deck buttons (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
     },
     {
       "id": "github-1387339008",
