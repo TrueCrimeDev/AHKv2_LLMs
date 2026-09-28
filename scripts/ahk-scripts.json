@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-28T12:15:37.997Z",
-  "totalScripts": 547,
+  "lastUpdated": "2026-09-28T18:12:31.003Z",
+  "totalScripts": 551,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11068,6 +11068,94 @@
       "forks": 0,
       "owner": "athallajovian9-cyber",
       "code": "```cpp\n; ============================================\n; Repository: athallajovian9-cyber/VortexMacro\n; ============================================\n; URL: https://github.com/athallajovian9-cyber/VortexMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: Other\n;\n; Description:\n; A macro for the Roblox game Prospecting. Record one loop by hand and it repeats it. AutoHotkey v2, portable, no installer.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/athallajovian9-cyber/VortexMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/athallajovian9-cyber/VortexMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <VortexMacro>\n\n; Example initialization\nclass VortexmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"VortexMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VortexmacroExample()\n```"
+    },
+    {
+      "id": "github-1393504403",
+      "title": "x52-desktop-controls",
+      "category": "GitHub Repository",
+      "description": "Repurpose a Logitech X52 Pro HOTAS for YouTube Music volume control and Windows screen snipping with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-28T18:01:27Z",
+      "lastModified": "2026-09-28T18:10:45Z",
+      "source": "github",
+      "url": "https://github.com/Ozanaltin/x52-desktop-controls",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Ozanaltin",
+      "code": "```cpp\n; ============================================\n; Repository: Ozanaltin/x52-desktop-controls\n; ============================================\n; URL: https://github.com/Ozanaltin/x52-desktop-controls\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: Not specified\n;\n; Description:\n; Repurpose a Logitech X52 Pro HOTAS for YouTube Music volume control and Windows screen snipping with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ozanaltin/x52-desktop-controls.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ozanaltin/x52-desktop-controls/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <x52-desktop-controls>\n\n; Example initialization\nclass X52DesktopControlsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"x52-desktop-controls loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := X52DesktopControlsExample()\n```"
+    },
+    {
+      "id": "github-1392991855",
+      "title": "Legend.ahk",
+      "category": "GitHub Repository",
+      "description": "Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-28T14:51:49Z",
+      "lastModified": "2026-09-28T17:49:54Z",
+      "source": "github",
+      "url": "https://github.com/simsrw73/Legend.ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "simsrw73",
+      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
+    },
+    {
+      "id": "github-1392666680",
+      "title": "ListPaster-v3",
+      "category": "GitHub Repository",
+      "description": "Paste a list one line at a time: copy a list, then each hotkey press enters the next item. AutoHotkey v2 sequential paste for Windows — fill web forms, Excel cells and remote desktop fields, with Tab/Enter auto-advance, undo, and a number/IP range generator.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk-v2",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "autotyper"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-28T12:34:19Z",
+      "lastModified": "2026-09-28T16:31:14Z",
+      "source": "github",
+      "url": "https://github.com/beepboop1998/ListPaster-v3",
+      "stars": 0,
+      "forks": 0,
+      "owner": "beepboop1998",
+      "code": "```cpp\n; ============================================\n; Repository: beepboop1998/ListPaster-v3\n; ============================================\n; URL: https://github.com/beepboop1998/ListPaster-v3\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Paste a list one line at a time: copy a list, then each hotkey press enters the next item. AutoHotkey v2 sequential paste for Windows — fill web forms, Excel cells and remote desktop fields, with Tab/Enter auto-advance, undo, and a number/IP range generator.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/beepboop1998/ListPaster-v3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/beepboop1998/ListPaster-v3/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ListPaster-v3>\n\n; Example initialization\nclass ListpasterV3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ListPaster-v3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ListpasterV3Example()\n```"
+    },
+    {
+      "id": "github-1392719802",
+      "title": "hafuch-safa",
+      "category": "GitHub Repository",
+      "description": "Fix text typed in the wrong keyboard layout (Hebrew/English) with one hotkey on Windows. AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "hebrew",
+        "hotkey",
+        "israel",
+        "keyboard-layout"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-28T12:58:23Z",
+      "lastModified": "2026-09-28T12:58:43Z",
+      "source": "github",
+      "url": "https://github.com/adiramsalem101/hafuch-safa",
+      "stars": 0,
+      "forks": 0,
+      "owner": "adiramsalem101",
+      "code": "```cpp\n; ============================================\n; Repository: adiramsalem101/hafuch-safa\n; ============================================\n; URL: https://github.com/adiramsalem101/hafuch-safa\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Fix text typed in the wrong keyboard layout (Hebrew/English) with one hotkey on Windows. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/adiramsalem101/hafuch-safa.git\n;\n; Option 2: Download ZIP\n;   https://github.com/adiramsalem101/hafuch-safa/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hafuch-safa>\n\n; Example initialization\nclass HafuchSafaExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hafuch-safa loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HafuchSafaExample()\n```"
     }
   ]
 }
