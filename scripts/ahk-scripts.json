@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-28T18:12:31.003Z",
-  "totalScripts": 551,
+  "lastUpdated": "2026-09-29T00:26:06.592Z",
+  "totalScripts": 554,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -3349,24 +3349,26 @@
       "id": "github-1132407226",
       "title": "UberMaus",
       "category": "GitHub Repository",
-      "description": "Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.",
+      "description": "Keyboard and Mouse Keybind Suite written in AutoHotkey (V1, V2).",
       "tags": [
         "github",
         "repository",
         "autohotkey",
         "autohotkey-scripts",
-        "keybinder",
-        "keybindings"
+        "hotkey-customization",
+        "hotkey-manager",
+        "hotkeys",
+        "keybinder"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-11T22:36:48Z",
-      "lastModified": "2026-09-28T04:44:08Z",
+      "lastModified": "2026-09-28T20:31:15Z",
       "source": "github",
       "url": "https://github.com/Dason-IsopodOverseer/UberMaus",
       "stars": 0,
       "forks": 0,
       "owner": "Dason-IsopodOverseer",
-      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mouse productivity keybind software. AutoHotkey (v1, v2) scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Keyboard and Mouse Keybind Suite written in AutoHotkey (V1, V2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
     },
     {
       "id": "github-1169619112",
@@ -11099,7 +11101,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T14:51:49Z",
-      "lastModified": "2026-09-28T17:49:54Z",
+      "lastModified": "2026-09-28T23:43:54Z",
       "source": "github",
       "url": "https://github.com/simsrw73/Legend.ahk",
       "stars": 0,
@@ -11156,6 +11158,75 @@
       "forks": 0,
       "owner": "adiramsalem101",
       "code": "```cpp\n; ============================================\n; Repository: adiramsalem101/hafuch-safa\n; ============================================\n; URL: https://github.com/adiramsalem101/hafuch-safa\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Fix text typed in the wrong keyboard layout (Hebrew/English) with one hotkey on Windows. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/adiramsalem101/hafuch-safa.git\n;\n; Option 2: Download ZIP\n;   https://github.com/adiramsalem101/hafuch-safa/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hafuch-safa>\n\n; Example initialization\nclass HafuchSafaExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hafuch-safa loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HafuchSafaExample()\n```"
+    },
+    {
+      "id": "github-1393732593",
+      "title": "clipboard-typer",
+      "category": "GitHub Repository",
+      "description": "Paste into consoles that block paste. Types your clipboard as real keystrokes into VMware, Proxmox/noVNC and Hyper-V consoles, iLO/iDRAC, BeyondTrust/Bomgar sessions, and RDP with clipboard disabled. Single-file AutoHotkey v2 script for Windows.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "autohotkey-v2",
+        "autotype",
+        "beyondtrust",
+        "bomgar"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-28T19:44:16Z",
+      "lastModified": "2026-09-28T19:46:41Z",
+      "source": "github",
+      "url": "https://github.com/beepboop1998/clipboard-typer",
+      "stars": 0,
+      "forks": 0,
+      "owner": "beepboop1998",
+      "code": "```cpp\n; ============================================\n; Repository: beepboop1998/clipboard-typer\n; ============================================\n; URL: https://github.com/beepboop1998/clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Paste into consoles that block paste. Types your clipboard as real keystrokes into VMware, Proxmox/noVNC and Hyper-V consoles, iLO/iDRAC, BeyondTrust/Bomgar sessions, and RDP with clipboard disabled. Single-file AutoHotkey v2 script for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/beepboop1998/clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/beepboop1998/clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-typer>\n\n; Example initialization\nclass ClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardTyperExample()\n```"
+    },
+    {
+      "id": "github-822979004",
+      "title": "KeyChord",
+      "category": "GitHub Repository",
+      "description": "AutoHotKey v2 class for writing key chords (key sequences, key chains, whatever you wanna call them).",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-class",
+        "autohotkey-language",
+        "autohotkey-script",
+        "autohotkey-scripts",
+        "autohotkey-v2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-07-02T07:43:27Z",
+      "lastModified": "2026-09-28T19:30:48Z",
+      "source": "github",
+      "url": "https://github.com/tylerjcw/KeyChord",
+      "stars": 34,
+      "forks": 2,
+      "owner": "tylerjcw",
+      "code": "```cpp\n; ============================================\n; Repository: tylerjcw/KeyChord\n; ============================================\n; URL: https://github.com/tylerjcw/KeyChord\n; Stars: 34 | Forks: 2\n; Last Updated: 9/28/2026\n; License: Not specified\n;\n; Description:\n; AutoHotKey v2 class for writing key chords (key sequences, key chains, whatever you wanna call them).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tylerjcw/KeyChord.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tylerjcw/KeyChord/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyChord>\n\n; Example initialization\nclass KeychordExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyChord loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeychordExample()\n```"
+    },
+    {
+      "id": "github-1391359146",
+      "title": "Clipnik",
+      "category": "GitHub Repository",
+      "description": "A Windows clipboard manager: hold Ctrl and tap V to walk back through everything you've copied. Channels, searchable history, a Vault for clips you keep for good, paste formats and copy rules. Portable, no install. An AutoHotkey v2 fork of Clipjump.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-27T20:03:00Z",
+      "lastModified": "2026-09-28T19:13:42Z",
+      "source": "github",
+      "url": "https://github.com/mpeutz/Clipnik",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mpeutz",
+      "code": "```cpp\n; ============================================\n; Repository: mpeutz/Clipnik\n; ============================================\n; URL: https://github.com/mpeutz/Clipnik\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: Apache License 2.0\n;\n; Description:\n; A Windows clipboard manager: hold Ctrl and tap V to walk back through everything you've copied. Channels, searchable history, a Vault for clips you keep for good, paste formats and copy rules. Portable, no install. An AutoHotkey v2 fork of Clipjump.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mpeutz/Clipnik.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mpeutz/Clipnik/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipnik>\n\n; Example initialization\nclass ClipnikExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipnik loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipnikExample()\n```"
     }
   ]
 }
