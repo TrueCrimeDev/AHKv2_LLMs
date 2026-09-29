@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-29T12:14:51.993Z",
-  "totalScripts": 555,
+  "lastUpdated": "2026-09-29T18:12:10.891Z",
+  "totalScripts": 556,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -10667,7 +10667,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-09-29T09:47:55Z",
+      "lastModified": "2026-09-29T13:59:08Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
@@ -11063,7 +11063,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T06:34:10Z",
-      "lastModified": "2026-09-29T07:44:08Z",
+      "lastModified": "2026-09-29T13:41:22Z",
       "source": "github",
       "url": "https://github.com/athallajovian9-cyber/VortexMacro",
       "stars": 0,
@@ -11239,13 +11239,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-29T11:17:49Z",
-      "lastModified": "2026-09-29T11:46:37Z",
+      "lastModified": "2026-09-29T12:36:01Z",
       "source": "github",
       "url": "https://github.com/zhangtianli007/Workspaces_ahk",
       "stars": 2,
       "forks": 0,
       "owner": "zhangtianli007",
       "code": "```cpp\n; ============================================\n; Repository: zhangtianli007/Workspaces_ahk\n; ============================================\n; URL: https://github.com/zhangtianli007/Workspaces_ahk\n; Stars: 2 | Forks: 0\n; Last Updated: 9/29/2026\n; License: Not specified\n;\n; Description:\n; 基于 AutoHotkey v2 的 Windows 虚拟桌面管理工具：工作区切换、窗口自动跟随、可自定义 JSON 布局、可视化转盘选窗。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zhangtianli007/Workspaces_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zhangtianli007/Workspaces_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Workspaces_ahk>\n\n; Example initialization\nclass WorkspacesAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Workspaces_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WorkspacesAhkExample()\n```"
+    },
+    {
+      "id": "github-1395471097",
+      "title": "WinEasyLaunch",
+      "category": "GitHub Repository",
+      "description": "Simple program launcher written in AutoHotKey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-29T13:51:18Z",
+      "lastModified": "2026-09-29T13:53:45Z",
+      "source": "github",
+      "url": "https://github.com/29039/WinEasyLaunch",
+      "stars": 0,
+      "forks": 0,
+      "owner": "29039",
+      "code": "```cpp\n; ============================================\n; Repository: 29039/WinEasyLaunch\n; ============================================\n; URL: https://github.com/29039/WinEasyLaunch\n; Stars: 0 | Forks: 0\n; Last Updated: 9/29/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Simple program launcher written in AutoHotKey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/29039/WinEasyLaunch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/29039/WinEasyLaunch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinEasyLaunch>\n\n; Example initialization\nclass WineasylaunchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinEasyLaunch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WineasylaunchExample()\n```"
     }
   ]
 }
