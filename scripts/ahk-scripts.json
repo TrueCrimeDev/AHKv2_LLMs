@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-29T18:12:10.891Z",
-  "totalScripts": 556,
+  "lastUpdated": "2026-09-30T00:27:35.485Z",
+  "totalScripts": 557,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-26T06:34:24Z",
+      "lastModified": "2026-09-29T19:09:25Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 10,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 10 | Forks: 0\n; Last Updated: 9/26/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 10 | Forks: 0\n; Last Updated: 9/29/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -3685,13 +3685,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-13T15:46:06Z",
-      "lastModified": "2026-09-14T21:38:49Z",
+      "lastModified": "2026-09-29T18:50:58Z",
       "source": "github",
       "url": "https://github.com/ThomasBasquin/peace-preamp-ahk",
       "stars": 0,
       "forks": 0,
       "owner": "ThomasBasquin",
-      "code": "```cpp\n; ============================================\n; Repository: ThomasBasquin/peace-preamp-ahk\n; ============================================\n; URL: https://github.com/ThomasBasquin/peace-preamp-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/14/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for controlling Peace (Equalizer APO) preamp with OSD overlay\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ThomasBasquin/peace-preamp-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ThomasBasquin/peace-preamp-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peace-preamp-ahk>\n\n; Example initialization\nclass PeacePreampAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peace-preamp-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeacePreampAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ThomasBasquin/peace-preamp-ahk\n; ============================================\n; URL: https://github.com/ThomasBasquin/peace-preamp-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/29/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script for controlling Peace (Equalizer APO) preamp with OSD overlay\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ThomasBasquin/peace-preamp-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ThomasBasquin/peace-preamp-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peace-preamp-ahk>\n\n; Example initialization\nclass PeacePreampAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peace-preamp-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeacePreampAhkExample()\n```"
     },
     {
       "id": "github-1180501627",
@@ -10919,13 +10919,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-26T01:12:01Z",
-      "lastModified": "2026-09-26T01:16:39Z",
+      "lastModified": "2026-09-29T22:07:42Z",
       "source": "github",
       "url": "https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP",
       "stars": 0,
       "forks": 0,
       "owner": "Icaruhvm",
-      "code": "```cpp\n; ============================================\n; Repository: Icaruhvm/Anti-Afk-BrasiliaRP\n; ============================================\n; URL: https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; Script em AutoHotkey v2 para automatizar ações anti-AFK no Brasília RP. Inclui movimentação aleatória, consumo automático de comida/bebida, painel de testes e agendamento de desligamento do PC.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Anti-Afk-BrasiliaRP>\n\n; Example initialization\nclass AntiAfkBrasiliarpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Anti-Afk-BrasiliaRP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AntiAfkBrasiliarpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Icaruhvm/Anti-Afk-BrasiliaRP\n; ============================================\n; URL: https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP\n; Stars: 0 | Forks: 0\n; Last Updated: 9/29/2026\n; License: Not specified\n;\n; Description:\n; Script em AutoHotkey v2 para automatizar ações anti-AFK no Brasília RP. Inclui movimentação aleatória, consumo automático de comida/bebida, painel de testes e agendamento de desligamento do PC.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Icaruhvm/Anti-Afk-BrasiliaRP/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Anti-Afk-BrasiliaRP>\n\n; Example initialization\nclass AntiAfkBrasiliarpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Anti-Afk-BrasiliaRP loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AntiAfkBrasiliarpExample()\n```"
     },
     {
       "id": "github-1389568698",
@@ -11265,6 +11265,25 @@
       "forks": 0,
       "owner": "29039",
       "code": "```cpp\n; ============================================\n; Repository: 29039/WinEasyLaunch\n; ============================================\n; URL: https://github.com/29039/WinEasyLaunch\n; Stars: 0 | Forks: 0\n; Last Updated: 9/29/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Simple program launcher written in AutoHotKey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/29039/WinEasyLaunch.git\n;\n; Option 2: Download ZIP\n;   https://github.com/29039/WinEasyLaunch/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinEasyLaunch>\n\n; Example initialization\nclass WineasylaunchExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinEasyLaunch loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WineasylaunchExample()\n```"
+    },
+    {
+      "id": "github-1396555433",
+      "title": "splashui",
+      "category": "GitHub Repository",
+      "description": "A keyboard-driven AutoHotkey v2 launcher, web search interface, and notetaker.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-29T20:27:26Z",
+      "lastModified": "2026-09-29T20:28:26Z",
+      "source": "github",
+      "url": "https://github.com/jakupmichaelsen/splashui",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jakupmichaelsen",
+      "code": "```cpp\n; ============================================\n; Repository: jakupmichaelsen/splashui\n; ============================================\n; URL: https://github.com/jakupmichaelsen/splashui\n; Stars: 0 | Forks: 0\n; Last Updated: 9/29/2026\n; License: Not specified\n;\n; Description:\n; A keyboard-driven AutoHotkey v2 launcher, web search interface, and notetaker.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jakupmichaelsen/splashui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jakupmichaelsen/splashui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <splashui>\n\n; Example initialization\nclass SplashuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"splashui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SplashuiExample()\n```"
     }
   ]
 }
