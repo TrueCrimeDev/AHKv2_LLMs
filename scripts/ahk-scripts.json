@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-30T12:15:09.063Z",
-  "totalScripts": 559,
+  "lastUpdated": "2026-09-30T18:11:50.212Z",
+  "totalScripts": 560,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-29T19:09:25Z",
+      "lastModified": "2026-09-30T17:35:21Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 10,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 10 | Forks: 0\n; Last Updated: 9/29/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 10 | Forks: 0\n; Last Updated: 9/30/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -8568,20 +8568,20 @@
       "id": "github-1317609827",
       "title": "key-mouse-remapper-assistant",
       "category": "GitHub Repository",
-      "description": "基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射小助手",
+      "description": "基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射���助手",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-30T19:18:58Z",
-      "lastModified": "2026-09-24T19:20:02Z",
+      "lastModified": "2026-09-30T15:07:16Z",
       "source": "github",
       "url": "https://github.com/realSilasYang/key-mouse-remapper-assistant",
       "stars": 1,
       "forks": 0,
       "owner": "realSilasYang",
-      "code": "```cpp\n; ============================================\n; Repository: realSilasYang/key-mouse-remapper-assistant\n; ============================================\n; URL: https://github.com/realSilasYang/key-mouse-remapper-assistant\n; Stars: 1 | Forks: 0\n; Last Updated: 9/24/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射小助手\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/realSilasYang/key-mouse-remapper-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/realSilasYang/key-mouse-remapper-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <key-mouse-remapper-assistant>\n\n; Example initialization\nclass KeyMouseRemapperAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"key-mouse-remapper-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyMouseRemapperAssistantExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: realSilasYang/key-mouse-remapper-assistant\n; ============================================\n; URL: https://github.com/realSilasYang/key-mouse-remapper-assistant\n; Stars: 1 | Forks: 0\n; Last Updated: 9/30/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射���助手\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/realSilasYang/key-mouse-remapper-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/realSilasYang/key-mouse-remapper-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <key-mouse-remapper-assistant>\n\n; Example initialization\nclass KeyMouseRemapperAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"key-mouse-remapper-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyMouseRemapperAssistantExample()\n```"
     },
     {
       "id": "github-1318618243",
@@ -10667,7 +10667,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-09-30T05:47:17Z",
+      "lastModified": "2026-09-30T16:18:06Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
@@ -10754,13 +10754,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-10T10:48:20Z",
-      "lastModified": "2026-09-22T20:01:26Z",
+      "lastModified": "2026-09-30T13:32:49Z",
       "source": "github",
       "url": "https://github.com/sandraschi/autohotkey-tools",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "sandraschi",
-      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 1 | Forks: 0\n; Last Updated: 9/22/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 2 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
     },
     {
       "id": "github-1383843860",
@@ -10842,13 +10842,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T13:02:15Z",
-      "lastModified": "2026-09-27T23:51:36Z",
+      "lastModified": "2026-09-30T15:51:44Z",
       "source": "github",
       "url": "https://github.com/nickrannikko-hub/Hey-Claude-",
       "stars": 0,
       "forks": 0,
       "owner": "nickrannikko-hub",
-      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 0 | Forks: 0\n; Last Updated: 9/27/2026\n; License: MIT License\n;\n; Description:\n; Hey, Claude! An unofficial plugin for the Claude desktop app on Windows: a floating captions window for your conversation, a hands-free 'Hey Claude' wake word, one-press voice and dictation, and shortcuts or Stream Deck buttons (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: MIT License\n;\n; Description:\n; Hey, Claude! An unofficial plugin for the Claude desktop app on Windows: a floating captions window for your conversation, a hands-free 'Hey Claude' wake word, one-press voice and dictation, and shortcuts or Stream Deck buttons (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
     },
     {
       "id": "github-1387339008",
@@ -11322,6 +11322,31 @@
       "forks": 0,
       "owner": "nokonok0",
       "code": "```cpp\n; ============================================\n; Repository: nokonok0/FloatingEditKeys\n; ============================================\n; URL: https://github.com/nokonok0/FloatingEditKeys\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Not specified\n;\n; Description:\n; A compact AutoHotkey v2 edit-key widget for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nokonok0/FloatingEditKeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nokonok0/FloatingEditKeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FloatingEditKeys>\n\n; Example initialization\nclass FloatingeditkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FloatingEditKeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FloatingeditkeysExample()\n```"
+    },
+    {
+      "id": "github-1397240354",
+      "title": "DesktopSwitcher",
+      "category": "GitHub Repository",
+      "description": "Jump straight to any Windows virtual desktop with Ctrl + Win + 1–9, with a smooth fade transition instead of sliding through every desktop. AutoHotkey v2 script, one-line install.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "authohotkey",
+        "autohotkey-v2",
+        "keyboard-shortcuts",
+        "window-management",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-30T07:03:34Z",
+      "lastModified": "2026-09-30T17:38:21Z",
+      "source": "github",
+      "url": "https://github.com/gurusanjay2322/DesktopSwitcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "gurusanjay2322",
+      "code": "```cpp\n; ============================================\n; Repository: gurusanjay2322/DesktopSwitcher\n; ============================================\n; URL: https://github.com/gurusanjay2322/DesktopSwitcher\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Other\n;\n; Description:\n; Jump straight to any Windows virtual desktop with Ctrl + Win + 1–9, with a smooth fade transition instead of sliding through every desktop. AutoHotkey v2 script, one-line install.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gurusanjay2322/DesktopSwitcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gurusanjay2322/DesktopSwitcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DesktopSwitcher>\n\n; Example initialization\nclass DesktopswitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DesktopSwitcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktopswitcherExample()\n```"
     }
   ]
 }
