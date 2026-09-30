@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-30T06:16:38.775Z",
-  "totalScripts": 557,
+  "lastUpdated": "2026-09-30T12:15:09.063Z",
+  "totalScripts": 559,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8777,13 +8777,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-09-16T10:05:09Z",
+      "lastModified": "2026-09-30T10:28:45Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
-      "stars": 18,
+      "stars": 20,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 18 | Forks: 1\n; Last Updated: 9/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 20 | Forks: 1\n; Last Updated: 9/30/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -11284,6 +11284,44 @@
       "forks": 0,
       "owner": "jakupmichaelsen",
       "code": "```cpp\n; ============================================\n; Repository: jakupmichaelsen/splashui\n; ============================================\n; URL: https://github.com/jakupmichaelsen/splashui\n; Stars: 0 | Forks: 0\n; Last Updated: 9/29/2026\n; License: Not specified\n;\n; Description:\n; A keyboard-driven AutoHotkey v2 launcher, web search interface, and notetaker.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jakupmichaelsen/splashui.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jakupmichaelsen/splashui/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <splashui>\n\n; Example initialization\nclass SplashuiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"splashui loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SplashuiExample()\n```"
+    },
+    {
+      "id": "github-1397523309",
+      "title": "autohotkey",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 scripts for window management and desktop utilities",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-30T09:43:16Z",
+      "lastModified": "2026-09-30T11:35:20Z",
+      "source": "github",
+      "url": "https://github.com/nroj95/autohotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nroj95",
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/autohotkey\n; ============================================\n; URL: https://github.com/nroj95/autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for window management and desktop utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1393805450",
+      "title": "FloatingEditKeys",
+      "category": "GitHub Repository",
+      "description": "A compact AutoHotkey v2 edit-key widget for Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-28T20:34:56Z",
+      "lastModified": "2026-09-30T11:00:27Z",
+      "source": "github",
+      "url": "https://github.com/nokonok0/FloatingEditKeys",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nokonok0",
+      "code": "```cpp\n; ============================================\n; Repository: nokonok0/FloatingEditKeys\n; ============================================\n; URL: https://github.com/nokonok0/FloatingEditKeys\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Not specified\n;\n; Description:\n; A compact AutoHotkey v2 edit-key widget for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nokonok0/FloatingEditKeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nokonok0/FloatingEditKeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FloatingEditKeys>\n\n; Example initialization\nclass FloatingeditkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FloatingEditKeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FloatingeditkeysExample()\n```"
     }
   ]
 }
