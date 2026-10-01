@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-01T12:15:01.919Z",
+  "lastUpdated": "2026-10-01T18:13:00.066Z",
   "totalScripts": 563,
   "categories": [
     "GUI",
@@ -10035,13 +10035,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-13T00:13:37Z",
-      "lastModified": "2026-09-09T05:25:45Z",
+      "lastModified": "2026-10-01T14:39:07Z",
       "source": "github",
       "url": "https://github.com/ogura-ryoya/PASCOPI",
       "stars": 0,
       "forks": 0,
       "owner": "ogura-ryoya",
-      "code": "```cpp\n; ============================================\n; Repository: ogura-ryoya/PASCOPI\n; ============================================\n; URL: https://github.com/ogura-ryoya/PASCOPI\n; Stars: 0 | Forks: 0\n; Last Updated: 9/9/2026\n; License: Not specified\n;\n; Description:\n; Windows Explorerのファイル・フォルダのパスを整形してコピーするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ogura-ryoya/PASCOPI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ogura-ryoya/PASCOPI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PASCOPI>\n\n; Example initialization\nclass PascopiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PASCOPI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PascopiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ogura-ryoya/PASCOPI\n; ============================================\n; URL: https://github.com/ogura-ryoya/PASCOPI\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: Not specified\n;\n; Description:\n; Windows Explorerのファイル・フォルダのパスを整形してコピーするAutoHotkey v2スクリプト\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ogura-ryoya/PASCOPI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ogura-ryoya/PASCOPI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PASCOPI>\n\n; Example initialization\nclass PascopiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PASCOPI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PascopiExample()\n```"
     },
     {
       "id": "github-1362617268",
@@ -10667,7 +10667,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-10-01T00:47:45Z",
+      "lastModified": "2026-10-01T16:16:26Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
@@ -11302,7 +11302,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-10-01T11:32:15Z",
+      "lastModified": "2026-10-01T13:35:07Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
@@ -11365,13 +11365,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T21:55:36Z",
-      "lastModified": "2026-09-30T22:01:34Z",
+      "lastModified": "2026-10-01T12:19:23Z",
       "source": "github",
       "url": "https://github.com/DevanshSrivastava88/claude-mouse-voice",
       "stars": 0,
       "forks": 0,
       "owner": "DevanshSrivastava88",
-      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
     },
     {
       "id": "github-1398965219",
