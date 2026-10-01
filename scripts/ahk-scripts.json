@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-01T06:16:58.262Z",
-  "totalScripts": 562,
+  "lastUpdated": "2026-10-01T12:15:01.919Z",
+  "totalScripts": 563,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -7594,13 +7594,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-09T08:45:56Z",
-      "lastModified": "2026-07-09T10:47:29Z",
+      "lastModified": "2026-10-01T10:01:11Z",
       "source": "github",
       "url": "https://github.com/yu1row/ExplorerHotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "yu1row",
-      "code": "```cpp\n; ============================================\n; Repository: yu1row/ExplorerHotkeys\n; ============================================\n; URL: https://github.com/yu1row/ExplorerHotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 7/9/2026\n; License: MIT License\n;\n; Description:\n; Hotkeys for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yu1row/ExplorerHotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yu1row/ExplorerHotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ExplorerHotkeys>\n\n; Example initialization\nclass ExplorerhotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ExplorerHotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ExplorerhotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yu1row/ExplorerHotkeys\n; ============================================\n; URL: https://github.com/yu1row/ExplorerHotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; Hotkeys for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yu1row/ExplorerHotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yu1row/ExplorerHotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ExplorerHotkeys>\n\n; Example initialization\nclass ExplorerhotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ExplorerHotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ExplorerhotkeysExample()\n```"
     },
     {
       "id": "github-1295765228",
@@ -8121,13 +8121,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T04:15:18Z",
-      "lastModified": "2026-09-26T07:35:07Z",
+      "lastModified": "2026-10-01T06:34:27Z",
       "source": "github",
       "url": "https://github.com/hakhatz2486/f13-keybindings",
       "stars": 0,
       "forks": 0,
       "owner": "hakhatz2486",
-      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 9/26/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
     },
     {
       "id": "github-1308626088",
@@ -11059,11 +11059,17 @@
       "description": "A macro for the Roblox game Prospecting. Record one loop by hand and it repeats it. AutoHotkey v2, portable, no installer.",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "automation",
+        "game-automation",
+        "macro",
+        "roblox",
+        "windows"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T06:34:10Z",
-      "lastModified": "2026-10-01T04:01:50Z",
+      "lastModified": "2026-10-01T06:50:56Z",
       "source": "github",
       "url": "https://github.com/athallajovian9-cyber/VortexMacro",
       "stars": 0,
@@ -11296,13 +11302,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-09-30T22:32:13Z",
+      "lastModified": "2026-10-01T11:32:15Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
       "forks": 0,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/autohotkey\n; ============================================\n; URL: https://github.com/nroj95/autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for window management and desktop utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/autohotkey\n; ============================================\n; URL: https://github.com/nroj95/autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for window management and desktop utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1393805450",
@@ -11371,20 +11377,45 @@
       "id": "github-1398965219",
       "title": "ScreenHalo",
       "category": "GitHub Repository",
-      "description": "Never type into the wrong monitor again. FocusScreen marks the screen that owns keyboard focus with a subtle edge glow. Windows, AutoHotkey v2, multi-monitor and mixed-DPI ready.",
+      "description": "Tiny Windows tray utility (AutoHotkey v2) that shows which monitor has keyboard focus, with a soft glow on your screens. Click-through, mixed-DPI aware, zero idle CPU.",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "dpi",
+        "focus-indicator",
+        "multi-monitor",
+        "productivity"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-01T02:50:37Z",
-      "lastModified": "2026-10-01T04:06:23Z",
+      "lastModified": "2026-10-01T07:17:19Z",
       "source": "github",
       "url": "https://github.com/Xyz9Selu/ScreenHalo",
       "stars": 0,
       "forks": 0,
       "owner": "Xyz9Selu",
-      "code": "```cpp\n; ============================================\n; Repository: Xyz9Selu/ScreenHalo\n; ============================================\n; URL: https://github.com/Xyz9Selu/ScreenHalo\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; Never type into the wrong monitor again. FocusScreen marks the screen that owns keyboard focus with a subtle edge glow. Windows, AutoHotkey v2, multi-monitor and mixed-DPI ready.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xyz9Selu/ScreenHalo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xyz9Selu/ScreenHalo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ScreenHalo>\n\n; Example initialization\nclass ScreenhaloExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ScreenHalo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ScreenhaloExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Xyz9Selu/ScreenHalo\n; ============================================\n; URL: https://github.com/Xyz9Selu/ScreenHalo\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; Tiny Windows tray utility (AutoHotkey v2) that shows which monitor has keyboard focus, with a soft glow on your screens. Click-through, mixed-DPI aware, zero idle CPU.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xyz9Selu/ScreenHalo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xyz9Selu/ScreenHalo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ScreenHalo>\n\n; Example initialization\nclass ScreenhaloExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ScreenHalo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ScreenhaloExample()\n```"
+    },
+    {
+      "id": "github-1399792734",
+      "title": "wpm-restore-geometry-guardrail",
+      "category": "GitHub Repository",
+      "description": "Event-driven guardrail that restores a window's pre-minimise geometry when Chrome/FancyZones drifts it (974 -> 1016). AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-01T11:02:43Z",
+      "lastModified": "2026-10-01T11:10:44Z",
+      "source": "github",
+      "url": "https://github.com/P4NTENG/wpm-restore-geometry-guardrail",
+      "stars": 0,
+      "forks": 0,
+      "owner": "P4NTENG",
+      "code": "```cpp\n; ============================================\n; Repository: P4NTENG/wpm-restore-geometry-guardrail\n; ============================================\n; URL: https://github.com/P4NTENG/wpm-restore-geometry-guardrail\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: Not specified\n;\n; Description:\n; Event-driven guardrail that restores a window's pre-minimise geometry when Chrome/FancyZones drifts it (974 -> 1016). AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/P4NTENG/wpm-restore-geometry-guardrail.git\n;\n; Option 2: Download ZIP\n;   https://github.com/P4NTENG/wpm-restore-geometry-guardrail/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <wpm-restore-geometry-guardrail>\n\n; Example initialization\nclass WpmRestoreGeometryGuardrailExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"wpm-restore-geometry-guardrail loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WpmRestoreGeometryGuardrailExample()\n```"
     }
   ]
 }
