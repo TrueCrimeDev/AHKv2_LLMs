@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-09-30T18:11:50.212Z",
-  "totalScripts": 560,
+  "lastUpdated": "2026-10-01T00:30:58.340Z",
+  "totalScripts": 561,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-09-30T17:35:21Z",
+      "lastModified": "2026-09-30T21:10:54Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 10,
@@ -10842,13 +10842,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T13:02:15Z",
-      "lastModified": "2026-09-30T15:51:44Z",
+      "lastModified": "2026-09-30T23:35:50Z",
       "source": "github",
       "url": "https://github.com/nickrannikko-hub/Hey-Claude-",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "nickrannikko-hub",
-      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: MIT License\n;\n; Description:\n; Hey, Claude! An unofficial plugin for the Claude desktop app on Windows: a floating captions window for your conversation, a hands-free 'Hey Claude' wake word, one-press voice and dictation, and shortcuts or Stream Deck buttons (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 1 | Forks: 0\n; Last Updated: 9/30/2026\n; License: MIT License\n;\n; Description:\n; Hey, Claude! An unofficial plugin for the Claude desktop app on Windows: a floating captions window for your conversation, a hands-free 'Hey Claude' wake word, one-press voice and dictation, and shortcuts or Stream Deck buttons (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
     },
     {
       "id": "github-1387339008",
@@ -11101,13 +11101,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T14:51:49Z",
-      "lastModified": "2026-09-28T23:43:54Z",
+      "lastModified": "2026-09-30T22:19:55Z",
       "source": "github",
       "url": "https://github.com/simsrw73/Legend.ahk",
       "stars": 0,
       "forks": 0,
       "owner": "simsrw73",
-      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
     },
     {
       "id": "github-1392666680",
@@ -11296,7 +11296,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-09-30T11:35:20Z",
+      "lastModified": "2026-09-30T22:32:13Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
@@ -11347,6 +11347,25 @@
       "forks": 0,
       "owner": "gurusanjay2322",
       "code": "```cpp\n; ============================================\n; Repository: gurusanjay2322/DesktopSwitcher\n; ============================================\n; URL: https://github.com/gurusanjay2322/DesktopSwitcher\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Other\n;\n; Description:\n; Jump straight to any Windows virtual desktop with Ctrl + Win + 1–9, with a smooth fade transition instead of sliding through every desktop. AutoHotkey v2 script, one-line install.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gurusanjay2322/DesktopSwitcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gurusanjay2322/DesktopSwitcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DesktopSwitcher>\n\n; Example initialization\nclass DesktopswitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DesktopSwitcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktopswitcherExample()\n```"
+    },
+    {
+      "id": "github-1398775556",
+      "title": "claude-mouse-voice",
+      "category": "GitHub Repository",
+      "description": "Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-30T21:55:36Z",
+      "lastModified": "2026-09-30T22:01:34Z",
+      "source": "github",
+      "url": "https://github.com/DevanshSrivastava88/claude-mouse-voice",
+      "stars": 0,
+      "forks": 0,
+      "owner": "DevanshSrivastava88",
+      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
     }
   ]
 }
