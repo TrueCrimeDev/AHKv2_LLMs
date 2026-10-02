@@ -1,5 +1,23 @@
 [
  {
+  "slug": "ahk-v2-benchmarking-playbook",
+  "title": "How to Benchmark LLMs on AHK v2: Ten Rules From Nine Experiments",
+  "preview_title": "The AHK v2 Benchmarking Playbook",
+  "date": "2026-10-02",
+  "description": "Nine experiments on this blog graded LLM-written AutoHotkey v2 nine different ways: a GUI that must open, a transform toolkit, 36 hidden-test functions, four harness arms, 24 class contracts, a repair suite, a rare-feature probe, a classifier that tried to be the grader, and a grading graph that audited the grader. This post distills them into ten rules, each with the number that forced it. Run the code against hidden cases (a 95 code score crashed; a judge model passed 199 of 211 zero-pass scripts). Split the work into small independent tasks (parse failures fell from 35% to 2%). Prove the suite before any model sees it (48 mutants killed, a blind spec-read). Aim at v2 semantics, not algorithms. Measure the harness separately (a rules card is worth +0.4 tasks, self-tests +5.4). Never trust one board, freeze the protocol, and audit your own instruments.",
+  "preview": "Ten rules for grading LLM-written AHK v2, each one forced by a number from the series' own boards.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "Methodology",
+   "AHK-Eval",
+   "AHK-Contract",
+   "AHK-Repair",
+   "Harness"
+  ],
+  "path": "posts/ahk-v2-benchmarking-playbook.md"
+ },
+ {
   "slug": "opus-5-5-ahk-eval",
   "title": "Claude Opus 5.5: Every Answer Right, Eleven Answers Missing",
   "preview_title": "Opus 5.5 Aces AHK-Contract, Loses Eval Tasks to a Refusal Gate",
