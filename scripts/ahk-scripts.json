@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-01T18:13:00.066Z",
-  "totalScripts": 563,
+  "lastUpdated": "2026-10-02T00:27:09.538Z",
+  "totalScripts": 564,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-01T02:51:47Z",
+      "lastModified": "2026-10-01T23:27:31Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 10,
@@ -6985,7 +6985,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-10-01T04:33:21Z",
+      "lastModified": "2026-10-01T23:15:05Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
@@ -10667,7 +10667,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-10-01T16:16:26Z",
+      "lastModified": "2026-10-01T18:26:21Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
@@ -11107,13 +11107,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T14:51:49Z",
-      "lastModified": "2026-09-30T22:19:55Z",
+      "lastModified": "2026-10-01T23:55:10Z",
       "source": "github",
       "url": "https://github.com/simsrw73/Legend.ahk",
       "stars": 0,
       "forks": 0,
       "owner": "simsrw73",
-      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
     },
     {
       "id": "github-1392666680",
@@ -11182,13 +11182,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T19:44:16Z",
-      "lastModified": "2026-09-28T19:46:41Z",
+      "lastModified": "2026-10-01T21:06:18Z",
       "source": "github",
       "url": "https://github.com/beepboop1998/clipboard-typer",
       "stars": 0,
       "forks": 0,
       "owner": "beepboop1998",
-      "code": "```cpp\n; ============================================\n; Repository: beepboop1998/clipboard-typer\n; ============================================\n; URL: https://github.com/beepboop1998/clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Paste into consoles that block paste. Types your clipboard as real keystrokes into VMware, Proxmox/noVNC and Hyper-V consoles, iLO/iDRAC, BeyondTrust/Bomgar sessions, and RDP with clipboard disabled. Single-file AutoHotkey v2 script for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/beepboop1998/clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/beepboop1998/clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-typer>\n\n; Example initialization\nclass ClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardTyperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: beepboop1998/clipboard-typer\n; ============================================\n; URL: https://github.com/beepboop1998/clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; Paste into consoles that block paste. Types your clipboard as real keystrokes into VMware, Proxmox/noVNC and Hyper-V consoles, iLO/iDRAC, BeyondTrust/Bomgar sessions, and RDP with clipboard disabled. Single-file AutoHotkey v2 script for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/beepboop1998/clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/beepboop1998/clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-typer>\n\n; Example initialization\nclass ClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardTyperExample()\n```"
     },
     {
       "id": "github-822979004",
@@ -11302,13 +11302,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-10-01T13:35:07Z",
+      "lastModified": "2026-10-02T00:22:40Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
       "forks": 0,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/autohotkey\n; ============================================\n; URL: https://github.com/nroj95/autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for window management and desktop utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/autohotkey\n; ============================================\n; URL: https://github.com/nroj95/autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for window management and desktop utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1393805450",
@@ -11416,6 +11416,25 @@
       "forks": 0,
       "owner": "P4NTENG",
       "code": "```cpp\n; ============================================\n; Repository: P4NTENG/wpm-restore-geometry-guardrail\n; ============================================\n; URL: https://github.com/P4NTENG/wpm-restore-geometry-guardrail\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: Not specified\n;\n; Description:\n; Event-driven guardrail that restores a window's pre-minimise geometry when Chrome/FancyZones drifts it (974 -> 1016). AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/P4NTENG/wpm-restore-geometry-guardrail.git\n;\n; Option 2: Download ZIP\n;   https://github.com/P4NTENG/wpm-restore-geometry-guardrail/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <wpm-restore-geometry-guardrail>\n\n; Example initialization\nclass WpmRestoreGeometryGuardrailExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"wpm-restore-geometry-guardrail loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WpmRestoreGeometryGuardrailExample()\n```"
+    },
+    {
+      "id": "github-1400681945",
+      "title": "traducteur",
+      "category": "GitHub Repository",
+      "description": "Outil tout simple de traduction automatique sous windows. Necessite AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-01T20:25:22Z",
+      "lastModified": "2026-10-01T20:43:43Z",
+      "source": "github",
+      "url": "https://github.com/CLusmi/traducteur",
+      "stars": 0,
+      "forks": 0,
+      "owner": "CLusmi",
+      "code": "```cpp\n; ============================================\n; Repository: CLusmi/traducteur\n; ============================================\n; URL: https://github.com/CLusmi/traducteur\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: Not specified\n;\n; Description:\n; Outil tout simple de traduction automatique sous windows. Necessite AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CLusmi/traducteur.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CLusmi/traducteur/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <traducteur>\n\n; Example initialization\nclass TraducteurExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"traducteur loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TraducteurExample()\n```"
     }
   ]
 }
