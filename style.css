@@ -181,6 +181,7 @@ kbd,
   color: var(--text-secondary);
   font: 500 11px var(--font-sans);
   letter-spacing: 0.3px;
+  white-space: nowrap;
 }
 
 .nav {
@@ -215,6 +216,44 @@ kbd,
   height: 2px;
   border-radius: 2px;
   background: var(--accent);
+}
+
+/* Featured nav item: the Console fork, as a quiet pill with a status dot */
+.nav-featured { margin-left: 6px; padding: 0 2px; }
+.nav-featured:hover { color: var(--text-primary); }
+
+.nav-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 30px;
+  padding: 0 12px 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(149, 188, 67, 0.05);
+  font-weight: 600;
+  transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+}
+
+.nav-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px rgba(149, 188, 67, 0.16);
+  flex-shrink: 0;
+}
+
+.nav-featured:hover .nav-chip {
+  border-color: rgba(149, 188, 67, 0.55);
+  background: var(--accent-dim);
+  box-shadow: 0 0 18px -6px rgba(149, 188, 67, 0.45);
+}
+
+.nav-featured[aria-current="page"]::after { display: none; }
+.nav-featured[aria-current="page"] .nav-chip {
+  border-color: rgba(149, 188, 67, 0.6);
+  background: var(--accent-dim);
 }
 
 .header-tools {
@@ -256,14 +295,19 @@ kbd,
 .menu-button:hover { background: var(--bg-elevated); }
 .menu-button svg { width: 20px; height: 20px; }
 
-@media (max-width: 1240px) {
+@media (max-width: 1420px) {
   .site-header { padding: 0 24px; }
   .nav-link { padding: 0 8px; font-size: 13.5px; }
   .nav-link[aria-current="page"]::after { left: 8px; right: 8px; }
   .search-label { padding-right: 4px; }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1320px) {
+  .search-label, .search-key { display: none; }
+  .search-button { width: 36px; padding: 0; justify-content: center; }
+}
+
+@media (max-width: 1180px) {
   .menu-button { display: inline-grid; }
   .header-divider { display: none; }
   .header-tools { margin-left: auto; }
@@ -292,6 +336,9 @@ kbd,
   .nav-link:last-child { border-bottom: 0; }
   .nav-link[aria-current="page"] { color: var(--accent); }
   .nav-link[aria-current="page"]::after { display: none; }
+  .nav-featured { order: -1; margin: 0; padding: 0 4px; border-bottom: 1px solid var(--border-muted); }
+  .nav-link:has(+ .nav-featured) { border-bottom: 0; }
+  .nav-featured[aria-current="page"] { color: var(--text-primary); }
 }
 
 @media (max-width: 640px) {
