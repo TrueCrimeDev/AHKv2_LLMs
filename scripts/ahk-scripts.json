@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-02T00:27:09.538Z",
-  "totalScripts": 564,
+  "lastUpdated": "2026-10-02T06:16:14.521Z",
+  "totalScripts": 566,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -3362,13 +3362,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-11T22:36:48Z",
-      "lastModified": "2026-09-28T20:31:15Z",
+      "lastModified": "2026-10-02T03:11:00Z",
       "source": "github",
       "url": "https://github.com/Dason-IsopodOverseer/UberMaus",
       "stars": 0,
       "forks": 0,
       "owner": "Dason-IsopodOverseer",
-      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Keyboard and Mouse Keybind Suite written in AutoHotkey (V1, V2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Dason-IsopodOverseer/UberMaus\n; ============================================\n; URL: https://github.com/Dason-IsopodOverseer/UberMaus\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Keyboard and Mouse Keybind Suite written in AutoHotkey (V1, V2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dason-IsopodOverseer/UberMaus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dason-IsopodOverseer/UberMaus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UberMaus>\n\n; Example initialization\nclass UbermausExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UberMaus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UbermausExample()\n```"
     },
     {
       "id": "github-1169619112",
@@ -10667,13 +10667,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-21T02:41:21Z",
-      "lastModified": "2026-10-01T18:26:21Z",
+      "lastModified": "2026-10-02T01:02:41Z",
       "source": "github",
       "url": "https://github.com/yviscool/Rim",
       "stars": 1,
       "forks": 1,
       "owner": "yviscool",
-      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 1 | Forks: 1\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; Rim = RunZ + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yviscool/Rim\n; ============================================\n; URL: https://github.com/yviscool/Rim\n; Stars: 1 | Forks: 1\n; Last Updated: 10/2/2026\n; License: MIT License\n;\n; Description:\n; Rim = RunZ + Vim + Stroke: keyboard-and-mouse-gesture-driven modal launcher for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yviscool/Rim.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yviscool/Rim/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Rim>\n\n; Example initialization\nclass RimExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Rim loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RimExample()\n```"
     },
     {
       "id": "github-1380537324",
@@ -11107,13 +11107,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T14:51:49Z",
-      "lastModified": "2026-10-01T23:55:10Z",
+      "lastModified": "2026-10-02T00:41:53Z",
       "source": "github",
       "url": "https://github.com/simsrw73/Legend.ahk",
       "stars": 0,
       "forks": 0,
       "owner": "simsrw73",
-      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
     },
     {
       "id": "github-1392666680",
@@ -11302,7 +11302,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-10-02T00:22:40Z",
+      "lastModified": "2026-10-02T01:51:27Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
@@ -11435,6 +11435,44 @@
       "forks": 0,
       "owner": "CLusmi",
       "code": "```cpp\n; ============================================\n; Repository: CLusmi/traducteur\n; ============================================\n; URL: https://github.com/CLusmi/traducteur\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: Not specified\n;\n; Description:\n; Outil tout simple de traduction automatique sous windows. Necessite AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CLusmi/traducteur.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CLusmi/traducteur/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <traducteur>\n\n; Example initialization\nclass TraducteurExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"traducteur loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TraducteurExample()\n```"
+    },
+    {
+      "id": "github-1401097553",
+      "title": "PowerShell.in.AHK",
+      "category": "GitHub Repository",
+      "description": "Run Windows PowerShell 5.1 commands in-process of AutoHotKey V2 without launching powershell.exe",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-02T04:55:10Z",
+      "lastModified": "2026-10-02T05:56:04Z",
+      "source": "github",
+      "url": "https://github.com/29039/PowerShell.in.AHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "29039",
+      "code": "```cpp\n; ============================================\n; Repository: 29039/PowerShell.in.AHK\n; ============================================\n; URL: https://github.com/29039/PowerShell.in.AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: GNU Lesser General Public License v2.1\n;\n; Description:\n; Run Windows PowerShell 5.1 commands in-process of AutoHotKey V2 without launching powershell.exe\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/29039/PowerShell.in.AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/29039/PowerShell.in.AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PowerShell.in.AHK>\n\n; Example initialization\nclass Powershell.in.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PowerShell.in.AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Powershell.in.ahkExample()\n```"
+    },
+    {
+      "id": "github-1401095533",
+      "title": "Mitake",
+      "category": "GitHub Repository",
+      "description": "使用AutoHotkey (AHK v2)對「三竹股市電腦版」自動化執行匯出資料",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-02T04:53:29Z",
+      "lastModified": "2026-10-02T05:09:10Z",
+      "source": "github",
+      "url": "https://github.com/jiajiamomomo/Mitake",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jiajiamomomo",
+      "code": "```cpp\n; ============================================\n; Repository: jiajiamomomo/Mitake\n; ============================================\n; URL: https://github.com/jiajiamomomo/Mitake\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: Not specified\n;\n; Description:\n; 使用AutoHotkey (AHK v2)對「三竹股市電腦版」自動化執行匯出資料\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jiajiamomomo/Mitake.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jiajiamomomo/Mitake/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mitake>\n\n; Example initialization\nclass MitakeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mitake loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MitakeExample()\n```"
     }
   ]
 }
