@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-02T12:14:47.640Z",
-  "totalScripts": 566,
+  "lastUpdated": "2026-10-02T18:12:22.498Z",
+  "totalScripts": 569,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -10842,13 +10842,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T13:02:15Z",
-      "lastModified": "2026-10-01T03:32:07Z",
+      "lastModified": "2026-10-02T16:01:41Z",
       "source": "github",
       "url": "https://github.com/nickrannikko-hub/Hey-Claude-",
       "stars": 1,
       "forks": 0,
       "owner": "nickrannikko-hub",
-      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 1 | Forks: 0\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; Hey, Claude! An unofficial plugin for the Claude desktop app on Windows: a floating captions window for your conversation, a hands-free 'Hey Claude' wake word, one-press voice and dictation, and shortcuts or Stream Deck buttons (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nickrannikko-hub/Hey-Claude-\n; ============================================\n; URL: https://github.com/nickrannikko-hub/Hey-Claude-\n; Stars: 1 | Forks: 0\n; Last Updated: 10/2/2026\n; License: MIT License\n;\n; Description:\n; Hey, Claude! An unofficial plugin for the Claude desktop app on Windows: a floating captions window for your conversation, a hands-free 'Hey Claude' wake word, one-press voice and dictation, and shortcuts or Stream Deck buttons (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nickrannikko-hub/Hey-Claude-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nickrannikko-hub/Hey-Claude-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Hey-Claude->\n\n; Example initialization\nclass HeyClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Hey-Claude- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HeyClaudeExample()\n```"
     },
     {
       "id": "github-1387339008",
@@ -11107,7 +11107,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T14:51:49Z",
-      "lastModified": "2026-10-02T06:42:45Z",
+      "lastModified": "2026-10-02T16:45:35Z",
       "source": "github",
       "url": "https://github.com/simsrw73/Legend.ahk",
       "stars": 0,
@@ -11302,7 +11302,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-10-02T01:51:27Z",
+      "lastModified": "2026-10-02T18:00:44Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
@@ -11321,13 +11321,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T20:34:56Z",
-      "lastModified": "2026-09-30T11:00:27Z",
+      "lastModified": "2026-10-02T14:24:11Z",
       "source": "github",
       "url": "https://github.com/nokonok0/FloatingEditKeys",
       "stars": 0,
       "forks": 0,
       "owner": "nokonok0",
-      "code": "```cpp\n; ============================================\n; Repository: nokonok0/FloatingEditKeys\n; ============================================\n; URL: https://github.com/nokonok0/FloatingEditKeys\n; Stars: 0 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Not specified\n;\n; Description:\n; A compact AutoHotkey v2 edit-key widget for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nokonok0/FloatingEditKeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nokonok0/FloatingEditKeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FloatingEditKeys>\n\n; Example initialization\nclass FloatingeditkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FloatingEditKeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FloatingeditkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nokonok0/FloatingEditKeys\n; ============================================\n; URL: https://github.com/nokonok0/FloatingEditKeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: Not specified\n;\n; Description:\n; A compact AutoHotkey v2 edit-key widget for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nokonok0/FloatingEditKeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nokonok0/FloatingEditKeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FloatingEditKeys>\n\n; Example initialization\nclass FloatingeditkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FloatingEditKeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FloatingeditkeysExample()\n```"
     },
     {
       "id": "github-1397240354",
@@ -11447,13 +11447,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-02T04:55:10Z",
-      "lastModified": "2026-10-02T05:56:04Z",
+      "lastModified": "2026-10-02T12:42:34Z",
       "source": "github",
       "url": "https://github.com/29039/PowerShell.in.AHK",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "29039",
-      "code": "```cpp\n; ============================================\n; Repository: 29039/PowerShell.in.AHK\n; ============================================\n; URL: https://github.com/29039/PowerShell.in.AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: GNU Lesser General Public License v2.1\n;\n; Description:\n; Run Windows PowerShell 5.1 commands in-process of AutoHotKey V2 without launching powershell.exe\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/29039/PowerShell.in.AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/29039/PowerShell.in.AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PowerShell.in.AHK>\n\n; Example initialization\nclass Powershell.in.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PowerShell.in.AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Powershell.in.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 29039/PowerShell.in.AHK\n; ============================================\n; URL: https://github.com/29039/PowerShell.in.AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 10/2/2026\n; License: GNU Lesser General Public License v2.1\n;\n; Description:\n; Run Windows PowerShell 5.1 commands in-process of AutoHotKey V2 without launching powershell.exe\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/29039/PowerShell.in.AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/29039/PowerShell.in.AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PowerShell.in.AHK>\n\n; Example initialization\nclass Powershell.in.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PowerShell.in.AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Powershell.in.ahkExample()\n```"
     },
     {
       "id": "github-1401095533",
@@ -11466,13 +11466,74 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-02T04:53:29Z",
-      "lastModified": "2026-10-02T07:52:30Z",
+      "lastModified": "2026-10-02T16:53:43Z",
       "source": "github",
       "url": "https://github.com/jiajiamomomo/Mitake",
       "stars": 0,
       "forks": 0,
       "owner": "jiajiamomomo",
       "code": "```cpp\n; ============================================\n; Repository: jiajiamomomo/Mitake\n; ============================================\n; URL: https://github.com/jiajiamomomo/Mitake\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: Not specified\n;\n; Description:\n; 使用AutoHotkey (AHK v2)對「三竹股市電腦版」自動化執行匯出資料\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jiajiamomomo/Mitake.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jiajiamomomo/Mitake/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mitake>\n\n; Example initialization\nclass MitakeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mitake loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MitakeExample()\n```"
+    },
+    {
+      "id": "github-1400766082",
+      "title": "minecraft-ahk-v2",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 scripts for Minecraft movement, building, mining, and mouse/keyboard shortcuts.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-01T22:04:33Z",
+      "lastModified": "2026-10-02T16:39:37Z",
+      "source": "github",
+      "url": "https://github.com/gammergii/minecraft-ahk-v2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "gammergii",
+      "code": "```cpp\n; ============================================\n; Repository: gammergii/minecraft-ahk-v2\n; ============================================\n; URL: https://github.com/gammergii/minecraft-ahk-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for Minecraft movement, building, mining, and mouse/keyboard shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gammergii/minecraft-ahk-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gammergii/minecraft-ahk-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <minecraft-ahk-v2>\n\n; Example initialization\nclass MinecraftAhkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"minecraft-ahk-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MinecraftAhkV2Example()\n```"
+    },
+    {
+      "id": "github-1401957626",
+      "title": "wizard101-autologin",
+      "category": "GitHub Repository",
+      "description": "Simple, safe auto login for the Wizard101 launcher (AutoHotkey v2, DPAPI-encrypted password)",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "wizard101"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-02T15:07:36Z",
+      "lastModified": "2026-10-02T15:07:45Z",
+      "source": "github",
+      "url": "https://github.com/Kwoolford/wizard101-autologin",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Kwoolford",
+      "code": "```cpp\n; ============================================\n; Repository: Kwoolford/wizard101-autologin\n; ============================================\n; URL: https://github.com/Kwoolford/wizard101-autologin\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: MIT License\n;\n; Description:\n; Simple, safe auto login for the Wizard101 launcher (AutoHotkey v2, DPAPI-encrypted password)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Kwoolford/wizard101-autologin.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Kwoolford/wizard101-autologin/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <wizard101-autologin>\n\n; Example initialization\nclass Wizard101AutologinExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"wizard101-autologin loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Wizard101AutologinExample()\n```"
+    },
+    {
+      "id": "github-1401182175",
+      "title": "ahk-auto",
+      "category": "GitHub Repository",
+      "description": "基于 AutoHotkey v2 的一键截图搜题脚本",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-02T05:49:47Z",
+      "lastModified": "2026-10-02T14:19:40Z",
+      "source": "github",
+      "url": "https://github.com/wsxgwzh/ahk-auto",
+      "stars": 0,
+      "forks": 0,
+      "owner": "wsxgwzh",
+      "code": "```cpp\n; ============================================\n; Repository: wsxgwzh/ahk-auto\n; ============================================\n; URL: https://github.com/wsxgwzh/ahk-auto\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: Not specified\n;\n; Description:\n; 基于 AutoHotkey v2 的一键截图搜题脚本\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsxgwzh/ahk-auto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsxgwzh/ahk-auto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-auto>\n\n; Example initialization\nclass AhkAutoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-auto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutoExample()\n```"
     }
   ]
 }
