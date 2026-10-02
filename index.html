@@ -6,20 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2026-10a">
   <script src="repos-feed.js" defer></script>
+  <script src="site.js?v=2026-10a" defer></script>
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
       <a href="index.html" class="logo">
-        <img src="logo.svg" alt="AHK" width="28" height="28" style="border-radius:7px;display:block">
-        <span class="logo-text">v2 &amp; LLMs</span>
+        <img src="logo.svg" alt="" width="34" height="34">
+        <span class="logo-text">AHKv2 &amp; LLMs</span>
       </a>
-      <nav class="nav">
-        <a href="#posts" class="nav-link">Posts</a>
-        <a href="#repos" class="nav-link">Repos</a>
+      <button class="search-button" type="button" data-search-open aria-label="Search posts and pages">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <span class="search-label">Search</span>
+        <kbd class="search-key">Ctrl K</kbd>
+      </button>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html#posts" class="nav-link" aria-current="page">Posts</a>
         <a href="benchmarks.html" class="nav-link">Benchmarks</a>
         <a href="leaderboard.html" class="nav-link">Leaderboard</a>
         <a href="prompts.html" class="nav-link">Prompts</a>
@@ -27,15 +32,21 @@
         <a href="inheritance.html" class="nav-link">Inheritance</a>
         <a href="console.html" class="nav-link">Console</a>
         <a href="playground.html" class="nav-link">Playground</a>
-        <a href="https://www.autohotkey.com/docs/v2/" target="_blank" class="nav-link">AHK Docs</a>
+        <a href="https://www.autohotkey.com/docs/v2/" class="nav-link" target="_blank" rel="noopener">AHK Docs <span class="ext" aria-hidden="true">&#8599;</span></a>
       </nav>
+      <div class="header-tools">
+        <span class="header-divider" aria-hidden="true"></span>
+        <a class="icon-link" href="https://github.com/TrueCrimeDev/AHKv2_LLMs" aria-label="GitHub repository"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2 0-.3-.5-1.5.2-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg></a>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
     </div>
   </header>
 
   <main class="main-grid">
     <div class="content-col">
       <section class="hero-section">
-        <h1>AutoHotkey v2 &amp; LLM Development</h1>
+        <p class="eyebrow">Benchmarks · field notes · tools</p>
+        <h1>AutoHotkey v2 <em>&amp; LLM development.</em></h1>
         <p>Deep dives into object-oriented programming, GUI design, prompt engineering, and modern scripting techniques for pairing AHK v2 with coding agents.</p>
       </section>
 
@@ -73,6 +84,12 @@
   </footer>
 
   <script>
+    // posts.json dates are calendar dates; parse them as local so they don't shift a day.
+    function parseDate(s) {
+      const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || '');
+      return m ? new Date(+m[1], +m[2] - 1, +m[3]) : new Date(s);
+    }
+
     async function loadPosts() {
       const grid = document.getElementById('post-grid');
       try {
@@ -85,9 +102,9 @@
         }
 
         const cards = posts
-          .sort((a, b) => new Date(b.date) - new Date(a.date))
+          .sort((a, b) => parseDate(b.date) - parseDate(a.date))
           .map(post => {
-            const date = new Date(post.date).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+            const date = parseDate(post.date).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
             const tags = (post.tags || [])
               .map(tag => `<span class="tag">${tag}</span>`)
               .join('');
