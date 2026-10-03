@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-02T18:12:22.498Z",
+  "lastUpdated": "2026-10-03T00:24:25.579Z",
   "totalScripts": 569,
   "categories": [
     "GUI",
@@ -554,20 +554,20 @@
       "id": "github-1111495315",
       "title": "myahk_v2",
       "category": "GitHub Repository",
-      "description": "AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。",
+      "description": "AutoHotkey v2で作られた、カスタマイズ可能なキーボー���ランチャー。無変換キーでアプリやツールを瞬時に起動。",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-07T03:41:58Z",
-      "lastModified": "2026-09-20T15:19:03Z",
+      "lastModified": "2026-10-02T22:37:38Z",
       "source": "github",
       "url": "https://github.com/masaodev/myahk_v2",
       "stars": 0,
       "forks": 0,
       "owner": "masaodev",
-      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 9/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボードランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: masaodev/myahk_v2\n; ============================================\n; URL: https://github.com/masaodev/myahk_v2\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2で作られた、カスタマイズ可能なキーボー���ランチャー。無変換キーでアプリやツールを瞬時に起動。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/masaodev/myahk_v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/masaodev/myahk_v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <myahk_v2>\n\n; Example initialization\nclass MyahkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"myahk_v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MyahkV2Example()\n```"
     },
     {
       "id": "github-1039208508",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-02T10:08:50Z",
+      "lastModified": "2026-10-02T23:17:21Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 10,
@@ -6947,13 +6947,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-16T17:35:48Z",
-      "lastModified": "2026-06-17T03:10:15Z",
+      "lastModified": "2026-10-02T21:40:55Z",
       "source": "github",
       "url": "https://github.com/foosmith/HoldLeftMouseButton",
       "stars": 0,
       "forks": 0,
       "owner": "foosmith",
-      "code": "```cpp\n; ============================================\n; Repository: foosmith/HoldLeftMouseButton\n; ============================================\n; URL: https://github.com/foosmith/HoldLeftMouseButton\n; Stars: 0 | Forks: 0\n; Last Updated: 6/17/2026\n; License: MIT License\n;\n; Description:\n; Accessibility helper for Windows: hold the left mouse button without sustained effort (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/foosmith/HoldLeftMouseButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/foosmith/HoldLeftMouseButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HoldLeftMouseButton>\n\n; Example initialization\nclass HoldleftmousebuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HoldLeftMouseButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HoldleftmousebuttonExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: foosmith/HoldLeftMouseButton\n; ============================================\n; URL: https://github.com/foosmith/HoldLeftMouseButton\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: MIT License\n;\n; Description:\n; Accessibility helper for Windows: hold the left mouse button without sustained effort (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/foosmith/HoldLeftMouseButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/foosmith/HoldLeftMouseButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HoldLeftMouseButton>\n\n; Example initialization\nclass HoldleftmousebuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HoldLeftMouseButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HoldleftmousebuttonExample()\n```"
     },
     {
       "id": "github-1273057469",
@@ -8777,13 +8777,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-09-30T10:28:45Z",
+      "lastModified": "2026-10-02T19:32:39Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 20,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 20 | Forks: 1\n; Last Updated: 9/30/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 20 | Forks: 1\n; Last Updated: 10/2/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -11107,7 +11107,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T14:51:49Z",
-      "lastModified": "2026-10-02T16:45:35Z",
+      "lastModified": "2026-10-02T18:20:38Z",
       "source": "github",
       "url": "https://github.com/simsrw73/Legend.ahk",
       "stars": 0,
@@ -11302,13 +11302,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-10-02T18:00:44Z",
+      "lastModified": "2026-10-03T00:12:32Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
       "forks": 0,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/autohotkey\n; ============================================\n; URL: https://github.com/nroj95/autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for window management and desktop utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/autohotkey\n; ============================================\n; URL: https://github.com/nroj95/autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/3/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for window management and desktop utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1393805450",
