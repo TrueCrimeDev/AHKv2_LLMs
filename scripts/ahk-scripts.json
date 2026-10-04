@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-03T18:38:42.146Z",
-  "totalScripts": 569,
+  "lastUpdated": "2026-10-04T01:05:54.649Z",
+  "totalScripts": 570,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-06-20T08:05:09Z",
+      "lastModified": "2026-10-03T22:42:46Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
-      "stars": 228,
+      "stars": 233,
       "forks": 36,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 228 | Forks: 36\n; Last Updated: 6/20/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 233 | Forks: 36\n; Last Updated: 10/3/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -6985,13 +6985,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-10-01T23:15:05Z",
+      "lastModified": "2026-10-03T21:22:53Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 10/3/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
     },
     {
       "id": "github-1273936664",
@@ -8777,13 +8777,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-10-02T19:32:39Z",
+      "lastModified": "2026-10-03T21:12:30Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 20,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 20 | Forks: 1\n; Last Updated: 10/2/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 20 | Forks: 1\n; Last Updated: 10/3/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -10861,13 +10861,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T11:19:56Z",
-      "lastModified": "2026-09-27T12:57:29Z",
+      "lastModified": "2026-10-04T00:49:55Z",
       "source": "github",
       "url": "https://github.com/yabaztayt/GSX",
       "stars": 0,
       "forks": 0,
       "owner": "yabaztayt",
-      "code": "```cpp\n; ============================================\n; Repository: yabaztayt/GSX\n; ============================================\n; URL: https://github.com/yabaztayt/GSX\n; Stars: 0 | Forks: 0\n; Last Updated: 9/27/2026\n; License: Not specified\n;\n; Description:\n; GSX is an ultra-lightweight AutoHotkey v2 utility for HTPCs. Press Guide + Start to instantly close the active app (WinClose → WinKill fallback), or Guide + Back to enable full controller-driven mouse and keyboard control, including a built-in on-screen keyboard.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yabaztayt/GSX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yabaztayt/GSX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GSX>\n\n; Example initialization\nclass GsxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GSX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GsxExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yabaztayt/GSX\n; ============================================\n; URL: https://github.com/yabaztayt/GSX\n; Stars: 0 | Forks: 0\n; Last Updated: 10/4/2026\n; License: Not specified\n;\n; Description:\n; GSX is an ultra-lightweight AutoHotkey v2 utility for HTPCs. Press Guide + Start to instantly close the active app (WinClose → WinKill fallback), or Guide + Back to enable full controller-driven mouse and keyboard control, including a built-in on-screen keyboard.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yabaztayt/GSX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yabaztayt/GSX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GSX>\n\n; Example initialization\nclass GsxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GSX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GsxExample()\n```"
     },
     {
       "id": "github-1331103621",
@@ -11182,13 +11182,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T19:44:16Z",
-      "lastModified": "2026-10-01T21:06:18Z",
+      "lastModified": "2026-10-03T19:58:34Z",
       "source": "github",
       "url": "https://github.com/beepboop1998/clipboard-typer",
       "stars": 0,
       "forks": 0,
       "owner": "beepboop1998",
-      "code": "```cpp\n; ============================================\n; Repository: beepboop1998/clipboard-typer\n; ============================================\n; URL: https://github.com/beepboop1998/clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; Paste into consoles that block paste. Types your clipboard as real keystrokes into VMware, Proxmox/noVNC and Hyper-V consoles, iLO/iDRAC, BeyondTrust/Bomgar sessions, and RDP with clipboard disabled. Single-file AutoHotkey v2 script for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/beepboop1998/clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/beepboop1998/clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-typer>\n\n; Example initialization\nclass ClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardTyperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: beepboop1998/clipboard-typer\n; ============================================\n; URL: https://github.com/beepboop1998/clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/3/2026\n; License: MIT License\n;\n; Description:\n; Paste into consoles that block paste. Types your clipboard as real keystrokes into VMware, Proxmox/noVNC and Hyper-V consoles, iLO/iDRAC, BeyondTrust/Bomgar sessions, and RDP with clipboard disabled. Single-file AutoHotkey v2 script for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/beepboop1998/clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/beepboop1998/clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-typer>\n\n; Example initialization\nclass ClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardTyperExample()\n```"
     },
     {
       "id": "github-822979004",
@@ -11302,7 +11302,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-10-03T17:37:44Z",
+      "lastModified": "2026-10-03T20:33:10Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
@@ -11534,6 +11534,25 @@
       "forks": 0,
       "owner": "wsxgwzh",
       "code": "```cpp\n; ============================================\n; Repository: wsxgwzh/ahk-auto\n; ============================================\n; URL: https://github.com/wsxgwzh/ahk-auto\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: Not specified\n;\n; Description:\n; 基于 AutoHotkey v2 的一键截图搜题脚本\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wsxgwzh/ahk-auto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wsxgwzh/ahk-auto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-auto>\n\n; Example initialization\nclass AhkAutoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-auto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutoExample()\n```"
+    },
+    {
+      "id": "github-1403732541",
+      "title": "InputTip",
+      "category": "GitHub Repository",
+      "description": "在文本光标下方显示输入法状态短横线的极简工具（AutoHotkey v2，单文件）",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-04T00:06:37Z",
+      "lastModified": "2026-10-04T00:18:47Z",
+      "source": "github",
+      "url": "https://github.com/EthanCaol/InputTip",
+      "stars": 0,
+      "forks": 0,
+      "owner": "EthanCaol",
+      "code": "```cpp\n; ============================================\n; Repository: EthanCaol/InputTip\n; ============================================\n; URL: https://github.com/EthanCaol/InputTip\n; Stars: 0 | Forks: 0\n; Last Updated: 10/4/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; 在文本光标下方显示输入法状态短横线的极简工具（AutoHotkey v2，单文件）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EthanCaol/InputTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EthanCaol/InputTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <InputTip>\n\n; Example initialization\nclass InputtipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"InputTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := InputtipExample()\n```"
     }
   ]
 }
