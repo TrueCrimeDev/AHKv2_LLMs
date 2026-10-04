@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-04T01:05:54.649Z",
+  "lastUpdated": "2026-10-04T08:02:44.000Z",
   "totalScripts": 570,
   "categories": [
     "GUI",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-03T13:43:31Z",
+      "lastModified": "2026-10-04T03:24:07Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/3/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/4/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -10861,7 +10861,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-25T11:19:56Z",
-      "lastModified": "2026-10-04T00:49:55Z",
+      "lastModified": "2026-10-04T06:17:17Z",
       "source": "github",
       "url": "https://github.com/yabaztayt/GSX",
       "stars": 0,
@@ -11302,13 +11302,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-10-03T20:33:10Z",
+      "lastModified": "2026-10-04T06:58:13Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
       "forks": 0,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/autohotkey\n; ============================================\n; URL: https://github.com/nroj95/autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/3/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for window management and desktop utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/autohotkey\n; ============================================\n; URL: https://github.com/nroj95/autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/4/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for window management and desktop utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1393805450",
@@ -11546,7 +11546,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-04T00:06:37Z",
-      "lastModified": "2026-10-04T00:18:47Z",
+      "lastModified": "2026-10-04T02:03:45Z",
       "source": "github",
       "url": "https://github.com/EthanCaol/InputTip",
       "stars": 0,
