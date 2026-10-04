@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-04T13:56:00.889Z",
-  "totalScripts": 571,
+  "lastUpdated": "2026-10-04T19:01:11.552Z",
+  "totalScripts": 572,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8689,13 +8689,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-02T15:29:00Z",
-      "lastModified": "2026-08-19T15:50:01Z",
+      "lastModified": "2026-10-04T15:11:11Z",
       "source": "github",
       "url": "https://github.com/smarchena/data-registration-automation",
       "stars": 0,
       "forks": 0,
       "owner": "smarchena",
-      "code": "```cpp\n; ============================================\n; Repository: smarchena/data-registration-automation\n; ============================================\n; URL: https://github.com/smarchena/data-registration-automation\n; Stars: 0 | Forks: 0\n; Last Updated: 8/19/2026\n; License: Not specified\n;\n; Description:\n; Automating the registration of materials in a web application using AutoHotkey v2, utilizing arrays, keyboard sequences, timeouts, and automatic navigation.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smarchena/data-registration-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smarchena/data-registration-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <data-registration-automation>\n\n; Example initialization\nclass DataRegistrationAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"data-registration-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DataRegistrationAutomationExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: smarchena/data-registration-automation\n; ============================================\n; URL: https://github.com/smarchena/data-registration-automation\n; Stars: 0 | Forks: 0\n; Last Updated: 10/4/2026\n; License: Not specified\n;\n; Description:\n; Automating the registration of materials in a web application using AutoHotkey v2, utilizing arrays, keyboard sequences, timeouts, and automatic navigation.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/smarchena/data-registration-automation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/smarchena/data-registration-automation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <data-registration-automation>\n\n; Example initialization\nclass DataRegistrationAutomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"data-registration-automation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DataRegistrationAutomationExample()\n```"
     },
     {
       "id": "github-1350179909",
@@ -11107,13 +11107,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T14:51:49Z",
-      "lastModified": "2026-10-02T18:20:38Z",
+      "lastModified": "2026-10-04T16:15:40Z",
       "source": "github",
       "url": "https://github.com/simsrw73/Legend.ahk",
       "stars": 0,
       "forks": 0,
       "owner": "simsrw73",
-      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 10/4/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
     },
     {
       "id": "github-1392666680",
@@ -11302,7 +11302,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-10-04T06:58:13Z",
+      "lastModified": "2026-10-04T17:43:17Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
@@ -11572,6 +11572,25 @@
       "forks": 0,
       "owner": "Spindr1fty",
       "code": "```cpp\n; ============================================\n; Repository: Spindr1fty/FolderDrawer\n; ============================================\n; URL: https://github.com/Spindr1fty/FolderDrawer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/4/2026\n; License: Not specified\n;\n; Description:\n; 悬停桌面文件夹就地展开内容 · AutoHotkey v2 单文件 · Hover to peek inside desktop folders\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Spindr1fty/FolderDrawer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Spindr1fty/FolderDrawer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FolderDrawer>\n\n; Example initialization\nclass FolderdrawerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FolderDrawer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FolderdrawerExample()\n```"
+    },
+    {
+      "id": "github-1404604449",
+      "title": "DeckLibre",
+      "category": "GitHub Repository",
+      "description": "Convierte cualquier teclado en una botonera tipo Stream Deck con AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-04T16:11:31Z",
+      "lastModified": "2026-10-04T16:16:37Z",
+      "source": "github",
+      "url": "https://github.com/castro077/DeckLibre",
+      "stars": 1,
+      "forks": 0,
+      "owner": "castro077",
+      "code": "```cpp\n; ============================================\n; Repository: castro077/DeckLibre\n; ============================================\n; URL: https://github.com/castro077/DeckLibre\n; Stars: 1 | Forks: 0\n; Last Updated: 10/4/2026\n; License: MIT License\n;\n; Description:\n; Convierte cualquier teclado en una botonera tipo Stream Deck con AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/castro077/DeckLibre.git\n;\n; Option 2: Download ZIP\n;   https://github.com/castro077/DeckLibre/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeckLibre>\n\n; Example initialization\nclass DecklibreExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeckLibre loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DecklibreExample()\n```"
     }
   ]
 }
