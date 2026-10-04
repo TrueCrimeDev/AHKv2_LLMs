@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-04T08:02:44.000Z",
-  "totalScripts": 570,
+  "lastUpdated": "2026-10-04T13:56:00.889Z",
+  "totalScripts": 571,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11553,6 +11553,25 @@
       "forks": 0,
       "owner": "EthanCaol",
       "code": "```cpp\n; ============================================\n; Repository: EthanCaol/InputTip\n; ============================================\n; URL: https://github.com/EthanCaol/InputTip\n; Stars: 0 | Forks: 0\n; Last Updated: 10/4/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; 在文本光标下方显示输入法状态短横线的极简工具（AutoHotkey v2，单文件）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EthanCaol/InputTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EthanCaol/InputTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <InputTip>\n\n; Example initialization\nclass InputtipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"InputTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := InputtipExample()\n```"
+    },
+    {
+      "id": "github-1404435944",
+      "title": "FolderDrawer",
+      "category": "GitHub Repository",
+      "description": "悬停桌面文件夹就地展开内容 · AutoHotkey v2 单文件 · Hover to peek inside desktop folders",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-04T13:22:37Z",
+      "lastModified": "2026-10-04T13:26:55Z",
+      "source": "github",
+      "url": "https://github.com/Spindr1fty/FolderDrawer",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Spindr1fty",
+      "code": "```cpp\n; ============================================\n; Repository: Spindr1fty/FolderDrawer\n; ============================================\n; URL: https://github.com/Spindr1fty/FolderDrawer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/4/2026\n; License: Not specified\n;\n; Description:\n; 悬停桌面文件夹就地展开内容 · AutoHotkey v2 单文件 · Hover to peek inside desktop folders\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Spindr1fty/FolderDrawer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Spindr1fty/FolderDrawer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FolderDrawer>\n\n; Example initialization\nclass FolderdrawerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FolderDrawer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FolderdrawerExample()\n```"
     }
   ]
 }
