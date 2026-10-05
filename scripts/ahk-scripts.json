@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-05T06:25:50.513Z",
-  "totalScripts": 573,
+  "lastUpdated": "2026-10-05T12:15:26.359Z",
+  "totalScripts": 574,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6407,7 +6407,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-10-05T05:18:19Z",
+      "lastModified": "2026-10-05T07:12:55Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 4,
@@ -11302,7 +11302,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-10-05T06:12:23Z",
+      "lastModified": "2026-10-05T07:59:09Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
@@ -11466,13 +11466,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-02T04:53:29Z",
-      "lastModified": "2026-10-02T16:53:43Z",
+      "lastModified": "2026-10-05T09:17:14Z",
       "source": "github",
       "url": "https://github.com/jiajiamomomo/Mitake",
       "stars": 0,
       "forks": 0,
       "owner": "jiajiamomomo",
-      "code": "```cpp\n; ============================================\n; Repository: jiajiamomomo/Mitake\n; ============================================\n; URL: https://github.com/jiajiamomomo/Mitake\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: Not specified\n;\n; Description:\n; 使用AutoHotkey (AHK v2)對「三竹股市電腦版」自動化執行匯出資料\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jiajiamomomo/Mitake.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jiajiamomomo/Mitake/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mitake>\n\n; Example initialization\nclass MitakeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mitake loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MitakeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jiajiamomomo/Mitake\n; ============================================\n; URL: https://github.com/jiajiamomomo/Mitake\n; Stars: 0 | Forks: 0\n; Last Updated: 10/5/2026\n; License: Not specified\n;\n; Description:\n; 使用AutoHotkey (AHK v2)對「三竹股市電腦版」自動化執行匯出資料\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jiajiamomomo/Mitake.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jiajiamomomo/Mitake/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mitake>\n\n; Example initialization\nclass MitakeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mitake loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MitakeExample()\n```"
     },
     {
       "id": "github-1400766082",
@@ -11616,6 +11616,25 @@
       "forks": 0,
       "owner": "SysWOW64UwU",
       "code": "```cpp\n; ============================================\n; Repository: SysWOW64UwU/TGMiniAppFullScreenToggle\n; ============================================\n; URL: https://github.com/SysWOW64UwU/TGMiniAppFullScreenToggle\n; Stars: 0 | Forks: 0\n; Last Updated: 10/5/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script that adds F11 fullscreen support to Telegram Desktop Mini Apps on Windows. Toggle Telegram Mini Apps into fullscreen mode with F11.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SysWOW64UwU/TGMiniAppFullScreenToggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SysWOW64UwU/TGMiniAppFullScreenToggle/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TGMiniAppFullScreenToggle>\n\n; Example initialization\nclass TgminiappfullscreentoggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TGMiniAppFullScreenToggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TgminiappfullscreentoggleExample()\n```"
+    },
+    {
+      "id": "github-1405572723",
+      "title": "etiketten-autoprinter",
+      "category": "GitHub Repository",
+      "description": "Etiketten autoprinter voor Pharmacom (AutoHotkey v2): print automatisch etiketten vanuit de aanschrijfbuffer",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-05T10:33:25Z",
+      "lastModified": "2026-10-05T10:33:39Z",
+      "source": "github",
+      "url": "https://github.com/ronaldsteenkamp/etiketten-autoprinter",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ronaldsteenkamp",
+      "code": "```cpp\n; ============================================\n; Repository: ronaldsteenkamp/etiketten-autoprinter\n; ============================================\n; URL: https://github.com/ronaldsteenkamp/etiketten-autoprinter\n; Stars: 0 | Forks: 0\n; Last Updated: 10/5/2026\n; License: Not specified\n;\n; Description:\n; Etiketten autoprinter voor Pharmacom (AutoHotkey v2): print automatisch etiketten vanuit de aanschrijfbuffer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ronaldsteenkamp/etiketten-autoprinter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ronaldsteenkamp/etiketten-autoprinter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <etiketten-autoprinter>\n\n; Example initialization\nclass EtikettenAutoprinterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"etiketten-autoprinter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EtikettenAutoprinterExample()\n```"
     }
   ]
 }
