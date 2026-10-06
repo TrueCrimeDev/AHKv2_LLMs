@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-05T18:12:16.196Z",
+  "lastUpdated": "2026-10-06T00:26:41.423Z",
   "totalScripts": 574,
   "categories": [
     "GUI",
@@ -1114,13 +1114,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2022-12-11T09:54:06Z",
-      "lastModified": "2026-09-21T08:37:03Z",
+      "lastModified": "2026-10-05T19:49:54Z",
       "source": "github",
       "url": "https://github.com/autohotkey-docs-translation/v2-source",
       "stars": 0,
       "forks": 0,
       "owner": "autohotkey-docs-translation",
-      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 9/21/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 10/5/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
     },
     {
       "id": "github-1101203666",
