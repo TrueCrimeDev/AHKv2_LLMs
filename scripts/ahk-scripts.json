@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-06T06:16:25.647Z",
-  "totalScripts": 576,
+  "lastUpdated": "2026-10-06T12:14:04.269Z",
+  "totalScripts": 577,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8777,13 +8777,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-10-06T03:31:54Z",
+      "lastModified": "2026-10-06T06:56:13Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
-      "stars": 20,
+      "stars": 21,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 20 | Forks: 1\n; Last Updated: 10/6/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 21 | Forks: 1\n; Last Updated: 10/6/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -11302,7 +11302,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T09:43:16Z",
-      "lastModified": "2026-10-06T05:47:46Z",
+      "lastModified": "2026-10-06T07:21:48Z",
       "source": "github",
       "url": "https://github.com/nroj95/autohotkey",
       "stars": 0,
@@ -11321,13 +11321,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T20:34:56Z",
-      "lastModified": "2026-10-02T14:24:11Z",
+      "lastModified": "2026-10-06T10:14:14Z",
       "source": "github",
       "url": "https://github.com/nokonok0/FloatingEditKeys",
       "stars": 0,
       "forks": 0,
       "owner": "nokonok0",
-      "code": "```cpp\n; ============================================\n; Repository: nokonok0/FloatingEditKeys\n; ============================================\n; URL: https://github.com/nokonok0/FloatingEditKeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/2/2026\n; License: Not specified\n;\n; Description:\n; A compact AutoHotkey v2 edit-key widget for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nokonok0/FloatingEditKeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nokonok0/FloatingEditKeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FloatingEditKeys>\n\n; Example initialization\nclass FloatingeditkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FloatingEditKeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FloatingeditkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nokonok0/FloatingEditKeys\n; ============================================\n; URL: https://github.com/nokonok0/FloatingEditKeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/6/2026\n; License: Not specified\n;\n; Description:\n; A compact AutoHotkey v2 edit-key widget for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nokonok0/FloatingEditKeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nokonok0/FloatingEditKeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FloatingEditKeys>\n\n; Example initialization\nclass FloatingeditkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FloatingEditKeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FloatingeditkeysExample()\n```"
     },
     {
       "id": "github-1397240354",
@@ -11459,20 +11459,20 @@
       "id": "github-1401095533",
       "title": "Mitake",
       "category": "GitHub Repository",
-      "description": "使用AutoHotkey (AHK v2)對「三竹股市電腦版」自動化執行匯出資料",
+      "description": "使用AutoHotkey (AHK v2)對「三竹股市電腦版���自動化執行匯出資料",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-02T04:53:29Z",
-      "lastModified": "2026-10-06T02:39:35Z",
+      "lastModified": "2026-10-06T07:19:32Z",
       "source": "github",
       "url": "https://github.com/jiajiamomomo/Mitake",
       "stars": 0,
       "forks": 0,
       "owner": "jiajiamomomo",
-      "code": "```cpp\n; ============================================\n; Repository: jiajiamomomo/Mitake\n; ============================================\n; URL: https://github.com/jiajiamomomo/Mitake\n; Stars: 0 | Forks: 0\n; Last Updated: 10/6/2026\n; License: Not specified\n;\n; Description:\n; 使用AutoHotkey (AHK v2)對「三竹股市電腦版」自動化執行匯出資料\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jiajiamomomo/Mitake.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jiajiamomomo/Mitake/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mitake>\n\n; Example initialization\nclass MitakeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mitake loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MitakeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jiajiamomomo/Mitake\n; ============================================\n; URL: https://github.com/jiajiamomomo/Mitake\n; Stars: 0 | Forks: 0\n; Last Updated: 10/6/2026\n; License: Not specified\n;\n; Description:\n; 使用AutoHotkey (AHK v2)對「三竹股市電腦版���自動化執行匯出資料\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jiajiamomomo/Mitake.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jiajiamomomo/Mitake/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mitake>\n\n; Example initialization\nclass MitakeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mitake loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MitakeExample()\n```"
     },
     {
       "id": "github-1400766082",
@@ -11653,7 +11653,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:17:02Z",
-      "lastModified": "2026-10-06T06:12:42Z",
+      "lastModified": "2026-10-06T11:59:00Z",
       "source": "github",
       "url": "https://github.com/tingtmu/peek-alttab",
       "stars": 0,
@@ -11677,13 +11677,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-06T05:29:33Z",
+      "lastModified": "2026-10-06T11:44:30Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
       "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/6/2026\n; License: MIT License\n;\n; Description:\n; Configurable AutoHotkey v2 date shortcuts for Australian accountants.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+    },
+    {
+      "id": "github-1406750718",
+      "title": "skok",
+      "category": "GitHub Repository",
+      "description": "Keyboard-only window switching for Windows, written in AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-06T05:31:50Z",
+      "lastModified": "2026-10-06T09:35:18Z",
+      "source": "github",
+      "url": "https://github.com/iamjoos/skok",
+      "stars": 0,
+      "forks": 0,
+      "owner": "iamjoos",
+      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/6/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
     }
   ]
 }
