@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-07T12:15:12.991Z",
-  "totalScripts": 578,
+  "lastUpdated": "2026-10-07T18:12:09.605Z",
+  "totalScripts": 579,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11226,13 +11226,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-27T20:03:00Z",
-      "lastModified": "2026-09-28T19:13:42Z",
+      "lastModified": "2026-10-07T13:37:36Z",
       "source": "github",
       "url": "https://github.com/mpeutz/Clipnik",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "mpeutz",
-      "code": "```cpp\n; ============================================\n; Repository: mpeutz/Clipnik\n; ============================================\n; URL: https://github.com/mpeutz/Clipnik\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: Apache License 2.0\n;\n; Description:\n; A Windows clipboard manager: hold Ctrl and tap V to walk back through everything you've copied. Channels, searchable history, a Vault for clips you keep for good, paste formats and copy rules. Portable, no install. An AutoHotkey v2 fork of Clipjump.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mpeutz/Clipnik.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mpeutz/Clipnik/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipnik>\n\n; Example initialization\nclass ClipnikExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipnik loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipnikExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mpeutz/Clipnik\n; ============================================\n; URL: https://github.com/mpeutz/Clipnik\n; Stars: 1 | Forks: 0\n; Last Updated: 10/7/2026\n; License: Apache License 2.0\n;\n; Description:\n; A Windows clipboard manager: hold Ctrl and tap V to walk back through everything you've copied. Channels, searchable history, a Vault for clips you keep for good, paste formats and copy rules. Portable, no install. An AutoHotkey v2 fork of Clipjump.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mpeutz/Clipnik.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mpeutz/Clipnik/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipnik>\n\n; Example initialization\nclass ClipnikExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipnik loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipnikExample()\n```"
     },
     {
       "id": "github-1395022689",
@@ -11565,13 +11565,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-04T13:22:37Z",
-      "lastModified": "2026-10-04T13:26:55Z",
+      "lastModified": "2026-10-07T13:24:34Z",
       "source": "github",
       "url": "https://github.com/Spindr1fty/FolderDrawer",
       "stars": 0,
       "forks": 0,
       "owner": "Spindr1fty",
-      "code": "```cpp\n; ============================================\n; Repository: Spindr1fty/FolderDrawer\n; ============================================\n; URL: https://github.com/Spindr1fty/FolderDrawer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/4/2026\n; License: Not specified\n;\n; Description:\n; 悬停桌面文件夹就地展开内容 · AutoHotkey v2 单文件 · Hover to peek inside desktop folders\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Spindr1fty/FolderDrawer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Spindr1fty/FolderDrawer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FolderDrawer>\n\n; Example initialization\nclass FolderdrawerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FolderDrawer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FolderdrawerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Spindr1fty/FolderDrawer\n; ============================================\n; URL: https://github.com/Spindr1fty/FolderDrawer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: Not specified\n;\n; Description:\n; 悬停桌面文件夹就地展开内容 · AutoHotkey v2 单文件 · Hover to peek inside desktop folders\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Spindr1fty/FolderDrawer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Spindr1fty/FolderDrawer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FolderDrawer>\n\n; Example initialization\nclass FolderdrawerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FolderDrawer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FolderdrawerExample()\n```"
     },
     {
       "id": "github-1404604449",
@@ -11653,7 +11653,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:17:02Z",
-      "lastModified": "2026-10-07T10:22:03Z",
+      "lastModified": "2026-10-07T13:01:55Z",
       "source": "github",
       "url": "https://github.com/tingtmu/peek-alttab",
       "stars": 0,
@@ -11696,7 +11696,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:31:50Z",
-      "lastModified": "2026-10-07T09:01:20Z",
+      "lastModified": "2026-10-07T17:07:57Z",
       "source": "github",
       "url": "https://github.com/iamjoos/skok",
       "stars": 0,
@@ -11725,6 +11725,25 @@
       "forks": 0,
       "owner": "huxc573",
       "code": "```cpp\n; ============================================\n; Repository: huxc573/mykeymap-custom-scripts\n; ============================================\n; URL: https://github.com/huxc573/mykeymap-custom-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: MIT License\n;\n; Description:\n; MyKeymap 自定义脚本：键鼠录制回放 / 连点器 / 亮度调节（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/huxc573/mykeymap-custom-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/huxc573/mykeymap-custom-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mykeymap-custom-scripts>\n\n; Example initialization\nclass MykeymapCustomScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mykeymap-custom-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MykeymapCustomScriptsExample()\n```"
+    },
+    {
+      "id": "github-1408784423",
+      "title": "PotPlayer-HoldSpeed",
+      "category": "GitHub Repository",
+      "description": "Hold RIGHT arrow for 3x playback in PotPlayer, release to restore 1.5x (AutoHotkey v2 + zTasker + scheduled-task broker)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-07T12:54:16Z",
+      "lastModified": "2026-10-07T14:30:42Z",
+      "source": "github",
+      "url": "https://github.com/bfzds/PotPlayer-HoldSpeed",
+      "stars": 0,
+      "forks": 0,
+      "owner": "bfzds",
+      "code": "```cpp\n; ============================================\n; Repository: bfzds/PotPlayer-HoldSpeed\n; ============================================\n; URL: https://github.com/bfzds/PotPlayer-HoldSpeed\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: MIT License\n;\n; Description:\n; Hold RIGHT arrow for 3x playback in PotPlayer, release to restore 1.5x (AutoHotkey v2 + zTasker + scheduled-task broker)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bfzds/PotPlayer-HoldSpeed.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bfzds/PotPlayer-HoldSpeed/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PotPlayer-HoldSpeed>\n\n; Example initialization\nclass PotplayerHoldspeedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PotPlayer-HoldSpeed loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PotplayerHoldspeedExample()\n```"
     }
   ]
 }
