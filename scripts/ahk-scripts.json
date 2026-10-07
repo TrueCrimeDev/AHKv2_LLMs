@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-07T06:15:51.275Z",
+  "lastUpdated": "2026-10-07T12:15:12.991Z",
   "totalScripts": 578,
   "categories": [
     "GUI",
@@ -6407,13 +6407,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-10-05T07:12:55Z",
+      "lastModified": "2026-10-07T08:01:02Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 4,
       "forks": 1,
       "owner": "paehtz",
-      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 4 | Forks: 1\n; Last Updated: 10/5/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 4 | Forks: 1\n; Last Updated: 10/7/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     },
     {
       "id": "github-1261581594",
@@ -11447,13 +11447,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-02T04:55:10Z",
-      "lastModified": "2026-10-02T12:42:34Z",
+      "lastModified": "2026-10-07T09:06:11Z",
       "source": "github",
       "url": "https://github.com/29039/PowerShell.in.AHK",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "29039",
-      "code": "```cpp\n; ============================================\n; Repository: 29039/PowerShell.in.AHK\n; ============================================\n; URL: https://github.com/29039/PowerShell.in.AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 10/2/2026\n; License: GNU Lesser General Public License v2.1\n;\n; Description:\n; Run Windows PowerShell 5.1 commands in-process of AutoHotKey V2 without launching powershell.exe\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/29039/PowerShell.in.AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/29039/PowerShell.in.AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PowerShell.in.AHK>\n\n; Example initialization\nclass Powershell.in.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PowerShell.in.AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Powershell.in.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 29039/PowerShell.in.AHK\n; ============================================\n; URL: https://github.com/29039/PowerShell.in.AHK\n; Stars: 2 | Forks: 0\n; Last Updated: 10/7/2026\n; License: GNU Lesser General Public License v2.1\n;\n; Description:\n; Run Windows PowerShell 5.1 commands in-process of AutoHotKey V2 without launching powershell.exe\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/29039/PowerShell.in.AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/29039/PowerShell.in.AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PowerShell.in.AHK>\n\n; Example initialization\nclass Powershell.in.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PowerShell.in.AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Powershell.in.ahkExample()\n```"
     },
     {
       "id": "github-1401095533",
@@ -11628,13 +11628,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-05T10:33:25Z",
-      "lastModified": "2026-10-05T15:35:36Z",
+      "lastModified": "2026-10-07T07:43:33Z",
       "source": "github",
       "url": "https://github.com/ronaldsteenkamp/etiketten-autoprinter",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "ronaldsteenkamp",
-      "code": "```cpp\n; ============================================\n; Repository: ronaldsteenkamp/etiketten-autoprinter\n; ============================================\n; URL: https://github.com/ronaldsteenkamp/etiketten-autoprinter\n; Stars: 0 | Forks: 0\n; Last Updated: 10/5/2026\n; License: Other\n;\n; Description:\n; Etiketten autoprinter voor Pharmacom (AutoHotkey v2): print automatisch etiketten vanuit de aanschrijfbuffer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ronaldsteenkamp/etiketten-autoprinter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ronaldsteenkamp/etiketten-autoprinter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <etiketten-autoprinter>\n\n; Example initialization\nclass EtikettenAutoprinterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"etiketten-autoprinter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EtikettenAutoprinterExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ronaldsteenkamp/etiketten-autoprinter\n; ============================================\n; URL: https://github.com/ronaldsteenkamp/etiketten-autoprinter\n; Stars: 1 | Forks: 0\n; Last Updated: 10/7/2026\n; License: Other\n;\n; Description:\n; Etiketten autoprinter voor Pharmacom (AutoHotkey v2): print automatisch etiketten vanuit de aanschrijfbuffer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ronaldsteenkamp/etiketten-autoprinter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ronaldsteenkamp/etiketten-autoprinter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <etiketten-autoprinter>\n\n; Example initialization\nclass EtikettenAutoprinterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"etiketten-autoprinter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EtikettenAutoprinterExample()\n```"
     },
     {
       "id": "github-1406736249",
@@ -11653,13 +11653,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:17:02Z",
-      "lastModified": "2026-10-06T14:33:38Z",
+      "lastModified": "2026-10-07T10:22:03Z",
       "source": "github",
       "url": "https://github.com/tingtmu/peek-alttab",
       "stars": 0,
       "forks": 0,
       "owner": "tingtmu",
-      "code": "```cpp\n; ============================================\n; Repository: tingtmu/peek-alttab\n; ============================================\n; URL: https://github.com/tingtmu/peek-alttab\n; Stars: 0 | Forks: 0\n; Last Updated: 10/6/2026\n; License: MIT License\n;\n; Description:\n; Frosted-glass Alt+Tab replacement for Windows (AutoHotkey v2) with a mood image that peeks over the pane\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tingtmu/peek-alttab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tingtmu/peek-alttab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peek-alttab>\n\n; Example initialization\nclass PeekAlttabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peek-alttab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeekAlttabExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tingtmu/peek-alttab\n; ============================================\n; URL: https://github.com/tingtmu/peek-alttab\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: MIT License\n;\n; Description:\n; Frosted-glass Alt+Tab replacement for Windows (AutoHotkey v2) with a mood image that peeks over the pane\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tingtmu/peek-alttab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tingtmu/peek-alttab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peek-alttab>\n\n; Example initialization\nclass PeekAlttabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peek-alttab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeekAlttabExample()\n```"
     },
     {
       "id": "github-1406747979",
@@ -11696,13 +11696,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:31:50Z",
-      "lastModified": "2026-10-06T09:35:18Z",
+      "lastModified": "2026-10-07T09:01:20Z",
       "source": "github",
       "url": "https://github.com/iamjoos/skok",
       "stars": 0,
       "forks": 0,
       "owner": "iamjoos",
-      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/6/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
     },
     {
       "id": "github-1408092944",
