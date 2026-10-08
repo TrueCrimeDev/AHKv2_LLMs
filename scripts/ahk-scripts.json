@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-08T00:26:07.314Z",
+  "lastUpdated": "2026-10-08T06:17:24.212Z",
   "totalScripts": 580,
   "categories": [
     "GUI",
@@ -6407,13 +6407,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-10-07T08:01:02Z",
+      "lastModified": "2026-10-08T02:10:51Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
-      "stars": 4,
+      "stars": 5,
       "forks": 1,
       "owner": "paehtz",
-      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 4 | Forks: 1\n; Last Updated: 10/7/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 5 | Forks: 1\n; Last Updated: 10/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     },
     {
       "id": "github-1261581594",
@@ -11459,20 +11459,20 @@
       "id": "github-1401095533",
       "title": "Mitake",
       "category": "GitHub Repository",
-      "description": "使用AutoHotkey (AHK v2)對「三竹股市電腦版���自動化執行匯出資料",
+      "description": "使用AutoHotkey (AHK v2)對「三竹股市電腦版」自動化執行匯出資料",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-02T04:53:29Z",
-      "lastModified": "2026-10-06T07:19:32Z",
+      "lastModified": "2026-10-08T05:33:41Z",
       "source": "github",
       "url": "https://github.com/jiajiamomomo/Mitake",
       "stars": 0,
       "forks": 0,
       "owner": "jiajiamomomo",
-      "code": "```cpp\n; ============================================\n; Repository: jiajiamomomo/Mitake\n; ============================================\n; URL: https://github.com/jiajiamomomo/Mitake\n; Stars: 0 | Forks: 0\n; Last Updated: 10/6/2026\n; License: Not specified\n;\n; Description:\n; 使用AutoHotkey (AHK v2)對「三竹股市電腦版���自動化執行匯出資料\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jiajiamomomo/Mitake.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jiajiamomomo/Mitake/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mitake>\n\n; Example initialization\nclass MitakeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mitake loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MitakeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jiajiamomomo/Mitake\n; ============================================\n; URL: https://github.com/jiajiamomomo/Mitake\n; Stars: 0 | Forks: 0\n; Last Updated: 10/8/2026\n; License: Not specified\n;\n; Description:\n; 使用AutoHotkey (AHK v2)對「三竹股市電腦版」自動化執行匯出資料\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jiajiamomomo/Mitake.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jiajiamomomo/Mitake/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mitake>\n\n; Example initialization\nclass MitakeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mitake loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MitakeExample()\n```"
     },
     {
       "id": "github-1400766082",
