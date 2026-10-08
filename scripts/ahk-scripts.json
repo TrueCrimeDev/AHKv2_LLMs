@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-08T12:14:18.861Z",
-  "totalScripts": 580,
+  "lastUpdated": "2026-10-08T18:11:48.243Z",
+  "totalScripts": 581,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-04T03:24:07Z",
+      "lastModified": "2026-10-08T13:01:31Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/4/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -11466,7 +11466,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-02T04:53:29Z",
-      "lastModified": "2026-10-08T07:56:00Z",
+      "lastModified": "2026-10-08T16:49:42Z",
       "source": "github",
       "url": "https://github.com/jiajiamomomo/Mitake",
       "stars": 0,
@@ -11653,13 +11653,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:17:02Z",
-      "lastModified": "2026-10-07T13:01:55Z",
+      "lastModified": "2026-10-08T13:48:48Z",
       "source": "github",
       "url": "https://github.com/tingtmu/peek-alttab",
       "stars": 0,
       "forks": 0,
       "owner": "tingtmu",
-      "code": "```cpp\n; ============================================\n; Repository: tingtmu/peek-alttab\n; ============================================\n; URL: https://github.com/tingtmu/peek-alttab\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: MIT License\n;\n; Description:\n; Frosted-glass Alt+Tab replacement for Windows (AutoHotkey v2) with a mood image that peeks over the pane\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tingtmu/peek-alttab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tingtmu/peek-alttab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peek-alttab>\n\n; Example initialization\nclass PeekAlttabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peek-alttab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeekAlttabExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tingtmu/peek-alttab\n; ============================================\n; URL: https://github.com/tingtmu/peek-alttab\n; Stars: 0 | Forks: 0\n; Last Updated: 10/8/2026\n; License: MIT License\n;\n; Description:\n; Frosted-glass Alt+Tab replacement for Windows (AutoHotkey v2) with a mood image that peeks over the pane\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tingtmu/peek-alttab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tingtmu/peek-alttab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peek-alttab>\n\n; Example initialization\nclass PeekAlttabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peek-alttab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeekAlttabExample()\n```"
     },
     {
       "id": "github-1406747979",
@@ -11696,13 +11696,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:31:50Z",
-      "lastModified": "2026-10-07T18:17:35Z",
+      "lastModified": "2026-10-08T14:13:53Z",
       "source": "github",
       "url": "https://github.com/iamjoos/skok",
       "stars": 0,
       "forks": 0,
       "owner": "iamjoos",
-      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/8/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
     },
     {
       "id": "github-1408092944",
@@ -11763,6 +11763,25 @@
       "forks": 0,
       "owner": "EmanChan050528",
       "code": "```cpp\n; ============================================\n; Repository: EmanChan050528/MacroUI\n; ============================================\n; URL: https://github.com/EmanChan050528/MacroUI\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: MIT License\n;\n; Description:\n; Dark-themed AutoHotkey v2 control panel for hold-click, auto-click and hold-key macros\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/EmanChan050528/MacroUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/EmanChan050528/MacroUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MacroUI>\n\n; Example initialization\nclass MacrouiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MacroUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacrouiExample()\n```"
+    },
+    {
+      "id": "github-741896420",
+      "title": "ahk-win-cmp",
+      "category": "GitHub Repository",
+      "description": "Small AutoHotkey v2 command palette and hotkey toolkit, configured in plain AHK",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-01-11T10:37:33Z",
+      "lastModified": "2026-10-08T12:55:49Z",
+      "source": "github",
+      "url": "https://github.com/sm079/ahk-win-cmp",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sm079",
+      "code": "```cpp\n; ============================================\n; Repository: sm079/ahk-win-cmp\n; ============================================\n; URL: https://github.com/sm079/ahk-win-cmp\n; Stars: 0 | Forks: 0\n; Last Updated: 10/8/2026\n; License: Not specified\n;\n; Description:\n; Small AutoHotkey v2 command palette and hotkey toolkit, configured in plain AHK\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sm079/ahk-win-cmp.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sm079/ahk-win-cmp/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-win-cmp>\n\n; Example initialization\nclass AhkWinCmpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-win-cmp loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWinCmpExample()\n```"
     }
   ]
 }
