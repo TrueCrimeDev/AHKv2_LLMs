@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-08T18:11:48.243Z",
-  "totalScripts": 581,
+  "lastUpdated": "2026-10-09T00:27:57.886Z",
+  "totalScripts": 582,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11107,13 +11107,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T14:51:49Z",
-      "lastModified": "2026-10-06T21:16:13Z",
+      "lastModified": "2026-10-08T22:24:37Z",
       "source": "github",
       "url": "https://github.com/simsrw73/Legend.ahk",
       "stars": 1,
       "forks": 0,
       "owner": "simsrw73",
-      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 10/6/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 10/8/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
     },
     {
       "id": "github-1392666680",
@@ -11782,6 +11782,31 @@
       "forks": 0,
       "owner": "sm079",
       "code": "```cpp\n; ============================================\n; Repository: sm079/ahk-win-cmp\n; ============================================\n; URL: https://github.com/sm079/ahk-win-cmp\n; Stars: 0 | Forks: 0\n; Last Updated: 10/8/2026\n; License: Not specified\n;\n; Description:\n; Small AutoHotkey v2 command palette and hotkey toolkit, configured in plain AHK\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sm079/ahk-win-cmp.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sm079/ahk-win-cmp/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-win-cmp>\n\n; Example initialization\nclass AhkWinCmpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-win-cmp loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWinCmpExample()\n```"
+    },
+    {
+      "id": "github-1408268042",
+      "title": "AllCharsAHK",
+      "category": "GitHub Repository",
+      "description": "Universal Unicode and Diacritics Typing Engine for Windows via AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "allchars",
+        "allchars-replacement",
+        "autohotkey",
+        "diacritics",
+        "keyboard-shortcuts"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-07T05:00:43Z",
+      "lastModified": "2026-10-09T00:24:01Z",
+      "source": "github",
+      "url": "https://github.com/ReluPercan/AllCharsAHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ReluPercan",
+      "code": "```cpp\n; ============================================\n; Repository: ReluPercan/AllCharsAHK\n; ============================================\n; URL: https://github.com/ReluPercan/AllCharsAHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; Universal Unicode and Diacritics Typing Engine for Windows via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ReluPercan/AllCharsAHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ReluPercan/AllCharsAHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AllCharsAHK>\n\n; Example initialization\nclass AllcharsahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AllCharsAHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AllcharsahkExample()\n```"
     }
   ]
 }
