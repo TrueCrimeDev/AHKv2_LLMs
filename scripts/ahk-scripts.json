@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-09T06:16:42.648Z",
-  "totalScripts": 584,
+  "lastUpdated": "2026-10-09T12:13:38.728Z",
+  "totalScripts": 587,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-07T18:19:38Z",
+      "lastModified": "2026-10-09T11:25:43Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: MIT License\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -11696,13 +11696,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:31:50Z",
-      "lastModified": "2026-10-08T14:13:53Z",
+      "lastModified": "2026-10-09T08:52:42Z",
       "source": "github",
       "url": "https://github.com/iamjoos/skok",
       "stars": 0,
       "forks": 0,
       "owner": "iamjoos",
-      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/8/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
     },
     {
       "id": "github-1408092944",
@@ -11845,6 +11845,69 @@
       "forks": 0,
       "owner": "Patodo",
       "code": "```cpp\n; ============================================\n; Repository: Patodo/mac-keys\n; ============================================\n; URL: https://github.com/Patodo/mac-keys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; macOS 风格键盘快捷键 for Windows：Alt=Command、Win=Option，AutoHotkey v2 单文件实现\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Patodo/mac-keys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Patodo/mac-keys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mac-keys>\n\n; Example initialization\nclass MacKeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mac-keys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacKeysExample()\n```"
+    },
+    {
+      "id": "github-1411529514",
+      "title": "invoker-game-bot",
+      "category": "GitHub Repository",
+      "description": "Dota 2 Invoker trainer & bot for invoker-game.com (New & Old Invoker): coach overlay in orb colours, time control, stats, 3 themes, 4 languages. AutoHotkey v2. Educational, not for setting records.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "autohotkey-v2",
+        "bot",
+        "coach",
+        "dota"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-09T08:33:08Z",
+      "lastModified": "2026-10-09T11:56:44Z",
+      "source": "github",
+      "url": "https://github.com/virtristis/invoker-game-bot",
+      "stars": 2,
+      "forks": 0,
+      "owner": "virtristis",
+      "code": "```cpp\n; ============================================\n; Repository: virtristis/invoker-game-bot\n; ============================================\n; URL: https://github.com/virtristis/invoker-game-bot\n; Stars: 2 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; Dota 2 Invoker trainer & bot for invoker-game.com (New & Old Invoker): coach overlay in orb colours, time control, stats, 3 themes, 4 languages. AutoHotkey v2. Educational, not for setting records.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/virtristis/invoker-game-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/virtristis/invoker-game-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <invoker-game-bot>\n\n; Example initialization\nclass InvokerGameBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"invoker-game-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := InvokerGameBotExample()\n```"
+    },
+    {
+      "id": "github-1411702242",
+      "title": "skillsnap",
+      "category": "GitHub Repository",
+      "description": "⚡ Never miss a Roblox extraction skillcheck - bot for circle + bar skillchecks with stats HUD. Requires AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-09T11:01:17Z",
+      "lastModified": "2026-10-09T11:53:06Z",
+      "source": "github",
+      "url": "https://github.com/brageat/skillsnap",
+      "stars": 0,
+      "forks": 0,
+      "owner": "brageat",
+      "code": "```cpp\n; ============================================\n; Repository: brageat/skillsnap\n; ============================================\n; URL: https://github.com/brageat/skillsnap\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; ⚡ Never miss a Roblox extraction skillcheck - bot for circle + bar skillchecks with stats HUD. Requires AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/brageat/skillsnap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/brageat/skillsnap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skillsnap>\n\n; Example initialization\nclass SkillsnapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skillsnap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkillsnapExample()\n```"
+    },
+    {
+      "id": "github-1411437226",
+      "title": "aula-volume-knob",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script: knob press controls media on the EPOMAKER x AULA F75",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-09T07:12:48Z",
+      "lastModified": "2026-10-09T07:12:57Z",
+      "source": "github",
+      "url": "https://github.com/yusufaf/aula-volume-knob",
+      "stars": 0,
+      "forks": 0,
+      "owner": "yusufaf",
+      "code": "```cpp\n; ============================================\n; Repository: yusufaf/aula-volume-knob\n; ============================================\n; URL: https://github.com/yusufaf/aula-volume-knob\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script: knob press controls media on the EPOMAKER x AULA F75\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yusufaf/aula-volume-knob.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yusufaf/aula-volume-knob/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <aula-volume-knob>\n\n; Example initialization\nclass AulaVolumeKnobExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"aula-volume-knob loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AulaVolumeKnobExample()\n```"
     }
   ]
 }
