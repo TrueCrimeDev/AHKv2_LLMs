@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-09T00:27:57.886Z",
-  "totalScripts": 582,
+  "lastUpdated": "2026-10-09T06:16:42.648Z",
+  "totalScripts": 584,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11807,6 +11807,44 @@
       "forks": 0,
       "owner": "ReluPercan",
       "code": "```cpp\n; ============================================\n; Repository: ReluPercan/AllCharsAHK\n; ============================================\n; URL: https://github.com/ReluPercan/AllCharsAHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; Universal Unicode and Diacritics Typing Engine for Windows via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ReluPercan/AllCharsAHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ReluPercan/AllCharsAHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AllCharsAHK>\n\n; Example initialization\nclass AllcharsahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AllCharsAHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AllcharsahkExample()\n```"
+    },
+    {
+      "id": "github-1377723602",
+      "title": "siege-profile-manager",
+      "category": "GitHub Repository",
+      "description": "G HUB Lua script + AutoHotkey v2 overlay for Rainbow Six Siege (private, training range use)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-20T00:04:17Z",
+      "lastModified": "2026-10-09T05:04:32Z",
+      "source": "github",
+      "url": "https://github.com/jamalmusialla81-hub/siege-profile-manager",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jamalmusialla81-hub",
+      "code": "```cpp\n; ============================================\n; Repository: jamalmusialla81-hub/siege-profile-manager\n; ============================================\n; URL: https://github.com/jamalmusialla81-hub/siege-profile-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: Not specified\n;\n; Description:\n; G HUB Lua script + AutoHotkey v2 overlay for Rainbow Six Siege (private, training range use)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jamalmusialla81-hub/siege-profile-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jamalmusialla81-hub/siege-profile-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <siege-profile-manager>\n\n; Example initialization\nclass SiegeProfileManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"siege-profile-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SiegeProfileManagerExample()\n```"
+    },
+    {
+      "id": "github-1411160251",
+      "title": "mac-keys",
+      "category": "GitHub Repository",
+      "description": "macOS 风格键盘快捷键 for Windows：Alt=Command、Win=Option，AutoHotkey v2 单文件实现",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-09T02:04:54Z",
+      "lastModified": "2026-10-09T03:09:25Z",
+      "source": "github",
+      "url": "https://github.com/Patodo/mac-keys",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Patodo",
+      "code": "```cpp\n; ============================================\n; Repository: Patodo/mac-keys\n; ============================================\n; URL: https://github.com/Patodo/mac-keys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; macOS 风格键盘快捷键 for Windows：Alt=Command、Win=Option，AutoHotkey v2 单文件实现\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Patodo/mac-keys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Patodo/mac-keys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mac-keys>\n\n; Example initialization\nclass MacKeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mac-keys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacKeysExample()\n```"
     }
   ]
 }
