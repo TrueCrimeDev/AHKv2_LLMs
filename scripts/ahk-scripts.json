@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-09T18:11:26.153Z",
+  "lastUpdated": "2026-10-10T00:27:20.213Z",
   "totalScripts": 587,
   "categories": [
     "GUI",
@@ -5940,13 +5940,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-22T21:59:54Z",
-      "lastModified": "2026-10-06T17:37:50Z",
+      "lastModified": "2026-10-09T19:30:28Z",
       "source": "github",
       "url": "https://github.com/KwangBeomPark/01_ClipOCR-Pro",
       "stars": 2,
       "forks": 0,
       "owner": "KwangBeomPark",
-      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/01_ClipOCR-Pro\n; ============================================\n; URL: https://github.com/KwangBeomPark/01_ClipOCR-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 10/6/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/01_ClipOCR-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/01_ClipOCR-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <01_ClipOCR-Pro>\n\n; Example initialization\nclass 01ClipocrProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"01_ClipOCR-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 01ClipocrProExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: KwangBeomPark/01_ClipOCR-Pro\n; ============================================\n; URL: https://github.com/KwangBeomPark/01_ClipOCR-Pro\n; Stars: 2 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; Premium screen-clipping and offline native OCR automation suite built with AutoHotkey v2 and GDI+. Features real-time annotations, compact badge mode, and auto-browser translation fallbacks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/KwangBeomPark/01_ClipOCR-Pro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/KwangBeomPark/01_ClipOCR-Pro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <01_ClipOCR-Pro>\n\n; Example initialization\nclass 01ClipocrProExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"01_ClipOCR-Pro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 01ClipocrProExample()\n```"
     },
     {
       "id": "github-1247276932",
@@ -11819,7 +11819,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-20T00:04:17Z",
-      "lastModified": "2026-10-09T05:04:32Z",
+      "lastModified": "2026-10-09T23:55:47Z",
       "source": "github",
       "url": "https://github.com/jamalmusialla81-hub/siege-profile-manager",
       "stars": 0,
@@ -11850,26 +11850,26 @@
       "id": "github-1411529514",
       "title": "invoker-game-bot",
       "category": "GitHub Repository",
-      "description": "Dota 2 Invoker trainer & bot for invoker-game.com (New & Old Invoker): coach overlay in orb colours, time control, stats, 3 themes, 4 languages. AutoHotkey v2. Educational, not for setting records.",
+      "description": "Started as a bot that plays invoker-game.com, then grew into my own Invoker trainer inside it: it teaches you to press exactly the right keys, without mistakes. Coach overlay, offline practice with spell icons, progress chart. New & Old Invoker, 3 themes, 4 languages. AutoHotkey v2. Educational, not for records.",
       "tags": [
         "github",
         "repository",
-        "ahk",
         "autohotkey",
         "autohotkey-v2",
         "bot",
         "coach",
-        "dota"
+        "dota-2",
+        "dota2"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-09T08:33:08Z",
-      "lastModified": "2026-10-09T18:02:39Z",
+      "lastModified": "2026-10-09T18:59:28Z",
       "source": "github",
       "url": "https://github.com/virtristis/invoker-game-bot",
       "stars": 2,
       "forks": 0,
       "owner": "virtristis",
-      "code": "```cpp\n; ============================================\n; Repository: virtristis/invoker-game-bot\n; ============================================\n; URL: https://github.com/virtristis/invoker-game-bot\n; Stars: 2 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; Dota 2 Invoker trainer & bot for invoker-game.com (New & Old Invoker): coach overlay in orb colours, time control, stats, 3 themes, 4 languages. AutoHotkey v2. Educational, not for setting records.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/virtristis/invoker-game-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/virtristis/invoker-game-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <invoker-game-bot>\n\n; Example initialization\nclass InvokerGameBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"invoker-game-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := InvokerGameBotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: virtristis/invoker-game-bot\n; ============================================\n; URL: https://github.com/virtristis/invoker-game-bot\n; Stars: 2 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; Started as a bot that plays invoker-game.com, then grew into my own Invoker trainer inside it: it teaches you to press exactly the right keys, without mistakes. Coach overlay, offline practice with spell icons, progress chart. New & Old Invoker, 3 themes, 4 languages. AutoHotkey v2. Educational, not for records.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/virtristis/invoker-game-bot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/virtristis/invoker-game-bot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <invoker-game-bot>\n\n; Example initialization\nclass InvokerGameBotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"invoker-game-bot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := InvokerGameBotExample()\n```"
     },
     {
       "id": "github-1411702242",
