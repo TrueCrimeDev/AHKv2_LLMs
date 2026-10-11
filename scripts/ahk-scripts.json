@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-10T18:11:00.670Z",
-  "totalScripts": 587,
+  "lastUpdated": "2026-10-11T00:29:52.439Z",
+  "totalScripts": 588,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-10-03T22:42:46Z",
+      "lastModified": "2026-10-10T19:02:09Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
       "stars": 233,
       "forks": 36,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 233 | Forks: 36\n; Last Updated: 10/3/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 233 | Forks: 36\n; Last Updated: 10/10/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -11044,13 +11044,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T10:10:00Z",
-      "lastModified": "2026-09-28T11:04:56Z",
+      "lastModified": "2026-10-11T00:06:45Z",
       "source": "github",
       "url": "https://github.com/mesix971/widget-meteo",
       "stars": 0,
       "forks": 0,
       "owner": "mesix971",
-      "code": "```cpp\n; ============================================\n; Repository: mesix971/widget-meteo\n; ============================================\n; URL: https://github.com/mesix971/widget-meteo\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Horloge et météo sur le bureau Windows, façon Android / iPhone (AutoHotkey v2) : prévisions, pluie dans l'heure, Bitcoin et bourse, actus, transports franciliens, phrases d'anglais. Gratuit, sans compte.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesix971/widget-meteo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesix971/widget-meteo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <widget-meteo>\n\n; Example initialization\nclass WidgetMeteoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"widget-meteo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WidgetMeteoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mesix971/widget-meteo\n; ============================================\n; URL: https://github.com/mesix971/widget-meteo\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: MIT License\n;\n; Description:\n; Horloge et météo sur le bureau Windows, façon Android / iPhone (AutoHotkey v2) : prévisions, pluie dans l'heure, Bitcoin et bourse, actus, transports franciliens, phrases d'anglais. Gratuit, sans compte.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesix971/widget-meteo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesix971/widget-meteo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <widget-meteo>\n\n; Example initialization\nclass WidgetMeteoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"widget-meteo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WidgetMeteoExample()\n```"
     },
     {
       "id": "github-1392019484",
@@ -11908,6 +11908,25 @@
       "forks": 0,
       "owner": "yusufaf",
       "code": "```cpp\n; ============================================\n; Repository: yusufaf/aula-volume-knob\n; ============================================\n; URL: https://github.com/yusufaf/aula-volume-knob\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script: knob press controls media on the EPOMAKER x AULA F75\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yusufaf/aula-volume-knob.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yusufaf/aula-volume-knob/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <aula-volume-knob>\n\n; Example initialization\nclass AulaVolumeKnobExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"aula-volume-knob loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AulaVolumeKnobExample()\n```"
+    },
+    {
+      "id": "github-1413516063",
+      "title": "btd6-ahk",
+      "category": "GitHub Repository",
+      "description": "A (soon to be) list of AutoHotkey (v2) scripts to be used alongside Bloons TD 6 for QOL shortcuts.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-10T18:11:55Z",
+      "lastModified": "2026-10-10T18:16:00Z",
+      "source": "github",
+      "url": "https://github.com/trbatukim/btd6-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "trbatukim",
+      "code": "```cpp\n; ============================================\n; Repository: trbatukim/btd6-ahk\n; ============================================\n; URL: https://github.com/trbatukim/btd6-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 10/10/2026\n; License: MIT License\n;\n; Description:\n; A (soon to be) list of AutoHotkey (v2) scripts to be used alongside Bloons TD 6 for QOL shortcuts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/trbatukim/btd6-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/trbatukim/btd6-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <btd6-ahk>\n\n; Example initialization\nclass Btd6AhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"btd6-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Btd6AhkExample()\n```"
     }
   ]
 }
