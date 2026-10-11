@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-11T12:13:58.518Z",
-  "totalScripts": 589,
+  "lastUpdated": "2026-10-11T18:11:36.416Z",
+  "totalScripts": 591,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6407,13 +6407,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-10-08T02:10:51Z",
+      "lastModified": "2026-10-11T15:27:57Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 5,
       "forks": 1,
       "owner": "paehtz",
-      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 5 | Forks: 1\n; Last Updated: 10/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 5 | Forks: 1\n; Last Updated: 10/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     },
     {
       "id": "github-1261581594",
@@ -8390,13 +8390,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T07:26:40Z",
-      "lastModified": "2026-09-11T17:59:26Z",
+      "lastModified": "2026-10-11T13:26:02Z",
       "source": "github",
       "url": "https://github.com/Pastinakel/DocBot",
       "stars": 0,
       "forks": 0,
       "owner": "Pastinakel",
-      "code": "```cpp\n; ============================================\n; Repository: Pastinakel/DocBot\n; ============================================\n; URL: https://github.com/Pastinakel/DocBot\n; Stars: 0 | Forks: 0\n; Last Updated: 9/11/2026\n; License: Other\n;\n; Description:\n; DocBot is een AutoHotkey v2-hulpmiddel voor medewerkers met twee hoofdfuncties: (a) tekstvervanging via hotstrings, en (b) bellen via de interne IP-telefonie van het bedrijf, inclusief automatische detectie van telefoonnummers op het klembord. Alles draait via één GUI met sidebar-navigatie en een tray-icoon.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pastinakel/DocBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pastinakel/DocBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DocBot>\n\n; Example initialization\nclass DocbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DocBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DocbotExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Pastinakel/DocBot\n; ============================================\n; URL: https://github.com/Pastinakel/DocBot\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: Other\n;\n; Description:\n; DocBot is een AutoHotkey v2-hulpmiddel voor medewerkers met twee hoofdfuncties: (a) tekstvervanging via hotstrings, en (b) bellen via de interne IP-telefonie van het bedrijf, inclusief automatische detectie van telefoonnummers op het klembord. Alles draait via één GUI met sidebar-navigatie en een tray-icoon.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Pastinakel/DocBot.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Pastinakel/DocBot/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DocBot>\n\n; Example initialization\nclass DocbotExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DocBot loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DocbotExample()\n```"
     },
     {
       "id": "github-1314312994",
@@ -11946,6 +11946,44 @@
       "forks": 0,
       "owner": "swaligora",
       "code": "```cpp\n; ============================================\n; Repository: swaligora/ahk-scripts\n; ============================================\n; URL: https://github.com/swaligora/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: MIT License\n;\n; Description:\n; Small AutoHotkey v2 scripts for Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/swaligora/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/swaligora/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
+    },
+    {
+      "id": "github-1414499314",
+      "title": "inksnap",
+      "category": "GitHub Repository",
+      "description": "Auto play for Ink Game minigames on Roblox: tug of war + Mingle Power Hold. Requires AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-11T15:44:19Z",
+      "lastModified": "2026-10-11T16:23:36Z",
+      "source": "github",
+      "url": "https://github.com/brageat/inksnap",
+      "stars": 0,
+      "forks": 0,
+      "owner": "brageat",
+      "code": "```cpp\n; ============================================\n; Repository: brageat/inksnap\n; ============================================\n; URL: https://github.com/brageat/inksnap\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: MIT License\n;\n; Description:\n; Auto play for Ink Game minigames on Roblox: tug of war + Mingle Power Hold. Requires AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/brageat/inksnap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/brageat/inksnap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <inksnap>\n\n; Example initialization\nclass InksnapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"inksnap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := InksnapExample()\n```"
+    },
+    {
+      "id": "github-1414321186",
+      "title": "mc-farm-macro",
+      "category": "GitHub Repository",
+      "description": "Minecraft farm macro (auto-run + auto-fire), AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-11T12:35:46Z",
+      "lastModified": "2026-10-11T12:36:56Z",
+      "source": "github",
+      "url": "https://github.com/sashkastuk777-cpu/mc-farm-macro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sashkastuk777-cpu",
+      "code": "```cpp\n; ============================================\n; Repository: sashkastuk777-cpu/mc-farm-macro\n; ============================================\n; URL: https://github.com/sashkastuk777-cpu/mc-farm-macro\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: Not specified\n;\n; Description:\n; Minecraft farm macro (auto-run + auto-fire), AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sashkastuk777-cpu/mc-farm-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sashkastuk777-cpu/mc-farm-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mc-farm-macro>\n\n; Example initialization\nclass McFarmMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mc-farm-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := McFarmMacroExample()\n```"
     }
   ]
 }
