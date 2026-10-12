@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-12T12:20:01.972Z",
-  "totalScripts": 593,
+  "lastUpdated": "2026-10-12T18:11:07.042Z",
+  "totalScripts": 594,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-10-10T19:02:09Z",
+      "lastModified": "2026-10-12T16:43:36Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
       "stars": 233,
       "forks": 36,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 233 | Forks: 36\n; Last Updated: 10/10/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 233 | Forks: 36\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -6928,13 +6928,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-12-19T19:42:27Z",
-      "lastModified": "2026-06-19T03:33:06Z",
+      "lastModified": "2026-10-12T15:35:47Z",
       "source": "github",
       "url": "https://github.com/J-MaFf/AutoHotkey-Scripts",
       "stars": 1,
       "forks": 0,
       "owner": "J-MaFf",
-      "code": "```cpp\n; ============================================\n; Repository: J-MaFf/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/J-MaFf/AutoHotkey-Scripts\n; Stars: 1 | Forks: 0\n; Last Updated: 6/19/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for Windows — custom keyboard shortcuts, Markdown-to-HTML conversion, and productivity utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/J-MaFf/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/J-MaFf/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: J-MaFf/AutoHotkey-Scripts\n; ============================================\n; URL: https://github.com/J-MaFf/AutoHotkey-Scripts\n; Stars: 1 | Forks: 0\n; Last Updated: 10/12/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts for Windows — custom keyboard shortcuts, Markdown-to-HTML conversion, and productivity utilities\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/J-MaFf/AutoHotkey-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/J-MaFf/AutoHotkey-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
     },
     {
       "id": "github-1271469084",
@@ -10098,13 +10098,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T17:54:53Z",
-      "lastModified": "2026-09-20T18:09:21Z",
+      "lastModified": "2026-10-12T17:56:32Z",
       "source": "github",
       "url": "https://github.com/Flop0333/AutoHotkey",
       "stars": 1,
       "forks": 0,
       "owner": "Flop0333",
-      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 9/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1365414747",
@@ -11653,13 +11653,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:17:02Z",
-      "lastModified": "2026-10-11T09:45:38Z",
+      "lastModified": "2026-10-12T12:29:41Z",
       "source": "github",
       "url": "https://github.com/tingtmu/peek-alttab",
       "stars": 0,
       "forks": 0,
       "owner": "tingtmu",
-      "code": "```cpp\n; ============================================\n; Repository: tingtmu/peek-alttab\n; ============================================\n; URL: https://github.com/tingtmu/peek-alttab\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: MIT License\n;\n; Description:\n; Frosted-glass Alt+Tab replacement for Windows (AutoHotkey v2) with a mood image that peeks over the pane\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tingtmu/peek-alttab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tingtmu/peek-alttab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peek-alttab>\n\n; Example initialization\nclass PeekAlttabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peek-alttab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeekAlttabExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: tingtmu/peek-alttab\n; ============================================\n; URL: https://github.com/tingtmu/peek-alttab\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; Frosted-glass Alt+Tab replacement for Windows (AutoHotkey v2) with a mood image that peeks over the pane\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tingtmu/peek-alttab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tingtmu/peek-alttab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <peek-alttab>\n\n; Example initialization\nclass PeekAlttabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"peek-alttab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PeekAlttabExample()\n```"
     },
     {
       "id": "github-1406747979",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-11T10:55:26Z",
+      "lastModified": "2026-10-12T14:32:31Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: MIT License\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -11696,13 +11696,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:31:50Z",
-      "lastModified": "2026-10-09T08:52:42Z",
+      "lastModified": "2026-10-12T16:57:52Z",
       "source": "github",
       "url": "https://github.com/iamjoos/skok",
       "stars": 0,
       "forks": 0,
       "owner": "iamjoos",
-      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
     },
     {
       "id": "github-1408092944",
@@ -11958,13 +11958,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-11T15:44:19Z",
-      "lastModified": "2026-10-11T16:23:36Z",
+      "lastModified": "2026-10-12T16:59:41Z",
       "source": "github",
       "url": "https://github.com/brageat/inksnap",
       "stars": 0,
       "forks": 0,
       "owner": "brageat",
-      "code": "```cpp\n; ============================================\n; Repository: brageat/inksnap\n; ============================================\n; URL: https://github.com/brageat/inksnap\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: MIT License\n;\n; Description:\n; Auto play for Ink Game minigames on Roblox: tug of war + Mingle Power Hold. Requires AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/brageat/inksnap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/brageat/inksnap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <inksnap>\n\n; Example initialization\nclass InksnapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"inksnap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := InksnapExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: brageat/inksnap\n; ============================================\n; URL: https://github.com/brageat/inksnap\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; Auto play for Ink Game minigames on Roblox: tug of war + Mingle Power Hold. Requires AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/brageat/inksnap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/brageat/inksnap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <inksnap>\n\n; Example initialization\nclass InksnapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"inksnap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := InksnapExample()\n```"
     },
     {
       "id": "github-1414321186",
@@ -12022,6 +12022,25 @@
       "forks": 0,
       "owner": "bibek624",
       "code": "```cpp\n; ============================================\n; Repository: bibek624/word-caption-keys\n; ============================================\n; URL: https://github.com/bibek624/word-caption-keys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; Keyboard shortcuts for captions and cross-references in Microsoft Word: pick a figure or table from a list and insert the cross-reference in one keystroke (AutoHotkey v2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bibek624/word-caption-keys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bibek624/word-caption-keys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <word-caption-keys>\n\n; Example initialization\nclass WordCaptionKeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"word-caption-keys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WordCaptionKeysExample()\n```"
+    },
+    {
+      "id": "github-1415787635",
+      "title": "pka-busca-instancias",
+      "category": "GitHub Repository",
+      "description": "Busca de instâncias do PokeAlliance em AutoHotkey v2, com captura em segundo plano e atualização pelo GitHub.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-12T15:28:59Z",
+      "lastModified": "2026-10-12T16:53:02Z",
+      "source": "github",
+      "url": "https://github.com/lucasgonca1997/pka-busca-instancias",
+      "stars": 0,
+      "forks": 0,
+      "owner": "lucasgonca1997",
+      "code": "```cpp\n; ============================================\n; Repository: lucasgonca1997/pka-busca-instancias\n; ============================================\n; URL: https://github.com/lucasgonca1997/pka-busca-instancias\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; Busca de instâncias do PokeAlliance em AutoHotkey v2, com captura em segundo plano e atualização pelo GitHub.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lucasgonca1997/pka-busca-instancias.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lucasgonca1997/pka-busca-instancias/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pka-busca-instancias>\n\n; Example initialization\nclass PkaBuscaInstanciasExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pka-busca-instancias loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PkaBuscaInstanciasExample()\n```"
     }
   ]
 }
