@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-11T18:11:36.416Z",
-  "totalScripts": 591,
+  "lastUpdated": "2026-10-12T00:30:45.912Z",
+  "totalScripts": 592,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6407,7 +6407,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-10-11T15:27:57Z",
+      "lastModified": "2026-10-11T19:24:21Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 5,
@@ -11984,6 +11984,25 @@
       "forks": 0,
       "owner": "sashkastuk777-cpu",
       "code": "```cpp\n; ============================================\n; Repository: sashkastuk777-cpu/mc-farm-macro\n; ============================================\n; URL: https://github.com/sashkastuk777-cpu/mc-farm-macro\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: Not specified\n;\n; Description:\n; Minecraft farm macro (auto-run + auto-fire), AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sashkastuk777-cpu/mc-farm-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sashkastuk777-cpu/mc-farm-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mc-farm-macro>\n\n; Example initialization\nclass McFarmMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mc-farm-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := McFarmMacroExample()\n```"
+    },
+    {
+      "id": "github-1414637109",
+      "title": "ED-Trip-Helper",
+      "category": "GitHub Repository",
+      "description": "One-key launch, Supercruise Assist and docking for Elite Dangerous. Press F9, point, press F9, make tea. AutoHotkey v2 script.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-11T18:12:48Z",
+      "lastModified": "2026-10-11T20:44:44Z",
+      "source": "github",
+      "url": "https://github.com/Barkeep-Bender/ED-Trip-Helper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Barkeep-Bender",
+      "code": "```cpp\n; ============================================\n; Repository: Barkeep-Bender/ED-Trip-Helper\n; ============================================\n; URL: https://github.com/Barkeep-Bender/ED-Trip-Helper\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: Other\n;\n; Description:\n; One-key launch, Supercruise Assist and docking for Elite Dangerous. Press F9, point, press F9, make tea. AutoHotkey v2 script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Barkeep-Bender/ED-Trip-Helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Barkeep-Bender/ED-Trip-Helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ED-Trip-Helper>\n\n; Example initialization\nclass EdTripHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ED-Trip-Helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EdTripHelperExample()\n```"
     }
   ]
 }
