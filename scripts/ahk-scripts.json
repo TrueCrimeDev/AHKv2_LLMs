@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-13T12:15:30.155Z",
-  "totalScripts": 598,
+  "lastUpdated": "2026-10-13T18:13:11.317Z",
+  "totalScripts": 603,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-13T12:05:13Z",
+      "lastModified": "2026-10-13T16:12:00Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
@@ -8777,13 +8777,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-10-13T03:10:31Z",
+      "lastModified": "2026-10-13T13:26:37Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
-      "stars": 23,
+      "stars": 24,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 23 | Forks: 1\n; Last Updated: 10/13/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 24 | Forks: 1\n; Last Updated: 10/13/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -9207,13 +9207,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T16:18:18Z",
-      "lastModified": "2026-08-25T06:02:35Z",
+      "lastModified": "2026-10-13T17:44:18Z",
       "source": "github",
       "url": "https://github.com/BelyaevAD/TextTools",
       "stars": 3,
       "forks": 0,
       "owner": "BelyaevAD",
-      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 3 | Forks: 0\n; Last Updated: 8/25/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 3 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
     },
     {
       "id": "github-1343408694",
@@ -10754,13 +10754,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-10T10:48:20Z",
-      "lastModified": "2026-10-13T09:32:10Z",
+      "lastModified": "2026-10-13T13:29:57Z",
       "source": "github",
       "url": "https://github.com/sandraschi/autohotkey-tools",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "sandraschi",
-      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 2 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 3 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
     },
     {
       "id": "github-1383843860",
@@ -11365,13 +11365,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T21:55:36Z",
-      "lastModified": "2026-10-12T05:26:16Z",
+      "lastModified": "2026-10-13T13:59:50Z",
       "source": "github",
       "url": "https://github.com/DevanshSrivastava88/claude-mouse-voice",
       "stars": 0,
       "forks": 0,
       "owner": "DevanshSrivastava88",
-      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
     },
     {
       "id": "github-1398965219",
@@ -11977,13 +11977,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-11T12:35:46Z",
-      "lastModified": "2026-10-12T03:43:23Z",
+      "lastModified": "2026-10-13T15:52:43Z",
       "source": "github",
       "url": "https://github.com/sashkastuk777-cpu/mc-farm-macro",
       "stars": 0,
       "forks": 0,
       "owner": "sashkastuk777-cpu",
-      "code": "```cpp\n; ============================================\n; Repository: sashkastuk777-cpu/mc-farm-macro\n; ============================================\n; URL: https://github.com/sashkastuk777-cpu/mc-farm-macro\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: Not specified\n;\n; Description:\n; Minecraft farm macro (auto-run + auto-fire), AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sashkastuk777-cpu/mc-farm-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sashkastuk777-cpu/mc-farm-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mc-farm-macro>\n\n; Example initialization\nclass McFarmMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mc-farm-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := McFarmMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sashkastuk777-cpu/mc-farm-macro\n; ============================================\n; URL: https://github.com/sashkastuk777-cpu/mc-farm-macro\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Not specified\n;\n; Description:\n; Minecraft farm macro (auto-run + auto-fire), AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sashkastuk777-cpu/mc-farm-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sashkastuk777-cpu/mc-farm-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mc-farm-macro>\n\n; Example initialization\nclass McFarmMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mc-farm-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := McFarmMacroExample()\n```"
     },
     {
       "id": "github-1414637109",
@@ -12053,7 +12053,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T05:21:10Z",
-      "lastModified": "2026-10-13T08:10:18Z",
+      "lastModified": "2026-10-13T14:24:10Z",
       "source": "github",
       "url": "https://github.com/2-3-5-7/SaveLiveCaptions-AHK",
       "stars": 0,
@@ -12101,7 +12101,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T08:48:35Z",
-      "lastModified": "2026-10-13T11:08:28Z",
+      "lastModified": "2026-10-13T15:55:19Z",
       "source": "github",
       "url": "https://github.com/workzeroai/airtable-korean-ime-fix",
       "stars": 0,
@@ -12120,13 +12120,126 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T06:58:00Z",
-      "lastModified": "2026-10-13T07:11:55Z",
+      "lastModified": "2026-10-13T12:27:49Z",
       "source": "github",
       "url": "https://github.com/aninstone/SolidWorks-RightButtonRotate",
       "stars": 0,
       "forks": 0,
       "owner": "aninstone",
       "code": "```cpp\n; ============================================\n; Repository: aninstone/SolidWorks-RightButtonRotate\n; ============================================\n; URL: https://github.com/aninstone/SolidWorks-RightButtonRotate\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Not specified\n;\n; Description:\n; SolidWorks right-click rotate & middle-click pan (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/aninstone/SolidWorks-RightButtonRotate.git\n;\n; Option 2: Download ZIP\n;   https://github.com/aninstone/SolidWorks-RightButtonRotate/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SolidWorks-RightButtonRotate>\n\n; Example initialization\nclass SolidworksRightbuttonrotateExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SolidWorks-RightButtonRotate loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SolidworksRightbuttonrotateExample()\n```"
+    },
+    {
+      "id": "github-1417471356",
+      "title": "fluid-ahk",
+      "category": "GitHub Repository",
+      "description": "Fluid — a sleek, modular dark-mode GUI component library for AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-13T16:24:34Z",
+      "lastModified": "2026-10-13T17:01:21Z",
+      "source": "github",
+      "url": "https://github.com/CommunityPokeOrg/fluid-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "CommunityPokeOrg",
+      "code": "```cpp\n; ============================================\n; Repository: CommunityPokeOrg/fluid-ahk\n; ============================================\n; URL: https://github.com/CommunityPokeOrg/fluid-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Fluid — a sleek, modular dark-mode GUI component library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CommunityPokeOrg/fluid-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CommunityPokeOrg/fluid-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <fluid-ahk>\n\n; Example initialization\nclass FluidAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"fluid-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FluidAhkExample()\n```"
+    },
+    {
+      "id": "github-1417301672",
+      "title": "ahk-desktop-lite",
+      "category": "GitHub Repository",
+      "description": "个人自用的键盘输入器：逐键输入、不碰剪贴板（基于 AutoHotkey v2）",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-13T15:03:25Z",
+      "lastModified": "2026-10-13T17:04:46Z",
+      "source": "github",
+      "url": "https://github.com/doctorcola001/ahk-desktop-lite",
+      "stars": 2,
+      "forks": 0,
+      "owner": "doctorcola001",
+      "code": "```cpp\n; ============================================\n; Repository: doctorcola001/ahk-desktop-lite\n; ============================================\n; URL: https://github.com/doctorcola001/ahk-desktop-lite\n; Stars: 2 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Not specified\n;\n; Description:\n; 个人自用的键盘输入器：逐键输入、不碰剪贴板（基于 AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/doctorcola001/ahk-desktop-lite.git\n;\n; Option 2: Download ZIP\n;   https://github.com/doctorcola001/ahk-desktop-lite/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-desktop-lite>\n\n; Example initialization\nclass AhkDesktopLiteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-desktop-lite loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkDesktopLiteExample()\n```"
+    },
+    {
+      "id": "github-1417224382",
+      "title": "MergeTool",
+      "category": "GitHub Repository",
+      "description": "Windows mail-merge tool in AutoHotkey v2: Word template + Excel data → Outlook emails, PDFs, or print",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "excel",
+        "mail-merge",
+        "microsoft-word",
+        "outlook"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-13T14:23:51Z",
+      "lastModified": "2026-10-13T14:24:24Z",
+      "source": "github",
+      "url": "https://github.com/DaanishSuhood/MergeTool",
+      "stars": 0,
+      "forks": 0,
+      "owner": "DaanishSuhood",
+      "code": "```cpp\n; ============================================\n; Repository: DaanishSuhood/MergeTool\n; ============================================\n; URL: https://github.com/DaanishSuhood/MergeTool\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Windows mail-merge tool in AutoHotkey v2: Word template + Excel data → Outlook emails, PDFs, or print\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DaanishSuhood/MergeTool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DaanishSuhood/MergeTool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MergeTool>\n\n; Example initialization\nclass MergetoolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MergeTool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MergetoolExample()\n```"
+    },
+    {
+      "id": "github-591743134",
+      "title": "SendTextZ",
+      "category": "GitHub Repository",
+      "description": "Manage and trigger hotstrings, text expansions, and boilerplate snippets with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey-v2",
+        "automation",
+        "hotstrings",
+        "keystrokes",
+        "productivity",
+        "snippets"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2023-01-21T18:15:27Z",
+      "lastModified": "2026-10-13T14:23:06Z",
+      "source": "github",
+      "url": "https://github.com/bceenaeiklmr/SendTextZ",
+      "stars": 23,
+      "forks": 2,
+      "owner": "bceenaeiklmr",
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/SendTextZ\n; ============================================\n; URL: https://github.com/bceenaeiklmr/SendTextZ\n; Stars: 23 | Forks: 2\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Manage and trigger hotstrings, text expansions, and boilerplate snippets with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/SendTextZ.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/SendTextZ/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SendTextZ>\n\n; Example initialization\nclass SendtextzExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SendTextZ loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SendtextzExample()\n```"
+    },
+    {
+      "id": "github-1411879357",
+      "title": "focusTrack",
+      "category": "GitHub Repository",
+      "description": "Lightweight background active window & focus tracker with idle detection and JSONL event logging in AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "activity-tracker",
+        "autohotkey-v2",
+        "focus-tracking",
+        "idle-detection",
+        "jsonl",
+        "time-tracking"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-09T13:18:25Z",
+      "lastModified": "2026-10-13T14:22:44Z",
+      "source": "github",
+      "url": "https://github.com/bceenaeiklmr/focusTrack",
+      "stars": 0,
+      "forks": 0,
+      "owner": "bceenaeiklmr",
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/focusTrack\n; ============================================\n; URL: https://github.com/bceenaeiklmr/focusTrack\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Not specified\n;\n; Description:\n; Lightweight background active window & focus tracker with idle detection and JSONL event logging in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/focusTrack.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/focusTrack/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <focusTrack>\n\n; Example initialization\nclass FocustrackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"focusTrack loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FocustrackExample()\n```"
     }
   ]
 }
