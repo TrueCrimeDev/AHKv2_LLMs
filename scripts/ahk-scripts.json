@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-12T18:11:07.042Z",
+  "lastUpdated": "2026-10-13T00:28:45.763Z",
   "totalScripts": 594,
   "categories": [
     "GUI",
@@ -450,7 +450,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-10-12T16:43:36Z",
+      "lastModified": "2026-10-12T22:44:21Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
       "stars": 233,
@@ -11132,13 +11132,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T12:34:19Z",
-      "lastModified": "2026-09-28T16:31:14Z",
+      "lastModified": "2026-10-12T20:43:41Z",
       "source": "github",
       "url": "https://github.com/beepboop1998/ListPaster-v3",
       "stars": 0,
       "forks": 0,
       "owner": "beepboop1998",
-      "code": "```cpp\n; ============================================\n; Repository: beepboop1998/ListPaster-v3\n; ============================================\n; URL: https://github.com/beepboop1998/ListPaster-v3\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: MIT License\n;\n; Description:\n; Paste a list one line at a time: copy a list, then each hotkey press enters the next item. AutoHotkey v2 sequential paste for Windows — fill web forms, Excel cells and remote desktop fields, with Tab/Enter auto-advance, undo, and a number/IP range generator.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/beepboop1998/ListPaster-v3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/beepboop1998/ListPaster-v3/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ListPaster-v3>\n\n; Example initialization\nclass ListpasterV3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ListPaster-v3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ListpasterV3Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: beepboop1998/ListPaster-v3\n; ============================================\n; URL: https://github.com/beepboop1998/ListPaster-v3\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; Paste a list one line at a time: copy a list, then each hotkey press enters the next item. AutoHotkey v2 sequential paste for Windows — fill web forms, Excel cells and remote desktop fields, with Tab/Enter auto-advance, undo, and a number/IP range generator.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/beepboop1998/ListPaster-v3.git\n;\n; Option 2: Download ZIP\n;   https://github.com/beepboop1998/ListPaster-v3/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ListPaster-v3>\n\n; Example initialization\nclass ListpasterV3Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ListPaster-v3 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ListpasterV3Example()\n```"
     },
     {
       "id": "github-1392719802",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-12T14:32:31Z",
+      "lastModified": "2026-10-12T20:24:04Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -12034,7 +12034,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-12T15:28:59Z",
-      "lastModified": "2026-10-12T16:53:02Z",
+      "lastModified": "2026-10-12T20:21:45Z",
       "source": "github",
       "url": "https://github.com/lucasgonca1997/pka-busca-instancias",
       "stars": 0,
