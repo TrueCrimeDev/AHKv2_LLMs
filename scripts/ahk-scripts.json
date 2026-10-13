@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-13T06:18:45.246Z",
-  "totalScripts": 596,
+  "lastUpdated": "2026-10-13T12:15:30.155Z",
+  "totalScripts": 598,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-08T13:01:31Z",
+      "lastModified": "2026-10-13T12:05:13Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/8/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/13/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -10754,13 +10754,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-10T10:48:20Z",
-      "lastModified": "2026-09-30T13:32:49Z",
+      "lastModified": "2026-10-13T09:32:10Z",
       "source": "github",
       "url": "https://github.com/sandraschi/autohotkey-tools",
       "stars": 2,
       "forks": 0,
       "owner": "sandraschi",
-      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 2 | Forks: 0\n; Last Updated: 9/30/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 2 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
     },
     {
       "id": "github-1383843860",
@@ -11628,13 +11628,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-05T10:33:25Z",
-      "lastModified": "2026-10-07T07:43:33Z",
+      "lastModified": "2026-10-13T10:46:19Z",
       "source": "github",
       "url": "https://github.com/ronaldsteenkamp/etiketten-autoprinter",
       "stars": 1,
       "forks": 0,
       "owner": "ronaldsteenkamp",
-      "code": "```cpp\n; ============================================\n; Repository: ronaldsteenkamp/etiketten-autoprinter\n; ============================================\n; URL: https://github.com/ronaldsteenkamp/etiketten-autoprinter\n; Stars: 1 | Forks: 0\n; Last Updated: 10/7/2026\n; License: Other\n;\n; Description:\n; Etiketten autoprinter voor Pharmacom (AutoHotkey v2): print automatisch etiketten vanuit de aanschrijfbuffer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ronaldsteenkamp/etiketten-autoprinter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ronaldsteenkamp/etiketten-autoprinter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <etiketten-autoprinter>\n\n; Example initialization\nclass EtikettenAutoprinterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"etiketten-autoprinter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EtikettenAutoprinterExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ronaldsteenkamp/etiketten-autoprinter\n; ============================================\n; URL: https://github.com/ronaldsteenkamp/etiketten-autoprinter\n; Stars: 1 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Other\n;\n; Description:\n; Etiketten autoprinter voor Pharmacom (AutoHotkey v2): print automatisch etiketten vanuit de aanschrijfbuffer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ronaldsteenkamp/etiketten-autoprinter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ronaldsteenkamp/etiketten-autoprinter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <etiketten-autoprinter>\n\n; Example initialization\nclass EtikettenAutoprinterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"etiketten-autoprinter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EtikettenAutoprinterExample()\n```"
     },
     {
       "id": "github-1406736249",
@@ -12053,7 +12053,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T05:21:10Z",
-      "lastModified": "2026-10-13T05:22:05Z",
+      "lastModified": "2026-10-13T08:10:18Z",
       "source": "github",
       "url": "https://github.com/2-3-5-7/SaveLiveCaptions-AHK",
       "stars": 0,
@@ -12085,6 +12085,48 @@
       "forks": 0,
       "owner": "dm4skus",
       "code": "```cpp\n; ============================================\n; Repository: dm4skus/MergeTool\n; ============================================\n; URL: https://github.com/dm4skus/MergeTool\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Windows mail-merge tool in AutoHotkey v2: Word template + Excel data → Outlook emails, PDFs, or print\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dm4skus/MergeTool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dm4skus/MergeTool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MergeTool>\n\n; Example initialization\nclass MergetoolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MergeTool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MergetoolExample()\n```"
+    },
+    {
+      "id": "github-1416729598",
+      "title": "airtable-korean-ime-fix",
+      "category": "GitHub Repository",
+      "description": "에어테이블 셀 선택 직후 한글 첫 글자가 영문으로 새는 문제를 F2 선행 입력으로 막는 AutoHotkey v2 스크립트",
+      "tags": [
+        "github",
+        "repository",
+        "airtable",
+        "autohotkey",
+        "ime",
+        "korean"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-13T08:48:35Z",
+      "lastModified": "2026-10-13T11:08:28Z",
+      "source": "github",
+      "url": "https://github.com/workzeroai/airtable-korean-ime-fix",
+      "stars": 0,
+      "forks": 0,
+      "owner": "workzeroai",
+      "code": "```cpp\n; ============================================\n; Repository: workzeroai/airtable-korean-ime-fix\n; ============================================\n; URL: https://github.com/workzeroai/airtable-korean-ime-fix\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; 에어테이블 셀 선택 직후 한글 첫 글자가 영문으로 새는 문제를 F2 선행 입력으로 막는 AutoHotkey v2 스크립트\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/workzeroai/airtable-korean-ime-fix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/workzeroai/airtable-korean-ime-fix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <airtable-korean-ime-fix>\n\n; Example initialization\nclass AirtableKoreanImeFixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"airtable-korean-ime-fix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AirtableKoreanImeFixExample()\n```"
+    },
+    {
+      "id": "github-1416599164",
+      "title": "SolidWorks-RightButtonRotate",
+      "category": "GitHub Repository",
+      "description": "SolidWorks right-click rotate & middle-click pan (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-13T06:58:00Z",
+      "lastModified": "2026-10-13T07:11:55Z",
+      "source": "github",
+      "url": "https://github.com/aninstone/SolidWorks-RightButtonRotate",
+      "stars": 0,
+      "forks": 0,
+      "owner": "aninstone",
+      "code": "```cpp\n; ============================================\n; Repository: aninstone/SolidWorks-RightButtonRotate\n; ============================================\n; URL: https://github.com/aninstone/SolidWorks-RightButtonRotate\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Not specified\n;\n; Description:\n; SolidWorks right-click rotate & middle-click pan (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/aninstone/SolidWorks-RightButtonRotate.git\n;\n; Option 2: Download ZIP\n;   https://github.com/aninstone/SolidWorks-RightButtonRotate/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SolidWorks-RightButtonRotate>\n\n; Example initialization\nclass SolidworksRightbuttonrotateExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SolidWorks-RightButtonRotate loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SolidworksRightbuttonrotateExample()\n```"
     }
   ]
 }
