@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-13T00:28:45.763Z",
-  "totalScripts": 594,
+  "lastUpdated": "2026-10-13T06:18:45.246Z",
+  "totalScripts": 596,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-09-09T01:44:21Z",
+      "lastModified": "2026-10-13T02:10:21Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
       "stars": 40,
       "forks": 3,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 40 | Forks: 3\n; Last Updated: 9/9/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 40 | Forks: 3\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -8777,13 +8777,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-10-10T14:16:31Z",
+      "lastModified": "2026-10-13T03:10:31Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
-      "stars": 22,
+      "stars": 23,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 22 | Forks: 1\n; Last Updated: 10/10/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 23 | Forks: 1\n; Last Updated: 10/13/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -11800,13 +11800,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-07T05:00:43Z",
-      "lastModified": "2026-10-09T00:24:01Z",
+      "lastModified": "2026-10-13T01:41:52Z",
       "source": "github",
       "url": "https://github.com/ReluPercan/AllCharsAHK",
       "stars": 0,
       "forks": 0,
       "owner": "ReluPercan",
-      "code": "```cpp\n; ============================================\n; Repository: ReluPercan/AllCharsAHK\n; ============================================\n; URL: https://github.com/ReluPercan/AllCharsAHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; Universal Unicode and Diacritics Typing Engine for Windows via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ReluPercan/AllCharsAHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ReluPercan/AllCharsAHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AllCharsAHK>\n\n; Example initialization\nclass AllcharsahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AllCharsAHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AllcharsahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ReluPercan/AllCharsAHK\n; ============================================\n; URL: https://github.com/ReluPercan/AllCharsAHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Universal Unicode and Diacritics Typing Engine for Windows via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ReluPercan/AllCharsAHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ReluPercan/AllCharsAHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AllCharsAHK>\n\n; Example initialization\nclass AllcharsahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AllCharsAHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AllcharsahkExample()\n```"
     },
     {
       "id": "github-1377723602",
@@ -12041,6 +12041,50 @@
       "forks": 0,
       "owner": "lucasgonca1997",
       "code": "```cpp\n; ============================================\n; Repository: lucasgonca1997/pka-busca-instancias\n; ============================================\n; URL: https://github.com/lucasgonca1997/pka-busca-instancias\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; Busca de instâncias do PokeAlliance em AutoHotkey v2, com captura em segundo plano e atualização pelo GitHub.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lucasgonca1997/pka-busca-instancias.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lucasgonca1997/pka-busca-instancias/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pka-busca-instancias>\n\n; Example initialization\nclass PkaBuscaInstanciasExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pka-busca-instancias loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PkaBuscaInstanciasExample()\n```"
+    },
+    {
+      "id": "github-1416502867",
+      "title": "SaveLiveCaptions-AHK",
+      "category": "GitHub Repository",
+      "description": "极简的 Windows 实时字幕保存工具（AutoHotkey v2）：通过 UI Automation 读取 Live Captions 字幕，每秒轮询、求差值写入 txt。Minimal Windows Live Captions saver (AutoHotkey v2): reads captions via UI Automation, diffs and appends to txt every second.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-13T05:21:10Z",
+      "lastModified": "2026-10-13T05:22:05Z",
+      "source": "github",
+      "url": "https://github.com/2-3-5-7/SaveLiveCaptions-AHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "2-3-5-7",
+      "code": "```cpp\n; ============================================\n; Repository: 2-3-5-7/SaveLiveCaptions-AHK\n; ============================================\n; URL: https://github.com/2-3-5-7/SaveLiveCaptions-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; 极简的 Windows 实时字幕保存工具（AutoHotkey v2）：通过 UI Automation 读取 Live Captions 字幕，每秒轮询、求差值写入 txt。Minimal Windows Live Captions saver (AutoHotkey v2): reads captions via UI Automation, diffs and appends to txt every second.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2-3-5-7/SaveLiveCaptions-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2-3-5-7/SaveLiveCaptions-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SaveLiveCaptions-AHK>\n\n; Example initialization\nclass SavelivecaptionsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SaveLiveCaptions-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SavelivecaptionsAhkExample()\n```"
+    },
+    {
+      "id": "github-1416489053",
+      "title": "MergeTool",
+      "category": "GitHub Repository",
+      "description": "Windows mail-merge tool in AutoHotkey v2: Word template + Excel data → Outlook emails, PDFs, or print",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "excel",
+        "mail-merge",
+        "microsoft-word",
+        "outlook"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-13T05:05:18Z",
+      "lastModified": "2026-10-13T05:05:33Z",
+      "source": "github",
+      "url": "https://github.com/dm4skus/MergeTool",
+      "stars": 0,
+      "forks": 0,
+      "owner": "dm4skus",
+      "code": "```cpp\n; ============================================\n; Repository: dm4skus/MergeTool\n; ============================================\n; URL: https://github.com/dm4skus/MergeTool\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Windows mail-merge tool in AutoHotkey v2: Word template + Excel data → Outlook emails, PDFs, or print\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dm4skus/MergeTool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dm4skus/MergeTool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MergeTool>\n\n; Example initialization\nclass MergetoolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MergeTool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MergetoolExample()\n```"
     }
   ]
 }
