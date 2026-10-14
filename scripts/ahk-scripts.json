@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-14T06:14:58.001Z",
-  "totalScripts": 605,
+  "lastUpdated": "2026-10-14T12:13:46.626Z",
+  "totalScripts": 607,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-13T16:12:00Z",
+      "lastModified": "2026-10-14T11:35:13Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/13/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/14/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -8121,13 +8121,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T04:15:18Z",
-      "lastModified": "2026-10-01T06:34:27Z",
+      "lastModified": "2026-10-14T10:17:19Z",
       "source": "github",
       "url": "https://github.com/hakhatz2486/f13-keybindings",
       "stars": 0,
       "forks": 0,
       "owner": "hakhatz2486",
-      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
     },
     {
       "id": "github-1308626088",
@@ -8777,13 +8777,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-10-13T20:14:45Z",
+      "lastModified": "2026-10-14T07:50:11Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 24,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 24 | Forks: 1\n; Last Updated: 10/13/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 24 | Forks: 1\n; Last Updated: 10/14/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -12290,6 +12290,44 @@
       "forks": 0,
       "owner": "ThuyTran735",
       "code": "```cpp\n; ============================================\n; Repository: ThuyTran735/BTD6-Everything-Macro\n; ============================================\n; URL: https://github.com/ThuyTran735/BTD6-Everything-Macro\n; Stars: 2 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; Free BTD6 (Bloons TD 6) macro built with AutoHotkey v2. Automates maps, modes, tower placement, upgrades, abilities, queues, farming, and repeat runs.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ThuyTran735/BTD6-Everything-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ThuyTran735/BTD6-Everything-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BTD6-Everything-Macro>\n\n; Example initialization\nclass Btd6EverythingMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BTD6-Everything-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Btd6EverythingMacroExample()\n```"
+    },
+    {
+      "id": "github-1400659581",
+      "title": "Tipp10-Auto-Typer",
+      "category": "GitHub Repository",
+      "description": "Auto-Typer für Tipp10 mit Tampermonkey und AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-01T20:03:07Z",
+      "lastModified": "2026-10-14T10:10:05Z",
+      "source": "github",
+      "url": "https://github.com/balint10-png/Tipp10-Auto-Typer",
+      "stars": 0,
+      "forks": 0,
+      "owner": "balint10-png",
+      "code": "```cpp\n; ============================================\n; Repository: balint10-png/Tipp10-Auto-Typer\n; ============================================\n; URL: https://github.com/balint10-png/Tipp10-Auto-Typer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; Auto-Typer für Tipp10 mit Tampermonkey und AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/balint10-png/Tipp10-Auto-Typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/balint10-png/Tipp10-Auto-Typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Tipp10-Auto-Typer>\n\n; Example initialization\nclass Tipp10AutoTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Tipp10-Auto-Typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Tipp10AutoTyperExample()\n```"
+    },
+    {
+      "id": "github-1418441609",
+      "title": "AHK2_Scripts",
+      "category": "GitHub Repository",
+      "description": "Modular AutoHotkey v2 workflow automation for Windows 10.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-14T05:59:26Z",
+      "lastModified": "2026-10-14T07:37:34Z",
+      "source": "github",
+      "url": "https://github.com/moimerc/AHK2_Scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "moimerc",
+      "code": "```cpp\n; ============================================\n; Repository: moimerc/AHK2_Scripts\n; ============================================\n; URL: https://github.com/moimerc/AHK2_Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; Modular AutoHotkey v2 workflow automation for Windows 10.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/moimerc/AHK2_Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/moimerc/AHK2_Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Scripts>\n\n; Example initialization\nclass Ahk2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ScriptsExample()\n```"
     }
   ]
 }
