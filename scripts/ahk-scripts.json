@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-14T12:13:46.626Z",
-  "totalScripts": 607,
+  "lastUpdated": "2026-10-14T18:11:02.305Z",
+  "totalScripts": 609,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-14T11:35:13Z",
+      "lastModified": "2026-10-14T17:25:17Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
@@ -7802,13 +7802,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-15T07:23:06Z",
-      "lastModified": "2026-09-28T03:23:08Z",
+      "lastModified": "2026-10-14T13:46:24Z",
       "source": "github",
       "url": "https://github.com/palmtom316/ahkhelper",
       "stars": 0,
       "forks": 0,
       "owner": "palmtom316",
-      "code": "```cpp\n; ============================================\n; Repository: palmtom316/ahkhelper\n; ============================================\n; URL: https://github.com/palmtom316/ahkhelper\n; Stars: 0 | Forks: 0\n; Last Updated: 9/28/2026\n; License: Other\n;\n; Description:\n; ScreenPlus — AutoHotkey v2 productivity toolkit (virtual desktops, AutoCopy, clipboard)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/palmtom316/ahkhelper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/palmtom316/ahkhelper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkhelper>\n\n; Example initialization\nclass AhkhelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkhelper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkhelperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: palmtom316/ahkhelper\n; ============================================\n; URL: https://github.com/palmtom316/ahkhelper\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Other\n;\n; Description:\n; ScreenPlus — AutoHotkey v2 productivity toolkit (virtual desktops, AutoCopy, clipboard)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/palmtom316/ahkhelper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/palmtom316/ahkhelper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkhelper>\n\n; Example initialization\nclass AhkhelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkhelper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkhelperExample()\n```"
     },
     {
       "id": "github-1301622489",
@@ -11696,13 +11696,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:31:50Z",
-      "lastModified": "2026-10-12T16:57:52Z",
+      "lastModified": "2026-10-14T14:44:33Z",
       "source": "github",
       "url": "https://github.com/iamjoos/skok",
       "stars": 0,
       "forks": 0,
       "owner": "iamjoos",
-      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
     },
     {
       "id": "github-1408092944",
@@ -11771,17 +11771,21 @@
       "description": "Small AutoHotkey v2 command palette and hotkey toolkit, configured in plain AHK",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "command-palette",
+        "windows"
       ],
       "difficulty": "varies",
       "dateAdded": "2024-01-11T10:37:33Z",
-      "lastModified": "2026-10-08T12:55:49Z",
+      "lastModified": "2026-10-14T15:34:57Z",
       "source": "github",
       "url": "https://github.com/sm079/ahk-win-cmp",
       "stars": 0,
       "forks": 0,
       "owner": "sm079",
-      "code": "```cpp\n; ============================================\n; Repository: sm079/ahk-win-cmp\n; ============================================\n; URL: https://github.com/sm079/ahk-win-cmp\n; Stars: 0 | Forks: 0\n; Last Updated: 10/8/2026\n; License: Not specified\n;\n; Description:\n; Small AutoHotkey v2 command palette and hotkey toolkit, configured in plain AHK\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sm079/ahk-win-cmp.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sm079/ahk-win-cmp/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-win-cmp>\n\n; Example initialization\nclass AhkWinCmpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-win-cmp loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWinCmpExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sm079/ahk-win-cmp\n; ============================================\n; URL: https://github.com/sm079/ahk-win-cmp\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; Small AutoHotkey v2 command palette and hotkey toolkit, configured in plain AHK\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sm079/ahk-win-cmp.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sm079/ahk-win-cmp/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-win-cmp>\n\n; Example initialization\nclass AhkWinCmpExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-win-cmp loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkWinCmpExample()\n```"
     },
     {
       "id": "github-1408268042",
@@ -12328,6 +12332,44 @@
       "forks": 0,
       "owner": "moimerc",
       "code": "```cpp\n; ============================================\n; Repository: moimerc/AHK2_Scripts\n; ============================================\n; URL: https://github.com/moimerc/AHK2_Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; Modular AutoHotkey v2 workflow automation for Windows 10.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/moimerc/AHK2_Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/moimerc/AHK2_Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK2_Scripts>\n\n; Example initialization\nclass Ahk2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK2_Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahk2ScriptsExample()\n```"
+    },
+    {
+      "id": "github-1418876980",
+      "title": "poe-travel-overlay",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 overlay for Path of Exile: one-click or hotkey chat commands (/hideout, /kingsmarch, ...) in a resizable, customizable button bar.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-14T12:30:58Z",
+      "lastModified": "2026-10-14T18:00:59Z",
+      "source": "github",
+      "url": "https://github.com/bjornvandernat/poe-travel-overlay",
+      "stars": 1,
+      "forks": 0,
+      "owner": "bjornvandernat",
+      "code": "```cpp\n; ============================================\n; Repository: bjornvandernat/poe-travel-overlay\n; ============================================\n; URL: https://github.com/bjornvandernat/poe-travel-overlay\n; Stars: 1 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 overlay for Path of Exile: one-click or hotkey chat commands (/hideout, /kingsmarch, ...) in a resizable, customizable button bar.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bjornvandernat/poe-travel-overlay.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bjornvandernat/poe-travel-overlay/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe-travel-overlay>\n\n; Example initialization\nclass PoeTravelOverlayExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe-travel-overlay loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeTravelOverlayExample()\n```"
+    },
+    {
+      "id": "github-1419108807",
+      "title": "ahk-tools",
+      "category": "GitHub Repository",
+      "description": "Personal AutoHotkey v2 QoL utilities and scripts",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-14T14:18:16Z",
+      "lastModified": "2026-10-14T14:20:02Z",
+      "source": "github",
+      "url": "https://github.com/stnatrix/ahk-tools",
+      "stars": 0,
+      "forks": 0,
+      "owner": "stnatrix",
+      "code": "```cpp\n; ============================================\n; Repository: stnatrix/ahk-tools\n; ============================================\n; URL: https://github.com/stnatrix/ahk-tools\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; Personal AutoHotkey v2 QoL utilities and scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stnatrix/ahk-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stnatrix/ahk-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-tools>\n\n; Example initialization\nclass AhkToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkToolsExample()\n```"
     }
   ]
 }
