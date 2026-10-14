@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22",
+ "generated": "2026-10-14",
  "tasks": 36,
  "cases": 181,
  "cat_totals": {
@@ -66,6 +66,114 @@
    "rank": 2
   },
   {
+   "stem": "GPT-6-1_Sol",
+   "display": "GPT-6.1 Sol",
+   "provider": "OpenAI",
+   "solved": 36,
+   "cases": 181,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 6,
+    "data": 6,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 12,
+    "mid": 12
+   },
+   "price_out": 10.0,
+   "rank": 3
+  },
+  {
+   "stem": "GPT-6-1_Sol_Pro",
+   "display": "GPT-6.1 Sol Pro",
+   "provider": "OpenAI",
+   "solved": 36,
+   "cases": 181,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 6,
+    "data": 6,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 12,
+    "mid": 12
+   },
+   "price_out": null,
+   "rank": 4
+  },
+  {
+   "stem": "Gemini_3-8_Flash",
+   "display": "Gemini 3.8 Flash",
+   "provider": "Google",
+   "solved": 35,
+   "cases": 180,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 6,
+    "data": 6,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 11,
+    "mid": 12
+   },
+   "price_out": 3.75,
+   "rank": 5
+  },
+  {
+   "stem": "Gemini_4_Argon",
+   "display": "Gemini 4 Argon",
+   "provider": "Google",
+   "solved": 35,
+   "cases": 180,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 6,
+    "data": 6,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 11,
+    "mid": 12
+   },
+   "price_out": 10.0,
+   "rank": 6
+  },
+  {
    "stem": "GPT-5-6_Sol_Pro",
    "display": "GPT-5.6 Sol Pro",
    "provider": "OpenAI",
@@ -90,7 +198,7 @@
     "mid": 12
    },
    "price_out": 30.0,
-   "rank": 3
+   "rank": 7
   },
   {
    "stem": "GPT-5-5",
@@ -117,7 +225,7 @@
     "mid": 12
    },
    "price_out": 30.0,
-   "rank": 4
+   "rank": 8
   },
   {
    "stem": "Grok_4-6",
@@ -144,7 +252,34 @@
     "mid": 12
    },
    "price_out": 6.0,
-   "rank": 5
+   "rank": 9
+  },
+  {
+   "stem": "Sonnet_5-5",
+   "display": "Sonnet 5.5",
+   "provider": "Anthropic",
+   "solved": 35,
+   "cases": 176,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 6,
+    "data": 6,
+    "datetime": 6,
+    "numbers": 5,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 12,
+    "mid": 12
+   },
+   "price_out": 10.0,
+   "rank": 10
   },
   {
    "stem": "GPT-5-6_Sol",
@@ -171,7 +306,7 @@
     "mid": 12
    },
    "price_out": 30.0,
-   "rank": 6
+   "rank": 11
   },
   {
    "stem": "GPT-5-6_Luna_Pro",
@@ -198,7 +333,61 @@
     "mid": 11
    },
    "price_out": 6.0,
-   "rank": 7
+   "rank": 12
+  },
+  {
+   "stem": "GPT-6_Sol",
+   "display": "GPT-6 Sol",
+   "provider": "OpenAI",
+   "solved": 34,
+   "cases": 174,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 5,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 10,
+    "mid": 12
+   },
+   "price_out": 10.0,
+   "rank": 13
+  },
+  {
+   "stem": "GPT-6_Luna",
+   "display": "GPT-6 Luna",
+   "provider": "OpenAI",
+   "solved": 34,
+   "cases": 173,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 6,
+    "data": 6,
+    "datetime": 4,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 11,
+    "mid": 11
+   },
+   "price_out": 0.5,
+   "rank": 14
   },
   {
    "stem": "Claude_Fable_5",
@@ -225,7 +414,34 @@
     "mid": 11
    },
    "price_out": 50.0,
-   "rank": 8
+   "rank": 15
+  },
+  {
+   "stem": "DeepSeek_V4-1_Flash",
+   "display": "DeepSeek V4.1 Flash",
+   "provider": "DeepSeek",
+   "solved": 34,
+   "cases": 171,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 5,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 11,
+    "mid": 11
+   },
+   "price_out": 0.89,
+   "rank": 16
   },
   {
    "stem": "Kimi_K3",
@@ -252,7 +468,7 @@
     "mid": 11
    },
    "price_out": 15.0,
-   "rank": 9
+   "rank": 17
   },
   {
    "stem": "Gemini_3-7_Flash",
@@ -279,7 +495,7 @@
     "mid": 11
    },
    "price_out": 1.875,
-   "rank": 10
+   "rank": 18
   },
   {
    "stem": "GPT-5-6_Luna",
@@ -306,7 +522,34 @@
     "mid": 11
    },
    "price_out": 6.0,
-   "rank": 11
+   "rank": 19
+  },
+  {
+   "stem": "Muse_Wonder",
+   "display": "Muse Wonder",
+   "provider": "Meta",
+   "solved": 33,
+   "cases": 169,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 5,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 5
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 10,
+    "mid": 12
+   },
+   "price_out": 20.0,
+   "rank": 20
   },
   {
    "stem": "Ox_Alpha",
@@ -333,7 +576,7 @@
     "mid": 12
    },
    "price_out": 0,
-   "rank": 12
+   "rank": 21
   },
   {
    "stem": "Opus_5-5",
@@ -360,7 +603,7 @@
     "mid": 10
    },
    "price_out": 20.0,
-   "rank": 13
+   "rank": 22
   },
   {
    "stem": "Gemini_3-6_Flash",
@@ -387,7 +630,34 @@
     "mid": 11
    },
    "price_out": 7.5,
-   "rank": 14
+   "rank": 23
+  },
+  {
+   "stem": "Qwen_3-8_Max_Prime",
+   "display": "Qwen3.8 Max Prime",
+   "provider": "Alibaba",
+   "solved": 32,
+   "cases": 167,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 5,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 5
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 9,
+    "mid": 11
+   },
+   "price_out": 12.0,
+   "rank": 24
   },
   {
    "stem": "GPT-5-6_Terra",
@@ -414,7 +684,34 @@
     "mid": 10
    },
    "price_out": 15.0,
-   "rank": 15
+   "rank": 25
+  },
+  {
+   "stem": "Haiku_5-5",
+   "display": "Haiku 5.5",
+   "provider": "Anthropic",
+   "solved": 32,
+   "cases": 162,
+   "case_tot": 181,
+   "parse_fail": 0,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 5,
+    "data": 4,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 10,
+    "mid": 11
+   },
+   "price_out": 0.5,
+   "rank": 26
   },
   {
    "stem": "Gemini_3-1_Pro",
@@ -441,7 +738,7 @@
     "mid": 11
    },
    "price_out": 12.0,
-   "rank": 16
+   "rank": 27
   },
   {
    "stem": "GPT-5-6_Terra_Pro",
@@ -468,7 +765,88 @@
     "mid": 12
    },
    "price_out": 15.0,
-   "rank": 17
+   "rank": 28
+  },
+  {
+   "stem": "Grok_4-7",
+   "display": "Grok 4.7",
+   "provider": "xAI",
+   "solved": 31,
+   "cases": 161,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 3,
+    "data": 5,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 11,
+    "hard": 10,
+    "mid": 10
+   },
+   "price_out": 6.0,
+   "rank": 29
+  },
+  {
+   "stem": "Claude_Fable_5-1",
+   "display": "Claude Fable 5.1",
+   "provider": "Anthropic",
+   "solved": 31,
+   "cases": 160,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 5,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 5,
+    "strings": 5
+   },
+   "tiers": {
+    "easy": 12,
+    "hard": 10,
+    "mid": 9
+   },
+   "price_out": 50.0,
+   "rank": 30
+  },
+  {
+   "stem": "GLM-5-3_FlashX",
+   "display": "GLM-5.3 FlashX",
+   "provider": "Zhipu AI",
+   "solved": 31,
+   "cases": 160,
+   "case_tot": 181,
+   "parse_fail": 1,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 2,
+    "data": 5,
+    "datetime": 6,
+    "numbers": 6,
+    "regex": 6,
+    "strings": 6
+   },
+   "tiers": {
+    "easy": 9,
+    "hard": 10,
+    "mid": 12
+   },
+   "price_out": 1.25,
+   "rank": 31
   },
   {
    "stem": "Grok_4-5",
@@ -495,7 +873,7 @@
     "mid": 10
    },
    "price_out": 6.0,
-   "rank": 18
+   "rank": 32
   },
   {
    "stem": "Kimi_K2-6",
@@ -522,7 +900,7 @@
     "mid": 11
    },
    "price_out": 4.0,
-   "rank": 19
+   "rank": 33
   },
   {
    "stem": "DeepSeek_V4_Pro_0813",
@@ -549,7 +927,7 @@
     "mid": 12
    },
    "price_out": 0.87,
-   "rank": 20
+   "rank": 34
   },
   {
    "stem": "Muse_Spark_1-1",
@@ -576,7 +954,7 @@
     "mid": 10
    },
    "price_out": 4.25,
-   "rank": 21
+   "rank": 35
   },
   {
    "stem": "Opus_4-8",
@@ -603,7 +981,7 @@
     "mid": 11
    },
    "price_out": 25.0,
-   "rank": 22
+   "rank": 36
   },
   {
    "stem": "Grok_4-3",
@@ -630,7 +1008,7 @@
     "mid": 10
    },
    "price_out": 2.5,
-   "rank": 23
+   "rank": 37
   },
   {
    "stem": "Grok_Latest",
@@ -657,7 +1035,7 @@
     "mid": 9
    },
    "price_out": 6.0,
-   "rank": 24
+   "rank": 38
   },
   {
    "stem": "Aion_3-0",
@@ -684,7 +1062,7 @@
     "mid": 11
    },
    "price_out": 6.0,
-   "rank": 25
+   "rank": 39
   },
   {
    "stem": "MiniMax_M3",
@@ -711,7 +1089,7 @@
     "mid": 9
    },
    "price_out": 1.2,
-   "rank": 26
+   "rank": 40
   },
   {
    "stem": "Sonnet_4-6",
@@ -738,7 +1116,7 @@
     "mid": 9
    },
    "price_out": 15.0,
-   "rank": 27
+   "rank": 41
   },
   {
    "stem": "GLM-5",
@@ -765,7 +1143,7 @@
     "mid": 7
    },
    "price_out": 1.92,
-   "rank": 28
+   "rank": 42
   },
   {
    "stem": "GLM-5-2",
@@ -792,7 +1170,34 @@
     "mid": 7
    },
    "price_out": 3.0,
-   "rank": 29
+   "rank": 43
+  },
+  {
+   "stem": "GLM-5-3_Prime",
+   "display": "GLM-5.3 Prime",
+   "provider": "Zhipu AI",
+   "solved": 24,
+   "cases": 122,
+   "case_tot": 181,
+   "parse_fail": 9,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 4,
+    "datetime": 4,
+    "numbers": 5,
+    "regex": 3,
+    "strings": 4
+   },
+   "tiers": {
+    "easy": 10,
+    "hard": 4,
+    "mid": 10
+   },
+   "price_out": 8.8,
+   "rank": 44
   },
   {
    "stem": "Aion_3-0_Mini",
@@ -819,7 +1224,7 @@
     "mid": 7
    },
    "price_out": 1.4,
-   "rank": 30
+   "rank": 45
   },
   {
    "stem": "GPT-5-1",
@@ -846,7 +1251,7 @@
     "mid": 9
    },
    "price_out": 10.0,
-   "rank": 31
+   "rank": 46
   },
   {
    "stem": "Inkling",
@@ -873,7 +1278,7 @@
     "mid": 9
    },
    "price_out": 4.05,
-   "rank": 32
+   "rank": 47
   },
   {
    "stem": "Hy3_Free",
@@ -900,7 +1305,7 @@
     "mid": 9
    },
    "price_out": 0,
-   "rank": 33
+   "rank": 48
   },
   {
    "stem": "DeepSeek_V4_Pro",
@@ -927,7 +1332,7 @@
     "mid": 9
    },
    "price_out": 0.87,
-   "rank": 34
+   "rank": 49
   },
   {
    "stem": "Gemini_3-5_Flash_Lite",
@@ -954,7 +1359,7 @@
     "mid": 8
    },
    "price_out": 2.5,
-   "rank": 35
+   "rank": 50
   },
   {
    "stem": "Auto_Router",
@@ -981,7 +1386,7 @@
     "mid": 5
    },
    "price_out": null,
-   "rank": 36
+   "rank": 51
   },
   {
    "stem": "Hy3",
@@ -1008,7 +1413,7 @@
     "mid": 7
    },
    "price_out": 0.58,
-   "rank": 37
+   "rank": 52
   },
   {
    "stem": "LongCat_2-0",
@@ -1035,7 +1440,34 @@
     "mid": 6
    },
    "price_out": 1.2,
-   "rank": 38
+   "rank": 53
+  },
+  {
+   "stem": "Mistral_Large_4",
+   "display": "Mistral Large 4",
+   "provider": "Mistral",
+   "solved": 19,
+   "cases": 97,
+   "case_tot": 181,
+   "parse_fail": 4,
+   "rules": null,
+   "repair": null,
+   "cc": null,
+   "cats": {
+    "algorithms": 4,
+    "data": 2,
+    "datetime": 4,
+    "numbers": 3,
+    "regex": 4,
+    "strings": 2
+   },
+   "tiers": {
+    "easy": 10,
+    "hard": 3,
+    "mid": 6
+   },
+   "price_out": 2.09,
+   "rank": 54
   },
   {
    "stem": "Qwen3_Coder",
@@ -1062,7 +1494,7 @@
     "mid": 5
    },
    "price_out": 1.8,
-   "rank": 39
+   "rank": 55
   },
   {
    "stem": "Mistral_Large_3",
@@ -1089,7 +1521,7 @@
     "mid": 2
    },
    "price_out": 1.5,
-   "rank": 40
+   "rank": 56
   },
   {
    "stem": "Laguna_XS_2-1_Free",
@@ -1116,7 +1548,7 @@
     "mid": 2
    },
    "price_out": 0,
-   "rank": 41
+   "rank": 57
   },
   {
    "stem": "Laguna_XS_2-1",
@@ -1143,7 +1575,7 @@
     "mid": 2
    },
    "price_out": 0.12,
-   "rank": 42
+   "rank": 58
   }
  ]
 }

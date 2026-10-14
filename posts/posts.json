@@ -1,5 +1,25 @@
 [
  {
+  "slug": "october-2026-model-roster",
+  "title": "Sixteen New Models: GPT-6.1 Sol Joins the Perfect-Eval Club for 35 Cents",
+  "preview_title": "GPT-6.1 Sol Aces AHK-Eval; Three Reasoners Run Out of Tokens",
+  "date": "2026-10-14",
+  "description": "Sixteen new models on AHK-Eval, AHK-Contract, AHK-Repair and the esoteric probe. GPT-6.1 Sol passes all 181 hidden Eval cases, fixes 29 of 30 Repair items and solves 13 of 13 esoteric tasks, all for $0.35. Gemini 4 Argon and Gemini 3.8 Flash miss one shared date case. Eight models write a typed Struct on one line that AutoHotkey won't load. Fourteen of sixteen fail one repair item, thirteen of them by keeping m.Value, which AHK v2's match object doesn't have. GLM-5.3 Prime, Mistral Large 4 and Qwen3.8 Max Prime often reason past a 16,000- to 20,000-token cap without writing code.",
+  "preview": "GPT-6.1 Sol: 36/36 and 181/181 on Eval for 35 cents. Gemini 4 Argon is one case behind with no reasoning. Three expensive reasoners spend their token budget thinking and never write the code.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "AHK-Contract",
+   "AHK-Repair",
+   "GPT-6.1",
+   "Gemini 4",
+   "Claude",
+   "OpenRouter"
+  ],
+  "path": "posts/october-2026-model-roster.md"
+ },
+ {
   "slug": "ahk-v2-benchmarking-playbook",
   "title": "How to Benchmark LLMs on AHK v2: Ten Rules From Nine Experiments",
   "preview_title": "The AHK v2 Benchmarking Playbook",
