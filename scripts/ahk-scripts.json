@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-13T18:13:11.317Z",
-  "totalScripts": 603,
+  "lastUpdated": "2026-10-14T00:22:32.282Z",
+  "totalScripts": 604,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -3220,13 +3220,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-25T16:50:47Z",
-      "lastModified": "2026-05-16T13:23:45Z",
+      "lastModified": "2026-10-13T19:49:33Z",
       "source": "github",
       "url": "https://github.com/mesutakcan/IconButton",
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "owner": "mesutakcan",
-      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/IconButton\n; ============================================\n; URL: https://github.com/mesutakcan/IconButton\n; Stars: 3 | Forks: 0\n; Last Updated: 5/16/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 button class with icon support\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/IconButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/IconButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IconButton>\n\n; Example initialization\nclass IconbuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IconButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := IconbuttonExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/IconButton\n; ============================================\n; URL: https://github.com/mesutakcan/IconButton\n; Stars: 4 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 button class with icon support\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/IconButton.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/IconButton/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <IconButton>\n\n; Example initialization\nclass IconbuttonExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"IconButton loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := IconbuttonExample()\n```"
     },
     {
       "id": "github-1167192092",
@@ -8777,7 +8777,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-10-13T13:26:37Z",
+      "lastModified": "2026-10-13T20:14:45Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
       "stars": 24,
@@ -12240,6 +12240,31 @@
       "forks": 0,
       "owner": "bceenaeiklmr",
       "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/focusTrack\n; ============================================\n; URL: https://github.com/bceenaeiklmr/focusTrack\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Not specified\n;\n; Description:\n; Lightweight background active window & focus tracker with idle detection and JSONL event logging in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/focusTrack.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/focusTrack/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <focusTrack>\n\n; Example initialization\nclass FocustrackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"focusTrack loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FocustrackExample()\n```"
+    },
+    {
+      "id": "github-1417773144",
+      "title": "SwiftTab",
+      "category": "GitHub Repository",
+      "description": "Light, fast Alt+Tab replacement for Windows 10/11 in one AutoHotkey v2 file. Instant overlay, live previews, search, same-app switching, per-monitor filter. No installer, zero idle CPU.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "alt-tab",
+        "alt-tab-replacement",
+        "autohotkey",
+        "autohotkey-v2",
+        "dwm"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-13T18:57:33Z",
+      "lastModified": "2026-10-13T19:55:31Z",
+      "source": "github",
+      "url": "https://github.com/geethut-stack/SwiftTab",
+      "stars": 0,
+      "forks": 0,
+      "owner": "geethut-stack",
+      "code": "```cpp\n; ============================================\n; Repository: geethut-stack/SwiftTab\n; ============================================\n; URL: https://github.com/geethut-stack/SwiftTab\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Light, fast Alt+Tab replacement for Windows 10/11 in one AutoHotkey v2 file. Instant overlay, live previews, search, same-app switching, per-monitor filter. No installer, zero idle CPU.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/geethut-stack/SwiftTab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/geethut-stack/SwiftTab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SwiftTab>\n\n; Example initialization\nclass SwifttabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SwiftTab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SwifttabExample()\n```"
     }
   ]
 }
