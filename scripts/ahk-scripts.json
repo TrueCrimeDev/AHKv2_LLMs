@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-14T00:22:32.282Z",
-  "totalScripts": 604,
+  "lastUpdated": "2026-10-14T06:14:58.001Z",
+  "totalScripts": 605,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11365,13 +11365,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T21:55:36Z",
-      "lastModified": "2026-10-13T13:59:50Z",
+      "lastModified": "2026-10-14T04:00:27Z",
       "source": "github",
       "url": "https://github.com/DevanshSrivastava88/claude-mouse-voice",
       "stars": 0,
       "forks": 0,
       "owner": "DevanshSrivastava88",
-      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
     },
     {
       "id": "github-1398965219",
@@ -12053,13 +12053,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T05:21:10Z",
-      "lastModified": "2026-10-13T14:24:10Z",
+      "lastModified": "2026-10-14T03:52:42Z",
       "source": "github",
       "url": "https://github.com/2-3-5-7/SaveLiveCaptions-AHK",
-      "stars": 0,
+      "stars": 2,
       "forks": 0,
       "owner": "2-3-5-7",
-      "code": "```cpp\n; ============================================\n; Repository: 2-3-5-7/SaveLiveCaptions-AHK\n; ============================================\n; URL: https://github.com/2-3-5-7/SaveLiveCaptions-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; 极简的 Windows 实时字幕保存工具（AutoHotkey v2）：通过 UI Automation 读取 Live Captions 字幕，每秒轮询、求差值写入 txt。Minimal Windows Live Captions saver (AutoHotkey v2): reads captions via UI Automation, diffs and appends to txt every second.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2-3-5-7/SaveLiveCaptions-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2-3-5-7/SaveLiveCaptions-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SaveLiveCaptions-AHK>\n\n; Example initialization\nclass SavelivecaptionsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SaveLiveCaptions-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SavelivecaptionsAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 2-3-5-7/SaveLiveCaptions-AHK\n; ============================================\n; URL: https://github.com/2-3-5-7/SaveLiveCaptions-AHK\n; Stars: 2 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; 极简的 Windows 实时字幕保存工具（AutoHotkey v2）：通过 UI Automation 读取 Live Captions 字幕，每秒轮询、求差值写入 txt。Minimal Windows Live Captions saver (AutoHotkey v2): reads captions via UI Automation, diffs and appends to txt every second.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2-3-5-7/SaveLiveCaptions-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2-3-5-7/SaveLiveCaptions-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SaveLiveCaptions-AHK>\n\n; Example initialization\nclass SavelivecaptionsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SaveLiveCaptions-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SavelivecaptionsAhkExample()\n```"
     },
     {
       "id": "github-1416489053",
@@ -12265,6 +12265,31 @@
       "forks": 0,
       "owner": "geethut-stack",
       "code": "```cpp\n; ============================================\n; Repository: geethut-stack/SwiftTab\n; ============================================\n; URL: https://github.com/geethut-stack/SwiftTab\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Light, fast Alt+Tab replacement for Windows 10/11 in one AutoHotkey v2 file. Instant overlay, live previews, search, same-app switching, per-monitor filter. No installer, zero idle CPU.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/geethut-stack/SwiftTab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/geethut-stack/SwiftTab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SwiftTab>\n\n; Example initialization\nclass SwifttabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SwiftTab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SwifttabExample()\n```"
+    },
+    {
+      "id": "github-1366998980",
+      "title": "BTD6-Everything-Macro",
+      "category": "GitHub Repository",
+      "description": "Free BTD6 (Bloons TD 6) macro built with AutoHotkey v2. Automates maps, modes, tower placement, upgrades, abilities, queues, farming, and repeat runs.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "bloons-td-6",
+        "bloons-td-6-script",
+        "btd6"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-12T05:57:04Z",
+      "lastModified": "2026-10-14T03:30:40Z",
+      "source": "github",
+      "url": "https://github.com/ThuyTran735/BTD6-Everything-Macro",
+      "stars": 2,
+      "forks": 0,
+      "owner": "ThuyTran735",
+      "code": "```cpp\n; ============================================\n; Repository: ThuyTran735/BTD6-Everything-Macro\n; ============================================\n; URL: https://github.com/ThuyTran735/BTD6-Everything-Macro\n; Stars: 2 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; Free BTD6 (Bloons TD 6) macro built with AutoHotkey v2. Automates maps, modes, tower placement, upgrades, abilities, queues, farming, and repeat runs.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ThuyTran735/BTD6-Everything-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ThuyTran735/BTD6-Everything-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BTD6-Everything-Macro>\n\n; Example initialization\nclass Btd6EverythingMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BTD6-Everything-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Btd6EverythingMacroExample()\n```"
     }
   ]
 }
