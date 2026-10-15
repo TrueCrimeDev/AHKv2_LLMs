@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-14T18:11:02.305Z",
-  "totalScripts": 609,
+  "lastUpdated": "2026-10-15T00:22:22.896Z",
+  "totalScripts": 610,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -10098,13 +10098,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T17:54:53Z",
-      "lastModified": "2026-10-12T17:56:32Z",
+      "lastModified": "2026-10-14T18:21:06Z",
       "source": "github",
       "url": "https://github.com/Flop0333/AutoHotkey",
       "stars": 1,
       "forks": 0,
       "owner": "Flop0333",
-      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Flop0333/AutoHotkey\n; ============================================\n; URL: https://github.com/Flop0333/AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 productivity suite for Windows with hotkeys, automation, OCR, speech, virtual desktops, and WebView2 dashboards.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Flop0333/AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Flop0333/AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey>\n\n; Example initialization\nclass AutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExample()\n```"
     },
     {
       "id": "github-1365414747",
@@ -11365,7 +11365,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T21:55:36Z",
-      "lastModified": "2026-10-14T04:00:27Z",
+      "lastModified": "2026-10-14T19:03:16Z",
       "source": "github",
       "url": "https://github.com/DevanshSrivastava88/claude-mouse-voice",
       "stars": 0,
@@ -12344,13 +12344,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-14T12:30:58Z",
-      "lastModified": "2026-10-14T18:00:59Z",
+      "lastModified": "2026-10-15T00:18:10Z",
       "source": "github",
       "url": "https://github.com/bjornvandernat/poe-travel-overlay",
       "stars": 1,
       "forks": 0,
       "owner": "bjornvandernat",
-      "code": "```cpp\n; ============================================\n; Repository: bjornvandernat/poe-travel-overlay\n; ============================================\n; URL: https://github.com/bjornvandernat/poe-travel-overlay\n; Stars: 1 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 overlay for Path of Exile: one-click or hotkey chat commands (/hideout, /kingsmarch, ...) in a resizable, customizable button bar.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bjornvandernat/poe-travel-overlay.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bjornvandernat/poe-travel-overlay/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe-travel-overlay>\n\n; Example initialization\nclass PoeTravelOverlayExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe-travel-overlay loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeTravelOverlayExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bjornvandernat/poe-travel-overlay\n; ============================================\n; URL: https://github.com/bjornvandernat/poe-travel-overlay\n; Stars: 1 | Forks: 0\n; Last Updated: 10/15/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 overlay for Path of Exile: one-click or hotkey chat commands (/hideout, /kingsmarch, ...) in a resizable, customizable button bar.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bjornvandernat/poe-travel-overlay.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bjornvandernat/poe-travel-overlay/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe-travel-overlay>\n\n; Example initialization\nclass PoeTravelOverlayExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe-travel-overlay loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeTravelOverlayExample()\n```"
     },
     {
       "id": "github-1419108807",
@@ -12370,6 +12370,31 @@
       "forks": 0,
       "owner": "stnatrix",
       "code": "```cpp\n; ============================================\n; Repository: stnatrix/ahk-tools\n; ============================================\n; URL: https://github.com/stnatrix/ahk-tools\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; Personal AutoHotkey v2 QoL utilities and scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stnatrix/ahk-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stnatrix/ahk-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-tools>\n\n; Example initialization\nclass AhkToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkToolsExample()\n```"
+    },
+    {
+      "id": "github-1395683325",
+      "title": "Claude-Dictate-Hotkey",
+      "category": "GitHub Repository",
+      "description": "Hotkey to toggle voice dictation in the Claude desktop app on Windows. AutoHotkey v2, configurable key and auto-stop timeout. Unofficial.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "claude",
+        "claude-code",
+        "dictation",
+        "hotkey"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-09-29T15:05:17Z",
+      "lastModified": "2026-10-14T20:24:04Z",
+      "source": "github",
+      "url": "https://github.com/AweGuider/Claude-Dictate-Hotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "AweGuider",
+      "code": "```cpp\n; ============================================\n; Repository: AweGuider/Claude-Dictate-Hotkey\n; ============================================\n; URL: https://github.com/AweGuider/Claude-Dictate-Hotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; Hotkey to toggle voice dictation in the Claude desktop app on Windows. AutoHotkey v2, configurable key and auto-stop timeout. Unofficial.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AweGuider/Claude-Dictate-Hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AweGuider/Claude-Dictate-Hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Claude-Dictate-Hotkey>\n\n; Example initialization\nclass ClaudeDictateHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Claude-Dictate-Hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeDictateHotkeyExample()\n```"
     }
   ]
 }
