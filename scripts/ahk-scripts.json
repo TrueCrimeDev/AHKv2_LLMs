@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-15T06:15:33.903Z",
-  "totalScripts": 610,
+  "lastUpdated": "2026-10-15T12:13:28.309Z",
+  "totalScripts": 611,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11696,13 +11696,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:31:50Z",
-      "lastModified": "2026-10-14T14:44:33Z",
+      "lastModified": "2026-10-15T09:58:57Z",
       "source": "github",
       "url": "https://github.com/iamjoos/skok",
       "stars": 0,
       "forks": 0,
       "owner": "iamjoos",
-      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iamjoos/skok\n; ============================================\n; URL: https://github.com/iamjoos/skok\n; Stars: 0 | Forks: 0\n; Last Updated: 10/15/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-only window switching for Windows, written in AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iamjoos/skok.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iamjoos/skok/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skok>\n\n; Example initialization\nclass SkokExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skok loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkokExample()\n```"
     },
     {
       "id": "github-1408092944",
@@ -12287,7 +12287,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-12T05:57:04Z",
-      "lastModified": "2026-10-15T05:36:36Z",
+      "lastModified": "2026-10-15T11:01:33Z",
       "source": "github",
       "url": "https://github.com/ThuyTran735/BTD6-Everything-Macro",
       "stars": 2,
@@ -12344,7 +12344,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-14T12:30:58Z",
-      "lastModified": "2026-10-15T00:18:10Z",
+      "lastModified": "2026-10-15T11:06:07Z",
       "source": "github",
       "url": "https://github.com/bjornvandernat/poe-travel-overlay",
       "stars": 1,
@@ -12395,6 +12395,25 @@
       "forks": 0,
       "owner": "AweGuider",
       "code": "```cpp\n; ============================================\n; Repository: AweGuider/Claude-Dictate-Hotkey\n; ============================================\n; URL: https://github.com/AweGuider/Claude-Dictate-Hotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; Hotkey to toggle voice dictation in the Claude desktop app on Windows. AutoHotkey v2, configurable key and auto-stop timeout. Unofficial.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AweGuider/Claude-Dictate-Hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AweGuider/Claude-Dictate-Hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Claude-Dictate-Hotkey>\n\n; Example initialization\nclass ClaudeDictateHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Claude-Dictate-Hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeDictateHotkeyExample()\n```"
+    },
+    {
+      "id": "github-1420376665",
+      "title": "PaperWM-Win",
+      "category": "GitHub Repository",
+      "description": "PaperWM-artiges scrollendes Tiling für Windows (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-15T08:02:54Z",
+      "lastModified": "2026-10-15T09:39:59Z",
+      "source": "github",
+      "url": "https://github.com/Valijuu/PaperWM-Win",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Valijuu",
+      "code": "```cpp\n; ============================================\n; Repository: Valijuu/PaperWM-Win\n; ============================================\n; URL: https://github.com/Valijuu/PaperWM-Win\n; Stars: 0 | Forks: 0\n; Last Updated: 10/15/2026\n; License: Not specified\n;\n; Description:\n; PaperWM-artiges scrollendes Tiling für Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Valijuu/PaperWM-Win.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Valijuu/PaperWM-Win/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PaperWM-Win>\n\n; Example initialization\nclass PaperwmWinExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PaperWM-Win loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PaperwmWinExample()\n```"
     }
   ]
 }
