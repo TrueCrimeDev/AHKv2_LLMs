@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-15T12:13:28.309Z",
+  "lastUpdated": "2026-10-15T18:11:21.538Z",
   "totalScripts": 611,
   "categories": [
     "GUI",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-10-13T02:10:21Z",
+      "lastModified": "2026-10-15T17:26:18Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
-      "stars": 40,
+      "stars": 41,
       "forks": 3,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 40 | Forks: 3\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 41 | Forks: 3\n; Last Updated: 10/15/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -5782,13 +5782,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-09-18T04:21:00Z",
+      "lastModified": "2026-10-15T18:02:42Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 3,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 3 | Forks: 0\n; Last Updated: 9/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 3 | Forks: 0\n; Last Updated: 10/15/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -11628,13 +11628,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-05T10:33:25Z",
-      "lastModified": "2026-10-13T10:46:19Z",
+      "lastModified": "2026-10-15T12:25:26Z",
       "source": "github",
       "url": "https://github.com/ronaldsteenkamp/etiketten-autoprinter",
       "stars": 1,
       "forks": 0,
       "owner": "ronaldsteenkamp",
-      "code": "```cpp\n; ============================================\n; Repository: ronaldsteenkamp/etiketten-autoprinter\n; ============================================\n; URL: https://github.com/ronaldsteenkamp/etiketten-autoprinter\n; Stars: 1 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Other\n;\n; Description:\n; Etiketten autoprinter voor Pharmacom (AutoHotkey v2): print automatisch etiketten vanuit de aanschrijfbuffer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ronaldsteenkamp/etiketten-autoprinter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ronaldsteenkamp/etiketten-autoprinter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <etiketten-autoprinter>\n\n; Example initialization\nclass EtikettenAutoprinterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"etiketten-autoprinter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EtikettenAutoprinterExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ronaldsteenkamp/etiketten-autoprinter\n; ============================================\n; URL: https://github.com/ronaldsteenkamp/etiketten-autoprinter\n; Stars: 1 | Forks: 0\n; Last Updated: 10/15/2026\n; License: Other\n;\n; Description:\n; Etiketten autoprinter voor Pharmacom (AutoHotkey v2): print automatisch etiketten vanuit de aanschrijfbuffer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ronaldsteenkamp/etiketten-autoprinter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ronaldsteenkamp/etiketten-autoprinter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <etiketten-autoprinter>\n\n; Example initialization\nclass EtikettenAutoprinterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"etiketten-autoprinter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EtikettenAutoprinterExample()\n```"
     },
     {
       "id": "github-1406736249",
@@ -12344,7 +12344,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-14T12:30:58Z",
-      "lastModified": "2026-10-15T11:06:07Z",
+      "lastModified": "2026-10-15T15:38:27Z",
       "source": "github",
       "url": "https://github.com/bjornvandernat/poe-travel-overlay",
       "stars": 1,
