@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-16T06:14:57.697Z",
+  "lastUpdated": "2026-10-16T12:13:16.254Z",
   "totalScripts": 613,
   "categories": [
     "GUI",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-12T20:24:04Z",
+      "lastModified": "2026-10-16T10:02:48Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/12/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/16/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -12212,13 +12212,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-01-21T18:15:27Z",
-      "lastModified": "2026-10-13T14:23:06Z",
+      "lastModified": "2026-10-16T10:32:56Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/SendTextZ",
       "stars": 23,
       "forks": 2,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/SendTextZ\n; ============================================\n; URL: https://github.com/bceenaeiklmr/SendTextZ\n; Stars: 23 | Forks: 2\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Manage and trigger hotstrings, text expansions, and boilerplate snippets with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/SendTextZ.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/SendTextZ/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SendTextZ>\n\n; Example initialization\nclass SendtextzExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SendTextZ loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SendtextzExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/SendTextZ\n; ============================================\n; URL: https://github.com/bceenaeiklmr/SendTextZ\n; Stars: 23 | Forks: 2\n; Last Updated: 10/16/2026\n; License: MIT License\n;\n; Description:\n; Manage and trigger hotstrings, text expansions, and boilerplate snippets with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/SendTextZ.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/SendTextZ/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SendTextZ>\n\n; Example initialization\nclass SendtextzExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SendTextZ loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SendtextzExample()\n```"
     },
     {
       "id": "github-1411879357",
@@ -12344,13 +12344,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-14T12:30:58Z",
-      "lastModified": "2026-10-15T22:33:06Z",
+      "lastModified": "2026-10-16T11:10:09Z",
       "source": "github",
       "url": "https://github.com/bjornvandernat/poe-travel-overlay",
       "stars": 1,
       "forks": 0,
       "owner": "bjornvandernat",
-      "code": "```cpp\n; ============================================\n; Repository: bjornvandernat/poe-travel-overlay\n; ============================================\n; URL: https://github.com/bjornvandernat/poe-travel-overlay\n; Stars: 1 | Forks: 0\n; Last Updated: 10/15/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 overlay for Path of Exile: one-click or hotkey chat commands (/hideout, /kingsmarch, ...) in a resizable, customizable button bar.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bjornvandernat/poe-travel-overlay.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bjornvandernat/poe-travel-overlay/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe-travel-overlay>\n\n; Example initialization\nclass PoeTravelOverlayExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe-travel-overlay loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeTravelOverlayExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bjornvandernat/poe-travel-overlay\n; ============================================\n; URL: https://github.com/bjornvandernat/poe-travel-overlay\n; Stars: 1 | Forks: 0\n; Last Updated: 10/16/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 overlay for Path of Exile: one-click or hotkey chat commands (/hideout, /kingsmarch, ...) in a resizable, customizable button bar.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bjornvandernat/poe-travel-overlay.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bjornvandernat/poe-travel-overlay/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <poe-travel-overlay>\n\n; Example initialization\nclass PoeTravelOverlayExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"poe-travel-overlay loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PoeTravelOverlayExample()\n```"
     },
     {
       "id": "github-1419108807",
