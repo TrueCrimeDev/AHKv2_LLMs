@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-16T12:13:16.254Z",
-  "totalScripts": 613,
+  "lastUpdated": "2026-10-16T18:10:40.272Z",
+  "totalScripts": 615,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8121,13 +8121,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-06T04:15:18Z",
-      "lastModified": "2026-10-14T10:17:19Z",
+      "lastModified": "2026-10-16T14:44:27Z",
       "source": "github",
       "url": "https://github.com/hakhatz2486/f13-keybindings",
       "stars": 0,
       "forks": 0,
       "owner": "hakhatz2486",
-      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: hakhatz2486/f13-keybindings\n; ============================================\n; URL: https://github.com/hakhatz2486/f13-keybindings\n; Stars: 0 | Forks: 0\n; Last Updated: 10/16/2026\n; License: Not specified\n;\n; Description:\n; F13キーをショートカットキーとして使用するためのAutoHotkey v2スクリプトです。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hakhatz2486/f13-keybindings.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hakhatz2486/f13-keybindings/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f13-keybindings>\n\n; Example initialization\nclass F13KeybindingsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f13-keybindings loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F13KeybindingsExample()\n```"
     },
     {
       "id": "github-1308626088",
@@ -12124,13 +12124,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T06:58:00Z",
-      "lastModified": "2026-10-13T12:27:49Z",
+      "lastModified": "2026-10-16T13:51:25Z",
       "source": "github",
       "url": "https://github.com/aninstone/SolidWorks-RightButtonRotate",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "aninstone",
-      "code": "```cpp\n; ============================================\n; Repository: aninstone/SolidWorks-RightButtonRotate\n; ============================================\n; URL: https://github.com/aninstone/SolidWorks-RightButtonRotate\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Not specified\n;\n; Description:\n; SolidWorks right-click rotate & middle-click pan (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/aninstone/SolidWorks-RightButtonRotate.git\n;\n; Option 2: Download ZIP\n;   https://github.com/aninstone/SolidWorks-RightButtonRotate/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SolidWorks-RightButtonRotate>\n\n; Example initialization\nclass SolidworksRightbuttonrotateExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SolidWorks-RightButtonRotate loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SolidworksRightbuttonrotateExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: aninstone/SolidWorks-RightButtonRotate\n; ============================================\n; URL: https://github.com/aninstone/SolidWorks-RightButtonRotate\n; Stars: 1 | Forks: 0\n; Last Updated: 10/16/2026\n; License: Not specified\n;\n; Description:\n; SolidWorks right-click rotate & middle-click pan (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/aninstone/SolidWorks-RightButtonRotate.git\n;\n; Option 2: Download ZIP\n;   https://github.com/aninstone/SolidWorks-RightButtonRotate/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SolidWorks-RightButtonRotate>\n\n; Example initialization\nclass SolidworksRightbuttonrotateExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SolidWorks-RightButtonRotate loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SolidworksRightbuttonrotateExample()\n```"
     },
     {
       "id": "github-1417471356",
@@ -12375,26 +12375,26 @@
       "id": "github-1395683325",
       "title": "Claude-Dictate-Hotkey",
       "category": "GitHub Repository",
-      "description": "Hotkey to toggle voice dictation in the Claude desktop app on Windows. AutoHotkey v2, configurable key and auto-stop timeout. Unofficial.",
+      "description": "Dictation hotkey for the Claude desktop app on Windows: tap or hold (push-to-talk) voice input, auto-stop after silence, a maximum length, and a countdown before either stop. AutoHotkey v2. Unofficial, not affiliated with Anthropic.",
       "tags": [
         "github",
         "repository",
+        "accessibility",
+        "anthropic",
         "autohotkey",
         "autohotkey-v2",
         "claude",
-        "claude-code",
-        "dictation",
-        "hotkey"
+        "claude-code"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-29T15:05:17Z",
-      "lastModified": "2026-10-14T20:24:04Z",
+      "lastModified": "2026-10-16T17:02:01Z",
       "source": "github",
       "url": "https://github.com/AweGuider/Claude-Dictate-Hotkey",
       "stars": 0,
       "forks": 0,
       "owner": "AweGuider",
-      "code": "```cpp\n; ============================================\n; Repository: AweGuider/Claude-Dictate-Hotkey\n; ============================================\n; URL: https://github.com/AweGuider/Claude-Dictate-Hotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; Hotkey to toggle voice dictation in the Claude desktop app on Windows. AutoHotkey v2, configurable key and auto-stop timeout. Unofficial.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AweGuider/Claude-Dictate-Hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AweGuider/Claude-Dictate-Hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Claude-Dictate-Hotkey>\n\n; Example initialization\nclass ClaudeDictateHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Claude-Dictate-Hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeDictateHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AweGuider/Claude-Dictate-Hotkey\n; ============================================\n; URL: https://github.com/AweGuider/Claude-Dictate-Hotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/16/2026\n; License: MIT License\n;\n; Description:\n; Dictation hotkey for the Claude desktop app on Windows: tap or hold (push-to-talk) voice input, auto-stop after silence, a maximum length, and a countdown before either stop. AutoHotkey v2. Unofficial, not affiliated with Anthropic.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AweGuider/Claude-Dictate-Hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AweGuider/Claude-Dictate-Hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Claude-Dictate-Hotkey>\n\n; Example initialization\nclass ClaudeDictateHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Claude-Dictate-Hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeDictateHotkeyExample()\n```"
     },
     {
       "id": "github-1420376665",
@@ -12452,6 +12452,50 @@
       "forks": 0,
       "owner": "AlexVit93",
       "code": "```cpp\n; ============================================\n; Repository: AlexVit93/AHK-ZAGS-System\n; ============================================\n; URL: https://github.com/AlexVit93/AHK-ZAGS-System\n; Stars: 0 | Forks: 0\n; Last Updated: 10/16/2026\n; License: Not specified\n;\n; Description:\n; Скрипт на AutoHotkey v2 для автоматизации ввода данных и ускорения работы в базах данных. Включает модули автозамены ФИО и хоткеи быстрой навигации по интерфейсу.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AlexVit93/AHK-ZAGS-System.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AlexVit93/AHK-ZAGS-System/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-ZAGS-System>\n\n; Example initialization\nclass AhkZagsSystemExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-ZAGS-System loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkZagsSystemExample()\n```"
+    },
+    {
+      "id": "github-1422509914",
+      "title": "digital-life-made-easy",
+      "category": "GitHub Repository",
+      "description": "VARS Digital: Digital Life Made Easy. Free, readable Windows tools and scripts, including a Ctrl+Win dictation hotkey for the Claude desktop app (AutoHotkey v2, UI Automation).",
+      "tags": [
+        "github",
+        "repository",
+        "accessibility",
+        "anthropic",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "claude"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-16T18:08:12Z",
+      "lastModified": "2026-10-16T18:08:22Z",
+      "source": "github",
+      "url": "https://github.com/varsdigitals-bot/digital-life-made-easy",
+      "stars": 0,
+      "forks": 0,
+      "owner": "varsdigitals-bot",
+      "code": "```cpp\n; ============================================\n; Repository: varsdigitals-bot/digital-life-made-easy\n; ============================================\n; URL: https://github.com/varsdigitals-bot/digital-life-made-easy\n; Stars: 0 | Forks: 0\n; Last Updated: 10/16/2026\n; License: MIT License\n;\n; Description:\n; VARS Digital: Digital Life Made Easy. Free, readable Windows tools and scripts, including a Ctrl+Win dictation hotkey for the Claude desktop app (AutoHotkey v2, UI Automation).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/varsdigitals-bot/digital-life-made-easy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/varsdigitals-bot/digital-life-made-easy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <digital-life-made-easy>\n\n; Example initialization\nclass DigitalLifeMadeEasyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"digital-life-made-easy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DigitalLifeMadeEasyExample()\n```"
+    },
+    {
+      "id": "github-1422261776",
+      "title": "CleanLock",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 GUI to lock your keyboard and mouse independently so you can clean them while the PC stays on.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-16T14:21:59Z",
+      "lastModified": "2026-10-16T14:23:56Z",
+      "source": "github",
+      "url": "https://github.com/geethut-stack/CleanLock",
+      "stars": 0,
+      "forks": 0,
+      "owner": "geethut-stack",
+      "code": "```cpp\n; ============================================\n; Repository: geethut-stack/CleanLock\n; ============================================\n; URL: https://github.com/geethut-stack/CleanLock\n; Stars: 0 | Forks: 0\n; Last Updated: 10/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 GUI to lock your keyboard and mouse independently so you can clean them while the PC stays on.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/geethut-stack/CleanLock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/geethut-stack/CleanLock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CleanLock>\n\n; Example initialization\nclass CleanlockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CleanLock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CleanlockExample()\n```"
     }
   ]
 }
