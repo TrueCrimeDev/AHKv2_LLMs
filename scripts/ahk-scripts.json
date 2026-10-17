@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-17T00:22:56.108Z",
-  "totalScripts": 615,
+  "lastUpdated": "2026-10-17T06:13:28.846Z",
+  "totalScripts": 616,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -12057,13 +12057,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T05:21:10Z",
-      "lastModified": "2026-10-14T03:52:42Z",
+      "lastModified": "2026-10-17T04:55:41Z",
       "source": "github",
       "url": "https://github.com/2-3-5-7/SaveLiveCaptions-AHK",
-      "stars": 2,
+      "stars": 1,
       "forks": 0,
       "owner": "2-3-5-7",
-      "code": "```cpp\n; ============================================\n; Repository: 2-3-5-7/SaveLiveCaptions-AHK\n; ============================================\n; URL: https://github.com/2-3-5-7/SaveLiveCaptions-AHK\n; Stars: 2 | Forks: 0\n; Last Updated: 10/14/2026\n; License: MIT License\n;\n; Description:\n; 极简的 Windows 实时字幕保存工具（AutoHotkey v2）：通过 UI Automation 读取 Live Captions 字幕，每秒轮询、求差值写入 txt。Minimal Windows Live Captions saver (AutoHotkey v2): reads captions via UI Automation, diffs and appends to txt every second.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2-3-5-7/SaveLiveCaptions-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2-3-5-7/SaveLiveCaptions-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SaveLiveCaptions-AHK>\n\n; Example initialization\nclass SavelivecaptionsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SaveLiveCaptions-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SavelivecaptionsAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 2-3-5-7/SaveLiveCaptions-AHK\n; ============================================\n; URL: https://github.com/2-3-5-7/SaveLiveCaptions-AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 10/17/2026\n; License: MIT License\n;\n; Description:\n; 极简的 Windows 实时字幕保存工具（AutoHotkey v2）：通过 UI Automation 读取 Live Captions 字幕，每秒轮询、求差值写入 txt。Minimal Windows Live Captions saver (AutoHotkey v2): reads captions via UI Automation, diffs and appends to txt every second.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/2-3-5-7/SaveLiveCaptions-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/2-3-5-7/SaveLiveCaptions-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SaveLiveCaptions-AHK>\n\n; Example initialization\nclass SavelivecaptionsAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SaveLiveCaptions-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SavelivecaptionsAhkExample()\n```"
     },
     {
       "id": "github-1416489053",
@@ -12496,6 +12496,25 @@
       "forks": 0,
       "owner": "geethut-stack",
       "code": "```cpp\n; ============================================\n; Repository: geethut-stack/CleanLock\n; ============================================\n; URL: https://github.com/geethut-stack/CleanLock\n; Stars: 0 | Forks: 0\n; Last Updated: 10/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 GUI to lock your keyboard and mouse independently so you can clean them while the PC stays on.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/geethut-stack/CleanLock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/geethut-stack/CleanLock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CleanLock>\n\n; Example initialization\nclass CleanlockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CleanLock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CleanlockExample()\n```"
+    },
+    {
+      "id": "github-1422967502",
+      "title": "claude-enter-newline",
+      "category": "GitHub Repository",
+      "description": "Claude デスクトップアプリ（Windows）で Enter を改行、Ctrl+Enter を送信にする AutoHotkey v2 スクリプト。日本語の変換中の Enter は確定のまま",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-17T05:08:18Z",
+      "lastModified": "2026-10-17T05:19:03Z",
+      "source": "github",
+      "url": "https://github.com/Tottorion/claude-enter-newline",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Tottorion",
+      "code": "```cpp\n; ============================================\n; Repository: Tottorion/claude-enter-newline\n; ============================================\n; URL: https://github.com/Tottorion/claude-enter-newline\n; Stars: 0 | Forks: 0\n; Last Updated: 10/17/2026\n; License: MIT License\n;\n; Description:\n; Claude デスクトップアプリ（Windows）で Enter を改行、Ctrl+Enter を送信にする AutoHotkey v2 スクリプト。日本語の変換中の Enter は確定のまま\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Tottorion/claude-enter-newline.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Tottorion/claude-enter-newline/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-enter-newline>\n\n; Example initialization\nclass ClaudeEnterNewlineExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-enter-newline loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeEnterNewlineExample()\n```"
     }
   ]
 }
