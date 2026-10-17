@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-17T12:11:20.084Z",
-  "totalScripts": 618,
+  "lastUpdated": "2026-10-17T18:09:10.664Z",
+  "totalScripts": 619,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -7206,7 +7206,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-10-17T08:01:30Z",
+      "lastModified": "2026-10-17T14:09:23Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
@@ -12559,6 +12559,25 @@
       "forks": 0,
       "owner": "4di-hello",
       "code": "```cpp\n; ============================================\n; Repository: 4di-hello/HotGestures\n; ============================================\n; URL: https://github.com/4di-hello/HotGestures\n; Stars: 0 | Forks: 0\n; Last Updated: 10/17/2026\n; License: MIT License\n;\n; Description:\n; A light AutoHotkey v2 library for custom one-stroke mouse gestures. Continuation of Tebayaki/HotGestures with mixed-DPI, performance and GDI-leak fixes.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/4di-hello/HotGestures.git\n;\n; Option 2: Download ZIP\n;   https://github.com/4di-hello/HotGestures/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HotGestures>\n\n; Example initialization\nclass HotgesturesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HotGestures loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotgesturesExample()\n```"
+    },
+    {
+      "id": "github-1423295883",
+      "title": "AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX",
+      "category": "GitHub Repository",
+      "description": "A lightweight AutoHotkey v2 script that simulates a parry effect on your desktop. Pressing G triggers a quick, faint, semi-transparent white overlay that smoothly fades out to give instant visual hit feedback without stealing window focus or blocking mouse clicks. Download the zip file and run the .ahk file.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-17T12:15:15Z",
+      "lastModified": "2026-10-17T14:05:44Z",
+      "source": "github",
+      "url": "https://github.com/cinoozbakis-hue/AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX",
+      "stars": 0,
+      "forks": 0,
+      "owner": "cinoozbakis-hue",
+      "code": "```cpp\n; ============================================\n; Repository: cinoozbakis-hue/AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX\n; ============================================\n; URL: https://github.com/cinoozbakis-hue/AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX\n; Stars: 0 | Forks: 0\n; Last Updated: 10/17/2026\n; License: Not specified\n;\n; Description:\n; A lightweight AutoHotkey v2 script that simulates a parry effect on your desktop. Pressing G triggers a quick, faint, semi-transparent white overlay that smoothly fades out to give instant visual hit feedback without stealing window focus or blocking mouse clicks. Download the zip file and run the .ahk file.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cinoozbakis-hue/AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cinoozbakis-hue/AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX>\n\n; Example initialization\nclass AutohotkeyV2UltrakillParryVfxAndSfxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2UltrakillParryVfxAndSfxExample()\n```"
     }
   ]
 }
