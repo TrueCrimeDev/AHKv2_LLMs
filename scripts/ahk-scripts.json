@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-17T18:09:10.664Z",
-  "totalScripts": 619,
+  "lastUpdated": "2026-10-18T00:25:32.495Z",
+  "totalScripts": 620,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -7206,7 +7206,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-10-17T14:09:23Z",
+      "lastModified": "2026-10-17T20:13:13Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
@@ -12578,6 +12578,25 @@
       "forks": 0,
       "owner": "cinoozbakis-hue",
       "code": "```cpp\n; ============================================\n; Repository: cinoozbakis-hue/AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX\n; ============================================\n; URL: https://github.com/cinoozbakis-hue/AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX\n; Stars: 0 | Forks: 0\n; Last Updated: 10/17/2026\n; License: Not specified\n;\n; Description:\n; A lightweight AutoHotkey v2 script that simulates a parry effect on your desktop. Pressing G triggers a quick, faint, semi-transparent white overlay that smoothly fades out to give instant visual hit feedback without stealing window focus or blocking mouse clicks. Download the zip file and run the .ahk file.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cinoozbakis-hue/AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cinoozbakis-hue/AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX>\n\n; Example initialization\nclass AutohotkeyV2UltrakillParryVfxAndSfxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-V2-ULTRAKILL-Parry-VFX-and-SFX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2UltrakillParryVfxAndSfxExample()\n```"
+    },
+    {
+      "id": "github-1423859072",
+      "title": "sketchup-chords",
+      "category": "GitHub Repository",
+      "description": "Type short words in SketchUp to fire keyboard shortcuts. AutoHotkey v2, Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-18T00:19:35Z",
+      "lastModified": "2026-10-18T00:19:43Z",
+      "source": "github",
+      "url": "https://github.com/renton555/sketchup-chords",
+      "stars": 0,
+      "forks": 0,
+      "owner": "renton555",
+      "code": "```cpp\n; ============================================\n; Repository: renton555/sketchup-chords\n; ============================================\n; URL: https://github.com/renton555/sketchup-chords\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; Type short words in SketchUp to fire keyboard shortcuts. AutoHotkey v2, Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/renton555/sketchup-chords.git\n;\n; Option 2: Download ZIP\n;   https://github.com/renton555/sketchup-chords/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sketchup-chords>\n\n; Example initialization\nclass SketchupChordsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sketchup-chords loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SketchupChordsExample()\n```"
     }
   ]
 }
