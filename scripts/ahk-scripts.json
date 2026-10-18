@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-18T12:11:29.148Z",
+  "lastUpdated": "2026-10-18T18:09:15.476Z",
   "totalScripts": 625,
   "categories": [
     "GUI",
@@ -12659,7 +12659,7 @@
       "id": "github-1424240173",
       "title": "SpeedForce",
       "category": "GitHub Repository",
-      "description": "忘了切注音把「你好」打成 su3cl3？自動偵測並一鍵修正的 AutoHotkey v2 小工具",
+      "description": "忘了切注音把「你好」打成 su3cl3？自動偵測並���鍵修正的 AutoHotkey v2 小工具",
       "tags": [
         "github",
         "repository",
@@ -12671,13 +12671,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T10:14:46Z",
-      "lastModified": "2026-10-18T10:46:36Z",
+      "lastModified": "2026-10-18T12:47:28Z",
       "source": "github",
       "url": "https://github.com/hc0121/SpeedForce",
       "stars": 0,
       "forks": 0,
       "owner": "hc0121",
-      "code": "```cpp\n; ============================================\n; Repository: hc0121/SpeedForce\n; ============================================\n; URL: https://github.com/hc0121/SpeedForce\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; 忘了切注音把「你好」打成 su3cl3？自動偵測並一鍵修正的 AutoHotkey v2 小工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hc0121/SpeedForce.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hc0121/SpeedForce/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SpeedForce>\n\n; Example initialization\nclass SpeedforceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SpeedForce loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SpeedforceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: hc0121/SpeedForce\n; ============================================\n; URL: https://github.com/hc0121/SpeedForce\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; 忘了切注音把「你好」打成 su3cl3？自動偵測並���鍵修正的 AutoHotkey v2 小工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hc0121/SpeedForce.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hc0121/SpeedForce/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SpeedForce>\n\n; Example initialization\nclass SpeedforceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SpeedForce loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SpeedforceExample()\n```"
     },
     {
       "id": "github-1424146123",
