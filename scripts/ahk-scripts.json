@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-18T06:13:36.483Z",
-  "totalScripts": 623,
+  "lastUpdated": "2026-10-18T12:11:29.148Z",
+  "totalScripts": 625,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -12654,6 +12654,49 @@
       "forks": 0,
       "owner": "iiinno",
       "code": "```cpp\n; ============================================\n; Repository: iiinno/keyboard-controller\n; ============================================\n; URL: https://github.com/iiinno/keyboard-controller\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 controller for automatically blocking a laptop built-in keyboard when an external keyboard is connected.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iiinno/keyboard-controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iiinno/keyboard-controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keyboard-controller>\n\n; Example initialization\nclass KeyboardControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keyboard-controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardControllerExample()\n```"
+    },
+    {
+      "id": "github-1424240173",
+      "title": "SpeedForce",
+      "category": "GitHub Repository",
+      "description": "忘了切注音把「你好」打成 su3cl3？自動偵測並一鍵修正的 AutoHotkey v2 小工具",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey-v2",
+        "bopomofo",
+        "ime",
+        "windows",
+        "zhuyin"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-18T10:14:46Z",
+      "lastModified": "2026-10-18T10:46:36Z",
+      "source": "github",
+      "url": "https://github.com/hc0121/SpeedForce",
+      "stars": 0,
+      "forks": 0,
+      "owner": "hc0121",
+      "code": "```cpp\n; ============================================\n; Repository: hc0121/SpeedForce\n; ============================================\n; URL: https://github.com/hc0121/SpeedForce\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; 忘了切注音把「你好」打成 su3cl3？自動偵測並一鍵修正的 AutoHotkey v2 小工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hc0121/SpeedForce.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hc0121/SpeedForce/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SpeedForce>\n\n; Example initialization\nclass SpeedforceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SpeedForce loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SpeedforceExample()\n```"
+    },
+    {
+      "id": "github-1424146123",
+      "title": "clipboard-history-jugaad",
+      "category": "GitHub Repository",
+      "description": "A lightweight clipboard history manager for Windows (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-18T08:17:28Z",
+      "lastModified": "2026-10-18T08:27:53Z",
+      "source": "github",
+      "url": "https://github.com/taroyamadax/clipboard-history-jugaad",
+      "stars": 0,
+      "forks": 0,
+      "owner": "taroyamadax",
+      "code": "```cpp\n; ============================================\n; Repository: taroyamadax/clipboard-history-jugaad\n; ============================================\n; URL: https://github.com/taroyamadax/clipboard-history-jugaad\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; A lightweight clipboard history manager for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/taroyamadax/clipboard-history-jugaad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/taroyamadax/clipboard-history-jugaad/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-history-jugaad>\n\n; Example initialization\nclass ClipboardHistoryJugaadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-history-jugaad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardHistoryJugaadExample()\n```"
     }
   ]
 }
