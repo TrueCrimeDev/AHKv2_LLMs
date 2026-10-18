@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-18T00:25:32.495Z",
-  "totalScripts": 620,
+  "lastUpdated": "2026-10-18T06:13:36.483Z",
+  "totalScripts": 623,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-16T10:02:48Z",
+      "lastModified": "2026-10-18T03:04:18Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/16/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -12590,13 +12590,70 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T00:19:35Z",
-      "lastModified": "2026-10-18T00:19:43Z",
+      "lastModified": "2026-10-18T00:28:48Z",
       "source": "github",
       "url": "https://github.com/renton555/sketchup-chords",
       "stars": 0,
       "forks": 0,
       "owner": "renton555",
       "code": "```cpp\n; ============================================\n; Repository: renton555/sketchup-chords\n; ============================================\n; URL: https://github.com/renton555/sketchup-chords\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; Type short words in SketchUp to fire keyboard shortcuts. AutoHotkey v2, Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/renton555/sketchup-chords.git\n;\n; Option 2: Download ZIP\n;   https://github.com/renton555/sketchup-chords/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sketchup-chords>\n\n; Example initialization\nclass SketchupChordsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sketchup-chords loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SketchupChordsExample()\n```"
+    },
+    {
+      "id": "github-1423987509",
+      "title": "UW",
+      "category": "GitHub Repository",
+      "description": "Mouse-driven side panel for UnReal World (AutoHotkey v2). Sends real keys without stealing focus. Rearrange and recolor buttons, 5 languages.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-18T04:29:18Z",
+      "lastModified": "2026-10-18T05:11:41Z",
+      "source": "github",
+      "url": "https://github.com/kurtzito/UW",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kurtzito",
+      "code": "```cpp\n; ============================================\n; Repository: kurtzito/UW\n; ============================================\n; URL: https://github.com/kurtzito/UW\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; Mouse-driven side panel for UnReal World (AutoHotkey v2). Sends real keys without stealing focus. Rearrange and recolor buttons, 5 languages.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kurtzito/UW.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kurtzito/UW/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UW>\n\n; Example initialization\nclass UwExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UW loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UwExample()\n```"
+    },
+    {
+      "id": "github-1423995971",
+      "title": "CSVSweep",
+      "category": "GitHub Repository",
+      "description": "Search many CSV files at once in AutoHotkey v2: every matching row in one grid, with a list you can keep and export.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-18T04:43:48Z",
+      "lastModified": "2026-10-18T04:46:56Z",
+      "source": "github",
+      "url": "https://github.com/DaanishSuhood/CSVSweep",
+      "stars": 0,
+      "forks": 0,
+      "owner": "DaanishSuhood",
+      "code": "```cpp\n; ============================================\n; Repository: DaanishSuhood/CSVSweep\n; ============================================\n; URL: https://github.com/DaanishSuhood/CSVSweep\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; Search many CSV files at once in AutoHotkey v2: every matching row in one grid, with a list you can keep and export.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DaanishSuhood/CSVSweep.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DaanishSuhood/CSVSweep/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CSVSweep>\n\n; Example initialization\nclass CsvsweepExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CSVSweep loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CsvsweepExample()\n```"
+    },
+    {
+      "id": "github-1423916123",
+      "title": "keyboard-controller",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 controller for automatically blocking a laptop built-in keyboard when an external keyboard is connected.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-18T02:15:57Z",
+      "lastModified": "2026-10-18T02:16:09Z",
+      "source": "github",
+      "url": "https://github.com/iiinno/keyboard-controller",
+      "stars": 0,
+      "forks": 0,
+      "owner": "iiinno",
+      "code": "```cpp\n; ============================================\n; Repository: iiinno/keyboard-controller\n; ============================================\n; URL: https://github.com/iiinno/keyboard-controller\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 controller for automatically blocking a laptop built-in keyboard when an external keyboard is connected.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iiinno/keyboard-controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iiinno/keyboard-controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keyboard-controller>\n\n; Example initialization\nclass KeyboardControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keyboard-controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardControllerExample()\n```"
     }
   ]
 }
