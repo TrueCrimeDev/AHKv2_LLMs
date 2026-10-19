@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-19T06:20:03.692Z",
-  "totalScripts": 628,
+  "lastUpdated": "2026-10-19T12:14:14.425Z",
+  "totalScripts": 630,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-19T06:04:29Z",
+      "lastModified": "2026-10-19T08:24:43Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
@@ -3374,7 +3374,7 @@
       "id": "github-1169619112",
       "title": "CursorTip",
       "category": "GitHub Repository",
-      "description": "极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）",
+      "description": "极致轻量的 Windows 桌面提示工具：大小�� / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）",
       "tags": [
         "github",
         "repository",
@@ -3387,13 +3387,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-10-09T17:22:40Z",
+      "lastModified": "2026-10-19T11:53:10Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
       "stars": 6,
       "forks": 0,
       "owner": "zeno528",
-      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 6 | Forks: 0\n; Last Updated: 10/9/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 6 | Forks: 0\n; Last Updated: 10/19/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小�� / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
     },
     {
       "id": "github-1169730446",
@@ -6277,19 +6277,19 @@
         "autohotkey",
         "autohotkey-v2",
         "batch-rename",
+        "bulk-rename",
         "file-explorer",
-        "file-management",
-        "hotkey"
+        "file-management"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-01T02:21:21Z",
-      "lastModified": "2026-06-16T12:29:54Z",
+      "lastModified": "2026-10-19T07:38:54Z",
       "source": "github",
       "url": "https://github.com/surrealier/Windows_Renamer",
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "owner": "surrealier",
-      "code": "```cpp\n; ============================================\n; Repository: surrealier/Windows_Renamer\n; ============================================\n; URL: https://github.com/surrealier/Windows_Renamer\n; Stars: 3 | Forks: 0\n; Last Updated: 6/16/2026\n; License: MIT License\n;\n; Description:\n; Add a prefix/suffix to many files at once in Windows Explorer — select files, press Alt+F2, done. Lightweight AutoHotkey v2 tray tool.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/surrealier/Windows_Renamer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/surrealier/Windows_Renamer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows_Renamer>\n\n; Example initialization\nclass WindowsRenamerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows_Renamer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsRenamerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: surrealier/Windows_Renamer\n; ============================================\n; URL: https://github.com/surrealier/Windows_Renamer\n; Stars: 4 | Forks: 0\n; Last Updated: 10/19/2026\n; License: MIT License\n;\n; Description:\n; Add a prefix/suffix to many files at once in Windows Explorer — select files, press Alt+F2, done. Lightweight AutoHotkey v2 tray tool.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/surrealier/Windows_Renamer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/surrealier/Windows_Renamer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows_Renamer>\n\n; Example initialization\nclass WindowsRenamerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows_Renamer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsRenamerExample()\n```"
     },
     {
       "id": "github-1255670981",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-18T03:04:18Z",
+      "lastModified": "2026-10-19T09:43:06Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/19/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -12748,6 +12748,44 @@
       "difficulty": "varies",
       "dateAdded": "2026-10-19T05:55:37Z",
       "lastModified": "2026-10-19T06:13:47Z",
+      "source": "github",
+      "url": "https://github.com/DaanishSuhood/SheetSplit",
+      "stars": 0,
+      "forks": 0,
+      "owner": "DaanishSuhood",
+      "code": "```cpp\n; ============================================\n; Repository: DaanishSuhood/SheetSplit\n; ============================================\n; URL: https://github.com/DaanishSuhood/SheetSplit\n; Stars: 0 | Forks: 0\n; Last Updated: 10/19/2026\n; License: MIT License\n;\n; Description:\n; Split an Excel workbook into separate files in AutoHotkey v2: one file per tab, or one sheet cut into blocks of rows with the header repeated.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DaanishSuhood/SheetSplit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DaanishSuhood/SheetSplit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SheetSplit>\n\n; Example initialization\nclass SheetsplitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SheetSplit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SheetsplitExample()\n```"
+    },
+    {
+      "id": "github-1425200420",
+      "title": "CSVSweep",
+      "category": "GitHub Repository",
+      "description": "Search many CSV files at once in AutoHotkey v2: every matching row in one grid, with a list you can keep and export.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-19T06:23:26Z",
+      "lastModified": "2026-10-19T06:23:36Z",
+      "source": "github",
+      "url": "https://github.com/DaanishSuhood/CSVSweep",
+      "stars": 0,
+      "forks": 0,
+      "owner": "DaanishSuhood",
+      "code": "```cpp\n; ============================================\n; Repository: DaanishSuhood/CSVSweep\n; ============================================\n; URL: https://github.com/DaanishSuhood/CSVSweep\n; Stars: 0 | Forks: 0\n; Last Updated: 10/19/2026\n; License: MIT License\n;\n; Description:\n; Search many CSV files at once in AutoHotkey v2: every matching row in one grid, with a list you can keep and export.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DaanishSuhood/CSVSweep.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DaanishSuhood/CSVSweep/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CSVSweep>\n\n; Example initialization\nclass CsvsweepExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CSVSweep loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CsvsweepExample()\n```"
+    },
+    {
+      "id": "github-1425199765",
+      "title": "SheetSplit",
+      "category": "GitHub Repository",
+      "description": "Split an Excel workbook into separate files in AutoHotkey v2: one file per tab, or one sheet cut into blocks of rows with the header repeated.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-19T06:22:52Z",
+      "lastModified": "2026-10-19T06:23:03Z",
       "source": "github",
       "url": "https://github.com/DaanishSuhood/SheetSplit",
       "stars": 0,
