@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-18T18:09:15.476Z",
-  "totalScripts": 625,
+  "lastUpdated": "2026-10-19T00:25:19.421Z",
+  "totalScripts": 627,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -450,13 +450,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2020-05-22T19:29:56Z",
-      "lastModified": "2026-10-12T22:44:21Z",
+      "lastModified": "2026-10-18T22:12:21Z",
       "source": "github",
       "url": "https://github.com/iseahound/ImagePut",
       "stars": 233,
       "forks": 36,
       "owner": "iseahound",
-      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 233 | Forks: 36\n; Last Updated: 10/12/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iseahound/ImagePut\n; ============================================\n; URL: https://github.com/iseahound/ImagePut\n; Stars: 233 | Forks: 36\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; A core library for images in AutoHotkey. Supports AutoHotkey v1 and v2. \n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iseahound/ImagePut.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iseahound/ImagePut/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ImagePut>\n\n; Example initialization\nclass ImageputExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ImagePut loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ImageputExample()\n```"
     },
     {
       "id": "github-1030312038",
@@ -12590,7 +12590,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T00:19:35Z",
-      "lastModified": "2026-10-18T00:28:48Z",
+      "lastModified": "2026-10-18T23:56:00Z",
       "source": "github",
       "url": "https://github.com/renton555/sketchup-chords",
       "stars": 0,
@@ -12690,13 +12690,51 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T08:17:28Z",
-      "lastModified": "2026-10-18T08:27:53Z",
+      "lastModified": "2026-10-18T22:52:13Z",
       "source": "github",
       "url": "https://github.com/taroyamadax/clipboard-history-jugaad",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "taroyamadax",
-      "code": "```cpp\n; ============================================\n; Repository: taroyamadax/clipboard-history-jugaad\n; ============================================\n; URL: https://github.com/taroyamadax/clipboard-history-jugaad\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; A lightweight clipboard history manager for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/taroyamadax/clipboard-history-jugaad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/taroyamadax/clipboard-history-jugaad/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-history-jugaad>\n\n; Example initialization\nclass ClipboardHistoryJugaadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-history-jugaad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardHistoryJugaadExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: taroyamadax/clipboard-history-jugaad\n; ============================================\n; URL: https://github.com/taroyamadax/clipboard-history-jugaad\n; Stars: 1 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; A lightweight clipboard history manager for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/taroyamadax/clipboard-history-jugaad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/taroyamadax/clipboard-history-jugaad/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-history-jugaad>\n\n; Example initialization\nclass ClipboardHistoryJugaadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-history-jugaad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardHistoryJugaadExample()\n```"
+    },
+    {
+      "id": "github-1424710817",
+      "title": "D4Automatisierung_perAHK",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey-v2-Skripte fuer Okkultistin und Horadrischen Wuerfel in Diablo IV (4K, QHD und Full HD).",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-18T18:56:17Z",
+      "lastModified": "2026-10-18T21:13:37Z",
+      "source": "github",
+      "url": "https://github.com/ToxicCrzay270/D4Automatisierung_perAHK",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ToxicCrzay270",
+      "code": "```cpp\n; ============================================\n; Repository: ToxicCrzay270/D4Automatisierung_perAHK\n; ============================================\n; URL: https://github.com/ToxicCrzay270/D4Automatisierung_perAHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey-v2-Skripte fuer Okkultistin und Horadrischen Wuerfel in Diablo IV (4K, QHD und Full HD).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ToxicCrzay270/D4Automatisierung_perAHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ToxicCrzay270/D4Automatisierung_perAHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <D4Automatisierung_perAHK>\n\n; Example initialization\nclass D4automatisierungPerahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"D4Automatisierung_perAHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := D4automatisierungPerahkExample()\n```"
+    },
+    {
+      "id": "github-1424730175",
+      "title": "azerty-alt-codes",
+      "category": "GitHub Repository",
+      "description": "Émulation des Alt-Codes Windows pour claviers AZERTY sans pavé numérique sous AutoHotkey v2 (ex: Alt + è   │ = •).",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-18T19:20:52Z",
+      "lastModified": "2026-10-18T19:23:07Z",
+      "source": "github",
+      "url": "https://github.com/nepoxiii/azerty-alt-codes",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nepoxiii",
+      "code": "```cpp\n; ============================================\n; Repository: nepoxiii/azerty-alt-codes\n; ============================================\n; URL: https://github.com/nepoxiii/azerty-alt-codes\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: Not specified\n;\n; Description:\n; Émulation des Alt-Codes Windows pour claviers AZERTY sans pavé numérique sous AutoHotkey v2 (ex: Alt + è   │ = •).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nepoxiii/azerty-alt-codes.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nepoxiii/azerty-alt-codes/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <azerty-alt-codes>\n\n; Example initialization\nclass AzertyAltCodesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"azerty-alt-codes loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AzertyAltCodesExample()\n```"
     }
   ]
 }
