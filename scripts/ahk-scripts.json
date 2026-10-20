@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-20T06:14:45.933Z",
+  "lastUpdated": "2026-10-20T12:13:02.356Z",
   "totalScripts": 633,
   "categories": [
     "GUI",
@@ -1114,13 +1114,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2022-12-11T09:54:06Z",
-      "lastModified": "2026-10-11T07:48:08Z",
+      "lastModified": "2026-10-20T12:02:56Z",
       "source": "github",
       "url": "https://github.com/autohotkey-docs-translation/v2-source",
       "stars": 0,
       "forks": 0,
       "owner": "autohotkey-docs-translation",
-      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 10/11/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: autohotkey-docs-translation/v2-source\n; ============================================\n; URL: https://github.com/autohotkey-docs-translation/v2-source\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: Not specified\n;\n; Description:\n; A copy of https://github.com/Lexikos/AutoHotkey_L-Docs/tree/v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/autohotkey-docs-translation/v2-source.git\n;\n; Option 2: Download ZIP\n;   https://github.com/autohotkey-docs-translation/v2-source/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <v2-source>\n\n; Example initialization\nclass V2SourceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"v2-source loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := V2SourceExample()\n```"
     },
     {
       "id": "github-1101203666",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-19T08:24:43Z",
+      "lastModified": "2026-10-20T09:30:15Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/19/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/20/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -3374,7 +3374,7 @@
       "id": "github-1169619112",
       "title": "CursorTip",
       "category": "GitHub Repository",
-      "description": "极致轻量的 Windows 桌面提示工具：大小�� / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）",
+      "description": "极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）",
       "tags": [
         "github",
         "repository",
@@ -3387,13 +3387,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-10-19T11:53:10Z",
+      "lastModified": "2026-10-20T07:59:32Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
       "stars": 6,
       "forks": 0,
       "owner": "zeno528",
-      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 6 | Forks: 0\n; Last Updated: 10/19/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小�� / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 6 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
     },
     {
       "id": "github-1169730446",
@@ -12187,13 +12187,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T14:23:51Z",
-      "lastModified": "2026-10-13T14:24:24Z",
+      "lastModified": "2026-10-20T07:09:53Z",
       "source": "github",
       "url": "https://github.com/DaanishSuhood/MergeTool",
       "stars": 0,
       "forks": 0,
       "owner": "DaanishSuhood",
-      "code": "```cpp\n; ============================================\n; Repository: DaanishSuhood/MergeTool\n; ============================================\n; URL: https://github.com/DaanishSuhood/MergeTool\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Windows mail-merge tool in AutoHotkey v2: Word template + Excel data → Outlook emails, PDFs, or print\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DaanishSuhood/MergeTool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DaanishSuhood/MergeTool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MergeTool>\n\n; Example initialization\nclass MergetoolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MergeTool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MergetoolExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DaanishSuhood/MergeTool\n; ============================================\n; URL: https://github.com/DaanishSuhood/MergeTool\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; Windows mail-merge tool in AutoHotkey v2: Word template + Excel data → Outlook emails, PDFs, or print\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DaanishSuhood/MergeTool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DaanishSuhood/MergeTool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MergeTool>\n\n; Example initialization\nclass MergetoolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MergeTool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MergetoolExample()\n```"
     },
     {
       "id": "github-591743134",
@@ -12426,13 +12426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-15T22:18:22Z",
-      "lastModified": "2026-10-19T16:42:41Z",
+      "lastModified": "2026-10-20T12:05:44Z",
       "source": "github",
       "url": "https://github.com/mikejhill/hotkit",
       "stars": 1,
       "forks": 0,
       "owner": "mikejhill",
-      "code": "```cpp\n; ============================================\n; Repository: mikejhill/hotkit\n; ============================================\n; URL: https://github.com/mikejhill/hotkit\n; Stars: 1 | Forks: 0\n; Last Updated: 10/19/2026\n; License: MIT License\n;\n; Description:\n; A config-driven hotkey toolkit for Windows, built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mikejhill/hotkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mikejhill/hotkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkit>\n\n; Example initialization\nclass HotkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mikejhill/hotkit\n; ============================================\n; URL: https://github.com/mikejhill/hotkit\n; Stars: 1 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; A config-driven hotkey toolkit for Windows, built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mikejhill/hotkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mikejhill/hotkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkit>\n\n; Example initialization\nclass HotkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkitExample()\n```"
     },
     {
       "id": "github-1421464392",
@@ -12766,13 +12766,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-19T06:23:26Z",
-      "lastModified": "2026-10-19T06:23:36Z",
+      "lastModified": "2026-10-20T07:09:41Z",
       "source": "github",
       "url": "https://github.com/DaanishSuhood/CSVSweep",
       "stars": 0,
       "forks": 0,
       "owner": "DaanishSuhood",
-      "code": "```cpp\n; ============================================\n; Repository: DaanishSuhood/CSVSweep\n; ============================================\n; URL: https://github.com/DaanishSuhood/CSVSweep\n; Stars: 0 | Forks: 0\n; Last Updated: 10/19/2026\n; License: MIT License\n;\n; Description:\n; Search many CSV files at once in AutoHotkey v2: every matching row in one grid, with a list you can keep and export.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DaanishSuhood/CSVSweep.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DaanishSuhood/CSVSweep/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CSVSweep>\n\n; Example initialization\nclass CsvsweepExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CSVSweep loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CsvsweepExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DaanishSuhood/CSVSweep\n; ============================================\n; URL: https://github.com/DaanishSuhood/CSVSweep\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; Search many CSV files at once in AutoHotkey v2: every matching row in one grid, with a list you can keep and export.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DaanishSuhood/CSVSweep.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DaanishSuhood/CSVSweep/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CSVSweep>\n\n; Example initialization\nclass CsvsweepExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CSVSweep loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CsvsweepExample()\n```"
     },
     {
       "id": "github-1425199765",
@@ -12785,13 +12785,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-19T06:22:52Z",
-      "lastModified": "2026-10-19T06:23:03Z",
+      "lastModified": "2026-10-20T07:09:45Z",
       "source": "github",
       "url": "https://github.com/DaanishSuhood/SheetSplit",
       "stars": 0,
       "forks": 0,
       "owner": "DaanishSuhood",
-      "code": "```cpp\n; ============================================\n; Repository: DaanishSuhood/SheetSplit\n; ============================================\n; URL: https://github.com/DaanishSuhood/SheetSplit\n; Stars: 0 | Forks: 0\n; Last Updated: 10/19/2026\n; License: MIT License\n;\n; Description:\n; Split an Excel workbook into separate files in AutoHotkey v2: one file per tab, or one sheet cut into blocks of rows with the header repeated.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DaanishSuhood/SheetSplit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DaanishSuhood/SheetSplit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SheetSplit>\n\n; Example initialization\nclass SheetsplitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SheetSplit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SheetsplitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DaanishSuhood/SheetSplit\n; ============================================\n; URL: https://github.com/DaanishSuhood/SheetSplit\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; Split an Excel workbook into separate files in AutoHotkey v2: one file per tab, or one sheet cut into blocks of rows with the header repeated.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DaanishSuhood/SheetSplit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DaanishSuhood/SheetSplit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SheetSplit>\n\n; Example initialization\nclass SheetsplitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SheetSplit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SheetsplitExample()\n```"
     },
     {
       "id": "github-1425831305",
@@ -12847,7 +12847,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-20T05:27:05Z",
-      "lastModified": "2026-10-20T05:33:52Z",
+      "lastModified": "2026-10-20T08:18:28Z",
       "source": "github",
       "url": "https://github.com/sehoon2043/auto-space",
       "stars": 0,
