@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-20T00:23:21.390Z",
-  "totalScripts": 632,
+  "lastUpdated": "2026-10-20T06:14:45.933Z",
+  "totalScripts": 633,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -12590,13 +12590,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T00:19:35Z",
-      "lastModified": "2026-10-18T23:56:00Z",
+      "lastModified": "2026-10-20T03:34:31Z",
       "source": "github",
       "url": "https://github.com/renton555/sketchup-chords",
       "stars": 0,
       "forks": 0,
       "owner": "renton555",
-      "code": "```cpp\n; ============================================\n; Repository: renton555/sketchup-chords\n; ============================================\n; URL: https://github.com/renton555/sketchup-chords\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; Type short words in SketchUp to fire keyboard shortcuts. AutoHotkey v2, Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/renton555/sketchup-chords.git\n;\n; Option 2: Download ZIP\n;   https://github.com/renton555/sketchup-chords/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sketchup-chords>\n\n; Example initialization\nclass SketchupChordsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sketchup-chords loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SketchupChordsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: renton555/sketchup-chords\n; ============================================\n; URL: https://github.com/renton555/sketchup-chords\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; Type short words in SketchUp to fire keyboard shortcuts. AutoHotkey v2, Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/renton555/sketchup-chords.git\n;\n; Option 2: Download ZIP\n;   https://github.com/renton555/sketchup-chords/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sketchup-chords>\n\n; Example initialization\nclass SketchupChordsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sketchup-chords loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SketchupChordsExample()\n```"
     },
     {
       "id": "github-1423987509",
@@ -12835,6 +12835,25 @@
       "forks": 0,
       "owner": "Nidhil-stack",
       "code": "```cpp\n; ============================================\n; Repository: Nidhil-stack/SpatialFocus\n; ============================================\n; URL: https://github.com/Nidhil-stack/SpatialFocus\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: Apache License 2.0\n;\n; Description:\n; Switch Windows windows by the spatial position of right-hand keys (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nidhil-stack/SpatialFocus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nidhil-stack/SpatialFocus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SpatialFocus>\n\n; Example initialization\nclass SpatialfocusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SpatialFocus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SpatialfocusExample()\n```"
+    },
+    {
+      "id": "github-1426542741",
+      "title": "auto-space",
+      "category": "GitHub Repository",
+      "description": "자동 스페이스 매크로 (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-20T05:27:05Z",
+      "lastModified": "2026-10-20T05:33:52Z",
+      "source": "github",
+      "url": "https://github.com/sehoon2043/auto-space",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sehoon2043",
+      "code": "```cpp\n; ============================================\n; Repository: sehoon2043/auto-space\n; ============================================\n; URL: https://github.com/sehoon2043/auto-space\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: Not specified\n;\n; Description:\n; 자동 스페이스 매크로 (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sehoon2043/auto-space.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sehoon2043/auto-space/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <auto-space>\n\n; Example initialization\nclass AutoSpaceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"auto-space loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutoSpaceExample()\n```"
     }
   ]
 }
