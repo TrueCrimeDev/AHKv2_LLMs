@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-20T12:13:02.356Z",
-  "totalScripts": 633,
+  "lastUpdated": "2026-10-20T18:10:54.777Z",
+  "totalScripts": 635,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6407,13 +6407,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-10-17T11:46:51Z",
+      "lastModified": "2026-10-20T14:58:39Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 5,
-      "forks": 1,
+      "forks": 2,
       "owner": "paehtz",
-      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 5 | Forks: 1\n; Last Updated: 10/17/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 5 | Forks: 2\n; Last Updated: 10/20/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     },
     {
       "id": "github-1261581594",
@@ -11365,13 +11365,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T21:55:36Z",
-      "lastModified": "2026-10-14T19:03:16Z",
+      "lastModified": "2026-10-20T17:18:46Z",
       "source": "github",
       "url": "https://github.com/DevanshSrivastava88/claude-mouse-voice",
       "stars": 0,
       "forks": 0,
       "owner": "DevanshSrivastava88",
-      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/14/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
     },
     {
       "id": "github-1398965219",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-19T23:00:52Z",
+      "lastModified": "2026-10-20T15:56:21Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/19/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -12828,7 +12828,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-19T23:30:27Z",
-      "lastModified": "2026-10-20T00:06:51Z",
+      "lastModified": "2026-10-20T13:54:19Z",
       "source": "github",
       "url": "https://github.com/Nidhil-stack/SpatialFocus",
       "stars": 0,
@@ -12854,6 +12854,44 @@
       "forks": 0,
       "owner": "sehoon2043",
       "code": "```cpp\n; ============================================\n; Repository: sehoon2043/auto-space\n; ============================================\n; URL: https://github.com/sehoon2043/auto-space\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: Not specified\n;\n; Description:\n; 자동 스페이스 매크로 (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sehoon2043/auto-space.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sehoon2043/auto-space/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <auto-space>\n\n; Example initialization\nclass AutoSpaceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"auto-space loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutoSpaceExample()\n```"
+    },
+    {
+      "id": "github-1417128599",
+      "title": "super-hotkey",
+      "category": "GitHub Repository",
+      "description": "a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-13T13:33:47Z",
+      "lastModified": "2026-10-20T17:19:24Z",
+      "source": "github",
+      "url": "https://github.com/nroj95/super-hotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nroj95",
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+    },
+    {
+      "id": "github-1426971308",
+      "title": "ahk-assistant",
+      "category": "GitHub Repository",
+      "description": "AutoHotKey v2 Assistant",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-20T12:08:04Z",
+      "lastModified": "2026-10-20T14:30:54Z",
+      "source": "github",
+      "url": "https://github.com/poa/ahk-assistant",
+      "stars": 0,
+      "forks": 0,
+      "owner": "poa",
+      "code": "```cpp\n; ============================================\n; Repository: poa/ahk-assistant\n; ============================================\n; URL: https://github.com/poa/ahk-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 Assistant\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/poa/ahk-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/poa/ahk-assistant/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-assistant>\n\n; Example initialization\nclass AhkAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAssistantExample()\n```"
     }
   ]
 }
