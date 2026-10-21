@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-21T06:14:53.246Z",
-  "totalScripts": 637,
+  "lastUpdated": "2026-10-21T12:13:09.464Z",
+  "totalScripts": 638,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -12866,13 +12866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-10-20T17:19:24Z",
+      "lastModified": "2026-10-21T09:02:18Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
@@ -12930,6 +12930,25 @@
       "forks": 0,
       "owner": "ted423",
       "code": "```cpp\n; ============================================\n; Repository: ted423/1explorer\n; ============================================\n; URL: https://github.com/ted423/1explorer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: The Unlicense\n;\n; Description:\n; An AutoHotkey v2 script that merges multiple Windows 11 File Explorer windows into a single window with multiple tabs\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ted423/1explorer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ted423/1explorer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <1explorer>\n\n; Example initialization\nclass 1explorerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"1explorer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := 1explorerExample()\n```"
+    },
+    {
+      "id": "github-1428162198",
+      "title": "hotkey-manager",
+      "category": "GitHub Repository",
+      "description": "CapsLock as a modifier to reach F14-F24 and media keys, with a GUI to record and manage bindings. AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-21T09:29:51Z",
+      "lastModified": "2026-10-21T09:30:02Z",
+      "source": "github",
+      "url": "https://github.com/qalbwd24/hotkey-manager",
+      "stars": 0,
+      "forks": 0,
+      "owner": "qalbwd24",
+      "code": "```cpp\n; ============================================\n; Repository: qalbwd24/hotkey-manager\n; ============================================\n; URL: https://github.com/qalbwd24/hotkey-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: Not specified\n;\n; Description:\n; CapsLock as a modifier to reach F14-F24 and media keys, with a GUI to record and manage bindings. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/qalbwd24/hotkey-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/qalbwd24/hotkey-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkey-manager>\n\n; Example initialization\nclass HotkeyManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkey-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkeyManagerExample()\n```"
     }
   ]
 }
