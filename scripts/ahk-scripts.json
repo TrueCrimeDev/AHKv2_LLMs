@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-21T12:13:09.464Z",
-  "totalScripts": 638,
+  "lastUpdated": "2026-10-21T18:11:16.177Z",
+  "totalScripts": 641,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -7206,13 +7206,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-10-17T20:13:13Z",
+      "lastModified": "2026-10-21T16:03:47Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
       "forks": 0,
       "owner": "von110187",
-      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 10/17/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
     },
     {
       "id": "github-825062151",
@@ -9516,13 +9516,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-31T14:27:22Z",
-      "lastModified": "2026-08-31T15:25:20Z",
+      "lastModified": "2026-10-21T16:12:27Z",
       "source": "github",
       "url": "https://github.com/vrushabhranpariya/KeyChain",
       "stars": 0,
       "forks": 0,
       "owner": "vrushabhranpariya",
-      "code": "```cpp\n; ============================================\n; Repository: vrushabhranpariya/KeyChain\n; ============================================\n; URL: https://github.com/vrushabhranpariya/KeyChain\n; Stars: 0 | Forks: 0\n; Last Updated: 8/31/2026\n; License: Not specified\n;\n; Description:\n; KeyChain is a lightweight, background Windows macro application built with AutoHotkey v2. It enables you to organize key combinations and automated actions into customizable execution groups with non-blocking live updates, user-friendly hotkey parsing, and dynamic command sequences.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/vrushabhranpariya/KeyChain.git\n;\n; Option 2: Download ZIP\n;   https://github.com/vrushabhranpariya/KeyChain/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyChain>\n\n; Example initialization\nclass KeychainExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyChain loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeychainExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: vrushabhranpariya/KeyChain\n; ============================================\n; URL: https://github.com/vrushabhranpariya/KeyChain\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: Not specified\n;\n; Description:\n; KeyChain is a lightweight, background Windows macro application built with AutoHotkey v2. It enables you to organize key combinations and automated actions into customizable execution groups with non-blocking live updates, user-friendly hotkey parsing, and dynamic command sequences.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/vrushabhranpariya/KeyChain.git\n;\n; Option 2: Download ZIP\n;   https://github.com/vrushabhranpariya/KeyChain/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyChain>\n\n; Example initialization\nclass KeychainExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyChain loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeychainExample()\n```"
     },
     {
       "id": "github-1353376200",
@@ -12885,13 +12885,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-20T12:08:04Z",
-      "lastModified": "2026-10-20T14:30:54Z",
+      "lastModified": "2026-10-21T14:00:13Z",
       "source": "github",
       "url": "https://github.com/poa/ahk-assistant",
       "stars": 0,
       "forks": 0,
       "owner": "poa",
-      "code": "```cpp\n; ============================================\n; Repository: poa/ahk-assistant\n; ============================================\n; URL: https://github.com/poa/ahk-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 Assistant\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/poa/ahk-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/poa/ahk-assistant/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-assistant>\n\n; Example initialization\nclass AhkAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAssistantExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: poa/ahk-assistant\n; ============================================\n; URL: https://github.com/poa/ahk-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 Assistant\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/poa/ahk-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/poa/ahk-assistant/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-assistant>\n\n; Example initialization\nclass AhkAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAssistantExample()\n```"
     },
     {
       "id": "github-1427692687",
@@ -12949,6 +12949,69 @@
       "forks": 0,
       "owner": "qalbwd24",
       "code": "```cpp\n; ============================================\n; Repository: qalbwd24/hotkey-manager\n; ============================================\n; URL: https://github.com/qalbwd24/hotkey-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: Not specified\n;\n; Description:\n; CapsLock as a modifier to reach F14-F24 and media keys, with a GUI to record and manage bindings. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/qalbwd24/hotkey-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/qalbwd24/hotkey-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkey-manager>\n\n; Example initialization\nclass HotkeyManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkey-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkeyManagerExample()\n```"
+    },
+    {
+      "id": "github-1428547018",
+      "title": "CapQ",
+      "category": "GitHub Repository",
+      "description": "Clipboard AI assistant for Windows 11 (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-21T15:06:35Z",
+      "lastModified": "2026-10-21T16:54:20Z",
+      "source": "github",
+      "url": "https://github.com/LinXi-ovo/CapQ",
+      "stars": 0,
+      "forks": 0,
+      "owner": "LinXi-ovo",
+      "code": "```cpp\n; ============================================\n; Repository: LinXi-ovo/CapQ\n; ============================================\n; URL: https://github.com/LinXi-ovo/CapQ\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; Clipboard AI assistant for Windows 11 (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/LinXi-ovo/CapQ.git\n;\n; Option 2: Download ZIP\n;   https://github.com/LinXi-ovo/CapQ/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapQ>\n\n; Example initialization\nclass CapqExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapQ loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapqExample()\n```"
+    },
+    {
+      "id": "github-1428262325",
+      "title": "snow-tools",
+      "category": "GitHub Repository",
+      "description": "Keyboard-driven Windows toolkit in AutoHotkey v2: clipboard history, text snippets, notes and a call-time calculator.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "clipboard-manager",
+        "productivity",
+        "service-desk",
+        "text-expander"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-21T11:06:13Z",
+      "lastModified": "2026-10-21T14:42:42Z",
+      "source": "github",
+      "url": "https://github.com/ZachGSnow/snow-tools",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ZachGSnow",
+      "code": "```cpp\n; ============================================\n; Repository: ZachGSnow/snow-tools\n; ============================================\n; URL: https://github.com/ZachGSnow/snow-tools\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-driven Windows toolkit in AutoHotkey v2: clipboard history, text snippets, notes and a call-time calculator.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ZachGSnow/snow-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ZachGSnow/snow-tools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <snow-tools>\n\n; Example initialization\nclass SnowToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"snow-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnowToolsExample()\n```"
+    },
+    {
+      "id": "github-1428372573",
+      "title": "openpath-sidekey",
+      "category": "GitHub Repository",
+      "description": "选中文件路径，按一下��标侧键就打开/预览（AutoHotkey v2，Windows）",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-21T12:44:49Z",
+      "lastModified": "2026-10-21T13:16:09Z",
+      "source": "github",
+      "url": "https://github.com/erdou9968/openpath-sidekey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "erdou9968",
+      "code": "```cpp\n; ============================================\n; Repository: erdou9968/openpath-sidekey\n; ============================================\n; URL: https://github.com/erdou9968/openpath-sidekey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; 选中文件路径，按一下��标侧键就打开/预览（AutoHotkey v2，Windows）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/erdou9968/openpath-sidekey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/erdou9968/openpath-sidekey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <openpath-sidekey>\n\n; Example initialization\nclass OpenpathSidekeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"openpath-sidekey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OpenpathSidekeyExample()\n```"
     }
   ]
 }
