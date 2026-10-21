@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-20T18:10:54.777Z",
-  "totalScripts": 635,
+  "lastUpdated": "2026-10-21T00:22:20.539Z",
+  "totalScripts": 636,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6407,7 +6407,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-10-20T14:58:39Z",
+      "lastModified": "2026-10-20T18:45:36Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 5,
@@ -12388,13 +12388,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-29T15:05:17Z",
-      "lastModified": "2026-10-16T17:02:01Z",
+      "lastModified": "2026-10-20T18:18:09Z",
       "source": "github",
       "url": "https://github.com/AweGuider/Claude-Dictate-Hotkey",
       "stars": 0,
       "forks": 0,
       "owner": "AweGuider",
-      "code": "```cpp\n; ============================================\n; Repository: AweGuider/Claude-Dictate-Hotkey\n; ============================================\n; URL: https://github.com/AweGuider/Claude-Dictate-Hotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/16/2026\n; License: MIT License\n;\n; Description:\n; Dictation hotkey for the Claude desktop app on Windows: tap or hold (push-to-talk) voice input, auto-stop after silence, a maximum length, and a countdown before either stop. AutoHotkey v2. Unofficial, not affiliated with Anthropic.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AweGuider/Claude-Dictate-Hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AweGuider/Claude-Dictate-Hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Claude-Dictate-Hotkey>\n\n; Example initialization\nclass ClaudeDictateHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Claude-Dictate-Hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeDictateHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AweGuider/Claude-Dictate-Hotkey\n; ============================================\n; URL: https://github.com/AweGuider/Claude-Dictate-Hotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; Dictation hotkey for the Claude desktop app on Windows: tap or hold (push-to-talk) voice input, auto-stop after silence, a maximum length, and a countdown before either stop. AutoHotkey v2. Unofficial, not affiliated with Anthropic.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AweGuider/Claude-Dictate-Hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AweGuider/Claude-Dictate-Hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Claude-Dictate-Hotkey>\n\n; Example initialization\nclass ClaudeDictateHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Claude-Dictate-Hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeDictateHotkeyExample()\n```"
     },
     {
       "id": "github-1420376665",
@@ -12828,7 +12828,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-19T23:30:27Z",
-      "lastModified": "2026-10-20T13:54:19Z",
+      "lastModified": "2026-10-20T18:43:34Z",
       "source": "github",
       "url": "https://github.com/Nidhil-stack/SpatialFocus",
       "stars": 0,
@@ -12892,6 +12892,25 @@
       "forks": 0,
       "owner": "poa",
       "code": "```cpp\n; ============================================\n; Repository: poa/ahk-assistant\n; ============================================\n; URL: https://github.com/poa/ahk-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 Assistant\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/poa/ahk-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/poa/ahk-assistant/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-assistant>\n\n; Example initialization\nclass AhkAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAssistantExample()\n```"
+    },
+    {
+      "id": "github-1427692687",
+      "title": "Roman2Hangul-IME-Bridge",
+      "category": "GitHub Repository",
+      "description": "Windows / AutoHotkey v2 Romanization-to-Hangul input bridge with 1959 and 2000 romanization modes.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-21T00:10:11Z",
+      "lastModified": "2026-10-21T00:11:24Z",
+      "source": "github",
+      "url": "https://github.com/aetherion-nox/Roman2Hangul-IME-Bridge",
+      "stars": 0,
+      "forks": 0,
+      "owner": "aetherion-nox",
+      "code": "```cpp\n; ============================================\n; Repository: aetherion-nox/Roman2Hangul-IME-Bridge\n; ============================================\n; URL: https://github.com/aetherion-nox/Roman2Hangul-IME-Bridge\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: Not specified\n;\n; Description:\n; Windows / AutoHotkey v2 Romanization-to-Hangul input bridge with 1959 and 2000 romanization modes.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/aetherion-nox/Roman2Hangul-IME-Bridge.git\n;\n; Option 2: Download ZIP\n;   https://github.com/aetherion-nox/Roman2Hangul-IME-Bridge/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Roman2Hangul-IME-Bridge>\n\n; Example initialization\nclass Roman2hangulImeBridgeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Roman2Hangul-IME-Bridge loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Roman2hangulImeBridgeExample()\n```"
     }
   ]
 }
