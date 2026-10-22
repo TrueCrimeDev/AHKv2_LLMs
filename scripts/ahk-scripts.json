@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-21T18:11:16.177Z",
-  "totalScripts": 641,
+  "lastUpdated": "2026-10-22T00:22:47.731Z",
+  "totalScripts": 643,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -13012,6 +13012,50 @@
       "forks": 0,
       "owner": "erdou9968",
       "code": "```cpp\n; ============================================\n; Repository: erdou9968/openpath-sidekey\n; ============================================\n; URL: https://github.com/erdou9968/openpath-sidekey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; 选中文件路径，按一下��标侧键就打开/预览（AutoHotkey v2，Windows）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/erdou9968/openpath-sidekey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/erdou9968/openpath-sidekey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <openpath-sidekey>\n\n; Example initialization\nclass OpenpathSidekeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"openpath-sidekey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OpenpathSidekeyExample()\n```"
+    },
+    {
+      "id": "github-1429031984",
+      "title": "DonVox",
+      "category": "GitHub Repository",
+      "description": "Lector ligero de portapapeles y texto seleccionado para Windows (AutoHotkey v2 + Azure Neural Voices & SAPI5/OneCore)",
+      "tags": [
+        "github",
+        "repository",
+        "accessibility",
+        "autohotkey",
+        "azure-tts",
+        "sapi5",
+        "speech-synthesis",
+        "text-to-speech"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-21T23:26:46Z",
+      "lastModified": "2026-10-21T23:57:25Z",
+      "source": "github",
+      "url": "https://github.com/Collazos022/DonVox",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Collazos022",
+      "code": "```cpp\n; ============================================\n; Repository: Collazos022/DonVox\n; ============================================\n; URL: https://github.com/Collazos022/DonVox\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; Lector ligero de portapapeles y texto seleccionado para Windows (AutoHotkey v2 + Azure Neural Voices & SAPI5/OneCore)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Collazos022/DonVox.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Collazos022/DonVox/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DonVox>\n\n; Example initialization\nclass DonvoxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DonVox loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DonvoxExample()\n```"
+    },
+    {
+      "id": "github-1428762673",
+      "title": "vm-clipboard-typer",
+      "category": "GitHub Repository",
+      "description": "VM Clipboard Typer - types your clipboard into VMware consoles that don't accept paste, one exact keystroke at a time (AutoHotkey v2).",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-21T18:14:56Z",
+      "lastModified": "2026-10-21T18:20:43Z",
+      "source": "github",
+      "url": "https://github.com/Beebopcat/vm-clipboard-typer",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Beebopcat",
+      "code": "```cpp\n; ============================================\n; Repository: Beebopcat/vm-clipboard-typer\n; ============================================\n; URL: https://github.com/Beebopcat/vm-clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: Not specified\n;\n; Description:\n; VM Clipboard Typer - types your clipboard into VMware consoles that don't accept paste, one exact keystroke at a time (AutoHotkey v2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Beebopcat/vm-clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Beebopcat/vm-clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vm-clipboard-typer>\n\n; Example initialization\nclass VmClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vm-clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VmClipboardTyperExample()\n```"
     }
   ]
 }
