@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-22T06:14:57.060Z",
-  "totalScripts": 643,
+  "lastUpdated": "2026-10-22T12:14:03.347Z",
+  "totalScripts": 644,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-10-02T09:32:34Z",
+      "lastModified": "2026-10-22T09:16:39Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
       "stars": 36,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 10/2/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 10/22/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -11390,13 +11390,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-01T02:50:37Z",
-      "lastModified": "2026-10-01T07:17:19Z",
+      "lastModified": "2026-10-22T07:22:25Z",
       "source": "github",
       "url": "https://github.com/Xyz9Selu/ScreenHalo",
       "stars": 0,
       "forks": 0,
       "owner": "Xyz9Selu",
-      "code": "```cpp\n; ============================================\n; Repository: Xyz9Selu/ScreenHalo\n; ============================================\n; URL: https://github.com/Xyz9Selu/ScreenHalo\n; Stars: 0 | Forks: 0\n; Last Updated: 10/1/2026\n; License: MIT License\n;\n; Description:\n; Tiny Windows tray utility (AutoHotkey v2) that shows which monitor has keyboard focus, with a soft glow on your screens. Click-through, mixed-DPI aware, zero idle CPU.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xyz9Selu/ScreenHalo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xyz9Selu/ScreenHalo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ScreenHalo>\n\n; Example initialization\nclass ScreenhaloExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ScreenHalo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ScreenhaloExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Xyz9Selu/ScreenHalo\n; ============================================\n; URL: https://github.com/Xyz9Selu/ScreenHalo\n; Stars: 0 | Forks: 0\n; Last Updated: 10/22/2026\n; License: MIT License\n;\n; Description:\n; Tiny Windows tray utility (AutoHotkey v2) that shows which monitor has keyboard focus, with a soft glow on your screens. Click-through, mixed-DPI aware, zero idle CPU.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xyz9Selu/ScreenHalo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xyz9Selu/ScreenHalo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ScreenHalo>\n\n; Example initialization\nclass ScreenhaloExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ScreenHalo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ScreenhaloExample()\n```"
     },
     {
       "id": "github-1399792734",
@@ -12885,13 +12885,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-20T12:08:04Z",
-      "lastModified": "2026-10-21T14:00:13Z",
+      "lastModified": "2026-10-22T09:11:27Z",
       "source": "github",
       "url": "https://github.com/poa/ahk-assistant",
       "stars": 0,
       "forks": 0,
       "owner": "poa",
-      "code": "```cpp\n; ============================================\n; Repository: poa/ahk-assistant\n; ============================================\n; URL: https://github.com/poa/ahk-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 Assistant\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/poa/ahk-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/poa/ahk-assistant/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-assistant>\n\n; Example initialization\nclass AhkAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAssistantExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: poa/ahk-assistant\n; ============================================\n; URL: https://github.com/poa/ahk-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 10/22/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 Assistant\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/poa/ahk-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/poa/ahk-assistant/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-assistant>\n\n; Example initialization\nclass AhkAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAssistantExample()\n```"
     },
     {
       "id": "github-1427692687",
@@ -13030,7 +13030,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-21T23:26:46Z",
-      "lastModified": "2026-10-22T02:41:14Z",
+      "lastModified": "2026-10-22T09:25:39Z",
       "source": "github",
       "url": "https://github.com/Collazos022/DonVox",
       "stars": 1,
@@ -13056,6 +13056,25 @@
       "forks": 0,
       "owner": "Beebopcat",
       "code": "```cpp\n; ============================================\n; Repository: Beebopcat/vm-clipboard-typer\n; ============================================\n; URL: https://github.com/Beebopcat/vm-clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: Not specified\n;\n; Description:\n; VM Clipboard Typer - types your clipboard into VMware consoles that don't accept paste, one exact keystroke at a time (AutoHotkey v2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Beebopcat/vm-clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Beebopcat/vm-clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vm-clipboard-typer>\n\n; Example initialization\nclass VmClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vm-clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VmClipboardTyperExample()\n```"
+    },
+    {
+      "id": "github-1429374079",
+      "title": "custom-autohotkey-config",
+      "category": "GitHub Repository",
+      "description": "自用 Autohotkey (v2) 配置",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-22T07:07:55Z",
+      "lastModified": "2026-10-22T07:15:45Z",
+      "source": "github",
+      "url": "https://github.com/BH2WFR/custom-autohotkey-config",
+      "stars": 1,
+      "forks": 0,
+      "owner": "BH2WFR",
+      "code": "```cpp\n; ============================================\n; Repository: BH2WFR/custom-autohotkey-config\n; ============================================\n; URL: https://github.com/BH2WFR/custom-autohotkey-config\n; Stars: 1 | Forks: 0\n; Last Updated: 10/22/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; 自用 Autohotkey (v2) 配置\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BH2WFR/custom-autohotkey-config.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BH2WFR/custom-autohotkey-config/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <custom-autohotkey-config>\n\n; Example initialization\nclass CustomAutohotkeyConfigExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"custom-autohotkey-config loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CustomAutohotkeyConfigExample()\n```"
     }
   ]
 }
