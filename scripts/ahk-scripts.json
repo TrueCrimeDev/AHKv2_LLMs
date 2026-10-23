@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-22T18:10:49.280Z",
-  "totalScripts": 645,
+  "lastUpdated": "2026-10-23T00:23:43.242Z",
+  "totalScripts": 647,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -975,13 +975,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-08-05T07:59:39Z",
-      "lastModified": "2026-10-12T05:21:32Z",
+      "lastModified": "2026-10-22T19:09:57Z",
       "source": "github",
       "url": "https://github.com/Dazuzi/HD2StratHotkeysGUI",
-      "stars": 2,
+      "stars": 1,
       "forks": 0,
       "owner": "Dazuzi",
-      "code": "```cpp\n; ============================================\n; Repository: Dazuzi/HD2StratHotkeysGUI\n; ============================================\n; URL: https://github.com/Dazuzi/HD2StratHotkeysGUI\n; Stars: 2 | Forks: 0\n; Last Updated: 10/12/2026\n; License: Not specified\n;\n; Description:\n; Helldivers 2 Stratagem AutoHotkey v2 script with GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dazuzi/HD2StratHotkeysGUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dazuzi/HD2StratHotkeysGUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HD2StratHotkeysGUI>\n\n; Example initialization\nclass Hd2strathotkeysguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HD2StratHotkeysGUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Hd2strathotkeysguiExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Dazuzi/HD2StratHotkeysGUI\n; ============================================\n; URL: https://github.com/Dazuzi/HD2StratHotkeysGUI\n; Stars: 1 | Forks: 0\n; Last Updated: 10/22/2026\n; License: MIT License\n;\n; Description:\n; Helldivers 2 Stratagem AutoHotkey v2 script with GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dazuzi/HD2StratHotkeysGUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dazuzi/HD2StratHotkeysGUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HD2StratHotkeysGUI>\n\n; Example initialization\nclass Hd2strathotkeysguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HD2StratHotkeysGUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Hd2strathotkeysguiExample()\n```"
     },
     {
       "id": "github-913659961",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-20T15:56:21Z",
+      "lastModified": "2026-10-22T22:17:50Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/22/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -13045,17 +13045,20 @@
       "description": "VM Clipboard Typer - types your clipboard into VMware consoles that don't accept paste, one exact keystroke at a time (AutoHotkey v2).",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "source-available",
+        "windows"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-21T18:14:56Z",
-      "lastModified": "2026-10-21T18:20:43Z",
+      "lastModified": "2026-10-22T22:13:19Z",
       "source": "github",
       "url": "https://github.com/Beebopcat/vm-clipboard-typer",
       "stars": 0,
       "forks": 0,
       "owner": "Beebopcat",
-      "code": "```cpp\n; ============================================\n; Repository: Beebopcat/vm-clipboard-typer\n; ============================================\n; URL: https://github.com/Beebopcat/vm-clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: Not specified\n;\n; Description:\n; VM Clipboard Typer - types your clipboard into VMware consoles that don't accept paste, one exact keystroke at a time (AutoHotkey v2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Beebopcat/vm-clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Beebopcat/vm-clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vm-clipboard-typer>\n\n; Example initialization\nclass VmClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vm-clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VmClipboardTyperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Beebopcat/vm-clipboard-typer\n; ============================================\n; URL: https://github.com/Beebopcat/vm-clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/22/2026\n; License: Other\n;\n; Description:\n; VM Clipboard Typer - types your clipboard into VMware consoles that don't accept paste, one exact keystroke at a time (AutoHotkey v2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Beebopcat/vm-clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Beebopcat/vm-clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vm-clipboard-typer>\n\n; Example initialization\nclass VmClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vm-clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VmClipboardTyperExample()\n```"
     },
     {
       "id": "github-1429374079",
@@ -13100,6 +13103,55 @@
       "forks": 0,
       "owner": "cfyojoe",
       "code": "```cpp\n; ============================================\n; Repository: cfyojoe/macify-windows-keyboard-ahk-v2-remap\n; ============================================\n; URL: https://github.com/cfyojoe/macify-windows-keyboard-ahk-v2-remap\n; Stars: 0 | Forks: 0\n; Last Updated: 10/22/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Mac keyboard shortcuts on Windows 10/11 with AutoHotkey v2 + SharpKeys. Fixes the Windows 11 sticky Alt-Tab so Cmd+Tab cycles like macOS. Cmd+Q, Cmd+Arrow, Option+Backspace on a ThinkPad or any PC keyboard.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cfyojoe/macify-windows-keyboard-ahk-v2-remap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cfyojoe/macify-windows-keyboard-ahk-v2-remap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <macify-windows-keyboard-ahk-v2-remap>\n\n; Example initialization\nclass MacifyWindowsKeyboardAhkV2RemapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"macify-windows-keyboard-ahk-v2-remap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacifyWindowsKeyboardAhkV2RemapExample()\n```"
+    },
+    {
+      "id": "github-1427441141",
+      "title": "ocr-boxes",
+      "category": "GitHub Repository",
+      "description": "Read visible on-screen text aloud with adjustable OCR boxes (Windows, AutoHotkey v2). Source-available, all rights reserved.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "ocr",
+        "source-available",
+        "text-to-speech",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-20T18:54:25Z",
+      "lastModified": "2026-10-22T22:13:56Z",
+      "source": "github",
+      "url": "https://github.com/Beebopcat/ocr-boxes",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Beebopcat",
+      "code": "```cpp\n; ============================================\n; Repository: Beebopcat/ocr-boxes\n; ============================================\n; URL: https://github.com/Beebopcat/ocr-boxes\n; Stars: 0 | Forks: 0\n; Last Updated: 10/22/2026\n; License: Other\n;\n; Description:\n; Read visible on-screen text aloud with adjustable OCR boxes (Windows, AutoHotkey v2). Source-available, all rights reserved.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Beebopcat/ocr-boxes.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Beebopcat/ocr-boxes/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ocr-boxes>\n\n; Example initialization\nclass OcrBoxesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ocr-boxes loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OcrBoxesExample()\n```"
+    },
+    {
+      "id": "github-854130740",
+      "title": "HD1StratHotkeysGUI",
+      "category": "GitHub Repository",
+      "description": "Helldivers Stratagem AutoHotkey v2 script with GUI",
+      "tags": [
+        "github",
+        "repository",
+        "ahkv2",
+        "autohotkey-v2",
+        "autohotkeyv2",
+        "helldivers",
+        "hotkey",
+        "hotkeys"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-09-08T13:16:59Z",
+      "lastModified": "2026-10-22T19:09:54Z",
+      "source": "github",
+      "url": "https://github.com/Dazuzi/HD1StratHotkeysGUI",
+      "stars": 2,
+      "forks": 1,
+      "owner": "Dazuzi",
+      "code": "```cpp\n; ============================================\n; Repository: Dazuzi/HD1StratHotkeysGUI\n; ============================================\n; URL: https://github.com/Dazuzi/HD1StratHotkeysGUI\n; Stars: 2 | Forks: 1\n; Last Updated: 10/22/2026\n; License: MIT License\n;\n; Description:\n; Helldivers Stratagem AutoHotkey v2 script with GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Dazuzi/HD1StratHotkeysGUI.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Dazuzi/HD1StratHotkeysGUI/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HD1StratHotkeysGUI>\n\n; Example initialization\nclass Hd1strathotkeysguiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HD1StratHotkeysGUI loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Hd1strathotkeysguiExample()\n```"
     }
   ]
 }
