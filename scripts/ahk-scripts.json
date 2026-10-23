@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-23T00:23:43.242Z",
+  "lastUpdated": "2026-10-23T06:15:17.767Z",
   "totalScripts": 647,
   "categories": [
     "GUI",
@@ -11365,13 +11365,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T21:55:36Z",
-      "lastModified": "2026-10-20T17:18:46Z",
+      "lastModified": "2026-10-23T03:11:33Z",
       "source": "github",
       "url": "https://github.com/DevanshSrivastava88/claude-mouse-voice",
       "stars": 0,
       "forks": 0,
       "owner": "DevanshSrivastava88",
-      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/23/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
     },
     {
       "id": "github-1398965219",
@@ -12489,13 +12489,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-16T14:21:59Z",
-      "lastModified": "2026-10-16T14:23:56Z",
+      "lastModified": "2026-10-23T00:44:54Z",
       "source": "github",
       "url": "https://github.com/geethut-stack/CleanLock",
       "stars": 0,
       "forks": 0,
       "owner": "geethut-stack",
-      "code": "```cpp\n; ============================================\n; Repository: geethut-stack/CleanLock\n; ============================================\n; URL: https://github.com/geethut-stack/CleanLock\n; Stars: 0 | Forks: 0\n; Last Updated: 10/16/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 GUI to lock your keyboard and mouse independently so you can clean them while the PC stays on.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/geethut-stack/CleanLock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/geethut-stack/CleanLock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CleanLock>\n\n; Example initialization\nclass CleanlockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CleanLock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CleanlockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: geethut-stack/CleanLock\n; ============================================\n; URL: https://github.com/geethut-stack/CleanLock\n; Stars: 0 | Forks: 0\n; Last Updated: 10/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 GUI to lock your keyboard and mouse independently so you can clean them while the PC stays on.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/geethut-stack/CleanLock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/geethut-stack/CleanLock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CleanLock>\n\n; Example initialization\nclass CleanlockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CleanLock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CleanlockExample()\n```"
     },
     {
       "id": "github-1422967502",
@@ -12885,13 +12885,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-20T12:08:04Z",
-      "lastModified": "2026-10-22T09:11:27Z",
+      "lastModified": "2026-10-23T05:30:02Z",
       "source": "github",
       "url": "https://github.com/poa/ahk-assistant",
       "stars": 0,
       "forks": 0,
       "owner": "poa",
-      "code": "```cpp\n; ============================================\n; Repository: poa/ahk-assistant\n; ============================================\n; URL: https://github.com/poa/ahk-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 10/22/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 Assistant\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/poa/ahk-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/poa/ahk-assistant/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-assistant>\n\n; Example initialization\nclass AhkAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAssistantExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: poa/ahk-assistant\n; ============================================\n; URL: https://github.com/poa/ahk-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 10/23/2026\n; License: MIT License\n;\n; Description:\n; AutoHotKey v2 Assistant\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/poa/ahk-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/poa/ahk-assistant/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-assistant>\n\n; Example initialization\nclass AhkAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAssistantExample()\n```"
     },
     {
       "id": "github-1427692687",
