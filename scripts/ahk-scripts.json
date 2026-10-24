@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-24T06:13:55.257Z",
-  "totalScripts": 648,
+  "lastUpdated": "2026-10-24T12:11:04.279Z",
+  "totalScripts": 650,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -9207,13 +9207,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T16:18:18Z",
-      "lastModified": "2026-10-16T01:18:47Z",
+      "lastModified": "2026-10-24T11:29:03Z",
       "source": "github",
       "url": "https://github.com/BelyaevAD/TextTools",
       "stars": 3,
       "forks": 0,
       "owner": "BelyaevAD",
-      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 3 | Forks: 0\n; Last Updated: 10/16/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 3 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
     },
     {
       "id": "github-1343408694",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-22T22:17:50Z",
+      "lastModified": "2026-10-24T11:06:49Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/22/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -11804,13 +11804,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-07T05:00:43Z",
-      "lastModified": "2026-10-13T01:41:52Z",
+      "lastModified": "2026-10-24T10:46:19Z",
       "source": "github",
       "url": "https://github.com/ReluPercan/AllCharsAHK",
       "stars": 0,
       "forks": 0,
       "owner": "ReluPercan",
-      "code": "```cpp\n; ============================================\n; Repository: ReluPercan/AllCharsAHK\n; ============================================\n; URL: https://github.com/ReluPercan/AllCharsAHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/13/2026\n; License: MIT License\n;\n; Description:\n; Universal Unicode and Diacritics Typing Engine for Windows via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ReluPercan/AllCharsAHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ReluPercan/AllCharsAHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AllCharsAHK>\n\n; Example initialization\nclass AllcharsahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AllCharsAHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AllcharsahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ReluPercan/AllCharsAHK\n; ============================================\n; URL: https://github.com/ReluPercan/AllCharsAHK\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; Universal Unicode and Diacritics Typing Engine for Windows via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ReluPercan/AllCharsAHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ReluPercan/AllCharsAHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AllCharsAHK>\n\n; Example initialization\nclass AllcharsahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AllCharsAHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AllcharsahkExample()\n```"
     },
     {
       "id": "github-1377723602",
@@ -12287,7 +12287,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-12T05:57:04Z",
-      "lastModified": "2026-10-24T05:28:55Z",
+      "lastModified": "2026-10-24T12:10:47Z",
       "source": "github",
       "url": "https://github.com/ThuyTran735/BTD6-Everything-Macro",
       "stars": 2,
@@ -13171,6 +13171,44 @@
       "forks": 0,
       "owner": "utk3001",
       "code": "```cpp\n; ============================================\n; Repository: utk3001/whatsapp-virtual-desktop-fix\n; ============================================\n; URL: https://github.com/utk3001/whatsapp-virtual-desktop-fix\n; Stars: 0 | Forks: 0\n; Last Updated: 10/23/2026\n; License: MIT License\n;\n; Description:\n; Lightweight AutoHotkey v2 fix that minimizes WhatsApp when switching Windows Virtual Desktops using zero-CPU event hooks.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/utk3001/whatsapp-virtual-desktop-fix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/utk3001/whatsapp-virtual-desktop-fix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <whatsapp-virtual-desktop-fix>\n\n; Example initialization\nclass WhatsappVirtualDesktopFixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"whatsapp-virtual-desktop-fix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WhatsappVirtualDesktopFixExample()\n```"
+    },
+    {
+      "id": "github-1432107072",
+      "title": "ocre",
+      "category": "GitHub Repository",
+      "description": "Warm-light screen filter for Windows 11, keyboard-driven (AutoHotkey v2) - filtre de lumiere chaude",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-24T11:21:28Z",
+      "lastModified": "2026-10-24T11:42:32Z",
+      "source": "github",
+      "url": "https://github.com/kovarci/ocre",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kovarci",
+      "code": "```cpp\n; ============================================\n; Repository: kovarci/ocre\n; ============================================\n; URL: https://github.com/kovarci/ocre\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; Warm-light screen filter for Windows 11, keyboard-driven (AutoHotkey v2) - filtre de lumiere chaude\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kovarci/ocre.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kovarci/ocre/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ocre>\n\n; Example initialization\nclass OcreExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ocre loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OcreExample()\n```"
+    },
+    {
+      "id": "github-1431375967",
+      "title": "WinDuo",
+      "category": "GitHub Repository",
+      "description": "将屏幕分左右半屏使用，自动吸附窗口的工具：拖到左/右半屏松手即贴合，新窗口按策略自动落位。单文件 AutoHotkey    v2，无轮询、无全局钩子、不联网 / A lightweight half-screen snap utility in one AutoHotkey v2    script",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-23T17:53:51Z",
+      "lastModified": "2026-10-24T07:19:51Z",
+      "source": "github",
+      "url": "https://github.com/lawlietc/WinDuo",
+      "stars": 0,
+      "forks": 0,
+      "owner": "lawlietc",
+      "code": "```cpp\n; ============================================\n; Repository: lawlietc/WinDuo\n; ============================================\n; URL: https://github.com/lawlietc/WinDuo\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: Not specified\n;\n; Description:\n; 将屏幕分左右半屏使用，自动吸附窗口的工具：拖到左/右半屏松手即贴合，新窗口按策略自动落位。单文件 AutoHotkey    v2，无轮询、无全局钩子、不联网 / A lightweight half-screen snap utility in one AutoHotkey v2    script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lawlietc/WinDuo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lawlietc/WinDuo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinDuo>\n\n; Example initialization\nclass WinduoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinDuo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinduoExample()\n```"
     }
   ]
 }
