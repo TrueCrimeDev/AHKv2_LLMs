@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-24T12:11:04.279Z",
-  "totalScripts": 650,
+  "lastUpdated": "2026-10-24T18:09:28.111Z",
+  "totalScripts": 653,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -9207,13 +9207,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T16:18:18Z",
-      "lastModified": "2026-10-24T11:29:03Z",
+      "lastModified": "2026-10-24T16:56:56Z",
       "source": "github",
       "url": "https://github.com/BelyaevAD/TextTools",
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "owner": "BelyaevAD",
-      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 3 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 4 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
     },
     {
       "id": "github-1343408694",
@@ -13179,11 +13179,17 @@
       "description": "Warm-light screen filter for Windows 11, keyboard-driven (AutoHotkey v2) - filtre de lumiere chaude",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "blue-light-filter",
+        "color-temperature",
+        "eye-strain",
+        "gamma-ramp"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-24T11:21:28Z",
-      "lastModified": "2026-10-24T11:42:32Z",
+      "lastModified": "2026-10-24T13:14:17Z",
       "source": "github",
       "url": "https://github.com/kovarci/ocre",
       "stars": 0,
@@ -13209,6 +13215,75 @@
       "forks": 0,
       "owner": "lawlietc",
       "code": "```cpp\n; ============================================\n; Repository: lawlietc/WinDuo\n; ============================================\n; URL: https://github.com/lawlietc/WinDuo\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: Not specified\n;\n; Description:\n; 将屏幕分左右半屏使用，自动吸附窗口的工具：拖到左/右半屏松手即贴合，新窗口按策略自动落位。单文件 AutoHotkey    v2，无轮询、无全局钩子、不联网 / A lightweight half-screen snap utility in one AutoHotkey v2    script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lawlietc/WinDuo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lawlietc/WinDuo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinDuo>\n\n; Example initialization\nclass WinduoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinDuo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinduoExample()\n```"
+    },
+    {
+      "id": "github-1432384287",
+      "title": "DropBoard",
+      "category": "GitHub Repository",
+      "description": "AHK v2 拖放收纳板 — 三页收纳文件夹/文件/网址，暗色自绘界面，双击标题栏收起常驻置顶",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "autohotkey",
+        "dark-theme",
+        "drag-and-drop",
+        "launcher",
+        "productivity"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-24T16:39:47Z",
+      "lastModified": "2026-10-24T16:43:45Z",
+      "source": "github",
+      "url": "https://github.com/pfei2001/DropBoard",
+      "stars": 1,
+      "forks": 0,
+      "owner": "pfei2001",
+      "code": "```cpp\n; ============================================\n; Repository: pfei2001/DropBoard\n; ============================================\n; URL: https://github.com/pfei2001/DropBoard\n; Stars: 1 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 拖放收纳板 — 三页收纳文件夹/文件/网址，暗色自绘界面，双击标题栏收起常驻置顶\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pfei2001/DropBoard.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pfei2001/DropBoard/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DropBoard>\n\n; Example initialization\nclass DropboardExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DropBoard loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DropboardExample()\n```"
+    },
+    {
+      "id": "github-1432231148",
+      "title": "AutoHotkey-Toon-Parser",
+      "category": "GitHub Repository",
+      "description": "Toon (Json Alternative) Parser for AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-24T13:51:03Z",
+      "lastModified": "2026-10-24T13:55:20Z",
+      "source": "github",
+      "url": "https://github.com/UsernamePlankalkul/AutoHotkey-Toon-Parser",
+      "stars": 0,
+      "forks": 0,
+      "owner": "UsernamePlankalkul",
+      "code": "```cpp\n; ============================================\n; Repository: UsernamePlankalkul/AutoHotkey-Toon-Parser\n; ============================================\n; URL: https://github.com/UsernamePlankalkul/AutoHotkey-Toon-Parser\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: Not specified\n;\n; Description:\n; Toon (Json Alternative) Parser for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/UsernamePlankalkul/AutoHotkey-Toon-Parser.git\n;\n; Option 2: Download ZIP\n;   https://github.com/UsernamePlankalkul/AutoHotkey-Toon-Parser/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Toon-Parser>\n\n; Example initialization\nclass AutohotkeyToonParserExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Toon-Parser loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToonParserExample()\n```"
+    },
+    {
+      "id": "github-1432214683",
+      "title": "f10-whatsapp-claude",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for Windows: F10 opens WhatsApp Web with Claude in Chrome, hold F8 to dictate messages by voice.",
+      "tags": [
+        "github",
+        "repository",
+        "ai",
+        "autohotkey",
+        "automation",
+        "claude",
+        "voice-control",
+        "whatsapp"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-24T13:32:59Z",
+      "lastModified": "2026-10-24T16:06:37Z",
+      "source": "github",
+      "url": "https://github.com/antufano12-ctrl/f10-whatsapp-claude",
+      "stars": 0,
+      "forks": 0,
+      "owner": "antufano12-ctrl",
+      "code": "```cpp\n; ============================================\n; Repository: antufano12-ctrl/f10-whatsapp-claude\n; ============================================\n; URL: https://github.com/antufano12-ctrl/f10-whatsapp-claude\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for Windows: F10 opens WhatsApp Web with Claude in Chrome, hold F8 to dictate messages by voice.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/antufano12-ctrl/f10-whatsapp-claude.git\n;\n; Option 2: Download ZIP\n;   https://github.com/antufano12-ctrl/f10-whatsapp-claude/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f10-whatsapp-claude>\n\n; Example initialization\nclass F10WhatsappClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f10-whatsapp-claude loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F10WhatsappClaudeExample()\n```"
     }
   ]
 }
