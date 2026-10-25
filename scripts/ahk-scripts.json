@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-25T12:11:18.218Z",
-  "totalScripts": 660,
+  "lastUpdated": "2026-10-25T18:09:32.539Z",
+  "totalScripts": 661,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -9207,13 +9207,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T16:18:18Z",
-      "lastModified": "2026-10-25T10:24:46Z",
+      "lastModified": "2026-10-25T12:11:58Z",
       "source": "github",
       "url": "https://github.com/BelyaevAD/TextTools",
-      "stars": 6,
+      "stars": 7,
       "forks": 0,
       "owner": "BelyaevAD",
-      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 6 | Forks: 0\n; Last Updated: 10/25/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 7 | Forks: 0\n; Last Updated: 10/25/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
     },
     {
       "id": "github-1343408694",
@@ -9453,13 +9453,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-15T14:59:59Z",
-      "lastModified": "2026-10-24T20:22:06Z",
+      "lastModified": "2026-10-25T15:19:59Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/GpGFX",
       "stars": 49,
       "forks": 4,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/GpGFX\n; ============================================\n; URL: https://github.com/bceenaeiklmr/GpGFX\n; Stars: 49 | Forks: 4\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; GDI+ graphics library for AutoHotkey v2 to create custom 2D graphics, drawing primitives, and animations.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/GpGFX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/GpGFX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GpGFX>\n\n; Example initialization\nclass GpgfxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GpGFX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GpgfxExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/GpGFX\n; ============================================\n; URL: https://github.com/bceenaeiklmr/GpGFX\n; Stars: 49 | Forks: 4\n; Last Updated: 10/25/2026\n; License: MIT License\n;\n; Description:\n; GDI+ graphics library for AutoHotkey v2 to create custom 2D graphics, drawing primitives, and animations.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/GpGFX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/GpGFX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GpGFX>\n\n; Example initialization\nclass GpgfxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GpGFX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GpgfxExample()\n```"
     },
     {
       "id": "github-1329907901",
@@ -11365,13 +11365,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-30T21:55:36Z",
-      "lastModified": "2026-10-23T03:11:33Z",
+      "lastModified": "2026-10-25T15:21:59Z",
       "source": "github",
       "url": "https://github.com/DevanshSrivastava88/claude-mouse-voice",
       "stars": 0,
       "forks": 0,
       "owner": "DevanshSrivastava88",
-      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/23/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: DevanshSrivastava88/claude-mouse-voice\n; ============================================\n; URL: https://github.com/DevanshSrivastava88/claude-mouse-voice\n; Stars: 0 | Forks: 0\n; Last Updated: 10/25/2026\n; License: Not specified\n;\n; Description:\n; Drive Claude Code /voice from your mouse thumb buttons on Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DevanshSrivastava88/claude-mouse-voice.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DevanshSrivastava88/claude-mouse-voice/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-mouse-voice>\n\n; Example initialization\nclass ClaudeMouseVoiceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-mouse-voice loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeMouseVoiceExample()\n```"
     },
     {
       "id": "github-1398965219",
@@ -12647,13 +12647,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T02:15:57Z",
-      "lastModified": "2026-10-18T02:16:09Z",
+      "lastModified": "2026-10-25T13:51:25Z",
       "source": "github",
       "url": "https://github.com/iiinno/keyboard-controller",
       "stars": 0,
       "forks": 0,
       "owner": "iiinno",
-      "code": "```cpp\n; ============================================\n; Repository: iiinno/keyboard-controller\n; ============================================\n; URL: https://github.com/iiinno/keyboard-controller\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 controller for automatically blocking a laptop built-in keyboard when an external keyboard is connected.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iiinno/keyboard-controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iiinno/keyboard-controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keyboard-controller>\n\n; Example initialization\nclass KeyboardControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keyboard-controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardControllerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: iiinno/keyboard-controller\n; ============================================\n; URL: https://github.com/iiinno/keyboard-controller\n; Stars: 0 | Forks: 0\n; Last Updated: 10/25/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 controller for automatically blocking a laptop built-in keyboard when an external keyboard is connected.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/iiinno/keyboard-controller.git\n;\n; Option 2: Download ZIP\n;   https://github.com/iiinno/keyboard-controller/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keyboard-controller>\n\n; Example initialization\nclass KeyboardControllerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keyboard-controller loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardControllerExample()\n```"
     },
     {
       "id": "github-1424240173",
@@ -13413,7 +13413,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-25T11:25:21Z",
-      "lastModified": "2026-10-25T11:25:30Z",
+      "lastModified": "2026-10-25T14:53:13Z",
       "source": "github",
       "url": "https://github.com/dothanhhung/touch-keep-cursor",
       "stars": 0,
@@ -13439,6 +13439,25 @@
       "forks": 0,
       "owner": "Miladn96",
       "code": "```cpp\n; ============================================\n; Repository: Miladn96/Linux-style-Virtual-Desktop-Hotkeys-for-Windows-11\n; ============================================\n; URL: https://github.com/Miladn96/Linux-style-Virtual-Desktop-Hotkeys-for-Windows-11\n; Stars: 0 | Forks: 0\n; Last Updated: 10/25/2026\n; License: Not specified\n;\n; Description:\n; An AutoHotkey v2 script that brings the virtual desktop and app-switching workflow of Linux desktops (GNOME and similar) to Windows 11.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Miladn96/Linux-style-Virtual-Desktop-Hotkeys-for-Windows-11.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Miladn96/Linux-style-Virtual-Desktop-Hotkeys-for-Windows-11/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Linux-style-Virtual-Desktop-Hotkeys-for-Windows-11>\n\n; Example initialization\nclass LinuxStyleVirtualDesktopHotkeysForWindows11Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Linux-style-Virtual-Desktop-Hotkeys-for-Windows-11 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LinuxStyleVirtualDesktopHotkeysForWindows11Example()\n```"
+    },
+    {
+      "id": "github-1432370684",
+      "title": "AutoHotkey-Json-Parser",
+      "category": "GitHub Repository",
+      "description": "Json Parser For AutoHotkey Version v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-24T16:24:28Z",
+      "lastModified": "2026-10-25T15:55:13Z",
+      "source": "github",
+      "url": "https://github.com/UsernamePlankalkul/AutoHotkey-Json-Parser",
+      "stars": 0,
+      "forks": 0,
+      "owner": "UsernamePlankalkul",
+      "code": "```cpp\n; ============================================\n; Repository: UsernamePlankalkul/AutoHotkey-Json-Parser\n; ============================================\n; URL: https://github.com/UsernamePlankalkul/AutoHotkey-Json-Parser\n; Stars: 0 | Forks: 0\n; Last Updated: 10/25/2026\n; License: Not specified\n;\n; Description:\n; Json Parser For AutoHotkey Version v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/UsernamePlankalkul/AutoHotkey-Json-Parser.git\n;\n; Option 2: Download ZIP\n;   https://github.com/UsernamePlankalkul/AutoHotkey-Json-Parser/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Json-Parser>\n\n; Example initialization\nclass AutohotkeyJsonParserExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Json-Parser loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyJsonParserExample()\n```"
     }
   ]
 }
