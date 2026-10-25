@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-25T00:25:26.329Z",
+  "lastUpdated": "2026-10-25T06:13:49.872Z",
   "totalScripts": 658,
   "categories": [
     "GUI",
@@ -10754,13 +10754,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-10T10:48:20Z",
-      "lastModified": "2026-10-13T13:29:57Z",
+      "lastModified": "2026-10-25T02:01:08Z",
       "source": "github",
       "url": "https://github.com/sandraschi/autohotkey-tools",
       "stars": 3,
       "forks": 0,
       "owner": "sandraschi",
-      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 3 | Forks: 0\n; Last Updated: 10/13/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 3 | Forks: 0\n; Last Updated: 10/25/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
     },
     {
       "id": "github-1383843860",
@@ -11584,13 +11584,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-04T16:11:31Z",
-      "lastModified": "2026-10-04T16:16:37Z",
+      "lastModified": "2026-10-25T04:54:00Z",
       "source": "github",
       "url": "https://github.com/castro077/DeckLibre",
       "stars": 1,
       "forks": 0,
       "owner": "castro077",
-      "code": "```cpp\n; ============================================\n; Repository: castro077/DeckLibre\n; ============================================\n; URL: https://github.com/castro077/DeckLibre\n; Stars: 1 | Forks: 0\n; Last Updated: 10/4/2026\n; License: MIT License\n;\n; Description:\n; Convierte cualquier teclado en una botonera tipo Stream Deck con AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/castro077/DeckLibre.git\n;\n; Option 2: Download ZIP\n;   https://github.com/castro077/DeckLibre/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeckLibre>\n\n; Example initialization\nclass DecklibreExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeckLibre loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DecklibreExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: castro077/DeckLibre\n; ============================================\n; URL: https://github.com/castro077/DeckLibre\n; Stars: 1 | Forks: 0\n; Last Updated: 10/25/2026\n; License: MIT License\n;\n; Description:\n; Convierte cualquier teclado en una botonera tipo Stream Deck con AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/castro077/DeckLibre.git\n;\n; Option 2: Download ZIP\n;   https://github.com/castro077/DeckLibre/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeckLibre>\n\n; Example initialization\nclass DecklibreExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeckLibre loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DecklibreExample()\n```"
     },
     {
       "id": "github-1403704999",
@@ -12287,7 +12287,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-12T05:57:04Z",
-      "lastModified": "2026-10-25T00:03:12Z",
+      "lastModified": "2026-10-25T02:12:37Z",
       "source": "github",
       "url": "https://github.com/ThuyTran735/BTD6-Everything-Macro",
       "stars": 2,
@@ -13208,13 +13208,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-23T17:53:51Z",
-      "lastModified": "2026-10-24T07:19:51Z",
+      "lastModified": "2026-10-25T02:49:36Z",
       "source": "github",
       "url": "https://github.com/lawlietc/WinDuo",
       "stars": 0,
       "forks": 0,
       "owner": "lawlietc",
-      "code": "```cpp\n; ============================================\n; Repository: lawlietc/WinDuo\n; ============================================\n; URL: https://github.com/lawlietc/WinDuo\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: Not specified\n;\n; Description:\n; 将屏幕分左右半屏使用，自动吸附窗口的工具：拖到左/右半屏松手即贴合，新窗口按策略自动落位。单文件 AutoHotkey    v2，无轮询、无全局钩子、不联网 / A lightweight half-screen snap utility in one AutoHotkey v2    script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lawlietc/WinDuo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lawlietc/WinDuo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinDuo>\n\n; Example initialization\nclass WinduoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinDuo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinduoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: lawlietc/WinDuo\n; ============================================\n; URL: https://github.com/lawlietc/WinDuo\n; Stars: 0 | Forks: 0\n; Last Updated: 10/25/2026\n; License: Not specified\n;\n; Description:\n; 将屏幕分左右半屏使用，自动吸附窗口的工具：拖到左/右半屏松手即贴合，新窗口按策略自动落位。单文件 AutoHotkey    v2，无轮询、无全局钩子、不联网 / A lightweight half-screen snap utility in one AutoHotkey v2    script\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lawlietc/WinDuo.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lawlietc/WinDuo/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WinDuo>\n\n; Example initialization\nclass WinduoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WinDuo loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WinduoExample()\n```"
     },
     {
       "id": "github-1432384287",
@@ -13346,13 +13346,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-03-07T20:01:40Z",
-      "lastModified": "2026-10-24T20:02:51Z",
+      "lastModified": "2026-10-25T06:06:22Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/raylib_ahk",
-      "stars": 4,
+      "stars": 5,
       "forks": 1,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/raylib_ahk\n; ============================================\n; URL: https://github.com/bceenaeiklmr/raylib_ahk\n; Stars: 4 | Forks: 1\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; raylib 5.5 for AutoHotkey v2: windowed graphics, shapes, images, textures, custom fonts, 3D and audio, driven straight from a script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/raylib_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/raylib_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <raylib_ahk>\n\n; Example initialization\nclass RaylibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"raylib_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RaylibAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/raylib_ahk\n; ============================================\n; URL: https://github.com/bceenaeiklmr/raylib_ahk\n; Stars: 5 | Forks: 1\n; Last Updated: 10/25/2026\n; License: MIT License\n;\n; Description:\n; raylib 5.5 for AutoHotkey v2: windowed graphics, shapes, images, textures, custom fonts, 3D and audio, driven straight from a script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/raylib_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/raylib_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <raylib_ahk>\n\n; Example initialization\nclass RaylibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"raylib_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RaylibAhkExample()\n```"
     },
     {
       "id": "github-1432516406",
