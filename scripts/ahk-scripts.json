@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-24T18:09:28.111Z",
-  "totalScripts": 653,
+  "lastUpdated": "2026-10-25T00:25:26.329Z",
+  "totalScripts": 658,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2568,13 +2568,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-03T17:38:56Z",
-      "lastModified": "2026-05-16T13:14:24Z",
+      "lastModified": "2026-10-24T20:14:00Z",
       "source": "github",
       "url": "https://github.com/mesutakcan/AS-Icon-Viewer",
-      "stars": 4,
+      "stars": 8,
       "forks": 0,
       "owner": "mesutakcan",
-      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/AS-Icon-Viewer\n; ============================================\n; URL: https://github.com/mesutakcan/AS-Icon-Viewer\n; Stars: 4 | Forks: 0\n; Last Updated: 5/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A professional-grade icon extraction and management tool for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/AS-Icon-Viewer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/AS-Icon-Viewer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AS-Icon-Viewer>\n\n; Example initialization\nclass AsIconViewerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AS-Icon-Viewer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsIconViewerExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mesutakcan/AS-Icon-Viewer\n; ============================================\n; URL: https://github.com/mesutakcan/AS-Icon-Viewer\n; Stars: 8 | Forks: 0\n; Last Updated: 10/24/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A professional-grade icon extraction and management tool for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mesutakcan/AS-Icon-Viewer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mesutakcan/AS-Icon-Viewer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AS-Icon-Viewer>\n\n; Example initialization\nclass AsIconViewerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AS-Icon-Viewer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsIconViewerExample()\n```"
     },
     {
       "id": "github-1151616150",
@@ -9207,13 +9207,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-08-06T16:18:18Z",
-      "lastModified": "2026-10-24T16:56:56Z",
+      "lastModified": "2026-10-24T19:11:09Z",
       "source": "github",
       "url": "https://github.com/BelyaevAD/TextTools",
-      "stars": 4,
+      "stars": 5,
       "forks": 0,
       "owner": "BelyaevAD",
-      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 4 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: BelyaevAD/TextTools\n; ============================================\n; URL: https://github.com/BelyaevAD/TextTools\n; Stars: 5 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 LLM text actions for selected text on Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/BelyaevAD/TextTools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/BelyaevAD/TextTools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TextTools>\n\n; Example initialization\nclass TexttoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TextTools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TexttoolsExample()\n```"
     },
     {
       "id": "github-1343408694",
@@ -9440,7 +9440,7 @@
       "id": "github-949048241",
       "title": "GpGFX",
       "category": "GitHub Repository",
-      "description": "GDI+ graphics library for AutoHotkey v2 to create beautiful 2D graphics or render animations.",
+      "description": "GDI+ graphics library for AutoHotkey v2 to create custom 2D graphics, drawing primitives, and animations.",
       "tags": [
         "github",
         "repository",
@@ -9453,13 +9453,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-03-15T14:59:59Z",
-      "lastModified": "2026-09-06T18:49:12Z",
+      "lastModified": "2026-10-24T20:22:06Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/GpGFX",
-      "stars": 46,
+      "stars": 49,
       "forks": 4,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/GpGFX\n; ============================================\n; URL: https://github.com/bceenaeiklmr/GpGFX\n; Stars: 46 | Forks: 4\n; Last Updated: 9/6/2026\n; License: MIT License\n;\n; Description:\n; GDI+ graphics library for AutoHotkey v2 to create beautiful 2D graphics or render animations.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/GpGFX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/GpGFX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GpGFX>\n\n; Example initialization\nclass GpgfxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GpGFX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GpgfxExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/GpGFX\n; ============================================\n; URL: https://github.com/bceenaeiklmr/GpGFX\n; Stars: 49 | Forks: 4\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; GDI+ graphics library for AutoHotkey v2 to create custom 2D graphics, drawing primitives, and animations.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/GpGFX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/GpGFX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GpGFX>\n\n; Example initialization\nclass GpgfxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GpGFX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GpgfxExample()\n```"
     },
     {
       "id": "github-1329907901",
@@ -12287,13 +12287,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-12T05:57:04Z",
-      "lastModified": "2026-10-24T12:10:47Z",
+      "lastModified": "2026-10-25T00:03:12Z",
       "source": "github",
       "url": "https://github.com/ThuyTran735/BTD6-Everything-Macro",
       "stars": 2,
       "forks": 0,
       "owner": "ThuyTran735",
-      "code": "```cpp\n; ============================================\n; Repository: ThuyTran735/BTD6-Everything-Macro\n; ============================================\n; URL: https://github.com/ThuyTran735/BTD6-Everything-Macro\n; Stars: 2 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; Free BTD6 (Bloons TD 6) macro built with AutoHotkey v2. Automates maps, modes, tower placement, upgrades, abilities, queues, farming, and repeat runs.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ThuyTran735/BTD6-Everything-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ThuyTran735/BTD6-Everything-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BTD6-Everything-Macro>\n\n; Example initialization\nclass Btd6EverythingMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BTD6-Everything-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Btd6EverythingMacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ThuyTran735/BTD6-Everything-Macro\n; ============================================\n; URL: https://github.com/ThuyTran735/BTD6-Everything-Macro\n; Stars: 2 | Forks: 0\n; Last Updated: 10/25/2026\n; License: MIT License\n;\n; Description:\n; Free BTD6 (Bloons TD 6) macro built with AutoHotkey v2. Automates maps, modes, tower placement, upgrades, abilities, queues, farming, and repeat runs.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ThuyTran735/BTD6-Everything-Macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ThuyTran735/BTD6-Everything-Macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <BTD6-Everything-Macro>\n\n; Example initialization\nclass Btd6EverythingMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"BTD6-Everything-Macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Btd6EverythingMacroExample()\n```"
     },
     {
       "id": "github-1400659581",
@@ -13189,13 +13189,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-24T11:21:28Z",
-      "lastModified": "2026-10-24T13:14:17Z",
+      "lastModified": "2026-10-24T18:14:50Z",
       "source": "github",
       "url": "https://github.com/kovarci/ocre",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "kovarci",
-      "code": "```cpp\n; ============================================\n; Repository: kovarci/ocre\n; ============================================\n; URL: https://github.com/kovarci/ocre\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; Warm-light screen filter for Windows 11, keyboard-driven (AutoHotkey v2) - filtre de lumiere chaude\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kovarci/ocre.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kovarci/ocre/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ocre>\n\n; Example initialization\nclass OcreExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ocre loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OcreExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kovarci/ocre\n; ============================================\n; URL: https://github.com/kovarci/ocre\n; Stars: 1 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; Warm-light screen filter for Windows 11, keyboard-driven (AutoHotkey v2) - filtre de lumiere chaude\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kovarci/ocre.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kovarci/ocre/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ocre>\n\n; Example initialization\nclass OcreExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ocre loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OcreExample()\n```"
     },
     {
       "id": "github-1431375967",
@@ -13284,6 +13284,123 @@
       "forks": 0,
       "owner": "antufano12-ctrl",
       "code": "```cpp\n; ============================================\n; Repository: antufano12-ctrl/f10-whatsapp-claude\n; ============================================\n; URL: https://github.com/antufano12-ctrl/f10-whatsapp-claude\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for Windows: F10 opens WhatsApp Web with Claude in Chrome, hold F8 to dictate messages by voice.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/antufano12-ctrl/f10-whatsapp-claude.git\n;\n; Option 2: Download ZIP\n;   https://github.com/antufano12-ctrl/f10-whatsapp-claude/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <f10-whatsapp-claude>\n\n; Example initialization\nclass F10WhatsappClaudeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"f10-whatsapp-claude loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := F10WhatsappClaudeExample()\n```"
+    },
+    {
+      "id": "github-866161375",
+      "title": "arrowkeys",
+      "category": "GitHub Repository",
+      "description": "Navigate text from the letter keys with Caps Lock + JKLI, word jumps and Home/End shortcuts. A small AutoHotkey v2 script for Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-10-01T18:47:29Z",
+      "lastModified": "2026-10-24T22:18:54Z",
+      "source": "github",
+      "url": "https://github.com/nauroman/arrowkeys",
+      "stars": 2,
+      "forks": 0,
+      "owner": "nauroman",
+      "code": "```cpp\n; ============================================\n; Repository: nauroman/arrowkeys\n; ============================================\n; URL: https://github.com/nauroman/arrowkeys\n; Stars: 2 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; Navigate text from the letter keys with Caps Lock + JKLI, word jumps and Home/End shortcuts. A small AutoHotkey v2 script for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nauroman/arrowkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nauroman/arrowkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <arrowkeys>\n\n; Example initialization\nclass ArrowkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"arrowkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ArrowkeysExample()\n```"
+    },
+    {
+      "id": "github-1432622125",
+      "title": "ContextMouse",
+      "category": "GitHub Repository",
+      "description": "Menu lateral contextual inteligente e ultra-rapido para Windows (AutoHotkey v2). Terminal split, YouTube controls, screen recording/print screen, mouse chording, long-press e integracao com IA.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "autohotkey",
+        "automation",
+        "context-menu",
+        "mouse-chording",
+        "productivity"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-24T21:48:35Z",
+      "lastModified": "2026-10-24T21:49:14Z",
+      "source": "github",
+      "url": "https://github.com/washingtonwdc/ContextMouse",
+      "stars": 0,
+      "forks": 0,
+      "owner": "washingtonwdc",
+      "code": "```cpp\n; ============================================\n; Repository: washingtonwdc/ContextMouse\n; ============================================\n; URL: https://github.com/washingtonwdc/ContextMouse\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; Menu lateral contextual inteligente e ultra-rapido para Windows (AutoHotkey v2). Terminal split, YouTube controls, screen recording/print screen, mouse chording, long-press e integracao com IA.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/washingtonwdc/ContextMouse.git\n;\n; Option 2: Download ZIP\n;   https://github.com/washingtonwdc/ContextMouse/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ContextMouse>\n\n; Example initialization\nclass ContextmouseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ContextMouse loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ContextmouseExample()\n```"
+    },
+    {
+      "id": "github-610948318",
+      "title": "raylib_ahk",
+      "category": "GitHub Repository",
+      "description": "raylib 5.5 for AutoHotkey v2: windowed graphics, shapes, images, textures, custom fonts, 3D and audio, driven straight from a script.",
+      "tags": [
+        "github",
+        "repository",
+        "2d-games",
+        "ahk",
+        "autohotkey-v2",
+        "bindings",
+        "ffi",
+        "game-development"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2023-03-07T20:01:40Z",
+      "lastModified": "2026-10-24T20:02:51Z",
+      "source": "github",
+      "url": "https://github.com/bceenaeiklmr/raylib_ahk",
+      "stars": 4,
+      "forks": 1,
+      "owner": "bceenaeiklmr",
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/raylib_ahk\n; ============================================\n; URL: https://github.com/bceenaeiklmr/raylib_ahk\n; Stars: 4 | Forks: 1\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; raylib 5.5 for AutoHotkey v2: windowed graphics, shapes, images, textures, custom fonts, 3D and audio, driven straight from a script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/raylib_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/raylib_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <raylib_ahk>\n\n; Example initialization\nclass RaylibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"raylib_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RaylibAhkExample()\n```"
+    },
+    {
+      "id": "github-1432516406",
+      "title": "itsc-autohotkey",
+      "category": "GitHub Repository",
+      "description": "A starter toolkit of AutoHotkey v2 scripts for IT support work in the office or at home.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-scripts",
+        "autohotkey-v2",
+        "information-technology",
+        "scripting"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-24T19:17:59Z",
+      "lastModified": "2026-10-24T19:20:46Z",
+      "source": "github",
+      "url": "https://github.com/CoreyAllenAudio/itsc-autohotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "CoreyAllenAudio",
+      "code": "```cpp\n; ============================================\n; Repository: CoreyAllenAudio/itsc-autohotkey\n; ============================================\n; URL: https://github.com/CoreyAllenAudio/itsc-autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; A starter toolkit of AutoHotkey v2 scripts for IT support work in the office or at home.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CoreyAllenAudio/itsc-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CoreyAllenAudio/itsc-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <itsc-autohotkey>\n\n; Example initialization\nclass ItscAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"itsc-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ItscAutohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1432502460",
+      "title": "steal-an-egg-fishing-ahk",
+      "category": "GitHub Repository",
+      "description": "Visual fishing macro for Steal an Egg on Roblox. AutoHotkey v2, charge detection, prompt-gated rapid clicks, and automatic pause on focus loss.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "fishing-macro",
+        "roblox",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-24T19:00:21Z",
+      "lastModified": "2026-10-24T19:01:07Z",
+      "source": "github",
+      "url": "https://github.com/Stepqq/steal-an-egg-fishing-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Stepqq",
+      "code": "```cpp\n; ============================================\n; Repository: Stepqq/steal-an-egg-fishing-ahk\n; ============================================\n; URL: https://github.com/Stepqq/steal-an-egg-fishing-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; Visual fishing macro for Steal an Egg on Roblox. AutoHotkey v2, charge detection, prompt-gated rapid clicks, and automatic pause on focus loss.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Stepqq/steal-an-egg-fishing-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Stepqq/steal-an-egg-fishing-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <steal-an-egg-fishing-ahk>\n\n; Example initialization\nclass StealAnEggFishingAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"steal-an-egg-fishing-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := StealAnEggFishingAhkExample()\n```"
     }
   ]
 }
