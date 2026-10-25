@@ -1,5 +1,22 @@
 [
  {
+  "slug": "alpha37-examples",
+  "title": "AutoHotkey v2.1-alpha.37: Five Scripts for the New Syntax",
+  "preview_title": "Alpha.37 in Five Scripts: Struct Literals, IsSet on Properties, unset as NULL",
+  "date": "2026-10-25",
+  "description": "One runnable script per alpha.37 change, each built around a pattern the change makes pleasant: POINT(10, 20) literals passed straight into PtInRect, IsSet(obj.prop) for optional settings and feature detection, unset as a null pointer for Win32 size queries and skipped outputs, Int32 instances passed by value and Struct.At as an address carrier, and a Pipeline class whose hooks default to unset. Plus the five pitfalls hit while writing them and the fork fix for a throwing getter that upstream reports as UnsetError.",
+  "preview": "Five tested scripts, one per alpha.37 change, with the alpha.36 behaviour in the comments and the pitfalls found along the way.",
+  "tags": [
+   "Alpha Release",
+   "Structs",
+   "DllCall",
+   "IsSet",
+   "Examples",
+   "+Console"
+  ],
+  "path": "posts/alpha37-examples.md"
+ },
+ {
   "slug": "october-2026-model-roster",
   "title": "Sixteen New Models: GPT-6.1 Sol Joins the Perfect-Eval Club for 35 Cents",
   "preview_title": "GPT-6.1 Sol Aces AHK-Eval; Three Reasoners Run Out of Tokens",
