@@ -4,7 +4,7 @@ Alpha.30 shipped on May 22, 2026 (upstream tag `v2.1-alpha.30`), twenty upstream
 
 If you have alpha.29 code, the removals are load errors, so migration is not optional. The four scripts below show the replacement for each one as something you would actually write, plus the new `Void` and the fixes. They run on the `2.1-alpha.37+Console` build and use alpha.30 syntax only.
 
-**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+**`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
 ```ahk2
 Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
@@ -354,7 +354,7 @@ Source: [`04_small_fixes.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/m
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.30`. On alpha.29 the removed forms are not used anywhere, so what stops the scripts there is `"Void"`, which alpha.29 rejects as an invalid type. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
+`#Requires AutoHotkey v2.1-alpha.30` on every script. Alpha.29 stops at `"Void"`. Fork: run as-is. Stock: add the `Print` line and pipe through `| more`.
 
 ```powershell
 # +Console fork
@@ -364,4 +364,4 @@ Every script starts with `#Requires AutoHotkey v2.1-alpha.30`. On alpha.29 the r
 AutoHotkey64.exe 01_void_return.ahk | more
 ```
 
-*Disclosure: Claude Fable 5.1 wrote the four scripts, ran them, and drafted this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`), which still runs alpha.30 syntax unchanged; the "before" statements come from the fork's alpha.30 release notes, not from a run on an older build.*
+*Scripts and text by Claude Fable 5.1, run on `2.1-alpha.37+Console` (`a911f73d`); "before" behaviour from the fork's release notes.*

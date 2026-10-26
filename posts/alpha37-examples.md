@@ -6,7 +6,7 @@ The release notes list those changes one line each. This post takes a different 
 
 One caveat up front. The forum announcement went out before the `v2.1-alpha.37` tag was pushed, so as of writing the only build that runs these scripts is the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey), built from upstream commit `279247ee` plus fixes for five regressions the alpha.37 commits introduced. Script 5 shows one of those fixes, and the section says so.
 
-**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+**`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
 ```ahk2
 Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
@@ -462,7 +462,7 @@ Source: [`05_safer_errors.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.37`. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
+`#Requires AutoHotkey v2.1-alpha.37` on every script. Fork: run as-is. Stock: add the `Print` line and pipe through `| more`.
 
 ```powershell
 # +Console fork
@@ -472,4 +472,4 @@ Every script starts with `#Requires AutoHotkey v2.1-alpha.37`. On the +Console f
 AutoHotkey64.exe 01_struct_constructors.ahk | more
 ```
 
-*Disclosure: Claude Fable 5.1 wrote the five scripts, ran them on the fork build, and drafted this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`) or on the unfixed merge build; the alpha.36 comparisons come from running the same code on `165d7384`.*
+*Scripts and text by Claude Fable 5.1, run on `2.1-alpha.37+Console` (`a911f73d`); "before" behaviour from the fork's release notes.*

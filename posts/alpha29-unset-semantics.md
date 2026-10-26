@@ -4,7 +4,7 @@ Alpha.29 shipped on May 10, 2026 (upstream tag `v2.1-alpha.29`). It is a small r
 
 None of that sounds like much until you write code against it. The point of `unset` is that it cannot be mistaken for data: an empty string is a perfectly good value, but `unset` either reaches a `??` or `IsSet`, or it throws at the line that tried to use it. Three scripts below, one per theme, each built around a pattern the change makes shorter. They run on the `2.1-alpha.37+Console` build; everything in them is alpha.29 syntax, so nothing from later releases is used.
 
-**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+**`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
 ```ahk2
 Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
@@ -318,7 +318,7 @@ Source: [`03_builtins_unset.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blo
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.29`. That line is also what puts the file in v2.1 mode; the default-return and built-in changes apply only there. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
+`#Requires AutoHotkey v2.1-alpha.29` on every script. That line also selects v2.1 mode. Fork: run as-is. Stock: add the `Print` line and pipe through `| more`.
 
 ```powershell
 # +Console fork
@@ -328,4 +328,4 @@ Every script starts with `#Requires AutoHotkey v2.1-alpha.29`. That line is also
 AutoHotkey64.exe 01_maybe_operator.ahk | more
 ```
 
-*Disclosure: Claude Fable 5.1 wrote the three scripts, ran them, and drafted this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`), which still runs alpha.29 syntax unchanged; the "before" statements come from the fork's alpha.29 release notes, not from a run on an older build.*
+*Scripts and text by Claude Fable 5.1, run on `2.1-alpha.37+Console` (`a911f73d`); "before" behaviour from the fork's release notes.*

@@ -4,7 +4,7 @@ Alpha.27 shipped on April 19, 2026 (upstream tag `v2.1-alpha.27`). Nothing in it
 
 Three scripts below, each built around what that buys you in practice rather than the internals. The first passes a struct made of structs to Win32 as a single block and walks an array of them with stride arithmetic. The second leans on the destructor fixes to build a handle wrapper that releases itself, even when stored in a typed array. The third shows what the new `Base` guard rejects and how to get the same effect at definition time. All three run with exit 0 on the `2.1-alpha.37+Console` build; the comments say what alpha.26 did instead.
 
-**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+**`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
 ```ahk2
 Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
@@ -250,7 +250,7 @@ Source: [`03_base_is_fixed.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.27`. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
+`#Requires AutoHotkey v2.1-alpha.27` on every script. Fork: run as-is. Stock: add the `Print` line and pipe through `| more`.
 
 ```powershell
 # +Console fork
@@ -260,4 +260,4 @@ Every script starts with `#Requires AutoHotkey v2.1-alpha.27`. On the +Console f
 AutoHotkey64.exe 01_nested_struct_layout.ahk | more
 ```
 
-*Disclosure: Claude Fable 5.1 wrote the three scripts, ran them, and drafted this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`); the alpha.26 comparisons come from the alpha.27 commit history, not from running an alpha.26 engine.*
+*Scripts and text by Claude Fable 5.1, run on `2.1-alpha.37+Console` (`a911f73d`); "before" behaviour from the fork's release notes.*

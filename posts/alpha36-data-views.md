@@ -4,7 +4,7 @@ Alpha.36 (October 18, 2026) adds one function, `ObjCreateWithDataPtr(ClassObj, A
 
 The official build has two problems the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) fixed before shipping it (`a41db9a1`, `f24c23d1`): `ObjCreateWithDataPtr(Map, addr)` stores the pointer over the `Map`'s own fields and corrupts the heap, and every struct view can grow ad-hoc properties, which alpha.35 refused. The upstream report is [`docs/upstream/alpha36-createstructptr-offset.md`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/docs/upstream/alpha36-createstructptr-offset.md).
 
-**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+**`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
 ```ahk2
 Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
@@ -240,7 +240,7 @@ Source: [`03_load_time_checks.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/b
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.36`. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
+`#Requires AutoHotkey v2.1-alpha.36` on every script. Fork: run as-is. Stock: add the `Print` line and pipe through `| more`.
 
 ```powershell
 # +Console fork
@@ -250,4 +250,4 @@ Every script starts with `#Requires AutoHotkey v2.1-alpha.36`. On the +Console f
 AutoHotkey64.exe 01_data_views.ahk | more
 ```
 
-*Disclosure: Claude Fable 5.1 wrote the scripts, ran them on the +Console fork build `a911f73d`, and drafted this post; the alpha.35 and official-build comparisons come from the fork's release notes and its `qa/tests/test_alpha36.ahk`.*
+*Scripts and text by Claude Fable 5.1, run on `2.1-alpha.37+Console` (`a911f73d`); "before" behaviour from the fork's release notes.*

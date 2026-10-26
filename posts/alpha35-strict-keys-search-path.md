@@ -2,7 +2,7 @@
 
 Alpha.35 was tagged on October 11, 2026, and has two themes. In v2.1 mode `Map` and `Array` stop guessing about key types: a `Float` key or index is a `TypeError`. And `#Include <Name>` and `#Import` get a real search path, starting with the directory of the including file, plus an `AhkLibPath` environment variable that replaces the whole list. Three short scripts, one per idea.
 
-**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+**`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
 ```ahk2
 Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
@@ -158,7 +158,7 @@ Source: [`03_ahklibpath.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/ma
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.35`. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
+`#Requires AutoHotkey v2.1-alpha.35` on every script. Fork: run as-is. Stock: add the `Print` line and pipe through `| more`.
 
 ```powershell
 # +Console fork
@@ -168,4 +168,4 @@ Every script starts with `#Requires AutoHotkey v2.1-alpha.35`. On the +Console f
 AutoHotkey64.exe 01_strict_keys.ahk | more
 ```
 
-*Disclosure: Claude Fable 5.1 wrote the scripts, ran them on the +Console fork build `a911f73d` (`2.1-alpha.37+Console`), and drafted this post; the alpha.34 comparisons come from the fork's release notes and its `qa/tests/test_alpha35.ahk`.*
+*Scripts and text by Claude Fable 5.1, run on `2.1-alpha.37+Console` (`a911f73d`); "before" behaviour from the fork's release notes.*
