@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-25T18:09:32.539Z",
-  "totalScripts": 661,
+  "lastUpdated": "2026-10-26T00:24:22.641Z",
+  "totalScripts": 662,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6985,13 +6985,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-10-06T02:10:54Z",
+      "lastModified": "2026-10-25T23:18:41Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 10/6/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 10/25/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
     },
     {
       "id": "github-1273936664",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-24T11:06:49Z",
+      "lastModified": "2026-10-25T19:58:39Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/25/2026\n; License: Apache License 2.0\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -12866,13 +12866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-10-23T10:38:02Z",
+      "lastModified": "2026-10-25T23:26:24Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 1,
       "forks": 0,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/23/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/25/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
@@ -13458,6 +13458,25 @@
       "forks": 0,
       "owner": "UsernamePlankalkul",
       "code": "```cpp\n; ============================================\n; Repository: UsernamePlankalkul/AutoHotkey-Json-Parser\n; ============================================\n; URL: https://github.com/UsernamePlankalkul/AutoHotkey-Json-Parser\n; Stars: 0 | Forks: 0\n; Last Updated: 10/25/2026\n; License: Not specified\n;\n; Description:\n; Json Parser For AutoHotkey Version v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/UsernamePlankalkul/AutoHotkey-Json-Parser.git\n;\n; Option 2: Download ZIP\n;   https://github.com/UsernamePlankalkul/AutoHotkey-Json-Parser/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Json-Parser>\n\n; Example initialization\nclass AutohotkeyJsonParserExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Json-Parser loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyJsonParserExample()\n```"
+    },
+    {
+      "id": "github-1433733488",
+      "title": "keystone",
+      "category": "GitHub Repository",
+      "description": "Personal modular AutoHotkey v2 setup: global and per-app hotkey modules with a tray control panel.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-26T00:11:12Z",
+      "lastModified": "2026-10-26T00:11:54Z",
+      "source": "github",
+      "url": "https://github.com/juampi20/keystone",
+      "stars": 0,
+      "forks": 0,
+      "owner": "juampi20",
+      "code": "```cpp\n; ============================================\n; Repository: juampi20/keystone\n; ============================================\n; URL: https://github.com/juampi20/keystone\n; Stars: 0 | Forks: 0\n; Last Updated: 10/26/2026\n; License: MIT License\n;\n; Description:\n; Personal modular AutoHotkey v2 setup: global and per-app hotkey modules with a tray control panel.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/juampi20/keystone.git\n;\n; Option 2: Download ZIP\n;   https://github.com/juampi20/keystone/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keystone>\n\n; Example initialization\nclass KeystoneExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keystone loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeystoneExample()\n```"
     }
   ]
 }
