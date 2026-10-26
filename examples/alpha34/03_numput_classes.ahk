@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.34
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.34: numeric type classes in NumPut and NumGet
 ;
 ; NumPut(Int32, v, buf) and NumGet(buf, Int32) accept the numeric classes
@@ -32,16 +31,16 @@ Unpack(fields, buf) {
 }
 buf := Pack(layout, Map("magic", 0x4B4841, "version", 34, "flags", 3, "ratio", 0.75, "count", -5))
 back := Unpack(layout, buf)
-Echo("packed {} bytes: magic 0x{:X} version {} flags {} ratio {} count {}",
+Print("packed {} bytes: magic 0x{:X} version {} flags {} ratio {} count {}",
     buf.Size, back["magic"], back["version"], back["flags"], back["ratio"], back["count"])
 
 ; --- 2. Mixed in one NumPut call, exactly like the strings -------------------
 pair := Buffer(12, 0)
 NumPut(Int32, -7, Float32, 2.5, UInt32, 0xFFFFFFFF, pair)
-Echo("{} {} {}", NumGet(pair, Int32), NumGet(pair, 4, Float32), NumGet(pair, 8, UInt32))
+Print("{} {} {}", NumGet(pair, Int32), NumGet(pair, 4, Float32), NumGet(pair, 8, UInt32))
 
 ; --- 3. Classes and strings are interchangeable ---------------------------------
-Echo("Int32 as string: {}   IntPtr width {}", NumGet(pair, "Int"), IntPtr().Size)
+Print("Int32 as string: {}   IntPtr width {}", NumGet(pair, "Int"), IntPtr().Size)
 
 ; --- 4. Decoding a Win32 struct without a struct declaration ------------------
 ; SYSTEMTIME is eight UInt16 fields; a class list is enough to read it.
@@ -51,4 +50,4 @@ names := ["year", "month", "dow", "day", "hour", "min", "sec", "ms"]
 t := Map()
 for i, name in names
     t[name] := NumGet(st, (i - 1) * UInt16().Size, UInt16)
-Echo("GetSystemTime: {}-{:02}-{:02} (year is a {} value)", t["year"], t["month"], t["day"], Type(t["year"]))
+Print("GetSystemTime: {}-{:02}-{:02} (year is a {} value)", t["year"], t["month"], t["day"], Type(t["year"]))

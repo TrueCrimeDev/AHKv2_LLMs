@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.31
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.31: three fixes outside the module system.
 ;
@@ -23,9 +22,9 @@ buf := Buffer(64, 0)
 view := Outer.At(buf.Ptr)             ; boxed pointer into buf
 view.items[2].a := 5
 view.b := 9
-Echo("view.items[2].a = {}, view.b = {}, Outer size = {}", view.items[2].a, view.b, Outer().Size)
+Print("view.items[2].a = {}, view.b = {}, Outer size = {}", view.items[2].a, view.b, Outer().Size)
 view := ""                            ; alpha.30 died here
-Echo("view released, buffer still readable: items[2].a = {}", NumGet(buf, 4, "Int"))
+Print("view released, buffer still readable: items[2].a = {}", NumGet(buf, 4, "Int"))
 
 ; --- 2. Split getter and setter declarations ----------------------------------
 ; Useful when a mixin or a later section of a class adds the setter.
@@ -39,7 +38,7 @@ class Cfg {
 }
 c := Cfg()
 c.Level := 7
-Echo("c.Level = {}, c._log = {}", c.Level, c._log)
+Print("c.Level = {}, c._log = {}", c.Level, c._log)
 
 ; --- 3. Simple assignment from a virtual reference ----------------------------
 class Cell {
@@ -54,6 +53,6 @@ CopyOut(&src) {
     value := src + 0                  ; any expression form reads __Value
     return Type(plain) " / " value
 }
-Echo("CopyOut(Cell(42)) = {}", CopyOut(Cell(42)))
+Print("CopyOut(Cell(42)) = {}", CopyOut(Cell(42)))
 x := 7
-Echo("CopyOut(&x) = {}", CopyOut(&x))
+Print("CopyOut(&x) = {}", CopyOut(&x))

@@ -4,6 +4,12 @@ Alpha.34 shipped on October 9, 2026 (upstream tag `v2.1-alpha.34`). It tightens 
 
 Three scripts, one per headline. Each is built around a pattern the change makes pleasant rather than a bare demonstration, and each prints what the engine does so you can compare against your own build.
 
+**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+
+```ahk2
+Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
+```
+
 ---
 
 ## 1. `Enumerable: false`: bookkeeping that stays out of the data
@@ -16,7 +22,6 @@ Before alpha.34, `Enumerable` was itself an unknown descriptor key, so the first
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.34
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.34: Enumerable: false in a DefineProp descriptor
 ;
 ; A property defined with Enumerable: false is skipped by Props() and by the
@@ -48,17 +53,17 @@ Serialize(obj) {
 }
 rec := Record({id: 7, title: "alpha.34"})
 rec.Touch()
-Echo("Props():    {}", Serialize(rec))
+Print("Props():    {}", Serialize(rec))
 own := ""
 for name in rec.OwnProps()
     own .= name " "
-Echo("OwnProps(): {}", Trim(own))
-Echo("HasOwnProp(_dirty) {}  ObjOwnPropCount {}  _version {}",
+Print("OwnProps(): {}", Trim(own))
+Print("HasOwnProp(_dirty) {}  ObjOwnPropCount {}  _version {}",
     rec.HasOwnProp("_dirty"), ObjOwnPropCount(rec), rec._version)
 
 ; --- 2. The flag works on accessors as well as values ------------------------
 rec.DefineProp("summary", {Get: this => this.id ": " this.title, Enumerable: false})
-Echo("summary = {}  (still not in Props: {})", rec.summary, Serialize(rec))
+Print("summary = {}  (still not in Props: {})", rec.summary, Serialize(rec))
 
 ; --- 3. alpha.34 validates the descriptor -----------------------------------
 ; An unknown key, or Value mixed with Get/Set/Call, is a ValueError instead of
@@ -66,14 +71,14 @@ Echo("summary = {}  (still not in Props: {})", rec.summary, Serialize(rec))
 for keys, bad in Map("Vlaue", {Vlaue: 1}, "Value+Get", {Value: 1, Get: (*) => 2}) {
     try rec.DefineProp("oops", bad)
     catch ValueError as e
-        Echo("DefineProp with {}: {}", keys, e.Message)
+        Print("DefineProp with {}: {}", keys, e.Message)
 }
 
 ; --- 4. Also new: a.%name?% ?? default short-circuits -----------------------
 ; With name unset the whole access is skipped and the default wins; before
 ; alpha.34 the engine tried the default property instead.
 Field(obj, name?) => obj.%name?% ?? "(no field)"
-Echo("Field(rec, `"title`") = {}   Field(rec) = {}", Field(rec, "title"), Field(rec))
+Print("Field(rec, `"title`") = {}   Field(rec) = {}", Field(rec, "title"), Field(rec))
 ```
 
 Source: [`01_enumerable_props.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha34/01_enumerable_props.ahk)
@@ -90,7 +95,6 @@ Before alpha.34, a union meant declaring the first member as a field and adding 
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.34
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.34: anonymous unions in structs
 ;
 ; A struct may contain a union block without naming it; its members sit at
@@ -108,12 +112,12 @@ struct Value {
     }
 }
 v := Value()
-Echo("Size {} (4 for kind + 4 shared)", v.Size)
+Print("Size {} (4 for kind + 4 shared)", v.Size)
 
 v.kind := 2, v.f := 1.5
-Echo("f=1.5 reads as i=0x{:X} and bytes {} {} {} {}", v.i, v.bytes[1], v.bytes[2], v.bytes[3], v.bytes[4])
+Print("f=1.5 reads as i=0x{:X} and bytes {} {} {} {}", v.i, v.bytes[1], v.bytes[2], v.bytes[3], v.bytes[4])
 v.kind := 1, v.i := 0x40490FDB
-Echo("i=0x40490FDB reads as f={:.5f} and bytes[4]=0x{:X}", v.f, v.bytes[4])
+Print("i=0x40490FDB reads as f={:.5f} and bytes[4]=0x{:X}", v.f, v.bytes[4])
 
 ; --- 2. Dispatch on the tag ----------------------------------------------------
 Show(val) {
@@ -124,9 +128,9 @@ Show(val) {
     }
 }
 v.kind := 3
-Echo("{}", Show(v))
+Print("{}", Show(v))
 v.kind := 2
-Echo("{}", Show(v))
+Print("{}", Show(v))
 
 ; --- 3. The classic Win32 case: INPUT -----------------------------------------
 ; INPUT has a type field followed by a union of MOUSEINPUT, KEYBDINPUT and
@@ -157,7 +161,7 @@ inp := INPUT()
 inp.type := 1                   ; INPUT_KEYBOARD
 inp.ki.wVk := 0x41              ; 'A'
 inp.ki.dwFlags := 2             ; KEYEVENTF_KEYUP
-Echo("INPUT size {} (C says {} on x64), ki.wVk 0x{:X}, same bytes as mi.dx 0x{:X}",
+Print("INPUT size {} (C says {} on x64), ki.wVk 0x{:X}, same bytes as mi.dx 0x{:X}",
     inp.Size, A_PtrSize = 8 ? 40 : 28, inp.ki.wVk, inp.mi.dx)
 ; Not sent: SendInput would type into whatever window has focus.
 ```
@@ -176,7 +180,6 @@ Before alpha.34, only the type strings were accepted; a class in that position w
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.34
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.34: numeric type classes in NumPut and NumGet
 ;
 ; NumPut(Int32, v, buf) and NumGet(buf, Int32) accept the numeric classes
@@ -209,16 +212,16 @@ Unpack(fields, buf) {
 }
 buf := Pack(layout, Map("magic", 0x4B4841, "version", 34, "flags", 3, "ratio", 0.75, "count", -5))
 back := Unpack(layout, buf)
-Echo("packed {} bytes: magic 0x{:X} version {} flags {} ratio {} count {}",
+Print("packed {} bytes: magic 0x{:X} version {} flags {} ratio {} count {}",
     buf.Size, back["magic"], back["version"], back["flags"], back["ratio"], back["count"])
 
 ; --- 2. Mixed in one NumPut call, exactly like the strings -------------------
 pair := Buffer(12, 0)
 NumPut(Int32, -7, Float32, 2.5, UInt32, 0xFFFFFFFF, pair)
-Echo("{} {} {}", NumGet(pair, Int32), NumGet(pair, 4, Float32), NumGet(pair, 8, UInt32))
+Print("{} {} {}", NumGet(pair, Int32), NumGet(pair, 4, Float32), NumGet(pair, 8, UInt32))
 
 ; --- 3. Classes and strings are interchangeable ---------------------------------
-Echo("Int32 as string: {}   IntPtr width {}", NumGet(pair, "Int"), IntPtr().Size)
+Print("Int32 as string: {}   IntPtr width {}", NumGet(pair, "Int"), IntPtr().Size)
 
 ; --- 4. Decoding a Win32 struct without a struct declaration ------------------
 ; SYSTEMTIME is eight UInt16 fields; a class list is enough to read it.
@@ -228,7 +231,7 @@ names := ["year", "month", "dow", "day", "hour", "min", "sec", "ms"]
 t := Map()
 for i, name in names
     t[name] := NumGet(st, (i - 1) * UInt16().Size, UInt16)
-Echo("GetSystemTime: {}-{:02}-{:02} (year is a {} value)", t["year"], t["month"], t["day"], Type(t["year"]))
+Print("GetSystemTime: {}-{:02}-{:02} (year is a {} value)", t["year"], t["month"], t["day"], Type(t["year"]))
 ```
 
 Source: [`03_numput_classes.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha34/03_numput_classes.ahk)
@@ -245,14 +248,14 @@ Source: [`03_numput_classes.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blo
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.34` and writes through `FileAppend(..., "*")`, AutoHotkey's native stdout. The stock GUI executable only shows that stream when it is piped or redirected, so the `| more` below is not optional there; the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) prints it directly.
+Every script starts with `#Requires AutoHotkey v2.1-alpha.34`. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
 
 ```powershell
-# stock AutoHotkey v2.1-alpha.34 or later (GUI exe): pipe or redirect to see stdout
-AutoHotkey64.exe 01_enumerable_props.ahk | more
-
-# +Console fork: stdout is a real console stream
+# +Console fork
 .\bin\AutoHotkey64Console.exe 01_enumerable_props.ahk
+
+# stock AutoHotkey v2.1-alpha.34 or later (GUI exe), with the Print line added
+AutoHotkey64.exe 01_enumerable_props.ahk | more
 ```
 
 *Disclosure: Claude Fable 5.1 wrote the scripts, ran them, and drafted this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`), which carries this release, or comes from the fork's release notes for it; the "before" lines are from those notes.*

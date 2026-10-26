@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.31
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.31: imported names stay private to the importer unless re-exported.
 ;
@@ -33,14 +32,14 @@ Whisper(name) => StrLower(Greet(name)) "..."
 #Import Facade {*}
 #Import OpenFacade {Whisper, Greet as CoreGreet, Version as CoreVersion}
 
-Echo("Shout(`"bob`") = {}", Shout("bob"))
-Echo("Describe() = {}", Describe())
+Print("Shout(`"bob`") = {}", Shout("bob"))
+Print("Describe() = {}", Describe())
 
 ; Facade used Greet and Version, but did not pass them on.
-Echo("Greet via Facade {{}*{}}: {}", IsSet(Greet) ? "visible" : "not visible")
-Echo("Version via Facade {{}*{}}: {}", IsSet(Version) ? "visible" : "not visible")
+Print("Greet via Facade {{}*{}}: {}", IsSet(Greet) ? "visible" : "not visible")
+Print("Version via Facade {{}*{}}: {}", IsSet(Version) ? "visible" : "not visible")
 
 ; OpenFacade re-exported them, so they can be imported from it, renamed here.
-Echo("Whisper(`"BOB`") = {}", Whisper("BOB"))
-Echo("CoreGreet(`"ann`") = {}", CoreGreet("ann"))
-Echo("CoreVersion = {}", CoreVersion)
+Print("Whisper(`"BOB`") = {}", Whisper("BOB"))
+Print("CoreGreet(`"ann`") = {}", CoreGreet("ann"))
+Print("CoreVersion = {}", CoreVersion)

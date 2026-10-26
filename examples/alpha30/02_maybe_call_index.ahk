@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.30
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.30: (a?)() and (a?)[] replace a?.() and a?.[]
 ;
@@ -20,12 +19,12 @@ Run(items, onItem?, onDone?) {
         (onItem?)(item)
     return (onDone?)(items.Length) ?? "(no onDone)"
 }
-Echo("silent run: {}", Run([1, 2]))
-Echo("logged run: {}", Run(["a", "b", "c"], x => Echo("  item {}", x), n => n " items"))
+Print("silent run: {}", Run([1, 2]))
+Print("logged run: {}", Run(["a", "b", "c"], x => Print("  item {}", x), n => n " items"))
 
 ; --- 2. Optional collections -------------------------------------------------------------
 First(list?) => (list?)[1] ?? "(empty)"
-Echo("First() = {}   First([9, 8]) = {}", First(), First([9, 8]))
+Print("First() = {}   First([9, 8]) = {}", First(), First([9, 8]))
 
 ; --- 3. Dynamic property on a maybe receiver -------------------------------------------------
 ; cfg?.%key% was a syntax error before alpha.30. It reads like cfg.%key% and
@@ -34,8 +33,8 @@ Echo("First() = {}   First([9, 8]) = {}", First(), First([9, 8]))
 ; it is guarded with HasOwnProp).
 Setting(key, cfg?) => (cfg?.%key%) ?? "default"
 theme := {theme: "dark"}
-Echo("Setting('theme') = {}   Setting('theme', theme) = {}", Setting("theme"), Setting("theme", theme))
-Echo("HasOwnProp guard: {}", theme.HasOwnProp("lang") ? theme.lang : "default")
+Print("Setting('theme') = {}   Setting('theme', theme) = {}", Setting("theme"), Setting("theme", theme))
+Print("HasOwnProp guard: {}", theme.HasOwnProp("lang") ? theme.lang : "default")
 
 ; --- 4. Precedence is spelled out, not guessed --------------------------------------------------
 ; `!a ?? b` and `b + a ?? c` no longer load. Write the grouping you mean. The
@@ -43,4 +42,4 @@ Echo("HasOwnProp guard: {}", theme.HasOwnProp("lang") ? theme.lang : "default")
 ; of ?? must be something that can be unset, and !a never is.
 a := unset
 b := 42
-Echo("!(a ?? b) = {}   b + (a ?? 100) = {}", !(a ?? b), b + (a ?? 100))
+Print("!(a ?? b) = {}   b + (a ?? 100) = {}", !(a ?? b), b + (a ?? 100))

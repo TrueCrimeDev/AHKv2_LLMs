@@ -4,6 +4,12 @@ Alpha.32 shipped on September 12, 2026 (upstream tag `v2.1-alpha.32`). It is the
 
 The property is `Gui.FontHandle`, the `HFONT` a Gui currently applies to new controls. That sounds minor until you have written a custom-draw callback, or needed a control that the Gui object did not create to match the rest of the window. Both cases used to mean adding a throwaway control and asking it with `WM_GETFONT`. One script covers the whole release.
 
+**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+
+```ahk2
+Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
+```
+
 ---
 
 ## 1. `Gui.FontHandle`: the font before any control exists
@@ -16,7 +22,6 @@ Before alpha.32, `g.FontHandle` was a `PropertyError`; the only route to the han
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.32
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.32: Gui.FontHandle
 ;
 ; Gui.FontHandle is the HFONT the Gui currently applies to new controls, the
@@ -31,7 +36,7 @@ hFont := g.FontHandle
 ; GetObject fills a LOGFONTW: lfHeight at 0, lfWeight at 16, lfFaceName at 28.
 lf := Buffer(92, 0)
 DllCall("GetObject", "Ptr", hFont, "Int", lf.Size, "Ptr", lf)
-Echo("FontHandle 0x{:X}: face {} height {} weight {}", hFont,
+Print("FontHandle 0x{:X}: face {} height {} weight {}", hFont,
     StrGet(lf.Ptr + 28, 32), NumGet(lf, 0, "Int"), NumGet(lf, 16, "Int"))
 
 ; --- 2. Every new control gets that handle ---------------------------------
@@ -39,11 +44,11 @@ Echo("FontHandle 0x{:X}: face {} height {} weight {}", hFont,
 ; the HFONT sign-extended to 64 bits, so compare the low 32 bits.
 FontOf(ctrl) => SendMessage(0x31, 0, 0, ctrl) & 0xFFFFFFFF   ; WM_GETFONT
 edit := g.AddEdit("w200", "sample")
-Echo("edit WM_GETFONT = FontHandle: {}", FontOf(edit) = hFont)
+Print("edit WM_GETFONT = FontHandle: {}", FontOf(edit) = hFont)
 
 ; --- 3. SetFont again: a new handle, old controls keep theirs ---------------
 g.SetFont("s14 bold", "Consolas")
-Echo("after SetFont: changed {}, edit still on the old font {}",
+Print("after SetFont: changed {}, edit still on the old font {}",
     g.FontHandle != hFont, FontOf(edit) = hFont)
 
 ; --- 4. Give the Gui's font to something the Gui did not create -------------
@@ -52,13 +57,13 @@ Echo("after SetFont: changed {}, edit still on the old font {}",
 other := Gui()
 label := other.AddText("w200", "borrowed font")
 SendMessage(0x30, g.FontHandle, 1, label)   ; WM_SETFONT, redraw = 1
-Echo("other Gui's text now uses g's font: {}", FontOf(label) = g.FontHandle)
+Print("other Gui's text now uses g's font: {}", FontOf(label) = g.FontHandle)
 
 ; --- 5. Feature detection for older engines --------------------------------
 ; (g.FontHandle?) is unset on alpha.31 and earlier, where the property does
 ; not exist, so the maybe operator falls back to asking a control.
 Probe(gui, ctrl) => (gui.FontHandle?) ?? FontOf(ctrl)
-Echo("Probe matches FontHandle: {}", Probe(g, edit) = g.FontHandle)
+Print("Probe matches FontHandle: {}", Probe(g, edit) = g.FontHandle)
 
 other.Destroy()
 g.Destroy()
@@ -82,14 +87,14 @@ Three fixes ride along. Assigning a variable that holds a reference (`t := r` wh
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.32` and writes through `FileAppend(..., "*")`, AutoHotkey's native stdout. The stock GUI executable only shows that stream when it is piped or redirected, so the `| more` below is not optional there; the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) prints it directly.
+Every script starts with `#Requires AutoHotkey v2.1-alpha.32`. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
 
 ```powershell
-# stock AutoHotkey v2.1-alpha.32 or later (GUI exe): pipe or redirect to see stdout
-AutoHotkey64.exe 01_font_handle.ahk | more
-
-# +Console fork: stdout is a real console stream
+# +Console fork
 .\bin\AutoHotkey64Console.exe 01_font_handle.ahk
+
+# stock AutoHotkey v2.1-alpha.32 or later (GUI exe), with the Print line added
+AutoHotkey64.exe 01_font_handle.ahk | more
 ```
 
 *Disclosure: Claude Fable 5.1 wrote the scripts, ran them, and drafted this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`), which carries this release, or comes from the fork's release notes for it; the "before" lines are from those notes.*

@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.27
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.27: a struct that contains other structs is one allocation.
 ; The nested objects are embedded in the outer block in definition order,
@@ -21,18 +20,18 @@ struct RECT2 {
 
 ; --- 1. The nested fields sit inside the outer block ---------------------------
 r := RECT2()
-Echo("RECT2 size {}  tl at +{}  br at +{}", r.Size, r.tl.Ptr - r.Ptr, r.br.Ptr - r.Ptr)
+Print("RECT2 size {}  tl at +{}  br at +{}", r.Size, r.tl.Ptr - r.Ptr, r.br.Ptr - r.Ptr)
 
 ; --- 2. Win32 sees a plain RECT ------------------------------------------------
 r.tl.x := 1, r.tl.y := 2, r.br.x := 30, r.br.y := 40
 DllCall("user32\OffsetRect", "Ptr", r.Ptr, "Int", 5, "Int", 7)
-Echo("after OffsetRect(+5,+7): ({},{})-({},{})", r.tl.x, r.tl.y, r.br.x, r.br.y)
-Echo("NumGet(r.Ptr, 8) = {}  (br.x through raw memory)", NumGet(r.Ptr, 8, "Int"))
+Print("after OffsetRect(+5,+7): ({},{})-({},{})", r.tl.x, r.tl.y, r.br.x, r.br.y)
+Print("NumGet(r.Ptr, 8) = {}  (br.x through raw memory)", NumGet(r.Ptr, 8, "Int"))
 
 ; --- 3. An array of nested structs is one contiguous block too ----------------
 rects := RECT2[3]()
 rects[2].tl.x := 100, rects[2].br.x := 200
-Echo("RECT2[3] size {}  stride {}  rects[2].tl.x = {}", rects.Size, rects[2].Ptr - rects[1].Ptr, NumGet(rects.Ptr, 16, "Int"))
+Print("RECT2[3] size {}  stride {}  rects[2].tl.x = {}", rects.Size, rects[2].Ptr - rects[1].Ptr, NumGet(rects.Ptr, 16, "Int"))
 
 ; --- 4. Which means a whole batch can go to C at once ------------------------
 ; Pass the array's base pointer; the callee walks it with ordinary stride math.
@@ -41,4 +40,4 @@ loop 3
 out := ""
 loop 3
     out .= Format("[{}: {}x{}] ", A_Index, rects[A_Index].br.x, rects[A_Index].br.y)
-Echo("SetRect on each element: {}", out)
+Print("SetRect on each element: {}", out)

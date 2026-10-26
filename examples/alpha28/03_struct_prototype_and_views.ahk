@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.28
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.28, two struct changes:
 ;   StructClass.Prototype is read-only. A struct class keeps a direct
@@ -16,7 +15,7 @@ struct POINT {
 }
 try POINT.Prototype := Object()
 catch Error as e
-    Echo("POINT.Prototype := Object() -> {}", e.Message)
+    Print("POINT.Prototype := Object() -> {}", e.Message)
 
 ; --- 2. A fieldless struct as an opaque handle ---------------------------------------------
 ; Window handles are integers that are easy to mix up with other integers.
@@ -27,9 +26,9 @@ struct Window {
 }
 DetectHiddenWindows(true)
 w := Window.At(A_ScriptHwnd)
-Echo("Window size {}  Ptr matches A_ScriptHwnd: {}  Type {}", w.Size, w.Ptr = A_ScriptHwnd, Type(w))
-Echo("class {}", w.Class)
-Echo("is Window: {}   is Struct: {}", w is Window, w is Struct)
+Print("Window size {}  Ptr matches A_ScriptHwnd: {}  Type {}", w.Size, w.Ptr = A_ScriptHwnd, Type(w))
+Print("class {}", w.Class)
+Print("is Window: {}   is Struct: {}", w is Window, w is Struct)
 
 ; --- 3. A view over memory that contains a nested struct ------------------------------
 struct RECT2 {
@@ -39,6 +38,6 @@ struct RECT2 {
 buf := Buffer(16)
 NumPut("Int", 10, "Int", 20, "Int", 110, "Int", 220, buf)
 view := RECT2.At(buf.Ptr)
-Echo("view: ({},{})-({},{})  width {}", view.tl.x, view.tl.y, view.br.x, view.br.y, view.br.x - view.tl.x)
+Print("view: ({},{})-({},{})  width {}", view.tl.x, view.tl.y, view.br.x, view.br.y, view.br.x - view.tl.x)
 view.br.x := 500                      ; writes through to the buffer
-Echo("buffer now holds br.x = {}", NumGet(buf, 8, "Int"))
+Print("buffer now holds br.x = {}", NumGet(buf, 8, "Int"))

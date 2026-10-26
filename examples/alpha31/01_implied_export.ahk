@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.31
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.31: every name defined in a #Module is exported; `export` is gone.
 ;
@@ -38,15 +37,15 @@ Export(obj) => "exported a " Type(obj)
 #Module __Main
 #Import Geometry {*}
 
-Echo("CircleArea(2) = {}", Round(CircleArea(2), 3))
-Echo("Point(3, 4).Dist(Point(0, 0)) = {}", Point(3, 4).Dist(Point(0, 0)))
-Echo("Scale = {}", Scale)
-Echo("ClampedArea(50) = {} (radius clamped to 10)", Round(ClampedArea(50), 3))
+Print("CircleArea(2) = {}", Round(CircleArea(2), 3))
+Print("Point(3, 4).Dist(Point(0, 0)) = {}", Point(3, 4).Dist(Point(0, 0)))
+Print("Scale = {}", Scale)
+Print("ClampedArea(50) = {} (radius clamped to 10)", Round(ClampedArea(50), 3))
 
 ; The underscore helper did not come through the wildcard...
-Echo("_Clamp after {{}*{}} import: {}", IsSet(_Clamp) ? "imported" : "skipped")
+Print("_Clamp after {{}*{}} import: {}", IsSet(_Clamp) ? "imported" : "skipped")
 ; ...but the module object still reaches it, as it reaches every module global.
-Echo("Geometry._Clamp(15, 0, 10) = {}", Geometry._Clamp(15, 0, 10))
-Echo("Geometry.Pi = {}", Geometry.Pi)
+Print("Geometry._Clamp(15, 0, 10) = {}", Geometry._Clamp(15, 0, 10))
+Print("Geometry.Pi = {}", Geometry.Pi)
 
-Echo("Export(Point(1, 1)) = {}", Export(Point(1, 1)))
+Print("Export(Point(1, 1)) = {}", Export(Point(1, 1)))

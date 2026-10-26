@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.30
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.30: four small fixes that each remove a special case
 ;
@@ -17,11 +16,11 @@ class Named {
     ToString() => "Named#1"
 }
 Describe(v) => String(v) ?? "(no text)"
-Echo("Describe(Named()) = {}   Describe(Silent()) = {}", Describe(Named()), Describe(Silent()))
+Print("Describe(Named()) = {}   Describe(Silent()) = {}", Describe(Named()), Describe(Silent()))
 try
     s := String(Silent())
 catch UnsetError as e
-    Echo("s := String(Silent()): {}", e.Message)
+    Print("s := String(Silent()): {}", e.Message)
 
 ; --- 2. StrGet with a zero length ------------------------------------------------------------------
 ; A length-prefixed reader can pass 0 straight through and still get a String.
@@ -30,7 +29,7 @@ StrPut("hello", buf, "UTF-16")
 ReadPrefixed(ptr, n) => StrGet(ptr, n, "UTF-16")
 for n in [0, 2, 5] {
     v := ReadPrefixed(buf, n)
-    Echo("StrGet(buf, {}) = '{}' ({})", n, v, Type(v))
+    Print("StrGet(buf, {}) = '{}' ({})", n, v, Type(v))
 }
 
 ; --- 3. Clearing a caller's variable through a reference -----------------------------------------
@@ -45,7 +44,7 @@ TryParseInt(text, &out) {
 }
 for text in ["42", "4x2"] {
     ok := TryParseInt(text, &value)
-    Echo("TryParseInt('{}') = {}   IsSet(value) = {}   value = {}", text, ok, IsSet(value), value ?? "unset")
+    Print("TryParseInt('{}') = {}   IsSet(value) = {}   value = {}", text, ok, IsSet(value), value ?? "unset")
 }
 
 ; --- 4. Re-basing a class object -----------------------------------------------------------------------
@@ -55,4 +54,4 @@ class Plugin {
 class Widget {
 }
 Widget.Base := Plugin                          ; static inheritance after the fact
-Echo("Widget.Kind = {}   Widget.Base is Plugin: {}", Widget.Kind, Widget.Base == Plugin)
+Print("Widget.Kind = {}   Widget.Base is Plugin: {}", Widget.Kind, Widget.Base == Plugin)

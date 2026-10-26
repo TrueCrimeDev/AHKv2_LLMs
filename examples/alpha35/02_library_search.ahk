@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.35
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.35: #Include <Name> searches, in order,
 ;   1. the directory of the *including* file   (new, v2.1 mode only)
@@ -21,10 +20,10 @@ Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 Where(file) => SubStr(file, StrLen(A_ScriptDir) + 2)   ; path relative to this script
 
-Echo("TextTools came from {}", Where(TextToolsFile))
-Echo("Report came from    {}", Where(ReportFile))
-Echo("Fmt came from       {}", Where(FmtFile))
-Echo("")
-Echo("{}", Report("alpha.35", ["search path follows the including file", "AhkLibPath overrides the list", "no A_B -> A fallback"]))
-Echo("")
-Echo("Slug(`"Hello, Library World`") = {}", Slug("Hello, Library World"))
+Print("TextTools came from {}", Where(TextToolsFile))
+Print("Report came from    {}", Where(ReportFile))
+Print("Fmt came from       {}", Where(FmtFile))
+Print("")
+Print("{}", Report("alpha.35", ["search path follows the including file", "AhkLibPath overrides the list", "no A_B -> A fallback"]))
+Print("")
+Print("Slug(`"Hello, Library World`") = {}", Slug("Hello, Library World"))

@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.29
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.29: the maybe operator (?) short-circuits most operators
 ;
@@ -16,28 +15,28 @@ Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; factor is optional. If the caller omitted it, v * factor? is unset and ?? v
 ; returns the input unchanged. No IsSet, no second code path.
 Scale(v, factor?) => (v * factor?) ?? v
-Echo("Scale(10) = {}   Scale(10, 3) = {}", Scale(10), Scale(10, 3))
+Print("Scale(10) = {}   Scale(10, 3) = {}", Scale(10), Scale(10, 3))
 
 ; --- 2. Optional limits in comparisons ------------------------------------------
 ; A missing limit means "no limit": the comparison is unset, so ?? false wins.
 Over(spent, limit?) => (spent > limit?) ?? false
-Echo("Over(120) = {}   Over(120, 100) = {}   Over(80, 100) = {}", Over(120), Over(120, 100), Over(80, 100))
+Print("Over(120) = {}   Over(120, 100) = {}   Over(80, 100) = {}", Over(120), Over(120, 100), Over(80, 100))
 
 ; --- 3. Optional parts of a string ---------------------------------------------------
 ; The parenthesised piece is unset as a whole when suffix is, so nothing is
 ; appended rather than a stray " ()". (suffix?) is wrapped on purpose; see 6.
 Label(name, suffix?) => name . ((" (" . (suffix?) . ")") ?? "")
-Echo("{}  /  {}", Label("build"), Label("build", "release"))
+Print("{}  /  {}", Label("build"), Label("build", "release"))
 
 ; --- 4. Ternary and logical operators short-circuit too ------------------------------
 Describe(flag?) => (flag? ? "on" : "off") ?? "unknown"
-Echo("Describe() = {}   Describe(1) = {}   Describe(0) = {}", Describe(), Describe(1), Describe(0))
-Echo("(missing? || 5) ?? 'unset' = {}", (missing? || 5) ?? "unset")
+Print("Describe() = {}   Describe(1) = {}   Describe(0) = {}", Describe(), Describe(1), Describe(0))
+Print("(missing? || 5) ?? 'unset' = {}", (missing? || 5) ?? "unset")
 
 ; --- 5. The IIFE that crashed the alpha.28 parser ----------------------------------------
 ; (() => a? || 1)() failed to parse before alpha.29. Now it evaluates, and the
 ; unset sentinel still propagates through || to the outer ??.
-Echo("(() => zz? || 1)() ?? 'unset' = {}", (() => zz? || 1)() ?? "unset")
+Print("(() => zz? || 1)() ?? 'unset' = {}", (() => zz? || 1)() ?? "unset")
 
 ; --- 6. Two things ? does not do --------------------------------------------------------
 ; It applies to a variable, not to an expression: (a? + 1)? is a syntax error.
@@ -45,4 +44,4 @@ Echo("(() => zz? || 1)() ?? 'unset' = {}", (() => zz? || 1)() ?? "unset")
 ; (a ? +1 : ...) fails to load, and so did `suffix? . ")"` above. Wrapping
 ; the maybe as (var?) removes the ambiguity everywhere.
 total := ((missing?) + 1) ?? 0
-Echo("((missing?) + 1) ?? 0 = {}", total)
+Print("((missing?) + 1) ?? 0 = {}", total)

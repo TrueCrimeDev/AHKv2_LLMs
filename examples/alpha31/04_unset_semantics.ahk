@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.31
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.31: three fixes that make "no value" mean the same thing everywhere.
 ;
@@ -27,14 +26,14 @@ Summary() => "theme=" Theme ", proxy=" (Proxy ?? "none")
 #Module __Main
 #Import Settings {Summary, Proxy, Theme} ; second hop
 
-Echo("IsSet(Proxy) = {}", IsSet(Proxy))
-Echo("Proxy ?? `"<unset>`" = {}", Proxy ?? "<unset>")      ; alpha.30: "" (empty string)
-Echo("Summary() = {}", Summary())
+Print("IsSet(Proxy) = {}", IsSet(Proxy))
+Print("Proxy ?? `"<unset>`" = {}", Proxy ?? "<unset>")      ; alpha.30: "" (empty string)
+Print("Summary() = {}", Summary())
 
 ; --- 2. RegExMatch: unset on no match (v2.1 mode) -----------------------------
 Extract(text, pattern) => RegExMatch(text, pattern, &m) ? m[0] : (IsSet(m) ? "blank" : "unset")
-Echo("Extract(`"hello`", `"l+`") = {}", Extract("hello", "l+"))
-Echo("Extract(`"hello`", `"x`") = {}", Extract("hello", "x"))
+Print("Extract(`"hello`", `"l+`") = {}", Extract("hello", "l+"))
+Print("Extract(`"hello`", `"x`") = {}", Extract("hello", "x"))
 
 ; --- 3. Props(v) keeps the value ----------------------------------------------
 ; Primitive prototypes do not inherit DefineProp; borrow Object's.
@@ -43,4 +42,4 @@ v := "hello"
 e := Props(v)                        ; the enumerator now holds a copy of "hello"
 v := "hi"
 for name, val in e
-    Echo("Props enumerated {}={}", name, val)   ; alpha.30: Len=2
+    Print("Props enumerated {}={}", name, val)   ; alpha.30: Len=2

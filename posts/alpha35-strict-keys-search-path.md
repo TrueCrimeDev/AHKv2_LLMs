@@ -6,6 +6,12 @@ Three short scripts below, one per idea. Each is built around a pattern the chan
 
 One thing to know before you rely on `AhkLibPath` on the official alpha.35 build: a listed folder that does not exist made every later folder vanish, including the user and standard libraries. The +Console fork fixed that on October 12 and upstream took the same fix in alpha.36 (`abe3ff20`). Script 3 avoids the case; the alpha.36 post demonstrates the fix.
 
+**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+
+```ahk2
+Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
+```
+
 ---
 
 ## 1. A `Float` key is a bug, and now it says so
@@ -18,7 +24,6 @@ Before alpha.35, `m[1.5] := x` stored a `Float` key and `arr[1.0]` returned `arr
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.35
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.35: in v2.1 mode a Map rejects Float keys and an Array rejects Float
 ; and empty-string indexes. This file is in v2.1 mode because of its top-level
@@ -30,33 +35,33 @@ Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 bucket := Map()
 for n in [10, 20, 30, 45]
     bucket[n // 10] := n                 ; keys 1, 2, 3, 4
-Echo("integer keys: {}", bucket.Count)
+Print("integer keys: {}", bucket.Count)
 
 try bucket[45 / 10] := "oops"            ; 4.5 is a Float
 catch TypeError as e
-    Echo("bucket[4.5]: {}", e.Message)
+    Print("bucket[4.5]: {}", e.Message)
 ; Before alpha.35 this was accepted: bucket had five entries, one under 4 and one under 4.5.
 
 bucket["4.5"] := "a String key is still fine"
-Echo("bucket.Count = {}: four Integer keys and one String key; the Float write stored nothing", bucket.Count)
+Print("bucket.Count = {}: four Integer keys and one String key; the Float write stored nothing", bucket.Count)
 
 ; --- 2. Say what you mean ------------------------------------------------------
 ; The error points at the real bug: the key needs an explicit conversion.
 key := Integer(45 / 10)
-Echo("Integer(4.5) = {} -> bucket[{}] = {}", key, key, bucket[key])
+Print("Integer(4.5) = {} -> bucket[{}] = {}", key, key, bucket[key])
 
 ; --- 3. Array indexes get the same treatment -------------------------------------
 arr := ["ten", "twenty", "thirty"]
 for idx in [1.0, ""] {
     try
-        Echo("arr[{}] = {}", idx, arr[idx])
+        Print("arr[{}] = {}", idx, arr[idx])
     catch TypeError as e
-        Echo("arr[{}]: {}: {}", idx = "" ? '""' : idx, Type(e), e.Message)
+        Print("arr[{}]: {}: {}", idx = "" ? '""' : idx, Type(e), e.Message)
 }
 ; Before alpha.35, arr[1.0] returned arr[1] and arr[""] threw IndexError.
 
 ; Numeric strings still convert, so an index read from text keeps working.
-Echo("arr[`"2`"] = {}   arr[`" 3`"] = {}", arr["2"], arr[" 3"])
+Print("arr[`"2`"] = {}   arr[`" 3`"] = {}", arr["2"], arr[" 3"])
 
 ; --- 4. A lookup that validates its input instead of guessing -------------------
 ; Map keys are never converted: 2 and "2" are different keys, and 2.0 is now an
@@ -68,7 +73,7 @@ Lookup(table, key) {
         return "rejected (" e.Message ")"
 }
 for k in [2, 2.0, "2", "2.0"]
-    Echo("Lookup({}) -> {}", Type(k) = "String" ? '"' k '"' : k, Lookup(bucket, k))
+    Print("Lookup({}) -> {}", Type(k) = "String" ? '"' k '"' : k, Lookup(bucket, k))
 ```
 
 Source: [`01_strict_keys.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha35/01_strict_keys.ahk)
@@ -85,7 +90,6 @@ Before alpha.35, the nested `#Include <Fmt>` failed with "Script library not fou
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.35
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.35: #Include <Name> searches, in order,
 ;   1. the directory of the *including* file   (new, v2.1 mode only)
@@ -107,13 +111,13 @@ Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 Where(file) => SubStr(file, StrLen(A_ScriptDir) + 2)   ; path relative to this script
 
-Echo("TextTools came from {}", Where(TextToolsFile))
-Echo("Report came from    {}", Where(ReportFile))
-Echo("Fmt came from       {}", Where(FmtFile))
-Echo("")
-Echo("{}", Report("alpha.35", ["search path follows the including file", "AhkLibPath overrides the list", "no A_B -> A fallback"]))
-Echo("")
-Echo("Slug(`"Hello, Library World`") = {}", Slug("Hello, Library World"))
+Print("TextTools came from {}", Where(TextToolsFile))
+Print("Report came from    {}", Where(ReportFile))
+Print("Fmt came from       {}", Where(FmtFile))
+Print("")
+Print("{}", Report("alpha.35", ["search path follows the including file", "AhkLibPath overrides the list", "no A_B -> A fallback"]))
+Print("")
+Print("Slug(`"Hello, Library World`") = {}", Slug("Hello, Library World"))
 ```
 
 Source: [`02_library_search.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha35/02_library_search.ahk)
@@ -130,7 +134,6 @@ Before alpha.35, there was no override: the local, user and standard library fol
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.35
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.35: the AhkLibPath environment variable replaces the default library
 ; search list. Library lookup happens at load time, so this script builds a
@@ -156,20 +159,20 @@ RunChild(script) {
 ; --- 1. AhkLibPath names the folder: the child finds Greet.ahk -------------------
 ; The child lives in a folder with no Lib\ and the library is nowhere near it.
 EnvSet("AhkLibPath", root "\shared")
-Echo("with AhkLibPath:    {}", RunChild(root "\child.ahk"))
+Print("with AhkLibPath:    {}", RunChild(root "\child.ahk"))
 
 ; --- 2. Without it, the default list applies and the library is not there --------
 EnvSet("AhkLibPath", "")
-Echo("without AhkLibPath: {}", RunChild(root "\child.ahk"))
+Print("without AhkLibPath: {}", RunChild(root "\child.ahk"))
 
 ; --- 3. The variable is a list; order is search order ----------------------------
 ; A second copy of Greet.ahk in another folder wins when its folder is listed first.
 DirCreate(root "\override")
 FileAppend('Greet(who) => "hello from the OVERRIDE folder"`n', root "\override\Greet.ahk", "UTF-8")
 EnvSet("AhkLibPath", root "\override;" root "\shared")
-Echo("override first:     {}", RunChild(root "\child.ahk"))
+Print("override first:     {}", RunChild(root "\child.ahk"))
 EnvSet("AhkLibPath", root "\shared;" root "\override")
-Echo("shared first:       {}", RunChild(root "\child.ahk"))
+Print("shared first:       {}", RunChild(root "\child.ahk"))
 ; Note: on the official alpha.35 build, a listed folder that does not exist
 ; made every later entry vanish, so "missing;shared" failed. The +Console fork
 ; fixed that on 2026-10-12 and upstream took the same fix in alpha.36.
@@ -192,14 +195,14 @@ Source: [`03_ahklibpath.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/ma
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.35` and writes through one line of plain AutoHotkey, `FileAppend(..., "*")`, which is the native stdout. The stock GUI executable only shows stdout when it is piped or redirected, so the `| more` below is not optional there; the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) writes to a real console stream and needs nothing extra.
+Every script starts with `#Requires AutoHotkey v2.1-alpha.35`. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
 
 ```powershell
-# stock AutoHotkey v2.1-alpha.35 (GUI exe): pipe or redirect to see stdout
-AutoHotkey64.exe 01_strict_keys.ahk | more
-
 # +Console fork
-AutoHotkey64Console.exe 01_strict_keys.ahk
+.\bin\AutoHotkey64Console.exe 01_strict_keys.ahk
+
+# stock AutoHotkey v2.1-alpha.35 or later (GUI exe), with the Print line added
+AutoHotkey64.exe 01_strict_keys.ahk | more
 ```
 
 *Disclosure: Claude Fable 5.1 wrote the scripts, ran them on the +Console fork build `a911f73d` (`2.1-alpha.37+Console`), and drafted this post. The alpha.34 comparisons and the search-path rules come from the fork's release notes and its `qa/tests/test_alpha35.ahk`, which pins them against the alpha.33 engine.*

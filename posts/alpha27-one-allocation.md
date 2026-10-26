@@ -4,6 +4,12 @@ Alpha.27 shipped on April 19, 2026 (upstream tag `v2.1-alpha.27`). Nothing in it
 
 Three scripts below, each built around what that buys you in practice rather than the internals. The first passes a struct made of structs to Win32 as a single block and walks an array of them with stride arithmetic. The second leans on the destructor fixes to build a handle wrapper that releases itself, even when stored in a typed array. The third shows what the new `Base` guard rejects and how to get the same effect at definition time. All three run with exit 0 on the `2.1-alpha.37+Console` build; the comments say what alpha.26 did instead.
 
+**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+
+```ahk2
+Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
+```
+
 ---
 
 ## 1. A struct of structs is one allocation
@@ -16,7 +22,6 @@ Before alpha.27 the layout was the same but each nested field was a separate hea
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.27
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.27: a struct that contains other structs is one allocation.
 ; The nested objects are embedded in the outer block in definition order,
@@ -38,18 +43,18 @@ struct RECT2 {
 
 ; --- 1. The nested fields sit inside the outer block ---------------------------
 r := RECT2()
-Echo("RECT2 size {}  tl at +{}  br at +{}", r.Size, r.tl.Ptr - r.Ptr, r.br.Ptr - r.Ptr)
+Print("RECT2 size {}  tl at +{}  br at +{}", r.Size, r.tl.Ptr - r.Ptr, r.br.Ptr - r.Ptr)
 
 ; --- 2. Win32 sees a plain RECT ------------------------------------------------
 r.tl.x := 1, r.tl.y := 2, r.br.x := 30, r.br.y := 40
 DllCall("user32\OffsetRect", "Ptr", r.Ptr, "Int", 5, "Int", 7)
-Echo("after OffsetRect(+5,+7): ({},{})-({},{})", r.tl.x, r.tl.y, r.br.x, r.br.y)
-Echo("NumGet(r.Ptr, 8) = {}  (br.x through raw memory)", NumGet(r.Ptr, 8, "Int"))
+Print("after OffsetRect(+5,+7): ({},{})-({},{})", r.tl.x, r.tl.y, r.br.x, r.br.y)
+Print("NumGet(r.Ptr, 8) = {}  (br.x through raw memory)", NumGet(r.Ptr, 8, "Int"))
 
 ; --- 3. An array of nested structs is one contiguous block too ----------------
 rects := RECT2[3]()
 rects[2].tl.x := 100, rects[2].br.x := 200
-Echo("RECT2[3] size {}  stride {}  rects[2].tl.x = {}", rects.Size, rects[2].Ptr - rects[1].Ptr, NumGet(rects.Ptr, 16, "Int"))
+Print("RECT2[3] size {}  stride {}  rects[2].tl.x = {}", rects.Size, rects[2].Ptr - rects[1].Ptr, NumGet(rects.Ptr, 16, "Int"))
 
 ; --- 4. Which means a whole batch can go to C at once ------------------------
 ; Pass the array's base pointer; the callee walks it with ordinary stride math.
@@ -58,7 +63,7 @@ loop 3
 out := ""
 loop 3
     out .= Format("[{}: {}x{}] ", A_Index, rects[A_Index].br.x, rects[A_Index].br.y)
-Echo("SetRect on each element: {}", out)
+Print("SetRect on each element: {}", out)
 ```
 
 Source: [`01_nested_struct_layout.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha27/01_nested_struct_layout.ahk)
@@ -75,7 +80,6 @@ Before alpha.27 the array cases could skip the element destructors, which for a 
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.27
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.27: destructors of nested structs and of structs inside typed arrays
 ; now run reliably. __Delete runs on the outer object first, then on each
@@ -95,41 +99,41 @@ struct Brush {
     __Delete() {
         if this.h {
             DllCall("gdi32\DeleteObject", "Ptr", this.h)
-            Echo("  released brush 0x{:X}", this.h)
+            Print("  released brush 0x{:X}", this.h)
         }
     }
 }
 b := Brush().Create(0x0000FF)
-Echo("brush 0x{:X} created", b.h)
+Print("brush 0x{:X} created", b.h)
 b := ""                                 ; last reference gone: __Delete runs now
 
 ; --- 2. Outer first, then nested -----------------------------------------------
 struct Pen {
     id : Int32
-    __Delete() => Echo("  ~Pen {}", this.id)
+    __Delete() => Print("  ~Pen {}", this.id)
 }
 struct Toolkit {
     pen : Pen
-    __Delete() => Echo("  ~Toolkit (pen {})", this.pen.id)
+    __Delete() => Print("  ~Toolkit (pen {})", this.pen.id)
 }
 t := Toolkit()
 t.pen.id := 7
-Echo("dropping a Toolkit:")
+Print("dropping a Toolkit:")
 t := ""
 
 ; --- 3. Every element of an array is destructed ---------------------------------
-Echo("dropping a Toolkit[3]:")
+Print("dropping a Toolkit[3]:")
 kits := Toolkit[3]()
 loop 3
     kits[A_Index].pen.id := A_Index
 kits := ""
 
 ; --- 4. Brushes in an array are all released ------------------------------------
-Echo("dropping a Brush[2]:")
+Print("dropping a Brush[2]:")
 brushes := Brush[2]()
 brushes[1].Create(0xFF0000), brushes[2].Create(0x00FF00)
 brushes := ""
-Echo("done")
+Print("done")
 ```
 
 Source: [`02_struct_lifecycle.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha27/02_struct_lifecycle.ahk)
@@ -146,7 +150,6 @@ Before alpha.27 `a.Base := b` with typed properties on either side was accepted 
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.27
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.27: the Base of anything with typed properties is fixed. Assigning
 ; .Base to or from a struct instance or prototype throws instead of silently
@@ -164,16 +167,16 @@ struct POINT {
 o := {}
 try o.Base := POINT.Prototype
 catch ValueError as e
-    Echo("{{}}.Base := POINT.Prototype -> {}", e.Message)
+    Print("{{}}.Base := POINT.Prototype -> {}", e.Message)
 
 ; --- 2. A struct instance cannot be re-based either ----------------------------
 p := POINT()
 try p.Base := {}
 catch ValueError as e
-    Echo("POINT().Base := {{}} -> {}", e.Message)
+    Print("POINT().Base := {{}} -> {}", e.Message)
 try POINT.Prototype.Base := Object.Prototype
 catch ValueError as e
-    Echo("POINT.Prototype.Base := ... -> {}", e.Message)
+    Print("POINT.Prototype.Base := ... -> {}", e.Message)
 
 ; --- 3. Inheritance happens at definition time instead ----------------------------
 ; A derived struct appends its fields after the base fields, keeps the base
@@ -183,8 +186,8 @@ struct Labeled extends POINT {
 }
 q := Labeled()
 q.x := 3, q.y := 4, q.tag := 9
-Echo("Labeled size {} (POINT {} + tag {}), Len {} from the base method", q.Size, POINT().Size, q.Size - POINT().Size, q.Len)
-Echo("q is POINT: {}   tag at +{}", q is POINT, q.Size - 4)
+Print("Labeled size {} (POINT {} + tag {}), Len {} from the base method", q.Size, POINT().Size, q.Size - POINT().Size, q.Len)
+Print("q is POINT: {}   tag at +{}", q is POINT, q.Size - 4)
 
 ; --- 4. Behaviour that varies per instance goes in a property, not a Base swap ----
 ; Keep the struct as the data layout and attach the varying part as a value.
@@ -196,7 +199,7 @@ struct Shape {
 }
 box := Shape(), box.kind := 1, box.w := 10, box.h := 4
 oval := Shape(), oval.kind := 2, oval.w := 10, oval.h := 4
-Echo("box area {}  oval area {:.2f}", box.Area, oval.Area)
+Print("box area {}  oval area {:.2f}", box.Area, oval.Area)
 ```
 
 Source: [`03_base_is_fixed.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha27/03_base_is_fixed.ahk)
@@ -205,14 +208,14 @@ Source: [`03_base_is_fixed.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.27`. Every script is plain AutoHotkey: `FileAppend` with `*` as the file name is the native stdout, and the one-line `Echo` helper at the top is the only output routine. The stock GUI executable only shows stdout when it is piped or redirected, so the `| more` is not optional there. The +Console fork prints directly.
+Every script starts with `#Requires AutoHotkey v2.1-alpha.27`. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
 
 ```powershell
-# stock AutoHotkey (GUI exe): pipe or redirect to see stdout
-AutoHotkey64.exe 01_nested_struct_layout.ahk | more
+# +Console fork
+.\bin\AutoHotkey64Console.exe 01_nested_struct_layout.ahk
 
-# +Console fork: stdout is a real console stream
-.\AutoHotkey64Console.exe examples\alpha27\01_nested_struct_layout.ahk
+# stock AutoHotkey v2.1-alpha.27 or later (GUI exe), with the Print line added
+AutoHotkey64.exe 01_nested_struct_layout.ahk | more
 ```
 
 *Disclosure: Claude Fable 5.1 wrote the three scripts, ran them, and drafted this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`); the alpha.26 comparisons come from the alpha.27 commit history, not from running an alpha.26 engine.*

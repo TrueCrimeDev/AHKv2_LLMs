@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.29
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.29: built-ins return unset for "nothing there" in v2.1 mode
 ;
@@ -28,8 +27,8 @@ Chain(obj) {
     } until !IsSet(p)
     return RTrim(names, " >")
 }
-Echo("chain: {}", Chain(Dog.Prototype))
-Echo("Any.Prototype.Base ?? 'unset' = {}", Any.Prototype.Base ?? "unset")
+Print("chain: {}", Chain(Dog.Prototype))
+Print("Any.Prototype.Base ?? 'unset' = {}", Any.Prototype.Base ?? "unset")
 
 ; --- 2. A regex miss leaves the output variable unset ---------------------------------
 ; A tokenizer can test IsSet(m) instead of comparing m[0] against "".
@@ -38,20 +37,20 @@ NextNumber(text, &pos) {
         pos := m.Pos + m.Len
         return m[0]
     }
-    Echo("  no match: IsSet(m) = {}", IsSet(m))
+    Print("  no match: IsSet(m) = {}", IsSet(m))
 }
 pos := 1
-Echo("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
-Echo("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
-Echo("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
-Echo("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
+Print("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
+Print("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
+Print("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
+Print("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
 
 ; --- 3. Removing a hole from an array -------------------------------------------------------
 sparse := [1, , 3]                      ; element 2 is a hole
-Echo("RemoveAt(2) on a hole = {}", sparse.RemoveAt(2) ?? "unset")
-Echo("RemoveAt(1) on a value = {}", sparse.RemoveAt(1) ?? "unset")
+Print("RemoveAt(2) on a hole = {}", sparse.RemoveAt(2) ?? "unset")
+Print("RemoveAt(1) on a value = {}", sparse.RemoveAt(1) ?? "unset")
 holed := [1], holed.Length := 2         ; extend with a hole at the end
-Echo("Pop() of a hole = {}   Pop() of a value = {}", holed.Pop() ?? "unset", holed.Pop() ?? "unset")
+Print("Pop() of a hole = {}   Pop() of a value = {}", holed.Pop() ?? "unset", holed.Pop() ?? "unset")
 
 ; --- 4. Object reflection without sentinels ------------------------------------------------
 class Plain {
@@ -66,15 +65,15 @@ CallIfPresent(obj, name) {
     return IsSet(m) ? m(obj) : "(no " name ")"
 }
 for obj in [Plain(), Loud()]
-    Echo("{}: {}", Type(obj), CallIfPresent(obj, "Describe"))
+    Print("{}: {}", Type(obj), CallIfPresent(obj, "Describe"))
 o := {a: 1}
-Echo("DeleteProp('a') = {}   DeleteProp('a') again = {}", o.DeleteProp("a") ?? "unset", o.DeleteProp("a") ?? "unset")
-Echo("GetOwnPropDesc('b') = {}", o.GetOwnPropDesc("b") ?? "unset")
+Print("DeleteProp('a') = {}   DeleteProp('a') again = {}", o.DeleteProp("a") ?? "unset", o.DeleteProp("a") ?? "unset")
+Print("GetOwnPropDesc('b') = {}", o.GetOwnPropDesc("b") ?? "unset")
 
 ; --- 5. Handle lookups --------------------------------------------------------------------
 ; 0 is never a Gui, control or menu handle. Each lookup says so with unset.
-Echo("GuiFromHwnd(0) = {}   GuiCtrlFromHwnd(0) = {}   MenuFromHandle(0) = {}", GuiFromHwnd(0) ?? "unset", GuiCtrlFromHwnd(0) ?? "unset", MenuFromHandle(0) ?? "unset")
+Print("GuiFromHwnd(0) = {}   GuiCtrlFromHwnd(0) = {}   MenuFromHandle(0) = {}", GuiFromHwnd(0) ?? "unset", GuiCtrlFromHwnd(0) ?? "unset", MenuFromHandle(0) ?? "unset")
 g := Gui()                              ; created, never shown
-Echo("g.MenuBar = {}   g.FocusedCtrl = {}   g['nope'] = {}", g.MenuBar ?? "unset", g.FocusedCtrl ?? "unset", g["nope"] ?? "unset")
+Print("g.MenuBar = {}   g.FocusedCtrl = {}   g['nope'] = {}", g.MenuBar ?? "unset", g.FocusedCtrl ?? "unset", g["nope"] ?? "unset")
 ih := InputHook()
-Echo("InputHook().OnEnd = {}", ih.OnEnd ?? "unset")
+Print("InputHook().OnEnd = {}", ih.OnEnd ?? "unset")

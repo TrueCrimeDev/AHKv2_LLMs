@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.36
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.36: calling a native class that cannot be constructed directly now
 ; throws ValueError "Invalid base." Before, RegExMatchInfo(), File(), Func(),
@@ -14,11 +13,11 @@ Construct(cls, args*) {
         return "cannot construct (" e.Message ")"
 }
 for cls in [RegExMatchInfo, File, Func, BoundFunc, Closure, Enumerator]
-    Echo("{}() -> {}", cls.Prototype.__Class, Construct(cls))
-Echo("")
-Echo("Map()   -> {}", Type(Construct(Map)))
-Echo("Error() -> {}", Type(Construct(Error, "x")))
-Echo("Buffer(8) -> {} bytes", Construct(Buffer, 8).Size)
+    Print("{}() -> {}", cls.Prototype.__Class, Construct(cls))
+Print("")
+Print("Map()   -> {}", Type(Construct(Map)))
+Print("Error() -> {}", Type(Construct(Error, "x")))
+Print("Buffer(8) -> {} bytes", Construct(Buffer, 8).Size)
 
 ; --- 2. Object.Call used as a "raw" constructor behaves the same ---------------------
 ; (Object.Call)(Class) builds an instance on Class.Prototype without running
@@ -26,16 +25,16 @@ Echo("Buffer(8) -> {} bytes", Construct(Buffer, 8).Size)
 oc := Object.Call
 try oc(RegExMatchInfo)
 catch ValueError as e
-    Echo("(Object.Call)(RegExMatchInfo): {}", e.Message)
+    Print("(Object.Call)(RegExMatchInfo): {}", e.Message)
 ; ... and, as a side effect, accepts Struct, which it rejected in alpha.35.
-Echo("(Object.Call)(Struct) -> {}", Type(oc(Struct)))
+Print("(Object.Call)(Struct) -> {}", Type(oc(Struct)))
 
 ; --- 3. Script classes are untouched -----------------------------------------------
 class Inventory extends Map {
     Add(item, qty := 1) => (this[item] := this.Get(item, 0) + qty, this)
 }
 inv := Inventory().Add("bolt", 10).Add("bolt", 5).Add("nut")
-Echo("Inventory: bolt {} nut {}  Type {}", inv["bolt"], inv["nut"], Type(inv))
+Print("Inventory: bolt {} nut {}  Type {}", inv["bolt"], inv["nut"], Type(inv))
 
 ; --- 4. Struct views reject own properties again (fork fix f24c23d1) -------------------
 ; The upstream alpha.36 build let every memory view grow ad-hoc properties:
@@ -51,11 +50,11 @@ for pair in [["Pt.At", Pt.At(buf.Ptr)], ["ObjCreateWithDataPtr", ObjCreateWithDa
     name := pair[1], view := pair[2]
     try {
         view.foo := 1
-        Echo("{}: own property accepted", name)
+        Print("{}: own property accepted", name)
     } catch PropertyError as e
-        Echo("{}: {}", name, e.Message)
+        Print("{}: {}", name, e.Message)
 }
 ; An ordinary object made the same way still can own properties.
 m := ObjCreateWithDataPtr(Map, 0)
 m.note := "fine"
-Echo("Map from ObjCreateWithDataPtr: note = {}", m.note)
+Print("Map from ObjCreateWithDataPtr: note = {}", m.note)

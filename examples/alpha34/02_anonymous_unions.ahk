@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.34
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.34: anonymous unions in structs
 ;
 ; A struct may contain a union block without naming it; its members sit at
@@ -17,12 +16,12 @@ struct Value {
     }
 }
 v := Value()
-Echo("Size {} (4 for kind + 4 shared)", v.Size)
+Print("Size {} (4 for kind + 4 shared)", v.Size)
 
 v.kind := 2, v.f := 1.5
-Echo("f=1.5 reads as i=0x{:X} and bytes {} {} {} {}", v.i, v.bytes[1], v.bytes[2], v.bytes[3], v.bytes[4])
+Print("f=1.5 reads as i=0x{:X} and bytes {} {} {} {}", v.i, v.bytes[1], v.bytes[2], v.bytes[3], v.bytes[4])
 v.kind := 1, v.i := 0x40490FDB
-Echo("i=0x40490FDB reads as f={:.5f} and bytes[4]=0x{:X}", v.f, v.bytes[4])
+Print("i=0x40490FDB reads as f={:.5f} and bytes[4]=0x{:X}", v.f, v.bytes[4])
 
 ; --- 2. Dispatch on the tag ----------------------------------------------------
 Show(val) {
@@ -33,9 +32,9 @@ Show(val) {
     }
 }
 v.kind := 3
-Echo("{}", Show(v))
+Print("{}", Show(v))
 v.kind := 2
-Echo("{}", Show(v))
+Print("{}", Show(v))
 
 ; --- 3. The classic Win32 case: INPUT -----------------------------------------
 ; INPUT has a type field followed by a union of MOUSEINPUT, KEYBDINPUT and
@@ -66,6 +65,6 @@ inp := INPUT()
 inp.type := 1                   ; INPUT_KEYBOARD
 inp.ki.wVk := 0x41              ; 'A'
 inp.ki.dwFlags := 2             ; KEYEVENTF_KEYUP
-Echo("INPUT size {} (C says {} on x64), ki.wVk 0x{:X}, same bytes as mi.dx 0x{:X}",
+Print("INPUT size {} (C says {} on x64), ki.wVk 0x{:X}, same bytes as mi.dx 0x{:X}",
     inp.Size, A_PtrSize = 8 ? 40 : 28, inp.ki.wVk, inp.mi.dx)
 ; Not sent: SendInput would type into whatever window has focus.

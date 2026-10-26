@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.35
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.35: in v2.1 mode a Map rejects Float keys and an Array rejects Float
 ; and empty-string indexes. This file is in v2.1 mode because of its top-level
@@ -11,33 +10,33 @@ Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 bucket := Map()
 for n in [10, 20, 30, 45]
     bucket[n // 10] := n                 ; keys 1, 2, 3, 4
-Echo("integer keys: {}", bucket.Count)
+Print("integer keys: {}", bucket.Count)
 
 try bucket[45 / 10] := "oops"            ; 4.5 is a Float
 catch TypeError as e
-    Echo("bucket[4.5]: {}", e.Message)
+    Print("bucket[4.5]: {}", e.Message)
 ; Before alpha.35 this was accepted: bucket had five entries, one under 4 and one under 4.5.
 
 bucket["4.5"] := "a String key is still fine"
-Echo("bucket.Count = {}: four Integer keys and one String key; the Float write stored nothing", bucket.Count)
+Print("bucket.Count = {}: four Integer keys and one String key; the Float write stored nothing", bucket.Count)
 
 ; --- 2. Say what you mean ------------------------------------------------------
 ; The error points at the real bug: the key needs an explicit conversion.
 key := Integer(45 / 10)
-Echo("Integer(4.5) = {} -> bucket[{}] = {}", key, key, bucket[key])
+Print("Integer(4.5) = {} -> bucket[{}] = {}", key, key, bucket[key])
 
 ; --- 3. Array indexes get the same treatment -------------------------------------
 arr := ["ten", "twenty", "thirty"]
 for idx in [1.0, ""] {
     try
-        Echo("arr[{}] = {}", idx, arr[idx])
+        Print("arr[{}] = {}", idx, arr[idx])
     catch TypeError as e
-        Echo("arr[{}]: {}: {}", idx = "" ? '""' : idx, Type(e), e.Message)
+        Print("arr[{}]: {}: {}", idx = "" ? '""' : idx, Type(e), e.Message)
 }
 ; Before alpha.35, arr[1.0] returned arr[1] and arr[""] threw IndexError.
 
 ; Numeric strings still convert, so an index read from text keeps working.
-Echo("arr[`"2`"] = {}   arr[`" 3`"] = {}", arr["2"], arr[" 3"])
+Print("arr[`"2`"] = {}   arr[`" 3`"] = {}", arr["2"], arr[" 3"])
 
 ; --- 4. A lookup that validates its input instead of guessing -------------------
 ; Map keys are never converted: 2 and "2" are different keys, and 2.0 is now an
@@ -49,4 +48,4 @@ Lookup(table, key) {
         return "rejected (" e.Message ")"
 }
 for k in [2, 2.0, "2", "2.0"]
-    Echo("Lookup({}) -> {}", Type(k) = "String" ? '"' k '"' : k, Lookup(bucket, k))
+    Print("Lookup({}) -> {}", Type(k) = "String" ? '"' k '"' : k, Lookup(bucket, k))

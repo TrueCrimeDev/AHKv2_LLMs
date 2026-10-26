@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.31
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.31: #Import inside #Module AHK is resolved.
 ;
@@ -34,7 +33,7 @@ Lines(pairs*) {
 #Module __Main
 #Import Report {*}
 
-Echo(Title("alpha.31 prelude"))
-Echo(Lines("Reverse", Reverse("stressed"), "Banner", "defined in #Module AHK", "Row", "same"))
-Echo("Row is universal: {}", IsSet(Row) ? "yes" : "no")
-Echo("Pad is universal too: {}", IsSet(Pad) ? "yes" : "no")
+Print(Title("alpha.31 prelude"))
+Print(Lines("Reverse", Reverse("stressed"), "Banner", "defined in #Module AHK", "Row", "same"))
+Print("Row is universal: {}", IsSet(Row) ? "yes" : "no")
+Print("Pad is universal too: {}", IsSet(Pad) ? "yes" : "no")

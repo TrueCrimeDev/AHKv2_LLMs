@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.30
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.30: struct fields name a class, never a string or a bare size
 ;
@@ -24,8 +23,8 @@ struct Record {
 }
 r := Record()
 r.id := 7, r.pos.x := 3, r.pos.y := 4, r.ratio := 0.75
-Echo("Record.Size = {}   Point.Size = {}", r.Size, r.pos.Size)
-Echo("id {}  pos ({}, {})  ratio {}", r.id, r.pos.x, r.pos.y, r.ratio)
+Print("Record.Size = {}   Point.Size = {}", r.Size, r.pos.Size)
+Print("id {}  pos ({}, {})  ratio {}", r.id, r.pos.x, r.pos.y, r.ratio)
 
 ; --- 2. The raw region is an array of bytes -------------------------------------------------
 ; Int8[4] is indexable and has a Length, which a bare `tag: 4` never had.
@@ -34,7 +33,7 @@ for i, ch in StrSplit("AHK!")
 tagText := ""
 loop r.tag.Length
     tagText .= Chr(r.tag[A_Index])
-Echo("tag = '{}' ({} bytes)", tagText, r.tag.Length)
+Print("tag = '{}' ({} bytes)", tagText, r.tag.Length)
 
 ; --- 3. Variable-length data stays in a Buffer ----------------------------------------------
 ; When the size is not a constant, keep a Buffer beside the struct and pass
@@ -46,7 +45,7 @@ class Packet {
     }
 }
 p := Packet(128)
-Echo("Packet: header {} bytes at 0x{:X}, payload {} bytes at 0x{:X}", p.header.Size, p.header.Ptr, p.payload.Size, p.payload.Ptr)
+Print("Packet: header {} bytes at 0x{:X}, payload {} bytes at 0x{:X}", p.header.Size, p.header.Ptr, p.payload.Size, p.payload.Ptr)
 
 ; --- 4. Unsigned 64-bit values ---------------------------------------------------------------
 struct FileSize {
@@ -56,4 +55,4 @@ fs := FileSize()
 fs.bytes := -1                                    ; 0xFFFFFFFFFFFFFFFF as unsigned
 hi := (fs.bytes >> 32) & 0xFFFFFFFF
 lo := fs.bytes & 0xFFFFFFFF
-Echo("Int64 {} read as two UInt32 halves: 0x{:08X} 0x{:08X}", fs.bytes, hi, lo)
+Print("Int64 {} read as two UInt32 halves: 0x{:08X} 0x{:08X}", fs.bytes, hi, lo)

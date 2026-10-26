@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.29
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.29: functions that return nothing now say so
 ;
@@ -23,17 +22,17 @@ FindIndex(items, pred) {
     ; falls off the end: unset, because the function has a `return expr`
 }
 nums := [4, 9, 16, 23]
-Echo("first > 10 at index {}", FindIndex(nums, x => x > 10) ?? "none")
-Echo("first > 50 at index {}", FindIndex(nums, x => x > 50) ?? "none")
+Print("first > 10 at index {}", FindIndex(nums, x => x > 10) ?? "none")
+Print("first > 50 at index {}", FindIndex(nums, x => x > 50) ?? "none")
 
 ; --- 2. Consuming an unset result -------------------------------------------------
 ; A plain assignment of nothing is an error, which is the point: the mistake
 ; surfaces where it happens instead of as an empty string three calls later.
 try {
     idx := FindIndex(nums, x => x > 50)
-    Echo("idx = {}", idx)
+    Print("idx = {}", idx)
 } catch UnsetError as e
-    Echo("idx := FindIndex(...): {}", e.Message)
+    Print("idx := FindIndex(...): {}", e.Message)
 
 ; --- 3. Tail calls pass a blank return through -------------------------------------
 class Counter {
@@ -48,9 +47,9 @@ Forward(c) => c.Reset()             ; alpha.29: also blank-unset, not ""
 Chain(c) => Forward(c)              ; and so on through any depth
 c := Counter()
 c.Bump(), c.Bump()
-Echo("Forward(c) ?? 'nothing' = {}   n = {}", Forward(c) ?? "nothing", c.n)
+Print("Forward(c) ?? 'nothing' = {}   n = {}", Forward(c) ?? "nothing", c.n)
 c.Bump()
-Echo("Chain(c) ?? 'nothing' = {}   n = {}", Chain(c) ?? "nothing", c.n)
+Print("Chain(c) ?? 'nothing' = {}   n = {}", Chain(c) ?? "nothing", c.n)
 
 ; --- 4. The limit: an explicit unset is not forwarded ----------------------------------
 ; Propagation covers blank-unset only. The unset that EvenOrUnset returns by
@@ -62,11 +61,11 @@ EvenOrUnset(n) {
 }
 Wrap(n) => EvenOrUnset(n)
 try
-    Echo("Wrap(5) = {}", Wrap(5) ?? "odd")
+    Print("Wrap(5) = {}", Wrap(5) ?? "odd")
 catch UnsetError as e
-    Echo("Wrap(5): {}", e.Message)
+    Print("Wrap(5): {}", e.Message)
 SafeWrap(n) => EvenOrUnset(n) ?? "odd"
-Echo("SafeWrap(4) = {}   SafeWrap(5) = {}", SafeWrap(4), SafeWrap(5))
+Print("SafeWrap(4) = {}   SafeWrap(5) = {}", SafeWrap(4), SafeWrap(5))
 
 ; --- 5. Functions with no `return expr` are unchanged ---------------------------------------
 ; Only a bare return (or none): blank-unset as before. IsSet on a call is
@@ -74,4 +73,4 @@ Echo("SafeWrap(4) = {}   SafeWrap(5) = {}", SafeWrap(4), SafeWrap(5))
 Log(msg) {
     return
 }
-Echo("Log('x') ?? 'blank' = {}", Log("x") ?? "blank")
+Print("Log('x') ?? 'blank' = {}", Log("x") ?? "blank")

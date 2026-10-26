@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.37
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; --- 1. Optional hooks: an unset getter is an empty slot ----------------------
 class Pipeline {
@@ -24,18 +23,18 @@ class Pipeline {
     }
 }
 class LoggingPipeline extends Pipeline {
-    onItem => (self, item) => Echo("  item {}", item)
-    onDone => (self, n) => Echo("  done, {} items", n)
+    onItem => (self, item) => Print("  item {}", item)
+    onDone => (self, n) => Print("  done, {} items", n)
 }
-Echo("Pipeline with no hooks:")
+Print("Pipeline with no hooks:")
 Pipeline().Run([1, 2])
-Echo("LoggingPipeline:")
+Print("LoggingPipeline:")
 LoggingPipeline().Run(["a", "b", "c"])
 
 ; Calling an empty slot directly is an ordinary error now.
 try Pipeline().onStart()
 catch UnsetError as e
-    Echo("Pipeline().onStart(): {}: {}", Type(e), e.Message)
+    Print("Pipeline().onStart(): {}: {}", Type(e), e.Message)
 
 ; --- 2. A method is not an indexable property --------------------------------
 class Grid {
@@ -43,8 +42,8 @@ class Grid {
 }
 try Grid().Cell[2]
 catch PropertyError as e
-    Echo("Grid().Cell[2]: {}", e.Message)
-Echo("Grid().Cell(2) = {}", Grid().Cell(2))
+    Print("Grid().Cell[2]: {}", e.Message)
+Print("Grid().Cell(2) = {}", Grid().Cell(2))
 
 ; --- 3. Validate NumGet/NumPut type names from data --------------------------
 layout := Map("version", "UShort", "flags", "UInt", "ratio", "Quad")   ; "Quad" is not a type
@@ -53,16 +52,16 @@ offset := 0
 for name, kind in layout {
     try {
         NumPut(kind, 1, buf, offset)
-        Echo("{} as {}: ok at offset {}", name, kind, offset)
+        Print("{} as {}: ok at offset {}", name, kind, offset)
         offset += kind ~= "i)Short" ? 2 : 4
     } catch ValueError as e
-        Echo("{} as {}: {}", name, kind, e.Message)
+        Print("{} as {}: {}", name, kind, e.Message)
 }
 
 ; --- 4. DllCall rejects an object where a pointer-sized integer is expected --
 try DllCall("msvcrt\abs", IntPtr, {}, "Int")
 catch TypeError as e
-    Echo("DllCall(IntPtr, {{}}): {}", e.Message)
+    Print("DllCall(IntPtr, {{}}): {}", e.Message)
 
 ; --- 5. Fork fix: a throwing getter keeps its exception when called ---------------
 class Guarded {
@@ -74,6 +73,6 @@ class Guarded {
 }
 try Guarded().handler()
 catch Error as e
-    Echo("Guarded().handler(): {}: {}", Type(e), e.Message)
+    Print("Guarded().handler(): {}: {}", Type(e), e.Message)
 ; Upstream alpha.37 reported UnsetError "No value was returned." here, hiding
 ; the real message; the fork (a911f73d) restores the ValueError.

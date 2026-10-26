@@ -2,9 +2,15 @@
 
 Alpha.31 shipped on August 28, 2026 as upstream tag `v2.1-alpha.31`. It is a module-system release, and its headline change runs the other way from everything alpha.11 through alpha.30 built: the `export` keyword is gone, every name defined in a `#Module` section is exported, and the only names a module keeps to itself are the ones it imported. Two conventions fill the gap the keyword left: a leading underscore keeps a name out of `{*}` imports, and `#Import Export` forwards an import to the importer's own callers.
 
-Around that sit a fix that makes `#Import` work inside `#Module AHK`, a cluster of unset-value fixes (a global imported through two modules, `RegExMatch` on no match, `Props(v)`), two Struct and reference fixes, and the v2.0.27 fixes that arrived through the v2.0 merge. This post is five short scripts, one per theme, each built around a pattern the change makes pleasant rather than a bare demonstration. Every script runs with exit 0 on the `2.1-alpha.37+Console` build and writes to stdout through one line of plain AutoHotkey, `FileAppend(..., "*")`; the comments record what alpha.30 did instead, and each claim about alpha.30 was re-run on an alpha.30 engine.
+Around that sit a fix that makes `#Import` work inside `#Module AHK`, a cluster of unset-value fixes (a global imported through two modules, `RegExMatch` on no match, `Props(v)`), two Struct and reference fixes, and the v2.0.27 fixes that arrived through the v2.0 merge. This post is five short scripts, one per theme, each built around a pattern the change makes pleasant rather than a bare demonstration. Every script runs with exit 0 on the `2.1-alpha.37+Console` build; the comments record what alpha.30 did instead, and each claim about alpha.30 was re-run on an alpha.30 engine.
 
 If any of your modules still carry `export` in front of a function, class or `global`, they will not load on alpha.31. The migration is mechanical: delete the keyword. The breaking-change section at the end gives the three failure modes so you can recognise them.
+
+**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+
+```ahk2
+Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
+```
 
 ---
 
@@ -18,7 +24,6 @@ Before alpha.31, nothing left a module without `export`: on an alpha.30 engine t
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.31
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.31: every name defined in a #Module is exported; `export` is gone.
 ;
@@ -57,18 +62,18 @@ Export(obj) => "exported a " Type(obj)
 #Module __Main
 #Import Geometry {*}
 
-Echo("CircleArea(2) = {}", Round(CircleArea(2), 3))
-Echo("Point(3, 4).Dist(Point(0, 0)) = {}", Point(3, 4).Dist(Point(0, 0)))
-Echo("Scale = {}", Scale)
-Echo("ClampedArea(50) = {} (radius clamped to 10)", Round(ClampedArea(50), 3))
+Print("CircleArea(2) = {}", Round(CircleArea(2), 3))
+Print("Point(3, 4).Dist(Point(0, 0)) = {}", Point(3, 4).Dist(Point(0, 0)))
+Print("Scale = {}", Scale)
+Print("ClampedArea(50) = {} (radius clamped to 10)", Round(ClampedArea(50), 3))
 
 ; The underscore helper did not come through the wildcard...
-Echo("_Clamp after {{}*{}} import: {}", IsSet(_Clamp) ? "imported" : "skipped")
+Print("_Clamp after {{}*{}} import: {}", IsSet(_Clamp) ? "imported" : "skipped")
 ; ...but the module object still reaches it, as it reaches every module global.
-Echo("Geometry._Clamp(15, 0, 10) = {}", Geometry._Clamp(15, 0, 10))
-Echo("Geometry.Pi = {}", Geometry.Pi)
+Print("Geometry._Clamp(15, 0, 10) = {}", Geometry._Clamp(15, 0, 10))
+Print("Geometry.Pi = {}", Geometry.Pi)
 
-Echo("Export(Point(1, 1)) = {}", Export(Point(1, 1)))
+Print("Export(Point(1, 1)) = {}", Export(Point(1, 1)))
 ```
 
 Source: [`01_implied_export.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/01_implied_export.ahk)
@@ -85,7 +90,6 @@ Before alpha.31 the same layering needed `export` on every forwarded name, and a
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.31
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.31: imported names stay private to the importer unless re-exported.
 ;
@@ -119,17 +123,17 @@ Whisper(name) => StrLower(Greet(name)) "..."
 #Import Facade {*}
 #Import OpenFacade {Whisper, Greet as CoreGreet, Version as CoreVersion}
 
-Echo("Shout(`"bob`") = {}", Shout("bob"))
-Echo("Describe() = {}", Describe())
+Print("Shout(`"bob`") = {}", Shout("bob"))
+Print("Describe() = {}", Describe())
 
 ; Facade used Greet and Version, but did not pass them on.
-Echo("Greet via Facade {{}*{}}: {}", IsSet(Greet) ? "visible" : "not visible")
-Echo("Version via Facade {{}*{}}: {}", IsSet(Version) ? "visible" : "not visible")
+Print("Greet via Facade {{}*{}}: {}", IsSet(Greet) ? "visible" : "not visible")
+Print("Version via Facade {{}*{}}: {}", IsSet(Version) ? "visible" : "not visible")
 
 ; OpenFacade re-exported them, so they can be imported from it, renamed here.
-Echo("Whisper(`"BOB`") = {}", Whisper("BOB"))
-Echo("CoreGreet(`"ann`") = {}", CoreGreet("ann"))
-Echo("CoreVersion = {}", CoreVersion)
+Print("Whisper(`"BOB`") = {}", Whisper("BOB"))
+Print("CoreGreet(`"ann`") = {}", CoreGreet("ann"))
+Print("CoreVersion = {}", CoreVersion)
 ```
 
 Source: [`02_facade_reexport.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/02_facade_reexport.ahk)
@@ -168,7 +172,6 @@ Pad(s, width, ch := " ") => s Repeat(ch, Max(0, width - StrLen(s)))
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.31
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.31: #Import inside #Module AHK is resolved.
 ;
@@ -203,10 +206,10 @@ Lines(pairs*) {
 #Module __Main
 #Import Report {*}
 
-Echo(Title("alpha.31 prelude"))
-Echo(Lines("Reverse", Reverse("stressed"), "Banner", "defined in #Module AHK", "Row", "same"))
-Echo("Row is universal: {}", IsSet(Row) ? "yes" : "no")
-Echo("Pad is universal too: {}", IsSet(Pad) ? "yes" : "no")
+Print(Title("alpha.31 prelude"))
+Print(Lines("Reverse", Reverse("stressed"), "Banner", "defined in #Module AHK", "Row", "same"))
+Print("Row is universal: {}", IsSet(Row) ? "yes" : "no")
+Print("Pad is universal too: {}", IsSet(Pad) ? "yes" : "no")
 ```
 
 Source: [`03_builtin_prelude.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/03_builtin_prelude.ahk), [`StrKit.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/StrKit.ahk)
@@ -223,7 +226,6 @@ Before alpha.31, the two-hop `??` produced an empty string and `Props` enumerate
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.31
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.31: three fixes that make "no value" mean the same thing everywhere.
 ;
@@ -251,14 +253,14 @@ Summary() => "theme=" Theme ", proxy=" (Proxy ?? "none")
 #Module __Main
 #Import Settings {Summary, Proxy, Theme} ; second hop
 
-Echo("IsSet(Proxy) = {}", IsSet(Proxy))
-Echo("Proxy ?? `"<unset>`" = {}", Proxy ?? "<unset>")      ; alpha.30: "" (empty string)
-Echo("Summary() = {}", Summary())
+Print("IsSet(Proxy) = {}", IsSet(Proxy))
+Print("Proxy ?? `"<unset>`" = {}", Proxy ?? "<unset>")      ; alpha.30: "" (empty string)
+Print("Summary() = {}", Summary())
 
 ; --- 2. RegExMatch: unset on no match (v2.1 mode) -----------------------------
 Extract(text, pattern) => RegExMatch(text, pattern, &m) ? m[0] : (IsSet(m) ? "blank" : "unset")
-Echo("Extract(`"hello`", `"l+`") = {}", Extract("hello", "l+"))
-Echo("Extract(`"hello`", `"x`") = {}", Extract("hello", "x"))
+Print("Extract(`"hello`", `"l+`") = {}", Extract("hello", "l+"))
+Print("Extract(`"hello`", `"x`") = {}", Extract("hello", "x"))
 
 ; --- 3. Props(v) keeps the value ----------------------------------------------
 ; Primitive prototypes do not inherit DefineProp; borrow Object's.
@@ -267,7 +269,7 @@ v := "hello"
 e := Props(v)                        ; the enumerator now holds a copy of "hello"
 v := "hi"
 for name, val in e
-    Echo("Props enumerated {}={}", name, val)   ; alpha.30: Len=2
+    Print("Props enumerated {}={}", name, val)   ; alpha.30: Len=2
 ```
 
 Source: [`04_unset_semantics.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/04_unset_semantics.ahk)
@@ -284,7 +286,6 @@ Before alpha.31, releasing the view exited 11 with "Invalid memory read/write", 
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.31
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.31: three fixes outside the module system.
 ;
@@ -308,9 +309,9 @@ buf := Buffer(64, 0)
 view := Outer.At(buf.Ptr)             ; boxed pointer into buf
 view.items[2].a := 5
 view.b := 9
-Echo("view.items[2].a = {}, view.b = {}, Outer size = {}", view.items[2].a, view.b, Outer().Size)
+Print("view.items[2].a = {}, view.b = {}, Outer size = {}", view.items[2].a, view.b, Outer().Size)
 view := ""                            ; alpha.30 died here
-Echo("view released, buffer still readable: items[2].a = {}", NumGet(buf, 4, "Int"))
+Print("view released, buffer still readable: items[2].a = {}", NumGet(buf, 4, "Int"))
 
 ; --- 2. Split getter and setter declarations ----------------------------------
 ; Useful when a mixin or a later section of a class adds the setter.
@@ -324,7 +325,7 @@ class Cfg {
 }
 c := Cfg()
 c.Level := 7
-Echo("c.Level = {}, c._log = {}", c.Level, c._log)
+Print("c.Level = {}, c._log = {}", c.Level, c._log)
 
 ; --- 3. Simple assignment from a virtual reference ----------------------------
 class Cell {
@@ -339,9 +340,9 @@ CopyOut(&src) {
     value := src + 0                  ; any expression form reads __Value
     return Type(plain) " / " value
 }
-Echo("CopyOut(Cell(42)) = {}", CopyOut(Cell(42)))
+Print("CopyOut(Cell(42)) = {}", CopyOut(Cell(42)))
 x := 7
-Echo("CopyOut(&x) = {}", CopyOut(&x))
+Print("CopyOut(&x) = {}", CopyOut(&x))
 ```
 
 Source: [`05_struct_and_property_fixes.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/05_struct_and_property_fixes.ahk)
@@ -371,16 +372,14 @@ Delete the keyword and nothing else changes. If a module relied on *not* exporti
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.31`, so an older engine stops at line 1 with a clear message. Script 3 needs `StrKit.ahk` in the same folder; the engine changes to the script's directory before the auto-execute section, so the relative import works from any current directory.
+Every script starts with `#Requires AutoHotkey v2.1-alpha.31`. Script 3 needs `StrKit.ahk` in the same folder; the engine changes to the script's directory before the auto-execute section, so the relative import works from any current directory. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
 
 ```powershell
-# stock AutoHotkey v2.1-alpha.31 or later (GUI exe): pipe or redirect to see stdout
+# +Console fork
+.\bin\AutoHotkey64Console.exe 01_implied_export.ahk
+
+# stock AutoHotkey v2.1-alpha.31 or later (GUI exe), with the Print line added
 AutoHotkey64.exe 01_implied_export.ahk | more
-
-# +Console fork: stdout is a real console stream
-AutoHotkey64Console.exe 01_implied_export.ahk
 ```
-
-Nothing in the scripts is fork-specific. `FileAppend` with `*` as the file name is AutoHotkey's native stdout; the stock GUI executable only shows it when its output is piped or redirected, so the `| more` is not optional there.
 
 *Disclosure: Claude Fable 5.1 wrote the five scripts and this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`), and each "before" claim was re-run on a `2.1-alpha.30+Console` engine with the `#Requires` line lowered; the release-note facts come from the fork's `docs/alpha/v2.1-alpha.31.md`.*

@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.36
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.36 fixes two load-time behaviours. Both can only be seen by loading a
 ; script, so this file writes small scripts to a temp folder and runs each in
@@ -27,7 +26,7 @@ RunChild(name, source) {
 
 ; --- 1. A missing folder no longer swallows the rest of AhkLibPath -----------------
 EnvSet("AhkLibPath", root "\does-not-exist;" root "\lib")
-Echo("missing;lib -> {}", RunChild("libpath", "#Requires AutoHotkey v2.1-alpha.36`n#Include <Greet>`nFileAppend(Greet() `"``n`", `"*`")`n"))
+Print("missing;lib -> {}", RunChild("libpath", "#Requires AutoHotkey v2.1-alpha.36`n#Include <Greet>`nFileAppend(Greet() `"``n`", `"*`")`n"))
 EnvSet("AhkLibPath", "")
 
 ; --- 2. #Import inside a function, with and without a clash -------------------------
@@ -40,7 +39,7 @@ F() {
 }
 FileAppend("F() = " F() "``n", "*")
 )"
-Echo("no conflict        -> {}", RunChild("import_ok", ok module))
+Print("no conflict        -> {}", RunChild("import_ok", ok module))
 
 clash := "
 (
@@ -51,7 +50,7 @@ F() {
 }
 FileAppend("F() = " F() "``n", "*")
 )"
-Echo("local of same name -> {}", RunChild("import_local", clash module))
+Print("local of same name -> {}", RunChild("import_local", clash module))
 
 param := "
 (
@@ -61,7 +60,7 @@ F(Timeout := 5) {
 }
 FileAppend("F() = " F() "``n", "*")
 )"
-Echo("parameter clash    -> {}", RunChild("import_param", param module))
+Print("parameter clash    -> {}", RunChild("import_param", param module))
 
 alias := "
 (
@@ -72,6 +71,6 @@ F() {
 }
 FileAppend("F() = " F() "``n", "*")
 )"
-Echo("alias clash        -> {}", RunChild("import_alias", alias module))
+Print("alias clash        -> {}", RunChild("import_alias", alias module))
 
 DirDelete(root, true)

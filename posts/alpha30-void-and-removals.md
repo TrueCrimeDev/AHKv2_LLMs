@@ -2,7 +2,13 @@
 
 Alpha.30 shipped on May 22, 2026 (upstream tag `v2.1-alpha.30`), twenty upstream commits and the largest release in the series so far. One addition: `"Void"` as a return type for `DllCall`, `ComCall` and `CallbackCreate`. Three removals that finish the typed-property clean-up: `a?.()` and `a?.[]` are gone in favour of `(a?)()` and `(a?)[]`, the string type names `i32`, `u32` and friends are gone in favour of the classes, and a bare size in a struct field (`buf: 32`) is gone. Around them, a sweep of fixes in `String()`, `StrGet`, references and class objects.
 
-If you have alpha.29 code, the removals are load errors, so migration is not optional. The four scripts below show the replacement for each one as something you would actually write, plus the new `Void` and the fixes. They run on the `2.1-alpha.37+Console` build, use alpha.30 syntax only, and write to stdout with one line of plain AutoHotkey, `FileAppend(..., "*")`.
+If you have alpha.29 code, the removals are load errors, so migration is not optional. The four scripts below show the replacement for each one as something you would actually write, plus the new `Void` and the fixes. They run on the `2.1-alpha.37+Console` build and use alpha.30 syntax only.
+
+**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+
+```ahk2
+Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
+```
 
 ---
 
@@ -16,7 +22,6 @@ Before alpha.30, `"Void"` was not a type and the call returned a meaningless int
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.30
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.30: "Void" as a return type for DllCall, ComCall and CallbackCreate
 ;
@@ -44,22 +49,22 @@ struct SYSTEMTIME {
 ; --- 1. A void API whose result is the struct it filled ------------------------------
 now := SYSTEMTIME()
 DllCall("kernel32\GetLocalTime", "Ptr", now, "Void")
-Echo("GetLocalTime: {:04}-{:02}-{:02} {:02}:{:02}", now.wYear, now.wMonth, now.wDay, now.wHour, now.wMinute)
+Print("GetLocalTime: {:04}-{:02}-{:02} {:02}:{:02}", now.wYear, now.wMonth, now.wDay, now.wHour, now.wMinute)
 
 ; --- 2. A Void call has no value ----------------------------------------------------------------
 ; ?? sees unset; a plain assignment is an UnsetError. Before alpha.30 this
 ; slot would have held whatever happened to be in the return register.
-Echo("DllCall(..., 'Void') ?? 'no value' = {}", DllCall("kernel32\GetLocalTime", "Ptr", now, "Void") ?? "no value")
+Print("DllCall(..., 'Void') ?? 'no value' = {}", DllCall("kernel32\GetLocalTime", "Ptr", now, "Void") ?? "no value")
 try
     stamp := DllCall("kernel32\GetLocalTime", "Ptr", now, "Void")
 catch UnsetError as e
-    Echo("stamp := DllCall(..., 'Void'): {}", e.Message)
+    Print("stamp := DllCall(..., 'Void'): {}", e.Message)
 
 ; --- 3. Void is a return type only ------------------------------------------------------------
 try
     DllCall("kernel32\GetLocalTime", "Void", 0)
 catch ValueError as e
-    Echo("DllCall(..., 'Void', 0): {}", e.Message)
+    Print("DllCall(..., 'Void', 0): {}", e.Message)
 
 ; --- 4. A callback that returns nothing --------------------------------------------------------
 ; The type array is [param types..., return type]. With "Void" the handler
@@ -73,13 +78,13 @@ cb := CallbackCreate(OnValue, , [Int32, "Void"])
 loop 3
     DllCall(cb, "Int", A_Index * 7, "Void")
 CallbackFree(cb)
-Echo("callback saw: {}", seen[1] ", " seen[2] ", " seen[3])
+Print("callback saw: {}", seen[1] ", " seen[2] ", " seen[3])
 
 ; A Void parameter slot is rejected the same way as in DllCall.
 try
     CallbackCreate(OnValue, , ["Void", Int32])
 catch ValueError as e
-    Echo("CallbackCreate(..., ['Void', Int32]): {}", e.Message)
+    Print("CallbackCreate(..., ['Void', Int32]): {}", e.Message)
 ```
 
 Source: [`01_void_return.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha30/01_void_return.ahk)
@@ -96,7 +101,6 @@ Before alpha.30, `cb?.(item)` and `list?.[1]` were the spellings; they no longer
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.30
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.30: (a?)() and (a?)[] replace a?.() and a?.[]
 ;
@@ -117,12 +121,12 @@ Run(items, onItem?, onDone?) {
         (onItem?)(item)
     return (onDone?)(items.Length) ?? "(no onDone)"
 }
-Echo("silent run: {}", Run([1, 2]))
-Echo("logged run: {}", Run(["a", "b", "c"], x => Echo("  item {}", x), n => n " items"))
+Print("silent run: {}", Run([1, 2]))
+Print("logged run: {}", Run(["a", "b", "c"], x => Print("  item {}", x), n => n " items"))
 
 ; --- 2. Optional collections -------------------------------------------------------------
 First(list?) => (list?)[1] ?? "(empty)"
-Echo("First() = {}   First([9, 8]) = {}", First(), First([9, 8]))
+Print("First() = {}   First([9, 8]) = {}", First(), First([9, 8]))
 
 ; --- 3. Dynamic property on a maybe receiver -------------------------------------------------
 ; cfg?.%key% was a syntax error before alpha.30. It reads like cfg.%key% and
@@ -131,8 +135,8 @@ Echo("First() = {}   First([9, 8]) = {}", First(), First([9, 8]))
 ; it is guarded with HasOwnProp).
 Setting(key, cfg?) => (cfg?.%key%) ?? "default"
 theme := {theme: "dark"}
-Echo("Setting('theme') = {}   Setting('theme', theme) = {}", Setting("theme"), Setting("theme", theme))
-Echo("HasOwnProp guard: {}", theme.HasOwnProp("lang") ? theme.lang : "default")
+Print("Setting('theme') = {}   Setting('theme', theme) = {}", Setting("theme"), Setting("theme", theme))
+Print("HasOwnProp guard: {}", theme.HasOwnProp("lang") ? theme.lang : "default")
 
 ; --- 4. Precedence is spelled out, not guessed --------------------------------------------------
 ; `!a ?? b` and `b + a ?? c` no longer load. Write the grouping you mean. The
@@ -140,7 +144,7 @@ Echo("HasOwnProp guard: {}", theme.HasOwnProp("lang") ? theme.lang : "default")
 ; of ?? must be something that can be unset, and !a never is.
 a := unset
 b := 42
-Echo("!(a ?? b) = {}   b + (a ?? 100) = {}", !(a ?? b), b + (a ?? 100))
+Print("!(a ?? b) = {}   b + (a ?? 100) = {}", !(a ?? b), b + (a ?? 100))
 ```
 
 Source: [`02_maybe_call_index.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha30/02_maybe_call_index.ahk)
@@ -157,7 +161,6 @@ Before alpha.30, `x: i32` and `tag: 4` loaded; on alpha.30 both are load errors.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.30
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.30: struct fields name a class, never a string or a bare size
 ;
@@ -182,8 +185,8 @@ struct Record {
 }
 r := Record()
 r.id := 7, r.pos.x := 3, r.pos.y := 4, r.ratio := 0.75
-Echo("Record.Size = {}   Point.Size = {}", r.Size, r.pos.Size)
-Echo("id {}  pos ({}, {})  ratio {}", r.id, r.pos.x, r.pos.y, r.ratio)
+Print("Record.Size = {}   Point.Size = {}", r.Size, r.pos.Size)
+Print("id {}  pos ({}, {})  ratio {}", r.id, r.pos.x, r.pos.y, r.ratio)
 
 ; --- 2. The raw region is an array of bytes -------------------------------------------------
 ; Int8[4] is indexable and has a Length, which a bare `tag: 4` never had.
@@ -192,7 +195,7 @@ for i, ch in StrSplit("AHK!")
 tagText := ""
 loop r.tag.Length
     tagText .= Chr(r.tag[A_Index])
-Echo("tag = '{}' ({} bytes)", tagText, r.tag.Length)
+Print("tag = '{}' ({} bytes)", tagText, r.tag.Length)
 
 ; --- 3. Variable-length data stays in a Buffer ----------------------------------------------
 ; When the size is not a constant, keep a Buffer beside the struct and pass
@@ -204,7 +207,7 @@ class Packet {
     }
 }
 p := Packet(128)
-Echo("Packet: header {} bytes at 0x{:X}, payload {} bytes at 0x{:X}", p.header.Size, p.header.Ptr, p.payload.Size, p.payload.Ptr)
+Print("Packet: header {} bytes at 0x{:X}, payload {} bytes at 0x{:X}", p.header.Size, p.header.Ptr, p.payload.Size, p.payload.Ptr)
 
 ; --- 4. Unsigned 64-bit values ---------------------------------------------------------------
 struct FileSize {
@@ -214,7 +217,7 @@ fs := FileSize()
 fs.bytes := -1                                    ; 0xFFFFFFFFFFFFFFFF as unsigned
 hi := (fs.bytes >> 32) & 0xFFFFFFFF
 lo := fs.bytes & 0xFFFFFFFF
-Echo("Int64 {} read as two UInt32 halves: 0x{:08X} 0x{:08X}", fs.bytes, hi, lo)
+Print("Int64 {} read as two UInt32 halves: 0x{:08X} 0x{:08X}", fs.bytes, hi, lo)
 ```
 
 Source: [`03_typed_structs.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha30/03_typed_structs.ahk)
@@ -231,7 +234,6 @@ Before alpha.30, `String(Silent())` crashed, `Type(StrGet(buf, 0))` was `Integer
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.30
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.30: four small fixes that each remove a special case
 ;
@@ -249,11 +251,11 @@ class Named {
     ToString() => "Named#1"
 }
 Describe(v) => String(v) ?? "(no text)"
-Echo("Describe(Named()) = {}   Describe(Silent()) = {}", Describe(Named()), Describe(Silent()))
+Print("Describe(Named()) = {}   Describe(Silent()) = {}", Describe(Named()), Describe(Silent()))
 try
     s := String(Silent())
 catch UnsetError as e
-    Echo("s := String(Silent()): {}", e.Message)
+    Print("s := String(Silent()): {}", e.Message)
 
 ; --- 2. StrGet with a zero length ------------------------------------------------------------------
 ; A length-prefixed reader can pass 0 straight through and still get a String.
@@ -262,7 +264,7 @@ StrPut("hello", buf, "UTF-16")
 ReadPrefixed(ptr, n) => StrGet(ptr, n, "UTF-16")
 for n in [0, 2, 5] {
     v := ReadPrefixed(buf, n)
-    Echo("StrGet(buf, {}) = '{}' ({})", n, v, Type(v))
+    Print("StrGet(buf, {}) = '{}' ({})", n, v, Type(v))
 }
 
 ; --- 3. Clearing a caller's variable through a reference -----------------------------------------
@@ -277,7 +279,7 @@ TryParseInt(text, &out) {
 }
 for text in ["42", "4x2"] {
     ok := TryParseInt(text, &value)
-    Echo("TryParseInt('{}') = {}   IsSet(value) = {}   value = {}", text, ok, IsSet(value), value ?? "unset")
+    Print("TryParseInt('{}') = {}   IsSet(value) = {}   value = {}", text, ok, IsSet(value), value ?? "unset")
 }
 
 ; --- 4. Re-basing a class object -----------------------------------------------------------------------
@@ -287,7 +289,7 @@ class Plugin {
 class Widget {
 }
 Widget.Base := Plugin                          ; static inheritance after the fact
-Echo("Widget.Kind = {}   Widget.Base is Plugin: {}", Widget.Kind, Widget.Base == Plugin)
+Print("Widget.Kind = {}   Widget.Base is Plugin: {}", Widget.Kind, Widget.Base == Plugin)
 ```
 
 Source: [`04_small_fixes.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha30/04_small_fixes.ahk)
@@ -304,16 +306,14 @@ Source: [`04_small_fixes.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/m
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.30`. On alpha.29 the removed forms are not used anywhere, so what stops the scripts there is `"Void"`, which alpha.29 rejects as an invalid type.
+Every script starts with `#Requires AutoHotkey v2.1-alpha.30`. On alpha.29 the removed forms are not used anywhere, so what stops the scripts there is `"Void"`, which alpha.29 rejects as an invalid type. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
 
 ```powershell
-# stock AutoHotkey v2.1 alpha (GUI exe): pipe or redirect to see stdout
+# +Console fork
+.\bin\AutoHotkey64Console.exe 01_void_return.ahk
+
+# stock AutoHotkey v2.1-alpha.30 or later (GUI exe), with the Print line added
 AutoHotkey64.exe 01_void_return.ahk | more
-
-# +Console fork: stdout is a real console stream
-.\AutoHotkey64Console.exe 01_void_return.ahk
 ```
-
-`FileAppend` with `*` as the file name is AutoHotkey's native stdout; the stock GUI executable only shows it when its output is piped or redirected, so the `| more` is not optional there. Nothing in these scripts is fork-specific.
 
 *Disclosure: Claude Fable 5.1 wrote the four scripts, ran them, and drafted this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`), which still runs alpha.30 syntax unchanged; the "before" statements come from the fork's alpha.30 release notes, not from a run on an older build.*

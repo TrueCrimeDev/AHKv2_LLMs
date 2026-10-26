@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.33
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.33: two crashes become errors
 ;
 ;   a.b[c] when a.b returns unset      -> UnsetError (was: process crash)
@@ -12,11 +11,11 @@ class Registry {
 }
 try Registry().table["key"]
 catch UnsetError as e
-    Echo("Registry().table[`"key`"]: {}", e.Message)
+    Print("Registry().table[`"key`"]: {}", e.Message)
 
 ; Guard it the usual way and fall back.
 Lookup(reg, key) => IsSet(reg.table?) ? reg.table[key] : "(no table)"
-Echo("Lookup: {}", Lookup(Registry(), "key"))
+Print("Lookup: {}", Lookup(Registry(), "key"))
 
 ; --- 2. Capacity functions refuse a Struct ---------------------------------
 struct Pixel {
@@ -29,6 +28,6 @@ px.r := 255
 for name, fn in Map("ObjSetCapacity", ObjSetCapacity.Bind(px, 8), "ObjGetCapacity", ObjGetCapacity.Bind(px)) {
     try fn()
     catch TypeError as e
-        Echo("{}: {}", name, e.Message)
+        Print("{}: {}", name, e.Message)
 }
-Echo("Pixel intact: r={} Size={}", px.r, px.Size)
+Print("Pixel intact: r={} Size={}", px.r, px.Size)

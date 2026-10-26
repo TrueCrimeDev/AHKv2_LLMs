@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.27
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.27: the Base of anything with typed properties is fixed. Assigning
 ; .Base to or from a struct instance or prototype throws instead of silently
@@ -17,16 +16,16 @@ struct POINT {
 o := {}
 try o.Base := POINT.Prototype
 catch ValueError as e
-    Echo("{{}}.Base := POINT.Prototype -> {}", e.Message)
+    Print("{{}}.Base := POINT.Prototype -> {}", e.Message)
 
 ; --- 2. A struct instance cannot be re-based either ----------------------------
 p := POINT()
 try p.Base := {}
 catch ValueError as e
-    Echo("POINT().Base := {{}} -> {}", e.Message)
+    Print("POINT().Base := {{}} -> {}", e.Message)
 try POINT.Prototype.Base := Object.Prototype
 catch ValueError as e
-    Echo("POINT.Prototype.Base := ... -> {}", e.Message)
+    Print("POINT.Prototype.Base := ... -> {}", e.Message)
 
 ; --- 3. Inheritance happens at definition time instead ----------------------------
 ; A derived struct appends its fields after the base fields, keeps the base
@@ -36,8 +35,8 @@ struct Labeled extends POINT {
 }
 q := Labeled()
 q.x := 3, q.y := 4, q.tag := 9
-Echo("Labeled size {} (POINT {} + tag {}), Len {} from the base method", q.Size, POINT().Size, q.Size - POINT().Size, q.Len)
-Echo("q is POINT: {}   tag at +{}", q is POINT, q.Size - 4)
+Print("Labeled size {} (POINT {} + tag {}), Len {} from the base method", q.Size, POINT().Size, q.Size - POINT().Size, q.Len)
+Print("q is POINT: {}   tag at +{}", q is POINT, q.Size - 4)
 
 ; --- 4. Behaviour that varies per instance goes in a property, not a Base swap ----
 ; Keep the struct as the data layout and attach the varying part as a value.
@@ -49,4 +48,4 @@ struct Shape {
 }
 box := Shape(), box.kind := 1, box.w := 10, box.h := 4
 oval := Shape(), oval.kind := 2, oval.w := 10, oval.h := 4
-Echo("box area {}  oval area {:.2f}", box.Area, oval.Area)
+Print("box area {}  oval area {:.2f}", box.Area, oval.Area)

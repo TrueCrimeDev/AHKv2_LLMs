@@ -1,5 +1,4 @@
 #Requires AutoHotkey v2.1-alpha.33
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.33: #Import inside a function
 ;
 ; A function body may contain #Import. The names it brings in are scoped to
@@ -25,12 +24,12 @@ Area(r) {
     #Import Geometry {PI}
     return PI * r * r
 }
-Echo("Area(2) = {:.4f}", Area(2))
+Print("Area(2) = {:.4f}", Area(2))
 
 ; --- 2. The import did not leak into the file's scope ------------------------
 ; PI is not defined at the top level of __Main: it is an unset global here,
 ; not Geometry's constant.
-Echo("top-level PI is set: {}", IsSet(PI))
+Print("top-level PI is set: {}", IsSet(PI))
 
 ; --- 3. Two functions, two modules, one name -------------------------------
 ; Each function sees its own PI. At the top level that would have been a
@@ -39,12 +38,12 @@ Describe() {
     #Import Temperature {PI}
     return "Temperature's PI is '" PI "'"
 }
-Echo("{}", Describe())
-Echo("Area(1) = {:.5f}", Area(1))
+Print("{}", Describe())
+Print("Area(1) = {:.5f}", Area(1))
 
 ; --- 4. Importing the whole module as a namespace ---------------------------
 Convert(c) {
     #Import Temperature
     return Temperature.ToF(c)
 }
-Echo("Convert(100) = {}", Convert(100))
+Print("Convert(100) = {}", Convert(100))

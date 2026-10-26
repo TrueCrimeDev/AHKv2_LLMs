@@ -2,7 +2,13 @@
 
 Alpha.29 shipped on May 10, 2026 (upstream tag `v2.1-alpha.29`). It is a small release with one theme: in v2.1 mode, "no value" is `unset`, not an empty string. The maybe operator `?` now short-circuits almost every operator, a function that has a `return expr` somewhere but falls off the end returns `unset`, a fat-arrow tail call passes a blank return through, and a long list of built-ins return `unset` where they used to hand back `""` or `0`.
 
-None of that sounds like much until you write code against it. The point of `unset` is that it cannot be mistaken for data: an empty string is a perfectly good value, but `unset` either reaches a `??` or `IsSet`, or it throws at the line that tried to use it. Three scripts below, one per theme, each built around a pattern the change makes shorter. They run on the `2.1-alpha.37+Console` build and write to stdout with one line of plain AutoHotkey, `FileAppend(..., "*")`; everything in them is alpha.29 syntax, so nothing from later releases is used.
+None of that sounds like much until you write code against it. The point of `unset` is that it cannot be mistaken for data: an empty string is a perfectly good value, but `unset` either reaches a `??` or `IsSet`, or it throws at the line that tried to use it. Three scripts below, one per theme, each built around a pattern the change makes shorter. They run on the `2.1-alpha.37+Console` build; everything in them is alpha.29 syntax, so nothing from later releases is used.
+
+**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+
+```ahk2
+Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
+```
 
 ---
 
@@ -16,7 +22,6 @@ Before alpha.29, an unset operand inside `*` or `>` raised "This variable has no
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.29
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.29: the maybe operator (?) short-circuits most operators
 ;
@@ -33,28 +38,28 @@ Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; factor is optional. If the caller omitted it, v * factor? is unset and ?? v
 ; returns the input unchanged. No IsSet, no second code path.
 Scale(v, factor?) => (v * factor?) ?? v
-Echo("Scale(10) = {}   Scale(10, 3) = {}", Scale(10), Scale(10, 3))
+Print("Scale(10) = {}   Scale(10, 3) = {}", Scale(10), Scale(10, 3))
 
 ; --- 2. Optional limits in comparisons ------------------------------------------
 ; A missing limit means "no limit": the comparison is unset, so ?? false wins.
 Over(spent, limit?) => (spent > limit?) ?? false
-Echo("Over(120) = {}   Over(120, 100) = {}   Over(80, 100) = {}", Over(120), Over(120, 100), Over(80, 100))
+Print("Over(120) = {}   Over(120, 100) = {}   Over(80, 100) = {}", Over(120), Over(120, 100), Over(80, 100))
 
 ; --- 3. Optional parts of a string ---------------------------------------------------
 ; The parenthesised piece is unset as a whole when suffix is, so nothing is
 ; appended rather than a stray " ()". (suffix?) is wrapped on purpose; see 6.
 Label(name, suffix?) => name . ((" (" . (suffix?) . ")") ?? "")
-Echo("{}  /  {}", Label("build"), Label("build", "release"))
+Print("{}  /  {}", Label("build"), Label("build", "release"))
 
 ; --- 4. Ternary and logical operators short-circuit too ------------------------------
 Describe(flag?) => (flag? ? "on" : "off") ?? "unknown"
-Echo("Describe() = {}   Describe(1) = {}   Describe(0) = {}", Describe(), Describe(1), Describe(0))
-Echo("(missing? || 5) ?? 'unset' = {}", (missing? || 5) ?? "unset")
+Print("Describe() = {}   Describe(1) = {}   Describe(0) = {}", Describe(), Describe(1), Describe(0))
+Print("(missing? || 5) ?? 'unset' = {}", (missing? || 5) ?? "unset")
 
 ; --- 5. The IIFE that crashed the alpha.28 parser ----------------------------------------
 ; (() => a? || 1)() failed to parse before alpha.29. Now it evaluates, and the
 ; unset sentinel still propagates through || to the outer ??.
-Echo("(() => zz? || 1)() ?? 'unset' = {}", (() => zz? || 1)() ?? "unset")
+Print("(() => zz? || 1)() ?? 'unset' = {}", (() => zz? || 1)() ?? "unset")
 
 ; --- 6. Two things ? does not do --------------------------------------------------------
 ; It applies to a variable, not to an expression: (a? + 1)? is a syntax error.
@@ -62,7 +67,7 @@ Echo("(() => zz? || 1)() ?? 'unset' = {}", (() => zz? || 1)() ?? "unset")
 ; (a ? +1 : ...) fails to load, and so did `suffix? . ")"` above. Wrapping
 ; the maybe as (var?) removes the ambiguity everywhere.
 total := ((missing?) + 1) ?? 0
-Echo("((missing?) + 1) ?? 0 = {}", total)
+Print("((missing?) + 1) ?? 0 = {}", total)
 ```
 
 Source: [`01_maybe_operator.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha29/01_maybe_operator.ahk)
@@ -79,7 +84,6 @@ Before alpha.29, `FindIndex` returned `""` on a miss and `Forward(c)` returned `
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.29
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.29: functions that return nothing now say so
 ;
@@ -103,17 +107,17 @@ FindIndex(items, pred) {
     ; falls off the end: unset, because the function has a `return expr`
 }
 nums := [4, 9, 16, 23]
-Echo("first > 10 at index {}", FindIndex(nums, x => x > 10) ?? "none")
-Echo("first > 50 at index {}", FindIndex(nums, x => x > 50) ?? "none")
+Print("first > 10 at index {}", FindIndex(nums, x => x > 10) ?? "none")
+Print("first > 50 at index {}", FindIndex(nums, x => x > 50) ?? "none")
 
 ; --- 2. Consuming an unset result -------------------------------------------------
 ; A plain assignment of nothing is an error, which is the point: the mistake
 ; surfaces where it happens instead of as an empty string three calls later.
 try {
     idx := FindIndex(nums, x => x > 50)
-    Echo("idx = {}", idx)
+    Print("idx = {}", idx)
 } catch UnsetError as e
-    Echo("idx := FindIndex(...): {}", e.Message)
+    Print("idx := FindIndex(...): {}", e.Message)
 
 ; --- 3. Tail calls pass a blank return through -------------------------------------
 class Counter {
@@ -128,9 +132,9 @@ Forward(c) => c.Reset()             ; alpha.29: also blank-unset, not ""
 Chain(c) => Forward(c)              ; and so on through any depth
 c := Counter()
 c.Bump(), c.Bump()
-Echo("Forward(c) ?? 'nothing' = {}   n = {}", Forward(c) ?? "nothing", c.n)
+Print("Forward(c) ?? 'nothing' = {}   n = {}", Forward(c) ?? "nothing", c.n)
 c.Bump()
-Echo("Chain(c) ?? 'nothing' = {}   n = {}", Chain(c) ?? "nothing", c.n)
+Print("Chain(c) ?? 'nothing' = {}   n = {}", Chain(c) ?? "nothing", c.n)
 
 ; --- 4. The limit: an explicit unset is not forwarded ----------------------------------
 ; Propagation covers blank-unset only. The unset that EvenOrUnset returns by
@@ -142,11 +146,11 @@ EvenOrUnset(n) {
 }
 Wrap(n) => EvenOrUnset(n)
 try
-    Echo("Wrap(5) = {}", Wrap(5) ?? "odd")
+    Print("Wrap(5) = {}", Wrap(5) ?? "odd")
 catch UnsetError as e
-    Echo("Wrap(5): {}", e.Message)
+    Print("Wrap(5): {}", e.Message)
 SafeWrap(n) => EvenOrUnset(n) ?? "odd"
-Echo("SafeWrap(4) = {}   SafeWrap(5) = {}", SafeWrap(4), SafeWrap(5))
+Print("SafeWrap(4) = {}   SafeWrap(5) = {}", SafeWrap(4), SafeWrap(5))
 
 ; --- 5. Functions with no `return expr` are unchanged ---------------------------------------
 ; Only a bare return (or none): blank-unset as before. IsSet on a call is
@@ -154,7 +158,7 @@ Echo("SafeWrap(4) = {}   SafeWrap(5) = {}", SafeWrap(4), SafeWrap(5))
 Log(msg) {
     return
 }
-Echo("Log('x') ?? 'blank' = {}", Log("x") ?? "blank")
+Print("Log('x') ?? 'blank' = {}", Log("x") ?? "blank")
 ```
 
 Source: [`02_unset_returns.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha29/02_unset_returns.ahk)
@@ -171,7 +175,6 @@ Before alpha.29 these returned `""`, so the chain walk needed a `= ""` test and 
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.29
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.29: built-ins return unset for "nothing there" in v2.1 mode
 ;
@@ -200,8 +203,8 @@ Chain(obj) {
     } until !IsSet(p)
     return RTrim(names, " >")
 }
-Echo("chain: {}", Chain(Dog.Prototype))
-Echo("Any.Prototype.Base ?? 'unset' = {}", Any.Prototype.Base ?? "unset")
+Print("chain: {}", Chain(Dog.Prototype))
+Print("Any.Prototype.Base ?? 'unset' = {}", Any.Prototype.Base ?? "unset")
 
 ; --- 2. A regex miss leaves the output variable unset ---------------------------------
 ; A tokenizer can test IsSet(m) instead of comparing m[0] against "".
@@ -210,20 +213,20 @@ NextNumber(text, &pos) {
         pos := m.Pos + m.Len
         return m[0]
     }
-    Echo("  no match: IsSet(m) = {}", IsSet(m))
+    Print("  no match: IsSet(m) = {}", IsSet(m))
 }
 pos := 1
-Echo("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
-Echo("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
-Echo("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
-Echo("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
+Print("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
+Print("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
+Print("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
+Print("token: {}", NextNumber("a1b22c333", &pos) ?? "none")
 
 ; --- 3. Removing a hole from an array -------------------------------------------------------
 sparse := [1, , 3]                      ; element 2 is a hole
-Echo("RemoveAt(2) on a hole = {}", sparse.RemoveAt(2) ?? "unset")
-Echo("RemoveAt(1) on a value = {}", sparse.RemoveAt(1) ?? "unset")
+Print("RemoveAt(2) on a hole = {}", sparse.RemoveAt(2) ?? "unset")
+Print("RemoveAt(1) on a value = {}", sparse.RemoveAt(1) ?? "unset")
 holed := [1], holed.Length := 2         ; extend with a hole at the end
-Echo("Pop() of a hole = {}   Pop() of a value = {}", holed.Pop() ?? "unset", holed.Pop() ?? "unset")
+Print("Pop() of a hole = {}   Pop() of a value = {}", holed.Pop() ?? "unset", holed.Pop() ?? "unset")
 
 ; --- 4. Object reflection without sentinels ------------------------------------------------
 class Plain {
@@ -238,18 +241,18 @@ CallIfPresent(obj, name) {
     return IsSet(m) ? m(obj) : "(no " name ")"
 }
 for obj in [Plain(), Loud()]
-    Echo("{}: {}", Type(obj), CallIfPresent(obj, "Describe"))
+    Print("{}: {}", Type(obj), CallIfPresent(obj, "Describe"))
 o := {a: 1}
-Echo("DeleteProp('a') = {}   DeleteProp('a') again = {}", o.DeleteProp("a") ?? "unset", o.DeleteProp("a") ?? "unset")
-Echo("GetOwnPropDesc('b') = {}", o.GetOwnPropDesc("b") ?? "unset")
+Print("DeleteProp('a') = {}   DeleteProp('a') again = {}", o.DeleteProp("a") ?? "unset", o.DeleteProp("a") ?? "unset")
+Print("GetOwnPropDesc('b') = {}", o.GetOwnPropDesc("b") ?? "unset")
 
 ; --- 5. Handle lookups --------------------------------------------------------------------
 ; 0 is never a Gui, control or menu handle. Each lookup says so with unset.
-Echo("GuiFromHwnd(0) = {}   GuiCtrlFromHwnd(0) = {}   MenuFromHandle(0) = {}", GuiFromHwnd(0) ?? "unset", GuiCtrlFromHwnd(0) ?? "unset", MenuFromHandle(0) ?? "unset")
+Print("GuiFromHwnd(0) = {}   GuiCtrlFromHwnd(0) = {}   MenuFromHandle(0) = {}", GuiFromHwnd(0) ?? "unset", GuiCtrlFromHwnd(0) ?? "unset", MenuFromHandle(0) ?? "unset")
 g := Gui()                              ; created, never shown
-Echo("g.MenuBar = {}   g.FocusedCtrl = {}   g['nope'] = {}", g.MenuBar ?? "unset", g.FocusedCtrl ?? "unset", g["nope"] ?? "unset")
+Print("g.MenuBar = {}   g.FocusedCtrl = {}   g['nope'] = {}", g.MenuBar ?? "unset", g.FocusedCtrl ?? "unset", g["nope"] ?? "unset")
 ih := InputHook()
-Echo("InputHook().OnEnd = {}", ih.OnEnd ?? "unset")
+Print("InputHook().OnEnd = {}", ih.OnEnd ?? "unset")
 ```
 
 Source: [`03_builtins_unset.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha29/03_builtins_unset.ahk)
@@ -268,16 +271,14 @@ Source: [`03_builtins_unset.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blo
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.29`, which is also what puts the file in v2.1 mode; the default-return and built-in changes apply only there.
+Every script starts with `#Requires AutoHotkey v2.1-alpha.29`. That line is also what puts the file in v2.1 mode; the default-return and built-in changes apply only there. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
 
 ```powershell
-# stock AutoHotkey v2.1 alpha (GUI exe): pipe or redirect to see stdout
+# +Console fork
+.\bin\AutoHotkey64Console.exe 01_maybe_operator.ahk
+
+# stock AutoHotkey v2.1-alpha.29 or later (GUI exe), with the Print line added
 AutoHotkey64.exe 01_maybe_operator.ahk | more
-
-# +Console fork: stdout is a real console stream
-.\AutoHotkey64Console.exe 01_maybe_operator.ahk
 ```
-
-`FileAppend` with `*` as the file name is AutoHotkey's native stdout; the stock GUI executable only shows it when its output is piped or redirected, so the `| more` is not optional there. Nothing in these scripts is fork-specific.
 
 *Disclosure: Claude Fable 5.1 wrote the three scripts, ran them, and drafted this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`), which still runs alpha.29 syntax unchanged; the "before" statements come from the fork's alpha.29 release notes, not from a run on an older build.*

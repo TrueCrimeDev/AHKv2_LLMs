@@ -6,6 +6,12 @@ Three scripts below, one per theme, each built around a pattern the change makes
 
 Two of the sections are fork-specific, and the scripts say so. The official alpha.36 build stores `ObjCreateWithDataPtr`'s pointer at the wrong offset for a native class larger than `Object`, so `ObjCreateWithDataPtr(Map, addr)` overwrites the `Map`'s own fields and corrupts the heap (exit 127 when the object is released). The same change also let every struct view grow ad-hoc properties, which alpha.35 refused. The [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) fixed both before shipping alpha.36 (`a41db9a1` and `f24c23d1`, pinned by its `qa/tests/test_alpha36.ahk`); the report to upstream is in [`docs/upstream/alpha36-createstructptr-offset.md`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/docs/upstream/alpha36-createstructptr-offset.md) and had not been sent as of this post. Script 1 guards its `Map` section on the fork's version string; script 2 prints whichever outcome your build gives.
 
+**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+
+```ahk2
+Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
+```
+
 ---
 
 ## 1. Pixel views over a raw buffer
@@ -18,7 +24,6 @@ Before alpha.36, the function did not exist; `StructClass.At` was the only way t
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.36
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.36: ObjCreateWithDataPtr(ClassObj, Address) creates an instance of any
 ; directly constructible class whose data pointer is Address. It skips __Init
@@ -46,10 +51,10 @@ NumPut("UInt", 0xFF0000FF, "UInt", 0xFF00FF00, "UInt", 0xFFFF0000, pixels)   ; l
 View(i) => ObjCreateWithDataPtr(Pixel, pixels.Ptr + (i - 1) * 4)
 loop 3 {
     p := View(A_Index)
-    Echo("pixel {}: {} alpha {}", A_Index, p.Hex, p.a)
+    Print("pixel {}: {} alpha {}", A_Index, p.Hex, p.a)
 }
 View(2).Fade(50)
-Echo("after Fade(50) on pixel 2: byte 7 of the buffer = {}", NumGet(pixels, 7, "UChar"))
+Print("after Fade(50) on pixel 2: byte 7 of the buffer = {}", NumGet(pixels, 7, "UChar"))
 
 ; --- 2. The constructor is skipped, the destructor is not --------------------------
 class Tracked {
@@ -62,23 +67,23 @@ class Tracked {
 counter := Buffer(4, 0)
 NumPut("Int", 41, counter)
 t := ObjCreateWithDataPtr(Tracked, counter.Ptr)
-Echo("t.n = {}   HasOwnProp(label) = {}   log = `"{}`"", t.n, t.HasOwnProp("label"), Tracked.log)
+Print("t.n = {}   HasOwnProp(label) = {}   log = `"{}`"", t.n, t.HasOwnProp("label"), Tracked.log)
 t.n += 1
 t := ""                                   ; release: __Delete runs
-Echo("buffer now {}   log = `"{}`"", NumGet(counter, "Int"), Tracked.log)
+Print("buffer now {}   log = `"{}`"", NumGet(counter, "Int"), Tracked.log)
 
 ; --- 3. Numeric classes, Address 0, and reading the pointer back ----------------
 v := ObjCreateWithDataPtr(Int32, counter.Ptr)
 v.__Value := 1000
-Echo("Int32 view wrote {}; ObjGetDataPtr matches: {}", NumGet(counter, "Int"), ObjGetDataPtr(v) = counter.Ptr)
+Print("Int32 view wrote {}; ObjGetDataPtr matches: {}", NumGet(counter, "Int"), ObjGetDataPtr(v) = counter.Ptr)
 z := ObjCreateWithDataPtr(Int32, 0)
-Echo("Address 0 is allowed: ObjGetDataPtr = {}   (Int32.At(0) throws)", ObjGetDataPtr(z))
+Print("Address 0 is allowed: ObjGetDataPtr = {}   (Int32.At(0) throws)", ObjGetDataPtr(z))
 try Int32.At(0)
 catch Error as e
-    Echo("Int32.At(0): {}", e.Message)
+    Print("Int32.At(0): {}", e.Message)
 try ObjCreateWithDataPtr(Int32, 100)
 catch ValueError as e
-    Echo("ObjCreateWithDataPtr(Int32, 100): {}", e.Message)
+    Print("ObjCreateWithDataPtr(Int32, 100): {}", e.Message)
 
 ; --- 4. A data pointer on a Map (needs the +Console fork, see the post) -------------
 ; The official alpha.36 build stores the pointer over a Map's own fields and
@@ -87,11 +92,11 @@ catch ValueError as e
 if InStr(A_AhkVersion, "+Console") {
     tagged := ObjCreateWithDataPtr(Map, counter.Ptr)
     tagged["name"] := "a Map that carries an address"
-    Echo("Map with data pointer: Count {}  ptr matches {}", tagged.Count, ObjGetDataPtr(tagged) = counter.Ptr)
+    Print("Map with data pointer: Count {}  ptr matches {}", tagged.Count, ObjGetDataPtr(tagged) = counter.Ptr)
     tagged := ""
-    Echo("released cleanly")
+    Print("released cleanly")
 } else
-    Echo("skipping the Map section on {}", A_AhkVersion)
+    Print("skipping the Map section on {}", A_AhkVersion)
 ```
 
 Source: [`01_data_views.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha36/01_data_views.ahk)
@@ -108,7 +113,6 @@ Before alpha.36, `RegExMatchInfo()` returned an object that reported `RegExMatch
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.36
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.36: calling a native class that cannot be constructed directly now
 ; throws ValueError "Invalid base." Before, RegExMatchInfo(), File(), Func(),
@@ -123,11 +127,11 @@ Construct(cls, args*) {
         return "cannot construct (" e.Message ")"
 }
 for cls in [RegExMatchInfo, File, Func, BoundFunc, Closure, Enumerator]
-    Echo("{}() -> {}", cls.Prototype.__Class, Construct(cls))
-Echo("")
-Echo("Map()   -> {}", Type(Construct(Map)))
-Echo("Error() -> {}", Type(Construct(Error, "x")))
-Echo("Buffer(8) -> {} bytes", Construct(Buffer, 8).Size)
+    Print("{}() -> {}", cls.Prototype.__Class, Construct(cls))
+Print("")
+Print("Map()   -> {}", Type(Construct(Map)))
+Print("Error() -> {}", Type(Construct(Error, "x")))
+Print("Buffer(8) -> {} bytes", Construct(Buffer, 8).Size)
 
 ; --- 2. Object.Call used as a "raw" constructor behaves the same ---------------------
 ; (Object.Call)(Class) builds an instance on Class.Prototype without running
@@ -135,16 +139,16 @@ Echo("Buffer(8) -> {} bytes", Construct(Buffer, 8).Size)
 oc := Object.Call
 try oc(RegExMatchInfo)
 catch ValueError as e
-    Echo("(Object.Call)(RegExMatchInfo): {}", e.Message)
+    Print("(Object.Call)(RegExMatchInfo): {}", e.Message)
 ; ... and, as a side effect, accepts Struct, which it rejected in alpha.35.
-Echo("(Object.Call)(Struct) -> {}", Type(oc(Struct)))
+Print("(Object.Call)(Struct) -> {}", Type(oc(Struct)))
 
 ; --- 3. Script classes are untouched -----------------------------------------------
 class Inventory extends Map {
     Add(item, qty := 1) => (this[item] := this.Get(item, 0) + qty, this)
 }
 inv := Inventory().Add("bolt", 10).Add("bolt", 5).Add("nut")
-Echo("Inventory: bolt {} nut {}  Type {}", inv["bolt"], inv["nut"], Type(inv))
+Print("Inventory: bolt {} nut {}  Type {}", inv["bolt"], inv["nut"], Type(inv))
 
 ; --- 4. Struct views reject own properties again (fork fix f24c23d1) -------------------
 ; The upstream alpha.36 build let every memory view grow ad-hoc properties:
@@ -160,14 +164,14 @@ for pair in [["Pt.At", Pt.At(buf.Ptr)], ["ObjCreateWithDataPtr", ObjCreateWithDa
     name := pair[1], view := pair[2]
     try {
         view.foo := 1
-        Echo("{}: own property accepted", name)
+        Print("{}: own property accepted", name)
     } catch PropertyError as e
-        Echo("{}: {}", name, e.Message)
+        Print("{}: {}", name, e.Message)
 }
 ; An ordinary object made the same way still can own properties.
 m := ObjCreateWithDataPtr(Map, 0)
 m.note := "fine"
-Echo("Map from ObjCreateWithDataPtr: note = {}", m.note)
+Print("Map from ObjCreateWithDataPtr: note = {}", m.note)
 ```
 
 Source: [`02_constructor_errors.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha36/02_constructor_errors.ahk)
@@ -184,7 +188,6 @@ Before alpha.36, the local or parameter silently shadowed the import, so `F()` r
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.36
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 
 ; alpha.36 fixes two load-time behaviours. Both can only be seen by loading a
 ; script, so this file writes small scripts to a temp folder and runs each in
@@ -212,7 +215,7 @@ RunChild(name, source) {
 
 ; --- 1. A missing folder no longer swallows the rest of AhkLibPath -----------------
 EnvSet("AhkLibPath", root "\does-not-exist;" root "\lib")
-Echo("missing;lib -> {}", RunChild("libpath", "#Requires AutoHotkey v2.1-alpha.36`n#Include <Greet>`nFileAppend(Greet() `"``n`", `"*`")`n"))
+Print("missing;lib -> {}", RunChild("libpath", "#Requires AutoHotkey v2.1-alpha.36`n#Include <Greet>`nFileAppend(Greet() `"``n`", `"*`")`n"))
 EnvSet("AhkLibPath", "")
 
 ; --- 2. #Import inside a function, with and without a clash -------------------------
@@ -225,7 +228,7 @@ F() {
 }
 FileAppend("F() = " F() "``n", "*")
 )"
-Echo("no conflict        -> {}", RunChild("import_ok", ok module))
+Print("no conflict        -> {}", RunChild("import_ok", ok module))
 
 clash := "
 (
@@ -236,7 +239,7 @@ F() {
 }
 FileAppend("F() = " F() "``n", "*")
 )"
-Echo("local of same name -> {}", RunChild("import_local", clash module))
+Print("local of same name -> {}", RunChild("import_local", clash module))
 
 param := "
 (
@@ -246,7 +249,7 @@ F(Timeout := 5) {
 }
 FileAppend("F() = " F() "``n", "*")
 )"
-Echo("parameter clash    -> {}", RunChild("import_param", param module))
+Print("parameter clash    -> {}", RunChild("import_param", param module))
 
 alias := "
 (
@@ -257,7 +260,7 @@ F() {
 }
 FileAppend("F() = " F() "``n", "*")
 )"
-Echo("alias clash        -> {}", RunChild("import_alias", alias module))
+Print("alias clash        -> {}", RunChild("import_alias", alias module))
 
 DirDelete(root, true)
 ```
@@ -276,14 +279,14 @@ Source: [`03_load_time_checks.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/b
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.36` and writes through one line of plain AutoHotkey, `FileAppend(..., "*")`, which is the native stdout. The stock GUI executable only shows stdout when it is piped or redirected, so the `| more` below is not optional there; the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) writes to a real console stream and needs nothing extra.
+Every script starts with `#Requires AutoHotkey v2.1-alpha.36`. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
 
 ```powershell
-# stock AutoHotkey v2.1-alpha.36 (GUI exe): pipe or redirect to see stdout
-AutoHotkey64.exe 01_data_views.ahk | more
-
 # +Console fork
-AutoHotkey64Console.exe 01_data_views.ahk
+.\bin\AutoHotkey64Console.exe 01_data_views.ahk
+
+# stock AutoHotkey v2.1-alpha.36 or later (GUI exe), with the Print line added
+AutoHotkey64.exe 01_data_views.ahk | more
 ```
 
 *Disclosure: Claude Fable 5.1 wrote the scripts, ran them on the +Console fork build `a911f73d` (`2.1-alpha.37+Console`), and drafted this post. The alpha.35 comparisons and the official-build behaviour come from the fork's release notes, its `qa/tests/test_alpha36.ahk` (which records what the official alpha.36 zip did) and the upstream report linked above.*

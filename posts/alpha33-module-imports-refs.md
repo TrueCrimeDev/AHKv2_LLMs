@@ -6,6 +6,12 @@ Three scripts follow, one per theme. The module examples keep their modules in t
 
 One of the two headline features shipped broken upstream. `&Module.Var` works until the reference is released, then the process dies with a heap-corruption exit, and passing it to a ByRef parameter leaves the module variable unset. The [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) found that on the day it merged alpha.33, fixed it, and wrote it up for upstream; script 2 says more.
 
+**About `Print`.** The scripts write their output with `Print`, which is not stock AutoHotkey: it is a built-in of the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey). `Print("x = {}, y = {}", x, y)` runs its arguments through `Format` and writes the result plus a newline to stdout; a single argument is written as-is, and `Print()` writes a blank line. To run the scripts on stock AutoHotkey, add this one line under `#Requires` (it reproduces those three shapes) and pipe the output through `| more`, because the GUI executable only shows stdout when it is redirected:
+
+```ahk2
+Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "`n", "*")
+```
+
 ---
 
 ## 1. `#Import` inside a function
@@ -18,7 +24,6 @@ Before alpha.33, `#Import` was accepted only at the top level of a module; insid
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.33
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.33: #Import inside a function
 ;
 ; A function body may contain #Import. The names it brings in are scoped to
@@ -44,12 +49,12 @@ Area(r) {
     #Import Geometry {PI}
     return PI * r * r
 }
-Echo("Area(2) = {:.4f}", Area(2))
+Print("Area(2) = {:.4f}", Area(2))
 
 ; --- 2. The import did not leak into the file's scope ------------------------
 ; PI is not defined at the top level of __Main: it is an unset global here,
 ; not Geometry's constant.
-Echo("top-level PI is set: {}", IsSet(PI))
+Print("top-level PI is set: {}", IsSet(PI))
 
 ; --- 3. Two functions, two modules, one name -------------------------------
 ; Each function sees its own PI. At the top level that would have been a
@@ -58,15 +63,15 @@ Describe() {
     #Import Temperature {PI}
     return "Temperature's PI is '" PI "'"
 }
-Echo("{}", Describe())
-Echo("Area(1) = {:.5f}", Area(1))
+Print("{}", Describe())
+Print("Area(1) = {:.5f}", Area(1))
 
 ; --- 4. Importing the whole module as a namespace ---------------------------
 Convert(c) {
     #Import Temperature
     return Temperature.ToF(c)
 }
-Echo("Convert(100) = {}", Convert(100))
+Print("Convert(100) = {}", Convert(100))
 ```
 
 Source: [`01_import_in_function.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha33/01_import_in_function.ahk)
@@ -83,7 +88,6 @@ Before alpha.33, `&Stats.Count` was an error: module objects had no `__Ref`.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.33
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.33: &Module.Var (Module.__Ref)
 ;
 ; The reference operator works on a module object's variables. &Stats.Count
@@ -105,28 +109,28 @@ global Last := ""
 Bump(&v, by := 1) => v += by
 Bump(&Stats.Count)
 Bump(&Stats.Count, 10)
-Echo("Stats.Count = {}", Stats.Count)
+Print("Stats.Count = {}", Stats.Count)
 
 ; --- 2. Built-in output parameters accept it too ------------------------------
 SplitPath("C:\logs\today.txt", &Stats.Last)
-Echo("Stats.Last = {}", Stats.Last)
+Print("Stats.Last = {}", Stats.Last)
 RegExMatch("v2.1-alpha.33", "alpha\.(\d+)", &m)
 Stats.Count := m[1]
-Echo("Stats.Count = {}", Stats.Count)
+Print("Stats.Count = {}", Stats.Count)
 
 ; --- 3. The reference is a real VarRef you can hold and reuse ------------------
 ref := &Stats.Count
 %ref% += 1
-Echo("through the ref: {}  module sees: {}", %ref%, Stats.Count)
+Print("through the ref: {}  module sees: {}", %ref%, Stats.Count)
 Stats.Count := 100
-Echo("module write, ref sees: {}", %ref%)
+Print("module write, ref sees: {}", %ref%)
 
 ; --- 4. Pass the same reference around like any other ------------------------
 Apply(fn, &target) => target := fn(target)
 Apply(x => x * 2, &Stats.Count)
-Echo("doubled: {}", Stats.Count)
+Print("doubled: {}", Stats.Count)
 ref := ""                       ; releasing it is safe on the fixed engine
-Echo("after release: {}", Stats.Count)
+Print("after release: {}", Stats.Count)
 ```
 
 Source: [`02_module_ref.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha33/02_module_ref.ahk)
@@ -143,7 +147,6 @@ Before alpha.33, `Registry().table["key"]` exited the process and `ObjSetCapacit
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.33
-Echo(fmt, args*) => FileAppend(Format(fmt, args*) "`n", "*")   ; native stdout
 ; alpha.33: two crashes become errors
 ;
 ;   a.b[c] when a.b returns unset      -> UnsetError (was: process crash)
@@ -156,11 +159,11 @@ class Registry {
 }
 try Registry().table["key"]
 catch UnsetError as e
-    Echo("Registry().table[`"key`"]: {}", e.Message)
+    Print("Registry().table[`"key`"]: {}", e.Message)
 
 ; Guard it the usual way and fall back.
 Lookup(reg, key) => IsSet(reg.table?) ? reg.table[key] : "(no table)"
-Echo("Lookup: {}", Lookup(Registry(), "key"))
+Print("Lookup: {}", Lookup(Registry(), "key"))
 
 ; --- 2. Capacity functions refuse a Struct ---------------------------------
 struct Pixel {
@@ -173,9 +176,9 @@ px.r := 255
 for name, fn in Map("ObjSetCapacity", ObjSetCapacity.Bind(px, 8), "ObjGetCapacity", ObjGetCapacity.Bind(px)) {
     try fn()
     catch TypeError as e
-        Echo("{}: {}", name, e.Message)
+        Print("{}: {}", name, e.Message)
 }
-Echo("Pixel intact: r={} Size={}", px.r, px.Size)
+Print("Pixel intact: r={} Size={}", px.r, px.Size)
 ```
 
 Source: [`03_struct_guards.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha33/03_struct_guards.ahk)
@@ -184,14 +187,14 @@ Source: [`03_struct_guards.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob
 
 ## Running them
 
-Every script starts with `#Requires AutoHotkey v2.1-alpha.33` and writes through `FileAppend(..., "*")`, AutoHotkey's native stdout. The stock GUI executable only shows that stream when it is piped or redirected, so the `| more` below is not optional there; the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) prints it directly.
+Every script starts with `#Requires AutoHotkey v2.1-alpha.33`. On the +Console fork they run as they are; on stock AutoHotkey add the `Print` line from the top of this post and pipe through `| more`.
 
 ```powershell
-# stock AutoHotkey v2.1-alpha.33 or later (GUI exe): pipe or redirect to see stdout
-AutoHotkey64.exe 01_import_in_function.ahk | more
-
-# +Console fork: stdout is a real console stream
+# +Console fork
 .\bin\AutoHotkey64Console.exe 01_import_in_function.ahk
+
+# stock AutoHotkey v2.1-alpha.33 or later (GUI exe), with the Print line added
+AutoHotkey64.exe 01_import_in_function.ahk | more
 ```
 
 *Disclosure: Claude Fable 5.1 wrote the scripts, ran them, and drafted this post. Every behaviour claim was observed on `2.1-alpha.37+Console` (`a911f73d`), which carries this release, or comes from the fork's release notes for it; the "before" lines are from those notes.*
