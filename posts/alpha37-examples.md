@@ -76,7 +76,7 @@ catch Error as e
     Echo("RECT(1, 2, 3, 4, 5): {}", e.Message)
 ```
 
-Source: [`01_struct_constructors.ahk`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/examples/alpha37/01_struct_constructors.ahk)
+Source: [`01_struct_constructors.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha37/01_struct_constructors.ahk)
 
 ---
 
@@ -148,7 +148,7 @@ Echo("guarded: {}", IsSet(cfg.disk) && IsSet(cfg.disk.path) ? "set" : "not set")
 Echo("IsSet(cfg.net.proxy?) = {}", IsSet(cfg.net.proxy?))
 ```
 
-Source: [`02_isset_properties.ahk`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/examples/alpha37/02_isset_properties.ahk)
+Source: [`02_isset_properties.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha37/02_isset_properties.ahk)
 
 ---
 
@@ -205,7 +205,7 @@ Echo("WindowThread(hwnd) = {}", WindowThread(hwnd))
 Echo("WindowThread(hwnd, &pid) = {}, pid = {}", WindowThread(hwnd, &pid2 := 0), pid2)
 ```
 
-Source: [`03_dllcall_unset_null.ahk`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/examples/alpha37/03_dllcall_unset_null.ahk)
+Source: [`03_dllcall_unset_null.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha37/03_dllcall_unset_null.ahk)
 
 ---
 
@@ -277,7 +277,7 @@ catch PropertyError as e
     Echo("anchor.label := `"x`": {}", e.Message)
 ```
 
-Source: [`04_numeric_structs_and_struct_at.ahk`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/examples/alpha37/04_numeric_structs_and_struct_at.ahk)
+Source: [`04_numeric_structs_and_struct_at.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha37/04_numeric_structs_and_struct_at.ahk)
 
 ---
 
@@ -371,7 +371,7 @@ catch Error as e
 ; the real message; the fork (a911f73d) restores the ValueError.
 ```
 
-Source: [`05_safer_errors.ahk`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/examples/alpha37/05_safer_errors.ahk)
+Source: [`05_safer_errors.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha37/05_safer_errors.ahk)
 
 ---
 

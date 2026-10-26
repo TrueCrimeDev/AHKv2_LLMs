@@ -17,6 +17,165 @@
   "path": "posts/alpha37-examples.md"
  },
  {
+  "slug": "alpha36-data-views",
+  "title": "AutoHotkey v2.1-alpha.36: Objects That View Memory, and Three Errors That Finally Fire",
+  "preview_title": "Alpha.36: ObjCreateWithDataPtr, Invalid base., #Import Clashes",
+  "date": "2026-10-25",
+  "description": "Three scripts for alpha.36. ObjCreateWithDataPtr turns an ordinary class with typed properties into a view over a buffer: Pixel views over RGBA bytes with a Hex getter and a Fade method, the skipped-constructor and called-destructor rules, address 0, and a data pointer on a Map. RegExMatchInfo() and five other native classes now throw Invalid base., so a generic Construct() helper can tell constructible from not. And two load-time fixes run in child processes: an AhkLibPath folder after a missing one is searched, and #Import inside a function reports a clashing local, parameter or alias instead of being shadowed. Notes which sections depend on the +Console fork's two fixes to the same upstream change.",
+  "preview": "ObjCreateWithDataPtr views, constructor calls that throw instead of crash, and #Import clashes caught at load: three tested scripts, with the fork-only parts marked.",
+  "tags": [
+   "Alpha Release",
+   "ObjCreateWithDataPtr",
+   "Structs",
+   "Modules",
+   "+Console",
+   "Examples"
+  ],
+  "path": "posts/alpha36-data-views.md"
+ },
+ {
+  "slug": "alpha35-strict-keys-search-path",
+  "title": "AutoHotkey v2.1-alpha.35: Strict Keys and a Search Path That Follows the File",
+  "preview_title": "Alpha.35: Float Keys Throw, #Include Follows the File, AhkLibPath",
+  "date": "2026-10-25",
+  "description": "Three scripts for alpha.35. A Map rejects Float keys and an Array rejects Float and empty indexes in v2.1 mode, so a bucketing bug that used to store a silent second key now throws TypeError at the write. #Include <Name> searches the including file's own directory first, so a helper private to tools\\ can live beside tools\\Report.ahk instead of in Lib\\. And AhkLibPath replaces the library search list per process, shown by running a child script against two library folders in each order. Includes the fork fix for the missing-folder bug upstream took in alpha.36.",
+  "preview": "Float keys throw, the include search path follows the including file, and AhkLibPath swaps library sets per process: three tested scripts.",
+  "tags": [
+   "Alpha Release",
+   "Map",
+   "Array",
+   "Libraries",
+   "#Include",
+   "Examples"
+  ],
+  "path": "posts/alpha35-strict-keys-search-path.md"
+ },
+ {
+  "slug": "alpha34-unions-enumerable-numput",
+  "title": "AutoHotkey v2.1-alpha.34: Hidden Properties, Anonymous Unions, Typed NumPut",
+  "preview_title": "Alpha.34: Enumerable: false, union { }, and NumPut(Int32, ...)",
+  "date": "2026-10-25",
+  "description": "Three tested scripts for alpha.34: a Record class whose dirty flag and version hide from Props() but stay own properties, DefineProp finally rejecting a typo in the descriptor, a tagged union over one four-byte slot plus Win32's INPUT declared the way the C header reads, and a layout table of numeric classes that drives both NumPut and NumGet with no size column. Three pitfalls at the end: in is reserved, UIntPtr does not exist, and Format with nested braces.",
+  "preview": "Hidden properties, anonymous unions and numeric classes in NumPut, each as a small pattern you can lift.",
+  "tags": [
+   "Alpha Release",
+   "Structs",
+   "DefineProp",
+   "NumPut",
+   "Win32 API"
+  ],
+  "path": "posts/alpha34-unions-enumerable-numput.md"
+ },
+ {
+  "slug": "alpha33-module-imports-refs",
+  "title": "AutoHotkey v2.1-alpha.33: Modules Get Local Imports and References",
+  "preview_title": "Alpha.33: #Import Inside Functions, &Module.Var, and the Heap Bug It Shipped With",
+  "date": "2026-10-25",
+  "description": "Three tested scripts for alpha.33: a function that imports exactly the module names it needs while the file's namespace stays clean, &Module.Var handed to ByRef helpers, SplitPath and RegExMatch without importing the name, and the two crashes that became UnsetError and TypeError. The reference feature shipped upstream without a reference count and corrupted the heap on release; the post explains the bug and the fork's one-line fix.",
+  "preview": "Local imports, references to module variables, and a heap-corruption bug that upstream alpha.33 shipped with.",
+  "tags": [
+   "Alpha Release",
+   "Modules",
+   "References",
+   "Structs",
+   "+Console"
+  ],
+  "path": "posts/alpha33-module-imports-refs.md"
+ },
+ {
+  "slug": "alpha32-font-handle",
+  "title": "AutoHotkey v2.1-alpha.32: One Property, Three Fixes",
+  "preview_title": "Alpha.32: Gui.FontHandle, With a 32-Bit Catch",
+  "date": "2026-10-25",
+  "description": "The smallest release in the series gets one script: Gui.FontHandle read through GetObject before any control exists, the same handle on a new Edit, a second Gui's Text control borrowing it through WM_SETFONT, and the (g.FontHandle?) ?? fallback for older engines. Plus the catch that FontHandle is a UInt32 while WM_GETFONT returns the handle sign-extended, so compare the low 32 bits.",
+  "preview": "One tested script for Gui.FontHandle, the three fixes in a paragraph, and a sign-extension pitfall worth knowing.",
+  "tags": [
+   "Alpha Release",
+   "GUI",
+   "Fonts",
+   "Win32 API"
+  ],
+  "path": "posts/alpha32-font-handle.md"
+ },
+ {
+  "slug": "alpha31-modules-export-everything",
+  "title": "AutoHotkey v2.1-alpha.31: Modules Export Everything",
+  "preview_title": "Alpha.31 in Five Scripts: Implied Export, Facades, a #Module AHK Prelude",
+  "date": "2026-10-25",
+  "description": "Alpha.31 removed the export keyword and made every module-level name public, with a leading underscore to hide helpers from {*} and #Import Export to forward an import. Five tested scripts show the new model as patterns: a library module, closed and open facades over one core, a project prelude in #Module AHK now that imports resolve there, unset values that survive two import hops, and the struct-view, split-property and virtual-reference fixes. Each before-claim was re-run on an alpha.30 engine, and the breaking change is listed by symptom.",
+  "preview": "The export keyword is gone and modules export everything; five scripts turn the new rules into patterns, with the alpha.30 behaviour re-run beside each one.",
+  "tags": [
+   "Alpha Release",
+   "Modules",
+   "Import",
+   "Unset",
+   "Structs",
+   "Examples"
+  ],
+  "path": "posts/alpha31-modules-export-everything.md"
+ },
+ {
+  "slug": "alpha30-void-and-removals",
+  "title": "AutoHotkey v2.1-alpha.30: Void Returns and Three Removals",
+  "preview_title": "Alpha.30 in Four Scripts: Void, (a?)(), Typed Struct Classes, Small Fixes",
+  "date": "2026-10-25",
+  "description": "Four tested scripts for alpha.30: GetLocalTime and a CallbackCreate handler with the new \"Void\" return type, an emitter with optional hooks written as (cb?)(item) now that a?.() is gone, a Record struct migrated from i32 strings and bare sizes to Int32 and Int8[4] with its padding made visible, and the String(), StrGet(buf, 0), unset-through-&ref and Class.Base fixes as a Describe helper and a TryParse. Plus three things the parser taught me along the way.",
+  "preview": "Four scripts for the release that added \"Void\" and removed a?.(), i32 type strings and bare-size struct fields.",
+  "tags": [
+   "Alpha Release",
+   "DllCall",
+   "Structs",
+   "Maybe Operator",
+   "Examples"
+  ],
+  "path": "posts/alpha30-void-and-removals.md"
+ },
+ {
+  "slug": "alpha29-unset-semantics",
+  "title": "AutoHotkey v2.1-alpha.29: When Nothing Is a Value",
+  "preview_title": "Alpha.29 in Three Scripts: Maybe Operator, Unset Returns, Unset Built-ins",
+  "date": "2026-10-25",
+  "description": "Three tested scripts for alpha.29's unset semantics: optional parameters flowing through arithmetic and comparisons with one trailing ??, a finder that returns nothing instead of a sentinel, fat-arrow wrappers that pass a blank return through, and a prototype-chain walk, a regex tokenizer and a CallIfPresent helper built on built-ins that now return unset. Plus the five parser rules I tripped over, including why `missing? + 1` does not load.",
+  "preview": "Three scripts for the release that made unset mean something: the maybe operator through every operator, unset returns, and unset from built-ins.",
+  "tags": [
+   "Alpha Release",
+   "unset",
+   "Maybe Operator",
+   "Examples"
+  ],
+  "path": "posts/alpha29-unset-semantics.md"
+ },
+ {
+  "slug": "alpha28-unset-mode",
+  "path": "posts/alpha28-unset-mode.md",
+  "title": "AutoHotkey v2.1-alpha.28: #Requires Decides What \"Nothing\" Means",
+  "preview_title": "Alpha.28 in Four Scripts: unset vs \"\", UnsetItemError, Opaque Handles",
+  "date": "2026-10-25",
+  "description": "Four tested scripts for alpha.28. #Requires v2.1 switches a file to v2.1 mode, where a bare return and every silent built-in give no value instead of \"\", and ?? tells the two apart; #DefaultReturn is gone. A sparse [1, unset, 3] array raises UnsetItemError for its hole while a bad index stays IndexError. A fieldless struct becomes a typed window handle through StructClass.At, and a struct view over a buffer with a nested POINT works again. Plus a ByRef alias to a global surviving recursion and an OnMessage callback declining a message with a bare return.",
+  "preview": "The v2.1 mode switch moves into #Requires, empty container slots get their own error, and a struct with no fields becomes a typed handle.",
+  "tags": [
+   "Alpha Release",
+   "unset",
+   "Error Handling",
+   "Structs"
+  ]
+ },
+ {
+  "slug": "alpha27-one-allocation",
+  "path": "posts/alpha27-one-allocation.md",
+  "title": "AutoHotkey v2.1-alpha.27: Structs Become One Block of Memory",
+  "preview_title": "Alpha.27 in Three Scripts: Nested Structs, Reliable Destructors, Frozen Base",
+  "date": "2026-10-25",
+  "description": "Three tested scripts for the alpha.27 struct changes. A RECT made of two POINTs is one allocation whose pointer goes straight into OffsetRect and SetRect, and a RECT2[3] array walks with a 16-byte stride. A Brush struct that calls DeleteObject in __Delete is released on time, including every element of a Brush[2], thanks to the destructor fixes. And the new Base guards: what `a.Base := b` now rejects, and how `struct Labeled extends POINT` gives the same result at definition time.",
+  "preview": "Nested structs embedded in one block, destructors that run for every array element, and a Base you can no longer swap.",
+  "tags": [
+   "Alpha Release",
+   "Structs",
+   "Win32 API",
+   "Memory"
+  ]
+ },
+ {
   "slug": "october-2026-model-roster",
   "title": "Sixteen New Models: GPT-6.1 Sol Joins the Perfect-Eval Club for 35 Cents",
   "preview_title": "GPT-6.1 Sol Aces AHK-Eval; Three Reasoners Run Out of Tokens",
