@@ -1,15 +1,10 @@
 #Requires AutoHotkey v2.1-alpha.34
-; alpha.34: Enumerable: false in a DefineProp descriptor
-;
-; A property defined with Enumerable: false is skipped by Props() and by the
-; debugger's variable list, but it is still an own property: OwnProps(),
-; HasOwnProp and ObjOwnPropCount see it and it reads and writes normally.
-; Before alpha.34, Enumerable was an unknown descriptor key and DefineProp
-; threw ValueError.
+; alpha.34: Enumerable: false hides a property from Props() while it stays an
+; own property. DefineProp also validates its descriptor now, and
+; a.%name?% ?? default short-circuits when name is unset.
 
-; --- 1. Bookkeeping that stays out of the data -----------------------------
-; A record carries a dirty flag and a version. Anything that walks Props()
-; (a serializer, a diff, a debugger) sees only the real fields.
+; A record carries a dirty flag and a version that anything walking Props()
+; (a serializer, a diff, a debugger) never sees.
 class Record {
     __New(fields) {
         for name, value in fields.OwnProps()
@@ -17,10 +12,7 @@ class Record {
         this.DefineProp("_dirty", {Value: false, Enumerable: false})
         this.DefineProp("_version", {Value: 1, Enumerable: false})
     }
-    Touch() {
-        this._dirty := true
-        this._version += 1
-    }
+    Touch() => (this._dirty := true, this._version += 1)
 }
 Serialize(obj) {
     out := ""
@@ -31,28 +23,17 @@ Serialize(obj) {
 rec := Record({id: 7, title: "alpha.34"})
 rec.Touch()
 Print("Props():    {}", Serialize(rec))
-own := ""
-for name in rec.OwnProps()
-    own .= name " "
-Print("OwnProps(): {}", Trim(own))
-Print("HasOwnProp(_dirty) {}  ObjOwnPropCount {}  _version {}",
-    rec.HasOwnProp("_dirty"), ObjOwnPropCount(rec), rec._version)
+Print("HasOwnProp(_dirty) {}  ObjOwnPropCount {}  _version {}", rec.HasOwnProp("_dirty"), ObjOwnPropCount(rec), rec._version)
 
-; --- 2. The flag works on accessors as well as values ------------------------
+; The flag works on accessors too.
 rec.DefineProp("summary", {Get: this => this.id ": " this.title, Enumerable: false})
-Print("summary = {}  (still not in Props: {})", rec.summary, Serialize(rec))
+Print("summary = {}  (Props() still: {})", rec.summary, Serialize(rec))
 
-; --- 3. alpha.34 validates the descriptor -----------------------------------
-; An unknown key, or Value mixed with Get/Set/Call, is a ValueError instead of
-; being silently ignored.
-for keys, bad in Map("Vlaue", {Vlaue: 1}, "Value+Get", {Value: 1, Get: (*) => 2}) {
-    try rec.DefineProp("oops", bad)
-    catch ValueError as e
-        Print("DefineProp with {}: {}", keys, e.Message)
-}
+; A typo in the descriptor used to be ignored; now it throws.
+try rec.DefineProp("oops", {Vlaue: 1})
+catch ValueError as e
+    Print("DefineProp with Vlaue: {}", e.Message)
 
-; --- 4. Also new: a.%name?% ?? default short-circuits -----------------------
-; With name unset the whole access is skipped and the default wins; before
-; alpha.34 the engine tried the default property instead.
+; a.%name?% ?? default: with name unset the whole access is skipped.
 Field(obj, name?) => obj.%name?% ?? "(no field)"
 Print("Field(rec, `"title`") = {}   Field(rec) = {}", Field(rec, "title"), Field(rec))

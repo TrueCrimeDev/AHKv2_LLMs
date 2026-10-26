@@ -21,8 +21,8 @@
   "title": "AutoHotkey v2.1-alpha.36: Objects That View Memory, and Three Errors That Finally Fire",
   "preview_title": "Alpha.36: ObjCreateWithDataPtr, Invalid base., #Import Clashes",
   "date": "2026-10-25",
-  "description": "Three scripts for alpha.36. ObjCreateWithDataPtr turns an ordinary class with typed properties into a view over a buffer: Pixel views over RGBA bytes with a Hex getter and a Fade method, the skipped-constructor and called-destructor rules, address 0, and a data pointer on a Map. RegExMatchInfo() and five other native classes now throw Invalid base., so a generic Construct() helper can tell constructible from not. And two load-time fixes run in child processes: an AhkLibPath folder after a missing one is searched, and #Import inside a function reports a clashing local, parameter or alias instead of being shadowed. Notes which sections depend on the +Console fork's two fixes to the same upstream change.",
-  "preview": "ObjCreateWithDataPtr views, constructor calls that throw instead of crash, and #Import clashes caught at load: three tested scripts, with the fork-only parts marked.",
+  "description": "Three short scripts for alpha.36: ObjCreateWithDataPtr turning an ordinary class into a Pixel view over an RGBA buffer, RegExMatchInfo() and friends throwing Invalid base. instead of crashing, and AhkLibPath and #Import clashes caught at load.",
+  "preview": "ObjCreateWithDataPtr views, constructor calls that throw instead of crash, and #Import clashes caught at load, plus two bugs the fork fixed before shipping.",
   "tags": [
    "Alpha Release",
    "ObjCreateWithDataPtr",
@@ -38,7 +38,7 @@
   "title": "AutoHotkey v2.1-alpha.35: Strict Keys and a Search Path That Follows the File",
   "preview_title": "Alpha.35: Float Keys Throw, #Include Follows the File, AhkLibPath",
   "date": "2026-10-25",
-  "description": "Three scripts for alpha.35. A Map rejects Float keys and an Array rejects Float and empty indexes in v2.1 mode, so a bucketing bug that used to store a silent second key now throws TypeError at the write. #Include <Name> searches the including file's own directory first, so a helper private to tools\\ can live beside tools\\Report.ahk instead of in Lib\\. And AhkLibPath replaces the library search list per process, shown by running a child script against two library folders in each order. Includes the fork fix for the missing-folder bug upstream took in alpha.36.",
+  "description": "Three short scripts for alpha.35: a Map that throws on a Float key instead of storing a second one, #Include <Name> resolved from the including file's directory so tools\\Fmt.ahk needs no Lib folder, and AhkLibPath switching a child script's library set per process.",
   "preview": "Float keys throw, the include search path follows the including file, and AhkLibPath swaps library sets per process: three tested scripts.",
   "tags": [
    "Alpha Release",
@@ -71,7 +71,7 @@
   "title": "AutoHotkey v2.1-alpha.33: Modules Get Local Imports and References",
   "preview_title": "Alpha.33: #Import Inside Functions, &Module.Var, and the Heap Bug It Shipped With",
   "date": "2026-10-25",
-  "description": "Three tested scripts for alpha.33: a function that imports exactly the module names it needs while the file's namespace stays clean, &Module.Var handed to ByRef helpers, SplitPath and RegExMatch without importing the name, and the two crashes that became UnsetError and TypeError. The reference feature shipped upstream without a reference count and corrupted the heap on release; the post explains the bug and the fork's one-line fix.",
+  "description": "Three short scripts for alpha.33: #Import scoped to a function, &Module.Var handed to ByRef and SplitPath, and two former crashes caught as errors, plus the heap bug upstream shipped in &Module.Var.",
   "preview": "Local imports, references to module variables, and a heap-corruption bug that upstream alpha.33 shipped with.",
   "tags": [
    "Alpha Release",

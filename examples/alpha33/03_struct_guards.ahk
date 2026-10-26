@@ -1,13 +1,11 @@
 #Requires AutoHotkey v2.1-alpha.33
 ; alpha.33: two crashes become errors
-;
 ;   a.b[c] when a.b returns unset      -> UnsetError (was: process crash)
 ;   ObjSetCapacity(struct, n) and kin  -> TypeError  (was: corrupted the struct)
 
 ; --- 1. Indexing through an unset property is an ordinary error -----------
 class Registry {
-    ; A lookup table that may not be configured yet.
-    table => unset
+    table => unset      ; a lookup table that may not be configured yet
 }
 try Registry().table["key"]
 catch UnsetError as e
