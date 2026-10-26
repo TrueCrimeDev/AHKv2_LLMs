@@ -55,7 +55,7 @@
   "title": "AutoHotkey v2.1-alpha.34: Hidden Properties, Anonymous Unions, Typed NumPut",
   "preview_title": "Alpha.34: Enumerable: false, union { }, and NumPut(Int32, ...)",
   "date": "2026-10-25",
-  "description": "Three tested scripts for alpha.34: a Record class whose dirty flag and version hide from Props() but stay own properties, DefineProp finally rejecting a typo in the descriptor, a tagged union over one four-byte slot plus Win32's INPUT declared the way the C header reads, and a layout table of numeric classes that drives both NumPut and NumGet with no size column. Three pitfalls at the end: in is reserved, UIntPtr does not exist, and Format with nested braces.",
+  "description": "Three short scripts for alpha.34: a Record class whose dirty flag and version hide from Props() but stay own properties, DefineProp rejecting a typo in the descriptor, a tagged union over one four-byte slot plus Win32's INPUT declared the way the C header reads, and a layout table of numeric classes that drives both NumPut and NumGet with no size column.",
   "preview": "Hidden properties, anonymous unions and numeric classes in NumPut, each as a small pattern you can lift.",
   "tags": [
    "Alpha Release",
@@ -87,7 +87,7 @@
   "title": "AutoHotkey v2.1-alpha.32: One Property, Three Fixes",
   "preview_title": "Alpha.32: Gui.FontHandle, With a 32-Bit Catch",
   "date": "2026-10-25",
-  "description": "The smallest release in the series gets one script: Gui.FontHandle read through GetObject before any control exists, the same handle on a new Edit, a second Gui's Text control borrowing it through WM_SETFONT, and the (g.FontHandle?) ?? fallback for older engines. Plus the catch that FontHandle is a UInt32 while WM_GETFONT returns the handle sign-extended, so compare the low 32 bits.",
+  "description": "The smallest release in the series gets one short script: Gui.FontHandle read through GetObject before any control exists, the same handle on a new Edit, and a second Gui's Text control borrowing it through WM_SETFONT. Plus the catch that FontHandle is a UInt32 while WM_GETFONT returns the handle sign-extended, so compare the low 32 bits.",
   "preview": "One tested script for Gui.FontHandle, the three fixes in a paragraph, and a sign-extension pitfall worth knowing.",
   "tags": [
    "Alpha Release",
