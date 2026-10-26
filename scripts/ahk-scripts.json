@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-26T00:24:22.641Z",
+  "lastUpdated": "2026-10-26T06:20:01.716Z",
   "totalScripts": 662,
   "categories": [
     "GUI",
@@ -7206,13 +7206,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-10-24T06:05:08Z",
+      "lastModified": "2026-10-26T02:41:12Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
       "forks": 0,
       "owner": "von110187",
-      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 10/26/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
     },
     {
       "id": "github-825062151",
@@ -8575,13 +8575,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-30T19:18:58Z",
-      "lastModified": "2026-10-23T17:52:20Z",
+      "lastModified": "2026-10-26T02:13:51Z",
       "source": "github",
       "url": "https://github.com/realSilasYang/key-mouse-remapper-assistant",
       "stars": 1,
       "forks": 0,
       "owner": "realSilasYang",
-      "code": "```cpp\n; ============================================\n; Repository: realSilasYang/key-mouse-remapper-assistant\n; ============================================\n; URL: https://github.com/realSilasYang/key-mouse-remapper-assistant\n; Stars: 1 | Forks: 0\n; Last Updated: 10/23/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射小助手\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/realSilasYang/key-mouse-remapper-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/realSilasYang/key-mouse-remapper-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <key-mouse-remapper-assistant>\n\n; Example initialization\nclass KeyMouseRemapperAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"key-mouse-remapper-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyMouseRemapperAssistantExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: realSilasYang/key-mouse-remapper-assistant\n; ============================================\n; URL: https://github.com/realSilasYang/key-mouse-remapper-assistant\n; Stars: 1 | Forks: 0\n; Last Updated: 10/26/2026\n; License: MIT License\n;\n; Description:\n; 基于 AutoHotkey v2 与 Windows Raw Input 的键鼠重映射小助手\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/realSilasYang/key-mouse-remapper-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/realSilasYang/key-mouse-remapper-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <key-mouse-remapper-assistant>\n\n; Example initialization\nclass KeyMouseRemapperAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"key-mouse-remapper-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyMouseRemapperAssistantExample()\n```"
     },
     {
       "id": "github-1318618243",
@@ -12866,13 +12866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-10-25T23:26:24Z",
+      "lastModified": "2026-10-26T01:49:41Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 1,
       "forks": 0,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/25/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/26/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
@@ -13047,18 +13047,21 @@
         "github",
         "repository",
         "autohotkey",
+        "autohotkey-v2",
+        "automation",
         "source-available",
+        "vmware",
         "windows"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-21T18:14:56Z",
-      "lastModified": "2026-10-22T22:13:19Z",
+      "lastModified": "2026-10-26T01:43:42Z",
       "source": "github",
       "url": "https://github.com/Beebopcat/vm-clipboard-typer",
       "stars": 0,
       "forks": 0,
       "owner": "Beebopcat",
-      "code": "```cpp\n; ============================================\n; Repository: Beebopcat/vm-clipboard-typer\n; ============================================\n; URL: https://github.com/Beebopcat/vm-clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/22/2026\n; License: Other\n;\n; Description:\n; VM Clipboard Typer - types your clipboard into VMware consoles that don't accept paste, one exact keystroke at a time (AutoHotkey v2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Beebopcat/vm-clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Beebopcat/vm-clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vm-clipboard-typer>\n\n; Example initialization\nclass VmClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vm-clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VmClipboardTyperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Beebopcat/vm-clipboard-typer\n; ============================================\n; URL: https://github.com/Beebopcat/vm-clipboard-typer\n; Stars: 0 | Forks: 0\n; Last Updated: 10/26/2026\n; License: Other\n;\n; Description:\n; VM Clipboard Typer - types your clipboard into VMware consoles that don't accept paste, one exact keystroke at a time (AutoHotkey v2).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Beebopcat/vm-clipboard-typer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Beebopcat/vm-clipboard-typer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <vm-clipboard-typer>\n\n; Example initialization\nclass VmClipboardTyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"vm-clipboard-typer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VmClipboardTyperExample()\n```"
     },
     {
       "id": "github-1429374079",
@@ -13112,21 +13115,22 @@
       "tags": [
         "github",
         "repository",
+        "accessibility",
         "autohotkey",
+        "autohotkey-v2",
         "ocr",
-        "source-available",
-        "text-to-speech",
-        "windows"
+        "rapidocr",
+        "source-available"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-20T18:54:25Z",
-      "lastModified": "2026-10-22T22:13:56Z",
+      "lastModified": "2026-10-26T01:43:40Z",
       "source": "github",
       "url": "https://github.com/Beebopcat/ocr-boxes",
       "stars": 0,
       "forks": 0,
       "owner": "Beebopcat",
-      "code": "```cpp\n; ============================================\n; Repository: Beebopcat/ocr-boxes\n; ============================================\n; URL: https://github.com/Beebopcat/ocr-boxes\n; Stars: 0 | Forks: 0\n; Last Updated: 10/22/2026\n; License: Other\n;\n; Description:\n; Read visible on-screen text aloud with adjustable OCR boxes (Windows, AutoHotkey v2). Source-available, all rights reserved.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Beebopcat/ocr-boxes.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Beebopcat/ocr-boxes/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ocr-boxes>\n\n; Example initialization\nclass OcrBoxesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ocr-boxes loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OcrBoxesExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Beebopcat/ocr-boxes\n; ============================================\n; URL: https://github.com/Beebopcat/ocr-boxes\n; Stars: 0 | Forks: 0\n; Last Updated: 10/26/2026\n; License: Other\n;\n; Description:\n; Read visible on-screen text aloud with adjustable OCR boxes (Windows, AutoHotkey v2). Source-available, all rights reserved.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Beebopcat/ocr-boxes.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Beebopcat/ocr-boxes/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ocr-boxes>\n\n; Example initialization\nclass OcrBoxesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ocr-boxes loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OcrBoxesExample()\n```"
     },
     {
       "id": "github-854130740",
@@ -13370,13 +13374,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-24T19:17:59Z",
-      "lastModified": "2026-10-24T19:20:46Z",
+      "lastModified": "2026-10-26T02:08:26Z",
       "source": "github",
       "url": "https://github.com/CoreyAllenAudio/itsc-autohotkey",
       "stars": 0,
       "forks": 0,
       "owner": "CoreyAllenAudio",
-      "code": "```cpp\n; ============================================\n; Repository: CoreyAllenAudio/itsc-autohotkey\n; ============================================\n; URL: https://github.com/CoreyAllenAudio/itsc-autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/24/2026\n; License: MIT License\n;\n; Description:\n; A starter toolkit of AutoHotkey v2 scripts for IT support work in the office or at home.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CoreyAllenAudio/itsc-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CoreyAllenAudio/itsc-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <itsc-autohotkey>\n\n; Example initialization\nclass ItscAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"itsc-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ItscAutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CoreyAllenAudio/itsc-autohotkey\n; ============================================\n; URL: https://github.com/CoreyAllenAudio/itsc-autohotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/26/2026\n; License: MIT License\n;\n; Description:\n; A starter toolkit of AutoHotkey v2 scripts for IT support work in the office or at home.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CoreyAllenAudio/itsc-autohotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CoreyAllenAudio/itsc-autohotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <itsc-autohotkey>\n\n; Example initialization\nclass ItscAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"itsc-autohotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ItscAutohotkeyExample()\n```"
     },
     {
       "id": "github-1432502460",
@@ -13470,7 +13474,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-26T00:11:12Z",
-      "lastModified": "2026-10-26T00:11:54Z",
+      "lastModified": "2026-10-26T00:44:45Z",
       "source": "github",
       "url": "https://github.com/juampi20/keystone",
       "stars": 0,
