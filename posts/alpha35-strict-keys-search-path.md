@@ -1,6 +1,6 @@
 # AutoHotkey v2.1-alpha.35: Strict Keys and a Search Path That Follows the File
 
-Alpha.35 was tagged on October 11, 2026, and has two themes. In v2.1 mode `Map` and `Array` stop guessing about key types: a `Float` key or index is a `TypeError`. And `#Include <Name>` and `#Import` get a real search path, starting with the directory of the including file, plus an `AhkLibPath` environment variable that replaces the whole list. Three short scripts, one per idea.
+Alpha.35 (October 11, 2026) has two themes: in v2.1 mode a `Float` key or index is a `TypeError`, and `#Include <Name>` and `#Import` get a real search path with an `AhkLibPath` override.
 
 **`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
@@ -12,7 +12,7 @@ Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "
 
 ## 1. A `Float` key is a bug, and now it says so
 
-Bucketing by tens with integer division gives `Integer` keys; one stray `/` instead of `//` gives `4.5`, which the `Map` used to store as a second key beside `4`, so the lookup that followed found nothing. In v2.1 mode the write throws `TypeError` "Expected an Integer but got a Float." and stores nothing, which points at the real fix, an explicit `Integer()`. `Array` gets the same treatment: `arr[1.0]` and `arr[""]` throw "Invalid index." where `1.0` used to be accepted and `""` threw `IndexError`. The top-level `#Requires` is what selects v2.1 mode; without it the old behaviour stays.
+A stray `/` instead of `//` makes a `4.5` key, which `Map` used to store beside `4`. In v2.1 mode the write throws `TypeError` "Expected an Integer but got a Float.", and `arr[1.0]` and `arr[""]` throw "Invalid index." the same way. The top-level `#Requires` is what selects v2.1 mode.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.35
@@ -63,7 +63,7 @@ Source: [`01_strict_keys.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/m
 
 ## 2. The search path follows the including file
 
-`#Include <Name>` now looks in the directory of the including file before the module's `Lib\`, the script's `Lib\`, the user library and the standard library, and in v2.1 mode `<A_B>` no longer falls back to `A.ahk`. So a helper private to one subsystem can live next to that subsystem's file. The script includes `tools\Report.ahk` by a relative path; `Report.ahk` does `#Include <Fmt>` and `Fmt.ahk` sits in `tools\`, where only the new rule finds it. Before alpha.35, and in v2.0 mode today, that nested include fails with "Script library not found."
+`#Include <Name>` now looks in the including file's directory before any `Lib\` folder, and in v2.1 mode `<A_B>` no longer falls back to `A.ahk`. `Report.ahk` includes `<Fmt>` from its own `tools\` folder, which before alpha.35 failed with "Script library not found."
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.35
@@ -103,7 +103,7 @@ Source: [`02_library_search.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blo
 
 ## 3. `AhkLibPath` as a per-process library switch
 
-Library lookup happens at load time, so the script writes a one-line child script and a library to a temp folder and runs the child through `RunWait(A_ComSpec ' /c ""' A_AhkPath '" /ErrorStdOut "' script '" > log 2>&1"')`, which captures output and load errors from the GUI executable too. With `AhkLibPath` naming the folder the child finds `Greet.ahk`, with it cleared the child fails with "Script library not found.", and with two folders listed the first one that has the file wins. Before alpha.35 there was no override. On the official alpha.35 build a listed folder that does not exist made every later entry vanish; the +Console fork fixed that on October 12 and upstream took the fix in alpha.36 (`abe3ff20`).
+The script writes a child script and a library to a temp folder and runs the child through `RunWait(A_ComSpec ...)` with `/ErrorStdOut`, so load errors are captured too. With `AhkLibPath` set the child finds `Greet.ahk`, cleared it fails, and with two folders listed the first match wins. On the official alpha.35 build a missing folder in the list hid every later one; the fork fixed it and upstream took the fix in alpha.36 (`abe3ff20`).
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.35

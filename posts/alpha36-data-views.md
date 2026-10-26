@@ -1,8 +1,8 @@
 # AutoHotkey v2.1-alpha.36: Objects That View Memory, and Three Errors That Finally Fire
 
-Alpha.36 (October 18, 2026) adds one function, `ObjCreateWithDataPtr(ClassObj, Address)`, which makes an instance of any directly constructible class whose data pointer is `Address`, and fixes three alpha-only bugs: an `AhkLibPath` folder after a missing one was ignored, `RegExMatchInfo()` and five other native classes built an unusable object instead of throwing, and a local silently shadowed a `#Import` inside a function.
+Alpha.36 (October 18, 2026) adds `ObjCreateWithDataPtr(ClassObj, Address)`, any constructible class over a given address, and fixes three alpha-only bugs: `AhkLibPath` after a missing folder, native classes such as `RegExMatchInfo()` constructing garbage, and a local shadowing a function-level `#Import`.
 
-The official build has two problems the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) fixed before shipping it (`a41db9a1`, `f24c23d1`): `ObjCreateWithDataPtr(Map, addr)` stores the pointer over the `Map`'s own fields and corrupts the heap, and every struct view can grow ad-hoc properties, which alpha.35 refused. The upstream report is [`docs/upstream/alpha36-createstructptr-offset.md`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/docs/upstream/alpha36-createstructptr-offset.md).
+The official build corrupts the heap on `ObjCreateWithDataPtr(Map, addr)` and lets struct views grow properties; the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) fixed both (`a41db9a1`, `f24c23d1`), report in [`docs/upstream/alpha36-createstructptr-offset.md`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/docs/upstream/alpha36-createstructptr-offset.md).
 
 **`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
@@ -14,7 +14,7 @@ Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "
 
 ## 1. Pixel views over a raw buffer
 
-The viewing class can be an ordinary one with methods, not a struct: `Pixel` has four `UInt8` typed properties, a `Hex` getter and a `Fade` method, and `View(i)` returns an instance four bytes into an RGBA buffer, so writing through it writes the buffer. `Tracked` shows the lifecycle rules, `__Init` and `__New` skipped but `__Delete` run on release, and the last section covers numeric classes, address 0 (accepted here, rejected by `Int32.At`) and `ObjGetDataPtr`. Before alpha.36 only `StructClass.At` could view memory.
+`Pixel`, an ordinary class with four `UInt8` typed properties and methods, views four bytes of an RGBA buffer per instance; writes go to the buffer. `__Init` and `__New` are skipped, `__Delete` runs on release. Address 0 is accepted, unlike `Int32.At`.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.36
@@ -90,7 +90,7 @@ Source: [`01_data_views.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/ma
 
 ## 2. `Invalid base.`: a factory that can tell constructible from not
 
-`RegExMatchInfo()`, `File()`, `Func()`, `BoundFunc()`, `Closure()` and `Enumerator()` used to return a plain `Object` on the native prototype that crashed on its first native method; now each throws `ValueError` "Invalid base.", so a generic `Construct(cls, args*)` can separate the classes you may instantiate from the ones only the engine builds. `(Object.Call)(Class)` refuses the same classes and, as a side effect, now accepts `Struct`. Section 3 is the fork fix: `Pt.At(ptr).foo := 1` throws `PropertyError` again, where the official alpha.36 build prints `own property accepted`.
+`RegExMatchInfo()`, `File()`, `Func()`, `BoundFunc()`, `Closure()` and `Enumerator()` now throw `ValueError` "Invalid base." instead of building an object that crashes on first use, so `Construct(cls, args*)` can tell the two kinds apart. Section 3 is the fork fix: `Pt.At(ptr).foo := 1` throws `PropertyError` again.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.36
@@ -166,7 +166,7 @@ Source: [`02_constructor_errors.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs
 
 ## 3. Load-time checks: `AhkLibPath` after a missing folder, and `#Import` clashes
 
-Both fixes happen while a script loads, so this script writes small scripts to a temp folder and runs each in a child AutoHotkey with `/ErrorStdOut`. With `AhkLibPath` set to `does-not-exist;lib`, `#Include <Greet>` failed on the official alpha.35 build and prints `found Greet.ahk` here (the fork's fix of October 12, upstream `abe3ff20`). The two `#Import Settings {Timeout}` children, one beside a `local Timeout` and one beside a parameter `Timeout`, are now load errors naming the conflict, where alpha.35 let the local win and `F()` returned 5. One trap: a continuation section processes backticks in the parent, so the child's `` `n `` is written ``` ``n ```.
+Each check runs a child script with `/ErrorStdOut`. `AhkLibPath` set to `does-not-exist;lib` now finds `<Greet>` (fork fix, upstream `abe3ff20`), and `#Import Settings {Timeout}` beside a `local` or parameter `Timeout` is now a load error. In a continuation section the child's `` `n `` must be written ``` ``n ```.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.36

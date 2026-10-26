@@ -1,8 +1,6 @@
 # AutoHotkey v2.1-alpha.30: Void Returns and Three Removals
 
-Alpha.30 shipped on May 22, 2026 (upstream tag `v2.1-alpha.30`), twenty upstream commits and the largest release in the series so far. One addition: `"Void"` as a return type for `DllCall`, `ComCall` and `CallbackCreate`. Three removals that finish the typed-property clean-up: `a?.()` and `a?.[]` are gone in favour of `(a?)()` and `(a?)[]`, the string type names `i32`, `u32` and friends are gone in favour of the classes, and a bare size in a struct field (`buf: 32`) is gone. Around them, a sweep of fixes in `String()`, `StrGet`, references and class objects.
-
-If you have alpha.29 code, the removals are load errors, so migration is not optional. The four scripts below show the replacement for each one as something you would actually write, plus the new `Void` and the fixes. They run on the `2.1-alpha.37+Console` build and use alpha.30 syntax only.
+Alpha.30 (May 22, 2026) adds `"Void"` as a return type for `DllCall`, `ComCall` and `CallbackCreate`, and removes three things: `a?.()` and `a?.[]` (now `(a?)()` and `(a?)[]`), the string type names `i32`, `u32` and friends (now the classes), and bare-size struct fields (`buf: 32`). The removals are load errors, so alpha.29 code has to migrate; the four scripts show each replacement, plus the fixes.
 
 **`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
@@ -14,11 +12,7 @@ Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "
 
 ## 1. `"Void"`: a call with no value
 
-Win32 is full of functions that return nothing. Before alpha.30 you still had to name a return type, so `DllCall("GetLocalTime", "Ptr", st, "Int")` produced whatever was in the return register, and that number could be assigned, compared or logged by accident. With `"Void"` the expression has no value: `??` sees `unset`, and a plain assignment is an `UnsetError` at the call site. The script fills a `SYSTEMTIME` struct through `GetLocalTime`, shows both readings of the result, and shows that `"Void"` in a parameter slot is a `ValueError`.
-
-Section 4 is the `CallbackCreate` side. The type array is `[param types..., return type]`, and `"Void"` in the last slot means the AutoHotkey function may fall off the end. With `Int32` there instead, the same handler fails inside the callback with "Expected a Number but got an unset.", and that error is raised on the callback's own thread, so a `try` around the `DllCall` does not catch it. I found that out by trying.
-
-Before alpha.30, `"Void"` was not a type and the call returned a meaningless integer.
+`"Void"` gives a call no value: `??` sees `unset` and a plain assignment throws at the call site, where before you had to name a type and got whatever was in the return register. The script fills a `SYSTEMTIME` through `GetLocalTime`, shows that `"Void"` in a parameter slot is a `ValueError`, and uses it as the last entry of a `CallbackCreate` type array so the handler may fall off the end. With `Int32` there instead the handler fails on the callback's own thread, where a `try` around the `DllCall` cannot catch it.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.30
@@ -104,11 +98,7 @@ Source: [`01_void_return.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/m
 
 ## 2. `(a?)()` and `(a?)[]`
 
-The maybe-call and maybe-index shorthands were removed because `?.` already means maybe-property and stacking `()` or `[]` on it was ambiguous. The replacement is to parenthesise the maybe: `(cb?)(item)` is `unset` when `cb` is, and a call applied to `unset` short-circuits, so an emitter with optional hooks (`Run`) calls each one only if it was supplied and needs no `IsSet` per hook. `(list?)[1] ?? "(empty)"` does the same for an optional collection.
-
-Two parser fixes travel with the removal. `cfg?.%key%` (maybe-property with a dynamic name) was a syntax error and now works, which gives `Setting` one path for "no config object"; a config object that lacks the key is still a `PropertyError`, so that case stays behind a `HasOwnProp` guard. And `!a ?? b` and `b + a ?? c` are rejected at load time until you add parentheses. While checking the other grouping I learned that `(!b) ?? a` is rejected for a different reason: the left side of `??` has to be something that can be unset.
-
-Before alpha.30, `cb?.(item)` and `list?.[1]` were the spellings; they no longer load.
+`cb?.(item)` and `list?.[1]` no longer load; write `(cb?)(item)` and `(list?)[1]`, which short-circuit to `unset` when the variable is unset. The script's emitter calls each optional hook that way with no `IsSet` per hook, and `(list?)[1] ?? "(empty)"` handles an optional collection. Also fixed: `cfg?.%key%` now parses (it covers an unset receiver only; a missing key is still a `PropertyError`), and `!a ?? b` and `b + a ?? c` are rejected until parenthesised.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.30
@@ -178,11 +168,7 @@ Source: [`02_maybe_call_index.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/b
 
 ## 3. Struct fields name a class
 
-The string shorthands (`i8`, `i16`, `i32`, `i64`, `u8`, `u16`, `u32`, `f32`, `f64`, `ptr`) are replaced by the classes `Int8` through `IntPtr`, and the bare-size field (`buf: 32`) is replaced by a typed array such as `Int8[4]`, which is indexable and has a `Length`, two things the raw region never had. The script builds a `Record` with a nested `Point`, a four-byte tag array and a `Float64`, and prints the sizes so the padding is visible: 24 bytes, with the `UInt16` id padded to the `Point` boundary and the array padded to the `Float64`.
-
-Section 3 is the pattern for data whose size is not a constant: keep a `Buffer` beside the struct and pass its pointer where the API wants one. Section 4 is the `UInt64` question, since no such class exists: store the value in an `Int64` and split it into two `UInt32` halves with a shift and a mask when you need the unsigned reading.
-
-Before alpha.30, `x: i32` and `tag: 4` loaded; on alpha.30 both are load errors.
+`i8` to `ptr` are replaced by the classes `Int8` to `IntPtr`, and `buf: 32` by a typed array such as `Int8[4]`, which is indexable and has a `Length`. The script builds a `Record` with a nested `Point`, a tag array and a `Float64` and prints the sizes so the padding is visible, keeps a `Buffer` beside the struct for variable-size data, and splits an `Int64` into two `UInt32` halves since no `UInt64` class exists.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.30
@@ -261,11 +247,7 @@ Source: [`03_typed_structs.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob
 
 ## 4. Four fixes, four removed special cases
 
-`String(obj)` used to crash the interpreter when the object's `ToString` returned nothing; now the result is `unset`, so `String(v) ?? "(no text)"` is a complete `Describe`. `StrGet(buf, 0)` returned an `Integer` (the pointer) since alpha.28 and returns an empty `String` again, so a length-prefixed reader can pass zero straight through. Assigning `unset` through a `&ref` parameter was rejected and now leaves the caller's variable unset, which is exactly what a `TryParse` should do on failure instead of storing `""`. And `ClassObj.Base := Other`, broken by alpha.28, works again, so static members can be inherited after the fact.
-
-The release notes also list `DllCall` propagating an exception thrown by an output argument's `__Value` getter, `Struct.Ptr()` on the class object no longer crashing, `StructClass.Ptr().__Value := unset` working, a `TraySetIcon("HBITMAP:" h)` fix and `ControlGetItems` throwing on a Tab control. I did not build demonstrations for those; the first needs an output-typed struct argument whose getter throws, and the rest are GUI or crash cases that do not print anything useful.
-
-Before alpha.30, `String(Silent())` crashed, `Type(StrGet(buf, 0))` was `Integer`, `out := unset` through a reference was an error, and `Widget.Base := Plugin` failed.
+`String(obj)` returns `unset` instead of crashing when `ToString` returns nothing, so `String(v) ?? "(no text)"` is a complete `Describe`. `StrGet(buf, 0)` returns an empty `String` again, not the pointer. Assigning `unset` through a `&ref` parameter leaves the caller's variable unset, which is what a `TryParse` wants on failure. `ClassObj.Base := Other` works again. The release also fixes `Struct.Ptr()` on a class object, `TraySetIcon("HBITMAP:")` and `ControlGetItems` on a Tab control, not shown here.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.30
@@ -346,9 +328,9 @@ Source: [`04_small_fixes.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/m
 
 ## Things I tripped over writing these
 
-- **An error inside a callback is not catchable at the `DllCall`.** A typed `Int32` return with a handler that returns nothing ends the script from the callback's thread. Use `"Void"` or return a number.
-- **`??` needs a left side that can be unset.** `(!b) ?? a` and `(b + 1) ?? 0` are load errors, so the "other grouping" of the ambiguous forms cannot be written that way.
-- **`cfg?.%key%` does not cover a missing key.** It short-circuits on an unset receiver only; a present object without the property still throws `PropertyError`.
+- An error inside a callback is not catchable at the `DllCall`; use `"Void"` or return a number.
+- `??` needs a left side that can be unset: `(!b) ?? a` is a load error.
+- `cfg?.%key%` short-circuits on an unset receiver only.
 
 ---
 

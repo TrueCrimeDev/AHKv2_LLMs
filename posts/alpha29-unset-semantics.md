@@ -1,8 +1,6 @@
 # AutoHotkey v2.1-alpha.29: When Nothing Is a Value
 
-Alpha.29 shipped on May 10, 2026 (upstream tag `v2.1-alpha.29`). It is a small release with one theme: in v2.1 mode, "no value" is `unset`, not an empty string. The maybe operator `?` now short-circuits almost every operator, a function that has a `return expr` somewhere but falls off the end returns `unset`, a fat-arrow tail call passes a blank return through, and a long list of built-ins return `unset` where they used to hand back `""` or `0`.
-
-None of that sounds like much until you write code against it. The point of `unset` is that it cannot be mistaken for data: an empty string is a perfectly good value, but `unset` either reaches a `??` or `IsSet`, or it throws at the line that tried to use it. Three scripts below, one per theme, each built around a pattern the change makes shorter. They run on the `2.1-alpha.37+Console` build; everything in them is alpha.29 syntax, so nothing from later releases is used.
+Alpha.29 (May 10, 2026) has one theme: in v2.1 mode "no value" is `unset`, not `""`. The maybe operator `?` short-circuits through almost every operator, a function that falls off the end after a `return expr` returns `unset`, fat-arrow tail calls pass a blank return through, and many built-ins return `unset` where they returned `""` or `0`.
 
 **`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
@@ -14,11 +12,7 @@ Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "
 
 ## 1. Optional values flow through operators
 
-`var?` turns an unset variable into a sentinel instead of an error. What alpha.29 adds is reach: the sentinel passes through `*`, `>`, `.`, `||`, the ternary and the rest, turning the whole subexpression into `unset`, so you write the fallback once at the outside with `??`. The script uses that for optional parameters in arithmetic (`Scale`), optional limits in comparisons (`Over`), optional pieces of a string (`Label`) and an optional flag in a ternary (`Describe`), each as a one-line function with no `IsSet` branch.
-
-Section 5 is the parser bug the release fixed: `(() => a? || 1)()` used to fail to load. Section 6 records the two things `?` still cannot do. It applies to a variable only, and the parser still has to decide whether a `?` opens a ternary: `missing? + 1` reads as `missing ? +1 : ...` and is rejected, and so was a `suffix? . ")"` I tried first. Writing the maybe as `(var?)` removes the ambiguity in every position, which is why section 3 does.
-
-Before alpha.29, an unset operand inside `*` or `>` raised "This variable has not been assigned a value." even with the `?` present.
+`var?` turns an unset variable into a sentinel, and alpha.29 lets that sentinel pass through `*`, `>`, `.`, `||` and the ternary, so one `??` at the outside covers the whole expression. The script writes `Scale`, `Over`, `Label` and `Describe` as one-liners with no `IsSet` branch, shows the fixed `(() => a? || 1)()` parser bug, and shows the limits: `?` applies to a variable only, and `missing? + 1` parses as a ternary, so write `(var?)`.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.29
@@ -88,11 +82,7 @@ Source: [`01_maybe_operator.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blo
 
 ## 2. Functions that return nothing now say so
 
-Two return-convention changes share a script. First, in v2.1 mode a function with at least one `return expr` that falls off the end returns `unset`, not `""`. `FindIndex` has no sentinel value: it returns an index or nothing, and the caller picks the fallback with `??`. Assigning the nothing is an `UnsetError` at that line, which is the feature: a forgotten branch surfaces where it happens instead of as an empty string three calls later.
-
-Second, a fat-arrow tail call passes a blank-unset return through. `Forward(c) => c.Reset()` used to produce `""` whatever `Reset` did; now it produces nothing, through any depth of forwarding. Section 4 shows the limit I ran into: the propagation covers blank-unset only. The `unset` that `EvenOrUnset` returns by falling through counts as an explicit "no value", so `Wrap(n) => EvenOrUnset(n)` throws at its own expression, and the `??` belongs inside the wrapper. Section 5 confirms that a function with no `return expr` at all is unchanged.
-
-Before alpha.29, `FindIndex` returned `""` on a miss and `Forward(c)` returned `""` always.
+In v2.1 mode a function with a `return expr` somewhere that falls off the end returns `unset`, so `FindIndex` returns an index or nothing and the caller picks the fallback with `??`; assigning the nothing throws where it happens. A fat-arrow tail call such as `Forward(c) => c.Reset()` now passes a blank return through instead of producing `""`. Only a bare `return` propagates: `Wrap(n) => EvenOrUnset(n)` throws when the callee falls through, so the `??` belongs inside the wrapper.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.29
@@ -192,11 +182,7 @@ Source: [`02_unset_returns.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob
 
 ## 3. Built-ins that return `unset`
 
-The broad part of the release is a pass over built-ins that used to return `""` or `0` for "nothing there". `ObjGetBase` and `.Base` return `unset` past `Any.Prototype`, so a prototype-chain walk is a `loop ... until !IsSet(p)` with no string compare. `RegExMatch` leaves its output variable unset on a miss, so a tokenizer tests `IsSet(m)` instead of `m[0] = ""`. `Array.RemoveAt`, `Pop` and `Delete` return `unset` for a hole (a `Pop` on an empty array still throws "Array is empty", which I checked). `GetMethod`, `DeleteProp` and `GetOwnPropDesc` return `unset` for a missing member, which makes `CallIfPresent` three lines. The Gui and Menu handle lookups, `Gui.MenuBar`, `Gui.FocusedCtrl`, `Gui[name]` and the `InputHook` handlers do the same; the script creates a `Gui` to read them but never shows it.
-
-One idiom worth noting from sections 1 and 4: `p := ObjGetBase(p) ?? unset` is how you move an unset result into a local without throwing, so the next line can `IsSet` it.
-
-Before alpha.29 these returned `""`, so the chain walk needed a `= ""` test and a regex miss looked like an empty match.
+Built-ins that used to return `""` or `0` for "nothing there" now return `unset`: `ObjGetBase` and `.Base` past `Any.Prototype`, `RegExMatch`'s output variable on a miss, `RemoveAt`, `Pop` and `Delete` on a hole, `GetMethod`, `DeleteProp` and `GetOwnPropDesc` on a missing member, and the Gui, Menu and `InputHook` lookups. The script walks a prototype chain with `until !IsSet(p)`, tokenizes with `IsSet(m)`, and writes `CallIfPresent` in three lines. `p := ObjGetBase(p) ?? unset` moves an unset result into a local without throwing.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.29
@@ -308,11 +294,9 @@ Source: [`03_builtins_unset.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blo
 
 ## Things I tripped over writing these
 
-- **`??` needs a left side that can be unset.** `(b + 1) ?? 0` and `(!b) ?? a` are load errors ("Unexpected ?"), not no-ops.
-- **`?` before `+` or `-` is a ternary to the parser.** `missing? + 1` fails to load; `(missing?) + 1` works. The same happened with `suffix? . ")"`. Parenthesise the maybe.
-- **`?` is for variables.** `(expr)?` is a syntax error, so put the `??` outside and let the sentinel reach it.
-- **Explicit unset is not forwarded by tail calls.** `Wrap(n) => EvenOrUnset(n)` throws when `EvenOrUnset` falls through; only a bare `return` propagates.
-- **`Pop` on an empty array throws.** Only a hole returns `unset`; the script extends an array with `Length := 2` to make one.
+- `??` needs a left side that can be unset: `(b + 1) ?? 0` is a load error.
+- `missing? + 1` parses as a ternary; write `(missing?) + 1`.
+- `Pop` on an empty array still throws; only a hole returns `unset`.
 
 ---
 

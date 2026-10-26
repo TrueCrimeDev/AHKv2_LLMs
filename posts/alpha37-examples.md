@@ -1,10 +1,8 @@
 # AutoHotkey v2.1-alpha.37: Five Scripts for the New Syntax
 
-Alpha.37 landed on October 25, 2026. It is a DllCall and Struct release: `unset` is a null pointer for `Str` and pointer parameters, a struct class takes its field values as constructor arguments, `IsSet` accepts a property or a call without a written `?`, `Struct.At` works on `Struct` itself, and a numeric struct instance passes its value to C. Five crashes or silent memory writes became catchable errors.
+Alpha.37 (October 25, 2026) is a DllCall and Struct release: `unset` as a null pointer, struct constructors that take field values, `IsSet` on properties and calls, `Struct.At` on `Struct` itself, numeric structs by value, and five crashes turned into errors.
 
-The release notes list those changes one line each. This post takes a different angle: five short scripts, one per change, each built around something the change makes *pleasant* rather than merely possible. Every script runs with exit 0 on the `2.1-alpha.37+Console` build and prints what the engine does; the comments record what alpha.36 did instead. The same scripts, with a longer header comment, live in the fork repository under [`examples/alpha37/`](https://github.com/TrueCrimeDev/AutoHotkey/tree/alpha/examples/alpha37).
-
-One caveat up front. The forum announcement went out before the `v2.1-alpha.37` tag was pushed, so as of writing the only build that runs these scripts is the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey), built from upstream commit `279247ee` plus fixes for five regressions the alpha.37 commits introduced. Script 5 shows one of those fixes, and the section says so.
+The tag was not pushed when the announcement went out, so for now these run only on the [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey), which also fixes five regressions the alpha.37 commits introduced (`a911f73d`). The scripts also live there under [`examples/alpha37/`](https://github.com/TrueCrimeDev/AutoHotkey/tree/alpha/examples/alpha37).
 
 **`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
@@ -16,11 +14,7 @@ Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "
 
 ## 1. Struct literals: `POINT(10, 20)`
 
-`Struct.Prototype.__New(fieldValues*)` is the change most people will feel first. Calling a struct class with arguments fills its fields in declaration order, so a `POINT` or `RECT` is one expression instead of four assignment lines. The count must match exactly, and a script-defined `__New` can delegate to `super.__New` to validate or normalize before storing.
-
-The interesting consequence is that structs stop needing names. A `POINT` built inside a `DllCall` argument list is passed to `PtInRect` by value and discarded. A table of corners is a single array literal. And `Span(90, 30)` stores `30..90` because its constructor sorts the arguments on the way through `super.__New`.
-
-Before alpha.37, `POINT(10, 20)` threw "Too many parameters passed to function."
+Calling a struct class with arguments fills its fields in order, so `POINT(10, 20)` replaces four assignments; the count must match, and a script `__New` can normalize through `super.__New`. The script passes a `POINT` straight into `PtInRect`, builds a table of corners in one literal, and `Span(90, 30)` sorts its arguments. Before: "Too many parameters passed to function."
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.37
@@ -99,11 +93,7 @@ Source: [`01_struct_constructors.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLM
 
 ## 2. `IsSet(obj.prop)` and `IsSet(f())`
 
-`IsSet` used to accept only a variable or an explicitly optional expression such as `IsSet(o.b?)`. Now a property access or a call without the `?` is read as if it had one. That turns two common questions into one short test each: *is this property there?* and *did this call return a value?*
-
-The script uses it five ways. Settings with defaults fall through from a user object to a defaults object with `IsSet(user.%name%)`. A finder function returns nothing instead of a sentinel, and the caller tests the call itself. Feature detection on objects you did not write becomes `IsSet(obj.Describe)`. A `Button` class declares `onClick => unset` as an empty slot that a wired instance fills with `DefineProp`. The last section shows the one rule to remember: only the final access is optional, so `IsSet(cfg.disk.path)` still throws when `cfg.disk` itself is missing.
-
-Before alpha.37, `IsSet(o.prop)` was a load-time error: "IsSet requires a variable or unset expression."
+`IsSet(obj.prop)` and `IsSet(f())` no longer need a written `?`. The script uses that for settings with defaults, a finder that returns nothing, feature detection, and a `Button` with `onClick => unset` as an empty slot. Only the last access is optional: `IsSet(cfg.disk.path)` still throws when `cfg.disk` is missing.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.37
@@ -187,11 +177,7 @@ Source: [`02_isset_properties.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/b
 
 ## 3. `unset` as a null pointer in DllCall
 
-Many Win32 functions take an optional pointer: pass NULL and they skip that output, answer a size query, or mean "the current module". That used to require `"Ptr", 0` and a lie about the parameter's type. In alpha.37 a `"Str"`, `"*"` or `"P"` parameter keeps its type and `unset` is the null pointer.
-
-Two spellings look alike and mean different things. `"UInt*", unset` passes NULL with no variable involved. `"UInt*", &v := unset` passes the address of `v`, which then receives the output. The script shows a `GetCurrentDirectoryW` size query, `GetModuleHandleW(NULL)`, skipping the process-id output of `GetWindowThreadProcessId`, and a proof via `_wcsdup` that the pointer really is 0 rather than a pointer to an empty string. The last section is the pattern I expect to see most: a wrapper with an optional by-reference parameter that passes NULL when the caller did not ask for the output.
-
-Before alpha.37 both `"Str", unset` and `"Int*", unset` threw "Missing a required parameter."
+A `"Str"`, `"*"` or `"P"` parameter now takes `unset` as NULL, so no more `"Ptr", 0`. `"UInt*", unset` is NULL; `"UInt*", &v := unset` is the address of `v`. The script does a size query, `GetModuleHandleW(NULL)`, a skipped output, proof via `_wcsdup` that the pointer is 0, and a wrapper with an optional `&param`.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.37
@@ -256,9 +242,7 @@ Source: [`03_dllcall_unset_null.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs
 
 ## 4. Numeric structs by value, and `Struct.At` as an address carrier
 
-Two smaller changes share a script. First, `DllCall(..., Int32, n, ...)` with `n := Int32()` now passes the instance's *value*, the same as `"Int", n.__Value`. Before, `Int32` threw `TypeError` "Expected a Number but got an Int32." and `Int64` corrupted memory. A typed default parameter such as `Clamp(v, lo := Int32(), hi := Int32())` therefore works as a real typed zero, and the same instance can still go by pointer through `.Ptr` when the callee writes back.
-
-Second, `Struct.At(ptr)` no longer needs a subclass. It returns a zero-size view whose only job is to carry an address, which other struct classes then reinterpret with their own `.At`. The script walks a packed array of `Pair` records with nothing but that address and `Pair().Size`. Note the instance call: `Size` is an instance property, so `Pair.Size` is a `PropertyError`.
+`DllCall(..., Int32, n)` with `n := Int32()` now passes the value, so `Clamp(v, lo := Int32(), hi := Int32())` is a real typed zero; before, `Int32` threw and `Int64` corrupted memory. `Struct.At(ptr)` works without a subclass and returns a zero-size address carrier that `Pair.At` reinterprets. `Size` is an instance property: `Pair().Size`.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.37
@@ -340,11 +324,7 @@ Source: [`04_numeric_structs_and_struct_at.ahk`](https://github.com/TrueCrimeDev
 
 ## 5. Safer errors: four crashes become `catch`
 
-Four cases that used to crash the process or write memory silently now throw an ordinary `Error` subclass. `a.b()` when `a.b => unset` throws `UnsetError` (it exited 11 before). `a.b[c]` when `a.b` is a method throws `PropertyError` (it returned silently). `NumGet`/`NumPut` with a bad type throw `ValueError` (they read or wrote a pointer-sized integer). `DllCall(..., IntPtr, obj)` with a plain object throws `TypeError` (exit 11).
-
-The first one enables a pattern worth stealing. A `Pipeline` class declares its hooks as `onStart => unset`, `onItem => unset`, `onDone => unset`, and a generic `Fire(name, args*)` method tests `IsSet(this.%name%)` before calling `this.%name%(args*)`. Subclasses or instances supply real callables; the base class runs fine with none. The `NumPut` section validates type names coming from data, which matters if your layout table is read from a file.
-
-Section 5 is fork-specific. Upstream alpha.37 commit `2f4f3967` tests whether the property returned a value *before* checking whether the getter threw, so a getter that raises `ValueError("handler is not configured")` is reported as `UnsetError` "No value was returned." and the real message is lost. The fork build (`a911f73d`) checks the result first and restores the `ValueError`; the report to upstream is in [`docs/upstream/alpha37-regressions.md`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/docs/upstream/alpha37-regressions.md) alongside four other regressions the same review found.
+`a.b()` with `a.b => unset` throws `UnsetError`, `a.b[c]` on a method throws `PropertyError`, a bad `NumPut` type throws `ValueError`, and `DllCall(..., IntPtr, obj)` throws `TypeError`; all four crashed or wrote memory before. `Pipeline` uses the first for optional hooks: `onItem => unset` plus `IsSet(this.%name%)` before the call. Section 5 is fork-specific: upstream alpha.37 reports a throwing getter as `UnsetError` "No value was returned.", the fork (`a911f73d`) keeps the real `ValueError`; see [`docs/upstream/alpha37-regressions.md`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/docs/upstream/alpha37-regressions.md).
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.37
@@ -452,12 +432,9 @@ Source: [`05_safer_errors.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/
 
 ## Things I tripped over writing these
 
-- **Calling a property calls its value as a method.** `obj.hook()` where `hook` is a getter returning a function invokes that function with `obj` as its first parameter. Every hook in scripts 2 and 5 is therefore written `(self, item) =>`. A bare `(item) =>` fails with "Too many parameters passed to function."
+- **A property call passes the object first.** Hooks are `(self, item) =>`.
 - **`Size` is an instance property.** `Pair().Size`, not `Pair.Size`.
-- **Type names match on their first letter.** `NumPut("Flaot", ...)` is accepted as `Float`, which is why script 5 uses `"Quad"` as its invalid example.
-- **Do not name a variable `type`.** It shadows the `Type()` function for the whole script. Names are case-insensitive, so `pt` and `PT` clash the same way.
-- **Forwarding an optional `&param?`** needs a branch on `IsSet(pid)`. Passing `&pid` straight through when the caller omitted it throws `UnsetError`.
-
+- **Type names match on their first letter.** `"Flaot"` is `Float`; script 5 uses `"Quad"`.
 ---
 
 ## Running them

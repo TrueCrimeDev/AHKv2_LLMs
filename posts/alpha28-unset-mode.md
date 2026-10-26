@@ -1,8 +1,6 @@
 # AutoHotkey v2.1-alpha.28: `#Requires` Decides What "Nothing" Means
 
-Alpha.28 shipped on April 26, 2026 (upstream tag `v2.1-alpha.28`). Its headline is a mode switch that most scripts will flip without noticing: `#Requires AutoHotkey v2.1-alpha.X` now puts the file into v2.1 mode, where a bare `return`, falling off the end of a function, and every built-in with nothing to report produce *no value* (unset) instead of an empty string. The separate `#DefaultReturn` directive is gone. Alongside that, reading an empty `Map` or `Array` slot raises `UnsetItemError`, a struct class's `Prototype` is read-only, `StructClass.At` accepts a struct with no fields, and two correctness bugs around `ByRef` recursion and `OnMessage` return values are fixed.
-
-Four scripts, one theme each. The first is about telling "nothing" from `""` with `??`. The second builds a sparse-slot array and a handler that distinguishes an empty item from an unset variable from a bad index. The third turns a fieldless struct into a typed window handle and uses a struct view over a buffer that contains a nested struct, which alpha.27 had broken. The fourth threads a global through recursion by reference and shows an `OnMessage` callback declining a message with a bare `return`. All four run with exit 0 on the `2.1-alpha.37+Console` build; the comments say what alpha.27 did instead.
+Alpha.28 (April 26, 2026) makes `#Requires AutoHotkey v2.1-alpha.X` select v2.1 mode: a bare `return`, falling off the end of a function, and built-ins with nothing to report yield no value (unset) instead of `""`, and `#DefaultReturn` is gone. Also: empty `Map` and `Array` slots raise `UnsetItemError`, a struct class's `Prototype` is read-only, `StructClass.At` accepts a fieldless struct, and `ByRef` recursion and `OnMessage` returns are fixed.
 
 **`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
@@ -14,11 +12,7 @@ Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "
 
 ## 1. Nothing is not the empty string
 
-The `#Requires` line at the top of the script is the whole configuration. In v2.1 mode `FindFirst` returns unset when the loop finds nothing, and the caller writes `FindFirst(...) ?? "none"`. The `Lookup` function shows why that matters: a setting whose value is the empty string is a real answer, and it no longer collides with "no such setting".
-
-The other half of the change is that using nothing is an error. `v := Bare()` throws `UnsetError` "No value was returned." rather than quietly storing `""`, and built-ins follow the same rule: `r := FileAppend(...)` throws the same way, while `FileAppend(...) ?? "ok"` is fine. Functions with a real not-found value are untouched, so `InStr` still returns 0.
-
-Before alpha.28 the same semantics needed `#DefaultReturn unset`, which no longer parses; a file that says `#Requires AutoHotkey v2.0` keeps the empty-string behaviour, and the mode is scoped per file, so an included v2.1 file does not change its includer.
+In v2.1 mode `FindFirst` returns unset when nothing matches, so the caller writes `FindFirst(...) ?? "none"` and an empty-string setting no longer collides with "no such setting". Using nothing is an error: `v := Bare()` and `r := FileAppend(...)` throw `UnsetError`, while `FileAppend(...) ?? "ok"` is fine and `InStr` still returns 0. The mode is per file: a `#Requires AutoHotkey v2.0` file keeps `""`, and an included v2.1 file does not change its includer.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.28
@@ -87,11 +81,7 @@ Source: [`01_unset_not_empty.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/bl
 
 ## 2. `UnsetItemError`: an empty slot is its own error
 
-`[1, unset, 3]` is a three-element array with a hole in the middle. `Has(2)` is 0, reading `slots[2]` throws `UnsetItemError` "Item has no value.", and `slots[2] ?? "free"` reads the hole as a default. An index outside the array is still `IndexError`. A missing `Map` key raises the same `UnsetItemError`, so one `catch` covers both containers.
-
-The `Describe` function in the script is the pattern: `catch UnsetItemError` first, `catch UnsetError` second for a variable that was never assigned, `catch IndexError` for a bad index. Because `UnsetItemError` extends `UnsetError`, an existing broad `catch UnsetError` still catches it, which the last section demonstrates. One more observation from the script: assigning `unset` to an existing `Map` key removes it, so `Count` drops and `Has` is 0 afterwards.
-
-Before alpha.28 an empty item raised the generic `UnsetError`, so a handler could not tell a hole in a container from a variable it forgot to assign.
+`[1, unset, 3]` has a hole: `Has(2)` is 0, `slots[2]` throws `UnsetItemError` "Item has no value.", `slots[2] ?? "free"` reads a default, and a missing `Map` key raises the same error. `Describe` catches `UnsetItemError`, then `UnsetError` for a never-assigned variable, then `IndexError`; since `UnsetItemError` extends `UnsetError`, an old broad catch still works. Before alpha.28 a hole and an unassigned variable were the same `UnsetError`.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.28
@@ -173,11 +163,7 @@ Source: [`02_unset_item_error.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/b
 
 ## 3. A fieldless struct as an opaque handle
 
-`StructClass.Prototype` is read-only in alpha.28 because a struct class keeps a direct pointer to its prototype and never consulted the property bag; the assignment used to be accepted and ignored, now it throws "Property is read-only."
-
-The more useful change is that `StructClass.At(ptr)` accepts a struct with no fields. A zero-field struct has `Size` 0 and carries nothing but an address, which makes it a typed handle: the `Window` struct wraps `A_ScriptHwnd`, satisfies `is Window` and `is Struct`, and answers `Class` and `Title` through ordinary properties, while a bare integer would have none of that. The last section uses a view the other way round, `RECT2.At(buf.Ptr)` over a buffer that holds a nested `POINT`, reading through the nested fields and writing `br.x` back into the buffer. That case was broken by an alpha.27 commit (`6979d3ad`) and is fixed here.
-
-Before alpha.28 `Handle.At(ptr)` on a fieldless struct threw "Invalid class", and `RECT2.At` on a struct with a nested field read the wrong memory.
+`StructClass.Prototype` is read-only now; assigning it used to be silently ignored. `StructClass.At(ptr)` accepts a fieldless struct, so `Window` with `Size` 0 wraps `A_ScriptHwnd` as a typed handle that satisfies `is Window` and answers `Class` and `Title`, where alpha.27 threw "Invalid class". The last section reads and writes through `RECT2.At(buf.Ptr)` over a nested `POINT`, which an alpha.27 commit had broken.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.28
@@ -242,11 +228,7 @@ Source: [`03_struct_prototype_and_views.ahk`](https://github.com/TrueCrimeDev/AH
 
 ## 4. `ByRef` through recursion, and declining a message
 
-`Increment(&val, limit)` calls itself with the same alias. When the alias points at a global, alpha.28 keeps it pointing there through every level, so `counter` is 3 afterwards; a local goes through the same path and ends at 5. The script prints both because the fix is exactly that there is now one rule for both kinds of variable.
-
-The `OnMessage` half pairs with the v2.1 default return. `Observer` ends with a bare `return`, which is unset in v2.1 mode; alpha.28 treats that as `""` in an `OnMessage` callback, so the message passes to `Responder`, whose numeric return ends the chain and becomes the `SendMessage` result (42 for a ping of 21). With `Responder` unregistered the observer still runs and the message falls through to default handling, which returns 0.
-
-Before alpha.28 a recursive call could back up the global alias as if it were a local and the global appeared unset on return, and an unset return from an `OnMessage` callback did not behave as pass-through.
+`Increment(&val, limit)` recurses with the same alias; a global now stays aliased through every level (`counter` ends at 3), where alpha.27 could back it up like a local and leave it unset. `Observer` declines a message with a bare `return`, which alpha.28 treats as pass-through, so `Responder` answers 42 for a ping of 21; with `Responder` unregistered the message falls through to default handling and returns 0.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.28
@@ -314,9 +296,9 @@ Source: [`04_byref_and_onmessage.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLM
 
 ## Things I tripped over writing these
 
-- **`v := f()` is an error when `f` returns nothing.** The first draft of script 1 assigned the result of `FileAppend` to show it was unset; in v2.1 mode that assignment itself throws. Test for nothing with `??`, or catch `UnsetError`.
-- **A never-assigned variable is a load-time warning.** `() => neverAssigned` makes stock AutoHotkey show a `#Warn VarUnset` dialog before the script runs. Script 2 assigns the variable on a branch that never executes, so the warning is silent and the runtime `UnsetError` still fires.
-- **`m[key] := unset` deletes the key.** It does not leave an empty item behind, so there is no way to make a `Map` raise `UnsetItemError` for a key that exists; the error is for keys that do not.
+- **`v := f()` throws when `f` returns nothing.** Test with `??` or catch `UnsetError`.
+- **A never-assigned variable is a load-time warning.** Script 2 assigns it on a dead branch so only the runtime `UnsetError` fires.
+- **`m[key] := unset` deletes the key.** A `Map` raises `UnsetItemError` only for keys that do not exist.
 
 ---
 

@@ -1,6 +1,6 @@
 # AutoHotkey v2.1-alpha.33: Modules Get Local Imports and References
 
-Alpha.33 shipped on October 3, 2026 (upstream tag `v2.1-alpha.33`). It is a small release that rounds out the module system: `#Import` works inside a function body, the reference operator works on a module object's variables, two crashes become ordinary errors, and a cluster of 32-bit struct and callback bugs is fixed. Nothing in it is breaking for x64 scripts; the scripts below keep their modules in the same file as `#Module` sections.
+Alpha.33 (October 3, 2026) rounds out modules: `#Import` inside a function, `&Module.Var`, two crashes turned into errors, and 32-bit fixes. The scripts keep their modules in the same file as `#Module` sections.
 
 **`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
@@ -12,7 +12,7 @@ Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "
 
 ## 1. `#Import` inside a function
 
-A function body may now contain `#Import`, and the names it brings in are scoped to that function, so a helper can lean on a module without adding anything to the file's namespace. The script defines two modules that both export a `PI`, one numeric and one deliberately not, and gives each function the one it wants; at the top level that would be a name conflict, and `IsSet(PI)` is still 0 there after `Area` has imported it. The last function imports a whole module as a namespace, the shape to use when a helper needs several names. Before alpha.33, `#Import` inside a function was a load error.
+`#Import` inside a function scopes the imported names to that function. The script gives two functions a different `PI` from two modules, shows `IsSet(PI)` still 0 at the top level, and imports a whole module as a namespace in a third. Before alpha.33 this was a load error.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.33
@@ -72,7 +72,7 @@ Source: [`01_import_in_function.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs
 
 ## 2. `&Module.Var`: a reference to a module variable
 
-`&Stats.Count` is now a `VarRef` to the module-level variable, so a module's state can be handed to a ByRef helper or to a built-in output parameter such as `SplitPath` without importing the name into the caller; the script does both, then holds the reference in a variable, reads and writes through `%ref%`, and releases it. That release is the part that mattered: upstream alpha.33 returned the reference without an `AddRef`, so on the official build `Bump(&Mod.X)` leaves `Mod.X` unset and `ref := ""` or script exit dies with `0xC0000374`. The [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) fixed it on the day it merged alpha.33 and wrote it up in [`docs/upstream/alpha33-module-ref-addref.md`](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/docs/upstream/alpha33-module-ref-addref.md); on the official build use `#Import Stats {Count}` and `&Count` instead. Before alpha.33, `&Stats.Count` was an error because module objects had no `__Ref`.
+`&Stats.Count` is a `VarRef` to the module variable, so the script hands module state to a ByRef helper and to `SplitPath`, then reads and writes through `%ref%`. Upstream alpha.33 shipped this without an `AddRef`: on the official build `Bump(&Mod.X)` leaves `Mod.X` unset and releasing the ref exits `0xC0000374`. The [+Console fork](https://github.com/TrueCrimeDev/AutoHotkey) fixed it ([report](https://github.com/TrueCrimeDev/AutoHotkey/blob/alpha/docs/upstream/alpha33-module-ref-addref.md)); on the official build use `#Import Stats {Count}` and `&Count`.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.33
@@ -126,7 +126,7 @@ Source: [`02_module_ref.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/ma
 
 ## 3. Two crashes become errors
 
-`a.b[c]` when `a.b` returns unset used to take the process down and now throws `UnsetError`; `ObjSetCapacity`, `ObjGetCapacity` and their relatives used to corrupt a `Struct` and now throw `TypeError`. The script shows both as catchable, with the struct intact afterwards, and the `IsSet(reg.table?)` guard that turns the first into a clean fallback. The release also fixes four 32-bit regressions from alpha.24 (`EditGetLine` and two `Control` functions, `DllCall(..., Struct.Ptr, unset)`, `Struct.Array` marshaling, and typed callbacks with 64-bit parameters), none of which an x64 script can show.
+`a.b[c]` on an unset `a.b` now throws `UnsetError` instead of killing the process, and `ObjSetCapacity` on a `Struct` throws `TypeError` instead of corrupting it. The script catches both and guards the first with `IsSet(reg.table?)`. Four 32-bit regressions from alpha.24 are fixed too; an x64 script cannot show them.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.33

@@ -1,6 +1,6 @@
 # AutoHotkey v2.1-alpha.34: Hidden Properties, Anonymous Unions, Typed NumPut
 
-Alpha.34 shipped on October 9, 2026 (upstream tag `v2.1-alpha.34`) with three changes that matter day to day: `Enumerable: false` hides a property from `Props()`, a struct may contain an anonymous `union`, and `NumPut`/`NumGet` take the numeric classes in place of type strings. `DefineProp` also validates its descriptor and `a.%b?% ?? c` short-circuits; one short script per change.
+Alpha.34 (October 9, 2026): `Enumerable: false` hides a property from `Props()`, structs take anonymous unions, and `NumPut`/`NumGet` accept the numeric classes. One short script per change.
 
 **`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
@@ -12,7 +12,7 @@ Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "
 
 ## 1. `Enumerable: false`: bookkeeping that stays out of the data
 
-A property defined with `Enumerable: false` is skipped by `Props()` and the debugger but is still an own property, so the script's `Record` keeps a dirty flag and a version counter that a serializer walking `Props()` never sees, and hides an accessor the same way. The script also shows `DefineProp` rejecting a misspelt key (`Vlaue`) with `ValueError` instead of creating a property that does nothing, and `obj.%name?% ?? default` skipping the access when `name` is unset. Before alpha.34, `Enumerable` was itself an unknown key, so the first `DefineProp` in `Record.__New` threw.
+`Enumerable: false` hides a property from `Props()` and the debugger while it stays an own property, so `Record` keeps a dirty flag and version counter a serializer never sees. The script also shows `DefineProp` rejecting a misspelt key (`Vlaue`) and `obj.%name?% ?? default` skipping the access when `name` is unset. Before alpha.34, `Enumerable` was itself an unknown key.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.34
@@ -72,7 +72,7 @@ Source: [`01_enumerable_props.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/b
 
 ## 2. Anonymous unions: one slot, several views
 
-A struct may contain a `union { ... }` block without a name; its members share an offset and are accessed directly on the struct. The script's `Value` views the same four bytes as an `Int32`, a `Float32` and a `UInt8[4]`, so writing `1.5` through `f` reads back as `0x3FC00000` through `i`, and Win32's `INPUT` (a `type` field followed by a union of `MOUSEINPUT` and `KEYBDINPUT`) is declared the way the C header reads it, with `Size` 40 on x64 as C says; nothing is sent. Before alpha.34 the first member was a field and the others were added afterwards with `DefineProp(Cls.Prototype, name, {Type: ..., Offset: ...})`, which still works.
+An unnamed `union { ... }` block puts its members at one offset, accessed directly on the struct. `Value` views four bytes as `Int32`, `Float32` and `UInt8[4]`, so `1.5` written through `f` reads back as `0x3FC00000`; Win32's `INPUT` is declared as the C header reads, `Size` 40 on x64, nothing sent. Before, the extra members were added with `DefineProp(..., {Type, Offset})`.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.34
@@ -139,7 +139,7 @@ Source: [`02_anonymous_unions.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/b
 
 ## 3. Numeric classes in `NumPut` and `NumGet`
 
-`NumPut(Int32, v, buf)` and `NumGet(buf, Int32)` accept the numeric classes (`Int8` to `Int64`, `UInt8` to `UInt32`, `IntPtr`, `Float32`, `Float64`) where only strings such as `"Int"` worked before. A class carries its own width (`UInt16().Size` is 2), so the script's binary layout is a table of names and classes that one `Pack` and one `Unpack` walk with no size column to keep in sync; it also mixes classes in one `NumPut` call and decodes `SYSTEMTIME` from a list of names. The change came through the v2.0 branch, so a fork build labelled alpha.33 may already accept it.
+`NumPut(Int32, v, buf)` and `NumGet(buf, Int32)` take the numeric classes where only `"Int"`-style strings worked. A class knows its width (`UInt16().Size` is 2), so the layout is a table of names and classes that `Pack` and `Unpack` walk with no size column; the script also mixes classes in one `NumPut` and decodes `SYSTEMTIME` from a name list.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.34

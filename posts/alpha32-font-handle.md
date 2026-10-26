@@ -1,6 +1,6 @@
 # AutoHotkey v2.1-alpha.32: One Property, Three Fixes
 
-Alpha.32 shipped on September 12, 2026 (upstream tag `v2.1-alpha.32`) and is the smallest release in the series: one new Gui property, three fixes, and a v2.0 merge. One script covers it.
+Alpha.32 (September 12, 2026) is the smallest release in the series: one Gui property, three fixes. One script covers it.
 
 **`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
@@ -12,7 +12,7 @@ Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "
 
 ## `Gui.FontHandle`: the font before any control exists
 
-`g.FontHandle` is the `HFONT` that `g.SetFont` selected and that every new control will receive. Before alpha.32 the only way to get it was to add a throwaway control and ask it with `WM_GETFONT`, which is what a custom-draw callback or a control the Gui did not create used to need. The script reads the `LOGFONTW` back through `GetObject`, shows a new `Edit` carrying the same handle, changes the Gui font and shows the old control keeps the old handle, then hands the Gui's font to a `Text` control in a second Gui with `WM_SETFONT`; neither window is shown. One pitfall: the property is a 32-bit value while `WM_GETFONT` returns the handle sign-extended to 64 bits, so about half of all handles fail a plain `=` comparison and the script's `FontOf` masks with `& 0xFFFFFFFF`.
+`g.FontHandle` is the `HFONT` that `SetFont` selected and every new control will get; before, you added a throwaway control and asked it with `WM_GETFONT`. The script reads the font back through `GetObject`, shows a new `Edit` carrying it, changes the font and shows the old control keeping the old handle, then lends the font to a second Gui's `Text` with `WM_SETFONT`. Pitfall: the property is 32-bit, `WM_GETFONT` returns it sign-extended, so `FontOf` masks with `& 0xFFFFFFFF`.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.32
@@ -68,7 +68,7 @@ Source: [`01_font_handle.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/m
 
 ## The fixes
 
-Assigning a variable that holds a reference (`t := r` where `r` came from `&x` or `&obj.prop`) no longer throws. `Until` as the last line of a `#Module` section no longer crashes the loader. `Gui.Move` stops DPI-scaling its X and Y arguments and scales only width and height, as `Gui.Show` already did. The v2.0 merge adds a `GuiType::Move` fix for owned windows and opens files with `FILE_WRITE_ATTRIBUTES` in `FileSetTime`.
+`t := r` where `r` is a `&x` reference no longer throws, `Until` as the last line of a `#Module` no longer crashes the loader, and `Gui.Move` DPI-scales only width and height, like `Gui.Show`.
 
 ---
 

@@ -1,8 +1,6 @@
 # AutoHotkey v2.1-alpha.27: Structs Become One Block of Memory
 
-Alpha.27 shipped on April 19, 2026 (upstream tag `v2.1-alpha.27`). Nothing in it changes the syntax of a script that does not use typed properties. Everything in it changes how a struct is laid out and torn down: a struct that contains other structs is now one allocation with the nested objects embedded in definition order, the typed properties of a prototype live in an ordered list instead of being rescanned on every construction, and the `Base` of anything with typed properties is frozen so a layout computed from one base can no longer be silently paired with another.
-
-Three scripts below, each built around what that buys you in practice rather than the internals. The first passes a struct made of structs to Win32 as a single block and walks an array of them with stride arithmetic. The second leans on the destructor fixes to build a handle wrapper that releases itself, even when stored in a typed array. The third shows what the new `Base` guard rejects and how to get the same effect at definition time. All three run with exit 0 on the `2.1-alpha.37+Console` build; the comments say what alpha.26 did instead.
+Alpha.27 (April 19, 2026) changes how structs are laid out and torn down, not the syntax: a struct of structs is one allocation with the nested objects embedded in order, typed properties live in an ordered list, and the `Base` of anything with typed properties is frozen.
 
 **`Print` is a fork built-in**, not stock AutoHotkey. `Print("x = {}", x)` formats through `Format` and writes one line to stdout; a single argument is written as-is. On stock AutoHotkey add this line under `#Requires` and pipe through `| more`:
 
@@ -14,11 +12,7 @@ Print(fmt := "", args*) => FileAppend((args.Length ? Format(fmt, args*) : fmt) "
 
 ## 1. A struct of structs is one allocation
 
-`RECT2` is two `POINT` fields. In alpha.27 those two `POINT` objects are embedded in the `RECT2` block, so `r.tl.Ptr` is `r.Ptr` and `r.br.Ptr` is `r.Ptr + 8`. The sixteen bytes are exactly a Win32 `RECT`, which means the outer `.Ptr` goes straight into `OffsetRect` and `SetRect`, and reading `br.x` back through `NumGet` at offset 8 agrees with the field.
-
-A typed array of them, `RECT2[3]()`, is one block as well: 48 bytes with a stride of 16, so a batch of rectangles can be prepared by script and consumed by C without copying. The script fills each element through `SetRect` and reads the sizes back through the nested fields.
-
-Before alpha.27 the layout was the same but each nested field was a separate heap object cross-linked through an index array, so every `RECT2()` cost three allocations and the objects could land in different cache lines.
+`RECT2` is two `POINT` fields embedded in one block: `r.tl.Ptr` is `r.Ptr`, `r.br.Ptr` is `r.Ptr + 8`, and the 16 bytes are a Win32 `RECT`, so `.Ptr` goes straight to `OffsetRect` and `SetRect`. `RECT2[3]()` is likewise one 48-byte block with a stride of 16. Before alpha.27 each nested field was a separate heap object, three allocations per `RECT2()`.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.27
@@ -82,11 +76,7 @@ Source: [`01_nested_struct_layout.ahk`](https://github.com/TrueCrimeDev/AHKv2_LL
 
 ## 2. Destructors you can rely on
 
-Two of the alpha.27 bug fixes are about `__Delete`. Elements of a typed array with nested objects were not always destructed (`e6ed8924`), and a `Ptr` class whose target had no fields leaked its typed properties (`74db0a0b`). With both fixed, a struct whose `__Delete` releases a resource is safe to keep in an array.
-
-The script wraps a GDI brush: `Brush.Create` calls `CreateSolidBrush`, and `__Delete` calls `DeleteObject`. Dropping the last reference releases the handle immediately. The `Toolkit`/`Pen` pair shows the order the engine uses: the outer `__Delete` runs first, then the embedded struct's, and for a `Toolkit[3]` every element gets both. The final section drops a `Brush[2]` and both handles are released.
-
-Before alpha.27 the array cases could skip the element destructors, which for a handle wrapper means a leaked GDI object per element.
+Two fixes make `__Delete` reliable: elements of a typed array with nested objects were not always destructed, and a `Ptr` class over a fieldless target leaked its typed properties. The script wraps a GDI brush whose `__Delete` calls `DeleteObject`, shows the outer destructor running before the embedded struct's, and drops a `Brush[2]` to release both handles. Before alpha.27 the array cases could leak one GDI object per element.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.27
@@ -173,11 +163,7 @@ Source: [`02_struct_lifecycle.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/b
 
 ## 3. `Base` is fixed once typed properties exist
 
-`Object.SetBase` gained two guards in alpha.27. The object being re-based may not already be laid out from its current base, and the proposed new base may not define typed properties. Both throw `ValueError`. The script shows the three shapes that hit the guards: a plain object adopting `POINT.Prototype` ("Invalid base."), a `POINT` instance taking a plain base, and `POINT.Prototype` itself being re-based (both "Property is read-only.").
-
-The replacement is to inherit at definition time. `struct Labeled extends POINT` appends its own field after the base fields, keeps `POINT`'s `Len` method, and satisfies `is POINT`; the size arithmetic in the output confirms where `tag` landed. Behaviour that varies per instance goes into a field and a property that reads it, as the `Shape` struct does, rather than into a base swap.
-
-Before alpha.27 `a.Base := b` with typed properties on either side was accepted and left the object's layout and its data out of step, with no error to point at.
+`Object.SetBase` now throws `ValueError` when the object is already laid out from its base or the new base defines typed properties; the script hits both with a plain object adopting `POINT.Prototype`, a `POINT` taking a plain base, and `POINT.Prototype` itself. Inherit at definition time instead: `struct Labeled extends POINT` appends its field after the base fields and keeps `Len` and `is POINT`. Before alpha.27 the swap was accepted and left layout and data out of step.
 
 ```ahk2
 #Requires AutoHotkey v2.1-alpha.27
