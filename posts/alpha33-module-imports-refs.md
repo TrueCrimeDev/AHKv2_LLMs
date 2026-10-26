@@ -57,6 +57,15 @@ Convert(c) {
 Print("Convert(100) = {}", Convert(100))
 ```
 
+Output:
+
+```text
+Area(2) = 12.5664
+top-level PI is set: 0
+Temperature's PI is 'not a number'
+Convert(100) = 212.0
+```
+
 Source: [`01_import_in_function.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha33/01_import_in_function.ahk)
 
 ---
@@ -101,6 +110,16 @@ ref := ""                       ; releasing it is safe on the fixed engine
 Print("after release: {}", Stats.Count)
 ```
 
+Output:
+
+```text
+Stats.Count = 11
+Stats.Last = today.txt
+through the ref: 12  module sees: 12
+module write, ref sees: 100
+after release: 100
+```
+
 Source: [`02_module_ref.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha33/02_module_ref.ahk)
 
 ---
@@ -141,6 +160,16 @@ for name, fn in Map("ObjSetCapacity", ObjSetCapacity.Bind(px, 8), "ObjGetCapacit
         Print("{}: {}", name, e.Message)
 }
 Print("Pixel intact: r={} Size={}", px.r, px.Size)
+```
+
+Output:
+
+```text
+Registry().table["key"]: No value was returned.
+Lookup: (no table)
+ObjGetCapacity: Expected an Object but got a Pixel.
+ObjSetCapacity: Expected an Object but got a Pixel.
+Pixel intact: r=255 Size=3
 ```
 
 Source: [`03_struct_guards.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha33/03_struct_guards.ahk)

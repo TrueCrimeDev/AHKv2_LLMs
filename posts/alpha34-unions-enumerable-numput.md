@@ -56,6 +56,16 @@ Field(obj, name?) => obj.%name?% ?? "(no field)"
 Print("Field(rec, `"title`") = {}   Field(rec) = {}", Field(rec, "title"), Field(rec))
 ```
 
+Output:
+
+```text
+Props():    id=7 title=alpha.34
+HasOwnProp(_dirty) 1  ObjOwnPropCount 4  _version 2
+summary = 7: alpha.34  (Props() still: id=7 title=alpha.34)
+DefineProp with Vlaue: Parameter #2 of Object.Prototype.DefineProp is invalid.
+Field(rec, "title") = alpha.34   Field(rec) = (no field)
+```
+
 Source: [`01_enumerable_props.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha34/01_enumerable_props.ahk)
 
 ---
@@ -114,6 +124,15 @@ inp.type := 1, inp.ki.wVk := 0x41, inp.ki.dwFlags := 2    ; keyboard, 'A', key-u
 Print("INPUT size {} (C says {} on x64), ki.wVk 0x{:X} = low word of mi.dx 0x{:X}", inp.Size, A_PtrSize = 8 ? 40 : 28, inp.ki.wVk, inp.mi.dx)
 ```
 
+Output:
+
+```text
+Size 8 (4 for kind + 4 shared)
+f=1.5 reads as i=0x3FC00000 and bytes 0 0 192 63
+i=0x40490FDB reads as f=3.14159
+INPUT size 40 (C says 40 on x64), ki.wVk 0x41 = low word of mi.dx 0x41
+```
+
 Source: [`02_anonymous_unions.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha34/02_anonymous_unions.ahk)
 
 ---
@@ -161,6 +180,14 @@ t := Map()
 for i, name in ["year", "month", "dow", "day", "hour", "min", "sec", "ms"]
     t[name] := NumGet(st, (i - 1) * UInt16().Size, UInt16)
 Print("GetSystemTime: {}-{:02}-{:02} (year is {})", t["year"], t["month"], t["day"], Type(t["year"]))
+```
+
+Output (the date will differ):
+
+```text
+packed 24 bytes: magic 0x4B4841 version 34 flags 3 ratio 0.75 count -5
+-7 2.5 4294967295   (as "Int": -7)
+GetSystemTime: 2026-10-26 (year is Integer)
 ```
 
 Source: [`03_numput_classes.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha34/03_numput_classes.ahk)

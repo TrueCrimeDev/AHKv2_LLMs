@@ -66,6 +66,16 @@ loop 3
 Print("SetRect on each element: {}", out)
 ```
 
+Output:
+
+```text
+RECT2 size 16  tl at +0  br at +8
+after OffsetRect(+5,+7): (6,9)-(35,47)
+NumGet(r.Ptr, 8) = 35  (br.x through raw memory)
+RECT2[3] size 48  stride 16  rects[2].tl.x = 100
+SetRect on each element: [1: 10x10] [2: 20x20] [3: 30x30] 
+```
+
 Source: [`01_nested_struct_layout.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha27/01_nested_struct_layout.ahk)
 
 ---
@@ -136,6 +146,27 @@ brushes := ""
 Print("done")
 ```
 
+Output (handles will differ):
+
+```text
+brush 0xFFFFFFFFCE102371 created
+  released brush 0xFFFFFFFFCE102371
+dropping a Toolkit:
+  ~Toolkit (pen 7)
+  ~Pen 7
+dropping a Toolkit[3]:
+  ~Toolkit (pen 3)
+  ~Pen 3
+  ~Toolkit (pen 2)
+  ~Pen 2
+  ~Toolkit (pen 1)
+  ~Pen 1
+dropping a Brush[2]:
+  released brush 0xCF102371
+  released brush 0x4B100E61
+done
+```
+
 Source: [`02_struct_lifecycle.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha27/02_struct_lifecycle.ahk)
 
 ---
@@ -200,6 +231,17 @@ struct Shape {
 box := Shape(), box.kind := 1, box.w := 10, box.h := 4
 oval := Shape(), oval.kind := 2, oval.w := 10, oval.h := 4
 Print("box area {}  oval area {:.2f}", box.Area, oval.Area)
+```
+
+Output:
+
+```text
+{}.Base := POINT.Prototype -> Invalid base.
+POINT().Base := {} -> Property is read-only.
+POINT.Prototype.Base := ... -> Property is read-only.
+Labeled size 12 (POINT 8 + tag 4), Len 5.0 from the base method
+q is POINT: 1   tag at +8
+box area 40  oval area 31.42
 ```
 
 Source: [`03_base_is_fixed.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha27/03_base_is_fixed.ahk)

@@ -87,6 +87,17 @@ catch ValueError as e
     Print("CallbackCreate(..., ['Void', Int32]): {}", e.Message)
 ```
 
+Output (the time will differ):
+
+```text
+GetLocalTime: 2026-10-26 07:03
+DllCall(..., 'Void') ?? 'no value' = no value
+stamp := DllCall(..., 'Void'): No value was returned.
+DllCall(..., 'Void', 0): Invalid arg type.
+callback saw: 14, 28, 42
+CallbackCreate(..., ['Void', Int32]): Parameter #3 of CallbackCreate is invalid.
+```
+
 Source: [`01_void_return.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha30/01_void_return.ahk)
 
 ---
@@ -145,6 +156,20 @@ Print("HasOwnProp guard: {}", theme.HasOwnProp("lang") ? theme.lang : "default")
 a := unset
 b := 42
 Print("!(a ?? b) = {}   b + (a ?? 100) = {}", !(a ?? b), b + (a ?? 100))
+```
+
+Output:
+
+```text
+silent run: (no onDone)
+  item a
+  item b
+  item c
+logged run: 3 items
+First() = (empty)   First([9, 8]) = 9
+Setting('theme') = default   Setting('theme', theme) = dark
+HasOwnProp guard: default
+!(a ?? b) = 0   b + (a ?? 100) = 142
 ```
 
 Source: [`02_maybe_call_index.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha30/02_maybe_call_index.ahk)
@@ -220,6 +245,16 @@ lo := fs.bytes & 0xFFFFFFFF
 Print("Int64 {} read as two UInt32 halves: 0x{:08X} 0x{:08X}", fs.bytes, hi, lo)
 ```
 
+Output (addresses will differ):
+
+```text
+Record.Size = 24   Point.Size = 8
+id 7  pos (3, 4)  ratio 0.75
+tag = 'AHK!' (4 bytes)
+Packet: header 24 bytes at 0x232BE5AEC58, payload 128 bytes at 0x232BE57C6D0
+Int64 -1 read as two UInt32 halves: 0xFFFFFFFF 0xFFFFFFFF
+```
+
 Source: [`03_typed_structs.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha30/03_typed_structs.ahk)
 
 ---
@@ -290,6 +325,19 @@ class Widget {
 }
 Widget.Base := Plugin                          ; static inheritance after the fact
 Print("Widget.Kind = {}   Widget.Base is Plugin: {}", Widget.Kind, Widget.Base == Plugin)
+```
+
+Output:
+
+```text
+Describe(Named()) = Named#1   Describe(Silent()) = (no text)
+s := String(Silent()): No value was returned.
+StrGet(buf, 0) = '' (String)
+StrGet(buf, 2) = 'he' (String)
+StrGet(buf, 5) = 'hello' (String)
+TryParseInt('42') = 1   IsSet(value) = 1   value = 42
+TryParseInt('4x2') = 0   IsSet(value) = 0   value = unset
+Widget.Kind = plugin   Widget.Base is Plugin: 1
 ```
 
 Source: [`04_small_fixes.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha30/04_small_fixes.ahk)

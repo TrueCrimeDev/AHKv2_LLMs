@@ -69,6 +69,18 @@ Print("FileAppend(...) ?? 'ok' = {}", FileAppend("", "*") ?? "ok")
 Print("InStr('abc', 'z') = {}", InStr("abc", "z"))
 ```
 
+Output:
+
+```text
+first > 10: 16
+first > 50: none
+name: ''   missing: '(unset)'
+v := Bare() -> UnsetError: No value was returned.
+r := FileAppend(...) -> No value was returned.
+FileAppend(...) ?? 'ok' = ok
+InStr('abc', 'z') = 0
+```
+
 Source: [`01_unset_not_empty.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha28/01_unset_not_empty.ahk)
 
 ---
@@ -137,6 +149,24 @@ catch UnsetError as e
     Print("caught as UnsetError: {}", Type(e))
 ```
 
+Output:
+
+```text
+Length 3  Has(1) 1  Has(2) 0
+slots[2] -> UnsetItemError: Item has no value.
+slots[9] -> IndexError: Invalid index.
+slots[2] ?? 'free' = free
+m['a']  : value 1
+m['zz'] : empty slot (Item has no value.)
+slots[2]: empty slot (Item has no value.)
+slots[0]: bad index (Invalid index.)
+variable: unset variable (This local variable has not been assigned a value.)
+Count 2 after adding b
+Count 1 Has(b) 0 after m['b'] := unset
+UnsetItemError extends UnsetError: 1
+caught as UnsetError: UnsetItemError
+```
+
 Source: [`02_unset_item_error.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha28/02_unset_item_error.ahk)
 
 ---
@@ -193,6 +223,17 @@ view := RECT2.At(buf.Ptr)
 Print("view: ({},{})-({},{})  width {}", view.tl.x, view.tl.y, view.br.x, view.br.y, view.br.x - view.tl.x)
 view.br.x := 500                      ; writes through to the buffer
 Print("buffer now holds br.x = {}", NumGet(buf, 8, "Int"))
+```
+
+Output:
+
+```text
+POINT.Prototype := Object() -> Property is read-only.
+Window size 0  Ptr matches A_ScriptHwnd: 1  Type Window
+class AutoHotkey
+is Window: 1   is Struct: 1
+view: (10,20)-(110,220)  width 100
+buffer now holds br.x = 500
 ```
 
 Source: [`03_struct_prototype_and_views.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha28/03_struct_prototype_and_views.ahk)
@@ -253,6 +294,18 @@ Print("SendMessage returned {}", reply)
 OnMessage(WM_APP_PING, Responder, 0)
 reply := SendMessage(WM_APP_PING, 7, 0, , A_ScriptHwnd)
 Print("without a responder SendMessage returned {}", reply)
+```
+
+Output:
+
+```text
+counter = 3 after Increment(&counter, 3)
+total = 5 after Increment(&total, 5)
+  observer saw ping 21
+  responder answers ping 21
+SendMessage returned 42
+  observer saw ping 7
+without a responder SendMessage returned 0
 ```
 
 Source: [`04_byref_and_onmessage.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha28/04_byref_and_onmessage.ahk)

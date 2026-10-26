@@ -70,6 +70,18 @@ total := ((missing?) + 1) ?? 0
 Print("((missing?) + 1) ?? 0 = {}", total)
 ```
 
+Output:
+
+```text
+Scale(10) = 10   Scale(10, 3) = 30
+Over(120) = 0   Over(120, 100) = 1   Over(80, 100) = 0
+build  /  build (release)
+Describe() = unknown   Describe(1) = on   Describe(0) = off
+(missing? || 5) ?? 'unset' = unset
+(() => zz? || 1)() ?? 'unset' = unset
+((missing?) + 1) ?? 0 = 0
+```
+
 Source: [`01_maybe_operator.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha29/01_maybe_operator.ahk)
 
 ---
@@ -159,6 +171,19 @@ Log(msg) {
     return
 }
 Print("Log('x') ?? 'blank' = {}", Log("x") ?? "blank")
+```
+
+Output:
+
+```text
+first > 10 at index 3
+first > 50 at index none
+idx := FindIndex(...): No value was returned.
+Forward(c) ?? 'nothing' = nothing   n = 0
+Chain(c) ?? 'nothing' = nothing   n = 0
+Wrap(5): No value was returned.
+SafeWrap(4) = 4   SafeWrap(5) = odd
+Log('x') ?? 'blank' = blank
 ```
 
 Source: [`02_unset_returns.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha29/02_unset_returns.ahk)
@@ -253,6 +278,28 @@ g := Gui()                              ; created, never shown
 Print("g.MenuBar = {}   g.FocusedCtrl = {}   g['nope'] = {}", g.MenuBar ?? "unset", g.FocusedCtrl ?? "unset", g["nope"] ?? "unset")
 ih := InputHook()
 Print("InputHook().OnEnd = {}", ih.OnEnd ?? "unset")
+```
+
+Output:
+
+```text
+chain: Dog > Animal > Object > Any
+Any.Prototype.Base ?? 'unset' = unset
+token: 1
+token: 22
+token: 333
+  no match: IsSet(m) = 0
+token: none
+RemoveAt(2) on a hole = unset
+RemoveAt(1) on a value = 1
+Pop() of a hole = unset   Pop() of a value = 1
+Plain: (no Describe)
+Loud: I can describe myself
+DeleteProp('a') = 1   DeleteProp('a') again = unset
+GetOwnPropDesc('b') = unset
+GuiFromHwnd(0) = unset   GuiCtrlFromHwnd(0) = unset   MenuFromHandle(0) = unset
+g.MenuBar = unset   g.FocusedCtrl = unset   g['nope'] = unset
+InputHook().OnEnd = unset
 ```
 
 Source: [`03_builtins_unset.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha29/03_builtins_unset.ahk)

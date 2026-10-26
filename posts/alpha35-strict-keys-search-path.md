@@ -47,6 +47,16 @@ for idx in [1.0, ""] {
 ; Before alpha.35, arr[1.0] returned arr[1] and arr[""] threw IndexError.
 ```
 
+Output:
+
+```text
+bucket[4.5]: Expected an Integer but got a Float.
+bucket.Count = 4: the Float write stored nothing
+Integer(4.5) = 4 -> bucket[4] = 45
+arr[1.0]: Invalid index.
+arr[""]: Invalid index.
+```
+
 Source: [`01_strict_keys.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha35/01_strict_keys.ahk)
 
 ---
@@ -73,6 +83,18 @@ Print("TextTools came from {}", Where(TextToolsFile))
 Print("Report came from    {}", Where(ReportFile))
 Print("Fmt came from       {}", Where(FmtFile))
 Print("{}", Report("alpha.35", ["search path follows the including file", "AhkLibPath overrides the list"]))
+```
+
+Output:
+
+```text
+TextTools came from Lib\TextTools.ahk
+Report came from    tools\Report.ahk
+Fmt came from       tools\Fmt.ahk
+alpha.35
+========
+  1. search path follows the including file
+  2. AhkLibPath overrides the list
 ```
 
 Source: [`02_library_search.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha35/02_library_search.ahk). Companions: [`Lib/TextTools.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha35/Lib/TextTools.ahk), [`tools/Report.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha35/tools/Report.ahk) and [`tools/Fmt.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha35/tools/Fmt.ahk).
@@ -119,6 +141,15 @@ Print("override first:     {}", RunChild(root "\child.ahk"))
 
 EnvSet("AhkLibPath", "")
 DirDelete(root, true)
+```
+
+Output:
+
+```text
+with AhkLibPath:    hello from AhkLibPath via the shared folder
+without AhkLibPath: child.ahk (0) : ==> Script library not found.
+     Specifically: #Include <Greet>
+override first:     hello from the OVERRIDE folder
 ```
 
 Source: [`03_ahklibpath.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha35/03_ahklibpath.ahk)

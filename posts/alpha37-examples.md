@@ -81,6 +81,18 @@ catch Error as e
     Print("RECT(1, 2, 3, 4, 5): {}", e.Message)
 ```
 
+Output:
+
+```text
+POINT(10, 20)  RECT(0, 0, 100, 50)
+POINT() still zero-initializes: (0, 0)
+PtInRect (10,10): 1   (10,60): 0
+corners: (0,0) (100,0) (100,50) (0,50) 
+Span(90, 30) stores 30..90 (length 60)
+POINT(1): Invalid number of parameters.
+RECT(1, 2, 3, 4, 5): Invalid number of parameters.
+```
+
 Source: [`01_struct_constructors.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha37/01_struct_constructors.ahk)
 
 ---
@@ -152,6 +164,23 @@ Print("guarded: {}", IsSet(cfg.disk) && IsSet(cfg.disk.path) ? "set" : "not set"
 Print("IsSet(cfg.net.proxy?) = {}", IsSet(cfg.net.proxy?))
 ```
 
+Output:
+
+```text
+retries = 3  timeout = 5
+first > 10: 16
+first > 50: none
+Plain: (no Describe)
+Loud: I can describe myself
+b.onClick: not wired
+wired.onClick: Button clicked
+cfg.net.proxy set: 1
+cfg.net.port set:  0
+IsSet(cfg.disk.path): This value of type "Object" has no property named "disk".
+guarded: not set
+IsSet(cfg.net.proxy?) = 1
+```
+
 Source: [`02_isset_properties.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha37/02_isset_properties.ahk)
 
 ---
@@ -206,6 +235,19 @@ WindowThread(hwnd, &pid?) {
 }
 Print("WindowThread(hwnd) = {}", WindowThread(hwnd))
 Print("WindowThread(hwnd, &pid) = {}, pid = {}", WindowThread(hwnd, &pid2 := 0), pid2)
+```
+
+Output (handles, ids and the folder will differ):
+
+```text
+GetCurrentDirectoryW needs <length> chars: <the script's own folder>
+GetModuleHandleW(NULL) = 0x7FF7FB6F0000  (user32 = 0x7FFE52460000)
+thread id only: 67704
+thread id 67704 and process id 1896
+_wcsdup(NULL) = 0
+_wcsdup("") = 0x21D70C47F00 (freed)
+WindowThread(hwnd) = 67704
+WindowThread(hwnd, &pid) = 67704, pid = 1896
 ```
 
 Source: [`03_dllcall_unset_null.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha37/03_dllcall_unset_null.ahk)
@@ -277,6 +319,19 @@ Print("walk: {}", Walk(anchor.Ptr, 2))
 try anchor.label := "x"
 catch PropertyError as e
     Print("anchor.label := `"x`": {}", e.Message)
+```
+
+Output:
+
+```text
+abs(-42) = 42
+_abs64(-9000000000) = 9000000000
+Clamp(150) = 100  Clamp(-5) = 0
+by value: 135   by pointer reads back: 135
+Struct.At: Type Struct  Size 0  Ptr matches buffer: 1
+Pair #1 = (7, 9)   Pair #2 = (11, 13)
+walk: 7+9=16 11+13=24 
+anchor.label := "x": This value of type "Struct" has no property named "label".
 ```
 
 Source: [`04_numeric_structs_and_struct_at.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha37/04_numeric_structs_and_struct_at.ahk)
@@ -370,6 +425,25 @@ catch Error as e
     Print("Guarded().handler(): {}: {}", Type(e), e.Message)
 ; Upstream alpha.37 reported UnsetError "No value was returned." here, hiding
 ; the real message; the fork (a911f73d) restores the ValueError.
+```
+
+Output:
+
+```text
+Pipeline with no hooks:
+LoggingPipeline:
+  item a
+  item b
+  item c
+  done, 3 items
+Pipeline().onStart(): UnsetError: No value was returned.
+Grid().Cell[2]: This value of type "Func" has no property named "__Item".
+Grid().Cell(2) = 20
+flags as UInt: ok at offset 0
+ratio as Quad: Invalid parameter(s).
+version as UShort: ok at offset 4
+DllCall(IntPtr, {}): Expected a Number but got an Object.
+Guarded().handler(): ValueError: handler is not configured
 ```
 
 Source: [`05_safer_errors.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha37/05_safer_errors.ahk)

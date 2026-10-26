@@ -53,6 +53,15 @@ other.Destroy()
 g.Destroy()
 ```
 
+Output (the handle will differ):
+
+```text
+FontHandle 0x80A0F42: face Segoe UI height -22 weight 400
+edit WM_GETFONT = FontHandle: 1
+after SetFont: changed 1, edit still on the old font 1
+other Gui's text now uses g's font: 1
+```
+
 Source: [`01_font_handle.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha32/01_font_handle.ahk)
 
 ---

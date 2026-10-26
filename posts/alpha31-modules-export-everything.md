@@ -76,6 +76,19 @@ Print("Geometry.Pi = {}", Geometry.Pi)
 Print("Export(Point(1, 1)) = {}", Export(Point(1, 1)))
 ```
 
+Output:
+
+```text
+CircleArea(2) = 12.566
+Point(3, 4).Dist(Point(0, 0)) = 5.0
+Scale = 2
+ClampedArea(50) = 314.159 (radius clamped to 10)
+_Clamp after {*} import: skipped
+Geometry._Clamp(15, 0, 10) = 10
+Geometry.Pi = 3.14159265358979
+Export(Point(1, 1)) = exported a Point
+```
+
 Source: [`01_implied_export.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/01_implied_export.ahk)
 
 ---
@@ -134,6 +147,18 @@ Print("Version via Facade {{}*{}}: {}", IsSet(Version) ? "visible" : "not visibl
 Print("Whisper(`"BOB`") = {}", Whisper("BOB"))
 Print("CoreGreet(`"ann`") = {}", CoreGreet("ann"))
 Print("CoreVersion = {}", CoreVersion)
+```
+
+Output:
+
+```text
+Shout("bob") = HI BOB
+Describe() = Facade over core 1.0
+Greet via Facade {*}: not visible
+Version via Facade {*}: not visible
+Whisper("BOB") = hi bob...
+CoreGreet("ann") = hi ann
+CoreVersion = core 1.0
 ```
 
 Source: [`02_facade_reexport.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/02_facade_reexport.ahk)
@@ -212,6 +237,19 @@ Print("Row is universal: {}", IsSet(Row) ? "yes" : "no")
 Print("Pad is universal too: {}", IsSet(Pad) ? "yes" : "no")
 ```
 
+Output:
+
+```text
+================
+ALPHA.31 PRELUDE
+================
+Reverse..... desserts
+Banner...... defined in #Module AHK
+Row......... same
+Row is universal: yes
+Pad is universal too: yes
+```
+
 Source: [`03_builtin_prelude.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/03_builtin_prelude.ahk), [`StrKit.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/StrKit.ahk)
 
 ---
@@ -270,6 +308,17 @@ e := Props(v)                        ; the enumerator now holds a copy of "hello
 v := "hi"
 for name, val in e
     Print("Props enumerated {}={}", name, val)   ; alpha.30: Len=2
+```
+
+Output:
+
+```text
+IsSet(Proxy) = 0
+Proxy ?? "<unset>" = <unset>
+Summary() = theme=dark, proxy=none
+Extract("hello", "l+") = ll
+Extract("hello", "x") = unset
+Props enumerated Len=5
 ```
 
 Source: [`04_unset_semantics.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/04_unset_semantics.ahk)
@@ -343,6 +392,16 @@ CopyOut(&src) {
 Print("CopyOut(Cell(42)) = {}", CopyOut(Cell(42)))
 x := 7
 Print("CopyOut(&x) = {}", CopyOut(&x))
+```
+
+Output:
+
+```text
+view.items[2].a = 5, view.b = 9, Outer size = 16
+view released, buffer still readable: items[2].a = 5
+c.Level = 42, c._log = set 7
+CopyOut(Cell(42)) = Integer / 42
+CopyOut(&x) = Integer / 7
 ```
 
 Source: [`05_struct_and_property_fixes.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha31/05_struct_and_property_fixes.ahk)

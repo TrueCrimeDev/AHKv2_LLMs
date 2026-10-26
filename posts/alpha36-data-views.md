@@ -70,6 +70,20 @@ catch Error as e
     Print("Int32.At(0): {}", e.Message)
 ```
 
+Output:
+
+```text
+pixel 1: #FF0000 alpha 255
+pixel 2: #00FF00 alpha 255
+pixel 3: #0000FF alpha 255
+after Fade(50) on pixel 2: byte 7 of the buffer = 128
+t.n = 41   HasOwnProp(label) = 0   log = ""
+buffer now 42   log = "delete "
+Int32 view wrote 1000; ObjGetDataPtr matches: 1
+Address 0 is allowed: ObjGetDataPtr = 0
+Int32.At(0): Parameter #1 of Struct.At is invalid.
+```
+
 Source: [`01_data_views.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha36/01_data_views.ahk)
 
 ---
@@ -127,6 +141,23 @@ for pair in [["Pt.At", Pt.At(buf.Ptr)], ["ObjCreateWithDataPtr", ObjCreateWithDa
 m := ObjCreateWithDataPtr(Map, 0)      ; an ordinary object still can
 m.note := "fine"
 Print("Map from ObjCreateWithDataPtr: note = {}", m.note)
+```
+
+Output:
+
+```text
+RegExMatchInfo() -> cannot construct (Invalid base.)
+File() -> cannot construct (Invalid base.)
+Func() -> cannot construct (Invalid base.)
+BoundFunc() -> cannot construct (Invalid base.)
+Closure() -> cannot construct (Invalid base.)
+Enumerator() -> cannot construct (Invalid base.)
+Map() -> Map   Error() -> Error   Buffer(8) -> 8 bytes
+(Object.Call)(RegExMatchInfo): Invalid base.
+(Object.Call)(Struct) -> Struct
+Pt.At: This value of type "Pt" has no property named "foo".
+ObjCreateWithDataPtr: This value of type "Pt" has no property named "foo".
+Map from ObjCreateWithDataPtr: note = fine
 ```
 
 Source: [`02_constructor_errors.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha36/02_constructor_errors.ahk)
@@ -191,6 +222,16 @@ FileAppend("F() = " F() "``n", "*")
 Print("parameter clash    -> {}", RunChild("import_param", param module))
 
 DirDelete(root, true)
+```
+
+Output:
+
+```text
+missing;lib -> found Greet.ahk
+local of same name -> import_local.ahk (2) : ==> This import declaration conflicts with an existing local variable.
+     Specifically: Timeout
+parameter clash    -> import_param.ahk (2) : ==> This import declaration conflicts with an existing parameter.
+     Specifically: Timeout
 ```
 
 Source: [`03_load_time_checks.ahk`](https://github.com/TrueCrimeDev/AHKv2_LLMs/blob/main/examples/alpha36/03_load_time_checks.ahk)
