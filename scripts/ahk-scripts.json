@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-27T00:23:11.063Z",
-  "totalScripts": 662,
+  "lastUpdated": "2026-10-27T06:15:40.968Z",
+  "totalScripts": 663,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -10754,13 +10754,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-10T10:48:20Z",
-      "lastModified": "2026-10-26T09:47:16Z",
+      "lastModified": "2026-10-27T02:01:02Z",
       "source": "github",
       "url": "https://github.com/sandraschi/autohotkey-tools",
       "stars": 3,
       "forks": 0,
       "owner": "sandraschi",
-      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 3 | Forks: 0\n; Last Updated: 10/26/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 3 | Forks: 0\n; Last Updated: 10/27/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
     },
     {
       "id": "github-1383843860",
@@ -12862,17 +12862,23 @@
       "description": "a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "ahk",
+        "autohotkey",
+        "autohotkey-v2",
+        "hotkeys",
+        "keyboard-shortcuts",
+        "productivity"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-10-26T01:49:41Z",
+      "lastModified": "2026-10-27T01:49:30Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 1,
       "forks": 0,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/26/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/27/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
@@ -13350,13 +13356,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-03-07T20:01:40Z",
-      "lastModified": "2026-10-26T07:40:37Z",
+      "lastModified": "2026-10-27T03:23:54Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/raylib_ahk",
-      "stars": 6,
+      "stars": 7,
       "forks": 1,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/raylib_ahk\n; ============================================\n; URL: https://github.com/bceenaeiklmr/raylib_ahk\n; Stars: 6 | Forks: 1\n; Last Updated: 10/26/2026\n; License: MIT License\n;\n; Description:\n; raylib 5.5 for AutoHotkey v2: windowed graphics, shapes, images, textures, custom fonts, 3D and audio, driven straight from a script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/raylib_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/raylib_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <raylib_ahk>\n\n; Example initialization\nclass RaylibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"raylib_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RaylibAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/raylib_ahk\n; ============================================\n; URL: https://github.com/bceenaeiklmr/raylib_ahk\n; Stars: 7 | Forks: 1\n; Last Updated: 10/27/2026\n; License: MIT License\n;\n; Description:\n; raylib 5.5 for AutoHotkey v2: windowed graphics, shapes, images, textures, custom fonts, 3D and audio, driven straight from a script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/raylib_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/raylib_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <raylib_ahk>\n\n; Example initialization\nclass RaylibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"raylib_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RaylibAhkExample()\n```"
     },
     {
       "id": "github-1432516406",
@@ -13481,6 +13487,29 @@
       "forks": 0,
       "owner": "juampi20",
       "code": "```cpp\n; ============================================\n; Repository: juampi20/keystone\n; ============================================\n; URL: https://github.com/juampi20/keystone\n; Stars: 0 | Forks: 0\n; Last Updated: 10/26/2026\n; License: MIT License\n;\n; Description:\n; Personal modular AutoHotkey v2 setup: global and per-app hotkey modules with a tray control panel.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/juampi20/keystone.git\n;\n; Option 2: Download ZIP\n;   https://github.com/juampi20/keystone/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keystone>\n\n; Example initialization\nclass KeystoneExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keystone loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeystoneExample()\n```"
+    },
+    {
+      "id": "github-1435241949",
+      "title": "CopyByB",
+      "category": "GitHub Repository",
+      "description": "Windows 图种制作器：原生分块合并图片与压缩包，支持覆盖确认和安全保存。AutoHotkey v2。",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "portable",
+        "windows",
+        "zip"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-27T04:24:59Z",
+      "lastModified": "2026-10-27T05:57:04Z",
+      "source": "github",
+      "url": "https://github.com/V-ChuXuan/CopyByB",
+      "stars": 0,
+      "forks": 0,
+      "owner": "V-ChuXuan",
+      "code": "```cpp\n; ============================================\n; Repository: V-ChuXuan/CopyByB\n; ============================================\n; URL: https://github.com/V-ChuXuan/CopyByB\n; Stars: 0 | Forks: 0\n; Last Updated: 10/27/2026\n; License: MIT License\n;\n; Description:\n; Windows 图种制作器：原生分块合并图片与压缩包，支持覆盖确认和安全保存。AutoHotkey v2。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/V-ChuXuan/CopyByB.git\n;\n; Option 2: Download ZIP\n;   https://github.com/V-ChuXuan/CopyByB/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CopyByB>\n\n; Example initialization\nclass CopybybExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CopyByB loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CopybybExample()\n```"
     }
   ]
 }
