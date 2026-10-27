@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-27T12:14:01.000Z",
-  "totalScripts": 663,
+  "lastUpdated": "2026-10-27T18:07:51.143Z",
+  "totalScripts": 665,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6407,7 +6407,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-10-27T11:52:04Z",
+      "lastModified": "2026-10-27T15:29:27Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 6,
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-26T20:17:42Z",
+      "lastModified": "2026-10-27T13:29:53Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/26/2026\n; License: Other\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/27/2026\n; License: Other\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -12872,7 +12872,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-10-27T01:49:30Z",
+      "lastModified": "2026-10-27T16:43:05Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 1,
@@ -13510,6 +13510,44 @@
       "forks": 0,
       "owner": "V-ChuXuan",
       "code": "```cpp\n; ============================================\n; Repository: V-ChuXuan/CopyByB\n; ============================================\n; URL: https://github.com/V-ChuXuan/CopyByB\n; Stars: 0 | Forks: 0\n; Last Updated: 10/27/2026\n; License: MIT License\n;\n; Description:\n; Windows 图种制作器：原生分块合并图片与压缩包，支持覆盖确认和安全保存。AutoHotkey v2。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/V-ChuXuan/CopyByB.git\n;\n; Option 2: Download ZIP\n;   https://github.com/V-ChuXuan/CopyByB/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CopyByB>\n\n; Example initialization\nclass CopybybExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CopyByB loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CopybybExample()\n```"
+    },
+    {
+      "id": "github-1435894775",
+      "title": "AHK-Advanced-Game-Automation-Macro-Engine",
+      "category": "GitHub Repository",
+      "description": "This repository contains a high-performance, CPU-optimized, multi-threaded automation and macro engine developed in AutoHotkey v2 (AHK v2), designed primarily for high-intensity PvP MMORPG environments (e.g., Knight Online).",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-27T15:09:26Z",
+      "lastModified": "2026-10-27T15:18:33Z",
+      "source": "github",
+      "url": "https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine",
+      "stars": 0,
+      "forks": 0,
+      "owner": "yavuzaga",
+      "code": "```cpp\n; ============================================\n; Repository: yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine\n; ============================================\n; URL: https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine\n; Stars: 0 | Forks: 0\n; Last Updated: 10/27/2026\n; License: Not specified\n;\n; Description:\n; This repository contains a high-performance, CPU-optimized, multi-threaded automation and macro engine developed in AutoHotkey v2 (AHK v2), designed primarily for high-intensity PvP MMORPG environments (e.g., Knight Online).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-Advanced-Game-Automation-Macro-Engine>\n\n; Example initialization\nclass AhkAdvancedGameAutomationMacroEngineExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-Advanced-Game-Automation-Macro-Engine loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAdvancedGameAutomationMacroEngineExample()\n```"
+    },
+    {
+      "id": "github-1435684049",
+      "title": "quicklauncher",
+      "category": "GitHub Repository",
+      "description": "A minimal hotkey app launcher for Windows, built with AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-27T12:13:44Z",
+      "lastModified": "2026-10-27T12:16:57Z",
+      "source": "github",
+      "url": "https://github.com/cookiefree/quicklauncher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "cookiefree",
+      "code": "```cpp\n; ============================================\n; Repository: cookiefree/quicklauncher\n; ============================================\n; URL: https://github.com/cookiefree/quicklauncher\n; Stars: 0 | Forks: 0\n; Last Updated: 10/27/2026\n; License: MIT License\n;\n; Description:\n; A minimal hotkey app launcher for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cookiefree/quicklauncher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cookiefree/quicklauncher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <quicklauncher>\n\n; Example initialization\nclass QuicklauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"quicklauncher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := QuicklauncherExample()\n```"
     }
   ]
 }
