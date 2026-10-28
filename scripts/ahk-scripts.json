@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-28T06:11:31.563Z",
-  "totalScripts": 667,
+  "lastUpdated": "2026-10-28T12:10:01.241Z",
+  "totalScripts": 668,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-27T11:16:25Z",
+      "lastModified": "2026-10-28T11:54:14Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/27/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/28/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -13522,13 +13522,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-27T15:09:26Z",
-      "lastModified": "2026-10-27T15:18:33Z",
+      "lastModified": "2026-10-28T06:40:44Z",
       "source": "github",
       "url": "https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "yavuzaga",
-      "code": "```cpp\n; ============================================\n; Repository: yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine\n; ============================================\n; URL: https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine\n; Stars: 0 | Forks: 0\n; Last Updated: 10/27/2026\n; License: Not specified\n;\n; Description:\n; This repository contains a high-performance, CPU-optimized, multi-threaded automation and macro engine developed in AutoHotkey v2 (AHK v2), designed primarily for high-intensity PvP MMORPG environments (e.g., Knight Online).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-Advanced-Game-Automation-Macro-Engine>\n\n; Example initialization\nclass AhkAdvancedGameAutomationMacroEngineExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-Advanced-Game-Automation-Macro-Engine loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAdvancedGameAutomationMacroEngineExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine\n; ============================================\n; URL: https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine\n; Stars: 1 | Forks: 0\n; Last Updated: 10/28/2026\n; License: Not specified\n;\n; Description:\n; This repository contains a high-performance, CPU-optimized, multi-threaded automation and macro engine developed in AutoHotkey v2 (AHK v2), designed primarily for high-intensity PvP MMORPG environments (e.g., Knight Online).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yavuzaga/AHK-Advanced-Game-Automation-Macro-Engine/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AHK-Advanced-Game-Automation-Macro-Engine>\n\n; Example initialization\nclass AhkAdvancedGameAutomationMacroEngineExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AHK-Advanced-Game-Automation-Macro-Engine loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAdvancedGameAutomationMacroEngineExample()\n```"
     },
     {
       "id": "github-1435684049",
@@ -13591,6 +13591,25 @@
       "forks": 0,
       "owner": "MarvNC",
       "code": "```cpp\n; ============================================\n; Repository: MarvNC/btd-battles-1-hotkeys\n; ============================================\n; URL: https://github.com/MarvNC/btd-battles-1-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/28/2026\n; License: Not specified\n;\n; Description:\n; Game-scoped AutoHotkey v2 hotkeys for Bloons TD Battles 1\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MarvNC/btd-battles-1-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MarvNC/btd-battles-1-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <btd-battles-1-hotkeys>\n\n; Example initialization\nclass BtdBattles1HotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"btd-battles-1-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BtdBattles1HotkeysExample()\n```"
+    },
+    {
+      "id": "github-1436732146",
+      "title": "autohotkey-app-launcher",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 app launcher and category menus",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-28T07:12:20Z",
+      "lastModified": "2026-10-28T07:16:09Z",
+      "source": "github",
+      "url": "https://github.com/hymnk/autohotkey-app-launcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "hymnk",
+      "code": "```cpp\n; ============================================\n; Repository: hymnk/autohotkey-app-launcher\n; ============================================\n; URL: https://github.com/hymnk/autohotkey-app-launcher\n; Stars: 0 | Forks: 0\n; Last Updated: 10/28/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 app launcher and category menus\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/hymnk/autohotkey-app-launcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/hymnk/autohotkey-app-launcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-app-launcher>\n\n; Example initialization\nclass AutohotkeyAppLauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-app-launcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyAppLauncherExample()\n```"
     }
   ]
 }
