@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-27T18:07:51.143Z",
-  "totalScripts": 665,
+  "lastUpdated": "2026-10-28T00:17:52.605Z",
+  "totalScripts": 666,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -12872,13 +12872,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-10-27T16:43:05Z",
+      "lastModified": "2026-10-28T00:04:49Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 1,
       "forks": 0,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/27/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/28/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
@@ -13548,6 +13548,30 @@
       "forks": 0,
       "owner": "cookiefree",
       "code": "```cpp\n; ============================================\n; Repository: cookiefree/quicklauncher\n; ============================================\n; URL: https://github.com/cookiefree/quicklauncher\n; Stars: 0 | Forks: 0\n; Last Updated: 10/27/2026\n; License: MIT License\n;\n; Description:\n; A minimal hotkey app launcher for Windows, built with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cookiefree/quicklauncher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cookiefree/quicklauncher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <quicklauncher>\n\n; Example initialization\nclass QuicklauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"quicklauncher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := QuicklauncherExample()\n```"
+    },
+    {
+      "id": "github-1436271573",
+      "title": "autohotkey-productivity-scripts",
+      "category": "GitHub Repository",
+      "description": "Collection of productivity, gaming, and accessibility AutoHotkey v2 scripts for cascading windows, APM counter GUI, and VIM-like controls. Feel free to use and distribute these scripts.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "autohotkey-v2",
+        "productivity",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-27T20:57:48Z",
+      "lastModified": "2026-10-27T20:58:21Z",
+      "source": "github",
+      "url": "https://github.com/jotnguyen/autohotkey-productivity-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jotnguyen",
+      "code": "```cpp\n; ============================================\n; Repository: jotnguyen/autohotkey-productivity-scripts\n; ============================================\n; URL: https://github.com/jotnguyen/autohotkey-productivity-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 10/27/2026\n; License: MIT License\n;\n; Description:\n; Collection of productivity, gaming, and accessibility AutoHotkey v2 scripts for cascading windows, APM counter GUI, and VIM-like controls. Feel free to use and distribute these scripts.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jotnguyen/autohotkey-productivity-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jotnguyen/autohotkey-productivity-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-productivity-scripts>\n\n; Example initialization\nclass AutohotkeyProductivityScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-productivity-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyProductivityScriptsExample()\n```"
     }
   ]
 }
