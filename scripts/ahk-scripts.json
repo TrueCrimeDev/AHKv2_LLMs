@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-29T00:17:50.668Z",
+  "lastUpdated": "2026-10-29T06:11:18.703Z",
   "totalScripts": 672,
   "categories": [
     "GUI",
@@ -12426,13 +12426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-15T22:18:22Z",
-      "lastModified": "2026-10-21T01:16:25Z",
+      "lastModified": "2026-10-29T02:04:26Z",
       "source": "github",
       "url": "https://github.com/mikejhill/hotkit",
       "stars": 1,
       "forks": 0,
       "owner": "mikejhill",
-      "code": "```cpp\n; ============================================\n; Repository: mikejhill/hotkit\n; ============================================\n; URL: https://github.com/mikejhill/hotkit\n; Stars: 1 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; A config-driven hotkey toolkit for Windows, built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mikejhill/hotkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mikejhill/hotkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkit>\n\n; Example initialization\nclass HotkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mikejhill/hotkit\n; ============================================\n; URL: https://github.com/mikejhill/hotkit\n; Stars: 1 | Forks: 0\n; Last Updated: 10/29/2026\n; License: MIT License\n;\n; Description:\n; A config-driven hotkey toolkit for Windows, built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mikejhill/hotkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mikejhill/hotkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkit>\n\n; Example initialization\nclass HotkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkitExample()\n```"
     },
     {
       "id": "github-1421464392",
@@ -12809,13 +12809,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-19T15:39:17Z",
-      "lastModified": "2026-10-19T15:41:23Z",
+      "lastModified": "2026-10-29T01:08:46Z",
       "source": "github",
       "url": "https://github.com/Victorzinn704/pubg-input-lab",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "Victorzinn704",
-      "code": "```cpp\n; ============================================\n; Repository: Victorzinn704/pubg-input-lab\n; ============================================\n; URL: https://github.com/Victorzinn704/pubg-input-lab\n; Stars: 0 | Forks: 0\n; Last Updated: 10/19/2026\n; License: Not specified\n;\n; Description:\n; Laboratorio independente de perfis de entrada em AutoHotkey v2, com atalhos por arma, simulacao e testes no Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Victorzinn704/pubg-input-lab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Victorzinn704/pubg-input-lab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pubg-input-lab>\n\n; Example initialization\nclass PubgInputLabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pubg-input-lab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PubgInputLabExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Victorzinn704/pubg-input-lab\n; ============================================\n; URL: https://github.com/Victorzinn704/pubg-input-lab\n; Stars: 1 | Forks: 0\n; Last Updated: 10/29/2026\n; License: Not specified\n;\n; Description:\n; Laboratorio independente de perfis de entrada em AutoHotkey v2, com atalhos por arma, simulacao e testes no Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Victorzinn704/pubg-input-lab.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Victorzinn704/pubg-input-lab/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pubg-input-lab>\n\n; Example initialization\nclass PubgInputLabExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pubg-input-lab loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PubgInputLabExample()\n```"
     },
     {
       "id": "github-1426287154",
@@ -12872,13 +12872,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-10-28T23:36:54Z",
+      "lastModified": "2026-10-29T00:35:02Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 4,
       "forks": 1,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 4 | Forks: 1\n; Last Updated: 10/28/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 4 | Forks: 1\n; Last Updated: 10/29/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
@@ -13665,20 +13665,20 @@
       "id": "github-1437058276",
       "title": "AltQLauncher",
       "category": "GitHub Repository",
-      "description": "一个轻量的 Windows 软件启动面板，使用 AutoHotkey v2 编写。  按住 Alt，按 Q 打开面板；继续点按 Q 切换分类。松开 Alt 只关闭面板，不会启动软件。只有点击图标或按 Enter 才启动选中的软件。",
+      "description": "一个轻量的 Windows 软件启动面板，使用 AutoHotkey v2 编写",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-28T12:31:59Z",
-      "lastModified": "2026-10-28T12:50:42Z",
+      "lastModified": "2026-10-29T06:03:12Z",
       "source": "github",
       "url": "https://github.com/AsakiChisa/AltQLauncher",
       "stars": 0,
       "forks": 0,
       "owner": "AsakiChisa",
-      "code": "```cpp\n; ============================================\n; Repository: AsakiChisa/AltQLauncher\n; ============================================\n; URL: https://github.com/AsakiChisa/AltQLauncher\n; Stars: 0 | Forks: 0\n; Last Updated: 10/28/2026\n; License: MIT License\n;\n; Description:\n; 一个轻量的 Windows 软件启动面板，使用 AutoHotkey v2 编写。  按住 Alt，按 Q 打开面板；继续点按 Q 切换分类。松开 Alt 只关闭面板，不会启动软件。只有点击图标或按 Enter 才启动选中的软件。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AsakiChisa/AltQLauncher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AsakiChisa/AltQLauncher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AltQLauncher>\n\n; Example initialization\nclass AltqlauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AltQLauncher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltqlauncherExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AsakiChisa/AltQLauncher\n; ============================================\n; URL: https://github.com/AsakiChisa/AltQLauncher\n; Stars: 0 | Forks: 0\n; Last Updated: 10/29/2026\n; License: MIT License\n;\n; Description:\n; 一个轻量的 Windows 软件启动面板，使用 AutoHotkey v2 编写\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AsakiChisa/AltQLauncher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AsakiChisa/AltQLauncher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AltQLauncher>\n\n; Example initialization\nclass AltqlauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AltQLauncher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltqlauncherExample()\n```"
     },
     {
       "id": "github-1437068263",
