@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-28T18:08:18.833Z",
+  "lastUpdated": "2026-10-29T00:17:50.668Z",
   "totalScripts": 672,
   "categories": [
     "GUI",
@@ -2665,7 +2665,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-28T14:15:03Z",
+      "lastModified": "2026-10-28T19:15:29Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
@@ -6098,13 +6098,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-28T00:57:10Z",
-      "lastModified": "2026-06-12T17:49:59Z",
+      "lastModified": "2026-10-28T19:57:33Z",
       "source": "github",
       "url": "https://github.com/GnuKeyLLC/MultiShortcutsPro",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "GnuKeyLLC",
-      "code": "```cpp\n; ============================================\n; Repository: GnuKeyLLC/MultiShortcutsPro\n; ============================================\n; URL: https://github.com/GnuKeyLLC/MultiShortcutsPro\n; Stars: 1 | Forks: 0\n; Last Updated: 6/12/2026\n; License: MIT License\n;\n; Description:\n; free AutoHotkey v2 productivity tool for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GnuKeyLLC/MultiShortcutsPro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GnuKeyLLC/MultiShortcutsPro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MultiShortcutsPro>\n\n; Example initialization\nclass MultishortcutsproExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MultiShortcutsPro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MultishortcutsproExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: GnuKeyLLC/MultiShortcutsPro\n; ============================================\n; URL: https://github.com/GnuKeyLLC/MultiShortcutsPro\n; Stars: 2 | Forks: 0\n; Last Updated: 10/28/2026\n; License: MIT License\n;\n; Description:\n; free AutoHotkey v2 productivity tool for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GnuKeyLLC/MultiShortcutsPro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GnuKeyLLC/MultiShortcutsPro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MultiShortcutsPro>\n\n; Example initialization\nclass MultishortcutsproExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MultiShortcutsPro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MultishortcutsproExample()\n```"
     },
     {
       "id": "github-1217707997",
@@ -12872,13 +12872,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-10-28T15:33:54Z",
+      "lastModified": "2026-10-28T23:36:54Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
-      "stars": 3,
+      "stars": 4,
       "forks": 1,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 3 | Forks: 1\n; Last Updated: 10/28/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 4 | Forks: 1\n; Last Updated: 10/28/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
