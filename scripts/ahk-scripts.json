@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-30T06:11:16.505Z",
-  "totalScripts": 676,
+  "lastUpdated": "2026-10-30T12:10:11.639Z",
+  "totalScripts": 678,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11677,7 +11677,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-30T05:27:13Z",
+      "lastModified": "2026-10-30T10:07:00Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
@@ -11718,13 +11718,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-07T01:20:56Z",
-      "lastModified": "2026-10-07T01:21:19Z",
+      "lastModified": "2026-10-30T09:21:52Z",
       "source": "github",
       "url": "https://github.com/huxc573/mykeymap-custom-scripts",
       "stars": 0,
       "forks": 0,
       "owner": "huxc573",
-      "code": "```cpp\n; ============================================\n; Repository: huxc573/mykeymap-custom-scripts\n; ============================================\n; URL: https://github.com/huxc573/mykeymap-custom-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: MIT License\n;\n; Description:\n; MyKeymap 自定义脚本：键鼠录制回放 / 连点器 / 亮度调节（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/huxc573/mykeymap-custom-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/huxc573/mykeymap-custom-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mykeymap-custom-scripts>\n\n; Example initialization\nclass MykeymapCustomScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mykeymap-custom-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MykeymapCustomScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: huxc573/mykeymap-custom-scripts\n; ============================================\n; URL: https://github.com/huxc573/mykeymap-custom-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 10/30/2026\n; License: MIT License\n;\n; Description:\n; MyKeymap 自定义脚本：键鼠录制回放 / 连点器 / 亮度调节（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/huxc573/mykeymap-custom-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/huxc573/mykeymap-custom-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mykeymap-custom-scripts>\n\n; Example initialization\nclass MykeymapCustomScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mykeymap-custom-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MykeymapCustomScriptsExample()\n```"
     },
     {
       "id": "github-1408784423",
@@ -12686,17 +12686,23 @@
       "description": "A lightweight clipboard history manager for Windows (AutoHotkey v2)",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "60-percent-keyboard",
+        "autohotkey",
+        "autohotkey-v2",
+        "clipboard",
+        "clipboard-history",
+        "clipboard-manager"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T08:17:28Z",
-      "lastModified": "2026-10-21T02:23:35Z",
+      "lastModified": "2026-10-30T09:18:15Z",
       "source": "github",
       "url": "https://github.com/taroyamadax/clipboard-history-jugaad",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "taroyamadax",
-      "code": "```cpp\n; ============================================\n; Repository: taroyamadax/clipboard-history-jugaad\n; ============================================\n; URL: https://github.com/taroyamadax/clipboard-history-jugaad\n; Stars: 1 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; A lightweight clipboard history manager for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/taroyamadax/clipboard-history-jugaad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/taroyamadax/clipboard-history-jugaad/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-history-jugaad>\n\n; Example initialization\nclass ClipboardHistoryJugaadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-history-jugaad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardHistoryJugaadExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: taroyamadax/clipboard-history-jugaad\n; ============================================\n; URL: https://github.com/taroyamadax/clipboard-history-jugaad\n; Stars: 2 | Forks: 0\n; Last Updated: 10/30/2026\n; License: MIT License\n;\n; Description:\n; A lightweight clipboard history manager for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/taroyamadax/clipboard-history-jugaad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/taroyamadax/clipboard-history-jugaad/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-history-jugaad>\n\n; Example initialization\nclass ClipboardHistoryJugaadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-history-jugaad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardHistoryJugaadExample()\n```"
     },
     {
       "id": "github-1424710817",
@@ -12872,13 +12878,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-10-30T05:46:32Z",
+      "lastModified": "2026-10-30T09:29:14Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
-      "stars": 5,
+      "stars": 6,
       "forks": 1,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 5 | Forks: 1\n; Last Updated: 10/30/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 6 | Forks: 1\n; Last Updated: 10/30/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
@@ -13774,6 +13780,44 @@
       "forks": 0,
       "owner": "moneerhijaz",
       "code": "```cpp\n; ============================================\n; Repository: moneerhijaz/windows-mouse-volume\n; ============================================\n; URL: https://github.com/moneerhijaz/windows-mouse-volume\n; Stars: 0 | Forks: 0\n; Last Updated: 10/29/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 utility for adjusting Windows volume with mouse movement or scrolling while holding a side button.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/moneerhijaz/windows-mouse-volume.git\n;\n; Option 2: Download ZIP\n;   https://github.com/moneerhijaz/windows-mouse-volume/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows-mouse-volume>\n\n; Example initialization\nclass WindowsMouseVolumeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows-mouse-volume loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsMouseVolumeExample()\n```"
+    },
+    {
+      "id": "github-1439458734",
+      "title": "WindowTool",
+      "category": "GitHub Repository",
+      "description": "Windows 窗口小助手：自定义全局快捷键、窗口定位、托盘收���与恢复。AutoHotkey v2 | GPL-2.0-or-later",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-30T08:20:45Z",
+      "lastModified": "2026-10-30T10:19:06Z",
+      "source": "github",
+      "url": "https://github.com/Jimme/WindowTool",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Jimme",
+      "code": "```cpp\n; ============================================\n; Repository: Jimme/WindowTool\n; ============================================\n; URL: https://github.com/Jimme/WindowTool\n; Stars: 0 | Forks: 0\n; Last Updated: 10/30/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; Windows 窗口小助手：自定义全局快捷键、窗口定位、托盘收���与恢复。AutoHotkey v2 | GPL-2.0-or-later\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Jimme/WindowTool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Jimme/WindowTool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowTool>\n\n; Example initialization\nclass WindowtoolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowTool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowtoolExample()\n```"
+    },
+    {
+      "id": "github-1439405539",
+      "title": "ohlala-key",
+      "category": "GitHub Repository",
+      "description": "Full-Featured Vietnamese & Polyglot (French/Spanish) Input Method Engine in pure AutoHotkey v2 (64-bit)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-30T07:20:29Z",
+      "lastModified": "2026-10-30T07:20:45Z",
+      "source": "github",
+      "url": "https://github.com/tinihoc/ohlala-key",
+      "stars": 0,
+      "forks": 0,
+      "owner": "tinihoc",
+      "code": "```cpp\n; ============================================\n; Repository: tinihoc/ohlala-key\n; ============================================\n; URL: https://github.com/tinihoc/ohlala-key\n; Stars: 0 | Forks: 0\n; Last Updated: 10/30/2026\n; License: MIT License\n;\n; Description:\n; Full-Featured Vietnamese & Polyglot (French/Spanish) Input Method Engine in pure AutoHotkey v2 (64-bit)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tinihoc/ohlala-key.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tinihoc/ohlala-key/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ohlala-key>\n\n; Example initialization\nclass OhlalaKeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ohlala-key loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OhlalaKeyExample()\n```"
     }
   ]
 }
