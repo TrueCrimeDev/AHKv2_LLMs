@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-30T12:10:11.639Z",
-  "totalScripts": 678,
+  "lastUpdated": "2026-10-30T18:06:15.588Z",
+  "totalScripts": 680,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -13811,13 +13811,51 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T07:20:29Z",
-      "lastModified": "2026-10-30T07:20:45Z",
+      "lastModified": "2026-10-30T14:11:05Z",
       "source": "github",
       "url": "https://github.com/tinihoc/ohlala-key",
       "stars": 0,
       "forks": 0,
       "owner": "tinihoc",
       "code": "```cpp\n; ============================================\n; Repository: tinihoc/ohlala-key\n; ============================================\n; URL: https://github.com/tinihoc/ohlala-key\n; Stars: 0 | Forks: 0\n; Last Updated: 10/30/2026\n; License: MIT License\n;\n; Description:\n; Full-Featured Vietnamese & Polyglot (French/Spanish) Input Method Engine in pure AutoHotkey v2 (64-bit)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tinihoc/ohlala-key.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tinihoc/ohlala-key/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ohlala-key>\n\n; Example initialization\nclass OhlalaKeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ohlala-key loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OhlalaKeyExample()\n```"
+    },
+    {
+      "id": "github-1440022221",
+      "title": "AION-2-Wingman",
+      "category": "GitHub Repository",
+      "description": "AION 2 Wingman is an AutoHotkey v2 companion for AION 2. It adds a HUD overlay driven by your macros and guides you step by step to Field Bosses and the nearest Teleport. It also includes a Hidden Cube helper, 23 themes, 12 languages and automatic updates.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-30T17:15:46Z",
+      "lastModified": "2026-10-30T18:04:54Z",
+      "source": "github",
+      "url": "https://github.com/VaLeTecK/AION-2-Wingman",
+      "stars": 0,
+      "forks": 0,
+      "owner": "VaLeTecK",
+      "code": "```cpp\n; ============================================\n; Repository: VaLeTecK/AION-2-Wingman\n; ============================================\n; URL: https://github.com/VaLeTecK/AION-2-Wingman\n; Stars: 0 | Forks: 0\n; Last Updated: 10/30/2026\n; License: Not specified\n;\n; Description:\n; AION 2 Wingman is an AutoHotkey v2 companion for AION 2. It adds a HUD overlay driven by your macros and guides you step by step to Field Bosses and the nearest Teleport. It also includes a Hidden Cube helper, 23 themes, 12 languages and automatic updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VaLeTecK/AION-2-Wingman.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VaLeTecK/AION-2-Wingman/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AION-2-Wingman>\n\n; Example initialization\nclass Aion2WingmanExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AION-2-Wingman loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Aion2WingmanExample()\n```"
+    },
+    {
+      "id": "github-1440039814",
+      "title": "keep-teams-active",
+      "category": "GitHub Repository",
+      "description": "Lightweight, non-intrusive Windows utility in AutoHotkey v2 that prevents Microsoft Teams, Slack, and Windows from setting status to 'Away' or sleeping. Uses safe 1-pixel Win32 relative micro-jitter without visual drift, cursor disruption, or multi-monitor jumping glitches. Includes standalone executable and startup guide.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-30T17:32:43Z",
+      "lastModified": "2026-10-30T17:34:01Z",
+      "source": "github",
+      "url": "https://github.com/bernardopezzo/keep-teams-active",
+      "stars": 0,
+      "forks": 0,
+      "owner": "bernardopezzo",
+      "code": "```cpp\n; ============================================\n; Repository: bernardopezzo/keep-teams-active\n; ============================================\n; URL: https://github.com/bernardopezzo/keep-teams-active\n; Stars: 0 | Forks: 0\n; Last Updated: 10/30/2026\n; License: Not specified\n;\n; Description:\n; Lightweight, non-intrusive Windows utility in AutoHotkey v2 that prevents Microsoft Teams, Slack, and Windows from setting status to 'Away' or sleeping. Uses safe 1-pixel Win32 relative micro-jitter without visual drift, cursor disruption, or multi-monitor jumping glitches. Includes standalone executable and startup guide.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bernardopezzo/keep-teams-active.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bernardopezzo/keep-teams-active/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keep-teams-active>\n\n; Example initialization\nclass KeepTeamsActiveExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keep-teams-active loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeepTeamsActiveExample()\n```"
     }
   ]
 }
