@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-31T06:08:27.736Z",
-  "totalScripts": 683,
+  "lastUpdated": "2026-10-31T12:07:12.065Z",
+  "totalScripts": 685,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -7206,7 +7206,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-10-31T02:40:01Z",
+      "lastModified": "2026-10-31T08:20:40Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
@@ -10754,7 +10754,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-10T10:48:20Z",
-      "lastModified": "2026-10-31T02:01:19Z",
+      "lastModified": "2026-10-31T10:44:31Z",
       "source": "github",
       "url": "https://github.com/sandraschi/autohotkey-tools",
       "stars": 3,
@@ -12696,13 +12696,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T08:17:28Z",
-      "lastModified": "2026-10-30T09:18:15Z",
+      "lastModified": "2026-10-31T07:08:31Z",
       "source": "github",
       "url": "https://github.com/taroyamadax/clipboard-history-jugaad",
       "stars": 2,
       "forks": 0,
       "owner": "taroyamadax",
-      "code": "```cpp\n; ============================================\n; Repository: taroyamadax/clipboard-history-jugaad\n; ============================================\n; URL: https://github.com/taroyamadax/clipboard-history-jugaad\n; Stars: 2 | Forks: 0\n; Last Updated: 10/30/2026\n; License: MIT License\n;\n; Description:\n; A lightweight clipboard history manager for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/taroyamadax/clipboard-history-jugaad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/taroyamadax/clipboard-history-jugaad/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-history-jugaad>\n\n; Example initialization\nclass ClipboardHistoryJugaadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-history-jugaad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardHistoryJugaadExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: taroyamadax/clipboard-history-jugaad\n; ============================================\n; URL: https://github.com/taroyamadax/clipboard-history-jugaad\n; Stars: 2 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; A lightweight clipboard history manager for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/taroyamadax/clipboard-history-jugaad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/taroyamadax/clipboard-history-jugaad/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-history-jugaad>\n\n; Example initialization\nclass ClipboardHistoryJugaadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-history-jugaad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardHistoryJugaadExample()\n```"
     },
     {
       "id": "github-1424710817",
@@ -12878,7 +12878,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-10-31T05:58:38Z",
+      "lastModified": "2026-10-31T10:47:08Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 6,
@@ -13785,20 +13785,20 @@
       "id": "github-1439458734",
       "title": "WindowTool",
       "category": "GitHub Repository",
-      "description": "Windows 窗口小助手：自定义全局快捷键、窗口定位、托盘收���与恢复。AutoHotkey v2 | GPL-2.0-or-later",
+      "description": "Windows 窗口小助手：自定义全局快捷键、窗口定位、托盘收起与恢复。AutoHotkey v2 | GPL-2.0-or-later",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T08:20:45Z",
-      "lastModified": "2026-10-30T10:19:06Z",
+      "lastModified": "2026-10-31T10:37:32Z",
       "source": "github",
       "url": "https://github.com/Jimme/WindowTool",
       "stars": 0,
       "forks": 0,
       "owner": "Jimme",
-      "code": "```cpp\n; ============================================\n; Repository: Jimme/WindowTool\n; ============================================\n; URL: https://github.com/Jimme/WindowTool\n; Stars: 0 | Forks: 0\n; Last Updated: 10/30/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; Windows 窗口小助手：自定义全局快捷键、窗口定位、托盘收���与恢复。AutoHotkey v2 | GPL-2.0-or-later\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Jimme/WindowTool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Jimme/WindowTool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowTool>\n\n; Example initialization\nclass WindowtoolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowTool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowtoolExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Jimme/WindowTool\n; ============================================\n; URL: https://github.com/Jimme/WindowTool\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; Windows 窗口小助手：自定义全局快捷键、窗口定位、托盘收起与恢复。AutoHotkey v2 | GPL-2.0-or-later\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Jimme/WindowTool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Jimme/WindowTool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowTool>\n\n; Example initialization\nclass WindowtoolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowTool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowtoolExample()\n```"
     },
     {
       "id": "github-1439405539",
@@ -13830,7 +13830,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T17:15:46Z",
-      "lastModified": "2026-10-31T00:57:15Z",
+      "lastModified": "2026-10-31T11:42:03Z",
       "source": "github",
       "url": "https://github.com/VaLeTecK/AION-2-Wingman",
       "stars": 0,
@@ -13887,13 +13887,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:45:53Z",
-      "lastModified": "2026-10-30T20:50:24Z",
+      "lastModified": "2026-10-31T07:47:14Z",
       "source": "github",
       "url": "https://github.com/stnatrix/ahktrix",
       "stars": 0,
       "forks": 0,
       "owner": "stnatrix",
-      "code": "```cpp\n; ============================================\n; Repository: stnatrix/ahktrix\n; ============================================\n; URL: https://github.com/stnatrix/ahktrix\n; Stars: 0 | Forks: 0\n; Last Updated: 10/30/2026\n; License: Not specified\n;\n; Description:\n; Modular AutoHotkey v2 QoL utilities and hotkey layer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stnatrix/ahktrix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stnatrix/ahktrix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahktrix>\n\n; Example initialization\nclass AhktrixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahktrix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhktrixExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: stnatrix/ahktrix\n; ============================================\n; URL: https://github.com/stnatrix/ahktrix\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Modular AutoHotkey v2 QoL utilities and hotkey layer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stnatrix/ahktrix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stnatrix/ahktrix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahktrix>\n\n; Example initialization\nclass AhktrixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahktrix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhktrixExample()\n```"
     },
     {
       "id": "github-66622218",
@@ -13919,6 +13919,52 @@
       "forks": 0,
       "owner": "Fooly-Cooly",
       "code": "```cpp\n; ============================================\n; Repository: Fooly-Cooly/Url-Download-Ex\n; ============================================\n; URL: https://github.com/Fooly-Cooly/Url-Download-Ex\n; Stars: 1 | Forks: 0\n; Last Updated: 10/30/2026\n; License: MIT License\n;\n; Description:\n; Robust, crash-resilient file downloader for AutoHotkey (v1 & v2) featuring real-time GUI progress tracking, cache management, and memory-safe native COM integration.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Fooly-Cooly/Url-Download-Ex.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Fooly-Cooly/Url-Download-Ex/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Url-Download-Ex>\n\n; Example initialization\nclass UrlDownloadExExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Url-Download-Ex loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UrlDownloadExExample()\n```"
+    },
+    {
+      "id": "github-1440813699",
+      "title": "Mouse-Wheel-Keys-AutoHotkey",
+      "category": "GitHub Repository",
+      "description": "Two-line AutoHotkey v2 script that scrolls with Alt+ö and Alt+ç on the Turkish Q layout.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "keyboard-shortcuts",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-31T11:59:35Z",
+      "lastModified": "2026-10-31T11:59:47Z",
+      "source": "github",
+      "url": "https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "1337leets",
+      "code": "```cpp\n; ============================================\n; Repository: 1337leets/Mouse-Wheel-Keys-AutoHotkey\n; ============================================\n; URL: https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; Two-line AutoHotkey v2 script that scrolls with Alt+ö and Alt+ç on the Turkish Q layout.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Wheel-Keys-AutoHotkey>\n\n; Example initialization\nclass MouseWheelKeysAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Wheel-Keys-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseWheelKeysAutohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1440813530",
+      "title": "Clipboard-Manager-AutoHotkey",
+      "category": "GitHub Repository",
+      "description": "Clipboard history for Windows in AutoHotkey v2. Paste any of the last 10 text copies with a hotkey or from a menu.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "clipboard-manager",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-31T11:59:23Z",
+      "lastModified": "2026-10-31T11:59:33Z",
+      "source": "github",
+      "url": "https://github.com/1337leets/Clipboard-Manager-AutoHotkey",
+      "stars": 0,
+      "forks": 0,
+      "owner": "1337leets",
+      "code": "```cpp\n; ============================================\n; Repository: 1337leets/Clipboard-Manager-AutoHotkey\n; ============================================\n; URL: https://github.com/1337leets/Clipboard-Manager-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; Clipboard history for Windows in AutoHotkey v2. Paste any of the last 10 text copies with a hotkey or from a menu.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/1337leets/Clipboard-Manager-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/1337leets/Clipboard-Manager-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Manager-AutoHotkey>\n\n; Example initialization\nclass ClipboardManagerAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Manager-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardManagerAutohotkeyExample()\n```"
     }
   ]
 }
