@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-31T12:07:12.065Z",
-  "totalScripts": 685,
+  "lastUpdated": "2026-10-31T18:06:10.146Z",
+  "totalScripts": 686,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5782,13 +5782,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-10-15T18:02:42Z",
+      "lastModified": "2026-10-31T16:26:40Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 3,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 3 | Forks: 0\n; Last Updated: 10/15/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 3 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -6407,13 +6407,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-10-29T18:53:57Z",
+      "lastModified": "2026-10-31T16:10:04Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 6,
       "forks": 2,
       "owner": "paehtz",
-      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 6 | Forks: 2\n; Last Updated: 10/29/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 6 | Forks: 2\n; Last Updated: 10/31/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     },
     {
       "id": "github-1261581594",
@@ -13785,20 +13785,20 @@
       "id": "github-1439458734",
       "title": "WindowTool",
       "category": "GitHub Repository",
-      "description": "Windows 窗口小助手：自定义全局快捷键、窗口定位、托盘收起与恢复。AutoHotkey v2 | GPL-2.0-or-later",
+      "description": "Windows 窗口小助手：自定义全局快捷键、窗口定位、托盘收起���恢复。AutoHotkey v2 | GPL-2.0-or-later",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T08:20:45Z",
-      "lastModified": "2026-10-31T10:37:32Z",
+      "lastModified": "2026-10-31T17:07:10Z",
       "source": "github",
       "url": "https://github.com/Jimme/WindowTool",
       "stars": 0,
       "forks": 0,
       "owner": "Jimme",
-      "code": "```cpp\n; ============================================\n; Repository: Jimme/WindowTool\n; ============================================\n; URL: https://github.com/Jimme/WindowTool\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; Windows 窗口小助手：自定义全局快捷键、窗口定位、托盘收起与恢复。AutoHotkey v2 | GPL-2.0-or-later\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Jimme/WindowTool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Jimme/WindowTool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowTool>\n\n; Example initialization\nclass WindowtoolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowTool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowtoolExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Jimme/WindowTool\n; ============================================\n; URL: https://github.com/Jimme/WindowTool\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; Windows 窗口小助手：自定义全局快捷键、窗口定位、托盘收起���恢复。AutoHotkey v2 | GPL-2.0-or-later\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Jimme/WindowTool.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Jimme/WindowTool/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowTool>\n\n; Example initialization\nclass WindowtoolExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowTool loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowtoolExample()\n```"
     },
     {
       "id": "github-1439405539",
@@ -13935,13 +13935,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-31T11:59:35Z",
-      "lastModified": "2026-10-31T11:59:47Z",
+      "lastModified": "2026-10-31T15:02:50Z",
       "source": "github",
       "url": "https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "1337leets",
-      "code": "```cpp\n; ============================================\n; Repository: 1337leets/Mouse-Wheel-Keys-AutoHotkey\n; ============================================\n; URL: https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; Two-line AutoHotkey v2 script that scrolls with Alt+ö and Alt+ç on the Turkish Q layout.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Wheel-Keys-AutoHotkey>\n\n; Example initialization\nclass MouseWheelKeysAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Wheel-Keys-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseWheelKeysAutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 1337leets/Mouse-Wheel-Keys-AutoHotkey\n; ============================================\n; URL: https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; Two-line AutoHotkey v2 script that scrolls with Alt+ö and Alt+ç on the Turkish Q layout.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/1337leets/Mouse-Wheel-Keys-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Mouse-Wheel-Keys-AutoHotkey>\n\n; Example initialization\nclass MouseWheelKeysAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Mouse-Wheel-Keys-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseWheelKeysAutohotkeyExample()\n```"
     },
     {
       "id": "github-1440813530",
@@ -13958,13 +13958,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-31T11:59:23Z",
-      "lastModified": "2026-10-31T11:59:33Z",
+      "lastModified": "2026-10-31T13:48:06Z",
       "source": "github",
       "url": "https://github.com/1337leets/Clipboard-Manager-AutoHotkey",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "1337leets",
-      "code": "```cpp\n; ============================================\n; Repository: 1337leets/Clipboard-Manager-AutoHotkey\n; ============================================\n; URL: https://github.com/1337leets/Clipboard-Manager-AutoHotkey\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; Clipboard history for Windows in AutoHotkey v2. Paste any of the last 10 text copies with a hotkey or from a menu.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/1337leets/Clipboard-Manager-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/1337leets/Clipboard-Manager-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Manager-AutoHotkey>\n\n; Example initialization\nclass ClipboardManagerAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Manager-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardManagerAutohotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 1337leets/Clipboard-Manager-AutoHotkey\n; ============================================\n; URL: https://github.com/1337leets/Clipboard-Manager-AutoHotkey\n; Stars: 1 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; Clipboard history for Windows in AutoHotkey v2. Paste any of the last 10 text copies with a hotkey or from a menu.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/1337leets/Clipboard-Manager-AutoHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/1337leets/Clipboard-Manager-AutoHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Clipboard-Manager-AutoHotkey>\n\n; Example initialization\nclass ClipboardManagerAutohotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Clipboard-Manager-AutoHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardManagerAutohotkeyExample()\n```"
+    },
+    {
+      "id": "github-1281433734",
+      "title": "keystassi",
+      "category": "GitHub Repository",
+      "description": "Menú navegable por teclado (AutoHotkey v2) que lanza flujos de pasos sobre otras aplicaciones, con HUD y atajos configurables",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-06-26T14:51:43Z",
+      "lastModified": "2026-10-31T14:09:59Z",
+      "source": "github",
+      "url": "https://github.com/davidbp845/keystassi",
+      "stars": 0,
+      "forks": 0,
+      "owner": "davidbp845",
+      "code": "```cpp\n; ============================================\n; Repository: davidbp845/keystassi\n; ============================================\n; URL: https://github.com/davidbp845/keystassi\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: Other\n;\n; Description:\n; Menú navegable por teclado (AutoHotkey v2) que lanza flujos de pasos sobre otras aplicaciones, con HUD y atajos configurables\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/davidbp845/keystassi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/davidbp845/keystassi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keystassi>\n\n; Example initialization\nclass KeystassiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keystassi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeystassiExample()\n```"
     }
   ]
 }
