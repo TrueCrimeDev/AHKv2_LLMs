@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-31T18:06:10.146Z",
-  "totalScripts": 686,
+  "lastUpdated": "2026-11-01T00:18:46.175Z",
+  "totalScripts": 688,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -4541,13 +4541,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T19:42:45Z",
-      "lastModified": "2026-10-29T22:11:50Z",
+      "lastModified": "2026-10-31T18:56:47Z",
       "source": "github",
       "url": "https://github.com/mogdho/Capslock-CopyPaste",
       "stars": 0,
       "forks": 0,
       "owner": "mogdho",
-      "code": "```cpp\n; ============================================\n; Repository: mogdho/Capslock-CopyPaste\n; ============================================\n; URL: https://github.com/mogdho/Capslock-CopyPaste\n; Stars: 0 | Forks: 0\n; Last Updated: 10/29/2026\n; License: MIT License\n;\n; Description:\n; A AutoHotkey v2 script that turns the CapsLock key into a smart Copy (single press) and Paste (double press) shortcut.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/Capslock-CopyPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/Capslock-CopyPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Capslock-CopyPaste>\n\n; Example initialization\nclass CapslockCopypasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Capslock-CopyPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockCopypasteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mogdho/Capslock-CopyPaste\n; ============================================\n; URL: https://github.com/mogdho/Capslock-CopyPaste\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; A AutoHotkey v2 script that turns the CapsLock key into a smart Copy (single press) and Paste (double press) shortcut.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/Capslock-CopyPaste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/Capslock-CopyPaste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Capslock-CopyPaste>\n\n; Example initialization\nclass CapslockCopypasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Capslock-CopyPaste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockCopypasteExample()\n```"
     },
     {
       "id": "github-1201510294",
@@ -4564,13 +4564,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T19:20:31Z",
-      "lastModified": "2026-10-29T22:15:17Z",
+      "lastModified": "2026-10-31T18:56:46Z",
       "source": "github",
       "url": "https://github.com/mogdho/AlwaysNumLock",
       "stars": 0,
       "forks": 0,
       "owner": "mogdho",
-      "code": "```cpp\n; ============================================\n; Repository: mogdho/AlwaysNumLock\n; ============================================\n; URL: https://github.com/mogdho/AlwaysNumLock\n; Stars: 0 | Forks: 0\n; Last Updated: 10/29/2026\n; License: MIT License\n;\n; Description:\n; AlwaysNumLock is a lightweight AutoHotkey v2 utility designed to force your keyboard's NumLock key to remain active at all times.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/AlwaysNumLock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/AlwaysNumLock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AlwaysNumLock>\n\n; Example initialization\nclass AlwaysnumlockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AlwaysNumLock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlwaysnumlockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mogdho/AlwaysNumLock\n; ============================================\n; URL: https://github.com/mogdho/AlwaysNumLock\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; AlwaysNumLock is a lightweight AutoHotkey v2 utility designed to force your keyboard's NumLock key to remain active at all times.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mogdho/AlwaysNumLock.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mogdho/AlwaysNumLock/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AlwaysNumLock>\n\n; Example initialization\nclass AlwaysnumlockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AlwaysNumLock loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlwaysnumlockExample()\n```"
     },
     {
       "id": "github-1201695090",
@@ -12696,7 +12696,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T08:17:28Z",
-      "lastModified": "2026-10-31T07:08:31Z",
+      "lastModified": "2026-10-31T22:47:08Z",
       "source": "github",
       "url": "https://github.com/taroyamadax/clipboard-history-jugaad",
       "stars": 2,
@@ -13984,6 +13984,44 @@
       "forks": 0,
       "owner": "davidbp845",
       "code": "```cpp\n; ============================================\n; Repository: davidbp845/keystassi\n; ============================================\n; URL: https://github.com/davidbp845/keystassi\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: Other\n;\n; Description:\n; Menú navegable por teclado (AutoHotkey v2) que lanza flujos de pasos sobre otras aplicaciones, con HUD y atajos configurables\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/davidbp845/keystassi.git\n;\n; Option 2: Download ZIP\n;   https://github.com/davidbp845/keystassi/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keystassi>\n\n; Example initialization\nclass KeystassiExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keystassi loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeystassiExample()\n```"
+    },
+    {
+      "id": "github-1441264544",
+      "title": "roblox-fishing-assistant",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 fishing assistant with tooltips, visual cast and hook detection, and configurable reel controls.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-31T21:21:15Z",
+      "lastModified": "2026-10-31T22:52:42Z",
+      "source": "github",
+      "url": "https://github.com/alecxanderian/roblox-fishing-assistant",
+      "stars": 0,
+      "forks": 0,
+      "owner": "alecxanderian",
+      "code": "```cpp\n; ============================================\n; Repository: alecxanderian/roblox-fishing-assistant\n; ============================================\n; URL: https://github.com/alecxanderian/roblox-fishing-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 fishing assistant with tooltips, visual cast and hook detection, and configurable reel controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/alecxanderian/roblox-fishing-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/alecxanderian/roblox-fishing-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <roblox-fishing-assistant>\n\n; Example initialization\nclass RobloxFishingAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"roblox-fishing-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxFishingAssistantExample()\n```"
+    },
+    {
+      "id": "github-1440467345",
+      "title": "MACROv1",
+      "category": "GitHub Repository",
+      "description": "Painel auxiliar desenvolvido em AutoHotkey v2 para organizar janelas, configurações e etapas de acompanhamento no Roblox Anime Adventures. Possui interface escura, encaixe de janelas, console de registros, configurações de unidades e guia visual manual para o evento Fool's Hunt.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-31T03:32:10Z",
+      "lastModified": "2026-10-31T18:52:32Z",
+      "source": "github",
+      "url": "https://github.com/LfyZoio/MACROv1",
+      "stars": 0,
+      "forks": 0,
+      "owner": "LfyZoio",
+      "code": "```cpp\n; ============================================\n; Repository: LfyZoio/MACROv1\n; ============================================\n; URL: https://github.com/LfyZoio/MACROv1\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: Not specified\n;\n; Description:\n; Painel auxiliar desenvolvido em AutoHotkey v2 para organizar janelas, configurações e etapas de acompanhamento no Roblox Anime Adventures. Possui interface escura, encaixe de janelas, console de registros, configurações de unidades e guia visual manual para o evento Fool's Hunt.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/LfyZoio/MACROv1.git\n;\n; Option 2: Download ZIP\n;   https://github.com/LfyZoio/MACROv1/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MACROv1>\n\n; Example initialization\nclass Macrov1Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MACROv1 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Macrov1Example()\n```"
     }
   ]
 }
