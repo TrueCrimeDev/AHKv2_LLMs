@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-01T06:09:13.548Z",
-  "totalScripts": 688,
+  "lastUpdated": "2026-11-01T12:07:24.039Z",
+  "totalScripts": 689,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-10-31T05:17:11Z",
+      "lastModified": "2026-11-01T09:44:13Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: Other\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 11/1/2026\n; License: Other\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -14022,6 +14022,25 @@
       "forks": 0,
       "owner": "LfyZoio",
       "code": "```cpp\n; ============================================\n; Repository: LfyZoio/MACROv1\n; ============================================\n; URL: https://github.com/LfyZoio/MACROv1\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: Not specified\n;\n; Description:\n; Painel auxiliar desenvolvido em AutoHotkey v2 para organizar janelas, configurações e etapas de acompanhamento no Roblox Anime Adventures. Possui interface escura, encaixe de janelas, console de registros, configurações de unidades e guia visual manual para o evento Fool's Hunt.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/LfyZoio/MACROv1.git\n;\n; Option 2: Download ZIP\n;   https://github.com/LfyZoio/MACROv1/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MACROv1>\n\n; Example initialization\nclass Macrov1Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MACROv1 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Macrov1Example()\n```"
+    },
+    {
+      "id": "github-1441754224",
+      "title": "monitor-switch-ahk",
+      "category": "GitHub Repository",
+      "description": "多显示器光标/窗口切换���具（AutoHotkey v2）：Ctrl+Shift+Q 切换光标并聚焦目标窗口；Win+Shift+M / ← / → 将当前窗口移到相邻显示器。",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-01T11:35:26Z",
+      "lastModified": "2026-11-01T11:39:06Z",
+      "source": "github",
+      "url": "https://github.com/Tnomlav/monitor-switch-ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Tnomlav",
+      "code": "```cpp\n; ============================================\n; Repository: Tnomlav/monitor-switch-ahk\n; ============================================\n; URL: https://github.com/Tnomlav/monitor-switch-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 11/1/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; 多显示器光标/窗口切换���具（AutoHotkey v2）：Ctrl+Shift+Q 切换光标并聚焦目标窗口；Win+Shift+M / ← / → 将当前窗口移到相邻显示器。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Tnomlav/monitor-switch-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Tnomlav/monitor-switch-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <monitor-switch-ahk>\n\n; Example initialization\nclass MonitorSwitchAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"monitor-switch-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MonitorSwitchAhkExample()\n```"
     }
   ]
 }
