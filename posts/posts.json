@@ -1,5 +1,22 @@
 [
  {
+  "slug": "darkmode-win32-projection",
+  "title": "Porting an 8,800-Line Dark Mode Library to the Official Win32 Projection",
+  "preview_title": "DarkModeModular on win32.ahk: 611 Typed Calls, Same Pixels, 200 ms Slower Start",
+  "date": "2026-11-02",
+  "description": "DarkModeModular rebuilt on AutoHotkey/win32.ahk, the AutoHotkey org's generated Win32 projection: 611 of 666 DllCall sites moved onto typed wrappers, type strings down from 2,166 to 198, and the same pixels in all five presets. The costs: 790 handle wraps, about 200 ms more startup and 4% slower repaints. Plus the import and struct patterns the port needed, five gaps in the preview (a TrackMouseEvent name clash, DrawText reading String.Length, a 4-byte GUID copy, GDI+ out-params, a missing GetLocaleInfoW) and how the build was checked against main.",
+  "preview": "611 DllCall sites moved onto the official Win32 projection: what got shorter, what got longer, what the preview can't do yet, and what it cost at startup.",
+  "tags": [
+   "Win32 API",
+   "GUI",
+   "DllCall",
+   "Structs",
+   "Modules",
+   "Libraries"
+  ],
+  "path": "posts/darkmode-win32-projection.md"
+ },
+ {
   "slug": "alpha37-examples",
   "title": "AutoHotkey v2.1-alpha.37: Five Scripts for the New Syntax",
   "preview_title": "Alpha.37 in Five Scripts: Struct Literals, IsSet on Properties, unset as NULL",
