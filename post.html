@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/npm/marked@11.1.0/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked-highlight@2.1.0/lib/index.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
-  <script src="highlight-ahk2.js"></script>
+  <script src="highlight-ahk2.js?v=2026-11-imports"></script>
   <!-- syntax colors defined in style.css to match VS Code Dark+ -->
   <style>
     .article-container {
@@ -386,6 +386,8 @@
       marked.setOptions({ breaks: true, gfm: true });
 
       const content = byId('content');
+      // Classes imported or declared in any block color every block's uses.
+      AHK2Highlight.declarePage(markdown);
       content.innerHTML = marked.parse(markdown);
       content.removeAttribute('aria-busy');
       addReadingTime();

@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/npm/marked@11.1.0/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked-highlight@2.1.0/lib/index.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
-  <script src="highlight-ahk2.js"></script>
+  <script src="highlight-ahk2.js?v=2026-11-imports"></script>
   <style>
     .wiki-layout {
       max-width: 1100px;
@@ -300,6 +300,8 @@
 
         marked.setOptions({ breaks: true, gfm: true });
 
+        // Classes imported or declared in any block color every block's uses.
+        AHK2Highlight.declarePage(markdown);
         const html = marked.parse(markdown);
         const content = document.getElementById('wiki-content');
         content.innerHTML = html;
