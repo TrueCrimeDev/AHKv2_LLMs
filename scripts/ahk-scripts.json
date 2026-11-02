@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-02T12:09:07.509Z",
+  "lastUpdated": "2026-11-02T18:07:06.809Z",
   "totalScripts": 691,
   "categories": [
     "GUI",
@@ -3387,13 +3387,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-10-20T07:59:32Z",
+      "lastModified": "2026-11-02T13:52:28Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
       "stars": 6,
       "forks": 0,
       "owner": "zeno528",
-      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 6 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 6 | Forks: 0\n; Last Updated: 11/2/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
     },
     {
       "id": "github-1169730446",
@@ -11677,7 +11677,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-11-02T05:15:01Z",
+      "lastModified": "2026-11-02T14:21:49Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
@@ -13830,7 +13830,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T17:15:46Z",
-      "lastModified": "2026-11-02T00:40:24Z",
+      "lastModified": "2026-11-02T15:17:35Z",
       "source": "github",
       "url": "https://github.com/VaLeTecK/AION-2-Wingman",
       "stars": 0,
@@ -13996,7 +13996,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-31T21:21:15Z",
-      "lastModified": "2026-11-02T02:38:23Z",
+      "lastModified": "2026-11-02T15:36:15Z",
       "source": "github",
       "url": "https://github.com/alecxanderian/roblox-fishing-assistant",
       "stars": 0,
@@ -14027,20 +14027,20 @@
       "id": "github-1441754224",
       "title": "monitor-switch-ahk",
       "category": "GitHub Repository",
-      "description": "多显示器光标/窗口切换���具（AutoHotkey v2）：Ctrl+Shift+Q 切换光标并聚焦目标窗口；Win+Shift+M / ← / → 将当前窗口移到相邻显示器。",
+      "description": "多显示器光标/窗口切换���具（AutoHotkey v2）：Win+Shift+C 切换光标并聚焦目标窗口；Win+Shift+M / ← / → 将当前窗口移到相邻显示器。",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-01T11:35:26Z",
-      "lastModified": "2026-11-01T11:39:06Z",
+      "lastModified": "2026-11-02T16:09:55Z",
       "source": "github",
       "url": "https://github.com/Tnomlav/monitor-switch-ahk",
       "stars": 0,
       "forks": 0,
       "owner": "Tnomlav",
-      "code": "```cpp\n; ============================================\n; Repository: Tnomlav/monitor-switch-ahk\n; ============================================\n; URL: https://github.com/Tnomlav/monitor-switch-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 11/1/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; 多显示器光标/窗口切换���具（AutoHotkey v2）：Ctrl+Shift+Q 切换光标并聚焦目标窗口；Win+Shift+M / ← / → 将当前窗口移到相邻显示器。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Tnomlav/monitor-switch-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Tnomlav/monitor-switch-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <monitor-switch-ahk>\n\n; Example initialization\nclass MonitorSwitchAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"monitor-switch-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MonitorSwitchAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Tnomlav/monitor-switch-ahk\n; ============================================\n; URL: https://github.com/Tnomlav/monitor-switch-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 11/2/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; 多显示器光标/窗口切换���具（AutoHotkey v2）：Win+Shift+C 切换光标并聚焦目标窗口；Win+Shift+M / ← / → 将当前窗口移到相邻显示器。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Tnomlav/monitor-switch-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Tnomlav/monitor-switch-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <monitor-switch-ahk>\n\n; Example initialization\nclass MonitorSwitchAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"monitor-switch-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MonitorSwitchAhkExample()\n```"
     },
     {
       "id": "github-1442127433",
