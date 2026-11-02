@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-01T18:05:36.777Z",
-  "totalScripts": 689,
+  "lastUpdated": "2026-11-02T00:16:32.481Z",
+  "totalScripts": 690,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6098,7 +6098,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-28T00:57:10Z",
-      "lastModified": "2026-11-01T01:49:20Z",
+      "lastModified": "2026-11-01T22:03:25Z",
       "source": "github",
       "url": "https://github.com/GnuKeyLLC/MultiShortcutsPro",
       "stars": 2,
@@ -6407,7 +6407,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-11-01T17:54:10Z",
+      "lastModified": "2026-11-01T20:17:57Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 6,
@@ -11677,7 +11677,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-11-01T09:44:13Z",
+      "lastModified": "2026-11-01T19:30:09Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
@@ -13830,13 +13830,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T17:15:46Z",
-      "lastModified": "2026-11-01T18:03:03Z",
+      "lastModified": "2026-11-02T00:12:50Z",
       "source": "github",
       "url": "https://github.com/VaLeTecK/AION-2-Wingman",
       "stars": 0,
       "forks": 0,
       "owner": "VaLeTecK",
-      "code": "```cpp\n; ============================================\n; Repository: VaLeTecK/AION-2-Wingman\n; ============================================\n; URL: https://github.com/VaLeTecK/AION-2-Wingman\n; Stars: 0 | Forks: 0\n; Last Updated: 11/1/2026\n; License: Not specified\n;\n; Description:\n; AION 2 Wingman is an AutoHotkey v2 companion for AION 2. It adds a HUD overlay driven by your macros and guides you step by step to Field Bosses and the nearest Teleport. It also includes a Hidden Cube helper, 23 themes, 12 languages and automatic updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VaLeTecK/AION-2-Wingman.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VaLeTecK/AION-2-Wingman/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AION-2-Wingman>\n\n; Example initialization\nclass Aion2WingmanExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AION-2-Wingman loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Aion2WingmanExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: VaLeTecK/AION-2-Wingman\n; ============================================\n; URL: https://github.com/VaLeTecK/AION-2-Wingman\n; Stars: 0 | Forks: 0\n; Last Updated: 11/2/2026\n; License: Not specified\n;\n; Description:\n; AION 2 Wingman is an AutoHotkey v2 companion for AION 2. It adds a HUD overlay driven by your macros and guides you step by step to Field Bosses and the nearest Teleport. It also includes a Hidden Cube helper, 23 themes, 12 languages and automatic updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VaLeTecK/AION-2-Wingman.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VaLeTecK/AION-2-Wingman/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AION-2-Wingman>\n\n; Example initialization\nclass Aion2WingmanExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AION-2-Wingman loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Aion2WingmanExample()\n```"
     },
     {
       "id": "github-1440039814",
@@ -14041,6 +14041,25 @@
       "forks": 0,
       "owner": "Tnomlav",
       "code": "```cpp\n; ============================================\n; Repository: Tnomlav/monitor-switch-ahk\n; ============================================\n; URL: https://github.com/Tnomlav/monitor-switch-ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 11/1/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; 多显示器光标/窗口切换���具（AutoHotkey v2）：Ctrl+Shift+Q 切换光标并聚焦目标窗口；Win+Shift+M / ← / → 将当前窗口移到相邻显示器。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Tnomlav/monitor-switch-ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Tnomlav/monitor-switch-ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <monitor-switch-ahk>\n\n; Example initialization\nclass MonitorSwitchAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"monitor-switch-ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MonitorSwitchAhkExample()\n```"
+    },
+    {
+      "id": "github-1442127433",
+      "title": "m4000ahk",
+      "category": "GitHub Repository",
+      "description": "Autohotkey ahk v2 script for using favorites to change audio device on Microsoft M4000 keyboard (AI generated)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-01T18:43:50Z",
+      "lastModified": "2026-11-01T19:01:16Z",
+      "source": "github",
+      "url": "https://github.com/RichyT/m4000ahk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "RichyT",
+      "code": "```cpp\n; ============================================\n; Repository: RichyT/m4000ahk\n; ============================================\n; URL: https://github.com/RichyT/m4000ahk\n; Stars: 0 | Forks: 0\n; Last Updated: 11/1/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey ahk v2 script for using favorites to change audio device on Microsoft M4000 keyboard (AI generated)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/RichyT/m4000ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/RichyT/m4000ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <m4000ahk>\n\n; Example initialization\nclass M4000ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"m4000ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := M4000ahkExample()\n```"
     }
   ]
 }
