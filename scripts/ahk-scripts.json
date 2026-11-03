@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-03T00:14:08.959Z",
-  "totalScripts": 692,
+  "lastUpdated": "2026-11-03T06:09:46.367Z",
+  "totalScripts": 693,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6985,13 +6985,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-10-31T03:54:43Z",
+      "lastModified": "2026-11-03T04:04:45Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
     },
     {
       "id": "github-1273936664",
@@ -14098,6 +14098,25 @@
       "forks": 0,
       "owner": "ggregoro",
       "code": "```cpp\n; ============================================\n; Repository: ggregoro/Windows-Quick-Reference\n; ============================================\n; URL: https://github.com/ggregoro/Windows-Quick-Reference\n; Stars: 0 | Forks: 0\n; Last Updated: 11/2/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Your cheat sheets, one key away: a Win+Shift+K pop-up for Windows (AutoHotkey v2). Sibling of Omarchy Quick Reference.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ggregoro/Windows-Quick-Reference.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ggregoro/Windows-Quick-Reference/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows-Quick-Reference>\n\n; Example initialization\nclass WindowsQuickReferenceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows-Quick-Reference loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsQuickReferenceExample()\n```"
+    },
+    {
+      "id": "github-1443628975",
+      "title": "ch3c-ahk-mod",
+      "category": "GitHub Repository",
+      "description": "澄海3C（魔兽争霸3 RPG地图）按键改建工具，AutoHotkey v2 实现，不读内存不联网",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-03T00:17:22Z",
+      "lastModified": "2026-11-03T00:17:32Z",
+      "source": "github",
+      "url": "https://github.com/a359562375/ch3c-ahk-mod",
+      "stars": 0,
+      "forks": 0,
+      "owner": "a359562375",
+      "code": "```cpp\n; ============================================\n; Repository: a359562375/ch3c-ahk-mod\n; ============================================\n; URL: https://github.com/a359562375/ch3c-ahk-mod\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: Not specified\n;\n; Description:\n; 澄海3C（魔兽争霸3 RPG地图）按键改建工具，AutoHotkey v2 实现，不读内存不联网\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/a359562375/ch3c-ahk-mod.git\n;\n; Option 2: Download ZIP\n;   https://github.com/a359562375/ch3c-ahk-mod/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ch3c-ahk-mod>\n\n; Example initialization\nclass Ch3cAhkModExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ch3c-ahk-mod loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ch3cAhkModExample()\n```"
     }
   ]
 }
