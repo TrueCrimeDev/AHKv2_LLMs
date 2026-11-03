@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-03T12:07:56.541Z",
-  "totalScripts": 693,
+  "lastUpdated": "2026-11-03T18:06:57.112Z",
+  "totalScripts": 694,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1577,13 +1577,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-12-23T20:23:33Z",
-      "lastModified": "2026-10-23T18:48:32Z",
+      "lastModified": "2026-11-03T13:21:38Z",
       "source": "github",
       "url": "https://github.com/NoOne20104/ahk-macro-recorder",
       "stars": 1,
       "forks": 0,
       "owner": "NoOne20104",
-      "code": "```cpp\n; ============================================\n; Repository: NoOne20104/ahk-macro-recorder\n; ============================================\n; URL: https://github.com/NoOne20104/ahk-macro-recorder\n; Stars: 1 | Forks: 0\n; Last Updated: 10/23/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 macro recorder with humanized playback and GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NoOne20104/ahk-macro-recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NoOne20104/ahk-macro-recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-macro-recorder>\n\n; Example initialization\nclass AhkMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-macro-recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkMacroRecorderExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: NoOne20104/ahk-macro-recorder\n; ============================================\n; URL: https://github.com/NoOne20104/ahk-macro-recorder\n; Stars: 1 | Forks: 0\n; Last Updated: 11/3/2026\n; License: MIT License\n;\n; Description:\n; An AutoHotkey v2 macro recorder with humanized playback and GUI\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NoOne20104/ahk-macro-recorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NoOne20104/ahk-macro-recorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-macro-recorder>\n\n; Example initialization\nclass AhkMacroRecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-macro-recorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkMacroRecorderExample()\n```"
     },
     {
       "id": "github-1119155229",
@@ -3387,13 +3387,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-03-01T00:21:04Z",
-      "lastModified": "2026-11-02T13:52:28Z",
+      "lastModified": "2026-11-03T14:26:03Z",
       "source": "github",
       "url": "https://github.com/zeno528/CursorTip",
       "stars": 6,
       "forks": 0,
       "owner": "zeno528",
-      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 6 | Forks: 0\n; Last Updated: 11/2/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zeno528/CursorTip\n; ============================================\n; URL: https://github.com/zeno528/CursorTip\n; Stars: 6 | Forks: 0\n; Last Updated: 11/3/2026\n; License: MIT License\n;\n; Description:\n; 极致轻量的 Windows 桌面提示工具：大小写 / 输入法 / 复制状态悬浮提示，常驻内存仅约 2.6 MB（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zeno528/CursorTip.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zeno528/CursorTip/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CursorTip>\n\n; Example initialization\nclass CursortipExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CursorTip loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CursortipExample()\n```"
     },
     {
       "id": "github-1169730446",
@@ -12878,7 +12878,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-11-03T10:09:24Z",
+      "lastModified": "2026-11-03T18:06:02Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 7,
@@ -13750,17 +13750,21 @@
       "description": "A lightweight AutoHotkey v2 utility that types prepared text into a browser-based terminal or another active Windows application, one keystroke at a time.",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "keyboard-automation",
+        "terminal",
+        "windows"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-29T17:00:27Z",
-      "lastModified": "2026-10-29T19:01:28Z",
+      "lastModified": "2026-11-03T16:56:24Z",
       "source": "github",
       "url": "https://github.com/NetGraniz/TerminalTyper",
       "stars": 0,
       "forks": 0,
       "owner": "NetGraniz",
-      "code": "```cpp\n; ============================================\n; Repository: NetGraniz/TerminalTyper\n; ============================================\n; URL: https://github.com/NetGraniz/TerminalTyper\n; Stars: 0 | Forks: 0\n; Last Updated: 10/29/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 utility that types prepared text into a browser-based terminal or another active Windows application, one keystroke at a time.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NetGraniz/TerminalTyper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NetGraniz/TerminalTyper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TerminalTyper>\n\n; Example initialization\nclass TerminaltyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TerminalTyper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TerminaltyperExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: NetGraniz/TerminalTyper\n; ============================================\n; URL: https://github.com/NetGraniz/TerminalTyper\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: MIT License\n;\n; Description:\n; A lightweight AutoHotkey v2 utility that types prepared text into a browser-based terminal or another active Windows application, one keystroke at a time.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NetGraniz/TerminalTyper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NetGraniz/TerminalTyper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TerminalTyper>\n\n; Example initialization\nclass TerminaltyperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TerminalTyper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TerminaltyperExample()\n```"
     },
     {
       "id": "github-1102559695",
@@ -13996,13 +14000,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-31T21:21:15Z",
-      "lastModified": "2026-11-02T15:36:15Z",
+      "lastModified": "2026-11-03T15:42:37Z",
       "source": "github",
       "url": "https://github.com/alecxanderian/roblox-fishing-assistant",
       "stars": 0,
       "forks": 0,
       "owner": "alecxanderian",
-      "code": "```cpp\n; ============================================\n; Repository: alecxanderian/roblox-fishing-assistant\n; ============================================\n; URL: https://github.com/alecxanderian/roblox-fishing-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 11/2/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 fishing assistant with tooltips, visual cast and hook detection, and configurable reel controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/alecxanderian/roblox-fishing-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/alecxanderian/roblox-fishing-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <roblox-fishing-assistant>\n\n; Example initialization\nclass RobloxFishingAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"roblox-fishing-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxFishingAssistantExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: alecxanderian/roblox-fishing-assistant\n; ============================================\n; URL: https://github.com/alecxanderian/roblox-fishing-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 fishing assistant with tooltips, visual cast and hook detection, and configurable reel controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/alecxanderian/roblox-fishing-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/alecxanderian/roblox-fishing-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <roblox-fishing-assistant>\n\n; Example initialization\nclass RobloxFishingAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"roblox-fishing-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxFishingAssistantExample()\n```"
     },
     {
       "id": "github-1440467345",
@@ -14117,6 +14121,29 @@
       "forks": 0,
       "owner": "a359562375",
       "code": "```cpp\n; ============================================\n; Repository: a359562375/ch3c-ahk-mod\n; ============================================\n; URL: https://github.com/a359562375/ch3c-ahk-mod\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: Not specified\n;\n; Description:\n; 澄海3C（魔兽争霸3 RPG地图）按键改建工具，AutoHotkey v2 实现，不读内存不联网\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/a359562375/ch3c-ahk-mod.git\n;\n; Option 2: Download ZIP\n;   https://github.com/a359562375/ch3c-ahk-mod/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ch3c-ahk-mod>\n\n; Example initialization\nclass Ch3cAhkModExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ch3c-ahk-mod loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ch3cAhkModExample()\n```"
+    },
+    {
+      "id": "github-1444589578",
+      "title": "ClickThrough",
+      "category": "GitHub Repository",
+      "description": "把任意窗口浮在游戏上层，鼠标点击完全穿透到下层，不抢焦点。Windows / AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "click-through",
+        "gaming",
+        "window-overlay"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-03T17:04:23Z",
+      "lastModified": "2026-11-03T18:02:37Z",
+      "source": "github",
+      "url": "https://github.com/axuanya7/ClickThrough",
+      "stars": 0,
+      "forks": 0,
+      "owner": "axuanya7",
+      "code": "```cpp\n; ============================================\n; Repository: axuanya7/ClickThrough\n; ============================================\n; URL: https://github.com/axuanya7/ClickThrough\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: MIT License\n;\n; Description:\n; 把任意窗口浮在游戏上层，鼠标点击完全穿透到下层，不抢焦点。Windows / AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/axuanya7/ClickThrough.git\n;\n; Option 2: Download ZIP\n;   https://github.com/axuanya7/ClickThrough/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClickThrough>\n\n; Example initialization\nclass ClickthroughExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClickThrough loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClickthroughExample()\n```"
     }
   ]
 }
