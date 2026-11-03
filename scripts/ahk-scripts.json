@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-02T18:07:06.809Z",
-  "totalScripts": 691,
+  "lastUpdated": "2026-11-03T00:14:08.959Z",
+  "totalScripts": 692,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -13887,13 +13887,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:45:53Z",
-      "lastModified": "2026-10-31T07:47:14Z",
+      "lastModified": "2026-11-02T19:05:34Z",
       "source": "github",
       "url": "https://github.com/stnatrix/ahktrix",
       "stars": 0,
       "forks": 0,
       "owner": "stnatrix",
-      "code": "```cpp\n; ============================================\n; Repository: stnatrix/ahktrix\n; ============================================\n; URL: https://github.com/stnatrix/ahktrix\n; Stars: 0 | Forks: 0\n; Last Updated: 10/31/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Modular AutoHotkey v2 QoL utilities and hotkey layer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stnatrix/ahktrix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stnatrix/ahktrix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahktrix>\n\n; Example initialization\nclass AhktrixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahktrix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhktrixExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: stnatrix/ahktrix\n; ============================================\n; URL: https://github.com/stnatrix/ahktrix\n; Stars: 0 | Forks: 0\n; Last Updated: 11/2/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Modular AutoHotkey v2 QoL utilities and hotkey layer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stnatrix/ahktrix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stnatrix/ahktrix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahktrix>\n\n; Example initialization\nclass AhktrixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahktrix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhktrixExample()\n```"
     },
     {
       "id": "github-66622218",
@@ -14079,6 +14079,25 @@
       "forks": 0,
       "owner": "ychk99",
       "code": "```cpp\n; ============================================\n; Repository: ychk99/taskbar-pull\n; ============================================\n; URL: https://github.com/ychk99/taskbar-pull\n; Stars: 0 | Forks: 0\n; Last Updated: 11/2/2026\n; License: MIT License\n;\n; Description:\n; Click a window's taskbar button on any screen and the window comes to that screen. Free, open-source Windows 11 utility built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ychk99/taskbar-pull.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ychk99/taskbar-pull/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <taskbar-pull>\n\n; Example initialization\nclass TaskbarPullExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"taskbar-pull loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TaskbarPullExample()\n```"
+    },
+    {
+      "id": "github-1443356280",
+      "title": "Windows-Quick-Reference",
+      "category": "GitHub Repository",
+      "description": "Your cheat sheets, one key away: a Win+Shift+K pop-up for Windows (AutoHotkey v2). Sibling of Omarchy Quick Reference.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-02T18:49:20Z",
+      "lastModified": "2026-11-02T19:23:25Z",
+      "source": "github",
+      "url": "https://github.com/ggregoro/Windows-Quick-Reference",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ggregoro",
+      "code": "```cpp\n; ============================================\n; Repository: ggregoro/Windows-Quick-Reference\n; ============================================\n; URL: https://github.com/ggregoro/Windows-Quick-Reference\n; Stars: 0 | Forks: 0\n; Last Updated: 11/2/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Your cheat sheets, one key away: a Win+Shift+K pop-up for Windows (AutoHotkey v2). Sibling of Omarchy Quick Reference.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ggregoro/Windows-Quick-Reference.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ggregoro/Windows-Quick-Reference/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows-Quick-Reference>\n\n; Example initialization\nclass WindowsQuickReferenceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows-Quick-Reference loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsQuickReferenceExample()\n```"
     }
   ]
 }
