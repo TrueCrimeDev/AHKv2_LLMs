@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-03T18:06:57.112Z",
-  "totalScripts": 694,
+  "lastUpdated": "2026-11-04T00:15:23.092Z",
+  "totalScripts": 695,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6098,13 +6098,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-28T00:57:10Z",
-      "lastModified": "2026-11-02T01:17:43Z",
+      "lastModified": "2026-11-03T22:53:58Z",
       "source": "github",
       "url": "https://github.com/GnuKeyLLC/MultiShortcutsPro",
       "stars": 2,
       "forks": 0,
       "owner": "GnuKeyLLC",
-      "code": "```cpp\n; ============================================\n; Repository: GnuKeyLLC/MultiShortcutsPro\n; ============================================\n; URL: https://github.com/GnuKeyLLC/MultiShortcutsPro\n; Stars: 2 | Forks: 0\n; Last Updated: 11/2/2026\n; License: MIT License\n;\n; Description:\n; free AutoHotkey v2 productivity tool for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GnuKeyLLC/MultiShortcutsPro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GnuKeyLLC/MultiShortcutsPro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MultiShortcutsPro>\n\n; Example initialization\nclass MultishortcutsproExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MultiShortcutsPro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MultishortcutsproExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: GnuKeyLLC/MultiShortcutsPro\n; ============================================\n; URL: https://github.com/GnuKeyLLC/MultiShortcutsPro\n; Stars: 2 | Forks: 0\n; Last Updated: 11/3/2026\n; License: MIT License\n;\n; Description:\n; free AutoHotkey v2 productivity tool for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GnuKeyLLC/MultiShortcutsPro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GnuKeyLLC/MultiShortcutsPro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MultiShortcutsPro>\n\n; Example initialization\nclass MultishortcutsproExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MultiShortcutsPro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MultishortcutsproExample()\n```"
     },
     {
       "id": "github-1217707997",
@@ -12878,7 +12878,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-11-03T18:06:02Z",
+      "lastModified": "2026-11-03T18:44:03Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 7,
@@ -13834,13 +13834,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T17:15:46Z",
-      "lastModified": "2026-11-02T15:17:35Z",
+      "lastModified": "2026-11-03T20:08:21Z",
       "source": "github",
       "url": "https://github.com/VaLeTecK/AION-2-Wingman",
       "stars": 0,
       "forks": 0,
       "owner": "VaLeTecK",
-      "code": "```cpp\n; ============================================\n; Repository: VaLeTecK/AION-2-Wingman\n; ============================================\n; URL: https://github.com/VaLeTecK/AION-2-Wingman\n; Stars: 0 | Forks: 0\n; Last Updated: 11/2/2026\n; License: Not specified\n;\n; Description:\n; AION 2 Wingman is an AutoHotkey v2 companion for AION 2. It adds a HUD overlay driven by your macros and guides you step by step to Field Bosses and the nearest Teleport. It also includes a Hidden Cube helper, 23 themes, 12 languages and automatic updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VaLeTecK/AION-2-Wingman.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VaLeTecK/AION-2-Wingman/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AION-2-Wingman>\n\n; Example initialization\nclass Aion2WingmanExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AION-2-Wingman loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Aion2WingmanExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: VaLeTecK/AION-2-Wingman\n; ============================================\n; URL: https://github.com/VaLeTecK/AION-2-Wingman\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: Not specified\n;\n; Description:\n; AION 2 Wingman is an AutoHotkey v2 companion for AION 2. It adds a HUD overlay driven by your macros and guides you step by step to Field Bosses and the nearest Teleport. It also includes a Hidden Cube helper, 23 themes, 12 languages and automatic updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VaLeTecK/AION-2-Wingman.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VaLeTecK/AION-2-Wingman/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AION-2-Wingman>\n\n; Example initialization\nclass Aion2WingmanExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AION-2-Wingman loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Aion2WingmanExample()\n```"
     },
     {
       "id": "github-1440039814",
@@ -14137,13 +14137,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-03T17:04:23Z",
-      "lastModified": "2026-11-03T18:02:37Z",
+      "lastModified": "2026-11-03T18:48:29Z",
       "source": "github",
       "url": "https://github.com/axuanya7/ClickThrough",
       "stars": 0,
       "forks": 0,
       "owner": "axuanya7",
       "code": "```cpp\n; ============================================\n; Repository: axuanya7/ClickThrough\n; ============================================\n; URL: https://github.com/axuanya7/ClickThrough\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: MIT License\n;\n; Description:\n; 把任意窗口浮在游戏上层，鼠标点击完全穿透到下层，不抢焦点。Windows / AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/axuanya7/ClickThrough.git\n;\n; Option 2: Download ZIP\n;   https://github.com/axuanya7/ClickThrough/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClickThrough>\n\n; Example initialization\nclass ClickthroughExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClickThrough loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClickthroughExample()\n```"
+    },
+    {
+      "id": "github-1444865892",
+      "title": "HoldAccent",
+      "category": "GitHub Repository",
+      "description": "Hold a letter key to pick accented European letters and Greek letters from a popup like macOS. (Win11, AutoHotKey V2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-03T21:45:53Z",
+      "lastModified": "2026-11-03T22:47:59Z",
+      "source": "github",
+      "url": "https://github.com/magnumchoi/HoldAccent",
+      "stars": 0,
+      "forks": 0,
+      "owner": "magnumchoi",
+      "code": "```cpp\n; ============================================\n; Repository: magnumchoi/HoldAccent\n; ============================================\n; URL: https://github.com/magnumchoi/HoldAccent\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: MIT License\n;\n; Description:\n; Hold a letter key to pick accented European letters and Greek letters from a popup like macOS. (Win11, AutoHotKey V2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/magnumchoi/HoldAccent.git\n;\n; Option 2: Download ZIP\n;   https://github.com/magnumchoi/HoldAccent/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HoldAccent>\n\n; Example initialization\nclass HoldaccentExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HoldAccent loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HoldaccentExample()\n```"
     }
   ]
 }
