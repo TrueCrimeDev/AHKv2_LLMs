@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-04T12:08:06.330Z",
-  "totalScripts": 695,
+  "lastUpdated": "2026-11-04T18:06:14.515Z",
+  "totalScripts": 696,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -7206,13 +7206,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-24T08:03:03Z",
-      "lastModified": "2026-11-01T14:24:29Z",
+      "lastModified": "2026-11-04T17:05:42Z",
       "source": "github",
       "url": "https://github.com/von110187/MediaCtrl",
       "stars": 0,
       "forks": 0,
       "owner": "von110187",
-      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 11/1/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: von110187/MediaCtrl\n; ============================================\n; URL: https://github.com/von110187/MediaCtrl\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2026\n; License: Not specified\n;\n; Description:\n; Windows automation for media playback — auto-fullscreen video sites, Spotify silent-outro skipping, bass EQ toggling, and hotkeys. AHK v2 + Chrome extension + Node bridge.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/von110187/MediaCtrl.git\n;\n; Option 2: Download ZIP\n;   https://github.com/von110187/MediaCtrl/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MediaCtrl>\n\n; Example initialization\nclass MediactrlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MediaCtrl loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MediactrlExample()\n```"
     },
     {
       "id": "github-825062151",
@@ -9775,7 +9775,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-05T01:31:11Z",
-      "lastModified": "2026-11-04T02:50:52Z",
+      "lastModified": "2026-11-04T16:49:31Z",
       "source": "github",
       "url": "https://github.com/p65536/AltTab-Classic-AHK",
       "stars": 0,
@@ -12734,13 +12734,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T19:20:52Z",
-      "lastModified": "2026-10-19T17:59:00Z",
+      "lastModified": "2026-11-04T13:13:04Z",
       "source": "github",
       "url": "https://github.com/nepoxiii/azerty-alt-codes",
       "stars": 0,
       "forks": 0,
       "owner": "nepoxiii",
-      "code": "```cpp\n; ============================================\n; Repository: nepoxiii/azerty-alt-codes\n; ============================================\n; URL: https://github.com/nepoxiii/azerty-alt-codes\n; Stars: 0 | Forks: 0\n; Last Updated: 10/19/2026\n; License: Not specified\n;\n; Description:\n; Émulation des Alt-Codes Windows pour claviers AZERTY sans pavé numérique sous AutoHotkey v2 (ex: Alt + è   │ = •).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nepoxiii/azerty-alt-codes.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nepoxiii/azerty-alt-codes/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <azerty-alt-codes>\n\n; Example initialization\nclass AzertyAltCodesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"azerty-alt-codes loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AzertyAltCodesExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nepoxiii/azerty-alt-codes\n; ============================================\n; URL: https://github.com/nepoxiii/azerty-alt-codes\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2026\n; License: Not specified\n;\n; Description:\n; Émulation des Alt-Codes Windows pour claviers AZERTY sans pavé numérique sous AutoHotkey v2 (ex: Alt + è   │ = •).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nepoxiii/azerty-alt-codes.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nepoxiii/azerty-alt-codes/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <azerty-alt-codes>\n\n; Example initialization\nclass AzertyAltCodesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"azerty-alt-codes loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AzertyAltCodesExample()\n```"
     },
     {
       "id": "github-1425172709",
@@ -12878,7 +12878,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-11-04T12:06:51Z",
+      "lastModified": "2026-11-04T12:34:28Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 7,
@@ -13834,13 +13834,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T17:15:46Z",
-      "lastModified": "2026-11-03T20:08:21Z",
+      "lastModified": "2026-11-04T16:51:32Z",
       "source": "github",
       "url": "https://github.com/VaLeTecK/AION-2-Wingman",
       "stars": 0,
       "forks": 0,
       "owner": "VaLeTecK",
-      "code": "```cpp\n; ============================================\n; Repository: VaLeTecK/AION-2-Wingman\n; ============================================\n; URL: https://github.com/VaLeTecK/AION-2-Wingman\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: Not specified\n;\n; Description:\n; AION 2 Wingman is an AutoHotkey v2 companion for AION 2. It adds a HUD overlay driven by your macros and guides you step by step to Field Bosses and the nearest Teleport. It also includes a Hidden Cube helper, 23 themes, 12 languages and automatic updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VaLeTecK/AION-2-Wingman.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VaLeTecK/AION-2-Wingman/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AION-2-Wingman>\n\n; Example initialization\nclass Aion2WingmanExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AION-2-Wingman loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Aion2WingmanExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: VaLeTecK/AION-2-Wingman\n; ============================================\n; URL: https://github.com/VaLeTecK/AION-2-Wingman\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2026\n; License: Not specified\n;\n; Description:\n; AION 2 Wingman is an AutoHotkey v2 companion for AION 2. It adds a HUD overlay driven by your macros and guides you step by step to Field Bosses and the nearest Teleport. It also includes a Hidden Cube helper, 23 themes, 12 languages and automatic updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/VaLeTecK/AION-2-Wingman.git\n;\n; Option 2: Download ZIP\n;   https://github.com/VaLeTecK/AION-2-Wingman/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AION-2-Wingman>\n\n; Example initialization\nclass Aion2WingmanExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AION-2-Wingman loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Aion2WingmanExample()\n```"
     },
     {
       "id": "github-1440039814",
@@ -13876,13 +13876,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-04T06:00:23Z",
+      "lastModified": "2026-11-04T15:02:14Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "jollycoder",
-      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 11/4/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
     },
     {
       "id": "github-1440215264",
@@ -14167,6 +14167,25 @@
       "forks": 0,
       "owner": "magnumchoi",
       "code": "```cpp\n; ============================================\n; Repository: magnumchoi/HoldAccent\n; ============================================\n; URL: https://github.com/magnumchoi/HoldAccent\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: MIT License\n;\n; Description:\n; Hold a letter key to pick accented European letters and Greek letters from a popup like macOS. (Win11, AutoHotKey V2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/magnumchoi/HoldAccent.git\n;\n; Option 2: Download ZIP\n;   https://github.com/magnumchoi/HoldAccent/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <HoldAccent>\n\n; Example initialization\nclass HoldaccentExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"HoldAccent loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HoldaccentExample()\n```"
+    },
+    {
+      "id": "github-1445669651",
+      "title": "MouseMacros_A_4",
+      "category": "GitHub Repository",
+      "description": "Windows key/mouse remapper and macro engine in AutoHotkey v2: per-app profiles, mouse gestures, layers, image/OCR macros. One plain-text config.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-04T13:04:07Z",
+      "lastModified": "2026-11-04T13:56:19Z",
+      "source": "github",
+      "url": "https://github.com/pitruline/MouseMacros_A_4",
+      "stars": 0,
+      "forks": 0,
+      "owner": "pitruline",
+      "code": "```cpp\n; ============================================\n; Repository: pitruline/MouseMacros_A_4\n; ============================================\n; URL: https://github.com/pitruline/MouseMacros_A_4\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2026\n; License: MIT License\n;\n; Description:\n; Windows key/mouse remapper and macro engine in AutoHotkey v2: per-app profiles, mouse gestures, layers, image/OCR macros. One plain-text config.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pitruline/MouseMacros_A_4.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pitruline/MouseMacros_A_4/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MouseMacros_A_4>\n\n; Example initialization\nclass MousemacrosA4Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MouseMacros_A_4 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousemacrosA4Example()\n```"
     }
   ]
 }
