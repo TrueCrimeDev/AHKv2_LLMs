@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-05T12:08:21.122Z",
-  "totalScripts": 698,
+  "lastUpdated": "2026-11-05T18:06:32.976Z",
+  "totalScripts": 700,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -9775,13 +9775,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-05T01:31:11Z",
-      "lastModified": "2026-11-04T16:49:31Z",
+      "lastModified": "2026-11-05T14:57:06Z",
       "source": "github",
       "url": "https://github.com/p65536/AltTab-Classic-AHK",
       "stars": 0,
       "forks": 0,
       "owner": "p65536",
-      "code": "```cpp\n; ============================================\n; Repository: p65536/AltTab-Classic-AHK\n; ============================================\n; URL: https://github.com/p65536/AltTab-Classic-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2026\n; License: MIT License\n;\n; Description:\n; A lightweight classic-style Alt+Tab window switcher for Windows, implemented in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/p65536/AltTab-Classic-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/p65536/AltTab-Classic-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AltTab-Classic-AHK>\n\n; Example initialization\nclass AlttabClassicAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AltTab-Classic-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlttabClassicAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: p65536/AltTab-Classic-AHK\n; ============================================\n; URL: https://github.com/p65536/AltTab-Classic-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; A lightweight classic-style Alt+Tab window switcher for Windows, implemented in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/p65536/AltTab-Classic-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/p65536/AltTab-Classic-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AltTab-Classic-AHK>\n\n; Example initialization\nclass AlttabClassicAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AltTab-Classic-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlttabClassicAhkExample()\n```"
     },
     {
       "id": "github-1357976585",
@@ -13876,13 +13876,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-04T15:02:14Z",
+      "lastModified": "2026-11-05T15:15:45Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
       "stars": 1,
       "forks": 0,
       "owner": "jollycoder",
-      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 11/4/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
     },
     {
       "id": "github-1440215264",
@@ -14004,13 +14004,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-31T21:21:15Z",
-      "lastModified": "2026-11-03T15:42:37Z",
+      "lastModified": "2026-11-05T15:39:51Z",
       "source": "github",
       "url": "https://github.com/alecxanderian/roblox-fishing-assistant",
       "stars": 0,
       "forks": 0,
       "owner": "alecxanderian",
-      "code": "```cpp\n; ============================================\n; Repository: alecxanderian/roblox-fishing-assistant\n; ============================================\n; URL: https://github.com/alecxanderian/roblox-fishing-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 11/3/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 fishing assistant with tooltips, visual cast and hook detection, and configurable reel controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/alecxanderian/roblox-fishing-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/alecxanderian/roblox-fishing-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <roblox-fishing-assistant>\n\n; Example initialization\nclass RobloxFishingAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"roblox-fishing-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxFishingAssistantExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: alecxanderian/roblox-fishing-assistant\n; ============================================\n; URL: https://github.com/alecxanderian/roblox-fishing-assistant\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 fishing assistant with tooltips, visual cast and hook detection, and configurable reel controls.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/alecxanderian/roblox-fishing-assistant.git\n;\n; Option 2: Download ZIP\n;   https://github.com/alecxanderian/roblox-fishing-assistant/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <roblox-fishing-assistant>\n\n; Example initialization\nclass RobloxFishingAssistantExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"roblox-fishing-assistant loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RobloxFishingAssistantExample()\n```"
     },
     {
       "id": "github-1440467345",
@@ -14227,6 +14227,56 @@
       "forks": 0,
       "owner": "dante32683",
       "code": "```cpp\n; ============================================\n; Repository: dante32683/ahk-scripting\n; ============================================\n; URL: https://github.com/dante32683/ahk-scripting\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: The Unlicense\n;\n; Description:\n; AHK v2 scripting toolkit: window tiling, autocorrect, hyper layer, remaps\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dante32683/ahk-scripting.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dante32683/ahk-scripting/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripting>\n\n; Example initialization\nclass AhkScriptingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripting loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptingExample()\n```"
+    },
+    {
+      "id": "github-1447197245",
+      "title": "ahk-arabic-transliteration",
+      "category": "GitHub Repository",
+      "description": "Type Arabic on Windows using Latin letters (AutoHotkey v2, Lexilogos-style).",
+      "tags": [
+        "github",
+        "repository",
+        "arabic",
+        "arabic-keyboards",
+        "arabic-language",
+        "autohotkey",
+        "autohotkey-v2",
+        "transliteration"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-05T15:49:29Z",
+      "lastModified": "2026-11-05T16:09:22Z",
+      "source": "github",
+      "url": "https://github.com/Nawfall-stack/ahk-arabic-transliteration",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Nawfall-stack",
+      "code": "```cpp\n; ============================================\n; Repository: Nawfall-stack/ahk-arabic-transliteration\n; ============================================\n; URL: https://github.com/Nawfall-stack/ahk-arabic-transliteration\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; Type Arabic on Windows using Latin letters (AutoHotkey v2, Lexilogos-style).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nawfall-stack/ahk-arabic-transliteration.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nawfall-stack/ahk-arabic-transliteration/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-arabic-transliteration>\n\n; Example initialization\nclass AhkArabicTransliterationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-arabic-transliteration loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkArabicTransliterationExample()\n```"
+    },
+    {
+      "id": "github-1447120037",
+      "title": "floats",
+      "category": "GitHub Repository",
+      "description": "Floating app buttons for Windows: one click brings an app to the front, another minimises it. Buttons fan out in a circle around a hub. A single AutoHotkey v2 script.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "app-launcher",
+        "autohotkey",
+        "autohotkey-v2",
+        "launcher",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-05T14:42:36Z",
+      "lastModified": "2026-11-05T15:32:46Z",
+      "source": "github",
+      "url": "https://github.com/bbboghara/floats",
+      "stars": 0,
+      "forks": 0,
+      "owner": "bbboghara",
+      "code": "```cpp\n; ============================================\n; Repository: bbboghara/floats\n; ============================================\n; URL: https://github.com/bbboghara/floats\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; Floating app buttons for Windows: one click brings an app to the front, another minimises it. Buttons fan out in a circle around a hub. A single AutoHotkey v2 script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bbboghara/floats.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bbboghara/floats/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <floats>\n\n; Example initialization\nclass FloatsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"floats loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FloatsExample()\n```"
     }
   ]
 }
