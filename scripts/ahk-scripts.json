@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-04T18:06:14.515Z",
+  "lastUpdated": "2026-11-05T00:15:01.869Z",
   "totalScripts": 696,
   "categories": [
     "GUI",
@@ -6098,13 +6098,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-28T00:57:10Z",
-      "lastModified": "2026-11-03T22:53:58Z",
+      "lastModified": "2026-11-04T19:44:07Z",
       "source": "github",
       "url": "https://github.com/GnuKeyLLC/MultiShortcutsPro",
       "stars": 2,
       "forks": 0,
       "owner": "GnuKeyLLC",
-      "code": "```cpp\n; ============================================\n; Repository: GnuKeyLLC/MultiShortcutsPro\n; ============================================\n; URL: https://github.com/GnuKeyLLC/MultiShortcutsPro\n; Stars: 2 | Forks: 0\n; Last Updated: 11/3/2026\n; License: MIT License\n;\n; Description:\n; free AutoHotkey v2 productivity tool for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GnuKeyLLC/MultiShortcutsPro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GnuKeyLLC/MultiShortcutsPro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MultiShortcutsPro>\n\n; Example initialization\nclass MultishortcutsproExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MultiShortcutsPro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MultishortcutsproExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: GnuKeyLLC/MultiShortcutsPro\n; ============================================\n; URL: https://github.com/GnuKeyLLC/MultiShortcutsPro\n; Stars: 2 | Forks: 0\n; Last Updated: 11/4/2026\n; License: MIT License\n;\n; Description:\n; free AutoHotkey v2 productivity tool for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GnuKeyLLC/MultiShortcutsPro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GnuKeyLLC/MultiShortcutsPro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MultiShortcutsPro>\n\n; Example initialization\nclass MultishortcutsproExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MultiShortcutsPro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MultishortcutsproExample()\n```"
     },
     {
       "id": "github-1217707997",
