@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-05T00:15:01.869Z",
-  "totalScripts": 696,
+  "lastUpdated": "2026-11-05T06:09:45.154Z",
+  "totalScripts": 697,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6985,13 +6985,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-14T23:44:01Z",
-      "lastModified": "2026-11-04T05:47:14Z",
+      "lastModified": "2026-11-05T04:19:42Z",
       "source": "github",
       "url": "https://github.com/holy-tao/ahklint",
       "stars": 0,
       "forks": 0,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/ahklint\n; ============================================\n; URL: https://github.com/holy-tao/ahklint\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 / 2.1 linter\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/ahklint.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/ahklint/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahklint>\n\n; Example initialization\nclass AhklintExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahklint loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhklintExample()\n```"
     },
     {
       "id": "github-1273936664",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-11-04T11:48:35Z",
+      "lastModified": "2026-11-05T05:34:47Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2026\n; License: Other\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: Other\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -14186,6 +14186,25 @@
       "forks": 0,
       "owner": "pitruline",
       "code": "```cpp\n; ============================================\n; Repository: pitruline/MouseMacros_A_4\n; ============================================\n; URL: https://github.com/pitruline/MouseMacros_A_4\n; Stars: 0 | Forks: 0\n; Last Updated: 11/4/2026\n; License: MIT License\n;\n; Description:\n; Windows key/mouse remapper and macro engine in AutoHotkey v2: per-app profiles, mouse gestures, layers, image/OCR macros. One plain-text config.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pitruline/MouseMacros_A_4.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pitruline/MouseMacros_A_4/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MouseMacros_A_4>\n\n; Example initialization\nclass MousemacrosA4Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MouseMacros_A_4 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousemacrosA4Example()\n```"
+    },
+    {
+      "id": "github-1446486038",
+      "title": "NUMB",
+      "category": "GitHub Repository",
+      "description": "Ctrl+Shift+Click in-place calculator and text case for Ix/AutoCAD (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-05T03:30:23Z",
+      "lastModified": "2026-11-05T05:44:16Z",
+      "source": "github",
+      "url": "https://github.com/WolfAi-Brains/NUMB",
+      "stars": 0,
+      "forks": 0,
+      "owner": "WolfAi-Brains",
+      "code": "```cpp\n; ============================================\n; Repository: WolfAi-Brains/NUMB\n; ============================================\n; URL: https://github.com/WolfAi-Brains/NUMB\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: Not specified\n;\n; Description:\n; Ctrl+Shift+Click in-place calculator and text case for Ix/AutoCAD (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/WolfAi-Brains/NUMB.git\n;\n; Option 2: Download ZIP\n;   https://github.com/WolfAi-Brains/NUMB/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <NUMB>\n\n; Example initialization\nclass NumbExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"NUMB loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NumbExample()\n```"
     }
   ]
 }
