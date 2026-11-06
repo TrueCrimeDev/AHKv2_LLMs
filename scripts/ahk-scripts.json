@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-06T00:15:38.026Z",
-  "totalScripts": 700,
+  "lastUpdated": "2026-11-06T06:10:49.101Z",
+  "totalScripts": 701,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6685,13 +6685,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-11-05T20:34:53Z",
+      "lastModified": "2026-11-06T05:50:06Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
       "stars": 5,
       "forks": 0,
       "owner": "Vedette1",
-      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 5 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 5 | Forks: 0\n; Last Updated: 11/6/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     },
     {
       "id": "github-1266742477",
@@ -13876,13 +13876,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-05T15:15:45Z",
+      "lastModified": "2026-11-06T05:06:26Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
       "stars": 1,
       "forks": 0,
       "owner": "jollycoder",
-      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 1 | Forks: 0\n; Last Updated: 11/6/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
     },
     {
       "id": "github-1440215264",
@@ -14198,13 +14198,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-05T03:30:23Z",
-      "lastModified": "2026-11-05T05:44:16Z",
+      "lastModified": "2026-11-06T03:12:32Z",
       "source": "github",
       "url": "https://github.com/WolfAi-Brains/NUMB",
       "stars": 0,
       "forks": 0,
       "owner": "WolfAi-Brains",
-      "code": "```cpp\n; ============================================\n; Repository: WolfAi-Brains/NUMB\n; ============================================\n; URL: https://github.com/WolfAi-Brains/NUMB\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: Not specified\n;\n; Description:\n; Ctrl+Shift+Click in-place calculator and text case for Ix/AutoCAD (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/WolfAi-Brains/NUMB.git\n;\n; Option 2: Download ZIP\n;   https://github.com/WolfAi-Brains/NUMB/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <NUMB>\n\n; Example initialization\nclass NumbExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"NUMB loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NumbExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: WolfAi-Brains/NUMB\n; ============================================\n; URL: https://github.com/WolfAi-Brains/NUMB\n; Stars: 0 | Forks: 0\n; Last Updated: 11/6/2026\n; License: Not specified\n;\n; Description:\n; Ctrl+Shift+Click in-place calculator and text case for Ix/AutoCAD (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/WolfAi-Brains/NUMB.git\n;\n; Option 2: Download ZIP\n;   https://github.com/WolfAi-Brains/NUMB/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <NUMB>\n\n; Example initialization\nclass NumbExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"NUMB loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := NumbExample()\n```"
     },
     {
       "id": "github-1430533772",
@@ -14277,6 +14277,25 @@
       "forks": 0,
       "owner": "bbboghara",
       "code": "```cpp\n; ============================================\n; Repository: bbboghara/floats\n; ============================================\n; URL: https://github.com/bbboghara/floats\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; Floating app buttons for Windows: one click brings an app to the front, another minimises it. Buttons fan out in a circle around a hub. A single AutoHotkey v2 script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bbboghara/floats.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bbboghara/floats/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <floats>\n\n; Example initialization\nclass FloatsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"floats loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FloatsExample()\n```"
+    },
+    {
+      "id": "github-377149314",
+      "title": "KeyboardRemap",
+      "category": "GitHub Repository",
+      "description": "My custom keyboard remap, using AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2021-06-15T12:07:30Z",
+      "lastModified": "2026-11-06T04:33:19Z",
+      "source": "github",
+      "url": "https://github.com/MatejKafka/KeyboardRemap",
+      "stars": 9,
+      "forks": 1,
+      "owner": "MatejKafka",
+      "code": "```cpp\n; ============================================\n; Repository: MatejKafka/KeyboardRemap\n; ============================================\n; URL: https://github.com/MatejKafka/KeyboardRemap\n; Stars: 9 | Forks: 1\n; Last Updated: 11/6/2026\n; License: Not specified\n;\n; Description:\n; My custom keyboard remap, using AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MatejKafka/KeyboardRemap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MatejKafka/KeyboardRemap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyboardRemap>\n\n; Example initialization\nclass KeyboardremapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyboardRemap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardremapExample()\n```"
     }
   ]
 }
