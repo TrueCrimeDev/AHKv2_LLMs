@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-06T06:10:49.101Z",
+  "lastUpdated": "2026-11-06T12:08:00.506Z",
   "totalScripts": 701,
   "categories": [
     "GUI",
@@ -6685,7 +6685,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-11-06T05:50:06Z",
+      "lastModified": "2026-11-06T08:10:30Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
       "stars": 5,
@@ -12878,13 +12878,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-11-04T12:34:28Z",
+      "lastModified": "2026-11-06T11:19:08Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 7,
       "forks": 1,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 7 | Forks: 1\n; Last Updated: 11/4/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 7 | Forks: 1\n; Last Updated: 11/6/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
@@ -14245,13 +14245,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-05T15:49:29Z",
-      "lastModified": "2026-11-05T16:09:22Z",
+      "lastModified": "2026-11-06T11:46:20Z",
       "source": "github",
       "url": "https://github.com/Nawfall-stack/ahk-arabic-transliteration",
       "stars": 0,
       "forks": 0,
       "owner": "Nawfall-stack",
-      "code": "```cpp\n; ============================================\n; Repository: Nawfall-stack/ahk-arabic-transliteration\n; ============================================\n; URL: https://github.com/Nawfall-stack/ahk-arabic-transliteration\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; Type Arabic on Windows using Latin letters (AutoHotkey v2, Lexilogos-style).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nawfall-stack/ahk-arabic-transliteration.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nawfall-stack/ahk-arabic-transliteration/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-arabic-transliteration>\n\n; Example initialization\nclass AhkArabicTransliterationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-arabic-transliteration loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkArabicTransliterationExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Nawfall-stack/ahk-arabic-transliteration\n; ============================================\n; URL: https://github.com/Nawfall-stack/ahk-arabic-transliteration\n; Stars: 0 | Forks: 0\n; Last Updated: 11/6/2026\n; License: MIT License\n;\n; Description:\n; Type Arabic on Windows using Latin letters (AutoHotkey v2, Lexilogos-style).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Nawfall-stack/ahk-arabic-transliteration.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Nawfall-stack/ahk-arabic-transliteration/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-arabic-transliteration>\n\n; Example initialization\nclass AhkArabicTransliterationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-arabic-transliteration loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkArabicTransliterationExample()\n```"
     },
     {
       "id": "github-1447120037",
