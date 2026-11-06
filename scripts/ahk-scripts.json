@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-06T12:08:00.506Z",
-  "totalScripts": 701,
+  "lastUpdated": "2026-11-06T18:07:58.019Z",
+  "totalScripts": 702,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -2665,13 +2665,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-11T10:06:59Z",
-      "lastModified": "2026-10-30T20:10:42Z",
+      "lastModified": "2026-11-06T16:41:33Z",
       "source": "github",
       "url": "https://github.com/CYoJkoY/CapsLock-",
       "stars": 11,
       "forks": 0,
       "owner": "CYoJkoY",
-      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 10/30/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: CYoJkoY/CapsLock-\n; ============================================\n; URL: https://github.com/CYoJkoY/CapsLock-\n; Stars: 11 | Forks: 0\n; Last Updated: 11/6/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A lightweight AutoHotkey v2 script to supercharge your CapsLock key. Includes navigation shortcuts, window management, transparency control, and auto-start management.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CYoJkoY/CapsLock-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CYoJkoY/CapsLock-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CapsLock->\n\n; Example initialization\nclass CapslockExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CapsLock- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CapslockExample()\n```"
     },
     {
       "id": "github-1155505060",
@@ -12878,7 +12878,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-11-06T11:19:08Z",
+      "lastModified": "2026-11-06T12:35:19Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 7,
@@ -14296,6 +14296,25 @@
       "forks": 1,
       "owner": "MatejKafka",
       "code": "```cpp\n; ============================================\n; Repository: MatejKafka/KeyboardRemap\n; ============================================\n; URL: https://github.com/MatejKafka/KeyboardRemap\n; Stars: 9 | Forks: 1\n; Last Updated: 11/6/2026\n; License: Not specified\n;\n; Description:\n; My custom keyboard remap, using AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MatejKafka/KeyboardRemap.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MatejKafka/KeyboardRemap/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <KeyboardRemap>\n\n; Example initialization\nclass KeyboardremapExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"KeyboardRemap loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardremapExample()\n```"
+    },
+    {
+      "id": "github-1448410490",
+      "title": "windows-remote-control",
+      "category": "GitHub Repository",
+      "description": "Claude skill: turn a Bluetooth TV or projector remote into a Windows PC controller with AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-06T15:13:43Z",
+      "lastModified": "2026-11-06T15:15:00Z",
+      "source": "github",
+      "url": "https://github.com/rong0000g/windows-remote-control",
+      "stars": 0,
+      "forks": 0,
+      "owner": "rong0000g",
+      "code": "```cpp\n; ============================================\n; Repository: rong0000g/windows-remote-control\n; ============================================\n; URL: https://github.com/rong0000g/windows-remote-control\n; Stars: 0 | Forks: 0\n; Last Updated: 11/6/2026\n; License: Not specified\n;\n; Description:\n; Claude skill: turn a Bluetooth TV or projector remote into a Windows PC controller with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rong0000g/windows-remote-control.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rong0000g/windows-remote-control/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows-remote-control>\n\n; Example initialization\nclass WindowsRemoteControlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows-remote-control loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsRemoteControlExample()\n```"
     }
   ]
 }
