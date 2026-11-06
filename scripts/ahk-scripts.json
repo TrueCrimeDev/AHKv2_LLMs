@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-05T18:06:32.976Z",
+  "lastUpdated": "2026-11-06T00:15:38.026Z",
   "totalScripts": 700,
   "categories": [
     "GUI",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-09-23T00:58:43Z",
+      "lastModified": "2026-11-05T20:15:26Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
-      "stars": 55,
-      "forks": 9,
+      "stars": 56,
+      "forks": 11,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 55 | Forks: 9\n; Last Updated: 9/23/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 56 | Forks: 11\n; Last Updated: 11/5/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -6685,13 +6685,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-11T10:32:30Z",
-      "lastModified": "2026-11-04T11:39:45Z",
+      "lastModified": "2026-11-05T20:34:53Z",
       "source": "github",
       "url": "https://github.com/Vedette1/MCF.ahk",
-      "stars": 4,
+      "stars": 5,
       "forks": 0,
       "owner": "Vedette1",
-      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 4 | Forks: 0\n; Last Updated: 11/4/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Vedette1/MCF.ahk\n; ============================================\n; URL: https://github.com/Vedette1/MCF.ahk\n; Stars: 5 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; MCF In-Memory COFF Linker for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Vedette1/MCF.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Vedette1/MCF.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MCF.ahk>\n\n; Example initialization\nclass Mcf.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MCF.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Mcf.ahkExample()\n```"
     },
     {
       "id": "github-1266742477",
@@ -12696,13 +12696,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T08:17:28Z",
-      "lastModified": "2026-11-01T02:04:21Z",
+      "lastModified": "2026-11-05T22:49:15Z",
       "source": "github",
       "url": "https://github.com/taroyamadax/clipboard-history-jugaad",
       "stars": 2,
       "forks": 0,
       "owner": "taroyamadax",
-      "code": "```cpp\n; ============================================\n; Repository: taroyamadax/clipboard-history-jugaad\n; ============================================\n; URL: https://github.com/taroyamadax/clipboard-history-jugaad\n; Stars: 2 | Forks: 0\n; Last Updated: 11/1/2026\n; License: MIT License\n;\n; Description:\n; A lightweight clipboard history manager for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/taroyamadax/clipboard-history-jugaad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/taroyamadax/clipboard-history-jugaad/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-history-jugaad>\n\n; Example initialization\nclass ClipboardHistoryJugaadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-history-jugaad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardHistoryJugaadExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: taroyamadax/clipboard-history-jugaad\n; ============================================\n; URL: https://github.com/taroyamadax/clipboard-history-jugaad\n; Stars: 2 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; A lightweight clipboard history manager for Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/taroyamadax/clipboard-history-jugaad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/taroyamadax/clipboard-history-jugaad/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clipboard-history-jugaad>\n\n; Example initialization\nclass ClipboardHistoryJugaadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clipboard-history-jugaad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipboardHistoryJugaadExample()\n```"
     },
     {
       "id": "github-1424710817",
@@ -14099,13 +14099,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-02T18:49:20Z",
-      "lastModified": "2026-11-02T19:23:25Z",
+      "lastModified": "2026-11-05T20:16:08Z",
       "source": "github",
       "url": "https://github.com/ggregoro/Windows-Quick-Reference",
       "stars": 0,
       "forks": 0,
       "owner": "ggregoro",
-      "code": "```cpp\n; ============================================\n; Repository: ggregoro/Windows-Quick-Reference\n; ============================================\n; URL: https://github.com/ggregoro/Windows-Quick-Reference\n; Stars: 0 | Forks: 0\n; Last Updated: 11/2/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Your cheat sheets, one key away: a Win+Shift+K pop-up for Windows (AutoHotkey v2). Sibling of Omarchy Quick Reference.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ggregoro/Windows-Quick-Reference.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ggregoro/Windows-Quick-Reference/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows-Quick-Reference>\n\n; Example initialization\nclass WindowsQuickReferenceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows-Quick-Reference loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsQuickReferenceExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ggregoro/Windows-Quick-Reference\n; ============================================\n; URL: https://github.com/ggregoro/Windows-Quick-Reference\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Your cheat sheets, one key away: a Win+Shift+K pop-up for Windows (AutoHotkey v2). Sibling of Omarchy Quick Reference.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ggregoro/Windows-Quick-Reference.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ggregoro/Windows-Quick-Reference/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Windows-Quick-Reference>\n\n; Example initialization\nclass WindowsQuickReferenceExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Windows-Quick-Reference loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsQuickReferenceExample()\n```"
     },
     {
       "id": "github-1443628975",
