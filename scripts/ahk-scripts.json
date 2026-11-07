@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-07T00:13:43.569Z",
+  "lastUpdated": "2026-11-07T06:08:34.508Z",
   "totalScripts": 702,
   "categories": [
     "GUI",
@@ -5782,13 +5782,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-10-31T16:26:40Z",
+      "lastModified": "2026-11-07T02:52:48Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 3,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 3 | Forks: 0\n; Last Updated: 10/31/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 3 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -9775,13 +9775,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-05T01:31:11Z",
-      "lastModified": "2026-11-05T14:57:06Z",
+      "lastModified": "2026-11-07T00:23:17Z",
       "source": "github",
       "url": "https://github.com/p65536/AltTab-Classic-AHK",
       "stars": 0,
       "forks": 0,
       "owner": "p65536",
-      "code": "```cpp\n; ============================================\n; Repository: p65536/AltTab-Classic-AHK\n; ============================================\n; URL: https://github.com/p65536/AltTab-Classic-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: MIT License\n;\n; Description:\n; A lightweight classic-style Alt+Tab window switcher for Windows, implemented in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/p65536/AltTab-Classic-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/p65536/AltTab-Classic-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AltTab-Classic-AHK>\n\n; Example initialization\nclass AlttabClassicAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AltTab-Classic-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlttabClassicAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: p65536/AltTab-Classic-AHK\n; ============================================\n; URL: https://github.com/p65536/AltTab-Classic-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; A lightweight classic-style Alt+Tab window switcher for Windows, implemented in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/p65536/AltTab-Classic-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/p65536/AltTab-Classic-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AltTab-Classic-AHK>\n\n; Example initialization\nclass AlttabClassicAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AltTab-Classic-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlttabClassicAhkExample()\n```"
     },
     {
       "id": "github-1357976585",
@@ -13876,13 +13876,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-06T23:35:24Z",
+      "lastModified": "2026-11-07T05:53:54Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
       "stars": 2,
       "forks": 0,
       "owner": "jollycoder",
-      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 2 | Forks: 0\n; Last Updated: 11/6/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 2 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
     },
     {
       "id": "github-1440215264",
