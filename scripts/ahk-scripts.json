@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-07T12:07:39.662Z",
+  "lastUpdated": "2026-11-07T18:05:48.510Z",
   "totalScripts": 702,
   "categories": [
     "GUI",
@@ -11107,13 +11107,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T14:51:49Z",
-      "lastModified": "2026-10-28T03:30:22Z",
+      "lastModified": "2026-11-07T16:12:13Z",
       "source": "github",
       "url": "https://github.com/simsrw73/Legend.ahk",
       "stars": 1,
       "forks": 0,
       "owner": "simsrw73",
-      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 10/28/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
     },
     {
       "id": "github-1392666680",
@@ -11737,13 +11737,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-07T12:54:16Z",
-      "lastModified": "2026-10-07T14:30:42Z",
+      "lastModified": "2026-11-07T15:47:45Z",
       "source": "github",
       "url": "https://github.com/bfzds/PotPlayer-HoldSpeed",
       "stars": 0,
       "forks": 0,
       "owner": "bfzds",
-      "code": "```cpp\n; ============================================\n; Repository: bfzds/PotPlayer-HoldSpeed\n; ============================================\n; URL: https://github.com/bfzds/PotPlayer-HoldSpeed\n; Stars: 0 | Forks: 0\n; Last Updated: 10/7/2026\n; License: MIT License\n;\n; Description:\n; Hold RIGHT arrow for 3x playback in PotPlayer, release to restore 1.5x (AutoHotkey v2 + zTasker + scheduled-task broker)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bfzds/PotPlayer-HoldSpeed.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bfzds/PotPlayer-HoldSpeed/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PotPlayer-HoldSpeed>\n\n; Example initialization\nclass PotplayerHoldspeedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PotPlayer-HoldSpeed loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PotplayerHoldspeedExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bfzds/PotPlayer-HoldSpeed\n; ============================================\n; URL: https://github.com/bfzds/PotPlayer-HoldSpeed\n; Stars: 0 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; Hold RIGHT arrow for 3x playback in PotPlayer, release to restore 1.5x (AutoHotkey v2 + zTasker + scheduled-task broker)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bfzds/PotPlayer-HoldSpeed.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bfzds/PotPlayer-HoldSpeed/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PotPlayer-HoldSpeed>\n\n; Example initialization\nclass PotplayerHoldspeedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PotPlayer-HoldSpeed loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PotplayerHoldspeedExample()\n```"
     },
     {
       "id": "github-1409494021",
@@ -12426,13 +12426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-15T22:18:22Z",
-      "lastModified": "2026-10-29T02:04:26Z",
+      "lastModified": "2026-11-07T15:33:01Z",
       "source": "github",
       "url": "https://github.com/mikejhill/hotkit",
       "stars": 1,
       "forks": 0,
       "owner": "mikejhill",
-      "code": "```cpp\n; ============================================\n; Repository: mikejhill/hotkit\n; ============================================\n; URL: https://github.com/mikejhill/hotkit\n; Stars: 1 | Forks: 0\n; Last Updated: 10/29/2026\n; License: MIT License\n;\n; Description:\n; A config-driven hotkey toolkit for Windows, built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mikejhill/hotkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mikejhill/hotkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkit>\n\n; Example initialization\nclass HotkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mikejhill/hotkit\n; ============================================\n; URL: https://github.com/mikejhill/hotkit\n; Stars: 1 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; A config-driven hotkey toolkit for Windows, built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mikejhill/hotkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mikejhill/hotkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkit>\n\n; Example initialization\nclass HotkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkitExample()\n```"
     },
     {
       "id": "github-1421464392",
@@ -13876,7 +13876,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-07T05:53:54Z",
+      "lastModified": "2026-11-07T16:50:06Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
       "stars": 2,
