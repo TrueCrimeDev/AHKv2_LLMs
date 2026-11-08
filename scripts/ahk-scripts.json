@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-07T18:05:48.510Z",
-  "totalScripts": 702,
+  "lastUpdated": "2026-11-08T00:16:56.835Z",
+  "totalScripts": 704,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -8777,13 +8777,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-07-27T11:54:29Z",
-      "lastModified": "2026-11-04T09:14:53Z",
+      "lastModified": "2026-11-07T22:37:01Z",
       "source": "github",
       "url": "https://github.com/AmitTzah/ahkllm",
-      "stars": 24,
+      "stars": 25,
       "forks": 1,
       "owner": "AmitTzah",
-      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 24 | Forks: 1\n; Last Updated: 11/4/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AmitTzah/ahkllm\n; ============================================\n; URL: https://github.com/AmitTzah/ahkllm\n; Stars: 25 | Forks: 1\n; Last Updated: 11/7/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AhkLLM — Windows-native AI assistant built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AmitTzah/ahkllm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AmitTzah/ahkllm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahkllm>\n\n; Example initialization\nclass AhkllmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahkllm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkllmExample()\n```"
     },
     {
       "id": "github-1349893672",
@@ -13876,7 +13876,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-07T16:50:06Z",
+      "lastModified": "2026-11-07T20:10:41Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
       "stars": 2,
@@ -14315,6 +14315,56 @@
       "forks": 0,
       "owner": "rong0000g",
       "code": "```cpp\n; ============================================\n; Repository: rong0000g/windows-remote-control\n; ============================================\n; URL: https://github.com/rong0000g/windows-remote-control\n; Stars: 0 | Forks: 0\n; Last Updated: 11/6/2026\n; License: Not specified\n;\n; Description:\n; Claude skill: turn a Bluetooth TV or projector remote into a Windows PC controller with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/rong0000g/windows-remote-control.git\n;\n; Option 2: Download ZIP\n;   https://github.com/rong0000g/windows-remote-control/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows-remote-control>\n\n; Example initialization\nclass WindowsRemoteControlExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows-remote-control loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsRemoteControlExample()\n```"
+    },
+    {
+      "id": "github-1449798895",
+      "title": "account-queue",
+      "category": "GitHub Repository",
+      "description": "Log into many game accounts across multiple client windows: paste-and-advance hotkeys, window linking, click macros, routines, and unattended idle jobs. Single-file AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "gui",
+        "macro",
+        "multi-account"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-07T22:48:57Z",
+      "lastModified": "2026-11-07T22:49:44Z",
+      "source": "github",
+      "url": "https://github.com/MotazMSAG/account-queue",
+      "stars": 0,
+      "forks": 0,
+      "owner": "MotazMSAG",
+      "code": "```cpp\n; ============================================\n; Repository: MotazMSAG/account-queue\n; ============================================\n; URL: https://github.com/MotazMSAG/account-queue\n; Stars: 0 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; Log into many game accounts across multiple client windows: paste-and-advance hotkeys, window linking, click macros, routines, and unattended idle jobs. Single-file AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MotazMSAG/account-queue.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MotazMSAG/account-queue/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <account-queue>\n\n; Example initialization\nclass AccountQueueExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"account-queue loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AccountQueueExample()\n```"
+    },
+    {
+      "id": "github-1449798732",
+      "title": "tos-macro-studio",
+      "category": "GitHub Repository",
+      "description": "Record macros for Tree of Savior: NEO, build them into routines on a flow chart, one-click login, reminders, and scheduled unattended jobs. Single-file AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "gui",
+        "macro",
+        "tree-of-savior"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-07T22:48:39Z",
+      "lastModified": "2026-11-07T22:49:43Z",
+      "source": "github",
+      "url": "https://github.com/MotazMSAG/tos-macro-studio",
+      "stars": 0,
+      "forks": 0,
+      "owner": "MotazMSAG",
+      "code": "```cpp\n; ============================================\n; Repository: MotazMSAG/tos-macro-studio\n; ============================================\n; URL: https://github.com/MotazMSAG/tos-macro-studio\n; Stars: 0 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; Record macros for Tree of Savior: NEO, build them into routines on a flow chart, one-click login, reminders, and scheduled unattended jobs. Single-file AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MotazMSAG/tos-macro-studio.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MotazMSAG/tos-macro-studio/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <tos-macro-studio>\n\n; Example initialization\nclass TosMacroStudioExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"tos-macro-studio loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TosMacroStudioExample()\n```"
     }
   ]
 }
