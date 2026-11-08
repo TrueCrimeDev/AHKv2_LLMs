@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-08T00:16:56.835Z",
-  "totalScripts": 704,
+  "lastUpdated": "2026-11-08T06:08:51.974Z",
+  "totalScripts": 705,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -5782,13 +5782,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-11-07T02:52:48Z",
+      "lastModified": "2026-11-08T02:06:38Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 3 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 4 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -12426,13 +12426,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-15T22:18:22Z",
-      "lastModified": "2026-11-07T15:33:01Z",
+      "lastModified": "2026-11-08T03:19:05Z",
       "source": "github",
       "url": "https://github.com/mikejhill/hotkit",
       "stars": 1,
       "forks": 0,
       "owner": "mikejhill",
-      "code": "```cpp\n; ============================================\n; Repository: mikejhill/hotkit\n; ============================================\n; URL: https://github.com/mikejhill/hotkit\n; Stars: 1 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; A config-driven hotkey toolkit for Windows, built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mikejhill/hotkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mikejhill/hotkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkit>\n\n; Example initialization\nclass HotkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mikejhill/hotkit\n; ============================================\n; URL: https://github.com/mikejhill/hotkit\n; Stars: 1 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; A config-driven hotkey toolkit for Windows, built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mikejhill/hotkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mikejhill/hotkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkit>\n\n; Example initialization\nclass HotkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkitExample()\n```"
     },
     {
       "id": "github-1421464392",
@@ -12590,13 +12590,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T00:19:35Z",
-      "lastModified": "2026-10-20T03:34:31Z",
+      "lastModified": "2026-11-08T02:25:03Z",
       "source": "github",
       "url": "https://github.com/renton555/sketchup-chords",
       "stars": 0,
       "forks": 0,
       "owner": "renton555",
-      "code": "```cpp\n; ============================================\n; Repository: renton555/sketchup-chords\n; ============================================\n; URL: https://github.com/renton555/sketchup-chords\n; Stars: 0 | Forks: 0\n; Last Updated: 10/20/2026\n; License: MIT License\n;\n; Description:\n; Type short words in SketchUp to fire keyboard shortcuts. AutoHotkey v2, Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/renton555/sketchup-chords.git\n;\n; Option 2: Download ZIP\n;   https://github.com/renton555/sketchup-chords/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sketchup-chords>\n\n; Example initialization\nclass SketchupChordsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sketchup-chords loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SketchupChordsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: renton555/sketchup-chords\n; ============================================\n; URL: https://github.com/renton555/sketchup-chords\n; Stars: 0 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; Type short words in SketchUp to fire keyboard shortcuts. AutoHotkey v2, Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/renton555/sketchup-chords.git\n;\n; Option 2: Download ZIP\n;   https://github.com/renton555/sketchup-chords/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <sketchup-chords>\n\n; Example initialization\nclass SketchupChordsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"sketchup-chords loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SketchupChordsExample()\n```"
     },
     {
       "id": "github-1423987509",
@@ -14365,6 +14365,31 @@
       "forks": 0,
       "owner": "MotazMSAG",
       "code": "```cpp\n; ============================================\n; Repository: MotazMSAG/tos-macro-studio\n; ============================================\n; URL: https://github.com/MotazMSAG/tos-macro-studio\n; Stars: 0 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; Record macros for Tree of Savior: NEO, build them into routines on a flow chart, one-click login, reminders, and scheduled unattended jobs. Single-file AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MotazMSAG/tos-macro-studio.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MotazMSAG/tos-macro-studio/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <tos-macro-studio>\n\n; Example initialization\nclass TosMacroStudioExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"tos-macro-studio loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TosMacroStudioExample()\n```"
+    },
+    {
+      "id": "github-1449859768",
+      "title": "ahk-typing-simulator",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script that simulates realistic human typing in VS Code — per-character keystroke delays, random mistakes with backspace corrections, thinking pauses, focus detection, and hotkey controls (start / pause / stop / emergency).",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "autohotkey-script",
+        "autohotkey-scripts",
+        "autohotkey-v2",
+        "automation"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-08T00:49:30Z",
+      "lastModified": "2026-11-08T02:24:20Z",
+      "source": "github",
+      "url": "https://github.com/Mwakio-empire/ahk-typing-simulator",
+      "stars": 1,
+      "forks": 0,
+      "owner": "Mwakio-empire",
+      "code": "```cpp\n; ============================================\n; Repository: Mwakio-empire/ahk-typing-simulator\n; ============================================\n; URL: https://github.com/Mwakio-empire/ahk-typing-simulator\n; Stars: 1 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that simulates realistic human typing in VS Code — per-character keystroke delays, random mistakes with backspace corrections, thinking pauses, focus detection, and hotkey controls (start / pause / stop / emergency).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Mwakio-empire/ahk-typing-simulator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Mwakio-empire/ahk-typing-simulator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-typing-simulator>\n\n; Example initialization\nclass AhkTypingSimulatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-typing-simulator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkTypingSimulatorExample()\n```"
     }
   ]
 }
