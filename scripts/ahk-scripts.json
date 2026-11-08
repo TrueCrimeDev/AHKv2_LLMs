@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-08T06:08:51.974Z",
-  "totalScripts": 705,
+  "lastUpdated": "2026-11-08T12:07:10.046Z",
+  "totalScripts": 706,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -14383,13 +14383,32 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-08T00:49:30Z",
-      "lastModified": "2026-11-08T02:24:20Z",
+      "lastModified": "2026-11-08T11:21:44Z",
       "source": "github",
       "url": "https://github.com/Mwakio-empire/ahk-typing-simulator",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "Mwakio-empire",
-      "code": "```cpp\n; ============================================\n; Repository: Mwakio-empire/ahk-typing-simulator\n; ============================================\n; URL: https://github.com/Mwakio-empire/ahk-typing-simulator\n; Stars: 1 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that simulates realistic human typing in VS Code — per-character keystroke delays, random mistakes with backspace corrections, thinking pauses, focus detection, and hotkey controls (start / pause / stop / emergency).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Mwakio-empire/ahk-typing-simulator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Mwakio-empire/ahk-typing-simulator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-typing-simulator>\n\n; Example initialization\nclass AhkTypingSimulatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-typing-simulator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkTypingSimulatorExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Mwakio-empire/ahk-typing-simulator\n; ============================================\n; URL: https://github.com/Mwakio-empire/ahk-typing-simulator\n; Stars: 2 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that simulates realistic human typing in VS Code — per-character keystroke delays, random mistakes with backspace corrections, thinking pauses, focus detection, and hotkey controls (start / pause / stop / emergency).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Mwakio-empire/ahk-typing-simulator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Mwakio-empire/ahk-typing-simulator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-typing-simulator>\n\n; Example initialization\nclass AhkTypingSimulatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-typing-simulator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkTypingSimulatorExample()\n```"
+    },
+    {
+      "id": "github-1450233488",
+      "title": "wow-dual-window-manager",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script: two borderless World of Warcraft windows (main + alt), swap, move, resize, multi-screen.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-08T11:50:11Z",
+      "lastModified": "2026-11-08T12:06:19Z",
+      "source": "github",
+      "url": "https://github.com/ftkun/wow-dual-window-manager",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ftkun",
+      "code": "```cpp\n; ============================================\n; Repository: ftkun/wow-dual-window-manager\n; ============================================\n; URL: https://github.com/ftkun/wow-dual-window-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 11/8/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script: two borderless World of Warcraft windows (main + alt), swap, move, resize, multi-screen.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ftkun/wow-dual-window-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ftkun/wow-dual-window-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <wow-dual-window-manager>\n\n; Example initialization\nclass WowDualWindowManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"wow-dual-window-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WowDualWindowManagerExample()\n```"
     }
   ]
 }
