@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-08T18:05:54.682Z",
-  "totalScripts": 706,
+  "lastUpdated": "2026-11-09T00:16:33.038Z",
+  "totalScripts": 707,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -11107,13 +11107,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-28T14:51:49Z",
-      "lastModified": "2026-11-07T16:12:13Z",
+      "lastModified": "2026-11-08T23:12:53Z",
       "source": "github",
       "url": "https://github.com/simsrw73/Legend.ahk",
       "stars": 1,
       "forks": 0,
       "owner": "simsrw73",
-      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: simsrw73/Legend.ahk\n; ============================================\n; URL: https://github.com/simsrw73/Legend.ahk\n; Stars: 1 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; Contextual shortcut overlay for AutoHotkey v2: your bindings and app shortcuts, one keypress away\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/simsrw73/Legend.ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/simsrw73/Legend.ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Legend.ahk>\n\n; Example initialization\nclass Legend.ahkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Legend.ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Legend.ahkExample()\n```"
     },
     {
       "id": "github-1392666680",
@@ -12878,7 +12878,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-11-08T12:54:00Z",
+      "lastModified": "2026-11-08T22:30:24Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 7,
@@ -14409,6 +14409,31 @@
       "forks": 0,
       "owner": "ftkun",
       "code": "```cpp\n; ============================================\n; Repository: ftkun/wow-dual-window-manager\n; ============================================\n; URL: https://github.com/ftkun/wow-dual-window-manager\n; Stars: 0 | Forks: 0\n; Last Updated: 11/8/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 script: two borderless World of Warcraft windows (main + alt), swap, move, resize, multi-screen.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ftkun/wow-dual-window-manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ftkun/wow-dual-window-manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <wow-dual-window-manager>\n\n; Example initialization\nclass WowDualWindowManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"wow-dual-window-manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WowDualWindowManagerExample()\n```"
+    },
+    {
+      "id": "github-1450618497",
+      "title": "TrayMute",
+      "category": "GitHub Repository",
+      "description": "One-click mute for every microphone and speaker from the Windows 11 system tray. Permanent tray icons, global hotkeys and a floating mini window; unmuting restores each device. Lightweight AutoHotkey v2 script, no telemetry. Fork of MuteGuard.",
+      "tags": [
+        "github",
+        "repository",
+        "audio",
+        "autohotkey",
+        "autohotkey-v2",
+        "hotkeys",
+        "microphone",
+        "microphone-mute"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-08T20:02:17Z",
+      "lastModified": "2026-11-08T22:03:02Z",
+      "source": "github",
+      "url": "https://github.com/Niptrion/TrayMute",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Niptrion",
+      "code": "```cpp\n; ============================================\n; Repository: Niptrion/TrayMute\n; ============================================\n; URL: https://github.com/Niptrion/TrayMute\n; Stars: 0 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; One-click mute for every microphone and speaker from the Windows 11 system tray. Permanent tray icons, global hotkeys and a floating mini window; unmuting restores each device. Lightweight AutoHotkey v2 script, no telemetry. Fork of MuteGuard.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Niptrion/TrayMute.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Niptrion/TrayMute/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <TrayMute>\n\n; Example initialization\nclass TraymuteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"TrayMute loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TraymuteExample()\n```"
     }
   ]
 }
