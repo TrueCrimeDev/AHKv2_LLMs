@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-09T00:16:33.038Z",
+  "lastUpdated": "2026-11-09T06:14:35.817Z",
   "totalScripts": 707,
   "categories": [
     "GUI",
@@ -10754,13 +10754,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-10T10:48:20Z",
-      "lastModified": "2026-11-01T02:03:00Z",
+      "lastModified": "2026-11-09T04:40:47Z",
       "source": "github",
       "url": "https://github.com/sandraschi/autohotkey-tools",
       "stars": 3,
       "forks": 0,
       "owner": "sandraschi",
-      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 3 | Forks: 0\n; Last Updated: 11/1/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: sandraschi/autohotkey-tools\n; ============================================\n; URL: https://github.com/sandraschi/autohotkey-tools\n; Stars: 3 | Forks: 0\n; Last Updated: 11/9/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 scripts for MCP development with AI integration. Features a modern COM bridge, HTML5 GUI, and comprehensive testing framework. Perfect for Windows automation with JSON utilities, configuration management, and real-time updates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sandraschi/autohotkey-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sandraschi/autohotkey-tools/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-tools>\n\n; Example initialization\nclass AutohotkeyToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyToolsExample()\n```"
     },
     {
       "id": "github-1383843860",
@@ -13876,13 +13876,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-07T20:10:41Z",
+      "lastModified": "2026-11-09T05:52:40Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "jollycoder",
-      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 2 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 3 | Forks: 0\n; Last Updated: 11/9/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
     },
     {
       "id": "github-1440215264",
