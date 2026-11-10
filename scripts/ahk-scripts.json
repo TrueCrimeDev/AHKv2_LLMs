@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-10T12:07:50.742Z",
-  "totalScripts": 717,
+  "lastUpdated": "2026-11-10T18:05:27.057Z",
+  "totalScripts": 720,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -1982,13 +1982,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-01-12T17:07:28Z",
-      "lastModified": "2026-11-05T10:17:42Z",
+      "lastModified": "2026-11-10T12:14:05Z",
       "source": "github",
       "url": "https://github.com/Ncoder-official/Snaptivity",
       "stars": 3,
       "forks": 0,
       "owner": "Ncoder-official",
-      "code": "```cpp\n; ============================================\n; Repository: Ncoder-official/Snaptivity\n; ============================================\n; URL: https://github.com/Ncoder-official/Snaptivity\n; Stars: 3 | Forks: 0\n; Last Updated: 11/5/2026\n; License: Other\n;\n; Description:\n; An SOCD script recreated using AHK built to simulate hardware SOCD via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ncoder-official/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ncoder-official/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Ncoder-official/Snaptivity\n; ============================================\n; URL: https://github.com/Ncoder-official/Snaptivity\n; Stars: 3 | Forks: 0\n; Last Updated: 11/10/2026\n; License: Other\n;\n; Description:\n; An SOCD script recreated using AHK built to simulate hardware SOCD via AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ncoder-official/Snaptivity.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ncoder-official/Snaptivity/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Snaptivity>\n\n; Example initialization\nclass SnaptivityExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Snaptivity loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnaptivityExample()\n```"
     },
     {
       "id": "github-1135272932",
@@ -5782,13 +5782,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-17T21:51:11Z",
-      "lastModified": "2026-11-08T02:06:38Z",
+      "lastModified": "2026-11-10T15:29:37Z",
       "source": "github",
       "url": "https://github.com/laptrc/WhereWindsMeetAuto",
       "stars": 4,
       "forks": 0,
       "owner": "laptrc",
-      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 4 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: laptrc/WhereWindsMeetAuto\n; ============================================\n; URL: https://github.com/laptrc/WhereWindsMeetAuto\n; Stars: 4 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 automation script for Where Winds Meet with a GUI launcher and hotkeys for farming, fishing, herb gathering, mining, and mini-games.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/laptrc/WhereWindsMeetAuto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/laptrc/WhereWindsMeetAuto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WhereWindsMeetAuto>\n\n; Example initialization\nclass WherewindsmeetautoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WhereWindsMeetAuto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WherewindsmeetautoExample()\n```"
     },
     {
       "id": "github-840789928",
@@ -11677,13 +11677,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-06T05:28:55Z",
-      "lastModified": "2026-11-05T08:40:54Z",
+      "lastModified": "2026-11-10T13:30:22Z",
       "source": "github",
       "url": "https://github.com/ryanduguid/au-accounting-hotkeys",
       "stars": 0,
       "forks": 0,
       "owner": "ryanduguid",
-      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 11/5/2026\n; License: Other\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ryanduguid/au-accounting-hotkeys\n; ============================================\n; URL: https://github.com/ryanduguid/au-accounting-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: Other\n;\n; Description:\n; Windows AutoHotkey v2 shortcuts for Australian accountants: financial-year dates, a searchable picker of period labels, ABN and ACN formatting, and draft workpaper snippets.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ryanduguid/au-accounting-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ryanduguid/au-accounting-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <au-accounting-hotkeys>\n\n; Example initialization\nclass AuAccountingHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"au-accounting-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AuAccountingHotkeysExample()\n```"
     },
     {
       "id": "github-1406750718",
@@ -12878,7 +12878,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-11-10T00:13:53Z",
+      "lastModified": "2026-11-10T15:12:13Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 7,
@@ -14564,13 +14564,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-10T11:02:00Z",
-      "lastModified": "2026-11-10T11:05:02Z",
+      "lastModified": "2026-11-10T12:25:48Z",
       "source": "github",
       "url": "https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "Trashbitgameboy",
-      "code": "```cpp\n; ============================================\n; Repository: Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-\n; ============================================\n; URL: https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: Not specified\n;\n; Description:\n; Ein intelligentes und anpassbares AutoHotkey v2 (AHK v2) Makro für Path of Exile, das deine Fläschchen (Flasks) vollautomatisch in Maps und Kampfzonen drückt und in sicheren Bereichen (wie Hideouts oder Städten) automatisch pausiert.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <-Path-of-Exile-Flask-Manager-AHK-v2->\n\n; Example initialization\nclass PathOfExileFlaskManagerAhkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"-Path-of-Exile-Flask-Manager-AHK-v2- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PathOfExileFlaskManagerAhkV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-\n; ============================================\n; URL: https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-\n; Stars: 1 | Forks: 0\n; Last Updated: 11/10/2026\n; License: Not specified\n;\n; Description:\n; Ein intelligentes und anpassbares AutoHotkey v2 (AHK v2) Makro für Path of Exile, das deine Fläschchen (Flasks) vollautomatisch in Maps und Kampfzonen drückt und in sicheren Bereichen (wie Hideouts oder Städten) automatisch pausiert.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <-Path-of-Exile-Flask-Manager-AHK-v2->\n\n; Example initialization\nclass PathOfExileFlaskManagerAhkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"-Path-of-Exile-Flask-Manager-AHK-v2- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PathOfExileFlaskManagerAhkV2Example()\n```"
     },
     {
       "id": "github-1452348930",
@@ -14621,13 +14621,77 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-08T11:45:58Z",
-      "lastModified": "2026-11-10T06:35:57Z",
+      "lastModified": "2026-11-10T16:23:09Z",
       "source": "github",
       "url": "https://github.com/ten9miq/EnglishAutocomplete",
       "stars": 0,
       "forks": 0,
       "owner": "ten9miq",
       "code": "```cpp\n; ============================================\n; Repository: ten9miq/EnglishAutocomplete\n; ============================================\n; URL: https://github.com/ten9miq/EnglishAutocomplete\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; Portable AutoHotkey v2 English word autocomplete with local dictionaries and SQLite learning\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ten9miq/EnglishAutocomplete.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ten9miq/EnglishAutocomplete/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EnglishAutocomplete>\n\n; Example initialization\nclass EnglishautocompleteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EnglishAutocomplete loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EnglishautocompleteExample()\n```"
+    },
+    {
+      "id": "github-1452906470",
+      "title": "MoontideMacro",
+      "category": "GitHub Repository",
+      "description": "Moontide Macro - a Sol's RNG macro for AutoHotkey v2: fishing, selling, crafting, merchants, quests, biome items and hunts",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-10T16:23:24Z",
+      "lastModified": "2026-11-10T16:23:37Z",
+      "source": "github",
+      "url": "https://github.com/unknownuser209/MoontideMacro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "unknownuser209",
+      "code": "```cpp\n; ============================================\n; Repository: unknownuser209/MoontideMacro\n; ============================================\n; URL: https://github.com/unknownuser209/MoontideMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: Not specified\n;\n; Description:\n; Moontide Macro - a Sol's RNG macro for AutoHotkey v2: fishing, selling, crafting, merchants, quests, biome items and hunts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/unknownuser209/MoontideMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/unknownuser209/MoontideMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MoontideMacro>\n\n; Example initialization\nclass MoontidemacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MoontideMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MoontidemacroExample()\n```"
+    },
+    {
+      "id": "github-1452832655",
+      "title": "ahk-ergonomics",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2: hold Win to open a terminal, CapsLock as a modifier layer, extended mouse side buttons",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "autohotkey",
+        "ergonomics",
+        "hotkeys",
+        "productivity",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-10T15:19:52Z",
+      "lastModified": "2026-11-10T15:24:04Z",
+      "source": "github",
+      "url": "https://github.com/Therenery/ahk-ergonomics",
+      "stars": 1,
+      "forks": 0,
+      "owner": "Therenery",
+      "code": "```cpp\n; ============================================\n; Repository: Therenery/ahk-ergonomics\n; ============================================\n; URL: https://github.com/Therenery/ahk-ergonomics\n; Stars: 1 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2: hold Win to open a terminal, CapsLock as a modifier layer, extended mouse side buttons\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Therenery/ahk-ergonomics.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Therenery/ahk-ergonomics/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-ergonomics>\n\n; Example initialization\nclass AhkErgonomicsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-ergonomics loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkErgonomicsExample()\n```"
+    },
+    {
+      "id": "github-1327614435",
+      "title": "epicmousemover",
+      "category": "GitHub Repository",
+      "description": "Mouse jitter written in AutoHotkey v2. Troll project oneshotted by GPT 4o. I'm not responsible if you use this tool",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-08-08T09:51:30Z",
+      "lastModified": "2026-11-10T12:39:38Z",
+      "source": "github",
+      "url": "https://github.com/sachahjkl/epicmousemover",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sachahjkl",
+      "code": "```cpp\n; ============================================\n; Repository: sachahjkl/epicmousemover\n; ============================================\n; URL: https://github.com/sachahjkl/epicmousemover\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: Not specified\n;\n; Description:\n; Mouse jitter written in AutoHotkey v2. Troll project oneshotted by GPT 4o. I'm not responsible if you use this tool\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sachahjkl/epicmousemover.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sachahjkl/epicmousemover/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <epicmousemover>\n\n; Example initialization\nclass EpicmousemoverExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"epicmousemover loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EpicmousemoverExample()\n```"
     }
   ]
 }
