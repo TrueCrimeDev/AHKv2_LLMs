@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-10T00:14:05.274Z",
-  "totalScripts": 711,
+  "lastUpdated": "2026-11-10T06:09:20.447Z",
+  "totalScripts": 713,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -12602,20 +12602,20 @@
       "id": "github-1423987509",
       "title": "UW",
       "category": "GitHub Repository",
-      "description": "Mouse-driven side panel for UnReal World (AutoHotkey v2). Sends real keys without stealing focus. Rearrange and recolor buttons, 5 languages.",
+      "description": "Mouse-driven side panel for UnReal World (AutoHotkey v2). Sends real keys without stealing focus. Rearrange and recolor buttons, 6 languages.",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-18T04:29:18Z",
-      "lastModified": "2026-10-18T05:11:41Z",
+      "lastModified": "2026-11-10T02:16:07Z",
       "source": "github",
       "url": "https://github.com/kurtzito/UW",
       "stars": 0,
       "forks": 0,
       "owner": "kurtzito",
-      "code": "```cpp\n; ============================================\n; Repository: kurtzito/UW\n; ============================================\n; URL: https://github.com/kurtzito/UW\n; Stars: 0 | Forks: 0\n; Last Updated: 10/18/2026\n; License: MIT License\n;\n; Description:\n; Mouse-driven side panel for UnReal World (AutoHotkey v2). Sends real keys without stealing focus. Rearrange and recolor buttons, 5 languages.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kurtzito/UW.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kurtzito/UW/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UW>\n\n; Example initialization\nclass UwExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UW loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UwExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kurtzito/UW\n; ============================================\n; URL: https://github.com/kurtzito/UW\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; Mouse-driven side panel for UnReal World (AutoHotkey v2). Sends real keys without stealing focus. Rearrange and recolor buttons, 6 languages.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kurtzito/UW.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kurtzito/UW/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <UW>\n\n; Example initialization\nclass UwExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"UW loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UwExample()\n```"
     },
     {
       "id": "github-1423995971",
@@ -14488,13 +14488,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-09T18:24:58Z",
-      "lastModified": "2026-11-09T19:12:12Z",
+      "lastModified": "2026-11-10T04:58:23Z",
       "source": "github",
       "url": "https://github.com/zongmanqiu/ahk-v2-scripts",
       "stars": 0,
       "forks": 0,
       "owner": "zongmanqiu",
-      "code": "```cpp\n; ============================================\n; Repository: zongmanqiu/ahk-v2-scripts\n; ============================================\n; URL: https://github.com/zongmanqiu/ahk-v2-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 11/9/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zongmanqiu/ahk-v2-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zongmanqiu/ahk-v2-scripts/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-v2-scripts>\n\n; Example initialization\nclass AhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-v2-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2ScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zongmanqiu/ahk-v2-scripts\n; ============================================\n; URL: https://github.com/zongmanqiu/ahk-v2-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zongmanqiu/ahk-v2-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zongmanqiu/ahk-v2-scripts/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-v2-scripts>\n\n; Example initialization\nclass AhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-v2-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2ScriptsExample()\n```"
     },
     {
       "id": "github-1451492203",
@@ -14514,6 +14514,44 @@
       "forks": 0,
       "owner": "DreamOzO",
       "code": "```cpp\n; ============================================\n; Repository: DreamOzO/RPATools\n; ============================================\n; URL: https://github.com/DreamOzO/RPATools\n; Stars: 0 | Forks: 0\n; Last Updated: 11/9/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2.0脚本\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DreamOzO/RPATools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DreamOzO/RPATools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RPATools>\n\n; Example initialization\nclass RpatoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RPATools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RpatoolsExample()\n```"
+    },
+    {
+      "id": "github-1452166812",
+      "title": "DualMonitorFocus",
+      "category": "GitHub Repository",
+      "description": "Windows 双屏焦点 AutoHotkey v2 小工具",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-10T03:38:27Z",
+      "lastModified": "2026-11-10T03:54:48Z",
+      "source": "github",
+      "url": "https://github.com/wafmling/DualMonitorFocus",
+      "stars": 0,
+      "forks": 0,
+      "owner": "wafmling",
+      "code": "```cpp\n; ============================================\n; Repository: wafmling/DualMonitorFocus\n; ============================================\n; URL: https://github.com/wafmling/DualMonitorFocus\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; Windows 双屏焦点 AutoHotkey v2 小工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wafmling/DualMonitorFocus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wafmling/DualMonitorFocus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DualMonitorFocus>\n\n; Example initialization\nclass DualmonitorfocusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DualMonitorFocus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DualmonitorfocusExample()\n```"
+    },
+    {
+      "id": "github-1446278279",
+      "title": "ezdesk",
+      "category": "GitHub Repository",
+      "description": "Fast virtual-desktop switching for Windows 11 with a numbered tray indicator (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-04T22:44:03Z",
+      "lastModified": "2026-11-10T01:47:07Z",
+      "source": "github",
+      "url": "https://github.com/alxbdn/ezdesk",
+      "stars": 0,
+      "forks": 0,
+      "owner": "alxbdn",
+      "code": "```cpp\n; ============================================\n; Repository: alxbdn/ezdesk\n; ============================================\n; URL: https://github.com/alxbdn/ezdesk\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; Fast virtual-desktop switching for Windows 11 with a numbered tray indicator (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/alxbdn/ezdesk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/alxbdn/ezdesk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ezdesk>\n\n; Example initialization\nclass EzdeskExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ezdesk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EzdeskExample()\n```"
     }
   ]
 }
