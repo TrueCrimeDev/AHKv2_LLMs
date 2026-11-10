@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-10T06:09:20.447Z",
-  "totalScripts": 713,
+  "lastUpdated": "2026-11-10T12:07:50.742Z",
+  "totalScripts": 717,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6407,13 +6407,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-11-09T18:40:05Z",
+      "lastModified": "2026-11-10T10:04:07Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 6,
       "forks": 2,
       "owner": "paehtz",
-      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 6 | Forks: 2\n; Last Updated: 11/9/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 6 | Forks: 2\n; Last Updated: 11/10/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     },
     {
       "id": "github-1261581594",
@@ -14552,6 +14552,82 @@
       "forks": 0,
       "owner": "alxbdn",
       "code": "```cpp\n; ============================================\n; Repository: alxbdn/ezdesk\n; ============================================\n; URL: https://github.com/alxbdn/ezdesk\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; Fast virtual-desktop switching for Windows 11 with a numbered tray indicator (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/alxbdn/ezdesk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/alxbdn/ezdesk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ezdesk>\n\n; Example initialization\nclass EzdeskExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ezdesk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EzdeskExample()\n```"
+    },
+    {
+      "id": "github-1452546409",
+      "title": "-Path-of-Exile-Flask-Manager-AHK-v2-",
+      "category": "GitHub Repository",
+      "description": "Ein intelligentes und anpassbares AutoHotkey v2 (AHK v2) Makro für Path of Exile, das deine Fläschchen (Flasks) vollautomatisch in Maps und Kampfzonen drückt und in sicheren Bereichen (wie Hideouts oder Städten) automatisch pausiert.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-10T11:02:00Z",
+      "lastModified": "2026-11-10T11:05:02Z",
+      "source": "github",
+      "url": "https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Trashbitgameboy",
+      "code": "```cpp\n; ============================================\n; Repository: Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-\n; ============================================\n; URL: https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: Not specified\n;\n; Description:\n; Ein intelligentes und anpassbares AutoHotkey v2 (AHK v2) Makro für Path of Exile, das deine Fläschchen (Flasks) vollautomatisch in Maps und Kampfzonen drückt und in sicheren Bereichen (wie Hideouts oder Städten) automatisch pausiert.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <-Path-of-Exile-Flask-Manager-AHK-v2->\n\n; Example initialization\nclass PathOfExileFlaskManagerAhkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"-Path-of-Exile-Flask-Manager-AHK-v2- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PathOfExileFlaskManagerAhkV2Example()\n```"
+    },
+    {
+      "id": "github-1452348930",
+      "title": "Filelink",
+      "category": "GitHub Repository",
+      "description": "在 WPS 窗口中一键复制当前文档本地完整路径的轻量悬浮工具（AutoHotkey v2）",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-10T07:38:27Z",
+      "lastModified": "2026-11-10T10:15:04Z",
+      "source": "github",
+      "url": "https://github.com/WR-git2023/Filelink",
+      "stars": 0,
+      "forks": 0,
+      "owner": "WR-git2023",
+      "code": "```cpp\n; ============================================\n; Repository: WR-git2023/Filelink\n; ============================================\n; URL: https://github.com/WR-git2023/Filelink\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: Not specified\n;\n; Description:\n; 在 WPS 窗口中一键复制当前文档本地完整路径的轻量悬浮工具（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/WR-git2023/Filelink.git\n;\n; Option 2: Download ZIP\n;   https://github.com/WR-git2023/Filelink/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Filelink>\n\n; Example initialization\nclass FilelinkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Filelink loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FilelinkExample()\n```"
+    },
+    {
+      "id": "github-1452290697",
+      "title": "clip-stack",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script for Windows: saves every Ctrl+C, Ctrl+Shift+C cycles through them, Ctrl+Alt+Shift+V opens a searchable history.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-10T06:30:21Z",
+      "lastModified": "2026-11-10T06:30:33Z",
+      "source": "github",
+      "url": "https://github.com/dothanhhung/clip-stack",
+      "stars": 0,
+      "forks": 0,
+      "owner": "dothanhhung",
+      "code": "```cpp\n; ============================================\n; Repository: dothanhhung/clip-stack\n; ============================================\n; URL: https://github.com/dothanhhung/clip-stack\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script for Windows: saves every Ctrl+C, Ctrl+Shift+C cycles through them, Ctrl+Alt+Shift+V opens a searchable history.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dothanhhung/clip-stack.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dothanhhung/clip-stack/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <clip-stack>\n\n; Example initialization\nclass ClipStackExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"clip-stack loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClipStackExample()\n```"
+    },
+    {
+      "id": "github-1450230704",
+      "title": "EnglishAutocomplete",
+      "category": "GitHub Repository",
+      "description": "Portable AutoHotkey v2 English word autocomplete with local dictionaries and SQLite learning",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-08T11:45:58Z",
+      "lastModified": "2026-11-10T06:35:57Z",
+      "source": "github",
+      "url": "https://github.com/ten9miq/EnglishAutocomplete",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ten9miq",
+      "code": "```cpp\n; ============================================\n; Repository: ten9miq/EnglishAutocomplete\n; ============================================\n; URL: https://github.com/ten9miq/EnglishAutocomplete\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; Portable AutoHotkey v2 English word autocomplete with local dictionaries and SQLite learning\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ten9miq/EnglishAutocomplete.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ten9miq/EnglishAutocomplete/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EnglishAutocomplete>\n\n; Example initialization\nclass EnglishautocompleteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EnglishAutocomplete loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EnglishautocompleteExample()\n```"
     }
   ]
 }
