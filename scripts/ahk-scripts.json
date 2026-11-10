@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-09T12:08:39.684Z",
-  "totalScripts": 709,
+  "lastUpdated": "2026-11-10T00:14:05.274Z",
+  "totalScripts": 711,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -499,13 +499,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2024-04-13T19:19:29Z",
-      "lastModified": "2026-11-05T20:15:26Z",
+      "lastModified": "2026-11-09T22:42:16Z",
       "source": "github",
       "url": "https://github.com/kunkel321/AutoCorrect2",
       "stars": 56,
-      "forks": 11,
+      "forks": 12,
       "owner": "kunkel321",
-      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 56 | Forks: 11\n; Last Updated: 11/5/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: kunkel321/AutoCorrect2\n; ============================================\n; URL: https://github.com/kunkel321/AutoCorrect2\n; Stars: 56 | Forks: 12\n; Last Updated: 11/9/2026\n; License: Not specified\n;\n; Description:\n; A suite of tools for using, creating, managing, analyzing, and improving AHK v2 AutoCorrect hotstrings.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kunkel321/AutoCorrect2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kunkel321/AutoCorrect2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoCorrect2>\n\n; Example initialization\nclass Autocorrect2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoCorrect2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Autocorrect2Example()\n```"
     },
     {
       "id": "github-1118891332",
@@ -6402,12 +6402,12 @@
         "ahk-v2",
         "ai-assisted",
         "autohotkey",
-        "claude-code",
-        "desktop-switcher"
+        "claude",
+        "claude-code"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-11-09T11:57:09Z",
+      "lastModified": "2026-11-09T18:40:05Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 6,
@@ -10098,7 +10098,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-02-13T17:54:53Z",
-      "lastModified": "2026-11-09T09:54:10Z",
+      "lastModified": "2026-11-09T23:38:52Z",
       "source": "github",
       "url": "https://github.com/Flop0333/AutoHotkey",
       "stars": 1,
@@ -12878,13 +12878,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-11-08T22:30:24Z",
+      "lastModified": "2026-11-10T00:13:53Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 7,
       "forks": 1,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 7 | Forks: 1\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 7 | Forks: 1\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
@@ -13876,7 +13876,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-09T05:52:40Z",
+      "lastModified": "2026-11-09T16:09:57Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
       "stars": 3,
@@ -13895,13 +13895,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:45:53Z",
-      "lastModified": "2026-11-02T19:05:34Z",
+      "lastModified": "2026-11-09T19:17:06Z",
       "source": "github",
       "url": "https://github.com/stnatrix/ahktrix",
       "stars": 0,
       "forks": 0,
       "owner": "stnatrix",
-      "code": "```cpp\n; ============================================\n; Repository: stnatrix/ahktrix\n; ============================================\n; URL: https://github.com/stnatrix/ahktrix\n; Stars: 0 | Forks: 0\n; Last Updated: 11/2/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Modular AutoHotkey v2 QoL utilities and hotkey layer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stnatrix/ahktrix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stnatrix/ahktrix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahktrix>\n\n; Example initialization\nclass AhktrixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahktrix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhktrixExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: stnatrix/ahktrix\n; ============================================\n; URL: https://github.com/stnatrix/ahktrix\n; Stars: 0 | Forks: 0\n; Last Updated: 11/9/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Modular AutoHotkey v2 QoL utilities and hotkey layer\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/stnatrix/ahktrix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/stnatrix/ahktrix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahktrix>\n\n; Example initialization\nclass AhktrixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahktrix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhktrixExample()\n```"
     },
     {
       "id": "github-66622218",
@@ -14472,6 +14472,48 @@
       "forks": 0,
       "owner": "ibst1",
       "code": "```cpp\n; ============================================\n; Repository: ibst1/antifon-tangenter\n; ============================================\n; URL: https://github.com/ibst1/antifon-tangenter\n; Stars: 0 | Forks: 0\n; Last Updated: 11/9/2026\n; License: MIT License\n;\n; Description:\n; Antifons kortkommandon i hela Windows vid fjärrdrift, och ett litet fönster överst med knapparna (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ibst1/antifon-tangenter.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ibst1/antifon-tangenter/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <antifon-tangenter>\n\n; Example initialization\nclass AntifonTangenterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"antifon-tangenter loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AntifonTangenterExample()\n```"
+    },
+    {
+      "id": "github-1451728678",
+      "title": "ahk-v2-scripts",
+      "category": "GitHub Repository",
+      "description": "No description available",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahkdeck",
+        "autohotkey",
+        "scripts"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-09T18:24:58Z",
+      "lastModified": "2026-11-09T19:12:12Z",
+      "source": "github",
+      "url": "https://github.com/zongmanqiu/ahk-v2-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "zongmanqiu",
+      "code": "```cpp\n; ============================================\n; Repository: zongmanqiu/ahk-v2-scripts\n; ============================================\n; URL: https://github.com/zongmanqiu/ahk-v2-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 11/9/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zongmanqiu/ahk-v2-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zongmanqiu/ahk-v2-scripts/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-v2-scripts>\n\n; Example initialization\nclass AhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-v2-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2ScriptsExample()\n```"
+    },
+    {
+      "id": "github-1451492203",
+      "title": "RPATools",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2.0脚本",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-09T14:46:35Z",
+      "lastModified": "2026-11-09T14:50:28Z",
+      "source": "github",
+      "url": "https://github.com/DreamOzO/RPATools",
+      "stars": 0,
+      "forks": 0,
+      "owner": "DreamOzO",
+      "code": "```cpp\n; ============================================\n; Repository: DreamOzO/RPATools\n; ============================================\n; URL: https://github.com/DreamOzO/RPATools\n; Stars: 0 | Forks: 0\n; Last Updated: 11/9/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; AutoHotkey v2.0脚本\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DreamOzO/RPATools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DreamOzO/RPATools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RPATools>\n\n; Example initialization\nclass RpatoolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RPATools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RpatoolsExample()\n```"
     }
   ]
 }
