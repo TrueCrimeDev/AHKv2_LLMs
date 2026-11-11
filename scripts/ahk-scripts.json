@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-11T12:08:28.780Z",
+  "lastUpdated": "2026-11-11T18:05:47.893Z",
   "totalScripts": 723,
   "categories": [
     "GUI",
@@ -9775,13 +9775,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-09-05T01:31:11Z",
-      "lastModified": "2026-11-07T00:23:17Z",
+      "lastModified": "2026-11-11T14:32:49Z",
       "source": "github",
       "url": "https://github.com/p65536/AltTab-Classic-AHK",
       "stars": 0,
       "forks": 0,
       "owner": "p65536",
-      "code": "```cpp\n; ============================================\n; Repository: p65536/AltTab-Classic-AHK\n; ============================================\n; URL: https://github.com/p65536/AltTab-Classic-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 11/7/2026\n; License: MIT License\n;\n; Description:\n; A lightweight classic-style Alt+Tab window switcher for Windows, implemented in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/p65536/AltTab-Classic-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/p65536/AltTab-Classic-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AltTab-Classic-AHK>\n\n; Example initialization\nclass AlttabClassicAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AltTab-Classic-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlttabClassicAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: p65536/AltTab-Classic-AHK\n; ============================================\n; URL: https://github.com/p65536/AltTab-Classic-AHK\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: MIT License\n;\n; Description:\n; A lightweight classic-style Alt+Tab window switcher for Windows, implemented in AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/p65536/AltTab-Classic-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/p65536/AltTab-Classic-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AltTab-Classic-AHK>\n\n; Example initialization\nclass AlttabClassicAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AltTab-Classic-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AlttabClassicAhkExample()\n```"
     },
     {
       "id": "github-1357976585",
@@ -12878,7 +12878,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-11-11T00:29:00Z",
+      "lastModified": "2026-11-11T14:32:52Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 7,
@@ -12998,13 +12998,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-21T11:06:13Z",
-      "lastModified": "2026-10-21T14:42:42Z",
+      "lastModified": "2026-11-11T16:11:12Z",
       "source": "github",
       "url": "https://github.com/ZachGSnow/snow-tools",
       "stars": 0,
       "forks": 0,
       "owner": "ZachGSnow",
-      "code": "```cpp\n; ============================================\n; Repository: ZachGSnow/snow-tools\n; ============================================\n; URL: https://github.com/ZachGSnow/snow-tools\n; Stars: 0 | Forks: 0\n; Last Updated: 10/21/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-driven Windows toolkit in AutoHotkey v2: clipboard history, text snippets, notes and a call-time calculator.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ZachGSnow/snow-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ZachGSnow/snow-tools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <snow-tools>\n\n; Example initialization\nclass SnowToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"snow-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnowToolsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ZachGSnow/snow-tools\n; ============================================\n; URL: https://github.com/ZachGSnow/snow-tools\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: MIT License\n;\n; Description:\n; Keyboard-driven Windows toolkit in AutoHotkey v2: clipboard history, text snippets, notes and a call-time calculator.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ZachGSnow/snow-tools.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ZachGSnow/snow-tools/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <snow-tools>\n\n; Example initialization\nclass SnowToolsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"snow-tools loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnowToolsExample()\n```"
     },
     {
       "id": "github-1428372573",
@@ -14488,7 +14488,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-09T18:24:58Z",
-      "lastModified": "2026-11-11T07:15:05Z",
+      "lastModified": "2026-11-11T17:59:36Z",
       "source": "github",
       "url": "https://github.com/zongmanqiu/ahk-v2-scripts",
       "stars": 0,
@@ -14621,13 +14621,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-08T11:45:58Z",
-      "lastModified": "2026-11-10T16:23:09Z",
+      "lastModified": "2026-11-11T16:59:35Z",
       "source": "github",
       "url": "https://github.com/ten9miq/EnglishAutocomplete",
       "stars": 0,
       "forks": 0,
       "owner": "ten9miq",
-      "code": "```cpp\n; ============================================\n; Repository: ten9miq/EnglishAutocomplete\n; ============================================\n; URL: https://github.com/ten9miq/EnglishAutocomplete\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; Portable AutoHotkey v2 English word autocomplete with local dictionaries and SQLite learning\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ten9miq/EnglishAutocomplete.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ten9miq/EnglishAutocomplete/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EnglishAutocomplete>\n\n; Example initialization\nclass EnglishautocompleteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EnglishAutocomplete loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EnglishautocompleteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ten9miq/EnglishAutocomplete\n; ============================================\n; URL: https://github.com/ten9miq/EnglishAutocomplete\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: MIT License\n;\n; Description:\n; Portable AutoHotkey v2 English word autocomplete with local dictionaries and SQLite learning\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ten9miq/EnglishAutocomplete.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ten9miq/EnglishAutocomplete/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EnglishAutocomplete>\n\n; Example initialization\nclass EnglishautocompleteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EnglishAutocomplete loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EnglishautocompleteExample()\n```"
     },
     {
       "id": "github-1452906470",
