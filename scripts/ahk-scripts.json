@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-11T00:14:58.139Z",
+  "lastUpdated": "2026-11-11T06:09:32.291Z",
   "totalScripts": 721,
   "categories": [
     "GUI",
@@ -12878,13 +12878,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-13T13:33:47Z",
-      "lastModified": "2026-11-10T23:11:26Z",
+      "lastModified": "2026-11-11T00:29:00Z",
       "source": "github",
       "url": "https://github.com/nroj95/super-hotkey",
       "stars": 7,
       "forks": 1,
       "owner": "nroj95",
-      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 7 | Forks: 1\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: nroj95/super-hotkey\n; ============================================\n; URL: https://github.com/nroj95/super-hotkey\n; Stars: 7 | Forks: 1\n; Last Updated: 11/11/2026\n; License: MIT License\n;\n; Description:\n; a modular AutoHotkey v2 suite for window management, keyboard layers, shortcuts, quick notes, and Windows utilities.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nroj95/super-hotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nroj95/super-hotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <super-hotkey>\n\n; Example initialization\nclass SuperHotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"super-hotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SuperHotkeyExample()\n```"
     },
     {
       "id": "github-1426971308",
@@ -14488,13 +14488,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-09T18:24:58Z",
-      "lastModified": "2026-11-10T04:58:23Z",
+      "lastModified": "2026-11-11T04:55:47Z",
       "source": "github",
       "url": "https://github.com/zongmanqiu/ahk-v2-scripts",
       "stars": 0,
       "forks": 0,
       "owner": "zongmanqiu",
-      "code": "```cpp\n; ============================================\n; Repository: zongmanqiu/ahk-v2-scripts\n; ============================================\n; URL: https://github.com/zongmanqiu/ahk-v2-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zongmanqiu/ahk-v2-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zongmanqiu/ahk-v2-scripts/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-v2-scripts>\n\n; Example initialization\nclass AhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-v2-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2ScriptsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: zongmanqiu/ahk-v2-scripts\n; ============================================\n; URL: https://github.com/zongmanqiu/ahk-v2-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: GNU Affero General Public License v3.0\n;\n; Description:\n; No description available\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/zongmanqiu/ahk-v2-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/zongmanqiu/ahk-v2-scripts/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-v2-scripts>\n\n; Example initialization\nclass AhkV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-v2-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkV2ScriptsExample()\n```"
     },
     {
       "id": "github-1451492203",
@@ -14526,13 +14526,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-10T03:38:27Z",
-      "lastModified": "2026-11-10T03:54:48Z",
+      "lastModified": "2026-11-11T02:01:09Z",
       "source": "github",
       "url": "https://github.com/wafmling/DualMonitorFocus",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "wafmling",
-      "code": "```cpp\n; ============================================\n; Repository: wafmling/DualMonitorFocus\n; ============================================\n; URL: https://github.com/wafmling/DualMonitorFocus\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; Windows 双屏焦点 AutoHotkey v2 小工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wafmling/DualMonitorFocus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wafmling/DualMonitorFocus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DualMonitorFocus>\n\n; Example initialization\nclass DualmonitorfocusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DualMonitorFocus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DualmonitorfocusExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: wafmling/DualMonitorFocus\n; ============================================\n; URL: https://github.com/wafmling/DualMonitorFocus\n; Stars: 1 | Forks: 0\n; Last Updated: 11/11/2026\n; License: MIT License\n;\n; Description:\n; Windows 双屏焦点 AutoHotkey v2 小工具\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wafmling/DualMonitorFocus.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wafmling/DualMonitorFocus/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DualMonitorFocus>\n\n; Example initialization\nclass DualmonitorfocusExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DualMonitorFocus loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DualmonitorfocusExample()\n```"
     },
     {
       "id": "github-1446278279",
@@ -14640,13 +14640,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-10T16:23:24Z",
-      "lastModified": "2026-11-10T22:36:48Z",
+      "lastModified": "2026-11-11T00:38:14Z",
       "source": "github",
       "url": "https://github.com/unknownuser209/MoontideMacro",
       "stars": 0,
       "forks": 0,
       "owner": "unknownuser209",
-      "code": "```cpp\n; ============================================\n; Repository: unknownuser209/MoontideMacro\n; ============================================\n; URL: https://github.com/unknownuser209/MoontideMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: Not specified\n;\n; Description:\n; Moontide Macro - a Sol's RNG macro for AutoHotkey v2: fishing, selling, crafting, merchants, quests, biome items and hunts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/unknownuser209/MoontideMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/unknownuser209/MoontideMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MoontideMacro>\n\n; Example initialization\nclass MoontidemacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MoontideMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MoontidemacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: unknownuser209/MoontideMacro\n; ============================================\n; URL: https://github.com/unknownuser209/MoontideMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: Not specified\n;\n; Description:\n; Moontide Macro - a Sol's RNG macro for AutoHotkey v2: fishing, selling, crafting, merchants, quests, biome items and hunts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/unknownuser209/MoontideMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/unknownuser209/MoontideMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MoontideMacro>\n\n; Example initialization\nclass MoontidemacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MoontideMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MoontidemacroExample()\n```"
     },
     {
       "id": "github-1452832655",
