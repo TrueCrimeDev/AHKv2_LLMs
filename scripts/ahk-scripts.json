@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-11T06:09:32.291Z",
-  "totalScripts": 721,
+  "lastUpdated": "2026-11-11T12:08:28.780Z",
+  "totalScripts": 723,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6407,13 +6407,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-06-04T08:16:52Z",
-      "lastModified": "2026-11-10T10:04:07Z",
+      "lastModified": "2026-11-11T10:51:05Z",
       "source": "github",
       "url": "https://github.com/paehtz/DeskTabs",
       "stars": 6,
       "forks": 2,
       "owner": "paehtz",
-      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 6 | Forks: 2\n; Last Updated: 11/10/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: paehtz/DeskTabs\n; ============================================\n; URL: https://github.com/paehtz/DeskTabs\n; Stars: 6 | Forks: 2\n; Last Updated: 11/11/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; A clickable desktop bar for the virtual desktops of Windows 11: one tab per desktop, move windows by drag and drop, made for per-project time tracking. Free and open source (GPL v3), no admin rights. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/paehtz/DeskTabs.git\n;\n; Option 2: Download ZIP\n;   https://github.com/paehtz/DeskTabs/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskTabs>\n\n; Example initialization\nclass DesktabsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskTabs loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DesktabsExample()\n```"
     },
     {
       "id": "github-1261581594",
@@ -14488,7 +14488,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-09T18:24:58Z",
-      "lastModified": "2026-11-11T04:55:47Z",
+      "lastModified": "2026-11-11T07:15:05Z",
       "source": "github",
       "url": "https://github.com/zongmanqiu/ahk-v2-scripts",
       "stars": 0,
@@ -14711,6 +14711,44 @@
       "forks": 0,
       "owner": "DanielGGordon",
       "code": "```cpp\n; ============================================\n; Repository: DanielGGordon/ScreenSnappy\n; ============================================\n; URL: https://github.com/DanielGGordon/ScreenSnappy\n; Stars: 0 | Forks: 0\n; Last Updated: 11/10/2026\n; License: The Unlicense\n;\n; Description:\n; Fast screenshots for Windows: grab, add an arrow or a black box, paste. One AutoHotkey v2 script, public domain.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DanielGGordon/ScreenSnappy.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DanielGGordon/ScreenSnappy/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ScreenSnappy>\n\n; Example initialization\nclass ScreensnappyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ScreenSnappy loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ScreensnappyExample()\n```"
+    },
+    {
+      "id": "github-1453861930",
+      "title": "uzbek-harflar-windows",
+      "category": "GitHub Repository",
+      "description": "Windows uchun yangi o'zbek alifbosi harflari: AltGr + S/C/O/G (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-11T10:58:33Z",
+      "lastModified": "2026-11-11T12:07:00Z",
+      "source": "github",
+      "url": "https://github.com/nazmiddin255/uzbek-harflar-windows",
+      "stars": 0,
+      "forks": 0,
+      "owner": "nazmiddin255",
+      "code": "```cpp\n; ============================================\n; Repository: nazmiddin255/uzbek-harflar-windows\n; ============================================\n; URL: https://github.com/nazmiddin255/uzbek-harflar-windows\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: MIT License\n;\n; Description:\n; Windows uchun yangi o'zbek alifbosi harflari: AltGr + S/C/O/G (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/nazmiddin255/uzbek-harflar-windows.git\n;\n; Option 2: Download ZIP\n;   https://github.com/nazmiddin255/uzbek-harflar-windows/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <uzbek-harflar-windows>\n\n; Example initialization\nclass UzbekHarflarWindowsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"uzbek-harflar-windows loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UzbekHarflarWindowsExample()\n```"
+    },
+    {
+      "id": "github-1453810044",
+      "title": "CustomMouseGestures",
+      "category": "GitHub Repository",
+      "description": "Custom mouse gestures using autohotkey v2, simmilar function to logitech mx master series, with more mapping freedom.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-11T10:05:17Z",
+      "lastModified": "2026-11-11T11:08:23Z",
+      "source": "github",
+      "url": "https://github.com/tam308/CustomMouseGestures",
+      "stars": 0,
+      "forks": 0,
+      "owner": "tam308",
+      "code": "```cpp\n; ============================================\n; Repository: tam308/CustomMouseGestures\n; ============================================\n; URL: https://github.com/tam308/CustomMouseGestures\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: Not specified\n;\n; Description:\n; Custom mouse gestures using autohotkey v2, simmilar function to logitech mx master series, with more mapping freedom.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tam308/CustomMouseGestures.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tam308/CustomMouseGestures/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CustomMouseGestures>\n\n; Example initialization\nclass CustommousegesturesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CustomMouseGestures loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CustommousegesturesExample()\n```"
     }
   ]
 }
