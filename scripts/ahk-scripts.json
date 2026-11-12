@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-12T00:15:05.612Z",
-  "totalScripts": 726,
+  "lastUpdated": "2026-11-12T06:09:48.493Z",
+  "totalScripts": 727,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -866,13 +866,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-09-07T01:51:51Z",
-      "lastModified": "2026-10-15T17:26:18Z",
+      "lastModified": "2026-11-12T01:46:25Z",
       "source": "github",
       "url": "https://github.com/holy-tao/AhkWin32Projection",
-      "stars": 41,
+      "stars": 42,
       "forks": 3,
       "owner": "holy-tao",
-      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 41 | Forks: 3\n; Last Updated: 10/15/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: holy-tao/AhkWin32Projection\n; ============================================\n; URL: https://github.com/holy-tao/AhkWin32Projection\n; Stars: 42 | Forks: 3\n; Last Updated: 11/12/2026\n; License: MIT License\n;\n; Description:\n; Win32 API bindings for 64-bit AutoHotkey V2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/holy-tao/AhkWin32Projection.git\n;\n; Option 2: Download ZIP\n;   https://github.com/holy-tao/AhkWin32Projection/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkWin32Projection>\n\n; Example initialization\nclass Ahkwin32projectionExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkWin32Projection loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Ahkwin32projectionExample()\n```"
     },
     {
       "id": "github-1005082612",
@@ -4451,13 +4451,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-04T04:35:37Z",
-      "lastModified": "2026-04-10T23:10:39Z",
+      "lastModified": "2026-11-12T05:34:36Z",
       "source": "github",
       "url": "https://github.com/jollycoder/AsyncProcessIO",
       "stars": 0,
       "forks": 0,
       "owner": "jollycoder",
-      "code": "```cpp\n; ============================================\n; Repository: jollycoder/AsyncProcessIO\n; ============================================\n; URL: https://github.com/jollycoder/AsyncProcessIO\n; Stars: 0 | Forks: 0\n; Last Updated: 4/10/2026\n; License: MIT License\n;\n; Description:\n;  Asynchronous process I/O for AutoHotkey v2 — non-blocking stdin/stdout/stderr reading via overlapped named pipes\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/AsyncProcessIO.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/AsyncProcessIO/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AsyncProcessIO>\n\n; Example initialization\nclass AsyncprocessioExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AsyncProcessIO loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsyncprocessioExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/AsyncProcessIO\n; ============================================\n; URL: https://github.com/jollycoder/AsyncProcessIO\n; Stars: 0 | Forks: 0\n; Last Updated: 11/12/2026\n; License: MIT License\n;\n; Description:\n;  Asynchronous process I/O for AutoHotkey v2 — non-blocking stdin/stdout/stderr reading via overlapped named pipes\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/AsyncProcessIO.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/AsyncProcessIO/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AsyncProcessIO>\n\n; Example initialization\nclass AsyncprocessioExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AsyncProcessIO loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AsyncprocessioExample()\n```"
     },
     {
       "id": "github-1201321231",
@@ -5206,13 +5206,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-04-20T15:09:36Z",
-      "lastModified": "2026-10-30T21:22:02Z",
+      "lastModified": "2026-11-12T01:34:46Z",
       "source": "github",
       "url": "https://github.com/PCMon/EvenBetterGunMacro",
       "stars": 0,
       "forks": 0,
       "owner": "PCMon",
-      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 10/30/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak macro tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: PCMon/EvenBetterGunMacro\n; ============================================\n; URL: https://github.com/PCMon/EvenBetterGunMacro\n; Stars: 0 | Forks: 0\n; Last Updated: 11/12/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; An open source customizable Jailbreak macro tool made with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/PCMon/EvenBetterGunMacro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/PCMon/EvenBetterGunMacro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <EvenBetterGunMacro>\n\n; Example initialization\nclass EvenbettergunmacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"EvenBetterGunMacro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := EvenbettergunmacroExample()\n```"
     },
     {
       "id": "github-1225321547",
@@ -14812,6 +14812,25 @@
       "forks": 0,
       "owner": "abellynerd",
       "code": "```cpp\n; ============================================\n; Repository: abellynerd/Backslash\n; ============================================\n; URL: https://github.com/abellynerd/Backslash\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: Not specified\n;\n; Description:\n; {Backslash}: LaTeX keyboard for mathematicians. Currently limited to platforms compatible with AutoHotKey v2; that is, Windows and Linux.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/abellynerd/Backslash.git\n;\n; Option 2: Download ZIP\n;   https://github.com/abellynerd/Backslash/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Backslash>\n\n; Example initialization\nclass BackslashExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Backslash loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BackslashExample()\n```"
+    },
+    {
+      "id": "github-1454662345",
+      "title": "ahk-automations",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 scripts and window management automations",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-12T00:45:40Z",
+      "lastModified": "2026-11-12T02:16:57Z",
+      "source": "github",
+      "url": "https://github.com/gusttaswe/ahk-automations",
+      "stars": 0,
+      "forks": 0,
+      "owner": "gusttaswe",
+      "code": "```cpp\n; ============================================\n; Repository: gusttaswe/ahk-automations\n; ============================================\n; URL: https://github.com/gusttaswe/ahk-automations\n; Stars: 0 | Forks: 0\n; Last Updated: 11/12/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts and window management automations\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gusttaswe/ahk-automations.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gusttaswe/ahk-automations/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-automations>\n\n; Example initialization\nclass AhkAutomationsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-automations loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutomationsExample()\n```"
     }
   ]
 }
