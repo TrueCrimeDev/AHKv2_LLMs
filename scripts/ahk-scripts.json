@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-12T12:08:15.785Z",
-  "totalScripts": 727,
+  "lastUpdated": "2026-11-12T18:06:56.166Z",
+  "totalScripts": 728,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -14383,13 +14383,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-08T00:49:30Z",
-      "lastModified": "2026-11-08T15:13:33Z",
+      "lastModified": "2026-11-12T17:33:23Z",
       "source": "github",
       "url": "https://github.com/Mwakio-empire/ahk-typing-simulator",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "owner": "Mwakio-empire",
-      "code": "```cpp\n; ============================================\n; Repository: Mwakio-empire/ahk-typing-simulator\n; ============================================\n; URL: https://github.com/Mwakio-empire/ahk-typing-simulator\n; Stars: 2 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that simulates realistic human typing in VS Code — per-character keystroke delays, random mistakes with backspace corrections, thinking pauses, focus detection, and hotkey controls (start / pause / stop / emergency).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Mwakio-empire/ahk-typing-simulator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Mwakio-empire/ahk-typing-simulator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-typing-simulator>\n\n; Example initialization\nclass AhkTypingSimulatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-typing-simulator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkTypingSimulatorExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Mwakio-empire/ahk-typing-simulator\n; ============================================\n; URL: https://github.com/Mwakio-empire/ahk-typing-simulator\n; Stars: 3 | Forks: 0\n; Last Updated: 11/12/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script that simulates realistic human typing in VS Code — per-character keystroke delays, random mistakes with backspace corrections, thinking pauses, focus detection, and hotkey controls (start / pause / stop / emergency).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Mwakio-empire/ahk-typing-simulator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Mwakio-empire/ahk-typing-simulator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-typing-simulator>\n\n; Example initialization\nclass AhkTypingSimulatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-typing-simulator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkTypingSimulatorExample()\n```"
     },
     {
       "id": "github-1450233488",
@@ -14831,6 +14831,25 @@
       "forks": 0,
       "owner": "gusttaswe",
       "code": "```cpp\n; ============================================\n; Repository: gusttaswe/ahk-automations\n; ============================================\n; URL: https://github.com/gusttaswe/ahk-automations\n; Stars: 0 | Forks: 0\n; Last Updated: 11/12/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 scripts and window management automations\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gusttaswe/ahk-automations.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gusttaswe/ahk-automations/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-automations>\n\n; Example initialization\nclass AhkAutomationsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-automations loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkAutomationsExample()\n```"
+    },
+    {
+      "id": "github-1455631163",
+      "title": "windows-widgets",
+      "category": "GitHub Repository",
+      "description": "Two small desktop widgets for Windows 10/11 (AutoHotkey v2): screen auto-lock toggle and ISO week calendar",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-12T17:38:50Z",
+      "lastModified": "2026-11-12T17:39:01Z",
+      "source": "github",
+      "url": "https://github.com/777rigaoffice777-hash/windows-widgets",
+      "stars": 0,
+      "forks": 0,
+      "owner": "777rigaoffice777-hash",
+      "code": "```cpp\n; ============================================\n; Repository: 777rigaoffice777-hash/windows-widgets\n; ============================================\n; URL: https://github.com/777rigaoffice777-hash/windows-widgets\n; Stars: 0 | Forks: 0\n; Last Updated: 11/12/2026\n; License: Not specified\n;\n; Description:\n; Two small desktop widgets for Windows 10/11 (AutoHotkey v2): screen auto-lock toggle and ISO week calendar\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/777rigaoffice777-hash/windows-widgets.git\n;\n; Option 2: Download ZIP\n;   https://github.com/777rigaoffice777-hash/windows-widgets/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows-widgets>\n\n; Example initialization\nclass WindowsWidgetsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows-widgets loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsWidgetsExample()\n```"
     }
   ]
 }
