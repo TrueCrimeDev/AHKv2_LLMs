@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-11T18:05:47.893Z",
-  "totalScripts": 723,
+  "lastUpdated": "2026-11-12T00:15:05.612Z",
+  "totalScripts": 726,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -6098,13 +6098,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-05-28T00:57:10Z",
-      "lastModified": "2026-11-10T21:47:23Z",
+      "lastModified": "2026-11-11T20:21:48Z",
       "source": "github",
       "url": "https://github.com/GnuKeyLLC/MultiShortcutsPro",
       "stars": 2,
       "forks": 0,
       "owner": "GnuKeyLLC",
-      "code": "```cpp\n; ============================================\n; Repository: GnuKeyLLC/MultiShortcutsPro\n; ============================================\n; URL: https://github.com/GnuKeyLLC/MultiShortcutsPro\n; Stars: 2 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; free AutoHotkey v2 productivity tool for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GnuKeyLLC/MultiShortcutsPro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GnuKeyLLC/MultiShortcutsPro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MultiShortcutsPro>\n\n; Example initialization\nclass MultishortcutsproExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MultiShortcutsPro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MultishortcutsproExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: GnuKeyLLC/MultiShortcutsPro\n; ============================================\n; URL: https://github.com/GnuKeyLLC/MultiShortcutsPro\n; Stars: 2 | Forks: 0\n; Last Updated: 11/11/2026\n; License: MIT License\n;\n; Description:\n; free AutoHotkey v2 productivity tool for Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/GnuKeyLLC/MultiShortcutsPro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/GnuKeyLLC/MultiShortcutsPro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MultiShortcutsPro>\n\n; Example initialization\nclass MultishortcutsproExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MultiShortcutsPro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MultishortcutsproExample()\n```"
     },
     {
       "id": "github-1217707997",
@@ -13876,13 +13876,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-10T20:58:33Z",
+      "lastModified": "2026-11-11T20:18:06Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
       "stars": 4,
       "forks": 0,
       "owner": "jollycoder",
-      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 4 | Forks: 0\n; Last Updated: 11/10/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 4 | Forks: 0\n; Last Updated: 11/11/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
     },
     {
       "id": "github-1440215264",
@@ -14621,7 +14621,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-08T11:45:58Z",
-      "lastModified": "2026-11-11T16:59:35Z",
+      "lastModified": "2026-11-11T18:21:06Z",
       "source": "github",
       "url": "https://github.com/ten9miq/EnglishAutocomplete",
       "stars": 0,
@@ -14640,7 +14640,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-10T16:23:24Z",
-      "lastModified": "2026-11-11T00:38:14Z",
+      "lastModified": "2026-11-11T23:47:09Z",
       "source": "github",
       "url": "https://github.com/unknownuser209/MoontideMacro",
       "stars": 0,
@@ -14749,6 +14749,69 @@
       "forks": 0,
       "owner": "tam308",
       "code": "```cpp\n; ============================================\n; Repository: tam308/CustomMouseGestures\n; ============================================\n; URL: https://github.com/tam308/CustomMouseGestures\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: Not specified\n;\n; Description:\n; Custom mouse gestures using autohotkey v2, simmilar function to logitech mx master series, with more mapping freedom.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tam308/CustomMouseGestures.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tam308/CustomMouseGestures/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CustomMouseGestures>\n\n; Example initialization\nclass CustommousegesturesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CustomMouseGestures loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CustommousegesturesExample()\n```"
+    },
+    {
+      "id": "github-1454411633",
+      "title": "CasterLiveAutomation",
+      "category": "GitHub Repository",
+      "description": "CasterLiveAutomation is an open-source Windows automation tool built with AutoHotkey v2. Schedule CasterLive DJ operations with recurring or custom dates, customizable action sequences, automatic startup and shutdown, and safe window-aware controls. Features a multilingual interface and background execution.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "broadcasting",
+        "open-source",
+        "radio"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-11T19:32:30Z",
+      "lastModified": "2026-11-11T23:50:24Z",
+      "source": "github",
+      "url": "https://github.com/Alessio278/CasterLiveAutomation",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Alessio278",
+      "code": "```cpp\n; ============================================\n; Repository: Alessio278/CasterLiveAutomation\n; ============================================\n; URL: https://github.com/Alessio278/CasterLiveAutomation\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: MIT License\n;\n; Description:\n; CasterLiveAutomation is an open-source Windows automation tool built with AutoHotkey v2. Schedule CasterLive DJ operations with recurring or custom dates, customizable action sequences, automatic startup and shutdown, and safe window-aware controls. Features a multilingual interface and background execution.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Alessio278/CasterLiveAutomation.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Alessio278/CasterLiveAutomation/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CasterLiveAutomation>\n\n; Example initialization\nclass CasterliveautomationExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CasterLiveAutomation loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CasterliveautomationExample()\n```"
+    },
+    {
+      "id": "github-1454489324",
+      "title": "FavoriteLauncher",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 tray app for quickly opening favorite folders, documents, programs and web addresses",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-11T20:55:28Z",
+      "lastModified": "2026-11-11T23:03:53Z",
+      "source": "github",
+      "url": "https://github.com/kennethaar/FavoriteLauncher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "kennethaar",
+      "code": "```cpp\n; ============================================\n; Repository: kennethaar/FavoriteLauncher\n; ============================================\n; URL: https://github.com/kennethaar/FavoriteLauncher\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 tray app for quickly opening favorite folders, documents, programs and web addresses\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kennethaar/FavoriteLauncher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kennethaar/FavoriteLauncher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <FavoriteLauncher>\n\n; Example initialization\nclass FavoritelauncherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"FavoriteLauncher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := FavoritelauncherExample()\n```"
+    },
+    {
+      "id": "github-1453615891",
+      "title": "Backslash",
+      "category": "GitHub Repository",
+      "description": "{Backslash}: LaTeX keyboard for mathematicians. Currently limited to platforms compatible with AutoHotKey v2; that is, Windows and Linux.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-11T06:38:25Z",
+      "lastModified": "2026-11-11T19:13:05Z",
+      "source": "github",
+      "url": "https://github.com/abellynerd/Backslash",
+      "stars": 0,
+      "forks": 0,
+      "owner": "abellynerd",
+      "code": "```cpp\n; ============================================\n; Repository: abellynerd/Backslash\n; ============================================\n; URL: https://github.com/abellynerd/Backslash\n; Stars: 0 | Forks: 0\n; Last Updated: 11/11/2026\n; License: Not specified\n;\n; Description:\n; {Backslash}: LaTeX keyboard for mathematicians. Currently limited to platforms compatible with AutoHotKey v2; that is, Windows and Linux.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/abellynerd/Backslash.git\n;\n; Option 2: Download ZIP\n;   https://github.com/abellynerd/Backslash/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Backslash>\n\n; Example initialization\nclass BackslashExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Backslash loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BackslashExample()\n```"
     }
   ]
 }
