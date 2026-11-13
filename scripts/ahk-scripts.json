@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-13T12:07:53.492Z",
-  "totalScripts": 729,
+  "lastUpdated": "2026-11-13T18:06:32.198Z",
+  "totalScripts": 730,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -14564,13 +14564,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-10T11:02:00Z",
-      "lastModified": "2026-11-10T12:25:48Z",
+      "lastModified": "2026-11-13T12:30:33Z",
       "source": "github",
       "url": "https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "owner": "Trashbitgameboy",
-      "code": "```cpp\n; ============================================\n; Repository: Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-\n; ============================================\n; URL: https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-\n; Stars: 1 | Forks: 0\n; Last Updated: 11/10/2026\n; License: Not specified\n;\n; Description:\n; Ein intelligentes und anpassbares AutoHotkey v2 (AHK v2) Makro für Path of Exile, das deine Fläschchen (Flasks) vollautomatisch in Maps und Kampfzonen drückt und in sicheren Bereichen (wie Hideouts oder Städten) automatisch pausiert.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <-Path-of-Exile-Flask-Manager-AHK-v2->\n\n; Example initialization\nclass PathOfExileFlaskManagerAhkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"-Path-of-Exile-Flask-Manager-AHK-v2- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PathOfExileFlaskManagerAhkV2Example()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-\n; ============================================\n; URL: https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-\n; Stars: 2 | Forks: 0\n; Last Updated: 11/13/2026\n; License: Not specified\n;\n; Description:\n; Ein intelligentes und anpassbares AutoHotkey v2 (AHK v2) Makro für Path of Exile, das deine Fläschchen (Flasks) vollautomatisch in Maps und Kampfzonen drückt und in sicheren Bereichen (wie Hideouts oder Städten) automatisch pausiert.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Trashbitgameboy/-Path-of-Exile-Flask-Manager-AHK-v2-/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <-Path-of-Exile-Flask-Manager-AHK-v2->\n\n; Example initialization\nclass PathOfExileFlaskManagerAhkV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"-Path-of-Exile-Flask-Manager-AHK-v2- loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PathOfExileFlaskManagerAhkV2Example()\n```"
     },
     {
       "id": "github-1452348930",
@@ -14869,6 +14869,31 @@
       "forks": 0,
       "owner": "etix-git",
       "code": "```cpp\n; ============================================\n; Repository: etix-git/puntoS-v\n; ============================================\n; URL: https://github.com/etix-git/puntoS-v\n; Stars: 0 | Forks: 0\n; Last Updated: 11/13/2026\n; License: Not specified\n;\n; Description:\n; Fixes selected text typed in the wrong keyboard layout (Ghbdtn → Привет, Russian ↔ English) and changes its case. A script for AutoHotkey v2, Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/etix-git/puntoS-v.git\n;\n; Option 2: Download ZIP\n;   https://github.com/etix-git/puntoS-v/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <puntoS-v>\n\n; Example initialization\nclass PuntosVExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"puntoS-v loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PuntosVExample()\n```"
+    },
+    {
+      "id": "github-1423026774",
+      "title": "WindowAssist",
+      "category": "GitHub Repository",
+      "description": "Fast per-monitor virtual desktops, Mission Control overview, scratchpad pocket, AltSnap window drag/resize, and auto-hide title bars for Windows 10/11 (AutoHotkey v2 + WebView2)",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk-v2",
+        "altsnap",
+        "autohotkey",
+        "autohotkey-v2",
+        "desktop-customization"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-17T06:33:05Z",
+      "lastModified": "2026-11-13T13:07:57Z",
+      "source": "github",
+      "url": "https://github.com/DOBOFood/WindowAssist",
+      "stars": 2,
+      "forks": 0,
+      "owner": "DOBOFood",
+      "code": "```cpp\n; ============================================\n; Repository: DOBOFood/WindowAssist\n; ============================================\n; URL: https://github.com/DOBOFood/WindowAssist\n; Stars: 2 | Forks: 0\n; Last Updated: 11/13/2026\n; License: MIT License\n;\n; Description:\n; Fast per-monitor virtual desktops, Mission Control overview, scratchpad pocket, AltSnap window drag/resize, and auto-hide title bars for Windows 10/11 (AutoHotkey v2 + WebView2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DOBOFood/WindowAssist.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DOBOFood/WindowAssist/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <WindowAssist>\n\n; Example initialization\nclass WindowassistExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"WindowAssist loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowassistExample()\n```"
     }
   ]
 }
