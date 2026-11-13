@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-13T06:09:28.064Z",
-  "totalScripts": 728,
+  "lastUpdated": "2026-11-13T12:07:53.492Z",
+  "totalScripts": 729,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -13362,13 +13362,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-03-07T20:01:40Z",
-      "lastModified": "2026-10-27T03:23:54Z",
+      "lastModified": "2026-11-13T08:30:41Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/raylib_ahk",
-      "stars": 7,
+      "stars": 10,
       "forks": 1,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/raylib_ahk\n; ============================================\n; URL: https://github.com/bceenaeiklmr/raylib_ahk\n; Stars: 7 | Forks: 1\n; Last Updated: 10/27/2026\n; License: MIT License\n;\n; Description:\n; raylib 5.5 for AutoHotkey v2: windowed graphics, shapes, images, textures, custom fonts, 3D and audio, driven straight from a script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/raylib_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/raylib_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <raylib_ahk>\n\n; Example initialization\nclass RaylibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"raylib_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RaylibAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/raylib_ahk\n; ============================================\n; URL: https://github.com/bceenaeiklmr/raylib_ahk\n; Stars: 10 | Forks: 1\n; Last Updated: 11/13/2026\n; License: MIT License\n;\n; Description:\n; raylib 5.5 for AutoHotkey v2: windowed graphics, shapes, images, textures, custom fonts, 3D and audio, driven straight from a script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/raylib_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/raylib_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <raylib_ahk>\n\n; Example initialization\nclass RaylibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"raylib_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RaylibAhkExample()\n```"
     },
     {
       "id": "github-1432516406",
@@ -14850,6 +14850,25 @@
       "forks": 0,
       "owner": "777rigaoffice777-hash",
       "code": "```cpp\n; ============================================\n; Repository: 777rigaoffice777-hash/windows-widgets\n; ============================================\n; URL: https://github.com/777rigaoffice777-hash/windows-widgets\n; Stars: 0 | Forks: 0\n; Last Updated: 11/12/2026\n; License: Not specified\n;\n; Description:\n; Two small desktop widgets for Windows 10/11 (AutoHotkey v2): screen auto-lock toggle and ISO week calendar\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/777rigaoffice777-hash/windows-widgets.git\n;\n; Option 2: Download ZIP\n;   https://github.com/777rigaoffice777-hash/windows-widgets/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <windows-widgets>\n\n; Example initialization\nclass WindowsWidgetsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"windows-widgets loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowsWidgetsExample()\n```"
+    },
+    {
+      "id": "github-1456486898",
+      "title": "puntoS-v",
+      "category": "GitHub Repository",
+      "description": "Fixes selected text typed in the wrong keyboard layout (Ghbdtn → Привет, Russian ↔ English) and changes its case. A script for AutoHotkey v2, Windows.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-13T10:57:12Z",
+      "lastModified": "2026-11-13T11:00:19Z",
+      "source": "github",
+      "url": "https://github.com/etix-git/puntoS-v",
+      "stars": 0,
+      "forks": 0,
+      "owner": "etix-git",
+      "code": "```cpp\n; ============================================\n; Repository: etix-git/puntoS-v\n; ============================================\n; URL: https://github.com/etix-git/puntoS-v\n; Stars: 0 | Forks: 0\n; Last Updated: 11/13/2026\n; License: Not specified\n;\n; Description:\n; Fixes selected text typed in the wrong keyboard layout (Ghbdtn → Привет, Russian ↔ English) and changes its case. A script for AutoHotkey v2, Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/etix-git/puntoS-v.git\n;\n; Option 2: Download ZIP\n;   https://github.com/etix-git/puntoS-v/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <puntoS-v>\n\n; Example initialization\nclass PuntosVExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"puntoS-v loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PuntosVExample()\n```"
     }
   ]
 }
