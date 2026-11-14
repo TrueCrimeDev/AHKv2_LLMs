@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-14T00:14:31.921Z",
-  "totalScripts": 732,
+  "lastUpdated": "2026-11-14T06:08:45.185Z",
+  "totalScripts": 733,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -13876,13 +13876,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-13T01:25:23Z",
+      "lastModified": "2026-11-14T03:03:02Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
       "stars": 5,
       "forks": 1,
       "owner": "jollycoder",
-      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 5 | Forks: 1\n; Last Updated: 11/13/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 5 | Forks: 1\n; Last Updated: 11/14/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
     },
     {
       "id": "github-1440215264",
@@ -14932,6 +14932,31 @@
       "forks": 0,
       "owner": "khivus",
       "code": "```cpp\n; ============================================\n; Repository: khivus/Kweety\n; ============================================\n; URL: https://github.com/khivus/Kweety\n; Stars: 0 | Forks: 0\n; Last Updated: 11/13/2026\n; License: Not specified\n;\n; Description:\n; Расширитель текста и инструменты ввода для Windows на AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/khivus/Kweety.git\n;\n; Option 2: Download ZIP\n;   https://github.com/khivus/Kweety/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Kweety>\n\n; Example initialization\nclass KweetyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Kweety loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KweetyExample()\n```"
+    },
+    {
+      "id": "github-1457397731",
+      "title": "ShadowGreeting",
+      "category": "GitHub Repository",
+      "description": "Two tiny always-on Windows desktop widgets: a live-weather greeting and a large-type clock (AutoHotkey v2, no Rainmeter).",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "autohotkey",
+        "clock",
+        "desktop-widget",
+        "weather",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-14T04:56:40Z",
+      "lastModified": "2026-11-14T04:56:56Z",
+      "source": "github",
+      "url": "https://github.com/ziaurrehman931554/ShadowGreeting",
+      "stars": 0,
+      "forks": 0,
+      "owner": "ziaurrehman931554",
+      "code": "```cpp\n; ============================================\n; Repository: ziaurrehman931554/ShadowGreeting\n; ============================================\n; URL: https://github.com/ziaurrehman931554/ShadowGreeting\n; Stars: 0 | Forks: 0\n; Last Updated: 11/14/2026\n; License: Not specified\n;\n; Description:\n; Two tiny always-on Windows desktop widgets: a live-weather greeting and a large-type clock (AutoHotkey v2, no Rainmeter).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ziaurrehman931554/ShadowGreeting.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ziaurrehman931554/ShadowGreeting/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ShadowGreeting>\n\n; Example initialization\nclass ShadowgreetingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ShadowGreeting loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShadowgreetingExample()\n```"
     }
   ]
 }
