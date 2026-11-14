@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-14T06:08:45.185Z",
-  "totalScripts": 733,
+  "lastUpdated": "2026-11-14T12:07:04.011Z",
+  "totalScripts": 735,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -14957,6 +14957,50 @@
       "forks": 0,
       "owner": "ziaurrehman931554",
       "code": "```cpp\n; ============================================\n; Repository: ziaurrehman931554/ShadowGreeting\n; ============================================\n; URL: https://github.com/ziaurrehman931554/ShadowGreeting\n; Stars: 0 | Forks: 0\n; Last Updated: 11/14/2026\n; License: Not specified\n;\n; Description:\n; Two tiny always-on Windows desktop widgets: a live-weather greeting and a large-type clock (AutoHotkey v2, no Rainmeter).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ziaurrehman931554/ShadowGreeting.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ziaurrehman931554/ShadowGreeting/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ShadowGreeting>\n\n; Example initialization\nclass ShadowgreetingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ShadowGreeting loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShadowgreetingExample()\n```"
+    },
+    {
+      "id": "github-1451653905",
+      "title": "language-indicator",
+      "category": "GitHub Repository",
+      "description": "Language/layout indicator (flag) near the caret and mouse I-beam, AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-09T17:10:59Z",
+      "lastModified": "2026-11-14T10:07:05Z",
+      "source": "github",
+      "url": "https://github.com/Xpom/language-indicator",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Xpom",
+      "code": "```cpp\n; ============================================\n; Repository: Xpom/language-indicator\n; ============================================\n; URL: https://github.com/Xpom/language-indicator\n; Stars: 0 | Forks: 0\n; Last Updated: 11/14/2026\n; License: MIT License\n;\n; Description:\n; Language/layout indicator (flag) near the caret and mouse I-beam, AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Xpom/language-indicator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Xpom/language-indicator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <language-indicator>\n\n; Example initialization\nclass LanguageIndicatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"language-indicator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LanguageIndicatorExample()\n```"
+    },
+    {
+      "id": "github-1457569135",
+      "title": "keyboard-brightness",
+      "category": "GitHub Repository",
+      "description": "把外接键盘的多余多媒体键改成屏幕亮度调节，弹出 Windows 原生亮度 OSD（AutoHotkey v2）",
+      "tags": [
+        "github",
+        "repository",
+        "ahk-v2",
+        "autohotkey",
+        "brightness",
+        "hotkey",
+        "keyboard",
+        "osd"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-14T09:00:30Z",
+      "lastModified": "2026-11-14T09:00:56Z",
+      "source": "github",
+      "url": "https://github.com/Foreverwonder/keyboard-brightness",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Foreverwonder",
+      "code": "```cpp\n; ============================================\n; Repository: Foreverwonder/keyboard-brightness\n; ============================================\n; URL: https://github.com/Foreverwonder/keyboard-brightness\n; Stars: 0 | Forks: 0\n; Last Updated: 11/14/2026\n; License: Not specified\n;\n; Description:\n; 把外接键盘的多余多媒体键改成屏幕亮度调节，弹出 Windows 原生亮度 OSD（AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Foreverwonder/keyboard-brightness.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Foreverwonder/keyboard-brightness/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keyboard-brightness>\n\n; Example initialization\nclass KeyboardBrightnessExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keyboard-brightness loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardBrightnessExample()\n```"
     }
   ]
 }
