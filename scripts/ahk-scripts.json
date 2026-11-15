@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-15T00:16:19.759Z",
-  "totalScripts": 736,
+  "lastUpdated": "2026-11-15T06:08:59.613Z",
+  "totalScripts": 737,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15026,6 +15026,25 @@
       "forks": 0,
       "owner": "mobeigi",
       "code": "```cpp\n; ============================================\n; Repository: mobeigi/AutoHotkey-Explorer-v2\n; ============================================\n; URL: https://github.com/mobeigi/AutoHotkey-Explorer-v2\n; Stars: 0 | Forks: 0\n; Last Updated: 11/14/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Reliable Explorer folder and selection access library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mobeigi/AutoHotkey-Explorer-v2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mobeigi/AutoHotkey-Explorer-v2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkey-Explorer-v2>\n\n; Example initialization\nclass AutohotkeyExplorerV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkey-Explorer-v2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyExplorerV2Example()\n```"
+    },
+    {
+      "id": "github-1458402571",
+      "title": "usb-kvm",
+      "category": "GitHub Repository",
+      "description": "Turn a cheap USB switch into a KVM on Windows: monitors follow the keyboard via DDC/CI (AutoHotkey v2 + ControlMyMonitor)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-15T03:20:03Z",
+      "lastModified": "2026-11-15T03:20:12Z",
+      "source": "github",
+      "url": "https://github.com/0l0-app/usb-kvm",
+      "stars": 0,
+      "forks": 0,
+      "owner": "0l0-app",
+      "code": "```cpp\n; ============================================\n; Repository: 0l0-app/usb-kvm\n; ============================================\n; URL: https://github.com/0l0-app/usb-kvm\n; Stars: 0 | Forks: 0\n; Last Updated: 11/15/2026\n; License: MIT License\n;\n; Description:\n; Turn a cheap USB switch into a KVM on Windows: monitors follow the keyboard via DDC/CI (AutoHotkey v2 + ControlMyMonitor)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0l0-app/usb-kvm.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0l0-app/usb-kvm/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <usb-kvm>\n\n; Example initialization\nclass UsbKvmExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"usb-kvm loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UsbKvmExample()\n```"
     }
   ]
 }
