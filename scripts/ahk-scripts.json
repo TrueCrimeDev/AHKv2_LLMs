@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-15T18:06:01.886Z",
-  "totalScripts": 740,
+  "lastUpdated": "2026-11-16T00:18:23.526Z",
+  "totalScripts": 742,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15102,6 +15102,50 @@
       "forks": 0,
       "owner": "NikitaKHS",
       "code": "```cpp\n; ============================================\n; Repository: NikitaKHS/Lumen\n; ============================================\n; URL: https://github.com/NikitaKHS/Lumen\n; Stars: 0 | Forks: 0\n; Last Updated: 11/15/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; Переключатель режимов освещённости (гамма-кривых) для игр на AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NikitaKHS/Lumen.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NikitaKHS/Lumen/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Lumen>\n\n; Example initialization\nclass LumenExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Lumen loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LumenExample()\n```"
+    },
+    {
+      "id": "github-1459158969",
+      "title": "LaTeX-to-Text",
+      "category": "GitHub Repository",
+      "description": "A small Windows tool that converts selected LaTeX math into plain text. Select a formula, press Ctrl+Shift+L, and paste the result anywhere. Supports fractions, roots, functions, Greek letters, operators, sets, arrows and more. Built with AutoHotkey v2. Download the .exe file from the releases section to use the script or download it via Scoop.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-15T19:21:07Z",
+      "lastModified": "2026-11-15T19:54:43Z",
+      "source": "github",
+      "url": "https://github.com/Gallen-Kallela/LaTeX-to-Text",
+      "stars": 1,
+      "forks": 0,
+      "owner": "Gallen-Kallela",
+      "code": "```cpp\n; ============================================\n; Repository: Gallen-Kallela/LaTeX-to-Text\n; ============================================\n; URL: https://github.com/Gallen-Kallela/LaTeX-to-Text\n; Stars: 1 | Forks: 0\n; Last Updated: 11/15/2026\n; License: MIT License\n;\n; Description:\n; A small Windows tool that converts selected LaTeX math into plain text. Select a formula, press Ctrl+Shift+L, and paste the result anywhere. Supports fractions, roots, functions, Greek letters, operators, sets, arrows and more. Built with AutoHotkey v2. Download the .exe file from the releases section to use the script or download it via Scoop.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Gallen-Kallela/LaTeX-to-Text.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Gallen-Kallela/LaTeX-to-Text/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LaTeX-to-Text>\n\n; Example initialization\nclass LatexToTextExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LaTeX-to-Text loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LatexToTextExample()\n```"
+    },
+    {
+      "id": "github-1459134548",
+      "title": "textbolt",
+      "category": "GitHub Repository",
+      "description": "A tiny, free text expander for Windows (AutoHotkey v2). Type /shortcut anywhere, get your saved text.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "productivity",
+        "snippets",
+        "text-expander",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-15T18:52:35Z",
+      "lastModified": "2026-11-15T18:53:01Z",
+      "source": "github",
+      "url": "https://github.com/CameronGeisler/textbolt",
+      "stars": 0,
+      "forks": 0,
+      "owner": "CameronGeisler",
+      "code": "```cpp\n; ============================================\n; Repository: CameronGeisler/textbolt\n; ============================================\n; URL: https://github.com/CameronGeisler/textbolt\n; Stars: 0 | Forks: 0\n; Last Updated: 11/15/2026\n; License: MIT License\n;\n; Description:\n; A tiny, free text expander for Windows (AutoHotkey v2). Type /shortcut anywhere, get your saved text.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CameronGeisler/textbolt.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CameronGeisler/textbolt/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <textbolt>\n\n; Example initialization\nclass TextboltExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"textbolt loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TextboltExample()\n```"
     }
   ]
 }
