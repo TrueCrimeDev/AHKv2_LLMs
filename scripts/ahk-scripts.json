@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-16T00:18:23.526Z",
-  "totalScripts": 742,
+  "lastUpdated": "2026-11-16T06:14:22.762Z",
+  "totalScripts": 743,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15146,6 +15146,25 @@
       "forks": 0,
       "owner": "CameronGeisler",
       "code": "```cpp\n; ============================================\n; Repository: CameronGeisler/textbolt\n; ============================================\n; URL: https://github.com/CameronGeisler/textbolt\n; Stars: 0 | Forks: 0\n; Last Updated: 11/15/2026\n; License: MIT License\n;\n; Description:\n; A tiny, free text expander for Windows (AutoHotkey v2). Type /shortcut anywhere, get your saved text.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/CameronGeisler/textbolt.git\n;\n; Option 2: Download ZIP\n;   https://github.com/CameronGeisler/textbolt/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <textbolt>\n\n; Example initialization\nclass TextboltExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"textbolt loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := TextboltExample()\n```"
+    },
+    {
+      "id": "github-1459416086",
+      "title": "mouse-coding-toolbar",
+      "category": "GitHub Repository",
+      "description": "Windows floating quick-input toolbar: one-click text shortcuts, Enter, clipboard history & voice input next to any chat box (AutoHotkey v2) | Windows 悬浮快捷输入工具栏",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-16T01:32:10Z",
+      "lastModified": "2026-11-16T01:32:22Z",
+      "source": "github",
+      "url": "https://github.com/yayagoo-skg/mouse-coding-toolbar",
+      "stars": 0,
+      "forks": 0,
+      "owner": "yayagoo-skg",
+      "code": "```cpp\n; ============================================\n; Repository: yayagoo-skg/mouse-coding-toolbar\n; ============================================\n; URL: https://github.com/yayagoo-skg/mouse-coding-toolbar\n; Stars: 0 | Forks: 0\n; Last Updated: 11/16/2026\n; License: MIT License\n;\n; Description:\n; Windows floating quick-input toolbar: one-click text shortcuts, Enter, clipboard history & voice input next to any chat box (AutoHotkey v2) | Windows 悬浮快捷输入工具栏\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yayagoo-skg/mouse-coding-toolbar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yayagoo-skg/mouse-coding-toolbar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mouse-coding-toolbar>\n\n; Example initialization\nclass MouseCodingToolbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mouse-coding-toolbar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseCodingToolbarExample()\n```"
     }
   ]
 }
