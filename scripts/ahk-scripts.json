@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-16T06:14:22.762Z",
-  "totalScripts": 743,
+  "lastUpdated": "2026-11-16T12:11:58.155Z",
+  "totalScripts": 746,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -13362,13 +13362,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2023-03-07T20:01:40Z",
-      "lastModified": "2026-11-13T08:30:41Z",
+      "lastModified": "2026-11-16T10:50:55Z",
       "source": "github",
       "url": "https://github.com/bceenaeiklmr/raylib_ahk",
-      "stars": 10,
+      "stars": 11,
       "forks": 1,
       "owner": "bceenaeiklmr",
-      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/raylib_ahk\n; ============================================\n; URL: https://github.com/bceenaeiklmr/raylib_ahk\n; Stars: 10 | Forks: 1\n; Last Updated: 11/13/2026\n; License: MIT License\n;\n; Description:\n; raylib 5.5 for AutoHotkey v2: windowed graphics, shapes, images, textures, custom fonts, 3D and audio, driven straight from a script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/raylib_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/raylib_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <raylib_ahk>\n\n; Example initialization\nclass RaylibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"raylib_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RaylibAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: bceenaeiklmr/raylib_ahk\n; ============================================\n; URL: https://github.com/bceenaeiklmr/raylib_ahk\n; Stars: 11 | Forks: 1\n; Last Updated: 11/16/2026\n; License: MIT License\n;\n; Description:\n; raylib 5.5 for AutoHotkey v2: windowed graphics, shapes, images, textures, custom fonts, 3D and audio, driven straight from a script.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/bceenaeiklmr/raylib_ahk.git\n;\n; Option 2: Download ZIP\n;   https://github.com/bceenaeiklmr/raylib_ahk/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <raylib_ahk>\n\n; Example initialization\nclass RaylibAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"raylib_ahk loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RaylibAhkExample()\n```"
     },
     {
       "id": "github-1432516406",
@@ -14935,7 +14935,7 @@
     },
     {
       "id": "github-1457397731",
-      "title": "ShadowGreeting",
+      "title": "ZWidgets",
       "category": "GitHub Repository",
       "description": "Two tiny always-on Windows desktop widgets: a live-weather greeting and a large-type clock (AutoHotkey v2, no Rainmeter).",
       "tags": [
@@ -14950,13 +14950,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-14T04:56:40Z",
-      "lastModified": "2026-11-14T04:56:56Z",
+      "lastModified": "2026-11-16T08:42:08Z",
       "source": "github",
-      "url": "https://github.com/ziaurrehman931554/ShadowGreeting",
+      "url": "https://github.com/ziaurrehman931554/ZWidgets",
       "stars": 0,
       "forks": 0,
       "owner": "ziaurrehman931554",
-      "code": "```cpp\n; ============================================\n; Repository: ziaurrehman931554/ShadowGreeting\n; ============================================\n; URL: https://github.com/ziaurrehman931554/ShadowGreeting\n; Stars: 0 | Forks: 0\n; Last Updated: 11/14/2026\n; License: Not specified\n;\n; Description:\n; Two tiny always-on Windows desktop widgets: a live-weather greeting and a large-type clock (AutoHotkey v2, no Rainmeter).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ziaurrehman931554/ShadowGreeting.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ziaurrehman931554/ShadowGreeting/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ShadowGreeting>\n\n; Example initialization\nclass ShadowgreetingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ShadowGreeting loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ShadowgreetingExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: ziaurrehman931554/ZWidgets\n; ============================================\n; URL: https://github.com/ziaurrehman931554/ZWidgets\n; Stars: 0 | Forks: 0\n; Last Updated: 11/16/2026\n; License: Not specified\n;\n; Description:\n; Two tiny always-on Windows desktop widgets: a live-weather greeting and a large-type clock (AutoHotkey v2, no Rainmeter).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ziaurrehman931554/ZWidgets.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ziaurrehman931554/ZWidgets/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ZWidgets>\n\n; Example initialization\nclass ZwidgetsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ZWidgets loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ZwidgetsExample()\n```"
     },
     {
       "id": "github-1451653905",
@@ -15165,6 +15165,63 @@
       "forks": 0,
       "owner": "yayagoo-skg",
       "code": "```cpp\n; ============================================\n; Repository: yayagoo-skg/mouse-coding-toolbar\n; ============================================\n; URL: https://github.com/yayagoo-skg/mouse-coding-toolbar\n; Stars: 0 | Forks: 0\n; Last Updated: 11/16/2026\n; License: MIT License\n;\n; Description:\n; Windows floating quick-input toolbar: one-click text shortcuts, Enter, clipboard history & voice input next to any chat box (AutoHotkey v2) | Windows 悬浮快捷输入工具栏\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yayagoo-skg/mouse-coding-toolbar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yayagoo-skg/mouse-coding-toolbar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mouse-coding-toolbar>\n\n; Example initialization\nclass MouseCodingToolbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mouse-coding-toolbar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseCodingToolbarExample()\n```"
+    },
+    {
+      "id": "github-1459937173",
+      "title": "Bangla-Keyboard",
+      "category": "GitHub Repository",
+      "description": "Lightweight Bijoy-style Bangla typing engine for Windows, built with AutoHotkey v2. Includes layouts, ANSI↔Unicode converters, and a layout builder. Core engine only, no paid fonts",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-16T11:38:05Z",
+      "lastModified": "2026-11-16T11:41:43Z",
+      "source": "github",
+      "url": "https://github.com/YummyCyanide/Bangla-Keyboard",
+      "stars": 0,
+      "forks": 0,
+      "owner": "YummyCyanide",
+      "code": "```cpp\n; ============================================\n; Repository: YummyCyanide/Bangla-Keyboard\n; ============================================\n; URL: https://github.com/YummyCyanide/Bangla-Keyboard\n; Stars: 0 | Forks: 0\n; Last Updated: 11/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Lightweight Bijoy-style Bangla typing engine for Windows, built with AutoHotkey v2. Includes layouts, ANSI↔Unicode converters, and a layout builder. Core engine only, no paid fonts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/YummyCyanide/Bangla-Keyboard.git\n;\n; Option 2: Download ZIP\n;   https://github.com/YummyCyanide/Bangla-Keyboard/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Bangla-Keyboard>\n\n; Example initialization\nclass BanglaKeyboardExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Bangla-Keyboard loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BanglaKeyboardExample()\n```"
+    },
+    {
+      "id": "github-1459796229",
+      "title": "uu-mac-paste",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 paste remap for Windows-to-macOS sessions in NetEase UU Remote",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-16T09:22:23Z",
+      "lastModified": "2026-11-16T09:22:35Z",
+      "source": "github",
+      "url": "https://github.com/gengu312/uu-mac-paste",
+      "stars": 0,
+      "forks": 0,
+      "owner": "gengu312",
+      "code": "```cpp\n; ============================================\n; Repository: gengu312/uu-mac-paste\n; ============================================\n; URL: https://github.com/gengu312/uu-mac-paste\n; Stars: 0 | Forks: 0\n; Last Updated: 11/16/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 paste remap for Windows-to-macOS sessions in NetEase UU Remote\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gengu312/uu-mac-paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gengu312/uu-mac-paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <uu-mac-paste>\n\n; Example initialization\nclass UuMacPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"uu-mac-paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UuMacPasteExample()\n```"
+    },
+    {
+      "id": "github-1459644482",
+      "title": "mouse-zones",
+      "category": "GitHub Repository",
+      "description": "Windows: give each physical mouse its own screen (AutoHotkey v2). Each mouse keeps its own cursor spot.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-16T06:43:27Z",
+      "lastModified": "2026-11-16T06:43:36Z",
+      "source": "github",
+      "url": "https://github.com/dothanhhung/mouse-zones",
+      "stars": 0,
+      "forks": 0,
+      "owner": "dothanhhung",
+      "code": "```cpp\n; ============================================\n; Repository: dothanhhung/mouse-zones\n; ============================================\n; URL: https://github.com/dothanhhung/mouse-zones\n; Stars: 0 | Forks: 0\n; Last Updated: 11/16/2026\n; License: MIT License\n;\n; Description:\n; Windows: give each physical mouse its own screen (AutoHotkey v2). Each mouse keeps its own cursor spot.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/dothanhhung/mouse-zones.git\n;\n; Option 2: Download ZIP\n;   https://github.com/dothanhhung/mouse-zones/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <mouse-zones>\n\n; Example initialization\nclass MouseZonesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"mouse-zones loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MouseZonesExample()\n```"
     }
   ]
 }
