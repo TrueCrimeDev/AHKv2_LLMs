@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-16T18:07:06.728Z",
-  "totalScripts": 747,
+  "lastUpdated": "2026-11-17T00:14:53.562Z",
+  "totalScripts": 748,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15107,20 +15107,20 @@
       "id": "github-1459158969",
       "title": "LaTeX-to-Text",
       "category": "GitHub Repository",
-      "description": "A small Windows tool that converts selected LaTeX math into plain text. Select a formula, press Ctrl+Shift+L, and paste the result anywhere. Supports fractions, roots, functions, Greek letters, operators, sets, arrows and more. Built with AutoHotkey v2. Download the .exe file from the releases section to use the script or download it via Scoop.",
+      "description": "A small Windows tool that converts selected LaTeX math into plain text. Select a formula, press Ctrl+Shift+L, and paste the result anywhere. Supports fractions, roots, functions, Greek letters, operators, sets, arrows and more. Built with AutoHotkey v2.",
       "tags": [
         "github",
         "repository"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-15T19:21:07Z",
-      "lastModified": "2026-11-15T19:54:43Z",
+      "lastModified": "2026-11-16T18:19:25Z",
       "source": "github",
       "url": "https://github.com/Gallen-Kallela/LaTeX-to-Text",
       "stars": 1,
       "forks": 0,
       "owner": "Gallen-Kallela",
-      "code": "```cpp\n; ============================================\n; Repository: Gallen-Kallela/LaTeX-to-Text\n; ============================================\n; URL: https://github.com/Gallen-Kallela/LaTeX-to-Text\n; Stars: 1 | Forks: 0\n; Last Updated: 11/15/2026\n; License: MIT License\n;\n; Description:\n; A small Windows tool that converts selected LaTeX math into plain text. Select a formula, press Ctrl+Shift+L, and paste the result anywhere. Supports fractions, roots, functions, Greek letters, operators, sets, arrows and more. Built with AutoHotkey v2. Download the .exe file from the releases section to use the script or download it via Scoop.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Gallen-Kallela/LaTeX-to-Text.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Gallen-Kallela/LaTeX-to-Text/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LaTeX-to-Text>\n\n; Example initialization\nclass LatexToTextExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LaTeX-to-Text loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LatexToTextExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: Gallen-Kallela/LaTeX-to-Text\n; ============================================\n; URL: https://github.com/Gallen-Kallela/LaTeX-to-Text\n; Stars: 1 | Forks: 0\n; Last Updated: 11/16/2026\n; License: MIT License\n;\n; Description:\n; A small Windows tool that converts selected LaTeX math into plain text. Select a formula, press Ctrl+Shift+L, and paste the result anywhere. Supports fractions, roots, functions, Greek letters, operators, sets, arrows and more. Built with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Gallen-Kallela/LaTeX-to-Text.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Gallen-Kallela/LaTeX-to-Text/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LaTeX-to-Text>\n\n; Example initialization\nclass LatexToTextExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LaTeX-to-Text loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LatexToTextExample()\n```"
     },
     {
       "id": "github-1459134548",
@@ -15247,6 +15247,31 @@
       "forks": 0,
       "owner": "panoc",
       "code": "```cpp\n; ============================================\n; Repository: panoc/Screen-Audio-Router\n; ============================================\n; URL: https://github.com/panoc/Screen-Audio-Router\n; Stars: 0 | Forks: 0\n; Last Updated: 11/16/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Route each app’s audio to the sound device of the monitor its window is on. AutoHotkey v2, Windows 10/11.Screen Audio Router sends each app's sound to the speakers or headphones of the monitor its window is on, with per-app rules, overrides and hotkeys.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/panoc/Screen-Audio-Router.git\n;\n; Option 2: Download ZIP\n;   https://github.com/panoc/Screen-Audio-Router/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Screen-Audio-Router>\n\n; Example initialization\nclass ScreenAudioRouterExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Screen-Audio-Router loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ScreenAudioRouterExample()\n```"
+    },
+    {
+      "id": "github-1154321735",
+      "title": "virtual-piano-auto",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script that auto-plays virtual piano sheets (Virtual Piano, Roblox): token engine with chords, timing, tempo control and a clean dark UI.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "hotkeys",
+        "macro",
+        "music"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-02-10T08:58:32Z",
+      "lastModified": "2026-11-16T21:18:22Z",
+      "source": "github",
+      "url": "https://github.com/the-sleepless/virtual-piano-auto",
+      "stars": 1,
+      "forks": 0,
+      "owner": "the-sleepless",
+      "code": "```cpp\n; ============================================\n; Repository: the-sleepless/virtual-piano-auto\n; ============================================\n; URL: https://github.com/the-sleepless/virtual-piano-auto\n; Stars: 1 | Forks: 0\n; Last Updated: 11/16/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 script that auto-plays virtual piano sheets (Virtual Piano, Roblox): token engine with chords, timing, tempo control and a clean dark UI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/the-sleepless/virtual-piano-auto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/the-sleepless/virtual-piano-auto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <virtual-piano-auto>\n\n; Example initialization\nclass VirtualPianoAutoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"virtual-piano-auto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VirtualPianoAutoExample()\n```"
     }
   ]
 }
