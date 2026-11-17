@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-17T12:08:06.673Z",
-  "totalScripts": 748,
+  "lastUpdated": "2026-11-17T18:07:08.322Z",
+  "totalScripts": 751,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15272,6 +15272,69 @@
       "forks": 0,
       "owner": "the-sleepless",
       "code": "```cpp\n; ============================================\n; Repository: the-sleepless/virtual-piano-auto\n; ============================================\n; URL: https://github.com/the-sleepless/virtual-piano-auto\n; Stars: 1 | Forks: 0\n; Last Updated: 11/16/2026\n; License: Other\n;\n; Description:\n; AutoHotkey v2 script that auto-plays virtual piano sheets (Virtual Piano, Roblox): token engine with chords, timing, tempo control and a clean dark UI.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/the-sleepless/virtual-piano-auto.git\n;\n; Option 2: Download ZIP\n;   https://github.com/the-sleepless/virtual-piano-auto/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <virtual-piano-auto>\n\n; Example initialization\nclass VirtualPianoAutoExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"virtual-piano-auto loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := VirtualPianoAutoExample()\n```"
+    },
+    {
+      "id": "github-1460563126",
+      "title": "autohotkey-scripts",
+      "category": "GitHub Repository",
+      "description": "Small, free AutoHotkey v2 scripts for Windows",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-16T20:57:07Z",
+      "lastModified": "2026-11-17T16:42:09Z",
+      "source": "github",
+      "url": "https://github.com/DanielGGordon/autohotkey-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "DanielGGordon",
+      "code": "```cpp\n; ============================================\n; Repository: DanielGGordon/autohotkey-scripts\n; ============================================\n; URL: https://github.com/DanielGGordon/autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 11/17/2026\n; License: MIT License\n;\n; Description:\n; Small, free AutoHotkey v2 scripts for Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/DanielGGordon/autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/DanielGGordon/autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
+    },
+    {
+      "id": "github-1461469952",
+      "title": "SnipBar",
+      "category": "GitHub Repository",
+      "description": "A small, free floating action bar for Windows: select some text with your mouse and a bar of one-click actions appears right above it. Built with AutoHotkey v2. Inspired by tools like SnipDo, but free and lightweight.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-17T13:45:22Z",
+      "lastModified": "2026-11-17T14:01:57Z",
+      "source": "github",
+      "url": "https://github.com/cartmantools/SnipBar",
+      "stars": 1,
+      "forks": 0,
+      "owner": "cartmantools",
+      "code": "```cpp\n; ============================================\n; Repository: cartmantools/SnipBar\n; ============================================\n; URL: https://github.com/cartmantools/SnipBar\n; Stars: 1 | Forks: 0\n; Last Updated: 11/17/2026\n; License: Not specified\n;\n; Description:\n; A small, free floating action bar for Windows: select some text with your mouse and a bar of one-click actions appears right above it. Built with AutoHotkey v2. Inspired by tools like SnipDo, but free and lightweight.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cartmantools/SnipBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cartmantools/SnipBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SnipBar>\n\n; Example initialization\nclass SnipbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SnipBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnipbarExample()\n```"
+    },
+    {
+      "id": "github-1458665286",
+      "title": "PowerModeSwitcher",
+      "category": "GitHub Repository",
+      "description": "Windows 托盘小工具：Alt+Q 循环切换 日常/游戏/静音 三档电源计划，带 OSD 反馈与托盘直选。AutoHotkey v2，单文件 840 行，零依赖。",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "osd",
+        "power-management",
+        "powercfg",
+        "tray",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-15T10:05:10Z",
+      "lastModified": "2026-11-17T13:00:28Z",
+      "source": "github",
+      "url": "https://github.com/jm17647-dna/PowerModeSwitcher",
+      "stars": 0,
+      "forks": 0,
+      "owner": "jm17647-dna",
+      "code": "```cpp\n; ============================================\n; Repository: jm17647-dna/PowerModeSwitcher\n; ============================================\n; URL: https://github.com/jm17647-dna/PowerModeSwitcher\n; Stars: 0 | Forks: 0\n; Last Updated: 11/17/2026\n; License: MIT License\n;\n; Description:\n; Windows 托盘小工具：Alt+Q 循环切换 日常/游戏/静音 三档电源计划，带 OSD 反馈与托盘直选。AutoHotkey v2，单文件 840 行，零依赖。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jm17647-dna/PowerModeSwitcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jm17647-dna/PowerModeSwitcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PowerModeSwitcher>\n\n; Example initialization\nclass PowermodeswitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PowerModeSwitcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PowermodeswitcherExample()\n```"
     }
   ]
 }
