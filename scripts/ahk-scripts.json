@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-17T18:07:08.322Z",
-  "totalScripts": 751,
+  "lastUpdated": "2026-11-18T00:15:03.864Z",
+  "totalScripts": 753,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15335,6 +15335,44 @@
       "forks": 0,
       "owner": "jm17647-dna",
       "code": "```cpp\n; ============================================\n; Repository: jm17647-dna/PowerModeSwitcher\n; ============================================\n; URL: https://github.com/jm17647-dna/PowerModeSwitcher\n; Stars: 0 | Forks: 0\n; Last Updated: 11/17/2026\n; License: MIT License\n;\n; Description:\n; Windows 托盘小工具：Alt+Q 循环切换 日常/游戏/静音 三档电源计划，带 OSD 反馈与托盘直选。AutoHotkey v2，单文件 840 行，零依赖。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jm17647-dna/PowerModeSwitcher.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jm17647-dna/PowerModeSwitcher/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PowerModeSwitcher>\n\n; Example initialization\nclass PowermodeswitcherExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PowerModeSwitcher loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PowermodeswitcherExample()\n```"
+    },
+    {
+      "id": "github-1461812662",
+      "title": "lobby-loop",
+      "category": "GitHub Repository",
+      "description": "Set-and-forget AFK helper for Fortnite. It auto-readies, clicks Play Again, walks around like a person, and stops on a timer. AutoHotkey v2, with .exe builds.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-17T18:27:17Z",
+      "lastModified": "2026-11-17T18:30:30Z",
+      "source": "github",
+      "url": "https://github.com/yensobased1/lobby-loop",
+      "stars": 0,
+      "forks": 0,
+      "owner": "yensobased1",
+      "code": "```cpp\n; ============================================\n; Repository: yensobased1/lobby-loop\n; ============================================\n; URL: https://github.com/yensobased1/lobby-loop\n; Stars: 0 | Forks: 0\n; Last Updated: 11/17/2026\n; License: Not specified\n;\n; Description:\n; Set-and-forget AFK helper for Fortnite. It auto-readies, clicks Play Again, walks around like a person, and stops on a timer. AutoHotkey v2, with .exe builds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yensobased1/lobby-loop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yensobased1/lobby-loop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <lobby-loop>\n\n; Example initialization\nclass LobbyLoopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"lobby-loop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LobbyLoopExample()\n```"
+    },
+    {
+      "id": "github-1461831756",
+      "title": "AutoHotKey-v2-Scripts",
+      "category": "GitHub Repository",
+      "description": "Share of some handy AHK v2 scripts for a variety of purposes",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-17T18:45:12Z",
+      "lastModified": "2026-11-17T18:55:38Z",
+      "source": "github",
+      "url": "https://github.com/yaaverimran/AutoHotKey-v2-Scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "yaaverimran",
+      "code": "```cpp\n; ============================================\n; Repository: yaaverimran/AutoHotKey-v2-Scripts\n; ============================================\n; URL: https://github.com/yaaverimran/AutoHotKey-v2-Scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 11/17/2026\n; License: Not specified\n;\n; Description:\n; Share of some handy AHK v2 scripts for a variety of purposes\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yaaverimran/AutoHotKey-v2-Scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yaaverimran/AutoHotKey-v2-Scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotKey-v2-Scripts>\n\n; Example initialization\nclass AutohotkeyV2ScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotKey-v2-Scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2ScriptsExample()\n```"
     }
   ]
 }
