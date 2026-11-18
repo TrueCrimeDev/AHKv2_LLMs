@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-18T12:08:03.286Z",
-  "totalScripts": 754,
+  "lastUpdated": "2026-11-18T18:06:33.632Z",
+  "totalScripts": 755,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15347,13 +15347,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-17T18:27:17Z",
-      "lastModified": "2026-11-17T18:30:30Z",
+      "lastModified": "2026-11-18T17:17:41Z",
       "source": "github",
       "url": "https://github.com/yensobased1/lobby-loop",
-      "stars": 0,
+      "stars": 3,
       "forks": 0,
       "owner": "yensobased1",
-      "code": "```cpp\n; ============================================\n; Repository: yensobased1/lobby-loop\n; ============================================\n; URL: https://github.com/yensobased1/lobby-loop\n; Stars: 0 | Forks: 0\n; Last Updated: 11/17/2026\n; License: Not specified\n;\n; Description:\n; Set-and-forget AFK helper for Fortnite. It auto-readies, clicks Play Again, walks around like a person, and stops on a timer. AutoHotkey v2, with .exe builds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yensobased1/lobby-loop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yensobased1/lobby-loop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <lobby-loop>\n\n; Example initialization\nclass LobbyLoopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"lobby-loop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LobbyLoopExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yensobased1/lobby-loop\n; ============================================\n; URL: https://github.com/yensobased1/lobby-loop\n; Stars: 3 | Forks: 0\n; Last Updated: 11/18/2026\n; License: Not specified\n;\n; Description:\n; Set-and-forget AFK helper for Fortnite. It auto-readies, clicks Play Again, walks around like a person, and stops on a timer. AutoHotkey v2, with .exe builds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yensobased1/lobby-loop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yensobased1/lobby-loop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <lobby-loop>\n\n; Example initialization\nclass LobbyLoopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"lobby-loop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LobbyLoopExample()\n```"
     },
     {
       "id": "github-1461831756",
@@ -15392,6 +15392,25 @@
       "forks": 0,
       "owner": "AleksandrSrk",
       "code": "```cpp\n; ============================================\n; Repository: AleksandrSrk/save-rename\n; ============================================\n; URL: https://github.com/AleksandrSrk/save-rename\n; Stars: 0 | Forks: 0\n; Last Updated: 11/18/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2: кнопка «оставить оба» для окон Windows «файл уже существует» (диалог сохранения и копирование в Проводнике)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AleksandrSrk/save-rename.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AleksandrSrk/save-rename/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <save-rename>\n\n; Example initialization\nclass SaveRenameExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"save-rename loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SaveRenameExample()\n```"
+    },
+    {
+      "id": "github-1462973874",
+      "title": "autocorretor",
+      "category": "GitHub Repository",
+      "description": "Corretor automático de digitação para Windows: corrige o português enquanto você digita, sem mexer no inglês (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-18T15:21:52Z",
+      "lastModified": "2026-11-18T15:22:03Z",
+      "source": "github",
+      "url": "https://github.com/detarso06/autocorretor",
+      "stars": 0,
+      "forks": 0,
+      "owner": "detarso06",
+      "code": "```cpp\n; ============================================\n; Repository: detarso06/autocorretor\n; ============================================\n; URL: https://github.com/detarso06/autocorretor\n; Stars: 0 | Forks: 0\n; Last Updated: 11/18/2026\n; License: MIT License\n;\n; Description:\n; Corretor automático de digitação para Windows: corrige o português enquanto você digita, sem mexer no inglês (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/detarso06/autocorretor.git\n;\n; Option 2: Download ZIP\n;   https://github.com/detarso06/autocorretor/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autocorretor>\n\n; Example initialization\nclass AutocorretorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autocorretor loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocorretorExample()\n```"
     }
   ]
 }
