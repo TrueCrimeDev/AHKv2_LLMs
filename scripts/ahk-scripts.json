@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-18T00:15:03.864Z",
+  "lastUpdated": "2026-11-18T06:09:49.849Z",
   "totalScripts": 753,
   "categories": [
     "GUI",
@@ -13876,13 +13876,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-30T20:42:31Z",
-      "lastModified": "2026-11-14T03:03:02Z",
+      "lastModified": "2026-11-18T02:29:08Z",
       "source": "github",
       "url": "https://github.com/jollycoder/GoogleTranslator-AHK",
-      "stars": 5,
+      "stars": 6,
       "forks": 1,
       "owner": "jollycoder",
-      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 5 | Forks: 1\n; Last Updated: 11/14/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: jollycoder/GoogleTranslator-AHK\n; ============================================\n; URL: https://github.com/jollycoder/GoogleTranslator-AHK\n; Stars: 6 | Forks: 1\n; Last Updated: 11/18/2026\n; License: MIT License\n;\n; Description:\n; Unofficial Google Translate client for Windows in AutoHotkey v2: translate selected text in any app with a hotkey, with text-to-speech. No API key required.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/jollycoder/GoogleTranslator-AHK.git\n;\n; Option 2: Download ZIP\n;   https://github.com/jollycoder/GoogleTranslator-AHK/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GoogleTranslator-AHK>\n\n; Example initialization\nclass GoogletranslatorAhkExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GoogleTranslator-AHK loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GoogletranslatorAhkExample()\n```"
     },
     {
       "id": "github-1440215264",
@@ -15303,13 +15303,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-17T13:45:22Z",
-      "lastModified": "2026-11-17T14:01:57Z",
+      "lastModified": "2026-11-18T03:15:32Z",
       "source": "github",
       "url": "https://github.com/cartmantools/SnipBar",
-      "stars": 1,
+      "stars": 3,
       "forks": 0,
       "owner": "cartmantools",
-      "code": "```cpp\n; ============================================\n; Repository: cartmantools/SnipBar\n; ============================================\n; URL: https://github.com/cartmantools/SnipBar\n; Stars: 1 | Forks: 0\n; Last Updated: 11/17/2026\n; License: Not specified\n;\n; Description:\n; A small, free floating action bar for Windows: select some text with your mouse and a bar of one-click actions appears right above it. Built with AutoHotkey v2. Inspired by tools like SnipDo, but free and lightweight.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cartmantools/SnipBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cartmantools/SnipBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SnipBar>\n\n; Example initialization\nclass SnipbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SnipBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnipbarExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: cartmantools/SnipBar\n; ============================================\n; URL: https://github.com/cartmantools/SnipBar\n; Stars: 3 | Forks: 0\n; Last Updated: 11/18/2026\n; License: Not specified\n;\n; Description:\n; A small, free floating action bar for Windows: select some text with your mouse and a bar of one-click actions appears right above it. Built with AutoHotkey v2. Inspired by tools like SnipDo, but free and lightweight.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/cartmantools/SnipBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/cartmantools/SnipBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SnipBar>\n\n; Example initialization\nclass SnipbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SnipBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnipbarExample()\n```"
     },
     {
       "id": "github-1458665286",
