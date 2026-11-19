@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-18T18:06:33.632Z",
-  "totalScripts": 755,
+  "lastUpdated": "2026-11-19T00:14:53.105Z",
+  "totalScripts": 756,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15411,6 +15411,31 @@
       "forks": 0,
       "owner": "detarso06",
       "code": "```cpp\n; ============================================\n; Repository: detarso06/autocorretor\n; ============================================\n; URL: https://github.com/detarso06/autocorretor\n; Stars: 0 | Forks: 0\n; Last Updated: 11/18/2026\n; License: MIT License\n;\n; Description:\n; Corretor automático de digitação para Windows: corrige o português enquanto você digita, sem mexer no inglês (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/detarso06/autocorretor.git\n;\n; Option 2: Download ZIP\n;   https://github.com/detarso06/autocorretor/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autocorretor>\n\n; Example initialization\nclass AutocorretorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autocorretor loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutocorretorExample()\n```"
+    },
+    {
+      "id": "github-1463457752",
+      "title": "pinyin-recall",
+      "category": "GitHub Repository",
+      "description": "把英文状态下打出的拼音选中，单按 Shift 回灌给当前输入法出中文候选（Windows / AutoHotkey v2）。Select pinyin typed in English mode and tap Shift to get IME candidates.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "chinese",
+        "ime",
+        "input-method",
+        "keyboard",
+        "pinyin"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-18T23:43:00Z",
+      "lastModified": "2026-11-18T23:43:33Z",
+      "source": "github",
+      "url": "https://github.com/yxddsg-art/pinyin-recall",
+      "stars": 0,
+      "forks": 0,
+      "owner": "yxddsg-art",
+      "code": "```cpp\n; ============================================\n; Repository: yxddsg-art/pinyin-recall\n; ============================================\n; URL: https://github.com/yxddsg-art/pinyin-recall\n; Stars: 0 | Forks: 0\n; Last Updated: 11/18/2026\n; License: MIT License\n;\n; Description:\n; 把英文状态下打出的拼音选中，单按 Shift 回灌给当前输入法出中文候选（Windows / AutoHotkey v2）。Select pinyin typed in English mode and tap Shift to get IME candidates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yxddsg-art/pinyin-recall.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yxddsg-art/pinyin-recall/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pinyin-recall>\n\n; Example initialization\nclass PinyinRecallExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pinyin-recall loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PinyinRecallExample()\n```"
     }
   ]
 }
