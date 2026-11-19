@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-19T06:09:56.163Z",
-  "totalScripts": 756,
+  "lastUpdated": "2026-11-19T12:07:47.804Z",
+  "totalScripts": 757,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15436,6 +15436,25 @@
       "forks": 0,
       "owner": "yxddsg-art",
       "code": "```cpp\n; ============================================\n; Repository: yxddsg-art/pinyin-recall\n; ============================================\n; URL: https://github.com/yxddsg-art/pinyin-recall\n; Stars: 0 | Forks: 0\n; Last Updated: 11/18/2026\n; License: MIT License\n;\n; Description:\n; 把英文状态下打出的拼音选中，单按 Shift 回灌给当前输入法出中文候选（Windows / AutoHotkey v2）。Select pinyin typed in English mode and tap Shift to get IME candidates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yxddsg-art/pinyin-recall.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yxddsg-art/pinyin-recall/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pinyin-recall>\n\n; Example initialization\nclass PinyinRecallExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pinyin-recall loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PinyinRecallExample()\n```"
+    },
+    {
+      "id": "github-1463820945",
+      "title": "octopus-clipboard",
+      "category": "GitHub Repository",
+      "description": "纯 AutoHotkey v2 实现的轻量级���贴板历史管理器，单文件、无依赖，支持文本/图片/文件，界面清新",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-19T07:40:22Z",
+      "lastModified": "2026-11-19T08:43:27Z",
+      "source": "github",
+      "url": "https://github.com/xw5/octopus-clipboard",
+      "stars": 0,
+      "forks": 0,
+      "owner": "xw5",
+      "code": "```cpp\n; ============================================\n; Repository: xw5/octopus-clipboard\n; ============================================\n; URL: https://github.com/xw5/octopus-clipboard\n; Stars: 0 | Forks: 0\n; Last Updated: 11/19/2026\n; License: Not specified\n;\n; Description:\n; 纯 AutoHotkey v2 实现的轻量级���贴板历史管理器，单文件、无依赖，支持文本/图片/文件，界面清新\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xw5/octopus-clipboard.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xw5/octopus-clipboard/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <octopus-clipboard>\n\n; Example initialization\nclass OctopusClipboardExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"octopus-clipboard loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OctopusClipboardExample()\n```"
     }
   ]
 }
