@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-20T00:14:18.003Z",
+  "lastUpdated": "2026-11-20T06:09:41.723Z",
   "totalScripts": 761,
   "categories": [
     "GUI",
@@ -15429,13 +15429,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-18T23:43:00Z",
-      "lastModified": "2026-11-18T23:43:33Z",
+      "lastModified": "2026-11-20T03:36:37Z",
       "source": "github",
       "url": "https://github.com/yxddsg-art/pinyin-recall",
       "stars": 0,
       "forks": 0,
       "owner": "yxddsg-art",
-      "code": "```cpp\n; ============================================\n; Repository: yxddsg-art/pinyin-recall\n; ============================================\n; URL: https://github.com/yxddsg-art/pinyin-recall\n; Stars: 0 | Forks: 0\n; Last Updated: 11/18/2026\n; License: MIT License\n;\n; Description:\n; 把英文状态下打出的拼音选中，单按 Shift 回灌给当前输入法出中文候选（Windows / AutoHotkey v2）。Select pinyin typed in English mode and tap Shift to get IME candidates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yxddsg-art/pinyin-recall.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yxddsg-art/pinyin-recall/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pinyin-recall>\n\n; Example initialization\nclass PinyinRecallExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pinyin-recall loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PinyinRecallExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yxddsg-art/pinyin-recall\n; ============================================\n; URL: https://github.com/yxddsg-art/pinyin-recall\n; Stars: 0 | Forks: 0\n; Last Updated: 11/20/2026\n; License: MIT License\n;\n; Description:\n; 把英文状态下打出的拼音选中，单按 Shift 回灌给当前输入法出中文候选（Windows / AutoHotkey v2）。Select pinyin typed in English mode and tap Shift to get IME candidates.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yxddsg-art/pinyin-recall.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yxddsg-art/pinyin-recall/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <pinyin-recall>\n\n; Example initialization\nclass PinyinRecallExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"pinyin-recall loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PinyinRecallExample()\n```"
     },
     {
       "id": "github-1463820945",
