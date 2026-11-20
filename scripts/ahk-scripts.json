@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-20T12:08:08.872Z",
-  "totalScripts": 762,
+  "lastUpdated": "2026-11-20T18:07:09.139Z",
+  "totalScripts": 763,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15550,6 +15550,25 @@
       "forks": 0,
       "owner": "xunnian0721-code",
       "code": "```cpp\n; ============================================\n; Repository: xunnian0721-code/simulated-typing\n; ============================================\n; URL: https://github.com/xunnian0721-code/simulated-typing\n; Stars: 0 | Forks: 0\n; Last Updated: 11/20/2026\n; License: MIT License\n;\n; Description:\n; 像真人一样逐字输入文本的小工具（Windows，AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xunnian0721-code/simulated-typing.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xunnian0721-code/simulated-typing/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <simulated-typing>\n\n; Example initialization\nclass SimulatedTypingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"simulated-typing loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SimulatedTypingExample()\n```"
+    },
+    {
+      "id": "github-1465631380",
+      "title": "ClassicRightClick",
+      "category": "GitHub Repository",
+      "description": "Always open the classic context menu in Windows 11 Explorer (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-20T16:06:03Z",
+      "lastModified": "2026-11-20T16:26:19Z",
+      "source": "github",
+      "url": "https://github.com/SlowLearnersLounge/ClassicRightClick",
+      "stars": 0,
+      "forks": 0,
+      "owner": "SlowLearnersLounge",
+      "code": "```cpp\n; ============================================\n; Repository: SlowLearnersLounge/ClassicRightClick\n; ============================================\n; URL: https://github.com/SlowLearnersLounge/ClassicRightClick\n; Stars: 0 | Forks: 0\n; Last Updated: 11/20/2026\n; License: MIT License\n;\n; Description:\n; Always open the classic context menu in Windows 11 Explorer (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/SlowLearnersLounge/ClassicRightClick.git\n;\n; Option 2: Download ZIP\n;   https://github.com/SlowLearnersLounge/ClassicRightClick/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ClassicRightClick>\n\n; Example initialization\nclass ClassicrightclickExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ClassicRightClick loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClassicrightclickExample()\n```"
     }
   ]
 }
