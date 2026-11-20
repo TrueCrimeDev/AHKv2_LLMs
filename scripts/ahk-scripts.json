@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-19T18:07:04.142Z",
-  "totalScripts": 760,
+  "lastUpdated": "2026-11-20T00:14:18.003Z",
+  "totalScripts": 761,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15347,7 +15347,7 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-17T18:27:17Z",
-      "lastModified": "2026-11-19T14:04:06Z",
+      "lastModified": "2026-11-19T19:29:07Z",
       "source": "github",
       "url": "https://github.com/yensobased1/lobby-loop",
       "stars": 3,
@@ -15512,6 +15512,25 @@
       "forks": 0,
       "owner": "kennethaar",
       "code": "```cpp\n; ============================================\n; Repository: kennethaar/MeetingRecorder\n; ============================================\n; URL: https://github.com/kennethaar/MeetingRecorder\n; Stars: 0 | Forks: 0\n; Last Updated: 11/19/2026\n; License: Not specified\n;\n; Description:\n; Windows meeting recorder: AutoHotkey v2 UI with a WASAPI capture helper that saves stereo WAV files.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/kennethaar/MeetingRecorder.git\n;\n; Option 2: Download ZIP\n;   https://github.com/kennethaar/MeetingRecorder/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MeetingRecorder>\n\n; Example initialization\nclass MeetingrecorderExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MeetingRecorder loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MeetingrecorderExample()\n```"
+    },
+    {
+      "id": "github-1464580746",
+      "title": "laptop-screen-toggle",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 tray icon that toggles your laptop display on or off with one click. Ideal for gaming laptops used with an external monitor. Personal use-case since I don't prefer to keep the laptop on all the time.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-19T19:35:06Z",
+      "lastModified": "2026-11-19T19:39:45Z",
+      "source": "github",
+      "url": "https://github.com/MegamanEXE/laptop-screen-toggle",
+      "stars": 0,
+      "forks": 0,
+      "owner": "MegamanEXE",
+      "code": "```cpp\n; ============================================\n; Repository: MegamanEXE/laptop-screen-toggle\n; ============================================\n; URL: https://github.com/MegamanEXE/laptop-screen-toggle\n; Stars: 0 | Forks: 0\n; Last Updated: 11/19/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 tray icon that toggles your laptop display on or off with one click. Ideal for gaming laptops used with an external monitor. Personal use-case since I don't prefer to keep the laptop on all the time.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MegamanEXE/laptop-screen-toggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MegamanEXE/laptop-screen-toggle/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <laptop-screen-toggle>\n\n; Example initialization\nclass LaptopScreenToggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"laptop-screen-toggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LaptopScreenToggleExample()\n```"
     }
   ]
 }
