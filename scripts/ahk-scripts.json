@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-20T06:09:41.723Z",
-  "totalScripts": 761,
+  "lastUpdated": "2026-11-20T12:08:08.872Z",
+  "totalScripts": 762,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15531,6 +15531,25 @@
       "forks": 0,
       "owner": "MegamanEXE",
       "code": "```cpp\n; ============================================\n; Repository: MegamanEXE/laptop-screen-toggle\n; ============================================\n; URL: https://github.com/MegamanEXE/laptop-screen-toggle\n; Stars: 0 | Forks: 0\n; Last Updated: 11/19/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 tray icon that toggles your laptop display on or off with one click. Ideal for gaming laptops used with an external monitor. Personal use-case since I don't prefer to keep the laptop on all the time.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/MegamanEXE/laptop-screen-toggle.git\n;\n; Option 2: Download ZIP\n;   https://github.com/MegamanEXE/laptop-screen-toggle/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <laptop-screen-toggle>\n\n; Example initialization\nclass LaptopScreenToggleExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"laptop-screen-toggle loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LaptopScreenToggleExample()\n```"
+    },
+    {
+      "id": "github-1465088469",
+      "title": "simulated-typing",
+      "category": "GitHub Repository",
+      "description": "像真人一样逐字输入文本的小工具（Windows，AutoHotkey v2）",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-20T06:52:33Z",
+      "lastModified": "2026-11-20T06:52:43Z",
+      "source": "github",
+      "url": "https://github.com/xunnian0721-code/simulated-typing",
+      "stars": 0,
+      "forks": 0,
+      "owner": "xunnian0721-code",
+      "code": "```cpp\n; ============================================\n; Repository: xunnian0721-code/simulated-typing\n; ============================================\n; URL: https://github.com/xunnian0721-code/simulated-typing\n; Stars: 0 | Forks: 0\n; Last Updated: 11/20/2026\n; License: MIT License\n;\n; Description:\n; 像真人一样逐字输入文本的小工具（Windows，AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xunnian0721-code/simulated-typing.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xunnian0721-code/simulated-typing/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <simulated-typing>\n\n; Example initialization\nclass SimulatedTypingExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"simulated-typing loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SimulatedTypingExample()\n```"
     }
   ]
 }
