@@ -1,5 +1,24 @@
 [
  {
+  "slug": "november-2026-gpt-6-2",
+  "title": "GPT-6.2 Astra Ties Gemini 4 Neon at 102 of 103",
+  "preview_title": "The GPT-6.2 Pro Models Miss the Same Items as the Base Models",
+  "date": "2026-11-21",
+  "description": "GPT-6.2 Sol, Astra, Sol Pro and Astra Pro on AHK-Eval, AHK-Contract, AHK-Repair and the esoteric probe. All four pass all 181 hidden Eval cases. Astra scores 102 of 103 for $0.92, tying Gemini 4 Neon for the best four-suite total at about a sixth of the cost. The Pro models post exactly the same scores as the base models and miss the same items, at 3.6 and 4.3 times the price. The three misses: m.Value on a match object, > between two strings, and a local variable named isSet.",
+  "preview": "All four GPT-6.2 models pass every hidden Eval case. Astra ties Gemini 4 Neon at 102 of 103 for $0.92. The Pro models score the same as the base models.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "AHK-Contract",
+   "AHK-Repair",
+   "GPT-6.2",
+   "OpenAI",
+   "OpenRouter"
+  ],
+  "path": "posts/november-2026-gpt-6-2.md"
+ },
+ {
   "slug": "november-2026-gemini-4",
   "title": "Gemini 4 Neon Fixes All 30 AHK-Repair Items",
   "preview_title": "Gemini 4 Neon, Hydrogen and Carbon All Pass Every Eval Case",
