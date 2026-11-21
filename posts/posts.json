@@ -1,5 +1,24 @@
 [
  {
+  "slug": "november-2026-gemini-4",
+  "title": "Gemini 4 Neon Fixes All 30 AHK-Repair Items",
+  "preview_title": "Gemini 4 Neon, Hydrogen and Carbon All Pass Every Eval Case",
+  "date": "2026-11-21",
+  "description": "Gemini 4 Neon, Hydrogen and Carbon on AHK-Eval, AHK-Contract, AHK-Repair and the esoteric probe. All three pass all 181 hidden Eval cases. Neon is the first model to fix all 30 Repair items, including four that most of the board misses, and its 102 of 103 is the highest four-suite score. Carbon scores 100 of 103 for $1.40. All three fix the date case Gemini 4 Argon missed with the same lookaround regex. Unlike Argon, they reason by default, and Neon's long reasoning makes it the most expensive at $6.00.",
+  "preview": "All three new Gemini 4 models pass every hidden Eval case. Neon fixes all 30 Repair items, a first. Carbon gets 100 of 103 for $1.40.",
+  "tags": [
+   "LLMs",
+   "Benchmark",
+   "AHK-Eval",
+   "AHK-Contract",
+   "AHK-Repair",
+   "Gemini 4",
+   "Google",
+   "OpenRouter"
+  ],
+  "path": "posts/november-2026-gemini-4.md"
+ },
+ {
   "slug": "darkmode-win32-projection",
   "title": "Porting an 8,800-Line Dark Mode Library to the Official Win32 Projection",
   "preview_title": "DarkModeModular on win32.ahk: 611 Typed Calls, Same Pixels, 200 ms Slower Start",
