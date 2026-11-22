@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-22T00:16:18.922Z",
-  "totalScripts": 765,
+  "lastUpdated": "2026-11-22T06:09:07.096Z",
+  "totalScripts": 768,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15617,6 +15617,69 @@
       "forks": 0,
       "owner": "c1tymorgu3",
       "code": "```cpp\n; ============================================\n; Repository: c1tymorgu3/rpshift-translator\n; ============================================\n; URL: https://github.com/c1tymorgu3/rpshift-translator\n; Stars: 0 | Forks: 0\n; Last Updated: 11/21/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 translator for GTA V RP: Turkish to American slang via DeepL and Groq.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/c1tymorgu3/rpshift-translator.git\n;\n; Option 2: Download ZIP\n;   https://github.com/c1tymorgu3/rpshift-translator/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <rpshift-translator>\n\n; Example initialization\nclass RpshiftTranslatorExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"rpshift-translator loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RpshiftTranslatorExample()\n```"
+    },
+    {
+      "id": "github-1467192868",
+      "title": "window-helper",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 script to resize, center, and move windows between monitors on Windows 10/11.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk-v2",
+        "autohotkey",
+        "multi-monitor",
+        "productivity",
+        "window-manager"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-22T03:56:59Z",
+      "lastModified": "2026-11-22T03:57:16Z",
+      "source": "github",
+      "url": "https://github.com/sarghelxch/window-helper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "sarghelxch",
+      "code": "```cpp\n; ============================================\n; Repository: sarghelxch/window-helper\n; ============================================\n; URL: https://github.com/sarghelxch/window-helper\n; Stars: 0 | Forks: 0\n; Last Updated: 11/22/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 script to resize, center, and move windows between monitors on Windows 10/11.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/sarghelxch/window-helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/sarghelxch/window-helper/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <window-helper>\n\n; Example initialization\nclass WindowHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"window-helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WindowHelperExample()\n```"
+    },
+    {
+      "id": "github-1467188055",
+      "title": "potplayer-hold-speed",
+      "category": "GitHub Repository",
+      "description": "PotPlayer 长按 → 键倍速播放（AutoHotkey v2 脚本）",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-22T03:48:26Z",
+      "lastModified": "2026-11-22T03:48:41Z",
+      "source": "github",
+      "url": "https://github.com/wzhhhhhhhhhhhh/potplayer-hold-speed",
+      "stars": 0,
+      "forks": 0,
+      "owner": "wzhhhhhhhhhhhh",
+      "code": "```cpp\n; ============================================\n; Repository: wzhhhhhhhhhhhh/potplayer-hold-speed\n; ============================================\n; URL: https://github.com/wzhhhhhhhhhhhh/potplayer-hold-speed\n; Stars: 0 | Forks: 0\n; Last Updated: 11/22/2026\n; License: Not specified\n;\n; Description:\n; PotPlayer 长按 → 键倍速播放（AutoHotkey v2 脚本）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wzhhhhhhhhhhhh/potplayer-hold-speed.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wzhhhhhhhhhhhh/potplayer-hold-speed/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <potplayer-hold-speed>\n\n; Example initialization\nclass PotplayerHoldSpeedExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"potplayer-hold-speed loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PotplayerHoldSpeedExample()\n```"
+    },
+    {
+      "id": "github-1467158588",
+      "title": "ahk-scripts",
+      "category": "GitHub Repository",
+      "description": "自用 AutoHotkey v2 脚本合集：MathInput 在任意输入框敲算式，按 = 直接出答案，支持链式计算",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-22T02:52:52Z",
+      "lastModified": "2026-11-22T02:53:03Z",
+      "source": "github",
+      "url": "https://github.com/szjmhxd/ahk-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "szjmhxd",
+      "code": "```cpp\n; ============================================\n; Repository: szjmhxd/ahk-scripts\n; ============================================\n; URL: https://github.com/szjmhxd/ahk-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 11/22/2026\n; License: MIT License\n;\n; Description:\n; 自用 AutoHotkey v2 脚本合集：MathInput 在任意输入框敲算式，按 = 直接出答案，支持链式计算\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/szjmhxd/ahk-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/szjmhxd/ahk-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <ahk-scripts>\n\n; Example initialization\nclass AhkScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"ahk-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkScriptsExample()\n```"
     }
   ]
 }
