@@ -22,6 +22,8 @@ Thinking Machines' first Inkling solved 22 of the 36 Eval tasks in July. **Inkli
 
 **Inkling 2 Mini** is much weaker. It has 3.4 billion active parameters against Small's 17 billion, and it reasons at length: 36 of its 103 calls ran into the token cap, and its median call used 5,927 tokens. It solves 13 Eval tasks and fixes 3 Repair items, for 30 of 103.
 
+To check whether the cap was the problem, Mini's 36 capped calls were run again with a 32,000-token limit, for $0.30. 28 of them hit the new limit too, including all 20 Repair calls. The other 8 finished in under 7,100 tokens, well inside the original cap. With all 36 answers replaced, Mini scores 35. Four of the five extra points come from answers that finished under 7,100 tokens, and the fifth from one that ran to 32,000 anyway, so the cap isn't what holds Mini back. The table keeps 30, the standard-run score.
+
 ## Two Models Built on Other Models
 
 According to their OpenRouter listings, Particle-1 is post-trained on DeepSeek V4.1 Flash, and Nex-N2.6 is built on GLM-5.3-Flash.
