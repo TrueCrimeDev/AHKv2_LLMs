@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-23T00:16:22.325Z",
-  "totalScripts": 772,
+  "lastUpdated": "2026-11-23T06:13:51.902Z",
+  "totalScripts": 773,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15767,6 +15767,25 @@
       "forks": 0,
       "owner": "Gh0StCK",
       "code": "```cpp\n; ============================================\n; Repository: Gh0StCK/MouseMacro-Manager\n; ============================================\n; URL: https://github.com/Gh0StCK/MouseMacro-Manager\n; Stars: 0 | Forks: 0\n; Last Updated: 11/22/2026\n; License: Not specified\n;\n; Description:\n; Mouse macro recorder and manager for Windows, built with AutoHotkey v2 and WebView2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Gh0StCK/MouseMacro-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Gh0StCK/MouseMacro-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MouseMacro-Manager>\n\n; Example initialization\nclass MousemacroManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MouseMacro-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousemacroManagerExample()\n```"
+    },
+    {
+      "id": "github-1468307646",
+      "title": "skeleton-bow-macro",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 skeleton bow turret macro",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-23T05:01:07Z",
+      "lastModified": "2026-11-23T05:04:43Z",
+      "source": "github",
+      "url": "https://github.com/robloxtimesim-svg/skeleton-bow-macro",
+      "stars": 0,
+      "forks": 0,
+      "owner": "robloxtimesim-svg",
+      "code": "```cpp\n; ============================================\n; Repository: robloxtimesim-svg/skeleton-bow-macro\n; ============================================\n; URL: https://github.com/robloxtimesim-svg/skeleton-bow-macro\n; Stars: 0 | Forks: 0\n; Last Updated: 11/23/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 skeleton bow turret macro\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/robloxtimesim-svg/skeleton-bow-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/robloxtimesim-svg/skeleton-bow-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skeleton-bow-macro>\n\n; Example initialization\nclass SkeletonBowMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skeleton-bow-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkeletonBowMacroExample()\n```"
     }
   ]
 }
