@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-22T18:06:25.614Z",
-  "totalScripts": 769,
+  "lastUpdated": "2026-11-23T00:16:22.325Z",
+  "totalScripts": 772,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -787,13 +787,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2025-01-05T03:32:34Z",
-      "lastModified": "2026-10-27T09:14:42Z",
+      "lastModified": "2026-11-20T15:04:39Z",
       "source": "github",
       "url": "https://github.com/0w0Demonic/AquaHotkey",
-      "stars": 36,
+      "stars": 35,
       "forks": 3,
       "owner": "0w0Demonic",
-      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 36 | Forks: 3\n; Last Updated: 10/27/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: 0w0Demonic/AquaHotkey\n; ============================================\n; URL: https://github.com/0w0Demonic/AquaHotkey\n; Stars: 35 | Forks: 3\n; Last Updated: 11/20/2026\n; License: MIT License\n;\n; Description:\n; Class prototyping library for AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/0w0Demonic/AquaHotkey.git\n;\n; Option 2: Download ZIP\n;   https://github.com/0w0Demonic/AquaHotkey/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AquaHotkey>\n\n; Example initialization\nclass AquahotkeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AquaHotkey loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AquahotkeyExample()\n```"
     },
     {
       "id": "github-1105009364",
@@ -15710,6 +15710,63 @@
       "forks": 0,
       "owner": "geo3895",
       "code": "```cpp\n; ============================================\n; Repository: geo3895/audio-hotkeys\n; ============================================\n; URL: https://github.com/geo3895/audio-hotkeys\n; Stars: 0 | Forks: 0\n; Last Updated: 11/22/2026\n; License: MIT License\n;\n; Description:\n; Global microphone and speaker mute hotkeys for Windows (AutoHotkey v2, Core Audio, no drivers)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/geo3895/audio-hotkeys.git\n;\n; Option 2: Download ZIP\n;   https://github.com/geo3895/audio-hotkeys/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <audio-hotkeys>\n\n; Example initialization\nclass AudioHotkeysExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"audio-hotkeys loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AudioHotkeysExample()\n```"
+    },
+    {
+      "id": "github-1468023368",
+      "title": "MousePinchPad",
+      "category": "GitHub Repository",
+      "description": "Trackpad-style pinch zoom and right-button shortcuts for any mouse on Windows 11 (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-22T21:54:09Z",
+      "lastModified": "2026-11-22T22:08:40Z",
+      "source": "github",
+      "url": "https://github.com/NazarBabii/MousePinchPad",
+      "stars": 0,
+      "forks": 0,
+      "owner": "NazarBabii",
+      "code": "```cpp\n; ============================================\n; Repository: NazarBabii/MousePinchPad\n; ============================================\n; URL: https://github.com/NazarBabii/MousePinchPad\n; Stars: 0 | Forks: 0\n; Last Updated: 11/22/2026\n; License: MIT License\n;\n; Description:\n; Trackpad-style pinch zoom and right-button shortcuts for any mouse on Windows 11 (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/NazarBabii/MousePinchPad.git\n;\n; Option 2: Download ZIP\n;   https://github.com/NazarBabii/MousePinchPad/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MousePinchPad>\n\n; Example initialization\nclass MousepinchpadExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MousePinchPad loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousepinchpadExample()\n```"
+    },
+    {
+      "id": "github-1468002321",
+      "title": "GameVoiceReader-Natural",
+      "category": "GitHub Repository",
+      "description": "Reads game text aloud with natural voices: OCR of any screen area, no delays between sentences, follows scrolling and dialogue. AutoHotkey v2, based on GameVoiceReader by KnightDevRedEmber.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-22T21:24:31Z",
+      "lastModified": "2026-11-22T21:30:15Z",
+      "source": "github",
+      "url": "https://github.com/Ragos000/GameVoiceReader-Natural",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Ragos000",
+      "code": "```cpp\n; ============================================\n; Repository: Ragos000/GameVoiceReader-Natural\n; ============================================\n; URL: https://github.com/Ragos000/GameVoiceReader-Natural\n; Stars: 0 | Forks: 0\n; Last Updated: 11/22/2026\n; License: MIT License\n;\n; Description:\n; Reads game text aloud with natural voices: OCR of any screen area, no delays between sentences, follows scrolling and dialogue. AutoHotkey v2, based on GameVoiceReader by KnightDevRedEmber.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ragos000/GameVoiceReader-Natural.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ragos000/GameVoiceReader-Natural/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GameVoiceReader-Natural>\n\n; Example initialization\nclass GamevoicereaderNaturalExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GameVoiceReader-Natural loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GamevoicereaderNaturalExample()\n```"
+    },
+    {
+      "id": "github-1467875670",
+      "title": "MouseMacro-Manager",
+      "category": "GitHub Repository",
+      "description": "Mouse macro recorder and manager for Windows, built with AutoHotkey v2 and WebView2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-22T18:44:28Z",
+      "lastModified": "2026-11-22T18:53:34Z",
+      "source": "github",
+      "url": "https://github.com/Gh0StCK/MouseMacro-Manager",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Gh0StCK",
+      "code": "```cpp\n; ============================================\n; Repository: Gh0StCK/MouseMacro-Manager\n; ============================================\n; URL: https://github.com/Gh0StCK/MouseMacro-Manager\n; Stars: 0 | Forks: 0\n; Last Updated: 11/22/2026\n; License: Not specified\n;\n; Description:\n; Mouse macro recorder and manager for Windows, built with AutoHotkey v2 and WebView2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Gh0StCK/MouseMacro-Manager.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Gh0StCK/MouseMacro-Manager/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <MouseMacro-Manager>\n\n; Example initialization\nclass MousemacroManagerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"MouseMacro-Manager loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MousemacroManagerExample()\n```"
     }
   ]
 }
