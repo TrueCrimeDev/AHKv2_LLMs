@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-23T06:13:51.902Z",
-  "totalScripts": 773,
+  "lastUpdated": "2026-11-23T12:09:09.107Z",
+  "totalScripts": 774,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15786,6 +15786,25 @@
       "forks": 0,
       "owner": "robloxtimesim-svg",
       "code": "```cpp\n; ============================================\n; Repository: robloxtimesim-svg/skeleton-bow-macro\n; ============================================\n; URL: https://github.com/robloxtimesim-svg/skeleton-bow-macro\n; Stars: 0 | Forks: 0\n; Last Updated: 11/23/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 skeleton bow turret macro\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/robloxtimesim-svg/skeleton-bow-macro.git\n;\n; Option 2: Download ZIP\n;   https://github.com/robloxtimesim-svg/skeleton-bow-macro/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <skeleton-bow-macro>\n\n; Example initialization\nclass SkeletonBowMacroExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"skeleton-bow-macro loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SkeletonBowMacroExample()\n```"
+    },
+    {
+      "id": "github-1467588750",
+      "title": "autohotkey_V2",
+      "category": "GitHub Repository",
+      "description": "Autohotkey V2 Scripts",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-22T13:29:05Z",
+      "lastModified": "2026-11-23T10:00:59Z",
+      "source": "github",
+      "url": "https://github.com/pijamarda/autohotkey_V2",
+      "stars": 0,
+      "forks": 0,
+      "owner": "pijamarda",
+      "code": "```cpp\n; ============================================\n; Repository: pijamarda/autohotkey_V2\n; ============================================\n; URL: https://github.com/pijamarda/autohotkey_V2\n; Stars: 0 | Forks: 0\n; Last Updated: 11/23/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey V2 Scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pijamarda/autohotkey_V2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pijamarda/autohotkey_V2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey_V2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey_V2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
     }
   ]
 }
