@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-24T00:14:32.112Z",
-  "totalScripts": 776,
+  "lastUpdated": "2026-11-24T06:09:41.003Z",
+  "totalScripts": 777,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15849,6 +15849,25 @@
       "forks": 0,
       "owner": "YummyCyanide",
       "code": "```cpp\n; ============================================\n; Repository: YummyCyanide/Bangla-Keyboard-Public\n; ============================================\n; URL: https://github.com/YummyCyanide/Bangla-Keyboard-Public\n; Stars: 0 | Forks: 0\n; Last Updated: 11/23/2026\n; License: Not specified\n;\n; Description:\n; Bangla Keyboard (Public Repo) built in AutoHotkey V2 and only for Windows. Inspired from all the keyboards around (Avro, Bijoy, Kontho for example).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/YummyCyanide/Bangla-Keyboard-Public.git\n;\n; Option 2: Download ZIP\n;   https://github.com/YummyCyanide/Bangla-Keyboard-Public/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Bangla-Keyboard-Public>\n\n; Example initialization\nclass BanglaKeyboardPublicExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Bangla-Keyboard-Public loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BanglaKeyboardPublicExample()\n```"
+    },
+    {
+      "id": "github-1469533885",
+      "title": "DeskDrawer",
+      "category": "GitHub Repository",
+      "description": "Windows 桌面管理器（AutoHotkey v2）：把桌面图标按类型收进分区抽屉",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-24T02:00:12Z",
+      "lastModified": "2026-11-24T02:06:23Z",
+      "source": "github",
+      "url": "https://github.com/M-C-Kai/DeskDrawer",
+      "stars": 0,
+      "forks": 0,
+      "owner": "M-C-Kai",
+      "code": "```cpp\n; ============================================\n; Repository: M-C-Kai/DeskDrawer\n; ============================================\n; URL: https://github.com/M-C-Kai/DeskDrawer\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2026\n; License: Not specified\n;\n; Description:\n; Windows 桌面管理器（AutoHotkey v2）：把桌面图标按类型收进分区抽屉\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-C-Kai/DeskDrawer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-C-Kai/DeskDrawer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskDrawer>\n\n; Example initialization\nclass DeskdrawerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskDrawer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DeskdrawerExample()\n```"
     }
   ]
 }
