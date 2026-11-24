@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-24T06:09:41.003Z",
-  "totalScripts": 777,
+  "lastUpdated": "2026-11-24T12:08:30.409Z",
+  "totalScripts": 780,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15868,6 +15868,68 @@
       "forks": 0,
       "owner": "M-C-Kai",
       "code": "```cpp\n; ============================================\n; Repository: M-C-Kai/DeskDrawer\n; ============================================\n; URL: https://github.com/M-C-Kai/DeskDrawer\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2026\n; License: Not specified\n;\n; Description:\n; Windows 桌面管理器（AutoHotkey v2）：把桌面图标按类型收进分区抽屉\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/M-C-Kai/DeskDrawer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/M-C-Kai/DeskDrawer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <DeskDrawer>\n\n; Example initialization\nclass DeskdrawerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"DeskDrawer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := DeskdrawerExample()\n```"
+    },
+    {
+      "id": "github-1470003324",
+      "title": "CorsairSuperWidget",
+      "category": "GitHub Repository",
+      "description": "Widgets for Corsair Xeneon Edge with AutoHotkey v2",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-24T10:32:50Z",
+      "lastModified": "2026-11-24T10:35:05Z",
+      "source": "github",
+      "url": "https://github.com/trenirovkaskrasi-commits/CorsairSuperWidget",
+      "stars": 0,
+      "forks": 0,
+      "owner": "trenirovkaskrasi-commits",
+      "code": "```cpp\n; ============================================\n; Repository: trenirovkaskrasi-commits/CorsairSuperWidget\n; ============================================\n; URL: https://github.com/trenirovkaskrasi-commits/CorsairSuperWidget\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2026\n; License: GNU General Public License v3.0\n;\n; Description:\n; Widgets for Corsair Xeneon Edge with AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/trenirovkaskrasi-commits/CorsairSuperWidget.git\n;\n; Option 2: Download ZIP\n;   https://github.com/trenirovkaskrasi-commits/CorsairSuperWidget/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <CorsairSuperWidget>\n\n; Example initialization\nclass CorsairsuperwidgetExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"CorsairSuperWidget loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := CorsairsuperwidgetExample()\n```"
+    },
+    {
+      "id": "github-1469801872",
+      "title": "PenBar",
+      "category": "GitHub Repository",
+      "description": "Floating pen toolbar and handwriting pad for Windows tablets (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-24T07:26:27Z",
+      "lastModified": "2026-11-24T07:28:09Z",
+      "source": "github",
+      "url": "https://github.com/z1ad/PenBar",
+      "stars": 0,
+      "forks": 0,
+      "owner": "z1ad",
+      "code": "```cpp\n; ============================================\n; Repository: z1ad/PenBar\n; ============================================\n; URL: https://github.com/z1ad/PenBar\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2026\n; License: Not specified\n;\n; Description:\n; Floating pen toolbar and handwriting pad for Windows tablets (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/z1ad/PenBar.git\n;\n; Option 2: Download ZIP\n;   https://github.com/z1ad/PenBar/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <PenBar>\n\n; Example initialization\nclass PenbarExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"PenBar loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := PenbarExample()\n```"
+    },
+    {
+      "id": "github-1469752415",
+      "title": "alt-ime-ahk-hyperv",
+      "category": "GitHub Repository",
+      "description": "Hyper-V (vmconnect.exe) 操作中は Alt 空打ち IME 切替を抑止する alt-ime-ahk (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "hyper-v",
+        "ime",
+        "japanese",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-24T06:35:08Z",
+      "lastModified": "2026-11-24T06:35:24Z",
+      "source": "github",
+      "url": "https://github.com/crazykohei0123/alt-ime-ahk-hyperv",
+      "stars": 0,
+      "forks": 0,
+      "owner": "crazykohei0123",
+      "code": "```cpp\n; ============================================\n; Repository: crazykohei0123/alt-ime-ahk-hyperv\n; ============================================\n; URL: https://github.com/crazykohei0123/alt-ime-ahk-hyperv\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; Hyper-V (vmconnect.exe) 操作中は Alt 空打ち IME 切替を抑止する alt-ime-ahk (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/crazykohei0123/alt-ime-ahk-hyperv.git\n;\n; Option 2: Download ZIP\n;   https://github.com/crazykohei0123/alt-ime-ahk-hyperv/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-ahk-hyperv>\n\n; Example initialization\nclass AltImeAhkHypervExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-ahk-hyperv loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeAhkHypervExample()\n```"
     }
   ]
 }
