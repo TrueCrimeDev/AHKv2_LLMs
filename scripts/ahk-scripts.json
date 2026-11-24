@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-23T18:06:51.213Z",
-  "totalScripts": 774,
+  "lastUpdated": "2026-11-24T00:14:32.112Z",
+  "totalScripts": 776,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15805,6 +15805,50 @@
       "forks": 0,
       "owner": "pijamarda",
       "code": "```cpp\n; ============================================\n; Repository: pijamarda/autohotkey_V2\n; ============================================\n; URL: https://github.com/pijamarda/autohotkey_V2\n; Stars: 0 | Forks: 0\n; Last Updated: 11/23/2026\n; License: Not specified\n;\n; Description:\n; Autohotkey V2 Scripts\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/pijamarda/autohotkey_V2.git\n;\n; Option 2: Download ZIP\n;   https://github.com/pijamarda/autohotkey_V2/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey_V2>\n\n; Example initialization\nclass AutohotkeyV2Example {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey_V2 loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyV2Example()\n```"
+    },
+    {
+      "id": "github-613869886",
+      "title": "AhkScripts",
+      "category": "GitHub Repository",
+      "description": "⌨️ My AutoHotkey v2 scripts: game key-binds, macros and one-click game launchers.",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "ahk2",
+        "autohotkey",
+        "autohotkey-scripts",
+        "autohotkey-v2",
+        "dota2"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2023-03-14T12:43:16Z",
+      "lastModified": "2026-11-23T21:53:49Z",
+      "source": "github",
+      "url": "https://github.com/Aluerie/AhkScripts",
+      "stars": 1,
+      "forks": 0,
+      "owner": "Aluerie",
+      "code": "```cpp\n; ============================================\n; Repository: Aluerie/AhkScripts\n; ============================================\n; URL: https://github.com/Aluerie/AhkScripts\n; Stars: 1 | Forks: 0\n; Last Updated: 11/23/2026\n; License: Not specified\n;\n; Description:\n; ⌨️ My AutoHotkey v2 scripts: game key-binds, macros and one-click game launchers.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Aluerie/AhkScripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Aluerie/AhkScripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AhkScripts>\n\n; Example initialization\nclass AhkscriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AhkScripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AhkscriptsExample()\n```"
+    },
+    {
+      "id": "github-1469117111",
+      "title": "Bangla-Keyboard-Public",
+      "category": "GitHub Repository",
+      "description": "Bangla Keyboard (Public Repo) built in AutoHotkey V2 and only for Windows. Inspired from all the keyboards around (Avro, Bijoy, Kontho for example).",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-23T17:54:27Z",
+      "lastModified": "2026-11-23T18:18:49Z",
+      "source": "github",
+      "url": "https://github.com/YummyCyanide/Bangla-Keyboard-Public",
+      "stars": 0,
+      "forks": 0,
+      "owner": "YummyCyanide",
+      "code": "```cpp\n; ============================================\n; Repository: YummyCyanide/Bangla-Keyboard-Public\n; ============================================\n; URL: https://github.com/YummyCyanide/Bangla-Keyboard-Public\n; Stars: 0 | Forks: 0\n; Last Updated: 11/23/2026\n; License: Not specified\n;\n; Description:\n; Bangla Keyboard (Public Repo) built in AutoHotkey V2 and only for Windows. Inspired from all the keyboards around (Avro, Bijoy, Kontho for example).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/YummyCyanide/Bangla-Keyboard-Public.git\n;\n; Option 2: Download ZIP\n;   https://github.com/YummyCyanide/Bangla-Keyboard-Public/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Bangla-Keyboard-Public>\n\n; Example initialization\nclass BanglaKeyboardPublicExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Bangla-Keyboard-Public loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := BanglaKeyboardPublicExample()\n```"
     }
   ]
 }
