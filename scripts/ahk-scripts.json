@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-24T12:08:30.409Z",
-  "totalScripts": 780,
+  "lastUpdated": "2026-11-24T18:06:51.246Z",
+  "totalScripts": 781,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15930,6 +15930,25 @@
       "forks": 0,
       "owner": "crazykohei0123",
       "code": "```cpp\n; ============================================\n; Repository: crazykohei0123/alt-ime-ahk-hyperv\n; ============================================\n; URL: https://github.com/crazykohei0123/alt-ime-ahk-hyperv\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2026\n; License: GNU General Public License v2.0\n;\n; Description:\n; Hyper-V (vmconnect.exe) 操作中は Alt 空打ち IME 切替を抑止する alt-ime-ahk (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/crazykohei0123/alt-ime-ahk-hyperv.git\n;\n; Option 2: Download ZIP\n;   https://github.com/crazykohei0123/alt-ime-ahk-hyperv/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <alt-ime-ahk-hyperv>\n\n; Example initialization\nclass AltImeAhkHypervExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"alt-ime-ahk-hyperv loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AltImeAhkHypervExample()\n```"
+    },
+    {
+      "id": "github-1470192630",
+      "title": "Reelwise",
+      "category": "GitHub Repository",
+      "description": "Reelwise — auto-fishing macro for Roblox Fisch (AutoHotkey v2): Pinion's Aria notes, self-update",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-24T13:17:34Z",
+      "lastModified": "2026-11-24T13:17:45Z",
+      "source": "github",
+      "url": "https://github.com/toshhiit/Reelwise",
+      "stars": 0,
+      "forks": 0,
+      "owner": "toshhiit",
+      "code": "```cpp\n; ============================================\n; Repository: toshhiit/Reelwise\n; ============================================\n; URL: https://github.com/toshhiit/Reelwise\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2026\n; License: Not specified\n;\n; Description:\n; Reelwise — auto-fishing macro for Roblox Fisch (AutoHotkey v2): Pinion's Aria notes, self-update\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/toshhiit/Reelwise.git\n;\n; Option 2: Download ZIP\n;   https://github.com/toshhiit/Reelwise/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Reelwise>\n\n; Example initialization\nclass ReelwiseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Reelwise loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReelwiseExample()\n```"
     }
   ]
 }
