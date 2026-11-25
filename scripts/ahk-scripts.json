@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-25T06:10:02.501Z",
-  "totalScripts": 784,
+  "lastUpdated": "2026-11-25T12:08:36.038Z",
+  "totalScripts": 786,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -16011,6 +16011,44 @@
       "forks": 0,
       "owner": "4leph0",
       "code": "```cpp\n; ============================================\n; Repository: 4leph0/tb900eq-config\n; ============================================\n; URL: https://github.com/4leph0/tb900eq-config\n; Stars: 0 | Forks: 0\n; Last Updated: 11/25/2026\n; License: Not specified\n;\n; Description:\n; Kensington TB900 EQ KONNECT profile and AutoHotkey v2 configuration\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/4leph0/tb900eq-config.git\n;\n; Option 2: Download ZIP\n;   https://github.com/4leph0/tb900eq-config/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <tb900eq-config>\n\n; Example initialization\nclass Tb900eqConfigExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"tb900eq-config loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := Tb900eqConfigExample()\n```"
+    },
+    {
+      "id": "github-1471683867",
+      "title": "RP-Emotes",
+      "category": "GitHub Repository",
+      "description": "Скрипт на AutoHotkey v2 для быстрой отправки RP-реплик, эмоутов в чат без создания сотни биндов. Поддерживает вложенные категории и подстановку имени цели (%%).",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-25T11:29:45Z",
+      "lastModified": "2026-11-25T11:43:13Z",
+      "source": "github",
+      "url": "https://github.com/veezday/RP-Emotes",
+      "stars": 0,
+      "forks": 0,
+      "owner": "veezday",
+      "code": "```cpp\n; ============================================\n; Repository: veezday/RP-Emotes\n; ============================================\n; URL: https://github.com/veezday/RP-Emotes\n; Stars: 0 | Forks: 0\n; Last Updated: 11/25/2026\n; License: MIT License\n;\n; Description:\n; Скрипт на AutoHotkey v2 для быстрой отправки RP-реплик, эмоутов в чат без создания сотни биндов. Поддерживает вложенные категории и подстановку имени цели (%%).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/veezday/RP-Emotes.git\n;\n; Option 2: Download ZIP\n;   https://github.com/veezday/RP-Emotes/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RP-Emotes>\n\n; Example initialization\nclass RpEmotesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RP-Emotes loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RpEmotesExample()\n```"
+    },
+    {
+      "id": "github-897464391",
+      "title": "macos-keys-on-windows",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey V2 script designed to bring essential macOS key combinations to Windows",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2024-12-02T17:14:03Z",
+      "lastModified": "2026-09-27T21:45:27Z",
+      "source": "github",
+      "url": "https://github.com/xoofx/macos-keys-on-windows",
+      "stars": 18,
+      "forks": 3,
+      "owner": "xoofx",
+      "code": "```cpp\n; ============================================\n; Repository: xoofx/macos-keys-on-windows\n; ============================================\n; URL: https://github.com/xoofx/macos-keys-on-windows\n; Stars: 18 | Forks: 3\n; Last Updated: 9/27/2026\n; License: The Unlicense\n;\n; Description:\n; AutoHotkey V2 script designed to bring essential macOS key combinations to Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xoofx/macos-keys-on-windows.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xoofx/macos-keys-on-windows/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <macos-keys-on-windows>\n\n; Example initialization\nclass MacosKeysOnWindowsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"macos-keys-on-windows loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacosKeysOnWindowsExample()\n```"
     }
   ]
 }
