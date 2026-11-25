@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-25T12:08:36.038Z",
-  "totalScripts": 786,
+  "lastUpdated": "2026-11-25T18:06:43.384Z",
+  "totalScripts": 787,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15587,13 +15587,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-21T11:43:28Z",
-      "lastModified": "2026-11-21T11:57:44Z",
+      "lastModified": "2026-11-25T17:30:58Z",
       "source": "github",
       "url": "https://github.com/singhramandeep/SnapDeck",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "singhramandeep",
-      "code": "```cpp\n; ============================================\n; Repository: singhramandeep/SnapDeck\n; ============================================\n; URL: https://github.com/singhramandeep/SnapDeck\n; Stars: 0 | Forks: 0\n; Last Updated: 11/21/2026\n; License: MIT License\n;\n; Description:\n; Hotkey-driven ShareX screenshot sessions → PowerPoint, PDF, Word or ZIP, with live notes. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/singhramandeep/SnapDeck.git\n;\n; Option 2: Download ZIP\n;   https://github.com/singhramandeep/SnapDeck/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SnapDeck>\n\n; Example initialization\nclass SnapdeckExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SnapDeck loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnapdeckExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: singhramandeep/SnapDeck\n; ============================================\n; URL: https://github.com/singhramandeep/SnapDeck\n; Stars: 1 | Forks: 0\n; Last Updated: 11/25/2026\n; License: MIT License\n;\n; Description:\n; Hotkey-driven ShareX screenshot sessions → PowerPoint, PDF, Word or ZIP, with live notes. AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/singhramandeep/SnapDeck.git\n;\n; Option 2: Download ZIP\n;   https://github.com/singhramandeep/SnapDeck/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <SnapDeck>\n\n; Example initialization\nclass SnapdeckExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"SnapDeck loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := SnapdeckExample()\n```"
     },
     {
       "id": "github-1116692324",
@@ -16049,6 +16049,25 @@
       "forks": 3,
       "owner": "xoofx",
       "code": "```cpp\n; ============================================\n; Repository: xoofx/macos-keys-on-windows\n; ============================================\n; URL: https://github.com/xoofx/macos-keys-on-windows\n; Stars: 18 | Forks: 3\n; Last Updated: 9/27/2026\n; License: The Unlicense\n;\n; Description:\n; AutoHotkey V2 script designed to bring essential macOS key combinations to Windows\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/xoofx/macos-keys-on-windows.git\n;\n; Option 2: Download ZIP\n;   https://github.com/xoofx/macos-keys-on-windows/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <macos-keys-on-windows>\n\n; Example initialization\nclass MacosKeysOnWindowsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"macos-keys-on-windows loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := MacosKeysOnWindowsExample()\n```"
+    },
+    {
+      "id": "github-1471862229",
+      "title": "keyboard-ghost-key-fix",
+      "category": "GitHub Repository",
+      "description": "Windows 键盘串键过滤｜Filter reproducible phantom keystrokes on Windows with AutoHotkey v2.",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-25T14:03:47Z",
+      "lastModified": "2026-11-25T14:33:48Z",
+      "source": "github",
+      "url": "https://github.com/Ezen-013/keyboard-ghost-key-fix",
+      "stars": 0,
+      "forks": 0,
+      "owner": "Ezen-013",
+      "code": "```cpp\n; ============================================\n; Repository: Ezen-013/keyboard-ghost-key-fix\n; ============================================\n; URL: https://github.com/Ezen-013/keyboard-ghost-key-fix\n; Stars: 0 | Forks: 0\n; Last Updated: 11/25/2026\n; License: MIT License\n;\n; Description:\n; Windows 键盘串键过滤｜Filter reproducible phantom keystrokes on Windows with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ezen-013/keyboard-ghost-key-fix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ezen-013/keyboard-ghost-key-fix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keyboard-ghost-key-fix>\n\n; Example initialization\nclass KeyboardGhostKeyFixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keyboard-ghost-key-fix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardGhostKeyFixExample()\n```"
     }
   ]
 }
