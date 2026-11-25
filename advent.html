@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advent of Hotkeys - AHKv2 &amp; LLMs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="autohotkey-logo.png">
+  <link rel="stylesheet" href="style.css?v=2026-10b">
+  <script src="https://cdn.jsdelivr.net/npm/marked@11.1.0/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked-highlight@2.1.0/lib/index.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+  <script src="highlight-ahk2.js?v=2026-11-imports"></script>
+  <!-- syntax colors defined in style.css to match VS Code Dark+ -->
+  <style>
+    .article-container {
+      width: 100%;
+      max-width: 784px;
+      margin: 0 auto;
+      padding: 48px 32px 80px;
+      flex: 1;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 40px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-secondary);
+    }
+    .back-link:hover { color: var(--text-primary); }
+
+    .article-header {
+      margin-bottom: 40px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    .article-header .eyebrow { margin-bottom: 18px; min-height: 18px; }
+
+    .article-title {
+      margin: 0;
+      font-size: clamp(30px, 3.8vw, 42px);
+      font-weight: 730;
+      line-height: 1.1;
+      letter-spacing: -1.6px;
+      text-wrap: balance;
+    }
+
+    .title-skeleton {
+      display: block;
+      width: 72%;
+      height: 0.8em;
+      margin: 0.12em 0;
+      border-radius: 6px;
+      background: var(--bg-elevated);
+    }
+    .title-skeleton + .title-skeleton { width: 44%; }
+
+    .article-lede {
+      margin: 20px 0 0;
+      max-width: 640px;
+      font-size: 17px;
+      line-height: 1.7;
+      color: var(--text-secondary);
+    }
+    .article-lede:empty { display: none; }
+
+    .article-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 24px;
+    }
+    .article-tags:empty { display: none; }
+
+    .article-body {
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--text-body);
+    }
+
+    /* The markdown repeats the title as its first line; the header already shows it. */
+    .article-body > h1:first-child { display: none; }
+
+    .article-body h1,
+    .article-body h2,
+    .article-body h3,
+    .article-body h4 {
+      color: var(--text-primary);
+      line-height: 1.3;
+    }
+
+    .article-body h2 {
+      margin: 48px 0 16px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 24px;
+      font-weight: 680;
+      letter-spacing: -0.6px;
+    }
+
+    .article-body h3 { margin: 32px 0 10px; font-size: 19px; font-weight: 650; letter-spacing: -0.4px; }
+    .article-body h4 { margin: 24px 0 8px; font-size: 16px; font-weight: 650; }
+
+    .article-body p { margin: 0 0 18px; }
+
+    .article-body ul, .article-body ol { margin: 0 0 18px; padding-left: 1.4em; }
+    .article-body li { margin: 6px 0; }
+    .article-body li::marker { color: var(--text-muted); }
+
+    .article-body strong { color: var(--text-primary); font-weight: 650; }
+
+    .article-body a {
+      color: var(--text-primary);
+      text-decoration: underline;
+      text-decoration-color: #5f5f5f;
+      text-underline-offset: 3px;
+      transition: color 0.15s, text-decoration-color 0.15s;
+    }
+    .article-body a:hover { color: #ffffff; text-decoration-color: var(--accent); }
+
+    .article-body blockquote {
+      margin: 24px 0;
+      padding: 2px 0 2px 18px;
+      border-left: 2px solid var(--accent);
+      color: var(--text-secondary);
+    }
+
+    .article-body hr { border: 0; border-top: 1px solid var(--border); margin: 40px 0; }
+    .article-body img { max-width: 100%; height: auto; }
+
+    .article-body pre {
+      margin: 24px 0;
+      padding: 18px 20px;
+      overflow-x: auto;
+      max-width: 100%;
+    }
+
+    .article-body table {
+      display: block;
+      width: max-content;
+      max-width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .article-body table:not(.bm-heat):not(.xb-tests) { border-collapse: collapse; margin: 20px 0; font-size: 14px; }
+    .article-body table:not(.bm-heat):not(.xb-tests) th {
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      font-size: 11px;
+      font-weight: 650;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .article-body table:not(.bm-heat):not(.xb-tests) td { padding: 8px 12px; border-bottom: 1px solid var(--border-muted); }
+
+    .article-body code { font-size: 0.86em; overflow-wrap: anywhere; }
+
+    .article-body pre code {
+      font-size: 13.5px;
+      line-height: 1.65;
+      overflow-wrap: normal;
+    }
+
+    /* Italic closing disclosure line */
+    .article-body > p:last-child:has(> em:only-child) {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 13.5px;
+      line-height: 1.7;
+      color: var(--text-muted);
+    }
+    .article-body > p:last-child:has(> em:only-child) em { color: inherit; }
+
+    .post-missing { color: var(--text-secondary); }
+
+    /* clipboard-benchmark diagrams */
+    .bm-wrap{margin:22px 0;}
+    .bm-h{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#707070;font-weight:600;margin:0 0 10px;}
+    .bm-funnel{display:flex;flex-direction:column;gap:7px;}
+    .bm-frow{display:flex;align-items:center;gap:12px;}
+    .bm-fbar{height:38px;border-radius:7px;display:flex;align-items:center;padding:0 14px;color:#fff;font-weight:600;font-size:14px;white-space:nowrap;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);}
+    .bm-fmeta{font-size:12.5px;color:#9a9a9a;}
+    .bm-fmeta b{color:#d6d6d6;font-weight:600;}
+    .bm-bars{display:flex;flex-direction:column;gap:9px;}
+    .bm-brow{display:grid;grid-template-columns:172px 1fr 34px;align-items:center;gap:12px;font-size:13px;}
+    .bm-blabel{color:#c4c4c4;text-align:right;}
+    .bm-btrack{background:#1c1c1c;border-radius:5px;height:20px;overflow:hidden;border:1px solid #262626;}
+    .bm-bfill{height:100%;border-radius:5px;}
+    .bm-bval{color:#fff;font-variant-numeric:tabular-nums;font-weight:600;}
+    .bm-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:12px;}
+    .bm-card{background:#121212;border:1px solid #2c2c2c;border-radius:12px;padding:14px 15px;border-top:3px solid #444;}
+    .bm-card h4{margin:0 0 2px;font-size:15px;color:#fff;}
+    .bm-card .prov{font-size:11px;color:#6f6f6f;margin-bottom:10px;}
+    .bm-stat{display:flex;justify-content:space-between;font-size:12.5px;padding:3px 0;border-bottom:1px solid #1d1d1d;}
+    .bm-stat:last-of-type{border-bottom:none;}
+    .bm-stat .k{color:#9a9a9a;}.bm-stat .v{color:#fff;font-weight:600;}
+    .bm-verdict{margin-top:9px;font-size:12px;line-height:1.5;color:#b6b6b6;border-top:1px solid #2c2c2c;padding-top:8px;}
+    .bm-flow{display:flex;flex-wrap:wrap;gap:0;align-items:stretch;margin:6px 0;}
+    .bm-fb{flex:1;min-width:120px;background:#161616;border:1px solid #2c2c2c;border-radius:9px;padding:11px 13px;font-size:12.5px;color:#d2d2d2;}
+    .bm-fb b{color:#fff;display:block;font-size:13.5px;margin-bottom:2px;}
+    .bm-arrow{display:flex;align-items:center;color:#5a5a5a;font-size:20px;padding:0 8px;}
+    .bm-split{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+    @media(max-width:680px){.bm-split{grid-template-columns:1fr;}}
+    .bm-good{border-left:3px solid #7BC96F;}.bm-bad{border-left:3px solid #DC3545;}
+    .bm-tag{display:inline-block;font-size:10.5px;font-weight:600;padding:2px 7px;border-radius:5px;margin-left:6px;vertical-align:middle;}
+    .bm-tag.run{background:rgba(123,201,111,.14);color:#7BC96F;}
+    .bm-tag.crash{background:rgba(220,53,69,.14);color:#e0727d;}
+    .bm-heat{width:100%;border-collapse:collapse;font-size:13px;margin-top:4px;}
+    .bm-heat th{background:#161616;color:#808080;font-size:11px;text-transform:uppercase;letter-spacing:.8px;padding:8px 6px;border-bottom:1px solid #303030;}
+    .bm-heat td{padding:5px 7px;text-align:center;border-bottom:1px solid #1a1a1a;font-variant-numeric:tabular-nums;}
+    .bm-heat .h-rank{color:#6f6f6f;}.bm-heat .h-name{text-align:left;}
+    .bm-heat .h-name a{color:#d6d6d6;text-decoration:none;}.bm-heat .h-name a:hover{color:#5B9FEF;}
+    .bm-heat tbody tr:hover td{background:#161616;}
+    .h-emer{background:rgba(123,201,111,.16);color:#aee0a3;font-weight:600;}
+    .h-blue{background:rgba(91,159,239,.15);color:#a9cdf5;font-weight:600;}
+    .h-amber{background:rgba(245,158,66,.15);color:#f0c48a;font-weight:600;}
+    .h-red{background:rgba(220,53,69,.13);color:#e3969d;font-weight:600;}
+    .h-dim{color:#5a5a5a;}
+    .bm-cta{display:inline-block;margin:4px 0 2px;padding:9px 16px;background:#5B9FEF;color:#0b0b0b;font-weight:600;font-size:13.5px;border-radius:8px;text-decoration:none;}
+    .bm-cta:hover{background:#4d8fe0;}
+    .fbchips{display:flex;flex-wrap:wrap;gap:8px;}
+    .fbchip{display:inline-flex;flex-direction:column;background:#121212;border:1px solid #2c2c2c;border-left:3px solid #7BC96F;border-radius:8px;padding:7px 11px;font-size:12.5px;}
+    .fbchip a{color:#fff;font-weight:600;text-decoration:none;}.fbchip a:hover{color:#5B9FEF;}
+    .fbchip .fbwas{color:#7f7f7f;font-size:10.5px;margin-top:1px;}
+    .ggrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px;}
+    .gcard{background:#121212;border:1px solid #2a2a2a;border-radius:14px;overflow:hidden;text-decoration:none;display:block;transition:transform .15s,border-color .15s,box-shadow .15s;}
+    .gcard:hover{border-color:#5B9FEF;transform:translateY(-4px);box-shadow:0 10px 28px rgba(0,0,0,.45);}
+    .gshot{padding:10px 10px 0;}
+    .gshot img{width:100%;height:150px;object-fit:cover;object-position:top left;display:block;background:#0d0d0d;border:1px solid #232323;border-radius:8px;}
+    .gcap{display:flex;justify-content:space-between;align-items:center;padding:11px 13px 13px;}
+    .gname{font-size:13.5px;color:#e6e6e6;font-weight:600;}.gv{font-size:11.5px;font-weight:600;}
+
+    @media (max-width: 680px) {
+      .article-container { padding: 28px 16px 56px; }
+      .back-link { margin-bottom: 28px; }
+      .article-title { letter-spacing: -1px; }
+      .article-lede { font-size: 16px; }
+      .article-body { font-size: 15.5px; }
+      .article-body h2 { margin-top: 40px; font-size: 21px; }
+      .article-body pre { padding: 14px; }
+      .bm-heat { font-size: 11.5px; }
+      .bm-heat td, .bm-heat th { padding: 5px 4px; }
+      .bm-brow { grid-template-columns: 104px 1fr 30px; gap: 8px; }
+      .bm-cards { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* Advent of Hotkeys */
+    .aoh-progress { margin-top: 22px; font-size: 13px; font-weight: 600; color: var(--text-secondary); display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+    .aoh-progress strong { color: var(--accent); }
+    .aoh-reset { border: 0; background: none; padding: 0; font: inherit; font-weight: 500; color: var(--text-muted); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+    .aoh-reset:hover { color: var(--text-primary); }
+    .aoh-tiers, .aoh-days { display: flex; flex-wrap: wrap; gap: 8px; }
+    .aoh-tiers { margin-bottom: 12px; }
+    .aoh-days { margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid var(--border-muted); }
+    .aoh-tab, .aoh-chip {
+      display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 8px 14px;
+      border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg-soft);
+      color: var(--text-secondary); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
+    }
+    .aoh-tab:hover, .aoh-chip:hover { color: var(--text-primary); border-color: var(--border-strong); }
+    .aoh-tab[aria-current="true"], .aoh-chip[aria-current="true"] { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); }
+    .aoh-caps { display: inline-flex; gap: 3px; }
+    .aoh-cap { width: 9px; height: 9px; border-radius: 2px; border: 1px solid currentColor; opacity: 0.55; }
+    .aoh-cap.on { background: #e6b422; border-color: #e6b422; opacity: 1; }
+    .aoh-day-title { margin: 0 0 6px; font-size: 26px; font-weight: 700; letter-spacing: -0.8px; color: var(--text-primary); }
+    .aoh-input { margin: 0 0 28px; font-size: 14px; color: var(--text-secondary); }
+    .aoh-input a { color: var(--accent); font-weight: 600; }
+    .aoh-answer { margin: 28px 0 36px; padding: 18px 20px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--bg-soft); }
+    .aoh-answer label { display: block; margin-bottom: 10px; font-size: 13px; font-weight: 650; color: var(--text-primary); }
+    .aoh-answer-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .aoh-answer input {
+      flex: 1 1 200px; min-width: 0; min-height: 42px; padding: 8px 12px; border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
+      background: var(--gutter); color: var(--text-primary); font-family: var(--font-mono); font-size: 15px;
+    }
+    .aoh-answer input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+    .aoh-answer button, .aoh-locked button {
+      min-height: 42px; padding: 8px 18px; border: 1px solid var(--accent); border-radius: var(--radius-sm);
+      background: var(--accent); color: var(--accent-ink); font: inherit; font-size: 14px; font-weight: 700; cursor: pointer;
+    }
+    .aoh-answer button:hover { background: var(--accent-hover); }
+    .aoh-status { min-height: 20px; margin: 10px 0 0; font-size: 13.5px; color: var(--text-secondary); }
+    .aoh-status.ok { color: #e6b422; font-weight: 650; }
+    .aoh-status.no { color: #f08b8b; }
+    .aoh-answer.solved { border-color: #7a6520; }
+    .aoh-locked { margin: 28px 0; padding: 18px 20px; border: 1px dashed var(--border-strong); border-radius: var(--radius-md); color: var(--text-secondary); font-size: 14px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+    .aoh-locked button { background: none; color: var(--text-secondary); border-color: var(--border-strong); font-weight: 600; }
+    .aoh-locked button:hover { color: var(--text-primary); }
+    @media (max-width: 640px) { .aoh-day-title { font-size: 22px; } }
+  </style>
+  <script src="site.js?v=2026-10a" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="autohotkey-logo.png" alt="" width="34" height="34">
+        <span class="logo-text">AHKv2 &amp; LLMs</span>
+      </a>
+      <button class="search-button" type="button" data-search-open aria-label="Search posts and pages">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <span class="search-label">Search</span>
+        <kbd class="search-key">Ctrl K</kbd>
+      </button>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html#posts" class="nav-link">Posts</a>
+        <a href="benchmarks.html" class="nav-link">Benchmarks</a>
+        <a href="leaderboard.html" class="nav-link">Leaderboard</a>
+        <a href="prompts.html" class="nav-link">Prompts</a>
+        <a href="wiki.html" class="nav-link">Wiki</a>
+        <a href="inheritance.html" class="nav-link">Inheritance</a>
+        <a href="playground.html" class="nav-link">Playground</a>
+        <a href="https://www.autohotkey.com/docs/v2/" class="nav-link" target="_blank" rel="noopener">AHK Docs <span class="ext" aria-hidden="true">&#8599;</span></a>
+        <a href="console.html" class="nav-link nav-featured" title="AutoHotkey v2.1 +Console fork: stdout, exit codes, headless runs"><span class="nav-chip"><span class="nav-dot" aria-hidden="true"></span>Console</span></a>
+      </nav>
+      <div class="header-tools">
+        <span class="header-divider" aria-hidden="true"></span>
+        <a class="icon-link" href="https://github.com/TrueCrimeDev/AHKv2_LLMs" aria-label="GitHub repository"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2 0-.3-.5-1.5.2-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg></a>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="article-container">
+    <a class="back-link" href="index.html#posts">&larr; All posts</a>
+
+    <header class="article-header">
+      <p class="eyebrow"><span class="dot"></span><span>Puzzles &middot; AutoHotkey v2.1-alpha.39</span></p>
+      <h1 class="article-title">Advent of Hotkeys</h1>
+      <p class="article-lede">Ten two-part puzzles for AutoHotkey v2. Five warm-ups, then five that require v2.1-alpha features. Each part you solve earns a golden keycap.</p>
+      <div class="aoh-progress" id="aoh-progress" aria-live="polite"></div>
+    </header>
+
+    <nav class="aoh-tiers" id="aoh-tiers" aria-label="Tier"></nav>
+    <nav class="aoh-days" id="aoh-days" aria-label="Day"></nav>
+
+    <h2 class="aoh-day-title" id="aoh-title"></h2>
+    <p class="aoh-input" id="aoh-input" hidden></p>
+    <article id="content" class="article-body" aria-busy="true">
+      <div class="skeleton">
+        <div class="skeleton-bar"></div>
+        <div class="skeleton-bar wide"></div>
+        <div class="skeleton-bar short"></div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2025 AHKv2 &amp; LLMs</span>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="https://github.com/TrueCrimeDev/AHKv2_LLMs">GitHub</a>
+    </div>
+  </footer>
+
+  <script>
+    // Advent of Hotkeys: puzzle text lives in advent/<tier>/*.md, inputs in advent/inputs/,
+    // and advent/advent.json holds salted SHA-256 hashes of the answers (never the answers).
+    const SITE = 'AHKv2 & LLMs';
+    const STORE = 'aoh-2026-progress';
+    const SPLIT = '<!-- part2 -->';
+    const byId = id => document.getElementById(id);
+    let manifest = null;
+    let revealed = {};
+
+    function loadProgress() {
+      try { return JSON.parse(localStorage.getItem(STORE)) || {}; } catch (e) { return {}; }
+    }
+    function saveProgress(p) {
+      try { localStorage.setItem(STORE, JSON.stringify(p)); } catch (e) { /* private mode: progress lasts for this visit only */ }
+    }
+    let progress = loadProgress();
+    const keyOf = (tier, day, part) => tier + '-' + day + '-' + part;
+
+    async function sha256(text) {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    function state() {
+      const q = new URLSearchParams(location.search);
+      const tier = manifest.tiers.find(t => t.id === q.get('tier')) || manifest.tiers[0];
+      const n = parseInt(q.get('day'), 10);
+      const day = tier.days.find(d => d.day === n) || null;
+      return { tier, day };
+    }
+
+    function go(tierId, dayNum) {
+      const q = new URLSearchParams();
+      q.set('tier', tierId);
+      if (dayNum) q.set('day', dayNum);
+      history.pushState(null, '', 'advent.html?' + q.toString());
+      render();
+    }
+
+    function button(cls, label, current, onClick) {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = cls;
+      b.textContent = label;
+      if (current) b.setAttribute('aria-current', 'true');
+      b.addEventListener('click', onClick);
+      return b;
+    }
+
+    function renderNav(s) {
+      const total = manifest.tiers.reduce((n, t) => n + t.days.length * 2, 0);
+      const earned = Object.keys(progress).length;
+      const prog = byId('aoh-progress');
+      prog.textContent = '';
+      const count = document.createElement('span');
+      count.innerHTML = 'Keycaps: <strong>' + earned + '</strong> of ' + total;
+      prog.appendChild(count);
+      if (earned) {
+        const reset = button('aoh-reset', 'Reset progress', false, () => {
+          progress = {}; revealed = {}; saveProgress(progress); render();
+        });
+        prog.appendChild(reset);
+      }
+
+      const tiers = byId('aoh-tiers');
+      tiers.textContent = '';
+      manifest.tiers.forEach(t => {
+        const b = button('aoh-tab', t.name, t.id === s.tier.id, () => go(t.id, 0));
+        b.title = t.blurb;
+        tiers.appendChild(b);
+      });
+
+      const days = byId('aoh-days');
+      days.textContent = '';
+      days.appendChild(button('aoh-chip', 'Rules', !s.day, () => go(s.tier.id, 0)));
+      s.tier.days.forEach(d => {
+        const b = button('aoh-chip', 'Day ' + d.day, s.day && s.day.day === d.day, () => go(s.tier.id, d.day));
+        const caps = document.createElement('span');
+        caps.className = 'aoh-caps';
+        let solved = 0;
+        [1, 2].forEach(part => {
+          const c = document.createElement('span');
+          const on = !!progress[keyOf(s.tier.id, d.day, part)];
+          if (on) solved++;
+          c.className = 'aoh-cap' + (on ? ' on' : '');
+          caps.appendChild(c);
+        });
+        b.appendChild(caps);
+        b.setAttribute('aria-label', 'Day ' + d.day + ': ' + d.title + ', ' + solved + ' of 2 keycaps');
+        days.appendChild(b);
+      });
+    }
+
+    let markedReady = false;
+    function toHtml(markdown) {
+      if (!markedReady) {
+        marked.use(markedHighlight.markedHighlight({
+          langPrefix: 'hljs language-',
+          highlight: function (code, lang) {
+            const mapped = (lang === 'cpp' || lang === 'ahk') ? 'ahk2' : lang;
+            if (mapped && hljs.getLanguage(mapped)) return hljs.highlight(code, { language: mapped }).value;
+            return hljs.highlight(code, { language: 'ahk2' }).value;
+          }
+        }));
+        marked.setOptions({ breaks: false, gfm: true });
+        markedReady = true;
+      }
+      if (window.AHK2Highlight && AHK2Highlight.declarePage) AHK2Highlight.declarePage(markdown);
+      return marked.parse(markdown);
+    }
+
+    function answerBox(s, part) {
+      const k = keyOf(s.tier.id, s.day.day, part);
+      const box = document.createElement('form');
+      box.className = 'aoh-answer';
+      box.noValidate = true;
+      const id = 'aoh-answer-' + part;
+      box.innerHTML =
+        '<label for="' + id + '">Your answer for Part ' + part + '</label>' +
+        '<div class="aoh-answer-row"><input id="' + id + '" type="text" inputmode="numeric" autocomplete="off" spellcheck="false">' +
+        '<button type="submit">Check</button></div><p class="aoh-status" role="status"></p>';
+      const input = box.querySelector('input');
+      const status = box.querySelector('.aoh-status');
+      const markSolved = value => {
+        box.classList.add('solved');
+        input.value = value;
+        input.readOnly = true;
+        box.querySelector('button').hidden = true;
+        status.className = 'aoh-status ok';
+        status.textContent = 'Correct. You earned a golden keycap.';
+      };
+      if (progress[k]) markSolved(progress[k]);
+      box.addEventListener('submit', async e => {
+        e.preventDefault();
+        if (progress[k]) return;
+        const value = input.value.replace(/[\s,_]/g, '');
+        if (!/^-?\d+$/.test(value)) {
+          status.className = 'aoh-status no';
+          status.textContent = 'Answers are whole numbers.';
+          return;
+        }
+        if (!(window.crypto && crypto.subtle)) {
+          status.className = 'aoh-status no';
+          status.textContent = 'This browser cannot check answers here. Open the page over https.';
+          return;
+        }
+        const hash = await sha256([manifest.salt, s.tier.id, s.day.day, part, value].join('|'));
+        if (hash === s.day.answers[part - 1]) {
+          progress[k] = value;
+          saveProgress(progress);
+          render(part === 1 ? 'aoh-part2' : null);
+        } else {
+          status.className = 'aoh-status no';
+          status.textContent = 'That is not the right answer.';
+        }
+      });
+      return box;
+    }
+
+    async function render(focusId) {
+      const s = state();
+      renderNav(s);
+      const content = byId('content');
+      const title = byId('aoh-title');
+      const inputLine = byId('aoh-input');
+      const file = 'advent/' + s.tier.id + '/' + (s.day ? 'day' + s.day.day : 'intro') + '.md';
+      title.textContent = s.day ? 'Day ' + s.day.day + ': ' + s.day.title : s.tier.name + ' rules';
+      document.title = (s.day ? s.day.title + ' - ' : '') + 'Advent of Hotkeys - ' + SITE;
+      inputLine.hidden = !s.day;
+      if (s.day) {
+        const name = s.day.input.split('/').pop();
+        inputLine.innerHTML = 'Puzzle input: <a href="' + s.day.input + '" download>' + name + '</a> (<a href="' + s.day.input + '" target="_blank" rel="noopener">view</a>)';
+      }
+      let markdown;
+      try {
+        const response = await fetch(file);
+        if (!response.ok) throw new Error(file + ' ' + response.status);
+        markdown = await response.text();
+      } catch (error) {
+        console.error(error);
+        content.removeAttribute('aria-busy');
+        content.innerHTML = '<p>This puzzle failed to load. Try again in a moment.</p>';
+        return;
+      }
+      content.textContent = '';
+      content.removeAttribute('aria-busy');
+      if (!s.day) {
+        content.innerHTML = toHtml(markdown);
+        return;
+      }
+      const parts = markdown.split(SPLIT);
+      const one = document.createElement('section');
+      one.innerHTML = toHtml(parts[0]);
+      content.appendChild(one);
+      content.appendChild(answerBox(s, 1));
+      const open = !!progress[keyOf(s.tier.id, s.day.day, 1)] || revealed[s.tier.id + s.day.day];
+      if (open) {
+        const two = document.createElement('section');
+        two.id = 'aoh-part2';
+        two.tabIndex = -1;
+        two.innerHTML = toHtml(parts[1] || '');
+        content.appendChild(two);
+        content.appendChild(answerBox(s, 2));
+      } else {
+        const locked = document.createElement('div');
+        locked.className = 'aoh-locked';
+        locked.innerHTML = '<span>Part 2 unlocks when you solve Part 1.</span>';
+        locked.appendChild(button('', 'Show Part 2 anyway', false, () => {
+          revealed[s.tier.id + s.day.day] = true;
+          render('aoh-part2');
+        }));
+        content.appendChild(locked);
+      }
+      if (focusId && byId(focusId)) {
+        byId(focusId).focus({ preventScroll: true });
+        byId(focusId).scrollIntoView({ block: 'start', behavior: 'smooth' });
+      }
+    }
+
+    async function init() {
+      try {
+        const response = await fetch('advent/advent.json');
+        if (!response.ok) throw new Error('advent.json ' + response.status);
+        manifest = await response.json();
+      } catch (error) {
+        console.error(error);
+        byId('content').removeAttribute('aria-busy');
+        byId('content').innerHTML = '<p>The puzzle index failed to load. Try again in a moment.</p>';
+        return;
+      }
+      window.addEventListener('popstate', () => render());
+      render();
+    }
+    init();
+  </script>
+</body>
+</html>
