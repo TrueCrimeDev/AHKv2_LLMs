@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-24T18:06:51.246Z",
-  "totalScripts": 781,
+  "lastUpdated": "2026-11-25T00:15:59.231Z",
+  "totalScripts": 782,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15949,6 +15949,30 @@
       "forks": 0,
       "owner": "toshhiit",
       "code": "```cpp\n; ============================================\n; Repository: toshhiit/Reelwise\n; ============================================\n; URL: https://github.com/toshhiit/Reelwise\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2026\n; License: Not specified\n;\n; Description:\n; Reelwise — auto-fishing macro for Roblox Fisch (AutoHotkey v2): Pinion's Aria notes, self-update\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/toshhiit/Reelwise.git\n;\n; Option 2: Download ZIP\n;   https://github.com/toshhiit/Reelwise/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Reelwise>\n\n; Example initialization\nclass ReelwiseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Reelwise loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReelwiseExample()\n```"
+    },
+    {
+      "id": "github-1470767737",
+      "title": "autohotkey-scripts",
+      "category": "GitHub Repository",
+      "description": "Windows tools in AutoHotkey v2: per-app volume mixer and mute hotkeys built on the Windows Core Audio API.",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "automation",
+        "core-audio",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-24T20:19:19Z",
+      "lastModified": "2026-11-24T21:41:07Z",
+      "source": "github",
+      "url": "https://github.com/lucasrc97/autohotkey-scripts",
+      "stars": 0,
+      "forks": 0,
+      "owner": "lucasrc97",
+      "code": "```cpp\n; ============================================\n; Repository: lucasrc97/autohotkey-scripts\n; ============================================\n; URL: https://github.com/lucasrc97/autohotkey-scripts\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2026\n; License: Not specified\n;\n; Description:\n; Windows tools in AutoHotkey v2: per-app volume mixer and mute hotkeys built on the Windows Core Audio API.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/lucasrc97/autohotkey-scripts.git\n;\n; Option 2: Download ZIP\n;   https://github.com/lucasrc97/autohotkey-scripts/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <autohotkey-scripts>\n\n; Example initialization\nclass AutohotkeyScriptsExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"autohotkey-scripts loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyScriptsExample()\n```"
     }
   ]
 }
