@@ -259,22 +259,32 @@
     .aoh-progress strong { color: var(--accent); }
     .aoh-reset { border: 0; background: none; padding: 0; font: inherit; font-weight: 500; color: var(--text-muted); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
     .aoh-reset:hover { color: var(--text-primary); }
-    .aoh-tiers, .aoh-days { display: flex; flex-wrap: wrap; gap: 8px; }
-    .aoh-tiers { margin-bottom: 12px; }
-    .aoh-days { margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid var(--border-muted); }
-    .aoh-tab, .aoh-chip {
-      display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 8px 14px;
-      border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg-soft);
-      color: var(--text-secondary); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
+    .aoh-tiers { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; max-width: 360px; margin-bottom: 14px; padding: 4px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--bg-soft); }
+    .aoh-tab {
+      min-height: 38px; padding: 6px 12px; border: 0; border-radius: var(--radius-sm); background: none;
+      color: var(--text-secondary); font: inherit; font-size: 13.5px; font-weight: 650; cursor: pointer;
     }
-    .aoh-tab:hover, .aoh-chip:hover { color: var(--text-primary); border-color: var(--border-strong); }
-    .aoh-tab[aria-current="true"], .aoh-chip[aria-current="true"] { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); }
-    .aoh-caps { display: inline-flex; gap: 3px; }
-    .aoh-cap { width: 9px; height: 9px; border-radius: 2px; border: 1px solid currentColor; opacity: 0.55; }
-    .aoh-cap.on { background: #e6b422; border-color: #e6b422; opacity: 1; }
+    .aoh-tab:hover { color: var(--text-primary); }
+    .aoh-tab[aria-current="true"] { color: var(--accent-ink); background: var(--accent); }
+    .aoh-days { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; margin-bottom: 44px; }
+    .aoh-chip {
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 7px; min-height: 58px; padding: 8px 4px;
+      border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg-soft);
+      color: var(--text-secondary); font: inherit; font-size: 13px; font-weight: 650; white-space: nowrap; cursor: pointer;
+    }
+    .aoh-chip:hover { color: var(--text-primary); border-color: var(--border-strong); }
+    .aoh-chip[aria-current="true"] { color: var(--text-primary); border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+    .aoh-tab:focus-visible, .aoh-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .aoh-caps { display: inline-flex; gap: 4px; }
+    .aoh-cap { width: 13px; height: 11px; border-radius: 3px; background: var(--border-strong); box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.28); }
+    .aoh-cap.on { background: #e6b422; }
     .aoh-day-title { margin: 0 0 6px; font-size: 26px; font-weight: 700; letter-spacing: -0.8px; color: var(--text-primary); }
-    .aoh-input { margin: 0 0 28px; font-size: 14px; color: var(--text-secondary); }
-    .aoh-input a { color: var(--accent); font-weight: 600; }
+    .aoh-input { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 28px; font-size: 13.5px; color: var(--text-muted); }
+    .aoh-input[hidden] { display: none; }
+    .aoh-input a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    .aoh-input a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    .aoh-input .aoh-dl { display: inline-flex; align-items: center; min-height: 34px; padding: 4px 12px; border: 1px solid var(--border-strong); border-radius: var(--radius-sm); color: var(--text-primary); }
+    .aoh-input .aoh-dl:hover { border-color: var(--accent); text-decoration: none; }
     .aoh-answer { margin: 28px 0 36px; padding: 18px 20px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--bg-soft); }
     .aoh-answer label { display: block; margin-bottom: 10px; font-size: 13px; font-weight: 650; color: var(--text-primary); }
     .aoh-answer-row { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -288,14 +298,36 @@
       background: var(--accent); color: var(--accent-ink); font: inherit; font-size: 14px; font-weight: 700; cursor: pointer;
     }
     .aoh-answer button:hover { background: var(--accent-hover); }
-    .aoh-status { min-height: 20px; margin: 10px 0 0; font-size: 13.5px; color: var(--text-secondary); }
+    .aoh-status { margin: 10px 0 0; font-size: 13.5px; color: var(--text-secondary); }
+    .aoh-status:empty { display: none; }
     .aoh-status.ok { color: #e6b422; font-weight: 650; }
     .aoh-status.no { color: #f08b8b; }
     .aoh-answer.solved { border-color: #7a6520; }
     .aoh-locked { margin: 28px 0; padding: 18px 20px; border: 1px dashed var(--border-strong); border-radius: var(--radius-md); color: var(--text-secondary); font-size: 14px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
     .aoh-locked button { background: none; color: var(--text-secondary); border-color: var(--border-strong); font-weight: 600; }
     .aoh-locked button:hover { color: var(--text-primary); }
-    @media (max-width: 640px) { .aoh-day-title { font-size: 22px; } }
+    .article-body :not(pre) > code { -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+    .article-body table:not(.bm-heat):not(.xb-tests) td { vertical-align: top; }
+    .article-body table.aoh-data:not(.bm-heat):not(.xb-tests) :is(th, td) { white-space: nowrap; }
+    @media (max-width: 640px) {
+      .aoh-day-title { font-size: 22px; }
+      .aoh-days { gap: 6px; margin-bottom: 36px; }
+      .aoh-chip { font-size: 12.5px; min-height: 56px; }
+      .aoh-cap { width: 11px; height: 10px; }
+      .aoh-tiers { max-width: none; }
+      .article-body pre.aoh-hex code { white-space: pre-wrap; word-break: break-all; }
+      /* Prose-heavy tables become stacked rows with their column names as labels */
+      .article-body table.aoh-stack { display: block; width: 100%; overflow: visible; }
+      .article-body table.aoh-stack thead { display: none; }
+      .article-body table.aoh-stack tbody { display: block; }
+      .article-body table.aoh-stack tr { display: block; padding: 12px 0; border-bottom: 1px solid var(--border-muted); }
+      .article-body table.aoh-stack:not(.bm-heat):not(.xb-tests) td {
+        display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 10px; padding: 3px 0; border: 0; text-align: left;
+      }
+      .article-body table.aoh-stack td::before {
+        content: attr(data-label); padding-top: 3px; font-size: 10.5px; font-weight: 650; letter-spacing: 0.8px; text-transform: uppercase; color: var(--text-muted);
+      }
+    }
   </style>
   <script src="site.js?v=2026-10a" defer></script>
 </head>
@@ -439,7 +471,10 @@
       days.textContent = '';
       days.appendChild(button('aoh-chip', 'Rules', !s.day, () => go(s.tier.id, 0)));
       s.tier.days.forEach(d => {
-        const b = button('aoh-chip', 'Day ' + d.day, s.day && s.day.day === d.day, () => go(s.tier.id, d.day));
+        const b = button('aoh-chip', '', s.day && s.day.day === d.day, () => go(s.tier.id, d.day));
+        const label = document.createElement('span');
+        label.textContent = 'Day ' + d.day;
+        b.appendChild(label);
         const caps = document.createElement('span');
         caps.className = 'aoh-caps';
         let solved = 0;
@@ -472,6 +507,22 @@
       }
       if (window.AHK2Highlight && AHK2Highlight.declarePage) AHK2Highlight.declarePage(markdown);
       return marked.parse(markdown);
+    }
+
+    // Tables with long prose cells stack on phones; the rest keep their grid and scroll sideways.
+    function polish(root) {
+      root.querySelectorAll('table').forEach(table => {
+        const heads = Array.from(table.querySelectorAll('thead th')).map(th => th.textContent.trim());
+        let longest = 0;
+        table.querySelectorAll('tbody td').forEach(td => {
+          td.setAttribute('data-label', heads[td.cellIndex] || '');
+          longest = Math.max(longest, td.textContent.trim().length);
+        });
+        table.classList.add(longest > 40 ? 'aoh-stack' : 'aoh-data');
+      });
+      root.querySelectorAll('pre > code').forEach(code => {
+        if (/^[0-9A-F\s]+$/.test(code.textContent)) code.parentElement.classList.add('aoh-hex');
+      });
     }
 
     function answerBox(s, part) {
@@ -534,7 +585,8 @@
       inputLine.hidden = !s.day;
       if (s.day) {
         const name = s.day.input.split('/').pop();
-        inputLine.innerHTML = 'Puzzle input: <a href="' + s.day.input + '" download>' + name + '</a> (<a href="' + s.day.input + '" target="_blank" rel="noopener">view</a>)';
+        inputLine.innerHTML = '<a class="aoh-dl" href="' + s.day.input + '" download>Download input</a>' +
+          '<a href="' + s.day.input + '" target="_blank" rel="noopener">View ' + name + '</a>';
       }
       let markdown;
       try {
@@ -551,11 +603,13 @@
       content.removeAttribute('aria-busy');
       if (!s.day) {
         content.innerHTML = toHtml(markdown);
+        polish(content);
         return;
       }
       const parts = markdown.split(SPLIT);
       const one = document.createElement('section');
       one.innerHTML = toHtml(parts[0]);
+      polish(one);
       content.appendChild(one);
       content.appendChild(answerBox(s, 1));
       const open = !!progress[keyOf(s.tier.id, s.day.day, 1)] || revealed[s.tier.id + s.day.day];
@@ -564,6 +618,7 @@
         two.id = 'aoh-part2';
         two.tabIndex = -1;
         two.innerHTML = toHtml(parts[1] || '');
+        polish(two);
         content.appendChild(two);
         content.appendChild(answerBox(s, 2));
       } else {
