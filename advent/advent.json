@@ -1,0 +1,109 @@
+{
+  "salt": "aoh-2026",
+  "tiers": [
+    {
+      "id": "warmup",
+      "name": "Warm-up",
+      "blurb": "Five puzzles any v2 script can solve.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Send Help",
+          "input": "advent/inputs/warmup-day1.txt",
+          "answers": [
+            "983b5ca5e7bfe10cf8989e9e57a29fe27c0bf609728c1c9bc5c903b8233058ea",
+            "1328d4465ab9b2cf2703427097c233735556e8b52b7e5ee4a074c83cf37a3cf3"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Hotstring Hangover",
+          "input": "advent/inputs/warmup-day2.txt",
+          "answers": [
+            "bcbbdec5ebcbb669a7052f24aad659d744163fd63d8f92714b959082752bfde0",
+            "5f29fa9b6ea031da035dd2670fc7d3cbab0fccbc0695b7f0677a9974d8a080cf"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Window Pains",
+          "input": "advent/inputs/warmup-day3.txt",
+          "answers": [
+            "8c4df7d757a4874202aae6727ed06e36c38d2145dc0a2c5b2eaa5916871cdf2c",
+            "29671598fc104df904ce95e01b3b3c07a302f021346a92ac657937c985acf406"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Caret Maze",
+          "input": "advent/inputs/warmup-day4.txt",
+          "answers": [
+            "f590effccb4350461bc041b0e5024cf98b4f466083378d648d0f02aa9c525e85",
+            "860773c55644e6f51e0e48d559830b04a98f8a9e06acd60cffd3b92186e335a4"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Alt-Tab Avalanche",
+          "input": "advent/inputs/warmup-day5.txt",
+          "answers": [
+            "f4cb068a2b7332f0ba40fd36b0458cb5a3694ec085a99f2e8b0e2cc7f19e132a",
+            "05c0fe360fa6cc9f41a86d5b0716ac6adfd7fbb9b480df832f47d1158e6dbf0b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alpha",
+      "name": "Alpha tier",
+      "blurb": "Five puzzles that require v2.1-alpha features.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Flight Recorder",
+          "input": "advent/inputs/alpha-day1.txt",
+          "answers": [
+            "e82a3284b0c67eaba1dfc606601fd7ce7843b43682916fc0e984a8c22de6208a",
+            "e94a8a57a6d78515f264c8e1b06ce17381c9bca314543193102cf032596cf1ce"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Union Station",
+          "input": "advent/inputs/alpha-day2.txt",
+          "answers": [
+            "78788d71daa32220b2ad4a44cb9e71c4484d48a70276a5e073f6f4bd5c764768",
+            "a797fda4f7c06054b42326fcbd1b2fad6b06861996103d915d409da5c8e5ebdc"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Maybe Next Year",
+          "input": "advent/inputs/alpha-day3.txt",
+          "answers": [
+            "b4c3ae9edade768a119cd545c57e3c16bc5cefb667c3b549e6370c583d812e80",
+            "946c4ee14904687249acda525d77d6be263cc150530cce515744a05ef5f48ff7"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Plugin Pileup",
+          "input": "advent/inputs/alpha-day4.ahk",
+          "answers": [
+            "f32786553ff1ac049e151f88b501933b8a8232401a0035cc77d4555c74540c20",
+            "a1dbbd5c3aa50aad2b6600f23d9d72f43ab22390da8cc4295ca54781042984cb"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Schema Sleigh",
+          "input": "advent/inputs/alpha-day5.txt",
+          "answers": [
+            "0a8786e0f78adfaae4c2b409d9c25e1a2314474bdfdbd4ff1a1e368480309124",
+            "527dea20ea5827e4114bc858b2d7a75b8846b77611069ac2e0ff44ab2e22f581"
+          ]
+        }
+      ]
+    }
+  ]
+}

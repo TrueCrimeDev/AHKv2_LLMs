@@ -10,7 +10,8 @@
     { kind: 'Page', title: 'Wiki', text: 'AHK v2 reference notes', href: 'wiki.html' },
     { kind: 'Page', title: 'Inheritance', text: 'Classes, prototypes and inheritance in AHK v2', href: 'inheritance.html' },
     { kind: 'Page', title: 'Console', text: 'The v2.1-alpha.30+Console fork', href: 'console.html' },
-    { kind: 'Page', title: 'Playground', text: 'Run AHK v2 code in the browser via CloudAHK', href: 'playground.html' }
+    { kind: 'Page', title: 'Playground', text: 'Run AHK v2 code in the browser via CloudAHK', href: 'playground.html' },
+    { kind: 'Page', title: 'Advent of Hotkeys', text: 'Ten two-part puzzles for AHK v2 and v2.1-alpha, with answer checking', href: 'advent.html' }
   ];
   const MAX_RESULTS = 8;
 
