@@ -497,6 +497,21 @@ kbd,
   line-height: 1.75;
 }
 
+.dataset-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  margin-top: 16px;
+}
+
+.dataset-links a {
+  padding-block: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .posts-section { padding: 0; }
 
 .section-header { margin-bottom: 16px; }
