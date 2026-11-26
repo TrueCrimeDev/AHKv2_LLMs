@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-25T18:06:43.384Z",
-  "totalScripts": 787,
+  "lastUpdated": "2026-11-26T00:14:51.305Z",
+  "totalScripts": 788,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -16068,6 +16068,25 @@
       "forks": 0,
       "owner": "Ezen-013",
       "code": "```cpp\n; ============================================\n; Repository: Ezen-013/keyboard-ghost-key-fix\n; ============================================\n; URL: https://github.com/Ezen-013/keyboard-ghost-key-fix\n; Stars: 0 | Forks: 0\n; Last Updated: 11/25/2026\n; License: MIT License\n;\n; Description:\n; Windows 键盘串键过滤｜Filter reproducible phantom keystrokes on Windows with AutoHotkey v2.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/Ezen-013/keyboard-ghost-key-fix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/Ezen-013/keyboard-ghost-key-fix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <keyboard-ghost-key-fix>\n\n; Example initialization\nclass KeyboardGhostKeyFixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"keyboard-ghost-key-fix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyboardGhostKeyFixExample()\n```"
+    },
+    {
+      "id": "github-1472342816",
+      "title": "manik-keyboard-fix",
+      "category": "GitHub Repository",
+      "description": "Software fix for a MANIK keyboard that swaps W A S D with the arrow keys and Windows with Alt (Windows 11, AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-25T21:09:29Z",
+      "lastModified": "2026-11-25T21:47:30Z",
+      "source": "github",
+      "url": "https://github.com/atwellpub/manik-keyboard-fix",
+      "stars": 0,
+      "forks": 0,
+      "owner": "atwellpub",
+      "code": "```cpp\n; ============================================\n; Repository: atwellpub/manik-keyboard-fix\n; ============================================\n; URL: https://github.com/atwellpub/manik-keyboard-fix\n; Stars: 0 | Forks: 0\n; Last Updated: 11/25/2026\n; License: Not specified\n;\n; Description:\n; Software fix for a MANIK keyboard that swaps W A S D with the arrow keys and Windows with Alt (Windows 11, AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/atwellpub/manik-keyboard-fix.git\n;\n; Option 2: Download ZIP\n;   https://github.com/atwellpub/manik-keyboard-fix/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <manik-keyboard-fix>\n\n; Example initialization\nclass ManikKeyboardFixExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"manik-keyboard-fix loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ManikKeyboardFixExample()\n```"
     }
   ]
 }
