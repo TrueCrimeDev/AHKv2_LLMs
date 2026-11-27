@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-26T18:06:50.396Z",
-  "totalScripts": 789,
+  "lastUpdated": "2026-11-27T00:15:41.700Z",
+  "totalScripts": 790,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -16112,6 +16112,25 @@
       "forks": 0,
       "owner": "ScaleDIN",
       "code": "```cpp\n; ============================================\n; Repository: ScaleDIN/g14-copilot-key\n; ============================================\n; URL: https://github.com/ScaleDIN/g14-copilot-key\n; Stars: 0 | Forks: 0\n; Last Updated: 11/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2: Copilot key + arrows = PgUp/PgDn/Home/End on the Asus ROG Zephyrus G14 (2025)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/ScaleDIN/g14-copilot-key.git\n;\n; Option 2: Download ZIP\n;   https://github.com/ScaleDIN/g14-copilot-key/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <g14-copilot-key>\n\n; Example initialization\nclass G14CopilotKeyExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"g14-copilot-key loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := G14CopilotKeyExample()\n```"
+    },
+    {
+      "id": "github-1473745095",
+      "title": "kamaitachi-x3-mouse-helper",
+      "category": "GitHub Repository",
+      "description": "AutoHotkey v2 helper adding mouse clicks and scroll-wheel menu navigation to Kamaitachi no Yoru x3",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-26T22:46:43Z",
+      "lastModified": "2026-11-26T22:46:55Z",
+      "source": "github",
+      "url": "https://github.com/deltadork/kamaitachi-x3-mouse-helper",
+      "stars": 0,
+      "forks": 0,
+      "owner": "deltadork",
+      "code": "```cpp\n; ============================================\n; Repository: deltadork/kamaitachi-x3-mouse-helper\n; ============================================\n; URL: https://github.com/deltadork/kamaitachi-x3-mouse-helper\n; Stars: 0 | Forks: 0\n; Last Updated: 11/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 helper adding mouse clicks and scroll-wheel menu navigation to Kamaitachi no Yoru x3\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/deltadork/kamaitachi-x3-mouse-helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/deltadork/kamaitachi-x3-mouse-helper/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <kamaitachi-x3-mouse-helper>\n\n; Example initialization\nclass KamaitachiX3MouseHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"kamaitachi-x3-mouse-helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KamaitachiX3MouseHelperExample()\n```"
     }
   ]
 }
