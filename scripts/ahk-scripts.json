@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-27T00:15:41.700Z",
-  "totalScripts": 790,
+  "lastUpdated": "2026-11-27T06:10:00.388Z",
+  "totalScripts": 791,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15948,13 +15948,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-24T13:17:34Z",
-      "lastModified": "2026-11-24T13:17:45Z",
+      "lastModified": "2026-11-27T04:45:36Z",
       "source": "github",
       "url": "https://github.com/toshhiit/Reelwise",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "owner": "toshhiit",
-      "code": "```cpp\n; ============================================\n; Repository: toshhiit/Reelwise\n; ============================================\n; URL: https://github.com/toshhiit/Reelwise\n; Stars: 0 | Forks: 0\n; Last Updated: 11/24/2026\n; License: Not specified\n;\n; Description:\n; Reelwise — auto-fishing macro for Roblox Fisch (AutoHotkey v2): Pinion's Aria notes, self-update\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/toshhiit/Reelwise.git\n;\n; Option 2: Download ZIP\n;   https://github.com/toshhiit/Reelwise/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Reelwise>\n\n; Example initialization\nclass ReelwiseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Reelwise loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReelwiseExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: toshhiit/Reelwise\n; ============================================\n; URL: https://github.com/toshhiit/Reelwise\n; Stars: 1 | Forks: 0\n; Last Updated: 11/27/2026\n; License: Not specified\n;\n; Description:\n; Reelwise — auto-fishing macro for Roblox Fisch (AutoHotkey v2): Pinion's Aria notes, self-update\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/toshhiit/Reelwise.git\n;\n; Option 2: Download ZIP\n;   https://github.com/toshhiit/Reelwise/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <Reelwise>\n\n; Example initialization\nclass ReelwiseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"Reelwise loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ReelwiseExample()\n```"
     },
     {
       "id": "github-1470767737",
@@ -16131,6 +16131,31 @@
       "forks": 0,
       "owner": "deltadork",
       "code": "```cpp\n; ============================================\n; Repository: deltadork/kamaitachi-x3-mouse-helper\n; ============================================\n; URL: https://github.com/deltadork/kamaitachi-x3-mouse-helper\n; Stars: 0 | Forks: 0\n; Last Updated: 11/26/2026\n; License: MIT License\n;\n; Description:\n; AutoHotkey v2 helper adding mouse clicks and scroll-wheel menu navigation to Kamaitachi no Yoru x3\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/deltadork/kamaitachi-x3-mouse-helper.git\n;\n; Option 2: Download ZIP\n;   https://github.com/deltadork/kamaitachi-x3-mouse-helper/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <kamaitachi-x3-mouse-helper>\n\n; Example initialization\nclass KamaitachiX3MouseHelperExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"kamaitachi-x3-mouse-helper loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KamaitachiX3MouseHelperExample()\n```"
+    },
+    {
+      "id": "github-1474044702",
+      "title": "key-burst",
+      "category": "GitHub Repository",
+      "description": "AHK v2 按键连发工具：按住鼠标右键或任意热键，循环连发多个按键。支持 PostMessage 后台发送、三种执行模式、管理员按需提权，提供免安装 exe 与源码（MIT）。",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "autohotkey",
+        "automation",
+        "gaming",
+        "keyboard",
+        "macro"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-27T06:05:27Z",
+      "lastModified": "2026-11-27T06:09:47Z",
+      "source": "github",
+      "url": "https://github.com/wuyongkunko/key-burst",
+      "stars": 0,
+      "forks": 0,
+      "owner": "wuyongkunko",
+      "code": "```cpp\n; ============================================\n; Repository: wuyongkunko/key-burst\n; ============================================\n; URL: https://github.com/wuyongkunko/key-burst\n; Stars: 0 | Forks: 0\n; Last Updated: 11/27/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 按键连发工具：按住鼠标右键或任意热键，循环连发多个按键。支持 PostMessage 后台发送、三种执行模式、管理员按需提权，提供免安装 exe 与源码（MIT）。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wuyongkunko/key-burst.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wuyongkunko/key-burst/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <key-burst>\n\n; Example initialization\nclass KeyBurstExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"key-burst loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyBurstExample()\n```"
     }
   ]
 }
