@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-27T12:08:43.901Z",
-  "totalScripts": 791,
+  "lastUpdated": "2026-11-27T18:06:38.820Z",
+  "totalScripts": 792,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -16156,6 +16156,25 @@
       "forks": 0,
       "owner": "wuyongkunko",
       "code": "```cpp\n; ============================================\n; Repository: wuyongkunko/key-burst\n; ============================================\n; URL: https://github.com/wuyongkunko/key-burst\n; Stars: 0 | Forks: 0\n; Last Updated: 11/27/2026\n; License: MIT License\n;\n; Description:\n; AHK v2 按键连发工具：按住鼠标右键或任意热键，循环连发多个按键。支持 PostMessage 后台发送、三种执行模式、管理员按需提权，提供免安装 exe 与源码（MIT）。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wuyongkunko/key-burst.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wuyongkunko/key-burst/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <key-burst>\n\n; Example initialization\nclass KeyBurstExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"key-burst loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := KeyBurstExample()\n```"
+    },
+    {
+      "id": "github-1431761734",
+      "title": "openhere",
+      "category": "GitHub Repository",
+      "description": "Apps open where you are — free single-file AutoHotkey v2 tray utility that moves every newly opened window to the monitor your mouse cursor is on (idea 032)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-10-24T03:04:58Z",
+      "lastModified": "2026-11-27T15:49:06Z",
+      "source": "github",
+      "url": "https://github.com/tototofu123/openhere",
+      "stars": 0,
+      "forks": 0,
+      "owner": "tototofu123",
+      "code": "```cpp\n; ============================================\n; Repository: tototofu123/openhere\n; ============================================\n; URL: https://github.com/tototofu123/openhere\n; Stars: 0 | Forks: 0\n; Last Updated: 11/27/2026\n; License: MIT License\n;\n; Description:\n; Apps open where you are — free single-file AutoHotkey v2 tray utility that moves every newly opened window to the monitor your mouse cursor is on (idea 032)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tototofu123/openhere.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tototofu123/openhere/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <openhere>\n\n; Example initialization\nclass OpenhereExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"openhere loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OpenhereExample()\n```"
     }
   ]
 }
