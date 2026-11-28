@@ -1,5 +1,6 @@
 {
   "salt": "aoh-2026",
+  "timeZone": "America/New_York",
   "tiers": [
     {
       "id": "warmup",
@@ -9,6 +10,7 @@
         {
           "day": 1,
           "title": "Send Help",
+          "opens": "2026-12-01T00:00:00-05:00",
           "input": "advent/inputs/warmup-day1.txt",
           "answers": [
             "983b5ca5e7bfe10cf8989e9e57a29fe27c0bf609728c1c9bc5c903b8233058ea",
@@ -18,6 +20,7 @@
         {
           "day": 2,
           "title": "Hotstring Hangover",
+          "opens": "2026-12-02T00:00:00-05:00",
           "input": "advent/inputs/warmup-day2.txt",
           "answers": [
             "bcbbdec5ebcbb669a7052f24aad659d744163fd63d8f92714b959082752bfde0",
@@ -27,6 +30,7 @@
         {
           "day": 3,
           "title": "Window Pains",
+          "opens": "2026-12-03T00:00:00-05:00",
           "input": "advent/inputs/warmup-day3.txt",
           "answers": [
             "8c4df7d757a4874202aae6727ed06e36c38d2145dc0a2c5b2eaa5916871cdf2c",
@@ -36,6 +40,7 @@
         {
           "day": 4,
           "title": "Caret Maze",
+          "opens": "2026-12-04T00:00:00-05:00",
           "input": "advent/inputs/warmup-day4.txt",
           "answers": [
             "f590effccb4350461bc041b0e5024cf98b4f466083378d648d0f02aa9c525e85",
@@ -45,6 +50,7 @@
         {
           "day": 5,
           "title": "Alt-Tab Avalanche",
+          "opens": "2026-12-05T00:00:00-05:00",
           "input": "advent/inputs/warmup-day5.txt",
           "answers": [
             "f4cb068a2b7332f0ba40fd36b0458cb5a3694ec085a99f2e8b0e2cc7f19e132a",
@@ -61,6 +67,7 @@
         {
           "day": 1,
           "title": "Flight Recorder",
+          "opens": "2026-12-06T00:00:00-05:00",
           "input": "advent/inputs/alpha-day1.txt",
           "answers": [
             "e82a3284b0c67eaba1dfc606601fd7ce7843b43682916fc0e984a8c22de6208a",
@@ -70,6 +77,7 @@
         {
           "day": 2,
           "title": "Union Station",
+          "opens": "2026-12-07T00:00:00-05:00",
           "input": "advent/inputs/alpha-day2.txt",
           "answers": [
             "78788d71daa32220b2ad4a44cb9e71c4484d48a70276a5e073f6f4bd5c764768",
@@ -79,6 +87,7 @@
         {
           "day": 3,
           "title": "Maybe Next Year",
+          "opens": "2026-12-08T00:00:00-05:00",
           "input": "advent/inputs/alpha-day3.txt",
           "answers": [
             "b4c3ae9edade768a119cd545c57e3c16bc5cefb667c3b549e6370c583d812e80",
@@ -88,6 +97,7 @@
         {
           "day": 4,
           "title": "Plugin Pileup",
+          "opens": "2026-12-09T00:00:00-05:00",
           "input": "advent/inputs/alpha-day4.ahk",
           "answers": [
             "f32786553ff1ac049e151f88b501933b8a8232401a0035cc77d4555c74540c20",
@@ -97,6 +107,7 @@
         {
           "day": 5,
           "title": "Schema Sleigh",
+          "opens": "2026-12-10T00:00:00-05:00",
           "input": "advent/inputs/alpha-day5.txt",
           "answers": [
             "0a8786e0f78adfaae4c2b409d9c25e1a2314474bdfdbd4ff1a1e368480309124",

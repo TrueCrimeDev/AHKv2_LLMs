@@ -306,6 +306,14 @@
     .aoh-locked { margin: 28px 0; padding: 18px 20px; border: 1px dashed var(--border-strong); border-radius: var(--radius-md); color: var(--text-secondary); font-size: 14px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
     .aoh-locked button { background: none; color: var(--text-secondary); border-color: var(--border-strong); font-weight: 600; }
     .aoh-locked button:hover { color: var(--text-primary); }
+    .aoh-next { font-weight: 500; color: var(--text-muted); }
+    .aoh-next b { font-weight: 650; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+    .aoh-chip.is-shut { color: var(--text-muted); border-style: dashed; background: none; }
+    .aoh-chip.is-shut[aria-current="true"] { border-style: solid; }
+    .aoh-when { font-size: 11px; font-weight: 600; letter-spacing: 0.2px; line-height: 11px; }
+    .aoh-soon { margin: 8px 0 36px; padding: 30px 22px; border: 1px dashed var(--border-strong); border-radius: var(--radius-md); text-align: center; color: var(--text-secondary); font-size: 14.5px; }
+    .aoh-soon p { margin: 0; }
+    .aoh-count { margin-top: 10px !important; font-family: var(--font-mono); font-size: 30px; font-weight: 700; letter-spacing: 1px; color: var(--text-primary); font-variant-numeric: tabular-nums; }
     .article-body :not(pre) > code { -webkit-box-decoration-break: clone; box-decoration-break: clone; }
     .article-body table:not(.bm-heat):not(.xb-tests) td { vertical-align: top; }
     .article-body table.aoh-data:not(.bm-heat):not(.xb-tests) :is(th, td) { white-space: nowrap; }
@@ -368,7 +376,7 @@
     <header class="article-header">
       <p class="eyebrow"><span class="dot"></span><span>Puzzles &middot; AutoHotkey v2.1-alpha.39</span></p>
       <h1 class="article-title">Advent of Hotkeys</h1>
-      <p class="article-lede">Ten two-part puzzles for AutoHotkey v2. Five warm-ups, then five that require v2.1-alpha features. Each part you solve earns a golden keycap.</p>
+      <p class="article-lede">Ten two-part puzzles for AutoHotkey v2, opening daily from December 1. Five warm-ups, then five that require v2.1-alpha features. Each part you solve earns a golden keycap.</p>
       <div class="aoh-progress" id="aoh-progress" aria-live="polite"></div>
     </header>
 
@@ -412,6 +420,44 @@
     }
     let progress = loadProgress();
     const keyOf = (tier, day, part) => tier + '-' + day + '-' + part;
+
+    // December schedule: each day in advent.json has an "opens" timestamp. Until then its
+    // chip and page show a countdown. This only hides the puzzle on the page; the files stay public.
+    const opensAt = d => (d && d.opens ? Date.parse(d.opens) : 0);
+    const isOpen = d => Date.now() >= opensAt(d);
+    let nextOpen = 0;
+
+    function fmt(ms, opts) {
+      return new Date(ms).toLocaleString('en-US', Object.assign({ timeZone: manifest.timeZone || undefined }, opts));
+    }
+    function openTime(ms) {
+      const t = fmt(ms, { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+      return t.replace(/^12:00 AM/, 'midnight');
+    }
+    function countdown(ms) {
+      let s = Math.max(0, Math.ceil(ms / 1000));
+      const d = Math.floor(s / 86400); s -= d * 86400;
+      const h = Math.floor(s / 3600); s -= h * 3600;
+      const m = Math.floor(s / 60); s -= m * 60;
+      const pad = n => String(n).padStart(2, '0');
+      return (d ? d + 'd ' : '') + pad(h) + ':' + pad(m) + ':' + pad(s);
+    }
+    function tick() {
+      if (nextOpen && Date.now() >= nextOpen) { render(); return; }
+      document.querySelectorAll('[data-until]').forEach(el => {
+        el.textContent = countdown(Number(el.dataset.until) - Date.now());
+      });
+    }
+    function scheduleLine(tier) {
+      const times = tier.days.map(opensAt).filter(Boolean);
+      if (!times.length || Date.now() >= Math.max(...times)) return '';
+      const first = Math.min(...times);
+      const last = Math.max(...times);
+      const sameMonth = fmt(first, { month: 'long' }) === fmt(last, { month: 'long' });
+      const range = fmt(first, { month: 'long', day: 'numeric' }) + ' to ' +
+        fmt(last, sameMonth ? { day: 'numeric' } : { month: 'long', day: 'numeric' });
+      return 'Days open at ' + openTime(first) + ', ' + range + '.';
+    }
 
     async function sha256(text) {
       const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
@@ -458,6 +504,18 @@
         });
         prog.appendChild(reset);
       }
+      const upcoming = [];
+      manifest.tiers.forEach(t => t.days.forEach(d => { if (!isOpen(d)) upcoming.push({ t, d, at: opensAt(d) }); }));
+      upcoming.sort((a, b) => a.at - b.at);
+      nextOpen = upcoming.length ? upcoming[0].at : 0;
+      if (upcoming.length) {
+        const n = upcoming[0];
+        const next = document.createElement('span');
+        next.className = 'aoh-next';
+        next.setAttribute('aria-live', 'off');
+        next.innerHTML = 'Next: ' + n.t.name.replace(/ tier$/, '') + ' Day ' + n.d.day + ' in <b data-until="' + n.at + '">' + countdown(n.at - Date.now()) + '</b>';
+        prog.appendChild(next);
+      }
 
       const tiers = byId('aoh-tiers');
       tiers.textContent = '';
@@ -475,6 +533,16 @@
         const label = document.createElement('span');
         label.textContent = 'Day ' + d.day;
         b.appendChild(label);
+        if (!isOpen(d)) {
+          const when = document.createElement('span');
+          when.className = 'aoh-when';
+          when.textContent = fmt(opensAt(d), { month: 'short', day: 'numeric' });
+          b.appendChild(when);
+          b.classList.add('is-shut');
+          b.setAttribute('aria-label', 'Day ' + d.day + ': ' + d.title + ', opens ' + fmt(opensAt(d), { month: 'long', day: 'numeric' }));
+          days.appendChild(b);
+          return;
+        }
         const caps = document.createElement('span');
         caps.className = 'aoh-caps';
         let solved = 0;
@@ -582,11 +650,24 @@
       const file = 'advent/' + s.tier.id + '/' + (s.day ? 'day' + s.day.day : 'intro') + '.md';
       title.textContent = s.day ? 'Day ' + s.day.day + ': ' + s.day.title : s.tier.name + ' rules';
       document.title = (s.day ? s.day.title + ' - ' : '') + 'Advent of Hotkeys - ' + SITE;
-      inputLine.hidden = !s.day;
+      if (s.day && !isOpen(s.day)) {
+        const at = opensAt(s.day);
+        inputLine.hidden = true;
+        content.removeAttribute('aria-busy');
+        content.innerHTML = '<div class="aoh-soon"><p>This puzzle opens ' +
+          fmt(at, { weekday: 'long', month: 'long', day: 'numeric' }) + ' at ' + openTime(at) + '.</p>' +
+          '<p class="aoh-count" data-until="' + at + '" role="timer"></p></div>';
+        tick();
+        return;
+      }
+      const schedule = s.day ? '' : scheduleLine(s.tier);
+      inputLine.hidden = !s.day && !schedule;
       if (s.day) {
         const name = s.day.input.split('/').pop();
         inputLine.innerHTML = '<a class="aoh-dl" href="' + s.day.input + '" download>Download input</a>' +
           '<a href="' + s.day.input + '" target="_blank" rel="noopener">View ' + name + '</a>';
+      } else {
+        inputLine.textContent = schedule;
       }
       let markdown;
       try {
@@ -650,6 +731,8 @@
       }
       window.addEventListener('popstate', () => render());
       render();
+      setInterval(tick, 1000);
+      document.addEventListener('visibilitychange', () => { if (!document.hidden) tick(); });
     }
     init();
   </script>
