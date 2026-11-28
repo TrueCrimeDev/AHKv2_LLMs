@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-27T18:06:38.820Z",
+  "lastUpdated": "2026-11-28T00:14:02.300Z",
   "totalScripts": 792,
   "categories": [
     "GUI",
@@ -12432,13 +12432,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-10-15T22:18:22Z",
-      "lastModified": "2026-11-08T17:25:22Z",
+      "lastModified": "2026-11-27T22:07:53Z",
       "source": "github",
       "url": "https://github.com/mikejhill/hotkit",
       "stars": 1,
       "forks": 0,
       "owner": "mikejhill",
-      "code": "```cpp\n; ============================================\n; Repository: mikejhill/hotkit\n; ============================================\n; URL: https://github.com/mikejhill/hotkit\n; Stars: 1 | Forks: 0\n; Last Updated: 11/8/2026\n; License: MIT License\n;\n; Description:\n; A config-driven hotkey toolkit for Windows, built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mikejhill/hotkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mikejhill/hotkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkit>\n\n; Example initialization\nclass HotkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkitExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mikejhill/hotkit\n; ============================================\n; URL: https://github.com/mikejhill/hotkit\n; Stars: 1 | Forks: 0\n; Last Updated: 11/27/2026\n; License: MIT License\n;\n; Description:\n; A config-driven hotkey toolkit for Windows, built on AutoHotkey v2\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mikejhill/hotkit.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mikejhill/hotkit/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <hotkit>\n\n; Example initialization\nclass HotkitExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"hotkit loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := HotkitExample()\n```"
     },
     {
       "id": "github-1421464392",
