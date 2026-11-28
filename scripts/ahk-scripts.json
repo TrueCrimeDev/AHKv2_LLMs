@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-28T12:07:22.935Z",
-  "totalScripts": 796,
+  "lastUpdated": "2026-11-28T18:06:28.917Z",
+  "totalScripts": 797,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -16272,6 +16272,31 @@
       "forks": 0,
       "owner": "windwingtech",
       "code": "```cpp\n; ============================================\n; Repository: windwingtech/wingcmdpalette\n; ============================================\n; URL: https://github.com/windwingtech/wingcmdpalette\n; Stars: 0 | Forks: 0\n; Last Updated: 11/28/2026\n; License: Not specified\n;\n; Description:\n; 基于 AutoHotkey v2 的 Windows 桌面快捷命令面板工具。一个热键唤起面板，即可集中管理常用应用 / 系统命令 / 文件 / 网页搜索，并附带屏幕取色、鼠标坐标、窗口置顶、缩略窗口、窗口切片等一系列实用桌面增强功能。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/windwingtech/wingcmdpalette.git\n;\n; Option 2: Download ZIP\n;   https://github.com/windwingtech/wingcmdpalette/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <wingcmdpalette>\n\n; Example initialization\nclass WingcmdpaletteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"wingcmdpalette loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WingcmdpaletteExample()\n```"
+    },
+    {
+      "id": "github-1475614676",
+      "title": "LangFixer",
+      "category": "GitHub Repository",
+      "description": "Fix text typed in the wrong keyboard layout with one hotkey (F11). Persian/Farsi, Arabic, Russian, Hebrew, Turkish, German, French, Spanish, Swedish and more. AutoHotkey v2, Windows.",
+      "tags": [
+        "github",
+        "repository",
+        "arabic",
+        "autohotkey",
+        "autohotkey-v2",
+        "farsi",
+        "french",
+        "german"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-28T13:36:34Z",
+      "lastModified": "2026-11-28T16:39:51Z",
+      "source": "github",
+      "url": "https://github.com/diego-196/LangFixer",
+      "stars": 0,
+      "forks": 0,
+      "owner": "diego-196",
+      "code": "```cpp\n; ============================================\n; Repository: diego-196/LangFixer\n; ============================================\n; URL: https://github.com/diego-196/LangFixer\n; Stars: 0 | Forks: 0\n; Last Updated: 11/28/2026\n; License: MIT License\n;\n; Description:\n; Fix text typed in the wrong keyboard layout with one hotkey (F11). Persian/Farsi, Arabic, Russian, Hebrew, Turkish, German, French, Spanish, Swedish and more. AutoHotkey v2, Windows.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/diego-196/LangFixer.git\n;\n; Option 2: Download ZIP\n;   https://github.com/diego-196/LangFixer/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <LangFixer>\n\n; Example initialization\nclass LangfixerExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"LangFixer loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LangfixerExample()\n```"
     }
   ]
 }
