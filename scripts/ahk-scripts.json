@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-28T00:14:02.300Z",
-  "totalScripts": 792,
+  "lastUpdated": "2026-11-28T06:09:00.996Z",
+  "totalScripts": 793,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -3793,13 +3793,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2022-06-05T05:36:15Z",
-      "lastModified": "2026-05-12T14:20:02Z",
+      "lastModified": "2026-09-27T18:54:49Z",
       "source": "github",
       "url": "https://github.com/AutoHotkey/AutoHotkeyUX",
-      "stars": 42,
-      "forks": 19,
+      "stars": 47,
+      "forks": 25,
       "owner": "AutoHotkey",
-      "code": "```cpp\n; ============================================\n; Repository: AutoHotkey/AutoHotkeyUX\n; ============================================\n; URL: https://github.com/AutoHotkey/AutoHotkeyUX\n; Stars: 42 | Forks: 19\n; Last Updated: 5/12/2026\n; License: Not specified\n;\n; Description:\n; Installer and other scripts packaged with AutoHotkey v2, aimed at improving the overall user experience.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AutoHotkey/AutoHotkeyUX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AutoHotkey/AutoHotkeyUX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkeyUX>\n\n; Example initialization\nclass AutohotkeyuxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkeyUX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyuxExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: AutoHotkey/AutoHotkeyUX\n; ============================================\n; URL: https://github.com/AutoHotkey/AutoHotkeyUX\n; Stars: 47 | Forks: 25\n; Last Updated: 9/27/2026\n; License: Not specified\n;\n; Description:\n; Installer and other scripts packaged with AutoHotkey v2, aimed at improving the overall user experience.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/AutoHotkey/AutoHotkeyUX.git\n;\n; Option 2: Download ZIP\n;   https://github.com/AutoHotkey/AutoHotkeyUX/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AutoHotkeyUX>\n\n; Example initialization\nclass AutohotkeyuxExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AutoHotkeyUX loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AutohotkeyuxExample()\n```"
     },
     {
       "id": "github-1183838664",
@@ -16175,6 +16175,25 @@
       "forks": 0,
       "owner": "tototofu123",
       "code": "```cpp\n; ============================================\n; Repository: tototofu123/openhere\n; ============================================\n; URL: https://github.com/tototofu123/openhere\n; Stars: 0 | Forks: 0\n; Last Updated: 11/27/2026\n; License: MIT License\n;\n; Description:\n; Apps open where you are — free single-file AutoHotkey v2 tray utility that moves every newly opened window to the monitor your mouse cursor is on (idea 032)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/tototofu123/openhere.git\n;\n; Option 2: Download ZIP\n;   https://github.com/tototofu123/openhere/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <openhere>\n\n; Example initialization\nclass OpenhereExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"openhere loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := OpenhereExample()\n```"
+    },
+    {
+      "id": "github-1475236079",
+      "title": "GameIME",
+      "category": "GitHub Repository",
+      "description": "通用游戏输入法自动切换：进游戏自动切英文，切出来自动回中文（Windows · AutoHotkey v2）",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-28T05:31:06Z",
+      "lastModified": "2026-11-28T05:36:37Z",
+      "source": "github",
+      "url": "https://github.com/mazzz135/GameIME",
+      "stars": 0,
+      "forks": 0,
+      "owner": "mazzz135",
+      "code": "```cpp\n; ============================================\n; Repository: mazzz135/GameIME\n; ============================================\n; URL: https://github.com/mazzz135/GameIME\n; Stars: 0 | Forks: 0\n; Last Updated: 11/28/2026\n; License: MIT License\n;\n; Description:\n; 通用游戏输入法自动切换：进游戏自动切英文，切出来自动回中文（Windows · AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mazzz135/GameIME.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mazzz135/GameIME/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GameIME>\n\n; Example initialization\nclass GameimeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GameIME loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GameimeExample()\n```"
     }
   ]
 }
