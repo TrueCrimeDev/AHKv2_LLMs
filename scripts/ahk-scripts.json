@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-28T06:09:00.996Z",
-  "totalScripts": 793,
+  "lastUpdated": "2026-11-28T12:07:22.935Z",
+  "totalScripts": 796,
   "categories": [
     "GUI",
     "Hotkeys",
@@ -15195,20 +15195,25 @@
       "id": "github-1459796229",
       "title": "uu-mac-paste",
       "category": "GitHub Repository",
-      "description": "AutoHotkey v2 paste remap for Windows-to-macOS sessions in NetEase UU Remote",
+      "description": "AutoHotkey v2 Ctrl+V paste remap for Windows-to-macOS UU Remote · 网易 UU 远控 Mac 自动粘贴映射脚本",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "autohotkey-v2",
+        "macos",
+        "remote-desktop",
+        "windows"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-16T09:22:23Z",
-      "lastModified": "2026-11-16T09:22:35Z",
+      "lastModified": "2026-11-28T08:57:48Z",
       "source": "github",
       "url": "https://github.com/gengu312/uu-mac-paste",
       "stars": 0,
       "forks": 0,
       "owner": "gengu312",
-      "code": "```cpp\n; ============================================\n; Repository: gengu312/uu-mac-paste\n; ============================================\n; URL: https://github.com/gengu312/uu-mac-paste\n; Stars: 0 | Forks: 0\n; Last Updated: 11/16/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 paste remap for Windows-to-macOS sessions in NetEase UU Remote\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gengu312/uu-mac-paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gengu312/uu-mac-paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <uu-mac-paste>\n\n; Example initialization\nclass UuMacPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"uu-mac-paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UuMacPasteExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: gengu312/uu-mac-paste\n; ============================================\n; URL: https://github.com/gengu312/uu-mac-paste\n; Stars: 0 | Forks: 0\n; Last Updated: 11/28/2026\n; License: Not specified\n;\n; Description:\n; AutoHotkey v2 Ctrl+V paste remap for Windows-to-macOS UU Remote · 网易 UU 远控 Mac 自动粘贴映射脚本\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/gengu312/uu-mac-paste.git\n;\n; Option 2: Download ZIP\n;   https://github.com/gengu312/uu-mac-paste/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <uu-mac-paste>\n\n; Example initialization\nclass UuMacPasteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"uu-mac-paste loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := UuMacPasteExample()\n```"
     },
     {
       "id": "github-1459644482",
@@ -15353,13 +15358,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-17T18:27:17Z",
-      "lastModified": "2026-11-19T19:29:07Z",
+      "lastModified": "2026-11-28T11:56:20Z",
       "source": "github",
       "url": "https://github.com/yensobased1/lobby-loop",
       "stars": 3,
       "forks": 0,
       "owner": "yensobased1",
-      "code": "```cpp\n; ============================================\n; Repository: yensobased1/lobby-loop\n; ============================================\n; URL: https://github.com/yensobased1/lobby-loop\n; Stars: 3 | Forks: 0\n; Last Updated: 11/19/2026\n; License: Not specified\n;\n; Description:\n; Set-and-forget AFK helper for Fortnite. It auto-readies, clicks Play Again, walks around like a person, and stops on a timer. AutoHotkey v2, with .exe builds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yensobased1/lobby-loop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yensobased1/lobby-loop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <lobby-loop>\n\n; Example initialization\nclass LobbyLoopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"lobby-loop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LobbyLoopExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: yensobased1/lobby-loop\n; ============================================\n; URL: https://github.com/yensobased1/lobby-loop\n; Stars: 3 | Forks: 0\n; Last Updated: 11/28/2026\n; License: Not specified\n;\n; Description:\n; Set-and-forget AFK helper for Fortnite. It auto-readies, clicks Play Again, walks around like a person, and stops on a timer. AutoHotkey v2, with .exe builds.\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/yensobased1/lobby-loop.git\n;\n; Option 2: Download ZIP\n;   https://github.com/yensobased1/lobby-loop/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <lobby-loop>\n\n; Example initialization\nclass LobbyLoopExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"lobby-loop loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := LobbyLoopExample()\n```"
     },
     {
       "id": "github-1461831756",
@@ -16029,13 +16034,13 @@
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-25T11:29:45Z",
-      "lastModified": "2026-11-25T11:43:13Z",
+      "lastModified": "2026-11-28T07:46:13Z",
       "source": "github",
       "url": "https://github.com/veezday/RP-Emotes",
       "stars": 0,
       "forks": 0,
       "owner": "veezday",
-      "code": "```cpp\n; ============================================\n; Repository: veezday/RP-Emotes\n; ============================================\n; URL: https://github.com/veezday/RP-Emotes\n; Stars: 0 | Forks: 0\n; Last Updated: 11/25/2026\n; License: MIT License\n;\n; Description:\n; Скрипт на AutoHotkey v2 для быстрой отправки RP-реплик, эмоутов в чат без создания сотни биндов. Поддерживает вложенные категории и подстановку имени цели (%%).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/veezday/RP-Emotes.git\n;\n; Option 2: Download ZIP\n;   https://github.com/veezday/RP-Emotes/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RP-Emotes>\n\n; Example initialization\nclass RpEmotesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RP-Emotes loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RpEmotesExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: veezday/RP-Emotes\n; ============================================\n; URL: https://github.com/veezday/RP-Emotes\n; Stars: 0 | Forks: 0\n; Last Updated: 11/28/2026\n; License: MIT License\n;\n; Description:\n; Скрипт на AutoHotkey v2 для быстрой отправки RP-реплик, эмоутов в чат без создания сотни биндов. Поддерживает вложенные категории и подстановку имени цели (%%).\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/veezday/RP-Emotes.git\n;\n; Option 2: Download ZIP\n;   https://github.com/veezday/RP-Emotes/archive/refs/heads/master.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <RP-Emotes>\n\n; Example initialization\nclass RpEmotesExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"RP-Emotes loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := RpEmotesExample()\n```"
     },
     {
       "id": "github-897464391",
@@ -16180,20 +16185,93 @@
       "id": "github-1475236079",
       "title": "GameIME",
       "category": "GitHub Repository",
-      "description": "通用游戏输入法自动切换：进游戏自动切英文，切出来自动回中文（Windows · AutoHotkey v2）",
+      "description": "通用游戏输入法自动切换：进游戏自动切英文，切出来自动回中文（Windows · AutoHotkey v2）。不注入、不读写游戏内存。",
       "tags": [
         "github",
-        "repository"
+        "repository",
+        "autohotkey",
+        "chinese",
+        "gaming",
+        "ime",
+        "input-language",
+        "input-method"
       ],
       "difficulty": "varies",
       "dateAdded": "2026-11-28T05:31:06Z",
-      "lastModified": "2026-11-28T05:36:37Z",
+      "lastModified": "2026-11-28T10:06:40Z",
       "source": "github",
       "url": "https://github.com/mazzz135/GameIME",
       "stars": 0,
       "forks": 0,
       "owner": "mazzz135",
-      "code": "```cpp\n; ============================================\n; Repository: mazzz135/GameIME\n; ============================================\n; URL: https://github.com/mazzz135/GameIME\n; Stars: 0 | Forks: 0\n; Last Updated: 11/28/2026\n; License: MIT License\n;\n; Description:\n; 通用游戏输入法自动切换：进游戏自动切英文，切出来自动回中文（Windows · AutoHotkey v2）\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mazzz135/GameIME.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mazzz135/GameIME/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GameIME>\n\n; Example initialization\nclass GameimeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GameIME loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GameimeExample()\n```"
+      "code": "```cpp\n; ============================================\n; Repository: mazzz135/GameIME\n; ============================================\n; URL: https://github.com/mazzz135/GameIME\n; Stars: 0 | Forks: 0\n; Last Updated: 11/28/2026\n; License: MIT License\n;\n; Description:\n; 通用游戏输入法自动切换：进游戏自动切英文，切出来自动回中文（Windows · AutoHotkey v2）。不注入、不读写游戏内存。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/mazzz135/GameIME.git\n;\n; Option 2: Download ZIP\n;   https://github.com/mazzz135/GameIME/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <GameIME>\n\n; Example initialization\nclass GameimeExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"GameIME loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := GameimeExample()\n```"
+    },
+    {
+      "id": "github-1475530497",
+      "title": "AirPodsFastConnect",
+      "category": "GitHub Repository",
+      "description": "Windows 11: one hotkey to switch AirPods from iPhone to PC (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-28T11:58:26Z",
+      "lastModified": "2026-11-28T11:59:41Z",
+      "source": "github",
+      "url": "https://github.com/taqwq/AirPodsFastConnect",
+      "stars": 0,
+      "forks": 0,
+      "owner": "taqwq",
+      "code": "```cpp\n; ============================================\n; Repository: taqwq/AirPodsFastConnect\n; ============================================\n; URL: https://github.com/taqwq/AirPodsFastConnect\n; Stars: 0 | Forks: 0\n; Last Updated: 11/28/2026\n; License: MIT License\n;\n; Description:\n; Windows 11: one hotkey to switch AirPods from iPhone to PC (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/taqwq/AirPodsFastConnect.git\n;\n; Option 2: Download ZIP\n;   https://github.com/taqwq/AirPodsFastConnect/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <AirPodsFastConnect>\n\n; Example initialization\nclass AirpodsfastconnectExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"AirPodsFastConnect loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := AirpodsfastconnectExample()\n```"
+    },
+    {
+      "id": "github-1475422870",
+      "title": "claude-voz-mouse",
+      "category": "GitHub Repository",
+      "description": "Botão lateral do mouse como push-to-talk do modo de voz do Claude Code no Windows (AutoHotkey v2)",
+      "tags": [
+        "github",
+        "repository",
+        "autohotkey",
+        "claude-code",
+        "push-to-talk",
+        "voice",
+        "windows"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-28T09:43:03Z",
+      "lastModified": "2026-11-28T09:43:42Z",
+      "source": "github",
+      "url": "https://github.com/wulfizokk/claude-voz-mouse",
+      "stars": 0,
+      "forks": 0,
+      "owner": "wulfizokk",
+      "code": "```cpp\n; ============================================\n; Repository: wulfizokk/claude-voz-mouse\n; ============================================\n; URL: https://github.com/wulfizokk/claude-voz-mouse\n; Stars: 0 | Forks: 0\n; Last Updated: 11/28/2026\n; License: MIT License\n;\n; Description:\n; Botão lateral do mouse como push-to-talk do modo de voz do Claude Code no Windows (AutoHotkey v2)\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/wulfizokk/claude-voz-mouse.git\n;\n; Option 2: Download ZIP\n;   https://github.com/wulfizokk/claude-voz-mouse/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <claude-voz-mouse>\n\n; Example initialization\nclass ClaudeVozMouseExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"claude-voz-mouse loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := ClaudeVozMouseExample()\n```"
+    },
+    {
+      "id": "github-1475282280",
+      "title": "wingcmdpalette",
+      "category": "GitHub Repository",
+      "description": "基于 AutoHotkey v2 的 Windows 桌面快捷命令面板工具。一个热键唤起面板，即可集中管理常用应用 / 系统命令 / 文件 / 网页搜索，并附带屏幕取色、鼠标坐标、窗口置顶、缩略窗口、窗口切片等一系列实用桌面增强功能。",
+      "tags": [
+        "github",
+        "repository",
+        "ahk",
+        "cmd",
+        "command-palette",
+        "hotkey",
+        "powershell"
+      ],
+      "difficulty": "varies",
+      "dateAdded": "2026-11-28T06:32:32Z",
+      "lastModified": "2026-11-28T09:10:10Z",
+      "source": "github",
+      "url": "https://github.com/windwingtech/wingcmdpalette",
+      "stars": 0,
+      "forks": 0,
+      "owner": "windwingtech",
+      "code": "```cpp\n; ============================================\n; Repository: windwingtech/wingcmdpalette\n; ============================================\n; URL: https://github.com/windwingtech/wingcmdpalette\n; Stars: 0 | Forks: 0\n; Last Updated: 11/28/2026\n; License: Not specified\n;\n; Description:\n; 基于 AutoHotkey v2 的 Windows 桌面快捷命令面板工具。一个热键唤起面板，即可集中管理常用应用 / 系统命令 / 文件 / 网页搜索，并附带屏幕取色、鼠标坐标、窗口置顶、缩略窗口、窗口切片等一系列实用桌面增强功能。\n;\n; ============================================\n; INSTALLATION\n; ============================================\n; Option 1: Clone the repository\n;   git clone https://github.com/windwingtech/wingcmdpalette.git\n;\n; Option 2: Download ZIP\n;   https://github.com/windwingtech/wingcmdpalette/archive/refs/heads/main.zip\n;\n; ============================================\n; USAGE EXAMPLE\n; ============================================\n#Requires AutoHotkey v2.0\n\n; Include the library (adjust path as needed)\n; #Include <wingcmdpalette>\n\n; Example initialization\nclass WingcmdpaletteExample {\n    __New() {\n        ; Initialize the library\n        ; Refer to repository README for specific usage\n        MsgBox(\"wingcmdpalette loaded successfully!\")\n    }\n}\n\n; Uncomment to run:\n; app := WingcmdpaletteExample()\n```"
     }
   ]
 }
