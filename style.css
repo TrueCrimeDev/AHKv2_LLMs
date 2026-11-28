@@ -498,6 +498,7 @@ kbd,
 }
 
 .dataset-links {
+  scroll-margin-top: calc(var(--header-height) + 16px);
   display: flex;
   flex-wrap: wrap;
   gap: 4px 20px;
