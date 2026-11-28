@@ -3,9 +3,17 @@ The control room's window manager keeps a binary journal of everything that happ
 The journal is a `Header` followed by `count` events:
 
 ```ahk2
-struct Box    { x : Int16, y : Int16, w : Int16, h : Int16 }
-struct Point  { x : Int16, y : Int16 }
-struct Header { count : UInt16, head : UInt16, screenW : UInt16, screenH : UInt16 }
+struct Box {
+    x : Int16, y : Int16
+    w : Int16, h : Int16
+}
+struct Point {
+    x : Int16, y : Int16
+}
+struct Header {
+    count   : UInt16, head    : UInt16
+    screenW : UInt16, screenH : UInt16
+}
 
 struct Event {
     kind : UInt8

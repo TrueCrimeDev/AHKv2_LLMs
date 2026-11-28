@@ -8,6 +8,7 @@ Advent of Hotkeys is a set of ten two-part puzzles in the style of Advent of Cod
 
 ## How it works
 
+- One puzzle opens at midnight EST each day, December 1 to 10. The five warm-ups come first, then the five alpha days.
 - Each puzzle has a story, a worked example with known answers, an input file and two parts. Part 2 unlocks when you solve Part 1.
 - Every answer is an integer. The page checks it in your browser and awards a golden keycap for each part, 20 in all.
 - Everyone gets the same input, so answers can be compared.
