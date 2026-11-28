@@ -307,6 +307,11 @@ kbd,
   .search-button { width: 36px; padding: 0; justify-content: center; }
 }
 
+@media (min-width: 1181px) {
+  .header-inner { gap: 12px; }
+  .nav-link { padding-inline: 6px; }
+}
+
 @media (max-width: 1180px) {
   .menu-button { display: inline-grid; }
   .header-divider { display: none; }
